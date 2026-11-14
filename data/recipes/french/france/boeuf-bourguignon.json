@@ -1,0 +1,45 @@
+{
+  "slug": "boeuf-bourguignon",
+  "cuisine": "french",
+  "country": "france",
+  "origin": "France",
+  "native_name": "Bœuf bourguignon",
+  "title": {
+    "fr": "Bœuf bourguignon",
+    "en": "Beef bourguignon"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 200 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["bourgogne", "vin-rouge", "dimanche", "mijote"],
+  "ingredients": [
+    { "raw": "1,5 kg de bœuf à mijoter, en gros cubes", "qty": 1500, "unit": "g", "item": "boeuf à mijoter", "prep": "en gros cubes" },
+    { "raw": "75 cl de vin rouge", "qty": 75, "unit": "cl", "item": "vin rouge" },
+    { "raw": "200 g de lardons", "qty": 200, "unit": "g", "item": "lardon" },
+    { "raw": "250 g de champignons de Paris", "qty": 250, "unit": "g", "item": "champignon de Paris" },
+    { "raw": "250 g de petits oignons grelots", "qty": 250, "unit": "g", "item": "oignon nouveau" },
+    { "raw": "3 carottes, en tronçons", "qty": 3, "unit": "piece", "item": "carotte", "prep": "en tronçons" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "3 gousses d'ail, écrasées", "qty": 3, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "2 c. à s. de farine de blé", "qty": 2, "unit": "tbsp", "item": "farine de blé" },
+    { "raw": "1 bouquet garni", "qty": 1, "unit": "piece", "item": "bouquet garni" },
+    { "raw": "2 c. à s. de concentré de tomate", "qty": 2, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "60 g de beurre", "qty": 60, "unit": "g", "item": "beurre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Faire mariner la viande dans le vin avec la garniture UNE NUIT, puis l'égoutter et la SÉCHER.", "en": "Marinate the meat in the wine with the aromatics OVERNIGHT, then drain and DRY it." },
+    { "fr": "Une viande humide ne colore pas : elle bout dans son jus et le bourguignon reste gris.", "en": "Wet meat will not brown: it boils in its own juices and the bourguignon stays grey." },
+    { "fr": "La saisir par petites quantités, dans une cocotte très chaude, jusqu'à une croûte brun foncé.", "en": "Sear it in small batches, in a very hot pot, to a deep brown crust." },
+    { "fr": "Singer — saupoudrer de farine — et laisser cuire deux minutes avant de mouiller au vin.", "en": "Dust it with flour and cook for two minutes before adding the wine." },
+    { "fr": "Cuire TROIS HEURES à 150 °C, à couvert : la viande doit se défaire à la cuillère.", "en": "Cook for THREE HOURS at 150°C, covered: the meat should fall apart under a spoon." },
+    { "fr": "Préparer lardons, champignons et grelots À PART et les ajouter en fin de cuisson.", "en": "Cook the bacon, mushrooms and onions SEPARATELY and add them at the end." }
+  ],
+  "notes": [
+    { "fr": "Le bourguignon est meilleur le lendemain : la sauce se lie et la viande finit d'absorber le vin.", "en": "Bourguignon is better the next day: the sauce binds and the meat finishes taking up the wine." }
+  ]
+}

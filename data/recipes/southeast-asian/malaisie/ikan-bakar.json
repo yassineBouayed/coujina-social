@@ -1,0 +1,40 @@
+{
+  "slug": "ikan-bakar",
+  "cuisine": "southeast-asian",
+  "country": "malaisie",
+  "origin": "Malaisie",
+  "native_name": "Ikan bakar",
+  "title": {
+    "fr": "Ikan bakar, poisson grillé en feuille de bananier",
+    "en": "Ikan bakar, fish grilled in banana leaf"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 30, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["grillade", "sambal", "poisson", "cote"],
+  "ingredients": [
+    { "raw": "1,2 kg de dorade entière, vidée", "qty": 1200, "unit": "g", "item": "dorade", "prep": "vidée" },
+    { "raw": "10 piments séchés, trempés", "qty": 10, "unit": "piece", "item": "piment séché", "prep": "trempé", "group": "sambal" },
+    { "raw": "8 échalotes", "qty": 8, "unit": "piece", "item": "échalote", "group": "sambal" },
+    { "raw": "4 gousses d'ail", "qty": 4, "unit": "piece", "item": "ail", "group": "sambal" },
+    { "raw": "1 c. à s. de pâte de crevette", "qty": 1, "unit": "tbsp", "item": "pâte de crevette", "group": "sambal" },
+    { "raw": "1 tige de citronnelle", "qty": 1, "unit": "piece", "item": "citronnelle", "group": "sambal" },
+    { "raw": "1 morceau de curcuma frais", "qty": 1, "unit": "piece", "item": "curcuma frais", "group": "sambal" },
+    { "raw": "3 c. à s. de pâte de tamarin", "qty": 3, "unit": "tbsp", "item": "pâte de tamarin", "group": "sambal" },
+    { "raw": "2 c. à s. de sucre de palme", "qty": 2, "unit": "tbsp", "item": "sucre de palme", "group": "sambal" },
+    { "raw": "8 c. à s. d'huile neutre", "qty": 8, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "2 citrons verts, en quartiers", "qty": 2, "unit": "piece", "item": "citron vert", "group": "service" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Inciser le poisson de trois entailles profondes de chaque côté, jusqu'à l'arête.", "en": "Cut three deep slashes on each side of the fish, down to the bone." },
+    { "fr": "Mixer le sambal et le frire quinze minutes, puis le laisser REFROIDIR avant de l'appliquer.", "en": "Blend the sambal and fry it for fifteen minutes, then let it COOL before applying it." },
+    { "fr": "Chaud, le sambal commence à cuire le poisson et la chair se délite au gril.", "en": "Applied hot, the sambal starts cooking the fish and the flesh falls apart on the grill." },
+    { "fr": "Enduire le poisson dedans et dehors, y compris dans les entailles, et laisser une heure.", "en": "Coat the fish inside and out, including in the slashes, and leave it for an hour." },
+    { "fr": "L'envelopper dans une feuille de bananier ou du papier cuisson, en double couche.", "en": "Wrap it in banana leaf or baking paper, in a double layer." },
+    { "fr": "Griller sur braises moyennes, douze minutes par face, et ouvrir seulement à table.", "en": "Grill over medium coals, twelve minutes a side, and open it only at the table." }
+  ]
+}

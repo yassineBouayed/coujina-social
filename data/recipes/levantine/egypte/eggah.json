@@ -1,0 +1,38 @@
+{
+  "slug": "eggah",
+  "cuisine": "levantine",
+  "country": "egypte",
+  "origin": "Égypte",
+  "native_name": "Eggah",
+  "title": {
+    "fr": "Eggah, omelette épaisse aux herbes",
+    "en": "Eggah, thick herb omelette"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["oeuf", "rapide", "herbes", "quotidien"],
+  "ingredients": [
+    { "raw": "8 œufs", "qty": 8, "unit": "piece", "item": "oeuf" },
+    { "raw": "2 courgettes, râpées et pressées", "qty": 2, "unit": "piece", "item": "courgette", "prep": "râpée et pressée" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "1/2 bouquet d'aneth, ciselé", "qty": 0.5, "unit": "bunch", "item": "aneth", "prep": "ciselé" },
+    { "raw": "4 oignons nouveaux, ciselés", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé" },
+    { "raw": "2 c. à s. de farine de blé", "qty": 2, "unit": "tbsp", "item": "farine de blé" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin" },
+    { "raw": "5 c. à s. de ghee", "qty": 5, "unit": "tbsp", "item": "ghee" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "L'eggah n'est pas une omelette française : c'est une galette d'herbes tenue par l'œuf, épaisse de trois centimètres.", "en": "Eggah is not a French omelette: it is a herb cake held together by egg, three centimetres thick." },
+    { "fr": "Râper les courgettes, les saler et les PRESSER : leur eau empêcherait la galette de prendre.", "en": "Grate the courgettes, salt them and SQUEEZE them: their water would stop the cake from setting." },
+    { "fr": "Battre les œufs avec la farine, le cumin, le sel et le poivre, sans les faire mousser.", "en": "Beat the eggs with the flour, cumin, salt and pepper, without frothing them." },
+    { "fr": "Ajouter les herbes et les légumes : il doit y avoir plus de vert que de jaune.", "en": "Add the herbs and vegetables: there should be more green than yellow." },
+    { "fr": "Cuire dans le ghee à feu très doux, quinze minutes à couvert, jusqu'à ce que le centre soit pris.", "en": "Cook it in ghee over very low heat, fifteen minutes covered, until the centre sets." },
+    { "fr": "Retourner à l'aide d'une assiette et cuire cinq minutes de l'autre côté.", "en": "Flip it using a plate and cook for five minutes on the other side." }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "chai-tow-kway",
+  "cuisine": "southeast-asian",
+  "country": "singapour",
+  "origin": "Singapour",
+  "native_name": "菜头粿",
+  "title": {
+    "fr": "Chai tow kway, galette de radis sautée",
+    "en": "Chai tow kway, fried radish cake"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 40, "cook_min": 75 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hawker", "daikon", "oeuf", "petit-dejeuner"],
+  "ingredients": [
+    { "raw": "1 kg de daikon, râpé", "qty": 1000, "unit": "g", "item": "daikon", "prep": "râpé" },
+    { "raw": "300 g de farine de riz", "qty": 300, "unit": "g", "item": "farine de riz" },
+    { "raw": "3 c. à s. de maïzena", "qty": 3, "unit": "tbsp", "item": "maïzena" },
+    { "raw": "60 cl d'eau", "qty": 60, "unit": "cl", "item": "eau" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf" },
+    { "raw": "100 g de radis conservé", "qty": 100, "unit": "g", "item": "radis conservé" },
+    { "raw": "6 gousses d'ail, hachées", "qty": 6, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "3 c. à s. de sauce soja foncée", "qty": 3, "unit": "tbsp", "item": "sauce soja foncée" },
+    { "raw": "2 c. à s. de sauce poisson", "qty": 2, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "4 c. à s. de sambal oelek", "qty": 4, "unit": "tbsp", "item": "sambal oelek", "optional": true },
+    { "raw": "4 oignons nouveaux, ciselés", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé" },
+    { "raw": "8 c. à s. d'huile neutre", "qty": 8, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel et poivre blanc", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre blanc", "qty": null, "unit": null, "item": "poivre blanc" }
+  ],
+  "steps": [
+    { "fr": "Cuire le daikon râpé vingt minutes dans son eau, jusqu'à ce qu'il soit translucide.", "en": "Cook the grated daikon for twenty minutes in its own water, until translucent." },
+    { "fr": "Délayer farine de riz et maïzena dans l'eau froide et les verser sur le daikon CHAUD, en remuant.", "en": "Slake the rice flour and cornflour in cold water and pour them onto the HOT daikon, stirring." },
+    { "fr": "Cuire à la vapeur QUARANTE-CINQ minutes, puis laisser refroidir UNE NUIT au réfrigérateur.", "en": "Steam it for FORTY-FIVE minutes, then chill it OVERNIGHT in the fridge." },
+    { "fr": "Ce repos au froid est obligatoire : chaude, la galette s'écrase et ne se coupe pas en cubes.", "en": "That cold rest is compulsory: warm, the cake squashes and cannot be cut into cubes." },
+    { "fr": "Couper en gros cubes et les faire DORER à la poêle très chaude, sans les remuer.", "en": "Cut it into large cubes and BROWN them in a very hot pan, without stirring." },
+    { "fr": "Ajouter ail, radis conservé et sauces, puis les œufs, et laisser prendre en croûte.", "en": "Add the garlic, preserved radish and sauces, then the eggs, and let it set into a crust." }
+  ]
+}

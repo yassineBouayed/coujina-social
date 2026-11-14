@@ -1,0 +1,38 @@
+{
+  "slug": "hongshao-rou",
+  "cuisine": "east-asian",
+  "country": "chine",
+  "origin": "Chine",
+  "native_name": "红烧肉",
+  "title": {
+    "fr": "Hongshao rou, poitrine de porc braisée au caramel",
+    "en": "Hongshao rou, red-braised pork belly"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 110 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["braise", "porc", "caramel", "famille"],
+  "ingredients": [
+    { "raw": "1 kg de poitrine de porc, en gros cubes", "qty": 1000, "unit": "g", "item": "poitrine de porc", "prep": "en gros cubes" },
+    { "raw": "60 g de sucre roux", "qty": 60, "unit": "g", "item": "sucre roux" },
+    { "raw": "6 c. à s. de sauce soja claire", "qty": 6, "unit": "tbsp", "item": "sauce soja claire" },
+    { "raw": "2 c. à s. de sauce soja foncée", "qty": 2, "unit": "tbsp", "item": "sauce soja foncée" },
+    { "raw": "10 cl de vin de riz", "qty": 10, "unit": "cl", "item": "vin de riz" },
+    { "raw": "1 morceau de gingembre frais, en rondelles", "qty": 1, "unit": "piece", "item": "gingembre", "prep": "en rondelles" },
+    { "raw": "4 oignons nouveaux, en tronçons", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "en tronçons" },
+    { "raw": "3 badianes", "qty": 3, "unit": "piece", "item": "badiane" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "3 c. à s. d'huile neutre", "qty": 3, "unit": "tbsp", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Blanchir la poitrine cinq minutes à l'eau bouillante avec du gingembre, puis la rincer.", "en": "Blanch the pork belly for five minutes in boiling water with ginger, then rinse it." },
+    { "fr": "Faire un caramel avec le sucre et un peu d'huile, jusqu'à une couleur ambrée FONCÉE mais pas noire.", "en": "Make a caramel with the sugar and a little oil, to a DEEP amber but not black." },
+    { "fr": "Le caramel décide de la couleur du plat : trop clair, il reste fade ; brûlé, tout est amer.", "en": "The caramel decides the colour of the dish: too pale and it stays bland; burnt and everything is bitter." },
+    { "fr": "Y jeter la viande et l'enrober, puis ajouter les deux sauces soja, le vin de riz et les aromates.", "en": "Drop in the meat and coat it, then add both soy sauces, the rice wine and the aromatics." },
+    { "fr": "Mouiller à hauteur et laisser mijoter une heure et demie à couvert, à feu très doux.", "en": "Cover with water and simmer for an hour and a half, covered, over very low heat." },
+    { "fr": "Découvrir et faire réduire à feu vif dix minutes : la sauce doit devenir sirupeuse et laquer la viande.", "en": "Uncover and reduce over high heat for ten minutes: the sauce should turn syrupy and lacquer the meat." }
+  ]
+}

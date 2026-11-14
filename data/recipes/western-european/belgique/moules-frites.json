@@ -1,0 +1,43 @@
+{
+  "slug": "moules-frites",
+  "cuisine": "western-european",
+  "country": "belgique",
+  "origin": "Belgique",
+  "native_name": "Mosselen met friet",
+  "title": {
+    "fr": "Moules-frites à la belge",
+    "en": "Belgian mussels and chips"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 30, "cook_min": 35 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["embleme", "moule", "friture", "cote"],
+  "ingredients": [
+    { "raw": "2 kg de moules", "qty": 2000, "unit": "g", "item": "moule" },
+    { "raw": "1,2 kg de pommes de terre, en gros bâtonnets", "qty": 1200, "unit": "g", "item": "pomme de terre", "prep": "en gros bâtonnets" },
+    { "raw": "4 branches de céleri, en dés", "qty": 4, "unit": "piece", "item": "céleri branche", "prep": "en dés" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "3 échalotes, ciselées", "qty": 3, "unit": "piece", "item": "échalote", "prep": "ciselée" },
+    { "raw": "25 cl de bière blonde", "qty": 25, "unit": "cl", "item": "bière" },
+    { "raw": "80 g de beurre", "qty": 80, "unit": "g", "item": "beurre" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "2 l d'huile neutre pour la friture", "qty": 2, "unit": "l", "item": "huile neutre" },
+    { "raw": "15 cl de mayonnaise", "qty": 15, "unit": "cl", "item": "mayonnaise", "group": "service" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Les frites belges se font en DEUX BAINS : 150 °C pour cuire, puis 180 °C pour dorer.", "en": "Belgian chips take TWO BATHS: 150°C to cook them through, then 180°C to brown them." },
+    { "fr": "Le repos entre les deux bains est ce qui fait la croûte : compter trente minutes minimum.", "en": "The rest between the two baths is what makes the crust: allow thirty minutes minimum." },
+    { "fr": "Trier les moules : jeter celles qui restent ouvertes après un coup sur le plan de travail.", "en": "Sort the mussels: discard any that stay open after a tap on the counter." },
+    { "fr": "Faire suer céleri, oignons et échalotes au beurre, dix minutes, sans les colorer.", "en": "Sweat the celery, onions and shallots in butter for ten minutes, without colouring." },
+    { "fr": "Jeter les moules d'un coup, verser la bière, couvrir, et SECOUER la casserole.", "en": "Tip in the mussels all at once, add the beer, cover, and SHAKE the pot." },
+    { "fr": "Quatre minutes suffisent : dès qu'elles sont toutes ouvertes, elles sont cuites.", "en": "Four minutes is enough: as soon as they are all open, they are done." }
+  ],
+  "notes": [
+    { "fr": "Toute moule restée fermée après cuisson se jette, et toute moule ouverte avant cuisson aussi.", "en": "Any mussel still shut after cooking goes in the bin, and so does any open before cooking." }
+  ]
+}

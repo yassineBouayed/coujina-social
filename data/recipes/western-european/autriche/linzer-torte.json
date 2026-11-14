@@ -1,0 +1,39 @@
+{
+  "slug": "linzer-torte",
+  "cuisine": "western-european",
+  "country": "autriche",
+  "origin": "Autriche",
+  "native_name": "Linzer Torte",
+  "title": {
+    "fr": "Linzer Torte aux groseilles",
+    "en": "Linzer torte with redcurrant"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 45, "cook_min": 45 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["linz", "noisette", "confiture", "noel"],
+  "ingredients": [
+    { "raw": "250 g de farine de blé", "qty": 250, "unit": "g", "item": "farine de blé" },
+    { "raw": "200 g de poudre de noisette", "qty": 200, "unit": "g", "item": "noisette", "prep": "en poudre" },
+    { "raw": "250 g de beurre, froid", "qty": 250, "unit": "g", "item": "beurre", "prep": "froid" },
+    { "raw": "150 g de sucre", "qty": 150, "unit": "g", "item": "sucre" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf" },
+    { "raw": "2 c. à c. de cannelle moulue", "qty": 2, "unit": "tsp", "item": "cannelle" },
+    { "raw": "1/2 c. à c. de clou de girofle moulu", "qty": 0.5, "unit": "tsp", "item": "clou de girofle", "prep": "moulu" },
+    { "raw": "1 citron, son zeste", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "400 g de confiture de groseille", "qty": 400, "unit": "g", "item": "confiture" },
+    { "raw": "1 œuf, pour dorer", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "La Linzer Torte est réputée la plus ancienne tarte du monde dont on ait la recette écrite, datée de 1653.", "en": "The Linzer torte is reckoned the oldest tart in the world with a written recipe, dated 1653." },
+    { "fr": "La pâte est un SABLÉ AUX NOISETTES : très friable, elle se déchire à l'abaisse.", "en": "The dough is a HAZELNUT SHORTBREAD: very crumbly, it tears when rolled." },
+    { "fr": "La travailler FROIDE et la réfrigérer deux heures avant de l'étaler.", "en": "Work it COLD and chill it for two hours before rolling." },
+    { "fr": "Pour le croisillon, POCHER les bandes à la douille plutôt que les découper : c'est plus sûr.", "en": "For the lattice, PIPE the strips rather than cutting them: it is far more reliable." },
+    { "fr": "La confiture doit être ACIDE : groseille ou framboise, jamais une confiture douce.", "en": "The jam must be SHARP: redcurrant or raspberry, never a sweet one." },
+    { "fr": "Cuire 45 minutes à 180 °C, et attendre DEUX JOURS : elle est bien meilleure rassise.", "en": "Bake for 45 minutes at 180°C, and wait TWO DAYS: it is far better after resting." }
+  ]
+}

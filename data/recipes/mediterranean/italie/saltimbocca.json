@@ -1,0 +1,36 @@
+{
+  "slug": "saltimbocca",
+  "cuisine": "mediterranean",
+  "country": "italie",
+  "origin": "Italie",
+  "native_name": "Saltimbocca alla romana",
+  "title": {
+    "fr": "Saltimbocca à la romaine",
+    "en": "Saltimbocca alla romana"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rome", "veau", "sauge", "rapide"],
+  "ingredients": [
+    { "raw": "8 escalopes de veau fines", "qty": 8, "unit": "piece", "item": "veau à mijoter", "prep": "en escalopes fines" },
+    { "raw": "8 tranches de jambon blanc", "qty": 8, "unit": "piece", "item": "jambon blanc" },
+    { "raw": "16 feuilles de sauge", "qty": 16, "unit": "piece", "item": "sauge" },
+    { "raw": "15 cl de vin blanc sec", "qty": 15, "unit": "cl", "item": "vin blanc" },
+    { "raw": "80 g de beurre", "qty": 80, "unit": "g", "item": "beurre" },
+    { "raw": "2 c. à s. de farine de blé", "qty": 2, "unit": "tbsp", "item": "farine de blé" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Saltimbocca veut dire « saute en bouche » : c'est un plat de quinze minutes, pas davantage.", "en": "Saltimbocca means \"jumps in the mouth\": a fifteen-minute dish, no more." },
+    { "fr": "Aplatir les escalopes entre deux feuilles, sans les déchirer.", "en": "Flatten the escalopes between two sheets, without tearing them." },
+    { "fr": "Poser une tranche de jambon et deux feuilles de sauge, et fixer avec un cure-dent.", "en": "Lay on a slice of ham and two sage leaves, and pin with a toothpick." },
+    { "fr": "Fariner le côté VEAU uniquement : côté jambon, la farine empêcherait le contact avec la poêle.", "en": "Flour the VEAL side only: on the ham side, flour would block contact with the pan." },
+    { "fr": "Cuire côté veau deux minutes, retourner UNE fois, et une minute de l'autre côté.", "en": "Cook veal side down for two minutes, turn ONCE, and one minute on the other side." },
+    { "fr": "Déglacer au vin blanc, monter au beurre froid hors du feu, et napper aussitôt.", "en": "Deglaze with white wine, finish with cold butter off the heat, and spoon over at once." }
+  ]
+}

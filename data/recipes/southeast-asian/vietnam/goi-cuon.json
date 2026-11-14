@@ -1,0 +1,40 @@
+{
+  "slug": "goi-cuon",
+  "cuisine": "southeast-asian",
+  "country": "vietnam",
+  "origin": "Viêt Nam",
+  "native_name": "Gỏi cuốn",
+  "title": {
+    "fr": "Rouleaux de printemps frais aux crevettes",
+    "en": "Fresh summer rolls with prawns"
+  },
+  "meal_type": "starter",
+  "servings": 5,
+  "times": { "prep_min": 45, "cook_min": 15 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["frais", "cru", "herbes", "arachide"],
+  "ingredients": [
+    { "raw": "20 galettes de riz", "qty": 20, "unit": "piece", "item": "galette de riz" },
+    { "raw": "20 crevettes, cuites et coupées en deux", "qty": 20, "unit": "piece", "item": "crevette", "prep": "cuite" },
+    { "raw": "300 g de poitrine de porc, cuite et en tranches", "qty": 300, "unit": "g", "item": "poitrine de porc", "prep": "cuite, en tranches" },
+    { "raw": "200 g de vermicelles de riz", "qty": 200, "unit": "g", "item": "nouilles de riz" },
+    { "raw": "1 laitue, en feuilles", "qty": 1, "unit": "piece", "item": "laitue" },
+    { "raw": "1 bouquet de menthe fraîche", "qty": 1, "unit": "bunch", "item": "menthe fraîche" },
+    { "raw": "1 bouquet de coriandre fraîche", "qty": 1, "unit": "bunch", "item": "coriandre fraîche" },
+    { "raw": "1 bouquet de ciboulette", "qty": 1, "unit": "bunch", "item": "ciboulette" },
+    { "raw": "6 c. à s. de pâte d'arachide", "qty": 6, "unit": "tbsp", "item": "pâte d'arachide", "group": "sauce" },
+    { "raw": "4 c. à s. de sauce hoisin", "qty": 4, "unit": "tbsp", "item": "sauce hoisin", "group": "sauce" },
+    { "raw": "15 cl de lait de coco", "qty": 15, "unit": "cl", "item": "lait de coco", "group": "sauce" },
+    { "raw": "60 g d'arachides grillées, concassées", "qty": 60, "unit": "g", "item": "arachide grillée", "prep": "concassée", "group": "sauce" }
+  ],
+  "steps": [
+    { "fr": "Tremper chaque galette DEUX SECONDES dans l'eau tiède, pas plus : elle finit de ramollir sur le plan de travail.", "en": "Dip each rice paper for TWO SECONDS in warm water, no more: it finishes softening on the work surface." },
+    { "fr": "Une galette trop trempée devient une colle impossible à rouler : c'est l'erreur numéro un.", "en": "An over-soaked wrapper turns into glue impossible to roll: the number one mistake." },
+    { "fr": "Poser les crevettes coupées face rose vers le BAS, au tiers supérieur : elles se verront à travers.", "en": "Lay the halved prawns cut side DOWN, in the upper third: they will show through the wrapper." },
+    { "fr": "Ranger laitue, vermicelles, porc et herbes au tiers inférieur, en boudin serré.", "en": "Arrange the lettuce, noodles, pork and herbs in the lower third, in a tight log." },
+    { "fr": "Rabattre le bas, replier les côtés, et rouler FERMEMENT en passant sous les crevettes.", "en": "Fold up the bottom, tuck in the sides, and roll FIRMLY, passing under the prawns." },
+    { "fr": "Servir dans l'heure : les rouleaux durcissent et se fendillent au réfrigérateur.", "en": "Serve within the hour: the rolls harden and crack in the fridge." }
+  ]
+}

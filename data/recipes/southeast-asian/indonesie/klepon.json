@@ -1,0 +1,34 @@
+{
+  "slug": "klepon",
+  "cuisine": "southeast-asian",
+  "country": "indonesie",
+  "origin": "Indonésie",
+  "native_name": "Klepon",
+  "title": {
+    "fr": "Klepon, boules de riz gluant au sucre de palme",
+    "en": "Klepon, glutinous rice balls with palm sugar"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 15 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["pandan", "coco", "gouter", "java"],
+  "ingredients": [
+    { "raw": "300 g de riz gluant, en farine", "qty": 300, "unit": "g", "item": "riz gluant", "prep": "en farine" },
+    { "raw": "20 cl d'eau tiède", "qty": 20, "unit": "cl", "item": "eau" },
+    { "raw": "1 c. à c. d'extrait de pandan", "qty": 1, "unit": "tsp", "item": "feuille de pandan", "prep": "en extrait" },
+    { "raw": "150 g de sucre de palme, en petits morceaux", "qty": 150, "unit": "g", "item": "sucre de palme", "prep": "en petits morceaux", "group": "farce" },
+    { "raw": "200 g de coco râpé", "qty": 200, "unit": "g", "item": "coco râpé", "group": "enrobage" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le klepon EXPLOSE en bouche : le sucre de palme fond en sirop pendant la cuisson.", "en": "Klepon BURSTS in the mouth: the palm sugar melts into syrup as it cooks." },
+    { "fr": "Cuire le coco râpé à la vapeur cinq minutes avec du sel : cru, il rancit en quelques heures.", "en": "Steam the grated coconut for five minutes with salt: raw, it turns rancid within hours." },
+    { "fr": "Pétrir la farine de riz gluant avec l'eau et le pandan en une pâte souple, comme de la pâte à modeler.", "en": "Knead the glutinous rice flour with the water and pandan into a soft dough, like modelling clay." },
+    { "fr": "Creuser une boule, y loger un morceau de sucre de palme, et refermer SANS la moindre fissure.", "en": "Hollow a ball, tuck in a piece of palm sugar, and seal it with NO crack at all." },
+    { "fr": "Une fissure et le sirop s'échappe à l'eau bouillante : le klepon est alors vide.", "en": "One crack and the syrup escapes into the boiling water: the klepon is then empty." },
+    { "fr": "Pocher jusqu'à ce qu'ils remontent, puis rouler IMMÉDIATEMENT dans le coco râpé.", "en": "Poach until they float, then roll them IMMEDIATELY in the grated coconut." }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "kartoffelpuffer",
+  "cuisine": "western-european",
+  "country": "allemagne",
+  "origin": "Allemagne",
+  "native_name": "Kartoffelpuffer",
+  "title": {
+    "fr": "Galettes de pommes de terre râpées",
+    "en": "Grated potato pancakes"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["marche", "friture", "enfants", "pomme-de-terre"],
+  "ingredients": [
+    { "raw": "1,2 kg de pommes de terre, râpées", "qty": 1200, "unit": "g", "item": "pomme de terre", "prep": "râpée" },
+    { "raw": "1 oignon, râpé", "qty": 1, "unit": "piece", "item": "oignon", "prep": "râpé" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf" },
+    { "raw": "3 c. à s. de farine de blé", "qty": 3, "unit": "tbsp", "item": "farine de blé" },
+    { "raw": "25 cl d'huile neutre", "qty": 25, "unit": "cl", "item": "huile neutre" },
+    { "raw": "400 g de compote de pommes", "qty": 400, "unit": "g", "item": "compote de pomme", "group": "service" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "PRESSER les pommes de terre râpées dans un torchon, très fort : l'eau est l'ennemie du croustillant.", "en": "SQUEEZE the grated potato in a cloth, hard: water is the enemy of crispness." },
+    { "fr": "Laisser reposer l'eau récupérée cinq minutes : l'amidon se dépose au fond du bol.", "en": "Let the squeezed liquid stand for five minutes: the starch settles at the bottom." },
+    { "fr": "Jeter l'eau et REMETTRE cet amidon blanc dans la préparation : c'est lui qui lie les galettes.", "en": "Discard the water and RETURN that white starch to the mixture: it binds the pancakes." },
+    { "fr": "Râper l'oignon avec la pomme de terre : son acidité empêche le noircissement.", "en": "Grate the onion in with the potato: its acidity stops the browning." },
+    { "fr": "Frire des galettes FINES dans l'huile chaude, quatre minutes par face, sans les tasser.", "en": "Fry THIN pancakes in hot oil, four minutes a side, without pressing them down." },
+    { "fr": "Servir aussitôt avec de la compote de pommes : c'est l'accord traditionnel, sucré-salé.", "en": "Serve at once with apple sauce: the traditional sweet-savoury pairing." }
+  ]
+}

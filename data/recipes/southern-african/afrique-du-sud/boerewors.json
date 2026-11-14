@@ -1,0 +1,37 @@
+{
+  "slug": "boerewors",
+  "cuisine": "southern-african",
+  "country": "afrique-du-sud",
+  "origin": "Afrique du Sud",
+  "native_name": "Boerewors",
+  "title": {
+    "fr": "Boerewors, saucisse fermière à la coriandre",
+    "en": "Boerewors, farmer's coriander sausage"
+  },
+  "meal_type": "main",
+  "servings": 8,
+  "times": { "prep_min": 60, "cook_min": 25 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["braai", "saucisse", "coriandre", "embleme"],
+  "ingredients": [
+    { "raw": "1 kg de bœuf à mijoter, en cubes", "qty": 1000, "unit": "g", "item": "boeuf à mijoter", "prep": "en cubes" },
+    { "raw": "600 g d'échine de porc, en cubes", "qty": 600, "unit": "g", "item": "échine de porc", "prep": "en cubes" },
+    { "raw": "3 m de boyau naturel", "qty": 3, "unit": "piece", "item": "boyau naturel" },
+    { "raw": "3 c. à s. de coriandre en graines, grillée et moulue", "qty": 3, "unit": "tbsp", "item": "coriandre graines", "prep": "grillée et moulue" },
+    { "raw": "1 c. à c. de clous de girofle moulus", "qty": 1, "unit": "tsp", "item": "clou de girofle", "prep": "moulu" },
+    { "raw": "1 c. à c. de muscade râpée", "qty": 1, "unit": "tsp", "item": "muscade", "prep": "râpée" },
+    { "raw": "1 c. à s. de poivre noir moulu", "qty": 1, "unit": "tbsp", "item": "poivre noir", "prep": "moulu" },
+    { "raw": "10 cl de vinaigre de vin", "qty": 10, "unit": "cl", "item": "vinaigre de vin" },
+    { "raw": "2 c. à s. de gros sel", "qty": 2, "unit": "tbsp", "item": "gros sel" }
+  ],
+  "steps": [
+    { "fr": "Mettre viandes, hachoir et bol au congélateur trente minutes : le gras chaud s'étale et la saucisse devient pâteuse.", "en": "Chill the meats, mincer and bowl in the freezer for thirty minutes: warm fat smears and the sausage turns pasty." },
+    { "fr": "Hacher gros, à la grille large : la boerewors n'est pas une chair fine, on doit voir les morceaux.", "en": "Mince coarsely, on the wide plate: boerewors is not a fine forcemeat, the pieces must be visible." },
+    { "fr": "Griller les graines de coriandre à sec avant de les moudre : c'est l'épice signature, et crue elle est plate.", "en": "Toast the coriander seeds dry before grinding: it is the signature spice, and raw it falls flat." },
+    { "fr": "Mélanger viande et épices avec le vinaigre, à la main, sans pétrir : trop travaillée, la chair devient élastique.", "en": "Mix the meat and spices with the vinegar by hand, without kneading: overworked, it turns rubbery." },
+    { "fr": "Embosser dans le boyau sans serrer, et former une seule spirale continue, non ficelée.", "en": "Fill the casing loosely, and form a single continuous spiral, untied." },
+    { "fr": "Griller sur braises moyennes, quinze minutes, en la retournant une seule fois et sans jamais la piquer.", "en": "Grill over medium coals for fifteen minutes, turning once and never pricking it." }
+  ]
+}

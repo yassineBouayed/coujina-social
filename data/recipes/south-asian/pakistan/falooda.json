@@ -1,0 +1,35 @@
+{
+  "slug": "falooda",
+  "cuisine": "south-asian",
+  "country": "pakistan",
+  "origin": "Pakistan",
+  "native_name": "Falooda",
+  "title": {
+    "fr": "Falooda, boisson glacée à la rose et aux vermicelles",
+    "en": "Falooda, iced rose drink with vermicelli"
+  },
+  "meal_type": "drink",
+  "servings": 4,
+  "times": { "prep_min": 30, "cook_min": 10 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ete", "rose", "glace", "rue"],
+  "ingredients": [
+    { "raw": "3 c. à s. de graines de basilic", "qty": 3, "unit": "tbsp", "item": "graine de basilic" },
+    { "raw": "100 g de vermicelles de riz fins", "qty": 100, "unit": "g", "item": "nouilles de riz" },
+    { "raw": "75 cl de lait entier", "qty": 75, "unit": "cl", "item": "lait entier" },
+    { "raw": "12 cl de sirop de rose", "qty": 12, "unit": "cl", "item": "eau de rose" },
+    { "raw": "150 g de sucre", "qty": 150, "unit": "g", "item": "sucre" },
+    { "raw": "4 boules de glace à la vanille", "qty": 4, "unit": "piece", "item": "crème liquide", "optional": true },
+    { "raw": "40 g de pistaches, concassées", "qty": 40, "unit": "g", "item": "pistache", "prep": "concassée", "group": "décor" }
+  ],
+  "steps": [
+    { "fr": "Faire tremper les graines de basilic dans l'eau froide vingt minutes : elles gonflent et forment un gel translucide.", "en": "Soak the basil seeds in cold water for twenty minutes: they swell into a translucent gel." },
+    { "fr": "Ce gel est la signature du falooda : sans lui, ce n'est qu'un milkshake à la rose.", "en": "That gel is the falooda signature: without it, this is just a rose milkshake." },
+    { "fr": "Cuire les vermicelles de riz, les rincer à l'eau glacée et les réserver au frais.", "en": "Cook the rice vermicelli, rinse them in iced water and keep them cold." },
+    { "fr": "Faire un sirop avec le sucre et un peu d'eau, le laisser refroidir, puis ajouter le sirop de rose.", "en": "Make a syrup with the sugar and a little water, cool it, then add the rose syrup." },
+    { "fr": "Monter dans des verres hauts : sirop de rose au fond, graines gonflées, vermicelles, puis le lait glacé.", "en": "Build in tall glasses: rose syrup at the bottom, swollen seeds, vermicelli, then the ice-cold milk." },
+    { "fr": "Ne pas mélanger : les couches doivent rester visibles. Couvrir de glace et de pistaches.", "en": "Do not stir: the layers must stay visible. Top with ice cream and pistachios." }
+  ]
+}

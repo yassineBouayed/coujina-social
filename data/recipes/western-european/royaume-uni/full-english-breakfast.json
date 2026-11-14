@@ -1,0 +1,39 @@
+{
+  "slug": "full-english-breakfast",
+  "cuisine": "western-european",
+  "country": "royaume-uni",
+  "origin": "Royaume-Uni",
+  "native_name": "Full English breakfast",
+  "title": {
+    "fr": "Petit-déjeuner anglais complet",
+    "en": "Full English breakfast"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["petit-dejeuner", "copieux", "weekend", "embleme"],
+  "ingredients": [
+    { "raw": "8 saucisses fraîches", "qty": 8, "unit": "piece", "item": "saucisse de Toulouse" },
+    { "raw": "8 tranches de bacon", "qty": 8, "unit": "piece", "item": "lardon", "prep": "en tranches de bacon" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf" },
+    { "raw": "400 g de haricots blancs à la sauce tomate", "qty": 400, "unit": "g", "item": "haricot blanc", "prep": "en conserve à la sauce tomate" },
+    { "raw": "4 tomates, en deux", "qty": 4, "unit": "piece", "item": "tomate", "prep": "coupées en deux" },
+    { "raw": "300 g de champignons de Paris", "qty": 300, "unit": "g", "item": "champignon de Paris" },
+    { "raw": "4 tranches de pain de mie", "qty": 4, "unit": "piece", "item": "pain de mie" },
+    { "raw": "2 boudins noirs", "qty": 2, "unit": "piece", "item": "boudin noir", "optional": true },
+    { "raw": "60 g de beurre", "qty": 60, "unit": "g", "item": "beurre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Tout le défi est de servir CHAUD en même temps : ce plat est une question d'ordre, pas de technique.", "en": "The whole challenge is serving it all HOT together: this dish is about order, not technique." },
+    { "fr": "Commencer par les saucisses : elles demandent quinze minutes, à feu moyen, en les tournant.", "en": "Start with the sausages: they need fifteen minutes over medium heat, turning." },
+    { "fr": "Passer au four à 100 °C ce qui est prêt : c'est le seul moyen de tout servir chaud.", "en": "Move what is done to a 100°C oven: the only way to serve everything hot." },
+    { "fr": "Cuire ensuite bacon, champignons et tomates dans le gras des saucisses.", "en": "Then cook the bacon, mushrooms and tomatoes in the sausage fat." },
+    { "fr": "Les œufs se font EN DERNIER, au plat, à feu doux : le blanc pris, le jaune coulant.", "en": "The eggs come LAST, fried over low heat: white set, yolk running." },
+    { "fr": "Réchauffer les haricots à part et griller le pain au tout dernier moment.", "en": "Warm the beans separately and toast the bread at the very last moment." }
+  ]
+}

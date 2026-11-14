@@ -1,0 +1,40 @@
+{
+  "slug": "cha-ca-la-vong",
+  "cuisine": "southeast-asian",
+  "country": "vietnam",
+  "origin": "Viêt Nam",
+  "native_name": "Chả cá Lã Vọng",
+  "title": {
+    "fr": "Chả cá, poisson au curcuma et à l'aneth",
+    "en": "Cha ca, turmeric fish with dill"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 35, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hanoi", "aneth", "curcuma", "table"],
+  "ingredients": [
+    { "raw": "800 g de filets de poisson-chat, en gros cubes", "qty": 800, "unit": "g", "item": "poisson-chat", "prep": "en gros cubes" },
+    { "raw": "2 c. à s. de curcuma", "qty": 2, "unit": "tbsp", "item": "curcuma", "group": "marinade" },
+    { "raw": "25 cl de yaourt", "qty": 25, "unit": "cl", "item": "yaourt", "group": "marinade" },
+    { "raw": "2 c. à s. de gingembre frais, râpé", "qty": 2, "unit": "tbsp", "item": "gingembre", "prep": "râpé", "group": "marinade" },
+    { "raw": "2 c. à s. de pâte de crevette", "qty": 2, "unit": "tbsp", "item": "pâte de crevette", "group": "marinade" },
+    { "raw": "3 gros bouquets d'aneth", "qty": 3, "unit": "bunch", "item": "aneth" },
+    { "raw": "8 oignons nouveaux, en tronçons", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "en tronçons" },
+    { "raw": "300 g de vermicelles de riz", "qty": 300, "unit": "g", "item": "nouilles de riz", "group": "service" },
+    { "raw": "100 g d'arachides grillées", "qty": 100, "unit": "g", "item": "arachide grillée", "group": "service" },
+    { "raw": "10 cl d'huile neutre", "qty": 10, "unit": "cl", "item": "huile neutre" },
+    { "raw": "3 c. à s. de sauce poisson", "qty": 3, "unit": "tbsp", "item": "sauce poisson", "group": "service" },
+    { "raw": "3 citrons verts, leur jus", "qty": 3, "unit": "piece", "item": "citron vert", "group": "service" }
+  ],
+  "steps": [
+    { "fr": "La quantité d'ANETH n'est pas une erreur : trois bouquets pour quatre personnes, c'est le plat.", "en": "The quantity of DILL is not a mistake: three bunches for four people is the dish." },
+    { "fr": "Faire mariner le poisson au curcuma, au yaourt et au gingembre, au moins quatre heures.", "en": "Marinate the fish in turmeric, yoghurt and ginger, at least four hours." },
+    { "fr": "Le yaourt attendrit sans que le poisson se défasse : c'est la version domestique du mẻ fermenté.", "en": "Yoghurt tenderises without the fish falling apart: the home version of fermented mẻ." },
+    { "fr": "Saisir le poisson dans une poêle très chaude, deux minutes par face, et le réserver.", "en": "Sear the fish in a very hot pan, two minutes a side, and set it aside." },
+    { "fr": "Remettre l'huile à chauffer, y jeter l'aneth et les oignons nouveaux en une seule fois.", "en": "Reheat the oil and drop in the dill and spring onions all at once." },
+    { "fr": "Remettre le poisson dix secondes et servir grésillant, sur vermicelles, avec arachides et citron vert.", "en": "Return the fish for ten seconds and serve it sizzling, over noodles, with peanuts and lime." }
+  ]
+}

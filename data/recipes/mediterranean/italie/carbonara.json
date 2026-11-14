@@ -1,0 +1,35 @@
+{
+  "slug": "carbonara",
+  "cuisine": "mediterranean",
+  "country": "italie",
+  "origin": "Italie",
+  "native_name": "Spaghetti alla carbonara",
+  "title": {
+    "fr": "Carbonara au guanciale et au pecorino",
+    "en": "Carbonara with guanciale and pecorino"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 15 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rome", "pates", "oeuf", "rapide"],
+  "ingredients": [
+    { "raw": "400 g de spaghetti", "qty": 400, "unit": "g", "item": "spaghetti" },
+    { "raw": "200 g de guanciale, en lardons épais", "qty": 200, "unit": "g", "item": "guanciale", "prep": "en lardons épais" },
+    { "raw": "4 jaunes d'œufs", "qty": 4, "unit": "piece", "item": "oeuf" },
+    { "raw": "1 œuf entier", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "120 g de pecorino romano, râpé", "qty": 120, "unit": "g", "item": "pecorino", "prep": "râpé" },
+    { "raw": "2 c. à s. de poivre noir concassé", "qty": 2, "unit": "tbsp", "item": "poivre noir", "prep": "concassé" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "La carbonara ne contient NI CRÈME NI AIL NI OIGNON : quatre ingrédients, et c'est tout.", "en": "Carbonara contains NEITHER CREAM NOR GARLIC NOR ONION: four ingredients, and that is all." },
+    { "fr": "Faire fondre le guanciale À FROID, à feu doux, pour qu'il rende son gras sans brûler.", "en": "Render the guanciale FROM COLD, over low heat, so it gives up its fat without burning." },
+    { "fr": "Battre jaunes, œuf entier, pecorino et poivre en une crème épaisse, dans un saladier.", "en": "Beat the yolks, whole egg, pecorino and pepper into a thick cream, in a bowl." },
+    { "fr": "Égoutter les pâtes en gardant DEUX LOUCHES d'eau de cuisson, très amidonnée.", "en": "Drain the pasta, keeping TWO LADLES of its starchy cooking water." },
+    { "fr": "Mélanger les pâtes au guanciale HORS DU FEU, puis verser l'appareil aux œufs et remuer vite.", "en": "Toss the pasta with the guanciale OFF THE HEAT, then pour in the egg mixture and stir fast." },
+    { "fr": "C'est la chaleur RÉSIDUELLE qui cuit les œufs : sur le feu, ils font une omelette en dix secondes.", "en": "It is RESIDUAL heat that cooks the eggs: on the heat, they scramble within ten seconds." }
+  ]
+}

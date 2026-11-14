@@ -1,0 +1,41 @@
+{
+  "slug": "assidat-zgougou",
+  "cuisine": "maghrebi",
+  "country": "tunisie",
+  "origin": "Tunisie",
+  "native_name": "Assidat zgougou",
+  "title": {
+    "fr": "Assidat zgougou, crème de pignons de pin d'Alep",
+    "en": "Assidat zgougou, Aleppo pine seed cream"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 45, "cook_min": 30 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["mouled", "zgougou", "creme", "fete"],
+  "ingredients": [
+    { "raw": "250 g de zgougou", "qty": 250, "unit": "g", "item": "zgougou" },
+    { "raw": "1,5 l d'eau", "qty": 1.5, "unit": "l", "item": "eau" },
+    { "raw": "150 g de maïzena", "qty": 150, "unit": "g", "item": "maïzena" },
+    { "raw": "200 g de sucre", "qty": 200, "unit": "g", "item": "sucre" },
+    { "raw": "50 cl de lait", "qty": 50, "unit": "cl", "item": "lait", "group": "crème" },
+    { "raw": "60 g de maïzena", "qty": 60, "unit": "g", "item": "maïzena", "group": "crème" },
+    { "raw": "60 g de sucre", "qty": 60, "unit": "g", "item": "sucre", "group": "crème" },
+    { "raw": "50 g de pistaches, concassées", "qty": 50, "unit": "g", "item": "pistache", "prep": "concassée", "group": "décor" },
+    { "raw": "50 g d'amandes effilées, grillées", "qty": 50, "unit": "g", "item": "amande effilée", "prep": "grillée", "group": "décor" },
+    { "raw": "1 c. à s. d'eau de rose", "qty": 1, "unit": "tbsp", "item": "eau de rose" }
+  ],
+  "steps": [
+    { "fr": "Griller légèrement le zgougou à sec, puis le mixer très finement avec un peu d'eau.", "en": "Lightly toast the zgougou dry, then blend it very fine with a little water." },
+    { "fr": "Filtrer trois fois à travers une étamine, en pressant fort : c'est cette extraction qui donne le lait noir, et elle est longue.", "en": "Strain three times through muslin, pressing hard: this extraction gives the black milk, and it takes time." },
+    { "fr": "Porter le lait de zgougou à frémissement avec le sucre.", "en": "Bring the zgougou milk to a simmer with the sugar." },
+    { "fr": "Délayer la maïzena à froid puis l'incorporer en fouettant sans arrêt, jusqu'à épaississement.", "en": "Slake the cornflour cold then whisk it in constantly, until thickened." },
+    { "fr": "Verser dans les coupes et laisser prendre au frais quatre heures, sans couvrir.", "en": "Pour into bowls and set in the fridge for four hours, uncovered." },
+    { "fr": "Couvrir d'une crème pâtissière au lait, parfumer à l'eau de rose, et décorer de fruits secs.", "en": "Top with a milk custard, scent with rose water, and decorate with nuts." }
+  ],
+  "notes": [
+    { "fr": "Un filtrage bâclé laisse des débris de coques : la crème devient sableuse et le plat est perdu.", "en": "A careless strain leaves husk fragments: the cream turns gritty and the dish is lost." }
+  ]
+}

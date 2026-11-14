@@ -1,0 +1,44 @@
+{
+  "slug": "paella-valenciana",
+  "cuisine": "mediterranean",
+  "country": "espagne",
+  "origin": "Espagne",
+  "native_name": "Paella valenciana",
+  "title": {
+    "fr": "Paella valencienne",
+    "en": "Valencian paella"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 50 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["valence", "riz", "safran", "embleme"],
+  "ingredients": [
+    { "raw": "500 g de riz rond", "qty": 500, "unit": "g", "item": "riz rond" },
+    { "raw": "1 poulet entier, découpé en petits morceaux", "qty": 1, "unit": "piece", "item": "poulet entier", "prep": "découpé en petits morceaux" },
+    { "raw": "600 g de lapin, en morceaux", "qty": 600, "unit": "g", "item": "lapin", "prep": "en morceaux" },
+    { "raw": "250 g de haricots plats", "qty": 250, "unit": "g", "item": "haricot vert", "prep": "en tronçons" },
+    { "raw": "200 g de haricots blancs cuits", "qty": 200, "unit": "g", "item": "haricot blanc", "prep": "cuit" },
+    { "raw": "3 tomates, râpées", "qty": 3, "unit": "piece", "item": "tomate", "prep": "râpée" },
+    { "raw": "1 grosse pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "2 c. à c. de paprika doux", "qty": 2, "unit": "tsp", "item": "paprika" },
+    { "raw": "1,4 l de bouillon de volaille", "qty": 1.4, "unit": "l", "item": "bouillon volaille" },
+    { "raw": "1 branche de romarin", "qty": 1, "unit": "piece", "item": "romarin" },
+    { "raw": "12 cl d'huile d'olive", "qty": 12, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La paella valencienne authentique est au POULET ET AU LAPIN : les fruits de mer sont une autre paella.", "en": "Authentic Valencian paella is CHICKEN AND RABBIT: seafood belongs to a different paella." },
+    { "fr": "Faire dorer longuement les viandes à l'huile d'olive, sur les bords de la poêle, vingt minutes.", "en": "Brown the meats slowly in olive oil, on the edges of the pan, for twenty minutes." },
+    { "fr": "Ajouter les haricots, puis le sofrito : tomate râpée et paprika, hors du feu vif.", "en": "Add the beans, then the sofrito: grated tomato and paprika, off the fierce heat." },
+    { "fr": "Le paprika brûle en dix secondes et devient amer : baisser le feu avant de l'ajouter.", "en": "Paprika burns in ten seconds and turns bitter: lower the heat before adding it." },
+    { "fr": "Verser le bouillon bouillant, ajouter le safran, puis le riz EN PLUIE — et NE PLUS JAMAIS REMUER.", "en": "Add the boiling stock, the saffron, then the rice SCATTERED — and NEVER STIR AGAIN." },
+    { "fr": "Monter le feu à la fin pour former le socarrat, la croûte caramélisée du fond, puis reposer cinq minutes.", "en": "Raise the heat at the end to form the socarrat, the caramelised crust at the bottom, then rest five minutes." }
+  ],
+  "notes": [
+    { "fr": "Remuer une paella en fait un risotto : l'amidon se libère et le grain devient crémeux au lieu de rester détaché.", "en": "Stirring a paella turns it into risotto: the starch releases and the grain turns creamy instead of staying separate." }
+  ]
+}

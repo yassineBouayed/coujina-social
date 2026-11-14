@@ -1,0 +1,43 @@
+{
+  "slug": "kabsa",
+  "cuisine": "middle-eastern",
+  "country": "arabie-saoudite",
+  "origin": "Arabie saoudite",
+  "native_name": "Kabsa",
+  "title": {
+    "fr": "Kabsa, riz épicé au poulet",
+    "en": "Kabsa, spiced rice with chicken"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 75 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["national", "riz", "loomi", "tablee"],
+  "ingredients": [
+    { "raw": "1 poulet entier, découpé", "qty": 1, "unit": "piece", "item": "poulet entier", "prep": "découpé" },
+    { "raw": "600 g de riz basmati", "qty": 600, "unit": "g", "item": "riz basmati" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "4 tomates, râpées", "qty": 4, "unit": "piece", "item": "tomate", "prep": "râpée" },
+    { "raw": "2 c. à s. de concentré de tomate", "qty": 2, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "3 citrons séchés d'Oman", "qty": 3, "unit": "piece", "item": "citron séché d'Oman" },
+    { "raw": "1 c. à s. de baharat", "qty": 1, "unit": "tbsp", "item": "baharat" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "6 gousses de cardamome", "qty": 6, "unit": "piece", "item": "cardamome" },
+    { "raw": "4 clous de girofle", "qty": 4, "unit": "piece", "item": "clou de girofle" },
+    { "raw": "2 carottes, râpées", "qty": 2, "unit": "piece", "item": "carotte", "prep": "râpée" },
+    { "raw": "80 g de ghee", "qty": 80, "unit": "g", "item": "ghee" },
+    { "raw": "80 g d'amandes effilées, grillées", "qty": 80, "unit": "g", "item": "amande effilée", "prep": "grillée", "group": "décor" },
+    { "raw": "60 g de raisins secs", "qty": 60, "unit": "g", "item": "raisin sec", "group": "décor" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire dorer le poulet dans le ghee sur toutes ses faces et le réserver.", "en": "Brown the chicken in the ghee on all sides and set it aside." },
+    { "fr": "Faire fondre les oignons, ajouter les épices entières et le baharat, puis les tomates et le concentré.", "en": "Melt the onions, add the whole spices and baharat, then the tomatoes and purée." },
+    { "fr": "Percer les citrons séchés et les ajouter : ce sont eux qui donnent au kabsa son amertume caractéristique.", "en": "Pierce the dried limes and add them: they give kabsa its characteristic bitterness." },
+    { "fr": "Remettre le poulet, mouiller et cuire quarante minutes, puis le retirer et le passer au four pour dorer.", "en": "Return the chicken, add water and cook for forty minutes, then lift it out and finish it in the oven to brown." },
+    { "fr": "Mesurer le bouillon et y cuire le riz trempé, une fois et demie son volume, à couvert et sans remuer.", "en": "Measure the broth and cook the soaked rice in it, one and a half times its volume, covered and unstirred." },
+    { "fr": "Laisser reposer dix minutes, dresser le riz, poser le poulet doré, et parsemer d'amandes et de raisins.", "en": "Rest for ten minutes, plate the rice, set the browned chicken on top, and scatter with almonds and raisins." }
+  ]
+}

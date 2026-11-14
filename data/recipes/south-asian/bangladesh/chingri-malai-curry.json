@@ -1,0 +1,40 @@
+{
+  "slug": "chingri-malai-curry",
+  "cuisine": "south-asian",
+  "country": "bangladesh",
+  "origin": "Bangladesh",
+  "native_name": "Chingri malai curry",
+  "title": {
+    "fr": "Crevettes au lait de coco",
+    "en": "Prawns in coconut milk"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["coco", "crevette", "fete", "doux"],
+  "ingredients": [
+    { "raw": "800 g de grosses crevettes, décortiquées", "qty": 800, "unit": "g", "item": "crevette", "prep": "décortiquée" },
+    { "raw": "50 cl de lait de coco", "qty": 50, "unit": "cl", "item": "lait de coco" },
+    { "raw": "2 oignons, mixés en pâte", "qty": 2, "unit": "piece", "item": "oignon", "prep": "mixé en pâte" },
+    { "raw": "2 c. à s. de pâte gingembre-ail", "qty": 2, "unit": "tbsp", "item": "pâte gingembre-ail" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "1 c. à c. de piment kashmiri", "qty": 1, "unit": "tsp", "item": "piment kashmiri" },
+    { "raw": "4 gousses de cardamome", "qty": 4, "unit": "piece", "item": "cardamome" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "1 c. à c. de sucre", "qty": 1, "unit": "tsp", "item": "sucre" },
+    { "raw": "4 piments verts, fendus", "qty": 4, "unit": "piece", "item": "piment frais", "prep": "fendu" },
+    { "raw": "8 c. à s. d'huile de moutarde", "qty": 8, "unit": "tbsp", "item": "huile de moutarde" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Frotter les crevettes de curcuma et de sel, et les saisir UNE MINUTE dans l'huile avant de les réserver.", "en": "Rub the prawns with turmeric and salt, and sear them for ONE MINUTE in the oil before setting them aside." },
+    { "fr": "Cette saisie rapide est la seule cuisson qu'elles supportent : le reste se fait dans la sauce chaude.", "en": "That quick sear is the only cooking they can take: the rest happens in the hot sauce." },
+    { "fr": "Faire revenir la pâte d'oignon dans l'huile jusqu'à ce qu'elle dore, dix minutes.", "en": "Fry the onion paste in the oil until golden, ten minutes." },
+    { "fr": "Ajouter pâte gingembre-ail, épices entières et moulues, et cuire jusqu'à séparation de l'huile.", "en": "Add the ginger-garlic paste, whole and ground spices, and cook until the oil separates." },
+    { "fr": "Verser le lait de coco et le sucre, et laisser réduire dix minutes sans faire bouillir fort.", "en": "Add the coconut milk and sugar, and reduce for ten minutes without a hard boil." },
+    { "fr": "Remettre les crevettes trois minutes seulement, et servir aussitôt avec du riz.", "en": "Return the prawns for three minutes only, and serve at once with rice." }
+  ]
+}

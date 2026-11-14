@@ -1,0 +1,41 @@
+{
+  "slug": "poulet-basquaise",
+  "cuisine": "french",
+  "country": "france",
+  "origin": "France",
+  "native_name": "Poulet basquaise",
+  "title": {
+    "fr": "Poulet basquaise aux piments",
+    "en": "Basque chicken with peppers"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 60 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["pays-basque", "poivron", "espelette", "famille"],
+  "ingredients": [
+    { "raw": "1 poulet entier, découpé", "qty": 1, "unit": "piece", "item": "poulet entier", "prep": "découpé" },
+    { "raw": "3 poivrons rouges, en lanières", "qty": 3, "unit": "piece", "item": "poivron rouge", "prep": "en lanières" },
+    { "raw": "2 poivrons verts, en lanières", "qty": 2, "unit": "piece", "item": "poivron vert", "prep": "en lanières" },
+    { "raw": "800 g de tomates, pelées et concassées", "qty": 800, "unit": "g", "item": "tomate", "prep": "pelée et concassée" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "150 g de jambon de Bayonne, en lanières", "qty": 150, "unit": "g", "item": "jambon blanc", "prep": "en lanières" },
+    { "raw": "4 gousses d'ail, écrasées", "qty": 4, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "2 c. à c. de piment d'Espelette", "qty": 2, "unit": "tsp", "item": "piment d'Espelette" },
+    { "raw": "15 cl de vin blanc", "qty": 15, "unit": "cl", "item": "vin blanc" },
+    { "raw": "1 bouquet garni", "qty": 1, "unit": "piece", "item": "bouquet garni" },
+    { "raw": "8 c. à s. d'huile d'olive", "qty": 8, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le piment d'Espelette n'est pas du piment fort : il est fruité, doux, et ne se remplace pas par du paprika.", "en": "Espelette pepper is not a hot chilli: it is fruity and mild, and paprika does not replace it." },
+    { "fr": "Faire dorer les morceaux de poulet à l'huile d'olive, et les réserver.", "en": "Brown the chicken pieces in olive oil, and set them aside." },
+    { "fr": "Faire fondre oignons et poivrons dans la même huile, VINGT MINUTES, jusqu'à ce qu'ils soient tendres.", "en": "Melt the onions and peppers in the same oil for TWENTY MINUTES, until tender." },
+    { "fr": "Déglacer au vin blanc, ajouter tomates, ail, piment d'Espelette et bouquet garni.", "en": "Deglaze with the white wine, add the tomatoes, garlic, Espelette pepper and bouquet garni." },
+    { "fr": "Remettre le poulet et laisser mijoter trente-cinq minutes à couvert.", "en": "Return the chicken and simmer for thirty-five minutes, covered." },
+    { "fr": "Ajouter le jambon en fin de cuisson : cuit longtemps, il devient sec et filandreux.", "en": "Add the ham at the end: cooked long, it turns dry and stringy." }
+  ]
+}

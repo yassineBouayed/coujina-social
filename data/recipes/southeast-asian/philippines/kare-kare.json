@@ -1,0 +1,41 @@
+{
+  "slug": "kare-kare",
+  "cuisine": "southeast-asian",
+  "country": "philippines",
+  "origin": "Philippines",
+  "native_name": "Kare-kare",
+  "title": {
+    "fr": "Kare-kare, ragoût à l'arachide et au rocou",
+    "en": "Kare-kare, peanut and annatto oxtail stew"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 180 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "arachide", "bagoong", "cuisson-lente"],
+  "ingredients": [
+    { "raw": "1,5 kg de queue de bœuf, en tronçons", "qty": 1500, "unit": "g", "item": "boeuf à mijoter", "prep": "en tronçons" },
+    { "raw": "250 g de pâte d'arachide", "qty": 250, "unit": "g", "item": "pâte d'arachide" },
+    { "raw": "2 c. à s. de rocou", "qty": 2, "unit": "tbsp", "item": "rocou" },
+    { "raw": "100 g de farine de riz", "qty": 100, "unit": "g", "item": "farine de riz" },
+    { "raw": "2 aubergines, en tronçons", "qty": 2, "unit": "piece", "item": "aubergine", "prep": "en tronçons" },
+    { "raw": "200 g de haricots verts, en tronçons", "qty": 200, "unit": "g", "item": "haricot vert", "prep": "en tronçons" },
+    { "raw": "1 chou chinois, en gros morceaux", "qty": 1, "unit": "piece", "item": "chou chinois", "prep": "en gros morceaux" },
+    { "raw": "1 banane plantain, en tronçons", "qty": 1, "unit": "piece", "item": "banane plantain", "prep": "en tronçons" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "6 gousses d'ail, écrasées", "qty": 6, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "6 c. à s. de pâte de crevette", "qty": 6, "unit": "tbsp", "item": "pâte de crevette", "group": "service" },
+    { "raw": "4 c. à s. d'huile neutre", "qty": 4, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le kare-kare se sert SANS SEL : c'est le bagoong, servi à part, qui sale chaque bouchée.", "en": "Kare-kare is served UNSALTED: the bagoong, served alongside, salts each mouthful." },
+    { "fr": "Cuire la queue de bœuf DEUX HEURES ET DEMIE, jusqu'à ce que la viande se détache de l'os.", "en": "Cook the oxtail for TWO AND A HALF HOURS, until the meat falls off the bone." },
+    { "fr": "Faire infuser le rocou dans un peu d'huile chaude et le filtrer : il colore sans donner de goût.", "en": "Steep the annatto in a little hot oil and strain it: it colours without adding flavour." },
+    { "fr": "Griller la farine de riz à sec jusqu'à ce qu'elle brunisse : c'est elle qui épaissit le kare-kare.", "en": "Toast the rice flour dry until it browns: it is what thickens kare-kare." },
+    { "fr": "Délayer pâte d'arachide et farine grillée dans le bouillon, et laisser épaissir vingt minutes.", "en": "Slake the peanut paste and toasted flour in the broth, and thicken for twenty minutes." },
+    { "fr": "Ajouter les légumes en fin de cuisson et servir avec le bagoong dans un bol à part.", "en": "Add the vegetables at the end and serve with the bagoong in a separate bowl." }
+  ]
+}

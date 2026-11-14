@@ -1,0 +1,41 @@
+{
+  "slug": "chicken-inasal",
+  "cuisine": "southeast-asian",
+  "country": "philippines",
+  "origin": "Philippines",
+  "native_name": "Chicken inasal",
+  "title": {
+    "fr": "Chicken inasal, poulet grillé au rocou",
+    "en": "Chicken inasal, annatto-basted grilled chicken"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["bacolod", "grillade", "rocou", "citron-vert"],
+  "ingredients": [
+    { "raw": "1,2 kg de cuisses de poulet", "qty": 1200, "unit": "g", "item": "cuisse de poulet" },
+    { "raw": "15 cl de vinaigre de canne", "qty": 15, "unit": "cl", "item": "vinaigre de canne", "group": "marinade" },
+    { "raw": "6 citrons verts, leur jus", "qty": 6, "unit": "piece", "item": "citron vert", "group": "marinade" },
+    { "raw": "3 tiges de citronnelle, hachées", "qty": 3, "unit": "piece", "item": "citronnelle", "prep": "hachée", "group": "marinade" },
+    { "raw": "1 morceau de gingembre, râpé", "qty": 1, "unit": "piece", "item": "gingembre", "prep": "râpé", "group": "marinade" },
+    { "raw": "8 gousses d'ail, écrasées", "qty": 8, "unit": "piece", "item": "ail", "prep": "écrasé", "group": "marinade" },
+    { "raw": "3 c. à s. de sucre roux", "qty": 3, "unit": "tbsp", "item": "sucre roux", "group": "marinade" },
+    { "raw": "2 c. à s. de rocou", "qty": 2, "unit": "tbsp", "item": "rocou", "group": "badigeon" },
+    { "raw": "120 g de beurre", "qty": 120, "unit": "g", "item": "beurre", "group": "badigeon" },
+    { "raw": "4 c. à s. de vinaigre de canne", "qty": 4, "unit": "tbsp", "item": "vinaigre de canne", "group": "sauce" },
+    { "raw": "2 c. à s. de sauce soja", "qty": 2, "unit": "tbsp", "item": "sauce soja", "group": "sauce" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Faire mariner le poulet SIX HEURES dans le vinaigre, le citron vert, la citronnelle et le gingembre.", "en": "Marinate the chicken for SIX HOURS in the vinegar, lime, lemongrass and ginger." },
+    { "fr": "Ne pas dépasser huit heures : l'acidité du vinaigre finit par cuire la chair et la rendre farineuse.", "en": "Do not exceed eight hours: the vinegar eventually cooks the flesh and turns it mealy." },
+    { "fr": "Faire infuser le rocou dans le beurre fondu, dix minutes, puis le filtrer.", "en": "Steep the annatto in the melted butter for ten minutes, then strain it." },
+    { "fr": "Le rocou colore en orange profond sans donner de goût : c'est la signature visuelle de l'inasal.", "en": "Annatto colours it deep orange without adding flavour: the visual signature of inasal." },
+    { "fr": "Griller sur braises moyennes vingt-cinq minutes, en badigeonnant de beurre au rocou toutes les cinq minutes.", "en": "Grill over medium coals for twenty-five minutes, basting with annatto butter every five." },
+    { "fr": "Servir avec du riz et une sauce vinaigre-soja, dans laquelle chacun trempe sa bouchée.", "en": "Serve with rice and a vinegar-soy sauce, into which each person dips their bite." }
+  ]
+}

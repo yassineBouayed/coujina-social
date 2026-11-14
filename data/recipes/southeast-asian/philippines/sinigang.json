@@ -1,0 +1,40 @@
+{
+  "slug": "sinigang",
+  "cuisine": "southeast-asian",
+  "country": "philippines",
+  "origin": "Philippines",
+  "native_name": "Sinigang",
+  "title": {
+    "fr": "Sinigang, bouillon aigre au tamarin",
+    "en": "Sinigang, sour tamarind broth"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 60 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["national", "acide", "tamarin", "legumes"],
+  "ingredients": [
+    { "raw": "1 kg de poitrine de porc, en gros cubes", "qty": 1000, "unit": "g", "item": "poitrine de porc", "prep": "en gros cubes" },
+    { "raw": "5 c. à s. de pâte de tamarin", "qty": 5, "unit": "tbsp", "item": "pâte de tamarin" },
+    { "raw": "1 daikon, en rondelles", "qty": 1, "unit": "piece", "item": "daikon", "prep": "en rondelles" },
+    { "raw": "200 g de haricots verts, en tronçons", "qty": 200, "unit": "g", "item": "haricot vert", "prep": "en tronçons" },
+    { "raw": "2 aubergines, en tronçons", "qty": 2, "unit": "piece", "item": "aubergine", "prep": "en tronçons" },
+    { "raw": "300 g d'épinards", "qty": 300, "unit": "g", "item": "épinard" },
+    { "raw": "3 tomates, en quartiers", "qty": 3, "unit": "piece", "item": "tomate", "prep": "en quartiers" },
+    { "raw": "2 oignons, en quartiers", "qty": 2, "unit": "piece", "item": "oignon", "prep": "en quartiers" },
+    { "raw": "4 piments verts longs", "qty": 4, "unit": "piece", "item": "piment frais" },
+    { "raw": "4 c. à s. de sauce poisson", "qty": 4, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "2 l d'eau", "qty": 2, "unit": "l", "item": "eau" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le sinigang se juge à son ACIDITÉ : elle doit dominer, et un sinigang timide est un sinigang raté.", "en": "Sinigang is judged on its SOURNESS: it must dominate, and a timid sinigang has failed." },
+    { "fr": "Faire bouillir le porc avec oignons et tomates quarante-cinq minutes, en écumant.", "en": "Boil the pork with the onions and tomatoes for forty-five minutes, skimming." },
+    { "fr": "Écraser les tomates contre la paroi : elles fondent et donnent leur acidité au bouillon.", "en": "Crush the tomatoes against the side of the pan: they melt and give their acidity to the broth." },
+    { "fr": "Ajouter le tamarin et goûter : ajuster jusqu'à ce que le bouillon fasse presque plisser les yeux.", "en": "Add the tamarind and taste: adjust until the broth almost makes you squint." },
+    { "fr": "Ajouter les légumes du plus dur au plus tendre, à cinq minutes d'écart.", "en": "Add the vegetables from firmest to softest, five minutes apart." },
+    { "fr": "Ajouter les épinards HORS DU FEU : ils cuisent dans la chaleur résiduelle en trente secondes.", "en": "Add the spinach OFF THE HEAT: it cooks in the residual heat within thirty seconds." }
+  ]
+}

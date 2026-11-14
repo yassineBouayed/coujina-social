@@ -1,0 +1,41 @@
+{
+  "slug": "morog-polao",
+  "cuisine": "south-asian",
+  "country": "bangladesh",
+  "origin": "Bangladesh",
+  "native_name": "Morog polao",
+  "title": {
+    "fr": "Morog polao, riz au poulet parfumé",
+    "en": "Morog polao, fragrant chicken rice"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 60 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "riz", "poulet", "doux"],
+  "ingredients": [
+    { "raw": "1 poulet entier, découpé", "qty": 1, "unit": "piece", "item": "poulet entier", "prep": "découpé" },
+    { "raw": "600 g de riz basmati", "qty": 600, "unit": "g", "item": "riz basmati" },
+    { "raw": "30 cl de yaourt", "qty": 30, "unit": "cl", "item": "yaourt" },
+    { "raw": "4 oignons, frits et écrasés", "qty": 4, "unit": "piece", "item": "oignon", "prep": "frit et écrasé" },
+    { "raw": "2 c. à s. de pâte gingembre-ail", "qty": 2, "unit": "tbsp", "item": "pâte gingembre-ail" },
+    { "raw": "6 gousses de cardamome", "qty": 6, "unit": "piece", "item": "cardamome" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "4 clous de girofle", "qty": 4, "unit": "piece", "item": "clou de girofle" },
+    { "raw": "1 c. à s. de sucre", "qty": 1, "unit": "tbsp", "item": "sucre" },
+    { "raw": "120 g de ghee", "qty": 120, "unit": "g", "item": "ghee" },
+    { "raw": "6 piments verts", "qty": 6, "unit": "piece", "item": "piment frais" },
+    { "raw": "10 cl de lait", "qty": 10, "unit": "cl", "item": "lait" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le morog polao est DOUX : contrairement au biryani, il ne contient ni piment en poudre ni tomate.", "en": "Morog polao is MILD: unlike biryani, it contains neither chilli powder nor tomato." },
+    { "fr": "Faire mariner le poulet dans le yaourt, la pâte gingembre-ail et le sel, deux heures.", "en": "Marinate the chicken in the yoghurt, ginger-garlic paste and salt for two hours." },
+    { "fr": "Le cuire dans le ghee avec les épices entières et la moitié des oignons frits, vingt-cinq minutes.", "en": "Cook it in ghee with the whole spices and half the fried onions, twenty-five minutes." },
+    { "fr": "Retirer le poulet, ajouter le riz trempé au fond et le remuer deux minutes dans le gras.", "en": "Lift out the chicken, add the soaked rice to the base and stir it in the fat for two minutes." },
+    { "fr": "Mouiller d'une fois et demie le volume d'eau chaude, remettre le poulet et le sucre, et couvrir.", "en": "Add one and a half times the volume of hot water, return the chicken and the sugar, and cover." },
+    { "fr": "Cuire vingt minutes, poser les piments verts entiers et le lait, et laisser reposer dix minutes.", "en": "Cook for twenty minutes, lay the whole green chillies and the milk on top, and rest for ten minutes." }
+  ]
+}

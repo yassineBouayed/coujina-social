@@ -1,0 +1,35 @@
+{
+  "slug": "kunu-zaki",
+  "cuisine": "west-african",
+  "country": "nigeria",
+  "origin": "Nigeria",
+  "native_name": "Kunu zaki",
+  "title": {
+    "fr": "Kunu zaki, boisson de mil au gingembre",
+    "en": "Kunu zaki, spiced millet drink"
+  },
+  "meal_type": "drink",
+  "servings": 8,
+  "times": { "prep_min": 30, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hausa", "mil", "gingembre", "ramadan"],
+  "ingredients": [
+    { "raw": "500 g de petit mil, trempé la veille", "qty": 500, "unit": "g", "item": "petit mil", "prep": "trempé la veille" },
+    { "raw": "80 g de gingembre frais, épluché", "qty": 80, "unit": "g", "item": "gingembre", "prep": "épluché" },
+    { "raw": "6 clous de girofle", "qty": 6, "unit": "piece", "item": "clou de girofle" },
+    { "raw": "1 c. à c. de piment en poudre", "qty": 1, "unit": "tsp", "item": "piment en poudre", "optional": true },
+    { "raw": "150 g de sucre", "qty": 150, "unit": "g", "item": "sucre" },
+    { "raw": "2 l d'eau", "qty": 2, "unit": "l", "item": "eau" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Tremper le mil une nuit, puis le mixer avec le gingembre et les clous de girofle et un peu d'eau.", "en": "Soak the millet overnight, then blend it with the ginger, cloves and a little water." },
+    { "fr": "Filtrer à travers un linge fin en pressant, et garder le lait obtenu.", "en": "Strain through fine cloth, pressing, and keep the resulting milk." },
+    { "fr": "Séparer ce lait en deux : porter un tiers à ébullition, jusqu'à ce qu'il épaississe en bouillie.", "en": "Split the milk in two: boil a third of it until it thickens into a porridge." },
+    { "fr": "Verser cette bouillie brûlante sur les deux tiers restants, crus, en fouettant énergiquement.", "en": "Pour the scalding porridge into the remaining two-thirds, raw, whisking hard." },
+    { "fr": "C'est ce mélange cuit-cru qui donne au kunu sa texture : tout cuire donnerait une bouillie, rien cuire un jus.", "en": "That cooked-raw mix is what gives kunu its texture: all cooked would be porridge, none cooked a juice." },
+    { "fr": "Sucrer, saler légèrement, et servir très frais après quelques heures au froid.", "en": "Sweeten, salt lightly, and serve very cold after a few hours in the fridge." }
+  ]
+}

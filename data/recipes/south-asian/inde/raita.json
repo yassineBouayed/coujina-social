@@ -1,0 +1,35 @@
+{
+  "slug": "raita",
+  "cuisine": "south-asian",
+  "country": "inde",
+  "origin": "Inde",
+  "native_name": "Raita",
+  "title": {
+    "fr": "Raita au concombre et au cumin grillé",
+    "en": "Cucumber raita with roasted cumin"
+  },
+  "meal_type": "side",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 5 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["yaourt", "frais", "accompagnement", "rapide"],
+  "ingredients": [
+    { "raw": "50 cl de yaourt", "qty": 50, "unit": "cl", "item": "yaourt" },
+    { "raw": "2 concombres, râpés et pressés", "qty": 2, "unit": "piece", "item": "concombre", "prep": "râpé et pressé" },
+    { "raw": "1 c. à c. de graines de cumin", "qty": 1, "unit": "tsp", "item": "cumin" },
+    { "raw": "1/2 c. à c. de piment kashmiri", "qty": 0.5, "unit": "tsp", "item": "piment kashmiri" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "1/2 c. à c. de chaat masala", "qty": 0.5, "unit": "tsp", "item": "chaat masala", "optional": true },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Griller les graines de cumin à sec jusqu'à ce qu'elles brunissent et embaument, puis les moudre.", "en": "Toast the cumin seeds dry until they brown and turn fragrant, then grind them." },
+    { "fr": "Le cumin grillé n'a rien à voir avec le cumin en poudre du commerce : c'est ce qui fait la raita.", "en": "Roasted cumin bears no resemblance to shop-bought ground cumin: it is what makes a raita." },
+    { "fr": "Râper les concombres, les saler et les presser fortement dans un linge.", "en": "Grate the cucumbers, salt them and squeeze them hard in a cloth." },
+    { "fr": "Fouetter le yaourt jusqu'à ce qu'il soit lisse, puis incorporer le concombre.", "en": "Whisk the yoghurt smooth, then fold in the cucumber." },
+    { "fr": "La raita n'est JAMAIS sucrée : elle sert à éteindre le piment, pas à l'accompagner en dessert.", "en": "Raita is NEVER sweetened: it is there to put out the chilli, not to accompany it as a dessert." },
+    { "fr": "Saupoudrer de cumin grillé et de piment kashmiri, et servir très froid.", "en": "Dust with roasted cumin and Kashmiri chilli, and serve very cold." }
+  ]
+}

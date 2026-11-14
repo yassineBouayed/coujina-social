@@ -1,0 +1,37 @@
+{
+  "slug": "beurre-irlandais-a-l-ail",
+  "cuisine": "western-european",
+  "country": "irlande",
+  "origin": "Irlande",
+  "native_name": "Irish garlic butter bread",
+  "title": {
+    "fr": "Pain au beurre d'ail irlandais",
+    "en": "Irish garlic butter bread"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 15, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ail", "pain", "rapide", "partage"],
+  "ingredients": [
+    { "raw": "1 pain de campagne rond", "qty": 1, "unit": "piece", "item": "pain" },
+    { "raw": "200 g de beurre, mou", "qty": 200, "unit": "g", "item": "beurre", "prep": "mou" },
+    { "raw": "8 gousses d'ail, écrasées", "qty": 8, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "1/2 bouquet de ciboulette, ciselée", "qty": 0.5, "unit": "bunch", "item": "ciboulette", "prep": "ciselée" },
+    { "raw": "150 g de cheddar, râpé", "qty": 150, "unit": "g", "item": "cheddar", "prep": "râpé", "optional": true },
+    { "raw": "1 citron, son zeste", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le beurre irlandais est très riche en matière grasse : il se travaille en pommade sans se liquéfier.", "en": "Irish butter is very high in fat: it works to a paste without going runny." },
+    { "fr": "Le sortir UNE HEURE avant : trop froid, l'ail et les herbes ne s'y mêlent pas.", "en": "Take it out AN HOUR ahead: too cold, the garlic and herbs will not blend in." },
+    { "fr": "Écraser l'ail EN PÂTE avec une pincée de sel : haché, il pique par endroits.", "en": "Crush the garlic TO A PASTE with a pinch of salt: chopped, it stings in places." },
+    { "fr": "Entailler le pain en QUADRILLAGE, sans traverser la croûte du dessous.", "en": "Score the loaf in a CRISS-CROSS, without cutting through the bottom crust." },
+    { "fr": "Glisser le beurre dans chaque entaille, à la petite cuillère, jusqu'au fond.", "en": "Push the butter into every cut, with a teaspoon, right down to the bottom." },
+    { "fr": "Emballer dans du papier cuisson et cuire quinze minutes à 190 °C, ouvert les cinq dernières.", "en": "Wrap in baking paper and bake for fifteen minutes at 190°C, opened for the last five." }
+  ]
+}

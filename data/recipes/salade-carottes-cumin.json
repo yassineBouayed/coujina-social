@@ -1,0 +1,40 @@
+{
+  "slug": "salade-carottes-cumin",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Chlada del khizzou",
+  "title": {
+    "fr": "Salade de carottes au cumin",
+    "en": "Cumin carrot salad"
+  },
+  "meal_type": "salad",
+  "servings": 4,
+  "times": { "prep_min": 10, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j2-sonde-v1", "date": "2026-08-28" },
+  "tags": ["salade", "carotte", "vegetarien", "mezze", "rapide"],
+  "ingredients": [
+    { "raw": "700 g de carottes, en rondelles", "qty": 700, "unit": "g", "item": "carotte", "prep": "en rondelles" },
+    { "raw": "3 gousses d'ail", "qty": 3, "unit": "piece", "item": "ail", "prep": "entier puis écrasé" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin moulu" },
+    { "raw": "1 c. à c. de paprika", "qty": 1, "unit": "tsp", "item": "paprika" },
+    { "raw": "3 c. à s. d'huile d'olive", "qty": 3, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "le jus d'un demi-citron", "qty": 0.5, "unit": "piece", "item": "citron", "prep": "pressé" },
+    { "raw": "1 c. à s. de vinaigre de vin", "qty": 1, "unit": "tbsp", "item": "vinaigre de vin", "optional": true },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "1 pincée de piment de Cayenne", "qty": 1, "unit": "pinch", "item": "piment de Cayenne", "optional": true },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire les carottes en rondelles à l'eau salée avec les gousses d'ail entières, dix à quinze minutes : tendres mais pas molles.", "en": "Boil the carrot rounds in salted water with the whole garlic cloves for ten to fifteen minutes: tender but not soft." },
+    { "fr": "Égoutter, écraser l'ail cuit à la fourchette.", "en": "Drain and mash the cooked garlic with a fork." },
+    { "fr": "Mélanger l'huile, le jus de citron, le vinaigre, le cumin, le paprika, l'ail écrasé et le sel.", "en": "Whisk the oil, lemon juice, vinegar, cumin, paprika, mashed garlic and salt together." },
+    { "fr": "Verser sur les carottes encore tièdes : c'est tiède qu'elles boivent la vinaigrette.", "en": "Pour over the carrots while still warm: warm is when they drink up the dressing." },
+    { "fr": "Laisser reposer une heure au frais, parsemer de persil au moment de servir.", "en": "Rest for an hour in the fridge and scatter with parsley just before serving." }
+  ],
+  "notes": [
+    { "fr": "Se garde deux jours et gagne à attendre, comme toutes les chladas cuites.", "en": "Keeps two days and improves with waiting, like all cooked chladas." }
+  ]
+}

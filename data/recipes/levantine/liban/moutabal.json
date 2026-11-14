@@ -1,0 +1,36 @@
+{
+  "slug": "moutabal",
+  "cuisine": "levantine",
+  "country": "liban",
+  "origin": "Liban",
+  "native_name": "Moutabal",
+  "title": {
+    "fr": "Moutabal, caviar d'aubergine au tahini",
+    "en": "Moutabal, smoky aubergine with tahini"
+  },
+  "meal_type": "starter",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["mezze", "aubergine", "fume", "tahini"],
+  "ingredients": [
+    { "raw": "3 grosses aubergines", "qty": 3, "unit": "piece", "item": "aubergine" },
+    { "raw": "100 g de tahini", "qty": 100, "unit": "g", "item": "tahini" },
+    { "raw": "2 citrons, leur jus", "qty": 2, "unit": "piece", "item": "citron" },
+    { "raw": "2 gousses d'ail", "qty": 2, "unit": "piece", "item": "ail" },
+    { "raw": "3 c. à s. de yaourt grec", "qty": 3, "unit": "tbsp", "item": "yaourt grec", "optional": true },
+    { "raw": "3 c. à s. d'huile d'olive", "qty": 3, "unit": "tbsp", "item": "huile d'olive", "group": "service" },
+    { "raw": "1 c. à s. de graines de grenade", "qty": 1, "unit": "tbsp", "item": "grenade", "group": "service" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Brûler les aubergines entières directement sur la flamme, en les tournant, jusqu'à ce que la peau soit noire partout.", "en": "Char the whole aubergines directly over a flame, turning them, until the skin is black all over." },
+    { "fr": "Sans ce feu vif, il n'y a pas de fumé, et sans fumé ce n'est plus un moutabal.", "en": "Without that live flame there is no smoke, and without smoke it is no longer moutabal." },
+    { "fr": "Les laisser égoutter dans une passoire une demi-heure, fendues en deux.", "en": "Split them and let them drain in a sieve for half an hour." },
+    { "fr": "Récupérer la chair à la cuillère, sans gratter la peau brûlée, et la hacher au couteau.", "en": "Scoop out the flesh with a spoon, without scraping the burnt skin, and chop it with a knife." },
+    { "fr": "Mélanger avec le tahini, le citron, l'ail écrasé, le yaourt et le sel, à la fourchette.", "en": "Mix with the tahini, lemon, crushed garlic, yoghurt and salt, using a fork." },
+    { "fr": "Ne pas mixer : le moutabal garde de la mâche, contrairement au hummus.", "en": "Do not blend: moutabal keeps some texture, unlike hummus." }
+  ]
+}

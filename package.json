@@ -1,0 +1,22 @@
+{
+  "name": "coujina-social-tools",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "couJina social — outillage : amorçage du livre et des données fictives, tests SQL",
+  "scripts": {
+    "seed:catalog": "node tools/seed/catalog.mjs",
+    "seed:fictive": "node tools/seed/fictive.mjs",
+    "seed": "node tools/seed/catalog.mjs && node tools/seed/fictive.mjs",
+    "seed:accounts": "node tools/seed/accounts.mjs",
+    "db:test": "node tools/db-test.mjs"
+  },
+  "engines": {
+    "node": ">=22.6"
+  },
+  "devDependencies": {
+    "embedded-postgres": "^18.4.0-beta.17",
+    "pg": "^8.13.0",
+    "supabase": "^2.116.0"
+  }
+}

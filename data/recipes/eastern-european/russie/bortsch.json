@@ -1,0 +1,44 @@
+{
+  "slug": "bortsch",
+  "cuisine": "eastern-european",
+  "country": "russie",
+  "origin": "Russie",
+  "native_name": "Борщ",
+  "title": {
+    "fr": "Bortsch à la betterave et au bœuf",
+    "en": "Borscht with beetroot and beef"
+  },
+  "meal_type": "soup",
+  "servings": 8,
+  "times": { "prep_min": 35, "cook_min": 150 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["embleme", "betterave", "hiver", "famille"],
+  "ingredients": [
+    { "raw": "800 g de bœuf à mijoter, en cubes", "qty": 800, "unit": "g", "item": "boeuf à mijoter", "prep": "en cubes" },
+    { "raw": "800 g de betteraves crues, en julienne", "qty": 800, "unit": "g", "item": "betterave", "prep": "crues, en julienne" },
+    { "raw": "1/2 chou vert, en lanières", "qty": 0.5, "unit": "piece", "item": "chou vert", "prep": "en lanières" },
+    { "raw": "500 g de pommes de terre, en dés", "qty": 500, "unit": "g", "item": "pomme de terre", "prep": "en dés" },
+    { "raw": "3 carottes, en julienne", "qty": 3, "unit": "piece", "item": "carotte", "prep": "en julienne" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "5 c. à s. de vinaigre de vin", "qty": 5, "unit": "cl", "item": "vinaigre de vin" },
+    { "raw": "2 l d'eau", "qty": 2, "unit": "l", "item": "eau" },
+    { "raw": "25 cl de crème fraîche", "qty": 25, "unit": "cl", "item": "crème fraîche", "group": "service" },
+    { "raw": "1 bouquet d'aneth, ciselé", "qty": 1, "unit": "bunch", "item": "aneth", "prep": "ciselé" },
+    { "raw": "4 gousses d'ail, écrasées", "qty": 4, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "3 feuilles de laurier", "qty": 3, "unit": "piece", "item": "laurier" },
+    { "raw": "60 g de saindoux", "qty": 60, "unit": "g", "item": "saindoux" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Les betteraves se cuisent À PART, à l'étouffée avec le vinaigre et le concentré de tomate.", "en": "The beetroot is cooked SEPARATELY, covered, with the vinegar and tomato purée." },
+    { "fr": "L'acide FIXE le pigment rouge : jetées dans le bouillon, elles le teintent d'un brun terne.", "en": "Acid FIXES the red pigment: dropped into the broth, they tint it a dull brown." },
+    { "fr": "Faire un bouillon de bœuf de deux heures, en écumant, puis y ajouter chou et pommes de terre.", "en": "Make a two-hour beef broth, skimming, then add the cabbage and potatoes." },
+    { "fr": "Ajouter les betteraves EN TOUT DERNIER, cinq minutes avant de couper le feu.", "en": "Add the beetroot LAST OF ALL, five minutes before turning off the heat." },
+    { "fr": "Ajouter l'ail écrasé CRU hors du feu : cuit, il perd son mordant et le bortsch s'aplatit.", "en": "Add the crushed garlic RAW off the heat: cooked, it loses its bite and the borscht falls flat." },
+    { "fr": "Servir avec une cuillerée de smetana et beaucoup d'aneth : ce sont deux ingrédients, pas un décor.", "en": "Serve with a spoonful of smetana and plenty of dill: two ingredients, not a garnish." }
+  ]
+}

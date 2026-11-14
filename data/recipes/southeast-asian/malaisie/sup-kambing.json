@@ -1,0 +1,43 @@
+{
+  "slug": "sup-kambing",
+  "cuisine": "southeast-asian",
+  "country": "malaisie",
+  "origin": "Malaisie",
+  "native_name": "Sup kambing",
+  "title": {
+    "fr": "Sup kambing, soupe de mouton aux épices",
+    "en": "Sup kambing, spiced mutton soup"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 150 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["nuit", "mouton", "epices", "reconfort"],
+  "ingredients": [
+    { "raw": "1,2 kg de collier d'agneau avec os", "qty": 1200, "unit": "g", "item": "épaule d'agneau", "prep": "avec os" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "1 tête d'ail", "qty": 10, "unit": "piece", "item": "ail" },
+    { "raw": "1 morceau de gingembre", "qty": 1, "unit": "piece", "item": "gingembre" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "6 gousses de cardamome", "qty": 6, "unit": "piece", "item": "cardamome" },
+    { "raw": "3 badianes", "qty": 3, "unit": "piece", "item": "badiane" },
+    { "raw": "6 clous de girofle", "qty": 6, "unit": "piece", "item": "clou de girofle" },
+    { "raw": "2 c. à s. de coriandre en graines, moulue", "qty": 2, "unit": "tbsp", "item": "coriandre graines", "prep": "moulue" },
+    { "raw": "1 c. à s. de cumin moulu", "qty": 1, "unit": "tbsp", "item": "cumin" },
+    { "raw": "1 c. à c. de poivre blanc", "qty": 1, "unit": "tsp", "item": "poivre blanc" },
+    { "raw": "3 pommes de terre, en cubes", "qty": 3, "unit": "piece", "item": "pomme de terre", "prep": "en cubes" },
+    { "raw": "6 échalotes, frites", "qty": 6, "unit": "piece", "item": "échalote", "prep": "frite", "group": "garniture" },
+    { "raw": "8 c. à s. de ghee", "qty": 8, "unit": "tbsp", "item": "ghee" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Blanchir la viande dix minutes et jeter l'eau : le sup kambing doit être clair, pas trouble.", "en": "Blanch the meat for ten minutes and discard the water: sup kambing should be clear, not cloudy." },
+    { "fr": "Frire les épices entières dans le ghee jusqu'à ce qu'elles crépitent, trente secondes.", "en": "Fry the whole spices in ghee until they crackle, thirty seconds." },
+    { "fr": "Ajouter les oignons et les faire brunir vingt minutes : c'est eux qui donnent la profondeur.", "en": "Add the onions and brown them for twenty minutes: they give the depth." },
+    { "fr": "Ajouter la viande, l'ail, le gingembre, les épices moulues et 2,5 l d'eau.", "en": "Add the meat, garlic, ginger, ground spices and 2.5 litres of water." },
+    { "fr": "Laisser mijoter DEUX HEURES à petits bouillons, en écumant régulièrement.", "en": "Simmer for TWO HOURS at a bare simmer, skimming regularly." },
+    { "fr": "Ajouter les pommes de terre pour la dernière demi-heure, et servir couvert d'échalotes frites.", "en": "Add the potatoes for the last half hour, and serve topped with fried shallots." }
+  ]
+}

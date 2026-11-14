@@ -1,0 +1,41 @@
+{
+  "slug": "okrochka",
+  "cuisine": "eastern-european",
+  "country": "russie",
+  "origin": "Russie",
+  "native_name": "Окрошка",
+  "title": {
+    "fr": "Okrochka, soupe froide au kéfir",
+    "en": "Okroshka, chilled kefir soup"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ete", "froid", "kefir", "rapide"],
+  "ingredients": [
+    { "raw": "1 l de kéfir", "qty": 1, "unit": "l", "item": "kéfir" },
+    { "raw": "600 g de pommes de terre, cuites et en dés", "qty": 600, "unit": "g", "item": "pomme de terre", "prep": "cuites, en dés" },
+    { "raw": "2 concombres, en petits dés", "qty": 2, "unit": "piece", "item": "concombre", "prep": "en petits dés" },
+    { "raw": "1 botte de radis, en rondelles", "qty": 10, "unit": "piece", "item": "radis", "prep": "en rondelles" },
+    { "raw": "6 œufs durs, en dés", "qty": 6, "unit": "piece", "item": "oeuf", "prep": "dur, en dés" },
+    { "raw": "300 g de jambon blanc, en dés", "qty": 300, "unit": "g", "item": "jambon blanc", "prep": "en dés" },
+    { "raw": "1 botte d'oignons nouveaux, émincés", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "émincé" },
+    { "raw": "1 bouquet d'aneth, ciselé", "qty": 1, "unit": "bunch", "item": "aneth", "prep": "ciselé" },
+    { "raw": "20 cl de crème fraîche", "qty": 20, "unit": "cl", "item": "crème fraîche" },
+    { "raw": "2 c. à s. de moutarde", "qty": 2, "unit": "tbsp", "item": "moutarde" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "L'okrochka est la soupe d'été russe : elle se sert GLACÉE, souvent avec un glaçon dans le bol.", "en": "Okroshka is Russia's summer soup: served ICE COLD, often with an ice cube in the bowl." },
+    { "fr": "Tout se coupe en dés de la MÊME taille : c'est une soupe qui se mange à la cuillère, pas qui se boit.", "en": "Everything is diced to the SAME size: it is a soup eaten with a spoon, not drunk." },
+    { "fr": "Écraser les jaunes d'œufs durs avec la moutarde et la crème, en une base lisse.", "en": "Crush the hard-boiled yolks with the mustard and cream, into a smooth base." },
+    { "fr": "Y délayer le kéfir PROGRESSIVEMENT : versé d'un coup, il ne se mélange pas et fait des grumeaux.", "en": "Slacken it with the kefir GRADUALLY: poured in at once, it does not blend and goes lumpy." },
+    { "fr": "Écraser les oignons nouveaux au sel du plat de la lame : ils libèrent alors leur jus.", "en": "Bruise the spring onions with salt under the flat of the blade: they then release their juice." },
+    { "fr": "Réfrigérer TROIS HEURES et rectifier le sel FROID, juste avant de servir.", "en": "Chill for THREE HOURS and adjust the salt COLD, just before serving." }
+  ]
+}

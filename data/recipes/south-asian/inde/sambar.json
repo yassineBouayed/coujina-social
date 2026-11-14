@@ -1,0 +1,42 @@
+{
+  "slug": "sambar",
+  "cuisine": "south-asian",
+  "country": "inde",
+  "origin": "Inde",
+  "native_name": "Sambar",
+  "title": {
+    "fr": "Sambar, ragoût de lentilles au tamarin",
+    "en": "Sambar, lentil stew with tamarind"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 50 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["sud", "tamarin", "vegetarien", "quotidien"],
+  "ingredients": [
+    { "raw": "300 g de pois cassés", "qty": 300, "unit": "g", "item": "pois cassé" },
+    { "raw": "3 c. à s. de pâte de tamarin", "qty": 3, "unit": "tbsp", "item": "pâte de tamarin" },
+    { "raw": "2 carottes, en tronçons", "qty": 2, "unit": "piece", "item": "carotte", "prep": "en tronçons" },
+    { "raw": "1 aubergine, en cubes", "qty": 1, "unit": "piece", "item": "aubergine", "prep": "en cubes" },
+    { "raw": "200 g de gombos, en tronçons", "qty": 200, "unit": "g", "item": "gombo", "prep": "en tronçons" },
+    { "raw": "2 tomates, en quartiers", "qty": 2, "unit": "piece", "item": "tomate", "prep": "en quartiers" },
+    { "raw": "3 c. à s. de poudre de sambar", "qty": 3, "unit": "tbsp", "item": "poudre de curry" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "1 c. à c. de graines de moutarde", "qty": 1, "unit": "tsp", "item": "graine de moutarde", "group": "tadka" },
+    { "raw": "1 pincée d'asafoetida", "qty": 1, "unit": "pinch", "item": "asafoetida", "group": "tadka" },
+    { "raw": "15 feuilles de curry", "qty": 15, "unit": "piece", "item": "feuille de curry", "group": "tadka" },
+    { "raw": "2 piments séchés", "qty": 2, "unit": "piece", "item": "piment séché", "group": "tadka" },
+    { "raw": "5 c. à s. d'huile de sésame", "qty": 5, "unit": "tbsp", "item": "huile de sésame", "group": "tadka" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire les pois cassés avec le curcuma trente minutes, jusqu'à ce qu'ils se défassent, puis les écraser.", "en": "Cook the split peas with the turmeric for thirty minutes, until they collapse, then mash them." },
+    { "fr": "Cuire les légumes séparément dans l'eau tamarinée, du plus dur au plus tendre.", "en": "Cook the vegetables separately in the tamarind water, from firmest to softest." },
+    { "fr": "Ajouter les gombos en dernier et ne plus remuer : remués, ils rendent le sambar filant.", "en": "Add the okra last and stop stirring: stirred, they make the sambar ropy." },
+    { "fr": "Réunir lentilles et légumes, ajouter la poudre de sambar, et laisser dix minutes.", "en": "Combine the lentils and vegetables, add the sambar powder, and cook for ten minutes." },
+    { "fr": "Faire le tadka à l'huile de sésame : moutarde éclatée, asafoetida, piments, feuilles de curry.", "en": "Make the tadka in sesame oil: popped mustard, asafoetida, chillies, curry leaves." },
+    { "fr": "Verser sur le sambar et couvrir immédiatement pour enfermer les arômes.", "en": "Pour it over the sambar and cover at once to trap the aromas." }
+  ]
+}

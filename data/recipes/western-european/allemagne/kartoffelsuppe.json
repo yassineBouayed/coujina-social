@@ -1,0 +1,40 @@
+{
+  "slug": "kartoffelsuppe",
+  "cuisine": "western-european",
+  "country": "allemagne",
+  "origin": "Allemagne",
+  "native_name": "Kartoffelsuppe",
+  "title": {
+    "fr": "Soupe de pommes de terre à la marjolaine",
+    "en": "Potato soup with marjoram"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hiver", "soupe", "quotidien", "famille"],
+  "ingredients": [
+    { "raw": "1 kg de pommes de terre, en dés", "qty": 1000, "unit": "g", "item": "pomme de terre", "prep": "en dés" },
+    { "raw": "3 carottes, en dés", "qty": 3, "unit": "piece", "item": "carotte", "prep": "en dés" },
+    { "raw": "1 poireau, en rondelles", "qty": 1, "unit": "piece", "item": "poireau", "prep": "en rondelles" },
+    { "raw": "1/4 de céleri-rave, en dés", "qty": 0.25, "unit": "piece", "item": "céleri-rave", "prep": "en dés" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "150 g de lardons", "qty": 150, "unit": "g", "item": "lardon" },
+    { "raw": "1,5 l de bouillon de bœuf", "qty": 1.5, "unit": "l", "item": "bouillon boeuf" },
+    { "raw": "15 cl de crème liquide", "qty": 15, "unit": "cl", "item": "crème liquide" },
+    { "raw": "2 c. à c. de marjolaine séchée", "qty": 2, "unit": "tsp", "item": "marjolaine" },
+    { "raw": "4 saucisses fumées, en rondelles", "qty": 4, "unit": "piece", "item": "saucisse fumée", "prep": "en rondelles", "optional": true },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La MARJOLAINE est l'herbe de cette soupe : elle n'est pas interchangeable avec le thym ou l'origan.", "en": "MARJORAM is this soup's herb: it is not interchangeable with thyme or oregano." },
+    { "fr": "Faire fondre les lardons, puis les légumes racines, quinze minutes à feu doux.", "en": "Render the bacon, then the root vegetables, for fifteen minutes over low heat." },
+    { "fr": "Mouiller au bouillon et cuire trente minutes, jusqu'à ce que tout soit tendre.", "en": "Add the stock and cook for thirty minutes, until everything is tender." },
+    { "fr": "Mixer SEULEMENT LA MOITIÉ de la soupe : c'est ce qui donne la texture allemande, épaisse mais avec des morceaux.", "en": "Blend ONLY HALF the soup: that gives the German texture, thick but still chunky." },
+    { "fr": "Ajouter la crème hors du feu, sans faire bouillir ensuite.", "en": "Add the cream off the heat, and do not boil afterwards." },
+    { "fr": "Frotter la marjolaine entre les paumes avant de l'ajouter : cela libère ses huiles.", "en": "Rub the marjoram between your palms before adding it: this releases its oils." }
+  ]
+}

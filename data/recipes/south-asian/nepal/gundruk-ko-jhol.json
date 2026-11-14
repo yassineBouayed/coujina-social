@@ -1,0 +1,39 @@
+{
+  "slug": "gundruk-ko-jhol",
+  "cuisine": "south-asian",
+  "country": "nepal",
+  "origin": "Népal",
+  "native_name": "Gundruk ko jhol",
+  "title": {
+    "fr": "Soupe de gundruk aux pommes de terre",
+    "en": "Gundruk soup with potatoes"
+  },
+  "meal_type": "soup",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 40 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fermente", "hiver", "montagne", "acide"],
+  "ingredients": [
+    { "raw": "80 g de gundruk", "qty": 80, "unit": "g", "item": "gundruk" },
+    { "raw": "3 pommes de terre, en cubes", "qty": 3, "unit": "piece", "item": "pomme de terre", "prep": "en cubes" },
+    { "raw": "200 g de haricot mungo, trempé", "qty": 200, "unit": "g", "item": "haricot mungo", "prep": "trempé" },
+    { "raw": "2 tomates, en dés", "qty": 2, "unit": "piece", "item": "tomate", "prep": "en dés" },
+    { "raw": "1 oignon, émincé", "qty": 1, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "1 c. à s. de pâte gingembre-ail", "qty": 1, "unit": "tbsp", "item": "pâte gingembre-ail" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "1 c. à c. de timur, moulu", "qty": 1, "unit": "tsp", "item": "timur", "prep": "moulu" },
+    { "raw": "3 piments séchés", "qty": 3, "unit": "piece", "item": "piment séché" },
+    { "raw": "5 c. à s. d'huile de moutarde", "qty": 5, "unit": "tbsp", "item": "huile de moutarde" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le gundruk est un légume-feuille fermenté puis séché : c'est la conserve des montagnes népalaises.", "en": "Gundruk is a leaf vegetable fermented then dried: the preserve of the Nepali hills." },
+    { "fr": "Le rincer et le faire tremper vingt minutes, puis l'essorer.", "en": "Rinse it and soak it for twenty minutes, then wring it out." },
+    { "fr": "Le griller à sec deux minutes dans la casserole : cela réveille son acidité.", "en": "Toast it dry for two minutes in the pan: this wakes up its sourness." },
+    { "fr": "Faire revenir oignon, piments et gingembre-ail dans l'huile de moutarde, puis ajouter le curcuma.", "en": "Fry the onion, chillies and ginger-garlic in the mustard oil, then add the turmeric." },
+    { "fr": "Ajouter gundruk, haricots mungo, tomates, pommes de terre et 1,5 l d'eau.", "en": "Add the gundruk, mung beans, tomatoes, potatoes and 1.5 litres of water." },
+    { "fr": "Cuire trente minutes et finir au timur moulu : la soupe doit être franchement acide.", "en": "Cook for thirty minutes and finish with ground timur: the soup should be frankly sour." }
+  ]
+}

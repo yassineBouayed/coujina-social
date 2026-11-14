@@ -1,0 +1,40 @@
+{
+  "slug": "tarte-aux-oignons-suisse",
+  "cuisine": "western-european",
+  "country": "suisse",
+  "origin": "Suisse",
+  "native_name": "Zwiebelkuchen",
+  "title": {
+    "fr": "Tarte à l'oignon suisse",
+    "en": "Swiss onion tart"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 35, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["automne", "oignon", "tarte", "famille"],
+  "ingredients": [
+    { "raw": "250 g de farine de blé", "qty": 250, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "125 g de beurre, froid", "qty": 125, "unit": "g", "item": "beurre", "prep": "froid", "group": "pâte" },
+    { "raw": "5 cl d'eau glacée", "qty": 5, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "1,2 kg d'oignons, émincés", "qty": 1200, "unit": "g", "item": "oignon", "prep": "émincé", "group": "garniture" },
+    { "raw": "200 g de lardons", "qty": 200, "unit": "g", "item": "lardon", "group": "garniture" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf", "group": "appareil" },
+    { "raw": "25 cl de crème fraîche", "qty": 25, "unit": "cl", "item": "crème fraîche", "group": "appareil" },
+    { "raw": "2 c. à s. de carvi", "qty": 2, "unit": "tbsp", "item": "carvi", "group": "appareil" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée", "group": "appareil" },
+    { "raw": "60 g de gruyère, râpé", "qty": 60, "unit": "g", "item": "gruyère", "prep": "râpé" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Un kilo deux d'oignons pour une tarte : ils réduisent des trois quarts en cuisant.", "en": "One and a bit kilos of onion for one tart: they shrink by three quarters as they cook." },
+    { "fr": "Les faire fondre QUARANTE MINUTES à feu doux, à couvert, jusqu'à ce qu'ils soient translucides.", "en": "Melt them for FORTY MINUTES over low heat, covered, until translucent." },
+    { "fr": "Il ne s'agit pas de les caraméliser : la tarte suisse veut des oignons pâles et fondants.", "en": "They are not to be caramelised: the Swiss tart wants pale, melting onions." },
+    { "fr": "Les laisser REFROIDIR avant l'appareil : chauds, ils cuiraient les œufs à l'avance.", "en": "COOL them before adding the custard: warm, they would scramble the eggs early." },
+    { "fr": "Le CARVI est l'épice de cette tarte : il rend les oignons plus digestes et parfume tout.", "en": "CARAWAY is this tart's spice: it makes the onions easier to digest and scents everything." },
+    { "fr": "Cuire la pâte à blanc quinze minutes, garnir, et cuire trente minutes à 190 °C.", "en": "Blind-bake the pastry for fifteen minutes, fill it, and bake thirty minutes at 190°C." }
+  ]
+}

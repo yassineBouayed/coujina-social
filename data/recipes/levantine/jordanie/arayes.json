@@ -1,0 +1,38 @@
+{
+  "slug": "arayes",
+  "cuisine": "levantine",
+  "country": "jordanie",
+  "origin": "Jordanie",
+  "native_name": "Arayes",
+  "title": {
+    "fr": "Arayes, pains pita grillés farcis à la viande",
+    "en": "Arayes, grilled pita stuffed with meat"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rapide", "grillade", "pita", "enfants"],
+  "ingredients": [
+    { "raw": "4 pains pita", "qty": 4, "unit": "piece", "item": "pain pita" },
+    { "raw": "500 g d'agneau haché", "qty": 500, "unit": "g", "item": "agneau haché" },
+    { "raw": "1 oignon, râpé et pressé", "qty": 1, "unit": "piece", "item": "oignon", "prep": "râpé et pressé" },
+    { "raw": "2 tomates, en tout petits dés et égouttées", "qty": 2, "unit": "piece", "item": "tomate", "prep": "en tout petits dés" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "1 c. à c. de baharat", "qty": 1, "unit": "tsp", "item": "baharat" },
+    { "raw": "1 c. à s. de concentré de tomate", "qty": 1, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "4 c. à s. d'huile d'olive", "qty": 4, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Mélanger la viande, l'oignon pressé, les tomates égouttées, le persil, le concentré et les épices.", "en": "Mix the meat, squeezed onion, drained tomatoes, parsley, purée and spices." },
+    { "fr": "Une farce humide détrempe le pain avant qu'il grille : tout doit être bien essoré.", "en": "A wet filling soaks the bread before it toasts: everything must be well drained." },
+    { "fr": "Ouvrir les pitas et étaler une couche FINE de viande crue, à peine un demi-centimètre.", "en": "Split the pitas and spread a THIN layer of raw meat, barely half a centimetre." },
+    { "fr": "Badigeonner l'extérieur d'huile d'olive des deux côtés.", "en": "Brush the outside with olive oil on both sides." },
+    { "fr": "Griller sur une plancha ou au four à 220 °C, huit minutes par face, en pressant.", "en": "Grill on a plancha or in a 220°C oven, eight minutes a side, pressing down." },
+    { "fr": "Couper en quartiers et servir avec du yaourt à l'ail.", "en": "Cut into wedges and serve with garlic yoghurt." }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "kashk-e-bademjan",
+  "cuisine": "middle-eastern",
+  "country": "iran",
+  "origin": "Iran",
+  "native_name": "Kashk-e bademjan",
+  "title": {
+    "fr": "Kashk-e bademjan, aubergines au petit-lait fermenté",
+    "en": "Kashk-e bademjan, aubergine with fermented whey"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["kashk", "aubergine", "menthe", "entree"],
+  "ingredients": [
+    { "raw": "5 aubergines", "qty": 5, "unit": "piece", "item": "aubergine" },
+    { "raw": "20 cl de kashk", "qty": 20, "unit": "cl", "item": "kashk" },
+    { "raw": "4 oignons, émincés finement", "qty": 4, "unit": "piece", "item": "oignon", "prep": "émincé finement" },
+    { "raw": "8 gousses d'ail, écrasées", "qty": 8, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "2 c. à s. de menthe séchée", "qty": 2, "unit": "tbsp", "item": "menthe séchée" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "50 g de noix, concassées", "qty": 50, "unit": "g", "item": "noix", "prep": "concassée", "optional": true },
+    { "raw": "12 cl d'huile neutre", "qty": 12, "unit": "cl", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Peler les aubergines, les faire dégorger au sel, puis les frire jusqu'à ce qu'elles soient dorées.", "en": "Peel the aubergines, salt them to drain, then fry them until golden." },
+    { "fr": "Les écraser grossièrement au pilon : le kashk-e bademjan n'est pas lisse.", "en": "Crush them roughly with a pestle: kashk-e bademjan is not smooth." },
+    { "fr": "Frire les oignons jusqu'à ce qu'ils soient bruns, et en réserver la moitié.", "en": "Fry the onions until brown, and set half aside." },
+    { "fr": "Faire revenir l'ail puis la menthe séchée dans l'huile, quinze secondes chacun.", "en": "Fry the garlic then the dried mint in the oil, fifteen seconds each." },
+    { "fr": "Mélanger aubergines, oignons, ail et la moitié du kashk, et chauffer cinq minutes.", "en": "Combine the aubergine, onions, garlic and half the kashk, and warm for five minutes." },
+    { "fr": "Servir couvert du reste de kashk, d'oignons frits, de menthe et de safran, en dessinant.", "en": "Serve topped with the remaining kashk, fried onions, mint and saffron, drawn across the surface." }
+  ]
+}

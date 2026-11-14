@@ -1,0 +1,41 @@
+{
+  "slug": "dolma-algeroise",
+  "cuisine": "maghrebi",
+  "country": "algerie",
+  "origin": "Algérie",
+  "native_name": "Dolma",
+  "title": {
+    "fr": "Dolma algéroise, légumes farcis en sauce blanche",
+    "en": "Algiers dolma, stuffed vegetables in white sauce"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 50, "cook_min": 60 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["farci", "fete", "sauce-blanche", "legumes"],
+  "ingredients": [
+    { "raw": "4 courgettes, évidées", "qty": 4, "unit": "piece", "item": "courgette", "prep": "évidée" },
+    { "raw": "4 pommes de terre, évidées", "qty": 4, "unit": "piece", "item": "pomme de terre", "prep": "évidée" },
+    { "raw": "2 poivrons verts, évidés", "qty": 2, "unit": "piece", "item": "poivron vert", "prep": "évidé" },
+    { "raw": "500 g de viande hachée d'agneau", "qty": 500, "unit": "g", "item": "agneau haché", "group": "farce" },
+    { "raw": "100 g de riz rond", "qty": 100, "unit": "g", "item": "riz rond", "group": "farce" },
+    { "raw": "1 oignon, râpé", "qty": 1, "unit": "piece", "item": "oignon", "prep": "râpé", "group": "farce" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé", "group": "farce" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle", "group": "farce" },
+    { "raw": "200 g de pois chiches secs, trempés la veille", "qty": 200, "unit": "g", "item": "pois chiche sec", "prep": "trempé la veille" },
+    { "raw": "1/2 c. à c. de poivre blanc", "qty": 0.5, "unit": "tsp", "item": "poivre blanc" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "5 c. à s. d'huile neutre", "qty": 5, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Mélanger la viande, le riz cru, l'oignon râpé, le persil, la cannelle et le sel : le riz doit rester cru, il cuira dans le légume.", "en": "Mix the meat, raw rice, grated onion, parsley, cinnamon and salt: the rice stays raw and will cook inside the vegetable." },
+    { "fr": "Farcir les légumes aux deux tiers seulement : le riz gonfle et fait éclater ce qui est trop rempli.", "en": "Fill the vegetables only two-thirds full: the rice swells and bursts anything packed tight." },
+    { "fr": "Ranger les légumes debout et serrés dans la cocotte, pour qu'ils se tiennent entre eux.", "en": "Pack the vegetables upright and tight in the pot, so they hold each other up." },
+    { "fr": "Mouiller à mi-hauteur avec de l'eau, l'huile, le poivre blanc et les pois chiches. Ne pas noyer.", "en": "Add water to halfway up, with the oil, white pepper and chickpeas. Do not drown them." },
+    { "fr": "Cuire à couvert une heure à feu doux, sans jamais remuer : on secoue la cocotte, on ne touche pas à la cuillère.", "en": "Cook covered for an hour over low heat, never stirring: shake the pot, never use a spoon." },
+    { "fr": "Ajouter le jus de citron cinq minutes avant la fin, et servir la sauce à part.", "en": "Add the lemon juice five minutes before the end, and serve the sauce alongside." }
+  ]
+}

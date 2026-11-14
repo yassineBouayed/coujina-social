@@ -1,0 +1,40 @@
+{
+  "slug": "khao-soi",
+  "cuisine": "southeast-asian",
+  "country": "thailande",
+  "origin": "Thaïlande",
+  "native_name": "ข้าวซอย",
+  "title": {
+    "fr": "Khao soi, nouilles au curry du Nord",
+    "en": "Khao soi, northern curry noodle soup"
+  },
+  "meal_type": "soup",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 40 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["chiang-mai", "coco", "nouilles", "friture"],
+  "ingredients": [
+    { "raw": "400 g de nouilles aux œufs", "qty": 400, "unit": "g", "item": "nouilles de blé" },
+    { "raw": "600 g de cuisses de poulet, en morceaux", "qty": 600, "unit": "g", "item": "cuisse de poulet", "prep": "en morceaux" },
+    { "raw": "4 c. à s. de pâte de curry rouge", "qty": 4, "unit": "tbsp", "item": "pâte de curry rouge" },
+    { "raw": "1 c. à s. de poudre de curry", "qty": 1, "unit": "tbsp", "item": "poudre de curry" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "80 cl de lait de coco", "qty": 80, "unit": "cl", "item": "lait de coco" },
+    { "raw": "3 c. à s. de sauce poisson", "qty": 3, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "2 c. à s. de sucre de palme", "qty": 2, "unit": "tbsp", "item": "sucre de palme" },
+    { "raw": "1 oignon rouge, émincé", "qty": 1, "unit": "piece", "item": "oignon rouge", "prep": "émincé", "group": "garniture" },
+    { "raw": "100 g de chou fermenté", "qty": 100, "unit": "g", "item": "kimchi", "group": "garniture" },
+    { "raw": "2 citrons verts, en quartiers", "qty": 2, "unit": "piece", "item": "citron vert", "group": "garniture" },
+    { "raw": "50 cl d'huile neutre pour la friture", "qty": 50, "unit": "cl", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Le khao soi porte DEUX fois des nouilles : bouillies dans le bol, et frites croustillantes par-dessus.", "en": "Khao soi carries noodles TWICE: boiled in the bowl, and fried crisp on top." },
+    { "fr": "Frire une poignée de nouilles crues à 180 °C jusqu'à ce qu'elles gonflent, et les réserver.", "en": "Fry a handful of raw noodles at 180°C until they puff, and set them aside." },
+    { "fr": "Casser la crème de coco et y frire la pâte de curry, la poudre de curry et le curcuma.", "en": "Crack the coconut cream and fry the curry paste, curry powder and turmeric in it." },
+    { "fr": "Ajouter le poulet, l'enrober, puis le reste du lait de coco, et laisser mijoter trente minutes.", "en": "Add the chicken, coat it, then the remaining coconut milk, and simmer for thirty minutes." },
+    { "fr": "Cuire les nouilles fraîches et les répartir dans les bols avant de verser le curry brûlant.", "en": "Cook the fresh noodles and divide them into the bowls before pouring over the scalding curry." },
+    { "fr": "Couvrir des nouilles frites et servir avec oignon cru, chou fermenté et citron vert.", "en": "Top with the fried noodles and serve with raw onion, pickled greens and lime." }
+  ]
+}

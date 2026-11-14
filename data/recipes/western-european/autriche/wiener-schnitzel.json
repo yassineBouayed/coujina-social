@@ -1,0 +1,37 @@
+{
+  "slug": "wiener-schnitzel",
+  "cuisine": "western-european",
+  "country": "autriche",
+  "origin": "Autriche",
+  "native_name": "Wiener Schnitzel",
+  "title": {
+    "fr": "Escalope viennoise panée",
+    "en": "Viennese breaded veal escalope"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["vienne", "embleme", "veau", "friture"],
+  "ingredients": [
+    { "raw": "4 escalopes de veau", "qty": 700, "unit": "g", "item": "veau", "prep": "en escalopes" },
+    { "raw": "150 g de farine de blé", "qty": 150, "unit": "g", "item": "farine de blé" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf" },
+    { "raw": "250 g de chapelure", "qty": 250, "unit": "g", "item": "panko" },
+    { "raw": "300 g de saindoux", "qty": 300, "unit": "g", "item": "saindoux" },
+    { "raw": "2 citrons, en quartiers", "qty": 2, "unit": "piece", "item": "citron", "prep": "en quartiers" },
+    { "raw": "1 c. à s. de crème liquide", "qty": 1, "unit": "tbsp", "item": "crème liquide" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le vrai Wiener Schnitzel est au VEAU : au porc, il s'appelle Schnitzel Wiener Art, et c'est écrit ainsi.", "en": "A real Wiener Schnitzel is VEAL: with pork it is called Schnitzel Wiener Art, and it must say so." },
+    { "fr": "Aplatir à QUATRE MILLIMÈTRES, entre deux feuilles, sans jamais déchirer la viande.", "en": "Flatten to FOUR MILLIMETRES, between two sheets, without ever tearing the meat." },
+    { "fr": "Ajouter une cuillère de crème aux œufs battus : la panure adhère mieux et dore plus régulièrement.", "en": "Add a spoon of cream to the beaten eggs: the coating clings better and browns more evenly." },
+    { "fr": "Paner sans TASSER la chapelure : elle doit rester lâche, c'est ce qui la fera gonfler.", "en": "Bread it without PRESSING the crumbs: they must stay loose, and that is what makes them puff." },
+    { "fr": "Frire dans BEAUCOUP de saindoux, l'escalope doit FLOTTER, et SECOUER la poêle sans arrêt.", "en": "Fry in PLENTY of lard, the escalope must FLOAT, and SHAKE the pan constantly." },
+    { "fr": "C'est ce mouvement qui fait que la panure se soulève et forme des cloques : c'est la marque du plat.", "en": "That movement is what lifts the coating into blisters: the dish's hallmark." }
+  ]
+}

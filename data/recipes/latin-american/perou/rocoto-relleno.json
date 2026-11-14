@@ -1,0 +1,43 @@
+{
+  "slug": "rocoto-relleno",
+  "cuisine": "latin-american",
+  "country": "perou",
+  "origin": "Pérou",
+  "native_name": "Rocoto relleno",
+  "title": {
+    "fr": "Piments rocoto farcis d'Arequipa",
+    "en": "Arequipa stuffed rocoto peppers"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 45, "cook_min": 50 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["arequipa", "piment", "farci", "four"],
+  "ingredients": [
+    { "raw": "6 piments rocoto", "qty": 6, "unit": "piece", "item": "piment frais", "prep": "variété rocoto" },
+    { "raw": "600 g de bœuf haché", "qty": 600, "unit": "g", "item": "boeuf haché" },
+    { "raw": "3 oignons rouges, hachés", "qty": 3, "unit": "piece", "item": "oignon rouge", "prep": "haché" },
+    { "raw": "80 g de raisins secs", "qty": 80, "unit": "g", "item": "raisin sec" },
+    { "raw": "80 g de cacahuètes, concassées", "qty": 80, "unit": "g", "item": "cacahuète", "prep": "concassée" },
+    { "raw": "4 œufs durs, hachés", "qty": 4, "unit": "piece", "item": "oeuf", "prep": "dur, haché" },
+    { "raw": "100 g d'olives noires, hachées", "qty": 100, "unit": "g", "item": "olive noire", "prep": "hachée" },
+    { "raw": "3 c. à s. de cumin moulu", "qty": 3, "unit": "tbsp", "item": "cumin" },
+    { "raw": "300 g de queso fresco, en tranches", "qty": 300, "unit": "g", "item": "queso fresco", "prep": "en tranches" },
+    { "raw": "30 cl de lait évaporé", "qty": 30, "unit": "cl", "item": "lait évaporé" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf" },
+    { "raw": "800 g de pommes de terre, en tranches", "qty": 800, "unit": "g", "item": "pomme de terre", "prep": "en tranches" },
+    { "raw": "30 cl de vinaigre blanc", "qty": 30, "unit": "cl", "item": "vinaigre blanc" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le ROCOTO est un piment TRÈS fort : sans préparation, le plat est immangeable.", "en": "The ROCOTO is a VERY hot chilli: without preparation, the dish is inedible." },
+    { "fr": "Les faire bouillir TROIS FOIS dans de l'eau vinaigrée et sucrée, en changeant l'eau chaque fois.", "en": "Boil them THREE TIMES in sweetened vinegared water, changing the water each time." },
+    { "fr": "Retirer TOUTES les graines et les nervures blanches : elles portent l'essentiel du piquant.", "en": "Remove ALL the seeds and white ribs: they carry most of the heat." },
+    { "fr": "Porter des GANTS pour les manipuler : l'huile du rocoto brûle la peau pendant des heures.", "en": "Wear GLOVES to handle them: rocoto oil burns the skin for hours." },
+    { "fr": "Farcir sans tasser, poser une tranche de fromage sur le dessus et remettre le chapeau.", "en": "Fill without packing, lay a slice of cheese on top and replace the lid." },
+    { "fr": "Cuire sur un lit de pommes de terre, nappé de lait évaporé battu aux œufs, 45 minutes à 180 °C.", "en": "Bake on a bed of potatoes, coated with evaporated milk beaten with eggs, 45 minutes at 180°C." }
+  ]
+}

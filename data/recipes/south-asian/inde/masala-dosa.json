@@ -1,0 +1,40 @@
+{
+  "slug": "masala-dosa",
+  "cuisine": "south-asian",
+  "country": "inde",
+  "origin": "Inde",
+  "native_name": "Masala dosa",
+  "title": {
+    "fr": "Masala dosa, crêpe fermentée farcie",
+    "en": "Masala dosa, fermented crepe with potato filling"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 40 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["sud", "fermentation", "vegetarien", "petit-dejeuner"],
+  "ingredients": [
+    { "raw": "300 g de riz long grain", "qty": 300, "unit": "g", "item": "riz long grain", "group": "pâte" },
+    { "raw": "100 g de lentilles noires décortiquées", "qty": 100, "unit": "g", "item": "lentille noire", "group": "pâte" },
+    { "raw": "1 c. à c. de fenugrec", "qty": 1, "unit": "tsp", "item": "fenugrec", "group": "pâte" },
+    { "raw": "800 g de pommes de terre, cuites", "qty": 800, "unit": "g", "item": "pomme de terre", "prep": "cuite", "group": "farce" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé", "group": "farce" },
+    { "raw": "1 c. à c. de graines de moutarde", "qty": 1, "unit": "tsp", "item": "graine de moutarde", "group": "farce" },
+    { "raw": "15 feuilles de curry", "qty": 15, "unit": "piece", "item": "feuille de curry", "group": "farce" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma", "group": "farce" },
+    { "raw": "3 piments verts, hachés", "qty": 3, "unit": "piece", "item": "piment frais", "prep": "haché", "group": "farce" },
+    { "raw": "1 c. à s. de gingembre frais, râpé", "qty": 1, "unit": "tbsp", "item": "gingembre", "prep": "râpé", "group": "farce" },
+    { "raw": "8 c. à s. d'huile neutre", "qty": 8, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Tremper séparément le riz et les lentilles noires avec le fenugrec, six heures.", "en": "Soak the rice and the black lentils with the fenugreek separately, for six hours." },
+    { "fr": "Les mixer séparément — les lentilles très finement, le riz un peu granuleux — puis les mélanger à la main.", "en": "Blend them separately — the lentils very fine, the rice slightly grainy — then combine them by hand." },
+    { "fr": "Laisser fermenter DOUZE HEURES dans un endroit tiède : la pâte doit doubler et sentir l'aigre.", "en": "Ferment for TWELVE HOURS somewhere warm: the batter must double and smell sour." },
+    { "fr": "Sans fermentation, il n'y a ni bulles, ni acidité, ni croustillant : ce n'est plus une dosa.", "en": "Without fermentation there are no bubbles, no acidity, no crispness: it is no longer a dosa." },
+    { "fr": "Cuire la farce : moutarde éclatée, feuilles de curry, oignon, gingembre, curcuma, pommes de terre écrasées.", "en": "Cook the filling: popped mustard seeds, curry leaves, onion, ginger, turmeric, crushed potatoes." },
+    { "fr": "Étaler une louche de pâte en spirale sur une poêle brûlante huilée, cuire d'un seul côté, garnir et rouler.", "en": "Spread a ladle of batter in a spiral on a scorching oiled pan, cook on one side only, fill and roll." }
+  ]
+}

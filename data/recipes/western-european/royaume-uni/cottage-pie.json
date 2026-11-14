@@ -1,0 +1,43 @@
+{
+  "slug": "cottage-pie",
+  "cuisine": "western-european",
+  "country": "royaume-uni",
+  "origin": "Royaume-Uni",
+  "native_name": "Cottage pie",
+  "title": {
+    "fr": "Cottage pie au bœuf",
+    "en": "Cottage pie with beef"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 35, "cook_min": 60 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["famille", "boeuf", "gratin", "enfants"],
+  "ingredients": [
+    { "raw": "800 g de bœuf haché", "qty": 800, "unit": "g", "item": "boeuf haché" },
+    { "raw": "1,2 kg de pommes de terre", "qty": 1200, "unit": "g", "item": "pomme de terre" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "3 carottes, en petits dés", "qty": 3, "unit": "piece", "item": "carotte", "prep": "en petits dés" },
+    { "raw": "3 branches de céleri, en petits dés", "qty": 3, "unit": "piece", "item": "céleri branche", "prep": "en petits dés" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "2 c. à s. de sauce Worcestershire", "qty": 2, "unit": "tbsp", "item": "sauce Worcestershire" },
+    { "raw": "40 cl de bouillon de bœuf", "qty": 40, "unit": "cl", "item": "bouillon boeuf" },
+    { "raw": "15 cl de vin rouge", "qty": 15, "unit": "cl", "item": "vin rouge" },
+    { "raw": "100 g de beurre", "qty": 100, "unit": "g", "item": "beurre" },
+    { "raw": "15 cl de lait entier", "qty": 15, "unit": "cl", "item": "lait entier" },
+    { "raw": "120 g de cheddar, râpé", "qty": 120, "unit": "g", "item": "cheddar", "prep": "râpé" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Cottage pie est au BŒUF : la version à l'agneau s'appelle shepherd's pie, et la distinction est tenue.", "en": "Cottage pie is BEEF: the lamb version is shepherd's pie, and the distinction is kept." },
+    { "fr": "Faire un mirepoix fin — oignon, carotte, céleri — et le cuire quinze minutes avant la viande.", "en": "Make a fine mirepoix — onion, carrot, celery — and cook it fifteen minutes before the meat." },
+    { "fr": "Colorer la viande à feu vif en plusieurs fois : entassée, elle bout et reste grise.", "en": "Brown the meat over high heat in batches: crowded, it boils and stays grey." },
+    { "fr": "Déglacer au vin rouge, ajouter concentré, Worcestershire et bouillon, et réduire trente minutes.", "en": "Deglaze with red wine, add the purée, Worcestershire and stock, and reduce for thirty minutes." },
+    { "fr": "Laisser la garniture REFROIDIR avant de poser la purée : chaude, la purée s'y enfonce.", "en": "Let the filling COOL before topping it: on hot filling, the mash sinks in." },
+    { "fr": "Rayer, couvrir de cheddar, et cuire trente minutes à 200 °C.", "en": "Score it, cover with cheddar, and bake for thirty minutes at 200°C." }
+  ]
+}

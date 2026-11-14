@@ -1,0 +1,39 @@
+{
+  "slug": "kdam-chaa",
+  "cuisine": "southeast-asian",
+  "country": "cambodge",
+  "origin": "Cambodge",
+  "native_name": "ក្តាមឆា",
+  "title": {
+    "fr": "Kdam chaa, crabe au poivre vert de Kampot",
+    "en": "Kdam chaa, crab with green Kampot pepper"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["kep", "crabe", "poivre", "cote"],
+  "ingredients": [
+    { "raw": "2 crabes entiers de 800 g", "qty": 2, "unit": "piece", "item": "crabe" },
+    { "raw": "12 grappes de poivre vert de Kampot", "qty": 12, "unit": "piece", "item": "poivre de Kampot", "prep": "en grappes fraîches" },
+    { "raw": "1 tête d'ail, hachée", "qty": 10, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "4 oignons nouveaux, en tronçons", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "en tronçons" },
+    { "raw": "3 c. à s. de sauce huître", "qty": 3, "unit": "tbsp", "item": "sauce huître" },
+    { "raw": "2 c. à s. de sauce poisson", "qty": 2, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "2 c. à s. de sucre de palme", "qty": 2, "unit": "tbsp", "item": "sucre de palme" },
+    { "raw": "1 c. à s. de maïzena", "qty": 1, "unit": "tbsp", "item": "maïzena" },
+    { "raw": "15 cl de bouillon de volaille", "qty": 15, "unit": "cl", "item": "bouillon volaille" },
+    { "raw": "8 c. à s. d'huile neutre", "qty": 8, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "2 citrons verts, en quartiers", "qty": 2, "unit": "piece", "item": "citron vert", "group": "service" }
+  ],
+  "steps": [
+    { "fr": "Le poivre de Kampot VERT se mange en grappes entières, tige comprise : c'est le plat lui-même.", "en": "GREEN Kampot pepper is eaten in whole clusters, stem included: it is the dish itself." },
+    { "fr": "Découper les crabes en quartiers et concasser les pinces au dos du couteau.", "en": "Cut the crabs into quarters and crack the claws with the back of the knife." },
+    { "fr": "Les saisir dans l'huile très chaude, trois minutes, pour fermer la chair.", "en": "Sear them in very hot oil for three minutes, to seal the flesh." },
+    { "fr": "Ajouter l'ail et les grappes de poivre, et faire sauter une minute à feu vif.", "en": "Add the garlic and the pepper clusters, and toss for a minute over high heat." },
+    { "fr": "Verser sauces, sucre et bouillon, couvrir, et laisser cuire huit minutes.", "en": "Add the sauces, sugar and stock, cover, and cook for eight minutes." },
+    { "fr": "Lier à la maïzena, ajouter les oignons nouveaux, et servir avec du citron vert.", "en": "Thicken with cornflour, add the spring onions, and serve with lime." }
+  ]
+}

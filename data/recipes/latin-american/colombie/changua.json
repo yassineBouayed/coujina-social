@@ -1,0 +1,37 @@
+{
+  "slug": "changua",
+  "cuisine": "latin-american",
+  "country": "colombie",
+  "origin": "Colombie",
+  "native_name": "Changua",
+  "title": {
+    "fr": "Changua, soupe de lait aux œufs",
+    "en": "Changua, milk and egg soup"
+  },
+  "meal_type": "soup",
+  "servings": 4,
+  "times": { "prep_min": 10, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["bogota", "petit-dejeuner", "lait", "rapide"],
+  "ingredients": [
+    { "raw": "50 cl de lait entier", "qty": 50, "unit": "cl", "item": "lait entier" },
+    { "raw": "50 cl d'eau", "qty": 50, "unit": "cl", "item": "eau" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf" },
+    { "raw": "1 botte d'oignons nouveaux, émincés", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "émincé" },
+    { "raw": "1 bouquet de coriandre, ciselée", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "4 tranches de pain de campagne rassis", "qty": 4, "unit": "piece", "item": "pain", "prep": "rassis" },
+    { "raw": "120 g de queso fresco, émietté", "qty": 120, "unit": "g", "item": "queso fresco", "prep": "émietté", "optional": true },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La changua est le petit-déjeuner de Bogota : une soupe de lait, salée, avec un œuf poché dedans.", "en": "Changua is Bogotá's breakfast: a savoury milk soup with a poached egg in it." },
+    { "fr": "Le mélange est MOITIÉ LAIT MOITIÉ EAU : au lait pur, elle est trop lourde et tourne facilement.", "en": "The mix is HALF MILK HALF WATER: pure milk is too heavy and splits easily." },
+    { "fr": "Porter à FRÉMISSEMENT seulement : à ébullition, le lait tourne et forme une peau.", "en": "Bring it to a SIMMER only: at a boil, milk splits and forms a skin." },
+    { "fr": "Casser les œufs ENTIERS dans le liquide frémissant, un par bol, et ne plus y toucher.", "en": "Crack the eggs WHOLE into the simmering liquid, one per bowl, and leave them alone." },
+    { "fr": "Compter TROIS MINUTES : le blanc doit être pris, le jaune encore coulant.", "en": "Allow THREE MINUTES: the white set, the yolk still running." },
+    { "fr": "Poser le pain rassis AU FOND du bol et verser la soupe dessus, avec l'œuf.", "en": "Put the stale bread AT THE BOTTOM of the bowl and pour the soup over, with the egg." }
+  ]
+}

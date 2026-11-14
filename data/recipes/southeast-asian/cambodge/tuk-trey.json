@@ -1,0 +1,36 @@
+{
+  "slug": "tuk-trey",
+  "cuisine": "southeast-asian",
+  "country": "cambodge",
+  "origin": "Cambodge",
+  "native_name": "ទឹកត្រី",
+  "title": {
+    "fr": "Tuk trey, sauce khmère aux arachides",
+    "en": "Tuk trey, Khmer dipping sauce with peanuts"
+  },
+  "meal_type": "side",
+  "servings": 8,
+  "times": { "prep_min": 15, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["base", "sauce", "arachide", "citron-vert"],
+  "ingredients": [
+    { "raw": "8 c. à s. de sauce poisson", "qty": 8, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "6 c. à s. de sucre de palme", "qty": 6, "unit": "tbsp", "item": "sucre de palme" },
+    { "raw": "5 citrons verts, leur jus", "qty": 5, "unit": "piece", "item": "citron vert" },
+    { "raw": "20 cl d'eau tiède", "qty": 20, "unit": "cl", "item": "eau" },
+    { "raw": "6 gousses d'ail, hachées finement", "qty": 6, "unit": "piece", "item": "ail", "prep": "haché finement" },
+    { "raw": "4 piments oiseau, hachés", "qty": 4, "unit": "piece", "item": "piment oiseau", "prep": "haché" },
+    { "raw": "80 g d'arachides grillées, concassées", "qty": 80, "unit": "g", "item": "arachide grillée", "prep": "concassée" },
+    { "raw": "1 carotte, en fines lamelles", "qty": 1, "unit": "piece", "item": "carotte", "prep": "en fines lamelles", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Le tuk trey khmer se distingue du nuoc cham vietnamien par les ARACHIDES concassées.", "en": "Khmer tuk trey differs from Vietnamese nuoc cham by the crushed PEANUTS." },
+    { "fr": "Dissoudre le sucre de palme dans l'eau TIÈDE avant tout le reste.", "en": "Dissolve the palm sugar in WARM water before anything else." },
+    { "fr": "Ajouter la sauce poisson et le jus de citron vert, et goûter.", "en": "Add the fish sauce and lime juice, and taste." },
+    { "fr": "L'équilibre se règle à la langue : salé, sucré, acide, dans cet ordre d'importance.", "en": "The balance is set by tasting: salty, sweet, sour, in that order of importance." },
+    { "fr": "Ajouter ail et piments hachés : ils doivent FLOTTER, preuve que le sucre est dissous.", "en": "Add the chopped garlic and chillies: they should FLOAT, proof that the sugar has dissolved." },
+    { "fr": "Ajouter les arachides AU MOMENT DE SERVIR : trempées à l'avance, elles ramollissent.", "en": "Add the peanuts AT THE MOMENT OF SERVING: soaked in advance, they go soft." }
+  ]
+}

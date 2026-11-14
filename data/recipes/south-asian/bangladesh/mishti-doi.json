@@ -1,0 +1,32 @@
+{
+  "slug": "mishti-doi",
+  "cuisine": "south-asian",
+  "country": "bangladesh",
+  "origin": "Bangladesh",
+  "native_name": "Mishti doi",
+  "title": {
+    "fr": "Mishti doi, yaourt caramélisé en terre cuite",
+    "en": "Mishti doi, caramelised sweet yoghurt"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 40 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["yaourt", "caramel", "fete", "bengale"],
+  "ingredients": [
+    { "raw": "1,5 l de lait entier", "qty": 1.5, "unit": "l", "item": "lait entier" },
+    { "raw": "200 g de panela", "qty": 200, "unit": "g", "item": "panela" },
+    { "raw": "4 c. à s. de yaourt", "qty": 4, "unit": "tbsp", "item": "yaourt" },
+    { "raw": "1/2 c. à c. de cardamome moulue", "qty": 0.5, "unit": "tsp", "item": "cardamome", "prep": "moulue", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Faire réduire le lait de moitié, à découvert, quarante minutes, en remuant régulièrement.", "en": "Reduce the milk by half, uncovered, for forty minutes, stirring regularly." },
+    { "fr": "Cette réduction est ce qui donne au mishti doi sa densité : sans elle, on obtient un yaourt sucré ordinaire.", "en": "That reduction is what gives mishti doi its density: without it, you get an ordinary sweet yoghurt." },
+    { "fr": "Faire fondre la panela à part jusqu'à ce qu'elle caramélise légèrement, puis l'ajouter au lait.", "en": "Melt the panela separately until it just caramelises, then add it to the milk." },
+    { "fr": "Laisser TIÉDIR jusqu'à 40 °C : plus chaud, le lait tuerait les ferments du yaourt.", "en": "Let it cool to 40°C: any hotter and the milk would kill the yoghurt cultures." },
+    { "fr": "Incorporer le yaourt en fouettant, puis verser dans des pots en terre cuite.", "en": "Whisk in the yoghurt, then pour into earthenware pots." },
+    { "fr": "Couvrir et laisser fermenter huit heures dans un endroit tiède, sans bouger les pots.", "en": "Cover and ferment for eight hours somewhere warm, without moving the pots." }
+  ]
+}

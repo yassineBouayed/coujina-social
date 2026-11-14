@@ -1,0 +1,32 @@
+{
+  "slug": "paratha",
+  "cuisine": "south-asian",
+  "country": "pakistan",
+  "origin": "Pakistan",
+  "native_name": "Paratha",
+  "title": {
+    "fr": "Paratha feuilleté au ghee",
+    "en": "Flaky ghee paratha"
+  },
+  "meal_type": "bread",
+  "servings": 6,
+  "times": { "prep_min": 35, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["petit-dejeuner", "feuillete", "ghee", "quotidien"],
+  "ingredients": [
+    { "raw": "500 g de farine complète", "qty": 500, "unit": "g", "item": "farine complète" },
+    { "raw": "30 cl d'eau tiède", "qty": 30, "unit": "cl", "item": "eau" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "120 g de ghee, fondu", "qty": 120, "unit": "g", "item": "ghee", "prep": "fondu" }
+  ],
+  "steps": [
+    { "fr": "Pétrir la farine complète, le sel et l'eau dix minutes, et laisser reposer trente minutes.", "en": "Knead the wholemeal flour, salt and water for ten minutes, and rest for thirty minutes." },
+    { "fr": "Étaler un disque fin, le badigeonner généreusement de ghee et le saupoudrer de farine.", "en": "Roll a thin disc, brush it generously with ghee and dust it with flour." },
+    { "fr": "Le rouler en boudin serré, puis enrouler ce boudin sur lui-même en escargot.", "en": "Roll it into a tight rope, then coil that rope into a spiral." },
+    { "fr": "C'est cet enroulement qui crée les couches : sans lui, on obtient un chapati au beurre.", "en": "That coiling is what creates the layers: without it, you get a buttered chapati." },
+    { "fr": "Laisser reposer dix minutes, puis étaler délicatement l'escargot, sans écraser les couches.", "en": "Rest for ten minutes, then gently roll the spiral out, without crushing the layers." },
+    { "fr": "Cuire à la poêle avec du ghee, trois minutes par face, en pressant les bords à la spatule.", "en": "Cook in a pan with ghee, three minutes a side, pressing the edges with a spatula." }
+  ]
+}

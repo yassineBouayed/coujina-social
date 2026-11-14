@@ -1,0 +1,42 @@
+{
+  "slug": "blanquette-de-veau",
+  "cuisine": "french",
+  "country": "france",
+  "origin": "France",
+  "native_name": "Blanquette de veau",
+  "title": {
+    "fr": "Blanquette de veau à l'ancienne",
+    "en": "Classic veal blanquette"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 110 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["dimanche", "creme", "veau", "classique"],
+  "ingredients": [
+    { "raw": "1,2 kg de veau à mijoter, en gros cubes", "qty": 1200, "unit": "g", "item": "veau à mijoter", "prep": "en gros cubes" },
+    { "raw": "3 carottes, en tronçons", "qty": 3, "unit": "piece", "item": "carotte", "prep": "en tronçons" },
+    { "raw": "2 poireaux, en tronçons", "qty": 2, "unit": "piece", "item": "poireau", "prep": "en tronçons" },
+    { "raw": "1 oignon piqué de 3 clous de girofle", "qty": 1, "unit": "piece", "item": "oignon", "prep": "piqué de girofle" },
+    { "raw": "1 bouquet garni", "qty": 1, "unit": "piece", "item": "bouquet garni" },
+    { "raw": "250 g de champignons de Paris", "qty": 250, "unit": "g", "item": "champignon de Paris" },
+    { "raw": "200 g de petits oignons grelots", "qty": 200, "unit": "g", "item": "oignon nouveau" },
+    { "raw": "60 g de beurre", "qty": 60, "unit": "g", "item": "beurre", "group": "velouté" },
+    { "raw": "60 g de farine de blé", "qty": 60, "unit": "g", "item": "farine de blé", "group": "velouté" },
+    { "raw": "20 cl de crème fraîche", "qty": 20, "unit": "cl", "item": "crème fraîche", "group": "liaison" },
+    { "raw": "2 jaunes d'œufs", "qty": 2, "unit": "piece", "item": "oeuf", "group": "liaison" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron", "group": "liaison" },
+    { "raw": "sel et poivre blanc", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre blanc", "qty": null, "unit": null, "item": "poivre blanc" }
+  ],
+  "steps": [
+    { "fr": "La blanquette est BLANCHE : la viande ne se colore jamais, elle part à l'eau froide.", "en": "A blanquette is WHITE: the meat is never browned, it starts in cold water." },
+    { "fr": "Porter à frémissement et écumer soigneusement pendant dix minutes, jusqu'à ce que le bouillon soit clair.", "en": "Bring to a simmer and skim carefully for ten minutes, until the broth runs clear." },
+    { "fr": "Ajouter la garniture aromatique et cuire une heure et demie à petits frémissements.", "en": "Add the aromatic garnish and cook for an hour and a half at a bare simmer." },
+    { "fr": "Faire un roux BLANC — beurre et farine cuits sans coloration — et le mouiller au bouillon filtré.", "en": "Make a WHITE roux — butter and flour cooked without colour — and moisten it with the strained broth." },
+    { "fr": "Mélanger crème et jaunes, y verser une louche de velouté CHAUD en fouettant, puis reverser le tout.", "en": "Mix the cream and yolks, whisk in a ladle of the HOT velouté, then return it all to the pan." },
+    { "fr": "NE PLUS FAIRE BOUILLIR après la liaison : les jaunes coaguleraient et la sauce grainerait.", "en": "DO NOT BOIL after the liaison: the yolks would coagulate and the sauce would curdle." }
+  ]
+}

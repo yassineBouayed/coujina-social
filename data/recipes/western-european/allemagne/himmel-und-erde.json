@@ -1,0 +1,38 @@
+{
+  "slug": "himmel-und-erde",
+  "cuisine": "western-european",
+  "country": "allemagne",
+  "origin": "Allemagne",
+  "native_name": "Himmel un Ääd",
+  "title": {
+    "fr": "Ciel et terre, pommes et pommes de terre au boudin",
+    "en": "Heaven and earth, apple, potato and blood sausage"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 35 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rhenanie", "boudin", "pomme", "rustique"],
+  "ingredients": [
+    { "raw": "800 g de pommes de terre, en morceaux", "qty": 800, "unit": "g", "item": "pomme de terre", "prep": "en morceaux" },
+    { "raw": "600 g de pommes, en quartiers", "qty": 600, "unit": "g", "item": "pomme", "prep": "en quartiers" },
+    { "raw": "4 boudins noirs", "qty": 4, "unit": "piece", "item": "boudin noir" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "80 g de beurre", "qty": 80, "unit": "g", "item": "beurre" },
+    { "raw": "10 cl de lait entier", "qty": 10, "unit": "cl", "item": "lait entier" },
+    { "raw": "2 c. à s. de vinaigre de vin", "qty": 2, "unit": "tbsp", "item": "vinaigre de vin" },
+    { "raw": "1 c. à s. de sucre", "qty": 1, "unit": "tbsp", "item": "sucre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le ciel, ce sont les pommes qui poussent en hauteur ; la terre, les pommes de terre. Le nom dit la recette.", "en": "Heaven is the apples that grow above; earth is the potatoes. The name is the recipe." },
+    { "fr": "Cuire les pommes de terre à l'eau salée et les pommes À PART, avec vinaigre et sucre.", "en": "Boil the potatoes in salted water and cook the apples SEPARATELY, with vinegar and sugar." },
+    { "fr": "Cuites ensemble, les pommes se défont bien avant que les pommes de terre soient tendres.", "en": "Cooked together, the apples collapse long before the potatoes are done." },
+    { "fr": "Écraser grossièrement les pommes de terre au beurre et au lait chaud, en gardant des morceaux.", "en": "Crush the potatoes roughly with butter and hot milk, keeping some texture." },
+    { "fr": "Faire dorer les oignons vingt minutes, puis poêler le boudin tranché à feu VIF.", "en": "Fry the onions for twenty minutes, then pan-fry the sliced blood sausage over HIGH heat." },
+    { "fr": "Le boudin se saisit deux minutes par face : trop cuit, il se délite en bouillie.", "en": "The blood sausage sears two minutes a side: overcooked, it crumbles to mush." }
+  ]
+}

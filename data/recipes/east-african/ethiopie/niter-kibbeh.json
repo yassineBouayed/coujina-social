@@ -1,0 +1,40 @@
+{
+  "slug": "niter-kibbeh",
+  "cuisine": "east-african",
+  "country": "ethiopie",
+  "origin": "Éthiopie",
+  "native_name": "Niter kibbeh",
+  "title": {
+    "fr": "Niter kibbeh, beurre clarifié aux épices",
+    "en": "Niter kibbeh, spiced clarified butter"
+  },
+  "meal_type": "side",
+  "servings": 16,
+  "times": { "prep_min": 10, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["base", "beurre", "epices", "conserve"],
+  "ingredients": [
+    { "raw": "500 g de beurre", "qty": 500, "unit": "g", "item": "beurre" },
+    { "raw": "1 oignon, haché", "qty": 1, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "4 gousses d'ail, écrasées", "qty": 4, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "2 c. à s. de gingembre frais, râpé", "qty": 2, "unit": "tbsp", "item": "gingembre", "prep": "râpé" },
+    { "raw": "1 c. à s. de fenugrec", "qty": 1, "unit": "tbsp", "item": "fenugrec" },
+    { "raw": "1 c. à c. de graines de nigelle", "qty": 1, "unit": "tsp", "item": "graine de nigelle" },
+    { "raw": "4 gousses de cardamome, écrasées", "qty": 4, "unit": "piece", "item": "cardamome", "prep": "écrasée" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" }
+  ],
+  "steps": [
+    { "fr": "Faire fondre le beurre à feu très doux, sans le remuer.", "en": "Melt the butter over very low heat, without stirring." },
+    { "fr": "Écumer soigneusement la mousse blanche qui remonte pendant les dix premières minutes.", "en": "Skim the white foam that rises during the first ten minutes." },
+    { "fr": "Ajouter tous les aromates et laisser infuser quarante minutes à frémissement à peine visible.", "en": "Add all the aromatics and infuse for forty minutes at a barely visible simmer." },
+    { "fr": "Le beurre est prêt quand il est parfaitement translucide et que le dépôt au fond est brun doré, pas noir.", "en": "It is ready when perfectly translucent and the sediment is golden brown, not black." },
+    { "fr": "Filtrer à travers une étamine sans presser, pour ne pas faire passer le dépôt.", "en": "Strain through muslin without pressing, so the sediment stays behind." },
+    { "fr": "Se conserve trois mois à température ambiante : l'eau étant partie, le beurre ne rancit plus.", "en": "Keeps three months at room temperature: with the water gone, the butter no longer goes rancid." }
+  ],
+  "notes": [
+    { "fr": "Le niter kibbeh remplace le beurre dans presque tous les plats éthiopiens. Le préparer une fois sert un mois de cuisine.", "en": "Niter kibbeh replaces butter in almost every Ethiopian dish. Making it once covers a month of cooking." }
+  ]
+}

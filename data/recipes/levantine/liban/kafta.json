@@ -1,0 +1,36 @@
+{
+  "slug": "kafta",
+  "cuisine": "levantine",
+  "country": "liban",
+  "origin": "Liban",
+  "native_name": "Kafta",
+  "title": {
+    "fr": "Kafta grillée au persil et à l'oignon",
+    "en": "Grilled kafta with parsley and onion"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["grillade", "quotidien", "persil", "brochette"],
+  "ingredients": [
+    { "raw": "800 g d'agneau haché à 20 % de gras", "qty": 800, "unit": "g", "item": "agneau haché" },
+    { "raw": "2 oignons, râpés et pressés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "râpé et pressé" },
+    { "raw": "1 bouquet de persil plat, ciselé très fin", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé très fin" },
+    { "raw": "1 c. à c. de baharat", "qty": 1, "unit": "tsp", "item": "baharat" },
+    { "raw": "1/2 c. à c. de cannelle moulue", "qty": 0.5, "unit": "tsp", "item": "cannelle" },
+    { "raw": "1 c. à c. de piment en poudre", "qty": 1, "unit": "tsp", "item": "piment en poudre", "optional": true },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Choisir un hachis à 20 % de gras : trop maigre, la kafta se dessèche et tombe de la brochette.", "en": "Choose mince at 20% fat: too lean, and kafta dries out and falls off the skewer." },
+    { "fr": "Râper les oignons puis les PRESSER dans un linge : leur eau ferait éclater la viande sur le gril.", "en": "Grate the onions then SQUEEZE them in a cloth: their water would make the meat burst on the grill." },
+    { "fr": "Pétrir la viande, l'oignon pressé, le persil et les épices cinq minutes, jusqu'à ce que la masse devienne collante.", "en": "Knead the meat, squeezed onion, parsley and spices for five minutes, until the mass turns tacky." },
+    { "fr": "Laisser reposer une heure au frais : froide, la kafta tient bien mieux sur la brochette.", "en": "Rest for an hour in the fridge: cold, kafta holds far better on the skewer." },
+    { "fr": "Mouler à mains mouillées autour de brochettes plates, en pressant fermement.", "en": "Mould it with wet hands around flat skewers, pressing firmly." },
+    { "fr": "Griller sur braises vives, six minutes en tout, en retournant une seule fois.", "en": "Grill over hot coals, six minutes in all, turning only once." }
+  ]
+}

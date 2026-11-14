@@ -1,0 +1,37 @@
+{
+  "slug": "ambasha",
+  "cuisine": "east-african",
+  "country": "ethiopie",
+  "origin": "Éthiopie",
+  "native_name": "Ambasha",
+  "title": {
+    "fr": "Ambasha, pain de fête aux épices",
+    "en": "Ambasha, spiced celebration bread"
+  },
+  "meal_type": "bread",
+  "servings": 8,
+  "times": { "prep_min": 30, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "pain", "nigelle", "cardamome"],
+  "ingredients": [
+    { "raw": "600 g de farine de blé", "qty": 600, "unit": "g", "item": "farine de blé" },
+    { "raw": "1 c. à s. de levure boulangère sèche", "qty": 1, "unit": "tbsp", "item": "levure boulangère" },
+    { "raw": "3 c. à s. de sucre", "qty": 3, "unit": "tbsp", "item": "sucre" },
+    { "raw": "1,5 c. à c. de sel", "qty": 1.5, "unit": "tsp", "item": "sel" },
+    { "raw": "1 c. à c. de graines de nigelle", "qty": 1, "unit": "tsp", "item": "graine de nigelle" },
+    { "raw": "1 c. à c. de cardamome moulue", "qty": 1, "unit": "tsp", "item": "cardamome", "prep": "moulue" },
+    { "raw": "1 c. à c. de fenugrec moulu", "qty": 1, "unit": "tsp", "item": "fenugrec", "prep": "moulu" },
+    { "raw": "60 g de niter kibbeh, fondu", "qty": 60, "unit": "g", "item": "beurre", "prep": "clarifié aux épices, fondu" },
+    { "raw": "30 cl d'eau tiède", "qty": 30, "unit": "cl", "item": "eau" }
+  ],
+  "steps": [
+    { "fr": "Mélanger farine, levure, sucre, sel, nigelle, cardamome et fenugrec.", "en": "Combine the flour, yeast, sugar, salt, nigella, cardamom and fenugreek." },
+    { "fr": "Pétrir avec l'eau tiède et le niter kibbeh dix minutes, jusqu'à une pâte souple.", "en": "Knead with the warm water and niter kibbeh for ten minutes, to a supple dough." },
+    { "fr": "Laisser lever une heure et demie, jusqu'à ce qu'elle double.", "en": "Prove for an hour and a half, until doubled." },
+    { "fr": "Façonner un disque épais et le poser sur une plaque farinée.", "en": "Shape a thick disc and set it on a floured tray." },
+    { "fr": "Marquer une roue à rayons à l'aide d'un couteau, sans traverser la pâte : c'est la décoration qui fait l'ambasha.", "en": "Score a spoked wheel with a knife, without cutting through: that decoration is what makes an ambasha." },
+    { "fr": "Laisser lever quarante minutes puis cuire 30 minutes à 190 °C, jusqu'à ce que le pain sonne creux.", "en": "Prove for forty minutes then bake for 30 minutes at 190°C, until it sounds hollow." }
+  ]
+}

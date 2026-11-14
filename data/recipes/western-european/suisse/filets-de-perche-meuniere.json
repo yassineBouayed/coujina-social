@@ -1,0 +1,36 @@
+{
+  "slug": "filets-de-perche-meuniere",
+  "cuisine": "western-european",
+  "country": "suisse",
+  "origin": "Suisse",
+  "native_name": "Filets de perche",
+  "title": {
+    "fr": "Filets de perche du Léman meunière",
+    "en": "Lake Geneva perch fillets meunière"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["leman", "poisson", "rapide", "ete"],
+  "ingredients": [
+    { "raw": "800 g de filets de perche", "qty": 800, "unit": "g", "item": "perche" },
+    { "raw": "120 g de farine de blé", "qty": 120, "unit": "g", "item": "farine de blé" },
+    { "raw": "150 g de beurre", "qty": 150, "unit": "g", "item": "beurre" },
+    { "raw": "2 citrons", "qty": 2, "unit": "piece", "item": "citron" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "1 c. à s. de câpres", "qty": 1, "unit": "tbsp", "item": "câpre", "optional": true },
+    { "raw": "sel et poivre blanc", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre blanc", "qty": null, "unit": null, "item": "poivre blanc" }
+  ],
+  "steps": [
+    { "fr": "Les filets de perche sont MINUSCULES et très fins : ils cuisent en moins de deux minutes.", "en": "Perch fillets are TINY and very thin: they cook in under two minutes." },
+    { "fr": "Les fariner JUSTE avant de les poser dans la poêle : farinés à l'avance, ils deviennent pâteux.", "en": "Flour them JUST before they hit the pan: floured ahead, they go pasty." },
+    { "fr": "Tapoter pour ôter l'excédent : trop de farine brûle et donne un goût amer au beurre.", "en": "Tap off the excess: too much flour burns and turns the butter bitter." },
+    { "fr": "Cuire au beurre MOUSSANT, une minute par face, à feu moyen-vif.", "en": "Cook in FOAMING butter, one minute a side, over medium-high heat." },
+    { "fr": "Faire un beurre NOISETTE à part : le laisser brunir jusqu'à l'odeur de noisette, puis stopper au citron.", "en": "Make a BROWN butter separately: let it brown to a nutty smell, then stop it with lemon." },
+    { "fr": "Verser sur les filets et servir aussitôt, avec des pommes de terre nature.", "en": "Pour it over the fillets and serve at once, with plain boiled potatoes." }
+  ]
+}

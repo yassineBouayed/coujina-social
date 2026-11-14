@@ -1,0 +1,38 @@
+{
+  "slug": "biltong",
+  "cuisine": "southern-african",
+  "country": "afrique-du-sud",
+  "origin": "Afrique du Sud",
+  "native_name": "Biltong",
+  "title": {
+    "fr": "Biltong, bœuf séché à la coriandre",
+    "en": "Biltong, coriander-cured dried beef"
+  },
+  "meal_type": "starter",
+  "servings": 10,
+  "times": { "prep_min": 40, "cook_min": 0 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["sechage", "conserve", "gouter", "coriandre"],
+  "ingredients": [
+    { "raw": "1,5 kg de steak de bœuf, en lanières de 2 cm", "qty": 1500, "unit": "g", "item": "steak de bœuf", "prep": "en lanières" },
+    { "raw": "4 c. à s. de coriandre en graines, grillée et concassée", "qty": 4, "unit": "tbsp", "item": "coriandre graines", "prep": "grillée et concassée" },
+    { "raw": "3 c. à s. de gros sel", "qty": 3, "unit": "tbsp", "item": "gros sel" },
+    { "raw": "1 c. à s. de poivre noir concassé", "qty": 1, "unit": "tbsp", "item": "poivre noir", "prep": "concassé" },
+    { "raw": "1 c. à s. de sucre roux", "qty": 1, "unit": "tbsp", "item": "sucre roux" },
+    { "raw": "15 cl de vinaigre de cidre", "qty": 15, "unit": "cl", "item": "vinaigre de cidre" },
+    { "raw": "1 c. à c. de bicarbonate", "qty": 1, "unit": "tsp", "item": "bicarbonate", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Couper la viande dans le sens du grain, en lanières régulières : coupée en travers, elle s'effrite au séchage.", "en": "Cut the meat with the grain, in even strips: cut across, it crumbles as it dries." },
+    { "fr": "Frotter au vinaigre, puis au mélange sel, sucre, coriandre et poivre.", "en": "Rub with the vinegar, then with the salt, sugar, coriander and pepper mix." },
+    { "fr": "Laisser au frais quatre heures, puis rincer rapidement au vinaigre et éponger.", "en": "Cure in the fridge for four hours, then rinse quickly with vinegar and pat dry." },
+    { "fr": "Suspendre les lanières espacées, dans un endroit sec et bien ventilé, jamais au soleil.", "en": "Hang the strips well apart, somewhere dry and airy, never in the sun." },
+    { "fr": "L'air qui circule est tout : sans ventilation, la viande moisit avant de sécher.", "en": "Moving air is everything: without ventilation, the meat moulds before it dries." },
+    { "fr": "Compter quatre jours pour un biltong moelleux, une semaine pour un biltong sec.", "en": "Allow four days for a moist biltong, a week for a dry one." }
+  ],
+  "notes": [
+    { "fr": "Séchage à l'air de viande crue : à faire avec de la viande très fraîche, à moins de 20 °C, et à contrôler chaque jour.", "en": "Air-drying raw meat: use very fresh beef, keep it under 20°C, and check it daily." }
+  ]
+}

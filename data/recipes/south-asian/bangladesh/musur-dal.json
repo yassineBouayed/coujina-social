@@ -1,0 +1,38 @@
+{
+  "slug": "musur-dal",
+  "cuisine": "south-asian",
+  "country": "bangladesh",
+  "origin": "Bangladesh",
+  "native_name": "Musur dal",
+  "title": {
+    "fr": "Musur dal, lentilles corail au panch phoron",
+    "en": "Musur dal, red lentils with panch phoron"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 10, "cook_min": 35 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["quotidien", "lentille", "vegetarien", "riz"],
+  "ingredients": [
+    { "raw": "300 g de lentilles corail", "qty": 300, "unit": "g", "item": "lentille corail" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "1 c. à s. de panch phoron", "qty": 1, "unit": "tbsp", "item": "panch phoron", "group": "tadka" },
+    { "raw": "2 piments séchés", "qty": 2, "unit": "piece", "item": "piment séché", "group": "tadka" },
+    { "raw": "1 oignon, émincé", "qty": 1, "unit": "piece", "item": "oignon", "prep": "émincé", "group": "tadka" },
+    { "raw": "4 gousses d'ail, en lamelles", "qty": 4, "unit": "piece", "item": "ail", "prep": "en lamelles", "group": "tadka" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier", "group": "tadka" },
+    { "raw": "6 c. à s. d'huile de moutarde", "qty": 6, "unit": "tbsp", "item": "huile de moutarde", "group": "tadka" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le panch phoron est un mélange de CINQ graines entières : nigelle, fenugrec, cumin, fenouil, moutarde.", "en": "Panch phoron is a blend of FIVE whole seeds: nigella, fenugreek, cumin, fennel and mustard." },
+    { "fr": "Il ne se moud jamais : c'est un mélange à faire éclater entier dans l'huile.", "en": "It is never ground: it is a blend meant to be popped whole in oil." },
+    { "fr": "Cuire les lentilles avec le curcuma vingt-cinq minutes, jusqu'à ce qu'elles se défassent.", "en": "Cook the lentils with the turmeric for twenty-five minutes, until they collapse." },
+    { "fr": "Chauffer l'huile de moutarde jusqu'à ce qu'elle fume, la laisser refroidir un instant, puis y jeter le panch phoron.", "en": "Heat the mustard oil until it smokes, let it cool a moment, then drop in the panch phoron." },
+    { "fr": "Ajouter piments, laurier, ail et oignon, et frire jusqu'à ce que l'oignon dore.", "en": "Add the chillies, bay, garlic and onion, and fry until the onion turns golden." },
+    { "fr": "Verser sur le dal, couvrir aussitôt, et servir avec du riz et de la coriandre.", "en": "Pour it over the dal, cover at once, and serve with rice and coriander." }
+  ]
+}

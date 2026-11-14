@@ -1,0 +1,40 @@
+{
+  "slug": "barmbrack",
+  "cuisine": "western-european",
+  "country": "irlande",
+  "origin": "Irlande",
+  "native_name": "Bairín breac",
+  "title": {
+    "fr": "Barmbrack, pain aux fruits d'Halloween",
+    "en": "Barmbrack, Halloween fruit loaf"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 25, "cook_min": 60 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["halloween", "the", "fruits-secs", "gouter"],
+  "ingredients": [
+    { "raw": "400 g de raisins secs", "qty": 400, "unit": "g", "item": "raisin sec" },
+    { "raw": "40 cl de thé noir, fort et chaud", "qty": 40, "unit": "cl", "item": "thé noir", "prep": "fort et chaud" },
+    { "raw": "200 g de sucre roux", "qty": 200, "unit": "g", "item": "sucre roux" },
+    { "raw": "350 g de farine de blé", "qty": 350, "unit": "g", "item": "farine de blé" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf" },
+    { "raw": "2 c. à c. de levure chimique", "qty": 2, "unit": "tsp", "item": "levure chimique" },
+    { "raw": "2 c. à c. de cannelle moulue", "qty": 2, "unit": "tsp", "item": "cannelle" },
+    { "raw": "1 orange, son zeste", "qty": 1, "unit": "piece", "item": "orange" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Ce gâteau ne contient NI BEURRE NI HUILE : c'est le thé et les raisins gonflés qui l'humidifient.", "en": "This cake contains NO butter and NO oil: the tea and swollen raisins keep it moist." },
+    { "fr": "Faire tremper les raisins dans le thé chaud UNE NUIT ENTIÈRE, à couvert.", "en": "Soak the raisins in hot tea for a WHOLE NIGHT, covered." },
+    { "fr": "Ils doivent avoir bu presque tout le liquide : c'est ce trempage qui fait la texture.", "en": "They should have drunk nearly all the liquid: that soak makes the texture." },
+    { "fr": "Ne PAS égoutter : le thé restant fait partie de la pâte.", "en": "Do NOT drain: the remaining tea is part of the batter." },
+    { "fr": "Mélanger simplement tous les ingrédients, sans battre : la pâte doit rester grossière.", "en": "Simply mix everything together, without beating: the batter should stay rough." },
+    { "fr": "Cuire une heure à 170 °C, et attendre le lendemain pour trancher.", "en": "Bake for an hour at 170°C, and wait until the next day to slice it." }
+  ],
+  "notes": [
+    { "fr": "La tradition y cache une bague et un anneau. Prévenir les convives : ce sont des objets non comestibles.", "en": "Tradition hides a ring and a coin inside. Warn your guests: these are not edible." }
+  ]
+}

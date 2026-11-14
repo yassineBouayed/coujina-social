@@ -1,0 +1,659 @@
+# Référentiel d'ingrédients (J1). Une ligne = un ingrédient.
+#
+# `parent` vide  -> ingrédient CANONIQUE, qui doit être complet.
+# `parent` rempli -> VARIANTE : toute colonne laissée vide est héritée du
+#                    canonique. Un seul niveau, conformément à la migration.
+#
+# flags   : liste séparée par des virgules parmi pork, alcohol, gluten, peanut,
+#           tree_nut, dairy, egg, fish, shellfish. `-` = aucun drapeau.
+#           Vide = hérité (variantes uniquement).
+# perish  : y / n. `n` interdit une durée de conservation (contrainte SQL).
+# storage : pantry / fridge / freezer / counter.
+# avail   : common / specialty / hard. Tout ce qui n'est pas `common` doit dire
+#           quoi faire à la place : substitut et/ou note.
+# staple  : y = fond de placard, suivi en OK / bas / épuisé plutôt qu'en unités.
+# unit    : piece / g / ml / bunch / tbsp / tsp.
+slug|parent|name_fr|name_en|category|flags|shelf_life_days|perish|storage|avail|staple|unit|substitute|substitute_note
+# --------------------------------------------------------------- légumes
+tomate||Tomate|Tomato|legumes|-|7|y|fridge|common|n|piece||
+tomate-cerise|tomate|Tomate cerise|Cherry tomato|legumes||10|||||g||
+tomate-pelee|tomate|Tomate pelée en conserve|Canned peeled tomatoes|conserves||730|y|pantry||y|g||
+tomate-concassee|tomate|Tomate concassée en conserve|Canned chopped tomatoes|conserves||730|y|pantry||y|g||
+coulis-de-tomate|tomate|Coulis de tomate|Tomato passata|conserves||540|y|pantry||y|ml||
+concentre-de-tomate|tomate|Concentré de tomate|Tomato paste|pates-aromatiques||365|y|pantry||y|tbsp||
+tomate-sechee|tomate|Tomate séchée|Sun-dried tomato|conserves||365|y|pantry||y|g||
+oignon||Oignon|Onion|legumes|-|30|y|pantry|common|n|piece||
+oignon-rouge|oignon|Oignon rouge|Red onion|legumes||30|||||piece||
+oignon-nouveau|oignon|Oignon nouveau|Spring onion|legumes||7|y|fridge|||bunch||
+echalote||Échalote|Shallot|legumes|-|30|y|pantry|common|n|piece|oignon|Plus douce et plus sucrée que l'oignon ; en réduire un peu la quantité.
+ail||Ail|Garlic|legumes|-|60|y|pantry|common|y|piece||
+ail-en-poudre|ail|Ail en poudre|Garlic powder|epices||730|y|pantry||y|tsp||
+poireau||Poireau|Leek|legumes|-|10|y|fridge|common|n|piece||
+carotte||Carotte|Carrot|legumes|-|21|y|fridge|common|n|piece||
+courgette||Courgette|Courgette|legumes|-|10|y|fridge|common|n|piece||
+aubergine||Aubergine|Aubergine|legumes|-|8|y|fridge|common|n|piece||
+poivron||Poivron|Bell pepper|legumes|-|10|y|fridge|common|n|piece||
+poivron-rouge|poivron|Poivron rouge|Red bell pepper|legumes||10|||||piece||
+poivron-vert|poivron|Poivron vert|Green bell pepper|legumes||10|||||piece||
+piment-frais||Piment frais|Fresh chilli|legumes|-|12|y|fridge|common|n|piece||
+piment-oiseau|piment-frais|Piment oiseau|Bird's eye chilli|legumes||12|||||piece||
+jalapeno|piment-frais|Jalapeño|Jalapeño|legumes||14||||specialty||piment-frais|Un piment vert doux fait l'affaire ; le jalapeño est plus charnu et moins piquant.
+habanero|piment-frais|Habanero|Habanero|legumes||12||||specialty||piment-oiseau|Beaucoup plus fruité que le piment oiseau ; en mettre moins, c'est très fort.
+chou-blanc||Chou blanc|White cabbage|legumes|-|21|y|fridge|common|n|piece||
+chou-vert||Chou vert|Green cabbage|legumes|-|21|y|fridge|common|n|piece||
+chou-rouge||Chou rouge|Red cabbage|legumes|-|21|y|fridge|common|n|piece||
+chou-frise||Chou frisé|Kale|legumes|-|7|y|fridge|common|n|bunch||
+chou-chinois||Chou chinois|Chinese cabbage|legumes|-|10|y|fridge|common|n|piece|chou-blanc|Le chou blanc tient mieux à la cuisson et rend moins d'eau.
+chou-fleur||Chou-fleur|Cauliflower|legumes|-|10|y|fridge|common|n|piece||
+brocoli||Brocoli|Broccoli|legumes|-|7|y|fridge|common|n|piece||
+haricot-vert||Haricot vert|Green bean|legumes|-|6|y|fridge|common|n|g||
+petits-pois||Petits pois|Peas|legumes|-|4|y|fridge|common|n|g||
+petits-pois-surgeles|petits-pois|Petits pois surgelés|Frozen peas|surgeles||365|y|freezer||y|g||
+epinard||Épinard|Spinach|legumes|-|4|y|fridge|common|n|bunch||
+epinard-surgele|epinard|Épinard surgelé|Frozen spinach|surgeles||365|y|freezer||y|g||
+gombo||Gombo|Okra|legumes|-|5|y|fridge|specialty|n|g||Introuvable en grande surface hors saison ; le surgelé le remplace sans perte.
+gombo-surgele|gombo|Gombo surgelé|Frozen okra|surgeles||365|y|freezer|common|y|g||
+concombre||Concombre|Cucumber|legumes|-|8|y|fridge|common|n|piece||
+celeri-branche||Céleri branche|Celery|legumes|-|10|y|fridge|common|n|piece||
+fenouil||Fenouil|Fennel bulb|legumes|-|10|y|fridge|common|n|piece||
+artichaut||Artichaut|Artichoke|legumes|-|5|y|fridge|common|n|piece||
+courge||Courge|Squash|legumes|-|60|y|pantry|common|n|g||
+potiron|courge|Potiron|Pumpkin|legumes||60|||||g||
+butternut|courge|Butternut|Butternut squash|legumes||60|||||g||
+champignon-de-paris||Champignon de Paris|Button mushroom|legumes|-|6|y|fridge|common|n|g||
+shiitake||Shiitake|Shiitake|legumes|-|8|y|fridge|specialty|n|g|champignon-de-paris|Le champignon de Paris donne moins de profondeur ; le shiitake séché réhydraté est plus proche.
+pak-choi||Pak choï|Pak choi|legumes|-|7|y|fridge|specialty|n|piece|chou-chinois|Le chou chinois cuit un peu plus longtemps mais joue le même rôle.
+germes-de-soja||Germes de soja|Bean sprouts|legumes|-|3|y|fridge|common|n|g||
+pousse-de-bambou||Pousse de bambou|Bamboo shoot|conserves|-|540|y|pantry|specialty|y|g||Se trouve en conserve en épicerie asiatique ; sans elle, la texture manque mais le plat tient.
+daikon||Daïkon|Daikon radish|legumes|-|14|y|fridge|specialty|n|piece|navet|Le navet est plus poivré ; le daïkon est plus doux et plus juteux.
+radis||Radis|Radish|legumes|-|7|y|fridge|common|n|bunch||
+navet||Navet|Turnip|legumes|-|21|y|fridge|common|n|piece||
+betterave||Betterave|Beetroot|legumes|-|21|y|fridge|common|n|piece||
+laitue||Laitue|Lettuce|legumes|-|6|y|fridge|common|n|piece||
+roquette||Roquette|Rocket|legumes|-|4|y|fridge|common|n|g||
+mais-doux||Maïs doux|Sweetcorn|conserves|-|730|y|pantry|common|y|g||
+tomatille||Tomatille|Tomatillo|legumes|-|14|y|fridge|hard|n|piece||En conserve en épicerie latino ; à défaut, tomate verte + un trait de citron vert pour l'acidité.
+feuille-de-vigne||Feuille de vigne|Vine leaf|fermentes|-|540|y|pantry|specialty|y|piece||En saumure au rayon du monde ; sans elle, la farce se cuit en gratin.
+molokhia||Molokhia|Molokhia|legumes|-|365|y|freezer|hard|n|g|epinard-surgele|L'épinard donne la couleur mais pas la texture gélatineuse qui fait le plat.
+feuille-de-manioc||Feuille de manioc|Cassava leaf|surgeles|-|365|y|freezer|hard|n|g|epinard-surgele|L'épinard cuit bien plus vite et reste beaucoup moins amer.
+feuille-de-ndole||Feuille de ndolé|Bitterleaf|surgeles|-|365|y|freezer|hard|n|g|epinard-surgele|L'épinard n'est pas amer : le ndolé devient doux et perd son identité. Une poignée de roquette rend un peu de l'amertume.
+banane-plantain||Banane plantain|Plantain|legumes|-|10|y|counter|specialty|n|piece||En épicerie africaine ou antillaise ; la banane à dessert ne la remplace pas, elle fond.
+chayotte||Chayotte|Chayote|legumes|-|21|y|fridge|specialty|n|piece|courgette|La courgette rend plus d'eau et reste moins ferme.
+nopal||Nopal|Nopal|legumes|-|10|y|fridge|hard|n|g|haricot-vert|Le haricot vert donne le croquant, pas l'acidité ; ajouter un filet de citron vert.
+coeur-de-palmier||Cœur de palmier|Heart of palm|conserves|-|730|y|pantry|specialty|y|g||En conserve au rayon du monde ; se saute comme un légume, rien ne l'imite vraiment.
+feuille-d-ugu||Feuille d'ugu|Fluted pumpkin leaf|legumes|-|4|y|fridge|hard|n|g|epinard|L'épinard rend plus d'eau et n'a pas la mâche ferme de l'ugu.
+feuille-d-afang||Feuille d'afang|Okazi leaf|legumes|-|7|y|fridge|hard|n|g||Feuille coriace sans équivalent. Broyée très fin, elle donne à l'afang sa texture.
+chicoree-sauvage||Chicorée sauvage|Wild chicory|legumes|-|5|y|fridge|specialty|n|g|chou-frise|Le chou frisé n'a pas l'amertume de la chicorée, qui est tout l'intérêt du plat.
+cresson||Cresson|Watercress|legumes|-|4|y|fridge|common|n|bunch||
+gundruk||Gundruk|Gundruk|legumes|-|365|y|pantry|hard|n|g|chou-frise|Le chou frisé n'est pas fermenté : toute l'acidité du gundruk manque au bouillon.
+champignon-noir||Champignon noir|Wood ear mushroom|legumes|-|730|y|pantry|specialty|n|g|shiitake|Le shiitake est charnu et parfumé ; le champignon noir est presque sans goût, tout en croquant.
+kombu||Kombu|Kombu|legumes|-|730|y|pantry|specialty|y|g||Algue séchée, base du dashi. Sans elle, le bouillon n'a aucun umami de fond.
+wakame||Wakamé|Wakame|legumes|-|730|y|pantry|specialty|n|g||Algue séchée qui gonfle dix fois. Se réhydrate à l'eau froide, jamais chaude.
+nori||Nori|Nori|legumes|-|365|y|pantry|common|y|piece||
+ginseng||Ginseng|Ginseng root|legumes|-|30|y|fridge|hard|n|piece||Racine fraîche, amère et boisée. Sans elle, le samgyetang n'est qu'une soupe de poulet.
+chataigne-d-eau||Châtaigne d'eau|Water chestnut|legumes|-|730|y|pantry|specialty|n|g||Se trouve en conserve. Rien d'autre ne garde ce croquant après cuisson.
+celeri-rave||Céleri-rave|Celeriac|legumes|-|21|y|fridge|common|n|piece|celeri-branche|Le céleri branche donne le même parfum mais aucune texture : le rave est une racine dense.
+panais||Panais|Parsnip|legumes|-|21|y|fridge|common|n|piece|carotte|La carotte est plus sucrée et moins terreuse : le panais a un goût de racine bien à lui.
+endive||Endive|Endive|legumes|-|10|y|fridge|common|n|piece||
+raifort||Raifort|Horseradish|legumes|-|21|y|fridge|common|n|g|moutarde|La moutarde pique différemment : le raifort monte au nez et retombe vite.
+champignon-seche||Champignon séché|Dried mushroom|legumes|-|540|y|pantry|common|n|g|champignon-de-paris|Le champignon frais n'a ni la concentration ni le goût de sous-bois : c'est une autre saveur.
+feuille-de-mais-sechee||Feuille de maïs séchée|Dried corn husk|legumes|-|730|y|pantry|specialty|n|piece||En épicerie latino. Le papier cuisson tient le tamal mais ne lui donne aucun parfum.
+aji-amarillo||Ají amarillo|Yellow ají chilli|legumes|-|365|y|pantry|specialty|n|piece|piment-frais|En pâte, en épicerie latino. Le piment frais pique sans apporter le fruité orangé de l'ají.
+feuille-de-bananier||Feuille de bananier|Banana leaf|legumes|-|365|y|freezer|specialty|n|piece||Au rayon surgelé des épiceries asiatiques ou latino. Le papier cuisson tient, mais ne parfume rien.
+piment-vegetarien||Piment végétarien|Seasoning pepper|legumes|-|12|y|fridge|specialty|n|piece|poivron-rouge|Il a le parfum du habanero sans le piquant. Le poivron donne la douceur, jamais le parfum.
+fruit-a-pain||Fruit à pain|Breadfruit|legumes|-|7|y|fridge|specialty|n|piece|pomme-de-terre|La pomme de terre tient le rôle mais n'a ni le goût de châtaigne ni le grain du fruit à pain.
+# ------------------------------------------------------- herbes fraîches
+persil||Persil|Parsley|herbes-fraiches|-|5|y|fridge|common|n|bunch||
+persil-plat|persil|Persil plat|Flat-leaf parsley|herbes-fraiches||5|||||bunch||
+persil-frise|persil|Persil frisé|Curly parsley|herbes-fraiches||5|||||bunch||
+coriandre-fraiche||Coriandre fraîche|Fresh coriander|herbes-fraiches|-|4|y|fridge|common|n|bunch||
+menthe-fraiche||Menthe fraîche|Fresh mint|herbes-fraiches|-|5|y|fridge|common|n|bunch||
+basilic||Basilic|Basil|herbes-fraiches|-|4|y|fridge|common|n|bunch||
+aneth||Aneth|Dill|herbes-fraiches|-|4|y|fridge|common|n|bunch||
+ciboulette||Ciboulette|Chives|herbes-fraiches|-|6|y|fridge|common|n|bunch||
+thym-frais||Thym frais|Fresh thyme|herbes-fraiches|-|10|y|fridge|common|n|bunch|thym-seche|Le thym séché est plus concentré : un tiers de la quantité suffit.
+romarin||Romarin|Rosemary|herbes-fraiches|-|12|y|fridge|common|n|bunch||
+sauge||Sauge|Sage|herbes-fraiches|-|8|y|fridge|common|n|bunch||
+estragon||Estragon|Tarragon|herbes-fraiches|-|6|y|fridge|common|n|bunch||
+celeri-feuille||Feuille de céleri|Celery leaf|herbes-fraiches|-|5|y|fridge|common|n|bunch||
+citronnelle||Citronnelle|Lemongrass|herbes-fraiches|-|14|y|fridge|specialty|n|piece||Le zeste de citron vert en donne une idée, sans le parfum résineux.
+feuille-de-curry||Feuille de curry|Curry leaf|herbes-fraiches|-|7|y|fridge|hard|n|piece||Rien ne la remplace vraiment ; mieux vaut l'omettre que la remplacer par du curry en poudre.
+combava-feuille||Feuille de combava|Kaffir lime leaf|herbes-fraiches|-|14|y|freezer|specialty|n|piece||Se congèle sans dommage. Un zeste de citron vert approche le parfum de loin.
+epazote||Épazote|Epazote|herbes-fraiches|-|5|y|fridge|hard|n|bunch||S'omet sans drame ; c'est un parfum de fond dans les haricots noirs.
+feuille-de-pandan||Feuille de pandan|Pandan leaf|herbes-fraiches|-|7|y|freezer|hard|n|piece||Se trouve surgelée en épicerie asiatique. Rien ne remplace son parfum de riz et de vanille.
+gotu-kola||Gotu kola|Gotu kola|herbes-fraiches|-|4|y|fridge|hard|n|g|cresson|Le cresson a l'amertume mais pas le goût herbacé si particulier du gotu kola.
+# ---------------------------------------------------------------- fruits
+citron||Citron|Lemon|fruits|-|21|y|fridge|common|n|piece||
+citron-vert||Citron vert|Lime|fruits|-|18|y|fridge|common|n|piece|citron|Le citron jaune est moins parfumé et plus acide : en mettre un peu moins.
+orange||Orange|Orange|fruits|-|21|y|fridge|common|n|piece||
+pomme||Pomme|Apple|fruits|-|21|y|fridge|common|n|piece||
+banane||Banane|Banana|fruits|-|6|y|counter|common|n|piece||
+mangue||Mangue|Mango|fruits|-|7|y|counter|common|n|piece||
+ananas||Ananas|Pineapple|fruits|-|7|y|counter|common|n|piece||
+grenade||Grenade|Pomegranate|fruits|-|21|y|fridge|common|n|piece||
+datte||Datte|Date|fruits|-|180|y|pantry|common|y|g||
+figue-seche||Figue sèche|Dried fig|fruits|-|180|y|pantry|common|y|g||
+raisin-sec||Raisin sec|Raisin|fruits|-|365|y|pantry|common|y|g||
+abricot-sec||Abricot sec|Dried apricot|fruits|-|365|y|pantry|common|y|g||
+pruneau||Pruneau|Prune|fruits|-|365|y|pantry|common|y|g||
+avocat||Avocat|Avocado|fruits|-|6|y|counter|common|n|piece||
+noix-de-coco||Noix de coco|Coconut|fruits|-|21|y|counter|common|n|piece||
+coco-rape|noix-de-coco|Noix de coco râpée|Desiccated coconut|patisserie||365|y|pantry||y|g||
+goyave||Goyave|Guava|fruits|-|7|y|fridge|specialty|n|piece||Rarement fraîche hors épicerie antillaise ; la purée surgelée fait le même travail.
+papaye||Papaye|Papaya|fruits|-|7|y|fridge|specialty|n|piece|mangue|La mangue est plus parfumée et plus sucrée ; la papaye verte, elle, est un légume.
+fruit-de-la-passion||Fruit de la passion|Passion fruit|fruits|-|10|y|fridge|common|n|piece||
+tamarin||Tamarin|Tamarind|pates-aromatiques|-|365|y|pantry|specialty|y|tbsp||En pain ou en pâte au rayon du monde. Un mélange jus de citron + mélasse en donne l'aigre-doux.
+coing||Coing|Quince|fruits|-|21|y|fridge|common|n|piece||
+pain-de-singe||Pain de singe|Baobab fruit pulp|fruits|-|365|y|pantry|hard|n|g||Pulpe de baobab séchée. Rien ne la remplace : ni la mangue ni le tamarin n'ont son acidité crayeuse.
+griotte||Griotte|Sour cherry|fruits|-|5|y|fridge|specialty|n|g||La cerise douce ne convient pas : c'est l'acidité de la griotte qui équilibre le sucre du plat.
+zereshk||Zereshk|Barberry|fruits|-|365|y|pantry|hard|n|g|raisin-sec|Le raisin sec est sucré là où le zereshk est franchement acide : le riz perd son contrepoint.
+citron-seche-d-oman||Citron séché d'Oman|Dried lime|fruits|-|730|y|pantry|hard|n|piece|citron|Le citron frais donne de l'acidité mais pas l'amertume fermentée qui signe les khoresht.
+goraka||Goraka|Goraka|fruits|-|730|y|pantry|hard|n|piece|pate-de-tamarin|Le tamarin acidifie mais ne noircit pas : l'ambul thiyal perd sa couleur caractéristique.
+jacquier||Jacquier vert|Green jackfruit|fruits|-|730|y|pantry|specialty|n|g||Se trouve en conserve, au naturel. Le jacquier mûr est un fruit sucré et ne convient pas.
+jujube||Jujube|Jujube|fruits|-|365|y|pantry|specialty|n|piece|datte|La datte est bien plus sucrée et molle : le jujube séché reste ferme et légèrement acidulé.
+canne-a-sucre||Canne à sucre|Sugarcane|fruits|-|10|y|fridge|hard|n|g||Se presse fraîche ; le jus fermente et brunit en deux heures.
+peche||Pêche|Peach|fruits|-|5|y|fridge|common|n|piece||
+fraise||Fraise|Strawberry|fruits|-|3|y|fridge|common|n|g||
+framboise||Framboise|Raspberry|fruits|-|3|y|fridge|common|n|g||
+abricot||Abricot|Apricot|fruits|-|5|y|fridge|common|n|piece||
+poire||Poire|Pear|fruits|-|7|y|fridge|common|n|piece||
+# ------------------------------------------------- tubercules et racines
+pomme-de-terre||Pomme de terre|Potato|tubercules|-|45|y|pantry|common|n|piece||
+patate-douce||Patate douce|Sweet potato|tubercules|-|30|y|pantry|common|n|piece||
+igname||Igname|Yam|tubercules|-|30|y|pantry|specialty|n|g|pomme-de-terre|La pomme de terre est plus humide ; l'igname est farineuse et tient mieux au pilon.
+manioc||Manioc|Cassava|tubercules|-|10|y|fridge|specialty|n|g|pomme-de-terre|Le manioc est plus dense et plus doux ; à cuire plus longtemps.
+taro||Taro|Taro|tubercules|-|14|y|pantry|specialty|n|g|igname|Le taro est plus collant à la cuisson que l'igname.
+gingembre||Gingembre|Ginger|tubercules|-|21|y|fridge|common|n|g||
+curcuma-frais||Curcuma frais|Fresh turmeric|tubercules|-|21|y|fridge|specialty|n|g|curcuma|Une cuillère de curcuma moulu remplace un pouce de racine, avec moins de fraîcheur.
+galanga||Galanga|Galangal|tubercules|-|21|y|freezer|specialty|n|g|gingembre|Le gingembre est plus piquant, le galanga plus poivré et résineux. Ce n'est pas le même goût.
+ube||Ube|Purple yam|tubercules|-|14|y|fridge|hard|n|g|patate-douce|La patate douce est orange et sucrée : l'ube est violet, plus sec et plus vanillé.
+# --------------------------------------------------------------- viandes
+boeuf||Bœuf|Beef|viandes|-|3|y|fridge|common|n|g||
+boeuf-a-mijoter|boeuf|Bœuf à mijoter|Stewing beef|viandes||3|||||g||
+boeuf-hache|boeuf|Bœuf haché|Minced beef|viandes||2|||||g||
+steak-de-boeuf|boeuf|Steak de bœuf|Beef steak|viandes||3|||||g||
+agneau||Agneau|Lamb|viandes|-|3|y|fridge|common|n|g||
+epaule-d-agneau|agneau|Épaule d'agneau|Lamb shoulder|viandes||3|||||g||
+gigot-d-agneau|agneau|Gigot d'agneau|Leg of lamb|viandes||3|||||g||
+agneau-hache|agneau|Agneau haché|Minced lamb|viandes||2|||||g||
+cotelette-d-agneau|agneau|Côtelette d'agneau|Lamb chop|viandes||3|||||g||
+veau||Veau|Veal|viandes|-|3|y|fridge|common|n|g||
+veau-a-mijoter|veau|Veau à mijoter|Stewing veal|viandes||3|||||g||
+porc||Porc|Pork|viandes|pork|3|y|fridge|common|n|g||
+echine-de-porc|porc|Échine de porc|Pork shoulder|viandes||3|||||g||
+poitrine-de-porc|porc|Poitrine de porc|Pork belly|viandes||3|||||g||
+porc-hache|porc|Porc haché|Minced pork|viandes||2|||||g||
+chevre-viande||Viande de chèvre|Goat meat|viandes|-|3|y|fridge|specialty|n|g|agneau|L'agneau est plus gras et plus tendre ; la chèvre demande une cuisson plus longue.
+foie-de-veau|veau|Foie de veau|Calf liver|viandes||2|||||g||
+foie-de-boeuf|boeuf|Foie de bœuf|Beef liver|viandes||2|||||g||
+os-a-moelle|boeuf|Os à moelle|Marrow bone|viandes||3|||||piece||
+viande-sechee||Viande séchée|Dried meat|viandes|-|180|y|pantry|specialty|n|g||Buffle ou bœuf séché puis salé, sans marinade. Se trouve en épicerie népalaise ou himalayenne.
+pied-de-veau|veau|Pied de veau|Calf trotter|viandes||3|||||g||
+guanciale||Guanciale|Guanciale|viandes|pork|60|y|fridge|specialty|n|g|lardon|Le guanciale est de la joue de porc, plus grasse et plus parfumée que la poitrine du lardon.
+lapin||Lapin|Rabbit|viandes|-|3|y|fridge|common|n|g|poulet-entier|Le poulet est plus gras et cuit plus vite ; le lapin sèche si on le pousse.
+veau-hache|veau|Veau haché|Minced veal|viandes||2|||||g||
+jarret-de-porc|porc|Jarret de porc|Pork knuckle|viandes||3|||||piece||
+filet-de-boeuf|boeuf|Filet de bœuf|Beef fillet|viandes||3|||||g||
+sang-de-porc||Sang de porc|Pig's blood|viandes|pork|2|y|fridge|specialty|n|ml||Se commande chez le boucher et s'emploie le jour meme. Rien ne le remplace dans un boudin.
+# -------------------------------------------------------------- volailles
+poulet||Poulet|Chicken|volailles|-|3|y|fridge|common|n|g||
+poulet-entier|poulet|Poulet entier|Whole chicken|volailles||3|||||piece||
+cuisse-de-poulet|poulet|Cuisse de poulet|Chicken thigh|volailles||3|||||piece||
+blanc-de-poulet|poulet|Blanc de poulet|Chicken breast|volailles||3|||||piece||
+aile-de-poulet|poulet|Aile de poulet|Chicken wing|volailles||3|||||g||
+poulet-hache|poulet|Poulet haché|Minced chicken|volailles||2|||||g||
+dinde||Dinde|Turkey|volailles|-|3|y|fridge|common|n|g||
+escalope-de-dinde|dinde|Escalope de dinde|Turkey escalope|volailles||3|||||piece||
+canard||Canard|Duck|volailles|-|3|y|fridge|common|n|g||
+magret-de-canard|canard|Magret de canard|Duck breast|volailles||4|||||piece||
+confit-de-canard|canard|Confit de canard|Duck confit|conserves||365|y|pantry||y|piece||
+pintade||Pintade|Guinea fowl|volailles|-|3|y|fridge|specialty|n|piece|poulet|Le poulet est plus tendre et moins goûteux ; la pintade sèche vite.
+gesier-de-poulet|poulet|Gésier de poulet|Chicken gizzard|volailles||2|||||g||
+pigeon||Pigeon|Pigeon|volailles|-|2|y|fridge|specialty|n|piece|pintade|La pintade est plus grosse et moins goûteuse : compter une pour deux pigeons et rallonger la cuisson.
+canard-entier|canard|Canard entier|Whole duck|volailles||3|||||piece||
+# -------------------------------------------------------------- charcuterie
+lardon||Lardon|Bacon lardon|charcuterie|pork|10|y|fridge|common|n|g||
+bacon||Bacon|Bacon|charcuterie|pork|10|y|fridge|common|n|g||
+jambon-blanc||Jambon blanc|Cooked ham|charcuterie|pork|7|y|fridge|common|n|piece||
+chorizo||Chorizo|Chorizo|charcuterie|pork|30|y|fridge|common|n|g||
+saucisse-de-toulouse||Saucisse de Toulouse|Toulouse sausage|charcuterie|pork|4|y|fridge|common|n|piece||
+merguez||Merguez|Merguez|charcuterie|-|4|y|fridge|common|n|piece||
+basturma||Basturma|Basturma|charcuterie|-|60|y|fridge|specialty|n|g||Viande de bœuf séchée au fenugrec, en épicerie levantine. La bresaola en donne la texture, pas le parfum.
+soudjouk||Soudjouk|Sujuk|charcuterie|-|45|y|fridge|specialty|n|piece|chorizo|Le chorizo est fumé et pimenté au paprika ; le soudjouk est au cumin et à l'ail.
+saucisse-chinoise||Saucisse chinoise|Chinese sausage|charcuterie|pork|60|y|fridge|specialty|n|piece||Le lap cheong est sucré et sec. Sans lui, un peu de chorizo doux et une pincée de sucre approchent.
+boyau-naturel||Boyau naturel|Natural sausage casing|charcuterie|-|180|y|fridge|specialty|n|piece||Se trouve en saumure chez le boucher. Sans boyau, la chair se cuit en galettes, pas en saucisse.
+jambon-cru||Jambon cru|Cured ham|charcuterie|pork|60|y|fridge|common|n|g|jambon-blanc|Le jambon blanc est cuit et doux ; le cru est salé et sec, et ne se cuit pas.
+boudin-noir||Boudin noir|Blood sausage|charcuterie|pork|7|y|fridge|common|n|piece||
+saucisse-fumee||Saucisse fumée|Smoked sausage|charcuterie|pork|21|y|fridge|common|n|piece|chorizo|Le chorizo est pimenté au paprika ; la saucisse fumée est douce et fumée au bois.
+# -------------------------------------------------------------- poissons
+cabillaud||Cabillaud|Cod|poissons|fish|2|y|fridge|common|n|g||
+morue-salee||Morue salée|Salt cod|poissons|fish|180|y|fridge|specialty|n|g|cabillaud|Le cabillaud frais ne se dessale pas : réduire alors le sel du plat.
+dorade||Dorade|Sea bream|poissons|fish|2|y|fridge|common|n|piece||
+merlan||Merlan|Whiting|poissons|fish|2|y|fridge|common|n|piece||
+maquereau||Maquereau|Mackerel|poissons|fish|2|y|fridge|common|n|piece||
+sardine||Sardine|Sardine|poissons|fish|2|y|fridge|common|n|g||
+sardine-en-conserve|sardine|Sardine en conserve|Canned sardine|conserves||1095|y|pantry||y|g||
+thon||Thon|Tuna|poissons|fish|2|y|fridge|common|n|g||
+thon-en-conserve|thon|Thon en conserve|Canned tuna|conserves||1095|y|pantry||y|g||
+saumon||Saumon|Salmon|poissons|fish|2|y|fridge|common|n|g||
+saumon-fume|saumon|Saumon fumé|Smoked salmon|poissons||10|||||g||
+anchois||Anchois|Anchovy|conserves|fish|540|y|pantry|common|y|g||
+thiof||Thiof|White grouper|poissons|fish|2|y|fridge|hard|n|g|dorade|La dorade tient à la cuisson au bouillon, mais la chair du thiof est bien plus ferme.
+poisson-fume||Poisson fumé|Smoked fish|poissons|fish|60|y|pantry|specialty|n|g||En épicerie africaine. C'est un exhausteur : à défaut, un peu de crevette séchée joue le même rôle.
+guedj||Guedj|Fermented dried fish|poissons|fish|180|y|pantry|hard|n|g|poisson-fume|Le poisson fumé donne la profondeur mais pas la fermentation : la sauce est nettement moins puissante.
+poisson-chat||Poisson-chat|Catfish|poissons|fish|2|y|fridge|specialty|n|g|cabillaud|Un poisson blanc ferme tient la cuisson, mais sa chair maigre n'épaissit pas le bouillon.
+stockfish||Stockfish|Stockfish|poissons|fish|365|y|pantry|hard|n|g|poisson-fume|Le poisson fumé est tendre ; le stockfish garde du mordant après des heures de cuisson.
+hilsa||Hilsa|Hilsa|poissons|fish|2|y|fridge|hard|n|g|maquereau|Le maquereau est gras et proche, mais l'ilish a des arêtes fines et un parfum que rien ne remplace.
+shutki||Shutki|Dried fish (shutki)|poissons|fish|180|y|pantry|hard|n|g|poisson-fume|Le poisson fumé est doux ; le shutki est séché et fermenté, à l'odeur beaucoup plus forte.
+poisson-des-maldives||Poisson des Maldives|Maldive fish|poissons|fish|365|y|pantry|hard|n|tbsp|crevette-sechee|La crevette séchée apporte l'umami mais pas la note fumée du thon séché maldivien.
+katsuobushi||Katsuobushi|Bonito flakes|poissons|fish|365|y|pantry|specialty|y|g||Copeaux de bonite séchée et fumée. Le second pilier du dashi, avec le kombu.
+prahok||Prahok|Prahok|poissons|fish|365|y|fridge|hard|n|tbsp|pate-de-crevette|La pâte de crevette est proche mais moins puissante : le prahok domine tout ce qu'il touche.
+haddock-fume||Haddock fumé|Smoked haddock|poissons|fish|7|y|fridge|common|n|g|saumon-fume|Le saumon fumé est gras et ne se poche pas : réduire alors le sel de la recette.
+anguille||Anguille|Eel|poissons|fish|2|y|fridge|specialty|n|g|maquereau|Le maquereau est gras lui aussi, mais bien plus ferme : la texture fondante de l'anguille se perd.
+hareng||Hareng|Herring|poissons|fish|3|y|fridge|common|n|piece|maquereau|Le maquereau est plus gras et moins iodé ; il ne se mature pas de la même façon.
+perche||Perche|Perch|poissons|fish|2|y|fridge|specialty|n|g|dorade|La dorade est plus ferme et se coupe en pavés ; la perche est en tout petits filets fins.
+bar||Bar|Sea bass|poissons|fish|2|y|fridge|common|n|g|dorade|La dorade est un peu plus ferme ; elle se coupe et se marine de la même façon.
+# ----------------------------------------------------------- fruits de mer
+crevette||Crevette|Prawn|fruits-de-mer|shellfish|2|y|fridge|common|n|g||
+crevette-surgelee|crevette|Crevette surgelée|Frozen prawn|surgeles||365|y|freezer||y|g||
+crevette-sechee|crevette|Crevette séchée|Dried shrimp|fruits-de-mer||365|y|pantry|specialty|y|g||En épicerie africaine ou asiatique. C'est un fond salé : la sauce poisson en approche.
+moule||Moule|Mussel|fruits-de-mer|shellfish|1|y|fridge|common|n|g||
+calamar||Calamar|Squid|fruits-de-mer|shellfish|2|y|fridge|common|n|g||
+poulpe||Poulpe|Octopus|fruits-de-mer|shellfish|2|y|fridge|specialty|n|g|calamar|Le calamar cuit en quelques minutes là où le poulpe demande une heure.
+crabe||Crabe|Crab|fruits-de-mer|shellfish|2|y|fridge|common|n|piece||
+# ------------------------------------------------------- produits laitiers
+lait||Lait|Milk|produits-laitiers|dairy|7|y|fridge|common|n|ml||
+lait-entier|lait|Lait entier|Whole milk|produits-laitiers||7|||||ml||
+lait-concentre-sucre|lait|Lait concentré sucré|Condensed milk|conserves||540|y|pantry||y|g||
+beurre||Beurre|Butter|produits-laitiers|dairy|30|y|fridge|common|y|g||
+beurre-demi-sel|beurre|Beurre demi-sel|Salted butter|produits-laitiers||30|||||g||
+ghee|beurre|Ghee|Ghee|produits-laitiers||180|y|pantry|specialty|y|g||Beurre clarifié, en épicerie indienne. Le beurre ordinaire brûle plus vite.
+smen|beurre|Smen|Smen|produits-laitiers||180|y|pantry|hard|y|g||Beurre fermenté maghrébin, très typé. Le beurre doux ne donne pas ce goût de rance assumé.
+creme-fraiche||Crème fraîche|Crème fraîche|produits-laitiers|dairy|14|y|fridge|common|n|g||
+creme-liquide|creme-fraiche|Crème liquide|Single cream|produits-laitiers||14|||||ml||
+yaourt||Yaourt|Yoghurt|produits-laitiers|dairy|14|y|fridge|common|n|piece||
+yaourt-grec|yaourt|Yaourt grec|Greek yoghurt|produits-laitiers||14|||||g||
+labneh|yaourt|Labneh|Labneh|produits-laitiers||10||||specialty||yaourt-grec|Le yaourt grec égoutté une nuit dans un linge donne exactement le même résultat.
+parmesan||Parmesan|Parmesan|produits-laitiers|dairy|60|y|fridge|common|n|g||
+feta||Feta|Feta|produits-laitiers|dairy|30|y|fridge|common|n|g||
+mozzarella||Mozzarella|Mozzarella|produits-laitiers|dairy|10|y|fridge|common|n|piece||
+emmental||Emmental|Emmental|produits-laitiers|dairy|21|y|fridge|common|n|g||
+ricotta||Ricotta|Ricotta|produits-laitiers|dairy|10|y|fridge|common|n|g||
+halloumi||Halloumi|Halloumi|produits-laitiers|dairy|30|y|fridge|specialty|n|g||Fromage à griller levantin. Rien d'équivalent en grande surface : il ne fond pas, c'est tout l'intérêt.
+paneer||Paneer|Paneer|produits-laitiers|dairy|7|y|fridge|specialty|n|g|halloumi|Le halloumi est bien plus salé : le dessaler à l'eau tiède avant de l'utiliser.
+queso-fresco||Queso fresco|Queso fresco|produits-laitiers|dairy|10|y|fridge|specialty|n|g|feta|La feta est plus salée et plus acide ; en mettre moins.
+lait-caille||Lait caillé|Soured milk|produits-laitiers|dairy|7|y|fridge|specialty|n|ml|yaourt|Le yaourt est plus épais et moins acide : allongé d'un peu d'eau, il s'en approche.
+fromage-akkawi||Fromage akkawi|Akkawi cheese|produits-laitiers|dairy|21|y|fridge|hard|n|g|mozzarella|La mozzarella file mais ne sale pas : la knafeh perd son contraste sucré-salé.
+jameed||Jameed|Jameed|produits-laitiers|dairy|365|y|pantry|hard|n|g||Yaourt de brebis séché en boules dures. Le yaourt frais ne donne ni l'acidité ni la tenue : le mansaf change de plat.
+kasar||Kasar|Kasar cheese|produits-laitiers|dairy|30|y|fridge|specialty|n|g|emmental|L'emmental file de la même façon mais reste plus doux : le kasar est plus salé et plus typé.
+lait-en-poudre|lait|Lait en poudre|Milk powder|produits-laitiers||365|y|pantry|common|y|g||
+# ------------------------------------------------------------------ œufs
+oeuf||Œuf|Egg|oeufs|egg|21|y|fridge|common|n|piece||
+# ------------------------------------------------------ céréales et pâtes
+riz||Riz|Rice|cereales|-|730|y|pantry|common|y|g||
+riz-basmati|riz|Riz basmati|Basmati rice|cereales||730|||||g||
+riz-long-grain|riz|Riz long grain|Long-grain rice|cereales||730|||||g||
+riz-rond|riz|Riz rond|Short-grain rice|cereales||730|||||g||
+riz-brise|riz|Riz brisé|Broken rice|cereales||730|||specialty|||riz-long-grain|Le riz long grain ne boit pas la sauce comme le brisé : le thiéboudienne y perd.
+riz-gluant|riz|Riz gluant|Glutinous rice|cereales||730|||specialty|||riz-rond|Le riz rond colle un peu mais ne se travaille pas à la main de la même façon.
+pates||Pâtes|Pasta|cereales|gluten|730|y|pantry|common|y|g||
+spaghetti|pates|Spaghetti|Spaghetti|cereales||730|||||g||
+pates-courtes|pates|Pâtes courtes|Short pasta|cereales||730|||||g||
+vermicelle|pates|Vermicelle|Vermicelli|cereales||730|||||g||
+langue-d-oiseau|pates|Langues d'oiseau|Orzo|cereales||730|||||g||
+couscous||Couscous|Couscous|cereales|gluten|730|y|pantry|common|y|g||
+couscous-fin|couscous|Couscous fin|Fine couscous|cereales||730|||||g||
+couscous-moyen|couscous|Couscous moyen|Medium couscous|cereales||730|||||g||
+berkoukes|couscous|Berkoukes|Berkoukes|cereales||730|||specialty|||langue-d-oiseau|Les langues d'oiseau cuisent plus vite et rendent la soupe moins épaisse.
+boulgour||Boulgour|Bulgur|cereales|gluten|730|y|pantry|common|y|g||
+boulgour-fin|boulgour|Boulgour fin|Fine bulgur|cereales||730|||||g||
+boulgour-gros|boulgour|Boulgour gros|Coarse bulgur|cereales||730|||||g||
+frik||Frik|Freekeh|cereales|gluten|730|y|pantry|specialty|y|g|boulgour-gros|Le boulgour n'a pas le goût fumé du blé vert grillé : la chorba change de caractère.
+quinoa||Quinoa|Quinoa|cereales|-|730|y|pantry|common|y|g||
+flocon-d-avoine||Flocon d'avoine|Rolled oats|cereales|gluten|365|y|pantry|common|y|g||
+polenta||Polenta|Polenta|cereales|-|730|y|pantry|common|y|g||
+hominy||Maïs à pozole|Hominy|conserves|-|730|y|pantry|hard|y|g||En conserve en épicerie latino. Le maïs doux ne convient pas : le grain de pozole est traité à la chaux.
+fonio||Fonio|Fonio|cereales|-|730|y|pantry|specialty|y|g|couscous-fin|Le couscous fin s'en approche à l'œil, mais le fonio est plus léger et sans gluten.
+petit-mil||Petit mil|Millet|cereales|-|730|y|pantry|specialty|y|g|couscous-fin|Le mil est plus rustique en bouche que la semoule de blé.
+attieke||Attiéké|Attiéké|cereales|-|10|y|fridge|specialty|n|g|couscous-moyen|Le couscous n'a pas l'acidité du manioc fermenté : c'est ce qui fait l'attiéké.
+nouilles-de-ble||Nouilles de blé|Wheat noodles|cereales|gluten|365|y|pantry|common|y|g||
+nouilles-de-riz||Nouilles de riz|Rice noodles|cereales|-|540|y|pantry|common|y|g||
+vermicelle-de-soja||Vermicelle de soja|Glass noodles|cereales|-|540|y|pantry|specialty|y|g|nouilles-de-riz|Les nouilles de riz sont opaques et plus fragiles ; le vermicelle de soja reste ferme.
+ble-tendre||Blé tendre|Wheat berries|cereales|gluten|730|y|pantry|specialty|n|g|boulgour-gros|Le boulgour est déjà précuit et concassé : il fond dans le bouillon au lieu de rester en grains.
+rechta|nouilles-de-ble|Rechta|Rechta|cereales||4|y|fridge|specialty||g|nouilles-de-ble|Les nouilles de blé du commerce sont plus épaisses : la sauce blanche les enrobe moins bien.
+riz-ofada|riz|Riz ofada|Ofada rice|cereales||365|||||g|riz-long-grain|Un riz long ordinaire donne un plat propre, mais sans l'odeur fermentée de l'ofada.
+mais-concasse||Maïs concassé|Samp|cereales|-|730|y|pantry|specialty|n|g|polenta|La polenta est moulue fin et fond en bouillie : le samp doit rester en grains entiers après trois heures.
+maftoul||Maftoul|Maftoul|cereales|gluten|365|y|pantry|specialty|n|g|couscous-moyen|Le maftoul est roulé bien plus gros : le couscous moyen se défait et donne une bouillie.
+jareesh||Jareesh|Jareesh cracked wheat|cereales|gluten|730|y|pantry|specialty|n|g|boulgour|Le boulgour est précuit et fond en vingt minutes ; le jareesh cru demande une heure et garde du grain.
+riz-souffle|riz|Riz soufflé|Puffed rice|cereales||90|y|pantry|common||g||
+riz-brun|riz|Riz brun|Brown rice|cereales||365|||||g||
+udon||Udon|Udon noodles|cereales|gluten|180|y|pantry|specialty|n|g|nouilles-de-ble|Les nouilles de blé ordinaires sont plus fines : l'udon est épais et mou, c'est sa raison d'être.
+ramen||Ramen|Ramen noodles|cereales|gluten|180|y|pantry|specialty|n|g|nouilles-de-ble|Les nouilles de ramen contiennent du kansui, qui leur donne leur ressort et leur couleur jaune.
+tteok||Tteok|Rice cake|cereales|-|30|y|fridge|specialty|n|g||Gnocchis de riz gluant. Rien ne reproduit leur élasticité ; les gnocchis de pomme de terre fondent.
+dangmyeon||Dangmyeon|Sweet potato noodles|cereales|-|365|y|pantry|specialty|n|g|vermicelle-de-soja|Le vermicelle de soja est plus fin et casse : le dangmyeon reste élastique et translucide.
+riz-arborio|riz|Riz arborio|Arborio rice|cereales||730|||||g|riz-rond|Le riz rond ordinaire libère moins d'amidon : le risotto sera moins crémeux.
+orge-perle||Orge perlé|Pearl barley|cereales|gluten|540|y|pantry|common|n|g||
+sarrasin||Sarrasin|Buckwheat groats|cereales|-|365|y|pantry|common|n|g||
+mais-violet||Maïs violet|Purple corn|cereales|-|540|y|pantry|specialty|n|g||En épicerie latino. Rien ne le remplace : c'est lui, et lui seul, qui donne la couleur.
+# ---------------------------------------------------- farines et semoules
+farine-de-ble||Farine de blé|Wheat flour|farines|gluten|365|y|pantry|common|y|g||
+farine-t45|farine-de-ble|Farine T45|T45 flour|farines||365|||||g||
+farine-t55|farine-de-ble|Farine T55|T55 flour|farines||365|||||g||
+farine-complete|farine-de-ble|Farine complète|Wholemeal flour|farines||270|||||g||
+semoule-de-ble||Semoule de blé|Semolina|farines|gluten|365|y|pantry|common|y|g||
+semoule-fine|semoule-de-ble|Semoule fine|Fine semolina|farines||365|||||g||
+semoule-moyenne|semoule-de-ble|Semoule moyenne|Medium semolina|farines||365|||||g||
+farine-de-pois-chiche||Farine de pois chiche|Chickpea flour|farines|-|270|y|pantry|specialty|y|g||En épicerie indienne ou maghrébine sous le nom de besan. Aucune farine ne la remplace : elle lie sans œuf.
+farine-de-riz||Farine de riz|Rice flour|farines|-|365|y|pantry|common|y|g||
+masa-harina||Masa harina|Masa harina|farines|-|270|y|pantry|hard|y|g||Maïs nixtamalisé, en épicerie latino. La farine de maïs ordinaire ne fait pas de tortilla : elle ne tient pas.
+gari||Gari|Gari|farines|-|365|y|pantry|specialty|y|g||Semoule de manioc fermentée, en épicerie africaine. La semoule de blé n'a ni l'acidité ni le grain.
+farine-de-teff||Farine de teff|Teff flour|farines|-|365|y|pantry|specialty|n|g||Le teff n'a pas de gluten et fermente seul. Coupé de farine de blé, l'injera lève autrement et change de goût.
+farine-d-orge||Farine d'orge|Barley flour|farines|gluten|365|y|pantry|specialty|n|g|farine-complete|La farine complète est plus lourde et moins douce que l'orge grillée.
+farine-de-mais-blanche||Farine de maïs blanche|White maize meal|farines|-|365|y|pantry|specialty|n|g|polenta|La polenta est jaune et plus grossière : le pap est plus fin et sans le goût sucré du maïs jaune.
+farine-de-sarrasin||Farine de sarrasin|Buckwheat flour|farines|-|180|y|pantry|common|n|g||
+farine-de-mais||Farine de maïs|Maize flour|farines|-|365|y|pantry|common|n|g|polenta|La polenta est plus grossière : la broa devient sableuse si on ne la mouline pas.
+farine-de-seigle||Farine de seigle|Rye flour|farines|gluten|365|y|pantry|common|n|g||
+fecule-de-tapioca||Fécule de tapioca|Tapioca starch|farines|-|540|y|pantry|specialty|n|g||En épicerie latino ou asiatique. Rien ne la remplace : c'est elle qui donne l'élasticité du pão de queijo.
+# ----------------------------------------------------- pains et galettes
+pain||Pain|Bread|pains|gluten|3|y|counter|common|n|piece||
+baguette|pain|Baguette|Baguette|pains||1|||||piece||
+pain-de-mie|pain|Pain de mie|Sliced bread|pains||7|||||piece||
+khobz||Khobz|Khobz|pains|gluten|2|y|counter|specialty|n|piece|pain|Le pain de boulangerie ne sauce pas comme la galette de semoule.
+pain-pita||Pain pita|Pita bread|pains|gluten|5|y|counter|common|n|piece||
+chapati||Chapati|Chapati|pains|gluten|3|y|counter|specialty|n|piece|pain-pita|La pita est levée et plus épaisse ; le chapati est une galette sèche.
+naan||Naan|Naan|pains|gluten,dairy|4|y|fridge|common|n|piece||
+tortilla-de-mais||Tortilla de maïs|Corn tortilla|pains|-|10|y|fridge|specialty|n|piece||En épicerie latino ou au rayon du monde. La tortilla de blé se plie mais n'a pas le goût.
+tortilla-de-ble||Tortilla de blé|Flour tortilla|pains|gluten|21|y|pantry|common|n|piece||
+msemen||Msemen|Msemen|pains|gluten|2|y|counter|specialty|n|piece||Crêpe feuilletée maghrébine, en pâtisserie orientale ou surgelée. Rien de comparable en grande surface.
+feuille-de-brick||Feuille de brick|Brick pastry|pains|gluten|21|y|fridge|common|n|piece|pate-filo|La filo est plus fine et plus cassante : il en faut deux ou trois épaisseurs.
+pate-filo||Pâte filo|Filo pastry|pains|gluten|21|y|fridge|common|n|g||
+pate-feuilletee||Pâte feuilletée|Puff pastry|surgeles|gluten|180|y|freezer|common|n|piece||
+injera||Injera|Injera|pains|-|3|y|fridge|hard|n|piece||Galette de teff fermentée. Une tortilla ou un pain plat ne boivent pas la sauce de la même façon.
+pate-kataifi||Pâte kataifi|Kataifi pastry|pains|gluten|180|y|freezer|hard|n|g|pate-filo|Le filo se feuillette, le kataifi croustille en brins : la texture n'a rien à voir.
+pate-a-wonton||Pâte à wonton|Wonton wrapper|pains|gluten|10|y|fridge|specialty|n|piece|pate-filo|Le filo est sec et cassant : il ne se poche pas et se dissout dans le bouillon.
+panko||Panko|Panko|pains|gluten|180|y|pantry|common|y|g||
+galette-de-riz||Galette de riz|Rice paper|pains|-|365|y|pantry|common|y|piece||Se trempe deux secondes, jamais plus : trop mouillée elle devient une colle impossible à rouler.
+pain-d-epices||Pain d'épices|Gingerbread|pains|gluten|60|y|pantry|common|n|g||
+# --------------------------------------------------------- légumineuses
+pois-chiche||Pois chiche|Chickpea|legumineuses|-|730|y|pantry|common|y|g||
+pois-chiche-sec|pois-chiche|Pois chiche sec|Dried chickpeas|legumineuses||730|||||g||
+pois-chiche-en-conserve|pois-chiche|Pois chiche en conserve|Canned chickpeas|conserves||1095|y|pantry||y|g||
+lentille||Lentille|Lentil|legumineuses|-|730|y|pantry|common|y|g||
+lentille-verte|lentille|Lentille verte|Green lentil|legumineuses||730|||||g||
+lentille-corail|lentille|Lentille corail|Red lentil|legumineuses||730|||||g||
+lentille-noire|lentille|Lentille noire|Black lentil|legumineuses||730|||specialty|||lentille-corail|La corail se défait complètement ; l'urad dal donne le crémeux du dal makhani.
+haricot-blanc||Haricot blanc|White bean|legumineuses|-|730|y|pantry|common|y|g||
+haricot-rouge||Haricot rouge|Red kidney bean|legumineuses|-|730|y|pantry|common|y|g||
+haricot-rouge-en-conserve|haricot-rouge|Haricot rouge en conserve|Canned kidney beans|conserves||1095|y|pantry||y|g||
+haricot-noir||Haricot noir|Black bean|legumineuses|-|730|y|pantry|common|y|g||
+haricot-pinto||Haricot pinto|Pinto bean|legumineuses|-|730|y|pantry|specialty|y|g|haricot-rouge|Le haricot rouge tient mieux ; le pinto s'écrase et c'est ce qu'on lui demande.
+niebe||Niébé|Black-eyed pea|legumineuses|-|730|y|pantry|specialty|y|g|haricot-blanc|Le haricot blanc est plus farineux ; le niébé garde une peau ferme.
+feve||Fève|Broad bean|legumineuses|-|730|y|pantry|common|y|g||
+feve-seche|feve|Fève sèche|Dried broad bean|legumineuses||730|||||g||
+feve-fraiche|feve|Fève fraîche|Fresh broad bean|legumes||6|y|fridge||n|g||
+pois-casse||Pois cassé|Split pea|legumineuses|-|730|y|pantry|common|y|g||
+haricot-mungo||Haricot mungo|Mung bean|legumineuses|-|730|y|pantry|specialty|y|g|lentille-corail|La corail cuit aussi vite mais se délite ; le mungo garde sa forme.
+pois-d-angole||Pois d'Angole|Toor dal|legumineuses|-|730|y|pantry|hard|y|g|pois-casse|Le pois cassé donne la même texture de dal, avec un goût plus doux.
+tofu||Tofu|Tofu|legumineuses|-|10|y|fridge|common|n|g||
+tofu-ferme|tofu|Tofu ferme|Firm tofu|legumineuses||10|||||g||
+tofu-soyeux|tofu|Tofu soyeux|Silken tofu|legumineuses||10|||||g||
+azuki||Azuki|Adzuki bean|legumineuses|-|730|y|pantry|specialty|n|g|haricot-rouge|Le haricot rouge est plus gros et moins sucré : la pâte d'anko en perd sa finesse.
+feve-seche-decortiquee|feve|Fève sèche décortiquée|Split dried broad bean|legumineuses||730|||||g||
+# ------------------------------------------------------------ noix et graines
+arachide||Arachide|Peanut|noix-graines|peanut|180|y|pantry|common|y|g||
+arachide-grillee|arachide|Arachide grillée|Roasted peanut|noix-graines||180|||||g||
+amande||Amande|Almond|noix-graines|tree_nut|365|y|pantry|common|y|g||
+amande-effilee|amande|Amande effilée|Flaked almond|noix-graines||270|||||g||
+poudre-d-amande|amande|Poudre d'amande|Ground almond|patisserie||180|||||g||
+noix-de-cajou||Noix de cajou|Cashew|noix-graines|tree_nut|270|y|pantry|common|y|g||
+pistache||Pistache|Pistachio|noix-graines|tree_nut|270|y|pantry|common|y|g||
+noix||Noix|Walnut|noix-graines|tree_nut|270|y|pantry|common|y|g||
+noisette||Noisette|Hazelnut|noix-graines|tree_nut|270|y|pantry|common|y|g||
+pignon-de-pin||Pignon de pin|Pine nut|noix-graines|tree_nut|180|y|fridge|common|y|g||
+sesame||Sésame|Sesame seed|noix-graines|-|365|y|pantry|common|y|g||
+sesame-noir|sesame|Sésame noir|Black sesame seed|noix-graines||365|||specialty|||sesame|Le sésame blanc est moins amer et moins parfumé, mais fait le même travail.
+graine-de-courge||Graine de courge|Pumpkin seed|noix-graines|-|270|y|pantry|common|y|g||
+egusi|graine-de-courge|Egusi|Egusi|noix-graines||270|||hard|||graine-de-courge|La graine de courge moulue épaissit pareil mais reste plus douce ; l'egusi a un fond plus gras et plus torréfié.
+graine-de-tournesol||Graine de tournesol|Sunflower seed|noix-graines|-|270|y|pantry|common|y|g||
+zgougou||Zgougou|Aleppo pine seed|noix-graines|-|365|y|pantry|hard|n|g||Graines de pin d'Alep. Sans équivalent : l'assidat zgougou ne se fait pas avec autre chose.
+ogbono||Ogbono|Wild mango seed|noix-graines|-|365|y|pantry|hard|n|g|egusi|L'egusi épaissit mais ne file pas : la soupe change de nature.
+graine-de-lin||Graine de lin|Flaxseed|noix-graines|-|365|y|pantry|common|n|g||
+graine-de-basilic||Graine de basilic|Basil seed|noix-graines|-|365|y|pantry|hard|n|tbsp||Gonflent en gel translucide. Les graines de chia gonflent aussi mais restent molles et troubles.
+noix-de-bancoul||Noix de bancoul|Candlenut|noix-graines|tree_nut|365|y|pantry|hard|n|piece|noix-de-cajou|La cajou épaissit de la même façon, mais elle est sucrée là où le bancoul est neutre et cireux.
+noix-de-keluak||Noix de keluak|Keluak nut|noix-graines|-|730|y|pantry|hard|n|piece||Ne se vend et ne se consomme QUE fermentée. Crue elle est toxique. Rien d'autre ne noircit le rawon.
+# ---------------------------------------------------------------- épices
+sel||Sel|Salt|epices|-||n|pantry|common|y|g||
+gros-sel|sel|Gros sel|Coarse salt|epices|||n|||y|g||
+poivre-noir||Poivre noir|Black pepper|epices|-|730|y|pantry|common|y|tsp||
+poivre-blanc||Poivre blanc|White pepper|epices|-|730|y|pantry|common|y|tsp||
+cumin||Cumin|Cumin|epices|-|730|y|pantry|common|y|tsp||
+coriandre-graines||Coriandre en graines|Coriander seed|epices|-|730|y|pantry|common|y|tsp||
+paprika||Paprika|Paprika|epices|-|730|y|pantry|common|y|tsp||
+paprika-fume|paprika|Paprika fumé|Smoked paprika|epices||730|||||tsp||
+curcuma||Curcuma|Turmeric|epices|-|730|y|pantry|common|y|tsp||
+gingembre-moulu||Gingembre moulu|Ground ginger|epices|-|730|y|pantry|common|y|tsp||
+cannelle||Cannelle|Cinnamon|epices|-|730|y|pantry|common|y|tsp||
+clou-de-girofle||Clou de girofle|Clove|epices|-|730|y|pantry|common|y|piece||
+cardamome||Cardamome|Cardamom|epices|-|730|y|pantry|common|y|piece||
+cardamome-noire|cardamome|Cardamome noire|Black cardamom|epices||730|||specialty|||cardamome|La cardamome verte est florale ; la noire est fumée. Ce n'est pas le même parfum.
+muscade||Muscade|Nutmeg|epices|-|730|y|pantry|common|y|pinch||
+safran||Safran|Saffron|epices|-|730|y|pantry|specialty|y|pinch|curcuma|Le curcuma donne la couleur, jamais le parfum. Mieux vaut peu de vrai safran.
+anis-vert||Anis vert|Aniseed|epices|-|730|y|pantry|common|y|tsp||
+badiane||Badiane|Star anise|epices|-|730|y|pantry|common|y|piece||
+fenugrec||Fenugrec|Fenugreek|epices|-|730|y|pantry|specialty|y|tsp||En épicerie orientale ou indienne. Amer et puissant : rien ne le remplace, on l'omet.
+graine-de-nigelle||Graine de nigelle|Nigella seed|epices|-|730|y|pantry|specialty|y|tsp||Habba sawda en épicerie orientale. À défaut, une pincée de sésame pour le décor, sans le goût.
+graine-de-moutarde||Graine de moutarde|Mustard seed|epices|-|730|y|pantry|common|y|tsp||
+graine-de-fenouil||Graine de fenouil|Fennel seed|epices|-|730|y|pantry|common|y|tsp||
+laurier||Laurier|Bay leaf|epices|-|730|y|pantry|common|y|piece||
+thym-seche||Thym séché|Dried thyme|epices|-|730|y|pantry|common|y|tsp||
+origan-seche||Origan séché|Dried oregano|epices|-|730|y|pantry|common|y|tsp||
+menthe-sechee||Menthe séchée|Dried mint|epices|-|730|y|pantry|common|y|tsp||
+sumac||Sumac|Sumac|epices|-|730|y|pantry|specialty|y|tsp||En épicerie levantine. Un zeste de citron donne l'acidité, pas la couleur ni le fruité.
+asafoetida||Asafœtida|Asafoetida|epices|-|730|y|pantry|hard|y|pinch||Le hing, en épicerie indienne. Une pincée remplace l'oignon et l'ail dans un dal ; sans elle, on s'en passe.
+poivre-de-selim||Poivre de Selim|Grains of Selim|epices|-|730|y|pantry|hard|y|piece|poivre-noir|Le poivre noir pique sans donner le fumé musqué du kani.
+piment-en-poudre||Piment en poudre|Chilli powder|epices|-|730|y|pantry|common|y|tsp||
+piment-seche||Piment séché|Dried chilli|epices|-|730|y|pantry|common|y|piece||
+ancho|piment-seche|Piment ancho|Ancho chilli|epices||730|||specialty|||piment-seche|Doux et fruité. Un piment séché ordinaire pique plus et sucre moins.
+guajillo|piment-seche|Piment guajillo|Guajillo chilli|epices||730|||specialty|||ancho|L'ancho est plus doux et plus sombre ; le guajillo est vif et acidulé.
+chipotle|piment-seche|Chipotle|Chipotle|epices||730|||specialty|||paprika-fume|Le paprika fumé donne le fumé sans le piquant : compléter avec du piment en poudre.
+piment-de-cayenne|piment-seche|Piment de Cayenne|Cayenne pepper|epices||730|||||tsp||
+piment-kashmiri|piment-seche|Piment du Cachemire|Kashmiri chilli|epices||730|||specialty|||paprika|Le paprika donne la même couleur rouge profonde sans le piquant.
+pili-pili|piment-seche|Pili-pili|Pili-pili|epices||730|||specialty|||piment-de-cayenne|Le cayenne pique autant mais n'a pas le fruité du piment africain.
+carvi||Carvi|Caraway|epices|-|730|y|pantry|common|y|tsp||
+ehuru||Ehuru|Calabash nutmeg|epices|-|730|y|pantry|hard|n|tsp|muscade|La muscade commune est plus douce et plus sucrée : le parfum résineux de l'ehuru manque.
+poudre-de-kuka||Poudre de kuka|Baobab leaf powder|epices|-|365|y|pantry|hard|n|g||Feuilles de baobab séchées, épaississant amer. Aucun substitut courant.
+piment-d-alep||Piment d'Alep|Aleppo pepper|epices|-|365|y|pantry|specialty|y|tsp|piment-en-poudre|Le piment en poudre est plus sec et plus brutal : le piment d'Alep est fruité, huileux et bien moins fort.
+feuille-de-fenugrec||Feuille de fenugrec|Dried fenugreek leaf|epices|-|365|y|pantry|specialty|n|tbsp|fenugrec|Les graines sont bien plus amères : à dose égale, elles écrasent le plat.
+amchoor||Amchoor|Amchoor|epices|-|365|y|pantry|specialty|n|tsp|citron|Le citron acidifie mais mouille : l'amchoor acidifie un plat sec sans y ajouter de liquide.
+timur||Timur|Timur pepper|epices|-|730|y|pantry|hard|n|tsp|poivre-noir|Le poivre noir pique mais n'engourdit pas : c'est ce picotement citronné qui signe la cuisine népalaise.
+poivre-de-sichuan||Poivre de Sichuan|Sichuan pepper|epices|-|365|y|pantry|specialty|y|tsp|poivre-noir|Le poivre noir pique mais n'engourdit pas : le « ma » du mala disparaît complètement.
+gochugaru||Gochugaru|Korean chilli flakes|epices|-|365|y|freezer|specialty|y|tbsp|piment-en-poudre|Le piment en poudre est plus fort et moins fruité : le kimchi devient brûlant au lieu d'être rouge et rond.
+rocou||Rocou|Annatto|epices|-|730|y|pantry|specialty|n|tbsp|paprika|Le paprika colore aussi mais apporte un goût ; le rocou ne fait que teinter en orange profond.
+poivre-de-kampot|poivre-noir|Poivre de Kampot|Kampot pepper|epices||730|||||tsp||Se vend aussi en grappes vertes fraîches, qui se mangent entières, tige comprise.
+piment-d-espelette||Piment d'Espelette|Espelette pepper|epices|-|365|y|pantry|specialty|y|tsp|paprika|Le paprika est fumé ou doux ; l'Espelette est fruité et légèrement piquant, sans jamais brûler.
+piment-de-la-jamaique||Piment de la Jamaïque|Allspice|epices|-|730|y|pantry|common|y|tsp||
+piment-en-flocons|piment-seche|Piment en flocons|Chilli flakes|epices||730|||||tsp||
+baie-de-genievre||Baie de genièvre|Juniper berry|epices|-|730|y|pantry|common|y|piece||
+aji-panca||Ají panca|Panca chilli|epices|-|730|y|pantry|specialty|n|piece|paprika-fume|Le paprika fumé donne la couleur et la fumée, mais pas la douceur de fruit sec du panca.
+bois-d-inde||Bois d'Inde|Bay rum leaf|epices|-|365|y|pantry|specialty|y|piece|laurier|Le laurier est plus âpre ; le bois d'Inde tient du clou de girofle et de la cannelle.
+# ------------------------------------------------------- mélanges d'épices
+ras-el-hanout||Ras el-hanout|Ras el hanout|melanges-epices|-|540|y|pantry|specialty|y|tsp||Se trouve au rayon du monde. À défaut : cumin, coriandre, cannelle, gingembre et poivre à parts égales.
+tabil||Tabil|Tabil|melanges-epices|-|540|y|pantry|hard|y|tsp||Mélange tunisien coriandre-carvi. À défaut : deux tiers coriandre, un tiers carvi moulu.
+baharat||Baharat|Baharat|melanges-epices|-|540|y|pantry|specialty|y|tsp|ras-el-hanout|Le ras el-hanout est plus fleuri ; le baharat est plus poivré et plus sombre.
+zaatar||Zaatar|Za'atar|melanges-epices|-|540|y|pantry|specialty|y|tsp||Thym, sumac et sésame. Se refait à la maison si l'épicerie manque.
+garam-masala||Garam masala|Garam masala|melanges-epices|-|540|y|pantry|common|y|tsp||
+poudre-de-curry||Poudre de curry|Curry powder|melanges-epices|-|540|y|pantry|common|y|tsp||
+tandoori-masala||Tandoori masala|Tandoori masala|melanges-epices|-|540|y|pantry|specialty|y|tsp|garam-masala|Le garam masala ne colore pas : ajouter du paprika pour le rouge.
+chaat-masala||Chaat masala|Chaat masala|melanges-epices|-|540|y|pantry|hard|y|tsp||Son acidité vient du mango séché et du sel noir. Un peu de sumac et de sel s'en approche.
+colombo||Poudre à colombo|Colombo powder|melanges-epices|-|540|y|pantry|specialty|y|tsp|poudre-de-curry|Le curry indien est plus sucré ; le colombo antillais est plus terreux, au riz grillé.
+cinq-epices||Cinq-épices|Five-spice|melanges-epices|-|540|y|pantry|common|y|tsp||
+chili-powder-mexicain||Chili powder mexicain|Mexican chili powder|melanges-epices|-|540|y|pantry|specialty|y|tsp||C'est un mélange, pas du piment pur : piment doux, cumin, origan et ail.
+yaji||Yaji|Suya spice|melanges-epices|peanut|540|y|pantry|hard|y|tsp||Mélange arachide-piment du suya. Se refait avec de l'arachide grillée moulue, du piment et du gingembre.
+bouquet-garni||Bouquet garni|Bouquet garni|melanges-epices|-|540|y|pantry|common|y|piece||
+herbes-de-provence||Herbes de Provence|Herbes de Provence|melanges-epices|-|540|y|pantry|common|y|tsp||
+quatre-epices||Quatre-épices|Allspice blend|melanges-epices|-|540|y|pantry|common|y|tsp||
+berbere||Berbéré|Berbere|melanges-epices|-|365|y|pantry|specialty|y|tbsp|harissa|La harissa est humide et sans fenugrec : la couleur y est, le fond amer et sucré n'y est pas.
+mitmita||Mitmita|Mitmita|melanges-epices|-|365|y|pantry|hard|n|tsp|piment-de-cayenne|Le cayenne donne la force sans la cardamome ni le clou de girofle qui font le mitmita.
+panch-phoron||Panch phoron|Panch phoron|melanges-epices|-|365|y|pantry|specialty|n|tbsp||Cinq graines entières : nigelle, fenugrec, cumin, fenouil, moutarde. Ne se moud jamais.
+# ------------------------------------------------- condiments et sauces
+sauce-soja||Sauce soja|Soy sauce|condiments|gluten|540|y|pantry|common|y|tbsp||
+sauce-soja-claire|sauce-soja|Sauce soja claire|Light soy sauce|condiments||540|||||tbsp||
+sauce-soja-foncee|sauce-soja|Sauce soja foncée|Dark soy sauce|condiments||540|||specialty|||sauce-soja-claire|La claire sale autant mais ne colore pas et n'a pas le sucré de la foncée.
+sauce-poisson||Sauce poisson|Fish sauce|condiments|fish|540|y|pantry|common|y|tbsp||
+sauce-huitre||Sauce d'huître|Oyster sauce|condiments|shellfish,gluten|365|y|fridge|common|y|tbsp||
+vinaigre||Vinaigre|Vinegar|condiments|-|730|y|pantry|common|y|ml||
+vinaigre-de-vin|vinaigre|Vinaigre de vin|Wine vinegar|condiments||730|||||ml||
+vinaigre-blanc|vinaigre|Vinaigre blanc|White vinegar|condiments||730|||||ml||
+vinaigre-de-riz|vinaigre|Vinaigre de riz|Rice vinegar|condiments||730|||||ml||
+vinaigre-de-cidre|vinaigre|Vinaigre de cidre|Cider vinegar|condiments||730|||||ml||
+vinaigre-balsamique|vinaigre|Vinaigre balsamique|Balsamic vinegar|condiments||730|||||ml||
+moutarde||Moutarde|Mustard|condiments|-|365|y|fridge|common|y|tbsp||
+mayonnaise||Mayonnaise|Mayonnaise|condiments|egg|90|y|fridge|common|n|tbsp||
+tahini||Tahini|Tahini|condiments|-|365|y|pantry|common|y|tbsp||
+melasse-de-grenade||Mélasse de grenade|Pomegranate molasses|condiments|-|540|y|pantry|specialty|y|tbsp||En épicerie levantine. Un sirop de jus de grenade réduit avec un peu de citron s'en approche.
+bouillon-cube||Bouillon cube|Stock cube|condiments|-|540|y|pantry|common|y|piece||
+bouillon-volaille|bouillon-cube|Bouillon de volaille|Chicken stock cube|condiments||540|||||piece||
+bouillon-boeuf|bouillon-cube|Bouillon de bœuf|Beef stock cube|condiments||540|||||piece||
+bouillon-legumes|bouillon-cube|Bouillon de légumes|Vegetable stock cube|condiments||540|||||piece||
+sauce-piquante||Sauce piquante|Hot sauce|condiments|-|365|y|fridge|common|y|tsp||
+potasse-alimentaire||Potasse alimentaire|Food potash|condiments|-|730|y|pantry|hard|n|tsp|bicarbonate|Le bicarbonate émulsionne moins fort : le nkwobi reste liquide au lieu d'épaissir.
+vin-de-riz||Vin de riz|Shaoxing wine|condiments|alcohol|730|y|pantry|specialty|y|ml|vinaigre-de-riz|Le vinaigre acidifie sans apporter le parfum de fermentation du shaoxing.
+sauce-hoisin||Sauce hoisin|Hoisin sauce|condiments|gluten|365|y|fridge|common|y|tbsp||
+huile-pimentee||Huile pimentée|Chilli oil|condiments|-|365|y|pantry|common|y|tbsp||
+mirin||Mirin|Mirin|condiments|alcohol|365|y|pantry|specialty|y|ml|sucre|Le sucre apporte le sucré mais pas le corps ni le brillant que le mirin donne aux sauces.
+sake||Saké|Sake|condiments|alcohol|365|y|pantry|specialty|y|ml|vin-blanc|Le vin blanc est acide là où le saké est doux : il déséquilibre les sauces japonaises.
+sauce-tonkatsu||Sauce tonkatsu|Tonkatsu sauce|condiments|gluten|365|y|fridge|specialty|y|tbsp||Sauce brune épaisse, fruitée et acidulée. Le ketchup n'a ni l'acidité ni les épices.
+wasabi||Wasabi|Wasabi|condiments|-|365|y|fridge|specialty|n|tsp|moutarde|La moutarde pique la langue, le wasabi pique le nez : ce n'est pas la même sensation.
+kecap-manis||Kecap manis|Sweet soy sauce|condiments|gluten|365|y|pantry|specialty|y|tbsp|sauce-soja|La sauce soja ordinaire est salée et liquide : le kecap manis est sirupeux et très sucré.
+vinaigre-de-canne|vinaigre|Vinaigre de canne|Cane vinegar|condiments||730|||||ml|vinaigre-de-cidre|Le vinaigre de cidre est fruité ; celui de canne est plus rond et moins acide, et l'adobo s'en ressent.
+vinaigre-de-xeres|vinaigre|Vinaigre de xérès|Sherry vinegar|condiments||730|||||ml|vinaigre-de-vin|Le vinaigre de vin est plus vif ; celui de xérès est boisé, et c'est lui qui signe le gaspacho.
+vinaigre-de-malt|vinaigre|Vinaigre de malt|Malt vinegar|condiments||730|||||ml|vinaigre-de-cidre|Le vinaigre de cidre est fruité ; celui de malt est plus rond et c'est lui qu'on met sur les frites.
+sauce-worcestershire||Sauce Worcestershire|Worcestershire sauce|condiments|fish|730|y|pantry|common|y|ml|sauce-soja|La sauce soja apporte le salé mais ni l'acidité ni l'anchois : ajouter un filet de vinaigre.
+ketchup||Ketchup|Ketchup|condiments|-|365|y|pantry|common|y|ml||
+# --------------------------------------- pâtes et bases aromatiques
+harissa||Harissa|Harissa|pates-aromatiques|-|180|y|fridge|common|y|tsp||
+pate-d-arachide||Pâte d'arachide|Peanut paste|pates-aromatiques|peanut|180|y|pantry|specialty|y|tbsp||La dakatine en épicerie africaine. Le beurre de cacahuète du commerce est sucré : prendre le non sucré.
+pate-de-curry-rouge||Pâte de curry rouge|Red curry paste|pates-aromatiques|shellfish|180|y|fridge|specialty|y|tbsp||Contient souvent de la pâte de crevette. À défaut, piment séché, citronnelle et ail mixés.
+pate-de-curry-verte||Pâte de curry verte|Green curry paste|pates-aromatiques|shellfish|180|y|fridge|specialty|y|tbsp|pate-de-curry-rouge|La rouge est plus douce et plus sucrée ; la verte est plus piquante et plus herbacée.
+sambal-oelek||Sambal oelek|Sambal oelek|pates-aromatiques|-|180|y|fridge|specialty|y|tsp|harissa|L'harissa est cuminée ; le sambal est du piment presque pur.
+gochujang||Gochujang|Gochujang|pates-aromatiques|gluten|365|y|fridge|specialty|y|tbsp||Pâte de piment fermentée coréenne, sucrée. Le miso plus du piment en poudre s'en approche.
+miso||Miso|Miso|pates-aromatiques|-|365|y|fridge|common|y|tbsp||
+pate-de-crevette||Pâte de crevette|Shrimp paste|pates-aromatiques|shellfish|540|y|fridge|hard|y|tsp|sauce-poisson|La sauce poisson apporte le salé fermenté sans la profondeur ni l'amertume.
+chipotle-en-adobo||Chipotle en adobo|Chipotle in adobo|pates-aromatiques|-|365|y|fridge|specialty|y|piece|chipotle|Le chipotle sec réhydraté avec un peu de vinaigre et de concentré de tomate y ressemble.
+pate-gingembre-ail||Pâte gingembre-ail|Ginger-garlic paste|pates-aromatiques|-|60|y|fridge|common|y|tbsp||
+pate-de-tamarin||Pâte de tamarin|Tamarind paste|pates-aromatiques|-|365|y|fridge|specialty|y|tbsp|tamarin|Le bloc de tamarin à délayer est moins cher et plus parfumé, mais demande du travail.
+concentre-de-poivron||Concentré de poivron|Red pepper paste|pates-aromatiques|-|365|y|fridge|specialty|y|tbsp|concentre-de-tomate|Le concentré de tomate est acide là où celui de poivron est sucré et fumé.
+doubanjiang||Doubanjiang|Fermented broad bean paste|pates-aromatiques|gluten|365|y|fridge|specialty|y|tbsp|harissa|La harissa pique mais n'a rien de la fermentation salée de la fève : le mapo tofu change de plat.
+curry-japonais||Curry japonais|Japanese curry roux|pates-aromatiques|gluten|365|y|pantry|specialty|n|g|poudre-de-curry|La poudre de curry n'épaissit pas : le roux japonais est un mélange gras et farineux.
+doenjang||Doenjang|Doenjang|pates-aromatiques|-|365|y|fridge|specialty|y|tbsp|miso|Le miso est plus doux et plus sucré ; le doenjang est rustique, salé et franchement fermenté.
+chunjang||Chunjang|Black bean paste|pates-aromatiques|gluten|365|y|fridge|hard|n|tbsp||Pâte de soja noire coréenne. Crue elle est amère : elle doit toujours être frite à l'huile.
+pate-de-curry-massaman||Pâte de curry massaman|Massaman curry paste|pates-aromatiques|-|180|y|fridge|specialty|n|tbsp|pate-de-curry-rouge|La pâte rouge n'a ni cannelle ni cardamome : le massaman perd tout son côté persan.
+# ---------------------------------------------------- matières grasses
+huile-d-olive||Huile d'olive|Olive oil|matieres-grasses|-|540|y|pantry|common|y|ml||
+huile-neutre||Huile neutre|Neutral oil|matieres-grasses|-|540|y|pantry|common|y|ml||
+huile-de-tournesol|huile-neutre|Huile de tournesol|Sunflower oil|matieres-grasses||540|||||ml||
+huile-de-colza|huile-neutre|Huile de colza|Rapeseed oil|matieres-grasses||540|||||ml||
+huile-d-arachide||Huile d'arachide|Peanut oil|matieres-grasses|peanut|540|y|pantry|common|y|ml||
+huile-de-sesame||Huile de sésame|Sesame oil|matieres-grasses|-|365|y|pantry|common|y|tsp||
+huile-de-coco||Huile de coco|Coconut oil|matieres-grasses|-|540|y|pantry|common|y|g||
+huile-de-palme-rouge||Huile de palme rouge|Red palm oil|matieres-grasses|-|365|y|pantry|specialty|y|ml||En épicerie africaine. Rien ne donne cette couleur ni ce goût ; l'huile neutre ne fait que graisser.
+saindoux||Saindoux|Lard|matieres-grasses|pork|180|y|fridge|common|y|g||
+huile-d-argan||Huile d'argan|Argan oil|matieres-grasses|-|365|y|pantry|hard|n|ml|huile-d-olive|L'argan alimentaire est torréfié : l'huile d'olive n'a ni son goût de noisette ni son amertume.
+huile-de-moutarde||Huile de moutarde|Mustard oil|matieres-grasses|-|365|y|pantry|specialty|y|ml|huile-neutre|L'huile neutre ne pique pas au nez : c'est précisément ce piquant que les plats bengalis cherchent.
+# ---------------------------------------------- laits et crèmes végétales
+lait-de-coco||Lait de coco|Coconut milk|laits-vegetaux|-|730|y|pantry|common|y|ml||
+creme-de-coco|lait-de-coco|Crème de coco|Coconut cream|laits-vegetaux||730|||||ml||
+lait-d-amande||Lait d'amande|Almond milk|laits-vegetaux|tree_nut|180|y|pantry|common|n|ml||
+lait-de-soja||Lait de soja|Soy milk|laits-vegetaux|-|180|y|pantry|common|n|ml||
+# ------------------------------------------ produits fermentés et saumures
+olive||Olive|Olive|fermentes|-|365|y|fridge|common|y|g||
+olive-verte|olive|Olive verte|Green olive|fermentes||365|||||g||
+olive-noire|olive|Olive noire|Black olive|fermentes||365|||||g||
+olive-cassee|olive|Olive cassée|Cracked green olive|fermentes||180|||specialty|||olive-verte|L'olive verte du commerce est plus douce ; l'olive cassée maghrébine est amère et croquante.
+citron-confit||Citron confit|Preserved lemon|fermentes|-|365|y|fridge|specialty|y|piece||Se fait maison avec des citrons et du gros sel, en trois semaines. Le zeste frais ne le remplace pas.
+cornichon||Cornichon|Gherkin|fermentes|-|365|y|fridge|common|y|piece||
+capre||Câpre|Caper|fermentes|-|540|y|fridge|common|y|tbsp||
+kimchi||Kimchi|Kimchi|fermentes|fish|90|y|fridge|specialty|n|g||Contient presque toujours de la sauce poisson. Aucune version du commerce n'est neutre.
+nere||Néré|Locust bean|fermentes|-|365|y|freezer|hard|y|tbsp|miso|Le soumbala est une graine de néré fermentée, très ammoniaquée. Le miso brun donne le même fond fermenté en plus doux ; un demi-cube de bouillon complète le salé.
+kashk||Kashk|Kashk|fermentes|dairy|180|y|fridge|hard|n|ml|yaourt-grec|Le yaourt est doux ; le kashk est un petit-lait fermenté puissant, presque piquant.
+tempeh||Tempeh|Tempeh|fermentes|-|10|y|fridge|specialty|n|g|tofu-ferme|Le tofu est caillé et lisse ; le tempeh est un bloc de soja fermenté, granuleux et bien plus typé.
+radis-conserve||Radis conservé|Preserved radish|fermentes|-|365|y|pantry|specialty|n|g||Daikon salé et séché, vendu en sachet. Très salé : se rince toujours avant usage.
+choucroute||Choucroute|Sauerkraut|fermentes|-|60|y|fridge|common|n|g||
+kefir||Kéfir|Kefir|produits-laitiers|dairy|14|y|fridge|common|n|ml|lait-fermente|Le lait fermenté est moins pétillant et un peu moins acide, mais il joue le même rôle.
+# ------------------------------------------------- sucres et sucrants
+sucre||Sucre|Sugar|sucrants|-||n|pantry|common|y|g||
+sucre-roux|sucre|Sucre roux|Brown sugar|sucrants|||n|||y|g||
+sucre-glace|sucre|Sucre glace|Icing sugar|patisserie|||n|||y|g||
+miel||Miel|Honey|sucrants|-||n|pantry|common|y|g||
+melasse||Mélasse|Molasses|sucrants|-|730|y|pantry|common|y|tbsp||
+sirop-de-datte||Sirop de datte|Date syrup|sucrants|-|540|y|pantry|specialty|y|tbsp|miel|Le miel est plus floral ; le sirop de datte est plus sombre et moins sucrant.
+panela||Panela|Panela|sucrants|-|730|y|pantry|specialty|y|g|sucre-roux|Le sucre roux fond plus vite mais n'a pas le goût de canne fumée.
+confiture-d-abricot||Confiture d'abricot|Apricot jam|sucrants|-|365|y|pantry|common|y|g||
+sucre-de-palme||Sucre de palme|Palm sugar|sucrants|-|730|y|pantry|specialty|y|g|sucre-roux|Le sucre roux est plus sec et moins parfumé : le sucre de palme est mou, fumé et caramélisé.
+confiture||Confiture|Jam|sucrants|-|365|y|pantry|common|y|g||
+sirop-de-liege||Sirop de Liège|Liège fruit syrup|sucrants|-|365|y|pantry|specialty|n|g||Un concentré de poire et de pomme, très foncé et peu sucré. Rien ne le remplace vraiment.
+sucre-perle|sucre|Sucre perlé|Pearl sugar|sucrants|||n|||y|g|sucre|Le sucre ordinaire fond entièrement : il ne donne aucun croquant caramélisé.
+sirop-de-poire||Sirop de poire|Pear syrup|sucrants|-|365|y|pantry|specialty|n|g|melasse|La mélasse est plus amère ; le vin cuit fribourgeois est un jus de poire réduit, doux et fruité.
+sirop-d-erable||Sirop d'érable|Maple syrup|sucrants|-|365|y|pantry|common|n|ml|miel|Le miel est plus épais et plus floral ; l'érable est plus fluide et boisé.
+dulce-de-leche||Dulce de leche|Dulce de leche|sucrants|dairy|180|y|pantry|common|n|g|lait-concentre-sucre|Le lait concentré sucré n'est pas caramélisé : il est bien plus clair et beaucoup moins profond.
+sirop-de-canne||Sirop de canne|Cane syrup|sucrants|-|365|y|pantry|common|n|ml|melasse|La mélasse est plus amère et plus noire ; le sirop de canne est clair et franchement sucré.
+# --------------------------------------------------- aide à la pâtisserie
+levure-chimique||Levure chimique|Baking powder|patisserie|-|540|y|pantry|common|y|tsp||
+levure-boulangere||Levure de boulanger|Baker's yeast|patisserie|-|365|y|fridge|common|y|g||
+bicarbonate||Bicarbonate|Bicarbonate of soda|patisserie|-|730|y|pantry|common|y|tsp||
+maizena||Maïzena|Cornflour|patisserie|-|730|y|pantry|common|y|tbsp||
+vanille||Vanille|Vanilla|patisserie|-|730|y|pantry|common|y|piece||
+gousse-de-vanille|vanille|Gousse de vanille|Vanilla pod|patisserie||730|||||piece||
+extrait-de-vanille|vanille|Extrait de vanille|Vanilla extract|patisserie||730|||||tsp||
+eau-de-fleur-d-oranger||Eau de fleur d'oranger|Orange blossom water|patisserie|-|730|y|pantry|common|y|tbsp||
+eau-de-rose||Eau de rose|Rose water|patisserie|-|730|y|pantry|specialty|y|tbsp|eau-de-fleur-d-oranger|La fleur d'oranger est plus vive, la rose plus ronde. Les deux parfument, pas de la même façon.
+chocolat-noir||Chocolat noir|Dark chocolate|patisserie|-|365|y|pantry|common|y|g||
+cacao-en-poudre||Cacao en poudre|Cocoa powder|patisserie|-|730|y|pantry|common|y|tbsp||
+gelatine||Gélatine|Gelatine|patisserie|-|730|y|pantry|common|y|piece||
+gomme-arabique||Gomme arabique|Gum arabic|patisserie|-|730|y|pantry|hard|n|g||Donne du croquant aux pâtes frites. S'omet sans que la recette échoue.
+salep||Salep|Salep|patisserie|-|730|y|pantry|hard|n|g|maizena|La maïzena épaissit mais n'a ni le parfum floral ni la texture élastique du salep.
+malt-d-orge||Malt d'orge|Barley malt powder|patisserie|gluten|365|y|pantry|hard|n|g||Sa seule fonction est enzymatique : il transforme l'amidon du riz en sucre, entre 55 et 60 °C.
+nigari||Nigari|Nigari|patisserie|-|730|y|pantry|hard|n|g||Coagulant du tofu, à base de chlorure de magnésium. Sans lui, le lait de soja ne prend pas.
+biscuit-sec||Biscuit sec|Plain biscuit|patisserie|gluten|180|y|pantry|common|n|g||
+levain||Levain|Sourdough starter|patisserie|gluten|14|y|fridge|specialty|n|g||Un levain se cultive : il ne s'achète pas tout fait, il se prépare une semaine à l'avance.
+agar-agar||Agar-agar|Agar-agar|patisserie|-|730|y|pantry|common|y|g|gelatine|L'agar prend à 40 °C et donne une texture cassante ; la gélatine reste souple et fond en bouche.
+pate-brisee||Pâte brisée|Shortcrust pastry|patisserie|gluten|14|y|fridge|common|n|piece||
+# --------------------------------------------------- boissons et liquides
+the-vert||Thé vert|Green tea|boissons|-|540|y|pantry|common|y|g||
+cafe||Café|Coffee|boissons|-|180|y|pantry|common|y|g||
+vin-rouge||Vin rouge|Red wine|boissons|alcohol|730|y|pantry|common|n|ml||
+vin-blanc||Vin blanc|White wine|boissons|alcohol|730|y|pantry|common|n|ml||
+biere||Bière|Beer|boissons|alcohol,gluten|365|y|pantry|common|n|ml||
+rhum||Rhum|Rum|boissons|alcohol|1095|y|pantry|common|n|ml||
+hibiscus-seche||Hibiscus séché|Dried hibiscus|boissons|-|540|y|pantry|specialty|y|g||Le bissap, en épicerie africaine. Rien d'autre ne donne cette acidité rouge.
+eau||Eau|Water|boissons|-||n|pantry|common|y|ml||
+concentre-de-noix-de-palme||Concentré de noix de palme|Palm nut concentrate|conserves|-|730|y|pantry|hard|n|g|huile-de-palme-rouge|L'huile seule donne la couleur et le gras, jamais le corps pulpeux de la noix.
+rooibos||Rooibos|Rooibos|boissons|-|730|y|pantry|common|n|g||
+matcha||Matcha|Matcha|boissons|-|180|y|fridge|specialty|n|g|the-vert|Le thé vert en feuilles s'infuse ; le matcha se boit entier, en poudre, et c'est toute la différence.
+pecorino||Pecorino romano|Pecorino romano|produits-laitiers|dairy|60|y|fridge|specialty|n|g|parmesan|Le pecorino est de brebis, plus salé et plus piquant ; le parmesan le remplace en dépannage seulement.
+mascarpone||Mascarpone|Mascarpone|produits-laitiers|dairy|14|y|fridge|common|n|g||
+biscuit-a-la-cuillere||Biscuit à la cuillère|Ladyfinger|patisserie|gluten|120|y|pantry|common|n|g||
+souchet||Souchet|Tiger nut|noix-graines|-|365|y|pantry|specialty|n|g||La chufa ne se remplace pas : sans elle, ce n'est plus une horchata de Valence.
+kefalotyri||Kefalotyri|Kefalotyri|produits-laitiers|dairy|60|y|fridge|specialty|n|g|pecorino|Le pecorino est plus salé mais tient la poêle de la même façon ; le parmesan convient aussi râpé.
+lait-evapore|lait|Lait évaporé|Evaporated milk|conserves||540|y|pantry||y|ml||
+cafe-soluble|cafe|Café soluble|Instant coffee|boissons||540|||||g||
+palourde||Palourde|Clam|fruits-de-mer|shellfish|2|y|fridge|common|n|g|moule|La moule est plus grosse et plus douce ; la palourde est iodée et se cuit deux minutes de moins.
+eau-gazeuse|eau|Eau gazeuse|Sparkling water|boissons|||||||ml||
+marjolaine||Marjolaine|Marjoram|epices|-|365|y|pantry|common|y|tsp|origan-seche|L'origan est plus âpre ; la marjolaine est douce et florale, et c'est elle qui signe la soupe allemande.
+fruit-confit||Fruit confit|Candied fruit|patisserie|-|365|y|pantry|common|n|g||
+fromage-blanc||Fromage blanc|Quark|produits-laitiers|dairy|14|y|fridge|common|n|g|ricotta|La ricotta est plus granuleuse et moins acide ; égouttée, elle s'en approche.
+compote-de-pomme||Compote de pomme|Apple sauce|conserves|-|365|y|pantry|common|n|g||
+cheddar||Cheddar|Cheddar|produits-laitiers|dairy|30|y|fridge|common|n|g||
+the-noir||Thé noir|Black tea|boissons|-|540|y|pantry|common|y|g||
+lait-fermente||Lait fermenté|Buttermilk|produits-laitiers|dairy|10|y|fridge|common|n|ml|yaourt|Un yaourt allongé de lait, ou du lait avec une cuillère de jus de citron, joue le même rôle acide.
+fromage-frais||Fromage frais|Cream cheese|produits-laitiers|dairy|21|y|fridge|common|n|g||
+cerfeuil||Cerfeuil|Chervil|herbes-fraiches|-|4|y|fridge|specialty|n|bunch|persil-plat|Le persil est plus franc ; le cerfeuil est anisé et délicat, et il ne supporte pas la cuisson.
+oseille||Oseille|Garden sorrel|herbes-fraiches|-|4|y|fridge|specialty|n|bunch|epinard|L'épinard n'a pas l'acidité de l'oseille : ajouter alors un filet de citron.
+gouda||Gouda|Gouda|produits-laitiers|dairy|45|y|fridge|common|n|g|emmental|L'emmental est plus doux ; le gouda vieux a un goût de noisette et des cristaux de sel.
+fromage-a-raclette||Fromage à raclette|Raclette cheese|produits-laitiers|dairy|30|y|fridge|common|n|g|emmental|L'emmental fond mais file ; le raclette coule sans se séparer, c'est pour cela qu'on le racle.
+vacherin||Vacherin fribourgeois|Vacherin fribourgeois|produits-laitiers|dairy|30|y|fridge|specialty|n|g|fromage-a-raclette|Le raclette fond de la même façon ; la fondue sera un peu moins parfumée.
+graine-de-pavot||Graine de pavot|Poppy seed|noix-graines|-|365|y|pantry|common|n|g||
+roquefort||Roquefort|Blue cheese|produits-laitiers|dairy|30|y|fridge|common|n|g||
+provolone||Provolone|Provolone|produits-laitiers|dairy|30|y|fridge|common|n|g|emmental|L'emmental file en fondant ; le provolone tient à la poêle et se coupe encore chaud.
+yerba-mate||Yerba maté|Yerba mate|boissons|-|540|y|pantry|common|n|g|the-vert|Le thé vert est plus doux ; le maté est amer et herbacé, et c'est ce qu'on y cherche.
+guascas||Guascas|Guascas|epices|-|365|y|pantry|specialty|n|tbsp||Herbe andine séchée, en épicerie latino. Sans elle, la soupe n'est pas un ajiaco.

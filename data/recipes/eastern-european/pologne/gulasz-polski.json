@@ -1,0 +1,41 @@
+{
+  "slug": "gulasz-polski",
+  "cuisine": "eastern-european",
+  "country": "pologne",
+  "origin": "Pologne",
+  "native_name": "Gulasz",
+  "title": {
+    "fr": "Goulasch polonais aux champignons",
+    "en": "Polish goulash with mushrooms"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 150 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hiver", "boeuf", "champignon", "mijote"],
+  "ingredients": [
+    { "raw": "1,2 kg de bœuf à mijoter, en gros cubes", "qty": 1200, "unit": "g", "item": "boeuf à mijoter", "prep": "en gros cubes" },
+    { "raw": "600 g d'oignons, émincés", "qty": 600, "unit": "g", "item": "oignon", "prep": "émincé" },
+    { "raw": "400 g de champignons de Paris, émincés", "qty": 400, "unit": "g", "item": "champignon de Paris", "prep": "émincé" },
+    { "raw": "40 g de champignons séchés", "qty": 40, "unit": "g", "item": "champignon séché" },
+    { "raw": "3 c. à s. de paprika doux", "qty": 3, "unit": "tbsp", "item": "paprika" },
+    { "raw": "2 poivrons rouges, en lanières", "qty": 2, "unit": "piece", "item": "poivron rouge", "prep": "en lanières" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "50 cl de bouillon de bœuf", "qty": 50, "unit": "cl", "item": "bouillon boeuf" },
+    { "raw": "2 c. à c. de marjolaine séchée", "qty": 2, "unit": "tsp", "item": "marjolaine" },
+    { "raw": "2 c. à c. de carvi", "qty": 2, "unit": "tsp", "item": "carvi" },
+    { "raw": "80 g de saindoux", "qty": 80, "unit": "g", "item": "saindoux" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le goulasch polonais se distingue du viennois par les CHAMPIGNONS SÉCHÉS : c'est le goût de la forêt.", "en": "Polish goulash differs from the Viennese one by its DRIED MUSHROOMS: the taste of the forest." },
+    { "fr": "Les réhydrater une heure et GARDER leur eau : elle vaut mieux que la moitié du bouillon.", "en": "Rehydrate them for an hour and KEEP their water: it is worth more than half the stock." },
+    { "fr": "Saisir la viande séchée par petites quantités, jusqu'à une croûte brun foncé.", "en": "Sear the dried meat in small batches, to a deep brown crust." },
+    { "fr": "Faire fondre les oignons trente minutes, puis retirer du feu AVANT d'ajouter le paprika.", "en": "Melt the onions for thirty minutes, then take off the heat BEFORE adding the paprika." },
+    { "fr": "Mouiller à l'eau des champignons et au bouillon, et mijoter deux heures à couvert.", "en": "Moisten with the mushroom water and the stock, and simmer for two hours, covered." },
+    { "fr": "Ajouter les champignons frais poêlés à part, les vingt dernières minutes.", "en": "Add the fresh mushrooms, fried separately, in the last twenty minutes." }
+  ]
+}

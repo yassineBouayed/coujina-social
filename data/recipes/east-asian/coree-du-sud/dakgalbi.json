@@ -1,0 +1,40 @@
+{
+  "slug": "dakgalbi",
+  "cuisine": "east-asian",
+  "country": "coree-du-sud",
+  "origin": "Corée du Sud",
+  "native_name": "닭갈비",
+  "title": {
+    "fr": "Dakgalbi, poulet sauté à la plaque au gochujang",
+    "en": "Dakgalbi, griddled gochujang chicken"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["chuncheon", "plaque", "gochujang", "convivial"],
+  "ingredients": [
+    { "raw": "1 kg de cuisses de poulet désossées, en morceaux", "qty": 1000, "unit": "g", "item": "cuisse de poulet", "prep": "désossée, en morceaux" },
+    { "raw": "5 c. à s. de gochujang", "qty": 5, "unit": "tbsp", "item": "gochujang", "group": "marinade" },
+    { "raw": "2 c. à s. de gochugaru", "qty": 2, "unit": "tbsp", "item": "gochugaru", "group": "marinade" },
+    { "raw": "4 c. à s. de sauce soja", "qty": 4, "unit": "tbsp", "item": "sauce soja", "group": "marinade" },
+    { "raw": "3 c. à s. de sucre roux", "qty": 3, "unit": "tbsp", "item": "sucre roux", "group": "marinade" },
+    { "raw": "6 gousses d'ail, râpées", "qty": 6, "unit": "piece", "item": "ail", "prep": "râpé", "group": "marinade" },
+    { "raw": "2 c. à s. de gingembre frais, râpé", "qty": 2, "unit": "tbsp", "item": "gingembre", "prep": "râpé", "group": "marinade" },
+    { "raw": "1/4 de chou blanc, en gros morceaux", "qty": 0.25, "unit": "piece", "item": "chou blanc", "prep": "en gros morceaux" },
+    { "raw": "2 patates douces, en tranches", "qty": 2, "unit": "piece", "item": "patate douce", "prep": "en tranches" },
+    { "raw": "300 g de tteok", "qty": 300, "unit": "g", "item": "tteok" },
+    { "raw": "6 oignons nouveaux, en tronçons", "qty": 6, "unit": "piece", "item": "oignon nouveau", "prep": "en tronçons" },
+    { "raw": "5 c. à s. d'huile neutre", "qty": 5, "unit": "tbsp", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Faire mariner le poulet au moins TROIS HEURES : le gochujang met du temps à pénétrer la chair.", "en": "Marinate the chicken for at least THREE HOURS: gochujang takes time to work into the flesh." },
+    { "fr": "Chauffer une grande plaque ou une poêle très large : le dakgalbi ne se fait pas en casserole.", "en": "Heat a large griddle or a very wide pan: dakgalbi is not made in a saucepan." },
+    { "fr": "Poser les patates douces au fond, elles cuisent le plus longtemps, puis le poulet dessus.", "en": "Lay the sweet potatoes at the bottom, they take longest, then the chicken on top." },
+    { "fr": "Couvrir et laisser dix minutes sans remuer, pour que la vapeur cuise les légumes.", "en": "Cover and leave it for ten minutes without stirring, so the steam cooks the vegetables." },
+    { "fr": "Découvrir, ajouter chou et tteok, et sauter à feu vif jusqu'à ce que la sauce accroche.", "en": "Uncover, add the cabbage and rice cakes, and toss over high heat until the sauce clings." },
+    { "fr": "Manger directement à la plaque, à plusieurs, en découpant aux ciseaux.", "en": "Eat straight from the griddle, together, cutting with scissors." }
+  ]
+}

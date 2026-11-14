@@ -1,0 +1,42 @@
+{
+  "slug": "tinga-de-pollo",
+  "cuisine": "latin-american",
+  "country": "mexique",
+  "origin": "Mexique",
+  "native_name": "Tinga de pollo",
+  "title": {
+    "fr": "Tinga de poulet au chipotle",
+    "en": "Chicken tinga with chipotle"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["puebla", "chipotle", "poulet", "tostada"],
+  "ingredients": [
+    { "raw": "1 kg de blanc de poulet", "qty": 1000, "unit": "g", "item": "blanc de poulet" },
+    { "raw": "800 g de tomates", "qty": 800, "unit": "g", "item": "tomate" },
+    { "raw": "5 chipotles en adobo", "qty": 5, "unit": "piece", "item": "chipotle en adobo" },
+    { "raw": "4 oignons, émincés", "qty": 4, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "5 gousses d'ail", "qty": 5, "unit": "piece", "item": "ail" },
+    { "raw": "2 c. à c. d'origan séché", "qty": 2, "unit": "tsp", "item": "origan séché" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "12 tortillas de maïs, frites en tostadas", "qty": 12, "unit": "piece", "item": "tortilla de maïs", "prep": "frites en tostadas", "group": "service" },
+    { "raw": "2 avocats, en tranches", "qty": 2, "unit": "piece", "item": "avocat", "prep": "en tranches", "group": "service" },
+    { "raw": "200 g de queso fresco, émietté", "qty": 200, "unit": "g", "item": "queso fresco", "prep": "émietté", "group": "service" },
+    { "raw": "20 cl de crème fraîche", "qty": 20, "unit": "cl", "item": "crème fraîche", "group": "service" },
+    { "raw": "8 c. à s. d'huile neutre", "qty": 8, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Pocher le poulet ENTIER, sans le couper, dans l'eau salée avec laurier et ail.", "en": "Poach the chicken WHOLE, uncut, in salted water with bay and garlic." },
+    { "fr": "Le laisser REFROIDIR dans son bouillon avant de l'effilocher : sorti chaud, il sèche.", "en": "COOL it in its broth before shredding: lifted out hot, it dries." },
+    { "fr": "L'effilocher À LA MAIN, dans le sens des fibres : au couteau, on obtient des cubes, pas des filaments.", "en": "Shred it BY HAND, along the grain: with a knife you get cubes, not strands." },
+    { "fr": "Faire dorer les oignons VINGT MINUTES : ils doivent être fondants, presque confits.", "en": "Fry the onions for TWENTY MINUTES: they must be soft, almost jammy." },
+    { "fr": "Mixer tomates et chipotles, et FRIRE la purée cinq minutes avant d'ajouter le poulet.", "en": "Blend the tomatoes and chipotles, and FRY the purée for five minutes before adding the chicken." },
+    { "fr": "Laisser mijoter vingt minutes : la tinga doit être SÈCHE, pas en sauce.", "en": "Simmer for twenty minutes: tinga must be DRY, not saucy." }
+  ]
+}

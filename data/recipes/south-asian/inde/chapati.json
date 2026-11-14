@@ -1,0 +1,32 @@
+{
+  "slug": "chapati",
+  "cuisine": "south-asian",
+  "country": "inde",
+  "origin": "Inde",
+  "native_name": "Chapati",
+  "title": {
+    "fr": "Chapati, pain quotidien à la farine complète",
+    "en": "Chapati, everyday wholemeal flatbread"
+  },
+  "meal_type": "bread",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["quotidien", "base", "poele", "simple"],
+  "ingredients": [
+    { "raw": "400 g de farine complète", "qty": 400, "unit": "g", "item": "farine complète" },
+    { "raw": "25 cl d'eau tiède", "qty": 25, "unit": "cl", "item": "eau" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "2 c. à s. de ghee", "qty": 2, "unit": "tbsp", "item": "ghee", "group": "finition" }
+  ],
+  "steps": [
+    { "fr": "Deux ingrédients, un tour de main : c'est ce qui rend le chapati difficile, pas la recette.", "en": "Two ingredients and a knack: that is what makes chapati hard, not the recipe." },
+    { "fr": "Pétrir la farine complète, le sel et l'eau dix minutes en une pâte souple qui ne colle plus.", "en": "Knead the wholemeal flour, salt and water for ten minutes into a soft dough that no longer sticks." },
+    { "fr": "Laisser reposer trente minutes sous un linge humide : sans repos, la pâte se rétracte à l'étalage.", "en": "Rest for thirty minutes under a damp cloth: without it, the dough springs back when rolled." },
+    { "fr": "Étaler des disques FINS et réguliers : une épaisseur inégale empêche le gonflement.", "en": "Roll THIN, even discs: uneven thickness stops the bread from puffing." },
+    { "fr": "Cuire sur une poêle très chaude, une minute par face, jusqu'à ce que des taches brunes apparaissent.", "en": "Cook on a very hot pan, a minute a side, until brown spots appear." },
+    { "fr": "Poser ensuite directement sur la flamme trois secondes : le chapati gonfle en ballon.", "en": "Then set it directly on the flame for three seconds: the chapati balloons." }
+  ]
+}

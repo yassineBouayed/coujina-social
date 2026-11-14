@@ -1,0 +1,43 @@
+{
+  "slug": "baozi",
+  "cuisine": "east-asian",
+  "country": "chine",
+  "origin": "Chine",
+  "native_name": "包子",
+  "title": {
+    "fr": "Baozi, brioches vapeur farcies au porc",
+    "en": "Baozi, steamed buns filled with pork"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 70, "cook_min": 20 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["vapeur", "petit-dejeuner", "rue", "brioche"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "1 c. à s. de levure boulangère sèche", "qty": 1, "unit": "tbsp", "item": "levure boulangère", "group": "pâte" },
+    { "raw": "3 c. à s. de sucre", "qty": 3, "unit": "tbsp", "item": "sucre", "group": "pâte" },
+    { "raw": "26 cl de lait tiède", "qty": 26, "unit": "cl", "item": "lait", "group": "pâte" },
+    { "raw": "3 c. à s. d'huile neutre", "qty": 3, "unit": "tbsp", "item": "huile neutre", "group": "pâte" },
+    { "raw": "500 g de porc haché", "qty": 500, "unit": "g", "item": "porc haché", "group": "farce" },
+    { "raw": "6 oignons nouveaux, ciselés", "qty": 6, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé", "group": "farce" },
+    { "raw": "2 c. à s. de gingembre frais, haché", "qty": 2, "unit": "tbsp", "item": "gingembre", "prep": "haché", "group": "farce" },
+    { "raw": "3 c. à s. de sauce hoisin", "qty": 3, "unit": "tbsp", "item": "sauce hoisin", "group": "farce" },
+    { "raw": "2 c. à s. de sauce soja", "qty": 2, "unit": "tbsp", "item": "sauce soja", "group": "farce" },
+    { "raw": "1 c. à s. d'huile de sésame", "qty": 1, "unit": "tbsp", "item": "huile de sésame", "group": "farce" },
+    { "raw": "1 c. à c. de cinq-épices", "qty": 1, "unit": "tsp", "item": "cinq-épices", "group": "farce" }
+  ],
+  "steps": [
+    { "fr": "Pétrir la pâte quinze minutes : elle doit être très lisse, plus travaillée qu'une pâte à pain.", "en": "Knead the dough for fifteen minutes: it must be very smooth, worked more than a bread dough." },
+    { "fr": "Laisser lever une heure, puis DÉGAZER complètement et pétrir à nouveau cinq minutes.", "en": "Prove for an hour, then KNOCK BACK completely and knead again for five minutes." },
+    { "fr": "Ce second pétrissage donne la mie fine et blanche du baozi : sans lui, elle est alvéolée comme du pain.", "en": "That second kneading gives baozi their fine white crumb: without it, it is holey like bread." },
+    { "fr": "Battre la farce dans un seul sens jusqu'à ce qu'elle colle, et la mettre au froid trente minutes.", "en": "Beat the filling in one direction until it is tacky, and chill it for thirty minutes." },
+    { "fr": "Étaler des disques épais, garnir, et plisser en tournant en une vingtaine de plis.", "en": "Roll thick discs, fill them, and pleat as you turn, about twenty pleats." },
+    { "fr": "Laisser lever vingt minutes puis cuire quinze minutes à la vapeur, ET NE PAS OUVRIR pendant cinq minutes après.", "en": "Prove for twenty minutes then steam for fifteen, AND DO NOT OPEN for five minutes afterwards." }
+  ],
+  "notes": [
+    { "fr": "Ouvrir le panier trop tôt fait retomber les baozi d'un coup : ils se fripent et ne remontent pas.", "en": "Opening the steamer too early makes baozi collapse at once: they wrinkle and never recover." }
+  ]
+}

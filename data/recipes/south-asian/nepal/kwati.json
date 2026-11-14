@@ -1,0 +1,41 @@
+{
+  "slug": "kwati",
+  "cuisine": "south-asian",
+  "country": "nepal",
+  "origin": "Népal",
+  "native_name": "Kwati",
+  "title": {
+    "fr": "Kwati, soupe de neuf légumineuses germées",
+    "en": "Kwati, soup of nine sprouted pulses"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 90 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["janai-purnima", "germination", "legumineuse", "rituel"],
+  "ingredients": [
+    { "raw": "150 g de haricot mungo", "qty": 150, "unit": "g", "item": "haricot mungo" },
+    { "raw": "100 g de pois chiches secs", "qty": 100, "unit": "g", "item": "pois chiche sec" },
+    { "raw": "100 g de haricots rouges", "qty": 100, "unit": "g", "item": "haricot rouge" },
+    { "raw": "100 g de haricots blancs", "qty": 100, "unit": "g", "item": "haricot blanc" },
+    { "raw": "100 g de niébé", "qty": 100, "unit": "g", "item": "niébé" },
+    { "raw": "100 g de pois cassés", "qty": 100, "unit": "g", "item": "pois cassé" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "1 c. à s. de pâte gingembre-ail", "qty": 1, "unit": "tbsp", "item": "pâte gingembre-ail" },
+    { "raw": "1 c. à c. de timur, moulu", "qty": 1, "unit": "tsp", "item": "timur", "prep": "moulu" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "1 c. à c. de graines d'ajowan", "qty": 1, "unit": "tsp", "item": "graine de nigelle" },
+    { "raw": "8 c. à s. d'huile de moutarde", "qty": 8, "unit": "tbsp", "item": "huile de moutarde" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le kwati se mange une fois l'an, à Janai Purnima, et il demande de s'y prendre trois jours à l'avance.", "en": "Kwati is eaten once a year, at Janai Purnima, and it must be started three days ahead." },
+    { "fr": "Tremper toutes les légumineuses ensemble UNE NUIT, puis les égoutter.", "en": "Soak all the pulses together OVERNIGHT, then drain them." },
+    { "fr": "Les envelopper dans un linge humide et les laisser GERMER deux jours, en les rinçant matin et soir.", "en": "Wrap them in a damp cloth and let them SPROUT for two days, rinsing them morning and evening." },
+    { "fr": "La germination est le sens du plat : elle rend les légumineuses digestes et bien plus nourrissantes.", "en": "Sprouting is the point of the dish: it makes the pulses digestible and far more nourishing." },
+    { "fr": "Faire revenir oignon, gingembre-ail, ajowan et curcuma dans l'huile de moutarde.", "en": "Fry the onion, ginger-garlic, ajwain and turmeric in the mustard oil." },
+    { "fr": "Ajouter les germes et 2 l d'eau, et cuire une heure et demie. Finir au timur.", "en": "Add the sprouts and 2 litres of water, and cook for an hour and a half. Finish with timur." }
+  ]
+}

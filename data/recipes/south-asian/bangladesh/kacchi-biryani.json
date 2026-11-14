@@ -1,0 +1,47 @@
+{
+  "slug": "kacchi-biryani",
+  "cuisine": "south-asian",
+  "country": "bangladesh",
+  "origin": "Bangladesh",
+  "native_name": "Kacchi biryani",
+  "title": {
+    "fr": "Kacchi biryani, viande crue cuite sous le riz",
+    "en": "Kacchi biryani, raw meat cooked beneath the rice"
+  },
+  "meal_type": "main",
+  "servings": 8,
+  "times": { "prep_min": 60, "cook_min": 120 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["dhaka", "mariage", "riz", "dum"],
+  "ingredients": [
+    { "raw": "1,5 kg d'épaule d'agneau, en gros morceaux", "qty": 1500, "unit": "g", "item": "épaule d'agneau", "prep": "en gros morceaux" },
+    { "raw": "800 g de riz basmati", "qty": 800, "unit": "g", "item": "riz basmati" },
+    { "raw": "50 cl de yaourt", "qty": 50, "unit": "cl", "item": "yaourt", "group": "marinade" },
+    { "raw": "1/2 papaye verte, râpée", "qty": 0.5, "unit": "piece", "item": "papaye", "prep": "râpée", "group": "marinade" },
+    { "raw": "3 c. à s. de pâte gingembre-ail", "qty": 3, "unit": "tbsp", "item": "pâte gingembre-ail", "group": "marinade" },
+    { "raw": "2 c. à s. de garam masala", "qty": 2, "unit": "tbsp", "item": "garam masala", "group": "marinade" },
+    { "raw": "2 c. à c. de piment kashmiri", "qty": 2, "unit": "tsp", "item": "piment kashmiri", "group": "marinade" },
+    { "raw": "5 oignons, frits et écrasés", "qty": 5, "unit": "piece", "item": "oignon", "prep": "frit et écrasé" },
+    { "raw": "5 pommes de terre, entières", "qty": 5, "unit": "piece", "item": "pomme de terre" },
+    { "raw": "1 grosse pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "15 cl de lait", "qty": 15, "unit": "cl", "item": "lait" },
+    { "raw": "6 gousses de cardamome", "qty": 6, "unit": "piece", "item": "cardamome" },
+    { "raw": "2 cardamomes noires", "qty": 2, "unit": "piece", "item": "cardamome noire" },
+    { "raw": "150 g de ghee", "qty": 150, "unit": "g", "item": "ghee" },
+    { "raw": "6 prunes séchées", "qty": 6, "unit": "piece", "item": "pruneau", "optional": true },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Kacchi veut dire CRU : la viande n'est jamais précuite, elle cuit sous le riz par la seule vapeur.", "en": "Kacchi means RAW: the meat is never pre-cooked, it cooks under the rice by steam alone." },
+    { "fr": "Faire mariner la viande dans le yaourt, la papaye râpée, la pâte gingembre-ail et les épices, SIX HEURES.", "en": "Marinate the meat in the yoghurt, grated papaya, ginger-garlic paste and spices for SIX HOURS." },
+    { "fr": "La papaye verte est indispensable : sans son enzyme, la viande crue ne sera pas tendre en deux heures.", "en": "Green papaya is essential: without its enzyme, raw meat will not turn tender in two hours." },
+    { "fr": "Précuire le riz CINQ MINUTES seulement dans une eau très salée avec les épices entières.", "en": "Parboil the rice for FIVE MINUTES only in heavily salted water with the whole spices." },
+    { "fr": "Monter : viande marinée au fond, pommes de terre frites, oignons frits, riz par-dessus, safran au lait.", "en": "Build it: marinated meat at the bottom, fried potatoes, fried onions, rice on top, saffron milk." },
+    { "fr": "Sceller hermétiquement à la pâte et cuire deux heures à feu très doux, sans jamais ouvrir.", "en": "Seal it airtight with dough and cook for two hours over very low heat, never opening it." }
+  ],
+  "notes": [
+    { "fr": "Ouvrir en cours de dum fait perdre la vapeur qui cuit la viande crue. Si l'on ouvre, on ne rattrape pas.", "en": "Opening mid-dum loses the steam that is cooking the raw meat. Once opened, there is no recovery." }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "choripan",
+  "cuisine": "latin-american",
+  "country": "argentine",
+  "origin": "Argentine",
+  "native_name": "Choripán",
+  "title": {
+    "fr": "Choripán au chimichurri",
+    "en": "Choripán with chimichurri"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "chorizo", "grill", "rapide"],
+  "ingredients": [
+    { "raw": "6 chorizos frais", "qty": 6, "unit": "piece", "item": "chorizo", "prep": "frais" },
+    { "raw": "6 petits pains", "qty": 6, "unit": "piece", "item": "pain", "prep": "en petits pains" },
+    { "raw": "2 bouquets de persil plat, ciselé", "qty": 2, "unit": "bunch", "item": "persil plat", "prep": "ciselé", "group": "chimichurri" },
+    { "raw": "10 gousses d'ail, hachées", "qty": 10, "unit": "piece", "item": "ail", "prep": "haché", "group": "chimichurri" },
+    { "raw": "20 cl d'huile d'olive", "qty": 20, "unit": "cl", "item": "huile d'olive", "group": "chimichurri" },
+    { "raw": "8 cl de vinaigre de vin", "qty": 8, "unit": "cl", "item": "vinaigre de vin", "group": "chimichurri" },
+    { "raw": "3 c. à s. d'origan séché", "qty": 3, "unit": "tbsp", "item": "origan séché", "group": "chimichurri" },
+    { "raw": "2 c. à c. de piment en flocons", "qty": 2, "unit": "tsp", "item": "piment en flocons", "group": "chimichurri" },
+    { "raw": "1 c. à c. de gros sel", "qty": 1, "unit": "tsp", "item": "gros sel", "group": "chimichurri" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le chorizo argentin est FRAIS, pas séché : c'est une saucisse crue, à griller.", "en": "Argentine chorizo is FRESH, not cured: a raw sausage, made for the grill." },
+    { "fr": "Le griller ENTIER vingt minutes, à feu doux, avant de l'ouvrir : sinon il perd tout son jus.", "en": "Grill it WHOLE for twenty minutes, over low heat, before splitting it: otherwise it loses its juice." },
+    { "fr": "L'ouvrir EN PAPILLON à la fin et griller la face coupée cinq minutes.", "en": "BUTTERFLY it at the end and grill the cut face for five minutes." },
+    { "fr": "Le chimichurri ne se MIXE JAMAIS : tout se hache au couteau, finement mais à la main.", "en": "Chimichurri is NEVER BLENDED: everything is chopped by knife, fine but by hand." },
+    { "fr": "Mixé, il devient une purée verte amère qui n'a plus rien du chimichurri.", "en": "Blended, it becomes a bitter green purée with nothing of chimichurri left." },
+    { "fr": "Le faire la VEILLE : l'ail cru a besoin d'une nuit dans le vinaigre pour s'adoucir.", "en": "Make it the DAY BEFORE: raw garlic needs a night in the vinegar to mellow." }
+  ]
+}

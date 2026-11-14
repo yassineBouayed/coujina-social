@@ -1,0 +1,34 @@
+{
+  "slug": "khubz-taboon",
+  "cuisine": "levantine",
+  "country": "jordanie",
+  "origin": "Jordanie",
+  "native_name": "Khubz taboon",
+  "title": {
+    "fr": "Khubz taboon, pain plat de four à galets",
+    "en": "Khubz taboon, pebble-oven flatbread"
+  },
+  "meal_type": "bread",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["pain", "base", "musakhan", "four"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé" },
+    { "raw": "100 g de farine complète", "qty": 100, "unit": "g", "item": "farine complète" },
+    { "raw": "1 c. à s. de levure boulangère sèche", "qty": 1, "unit": "tbsp", "item": "levure boulangère" },
+    { "raw": "1,5 c. à c. de sel", "qty": 1.5, "unit": "tsp", "item": "sel" },
+    { "raw": "35 cl d'eau tiède", "qty": 35, "unit": "cl", "item": "eau" },
+    { "raw": "4 c. à s. d'huile d'olive", "qty": 4, "unit": "tbsp", "item": "huile d'olive" }
+  ],
+  "steps": [
+    { "fr": "Pétrir les farines, la levure, le sel, l'eau et l'huile dix minutes en une pâte souple.", "en": "Knead the flours, yeast, salt, water and oil for ten minutes into a soft dough." },
+    { "fr": "Laisser lever une heure et demie sous un linge humide.", "en": "Prove for an hour and a half under a damp cloth." },
+    { "fr": "Le taboon est un four tapissé de galets brûlants : ce sont eux qui creusent les alvéoles du pain.", "en": "A taboon is an oven lined with scorching pebbles: they are what dimple the bread." },
+    { "fr": "À défaut, chauffer une plaque à 280 °C pendant trente minutes, à vide, dans le four.", "en": "Failing that, heat a tray at 280°C for thirty minutes, empty, in the oven." },
+    { "fr": "Étaler des disques d'un centimètre et les creuser du bout des doigts, franchement.", "en": "Roll one-centimetre discs and dimple them firmly with your fingertips." },
+    { "fr": "Cuire 6 à 8 minutes sur la plaque brûlante, jusqu'à ce que des cloques brunes apparaissent.", "en": "Bake for 6 to 8 minutes on the scorching tray, until brown blisters appear." }
+  ]
+}

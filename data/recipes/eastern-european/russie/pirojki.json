@@ -1,0 +1,42 @@
+{
+  "slug": "pirojki",
+  "cuisine": "eastern-european",
+  "country": "russie",
+  "origin": "Russie",
+  "native_name": "Пирожки",
+  "title": {
+    "fr": "Pirojki au chou et à l'œuf",
+    "en": "Pirozhki with cabbage and egg"
+  },
+  "meal_type": "starter",
+  "servings": 10,
+  "times": { "prep_min": 55, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["chausson", "chou", "gouter", "famille"],
+  "ingredients": [
+    { "raw": "600 g de farine T45", "qty": 600, "unit": "g", "item": "farine T45", "group": "pâte" },
+    { "raw": "30 cl de lait entier, tiède", "qty": 30, "unit": "cl", "item": "lait entier", "prep": "tiède", "group": "pâte" },
+    { "raw": "10 g de levure boulangère sèche", "qty": 10, "unit": "g", "item": "levure boulangère", "group": "pâte" },
+    { "raw": "80 g de beurre, mou", "qty": 80, "unit": "g", "item": "beurre", "prep": "mou", "group": "pâte" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf", "group": "pâte" },
+    { "raw": "1 c. à s. de sucre", "qty": 1, "unit": "tbsp", "item": "sucre", "group": "pâte" },
+    { "raw": "1 gros chou vert, en lanières fines", "qty": 1, "unit": "piece", "item": "chou vert", "prep": "en lanières fines", "group": "farce" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché", "group": "farce" },
+    { "raw": "5 œufs durs, hachés", "qty": 5, "unit": "piece", "item": "oeuf", "prep": "dur, haché", "group": "farce" },
+    { "raw": "1 bouquet d'aneth, ciselé", "qty": 1, "unit": "bunch", "item": "aneth", "prep": "ciselé", "group": "farce" },
+    { "raw": "100 g de beurre", "qty": 100, "unit": "g", "item": "beurre" },
+    { "raw": "1 œuf, pour dorer", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Faire braiser le chou au beurre QUARANTE MINUTES : il doit être totalement fondu, presque confit.", "en": "Braise the cabbage in butter for FORTY MINUTES: it must be entirely soft, almost jammy." },
+    { "fr": "Le laisser REFROIDIR complètement : chaud, il fait fondre la pâte levée par en dessous.", "en": "COOL it completely: warm, it melts the risen dough from below." },
+    { "fr": "La pâte briochée demande deux levées d'une heure chacune : elle est riche et lève lentement.", "en": "The enriched dough needs two proves of an hour each: it is rich and rises slowly." },
+    { "fr": "Souder les pirojki SOIGNEUSEMENT et les poser SOUDURE VERS LE BAS sur la plaque.", "en": "Seal the pirozhki CAREFULLY and set them SEAM DOWN on the tray." },
+    { "fr": "Une soudure vers le haut s'ouvre à la cuisson et la farce s'échappe.", "en": "A seam facing up opens while baking and the filling escapes." },
+    { "fr": "Laisser lever encore trente minutes sur la plaque, dorer, et cuire trente minutes à 180 °C.", "en": "Prove for another thirty minutes on the tray, egg-wash, and bake thirty minutes at 180°C." }
+  ]
+}

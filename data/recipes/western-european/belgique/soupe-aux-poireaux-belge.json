@@ -1,0 +1,39 @@
+{
+  "slug": "soupe-aux-poireaux-belge",
+  "cuisine": "western-european",
+  "country": "belgique",
+  "origin": "Belgique",
+  "native_name": "Preisoep",
+  "title": {
+    "fr": "Soupe aux poireaux et au fromage",
+    "en": "Leek and cheese soup"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 35 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hiver", "poireau", "fromage", "famille"],
+  "ingredients": [
+    { "raw": "6 poireaux, en rondelles", "qty": 6, "unit": "piece", "item": "poireau", "prep": "en rondelles" },
+    { "raw": "600 g de pommes de terre, en dés", "qty": 600, "unit": "g", "item": "pomme de terre", "prep": "en dés" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "1,2 l de bouillon de volaille", "qty": 1.2, "unit": "l", "item": "bouillon volaille" },
+    { "raw": "150 g d'emmental, râpé", "qty": 150, "unit": "g", "item": "emmental", "prep": "râpé" },
+    { "raw": "20 cl de crème liquide", "qty": 20, "unit": "cl", "item": "crème liquide" },
+    { "raw": "80 g de beurre", "qty": 80, "unit": "g", "item": "beurre" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Fendre les poireaux en quatre dans la longueur et les laver À GRANDE EAU : le sable se cache dedans.", "en": "Split the leeks in four lengthwise and wash them in PLENTY OF WATER: grit hides inside." },
+    { "fr": "Les faire SUER au beurre, à couvert, vingt minutes, sans jamais les colorer.", "en": "SWEAT them in butter, covered, for twenty minutes, without ever colouring them." },
+    { "fr": "Ajouter pommes de terre et bouillon, et cuire vingt minutes à frémissement.", "en": "Add the potatoes and stock, and cook for twenty minutes at a simmer." },
+    { "fr": "Mixer, puis ajouter le fromage HORS DU FEU, par poignées, en remuant.", "en": "Blend, then add the cheese OFF THE HEAT, a handful at a time, stirring." },
+    { "fr": "Sur le feu, le fromage tranche en fils et la soupe devient irrattrapable.", "en": "Over heat, the cheese splits into strings and the soup is beyond saving." },
+    { "fr": "Ajouter la crème et la muscade, et servir aussitôt.", "en": "Add the cream and nutmeg, and serve at once." }
+  ]
+}

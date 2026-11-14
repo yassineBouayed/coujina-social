@@ -1,0 +1,41 @@
+{
+  "slug": "bai-sach-chrouk",
+  "cuisine": "southeast-asian",
+  "country": "cambodge",
+  "origin": "Cambodge",
+  "native_name": "បាយសាច់ជ្រូក",
+  "title": {
+    "fr": "Bai sach chrouk, riz au porc grillé du matin",
+    "en": "Bai sach chrouk, morning grilled pork with rice"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["petit-dejeuner", "rue", "coco", "grillade"],
+  "ingredients": [
+    { "raw": "700 g d'échine de porc, en fines tranches", "qty": 700, "unit": "g", "item": "échine de porc", "prep": "en fines tranches" },
+    { "raw": "25 cl de lait de coco", "qty": 25, "unit": "cl", "item": "lait de coco", "group": "marinade" },
+    { "raw": "4 c. à s. de sauce soja", "qty": 4, "unit": "tbsp", "item": "sauce soja", "group": "marinade" },
+    { "raw": "3 c. à s. de sucre de palme", "qty": 3, "unit": "tbsp", "item": "sucre de palme", "group": "marinade" },
+    { "raw": "6 gousses d'ail, écrasées", "qty": 6, "unit": "piece", "item": "ail", "prep": "écrasé", "group": "marinade" },
+    { "raw": "500 g de riz brisé", "qty": 500, "unit": "g", "item": "riz brisé" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf", "group": "service" },
+    { "raw": "1 daikon, en julienne", "qty": 1, "unit": "piece", "item": "daikon", "prep": "en julienne", "group": "pickles" },
+    { "raw": "1 concombre, en rondelles", "qty": 1, "unit": "piece", "item": "concombre", "prep": "en rondelles", "group": "pickles" },
+    { "raw": "12 cl de vinaigre blanc", "qty": 12, "unit": "cl", "item": "vinaigre blanc", "group": "pickles" },
+    { "raw": "4 c. à s. de sucre", "qty": 4, "unit": "tbsp", "item": "sucre", "group": "pickles" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le riz est du RIZ BRISÉ, comme au Viêt Nam : sa texture cassée est un choix, pas un défaut.", "en": "The rice is BROKEN RICE, as in Vietnam: its broken texture is a choice, not a flaw." },
+    { "fr": "Faire mariner le porc au lait de coco QUATRE HEURES : le coco aide à la caramélisation.", "en": "Marinate the pork in coconut milk for FOUR HOURS: the coconut helps it caramelise." },
+    { "fr": "Griller sur braises vives, trois minutes par face, jusqu'à ce que les bords noircissent.", "en": "Grill over hot coals, three minutes a side, until the edges char." },
+    { "fr": "Préparer les pickles une heure à l'avance : vinaigre, sucre, sel et eau sur les légumes.", "en": "Make the pickles an hour ahead: vinegar, sugar, salt and water over the vegetables." },
+    { "fr": "Servir avec un bol de bouillon clair à part : c'est ce qui fait le petit-déjeuner khmer.", "en": "Serve with a bowl of clear broth alongside: that is what makes it a Khmer breakfast." },
+    { "fr": "Ajouter un œuf au plat et les pickles égouttés sur le riz.", "en": "Add a fried egg and the drained pickles onto the rice." }
+  ]
+}

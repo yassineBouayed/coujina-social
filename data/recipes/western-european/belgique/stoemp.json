@@ -1,0 +1,39 @@
+{
+  "slug": "stoemp",
+  "cuisine": "western-european",
+  "country": "belgique",
+  "origin": "Belgique",
+  "native_name": "Stoemp",
+  "title": {
+    "fr": "Stoemp aux légumes",
+    "en": "Stoemp, mashed potato with vegetables"
+  },
+  "meal_type": "side",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 35 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["bruxelles", "purée", "legumes", "famille"],
+  "ingredients": [
+    { "raw": "1,2 kg de pommes de terre", "qty": 1200, "unit": "g", "item": "pomme de terre" },
+    { "raw": "600 g de carottes, en dés", "qty": 600, "unit": "g", "item": "carotte", "prep": "en dés" },
+    { "raw": "3 poireaux, en rondelles", "qty": 3, "unit": "piece", "item": "poireau", "prep": "en rondelles" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "150 g de lardons", "qty": 150, "unit": "g", "item": "lardon" },
+    { "raw": "120 g de beurre", "qty": 120, "unit": "g", "item": "beurre" },
+    { "raw": "20 cl de crème liquide", "qty": 20, "unit": "cl", "item": "crème liquide" },
+    { "raw": "3 feuilles de laurier", "qty": 3, "unit": "piece", "item": "laurier" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le stoemp n'est PAS une purée lisse : les légumes doivent rester reconnaissables dedans.", "en": "Stoemp is NOT a smooth mash: the vegetables must stay recognisable in it." },
+    { "fr": "C'est la définition même du mot : stoempen, en bruxellois, veut dire écraser grossièrement.", "en": "That is the very meaning of the word: stoempen, in Brussels dialect, means to crush roughly." },
+    { "fr": "Cuire les pommes de terre à part et les légumes au beurre, longuement, à couvert.", "en": "Cook the potatoes separately and the vegetables in butter, at length, covered." },
+    { "fr": "Faire rissoler les lardons et garder leur gras : il parfume tout le stoemp.", "en": "Fry the bacon and keep its fat: it flavours the whole stoemp." },
+    { "fr": "Écraser à la FOURCHETTE ou au presse-purée grossier, jamais au mixeur.", "en": "Crush it with a FORK or a coarse ricer, never with a blender." },
+    { "fr": "Servir avec une saucisse grillée ou un boudin : c'est l'accord bruxellois habituel.", "en": "Serve with a grilled sausage or a blood sausage: the usual Brussels pairing." }
+  ]
+}

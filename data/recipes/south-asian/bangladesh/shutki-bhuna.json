@@ -1,0 +1,38 @@
+{
+  "slug": "shutki-bhuna",
+  "cuisine": "south-asian",
+  "country": "bangladesh",
+  "origin": "Bangladesh",
+  "native_name": "Shutki bhuna",
+  "title": {
+    "fr": "Shutki bhuna, poisson séché sauté aux piments",
+    "en": "Shutki bhuna, dried fish fried with chillies"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 30, "cook_min": 40 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["chittagong", "poisson-seche", "pimente", "fort"],
+  "ingredients": [
+    { "raw": "200 g de poisson séché", "qty": 200, "unit": "g", "item": "shutki" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "10 gousses d'ail, écrasées", "qty": 10, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "8 piments verts, fendus", "qty": 8, "unit": "piece", "item": "piment frais", "prep": "fendu" },
+    { "raw": "1 c. à s. de piment kashmiri", "qty": 1, "unit": "tbsp", "item": "piment kashmiri" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "2 tomates, en dés", "qty": 2, "unit": "piece", "item": "tomate", "prep": "en dés" },
+    { "raw": "10 cl d'huile de moutarde", "qty": 10, "unit": "cl", "item": "huile de moutarde" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le shutki a une odeur très forte : c'est un plat qui divise, et il vaut mieux le savoir avant de cuisiner.", "en": "Shutki has a very strong smell: it is a dish that divides opinion, and better to know that before cooking." },
+    { "fr": "Rincer le poisson séché à l'eau chaude plusieurs fois, puis le faire tremper trente minutes.", "en": "Rinse the dried fish in hot water several times, then soak it for thirty minutes." },
+    { "fr": "Le griller à sec quelques minutes : cela réveille son goût et adoucit l'odeur.", "en": "Toast it dry for a few minutes: this wakes up its flavour and softens the smell." },
+    { "fr": "Faire brunir les oignons et l'ail dans l'huile de moutarde, quinze minutes.", "en": "Brown the onions and garlic in the mustard oil, fifteen minutes." },
+    { "fr": "Ajouter les épices délayées, les tomates et le poisson, et cuire vingt minutes à découvert.", "en": "Add the slaked spices, tomatoes and fish, and cook for twenty minutes uncovered." },
+    { "fr": "Le shutki bhuna se sert SEC et très pimenté, en toute petite quantité, avec beaucoup de riz.", "en": "Shutki bhuna is served DRY and very hot, in tiny portions, with plenty of rice." }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "kahk",
+  "cuisine": "levantine",
+  "country": "egypte",
+  "origin": "Égypte",
+  "native_name": "Kahk el Eid",
+  "title": {
+    "fr": "Kahk, sablés de l'Aïd au sucre glace",
+    "en": "Kahk, Eid shortbread with icing sugar"
+  },
+  "meal_type": "dessert",
+  "servings": 12,
+  "times": { "prep_min": 60, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["aid", "fete", "sesame", "conserve"],
+  "ingredients": [
+    { "raw": "700 g de farine de blé", "qty": 700, "unit": "g", "item": "farine de blé" },
+    { "raw": "350 g de ghee", "qty": 350, "unit": "g", "item": "ghee" },
+    { "raw": "1 c. à s. de levure boulangère sèche", "qty": 1, "unit": "tbsp", "item": "levure boulangère" },
+    { "raw": "2 c. à s. de graines de sésame, grillées", "qty": 2, "unit": "tbsp", "item": "sésame", "prep": "grillé" },
+    { "raw": "1 c. à c. de graines de nigelle", "qty": 1, "unit": "tsp", "item": "graine de nigelle" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle" },
+    { "raw": "12 cl de lait tiède", "qty": 12, "unit": "cl", "item": "lait" },
+    { "raw": "200 g de pâte de dattes", "qty": 200, "unit": "g", "item": "datte", "prep": "dénoyautée et mixée", "group": "farce" },
+    { "raw": "100 g de sucre glace, pour la finition", "qty": 100, "unit": "g", "item": "sucre glace", "group": "finition" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Chauffer le ghee jusqu'à ce qu'il soit liquide et clair, puis le verser sur la farine.", "en": "Heat the ghee until liquid and clear, then pour it over the flour." },
+    { "fr": "Frotter longuement et laisser reposer UNE NUIT : c'est ce repos qui donne le fondant du kahk.", "en": "Rub it in at length and rest it OVERNIGHT: that rest is what gives kahk its melting texture." },
+    { "fr": "Le lendemain, ajouter la levure délayée dans le lait tiède, le sésame, la nigelle, la cannelle et le sel.", "en": "The next day, add the yeast slaked in warm milk, the sesame, nigella, cinnamon and salt." },
+    { "fr": "Ne pas pétrir : rassembler seulement. Un kahk pétri devient dur.", "en": "Do not knead: just bring it together. Kneaded kahk turns hard." },
+    { "fr": "Former des boules, les farcir de dattes, et marquer le dessus à la pince ou à la fourchette.", "en": "Shape balls, fill them with dates, and mark the tops with tongs or a fork." },
+    { "fr": "Cuire 20 minutes à 170 °C : ils doivent rester PÂLES. Saupoudrer de sucre glace une fois froids.", "en": "Bake for 20 minutes at 170°C: they must stay PALE. Dust with icing sugar once cold." }
+  ]
+}

@@ -1,0 +1,42 @@
+# Les cuisines du catalogue (J5).
+#
+# `launch` = y  -> cuisine de lancement (SPEC.md §1) : c'est sur celles-là que
+#                  porte le critère de sortie de J5, et ce sont elles qui
+#                  peuplent l'onboarding « quelles cuisines sont les vôtres ? ».
+# `launch` = n  -> cuisine présente au catalogue, mais hors périmètre du jalon.
+#                  Elles existent parce que le second écran d'onboarding
+#                  demande « lesquelles voulez-vous découvrir ? », et qu'une
+#                  liste de cinq entrées n'est pas une découverte.
+#
+# `gradient_from` / `gradient_to` sont le dégradé à deux arrêts qui tient lieu
+# de photo tant qu'aucune image n'existe pour un plat. Il vit ici, avec la
+# donnée, et pas seulement dans le thème de l'application : `catalog:images`
+# s'en sert pour fabriquer les bouche-trous, et la base le sert aux écrans.
+#
+# Les six cuisines dessinées dans la planche « couJina app » portent la palette
+# rafraîchie par le renommage (braise #C65A1A, prune #7C2A55, safran #E0A828) ;
+# les dix autres gardent leur paire tant qu’aucune planche ne les dessine.
+#
+# Une cuisine est une REGION. Le detail par pays vit dans data/countries.psv,
+# et les recettes d'un pays dans data/recipes/<cuisine>/<pays>/.
+#
+# Pas de nom en écriture d'origine ici : la v1 est en français et en anglais,
+# et l'arabe attend que le RTL soit traité pour de bon (SPEC §4). Ce qui porte
+# le nom d'origine, c'est le PLAT — `native_name` — et lui est affiché partout.
+slug|name_fr|name_en|launch|sort_order|gradient_from|gradient_to
+maghrebi|Maghrébine|Maghrebi|y|10|#C65A1A|#7A2E1E
+west-african|Ouest-africaine|West African|y|20|#B8862B|#5A3A1E
+levantine|Levantine|Levantine|y|30|#C2A11A|#5C4A1E
+south-asian|Sud-asiatique|South Asian|y|40|#C65A1A|#4A1533
+caribbean|Antillaise|Caribbean|y|50|#1F7A5C|#2E3D5C
+french|Française|French|n|60|#9AA36F|#3E4A2E
+east-asian|Est-asiatique|East Asian|n|70|#7C2A55|#2E1226
+latin-american|Latino-américaine|Latin American|n|80|#E0A828|#7A2E1E
+east-african|Est-africaine|East African|n|90|#C25A2E|#5C2A22
+southern-african|Australe|Southern African|n|100|#8A5A2E|#3E2E22
+middle-eastern|Moyen-orientale|Middle Eastern|n|110|#C2762B|#5C3320
+southeast-asian|Sud-est asiatique|Southeast Asian|n|120|#2E8A5C|#1E4A3D
+mediterranean|Méditerranéenne|Mediterranean|n|130|#C23A2E|#2E5C3A
+western-european|Ouest-européenne|Western European|n|140|#B08A2E|#4A3E22
+eastern-european|Est-européenne|Eastern European|n|150|#9E2E4A|#3E2038
+north-american|Nord-américaine|North American|n|160|#B0522E|#452A22

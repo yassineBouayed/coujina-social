@@ -1,0 +1,37 @@
+{
+  "slug": "pollo-al-ajillo",
+  "cuisine": "mediterranean",
+  "country": "espagne",
+  "origin": "Espagne",
+  "native_name": "Pollo al ajillo",
+  "title": {
+    "fr": "Poulet à l'ail",
+    "en": "Garlic chicken"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 15, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ail", "poulet", "quotidien", "simple"],
+  "ingredients": [
+    { "raw": "1 poulet entier, découpé en petits morceaux", "qty": 1, "unit": "piece", "item": "poulet entier", "prep": "découpé en petits morceaux" },
+    { "raw": "2 têtes d'ail", "qty": 20, "unit": "piece", "item": "ail" },
+    { "raw": "20 cl de vin blanc sec", "qty": 20, "unit": "cl", "item": "vin blanc" },
+    { "raw": "15 cl d'huile d'olive", "qty": 15, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "1 c. à c. de paprika fumé", "qty": 1, "unit": "tsp", "item": "paprika fumé" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Vingt gousses d'ail ne rendent pas le plat piquant : cuit longtemps, l'ail devient doux et sucré.", "en": "Twenty cloves of garlic do not make the dish sharp: cooked long, garlic turns sweet and mild." },
+    { "fr": "Faire blondir les gousses ENTIÈRES, en chemise, dans l'huile d'olive, puis les réserver.", "en": "Gently brown the WHOLE unpeeled cloves in olive oil, then set them aside." },
+    { "fr": "Saler le poulet et le faire dorer par petites quantités, sur toutes ses faces.", "en": "Salt the chicken and brown it in small batches, on all sides." },
+    { "fr": "Ajouter le paprika HORS DU FEU, remettre l'ail, et déglacer au vin blanc.", "en": "Add the paprika OFF THE HEAT, return the garlic, and deglaze with white wine." },
+    { "fr": "Cuire trente minutes à découvert, en arrosant : la sauce doit devenir courte et sirupeuse.", "en": "Cook for thirty minutes uncovered, basting: the sauce should reduce to a syrupy glaze." },
+    { "fr": "Écraser quelques gousses dans la sauce à la fin : elles la lient naturellement.", "en": "Crush a few cloves into the sauce at the end: they thicken it naturally." }
+  ]
+}

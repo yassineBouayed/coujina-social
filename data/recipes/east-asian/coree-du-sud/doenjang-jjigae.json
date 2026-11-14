@@ -1,0 +1,39 @@
+{
+  "slug": "doenjang-jjigae",
+  "cuisine": "east-asian",
+  "country": "coree-du-sud",
+  "origin": "Corée du Sud",
+  "native_name": "된장찌개",
+  "title": {
+    "fr": "Doenjang jjigae, ragoût de pâte de soja fermentée",
+    "en": "Doenjang jjigae, fermented soybean paste stew"
+  },
+  "meal_type": "soup",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["quotidien", "doenjang", "tofu", "reconfort"],
+  "ingredients": [
+    { "raw": "4 c. à s. de doenjang", "qty": 4, "unit": "tbsp", "item": "doenjang" },
+    { "raw": "70 cl de bouillon d'anchois", "qty": 70, "unit": "cl", "item": "anchois", "prep": "en bouillon" },
+    { "raw": "300 g de tofu ferme, en cubes", "qty": 300, "unit": "g", "item": "tofu ferme", "prep": "en cubes" },
+    { "raw": "1 courgette, en demi-rondelles", "qty": 1, "unit": "piece", "item": "courgette", "prep": "en demi-rondelles" },
+    { "raw": "1 pomme de terre, en cubes", "qty": 1, "unit": "piece", "item": "pomme de terre", "prep": "en cubes" },
+    { "raw": "1 oignon, émincé", "qty": 1, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "150 g de shiitakes, en lamelles", "qty": 150, "unit": "g", "item": "shiitake", "prep": "en lamelles" },
+    { "raw": "2 piments verts, en rondelles", "qty": 2, "unit": "piece", "item": "piment frais", "prep": "en rondelles" },
+    { "raw": "4 gousses d'ail, râpées", "qty": 4, "unit": "piece", "item": "ail", "prep": "râpé" },
+    { "raw": "4 oignons nouveaux, en tronçons", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "en tronçons" },
+    { "raw": "1 c. à c. de gochugaru", "qty": 1, "unit": "tsp", "item": "gochugaru", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Le doenjang est la pâte de soja fermentée coréenne : plus rustique et plus salée que le miso japonais.", "en": "Doenjang is the Korean fermented soybean paste: earthier and saltier than Japanese miso." },
+    { "fr": "Le délayer dans une louche de bouillon froid avant de le verser : jeté en bloc, il reste en grumeaux.", "en": "Slake it in a ladle of cold broth before adding: dropped in whole, it stays lumpy." },
+    { "fr": "Porter le bouillon à ébullition avec la pomme de terre, et cuire dix minutes.", "en": "Bring the broth to a boil with the potato, and cook for ten minutes." },
+    { "fr": "Contrairement au miso, le doenjang SUPPORTE l'ébullition : le jjigae doit bouillir franchement.", "en": "Unlike miso, doenjang WITHSTANDS boiling: jjigae is meant to boil properly." },
+    { "fr": "Ajouter courgette, oignon et champignons, et cuire dix minutes de plus.", "en": "Add the courgette, onion and mushrooms, and cook for ten minutes more." },
+    { "fr": "Ajouter le tofu et les piments en dernier, et servir bouillonnant dans le pot en terre.", "en": "Add the tofu and chillies last, and serve it bubbling in the earthenware pot." }
+  ]
+}

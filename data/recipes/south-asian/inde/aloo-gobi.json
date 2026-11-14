@@ -1,0 +1,40 @@
+{
+  "slug": "aloo-gobi",
+  "cuisine": "south-asian",
+  "country": "inde",
+  "origin": "Inde",
+  "native_name": "Aloo gobi",
+  "title": {
+    "fr": "Aloo gobi, pommes de terre et chou-fleur au curcuma",
+    "en": "Aloo gobi, potato and cauliflower with turmeric"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 35 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["vegetarien", "sec", "quotidien", "curcuma"],
+  "ingredients": [
+    { "raw": "1 chou-fleur, en bouquets", "qty": 1, "unit": "piece", "item": "chou-fleur", "prep": "en bouquets" },
+    { "raw": "4 pommes de terre, en cubes", "qty": 4, "unit": "piece", "item": "pomme de terre", "prep": "en cubes" },
+    { "raw": "1 oignon, émincé", "qty": 1, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "1 c. à s. de pâte gingembre-ail", "qty": 1, "unit": "tbsp", "item": "pâte gingembre-ail" },
+    { "raw": "1 c. à c. de graines de cumin", "qty": 1, "unit": "tsp", "item": "cumin" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "1 c. à c. de coriandre en graines, moulue", "qty": 1, "unit": "tsp", "item": "coriandre graines", "prep": "moulue" },
+    { "raw": "1 c. à c. d'amchoor", "qty": 1, "unit": "tsp", "item": "amchoor" },
+    { "raw": "2 piments verts, fendus", "qty": 2, "unit": "piece", "item": "piment frais", "prep": "fendu" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "6 c. à s. d'huile neutre", "qty": 6, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "L'aloo gobi est un plat SEC : il ne contient ni tomate ni sauce, et c'est l'erreur qu'on lui fait le plus souvent.", "en": "Aloo gobi is a DRY dish: it contains neither tomato nor sauce, and that is the mistake most often made with it." },
+    { "fr": "Faire dorer les cubes de pomme de terre à l'huile, séparément, puis les réserver.", "en": "Brown the potato cubes in the oil, separately, then set them aside." },
+    { "fr": "Faire de même avec les bouquets de chou-fleur, jusqu'à ce que les bords colorent.", "en": "Do the same with the cauliflower florets, until the edges take colour." },
+    { "fr": "Faire éclater le cumin dans l'huile, ajouter l'oignon, la pâte gingembre-ail et les épices moulues.", "en": "Pop the cumin in the oil, add the onion, ginger-garlic paste and ground spices." },
+    { "fr": "Remettre les légumes, couvrir et laisser vingt minutes à feu doux, SANS AJOUTER D'EAU.", "en": "Return the vegetables, cover and cook for twenty minutes over low heat, ADDING NO WATER." },
+    { "fr": "Finir à l'amchoor et à la coriandre fraîche, hors du feu.", "en": "Finish with amchoor and fresh coriander, off the heat." }
+  ]
+}

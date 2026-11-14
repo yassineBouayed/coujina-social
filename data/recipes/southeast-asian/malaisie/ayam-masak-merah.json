@@ -1,0 +1,42 @@
+{
+  "slug": "ayam-masak-merah",
+  "cuisine": "southeast-asian",
+  "country": "malaisie",
+  "origin": "Malaisie",
+  "native_name": "Ayam masak merah",
+  "title": {
+    "fr": "Poulet à la sauce rouge malaisienne",
+    "en": "Malaysian red sauce chicken"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 45 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "tomate", "piment", "mariage"],
+  "ingredients": [
+    { "raw": "1,2 kg de poulet, en morceaux", "qty": 1200, "unit": "g", "item": "poulet entier", "prep": "en morceaux" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "10 piments séchés, trempés", "qty": 10, "unit": "piece", "item": "piment séché", "prep": "trempé", "group": "pâte" },
+    { "raw": "8 échalotes", "qty": 8, "unit": "piece", "item": "échalote", "group": "pâte" },
+    { "raw": "5 gousses d'ail", "qty": 5, "unit": "piece", "item": "ail", "group": "pâte" },
+    { "raw": "1 morceau de gingembre", "qty": 1, "unit": "piece", "item": "gingembre", "group": "pâte" },
+    { "raw": "4 c. à s. de concentré de tomate", "qty": 4, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "20 cl de lait de coco", "qty": 20, "unit": "cl", "item": "lait de coco" },
+    { "raw": "3 c. à s. de sucre de palme", "qty": 3, "unit": "tbsp", "item": "sucre de palme" },
+    { "raw": "1 tige de citronnelle, écrasée", "qty": 1, "unit": "piece", "item": "citronnelle", "prep": "écrasée" },
+    { "raw": "1 oignon, en anneaux", "qty": 1, "unit": "piece", "item": "oignon", "prep": "en anneaux" },
+    { "raw": "200 g de petits pois surgelés", "qty": 200, "unit": "g", "item": "petits pois surgelés", "optional": true },
+    { "raw": "50 cl d'huile neutre pour la friture", "qty": 50, "unit": "cl", "item": "huile neutre" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Frotter le poulet de curcuma et de sel et le FRIRE avant de le mettre en sauce.", "en": "Rub the chicken with turmeric and salt and FRY it before it goes into the sauce." },
+    { "fr": "Ce passage à la friture ferme la chair : sans lui, le poulet se défait dans la sauce longuement mijotée.", "en": "That frying firms the flesh: without it, the chicken falls apart in the long-simmered sauce." },
+    { "fr": "Mixer la pâte d'aromates et la frire quinze minutes, jusqu'à séparation de l'huile.", "en": "Blend the aromatic paste and fry it for fifteen minutes, until the oil separates." },
+    { "fr": "Ajouter le concentré de tomate et le cuire cinq minutes : c'est lui qui fait la couleur ROUGE.", "en": "Add the tomato purée and cook it for five minutes: it is what makes the RED colour." },
+    { "fr": "Ajouter lait de coco, sucre de palme et citronnelle, et remettre le poulet frit.", "en": "Add the coconut milk, palm sugar and lemongrass, and return the fried chicken." },
+    { "fr": "Laisser mijoter vingt minutes : la sauce doit napper le poulet, brillante et épaisse.", "en": "Simmer for twenty minutes: the sauce should coat the chicken, glossy and thick." }
+  ]
+}

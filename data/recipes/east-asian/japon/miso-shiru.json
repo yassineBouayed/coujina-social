@@ -1,0 +1,33 @@
+{
+  "slug": "miso-shiru",
+  "cuisine": "east-asian",
+  "country": "japon",
+  "origin": "Japon",
+  "native_name": "味噌汁",
+  "title": {
+    "fr": "Soupe miso au tofu et aux algues",
+    "en": "Miso soup with tofu and seaweed"
+  },
+  "meal_type": "soup",
+  "servings": 4,
+  "times": { "prep_min": 10, "cook_min": 10 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["quotidien", "miso", "dashi", "rapide"],
+  "ingredients": [
+    { "raw": "1 l de dashi", "qty": 1, "unit": "l", "item": "kombu", "prep": "en bouillon dashi" },
+    { "raw": "4 c. à s. de miso", "qty": 4, "unit": "tbsp", "item": "miso" },
+    { "raw": "250 g de tofu ferme, en cubes", "qty": 250, "unit": "g", "item": "tofu ferme", "prep": "en cubes" },
+    { "raw": "10 g de wakamé séché", "qty": 10, "unit": "g", "item": "wakamé" },
+    { "raw": "4 oignons nouveaux, ciselés", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé" }
+  ],
+  "steps": [
+    { "fr": "Réhydrater le wakamé cinq minutes dans l'eau froide : il gonfle de dix fois son volume.", "en": "Rehydrate the wakame for five minutes in cold water: it swells to ten times its volume." },
+    { "fr": "Porter le dashi à frémissement et y déposer le tofu, deux minutes.", "en": "Bring the dashi to a simmer and lower the tofu into it for two minutes." },
+    { "fr": "COUPER LE FEU avant d'ajouter le miso : bouilli, il perd son parfum et devient plat et salé.", "en": "CUT THE HEAT before adding the miso: boiled, it loses its aroma and turns flat and salty." },
+    { "fr": "Délayer le miso dans une louche de bouillon, à part, avant de le reverser dans la casserole.", "en": "Slake the miso in a ladle of broth, separately, before stirring it back into the pan." },
+    { "fr": "Ajouter le wakamé égoutté et les oignons nouveaux.", "en": "Add the drained wakame and the spring onions." },
+    { "fr": "Servir immédiatement : la soupe miso ne se réchauffe pas sans perdre ce qui la fait.", "en": "Serve at once: miso soup cannot be reheated without losing what makes it." }
+  ]
+}

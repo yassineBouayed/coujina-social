@@ -1,0 +1,37 @@
+{
+  "slug": "fried-chicken",
+  "cuisine": "north-american",
+  "country": "etats-unis",
+  "origin": "États-Unis",
+  "native_name": "Southern fried chicken",
+  "title": {
+    "fr": "Poulet frit du Sud au lait fermenté",
+    "en": "Southern buttermilk fried chicken"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 35 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["sud", "friture", "poulet", "embleme"],
+  "ingredients": [
+    { "raw": "1 poulet entier, découpé en huit", "qty": 1, "unit": "piece", "item": "poulet entier", "prep": "découpé en huit" },
+    { "raw": "1 l de lait fermenté", "qty": 1, "unit": "l", "item": "lait fermenté" },
+    { "raw": "400 g de farine de blé", "qty": 400, "unit": "g", "item": "farine de blé" },
+    { "raw": "3 c. à s. de paprika fumé", "qty": 3, "unit": "tbsp", "item": "paprika fumé" },
+    { "raw": "2 c. à s. d'ail en poudre", "qty": 2, "unit": "tbsp", "item": "ail en poudre" },
+    { "raw": "1 c. à s. de piment de Cayenne", "qty": 1, "unit": "tbsp", "item": "piment de Cayenne" },
+    { "raw": "2 c. à s. de gros sel", "qty": 2, "unit": "tbsp", "item": "gros sel" },
+    { "raw": "2 l d'huile neutre pour la friture", "qty": 2, "unit": "l", "item": "huile neutre" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Faire mariner le poulet DOUZE HEURES dans le lait fermenté salé : c'est une saumure ET un attendrisseur.", "en": "Marinate the chicken for TWELVE HOURS in salted buttermilk: it is both a brine and a tenderiser." },
+    { "fr": "Ajouter QUELQUES CUILLÈRES de cette marinade à la farine assaisonnée, et mélanger du bout des doigts.", "en": "Add A FEW SPOONS of that marinade to the seasoned flour, and rub it in with your fingertips." },
+    { "fr": "Cela forme des GRUMEAUX de farine humide, qui deviennent les écailles croustillantes de la croûte.", "en": "That forms LUMPS of damp flour, which become the crisp flakes of the crust." },
+    { "fr": "Laisser reposer les morceaux panés VINGT MINUTES : la farine s'hydrate et adhère à la peau.", "en": "Rest the coated pieces for TWENTY MINUTES: the flour hydrates and grips the skin." },
+    { "fr": "Frire à 165 °C, pas plus : au-delà, la croûte brûle avant que la cuisse soit cuite.", "en": "Fry at 165°C, no hotter: beyond that, the crust burns before the thigh is done." },
+    { "fr": "Égoutter SUR UNE GRILLE, jamais sur du papier : sur papier, le dessous se détrempe.", "en": "Drain ON A RACK, never on paper: on paper, the underside goes soggy." }
+  ]
+}

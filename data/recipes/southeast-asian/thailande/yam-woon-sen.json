@@ -1,0 +1,41 @@
+{
+  "slug": "yam-woon-sen",
+  "cuisine": "southeast-asian",
+  "country": "thailande",
+  "origin": "Thaïlande",
+  "native_name": "ยำวุ้นเส้น",
+  "title": {
+    "fr": "Yam woon sen, salade de vermicelles aux fruits de mer",
+    "en": "Yam woon sen, glass noodle seafood salad"
+  },
+  "meal_type": "salad",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 10 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["froid", "vermicelle", "citron-vert", "fruits-de-mer"],
+  "ingredients": [
+    { "raw": "200 g de vermicelles de soja", "qty": 200, "unit": "g", "item": "vermicelle de soja" },
+    { "raw": "300 g de crevettes, décortiquées", "qty": 300, "unit": "g", "item": "crevette", "prep": "décortiquée" },
+    { "raw": "200 g de calamars, en anneaux", "qty": 200, "unit": "g", "item": "calamar", "prep": "en anneaux" },
+    { "raw": "150 g de porc haché", "qty": 150, "unit": "g", "item": "porc haché" },
+    { "raw": "1 oignon rouge, émincé", "qty": 1, "unit": "piece", "item": "oignon rouge", "prep": "émincé" },
+    { "raw": "2 tomates, en quartiers", "qty": 2, "unit": "piece", "item": "tomate", "prep": "en quartiers" },
+    { "raw": "4 oignons nouveaux, en tronçons", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "en tronçons" },
+    { "raw": "1 bouquet de coriandre fraîche", "qty": 1, "unit": "bunch", "item": "coriandre fraîche" },
+    { "raw": "5 c. à s. de sauce poisson", "qty": 5, "unit": "tbsp", "item": "sauce poisson", "group": "sauce" },
+    { "raw": "5 citrons verts, leur jus", "qty": 5, "unit": "piece", "item": "citron vert", "group": "sauce" },
+    { "raw": "3 c. à s. de sucre de palme", "qty": 3, "unit": "tbsp", "item": "sucre de palme", "group": "sauce" },
+    { "raw": "6 piments oiseau, hachés", "qty": 6, "unit": "piece", "item": "piment oiseau", "prep": "haché", "group": "sauce" },
+    { "raw": "60 g d'arachides grillées", "qty": 60, "unit": "g", "item": "arachide grillée" }
+  ],
+  "steps": [
+    { "fr": "Tremper les vermicelles à l'eau tiède dix minutes, puis les blanchir TRENTE SECONDES et les rafraîchir.", "en": "Soak the glass noodles in warm water for ten minutes, then blanch them for THIRTY SECONDS and refresh." },
+    { "fr": "Trop cuits, ils deviennent une masse collante impossible à séparer : la fenêtre est très courte.", "en": "Overcooked, they turn into a sticky mass impossible to separate: the window is very short." },
+    { "fr": "Pocher séparément crevettes, calamars et porc, chacun deux minutes, dans la même eau.", "en": "Poach the prawns, squid and pork separately, two minutes each, in the same water." },
+    { "fr": "Tout rafraîchir à l'eau glacée : le yam est une salade FROIDE, servie à température ambiante.", "en": "Refresh everything in iced water: yam is a COLD salad, served at room temperature." },
+    { "fr": "Mélanger la sauce et goûter : elle doit faire plisser les yeux d'acidité avant d'être équilibrée.", "en": "Mix the dressing and taste it: it should make you squint with acidity before it is balanced." },
+    { "fr": "Assaisonner AU DERNIER MOMENT et servir aussitôt : les vermicelles boivent tout en dix minutes.", "en": "Dress it AT THE LAST MOMENT and serve at once: the noodles drink everything within ten minutes." }
+  ]
+}

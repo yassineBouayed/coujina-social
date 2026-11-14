@@ -1,0 +1,41 @@
+{
+  "slug": "taameya",
+  "cuisine": "levantine",
+  "country": "egypte",
+  "origin": "Égypte",
+  "native_name": "Taameya",
+  "title": {
+    "fr": "Taameya, falafels égyptiens à la fève",
+    "en": "Taameya, Egyptian broad bean falafel"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "friture", "feve", "petit-dejeuner"],
+  "ingredients": [
+    { "raw": "500 g de fèves sèches décortiquées, trempées 24 h", "qty": 500, "unit": "g", "item": "fève sèche décortiquée", "prep": "trempée 24 h" },
+    { "raw": "1 bouquet de coriandre fraîche", "qty": 1, "unit": "bunch", "item": "coriandre fraîche" },
+    { "raw": "1/2 bouquet de persil plat", "qty": 0.5, "unit": "bunch", "item": "persil plat" },
+    { "raw": "1/2 bouquet d'aneth", "qty": 0.5, "unit": "bunch", "item": "aneth" },
+    { "raw": "4 oignons nouveaux", "qty": 4, "unit": "piece", "item": "oignon nouveau" },
+    { "raw": "1 oignon", "qty": 1, "unit": "piece", "item": "oignon" },
+    { "raw": "6 gousses d'ail", "qty": 6, "unit": "piece", "item": "ail" },
+    { "raw": "2 c. à c. de cumin moulu", "qty": 2, "unit": "tsp", "item": "cumin" },
+    { "raw": "1 c. à c. de coriandre en graines, moulue", "qty": 1, "unit": "tsp", "item": "coriandre graines", "prep": "moulue" },
+    { "raw": "1 c. à c. de bicarbonate", "qty": 1, "unit": "tsp", "item": "bicarbonate" },
+    { "raw": "3 c. à s. de graines de sésame", "qty": 3, "unit": "tbsp", "item": "sésame", "group": "enrobage" },
+    { "raw": "1 l d'huile de tournesol pour la friture", "qty": 1, "unit": "l", "item": "huile de tournesol" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Les fèves doivent être CRUES et trempées vingt-quatre heures : cuites, la taameya se désagrège dans l'huile.", "en": "The beans must be RAW and soaked for twenty-four hours: cooked, taameya disintegrates in the oil." },
+    { "fr": "Les égoutter parfaitement et les hacher au robot avec toutes les herbes, l'oignon et l'ail.", "en": "Drain them thoroughly and grind them in a processor with all the herbs, onion and garlic." },
+    { "fr": "La quantité d'herbes est ce qui distingue la taameya du falafel : la pâte doit être VERTE.", "en": "The sheer quantity of herbs is what separates taameya from falafel: the paste must be GREEN." },
+    { "fr": "Ajouter les épices et le sel, et laisser reposer une heure au frais.", "en": "Add the spices and salt, and rest for an hour in the fridge." },
+    { "fr": "Ajouter le bicarbonate juste avant de frire : ajouté trop tôt, il perd tout son effet.", "en": "Add the bicarbonate just before frying: added earlier, it loses all its lift." },
+    { "fr": "Former des galettes plates, les tremper dans le sésame, et frire à 175 °C jusqu'à coloration.", "en": "Shape flat patties, dip them in sesame, and fry at 175°C until golden." }
+  ]
+}

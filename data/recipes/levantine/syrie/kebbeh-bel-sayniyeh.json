@@ -1,0 +1,40 @@
+{
+  "slug": "kebbeh-bel-sayniyeh",
+  "cuisine": "levantine",
+  "country": "syrie",
+  "origin": "Syrie",
+  "native_name": "Kibbeh bil sayniyeh",
+  "title": {
+    "fr": "Kibbé au plateau, cuit au four",
+    "en": "Tray-baked kibbeh"
+  },
+  "meal_type": "main",
+  "servings": 8,
+  "times": { "prep_min": 50, "cook_min": 45 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["four", "boulgour", "famille", "fete"],
+  "ingredients": [
+    { "raw": "400 g de boulgour fin", "qty": 400, "unit": "g", "item": "boulgour fin", "group": "croûte" },
+    { "raw": "600 g d'agneau haché maigre", "qty": 600, "unit": "g", "item": "agneau haché", "group": "croûte" },
+    { "raw": "2 oignons, râpés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "râpé", "group": "croûte" },
+    { "raw": "1 c. à c. de baharat", "qty": 1, "unit": "tsp", "item": "baharat", "group": "croûte" },
+    { "raw": "400 g d'agneau haché", "qty": 400, "unit": "g", "item": "agneau haché", "group": "farce" },
+    { "raw": "2 oignons, hachés finement", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché finement", "group": "farce" },
+    { "raw": "100 g de pignons de pin", "qty": 100, "unit": "g", "item": "pignon de pin", "group": "farce" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle", "group": "farce" },
+    { "raw": "80 g de beurre, fondu", "qty": 80, "unit": "g", "item": "beurre", "prep": "fondu" },
+    { "raw": "5 c. à s. d'huile d'olive", "qty": 5, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Faire gonfler le boulgour vingt minutes et le presser, puis le pétrir avec la viande maigre et l'oignon râpé.", "en": "Swell the bulgur for twenty minutes and squeeze it, then knead it with the lean meat and grated onion." },
+    { "fr": "Cuire la farce et la laisser refroidir complètement.", "en": "Cook the filling and cool it completely." },
+    { "fr": "Étaler la moitié de la pâte au fond d'un plat beurré, en couche régulière et bien tassée.", "en": "Press half the paste into a buttered dish, in an even, well-packed layer." },
+    { "fr": "Étaler la farce, puis couvrir de la seconde moitié, en lissant à la main mouillée.", "en": "Spread the filling, then cover with the second half, smoothing with a wet hand." },
+    { "fr": "Découper des losanges jusqu'au fond AVANT cuisson, et verser le beurre fondu dans les rainures.", "en": "Cut diamonds right to the base BEFORE baking, and pour the melted butter into the grooves." },
+    { "fr": "Cuire 45 minutes à 190 °C, jusqu'à ce que la surface soit brune et croustillante.", "en": "Bake for 45 minutes at 190°C, until the surface is brown and crisp." }
+  ]
+}

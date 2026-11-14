@@ -1,0 +1,38 @@
+{
+  "slug": "karaage",
+  "cuisine": "east-asian",
+  "country": "japon",
+  "origin": "Japon",
+  "native_name": "唐揚げ",
+  "title": {
+    "fr": "Karaage, poulet frit japonais",
+    "en": "Karaage, Japanese fried chicken"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 30, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["friture", "izakaya", "bento", "populaire"],
+  "ingredients": [
+    { "raw": "800 g de cuisses de poulet désossées, en gros morceaux", "qty": 800, "unit": "g", "item": "cuisse de poulet", "prep": "désossée, en gros morceaux" },
+    { "raw": "5 c. à s. de sauce soja", "qty": 5, "unit": "tbsp", "item": "sauce soja", "group": "marinade" },
+    { "raw": "3 c. à s. de saké", "qty": 3, "unit": "tbsp", "item": "saké", "group": "marinade" },
+    { "raw": "2 c. à s. de mirin", "qty": 2, "unit": "tbsp", "item": "mirin", "group": "marinade" },
+    { "raw": "2 c. à s. de gingembre frais, râpé", "qty": 2, "unit": "tbsp", "item": "gingembre", "prep": "râpé", "group": "marinade" },
+    { "raw": "3 gousses d'ail, râpées", "qty": 3, "unit": "piece", "item": "ail", "prep": "râpé", "group": "marinade" },
+    { "raw": "1 c. à s. d'huile de sésame", "qty": 1, "unit": "tbsp", "item": "huile de sésame", "group": "marinade" },
+    { "raw": "150 g de maïzena", "qty": 150, "unit": "g", "item": "maïzena" },
+    { "raw": "1 citron, en quartiers", "qty": 1, "unit": "piece", "item": "citron", "group": "service" },
+    { "raw": "1 l d'huile neutre pour la friture", "qty": 1, "unit": "l", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Prendre de la CUISSE, jamais du blanc : le karaage vit du gras et du jus de la cuisse.", "en": "Use THIGH, never breast: karaage lives on the fat and juice of the thigh." },
+    { "fr": "Faire mariner une heure, pas plus : au-delà, la sauce soja sale trop la chair.", "en": "Marinate for an hour, no more: beyond that, the soy over-salts the flesh." },
+    { "fr": "Égoutter et enrober de maïzena SEULE : c'est elle qui donne la croûte fine et craquante.", "en": "Drain and coat in cornflour ALONE: it gives the thin, brittle crust." },
+    { "fr": "Frire une première fois à 160 °C, trois minutes, et laisser reposer cinq minutes.", "en": "Fry once at 160°C for three minutes, and rest for five minutes." },
+    { "fr": "Frire une seconde fois à 190 °C, une minute : la double friture est ce qui rend le karaage croustillant.", "en": "Fry a second time at 190°C for a minute: the double fry is what makes karaage crisp." },
+    { "fr": "Servir avec un quartier de citron à presser dessus, jamais avec une sauce.", "en": "Serve with a wedge of lemon to squeeze over, never with a sauce." }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "quiche-lorraine",
+  "cuisine": "french",
+  "country": "france",
+  "origin": "France",
+  "native_name": "Quiche lorraine",
+  "title": {
+    "fr": "Quiche lorraine",
+    "en": "Quiche lorraine"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["lorraine", "lardon", "tarte", "classique"],
+  "ingredients": [
+    { "raw": "250 g de farine de blé", "qty": 250, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "125 g de beurre, froid", "qty": 125, "unit": "g", "item": "beurre", "prep": "froid", "group": "pâte" },
+    { "raw": "5 cl d'eau glacée", "qty": 5, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "250 g de lardons", "qty": 250, "unit": "g", "item": "lardon", "group": "garniture" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf", "group": "appareil" },
+    { "raw": "25 cl de crème fraîche", "qty": 25, "unit": "cl", "item": "crème fraîche", "group": "appareil" },
+    { "raw": "15 cl de lait entier", "qty": 15, "unit": "cl", "item": "lait entier", "group": "appareil" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée", "group": "appareil" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La quiche lorraine authentique ne contient PAS de fromage : lardons, œufs, crème, et rien d'autre.", "en": "A true quiche lorraine contains NO cheese: bacon, eggs, cream, and nothing else." },
+    { "fr": "Sabler la farine et le beurre FROID, lier à l'eau glacée, et laisser reposer une heure au frais.", "en": "Rub the flour and COLD butter together, bind with iced water, and rest for an hour in the fridge." },
+    { "fr": "Cuire la pâte À BLANC quinze minutes : sans cela, le fond reste cru sous l'appareil.", "en": "BLIND-BAKE the pastry for fifteen minutes: without it, the base stays raw under the filling." },
+    { "fr": "Faire rissoler les lardons et les ÉGOUTTER : leur gras détremperait la pâte.", "en": "Fry the bacon and DRAIN it: its fat would soak the pastry." },
+    { "fr": "Battre œufs, crème, lait et muscade sans faire mousser, et verser sur les lardons.", "en": "Beat the eggs, cream, milk and nutmeg without frothing, and pour over the bacon." },
+    { "fr": "Cuire 35 minutes à 180 °C : le centre doit trembler encore légèrement à la sortie.", "en": "Bake for 35 minutes at 180°C: the centre should still wobble slightly when it comes out." }
+  ]
+}

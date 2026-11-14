@@ -1,0 +1,39 @@
+{
+  "slug": "jagerschnitzel",
+  "cuisine": "western-european",
+  "country": "allemagne",
+  "origin": "Allemagne",
+  "native_name": "Jägerschnitzel",
+  "title": {
+    "fr": "Escalope sauce chasseur aux champignons",
+    "en": "Schnitzel with mushroom hunter's sauce"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["champignon", "escalope", "quotidien", "creme"],
+  "ingredients": [
+    { "raw": "4 escalopes de porc", "qty": 4, "unit": "piece", "item": "échine de porc", "prep": "en escalopes" },
+    { "raw": "400 g de champignons de Paris, émincés", "qty": 400, "unit": "g", "item": "champignon de Paris", "prep": "émincé" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "20 cl de crème liquide", "qty": 20, "unit": "cl", "item": "crème liquide" },
+    { "raw": "25 cl de bouillon de bœuf", "qty": 25, "unit": "cl", "item": "bouillon boeuf" },
+    { "raw": "10 cl de vin blanc sec", "qty": 10, "unit": "cl", "item": "vin blanc" },
+    { "raw": "100 g de farine de blé", "qty": 100, "unit": "g", "item": "farine de blé" },
+    { "raw": "60 g de beurre", "qty": 60, "unit": "g", "item": "beurre" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le Jägerschnitzel n'est PAS pané : il est simplement fariné, contrairement au Wiener Schnitzel.", "en": "A Jägerschnitzel is NOT breaded: it is simply floured, unlike a Wiener Schnitzel." },
+    { "fr": "Aplatir les escalopes à un demi-centimètre et les fariner juste avant de les cuire.", "en": "Flatten the escalopes to half a centimetre and flour them just before cooking." },
+    { "fr": "Les saisir deux minutes par face à feu vif et les réserver AU CHAUD.", "en": "Sear them two minutes a side over high heat and keep them WARM." },
+    { "fr": "Cuire les champignons À FEU VIF et par petites quantités : entassés, ils rendent leur eau et bouillent.", "en": "Cook the mushrooms over HIGH heat and in small batches: crowded, they weep and boil." },
+    { "fr": "Ajouter les oignons, déglacer au vin blanc, puis mouiller au bouillon et réduire de moitié.", "en": "Add the onions, deglaze with white wine, then add the stock and reduce by half." },
+    { "fr": "Ajouter la crème hors du feu, napper les escalopes, et servir avec des Spätzle.", "en": "Add the cream off the heat, spoon over the escalopes, and serve with Spätzle." }
+  ]
+}

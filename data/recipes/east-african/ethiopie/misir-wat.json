@@ -1,0 +1,36 @@
+{
+  "slug": "misir-wat",
+  "cuisine": "east-african",
+  "country": "ethiopie",
+  "origin": "Éthiopie",
+  "native_name": "Misir wat",
+  "title": {
+    "fr": "Misir wat, lentilles corail au berbéré",
+    "en": "Misir wat, red lentils in berbere"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 15, "cook_min": 50 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["jeune", "vegetarien", "lentille", "quotidien"],
+  "ingredients": [
+    { "raw": "400 g de lentilles corail", "qty": 400, "unit": "g", "item": "lentille corail" },
+    { "raw": "700 g d'oignons, hachés très finement", "qty": 700, "unit": "g", "item": "oignon", "prep": "haché très finement" },
+    { "raw": "4 c. à s. de berbéré", "qty": 4, "unit": "tbsp", "item": "berbéré" },
+    { "raw": "8 c. à s. d'huile neutre", "qty": 8, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "5 gousses d'ail, écrasées", "qty": 5, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 c. à s. de gingembre frais, râpé", "qty": 1, "unit": "tbsp", "item": "gingembre", "prep": "râpé" },
+    { "raw": "2 c. à s. de concentré de tomate", "qty": 2, "unit": "tbsp", "item": "concentré de tomate", "optional": true },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Rincer les lentilles à l'eau claire plusieurs fois.", "en": "Rinse the lentils in clear water several times." },
+    { "fr": "Cuire les oignons à sec vingt-cinq minutes, jusqu'à ce qu'ils forment une pâte.", "en": "Cook the onions dry for twenty-five minutes, until they form a paste." },
+    { "fr": "Ajouter l'huile, l'ail, le gingembre, puis le berbéré, et cuire dix minutes.", "en": "Add the oil, garlic and ginger, then the berbere, and cook for ten minutes." },
+    { "fr": "Ajouter les lentilles et de l'eau à hauteur, et laisser mijoter vingt-cinq minutes.", "en": "Add the lentils and water to cover, and simmer for twenty-five minutes." },
+    { "fr": "Saler seulement en fin de cuisson : salées trop tôt, les lentilles restent fermes.", "en": "Salt only at the end: salted early, the lentils stay firm." },
+    { "fr": "Le misir wat doit être épais, presque à la cuillère. Servir sur injera.", "en": "Misir wat should be thick, almost spoonable. Serve on injera." }
+  ]
+}

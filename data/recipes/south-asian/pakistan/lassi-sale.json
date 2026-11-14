@@ -1,0 +1,34 @@
+{
+  "slug": "lassi-sale",
+  "cuisine": "south-asian",
+  "country": "pakistan",
+  "origin": "Pakistan",
+  "native_name": "Namkeen lassi",
+  "title": {
+    "fr": "Lassi salé au cumin grillé",
+    "en": "Salted lassi with roasted cumin"
+  },
+  "meal_type": "drink",
+  "servings": 4,
+  "times": { "prep_min": 10, "cook_min": 5 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ete", "yaourt", "sale", "punjab"],
+  "ingredients": [
+    { "raw": "60 cl de yaourt", "qty": 60, "unit": "cl", "item": "yaourt" },
+    { "raw": "40 cl d'eau glacée", "qty": 40, "unit": "cl", "item": "eau" },
+    { "raw": "1 c. à c. de graines de cumin", "qty": 1, "unit": "tsp", "item": "cumin" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "1/2 c. à c. de chaat masala", "qty": 0.5, "unit": "tsp", "item": "chaat masala" },
+    { "raw": "1/2 bouquet de menthe fraîche", "qty": 0.5, "unit": "bunch", "item": "menthe fraîche", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Griller les graines de cumin à sec jusqu'à ce qu'elles brunissent, puis les moudre grossièrement.", "en": "Toast the cumin seeds dry until they brown, then grind them coarsely." },
+    { "fr": "Fouetter le yaourt seul, énergiquement, jusqu'à ce qu'il mousse en surface.", "en": "Whisk the yoghurt alone, vigorously, until a foam forms on top." },
+    { "fr": "Ajouter l'eau glacée petit à petit, sans cesser de fouetter.", "en": "Add the iced water little by little, whisking throughout." },
+    { "fr": "Ajouter le sel, le cumin grillé et le chaat masala, et goûter.", "en": "Add the salt, roasted cumin and chaat masala, and taste." },
+    { "fr": "Le lassi salé se boit AVANT ou PENDANT le repas, jamais en dessert.", "en": "Salted lassi is drunk BEFORE or DURING the meal, never as a dessert." },
+    { "fr": "Servir glacé, avec quelques feuilles de menthe froissées.", "en": "Serve ice-cold, with a few crushed mint leaves." }
+  ]
+}

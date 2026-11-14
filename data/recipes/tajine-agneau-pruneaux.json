@@ -1,0 +1,51 @@
+{
+  "slug": "tajine-agneau-pruneaux",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Tajine lahm bel barqouq",
+  "title": {
+    "fr": "Tajine d'agneau aux pruneaux et aux amandes",
+    "en": "Lamb tagine with prunes and almonds"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 100 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j2-sonde-v1", "date": "2026-08-28" },
+  "tags": ["tajine", "agneau", "sucre-sale", "fete"],
+  "ingredients": [
+    { "raw": "1,2 kg d'épaule d'agneau, en morceaux", "qty": 1.2, "unit": "kg", "item": "épaule d'agneau", "prep": "en morceaux" },
+    { "raw": "2 oignons, râpés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "râpé" },
+    { "raw": "3 gousses d'ail, écrasées", "qty": 3, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 c. à c. de gingembre moulu", "qty": 1, "unit": "tsp", "item": "gingembre moulu" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle moulue" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "1/2 c. à c. de poivre noir", "qty": 0.5, "unit": "tsp", "item": "poivre noir" },
+    { "raw": "3 c. à s. d'huile d'olive", "qty": 3, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "30 g de beurre", "qty": 30, "unit": "g", "item": "beurre" },
+    { "raw": "300 g de pruneaux dénoyautés", "qty": 300, "unit": "g", "item": "pruneau", "prep": "dénoyauté" },
+    { "raw": "2 c. à s. de miel", "qty": 2, "unit": "tbsp", "item": "miel" },
+    { "raw": "1 c. à s. d'eau de fleur d'oranger", "qty": 1, "unit": "tbsp", "item": "eau de fleur d'oranger" },
+    { "raw": "100 g d'amandes émondées", "qty": 100, "unit": "g", "item": "amande", "prep": "émondée" },
+    { "raw": "2 c. à s. de graines de sésame, grillées", "qty": 2, "unit": "tbsp", "item": "graine de sésame", "prep": "grillée" },
+    { "raw": "1 bouquet de coriandre fraîche", "qty": 1, "unit": "bunch", "item": "coriandre fraîche" },
+    { "raw": "50 cl d'eau", "qty": 50, "unit": "cl", "item": "eau" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Frotter la viande avec l'ail, le gingembre, le poivre, le safran et la moitié de la cannelle moulue. Laisser reposer une demi-heure si le temps le permet.", "en": "Rub the meat with the garlic, ginger, pepper, saffron and half the ground cinnamon. Let it rest for half an hour if time allows." },
+    { "fr": "Faire revenir la viande et les oignons râpés dans l'huile et le beurre jusqu'à ce que les oignons soient translucides.", "en": "Brown the meat and grated onions in the oil and butter until the onions turn translucent." },
+    { "fr": "Mouiller à hauteur, ajouter le bâton de cannelle et le bouquet de coriandre, couvrir et laisser mijoter 1 h 15 à feu très doux.", "en": "Add water to cover, drop in the cinnamon stick and the coriander bundle, cover and simmer very gently for 1 hour 15." },
+    { "fr": "Pendant ce temps, faire gonfler les pruneaux dans de l'eau chaude vingt minutes.", "en": "Meanwhile, plump the prunes in hot water for twenty minutes." },
+    { "fr": "Retirer la viande, la réserver au chaud, et faire réduire la sauce jusqu'à ce qu'elle nappe.", "en": "Lift out the meat and keep it warm, then reduce the sauce until it coats a spoon." },
+    { "fr": "Ajouter les pruneaux égouttés, le miel, le reste de cannelle et l'eau de fleur d'oranger. Laisser confire dix minutes sans remuer, pour ne pas casser les pruneaux.", "en": "Add the drained prunes, honey, remaining cinnamon and orange blossom water. Let them candy for ten minutes without stirring, so the prunes stay whole." },
+    { "fr": "Faire dorer les amandes dans un peu d'huile.", "en": "Fry the almonds in a little oil until golden." },
+    { "fr": "Remettre la viande, napper de sauce aux pruneaux, parsemer d'amandes et de sésame grillé.", "en": "Return the meat, spoon over the prune sauce and scatter with almonds and toasted sesame." }
+  ],
+  "notes": [
+    { "fr": "Le miel n'entre qu'à la fin : ajouté au départ, il brûle et rend la sauce amère.", "en": "The honey goes in only at the end: added at the start it scorches and turns the sauce bitter." }
+  ]
+}

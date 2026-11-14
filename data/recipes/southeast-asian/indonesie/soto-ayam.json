@@ -1,0 +1,43 @@
+{
+  "slug": "soto-ayam",
+  "cuisine": "southeast-asian",
+  "country": "indonesie",
+  "origin": "Indonésie",
+  "native_name": "Soto ayam",
+  "title": {
+    "fr": "Soto ayam, soupe de poulet au curcuma",
+    "en": "Soto ayam, turmeric chicken soup"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 60 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["curcuma", "bouillon", "java", "reconfort"],
+  "ingredients": [
+    { "raw": "1 poulet entier", "qty": 1, "unit": "piece", "item": "poulet entier" },
+    { "raw": "200 g de vermicelles de soja", "qty": 200, "unit": "g", "item": "vermicelle de soja" },
+    { "raw": "8 échalotes", "qty": 8, "unit": "piece", "item": "échalote", "group": "pâte" },
+    { "raw": "6 gousses d'ail", "qty": 6, "unit": "piece", "item": "ail", "group": "pâte" },
+    { "raw": "1 morceau de curcuma frais", "qty": 1, "unit": "piece", "item": "curcuma frais", "group": "pâte" },
+    { "raw": "1 morceau de gingembre", "qty": 1, "unit": "piece", "item": "gingembre", "group": "pâte" },
+    { "raw": "6 noix de bancoul", "qty": 6, "unit": "piece", "item": "noix de bancoul", "group": "pâte" },
+    { "raw": "3 tiges de citronnelle, écrasées", "qty": 3, "unit": "piece", "item": "citronnelle", "prep": "écrasée" },
+    { "raw": "6 feuilles de combava", "qty": 6, "unit": "piece", "item": "feuille de combava" },
+    { "raw": "3 feuilles de laurier", "qty": 3, "unit": "piece", "item": "laurier" },
+    { "raw": "200 g de germes de soja", "qty": 200, "unit": "g", "item": "germes de soja", "group": "garniture" },
+    { "raw": "4 œufs durs, coupés en deux", "qty": 4, "unit": "piece", "item": "oeuf", "prep": "dur", "group": "garniture" },
+    { "raw": "6 échalotes, frites", "qty": 6, "unit": "piece", "item": "échalote", "prep": "frite", "group": "garniture" },
+    { "raw": "3 citrons verts, en quartiers", "qty": 3, "unit": "piece", "item": "citron vert", "group": "garniture" },
+    { "raw": "6 c. à s. d'huile neutre", "qty": 6, "unit": "tbsp", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Pocher le poulet entier une heure avec citronnelle, combava et laurier, en écumant.", "en": "Poach the whole chicken for an hour with lemongrass, lime leaves and bay, skimming." },
+    { "fr": "Mixer la pâte d'aromates et la frire dix minutes, jusqu'à ce que l'huile jaunisse et se sépare.", "en": "Blend the aromatic paste and fry it for ten minutes, until the oil turns yellow and separates." },
+    { "fr": "La reverser dans le bouillon : c'est elle qui donne la couleur jaune et le parfum du soto.", "en": "Stir it back into the broth: it gives soto its yellow colour and its perfume." },
+    { "fr": "Effilocher le poulet à la main et réserver la peau pour la faire griller à part, croustillante.", "en": "Shred the chicken by hand and keep the skin to crisp separately." },
+    { "fr": "Le soto se monte dans le bol : vermicelles, germes crus, poulet, œuf, puis le bouillon brûlant.", "en": "Soto is built in the bowl: noodles, raw sprouts, chicken, egg, then the scalding broth." },
+    { "fr": "Couvrir d'échalotes frites et servir avec du citron vert et un sambal à part.", "en": "Top with fried shallots and serve with lime and a sambal alongside." }
+  ]
+}

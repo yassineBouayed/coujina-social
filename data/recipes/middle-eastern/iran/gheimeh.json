@@ -1,0 +1,40 @@
+{
+  "slug": "gheimeh",
+  "cuisine": "middle-eastern",
+  "country": "iran",
+  "origin": "Iran",
+  "native_name": "Gheimeh",
+  "title": {
+    "fr": "Gheimeh, ragoût de pois cassés aux frites",
+    "en": "Gheimeh, split pea stew topped with fries"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 100 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["quotidien", "pois-casse", "citron-seche", "riz"],
+  "ingredients": [
+    { "raw": "700 g d'épaule d'agneau, en petits cubes", "qty": 700, "unit": "g", "item": "épaule d'agneau", "prep": "en petits cubes" },
+    { "raw": "250 g de pois cassés", "qty": 250, "unit": "g", "item": "pois cassé" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "4 citrons séchés d'Oman", "qty": 4, "unit": "piece", "item": "citron séché d'Oman" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "1/2 c. à c. de cannelle moulue", "qty": 0.5, "unit": "tsp", "item": "cannelle" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "3 pommes de terre, en bâtonnets", "qty": 3, "unit": "piece", "item": "pomme de terre", "prep": "en bâtonnets", "group": "garniture" },
+    { "raw": "50 cl d'huile de tournesol pour la friture", "qty": 50, "unit": "cl", "item": "huile de tournesol" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Faire revenir l'oignon et le curcuma dans l'huile, puis ajouter la viande et la faire dorer.", "en": "Fry the onion and turmeric in the oil, then add the meat and brown it." },
+    { "fr": "Ajouter le concentré de tomate et le cuire trois minutes pour qu'il perde son acidité.", "en": "Add the tomato purée and cook it for three minutes to lose its acidity." },
+    { "fr": "Mouiller, ajouter les citrons séchés percés et le safran, et laisser mijoter une heure.", "en": "Add water, the pierced dried limes and the saffron, and simmer for an hour." },
+    { "fr": "Ajouter les pois cassés seulement à ce moment : cuits dès le début, ils se réduisent en purée.", "en": "Add the split peas only now: cooked from the start, they collapse into purée." },
+    { "fr": "Poursuivre trente minutes, jusqu'à ce que les pois soient tendres mais entiers.", "en": "Continue for thirty minutes, until the peas are tender but whole." },
+    { "fr": "Frire les bâtonnets de pomme de terre et les poser sur le ragoût au moment de servir.", "en": "Fry the potato batons and pile them on the stew as you serve." }
+  ]
+}

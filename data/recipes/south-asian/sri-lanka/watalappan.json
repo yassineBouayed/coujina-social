@@ -1,0 +1,36 @@
+{
+  "slug": "watalappan",
+  "cuisine": "south-asian",
+  "country": "sri-lanka",
+  "origin": "Sri Lanka",
+  "native_name": "Watalappan",
+  "title": {
+    "fr": "Watalappan, flan de coco à la panela et cardamome",
+    "en": "Watalappan, coconut and jaggery custard"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 45 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "coco", "vapeur", "cardamome"],
+  "ingredients": [
+    { "raw": "250 g de panela", "qty": 250, "unit": "g", "item": "panela" },
+    { "raw": "40 cl de lait de coco", "qty": 40, "unit": "cl", "item": "lait de coco" },
+    { "raw": "5 œufs", "qty": 5, "unit": "piece", "item": "oeuf" },
+    { "raw": "1 c. à c. de cardamome moulue", "qty": 1, "unit": "tsp", "item": "cardamome", "prep": "moulue" },
+    { "raw": "1/2 c. à c. de muscade râpée", "qty": 0.5, "unit": "tsp", "item": "muscade", "prep": "râpée" },
+    { "raw": "4 clous de girofle", "qty": 4, "unit": "piece", "item": "clou de girofle" },
+    { "raw": "40 g de noix de cajou, concassées", "qty": 40, "unit": "g", "item": "noix de cajou", "prep": "concassée", "group": "décor" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire fondre la panela dans le lait de coco à feu doux, avec le girofle, et laisser refroidir.", "en": "Melt the panela in the coconut milk over low heat, with the cloves, and let it cool." },
+    { "fr": "Le mélange doit être TIÈDE avant d'ajouter les œufs : chaud, il les cuit en grumeaux.", "en": "The mixture must be LUKEWARM before the eggs go in: hot, it scrambles them." },
+    { "fr": "Battre les œufs sans les faire mousser et les incorporer au mélange refroidi.", "en": "Beat the eggs without frothing and stir them into the cooled mixture." },
+    { "fr": "Filtrer au chinois : c'est ce qui donne un flan lisse, sans filaments d'œuf.", "en": "Strain it: this is what gives a smooth custard, with no threads of egg." },
+    { "fr": "Ajouter la cardamome, la muscade et le sel, et verser dans des ramequins.", "en": "Add the cardamom, nutmeg and salt, and pour into ramekins." },
+    { "fr": "Cuire à la VAPEUR quarante minutes, à couvert : le four sèche le watalappan.", "en": "STEAM for forty minutes, covered: an oven dries watalappan out." }
+  ]
+}

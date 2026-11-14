@@ -1,0 +1,33 @@
+{
+  "slug": "kiri-te",
+  "cuisine": "south-asian",
+  "country": "sri-lanka",
+  "origin": "Sri Lanka",
+  "native_name": "Kiri te",
+  "title": {
+    "fr": "Kiri te, thé de Ceylan au lait",
+    "en": "Kiri te, Ceylon tea with milk"
+  },
+  "meal_type": "drink",
+  "servings": 4,
+  "times": { "prep_min": 5, "cook_min": 10 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["the", "quotidien", "lait", "ceylan"],
+  "ingredients": [
+    { "raw": "4 c. à c. de thé de Ceylan", "qty": 4, "unit": "tsp", "item": "thé vert" },
+    { "raw": "60 cl d'eau", "qty": 60, "unit": "cl", "item": "eau" },
+    { "raw": "20 cl de lait concentré sucré", "qty": 20, "unit": "cl", "item": "lait concentré sucré" },
+    { "raw": "2 c. à c. de sucre", "qty": 2, "unit": "tsp", "item": "sucre", "optional": true },
+    { "raw": "4 gousses de cardamome, écrasées", "qty": 4, "unit": "piece", "item": "cardamome", "prep": "écrasée", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Porter l'eau à ébullition et la retirer du feu avant d'ajouter le thé.", "en": "Bring the water to a boil and take it off the heat before adding the tea." },
+    { "fr": "Le thé de Ceylan est délicat : bouilli, il devient amer et astringent, contrairement au chai indien.", "en": "Ceylon tea is delicate: boiled, it turns bitter and astringent, unlike Indian chai." },
+    { "fr": "Laisser infuser quatre minutes exactement, puis filtrer.", "en": "Steep for exactly four minutes, then strain." },
+    { "fr": "Ajouter le lait concentré sucré et remuer jusqu'à dissolution complète.", "en": "Add the sweetened condensed milk and stir until fully dissolved." },
+    { "fr": "Verser de haut, d'un récipient à l'autre, plusieurs fois, pour faire mousser.", "en": "Pour from a height, from one vessel to another, several times, to raise a foam." },
+    { "fr": "Servir brûlant, très mousseux, dans de grands verres.", "en": "Serve scalding, well frothed, in tall glasses." }
+  ]
+}

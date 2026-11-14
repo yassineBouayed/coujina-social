@@ -1,0 +1,41 @@
+{
+  "slug": "saag-gosht",
+  "cuisine": "south-asian",
+  "country": "pakistan",
+  "origin": "Pakistan",
+  "native_name": "Saag gosht",
+  "title": {
+    "fr": "Saag gosht, agneau aux feuilles de moutarde",
+    "en": "Saag gosht, lamb with mustard greens"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 120 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["punjab", "hiver", "epinard", "agneau"],
+  "ingredients": [
+    { "raw": "900 g d'épaule d'agneau, en cubes", "qty": 900, "unit": "g", "item": "épaule d'agneau", "prep": "en cubes" },
+    { "raw": "800 g d'épinards", "qty": 800, "unit": "g", "item": "épinard" },
+    { "raw": "400 g de chou frisé", "qty": 400, "unit": "g", "item": "chou frisé" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "2 c. à s. de pâte gingembre-ail", "qty": 2, "unit": "tbsp", "item": "pâte gingembre-ail" },
+    { "raw": "3 tomates, râpées", "qty": 3, "unit": "piece", "item": "tomate", "prep": "râpée" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "2 c. à c. de piment kashmiri", "qty": 2, "unit": "tsp", "item": "piment kashmiri" },
+    { "raw": "1 c. à s. de farine de maïs blanche", "qty": 1, "unit": "tbsp", "item": "farine de maïs blanche" },
+    { "raw": "100 g de ghee", "qty": 100, "unit": "g", "item": "ghee" },
+    { "raw": "3 piments verts", "qty": 3, "unit": "piece", "item": "piment frais" },
+    { "raw": "1 c. à c. de garam masala", "qty": 1, "unit": "tsp", "item": "garam masala" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire les feuilles vertes à couvert quarante minutes, jusqu'à ce qu'elles soient très tendres.", "en": "Cook the greens covered for forty minutes, until very tender." },
+    { "fr": "Le saag n'est pas un plat de légumes croquants : les feuilles doivent être longuement cuites et écrasées.", "en": "Saag is not a crisp vegetable dish: the greens must be cooked long and crushed." },
+    { "fr": "Les écraser au pilon plutôt qu'au mixeur : mixées, elles deviennent une purée lisse sans caractère.", "en": "Crush them with a pestle rather than a blender: blended, they turn into a characterless smooth purée." },
+    { "fr": "Ajouter la farine de maïs et cuire dix minutes : elle lie le saag et enlève son amertume.", "en": "Add the maize flour and cook for ten minutes: it binds the saag and takes off its bitterness." },
+    { "fr": "Cuire la viande à part avec oignons, gingembre-ail, tomates et épices, une heure et quart.", "en": "Cook the meat separately with onions, ginger-garlic, tomatoes and spices, an hour and a quarter." },
+    { "fr": "Réunir les deux, laisser vingt minutes, et servir avec du ghee fondu par-dessus.", "en": "Bring the two together, cook for twenty minutes, and serve with melted ghee poured over." }
+  ]
+}

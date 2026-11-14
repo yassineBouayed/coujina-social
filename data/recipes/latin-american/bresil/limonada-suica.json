@@ -1,0 +1,33 @@
+{
+  "slug": "limonada-suica",
+  "cuisine": "latin-american",
+  "country": "bresil",
+  "origin": "Brésil",
+  "native_name": "Limonada suíça",
+  "title": {
+    "fr": "Limonade suisse au citron vert entier",
+    "en": "Swiss lemonade with whole limes"
+  },
+  "meal_type": "drink",
+  "servings": 6,
+  "times": { "prep_min": 15, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ete", "citron-vert", "froid", "rapide"],
+  "ingredients": [
+    { "raw": "6 citrons verts", "qty": 6, "unit": "piece", "item": "citron vert" },
+    { "raw": "1,2 l d'eau glacée", "qty": 1.2, "unit": "l", "item": "eau" },
+    { "raw": "200 g de lait concentré sucré", "qty": 200, "unit": "g", "item": "lait concentré sucré" },
+    { "raw": "80 g de sucre", "qty": 80, "unit": "g", "item": "sucre", "optional": true },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cette limonade se fait avec les citrons verts ENTIERS, peau comprise : c'est sa particularité.", "en": "This lemonade uses WHOLE limes, skin included: that is its particularity." },
+    { "fr": "Elle n'a rien de suisse : le nom vient probablement d'une déformation de « limonada suíssa ».", "en": "It has nothing Swiss about it: the name likely comes from a corruption of \"limonada suíssa\"." },
+    { "fr": "COUPER LES DEUX EXTRÉMITÉS des citrons : c'est là que l'amertume est la plus forte.", "en": "CUT OFF BOTH ENDS of the limes: that is where the bitterness is strongest." },
+    { "fr": "Mixer les citrons coupés en quatre avec l'eau glacée DIX SECONDES, pas plus.", "en": "Blend the quartered limes with the iced water for TEN SECONDS, no longer." },
+    { "fr": "Au-delà, l'écorce blanche libère son amertume et la boisson devient imbuvable.", "en": "Beyond that, the white pith releases its bitterness and the drink becomes undrinkable." },
+    { "fr": "FILTRER immédiatement en pressant, ajouter le lait concentré, et servir glacé.", "en": "STRAIN immediately, pressing, add the condensed milk, and serve ice cold." }
+  ]
+}

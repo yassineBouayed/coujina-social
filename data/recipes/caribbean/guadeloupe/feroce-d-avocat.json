@@ -1,0 +1,39 @@
+{
+  "slug": "feroce-d-avocat",
+  "cuisine": "caribbean",
+  "country": "guadeloupe",
+  "origin": "Guadeloupe",
+  "native_name": "Féroce d'avocat",
+  "title": {
+    "fr": "Féroce d'avocat à la morue",
+    "en": "Féroce, avocado and salt cod mash"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 10 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["embleme", "avocat", "morue", "manioc"],
+  "ingredients": [
+    { "raw": "5 avocats mûrs", "qty": 5, "unit": "piece", "item": "avocat" },
+    { "raw": "300 g de morue salée, dessalée 36 h", "qty": 300, "unit": "g", "item": "morue salée", "prep": "dessalée 36 h" },
+    { "raw": "250 g de farine de manioc", "qty": 250, "unit": "g", "item": "farine de manioc" },
+    { "raw": "4 citrons verts, leur jus", "qty": 4, "unit": "piece", "item": "citron vert" },
+    { "raw": "6 gousses d'ail, écrasées", "qty": 6, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 bouquet d'oignons nouveaux, émincés", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "émincé" },
+    { "raw": "1 piment végétarien, haché", "qty": 1, "unit": "piece", "item": "piment végétarien", "prep": "haché" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "6 c. à s. d'huile neutre", "qty": 6, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Avocat, morue et farine de manioc ensemble : cet accord ne se trouve nulle part ailleurs.", "en": "Avocado, salt cod and cassava flour together: this combination exists nowhere else." },
+    { "fr": "« Féroce » désigne le piment : le plat doit piquer franchement, c'est son nom qui le dit.", "en": "\"Féroce\" refers to the chilli: the dish must bite, and its name says so." },
+    { "fr": "GRILLER la morue dessalée sur la flamme ou à la poêle sèche, puis l'effeuiller finement.", "en": "GRILL the desalted cod over a flame or in a dry pan, then flake it finely." },
+    { "fr": "HUMIDIFIER la farine de manioc à l'eau tiède et la laisser gonfler quinze minutes.", "en": "MOISTEN the cassava flour with warm water and let it swell for fifteen minutes." },
+    { "fr": "Sèche, elle absorbe l'avocat et le féroce devient une pâte compacte et poussiéreuse.", "en": "Dry, it soaks up the avocado and the féroce becomes a dense, powdery paste." },
+    { "fr": "Écraser l'avocat À LA FOURCHETTE et le citronner AUSSITÔT, puis mêler le reste.", "en": "Crush the avocado WITH A FORK and lime it AT ONCE, then fold in the rest." }
+  ]
+}

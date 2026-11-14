@@ -1,0 +1,39 @@
+{
+  "slug": "firire-poisson",
+  "cuisine": "west-african",
+  "country": "senegal",
+  "origin": "Sénégal",
+  "native_name": "Jën firire",
+  "title": {
+    "fr": "Poisson firire, frit à la sénégalaise",
+    "en": "Firire, Senegalese fried fish"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["friture", "quotidien", "poisson", "citron"],
+  "ingredients": [
+    { "raw": "4 dorades entières, vidées", "qty": 4, "unit": "piece", "item": "dorade", "prep": "vidée" },
+    { "raw": "4 gousses d'ail", "qty": 4, "unit": "piece", "item": "ail", "group": "nokoss" },
+    { "raw": "1/2 bouquet de persil plat", "qty": 0.5, "unit": "bunch", "item": "persil plat", "group": "nokoss" },
+    { "raw": "1 oignon", "qty": 1, "unit": "piece", "item": "oignon", "group": "nokoss" },
+    { "raw": "1 piment oiseau", "qty": 1, "unit": "piece", "item": "piment oiseau", "group": "nokoss" },
+    { "raw": "1 cube de bouillon", "qty": 1, "unit": "piece", "item": "bouillon cube", "group": "nokoss" },
+    { "raw": "2 citrons verts, leur jus", "qty": 2, "unit": "piece", "item": "citron vert" },
+    { "raw": "50 cl d'huile d'arachide pour la friture", "qty": 50, "unit": "cl", "item": "huile d'arachide" },
+    { "raw": "3 c. à s. de farine de blé", "qty": 3, "unit": "tbsp", "item": "farine de blé", "optional": true },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Piler ail, persil, oignon, piment, cube, sel et poivre : c'est le nokoss, la base de toute la cuisine sénégalaise.", "en": "Pound garlic, parsley, onion, chilli, stock cube, salt and pepper: this is nokoss, the base of all Senegalese cooking." },
+    { "fr": "Inciser le poisson en trois entailles profondes de chaque côté et y pousser le nokoss.", "en": "Cut three deep slashes on each side of the fish and push the nokoss into them." },
+    { "fr": "Laisser mariner une heure au frais, puis essuyer la surface : mouillé, le poisson fait exploser l'huile.", "en": "Marinate for an hour in the fridge, then pat the surface dry: wet, the fish makes the oil explode." },
+    { "fr": "Fariner très légèrement, en tapotant pour retirer l'excédent.", "en": "Flour very lightly, tapping off the excess." },
+    { "fr": "Frire à 180 °C, cinq à six minutes par face, sans le retourner plus d'une fois.", "en": "Fry at 180°C, five to six minutes a side, turning only once." },
+    { "fr": "Arroser de citron vert à la sortie et servir avec du riz blanc et une sauce d'oignons.", "en": "Squeeze lime over as it comes out, and serve with white rice and an onion sauce." }
+  ]
+}

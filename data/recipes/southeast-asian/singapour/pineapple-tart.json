@@ -1,0 +1,39 @@
+{
+  "slug": "pineapple-tart",
+  "cuisine": "southeast-asian",
+  "country": "singapour",
+  "origin": "Singapour",
+  "native_name": "Pineapple tart",
+  "title": {
+    "fr": "Tartelettes à la confiture d'ananas",
+    "en": "Pineapple jam tarts"
+  },
+  "meal_type": "dessert",
+  "servings": 12,
+  "times": { "prep_min": 60, "cook_min": 90 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["nouvel-an", "ananas", "beurre", "fete"],
+  "ingredients": [
+    { "raw": "2 ananas mûrs, râpés", "qty": 2, "unit": "piece", "item": "ananas", "prep": "râpé", "group": "confiture" },
+    { "raw": "250 g de sucre", "qty": 250, "unit": "g", "item": "sucre", "group": "confiture" },
+    { "raw": "2 bâtons de cannelle", "qty": 2, "unit": "piece", "item": "cannelle", "group": "confiture" },
+    { "raw": "4 clous de girofle", "qty": 4, "unit": "piece", "item": "clou de girofle", "group": "confiture" },
+    { "raw": "300 g de farine de blé", "qty": 300, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "220 g de beurre, ramolli", "qty": 220, "unit": "g", "item": "beurre", "prep": "ramolli", "group": "pâte" },
+    { "raw": "2 jaunes d'œufs", "qty": 2, "unit": "piece", "item": "oeuf", "group": "pâte" },
+    { "raw": "40 g de sucre glace", "qty": 40, "unit": "g", "item": "sucre glace", "group": "pâte" },
+    { "raw": "3 c. à s. de maïzena", "qty": 3, "unit": "tbsp", "item": "maïzena", "group": "pâte" },
+    { "raw": "1 jaune d'œuf, pour dorer", "qty": 1, "unit": "piece", "item": "oeuf", "group": "dorure" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Râper les ananas et les cuire UNE HEURE ET DEMIE avec le sucre et les épices, en remuant.", "en": "Grate the pineapples and cook them for AN HOUR AND A HALF with the sugar and spices, stirring." },
+    { "fr": "La confiture doit être si sèche qu'elle se roule en boules qui gardent leur forme.", "en": "The jam must be so dry it rolls into balls that hold their shape." },
+    { "fr": "Une confiture humide fait couler la garniture et détrempe la pâte : c'est l'échec classique.", "en": "A wet jam runs and soaks the pastry: the classic failure." },
+    { "fr": "La pâte contient plus de beurre que de farine en proportion : elle doit fondre en bouche.", "en": "The dough carries a high butter-to-flour ratio: it must melt in the mouth." },
+    { "fr": "Former des boules de confiture, les poser sur des disques de pâte, et fermer ou laisser ouvert.", "en": "Roll balls of jam, set them on discs of dough, and either enclose them or leave them open." },
+    { "fr": "Dorer au jaune et cuire vingt minutes à 170 °C : la pâte doit rester PÂLE, à peine blonde.", "en": "Glaze with yolk and bake for twenty minutes at 170°C: the pastry must stay PALE, barely golden." }
+  ]
+}

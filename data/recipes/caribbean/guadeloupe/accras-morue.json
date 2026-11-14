@@ -1,0 +1,40 @@
+{
+  "slug": "accras-morue",
+  "cuisine": "caribbean",
+  "country": "guadeloupe",
+  "origin": "Guadeloupe",
+  "native_name": "Accras de morue",
+  "title": {
+    "fr": "Accras de morue",
+    "en": "Salt cod fritters"
+  },
+  "meal_type": "starter",
+  "servings": 8,
+  "times": { "prep_min": 30, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["embleme", "morue", "friture", "apero"],
+  "ingredients": [
+    { "raw": "400 g de morue salée, dessalée 36 h", "qty": 400, "unit": "g", "item": "morue salée", "prep": "dessalée 36 h" },
+    { "raw": "300 g de farine de blé", "qty": 300, "unit": "g", "item": "farine de blé" },
+    { "raw": "25 cl d'eau", "qty": 25, "unit": "cl", "item": "eau" },
+    { "raw": "1 sachet de levure chimique", "qty": 1, "unit": "tsp", "item": "levure chimique" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "1 bouquet d'oignons nouveaux, émincés", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "émincé" },
+    { "raw": "6 gousses d'ail, écrasées", "qty": 6, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "1 piment végétarien, haché", "qty": 1, "unit": "piece", "item": "piment végétarien", "prep": "haché" },
+    { "raw": "1 citron vert, son jus", "qty": 1, "unit": "piece", "item": "citron vert" },
+    { "raw": "1,5 l d'huile neutre pour la friture", "qty": 1.5, "unit": "l", "item": "huile neutre" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "LE DESSALAGE DÉCIDE DE TOUT : 36 heures au frais, en changeant l'eau quatre fois.", "en": "THE DESALTING DECIDES EVERYTHING: 36 hours in the fridge, changing the water four times." },
+    { "fr": "Trop dessalée, la morue n'a plus de goût ; pas assez, les accras sont immangeables.", "en": "Over-soaked, the cod tastes of nothing; under-soaked, the fritters are inedible." },
+    { "fr": "GOÛTER un morceau cru avant de commencer : c'est le seul contrôle qui vaille.", "en": "TASTE a raw piece before starting: the only check worth doing." },
+    { "fr": "Pocher la morue dessalée dix minutes, l'effeuiller, et ÔTER TOUTES les arêtes.", "en": "Poach the desalted cod for ten minutes, flake it, and REMOVE EVERY bone." },
+    { "fr": "Laisser reposer la pâte UNE HEURE : la levure travaille et les accras gonflent en boule.", "en": "Rest the batter for AN HOUR: the raising agent works and the fritters puff into balls." },
+    { "fr": "Frire à 180 °C à la cuillère, quatre minutes : ils doivent tourner seuls dans l'huile.", "en": "Fry at 180°C, spooned in, for four minutes: they should turn by themselves in the oil." }
+  ]
+}

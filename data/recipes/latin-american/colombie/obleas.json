@@ -1,0 +1,34 @@
+{
+  "slug": "obleas",
+  "cuisine": "latin-american",
+  "country": "colombie",
+  "origin": "Colombie",
+  "native_name": "Obleas con arequipe",
+  "title": {
+    "fr": "Obleas au dulce de leche",
+    "en": "Wafers with dulce de leche"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 15, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "gouter", "enfants", "rapide"],
+  "ingredients": [
+    { "raw": "16 obleas, grandes gaufrettes fines", "qty": 16, "unit": "piece", "item": "biscuit sec", "prep": "en gaufrettes fines" },
+    { "raw": "400 g de dulce de leche", "qty": 400, "unit": "g", "item": "dulce de leche" },
+    { "raw": "200 g de confiture de framboise", "qty": 200, "unit": "g", "item": "confiture" },
+    { "raw": "200 g de fromage frais", "qty": 200, "unit": "g", "item": "fromage frais" },
+    { "raw": "100 g de noix de coco râpée", "qty": 100, "unit": "g", "item": "noix de coco râpée" },
+    { "raw": "100 g de queso fresco, râpé", "qty": 100, "unit": "g", "item": "queso fresco", "prep": "râpé", "optional": true }
+  ],
+  "steps": [
+    { "fr": "L'oblea est une gaufrette TRÈS fine, presque translucide : elle casse au moindre choc.", "en": "The oblea is a VERY thin wafer, almost translucent: it snaps at the slightest knock." },
+    { "fr": "Elle se vend en paquets dans toutes les épiceries colombiennes : elle ne se fait pas chez soi.", "en": "It is sold in packets in every Colombian grocery: it is not made at home." },
+    { "fr": "L'AREQUIPE — le dulce de leche colombien — se tartine sur UNE SEULE gaufrette.", "en": "AREQUIPE — Colombian dulce de leche — is spread on ONE wafer only." },
+    { "fr": "Ne pas trop charger : au-delà de trois garnitures, l'ensemble s'écroule à la première bouchée.", "en": "Do not overload: past three fillings, the whole thing collapses at the first bite." },
+    { "fr": "Le mélange sucré-salé fromage frais et arequipe est le classique de rue colombien.", "en": "The sweet-savoury mix of cream cheese and arequipe is the Colombian street classic." },
+    { "fr": "Assembler AU MOMENT DE MANGER : montée à l'avance, l'oblea ramollit en cinq minutes.", "en": "Assemble it AT THE MOMENT OF EATING: made ahead, the wafer softens within five minutes." }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "puff-puff",
+  "cuisine": "west-african",
+  "country": "nigeria",
+  "origin": "Nigeria",
+  "native_name": "Puff puff",
+  "title": {
+    "fr": "Puff puff, beignets sucrés à la levure",
+    "en": "Puff puff, sweet yeast doughnuts"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 20, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "friture", "gouter", "enfance"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé" },
+    { "raw": "1 c. à s. de levure boulangère sèche", "qty": 1, "unit": "tbsp", "item": "levure boulangère" },
+    { "raw": "120 g de sucre", "qty": 120, "unit": "g", "item": "sucre" },
+    { "raw": "1/2 c. à c. de sel", "qty": 0.5, "unit": "tsp", "item": "sel" },
+    { "raw": "1 c. à c. de muscade râpée", "qty": 1, "unit": "tsp", "item": "muscade", "prep": "râpée" },
+    { "raw": "35 cl d'eau tiède", "qty": 35, "unit": "cl", "item": "eau" },
+    { "raw": "1 l d'huile neutre pour la friture", "qty": 1, "unit": "l", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Mélanger farine, levure, sucre, sel et muscade, puis ajouter l'eau tiède en fouettant.", "en": "Mix the flour, yeast, sugar, salt and nutmeg, then whisk in the warm water." },
+    { "fr": "La pâte doit être molle et collante, à mi-chemin entre une pâte et une pâte à crêpes épaisse.", "en": "The batter should be soft and sticky, halfway between a dough and a thick pancake batter." },
+    { "fr": "Laisser lever une heure et demie, jusqu'à ce qu'elle double et se couvre de bulles.", "en": "Prove for an hour and a half, until doubled and covered in bubbles." },
+    { "fr": "Prélever à la main, en serrant le poing pour faire sortir une boule entre le pouce et l'index.", "en": "Scoop by hand, squeezing a ball out between thumb and forefinger." },
+    { "fr": "Frire à 170 °C : trop chaude, l'huile dore l'extérieur et laisse le cœur cru.", "en": "Fry at 170°C: too hot, and the oil browns the outside while the centre stays raw." },
+    { "fr": "Retourner en cours de cuisson et égoutter sur papier. Rouler dans le sucre si on veut.", "en": "Turn them as they cook and drain on paper. Roll in sugar if you like." }
+  ]
+}

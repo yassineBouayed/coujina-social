@@ -1,0 +1,42 @@
+{
+  "slug": "ajiaco-santafereno",
+  "cuisine": "latin-american",
+  "country": "colombie",
+  "origin": "Colombie",
+  "native_name": "Ajiaco santafereño",
+  "title": {
+    "fr": "Ajiaco de Bogota aux trois pommes de terre",
+    "en": "Bogotá ajiaco with three potatoes"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 35, "cook_min": 90 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["bogota", "embleme", "pomme-de-terre", "poulet"],
+  "ingredients": [
+    { "raw": "1 poulet entier", "qty": 1, "unit": "piece", "item": "poulet entier" },
+    { "raw": "600 g de pommes de terre à chair farineuse", "qty": 600, "unit": "g", "item": "pomme de terre" },
+    { "raw": "600 g de pommes de terre à chair ferme", "qty": 600, "unit": "g", "item": "pomme de terre" },
+    { "raw": "400 g de petites pommes de terre jaunes", "qty": 400, "unit": "g", "item": "pomme de terre" },
+    { "raw": "4 épis de maïs, en tronçons", "qty": 4, "unit": "piece", "item": "maïs doux", "prep": "en tronçons" },
+    { "raw": "3 c. à s. de guascas séchées", "qty": 3, "unit": "tbsp", "item": "guascas" },
+    { "raw": "2 oignons", "qty": 2, "unit": "piece", "item": "oignon" },
+    { "raw": "6 gousses d'ail", "qty": 6, "unit": "piece", "item": "ail" },
+    { "raw": "25 cl de crème fraîche", "qty": 25, "unit": "cl", "item": "crème fraîche", "group": "service" },
+    { "raw": "4 c. à s. de câpres", "qty": 4, "unit": "tbsp", "item": "câpre", "group": "service" },
+    { "raw": "3 avocats, en tranches", "qty": 3, "unit": "piece", "item": "avocat", "prep": "en tranches", "group": "service" },
+    { "raw": "1 bouquet de coriandre, ciselée", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "L'ajiaco demande TROIS variétés de pomme de terre, chacune pour un rôle différent.", "en": "Ajiaco needs THREE potato varieties, each for a different job." },
+    { "fr": "La farineuse se DÉLITE et épaissit la soupe ; la ferme reste en morceaux ; la jaune donne la couleur.", "en": "The floury one COLLAPSES and thickens the soup; the waxy one stays in pieces; the yellow gives colour." },
+    { "fr": "Les GUASCAS sont une herbe andine au goût d'artichaut : sans elles, ce n'est pas un ajiaco.", "en": "GUASCAS is an Andean herb tasting of artichoke: without it, this is not an ajiaco." },
+    { "fr": "Elles s'ajoutent les VINGT dernières minutes : cuites longtemps, elles deviennent amères.", "en": "They go in for the LAST TWENTY minutes: cooked long, they turn bitter." },
+    { "fr": "Pocher le poulet dans la soupe une heure, puis l'effilocher et le remettre.", "en": "Poach the chicken in the soup for an hour, then shred it and return it." },
+    { "fr": "CRÈME, CÂPRES et AVOCAT se servent À PART : chacun en met à son goût dans son bol.", "en": "CREAM, CAPERS and AVOCADO are served SEPARATELY: each person adds their own." }
+  ]
+}

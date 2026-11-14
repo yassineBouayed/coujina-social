@@ -1,0 +1,42 @@
+{
+  "slug": "vatapa",
+  "cuisine": "latin-american",
+  "country": "bresil",
+  "origin": "Brésil",
+  "native_name": "Vatapá",
+  "title": {
+    "fr": "Vatapá aux crevettes et à la cacahuète",
+    "en": "Vatapá with prawns and peanut"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 35, "cook_min": 45 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["bahia", "coco", "cacahuete", "crevette"],
+  "ingredients": [
+    { "raw": "600 g de crevettes crues, décortiquées", "qty": 600, "unit": "g", "item": "crevette", "prep": "décortiquée" },
+    { "raw": "200 g de crevettes séchées", "qty": 200, "unit": "g", "item": "crevette séchée" },
+    { "raw": "300 g de pain de mie rassis", "qty": 300, "unit": "g", "item": "pain de mie", "prep": "rassis" },
+    { "raw": "200 g de cacahuètes, grillées", "qty": 200, "unit": "g", "item": "cacahuète", "prep": "grillée" },
+    { "raw": "100 g de noix de cajou", "qty": 100, "unit": "g", "item": "noix de cajou" },
+    { "raw": "80 cl de lait de coco", "qty": 80, "unit": "cl", "item": "lait de coco" },
+    { "raw": "8 cl d'huile de palme rouge", "qty": 8, "unit": "cl", "item": "huile de palme" },
+    { "raw": "3 oignons", "qty": 3, "unit": "piece", "item": "oignon" },
+    { "raw": "6 gousses d'ail", "qty": 6, "unit": "piece", "item": "ail" },
+    { "raw": "2 c. à s. de gingembre frais, râpé", "qty": 2, "unit": "tbsp", "item": "gingembre frais", "prep": "râpé" },
+    { "raw": "1 bouquet de coriandre, ciselée", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "2 citrons verts", "qty": 2, "unit": "piece", "item": "citron vert" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le vatapá est une CRÈME épaisse, entre la sauce et la purée : il se mange à la cuillère.", "en": "Vatapá is a thick CREAM, between a sauce and a purée: it is eaten with a spoon." },
+    { "fr": "Faire tremper le pain rassis dans le lait de coco vingt minutes, puis le mixer.", "en": "Soak the stale bread in the coconut milk for twenty minutes, then blend it." },
+    { "fr": "Moudre cacahuètes, noix de cajou et crevettes séchées EN POUDRE FINE, à sec.", "en": "Grind the peanuts, cashews and dried prawns to a FINE POWDER, dry." },
+    { "fr": "Cuire le mélange à feu DOUX, en remuant SANS ARRÊT : il attache en trente secondes.", "en": "Cook the mixture over LOW heat, stirring WITHOUT STOPPING: it catches within thirty seconds." },
+    { "fr": "Compter trente minutes de remuage : le vatapá doit se décoller des parois de la casserole.", "en": "Allow thirty minutes of stirring: vatapá must pull away from the pan's sides." },
+    { "fr": "Ajouter l'huile de dendê et les crevettes fraîches EN DERNIER, cinq minutes avant la fin.", "en": "Add the dendê oil and fresh prawns LAST, five minutes before the end." }
+  ]
+}

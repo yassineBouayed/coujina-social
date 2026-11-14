@@ -1,0 +1,33 @@
+{
+  "slug": "bandung",
+  "cuisine": "southeast-asian",
+  "country": "singapour",
+  "origin": "Singapour",
+  "native_name": "Bandung",
+  "title": {
+    "fr": "Bandung, lait rose à la rose",
+    "en": "Bandung, rose milk drink"
+  },
+  "meal_type": "drink",
+  "servings": 4,
+  "times": { "prep_min": 10, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hawker", "rose", "glace", "enfance"],
+  "ingredients": [
+    { "raw": "12 cl de sirop de rose", "qty": 12, "unit": "cl", "item": "eau de rose", "prep": "en sirop" },
+    { "raw": "25 cl de lait concentré sucré", "qty": 25, "unit": "cl", "item": "lait concentré sucré" },
+    { "raw": "50 cl d'eau glacée", "qty": 50, "unit": "cl", "item": "eau" },
+    { "raw": "20 cl de lait entier", "qty": 20, "unit": "cl", "item": "lait entier" },
+    { "raw": "600 g de glaçons", "qty": 600, "unit": "g", "item": "eau", "prep": "en glaçons" }
+  ],
+  "steps": [
+    { "fr": "Le bandung est d'un rose franc : c'est le sirop de rose qui fait la couleur autant que le goût.", "en": "Bandung is a frank pink: the rose syrup makes the colour as much as the flavour." },
+    { "fr": "Mélanger le sirop de rose et le lait concentré EN PREMIER, jusqu'à obtenir une pâte lisse.", "en": "Mix the rose syrup and condensed milk FIRST, into a smooth paste." },
+    { "fr": "Ajouter le lait entier petit à petit, en remuant, pour éviter que le mélange tranche.", "en": "Add the whole milk little by little, stirring, so the mixture does not split." },
+    { "fr": "Allonger à l'eau glacée et goûter : le bandung doit être parfumé, jamais savonneux.", "en": "Let it down with iced water and taste: bandung should be fragrant, never soapy." },
+    { "fr": "Trop de rose et la boisson devient écœurante : c'est le dosage qui décide de tout.", "en": "Too much rose and the drink turns cloying: the dose decides everything." },
+    { "fr": "Servir sur beaucoup de glace, dans de grands verres.", "en": "Serve over plenty of ice, in tall glasses." }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "zurek",
+  "cuisine": "eastern-european",
+  "country": "pologne",
+  "origin": "Pologne",
+  "native_name": "Żurek",
+  "title": {
+    "fr": "Żurek, soupe aigre au levain de seigle",
+    "en": "Żurek, sour rye soup"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 60 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["paques", "aigre", "seigle", "embleme"],
+  "ingredients": [
+    { "raw": "200 g de farine de seigle", "qty": 200, "unit": "g", "item": "farine de seigle", "group": "zakwas" },
+    { "raw": "50 cl d'eau tiède", "qty": 50, "unit": "cl", "item": "eau", "group": "zakwas" },
+    { "raw": "4 gousses d'ail", "qty": 4, "unit": "piece", "item": "ail", "group": "zakwas" },
+    { "raw": "400 g de saucisse fumée, en rondelles", "qty": 400, "unit": "g", "item": "saucisse fumée", "prep": "en rondelles" },
+    { "raw": "200 g de poitrine de porc fumée, en dés", "qty": 200, "unit": "g", "item": "poitrine de porc", "prep": "fumée, en dés" },
+    { "raw": "1,2 l de bouillon de bœuf", "qty": 1.2, "unit": "l", "item": "bouillon boeuf" },
+    { "raw": "25 cl de crème fraîche", "qty": 25, "unit": "cl", "item": "crème fraîche" },
+    { "raw": "6 œufs durs", "qty": 6, "unit": "piece", "item": "oeuf", "prep": "dur" },
+    { "raw": "2 c. à c. de marjolaine séchée", "qty": 2, "unit": "tsp", "item": "marjolaine" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "1 c. à c. de raifort, râpé", "qty": 1, "unit": "tsp", "item": "raifort", "prep": "râpé" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le zakwas est un levain de seigle liquide : farine, eau et ail, laissés fermenter CINQ JOURS.", "en": "Zakwas is a liquid rye starter: flour, water and garlic, left to ferment for FIVE DAYS." },
+    { "fr": "C'est cette fermentation qui donne l'acidité du żurek : rien d'autre ne la remplace.", "en": "That fermentation gives żurek its sourness: nothing else replaces it." },
+    { "fr": "Le garder à température ambiante, couvert d'un linge, et remuer chaque jour.", "en": "Keep it at room temperature, covered with a cloth, and stir it daily." },
+    { "fr": "Faire un bouillon avec les viandes fumées, une heure, puis le filtrer.", "en": "Make a broth with the smoked meats for an hour, then strain it." },
+    { "fr": "Ajouter le zakwas SECOUÉ, hors du feu : les sédiments du fond sont le meilleur du levain.", "en": "Add the SHAKEN zakwas off the heat: the sediment at the bottom is the best of the starter." },
+    { "fr": "Faire à peine chauffer avec la crème, sans bouillir, et servir avec un œuf dur coupé en deux.", "en": "Barely heat with the cream, without boiling, and serve with a halved hard-boiled egg." }
+  ]
+}

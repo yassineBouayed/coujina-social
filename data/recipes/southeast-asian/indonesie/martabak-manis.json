@@ -1,0 +1,39 @@
+{
+  "slug": "martabak-manis",
+  "cuisine": "southeast-asian",
+  "country": "indonesie",
+  "origin": "Indonésie",
+  "native_name": "Martabak manis",
+  "title": {
+    "fr": "Martabak manis, pancake épais fourré",
+    "en": "Martabak manis, thick stuffed sweet pancake"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 25 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "chocolat", "gouter", "alveole"],
+  "ingredients": [
+    { "raw": "300 g de farine de blé", "qty": 300, "unit": "g", "item": "farine de blé" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf" },
+    { "raw": "50 g de sucre", "qty": 50, "unit": "g", "item": "sucre" },
+    { "raw": "40 cl de lait", "qty": 40, "unit": "cl", "item": "lait" },
+    { "raw": "1 c. à c. de levure boulangère sèche", "qty": 1, "unit": "tsp", "item": "levure boulangère" },
+    { "raw": "1/2 c. à c. de bicarbonate", "qty": 0.5, "unit": "tsp", "item": "bicarbonate" },
+    { "raw": "120 g de beurre", "qty": 120, "unit": "g", "item": "beurre", "group": "garniture" },
+    { "raw": "150 g de chocolat noir, râpé", "qty": 150, "unit": "g", "item": "chocolat noir", "prep": "râpé", "group": "garniture" },
+    { "raw": "100 g d'arachides grillées, concassées", "qty": 100, "unit": "g", "item": "arachide grillée", "prep": "concassée", "group": "garniture" },
+    { "raw": "10 cl de lait concentré sucré", "qty": 10, "unit": "cl", "item": "lait concentré sucré", "group": "garniture" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Fouetter la pâte et la laisser lever UNE HEURE : les alvéoles sont tout le martabak.", "en": "Whisk the batter and prove it for AN HOUR: the honeycomb of holes is the whole point of martabak." },
+    { "fr": "Ajouter le bicarbonate JUSTE avant de cuire : c'est lui qui crée les grosses bulles.", "en": "Add the bicarbonate JUST before cooking: it is what creates the large bubbles." },
+    { "fr": "Chauffer une poêle épaisse à bords hauts, à feu MOYEN, et verser la pâte d'un coup.", "en": "Heat a heavy pan with high sides over MEDIUM heat, and pour the batter in all at once." },
+    { "fr": "Attendre sans y toucher que des trous apparaissent sur TOUTE la surface : cinq à sept minutes.", "en": "Wait without touching it until holes appear across the WHOLE surface: five to seven minutes." },
+    { "fr": "Saupoudrer alors de sucre, couvrir, et laisser cuire jusqu'à ce que le dessus soit sec.", "en": "Then sprinkle with sugar, cover, and cook until the top is dry." },
+    { "fr": "Beurrer généreusement, garnir de chocolat, d'arachides et de lait concentré, et plier en deux.", "en": "Butter it generously, fill with chocolate, peanuts and condensed milk, and fold it in half." }
+  ]
+}

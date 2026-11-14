@@ -1,0 +1,40 @@
+{
+  "slug": "abgoosht",
+  "cuisine": "middle-eastern",
+  "country": "iran",
+  "origin": "Iran",
+  "native_name": "Abgoosht",
+  "title": {
+    "fr": "Abgoosht, pot-au-feu iranien en deux services",
+    "en": "Abgoosht, Iranian pot stew served in two courses"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 210 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["dizi", "hiver", "populaire", "cuisson-lente"],
+  "ingredients": [
+    { "raw": "1 kg de collier d'agneau avec os", "qty": 1000, "unit": "g", "item": "épaule d'agneau", "prep": "avec os" },
+    { "raw": "250 g de pois chiches secs, trempés la veille", "qty": 250, "unit": "g", "item": "pois chiche sec", "prep": "trempé la veille" },
+    { "raw": "200 g de haricots blancs, trempés la veille", "qty": 200, "unit": "g", "item": "haricot blanc", "prep": "trempé la veille" },
+    { "raw": "4 pommes de terre, entières", "qty": 4, "unit": "piece", "item": "pomme de terre" },
+    { "raw": "2 oignons, entiers", "qty": 2, "unit": "piece", "item": "oignon" },
+    { "raw": "3 tomates", "qty": 3, "unit": "piece", "item": "tomate" },
+    { "raw": "2 c. à s. de concentré de tomate", "qty": 2, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "3 citrons séchés d'Oman", "qty": 3, "unit": "piece", "item": "citron séché d'Oman" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "4 pains pita, rassis", "qty": 4, "unit": "piece", "item": "pain pita", "prep": "rassis", "group": "service" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Mettre viande, pois chiches, haricots, oignons, curcuma et eau dans une cocotte, et écumer.", "en": "Put the meat, chickpeas, beans, onions, turmeric and water in a pot, and skim." },
+    { "fr": "Cuire deux heures et demie à petits bouillons, puis ajouter pommes de terre, tomates, concentré et citrons séchés.", "en": "Cook for two and a half hours at a bare simmer, then add the potatoes, tomatoes, purée and dried limes." },
+    { "fr": "Poursuivre trente minutes, jusqu'à ce que tout se défasse à la fourchette.", "en": "Continue for thirty minutes, until everything falls apart under a fork." },
+    { "fr": "SÉPARER le bouillon des solides : c'est le principe même de l'abgoosht, deux plats en un.", "en": "SEPARATE the broth from the solids: that is the whole principle of abgoosht, two dishes in one." },
+    { "fr": "Servir d'abord le bouillon en bol, avec du pain rassis émietté dedans.", "en": "Serve the broth first, in bowls, with stale bread torn into it." },
+    { "fr": "Piler ensuite les solides au pilon en une pâte grossière — le gousht koubideh — et la servir avec des herbes.", "en": "Then pound the solids into a coarse paste — the gousht koubideh — and serve it with fresh herbs." }
+  ]
+}

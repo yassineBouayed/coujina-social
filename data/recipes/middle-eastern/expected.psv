@@ -1,0 +1,619 @@
+# Vérité du catalogue, cuisine « middle-eastern ».
+#
+# Pour chaque ligne d'ingrédient, celui du référentiel qu'un relecteur
+# choisit, ou `-` quand le référentiel n'a rien à offrir.
+#
+# PASSE MODÈLE, pas humaine, et la circularité est ici maximale : les
+# recettes ont été écrites AVEC le référentiel sous les yeux, et les
+# ingrédients qui manquaient y ont été ajoutés dans la foulée. Le taux de
+# rattachement du champ `item` ne mesure donc presque rien sur ces cuisines.
+# Ce qui mesure quelque chose, c'est le témoin `raw`, que `catalog:gate`
+# donne en regard.
+#
+# Une ligne annotée ici n'a pas été relue par quelqu'un qui cuisine ces
+# plats. Le critère de sortie de J5 reste entier.
+recipe|line|item|expected_slug|note
+abgoosht|0|épaule d'agneau|epaule-d-agneau|
+abgoosht|1|pois chiche sec|pois-chiche-sec|
+abgoosht|2|haricot blanc|haricot-blanc|
+abgoosht|3|pomme de terre|pomme-de-terre|
+abgoosht|4|oignon|oignon|
+abgoosht|5|tomate|tomate|
+abgoosht|6|concentré de tomate|concentre-de-tomate|
+abgoosht|7|citron séché d'Oman|citron-seche-d-oman|
+abgoosht|8|curcuma|curcuma|
+abgoosht|9|pain pita|pain-pita|
+abgoosht|10|sel|sel|
+abgoosht|11|poivre noir|poivre-noir|
+adas-polo|0|riz basmati|riz-basmati|
+adas-polo|1|lentille verte|lentille-verte|
+adas-polo|2|datte|datte|
+adas-polo|3|raisin sec|raisin-sec|
+adas-polo|4|oignon|oignon|
+adas-polo|5|safran|safran|
+adas-polo|6|beurre|beurre|
+adas-polo|7|cannelle|cannelle|
+adas-polo|8|agneau haché|agneau-hache|
+adas-polo|9|sel|sel|
+ash-reshteh|0|nouilles de blé|nouilles-de-ble|
+ash-reshteh|1|haricot rouge|haricot-rouge|
+ash-reshteh|2|pois chiche sec|pois-chiche-sec|
+ash-reshteh|3|lentille verte|lentille-verte|
+ash-reshteh|4|persil plat|persil-plat|
+ash-reshteh|5|coriandre fraîche|coriandre-fraiche|
+ash-reshteh|6|épinard|epinard|
+ash-reshteh|7|oignon|oignon|
+ash-reshteh|8|kashk|kashk|
+ash-reshteh|9|menthe séchée|menthe-sechee|
+ash-reshteh|10|curcuma|curcuma|
+ash-reshteh|11|huile neutre|huile-neutre|
+ash-reshteh|12|sel|sel|
+baghali-polo|0|riz basmati|riz-basmati|
+baghali-polo|1|fève fraîche|feve-fraiche|
+baghali-polo|2|aneth|aneth|
+baghali-polo|3|gigot d'agneau|gigot-d-agneau|
+baghali-polo|4|safran|safran|
+baghali-polo|5|beurre|beurre|
+baghali-polo|6|oignon|oignon|
+baghali-polo|7|cannelle|cannelle|
+baghali-polo|8|sel|sel|
+baghali-polo|9|poivre noir|poivre-noir|
+chelow-kabab-koobideh|0|agneau haché|agneau-hache|
+chelow-kabab-koobideh|1|oignon|oignon|
+chelow-kabab-koobideh|2|curcuma|curcuma|
+chelow-kabab-koobideh|3|riz basmati|riz-basmati|
+chelow-kabab-koobideh|4|safran|safran|
+chelow-kabab-koobideh|5|beurre|beurre|
+chelow-kabab-koobideh|6|tomate|tomate|
+chelow-kabab-koobideh|7|sumac|sumac|
+chelow-kabab-koobideh|8|sel|sel|
+chelow-kabab-koobideh|9|poivre noir|poivre-noir|
+doogh|0|yaourt|yaourt|
+doogh|1|eau|eau|
+doogh|2|menthe séchée|menthe-sechee|
+doogh|3|sel|sel|
+doogh|4|eau de rose|eau-de-rose|
+faloodeh|0|nouilles de riz|nouilles-de-riz|
+faloodeh|1|sucre|sucre|
+faloodeh|2|eau|eau|
+faloodeh|3|eau de rose|eau-de-rose|
+faloodeh|4|citron vert|citron-vert|
+faloodeh|5|sirop de datte|sirop-de-datte|
+fesenjan|0|canard|canard|
+fesenjan|1|noix|noix|
+fesenjan|2|mélasse de grenade|melasse-de-grenade|
+fesenjan|3|oignon|oignon|
+fesenjan|4|sucre|sucre|
+fesenjan|5|safran|safran|
+fesenjan|6|cannelle|cannelle|
+fesenjan|7|huile neutre|huile-neutre|
+fesenjan|8|grenade|grenade|
+fesenjan|9|sel|sel|
+fesenjan|10|poivre noir|poivre-noir|
+gheimeh|0|épaule d'agneau|epaule-d-agneau|
+gheimeh|1|pois cassé|pois-casse|
+gheimeh|2|oignon|oignon|
+gheimeh|3|concentré de tomate|concentre-de-tomate|
+gheimeh|4|citron séché d'Oman|citron-seche-d-oman|
+gheimeh|5|curcuma|curcuma|
+gheimeh|6|cannelle|cannelle|
+gheimeh|7|safran|safran|
+gheimeh|8|pomme de terre|pomme-de-terre|
+gheimeh|9|huile de tournesol|huile-de-tournesol|
+gheimeh|10|sel|sel|
+gheimeh|11|poivre noir|poivre-noir|
+ghormeh-sabzi|0|épaule d'agneau|epaule-d-agneau|
+ghormeh-sabzi|1|persil plat|persil-plat|
+ghormeh-sabzi|2|coriandre fraîche|coriandre-fraiche|
+ghormeh-sabzi|3|oignon nouveau|oignon-nouveau|
+ghormeh-sabzi|4|feuille de fenugrec|feuille-de-fenugrec|
+ghormeh-sabzi|5|haricot rouge|haricot-rouge|
+ghormeh-sabzi|6|citron séché d'Oman|citron-seche-d-oman|
+ghormeh-sabzi|7|oignon|oignon|
+ghormeh-sabzi|8|curcuma|curcuma|
+ghormeh-sabzi|9|huile neutre|huile-neutre|
+ghormeh-sabzi|10|sel|sel|
+ghormeh-sabzi|11|poivre noir|poivre-noir|
+kashk-e-bademjan|0|aubergine|aubergine|
+kashk-e-bademjan|1|kashk|kashk|
+kashk-e-bademjan|2|oignon|oignon|
+kashk-e-bademjan|3|ail|ail|
+kashk-e-bademjan|4|menthe séchée|menthe-sechee|
+kashk-e-bademjan|5|safran|safran|
+kashk-e-bademjan|6|noix|noix|
+kashk-e-bademjan|7|huile neutre|huile-neutre|
+kashk-e-bademjan|8|sel|sel|
+kashk-e-bademjan|9|poivre noir|poivre-noir|
+khoresht-bademjan|0|épaule d'agneau|epaule-d-agneau|
+khoresht-bademjan|1|aubergine|aubergine|
+khoresht-bademjan|2|oignon|oignon|
+khoresht-bademjan|3|tomate|tomate|
+khoresht-bademjan|4|concentré de tomate|concentre-de-tomate|
+khoresht-bademjan|5|citron séché d'Oman|citron-seche-d-oman|
+khoresht-bademjan|6|curcuma|curcuma|
+khoresht-bademjan|7|safran|safran|
+khoresht-bademjan|8|vinaigre de vin|vinaigre-de-vin|
+khoresht-bademjan|9|huile de tournesol|huile-de-tournesol|
+khoresht-bademjan|10|sel|sel|
+khoresht-bademjan|11|poivre noir|poivre-noir|
+kuku-sabzi|0|oeuf|oeuf|
+kuku-sabzi|1|persil plat|persil-plat|
+kuku-sabzi|2|coriandre fraîche|coriandre-fraiche|
+kuku-sabzi|3|aneth|aneth|
+kuku-sabzi|4|oignon nouveau|oignon-nouveau|
+kuku-sabzi|5|zereshk|zereshk|
+kuku-sabzi|6|noix|noix|
+kuku-sabzi|7|levure chimique|levure-chimique|
+kuku-sabzi|8|safran|safran|
+kuku-sabzi|9|huile neutre|huile-neutre|
+kuku-sabzi|10|sel|sel|
+kuku-sabzi|11|poivre noir|poivre-noir|
+mast-o-khiar|0|yaourt grec|yaourt-grec|
+mast-o-khiar|1|concombre|concombre|
+mast-o-khiar|2|noix|noix|
+mast-o-khiar|3|raisin sec|raisin-sec|
+mast-o-khiar|4|menthe séchée|menthe-sechee|
+mast-o-khiar|5|aneth|aneth|
+mast-o-khiar|6|eau de rose|eau-de-rose|
+mast-o-khiar|7|sel|sel|
+mast-o-khiar|8|poivre noir|poivre-noir|
+mirza-ghasemi|0|aubergine|aubergine|
+mirza-ghasemi|1|ail|ail|
+mirza-ghasemi|2|tomate|tomate|
+mirza-ghasemi|3|oeuf|oeuf|
+mirza-ghasemi|4|curcuma|curcuma|
+mirza-ghasemi|5|huile neutre|huile-neutre|
+mirza-ghasemi|6|sel|sel|
+mirza-ghasemi|7|poivre noir|poivre-noir|
+nan-e-barbari|0|farine de blé|farine-de-ble|
+nan-e-barbari|1|levure boulangère|levure-boulangere|
+nan-e-barbari|2|sel|sel|
+nan-e-barbari|3|sucre|sucre|
+nan-e-barbari|4|eau|eau|
+nan-e-barbari|5|huile neutre|huile-neutre|
+nan-e-barbari|6|farine de blé|farine-de-ble|
+nan-e-barbari|7|eau|eau|
+nan-e-barbari|8|bicarbonate|bicarbonate|
+nan-e-barbari|9|sésame|sesame|
+nan-e-barbari|10|graine de nigelle|graine-de-nigelle|
+salad-shirazi|0|concombre|concombre|
+salad-shirazi|1|tomate|tomate|
+salad-shirazi|2|oignon rouge|oignon-rouge|
+salad-shirazi|3|menthe fraîche|menthe-fraiche|
+salad-shirazi|4|citron vert|citron-vert|
+salad-shirazi|5|menthe séchée|menthe-sechee|
+salad-shirazi|6|huile d'olive|huile-d-olive|
+salad-shirazi|7|sel|sel|
+salad-shirazi|8|poivre noir|poivre-noir|
+sholeh-zard|0|riz rond|riz-rond|
+sholeh-zard|1|sucre|sucre|
+sholeh-zard|2|safran|safran|
+sholeh-zard|3|eau de rose|eau-de-rose|
+sholeh-zard|4|beurre|beurre|
+sholeh-zard|5|amande effilée|amande-effilee|
+sholeh-zard|6|pistache|pistache|
+sholeh-zard|7|cannelle|cannelle|
+sholeh-zard|8|eau|eau|
+tahchin|0|riz basmati|riz-basmati|
+tahchin|1|blanc de poulet|blanc-de-poulet|
+tahchin|2|yaourt grec|yaourt-grec|
+tahchin|3|oeuf|oeuf|
+tahchin|4|safran|safran|
+tahchin|5|beurre|beurre|
+tahchin|6|oignon|oignon|
+tahchin|7|zereshk|zereshk|
+tahchin|8|pistache|pistache|
+tahchin|9|sel|sel|
+tahchin|10|poivre noir|poivre-noir|
+zereshk-polo|0|riz basmati|riz-basmati|
+zereshk-polo|1|poulet entier|poulet-entier|
+zereshk-polo|2|zereshk|zereshk|
+zereshk-polo|3|oignon|oignon|
+zereshk-polo|4|safran|safran|
+zereshk-polo|5|beurre|beurre|
+zereshk-polo|6|sucre|sucre|
+zereshk-polo|7|curcuma|curcuma|
+zereshk-polo|8|pistache|pistache|
+zereshk-polo|9|sel|sel|
+zereshk-polo|10|poivre noir|poivre-noir|
+adana-kebab|0|agneau haché|agneau-hache|
+adana-kebab|1|piment d'Alep|piment-d-alep|
+adana-kebab|2|poivron rouge|poivron-rouge|
+adana-kebab|3|persil plat|persil-plat|
+adana-kebab|4|oignon|oignon|
+adana-kebab|5|cumin|cumin|
+adana-kebab|6|oignon|oignon|
+adana-kebab|7|sumac|sumac|
+adana-kebab|8|pain pita|pain-pita|
+adana-kebab|9|sel|sel|
+adana-kebab|10|poivre noir|poivre-noir|
+baklava-pistache|0|pâte filo|pate-filo|
+baklava-pistache|1|pistache|pistache|
+baklava-pistache|2|ghee|ghee|
+baklava-pistache|3|sucre|sucre|
+baklava-pistache|4|eau|eau|
+baklava-pistache|5|citron|citron|
+bulgur-pilavi|0|boulgour gros|boulgour-gros|
+bulgur-pilavi|1|oignon|oignon|
+bulgur-pilavi|2|poivron vert|poivron-vert|
+bulgur-pilavi|3|tomate|tomate|
+bulgur-pilavi|4|concentré de poivron|concentre-de-poivron|
+bulgur-pilavi|5|beurre|beurre|
+bulgur-pilavi|6|bouillon volaille|bouillon-volaille|
+bulgur-pilavi|7|piment d'Alep|piment-d-alep|
+bulgur-pilavi|8|sel|sel|
+cacik|0|yaourt|yaourt|
+cacik|1|concombre|concombre|
+cacik|2|ail|ail|
+cacik|3|menthe séchée|menthe-sechee|
+cacik|4|aneth|aneth|
+cacik|5|eau|eau|
+cacik|6|huile d'olive|huile-d-olive|
+cacik|7|sel|sel|
+hunkar-begendi|0|épaule d'agneau|epaule-d-agneau|
+hunkar-begendi|1|oignon|oignon|
+hunkar-begendi|2|tomate|tomate|
+hunkar-begendi|3|concentré de tomate|concentre-de-tomate|
+hunkar-begendi|4|aubergine|aubergine|
+hunkar-begendi|5|beurre|beurre|
+hunkar-begendi|6|farine de blé|farine-de-ble|
+hunkar-begendi|7|lait|lait|
+hunkar-begendi|8|kasar|kasar|
+hunkar-begendi|9|citron|citron|
+hunkar-begendi|10|muscade|muscade|
+hunkar-begendi|11|huile d'olive|huile-d-olive|
+hunkar-begendi|12|sel|sel|
+hunkar-begendi|13|poivre noir|poivre-noir|
+imam-bayildi|0|aubergine|aubergine|
+imam-bayildi|1|oignon|oignon|
+imam-bayildi|2|ail|ail|
+imam-bayildi|3|tomate|tomate|
+imam-bayildi|4|persil plat|persil-plat|
+imam-bayildi|5|huile d'olive|huile-d-olive|
+imam-bayildi|6|sucre|sucre|
+imam-bayildi|7|citron|citron|
+imam-bayildi|8|sel|sel|
+iskender-kebab|0|gigot d'agneau|gigot-d-agneau|
+iskender-kebab|1|pain pita|pain-pita|
+iskender-kebab|2|tomate concassée|tomate-concassee|re-annotee : le referentiel a gagne l entree precise
+iskender-kebab|3|concentré de poivron|concentre-de-poivron|
+iskender-kebab|4|beurre|beurre|
+iskender-kebab|5|yaourt|yaourt|
+iskender-kebab|6|poivron vert|poivron-vert|
+iskender-kebab|7|origan séché|origan-seche|
+iskender-kebab|8|piment d'Alep|piment-d-alep|
+iskender-kebab|9|huile d'olive|huile-d-olive|
+iskender-kebab|10|sel|sel|
+iskender-kebab|11|poivre noir|poivre-noir|
+izgara-kofte|0|boeuf haché|boeuf-hache|
+izgara-kofte|1|oignon|oignon|
+izgara-kofte|2|pain de mie|pain-de-mie|
+izgara-kofte|3|oeuf|oeuf|
+izgara-kofte|4|cumin|cumin|
+izgara-kofte|5|origan séché|origan-seche|
+izgara-kofte|6|piment d'Alep|piment-d-alep|
+izgara-kofte|7|ail|ail|
+izgara-kofte|8|sel|sel|
+izgara-kofte|9|poivre noir|poivre-noir|
+karniyarik|0|aubergine|aubergine|
+karniyarik|1|boeuf haché|boeuf-hache|
+karniyarik|2|oignon|oignon|
+karniyarik|3|tomate|tomate|
+karniyarik|4|ail|ail|
+karniyarik|5|persil plat|persil-plat|
+karniyarik|6|poivron vert|poivron-vert|
+karniyarik|7|concentré de tomate|concentre-de-tomate|
+karniyarik|8|eau|eau|
+karniyarik|9|huile de tournesol|huile-de-tournesol|
+karniyarik|10|sel|sel|
+karniyarik|11|poivre noir|poivre-noir|
+kisir|0|boulgour fin|boulgour-fin|
+kisir|1|concentré de poivron|concentre-de-poivron|
+kisir|2|concentré de tomate|concentre-de-tomate|
+kisir|3|persil plat|persil-plat|
+kisir|4|oignon nouveau|oignon-nouveau|
+kisir|5|concombre|concombre|
+kisir|6|mélasse de grenade|melasse-de-grenade|
+kisir|7|citron|citron|
+kisir|8|huile d'olive|huile-d-olive|
+kisir|9|piment d'Alep|piment-d-alep|
+kisir|10|menthe séchée|menthe-sechee|
+kisir|11|sel|sel|
+lahmacun|0|farine de blé|farine-de-ble|
+lahmacun|1|levure boulangère|levure-boulangere|
+lahmacun|2|sel|sel|
+lahmacun|3|eau|eau|
+lahmacun|4|huile d'olive|huile-d-olive|
+lahmacun|5|agneau haché|agneau-hache|
+lahmacun|6|tomate|tomate|
+lahmacun|7|poivron rouge|poivron-rouge|
+lahmacun|8|oignon|oignon|
+lahmacun|9|persil plat|persil-plat|
+lahmacun|10|concentré de poivron|concentre-de-poivron|
+lahmacun|11|piment d'Alep|piment-d-alep|
+lahmacun|12|citron|citron|
+lahmacun|13|sel|sel|
+lokum|0|sucre|sucre|
+lokum|1|maïzena|maizena|
+lokum|2|eau|eau|
+lokum|3|citron|citron|
+lokum|4|eau de rose|eau-de-rose|
+lokum|5|pistache|pistache|
+lokum|6|sucre glace|sucre-glace|
+lokum|7|maïzena|maizena|
+manti|0|farine de blé|farine-de-ble|
+manti|1|oeuf|oeuf|
+manti|2|sel|sel|
+manti|3|eau|eau|
+manti|4|agneau haché|agneau-hache|
+manti|5|oignon|oignon|
+manti|6|persil plat|persil-plat|
+manti|7|yaourt|yaourt|
+manti|8|ail|ail|
+manti|9|beurre|beurre|
+manti|10|piment d'Alep|piment-d-alep|
+manti|11|menthe séchée|menthe-sechee|
+manti|12|concentré de tomate|concentre-de-tomate|
+manti|13|sel|sel|
+manti|14|poivre noir|poivre-noir|
+menemen|0|oeuf|oeuf|
+menemen|1|tomate|tomate|
+menemen|2|poivron vert|poivron-vert|
+menemen|3|oignon|oignon|
+menemen|4|piment d'Alep|piment-d-alep|
+menemen|5|beurre|beurre|
+menemen|6|huile d'olive|huile-d-olive|
+menemen|7|sel|sel|
+menemen|8|poivre noir|poivre-noir|
+mercimek-corbasi|0|lentille corail|lentille-corail|
+mercimek-corbasi|1|oignon|oignon|
+mercimek-corbasi|2|carotte|carotte|
+mercimek-corbasi|3|pomme de terre|pomme-de-terre|
+mercimek-corbasi|4|concentré de poivron|concentre-de-poivron|
+mercimek-corbasi|5|cumin|cumin|
+mercimek-corbasi|6|beurre|beurre|
+mercimek-corbasi|7|piment d'Alep|piment-d-alep|
+mercimek-corbasi|8|menthe séchée|menthe-sechee|
+mercimek-corbasi|9|citron|citron|
+mercimek-corbasi|10|huile d'olive|huile-d-olive|
+mercimek-corbasi|11|sel|sel|
+pide-fromage|0|farine de blé|farine-de-ble|
+pide-fromage|1|levure boulangère|levure-boulangere|
+pide-fromage|2|sel|sel|
+pide-fromage|3|sucre|sucre|
+pide-fromage|4|eau|eau|
+pide-fromage|5|huile d'olive|huile-d-olive|
+pide-fromage|6|kasar|kasar|
+pide-fromage|7|mozzarella|mozzarella|
+pide-fromage|8|oeuf|oeuf|
+pide-fromage|9|beurre|beurre|
+pide-fromage|10|piment d'Alep|piment-d-alep|
+simit|0|farine de blé|farine-de-ble|
+simit|1|levure boulangère|levure-boulangere|
+simit|2|sel|sel|
+simit|3|sucre|sucre|
+simit|4|eau|eau|
+simit|5|huile d'olive|huile-d-olive|
+simit|6|sésame|sesame|
+simit|7|mélasse|melasse|
+simit|8|eau|eau|
+su-boregi|0|pâte filo|pate-filo|
+su-boregi|1|feta|feta|
+su-boregi|2|persil plat|persil-plat|
+su-boregi|3|beurre|beurre|
+su-boregi|4|huile de tournesol|huile-de-tournesol|
+su-boregi|5|oeuf|oeuf|
+su-boregi|6|lait|lait|
+su-boregi|7|sel|sel|
+turk-kahvesi|0|café|cafe|
+turk-kahvesi|1|eau|eau|
+turk-kahvesi|2|sucre|sucre|
+turk-kahvesi|3|cardamome|cardamome|
+zeytinyagli-fasulye|0|haricot vert|haricot-vert|
+zeytinyagli-fasulye|1|oignon|oignon|
+zeytinyagli-fasulye|2|tomate|tomate|
+zeytinyagli-fasulye|3|ail|ail|
+zeytinyagli-fasulye|4|huile d'olive|huile-d-olive|
+zeytinyagli-fasulye|5|sucre|sucre|
+zeytinyagli-fasulye|6|citron|citron|
+zeytinyagli-fasulye|7|sel|sel|
+areeka|0|khobz|khobz|
+areeka|1|datte|datte|
+areeka|2|ghee|ghee|
+areeka|3|miel|miel|
+areeka|4|cardamome|cardamome|
+areeka|5|amande effilée|amande-effilee|
+areeka|6|crème liquide|creme-liquide|
+debyazah|0|abricot sec|abricot-sec|
+debyazah|1|sucre|sucre|
+debyazah|2|raisin sec|raisin-sec|
+debyazah|3|amande|amande|
+debyazah|4|pistache|pistache|
+debyazah|5|noix de cajou|noix-de-cajou|
+debyazah|6|cardamome|cardamome|
+debyazah|7|safran|safran|
+debyazah|8|eau de rose|eau-de-rose|
+debyazah|9|ghee|ghee|
+gahwa|0|café|cafe|
+gahwa|1|cardamome|cardamome|
+gahwa|2|safran|safran|
+gahwa|3|clou de girofle|clou-de-girofle|
+gahwa|4|gingembre moulu|gingembre-moulu|
+gahwa|5|eau|eau|
+gahwa|6|datte|datte|
+harees|0|blé tendre|ble-tendre|
+harees|1|épaule d'agneau|epaule-d-agneau|
+harees|2|cannelle|cannelle|
+harees|3|cardamome|cardamome|
+harees|4|ghee|ghee|
+harees|5|cannelle|cannelle|
+harees|6|sel|sel|
+jareesh|0|jareesh|jareesh|
+jareesh|1|épaule d'agneau|epaule-d-agneau|
+jareesh|2|lait caillé|lait-caille|
+jareesh|3|oignon|oignon|
+jareesh|4|baharat|baharat|
+jareesh|5|cardamome|cardamome|
+jareesh|6|citron séché d'Oman|citron-seche-d-oman|
+jareesh|7|ghee|ghee|
+jareesh|8|menthe séchée|menthe-sechee|
+jareesh|9|sel|sel|
+kabsa|0|poulet entier|poulet-entier|
+kabsa|1|riz basmati|riz-basmati|
+kabsa|2|oignon|oignon|
+kabsa|3|tomate|tomate|
+kabsa|4|concentré de tomate|concentre-de-tomate|
+kabsa|5|citron séché d'Oman|citron-seche-d-oman|
+kabsa|6|baharat|baharat|
+kabsa|7|cannelle|cannelle|
+kabsa|8|cardamome|cardamome|
+kabsa|9|clou de girofle|clou-de-girofle|
+kabsa|10|carotte|carotte|
+kabsa|11|ghee|ghee|
+kabsa|12|amande effilée|amande-effilee|
+kabsa|13|raisin sec|raisin-sec|
+kabsa|14|sel|sel|
+khubz-arabi|0|farine de blé|farine-de-ble|
+khubz-arabi|1|levure boulangère|levure-boulangere|
+khubz-arabi|2|sel|sel|
+khubz-arabi|3|sucre|sucre|
+khubz-arabi|4|eau|eau|
+khubz-arabi|5|huile d'olive|huile-d-olive|
+kleeja|0|farine de blé|farine-de-ble|
+kleeja|1|ghee|ghee|
+kleeja|2|sucre|sucre|
+kleeja|3|levure boulangère|levure-boulangere|
+kleeja|4|lait|lait|
+kleeja|5|datte|datte|
+kleeja|6|cardamome|cardamome|
+kleeja|7|cannelle|cannelle|
+kleeja|8|gingembre moulu|gingembre-moulu|
+kleeja|9|safran|safran|
+kleeja|10|sel|sel|
+laban-saoudien|0|lait caillé|lait-caille|
+laban-saoudien|1|eau|eau|
+laban-saoudien|2|sel|sel|
+laban-saoudien|3|menthe séchée|menthe-sechee|
+luqaimat|0|farine de blé|farine-de-ble|
+luqaimat|1|maïzena|maizena|
+luqaimat|2|levure boulangère|levure-boulangere|
+luqaimat|3|sucre|sucre|
+luqaimat|4|cardamome|cardamome|
+luqaimat|5|safran|safran|
+luqaimat|6|eau|eau|
+luqaimat|7|sirop de datte|sirop-de-datte|
+luqaimat|8|sésame|sesame|
+luqaimat|9|huile de tournesol|huile-de-tournesol|
+luqaimat|10|sel|sel|
+madfoon|0|gigot d'agneau|gigot-d-agneau|
+madfoon|1|riz basmati|riz-basmati|
+madfoon|2|oignon|oignon|
+madfoon|3|baharat|baharat|
+madfoon|4|cardamome|cardamome|
+madfoon|5|citron séché d'Oman|citron-seche-d-oman|
+madfoon|6|curcuma|curcuma|
+madfoon|7|ghee|ghee|
+madfoon|8|amande effilée|amande-effilee|
+madfoon|9|sel|sel|
+madfoon|10|poivre noir|poivre-noir|
+mandi|0|épaule d'agneau|epaule-d-agneau|
+mandi|1|riz basmati|riz-basmati|
+mandi|2|baharat|baharat|
+mandi|3|curcuma|curcuma|
+mandi|4|safran|safran|
+mandi|5|cardamome|cardamome|
+mandi|6|cannelle|cannelle|
+mandi|7|citron séché d'Oman|citron-seche-d-oman|
+mandi|8|oignon|oignon|
+mandi|9|ghee|ghee|
+mandi|10|sel|sel|
+mandi|11|poivre noir|poivre-noir|
+margoog|0|farine de blé|farine-de-ble|
+margoog|1|sel|sel|
+margoog|2|huile neutre|huile-neutre|
+margoog|3|épaule d'agneau|epaule-d-agneau|
+margoog|4|courgette|courgette|
+margoog|5|carotte|carotte|
+margoog|6|potiron|potiron|
+margoog|7|pomme de terre|pomme-de-terre|
+margoog|8|concentré de tomate|concentre-de-tomate|
+margoog|9|baharat|baharat|
+margoog|10|citron séché d'Oman|citron-seche-d-oman|
+margoog|11|ghee|ghee|
+margoog|12|sel|sel|
+masoub|0|khobz|khobz|
+masoub|1|banane|banane|
+masoub|2|crème liquide|creme-liquide|
+masoub|3|miel|miel|
+masoub|4|ghee|ghee|
+masoub|5|pistache|pistache|
+masoub|6|amande effilée|amande-effilee|
+masoub|7|coco râpé|coco-rape|
+mutabbaq|0|farine de blé|farine-de-ble|
+mutabbaq|1|sel|sel|
+mutabbaq|2|huile neutre|huile-neutre|
+mutabbaq|3|agneau haché|agneau-hache|
+mutabbaq|4|oignon nouveau|oignon-nouveau|
+mutabbaq|5|poireau|poireau|
+mutabbaq|6|oeuf|oeuf|
+mutabbaq|7|baharat|baharat|
+mutabbaq|8|curcuma|curcuma|
+mutabbaq|9|ghee|ghee|
+mutabbaq|10|sel|sel|
+mutabbaq|11|poivre noir|poivre-noir|
+qursan|0|farine complète|farine-complete|
+qursan|1|sel|sel|
+qursan|2|épaule d'agneau|epaule-d-agneau|
+qursan|3|oignon|oignon|
+qursan|4|concentré de tomate|concentre-de-tomate|
+qursan|5|courgette|courgette|
+qursan|6|carotte|carotte|
+qursan|7|baharat|baharat|
+qursan|8|citron séché d'Oman|citron-seche-d-oman|
+qursan|9|ghee|ghee|
+qursan|10|sel|sel|
+saleeg|0|riz rond|riz-rond|
+saleeg|1|poulet entier|poulet-entier|
+saleeg|2|lait entier|lait-entier|
+saleeg|3|oignon|oignon|
+saleeg|4|cardamome|cardamome|
+saleeg|5|cannelle|cannelle|
+saleeg|6|laurier|laurier|
+saleeg|7|gomme arabique|gomme-arabique|
+saleeg|8|ghee|ghee|
+saleeg|9|sel|sel|
+saleeg|10|poivre blanc|poivre-blanc|
+samboosa|0|feuille de brick|feuille-de-brick|
+samboosa|1|agneau haché|agneau-hache|
+samboosa|2|oignon|oignon|
+samboosa|3|baharat|baharat|
+samboosa|4|curcuma|curcuma|
+samboosa|5|coriandre fraîche|coriandre-fraiche|
+samboosa|6|piment frais|piment-frais|
+samboosa|7|farine de blé|farine-de-ble|
+samboosa|8|huile de tournesol|huile-de-tournesol|
+samboosa|9|sel|sel|
+samboosa|10|poivre noir|poivre-noir|
+shorbat-hab|0|jareesh|jareesh|
+shorbat-hab|1|épaule d'agneau|epaule-d-agneau|
+shorbat-hab|2|oignon|oignon|
+shorbat-hab|3|tomate|tomate|
+shorbat-hab|4|concentré de tomate|concentre-de-tomate|
+shorbat-hab|5|baharat|baharat|
+shorbat-hab|6|citron séché d'Oman|citron-seche-d-oman|
+shorbat-hab|7|carotte|carotte|
+shorbat-hab|8|ghee|ghee|
+shorbat-hab|9|coriandre fraîche|coriandre-fraiche|
+shorbat-hab|10|citron|citron|
+shorbat-hab|11|sel|sel|
+tharid|0|khobz|khobz|
+tharid|1|épaule d'agneau|epaule-d-agneau|
+tharid|2|oignon|oignon|
+tharid|3|concentré de tomate|concentre-de-tomate|
+tharid|4|courgette|courgette|
+tharid|5|carotte|carotte|
+tharid|6|aubergine|aubergine|
+tharid|7|baharat|baharat|
+tharid|8|citron séché d'Oman|citron-seche-d-oman|
+tharid|9|ghee|ghee|
+tharid|10|sel|sel|

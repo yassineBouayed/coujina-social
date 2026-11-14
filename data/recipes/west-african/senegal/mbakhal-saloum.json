@@ -1,0 +1,38 @@
+{
+  "slug": "mbakhal-saloum",
+  "cuisine": "west-african",
+  "country": "senegal",
+  "origin": "Sénégal",
+  "native_name": "Mbaxal Saloum",
+  "title": {
+    "fr": "Mbakhal du Saloum, riz au niébé et à l'arachide",
+    "en": "Saloum mbakhal, rice with cowpeas and groundnut"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 80 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["saloum", "niebe", "arachide", "poisson-sec"],
+  "ingredients": [
+    { "raw": "500 g de riz brisé", "qty": 500, "unit": "g", "item": "riz brisé" },
+    { "raw": "250 g de niébé, trempé la veille", "qty": 250, "unit": "g", "item": "niébé", "prep": "trempé la veille" },
+    { "raw": "200 g de pâte d'arachide", "qty": 200, "unit": "g", "item": "pâte d'arachide" },
+    { "raw": "150 g de guedj", "qty": 150, "unit": "g", "item": "guedj" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "200 g de gombos, en rondelles", "qty": 200, "unit": "g", "item": "gombo", "prep": "en rondelles" },
+    { "raw": "1 piment oiseau", "qty": 1, "unit": "piece", "item": "piment oiseau" },
+    { "raw": "1 cube de bouillon", "qty": 1, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "6 c. à s. d'huile d'arachide", "qty": 6, "unit": "tbsp", "item": "huile d'arachide" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire le niébé trempé quarante minutes à l'eau non salée, jusqu'à ce qu'il soit tendre sans éclater.", "en": "Cook the soaked cowpeas for forty minutes in unsalted water, until tender without bursting." },
+    { "fr": "Faire revenir l'oignon dans l'huile, ajouter le guedj rincé et le laisser parfumer le fond.", "en": "Soften the onion in the oil, add the rinsed dried fish and let it perfume the base." },
+    { "fr": "Délayer la pâte d'arachide à l'eau chaude et la verser, avec le cube et le piment entier.", "en": "Slake the groundnut paste in hot water and pour it in, with the stock cube and whole chilli." },
+    { "fr": "Ajouter les gombos et laisser cuire vingt minutes : la sauce doit devenir filante.", "en": "Add the okra and cook for twenty minutes: the sauce should turn ropy." },
+    { "fr": "Verser le riz et le niébé, mélanger une fois, couvrir et laisser absorber vingt minutes.", "en": "Add the rice and cowpeas, stir once, cover and let it absorb for twenty minutes." },
+    { "fr": "Ne plus toucher au riz pendant l'absorption : remué, il se casse et devient collant.", "en": "Do not touch the rice while it absorbs: stirred, it breaks and turns sticky." }
+  ]
+}

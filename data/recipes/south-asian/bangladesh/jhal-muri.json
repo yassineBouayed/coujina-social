@@ -1,0 +1,40 @@
+{
+  "slug": "jhal-muri",
+  "cuisine": "south-asian",
+  "country": "bangladesh",
+  "origin": "Bangladesh",
+  "native_name": "Jhal muri",
+  "title": {
+    "fr": "Jhal muri, riz soufflé épicé à l'huile de moutarde",
+    "en": "Jhal muri, spicy puffed rice with mustard oil"
+  },
+  "meal_type": "starter",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "rapide", "sans-cuisson", "gouter"],
+  "ingredients": [
+    { "raw": "200 g de riz soufflé", "qty": 200, "unit": "g", "item": "riz soufflé" },
+    { "raw": "1 oignon, haché très finement", "qty": 1, "unit": "piece", "item": "oignon", "prep": "haché très finement" },
+    { "raw": "2 tomates, en petits dés", "qty": 2, "unit": "piece", "item": "tomate", "prep": "en petits dés" },
+    { "raw": "1 pomme de terre, cuite et en dés", "qty": 1, "unit": "piece", "item": "pomme de terre", "prep": "cuite et en dés" },
+    { "raw": "100 g de pois chiches en conserve, égouttés", "qty": 100, "unit": "g", "item": "pois chiche en conserve", "prep": "égoutté" },
+    { "raw": "4 piments verts, hachés", "qty": 4, "unit": "piece", "item": "piment frais", "prep": "haché" },
+    { "raw": "4 c. à s. d'huile de moutarde", "qty": 4, "unit": "tbsp", "item": "huile de moutarde" },
+    { "raw": "1 c. à s. de chaat masala", "qty": 1, "unit": "tbsp", "item": "chaat masala" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "50 g d'arachides grillées", "qty": 50, "unit": "g", "item": "arachide grillée" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le jhal muri se mélange et se mange DANS LA MINUTE : le riz soufflé ramollit très vite.", "en": "Jhal muri is mixed and eaten WITHIN THE MINUTE: puffed rice goes soft very fast." },
+    { "fr": "Préparer tous les éléments à l'avance, séparément, et ne rien mélanger avant de servir.", "en": "Prepare everything in advance, separately, and mix nothing until serving." },
+    { "fr": "Vérifier que le riz soufflé est bien sec ; sinon, le passer deux minutes au four.", "en": "Check that the puffed rice is properly dry; if not, give it two minutes in the oven." },
+    { "fr": "Tout jeter dans un grand saladier et mélanger vigoureusement à la main, dix secondes.", "en": "Tip everything into a large bowl and toss vigorously by hand, for ten seconds." },
+    { "fr": "L'huile de moutarde crue est ce qui fait le jhal muri : une huile neutre le rend fade.", "en": "Raw mustard oil is what makes jhal muri: a neutral oil leaves it bland." },
+    { "fr": "Servir en cornet de papier, à manger debout.", "en": "Serve in a paper cone, to eat standing up." }
+  ]
+}

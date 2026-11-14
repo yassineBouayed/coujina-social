@@ -1,0 +1,600 @@
+# Verite du catalogue, cuisine ouest-africaine (J5).
+#
+# Pour chaque ligne d ingredient, celui du referentiel qu un relecteur choisit,
+# ou `-` quand le referentiel n a rien a offrir. Sans ce fichier, la mesure sait
+# dire qu une ligne s est rattachee, pas qu elle s est BIEN rattachee.
+#
+# Produit en brouillon par `npm run catalog:attach -- --brouillon west-african`,
+# puis repris libelle distinct par libelle distinct : 67 libelles pour 198 lignes.
+# La relecture est une passe MODELE, pas humaine, comme celle de la sonde J2 —
+# et ici la circularite est plus forte encore : les recettes ont ete ecrites AVEC
+# le referentiel sous les yeux. Le taux de rattachement du champ `item` ne
+# mesure donc presque rien sur cette cuisine. Ce qui mesure quelque chose, c est
+# le temoin `raw` — `npm run catalog:gate` donne les deux, et docs/j5-catalogue.md
+# en tire les consequences.
+#
+# Deux ingredients ont ete AJOUTES au referentiel par ce lot, et les lignes
+# concernees pointent desormais vers eux : `egusi` et `feuille-de-ndole`.
+# C est le retour du catalogue vers le referentiel, et il est cense se produire.
+recipe|line|item|expected_slug|note
+akara|0|niébé|niebe|
+akara|1|oignon|oignon|
+akara|2|habanero|habanero|piment antillais = scotch bonnet ici ; la variante est plus juste que le canonique piment-frais
+akara|3|bouillon cube|bouillon-cube|
+akara|4|huile neutre|huile-neutre|
+akara|5|sel|sel|
+alloco|0|banane plantain|banane-plantain|
+alloco|1|huile neutre|huile-neutre|
+alloco|2|oignon|oignon|
+alloco|3|tomate|tomate|
+alloco|4|habanero|habanero|
+alloco|5|huile neutre|huile-neutre|
+alloco|6|bouillon cube|bouillon-cube|
+alloco|7|sel|sel|
+attieke-poisson-braise|0|dorade|dorade|
+attieke-poisson-braise|1|ail|ail|
+attieke-poisson-braise|2|gingembre|gingembre|
+attieke-poisson-braise|3|bouillon cube|bouillon-cube|
+attieke-poisson-braise|4|citron|citron|
+attieke-poisson-braise|5|huile neutre|huile-neutre|
+attieke-poisson-braise|6|attiéké|attieke|
+attieke-poisson-braise|7|oignon|oignon|
+attieke-poisson-braise|8|tomate|tomate|
+attieke-poisson-braise|9|habanero|habanero|
+attieke-poisson-braise|10|vinaigre blanc|vinaigre-blanc|
+attieke-poisson-braise|11|huile neutre|huile-neutre|
+attieke-poisson-braise|12|citron vert|citron-vert|
+attieke-poisson-braise|13|sel|sel|
+bissap|0|hibiscus séché|hibiscus-seche|
+bissap|1|eau|eau|
+bissap|2|sucre|sucre|
+bissap|3|menthe fraîche|menthe-fraiche|
+bissap|4|vanille|vanille|
+bissap|5|eau de fleur d'oranger|eau-de-fleur-d-oranger|
+bissap|6|gingembre|gingembre|
+egusi|0|egusi|egusi|ajoute au referentiel par ce lot : variante de graine-de-courge
+egusi|1|bœuf à mijoter|boeuf-a-mijoter|
+egusi|2|poisson fumé|poisson-fume|
+egusi|3|crevette séchée|crevette-sechee|
+egusi|4|huile de palme rouge|huile-de-palme-rouge|
+egusi|5|oignon|oignon|
+egusi|6|tomate|tomate|
+egusi|7|habanero|habanero|
+egusi|8|bouillon cube|bouillon-cube|
+egusi|9|néré|nere|
+egusi|10|épinard|epinard|la recette dit epinard et le note : l ugu n existe pas au referentiel
+egusi|11|sel|sel|
+jollof-rice|0|riz long grain|riz-long-grain|
+jollof-rice|1|poivron rouge|poivron-rouge|
+jollof-rice|2|tomate|tomate|
+jollof-rice|3|habanero|habanero|
+jollof-rice|4|oignon|oignon|
+jollof-rice|5|oignon|oignon|
+jollof-rice|6|huile neutre|huile-neutre|
+jollof-rice|7|concentré de tomate|concentre-de-tomate|
+jollof-rice|8|ail|ail|
+jollof-rice|9|gingembre|gingembre|
+jollof-rice|10|poudre de curry|poudre-de-curry|
+jollof-rice|11|thym séché|thym-seche|
+jollof-rice|12|laurier|laurier|
+jollof-rice|13|bouillon cube|bouillon-cube|
+jollof-rice|14|sel|sel|
+kedjenou|0|poulet|poulet|
+kedjenou|1|tomate|tomate|
+kedjenou|2|oignon|oignon|
+kedjenou|3|aubergine|aubergine|
+kedjenou|4|ail|ail|
+kedjenou|5|gingembre|gingembre|
+kedjenou|6|habanero|habanero|
+kedjenou|7|laurier|laurier|
+kedjenou|8|bouillon cube|bouillon-cube|
+kedjenou|9|huile neutre|huile-neutre|
+kedjenou|10|attiéké|attieke|
+kedjenou|11|poivre noir|poivre-noir|
+kedjenou|12|sel|sel|
+mafe|0|bœuf à mijoter|boeuf-a-mijoter|
+mafe|1|oignon|oignon|
+mafe|2|ail|ail|
+mafe|3|huile d'arachide|huile-d-arachide|
+mafe|4|concentré de tomate|concentre-de-tomate|
+mafe|5|pâte d'arachide|pate-d-arachide|
+mafe|6|tomate|tomate|
+mafe|7|bouillon cube|bouillon-cube|
+mafe|8|habanero|habanero|
+mafe|9|carotte|carotte|
+mafe|10|patate douce|patate-douce|
+mafe|11|chou blanc|chou-blanc|
+mafe|12|aubergine|aubergine|
+mafe|13|riz long grain|riz-long-grain|
+mafe|14|poivre noir|poivre-noir|
+mafe|15|sel|sel|
+ndole|0|feuille de ndolé|feuille-de-ndole|ajoute au referentiel par ce lot ; sans lui la recette n avait rien a rattacher
+ndole|1|bœuf à mijoter|boeuf-a-mijoter|
+ndole|2|crevette|crevette|
+ndole|3|poisson fumé|poisson-fume|
+ndole|4|arachide|arachide|
+ndole|5|oignon|oignon|
+ndole|6|ail|ail|
+ndole|7|huile neutre|huile-neutre|
+ndole|8|bouillon cube|bouillon-cube|
+ndole|9|habanero|habanero|
+ndole|10|banane plantain|banane-plantain|
+ndole|11|sel|sel|
+poulet-dg|0|poulet|poulet|
+poulet-dg|1|banane plantain|banane-plantain|
+poulet-dg|2|ail|ail|
+poulet-dg|3|gingembre|gingembre|
+poulet-dg|4|poivre blanc|poivre-blanc|
+poulet-dg|5|bouillon cube|bouillon-cube|
+poulet-dg|6|huile neutre|huile-neutre|
+poulet-dg|7|oignon|oignon|
+poulet-dg|8|carotte|carotte|
+poulet-dg|9|haricot vert|haricot-vert|
+poulet-dg|10|poivron rouge|poivron-rouge|
+poulet-dg|11|poivron vert|poivron-vert|
+poulet-dg|12|tomate|tomate|
+poulet-dg|13|habanero|habanero|
+poulet-dg|14|sel|sel|
+riz-gras|0|bœuf à mijoter|boeuf-a-mijoter|
+riz-gras|1|riz long grain|riz-long-grain|
+riz-gras|2|huile d'arachide|huile-d-arachide|
+riz-gras|3|oignon|oignon|
+riz-gras|4|concentré de tomate|concentre-de-tomate|
+riz-gras|5|tomate|tomate|
+riz-gras|6|ail|ail|
+riz-gras|7|carotte|carotte|
+riz-gras|8|chou blanc|chou-blanc|
+riz-gras|9|aubergine|aubergine|
+riz-gras|10|bouillon cube|bouillon-cube|
+riz-gras|11|piment frais|piment-frais|
+riz-gras|12|laurier|laurier|
+riz-gras|13|poivre noir|poivre-noir|
+riz-gras|14|sel|sel|
+soupe-kandia|0|gombo|gombo|
+soupe-kandia|1|bœuf à mijoter|boeuf-a-mijoter|
+soupe-kandia|2|dorade|dorade|
+soupe-kandia|3|poisson fumé|poisson-fume|
+soupe-kandia|4|crevette séchée|crevette-sechee|
+soupe-kandia|5|huile de palme rouge|huile-de-palme-rouge|
+soupe-kandia|6|oignon|oignon|
+soupe-kandia|7|néré|nere|
+soupe-kandia|8|habanero|habanero|
+soupe-kandia|9|bouillon cube|bouillon-cube|
+soupe-kandia|10|riz brisé|riz-brise|
+soupe-kandia|11|sel|sel|
+suya|0|steak de bœuf|steak-de-boeuf|
+suya|1|arachide grillée|arachide-grillee|
+suya|2|gingembre moulu|gingembre-moulu|
+suya|3|piment en poudre|piment-en-poudre|
+suya|4|ail en poudre|ail-en-poudre|
+suya|5|paprika|paprika|
+suya|6|bouillon cube|bouillon-cube|
+suya|7|huile d'arachide|huile-d-arachide|
+suya|8|oignon rouge|oignon-rouge|
+suya|9|tomate|tomate|
+suya|10|sel|sel|
+thiakry|0|petit mil|petit-mil|le mil en semoule ; petit-mil est le canonique le plus proche
+thiakry|1|yaourt|yaourt|le plat veut du lait caille, absent du referentiel. On achete du yaourt : c est ce qui remplit le panier, et la reserve est au registre de relecture
+thiakry|2|lait|lait|
+thiakry|3|lait concentré sucré|lait-concentre-sucre|
+thiakry|4|sucre|sucre|
+thiakry|5|vanille|vanille|
+thiakry|6|muscade|muscade|
+thiakry|7|raisin sec|raisin-sec|
+thiakry|8|sel|sel|
+thieboudienne|0|thiof|thiof|
+thieboudienne|1|persil plat|persil-plat|
+thieboudienne|2|ail|ail|
+thieboudienne|3|habanero|habanero|
+thieboudienne|4|bouillon cube|bouillon-cube|
+thieboudienne|5|huile d'arachide|huile-d-arachide|
+thieboudienne|6|oignon|oignon|
+thieboudienne|7|concentré de tomate|concentre-de-tomate|
+thieboudienne|8|tomate|tomate|
+thieboudienne|9|néré|nere|
+thieboudienne|10|poisson fumé|poisson-fume|
+thieboudienne|11|chou blanc|chou-blanc|
+thieboudienne|12|carotte|carotte|
+thieboudienne|13|manioc|manioc|
+thieboudienne|14|patate douce|patate-douce|
+thieboudienne|15|aubergine|aubergine|
+thieboudienne|16|gombo|gombo|
+thieboudienne|17|riz brisé|riz-brise|
+thieboudienne|18|citron vert|citron-vert|
+thieboudienne|19|sel|sel|
+yassa-poulet|0|poulet|poulet|
+yassa-poulet|1|oignon|oignon|
+yassa-poulet|2|citron|citron|
+yassa-poulet|3|moutarde|moutarde|
+yassa-poulet|4|ail|ail|
+yassa-poulet|5|habanero|habanero|
+yassa-poulet|6|laurier|laurier|
+yassa-poulet|7|huile d'arachide|huile-d-arachide|
+yassa-poulet|8|bouillon cube|bouillon-cube|
+yassa-poulet|9|vinaigre blanc|vinaigre-blanc|
+yassa-poulet|10|riz brisé|riz-brise|
+yassa-poulet|11|poivre noir|poivre-noir|
+yassa-poulet|12|sel|sel|
+afang-soup|0|feuille d'afang|feuille-d-afang|
+afang-soup|1|épinard|epinard|
+afang-soup|2|boeuf à mijoter|boeuf-a-mijoter|
+afang-soup|3|stockfish|stockfish|
+afang-soup|4|poisson fumé|poisson-fume|
+afang-soup|5|crevette séchée|crevette-sechee|
+afang-soup|6|huile de palme rouge|huile-de-palme-rouge|
+afang-soup|7|oignon|oignon|
+afang-soup|8|habanero|habanero|
+afang-soup|9|bouillon cube|bouillon-cube|
+afang-soup|10|sel|sel|
+asun|0|viande de chèvre|chevre-viande|
+asun|1|habanero|habanero|
+asun|2|poivron rouge|poivron-rouge|
+asun|3|oignon|oignon|
+asun|4|thym séché|thym-seche|
+asun|5|bouillon cube|bouillon-cube|
+asun|6|huile neutre|huile-neutre|
+asun|7|laurier|laurier|
+asun|8|sel|sel|
+banga-soup|0|concentré de noix de palme|concentre-de-noix-de-palme|
+banga-soup|1|poisson-chat|poisson-chat|
+banga-soup|2|poisson fumé|poisson-fume|
+banga-soup|3|crevette séchée|crevette-sechee|
+banga-soup|4|oignon|oignon|
+banga-soup|5|habanero|habanero|
+banga-soup|6|ehuru|ehuru|
+banga-soup|7|bouillon cube|bouillon-cube|
+banga-soup|8|néré|nere|
+banga-soup|9|sel|sel|
+chin-chin|0|farine de blé|farine-de-ble|
+chin-chin|1|sucre|sucre|
+chin-chin|2|beurre|beurre|
+chin-chin|3|oeuf|oeuf|
+chin-chin|4|muscade|muscade|
+chin-chin|5|levure chimique|levure-chimique|
+chin-chin|6|lait|lait|
+chin-chin|7|sel|sel|
+chin-chin|8|huile neutre|huile-neutre|
+coconut-rice|0|riz long grain|riz-long-grain|
+coconut-rice|1|lait de coco|lait-de-coco|
+coconut-rice|2|poivron rouge|poivron-rouge|
+coconut-rice|3|habanero|habanero|
+coconut-rice|4|oignon|oignon|
+coconut-rice|5|concentré de tomate|concentre-de-tomate|
+coconut-rice|6|crevette|crevette|
+coconut-rice|7|carotte|carotte|
+coconut-rice|8|thym séché|thym-seche|
+coconut-rice|9|bouillon cube|bouillon-cube|
+coconut-rice|10|huile neutre|huile-neutre|
+coconut-rice|11|sel|sel|
+edikang-ikong|0|feuille d'ugu|feuille-d-ugu|
+edikang-ikong|1|épinard|epinard|
+edikang-ikong|2|boeuf à mijoter|boeuf-a-mijoter|
+edikang-ikong|3|stockfish|stockfish|
+edikang-ikong|4|poisson fumé|poisson-fume|
+edikang-ikong|5|crevette|crevette|
+edikang-ikong|6|crevette séchée|crevette-sechee|
+edikang-ikong|7|huile de palme rouge|huile-de-palme-rouge|
+edikang-ikong|8|oignon|oignon|
+edikang-ikong|9|habanero|habanero|
+edikang-ikong|10|bouillon cube|bouillon-cube|
+edikang-ikong|11|sel|sel|
+efo-riro|0|épinard|epinard|
+efo-riro|1|boeuf à mijoter|boeuf-a-mijoter|
+efo-riro|2|stockfish|stockfish|
+efo-riro|3|poisson fumé|poisson-fume|
+efo-riro|4|crevette séchée|crevette-sechee|
+efo-riro|5|poivron rouge|poivron-rouge|
+efo-riro|6|habanero|habanero|
+efo-riro|7|oignon|oignon|
+efo-riro|8|néré|nere|
+efo-riro|9|huile de palme rouge|huile-de-palme-rouge|
+efo-riro|10|bouillon cube|bouillon-cube|
+efo-riro|11|sel|sel|
+gizdodo|0|gésier de poulet|gesier-de-poulet|
+gizdodo|1|banane plantain|banane-plantain|
+gizdodo|2|poivron rouge|poivron-rouge|
+gizdodo|3|habanero|habanero|
+gizdodo|4|oignon|oignon|
+gizdodo|5|concentré de tomate|concentre-de-tomate|
+gizdodo|6|thym séché|thym-seche|
+gizdodo|7|bouillon cube|bouillon-cube|
+gizdodo|8|huile neutre|huile-neutre|
+gizdodo|9|sel|sel|
+kunu-zaki|0|petit mil|petit-mil|
+kunu-zaki|1|gingembre|gingembre|
+kunu-zaki|2|clou de girofle|clou-de-girofle|
+kunu-zaki|3|piment en poudre|piment-en-poudre|
+kunu-zaki|4|sucre|sucre|
+kunu-zaki|5|eau|eau|
+kunu-zaki|6|sel|sel|
+miyan-kuka|0|poudre de kuka|poudre-de-kuka|
+miyan-kuka|1|épaule d'agneau|epaule-d-agneau|
+miyan-kuka|2|poisson fumé|poisson-fume|
+miyan-kuka|3|crevette séchée|crevette-sechee|
+miyan-kuka|4|néré|nere|
+miyan-kuka|5|oignon|oignon|
+miyan-kuka|6|piment en poudre|piment-en-poudre|
+miyan-kuka|7|huile d'arachide|huile-d-arachide|
+miyan-kuka|8|bouillon cube|bouillon-cube|
+miyan-kuka|9|sel|sel|
+moin-moin|0|niébé|niebe|
+moin-moin|1|poivron rouge|poivron-rouge|
+moin-moin|2|habanero|habanero|
+moin-moin|3|oignon|oignon|
+moin-moin|4|huile de palme rouge|huile-de-palme-rouge|
+moin-moin|5|oeuf|oeuf|
+moin-moin|6|poisson fumé|poisson-fume|
+moin-moin|7|bouillon cube|bouillon-cube|
+moin-moin|8|eau|eau|
+moin-moin|9|sel|sel|
+nigerian-fried-rice|0|riz long grain|riz-long-grain|
+nigerian-fried-rice|1|poudre de curry|poudre-de-curry|
+nigerian-fried-rice|2|thym séché|thym-seche|
+nigerian-fried-rice|3|foie de bœuf|foie-de-boeuf|
+nigerian-fried-rice|4|petits pois surgelés|petits-pois-surgeles|
+nigerian-fried-rice|5|carotte|carotte|
+nigerian-fried-rice|6|haricot vert|haricot-vert|
+nigerian-fried-rice|7|oignon|oignon|
+nigerian-fried-rice|8|bouillon cube|bouillon-cube|
+nigerian-fried-rice|9|huile neutre|huile-neutre|
+nigerian-fried-rice|10|poivre noir|poivre-noir|
+nigerian-fried-rice|11|sel|sel|
+nkwobi|0|pied de veau|pied-de-veau|re-annotee : le referentiel a gagne l entree precise
+nkwobi|1|huile de palme rouge|huile-de-palme-rouge|
+nkwobi|2|potasse alimentaire|potasse-alimentaire|
+nkwobi|3|ehuru|ehuru|
+nkwobi|4|piment en poudre|piment-en-poudre|
+nkwobi|5|oignon|oignon|
+nkwobi|6|bouillon cube|bouillon-cube|
+nkwobi|7|basilic|basilic|
+nkwobi|8|sel|sel|
+ofada-ayamase|0|riz ofada|riz-ofada|
+ofada-ayamase|1|poivron vert|poivron-vert|
+ofada-ayamase|2|piment frais|piment-frais|
+ofada-ayamase|3|oignon|oignon|
+ofada-ayamase|4|huile de palme rouge|huile-de-palme-rouge|
+ofada-ayamase|5|boeuf à mijoter|boeuf-a-mijoter|
+ofada-ayamase|6|oeuf|oeuf|
+ofada-ayamase|7|néré|nere|
+ofada-ayamase|8|crevette séchée|crevette-sechee|
+ofada-ayamase|9|bouillon cube|bouillon-cube|
+ofada-ayamase|10|sel|sel|
+ogbono-soup|0|ogbono|ogbono|
+ogbono-soup|1|boeuf à mijoter|boeuf-a-mijoter|
+ogbono-soup|2|poisson fumé|poisson-fume|
+ogbono-soup|3|crevette séchée|crevette-sechee|
+ogbono-soup|4|épinard|epinard|
+ogbono-soup|5|huile de palme rouge|huile-de-palme-rouge|
+ogbono-soup|6|oignon|oignon|
+ogbono-soup|7|habanero|habanero|
+ogbono-soup|8|bouillon cube|bouillon-cube|
+ogbono-soup|9|néré|nere|
+ogbono-soup|10|sel|sel|
+okro-soup|0|gombo|gombo|
+okro-soup|1|boeuf à mijoter|boeuf-a-mijoter|
+okro-soup|2|poisson fumé|poisson-fume|
+okro-soup|3|crevette séchée|crevette-sechee|
+okro-soup|4|huile de palme rouge|huile-de-palme-rouge|
+okro-soup|5|oignon|oignon|
+okro-soup|6|habanero|habanero|
+okro-soup|7|épinard|epinard|
+okro-soup|8|bouillon cube|bouillon-cube|
+okro-soup|9|sel|sel|
+pepper-soup-poisson|0|poisson-chat|poisson-chat|
+pepper-soup-poisson|1|ehuru|ehuru|
+pepper-soup-poisson|2|poivre de Selim|poivre-de-selim|
+pepper-soup-poisson|3|habanero|habanero|
+pepper-soup-poisson|4|oignon|oignon|
+pepper-soup-poisson|5|crevette séchée|crevette-sechee|
+pepper-soup-poisson|6|bouillon cube|bouillon-cube|
+pepper-soup-poisson|7|basilic|basilic|
+pepper-soup-poisson|8|citron|citron|
+pepper-soup-poisson|9|sel|sel|
+pounded-yam|0|igname|igname|
+pounded-yam|1|sel|sel|
+pounded-yam|2|eau|eau|
+puff-puff|0|farine de blé|farine-de-ble|
+puff-puff|1|levure boulangère|levure-boulangere|
+puff-puff|2|sucre|sucre|
+puff-puff|3|sel|sel|
+puff-puff|4|muscade|muscade|
+puff-puff|5|eau|eau|
+puff-puff|6|huile neutre|huile-neutre|
+tuwo-shinkafa|0|riz rond|riz-rond|
+tuwo-shinkafa|1|eau|eau|
+tuwo-shinkafa|2|sel|sel|
+attaya|0|thé vert|the-vert|
+attaya|1|sucre|sucre|
+attaya|2|menthe fraîche|menthe-fraiche|
+attaya|3|eau|eau|
+bassi-salte|0|petit mil|petit-mil|
+bassi-salte|1|épaule d'agneau|epaule-d-agneau|
+bassi-salte|2|oignon|oignon|
+bassi-salte|3|concentré de tomate|concentre-de-tomate|
+bassi-salte|4|carotte|carotte|
+bassi-salte|5|chou blanc|chou-blanc|
+bassi-salte|6|niébé|niebe|
+bassi-salte|7|néré|nere|
+bassi-salte|8|piment oiseau|piment-oiseau|
+bassi-salte|9|bouillon cube|bouillon-cube|
+bassi-salte|10|huile d'arachide|huile-d-arachide|
+bassi-salte|11|sel|sel|
+boulettes-poisson-tomate|0|merlan|merlan|
+boulettes-poisson-tomate|1|oignon|oignon|
+boulettes-poisson-tomate|2|persil plat|persil-plat|
+boulettes-poisson-tomate|3|oeuf|oeuf|
+boulettes-poisson-tomate|4|farine de blé|farine-de-ble|
+boulettes-poisson-tomate|5|oignon|oignon|
+boulettes-poisson-tomate|6|concentré de tomate|concentre-de-tomate|
+boulettes-poisson-tomate|7|piment oiseau|piment-oiseau|
+boulettes-poisson-tomate|8|bouillon cube|bouillon-cube|
+boulettes-poisson-tomate|9|huile d'arachide|huile-d-arachide|
+boulettes-poisson-tomate|10|riz brisé|riz-brise|
+boulettes-poisson-tomate|11|sel|sel|
+boulettes-poisson-tomate|12|poivre noir|poivre-noir|
+cafe-touba|0|café|cafe|
+cafe-touba|1|poivre de Selim|poivre-de-selim|
+cafe-touba|2|clou de girofle|clou-de-girofle|
+cafe-touba|3|sucre|sucre|
+cafe-touba|4|eau|eau|
+caldou|0|thiof|thiof|
+caldou|1|oignon|oignon|
+caldou|2|citron vert|citron-vert|
+caldou|3|piment oiseau|piment-oiseau|
+caldou|4|ail|ail|
+caldou|5|bouillon cube|bouillon-cube|
+caldou|6|huile d'arachide|huile-d-arachide|
+caldou|7|riz brisé|riz-brise|
+caldou|8|concentré de tomate|concentre-de-tomate|
+caldou|9|sel|sel|
+caldou|10|poivre noir|poivre-noir|
+dibi-mouton|0|côtelette d'agneau|cotelette-d-agneau|
+dibi-mouton|1|oignon|oignon|
+dibi-mouton|2|citron vert|citron-vert|
+dibi-mouton|3|moutarde|moutarde|
+dibi-mouton|4|poivre de Selim|poivre-de-selim|
+dibi-mouton|5|bouillon cube|bouillon-cube|
+dibi-mouton|6|piment oiseau|piment-oiseau|
+dibi-mouton|7|huile d'arachide|huile-d-arachide|
+dibi-mouton|8|vinaigre blanc|vinaigre-blanc|
+dibi-mouton|9|sel|sel|
+dibi-mouton|10|poivre noir|poivre-noir|
+domoda|0|boeuf à mijoter|boeuf-a-mijoter|
+domoda|1|pâte d'arachide|pate-d-arachide|
+domoda|2|pâte de tamarin|pate-de-tamarin|
+domoda|3|oignon|oignon|
+domoda|4|concentré de tomate|concentre-de-tomate|
+domoda|5|patate douce|patate-douce|
+domoda|6|carotte|carotte|
+domoda|7|piment oiseau|piment-oiseau|
+domoda|8|bouillon cube|bouillon-cube|
+domoda|9|huile d'arachide|huile-d-arachide|
+domoda|10|riz brisé|riz-brise|
+domoda|11|sel|sel|
+fataya|0|farine de blé|farine-de-ble|
+fataya|1|oeuf|oeuf|
+fataya|2|beurre|beurre|
+fataya|3|sel|sel|
+fataya|4|thiof|thiof|
+fataya|5|oignon|oignon|
+fataya|6|persil plat|persil-plat|
+fataya|7|citron vert|citron-vert|
+fataya|8|piment oiseau|piment-oiseau|
+fataya|9|bouillon cube|bouillon-cube|
+fataya|10|huile d'arachide|huile-d-arachide|
+firire-poisson|0|dorade|dorade|
+firire-poisson|1|ail|ail|
+firire-poisson|2|persil plat|persil-plat|
+firire-poisson|3|oignon|oignon|
+firire-poisson|4|piment oiseau|piment-oiseau|
+firire-poisson|5|bouillon cube|bouillon-cube|
+firire-poisson|6|citron vert|citron-vert|
+firire-poisson|7|huile d'arachide|huile-d-arachide|
+firire-poisson|8|farine de blé|farine-de-ble|
+firire-poisson|9|sel|sel|
+firire-poisson|10|poivre noir|poivre-noir|
+jus-de-bouye|0|pain de singe|pain-de-singe|
+jus-de-bouye|1|eau|eau|
+jus-de-bouye|2|sucre|sucre|
+jus-de-bouye|3|lait concentré sucré|lait-concentre-sucre|
+jus-de-bouye|4|extrait de vanille|extrait-de-vanille|
+jus-de-bouye|5|muscade|muscade|
+jus-de-gingembre|0|gingembre|gingembre|
+jus-de-gingembre|1|eau|eau|
+jus-de-gingembre|2|sucre|sucre|
+jus-de-gingembre|3|citron vert|citron-vert|
+jus-de-gingembre|4|extrait de vanille|extrait-de-vanille|
+jus-de-gingembre|5|poivre noir|poivre-noir|
+lakh|0|petit mil|petit-mil|
+lakh|1|lait caillé|lait-caille|
+lakh|2|sucre|sucre|
+lakh|3|pâte d'arachide|pate-d-arachide|
+lakh|4|muscade|muscade|
+lakh|5|sel|sel|
+lakh|6|eau|eau|
+mbakhal-saloum|0|riz brisé|riz-brise|
+mbakhal-saloum|1|niébé|niebe|
+mbakhal-saloum|2|pâte d'arachide|pate-d-arachide|
+mbakhal-saloum|3|guedj|guedj|
+mbakhal-saloum|4|oignon|oignon|
+mbakhal-saloum|5|gombo|gombo|
+mbakhal-saloum|6|piment oiseau|piment-oiseau|
+mbakhal-saloum|7|bouillon cube|bouillon-cube|
+mbakhal-saloum|8|huile d'arachide|huile-d-arachide|
+mbakhal-saloum|9|sel|sel|
+ngalakh|0|petit mil|petit-mil|
+ngalakh|1|pain de singe|pain-de-singe|
+ngalakh|2|pâte d'arachide|pate-d-arachide|
+ngalakh|3|sucre|sucre|
+ngalakh|4|raisin sec|raisin-sec|
+ngalakh|5|extrait de vanille|extrait-de-vanille|
+ngalakh|6|eau de fleur d'oranger|eau-de-fleur-d-oranger|
+ngalakh|7|muscade|muscade|
+ngalakh|8|sel|sel|
+nokoss|0|oignon|oignon|
+nokoss|1|ail|ail|
+nokoss|2|persil plat|persil-plat|
+nokoss|3|piment oiseau|piment-oiseau|
+nokoss|4|poivron rouge|poivron-rouge|
+nokoss|5|bouillon cube|bouillon-cube|
+nokoss|6|poivre noir|poivre-noir|
+nokoss|7|huile d'arachide|huile-d-arachide|
+nokoss|8|sel|sel|
+sombi|0|riz brisé|riz-brise|
+sombi|1|lait de coco|lait-de-coco|
+sombi|2|lait|lait|
+sombi|3|sucre|sucre|
+sombi|4|gousse de vanille|gousse-de-vanille|
+sombi|5|muscade|muscade|
+sombi|6|sel|sel|
+thiebou-guinar|0|poulet entier|poulet-entier|
+thiebou-guinar|1|riz brisé|riz-brise|
+thiebou-guinar|2|oignon|oignon|
+thiebou-guinar|3|concentré de tomate|concentre-de-tomate|
+thiebou-guinar|4|chou blanc|chou-blanc|
+thiebou-guinar|5|carotte|carotte|
+thiebou-guinar|6|aubergine|aubergine|
+thiebou-guinar|7|manioc|manioc|
+thiebou-guinar|8|piment oiseau|piment-oiseau|
+thiebou-guinar|9|bouillon cube|bouillon-cube|
+thiebou-guinar|10|huile d'arachide|huile-d-arachide|
+thiebou-guinar|11|persil plat|persil-plat|
+thiebou-guinar|12|ail|ail|
+thiebou-guinar|13|sel|sel|
+thiebou-guinar|14|poivre noir|poivre-noir|
+thiebou-yapp|0|épaule d'agneau|epaule-d-agneau|
+thiebou-yapp|1|riz brisé|riz-brise|
+thiebou-yapp|2|oignon|oignon|
+thiebou-yapp|3|moutarde|moutarde|
+thiebou-yapp|4|concentré de tomate|concentre-de-tomate|
+thiebou-yapp|5|citron vert|citron-vert|
+thiebou-yapp|6|piment oiseau|piment-oiseau|
+thiebou-yapp|7|bouillon cube|bouillon-cube|
+thiebou-yapp|8|laurier|laurier|
+thiebou-yapp|9|huile d'arachide|huile-d-arachide|
+thiebou-yapp|10|sel|sel|
+thiebou-yapp|11|poivre noir|poivre-noir|
+thiou-poisson|0|thiof|thiof|
+thiou-poisson|1|oignon|oignon|
+thiou-poisson|2|concentré de tomate|concentre-de-tomate|
+thiou-poisson|3|carotte|carotte|
+thiou-poisson|4|aubergine|aubergine|
+thiou-poisson|5|pomme de terre|pomme-de-terre|
+thiou-poisson|6|ail|ail|
+thiou-poisson|7|piment oiseau|piment-oiseau|
+thiou-poisson|8|bouillon cube|bouillon-cube|
+thiou-poisson|9|huile d'arachide|huile-d-arachide|
+thiou-poisson|10|riz brisé|riz-brise|
+thiou-poisson|11|sel|sel|
+yassa-poisson|0|dorade|dorade|
+yassa-poisson|1|oignon|oignon|
+yassa-poisson|2|citron vert|citron-vert|
+yassa-poisson|3|moutarde|moutarde|
+yassa-poisson|4|piment oiseau|piment-oiseau|
+yassa-poisson|5|bouillon cube|bouillon-cube|
+yassa-poisson|6|ail|ail|
+yassa-poisson|7|laurier|laurier|
+yassa-poisson|8|huile d'arachide|huile-d-arachide|
+yassa-poisson|9|riz brisé|riz-brise|
+yassa-poisson|10|sel|sel|
+yassa-poisson|11|poivre noir|poivre-noir|

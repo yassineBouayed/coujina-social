@@ -1,0 +1,43 @@
+{
+  "slug": "chirashi-zushi",
+  "cuisine": "east-asian",
+  "country": "japon",
+  "origin": "Japon",
+  "native_name": "ちらし寿司",
+  "title": {
+    "fr": "Chirashi, riz vinaigré et poisson cru",
+    "en": "Chirashi, vinegared rice with raw fish"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 45, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "cru", "riz-vinaigre", "poisson"],
+  "ingredients": [
+    { "raw": "500 g de riz rond", "qty": 500, "unit": "g", "item": "riz rond" },
+    { "raw": "10 cl de vinaigre de riz", "qty": 10, "unit": "cl", "item": "vinaigre de riz", "group": "sushi-zu" },
+    { "raw": "4 c. à s. de sucre", "qty": 4, "unit": "tbsp", "item": "sucre", "group": "sushi-zu" },
+    { "raw": "2 c. à c. de sel", "qty": 2, "unit": "tsp", "item": "sel", "group": "sushi-zu" },
+    { "raw": "300 g de saumon très frais, en tranches", "qty": 300, "unit": "g", "item": "saumon", "prep": "en tranches", "group": "garniture" },
+    { "raw": "200 g de thon très frais, en tranches", "qty": 200, "unit": "g", "item": "thon", "prep": "en tranches", "group": "garniture" },
+    { "raw": "1 avocat, en lamelles", "qty": 1, "unit": "piece", "item": "avocat", "prep": "en lamelles", "group": "garniture" },
+    { "raw": "1 concombre, en julienne", "qty": 1, "unit": "piece", "item": "concombre", "prep": "en julienne", "group": "garniture" },
+    { "raw": "2 feuilles de nori, en lanières", "qty": 2, "unit": "piece", "item": "nori", "prep": "en lanières", "group": "garniture" },
+    { "raw": "2 c. à s. de sésame noir", "qty": 2, "unit": "tbsp", "item": "sésame noir", "group": "garniture" },
+    { "raw": "2 c. à c. de wasabi", "qty": 2, "unit": "tsp", "item": "wasabi", "group": "service" },
+    { "raw": "4 c. à s. de sauce soja", "qty": 4, "unit": "tbsp", "item": "sauce soja", "group": "service" }
+  ],
+  "steps": [
+    { "fr": "Acheter du poisson expressément vendu pour être mangé CRU, chez un poissonnier prévenu.", "en": "Buy fish expressly sold to be eaten RAW, from a fishmonger who has been told." },
+    { "fr": "Cuire le riz rond rincé, puis le verser CHAUD dans un large plat, jamais dans la casserole.", "en": "Cook the rinsed short-grain rice, then tip it HOT into a wide dish, never leaving it in the pan." },
+    { "fr": "Verser le vinaigre sucré-salé et le mélanger en COUPANT à la spatule, sans écraser un seul grain.", "en": "Pour over the sweetened vinegar and fold it in by CUTTING with a spatula, without crushing a grain." },
+    { "fr": "Éventer pendant le mélange : c'est ce qui donne au riz son brillant caractéristique.", "en": "Fan it as you mix: this is what gives the rice its characteristic gloss." },
+    { "fr": "Laisser tiédir à température ambiante — jamais au réfrigérateur, qui durcit l'amidon.", "en": "Let it cool to room temperature — never in the fridge, which hardens the starch." },
+    { "fr": "Étaler le riz dans un plat et disposer le poisson et les légumes dessus, en éventail.", "en": "Spread the rice in a dish and arrange the fish and vegetables on top, fanned out." }
+  ],
+  "notes": [
+    { "fr": "Poisson cru : à éviter pour les personnes enceintes, âgées ou immunodéprimées. Congeler 24 h à -20 °C réduit le risque parasitaire.", "en": "Raw fish: not for pregnant, elderly or immunocompromised eaters. Freezing 24 h at -20°C reduces parasite risk." }
+  ]
+}

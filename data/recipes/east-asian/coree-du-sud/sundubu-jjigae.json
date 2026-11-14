@@ -1,0 +1,40 @@
+{
+  "slug": "sundubu-jjigae",
+  "cuisine": "east-asian",
+  "country": "coree-du-sud",
+  "origin": "Corée du Sud",
+  "native_name": "순두부찌개",
+  "title": {
+    "fr": "Sundubu jjigae, ragoût de tofu soyeux",
+    "en": "Sundubu jjigae, silken tofu stew"
+  },
+  "meal_type": "soup",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["tofu", "pimente", "rapide", "oeuf"],
+  "ingredients": [
+    { "raw": "800 g de tofu soyeux", "qty": 800, "unit": "g", "item": "tofu soyeux" },
+    { "raw": "200 g de porc haché", "qty": 200, "unit": "g", "item": "porc haché" },
+    { "raw": "150 g de crevettes, décortiquées", "qty": 150, "unit": "g", "item": "crevette", "prep": "décortiquée", "optional": true },
+    { "raw": "3 c. à s. de gochugaru", "qty": 3, "unit": "tbsp", "item": "gochugaru" },
+    { "raw": "5 c. à s. d'huile neutre", "qty": 5, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "1 oignon, émincé", "qty": 1, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "100 g de kimchi, haché", "qty": 100, "unit": "g", "item": "kimchi", "prep": "haché" },
+    { "raw": "50 cl de bouillon d'anchois", "qty": 50, "unit": "cl", "item": "anchois", "prep": "en bouillon" },
+    { "raw": "2 c. à s. de sauce poisson", "qty": 2, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "4 gousses d'ail, râpées", "qty": 4, "unit": "piece", "item": "ail", "prep": "râpé" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf" },
+    { "raw": "4 oignons nouveaux, ciselés", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé" }
+  ],
+  "steps": [
+    { "fr": "Faire chauffer l'huile et y cuire le gochugaru trente secondes : elle devient d'un rouge profond.", "en": "Heat the oil and cook the gochugaru in it for thirty seconds: it turns a deep red." },
+    { "fr": "Cette huile rouge est la base de tous les jjigae pimentés : le gochugaru cru reste poussiéreux.", "en": "That red oil is the base of every spicy jjigae: raw gochugaru stays dusty." },
+    { "fr": "Ajouter le porc, l'oignon, l'ail et le kimchi, et faire revenir cinq minutes.", "en": "Add the pork, onion, garlic and kimchi, and fry for five minutes." },
+    { "fr": "Verser le bouillon et la sauce poisson, et porter à ébullition franche.", "en": "Add the broth and fish sauce, and bring to a full boil." },
+    { "fr": "Ajouter le tofu soyeux À LA CUILLÈRE, en grosses cuillerées, sans le couper ni le remuer.", "en": "Add the silken tofu BY THE SPOONFUL, in large scoops, without cutting or stirring it." },
+    { "fr": "Casser un œuf par bol au moment de servir : le jjigae bouillonnant le poche en trente secondes.", "en": "Crack an egg into each bowl as you serve: the bubbling jjigae poaches it in thirty seconds." }
+  ]
+}

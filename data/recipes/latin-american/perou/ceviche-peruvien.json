@@ -1,0 +1,42 @@
+{
+  "slug": "ceviche-peruvien",
+  "cuisine": "latin-american",
+  "country": "perou",
+  "origin": "Pérou",
+  "native_name": "Ceviche",
+  "title": {
+    "fr": "Ceviche péruvien au lait de tigre",
+    "en": "Peruvian ceviche with leche de tigre"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 0 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["embleme", "cru", "citron-vert", "cote"],
+  "ingredients": [
+    { "raw": "800 g de filet de bar, en dés", "qty": 800, "unit": "g", "item": "bar", "prep": "en dés" },
+    { "raw": "12 citrons verts, leur jus", "qty": 12, "unit": "piece", "item": "citron vert" },
+    { "raw": "2 oignons rouges, émincés très finement", "qty": 2, "unit": "piece", "item": "oignon rouge", "prep": "émincé très finement" },
+    { "raw": "3 piments ají amarillo", "qty": 3, "unit": "piece", "item": "ají amarillo" },
+    { "raw": "1 bouquet de coriandre, ciselée", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "400 g de patate douce", "qty": 400, "unit": "g", "item": "patate douce", "group": "service" },
+    { "raw": "300 g de maïs à pozole", "qty": 300, "unit": "g", "item": "hominy", "group": "service" },
+    { "raw": "3 gousses d'ail", "qty": 3, "unit": "piece", "item": "ail" },
+    { "raw": "2 c. à s. de gingembre frais, râpé", "qty": 2, "unit": "tbsp", "item": "gingembre frais", "prep": "râpé" },
+    { "raw": "gros sel", "qty": null, "unit": null, "item": "gros sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le poisson doit avoir été CONGELÉ 24 heures : c'est une obligation sanitaire, l'acide ne tue pas les parasites.", "en": "The fish must have been FROZEN for 24 hours: a food-safety requirement, acid does not kill parasites." },
+    { "fr": "Le LECHE DE TIGRE est la marinade : citron vert, ail, gingembre, ají et parures de poisson, mixés.", "en": "The LECHE DE TIGRE is the marinade: lime, garlic, ginger, ají and fish trimmings, blended." },
+    { "fr": "Presser les citrons À LA MAIN, sans écraser : pressés à fond, ils libèrent l'amertume de l'écorce.", "en": "Squeeze the limes BY HAND, gently: fully pressed, they release the peel's bitterness." },
+    { "fr": "Le ceviche péruvien marine TROIS MINUTES seulement, contrairement au mexicain.", "en": "Peruvian ceviche marinates for THREE MINUTES only, unlike the Mexican version." },
+    { "fr": "Le poisson doit rester TRANSLUCIDE au centre : blanc partout, il est trop « cuit » et devient farineux.", "en": "The fish must stay TRANSLUCENT at the centre: white through, it is over-\"cooked\" and turns mealy." },
+    { "fr": "Faire tremper l'oignon rouge dans l'eau glacée dix minutes : cela ôte son mordant.", "en": "Soak the red onion in iced water for ten minutes: it takes away the bite." }
+  ],
+  "notes": [
+    { "fr": "Poisson cru : à éviter pour les personnes enceintes, les jeunes enfants et les personnes immunodéprimées.", "en": "Raw fish: not for pregnant people, young children or the immunocompromised." }
+  ]
+}

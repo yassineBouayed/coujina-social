@@ -1,0 +1,40 @@
+{
+  "slug": "cozido-a-portuguesa",
+  "cuisine": "mediterranean",
+  "country": "portugal",
+  "origin": "Portugal",
+  "native_name": "Cozido à portuguesa",
+  "title": {
+    "fr": "Pot-au-feu portugais",
+    "en": "Portuguese boiled dinner"
+  },
+  "meal_type": "main",
+  "servings": 8,
+  "times": { "prep_min": 35, "cook_min": 180 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hiver", "famille", "charcuterie", "legumes"],
+  "ingredients": [
+    { "raw": "800 g de jarret de bœuf", "qty": 800, "unit": "g", "item": "boeuf à mijoter" },
+    { "raw": "1/2 poulet", "qty": 0.5, "unit": "piece", "item": "poulet entier" },
+    { "raw": "300 g de poitrine de porc", "qty": 300, "unit": "g", "item": "poitrine de porc" },
+    { "raw": "3 chorizos", "qty": 3, "unit": "piece", "item": "chorizo" },
+    { "raw": "2 boudins noirs", "qty": 2, "unit": "piece", "item": "boudin noir" },
+    { "raw": "6 carottes", "qty": 6, "unit": "piece", "item": "carotte" },
+    { "raw": "4 navets", "qty": 4, "unit": "piece", "item": "navet" },
+    { "raw": "1 chou vert", "qty": 1, "unit": "piece", "item": "chou vert" },
+    { "raw": "8 pommes de terre", "qty": 8, "unit": "piece", "item": "pomme de terre" },
+    { "raw": "300 g de riz rond", "qty": 300, "unit": "g", "item": "riz rond" },
+    { "raw": "300 g de haricots rouges cuits", "qty": 300, "unit": "g", "item": "haricot rouge", "prep": "cuit" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Chaque viande a son temps : le bœuf trois heures, le poulet une heure, les charcuteries trente minutes.", "en": "Each meat has its own time: beef three hours, chicken one hour, cured sausages thirty minutes." },
+    { "fr": "Les mettre EN DÉCALÉ dans la même marmite, du plus long au plus court.", "en": "Add them STAGGERED to the same pot, longest to shortest." },
+    { "fr": "Piquer les chorizos à la fourchette : sinon ils éclatent et libèrent tout leur gras d'un coup.", "en": "Prick the chorizos with a fork: otherwise they burst and release all their fat at once." },
+    { "fr": "Cuire le chou et le boudin À PART : cuits dedans, ils dominent tout le bouillon.", "en": "Cook the cabbage and blood sausage SEPARATELY: cooked in the pot, they overwhelm the broth." },
+    { "fr": "Cuire le riz dans une louche de bouillon, avec les haricots rouges : c'est l'arroz de cozido.", "en": "Cook the rice in a ladle of broth, with the red beans: that is the arroz de cozido." },
+    { "fr": "Servir tout sur un grand plat, viandes au centre, légumes autour, et le riz à part.", "en": "Serve it all on one large platter, meats in the centre, vegetables around, and the rice apart." }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "croquettes-aux-crevettes",
+  "cuisine": "western-european",
+  "country": "belgique",
+  "origin": "Belgique",
+  "native_name": "Garnaalkroketten",
+  "title": {
+    "fr": "Croquettes aux crevettes grises",
+    "en": "Grey shrimp croquettes"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 45, "cook_min": 30 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["cote", "crevette", "friture", "brasserie"],
+  "ingredients": [
+    { "raw": "400 g de crevettes grises, décortiquées", "qty": 400, "unit": "g", "item": "crevette", "prep": "décortiquée" },
+    { "raw": "90 g de beurre", "qty": 90, "unit": "g", "item": "beurre", "group": "panade" },
+    { "raw": "110 g de farine de blé", "qty": 110, "unit": "g", "item": "farine de blé", "group": "panade" },
+    { "raw": "50 cl de lait entier", "qty": 50, "unit": "cl", "item": "lait entier", "group": "panade" },
+    { "raw": "3 jaunes d'œufs", "qty": 3, "unit": "piece", "item": "oeuf", "group": "panade" },
+    { "raw": "3 g de gélatine", "qty": 3, "unit": "g", "item": "gelatine", "group": "panade" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf", "group": "panure" },
+    { "raw": "200 g de chapelure", "qty": 200, "unit": "g", "item": "panko", "group": "panure" },
+    { "raw": "100 g de farine de blé", "qty": 100, "unit": "g", "item": "farine de blé", "group": "panure" },
+    { "raw": "1,5 l d'huile neutre pour la friture", "qty": 1.5, "unit": "l", "item": "huile neutre" },
+    { "raw": "1 citron, en quartiers", "qty": 1, "unit": "piece", "item": "citron", "prep": "en quartiers" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "sel et poivre blanc", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre blanc", "qty": null, "unit": null, "item": "poivre blanc" }
+  ],
+  "steps": [
+    { "fr": "La panade doit être TRÈS épaisse : le rapport farine-lait est le double d'une béchamel ordinaire.", "en": "The panade must be VERY thick: the flour-to-milk ratio is double an ordinary béchamel." },
+    { "fr": "La GÉLATINE est le secret des croquettes belges : elle assure une coupe nette et un cœur coulant.", "en": "GELATINE is the secret of Belgian croquettes: it gives a clean cut and a molten centre." },
+    { "fr": "Étaler la panade sur un centimètre et demi et RÉFRIGÉRER SIX HEURES, jamais moins.", "en": "Spread the panade one and a half centimetres thick and CHILL FOR SIX HOURS, never less." },
+    { "fr": "Une panade tiède éclate dans la friture et vide la croquette dans l'huile.", "en": "A warm panade bursts in the fryer and empties the croquette into the oil." },
+    { "fr": "Découper des rectangles, passer farine, œuf, chapelure — et une SECONDE fois œuf et chapelure.", "en": "Cut rectangles, coat in flour, egg and crumbs — then a SECOND round of egg and crumbs." },
+    { "fr": "Frire à 180 °C, trois minutes, deux ou trois croquettes à la fois seulement.", "en": "Fry at 180°C for three minutes, only two or three croquettes at a time." }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "couJina",
+    "slug": "coujina-social",
+    "scheme": "coujinasocial",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#FCF7F0",
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-web-browser",
+      "expo-apple-authentication",
+      "expo-localization",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "couJina accède à vos photos pour illustrer vos recettes.",
+          "cameraPermission": "couJina utilise l'appareil photo pour photographier et filmer vos recettes.",
+          "microphonePermission": "couJina utilise le micro pour le son de vos vidéos de recettes."
+        }
+      ],
+      "expo-video"
+    ],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "app.coujina.social",
+      "usesAppleSignIn": true
+    },
+    "android": {
+      "package": "app.coujina.social",
+      "adaptiveIcon": {
+        "backgroundColor": "#FCF7F0",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "router": {}
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
+  }
+}

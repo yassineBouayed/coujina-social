@@ -1,0 +1,32 @@
+{
+  "slug": "the-au-lait-anglais",
+  "cuisine": "western-european",
+  "country": "royaume-uni",
+  "origin": "Royaume-Uni",
+  "native_name": "English breakfast tea",
+  "title": {
+    "fr": "Thé anglais au lait",
+    "en": "English tea with milk"
+  },
+  "meal_type": "drink",
+  "servings": 4,
+  "times": { "prep_min": 5, "cook_min": 10 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["the", "quotidien", "rapide", "lait"],
+  "ingredients": [
+    { "raw": "4 c. à c. de thé noir", "qty": 4, "unit": "tsp", "item": "thé noir" },
+    { "raw": "80 cl d'eau", "qty": 80, "unit": "cl", "item": "eau" },
+    { "raw": "15 cl de lait entier", "qty": 15, "unit": "cl", "item": "lait entier" },
+    { "raw": "4 c. à c. de sucre", "qty": 4, "unit": "tsp", "item": "sucre", "optional": true }
+  ],
+  "steps": [
+    { "fr": "L'eau doit être PORTÉE À ÉBULLITION et versée aussitôt : une eau à 90 °C n'extrait pas assez.", "en": "The water must reach a FULL BOIL and be poured at once: water at 90°C under-extracts." },
+    { "fr": "ÉBOUILLANTER la théière d'abord : une théière froide fait chuter la température de dix degrés.", "en": "WARM the pot first: a cold pot drops the temperature by ten degrees." },
+    { "fr": "Infuser QUATRE MINUTES, pas davantage : au-delà, les tanins rendent le thé âpre.", "en": "Steep for FOUR MINUTES, no longer: beyond that, the tannins turn it harsh." },
+    { "fr": "Retirer les feuilles à la fin de l'infusion : laissées dedans, le thé continue de s'amertumer.", "en": "Remove the leaves when the time is up: left in, the tea keeps growing bitter." },
+    { "fr": "Le lait AVANT ou APRÈS reste un débat national ; verser le lait en premier évite qu'il ne cuise.", "en": "Milk BEFORE or AFTER remains a national argument; milk first keeps it from scalding." },
+    { "fr": "Prendre du lait entier, jamais de crème : la crème masque entièrement le goût du thé.", "en": "Use whole milk, never cream: cream buries the taste of the tea entirely." }
+  ]
+}

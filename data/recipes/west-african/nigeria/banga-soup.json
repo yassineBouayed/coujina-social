@@ -1,0 +1,41 @@
+{
+  "slug": "banga-soup",
+  "cuisine": "west-african",
+  "country": "nigeria",
+  "origin": "Nigeria",
+  "native_name": "Banga soup",
+  "title": {
+    "fr": "Banga, soupe de noix de palme",
+    "en": "Banga, palm nut soup"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 60 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["delta", "palme", "poisson", "fete"],
+  "ingredients": [
+    { "raw": "800 g de concentré de noix de palme", "qty": 800, "unit": "g", "item": "concentré de noix de palme" },
+    { "raw": "800 g de poisson-chat, en tronçons", "qty": 800, "unit": "g", "item": "poisson-chat", "prep": "en tronçons" },
+    { "raw": "150 g de poisson fumé, émietté", "qty": 150, "unit": "g", "item": "poisson fumé", "prep": "émietté" },
+    { "raw": "3 c. à s. de crevettes séchées, moulues", "qty": 3, "unit": "tbsp", "item": "crevette séchée", "prep": "moulue" },
+    { "raw": "1 oignon, haché", "qty": 1, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "2 piments habanero, mixés", "qty": 2, "unit": "piece", "item": "habanero", "prep": "mixé" },
+    { "raw": "1 c. à s. d'ehuru moulu", "qty": 1, "unit": "tbsp", "item": "ehuru", "prep": "moulu" },
+    { "raw": "2 cubes de bouillon", "qty": 2, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "1 c. à s. de graines de néré", "qty": 1, "unit": "tbsp", "item": "néré", "optional": true },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Délayer le concentré de noix de palme dans 1,5 l d'eau et porter à ébullition franche.", "en": "Slake the palm nut concentrate in 1.5 litres of water and bring to a full boil." },
+    { "fr": "Laisser bouillir vingt-cinq minutes à découvert : la soupe doit épaissir et l'huile remonter en nappe orange.", "en": "Boil for twenty-five minutes uncovered: the soup should thicken and the oil rise in an orange film." },
+    { "fr": "Ajouter l'oignon, le piment, l'ehuru, le néré, les crevettes séchées et les cubes.", "en": "Add the onion, chilli, ehuru, néré, dried prawns and stock cubes." },
+    { "fr": "Ajouter le poisson fumé et laisser quinze minutes de plus.", "en": "Add the smoked fish and give it another fifteen minutes." },
+    { "fr": "Déposer le poisson-chat frais en dernier et le pocher dix minutes sans remuer.", "en": "Lay the fresh catfish in last and poach it for ten minutes without stirring." },
+    { "fr": "Servir avec du starch ou de l'igname pilée.", "en": "Serve with starch or pounded yam." }
+  ],
+  "notes": [
+    { "fr": "L'ehuru — la muscade de calebasse — n'est pas la muscade commune. Remplacée, la banga perd son parfum caractéristique.", "en": "Ehuru — calabash nutmeg — is not common nutmeg. Substituted, banga loses its signature scent." }
+  ]
+}

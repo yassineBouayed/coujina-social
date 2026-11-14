@@ -1,0 +1,50 @@
+{
+  "slug": "pastilla-poulet",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Bastila",
+  "title": {
+    "fr": "Pastilla au poulet et aux amandes",
+    "en": "Chicken and almond pastilla"
+  },
+  "meal_type": "main",
+  "servings": 8,
+  "times": { "prep_min": 60, "cook_min": 75 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j2-sonde-v1", "date": "2026-08-28" },
+  "tags": ["pastilla", "poulet", "sucre-sale", "fete", "emblematique"],
+  "ingredients": [
+    { "raw": "1 poulet de 1,5 kg", "qty": 1.5, "unit": "kg", "item": "poulet", "prep": "coupé en morceaux" },
+    { "raw": "10 feuilles de brick", "qty": 10, "unit": "piece", "item": "feuille de brick", "substitutes": [{ "item": "pâte filo", "note": "plus friable et moins souple, la pastilla se fend au montage" }] },
+    { "raw": "3 gros oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "6 œufs", "qty": 6, "unit": "piece", "item": "oeuf", "prep": "battus" },
+    { "raw": "250 g d'amandes émondées", "qty": 250, "unit": "g", "item": "amande", "prep": "émondée" },
+    { "raw": "80 g de sucre glace", "qty": 80, "unit": "g", "item": "sucre glace" },
+    { "raw": "2 c. à c. de cannelle moulue", "qty": 2, "unit": "tsp", "item": "cannelle moulue" },
+    { "raw": "1 c. à c. de gingembre moulu", "qty": 1, "unit": "tsp", "item": "gingembre moulu" },
+    { "raw": "1 belle pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "1/2 c. à c. de poivre blanc", "qty": 0.5, "unit": "tsp", "item": "poivre blanc" },
+    { "raw": "2 c. à s. d'eau de fleur d'oranger", "qty": 2, "unit": "tbsp", "item": "eau de fleur d'oranger" },
+    { "raw": "1 bouquet de coriandre fraîche, ciselé", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "120 g de beurre fondu", "qty": 120, "unit": "g", "item": "beurre", "prep": "fondu" },
+    { "raw": "4 c. à s. d'huile de tournesol", "qty": 4, "unit": "tbsp", "item": "huile de tournesol" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire le poulet avec les oignons, le safran, le gingembre, le poivre, une cuillère de cannelle, l'huile et un verre d'eau, à couvert, 45 minutes.", "en": "Cook the chicken with the onions, saffron, ginger, pepper, a spoon of cinnamon, the oil and a glass of water, covered, for 45 minutes." },
+    { "fr": "Désosser le poulet en gros morceaux, réserver.", "en": "Bone the chicken into large pieces and set aside." },
+    { "fr": "Faire réduire la sauce aux oignons jusqu'à ce qu'il ne reste presque plus de liquide, ajouter les herbes et l'eau de fleur d'oranger.", "en": "Reduce the onion sauce until almost no liquid remains, then add the herbs and the orange blossom water." },
+    { "fr": "Verser les œufs battus dans la sauce chaude et remuer à feu doux jusqu'à obtenir une brouillade sèche, sans une goutte de liquide : c'est le point qui décide de la pastilla.", "en": "Pour the beaten eggs into the hot sauce and stir over low heat until you have a dry scramble with not a drop of liquid: this is the point on which the pastilla stands or falls." },
+    { "fr": "Frire les amandes, les égoutter, les concasser grossièrement avec le sucre glace et le reste de cannelle.", "en": "Fry the almonds, drain them and crush them coarsely with the icing sugar and remaining cinnamon." },
+    { "fr": "Beurrer un moule rond, tapisser de feuilles de brick en rosace, en les laissant largement déborder.", "en": "Butter a round tin and line it with brick pastry in a rosette, letting the sheets overhang generously." },
+    { "fr": "Monter dans l'ordre : brouillade d'œufs, poulet effiloché, amandes sucrées. Rabattre les feuilles, fermer avec deux feuilles supplémentaires, beurrer le dessus.", "en": "Layer in order: egg scramble, shredded chicken, sweet almonds. Fold the sheets over, close with two more sheets and butter the top." },
+    { "fr": "Cuire 30 minutes à 190 °C jusqu'à ce que la pastilla soit dorée et craquante.", "en": "Bake for 30 minutes at 190 °C until golden and crisp." },
+    { "fr": "Démouler, saupoudrer de sucre glace et dessiner des croisillons de cannelle. Servir aussitôt.", "en": "Turn out, dust with icing sugar and trace a lattice of cinnamon. Serve at once." }
+  ],
+  "notes": [
+    { "fr": "Toute humidité restante dans la garniture détrempe la brick par en dessous : mieux vaut une brouillade trop sèche que trop souple.", "en": "Any moisture left in the filling soaks the pastry from below: better a scramble too dry than too loose." }
+  ]
+}

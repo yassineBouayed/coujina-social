@@ -1,0 +1,39 @@
+{
+  "slug": "amok-trey",
+  "cuisine": "southeast-asian",
+  "country": "cambodge",
+  "origin": "Cambodge",
+  "native_name": "អាម៉ុកត្រី",
+  "title": {
+    "fr": "Amok de poisson en feuille de bananier",
+    "en": "Fish amok steamed in banana leaf"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 35, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["national", "vapeur", "coco", "kroeung"],
+  "ingredients": [
+    { "raw": "700 g de filets de cabillaud, en gros morceaux", "qty": 700, "unit": "g", "item": "cabillaud", "prep": "en gros morceaux" },
+    { "raw": "6 c. à s. de kroeung", "qty": 6, "unit": "tbsp", "item": "citronnelle", "prep": "en pâte kroeung" },
+    { "raw": "40 cl de lait de coco", "qty": 40, "unit": "cl", "item": "lait de coco" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf" },
+    { "raw": "2 c. à s. de sauce poisson", "qty": 2, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "2 c. à s. de sucre de palme", "qty": 2, "unit": "tbsp", "item": "sucre de palme" },
+    { "raw": "1 c. à s. de prahok", "qty": 1, "unit": "tbsp", "item": "prahok" },
+    { "raw": "200 g d'épinards", "qty": 200, "unit": "g", "item": "épinard" },
+    { "raw": "6 feuilles de combava, en julienne", "qty": 6, "unit": "piece", "item": "feuille de combava", "prep": "en julienne", "group": "décor" },
+    { "raw": "1 piment rouge, en lanières", "qty": 1, "unit": "piece", "item": "piment frais", "prep": "en lanières", "group": "décor" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "L'amok est une MOUSSE cuite à la vapeur, pas un curry : il doit trembler comme un flan.", "en": "Amok is a steamed MOUSSE, not a curry: it should wobble like a set custard." },
+    { "fr": "Mélanger le kroeung avec un tiers du lait de coco et les œufs, en fouettant.", "en": "Mix the kroeung with a third of the coconut milk and the eggs, whisking." },
+    { "fr": "Ajouter le reste du lait de coco PETIT À PETIT, comme pour une mayonnaise : le mélange épaissit.", "en": "Add the remaining coconut milk LITTLE BY LITTLE, as for a mayonnaise: the mixture thickens." },
+    { "fr": "Ce battage progressif est ce qui donne la texture aérée : versé d'un coup, l'amok reste liquide.", "en": "That gradual beating is what gives the airy texture: poured in at once, amok stays runny." },
+    { "fr": "Tapisser les coupelles d'épinards blanchis, y déposer le poisson, puis l'appareil.", "en": "Line the cups with blanched spinach, lay in the fish, then the mixture." },
+    { "fr": "Cuire vingt-cinq minutes à la vapeur à feu DOUX : une vapeur violente fait grainer les œufs.", "en": "Steam for twenty-five minutes over LOW heat: fierce steam curdles the eggs." }
+  ]
+}

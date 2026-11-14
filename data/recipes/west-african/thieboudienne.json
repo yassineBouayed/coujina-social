@@ -1,0 +1,53 @@
+{
+  "slug": "thieboudienne",
+  "cuisine": "west-african",
+  "origin": "Sénégal",
+  "native_name": "Ceebu jën",
+  "title": {
+    "fr": "Thiéboudienne rouge, riz brisé au poisson et aux légumes",
+    "en": "Red ceebu jën, broken rice with fish and vegetables"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 45, "cook_min": 90 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j5-catalogue-v1", "date": "2026-08-29" },
+  "tags": ["riz", "poisson", "plat-unique", "dimanche"],
+  "ingredients": [
+    { "raw": "1 thiof d'environ 1,2 kg, coupé en darnes épaisses", "qty": 1.2, "unit": "kg", "item": "thiof", "prep": "coupé en darnes", "substitutes": [{ "item": "dorade", "note": "la dorade se défait plus vite : la sortir du bouillon dès qu'elle est ferme" }] },
+    { "raw": "1 gros bouquet de persil plat", "qty": 1, "unit": "bunch", "item": "persil plat", "group": "roff" },
+    { "raw": "4 gousses d'ail", "qty": 4, "unit": "piece", "item": "ail", "prep": "épluché", "group": "roff" },
+    { "raw": "1 piment antillais", "qty": 1, "unit": "piece", "item": "habanero", "prep": "épépiné", "group": "roff" },
+    { "raw": "1 cube de bouillon", "qty": 1, "unit": "piece", "item": "bouillon cube", "group": "roff" },
+    { "raw": "15 cl d'huile d'arachide", "qty": 15, "unit": "cl", "item": "huile d'arachide" },
+    { "raw": "3 gros oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "3 tomates, coupées en quartiers", "qty": 3, "unit": "piece", "item": "tomate", "prep": "coupée en quartiers" },
+    { "raw": "1 c. à s. de nététou", "qty": 1, "unit": "tbsp", "item": "néré", "substitutes": [{ "item": "miso", "note": "le miso brun donne le fond fermenté sans l'odeur ammoniaquée ; le plat est plus rond, moins sénégalais" }] },
+    { "raw": "80 g de poisson fumé, en morceaux", "qty": 80, "unit": "g", "item": "poisson fumé", "prep": "en morceaux", "optional": true },
+    { "raw": "1/2 chou blanc, en gros quartiers", "qty": 0.5, "unit": "piece", "item": "chou blanc", "prep": "en gros quartiers" },
+    { "raw": "3 carottes, coupées en deux", "qty": 3, "unit": "piece", "item": "carotte", "prep": "coupée en deux" },
+    { "raw": "300 g de manioc, en tronçons", "qty": 300, "unit": "g", "item": "manioc", "prep": "en tronçons" },
+    { "raw": "1 patate douce, en gros morceaux", "qty": 1, "unit": "piece", "item": "patate douce", "prep": "en gros morceaux" },
+    { "raw": "2 aubergines, coupées en deux", "qty": 2, "unit": "piece", "item": "aubergine", "prep": "coupée en deux" },
+    { "raw": "150 g de gombos", "qty": 150, "unit": "g", "item": "gombo", "prep": "équeuté", "optional": true },
+    { "raw": "700 g de riz brisé", "qty": 700, "unit": "g", "item": "riz brisé", "prep": "rincé" },
+    { "raw": "1 citron vert, en quartiers", "qty": 1, "unit": "piece", "item": "citron vert", "prep": "en quartiers" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Piler ensemble le persil, l'ail, le piment et le cube de bouillon jusqu'à obtenir une pâte verte : c'est le roff. Fendre chaque darne et la farcir généreusement.", "en": "Pound the parsley, garlic, chilli and stock cube to a green paste: this is the roff. Slit each fish steak and stuff it generously." },
+    { "fr": "Chauffer l'huile dans une grande marmite et y colorer les darnes farcies sur les deux faces, sans les cuire à cœur. Les réserver.", "en": "Heat the oil in a large pot and colour the stuffed steaks on both sides without cooking them through. Set aside." },
+    { "fr": "Dans la même huile, faire fondre les oignons jusqu'au brun clair, ajouter le concentré de tomate et le cuire trois bonnes minutes en remuant : il doit foncer et perdre son acidité.", "en": "In the same oil, cook the onions to a light brown, add the tomato paste and fry it for a good three minutes, stirring: it should darken and lose its sharpness." },
+    { "fr": "Ajouter les tomates, le nététou et le poisson fumé, puis 2 litres d'eau. Laisser bouillir 15 minutes pour monter le bouillon.", "en": "Add the tomatoes, the fermented locust bean and the smoked fish, then 2 litres of water. Boil for 15 minutes to build the broth." },
+    { "fr": "Y plonger les légumes durs — manioc, carottes, patate douce — puis, dix minutes plus tard, le chou, les aubergines et les gombos. Les retirer un à un dès qu'ils sont tendres et les garder au chaud.", "en": "Drop in the hard vegetables — cassava, carrots, sweet potato — then, ten minutes later, the cabbage, aubergines and okra. Lift each one out as it turns tender and keep them warm." },
+    { "fr": "Remettre le poisson dans le bouillon et le pocher 10 minutes. Le retirer avec précaution.", "en": "Return the fish to the broth and poach for 10 minutes. Lift it out carefully." },
+    { "fr": "Prélever la moitié du bouillon et le réserver. Verser le riz rincé dans le reste : le liquide doit dépasser d'un doigt. Couvrir et cuire à feu doux 20 à 25 minutes sans remuer, en ajoutant du bouillon réservé si le riz sèche trop tôt.", "en": "Take out half the broth and set it aside. Pour the rinsed rice into the rest: the liquid should sit a finger above it. Cover and cook gently for 20 to 25 minutes without stirring, adding reserved broth if the rice dries too early." },
+    { "fr": "Dresser le riz en dôme, poser le poisson et les légumes dessus, arroser d'une louche de bouillon et servir avec les quartiers de citron vert.", "en": "Mound the rice on a platter, arrange the fish and vegetables on top, moisten with a ladle of broth and serve with the lime wedges." }
+  ],
+  "notes": [
+    { "fr": "Le fond de riz légèrement collé au fond de la marmite — le xoon — se gratte et se sert à part. Ce n'est pas un raté, c'est ce que beaucoup préfèrent.", "en": "The rice lightly caught at the bottom of the pot — the xoon — is scraped up and served separately. It is not a mistake; many people prefer it." },
+    { "fr": "Le riz brisé n'est pas un riz de moindre qualité : ses grains cassés boivent le bouillon comme le riz long ne le fait pas. C'est lui qui fait le plat.", "en": "Broken rice is not lesser rice: its cracked grains drink the broth in a way long-grain never will. It is what makes the dish." }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "biscuits-and-gravy",
+  "cuisine": "north-american",
+  "country": "etats-unis",
+  "origin": "États-Unis",
+  "native_name": "Biscuits and gravy",
+  "title": {
+    "fr": "Scones américains à la sauce blanche",
+    "en": "Buttermilk biscuits with sausage gravy"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["sud", "petit-dejeuner", "saucisse", "reconfort"],
+  "ingredients": [
+    { "raw": "450 g de farine de blé", "qty": 450, "unit": "g", "item": "farine de blé", "group": "biscuits" },
+    { "raw": "150 g de beurre, TRÈS froid", "qty": 150, "unit": "g", "item": "beurre", "prep": "très froid", "group": "biscuits" },
+    { "raw": "30 cl de lait fermenté, très froid", "qty": 30, "unit": "cl", "item": "lait fermenté", "prep": "très froid", "group": "biscuits" },
+    { "raw": "4 c. à c. de levure chimique", "qty": 4, "unit": "tsp", "item": "levure chimique", "group": "biscuits" },
+    { "raw": "1 c. à c. de bicarbonate de soude", "qty": 1, "unit": "tsp", "item": "bicarbonate de soude", "group": "biscuits" },
+    { "raw": "500 g de chair à saucisse", "qty": 500, "unit": "g", "item": "porc haché", "group": "gravy" },
+    { "raw": "50 g de farine de blé", "qty": 50, "unit": "g", "item": "farine de blé", "group": "gravy" },
+    { "raw": "70 cl de lait entier", "qty": 70, "unit": "cl", "item": "lait entier", "group": "gravy" },
+    { "raw": "2 c. à c. de thym séché", "qty": 2, "unit": "tsp", "item": "thym", "group": "gravy" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Les « biscuits » américains ne sont pas des gâteaux : ce sont des petits pains salés, feuilletés.", "en": "American \"biscuits\" are not cookies: they are savoury, flaky little breads." },
+    { "fr": "Le beurre doit rester en MORCEAUX VISIBLES : râper le beurre congelé est la méthode la plus sûre.", "en": "The butter must stay in VISIBLE PIECES: grating frozen butter is the surest method." },
+    { "fr": "PLIER la pâte sur elle-même quatre fois avant de découper : c'est ce qui fait les feuillets.", "en": "FOLD the dough over itself four times before cutting: that makes the layers." },
+    { "fr": "Découper d'un coup SEC, sans tourner l'emporte-pièce : en tournant, on scelle les bords.", "en": "Cut with one SHARP press, without twisting the cutter: twisting seals the edges." },
+    { "fr": "Le gravy est un roux fait dans le GRAS DE SAUCISSE : c'est tout son goût.", "en": "The gravy is a roux made in the SAUSAGE FAT: that is its entire flavour." },
+    { "fr": "Poivrer BEAUCOUP plus que d'ordinaire : le poivre noir est un ingrédient du gravy, pas un assaisonnement.", "en": "Pepper it FAR more than usual: black pepper is an ingredient of the gravy, not a seasoning." }
+  ]
+}

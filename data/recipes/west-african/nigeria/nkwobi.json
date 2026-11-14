@@ -1,0 +1,37 @@
+{
+  "slug": "nkwobi",
+  "cuisine": "west-african",
+  "country": "nigeria",
+  "origin": "Nigeria",
+  "native_name": "Nkwobi",
+  "title": {
+    "fr": "Nkwobi, pieds de bœuf à l'huile de palme épaissie",
+    "en": "Nkwobi, cow foot in thickened palm oil"
+  },
+  "meal_type": "starter",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 150 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["igbo", "bar", "palme", "soiree"],
+  "ingredients": [
+    { "raw": "1,2 kg de pieds de bœuf, coupés par le boucher", "qty": 1200, "unit": "g", "item": "pied de veau", "prep": "coupé en morceaux" },
+    { "raw": "20 cl d'huile de palme rouge", "qty": 20, "unit": "cl", "item": "huile de palme rouge" },
+    { "raw": "2 c. à s. de potasse alimentaire", "qty": 2, "unit": "tbsp", "item": "potasse alimentaire" },
+    { "raw": "1 c. à s. d'ehuru moulu", "qty": 1, "unit": "tbsp", "item": "ehuru", "prep": "moulu" },
+    { "raw": "2 c. à s. de piment en poudre", "qty": 2, "unit": "tbsp", "item": "piment en poudre" },
+    { "raw": "1 oignon, en fines rondelles", "qty": 1, "unit": "piece", "item": "oignon", "prep": "en fines rondelles", "group": "garniture" },
+    { "raw": "2 cubes de bouillon", "qty": 2, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "1/2 bouquet de basilic, ciselé", "qty": 0.5, "unit": "bunch", "item": "basilic", "prep": "ciselé", "group": "garniture" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Nettoyer et brosser les pieds, puis les cuire deux heures et demie avec les cubes et le sel, jusqu'à ce qu'ils soient gélatineux.", "en": "Clean and scrub the trotters, then cook them for two and a half hours with the stock cubes and salt, until gelatinous." },
+    { "fr": "Dissoudre la potasse dans un demi-verre d'eau et la filtrer.", "en": "Dissolve the potash in half a glass of water and strain it." },
+    { "fr": "Verser l'eau de potasse dans l'huile de palme en fouettant sans arrêt : l'huile épaissit et jaunit d'un coup.", "en": "Whisk the potash water into the palm oil, without stopping: the oil thickens and turns yellow all at once." },
+    { "fr": "Trop de potasse rend le plat savonneux et immangeable : on l'ajoute goutte à goutte, en goûtant.", "en": "Too much potash makes the dish soapy and inedible: add it drop by drop, tasting." },
+    { "fr": "Incorporer l'ehuru, le piment et un peu de bouillon de cuisson.", "en": "Work in the ehuru, chilli and a little of the cooking broth." },
+    { "fr": "Enrober les morceaux de viande dans cette pâte et servir tiède, couvert d'oignon cru et de basilic.", "en": "Coat the meat in the paste and serve warm, topped with raw onion and basil." }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "kari-kapitan",
+  "cuisine": "southeast-asian",
+  "country": "malaisie",
+  "origin": "Malaisie",
+  "native_name": "Kari kapitan",
+  "title": {
+    "fr": "Kari kapitan, curry nyonya au poulet",
+    "en": "Kari kapitan, Nyonya chicken curry"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 50 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["nyonya", "penang", "coco", "citronnelle"],
+  "ingredients": [
+    { "raw": "1,2 kg de cuisses de poulet, en morceaux", "qty": 1200, "unit": "g", "item": "cuisse de poulet", "prep": "en morceaux" },
+    { "raw": "10 piments séchés, trempés", "qty": 10, "unit": "piece", "item": "piment séché", "prep": "trempé", "group": "rempah" },
+    { "raw": "12 échalotes", "qty": 12, "unit": "piece", "item": "échalote", "group": "rempah" },
+    { "raw": "6 gousses d'ail", "qty": 6, "unit": "piece", "item": "ail", "group": "rempah" },
+    { "raw": "3 tiges de citronnelle", "qty": 3, "unit": "piece", "item": "citronnelle", "group": "rempah" },
+    { "raw": "1 morceau de curcuma frais", "qty": 1, "unit": "piece", "item": "curcuma frais", "group": "rempah" },
+    { "raw": "1 morceau de galanga", "qty": 1, "unit": "piece", "item": "galanga", "group": "rempah" },
+    { "raw": "6 noix de bancoul", "qty": 6, "unit": "piece", "item": "noix de bancoul", "group": "rempah" },
+    { "raw": "1 c. à s. de pâte de crevette", "qty": 1, "unit": "tbsp", "item": "pâte de crevette", "group": "rempah" },
+    { "raw": "50 cl de lait de coco", "qty": 50, "unit": "cl", "item": "lait de coco" },
+    { "raw": "6 feuilles de combava", "qty": 6, "unit": "piece", "item": "feuille de combava" },
+    { "raw": "2 c. à s. de pâte de tamarin", "qty": 2, "unit": "tbsp", "item": "pâte de tamarin" },
+    { "raw": "2 c. à s. de sucre de palme", "qty": 2, "unit": "tbsp", "item": "sucre de palme" },
+    { "raw": "10 cl d'huile neutre", "qty": 10, "unit": "cl", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Le kari kapitan est un curry NYONYA : sino-malais, il n'a ni cumin ni coriandre en poudre.", "en": "Kari kapitan is a NYONYA curry: Chinese-Malay, it uses neither ground cumin nor coriander." },
+    { "fr": "Ce qui le porte, c'est la citronnelle et le galanga, en quantité, mixés dans le rempah.", "en": "What carries it is lemongrass and galangal, in quantity, blended into the rempah." },
+    { "fr": "Mixer le rempah très fin et le frire vingt minutes, jusqu'à ce que l'huile se sépare.", "en": "Blend the rempah very fine and fry it for twenty minutes, until the oil separates." },
+    { "fr": "Ajouter le poulet et l'enrober cinq minutes avant de mouiller.", "en": "Add the chicken and coat it for five minutes before adding liquid." },
+    { "fr": "Verser le lait de coco et les feuilles de combava, et laisser frémir trente minutes.", "en": "Add the coconut milk and lime leaves, and simmer for thirty minutes." },
+    { "fr": "Finir au tamarin et au sucre de palme : l'acidité et le sucré se règlent en dernier, en goûtant.", "en": "Finish with tamarind and palm sugar: the sour and the sweet are adjusted last, by tasting." }
+  ]
+}

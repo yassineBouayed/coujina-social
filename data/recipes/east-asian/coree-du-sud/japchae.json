@@ -1,0 +1,42 @@
+{
+  "slug": "japchae",
+  "cuisine": "east-asian",
+  "country": "coree-du-sud",
+  "origin": "Corée du Sud",
+  "native_name": "잡채",
+  "title": {
+    "fr": "Japchae, vermicelles de patate douce sautés",
+    "en": "Japchae, stir-fried sweet potato noodles"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 40, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "nouilles", "legumes", "sesame"],
+  "ingredients": [
+    { "raw": "300 g de dangmyeon", "qty": 300, "unit": "g", "item": "dangmyeon" },
+    { "raw": "300 g de bœuf en lanières", "qty": 300, "unit": "g", "item": "steak de bœuf", "prep": "en lanières" },
+    { "raw": "200 g d'épinards", "qty": 200, "unit": "g", "item": "épinard" },
+    { "raw": "200 g de shiitakes, en lamelles", "qty": 200, "unit": "g", "item": "shiitake", "prep": "en lamelles" },
+    { "raw": "2 carottes, en julienne", "qty": 2, "unit": "piece", "item": "carotte", "prep": "en julienne" },
+    { "raw": "1 oignon, émincé", "qty": 1, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "1 poivron rouge, en lanières", "qty": 1, "unit": "piece", "item": "poivron rouge", "prep": "en lanières" },
+    { "raw": "8 c. à s. de sauce soja", "qty": 8, "unit": "tbsp", "item": "sauce soja" },
+    { "raw": "4 c. à s. de sucre", "qty": 4, "unit": "tbsp", "item": "sucre" },
+    { "raw": "6 c. à s. d'huile de sésame", "qty": 6, "unit": "tbsp", "item": "huile de sésame" },
+    { "raw": "4 gousses d'ail, râpées", "qty": 4, "unit": "piece", "item": "ail", "prep": "râpé" },
+    { "raw": "3 c. à s. de graines de sésame", "qty": 3, "unit": "tbsp", "item": "sésame" },
+    { "raw": "4 c. à s. d'huile neutre", "qty": 4, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Comme le bibimbap, le japchae se fait légume par légume : chacun garde sa couleur et sa texture.", "en": "Like bibimbap, japchae is made vegetable by vegetable: each keeps its own colour and texture." },
+    { "fr": "Cuire les dangmyeon six minutes, les rincer à l'eau froide, et les couper aux ciseaux.", "en": "Cook the sweet potato noodles for six minutes, rinse them cold, and cut them with scissors." },
+    { "fr": "Non coupés, ils sont impossibles à manger à la baguette : la coupe fait partie de la recette.", "en": "Uncut, they are impossible to eat with chopsticks: cutting them is part of the recipe." },
+    { "fr": "Les assaisonner tout de suite à la sauce soja et à l'huile de sésame, tant qu'ils sont tièdes.", "en": "Season them straight away with soy and sesame oil, while still warm." },
+    { "fr": "Sauter chaque légume séparément, deux minutes, et le saler légèrement.", "en": "Stir-fry each vegetable separately for two minutes, and salt it lightly." },
+    { "fr": "Tout réunir dans un grand saladier et mélanger À LA MAIN, sans chauffer à nouveau.", "en": "Combine everything in a large bowl and mix BY HAND, without reheating." }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "tacu-tacu",
+  "cuisine": "latin-american",
+  "country": "perou",
+  "origin": "Pérou",
+  "native_name": "Tacu tacu",
+  "title": {
+    "fr": "Tacu tacu, galette de riz et haricots",
+    "en": "Tacu tacu, rice and bean cake"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["restes", "haricot", "poele", "afro-peruvien"],
+  "ingredients": [
+    { "raw": "500 g de haricots rouges cuits", "qty": 500, "unit": "g", "item": "haricot rouge", "prep": "cuit" },
+    { "raw": "500 g de riz long grain, cuit la veille", "qty": 500, "unit": "g", "item": "riz long grain", "prep": "cuit la veille" },
+    { "raw": "3 oignons rouges, hachés", "qty": 3, "unit": "piece", "item": "oignon rouge", "prep": "haché" },
+    { "raw": "3 piments ají amarillo", "qty": 3, "unit": "piece", "item": "ají amarillo" },
+    { "raw": "6 gousses d'ail, hachées", "qty": 6, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "12 cl d'huile neutre", "qty": 12, "unit": "cl", "item": "huile neutre" },
+    { "raw": "5 œufs", "qty": 5, "unit": "piece", "item": "oeuf", "group": "service" },
+    { "raw": "3 bananes plantains, en tranches", "qty": 3, "unit": "piece", "item": "plantain", "prep": "en tranches", "group": "service" },
+    { "raw": "2 c. à c. de cumin moulu", "qty": 2, "unit": "tsp", "item": "cumin" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le tacu tacu est un plat afro-péruvien né des restes : riz et haricots de la veille, refaits en galette.", "en": "Tacu tacu is an Afro-Peruvian leftovers dish: yesterday's rice and beans, reformed into a cake." },
+    { "fr": "Le riz doit être FROID et de la veille : chaud, il colle et la galette ne prend pas.", "en": "The rice must be COLD and a day old: warm, it clumps and the cake will not form." },
+    { "fr": "Écraser une partie des haricots à la fourchette : c'est leur amidon qui lie le tout.", "en": "Crush some of the beans with a fork: their starch binds everything." },
+    { "fr": "Faire un sofrito à l'ail, l'oignon et l'ají, et y jeter le mélange riz-haricots.", "en": "Make a sofrito of garlic, onion and ají, and tip in the rice and bean mixture." },
+    { "fr": "Le TASSER en galette dans la poêle et le laisser SANS Y TOUCHER huit minutes.", "en": "PRESS it into a cake in the pan and leave it UNTOUCHED for eight minutes." },
+    { "fr": "C'est cette croûte du dessous qui fait le tacu tacu : la retourner d'un coup, à l'assiette.", "en": "That bottom crust makes the tacu tacu: flip it in one movement, using a plate." }
+  ]
+}

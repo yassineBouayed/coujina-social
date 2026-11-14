@@ -1,0 +1,40 @@
+{
+  "slug": "seekh-kebab",
+  "cuisine": "south-asian",
+  "country": "pakistan",
+  "origin": "Pakistan",
+  "native_name": "Seekh kebab",
+  "title": {
+    "fr": "Seekh kebab, brochettes hachées grillées",
+    "en": "Seekh kebab, grilled minced skewers"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 15 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["grillade", "brochette", "fete", "rue"],
+  "ingredients": [
+    { "raw": "800 g d'agneau haché avec 20 % de gras", "qty": 800, "unit": "g", "item": "agneau haché" },
+    { "raw": "2 oignons, râpés et pressés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "râpé et pressé" },
+    { "raw": "2 c. à s. de pâte gingembre-ail", "qty": 2, "unit": "tbsp", "item": "pâte gingembre-ail" },
+    { "raw": "1 c. à s. de garam masala", "qty": 1, "unit": "tbsp", "item": "garam masala" },
+    { "raw": "1 c. à c. de piment kashmiri", "qty": 1, "unit": "tsp", "item": "piment kashmiri" },
+    { "raw": "3 c. à s. de farine de pois chiche, grillée", "qty": 3, "unit": "tbsp", "item": "farine de pois chiche", "prep": "grillée" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "3 piments verts, hachés", "qty": 3, "unit": "piece", "item": "piment frais", "prep": "haché" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "4 c. à s. de ghee, fondu", "qty": 4, "unit": "tbsp", "item": "ghee", "prep": "fondu" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Griller la farine de pois chiche à sec avant de l'utiliser : crue, elle donne un goût de farine au kebab.", "en": "Toast the chickpea flour dry before using it: raw, it leaves a floury taste in the kebab." },
+    { "fr": "Presser l'oignon râpé jusqu'à la dernière goutte : son eau ferait tomber la viande de la brochette.", "en": "Squeeze the grated onion to the last drop: its water would make the meat fall off the skewer." },
+    { "fr": "Pétrir la viande et tous les ingrédients dix minutes, jusqu'à ce que la masse devienne collante.", "en": "Knead the meat and all the ingredients for ten minutes, until the mass turns tacky." },
+    { "fr": "Laisser reposer deux heures au frais : froide, la viande tient bien mieux.", "en": "Rest for two hours in the fridge: cold, the meat holds far better." },
+    { "fr": "Mouler à mains mouillées autour de brochettes, en pressant fermement et en laissant des rainures.", "en": "Mould it with wet hands around skewers, pressing firmly and leaving ridges." },
+    { "fr": "Griller sur braises vives huit minutes, en badigeonnant de ghee et en tournant régulièrement.", "en": "Grill over hot coals for eight minutes, basting with ghee and turning regularly." }
+  ]
+}

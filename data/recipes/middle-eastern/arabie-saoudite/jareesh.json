@@ -1,0 +1,38 @@
+{
+  "slug": "jareesh",
+  "cuisine": "middle-eastern",
+  "country": "arabie-saoudite",
+  "origin": "Arabie saoudite",
+  "native_name": "Jareesh",
+  "title": {
+    "fr": "Jareesh, blé concassé mijoté au lait fermenté",
+    "en": "Jareesh, cracked wheat simmered with soured milk"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 120 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["nejd", "ble", "hiver", "reconfort"],
+  "ingredients": [
+    { "raw": "500 g de jareesh", "qty": 500, "unit": "g", "item": "jareesh" },
+    { "raw": "800 g d'épaule d'agneau, en cubes", "qty": 800, "unit": "g", "item": "épaule d'agneau", "prep": "en cubes" },
+    { "raw": "50 cl de lait caillé", "qty": 50, "unit": "cl", "item": "lait caillé" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "1 c. à s. de baharat", "qty": 1, "unit": "tbsp", "item": "baharat" },
+    { "raw": "4 gousses de cardamome", "qty": 4, "unit": "piece", "item": "cardamome" },
+    { "raw": "2 citrons séchés d'Oman", "qty": 2, "unit": "piece", "item": "citron séché d'Oman" },
+    { "raw": "80 g de ghee", "qty": 80, "unit": "g", "item": "ghee" },
+    { "raw": "1 c. à s. de menthe séchée", "qty": 1, "unit": "tbsp", "item": "menthe séchée", "group": "garniture" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Rincer le blé concassé à grande eau, plusieurs fois, jusqu'à ce que l'eau soit claire.", "en": "Rinse the cracked wheat well, several times, until the water runs clear." },
+    { "fr": "Cuire la viande avec un oignon, les épices et les citrons séchés, une heure.", "en": "Cook the meat with one onion, the spices and the dried limes for an hour." },
+    { "fr": "Ajouter le blé et beaucoup d'eau, et laisser cuire une heure en remuant régulièrement.", "en": "Add the wheat and plenty of water, and cook for an hour, stirring regularly." },
+    { "fr": "Le jareesh doit se défaire en une bouillie épaisse : c'est le but, pas un accident.", "en": "Jareesh should collapse into a thick porridge: that is the goal, not an accident." },
+    { "fr": "Ajouter le lait caillé en fin de cuisson, à feu doux, et remuer sans arrêt pour qu'il ne tranche pas.", "en": "Add the soured milk at the end, over low heat, stirring constantly so it does not split." },
+    { "fr": "Faire frire le reste des oignons dans le ghee avec la menthe séchée, et en couvrir le plat.", "en": "Fry the remaining onions in ghee with the dried mint, and cover the dish with them." }
+  ]
+}

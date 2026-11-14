@@ -1,0 +1,36 @@
+{
+  "slug": "gotu-kola-sambol",
+  "cuisine": "south-asian",
+  "country": "sri-lanka",
+  "origin": "Sri Lanka",
+  "native_name": "Gotu kola sambol",
+  "title": {
+    "fr": "Sambol de gotu kola au coco",
+    "en": "Gotu kola sambol with coconut"
+  },
+  "meal_type": "salad",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["cru", "vert", "coco", "sante"],
+  "ingredients": [
+    { "raw": "200 g de gotu kola", "qty": 200, "unit": "g", "item": "gotu kola" },
+    { "raw": "120 g de coco râpé frais", "qty": 120, "unit": "g", "item": "coco râpé" },
+    { "raw": "1 oignon rouge, haché très finement", "qty": 1, "unit": "piece", "item": "oignon rouge", "prep": "haché très finement" },
+    { "raw": "2 piments verts, hachés", "qty": 2, "unit": "piece", "item": "piment frais", "prep": "haché" },
+    { "raw": "2 tomates, en petits dés", "qty": 2, "unit": "piece", "item": "tomate", "prep": "en petits dés" },
+    { "raw": "2 citrons verts, leur jus", "qty": 2, "unit": "piece", "item": "citron vert" },
+    { "raw": "1 c. à s. de poisson des Maldives", "qty": 1, "unit": "tbsp", "item": "poisson des Maldives", "optional": true },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Laver le gotu kola feuille à feuille et le sécher parfaitement.", "en": "Wash the gotu kola leaf by leaf and dry it thoroughly." },
+    { "fr": "Le ciseler TRÈS finement au couteau, presque en poudre verte : c'est la coupe qui fait ce sambol.", "en": "Shred it VERY finely with a knife, almost to a green powder: the cut is what makes this sambol." },
+    { "fr": "Mélanger avec le coco râpé, l'oignon, les piments et le poisson des Maldives.", "en": "Mix with the grated coconut, onion, chillies and Maldive fish." },
+    { "fr": "Ajouter les tomates en dernier, pour qu'elles ne détrempent pas le coco.", "en": "Add the tomatoes last, so they do not soak the coconut." },
+    { "fr": "Assaisonner de citron vert et de sel AU MOMENT DE SERVIR : à l'avance, les feuilles noircissent.", "en": "Dress with lime and salt AT THE MOMENT OF SERVING: in advance, the leaves blacken." },
+    { "fr": "Servir en petite quantité, à côté du riz et des currys.", "en": "Serve in small quantity, beside rice and curries." }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "slug": "pho-bo",
+  "cuisine": "southeast-asian",
+  "country": "vietnam",
+  "origin": "Viêt Nam",
+  "native_name": "Phở bò",
+  "title": {
+    "fr": "Phở bò, soupe de nouilles au bœuf",
+    "en": "Pho bo, beef noodle soup"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 360 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["national", "bouillon", "hanoi", "petit-dejeuner"],
+  "ingredients": [
+    { "raw": "2 kg d'os de bœuf à moelle", "qty": 2000, "unit": "g", "item": "os à moelle" },
+    { "raw": "800 g de gîte de bœuf", "qty": 800, "unit": "g", "item": "boeuf à mijoter" },
+    { "raw": "500 g de nouilles de riz plates", "qty": 500, "unit": "g", "item": "nouilles de riz" },
+    { "raw": "300 g de bœuf cru en tranches très fines", "qty": 300, "unit": "g", "item": "steak de bœuf", "prep": "en tranches très fines" },
+    { "raw": "3 oignons, coupés en deux", "qty": 3, "unit": "piece", "item": "oignon", "prep": "coupé en deux" },
+    { "raw": "1 gros morceau de gingembre", "qty": 1, "unit": "piece", "item": "gingembre" },
+    { "raw": "5 badianes", "qty": 5, "unit": "piece", "item": "badiane" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "6 clous de girofle", "qty": 6, "unit": "piece", "item": "clou de girofle" },
+    { "raw": "2 c. à s. de coriandre en graines", "qty": 2, "unit": "tbsp", "item": "coriandre graines" },
+    { "raw": "8 c. à s. de sauce poisson", "qty": 8, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "1 bouquet de coriandre fraîche", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "group": "garniture" },
+    { "raw": "1 bouquet de basilic thaï", "qty": 1, "unit": "bunch", "item": "basilic", "group": "garniture" },
+    { "raw": "200 g de germes de soja", "qty": 200, "unit": "g", "item": "germes de soja", "group": "garniture" },
+    { "raw": "3 citrons verts, en quartiers", "qty": 3, "unit": "piece", "item": "citron vert", "group": "garniture" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Blanchir les os dix minutes et JETER cette eau, puis les rincer un à un sous l'eau froide.", "en": "Blanch the bones for ten minutes and DISCARD that water, then rinse them one by one under cold water." },
+    { "fr": "Sans ce blanchiment, le bouillon reste trouble et gris. Un phở se juge d'abord à sa limpidité.", "en": "Without that blanching the broth stays cloudy and grey. A pho is judged first on its clarity." },
+    { "fr": "BRÛLER oignons et gingembre entiers sur la flamme jusqu'à ce qu'ils noircissent, puis les peler.", "en": "CHAR the whole onions and ginger over a flame until blackened, then peel them." },
+    { "fr": "Griller les épices à sec et les enfermer dans une mousseline avec les aromates brûlés.", "en": "Toast the spices dry and tie them in muslin with the charred aromatics." },
+    { "fr": "Cuire SIX HEURES à frémissement à peine visible, en écumant toutes les demi-heures.", "en": "Cook for SIX HOURS at a barely visible simmer, skimming every half hour." },
+    { "fr": "Le bœuf cru se met CRU dans le bol : c'est le bouillon bouillant versé dessus qui le cuit.", "en": "The raw beef goes into the bowl RAW: the scalding broth poured over is what cooks it." }
+  ],
+  "notes": [
+    { "fr": "Un bouillon qui bout à gros bouillons devient laiteux et ne redevient jamais clair. Le feu ne monte jamais.", "en": "A broth at a rolling boil turns milky and never clears again. The heat never goes up." }
+  ]
+}

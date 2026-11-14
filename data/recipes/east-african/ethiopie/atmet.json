@@ -1,0 +1,34 @@
+{
+  "slug": "atmet",
+  "cuisine": "east-african",
+  "country": "ethiopie",
+  "origin": "Éthiopie",
+  "native_name": "Atmet",
+  "title": {
+    "fr": "Atmet, boisson d'orge au beurre et au miel",
+    "en": "Atmet, barley drink with butter and honey"
+  },
+  "meal_type": "drink",
+  "servings": 6,
+  "times": { "prep_min": 10, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["orge", "relevailles", "nourrissant", "chaud"],
+  "ingredients": [
+    { "raw": "150 g de farine d'orge", "qty": 150, "unit": "g", "item": "farine d'orge" },
+    { "raw": "1,2 l d'eau", "qty": 1.2, "unit": "l", "item": "eau" },
+    { "raw": "60 g de niter kibbeh", "qty": 60, "unit": "g", "item": "beurre", "prep": "clarifié aux épices" },
+    { "raw": "100 g de miel", "qty": 100, "unit": "g", "item": "miel" },
+    { "raw": "1 c. à c. de graines de lin, moulues", "qty": 1, "unit": "tsp", "item": "graine de lin", "prep": "moulue", "optional": true },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Griller la farine d'orge à sec dans une poêle, dix minutes, jusqu'à odeur de noisette.", "en": "Toast the barley flour dry in a pan for ten minutes, until it smells nutty." },
+    { "fr": "La laisser refroidir, puis la délayer dans l'eau froide jusqu'à obtenir un liquide sans grumeau.", "en": "Cool it, then slake it in cold water to a lump-free liquid." },
+    { "fr": "Porter à frémissement en fouettant, et laisser épaissir quinze minutes.", "en": "Bring to a simmer while whisking, and let it thicken for fifteen minutes." },
+    { "fr": "Ajouter le niter kibbeh et le sel, et fouetter jusqu'à ce que le beurre soit absorbé.", "en": "Add the niter kibbeh and salt, and whisk until the butter is absorbed." },
+    { "fr": "Sucrer au miel hors du feu : bouilli, le miel perd son parfum.", "en": "Sweeten with honey off the heat: boiled, honey loses its scent." },
+    { "fr": "Servir brûlant, en tasse. L'atmet se boit, il ne se mange pas à la cuillère.", "en": "Serve scalding, in a cup. Atmet is drunk, not spooned." }
+  ]
+}

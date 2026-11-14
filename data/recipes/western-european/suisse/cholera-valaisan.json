@@ -1,0 +1,40 @@
+{
+  "slug": "cholera-valaisan",
+  "cuisine": "western-european",
+  "country": "suisse",
+  "origin": "Suisse",
+  "native_name": "Cholera",
+  "title": {
+    "fr": "Cholera, tourte valaisanne aux poireaux",
+    "en": "Cholera, Valais leek and cheese pie"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 55 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["valais", "tourte", "fromage", "hiver"],
+  "ingredients": [
+    { "raw": "1 pâte feuilletée", "qty": 1, "unit": "piece", "item": "pâte feuilletée" },
+    { "raw": "600 g de pommes de terre, en fines tranches", "qty": 600, "unit": "g", "item": "pomme de terre", "prep": "en fines tranches" },
+    { "raw": "3 poireaux, en rondelles", "qty": 3, "unit": "piece", "item": "poireau", "prep": "en rondelles" },
+    { "raw": "3 pommes, en tranches", "qty": 3, "unit": "piece", "item": "pomme", "prep": "en tranches" },
+    { "raw": "300 g de fromage à raclette, en tranches", "qty": 300, "unit": "g", "item": "fromage à raclette", "prep": "en tranches" },
+    { "raw": "200 g de jambon cru, en lanières", "qty": 200, "unit": "g", "item": "jambon cru", "prep": "en lanières" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "60 g de beurre", "qty": 60, "unit": "g", "item": "beurre" },
+    { "raw": "1 œuf, pour dorer", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le nom vient de l'épidémie de 1836 : les Valaisans, confinés, cuisinaient ce qu'ils avaient en cave.", "en": "The name comes from the 1836 epidemic: confined Valaisans cooked whatever was in the cellar." },
+    { "fr": "L'accord POMME-FROMAGE-POIREAU est la marque du plat : le fruit n'y est pas un accident.", "en": "The APPLE-CHEESE-LEEK combination is the dish's hallmark: the fruit is no accident." },
+    { "fr": "PRÉCUIRE les pommes de terre dix minutes : crues, elles restent dures sous la pâte.", "en": "PRE-COOK the potatoes for ten minutes: raw, they stay hard under the pastry." },
+    { "fr": "Faire fondre poireaux et oignons vingt minutes, et les laisser REFROIDIR avant de garnir.", "en": "Melt the leeks and onions for twenty minutes, and COOL them before filling." },
+    { "fr": "Monter en couches et percer une CHEMINÉE au centre du couvercle de pâte.", "en": "Layer it up and pierce a CHIMNEY in the centre of the pastry lid." },
+    { "fr": "Cuire 55 minutes à 190 °C, et laisser reposer quinze minutes avant de découper.", "en": "Bake for 55 minutes at 190°C, and rest fifteen minutes before cutting." }
+  ]
+}

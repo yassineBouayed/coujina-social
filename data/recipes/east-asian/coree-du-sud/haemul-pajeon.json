@@ -1,0 +1,40 @@
+{
+  "slug": "haemul-pajeon",
+  "cuisine": "east-asian",
+  "country": "coree-du-sud",
+  "origin": "Corée du Sud",
+  "native_name": "해물파전",
+  "title": {
+    "fr": "Pajeon, galette aux fruits de mer et à la ciboule",
+    "en": "Pajeon, seafood and spring onion pancake"
+  },
+  "meal_type": "starter",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["pluie", "fruits-de-mer", "poele", "makgeolli"],
+  "ingredients": [
+    { "raw": "200 g de farine de blé", "qty": 200, "unit": "g", "item": "farine de blé" },
+    { "raw": "80 g de farine de riz", "qty": 80, "unit": "g", "item": "farine de riz" },
+    { "raw": "30 cl d'eau glacée", "qty": 30, "unit": "cl", "item": "eau" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "16 oignons nouveaux, entiers", "qty": 16, "unit": "piece", "item": "oignon nouveau" },
+    { "raw": "200 g de crevettes, décortiquées", "qty": 200, "unit": "g", "item": "crevette", "prep": "décortiquée" },
+    { "raw": "200 g de calamars, en anneaux", "qty": 200, "unit": "g", "item": "calamar", "prep": "en anneaux" },
+    { "raw": "4 c. à s. de sauce soja", "qty": 4, "unit": "tbsp", "item": "sauce soja", "group": "sauce" },
+    { "raw": "2 c. à s. de vinaigre de riz", "qty": 2, "unit": "tbsp", "item": "vinaigre de riz", "group": "sauce" },
+    { "raw": "1 c. à c. de gochugaru", "qty": 1, "unit": "tsp", "item": "gochugaru", "group": "sauce" },
+    { "raw": "10 cl d'huile neutre", "qty": 10, "unit": "cl", "item": "huile neutre" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "La farine de riz est ce qui rend le pajeon croustillant : à la farine de blé seule, il reste mou.", "en": "Rice flour is what makes pajeon crisp: with wheat flour alone, it stays soft." },
+    { "fr": "Faire une pâte FLUIDE à l'eau glacée, sans la travailler : les grumeaux ne sont pas un problème.", "en": "Make a THIN batter with iced water, without working it: lumps are not a problem." },
+    { "fr": "Ranger les oignons nouveaux ENTIERS et parallèles dans la poêle très huilée, avant la pâte.", "en": "Lay the spring onions WHOLE and parallel in the well-oiled pan, before the batter." },
+    { "fr": "Verser la pâte dessus, puis répartir les fruits de mer, et ne plus toucher.", "en": "Pour the batter over them, scatter the seafood on top, and leave it alone." },
+    { "fr": "L'huile doit être ABONDANTE : le pajeon se cuit presque en friture, c'est ce qui fait ses bords dentelés.", "en": "The oil must be PLENTIFUL: pajeon is nearly deep-fried, which is what gives it its lacy edges." },
+    { "fr": "Retourner une seule fois après cinq minutes, presser à la spatule, et servir coupé aux ciseaux.", "en": "Turn it once after five minutes, press with the spatula, and serve cut with scissors." }
+  ]
+}

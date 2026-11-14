@@ -1,0 +1,39 @@
+{
+  "slug": "kaju-curry",
+  "cuisine": "south-asian",
+  "country": "sri-lanka",
+  "origin": "Sri Lanka",
+  "native_name": "Kaju maluwa",
+  "title": {
+    "fr": "Curry de noix de cajou au lait de coco",
+    "en": "Cashew curry in coconut milk"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 40 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "vegetarien", "cajou", "doux"],
+  "ingredients": [
+    { "raw": "400 g de noix de cajou crues", "qty": 400, "unit": "g", "item": "noix de cajou" },
+    { "raw": "200 g de petits pois surgelés", "qty": 200, "unit": "g", "item": "petits pois surgelés" },
+    { "raw": "40 cl de lait de coco", "qty": 40, "unit": "cl", "item": "lait de coco" },
+    { "raw": "1 oignon, émincé", "qty": 1, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "1 c. à s. de poudre de curry", "qty": 1, "unit": "tbsp", "item": "poudre de curry" },
+    { "raw": "20 feuilles de curry", "qty": 20, "unit": "piece", "item": "feuille de curry" },
+    { "raw": "1 feuille de pandan", "qty": 1, "unit": "piece", "item": "feuille de pandan" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "4 c. à s. d'huile de coco", "qty": 4, "unit": "tbsp", "item": "huile de coco" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire tremper les noix de cajou crues QUATRE HEURES : sans cela, elles restent dures et le curry rate.", "en": "Soak the raw cashews for FOUR HOURS: without that, they stay hard and the curry fails." },
+    { "fr": "Utiliser des cajous CRUS, jamais grillés ni salés : les grillées ne s'attendrissent plus.", "en": "Use RAW cashews, never roasted or salted: roasted ones will not soften." },
+    { "fr": "Faire revenir oignon, cannelle, pandan et feuilles de curry dans l'huile de coco.", "en": "Fry the onion, cinnamon, pandan and curry leaves in the coconut oil." },
+    { "fr": "Ajouter les cajous égouttés, le curcuma, la poudre de curry et un peu d'eau, et cuire vingt minutes.", "en": "Add the drained cashews, turmeric, curry powder and a little water, and cook for twenty minutes." },
+    { "fr": "Ajouter le lait de coco et les petits pois, et laisser frémir quinze minutes.", "en": "Add the coconut milk and peas, and simmer for fifteen minutes." },
+    { "fr": "Les cajous doivent être fondants comme des pois chiches cuits. Servir avec du riz.", "en": "The cashews should be as tender as cooked chickpeas. Serve with rice." }
+  ]
+}

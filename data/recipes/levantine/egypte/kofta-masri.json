@@ -1,0 +1,40 @@
+{
+  "slug": "kofta-masri",
+  "cuisine": "levantine",
+  "country": "egypte",
+  "origin": "Égypte",
+  "native_name": "Kofta masria",
+  "title": {
+    "fr": "Kofta égyptienne à la sauce tomate",
+    "en": "Egyptian kofta in tomato sauce"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["quotidien", "boulettes", "tomate", "famille"],
+  "ingredients": [
+    { "raw": "800 g de bœuf haché", "qty": 800, "unit": "g", "item": "boeuf haché", "group": "boulettes" },
+    { "raw": "2 oignons, râpés et pressés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "râpé et pressé", "group": "boulettes" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé", "group": "boulettes" },
+    { "raw": "1 c. à c. de quatre-épices", "qty": 1, "unit": "tsp", "item": "quatre-épices", "group": "boulettes" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin", "group": "boulettes" },
+    { "raw": "800 g de tomates concassées", "qty": 800, "unit": "g", "item": "tomate concassée", "group": "sauce" },
+    { "raw": "6 gousses d'ail, écrasées", "qty": 6, "unit": "piece", "item": "ail", "prep": "écrasé", "group": "sauce" },
+    { "raw": "2 c. à s. de concentré de tomate", "qty": 2, "unit": "tbsp", "item": "concentré de tomate", "group": "sauce" },
+    { "raw": "1 c. à c. de coriandre en graines, moulue", "qty": 1, "unit": "tsp", "item": "coriandre graines", "prep": "moulue", "group": "sauce" },
+    { "raw": "6 c. à s. d'huile de tournesol", "qty": 6, "unit": "tbsp", "item": "huile de tournesol" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Pétrir la viande, l'oignon pressé, le persil et les épices cinq minutes, jusqu'à ce que le mélange colle.", "en": "Knead the meat, squeezed onion, parsley and spices for five minutes, until the mixture is tacky." },
+    { "fr": "Former des boulettes allongées et les faire dorer dans l'huile, puis les réserver.", "en": "Shape long meatballs and brown them in the oil, then set aside." },
+    { "fr": "Dans la même huile, faire revenir l'ail et le concentré de tomate, deux minutes.", "en": "In the same oil, fry the garlic and tomato purée for two minutes." },
+    { "fr": "Ajouter les tomates concassées et la coriandre, et laisser réduire vingt minutes.", "en": "Add the chopped tomatoes and coriander, and reduce for twenty minutes." },
+    { "fr": "Remettre les boulettes dans la sauce et laisser mijoter quinze minutes à couvert.", "en": "Return the meatballs to the sauce and simmer for fifteen minutes, covered." },
+    { "fr": "Servir sur du riz aux vermicelles, avec beaucoup de sauce.", "en": "Serve over vermicelli rice, with plenty of sauce." }
+  ]
+}

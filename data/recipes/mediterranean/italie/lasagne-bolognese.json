@@ -1,0 +1,45 @@
+{
+  "slug": "lasagne-bolognese",
+  "cuisine": "mediterranean",
+  "country": "italie",
+  "origin": "Italie",
+  "native_name": "Lasagne alla bolognese",
+  "title": {
+    "fr": "Lasagnes à la bolognaise",
+    "en": "Lasagne alla bolognese"
+  },
+  "meal_type": "main",
+  "servings": 8,
+  "times": { "prep_min": 60, "cook_min": 240 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["bologne", "dimanche", "ragu", "four"],
+  "ingredients": [
+    { "raw": "400 g de plaques de lasagne", "qty": 400, "unit": "g", "item": "pâtes courtes", "prep": "en plaques" },
+    { "raw": "500 g de bœuf haché", "qty": 500, "unit": "g", "item": "boeuf haché", "group": "ragù" },
+    { "raw": "300 g de porc haché", "qty": 300, "unit": "g", "item": "porc haché", "group": "ragù" },
+    { "raw": "150 g de pancetta, en dés", "qty": 150, "unit": "g", "item": "lardon", "group": "ragù" },
+    { "raw": "2 carottes, en tout petits dés", "qty": 2, "unit": "piece", "item": "carotte", "prep": "en tout petits dés", "group": "ragù" },
+    { "raw": "2 branches de céleri, en tout petits dés", "qty": 2, "unit": "piece", "item": "céleri branche", "prep": "en tout petits dés", "group": "ragù" },
+    { "raw": "1 oignon, en tout petits dés", "qty": 1, "unit": "piece", "item": "oignon", "prep": "en tout petits dés", "group": "ragù" },
+    { "raw": "25 cl de vin blanc", "qty": 25, "unit": "cl", "item": "vin blanc", "group": "ragù" },
+    { "raw": "40 cl de lait entier", "qty": 40, "unit": "cl", "item": "lait entier", "group": "ragù" },
+    { "raw": "400 g de tomate pelée en conserve", "qty": 400, "unit": "g", "item": "tomate pelée en conserve", "group": "ragù" },
+    { "raw": "80 g de beurre", "qty": 80, "unit": "g", "item": "beurre", "group": "béchamel" },
+    { "raw": "80 g de farine de blé", "qty": 80, "unit": "g", "item": "farine de blé", "group": "béchamel" },
+    { "raw": "1 l de lait entier", "qty": 1, "unit": "l", "item": "lait entier", "group": "béchamel" },
+    { "raw": "200 g de parmesan, râpé", "qty": 200, "unit": "g", "item": "parmesan", "prep": "râpé" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le vrai ragù bolognais contient PEU de tomate et BEAUCOUP de lait : ce n'est pas une sauce tomate.", "en": "A true Bolognese ragù has LITTLE tomato and A LOT of milk: it is not a tomato sauce." },
+    { "fr": "Cuire le soffritto — carotte, céleri, oignon — quinze minutes avant d'ajouter les viandes.", "en": "Cook the soffritto — carrot, celery, onion — for fifteen minutes before adding the meats." },
+    { "fr": "Ajouter le LAIT avant la tomate et le laisser absorber entièrement : il attendrit la viande.", "en": "Add the MILK before the tomato and let it absorb completely: it tenderises the meat." },
+    { "fr": "Cuire le ragù TROIS HEURES à feu très doux, à peine frémissant.", "en": "Cook the ragù for THREE HOURS over very low heat, barely at a simmer." },
+    { "fr": "Monter en couches fines : plaque, ragù, béchamel, parmesan, et recommencer six fois.", "en": "Build thin layers: sheet, ragù, béchamel, parmesan, and repeat six times." },
+    { "fr": "Cuire 45 minutes à 180 °C, puis LAISSER REPOSER vingt minutes avant de découper.", "en": "Bake for 45 minutes at 180°C, then REST for twenty minutes before cutting." }
+  ]
+}

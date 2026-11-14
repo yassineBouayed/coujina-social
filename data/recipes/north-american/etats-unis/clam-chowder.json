@@ -1,0 +1,41 @@
+{
+  "slug": "clam-chowder",
+  "cuisine": "north-american",
+  "country": "etats-unis",
+  "origin": "États-Unis",
+  "native_name": "New England clam chowder",
+  "title": {
+    "fr": "Chaudrée de palourdes de Nouvelle-Angleterre",
+    "en": "New England clam chowder"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 35 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["nouvelle-angleterre", "palourde", "creme", "hiver"],
+  "ingredients": [
+    { "raw": "1,5 kg de palourdes", "qty": 1500, "unit": "g", "item": "palourde" },
+    { "raw": "250 g de lardons", "qty": 250, "unit": "g", "item": "lardon" },
+    { "raw": "800 g de pommes de terre, en dés", "qty": 800, "unit": "g", "item": "pomme de terre", "prep": "en dés" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "3 branches de céleri, en dés", "qty": 3, "unit": "piece", "item": "céleri branche", "prep": "en dés" },
+    { "raw": "50 cl de crème liquide", "qty": 50, "unit": "cl", "item": "crème liquide" },
+    { "raw": "30 cl de lait entier", "qty": 30, "unit": "cl", "item": "lait entier" },
+    { "raw": "60 g de beurre", "qty": 60, "unit": "g", "item": "beurre" },
+    { "raw": "50 g de farine de blé", "qty": 50, "unit": "g", "item": "farine de blé" },
+    { "raw": "3 c. à c. de thym séché", "qty": 3, "unit": "tsp", "item": "thym" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La chaudrée de Nouvelle-Angleterre est BLANCHE et crémeuse : celle de Manhattan est à la tomate.", "en": "New England chowder is WHITE and creamy: the Manhattan one is tomato-based." },
+    { "fr": "Ouvrir les palourdes à la vapeur et FILTRER leur jus DEUX FOIS, à l'étamine.", "en": "Steam the clams open and STRAIN their liquor TWICE, through muslin." },
+    { "fr": "Ce jus remplace tout bouillon : c'est lui qui porte le goût de la mer.", "en": "That liquor replaces any stock: it carries the taste of the sea." },
+    { "fr": "Faire fondre les lardons et cuire oignons et céleri dans leur gras, quinze minutes.", "en": "Render the bacon and cook the onions and celery in its fat, for fifteen minutes." },
+    { "fr": "Ajouter les palourdes EN TOUT DERNIER, deux minutes avant de servir.", "en": "Add the clams LAST OF ALL, two minutes before serving." },
+    { "fr": "Recuites, elles deviennent caoutchouteuses et il n'y a aucun moyen de les rattraper.", "en": "Overcooked, they turn rubbery, and there is no way to bring them back." }
+  ]
+}

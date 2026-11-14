@@ -1,0 +1,43 @@
+{
+  "slug": "filet-americain",
+  "cuisine": "western-european",
+  "country": "belgique",
+  "origin": "Belgique",
+  "native_name": "Filet américain",
+  "title": {
+    "fr": "Filet américain, tartare de bœuf belge",
+    "en": "Filet américain, Belgian beef tartare"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 0 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["cru", "boeuf", "brasserie", "rapide"],
+  "ingredients": [
+    { "raw": "600 g de filet de bœuf, haché au couteau", "qty": 600, "unit": "g", "item": "filet de boeuf", "prep": "haché au couteau" },
+    { "raw": "20 cl de mayonnaise", "qty": 20, "unit": "cl", "item": "mayonnaise" },
+    { "raw": "3 c. à s. de moutarde", "qty": 3, "unit": "tbsp", "item": "moutarde" },
+    { "raw": "4 c. à s. de câpres, hachées", "qty": 4, "unit": "tbsp", "item": "câpre", "prep": "hachée" },
+    { "raw": "6 cornichons, hachés", "qty": 6, "unit": "piece", "item": "cornichon", "prep": "haché" },
+    { "raw": "2 échalotes, ciselées finement", "qty": 2, "unit": "piece", "item": "échalote", "prep": "ciselée finement" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "2 c. à s. de sauce Worcestershire", "qty": 2, "unit": "tbsp", "item": "sauce Worcestershire" },
+    { "raw": "1 c. à c. de piment de Cayenne", "qty": 1, "unit": "tsp", "item": "piment de Cayenne" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Cette viande se mange CRUE : n'utiliser qu'une pièce entière, achetée du jour, hachée à la commande.", "en": "This meat is eaten RAW: use only a whole cut, bought the same day, minced to order." },
+    { "fr": "Hacher AU COUTEAU, jamais au hachoir : la texture doit rester en morceaux, pas en pâte.", "en": "Chop it WITH A KNIFE, never in a mincer: the texture must stay in pieces, not a paste." },
+    { "fr": "Garder la viande AU FROID jusqu'à la dernière minute, et le saladier au réfrigérateur aussi.", "en": "Keep the meat COLD until the last minute, and chill the bowl as well." },
+    { "fr": "Contrairement au tartare français, le filet américain est lié à la MAYONNAISE, pas au jaune d'œuf.", "en": "Unlike a French tartare, filet américain is bound with MAYONNAISE, not with egg yolk." },
+    { "fr": "Mêler tous les condiments à la mayonnaise D'ABORD, puis incorporer la viande.", "en": "Mix all the seasonings into the mayonnaise FIRST, then fold in the meat." },
+    { "fr": "Servir DANS L'HEURE, avec des frites et du pain : au-delà, la viande grise et perd son goût.", "en": "Serve WITHIN THE HOUR, with chips and bread: beyond that, the meat greys and dulls." }
+  ],
+  "notes": [
+    { "fr": "Viande crue : à éviter pour les personnes enceintes, les jeunes enfants, les personnes âgées ou immunodéprimées.", "en": "Raw meat: not for pregnant people, young children, the elderly or the immunocompromised." }
+  ]
+}

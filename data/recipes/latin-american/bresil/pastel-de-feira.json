@@ -1,0 +1,42 @@
+{
+  "slug": "pastel-de-feira",
+  "cuisine": "latin-american",
+  "country": "bresil",
+  "origin": "Brésil",
+  "native_name": "Pastel",
+  "title": {
+    "fr": "Pastel frit à la viande",
+    "en": "Fried meat pastel"
+  },
+  "meal_type": "starter",
+  "servings": 8,
+  "times": { "prep_min": 45, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["marche", "friture", "rue", "chausson"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "20 cl d'eau tiède", "qty": 20, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "5 cl de vinaigre blanc", "qty": 5, "unit": "cl", "item": "vinaigre blanc", "group": "pâte" },
+    { "raw": "5 cl d'huile neutre", "qty": 5, "unit": "cl", "item": "huile neutre", "group": "pâte" },
+    { "raw": "2 c. à s. de cachaça", "qty": 2, "unit": "tbsp", "item": "vinaigre blanc", "prep": "ou cachaça", "group": "pâte" },
+    { "raw": "600 g de bœuf haché", "qty": 600, "unit": "g", "item": "boeuf haché", "group": "farce" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché", "group": "farce" },
+    { "raw": "4 gousses d'ail, hachées", "qty": 4, "unit": "piece", "item": "ail", "prep": "haché", "group": "farce" },
+    { "raw": "100 g d'olives noires, hachées", "qty": 100, "unit": "g", "item": "olive noire", "prep": "hachée", "group": "farce" },
+    { "raw": "3 œufs durs, hachés", "qty": 3, "unit": "piece", "item": "oeuf", "prep": "dur, haché", "group": "farce" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé", "group": "farce" },
+    { "raw": "2 l d'huile neutre pour la friture", "qty": 2, "unit": "l", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le VINAIGRE dans la pâte est ce qui fait les BULLES caractéristiques du pastel frit.", "en": "The VINEGAR in the dough is what makes the pastel's characteristic BLISTERS." },
+    { "fr": "Il détend le gluten et l'alcool s'évapore violemment dans l'huile, soulevant la pâte.", "en": "It relaxes the gluten, and the alcohol evaporates violently in the oil, lifting the dough." },
+    { "fr": "Étaler la pâte TRÈS FIN, presque transparente : épaisse, le pastel devient un chausson lourd.", "en": "Roll the dough VERY thin, almost see-through: thick, the pastel becomes a heavy turnover." },
+    { "fr": "La farce doit être SÈCHE et FROIDE : humide, elle perce la pâte à la friture.", "en": "The filling must be DRY and COLD: wet, it pierces the dough in the fryer." },
+    { "fr": "Souder les bords à la fourchette, en chassant tout l'air : une bulle d'air le fait éclater.", "en": "Seal the edges with a fork, pushing out all the air: an air bubble bursts it." },
+    { "fr": "Frire à 190 °C en ARROSANT le dessus d'huile à la louche : c'est ce qui le fait gonfler.", "en": "Fry at 190°C, SPOONING oil over the top: that is what makes it puff." }
+  ]
+}

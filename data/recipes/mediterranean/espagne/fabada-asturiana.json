@@ -1,0 +1,38 @@
+{
+  "slug": "fabada-asturiana",
+  "cuisine": "mediterranean",
+  "country": "espagne",
+  "origin": "Espagne",
+  "native_name": "Fabada asturiana",
+  "title": {
+    "fr": "Fabada des Asturies",
+    "en": "Asturian fabada"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 180 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["asturies", "haricot", "hiver", "chorizo"],
+  "ingredients": [
+    { "raw": "600 g de gros haricots blancs secs, trempés la veille", "qty": 600, "unit": "g", "item": "haricot blanc", "prep": "trempé la veille" },
+    { "raw": "3 chorizos", "qty": 3, "unit": "piece", "item": "chorizo" },
+    { "raw": "2 boudins noirs", "qty": 2, "unit": "piece", "item": "boudin noir" },
+    { "raw": "250 g de poitrine de porc fumée", "qty": 250, "unit": "g", "item": "poitrine de porc", "prep": "fumée" },
+    { "raw": "200 g d'épaule de porc salée", "qty": 200, "unit": "g", "item": "échine de porc", "prep": "salée" },
+    { "raw": "1 grosse pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "1 oignon", "qty": 1, "unit": "piece", "item": "oignon" },
+    { "raw": "2 gousses d'ail", "qty": 2, "unit": "piece", "item": "ail" },
+    { "raw": "1 c. à c. de paprika fumé", "qty": 1, "unit": "tsp", "item": "paprika fumé" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Tremper les haricots VINGT-QUATRE HEURES : les fabes asturiennes sont grosses et boivent longtemps.", "en": "Soak the beans for TWENTY-FOUR HOURS: Asturian fabes are large and drink slowly." },
+    { "fr": "Tout part À L'EAU FROIDE, ensemble : haricots, charcuteries et aromates.", "en": "Everything starts in COLD water, together: beans, cured meats and aromatics." },
+    { "fr": "Porter à frémissement et « effrayer » : ajouter un verre d'eau froide trois fois pendant la cuisson.", "en": "Bring to a simmer and \"scare\" it: add a glass of cold water three times during cooking." },
+    { "fr": "Ce choc arrête l'ébullition et empêche les haricots d'éclater.", "en": "That shock halts the boil and keeps the beans from bursting." },
+    { "fr": "Cuire TROIS HEURES sans jamais remuer à la cuillère : on secoue la marmite par les anses.", "en": "Cook for THREE HOURS without ever stirring with a spoon: shake the pot by its handles instead." },
+    { "fr": "Le bouillon doit être ÉPAIS et onctueux : s'il est clair, écraser quelques haricots et remettre.", "en": "The broth should be THICK and unctuous: if it is thin, crush a few beans and stir them back in." }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "bitterballen",
+  "cuisine": "western-european",
+  "country": "pays-bas",
+  "origin": "Pays-Bas",
+  "native_name": "Bitterballen",
+  "title": {
+    "fr": "Bitterballen, croquettes de bœuf",
+    "en": "Bitterballen, beef ragout croquettes"
+  },
+  "meal_type": "starter",
+  "servings": 8,
+  "times": { "prep_min": 45, "cook_min": 35 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["apero", "friture", "cafe-brun", "boeuf"],
+  "ingredients": [
+    { "raw": "500 g de bœuf à mijoter", "qty": 500, "unit": "g", "item": "boeuf à mijoter" },
+    { "raw": "100 g de beurre", "qty": 100, "unit": "g", "item": "beurre", "group": "ragoût" },
+    { "raw": "120 g de farine de blé", "qty": 120, "unit": "g", "item": "farine de blé", "group": "ragoût" },
+    { "raw": "60 cl de bouillon de bœuf", "qty": 60, "unit": "cl", "item": "bouillon boeuf", "group": "ragoût" },
+    { "raw": "1 oignon, haché très finement", "qty": 1, "unit": "piece", "item": "oignon", "prep": "haché très finement", "group": "ragoût" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé", "group": "ragoût" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée", "group": "ragoût" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf", "group": "panure" },
+    { "raw": "200 g de chapelure", "qty": 200, "unit": "g", "item": "panko", "group": "panure" },
+    { "raw": "100 g de farine de blé", "qty": 100, "unit": "g", "item": "farine de blé", "group": "panure" },
+    { "raw": "1,5 l d'huile neutre pour la friture", "qty": 1.5, "unit": "l", "item": "huile neutre" },
+    { "raw": "4 c. à s. de moutarde", "qty": 4, "unit": "tbsp", "item": "moutarde", "group": "service" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Braiser le bœuf deux heures, l'effilocher À LA FOURCHETTE, et garder son bouillon.", "en": "Braise the beef for two hours, shred it WITH A FORK, and keep its broth." },
+    { "fr": "Faire un roux TRÈS serré et le mouiller au bouillon : la panade doit napper lourdement la cuillère.", "en": "Make a VERY tight roux and moisten it with the broth: the panade must coat a spoon heavily." },
+    { "fr": "Mêler la viande effilochée et étaler sur deux centimètres dans un plat.", "en": "Mix in the shredded meat and spread it two centimetres thick in a dish." },
+    { "fr": "RÉFRIGÉRER SIX HEURES : une panade tiède éclate dans la friture et vide la boule dans l'huile.", "en": "CHILL FOR SIX HOURS: a warm panade bursts in the fryer and empties the ball into the oil." },
+    { "fr": "Rouler des boules, passer farine, œuf, chapelure — puis une SECONDE fois œuf et chapelure.", "en": "Roll balls, coat in flour, egg and crumbs — then a SECOND round of egg and crumbs." },
+    { "fr": "Frire à 180 °C, trois minutes, cinq boules à la fois maximum.", "en": "Fry at 180°C for three minutes, five balls at a time at most." }
+  ],
+  "notes": [
+    { "fr": "L'intérieur est BRÛLANT à la sortie : attendre deux minutes avant de croquer.", "en": "The inside is SCALDING when it comes out: wait two minutes before biting." }
+  ]
+}

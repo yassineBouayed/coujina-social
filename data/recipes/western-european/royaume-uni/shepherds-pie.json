@@ -1,0 +1,42 @@
+{
+  "slug": "shepherds-pie",
+  "cuisine": "western-european",
+  "country": "royaume-uni",
+  "origin": "Royaume-Uni",
+  "native_name": "Shepherd's pie",
+  "title": {
+    "fr": "Shepherd's pie à l'agneau",
+    "en": "Shepherd's pie with lamb"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 35, "cook_min": 60 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["famille", "agneau", "gratin", "hiver"],
+  "ingredients": [
+    { "raw": "800 g d'agneau haché", "qty": 800, "unit": "g", "item": "agneau haché" },
+    { "raw": "1,2 kg de pommes de terre", "qty": 1200, "unit": "g", "item": "pomme de terre" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "3 carottes, en petits dés", "qty": 3, "unit": "piece", "item": "carotte", "prep": "en petits dés" },
+    { "raw": "200 g de petits pois surgelés", "qty": 200, "unit": "g", "item": "petits pois surgelés" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "2 c. à s. de sauce Worcestershire", "qty": 2, "unit": "tbsp", "item": "sauce Worcestershire" },
+    { "raw": "40 cl de bouillon de bœuf", "qty": 40, "unit": "cl", "item": "bouillon boeuf" },
+    { "raw": "100 g de beurre", "qty": 100, "unit": "g", "item": "beurre" },
+    { "raw": "15 cl de lait entier", "qty": 15, "unit": "cl", "item": "lait entier" },
+    { "raw": "120 g de cheddar, râpé", "qty": 120, "unit": "g", "item": "cheddar", "prep": "râpé", "optional": true },
+    { "raw": "2 c. à c. de thym séché", "qty": 2, "unit": "tsp", "item": "thym" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Shepherd's pie veut dire pie du BERGER : c'est de l'AGNEAU. Au bœuf, cela s'appelle cottage pie.", "en": "Shepherd's pie means the SHEPHERD's pie: it is LAMB. With beef, it is called cottage pie." },
+    { "fr": "Faire colorer la viande à feu VIF, par petites quantités, jusqu'à ce qu'elle brunisse vraiment.", "en": "Brown the meat over HIGH heat, in small batches, until it truly colours." },
+    { "fr": "La sauce Worcestershire n'est pas facultative : elle apporte l'umami qui porte tout le plat.", "en": "The Worcestershire sauce is not optional: it brings the umami that carries the dish." },
+    { "fr": "Laisser réduire la garniture VINGT MINUTES à découvert : humide, elle traverse la purée.", "en": "Reduce the filling for TWENTY MINUTES uncovered: wet, it seeps through the mash." },
+    { "fr": "Faire une purée FERME au presse-purée, avec beurre et lait chaud, jamais au mixeur.", "en": "Make a FIRM mash with a ricer, butter and hot milk, never with a blender." },
+    { "fr": "Rayer la purée à la fourchette et cuire trente minutes à 200 °C : les arêtes gratinent.", "en": "Score the mash with a fork and bake for thirty minutes at 200°C: the ridges brown." }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "dombres-crevettes",
+  "cuisine": "caribbean",
+  "country": "guadeloupe",
+  "origin": "Guadeloupe",
+  "native_name": "Dombrés aux ouassous",
+  "title": {
+    "fr": "Dombrés aux crevettes",
+    "en": "Dombrés dumplings with prawns"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 35, "cook_min": 40 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["embleme", "crevette", "boulettes", "famille"],
+  "ingredients": [
+    { "raw": "800 g de crevettes crues, entières", "qty": 800, "unit": "g", "item": "crevette", "prep": "entières" },
+    { "raw": "400 g de farine de blé", "qty": 400, "unit": "g", "item": "farine de blé", "group": "dombrés" },
+    { "raw": "20 cl d'eau", "qty": 20, "unit": "cl", "item": "eau", "group": "dombrés" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel", "group": "dombrés" },
+    { "raw": "5 tomates, en dés", "qty": 5, "unit": "piece", "item": "tomate", "prep": "en dés" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "8 gousses d'ail, écrasées", "qty": 8, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 bouquet d'oignons nouveaux, émincés", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "émincé" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "1 piment végétarien", "qty": 1, "unit": "piece", "item": "piment végétarien" },
+    { "raw": "4 feuilles de bois d'Inde", "qty": 4, "unit": "piece", "item": "bois d'Inde" },
+    { "raw": "3 citrons verts, leur jus", "qty": 3, "unit": "piece", "item": "citron vert" },
+    { "raw": "80 cl d'eau", "qty": 80, "unit": "cl", "item": "eau" },
+    { "raw": "10 cl d'huile neutre", "qty": 10, "unit": "cl", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Les dombrés cuisent DANS LA SAUCE, jamais à l'eau à part : c'est ce qui fait le plat.", "en": "The dombrés cook IN THE SAUCE, never separately in water: that is what makes the dish." },
+    { "fr": "Leur amidon épaissit la sauce en même temps qu'ils s'en imprègnent.", "en": "Their starch thickens the sauce at the same time as they take it up." },
+    { "fr": "La pâte est FERME, presque dure : farine, eau, sel, et rien d'autre. Pas de levure.", "en": "The dough is FIRM, almost hard: flour, water, salt, and nothing else. No raising agent." },
+    { "fr": "La laisser reposer trente minutes, puis rouler des boules de la taille d'une noix.", "en": "Rest it for thirty minutes, then roll balls the size of a walnut." },
+    { "fr": "Les jeter dans la sauce FRÉMISSANTE et cuire vingt minutes à couvert.", "en": "Drop them into the SIMMERING sauce and cook for twenty minutes, covered." },
+    { "fr": "Ajouter les crevettes les CINQ dernières minutes seulement : plus tôt, elles durcissent.", "en": "Add the prawns in the LAST FIVE minutes only: earlier, they toughen." }
+  ]
+}

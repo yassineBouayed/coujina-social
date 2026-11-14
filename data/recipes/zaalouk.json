@@ -1,0 +1,42 @@
+{
+  "slug": "zaalouk",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Zaalouk",
+  "title": {
+    "fr": "Zaalouk, salade cuite d'aubergines et de tomates",
+    "en": "Zaalouk, cooked aubergine and tomato salad"
+  },
+  "meal_type": "salad",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 40 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j2-sonde-v1", "date": "2026-08-28" },
+  "tags": ["salade-cuite", "aubergine", "vegetarien", "mezze"],
+  "ingredients": [
+    { "raw": "3 aubergines, pelées en lanières", "qty": 3, "unit": "piece", "item": "aubergine", "prep": "pelée en lanières" },
+    { "raw": "4 tomates bien mûres, pelées et concassées", "qty": 4, "unit": "piece", "item": "tomate", "prep": "pelée et concassée" },
+    { "raw": "4 gousses d'ail, écrasées", "qty": 4, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 c. à c. de paprika", "qty": 1, "unit": "tsp", "item": "paprika" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin moulu" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselé", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "5 c. à s. d'huile d'olive", "qty": 5, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "1 c. à s. de jus de citron", "qty": 1, "unit": "tbsp", "item": "citron", "prep": "pressé" },
+    { "raw": "1 pincée de piment de Cayenne", "qty": 1, "unit": "pinch", "item": "piment de Cayenne", "optional": true },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Couper les aubergines en gros cubes et les cuire à la vapeur ou à l'eau salée jusqu'à ce qu'elles soient très tendres.", "en": "Cut the aubergines into large cubes and cook them in steam or salted water until very tender." },
+    { "fr": "Faire revenir l'ail dans l'huile d'olive sans le colorer, ajouter les tomates, le paprika et le cumin.", "en": "Soften the garlic in the olive oil without colouring it, then add the tomatoes, paprika and cumin." },
+    { "fr": "Ajouter les aubergines égouttées et écrasées à la fourchette.", "en": "Add the aubergines, drained and crushed with a fork." },
+    { "fr": "Cuire à découvert vingt à trente minutes, en écrasant régulièrement, jusqu'à ce que l'eau soit partie et que l'huile perle en surface.", "en": "Cook uncovered for twenty to thirty minutes, mashing regularly, until the water is gone and the oil beads on the surface." },
+    { "fr": "Hors du feu, ajouter les herbes, le jus de citron, le sel et le piment.", "en": "Off the heat, add the herbs, lemon juice, salt and chilli." },
+    { "fr": "Servir tiède ou froid, avec du pain, jamais chaud.", "en": "Serve warm or cold with bread, never hot." }
+  ],
+  "notes": [
+    { "fr": "Le zaalouk est meilleur le lendemain : il se garde trois jours au réfrigérateur, couvert d'un film d'huile.", "en": "Zaalouk is better the next day: it keeps three days in the fridge under a film of oil." }
+  ]
+}

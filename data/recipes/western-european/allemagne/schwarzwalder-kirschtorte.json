@@ -1,0 +1,40 @@
+{
+  "slug": "schwarzwalder-kirschtorte",
+  "cuisine": "western-european",
+  "country": "allemagne",
+  "origin": "Allemagne",
+  "native_name": "Schwarzwälder Kirschtorte",
+  "title": {
+    "fr": "Forêt-Noire aux griottes",
+    "en": "Black Forest cherry cake"
+  },
+  "meal_type": "dessert",
+  "servings": 12,
+  "times": { "prep_min": 70, "cook_min": 35 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["foret-noire", "cerise", "chocolat", "fete"],
+  "ingredients": [
+    { "raw": "6 œufs", "qty": 6, "unit": "piece", "item": "oeuf", "group": "génoise" },
+    { "raw": "180 g de sucre", "qty": 180, "unit": "g", "item": "sucre", "group": "génoise" },
+    { "raw": "120 g de farine de blé", "qty": 120, "unit": "g", "item": "farine de blé", "group": "génoise" },
+    { "raw": "60 g de cacao en poudre", "qty": 60, "unit": "g", "item": "cacao en poudre", "group": "génoise" },
+    { "raw": "80 g de beurre, fondu", "qty": 80, "unit": "g", "item": "beurre", "prep": "fondu", "group": "génoise" },
+    { "raw": "800 g de griottes", "qty": 800, "unit": "g", "item": "griotte", "group": "garniture" },
+    { "raw": "100 g de sucre", "qty": 100, "unit": "g", "item": "sucre", "group": "garniture" },
+    { "raw": "2 c. à s. de maïzena", "qty": 2, "unit": "tbsp", "item": "maïzena", "group": "garniture" },
+    { "raw": "70 cl de crème liquide entière, très froide", "qty": 70, "unit": "cl", "item": "crème liquide", "prep": "très froide", "group": "chantilly" },
+    { "raw": "60 g de sucre glace", "qty": 60, "unit": "g", "item": "sucre glace", "group": "chantilly" },
+    { "raw": "200 g de chocolat noir", "qty": 200, "unit": "g", "item": "chocolat noir", "group": "décor" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Monter les œufs entiers avec le sucre AU BAIN-MARIE, jusqu'à 45 °C, puis battre dix minutes.", "en": "Whip the whole eggs and sugar OVER A WATER BATH, to 45°C, then beat for ten minutes." },
+    { "fr": "C'est la seule levée de la génoise : ni levure, ni bicarbonate, uniquement de l'air.", "en": "That is the sponge's only leavening: no baking powder, no soda, only air." },
+    { "fr": "Tamiser farine et cacao ENSEMBLE et les incorporer à la maryse, en douze mouvements maximum.", "en": "Sift the flour and cocoa TOGETHER and fold them in with a spatula, twelve movements at most." },
+    { "fr": "Cuire 35 minutes à 175 °C, laisser refroidir, et couper en TROIS disques au couteau-scie.", "en": "Bake for 35 minutes at 175°C, cool, and cut into THREE discs with a serrated knife." },
+    { "fr": "Imbiber chaque disque du JUS des griottes cuites : une génoise sèche gâche toute la Forêt-Noire.", "en": "Soak each disc with the JUICE from the cooked cherries: a dry sponge ruins a Black Forest." },
+    { "fr": "Monter la chantilly TRÈS froide, alterner génoise, cerises et crème, et couvrir de copeaux.", "en": "Whip the cream VERY cold, alternate sponge, cherries and cream, and cover with chocolate shavings." }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "galaktoboureko",
+  "cuisine": "mediterranean",
+  "country": "grece",
+  "origin": "Grèce",
+  "native_name": "Γαλακτομπούρεκο",
+  "title": {
+    "fr": "Galaktoboureko, gâteau de semoule au filo",
+    "en": "Galaktoboureko, semolina custard pie"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 40, "cook_min": 50 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["creme", "semoule", "filo", "sirop"],
+  "ingredients": [
+    { "raw": "1 l de lait entier", "qty": 1, "unit": "l", "item": "lait entier" },
+    { "raw": "150 g de semoule fine", "qty": 150, "unit": "g", "item": "semoule fine" },
+    { "raw": "5 œufs", "qty": 5, "unit": "piece", "item": "oeuf" },
+    { "raw": "200 g de sucre", "qty": 200, "unit": "g", "item": "sucre" },
+    { "raw": "1 gousse de vanille, fendue", "qty": 1, "unit": "piece", "item": "gousse de vanille", "prep": "fendue" },
+    { "raw": "1 citron, son zeste", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "400 g de pâte filo", "qty": 400, "unit": "g", "item": "pâte filo" },
+    { "raw": "180 g de beurre, fondu", "qty": 180, "unit": "g", "item": "beurre", "prep": "fondu" },
+    { "raw": "300 g de sucre", "qty": 300, "unit": "g", "item": "sucre", "group": "sirop" },
+    { "raw": "25 cl d'eau", "qty": 25, "unit": "cl", "item": "eau", "group": "sirop" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Verser la semoule EN PLUIE dans le lait bouillant, en fouettant : versée d'un coup, elle fait des grumeaux.", "en": "Rain the semolina into the boiling milk, whisking: tipped in at once, it lumps." },
+    { "fr": "Cuire cinq minutes jusqu'à épaississement, puis retirer du feu et laisser TIÉDIR.", "en": "Cook for five minutes until thick, then take off the heat and let it COOL a little." },
+    { "fr": "Ajouter les œufs battus dans la semoule TIÈDE : dans la semoule brûlante, ils coagulent aussitôt.", "en": "Add the beaten eggs to the WARM semolina: in scalding semolina, they scramble at once." },
+    { "fr": "Étaler la crème sur huit feuilles de filo beurrées, et couvrir de huit autres.", "en": "Spread the custard over eight buttered filo sheets, and cover with eight more." },
+    { "fr": "Prédécouper les parts et cuire 50 minutes à 170 °C, jusqu'à un doré profond.", "en": "Pre-cut the portions and bake for 50 minutes at 170°C, to a deep gold." },
+    { "fr": "Verser le sirop FROID sur le gâteau BRÛLANT, dès la sortie du four, et laisser absorber quatre heures.", "en": "Pour COLD syrup over the SCALDING pie, straight from the oven, and let it soak for four hours." }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "scones-irlandais-aux-raisins",
+  "cuisine": "western-european",
+  "country": "irlande",
+  "origin": "Irlande",
+  "native_name": "Irish fruit scones",
+  "title": {
+    "fr": "Scones irlandais au lait fermenté",
+    "en": "Irish buttermilk fruit scones"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 20, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["the", "gouter", "raisin", "rapide"],
+  "ingredients": [
+    { "raw": "450 g de farine de blé", "qty": 450, "unit": "g", "item": "farine de blé" },
+    { "raw": "100 g de beurre, très froid", "qty": 100, "unit": "g", "item": "beurre", "prep": "très froid" },
+    { "raw": "60 g de sucre", "qty": 60, "unit": "g", "item": "sucre" },
+    { "raw": "150 g de raisins secs", "qty": 150, "unit": "g", "item": "raisin sec" },
+    { "raw": "25 cl de lait fermenté", "qty": 25, "unit": "cl", "item": "lait fermenté" },
+    { "raw": "1 c. à c. de bicarbonate de soude", "qty": 1, "unit": "tsp", "item": "bicarbonate de soude" },
+    { "raw": "2 c. à c. de levure chimique", "qty": 2, "unit": "tsp", "item": "levure chimique" },
+    { "raw": "1 œuf, pour dorer", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le scone irlandais se fait au LAIT FERMENTÉ et au bicarbonate, là où l'anglais va au lait et à la levure.", "en": "The Irish scone uses BUTTERMILK and bicarbonate, where the English one uses milk and baking powder." },
+    { "fr": "L'acidité du lait fermenté donne une mie plus tendre et un goût légèrement acidulé.", "en": "The buttermilk's acidity gives a more tender crumb and a slightly tangy taste." },
+    { "fr": "Sabler le beurre TRÈS FROID du bout des doigts, en gardant des morceaux visibles.", "en": "Rub in the VERY COLD butter with your fingertips, keeping visible pieces." },
+    { "fr": "Fariner les raisins avant de les ajouter : sinon ils tombent tous au fond du scone.", "en": "Flour the raisins before adding them: otherwise they all sink to the bottom." },
+    { "fr": "Ne travailler la pâte que dix secondes, et l'abaisser à deux centimètres et demi.", "en": "Work the dough for ten seconds only, and roll it two and a half centimetres thick." },
+    { "fr": "Cuire quinze minutes à 220 °C, four déjà bien chaud, et servir tièdes avec du beurre.", "en": "Bake for fifteen minutes at 220°C in a fully preheated oven, and serve warm with butter." }
+  ]
+}

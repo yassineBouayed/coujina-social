@@ -1,0 +1,37 @@
+{
+  "slug": "boxty",
+  "cuisine": "western-european",
+  "country": "irlande",
+  "origin": "Irlande",
+  "native_name": "Boxty",
+  "title": {
+    "fr": "Boxty, galettes de pommes de terre",
+    "en": "Boxty, potato pancakes"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["leitrim", "galette", "petit-dejeuner", "pomme-de-terre"],
+  "ingredients": [
+    { "raw": "500 g de pommes de terre, râpées crues", "qty": 500, "unit": "g", "item": "pomme de terre", "prep": "râpée crue" },
+    { "raw": "500 g de purée de pommes de terre", "qty": 500, "unit": "g", "item": "pomme de terre", "prep": "cuite en purée" },
+    { "raw": "200 g de farine de blé", "qty": 200, "unit": "g", "item": "farine de blé" },
+    { "raw": "25 cl de lait fermenté", "qty": 25, "unit": "cl", "item": "lait fermenté" },
+    { "raw": "1 c. à c. de bicarbonate de soude", "qty": 1, "unit": "tsp", "item": "bicarbonate de soude" },
+    { "raw": "80 g de beurre", "qty": 80, "unit": "g", "item": "beurre" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le boxty se fait avec les DEUX pommes de terre : crue râpée ET cuite en purée, à parts égales.", "en": "Boxty uses BOTH potatoes: raw grated AND cooked mash, in equal parts." },
+    { "fr": "C'est là toute sa singularité : la crue apporte la tenue, la cuite le moelleux.", "en": "That is its whole singularity: the raw gives structure, the cooked gives softness." },
+    { "fr": "PRESSER la pomme de terre râpée dans un torchon et récupérer l'amidon qui se dépose.", "en": "SQUEEZE the grated potato in a cloth and recover the starch that settles out." },
+    { "fr": "Le lait fermenté et le bicarbonate réagissent ensemble : c'est ce qui fait lever les galettes.", "en": "The buttermilk and bicarbonate react together: that is what raises the pancakes." },
+    { "fr": "Cuire des galettes fines au beurre, à feu moyen, cinq minutes par face.", "en": "Cook thin pancakes in butter, over medium heat, five minutes a side." },
+    { "fr": "Servir chaudes, avec du bacon et un œuf : c'est un plat de petit-déjeuner.", "en": "Serve them hot, with bacon and an egg: this is a breakfast dish." }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "carbonnade-flamande",
+  "cuisine": "western-european",
+  "country": "belgique",
+  "origin": "Belgique",
+  "native_name": "Stoofvlees",
+  "title": {
+    "fr": "Carbonnade flamande à la bière",
+    "en": "Flemish beef and beer stew"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 180 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["flandre", "biere", "embleme", "mijote"],
+  "ingredients": [
+    { "raw": "1,5 kg de bœuf à mijoter, en gros cubes", "qty": 1500, "unit": "g", "item": "boeuf à mijoter", "prep": "en gros cubes" },
+    { "raw": "75 cl de bière brune", "qty": 75, "unit": "cl", "item": "bière" },
+    { "raw": "5 oignons, émincés", "qty": 5, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "4 tranches de pain de campagne", "qty": 4, "unit": "piece", "item": "pain", "prep": "en tranches" },
+    { "raw": "5 c. à s. de moutarde", "qty": 5, "unit": "tbsp", "item": "moutarde" },
+    { "raw": "3 c. à s. de cassonade", "qty": 3, "unit": "tbsp", "item": "sucre roux" },
+    { "raw": "3 c. à s. de vinaigre de vin", "qty": 3, "unit": "tbsp", "item": "vinaigre de vin" },
+    { "raw": "3 feuilles de laurier", "qty": 3, "unit": "piece", "item": "laurier" },
+    { "raw": "3 c. à c. de thym séché", "qty": 3, "unit": "tsp", "item": "thym" },
+    { "raw": "80 g de beurre", "qty": 80, "unit": "g", "item": "beurre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La carbonnade se lie AU PAIN MOUTARDÉ : ni farine, ni maïzena, ni roux.", "en": "A carbonnade is thickened with MUSTARDED BREAD: no flour, no cornflour, no roux." },
+    { "fr": "Le pain se désagrège pendant les trois heures et épaissit la sauce tout seul.", "en": "The bread disintegrates over three hours and thickens the sauce by itself." },
+    { "fr": "Saisir la viande séchée par petites quantités, jusqu'à une croûte brun foncé.", "en": "Sear the dried meat in small batches, to a deep brown crust." },
+    { "fr": "Faire fondre les oignons TRENTE MINUTES dans le même beurre, jusqu'au brun.", "en": "Melt the onions for THIRTY MINUTES in the same butter, to a deep brown." },
+    { "fr": "Tartiner le pain de moutarde et le poser CÔTÉ MOUTARDE VERS LE BAS sur la viande.", "en": "Spread the bread with mustard and lay it MUSTARD SIDE DOWN on the meat." },
+    { "fr": "Verser la bière, ajouter cassonade et vinaigre, et braiser trois heures à 150 °C.", "en": "Add the beer, the brown sugar and the vinegar, and braise for three hours at 150°C." }
+  ],
+  "notes": [
+    { "fr": "L'équilibre aigre-doux est la marque du plat : goûter à la fin et rectifier au sucre ou au vinaigre.", "en": "The sweet-sour balance is the dish's hallmark: taste at the end and adjust with sugar or vinegar." }
+  ]
+}

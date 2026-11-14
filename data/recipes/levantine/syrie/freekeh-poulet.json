@@ -1,0 +1,39 @@
+{
+  "slug": "freekeh-poulet",
+  "cuisine": "levantine",
+  "country": "syrie",
+  "origin": "Syrie",
+  "native_name": "Freekeh bil djej",
+  "title": {
+    "fr": "Freekeh au poulet et aux amandes",
+    "en": "Freekeh with chicken and almonds"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 70 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["frik", "ble-vert", "fete", "poulet"],
+  "ingredients": [
+    { "raw": "400 g de frik", "qty": 400, "unit": "g", "item": "frik" },
+    { "raw": "1 poulet entier, découpé", "qty": 1, "unit": "piece", "item": "poulet entier", "prep": "découpé" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "1 c. à c. de baharat", "qty": 1, "unit": "tsp", "item": "baharat" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "4 gousses de cardamome", "qty": 4, "unit": "piece", "item": "cardamome" },
+    { "raw": "100 g d'amandes, mondées et frites", "qty": 100, "unit": "g", "item": "amande", "prep": "mondée", "group": "garniture" },
+    { "raw": "60 g de pignons de pin", "qty": 60, "unit": "g", "item": "pignon de pin", "group": "garniture" },
+    { "raw": "60 g de beurre", "qty": 60, "unit": "g", "item": "beurre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Cuire le poulet avec un oignon, la cannelle, la cardamome et le sel, quarante minutes, et filtrer le bouillon.", "en": "Cook the chicken with one onion, cinnamon, cardamom and salt for forty minutes, and strain the broth." },
+    { "fr": "Rincer le frik plusieurs fois : le blé vert grillé garde beaucoup de cendre.", "en": "Rinse the freekeh several times: roasted green wheat holds a lot of ash." },
+    { "fr": "Faire revenir le second oignon au beurre, ajouter le frik et le baharat, et l'enrober deux minutes.", "en": "Fry the second onion in butter, add the freekeh and baharat, and coat it for two minutes." },
+    { "fr": "Mouiller avec le bouillon chaud, deux fois et demie le volume de frik, et couvrir.", "en": "Add hot broth, two and a half times the volume of the freekeh, and cover." },
+    { "fr": "Cuire trente minutes à feu doux, sans remuer. Le frik reste ferme, il ne devient jamais crémeux.", "en": "Cook for thirty minutes over low heat, without stirring. Freekeh stays firm; it never turns creamy." },
+    { "fr": "Dresser le frik, poser le poulet dessus et couvrir d'amandes et de pignons dorés.", "en": "Plate the freekeh, set the chicken on top and cover with toasted almonds and pine nuts." }
+  ]
+}

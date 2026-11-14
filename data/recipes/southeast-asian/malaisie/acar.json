@@ -1,0 +1,43 @@
+{
+  "slug": "acar",
+  "cuisine": "southeast-asian",
+  "country": "malaisie",
+  "origin": "Malaisie",
+  "native_name": "Acar",
+  "title": {
+    "fr": "Acar, légumes au vinaigre et aux arachides",
+    "en": "Acar, pickled vegetables with peanuts"
+  },
+  "meal_type": "side",
+  "servings": 10,
+  "times": { "prep_min": 40, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["conserve", "aigre-doux", "fete", "accompagnement"],
+  "ingredients": [
+    { "raw": "2 concombres, en bâtonnets", "qty": 2, "unit": "piece", "item": "concombre", "prep": "en bâtonnets" },
+    { "raw": "3 carottes, en bâtonnets", "qty": 3, "unit": "piece", "item": "carotte", "prep": "en bâtonnets" },
+    { "raw": "1/2 chou blanc, en gros morceaux", "qty": 0.5, "unit": "piece", "item": "chou blanc", "prep": "en gros morceaux" },
+    { "raw": "200 g de haricots verts, en tronçons", "qty": 200, "unit": "g", "item": "haricot vert", "prep": "en tronçons" },
+    { "raw": "25 cl de vinaigre blanc", "qty": 25, "unit": "cl", "item": "vinaigre blanc" },
+    { "raw": "150 g de sucre", "qty": 150, "unit": "g", "item": "sucre" },
+    { "raw": "8 échalotes", "qty": 8, "unit": "piece", "item": "échalote", "group": "pâte" },
+    { "raw": "5 gousses d'ail", "qty": 5, "unit": "piece", "item": "ail", "group": "pâte" },
+    { "raw": "8 piments séchés, trempés", "qty": 8, "unit": "piece", "item": "piment séché", "prep": "trempé", "group": "pâte" },
+    { "raw": "6 noix de bancoul", "qty": 6, "unit": "piece", "item": "noix de bancoul", "group": "pâte" },
+    { "raw": "1 morceau de curcuma frais", "qty": 1, "unit": "piece", "item": "curcuma frais", "group": "pâte" },
+    { "raw": "120 g d'arachides grillées, concassées", "qty": 120, "unit": "g", "item": "arachide grillée", "prep": "concassée" },
+    { "raw": "4 c. à s. de graines de sésame, grillées", "qty": 4, "unit": "tbsp", "item": "sésame", "prep": "grillé" },
+    { "raw": "12 cl d'huile neutre", "qty": 12, "unit": "cl", "item": "huile neutre" },
+    { "raw": "3 c. à s. de gros sel", "qty": 3, "unit": "tbsp", "item": "gros sel" }
+  ],
+  "steps": [
+    { "fr": "Saler les légumes taillés et les laisser dégorger DEUX HEURES : c'est ce qui garantit le croquant.", "en": "Salt the cut vegetables and let them weep for TWO HOURS: this is what guarantees the crunch." },
+    { "fr": "Les rincer, puis les ébouillanter TRENTE SECONDES dans le vinaigre chaud, et les égoutter.", "en": "Rinse them, then scald them for THIRTY SECONDS in hot vinegar, and drain." },
+    { "fr": "Les sécher au soleil ou au four tiède une heure : un légume humide fait fermenter l'acar.", "en": "Dry them in the sun or a warm oven for an hour: a wet vegetable makes the acar ferment." },
+    { "fr": "Mixer la pâte d'aromates et la frire quinze minutes, jusqu'à séparation de l'huile.", "en": "Blend the aromatic paste and fry it for fifteen minutes, until the oil separates." },
+    { "fr": "Ajouter vinaigre et sucre, cuire cinq minutes, et verser sur les légumes.", "en": "Add the vinegar and sugar, cook for five minutes, and pour over the vegetables." },
+    { "fr": "Ajouter arachides et sésame, et laisser reposer DEUX JOURS avant de servir.", "en": "Add the peanuts and sesame, and rest it for TWO DAYS before serving." }
+  ]
+}

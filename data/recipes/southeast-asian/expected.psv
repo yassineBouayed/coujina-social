@@ -1,0 +1,1586 @@
+# Vérité du catalogue, cuisine « southeast-asian ».
+#
+# Pour chaque ligne d'ingrédient, celui du référentiel qu'un relecteur
+# choisit, ou `-` quand le référentiel n'a rien à offrir.
+#
+# PASSE MODÈLE, pas humaine, et la circularité est ici maximale : les
+# recettes ont été écrites AVEC le référentiel sous les yeux, et les
+# ingrédients qui manquaient y ont été ajoutés dans la foulée. Le taux de
+# rattachement du champ `item` ne mesure donc presque rien sur ces cuisines.
+# Ce qui mesure quelque chose, c'est le témoin `raw`, que `catalog:gate`
+# donne en regard.
+#
+# Une ligne annotée ici n'a pas été relue par quelqu'un qui cuisine ces
+# plats. Le critère de sortie de J5 reste entier.
+recipe|line|item|expected_slug|note
+cha-yen|0|thé vert|the-vert|
+cha-yen|1|eau|eau|
+cha-yen|2|sucre|sucre|
+cha-yen|3|lait concentré sucré|lait-concentre-sucre|
+cha-yen|4|crème liquide|creme-liquide|
+cha-yen|5|eau|eau|
+cha-yen|6|cardamome|cardamome|
+kaeng-khiao-wan|0|cuisse de poulet|cuisse-de-poulet|
+kaeng-khiao-wan|1|pâte de curry verte|pate-de-curry-verte|
+kaeng-khiao-wan|2|lait de coco|lait-de-coco|
+kaeng-khiao-wan|3|aubergine|aubergine|
+kaeng-khiao-wan|4|pousse de bambou|pousse-de-bambou|
+kaeng-khiao-wan|5|feuille de combava|combava-feuille|
+kaeng-khiao-wan|6|basilic|basilic|
+kaeng-khiao-wan|7|sauce poisson|sauce-poisson|
+kaeng-khiao-wan|8|sucre de palme|sucre-de-palme|
+kaeng-khiao-wan|9|piment oiseau|piment-oiseau|
+kaeng-khiao-wan|10|riz long grain|riz-long-grain|
+khanom-krok|0|farine de riz|farine-de-riz|
+khanom-krok|1|riz gluant|riz-gluant|
+khanom-krok|2|lait de coco|lait-de-coco|
+khanom-krok|3|sucre|sucre|
+khanom-krok|4|crème de coco|creme-de-coco|
+khanom-krok|5|sucre|sucre|
+khanom-krok|6|sel|sel|
+khanom-krok|7|oignon nouveau|oignon-nouveau|
+khanom-krok|8|huile de coco|huile-de-coco|
+khao-niew-mamuang|0|riz gluant|riz-gluant|
+khao-niew-mamuang|1|lait de coco|lait-de-coco|
+khao-niew-mamuang|2|sucre|sucre|
+khao-niew-mamuang|3|mangue|mangue|
+khao-niew-mamuang|4|sésame|sesame|
+khao-niew-mamuang|5|maïzena|maizena|
+khao-niew-mamuang|6|sel|sel|
+khao-pad|0|riz long grain|riz-long-grain|
+khao-pad|1|crevette|crevette|
+khao-pad|2|oeuf|oeuf|
+khao-pad|3|oignon|oignon|
+khao-pad|4|ail|ail|
+khao-pad|5|tomate|tomate|
+khao-pad|6|oignon nouveau|oignon-nouveau|
+khao-pad|7|sauce poisson|sauce-poisson|
+khao-pad|8|sauce soja|sauce-soja|
+khao-pad|9|sucre|sucre|
+khao-pad|10|citron vert|citron-vert|
+khao-pad|11|concombre|concombre|
+khao-pad|12|huile neutre|huile-neutre|
+khao-soi|0|nouilles de blé|nouilles-de-ble|
+khao-soi|1|cuisse de poulet|cuisse-de-poulet|
+khao-soi|2|pâte de curry rouge|pate-de-curry-rouge|
+khao-soi|3|poudre de curry|poudre-de-curry|
+khao-soi|4|curcuma|curcuma|
+khao-soi|5|lait de coco|lait-de-coco|
+khao-soi|6|sauce poisson|sauce-poisson|
+khao-soi|7|sucre de palme|sucre-de-palme|
+khao-soi|8|oignon rouge|oignon-rouge|
+khao-soi|9|kimchi|kimchi|
+khao-soi|10|citron vert|citron-vert|
+khao-soi|11|huile neutre|huile-neutre|
+larb-gai|0|poulet haché|poulet-hache|
+larb-gai|1|riz gluant|riz-gluant|
+larb-gai|2|sauce poisson|sauce-poisson|
+larb-gai|3|citron vert|citron-vert|
+larb-gai|4|piment en poudre|piment-en-poudre|
+larb-gai|5|sucre de palme|sucre-de-palme|
+larb-gai|6|oignon nouveau|oignon-nouveau|
+larb-gai|7|oignon rouge|oignon-rouge|
+larb-gai|8|menthe fraîche|menthe-fraiche|
+larb-gai|9|coriandre fraîche|coriandre-fraiche|
+larb-gai|10|laitue|laitue|
+massaman|0|boeuf à mijoter|boeuf-a-mijoter|
+massaman|1|pâte de curry massaman|pate-de-curry-massaman|
+massaman|2|lait de coco|lait-de-coco|
+massaman|3|pomme de terre|pomme-de-terre|
+massaman|4|oignon|oignon|
+massaman|5|arachide grillée|arachide-grillee|
+massaman|6|pâte de tamarin|pate-de-tamarin|
+massaman|7|sucre de palme|sucre-de-palme|
+massaman|8|sauce poisson|sauce-poisson|
+massaman|9|cannelle|cannelle|
+massaman|10|cardamome|cardamome|
+massaman|11|badiane|badiane|
+moo-satay|0|échine de porc|echine-de-porc|
+moo-satay|1|lait de coco|lait-de-coco|
+moo-satay|2|curcuma|curcuma|
+moo-satay|3|coriandre graines|coriandre-graines|
+moo-satay|4|cumin|cumin|
+moo-satay|5|sucre de palme|sucre-de-palme|
+moo-satay|6|sauce poisson|sauce-poisson|
+moo-satay|7|lait de coco|lait-de-coco|
+moo-satay|8|pâte de curry rouge|pate-de-curry-rouge|
+moo-satay|9|pâte d'arachide|pate-d-arachide|
+moo-satay|10|pâte de tamarin|pate-de-tamarin|
+moo-satay|11|concombre|concombre|
+pad-krapow|0|porc haché|porc-hache|
+pad-krapow|1|basilic|basilic|
+pad-krapow|2|piment oiseau|piment-oiseau|
+pad-krapow|3|ail|ail|
+pad-krapow|4|sauce poisson|sauce-poisson|
+pad-krapow|5|sauce huître|sauce-huitre|
+pad-krapow|6|sauce soja foncée|sauce-soja-foncee|
+pad-krapow|7|sucre de palme|sucre-de-palme|
+pad-krapow|8|oeuf|oeuf|
+pad-krapow|9|riz long grain|riz-long-grain|
+pad-krapow|10|huile neutre|huile-neutre|
+pad-see-ew|0|nouilles de riz|nouilles-de-riz|
+pad-see-ew|1|blanc de poulet|blanc-de-poulet|
+pad-see-ew|2|chou frisé|chou-frise|
+pad-see-ew|3|oeuf|oeuf|
+pad-see-ew|4|ail|ail|
+pad-see-ew|5|sauce soja foncée|sauce-soja-foncee|
+pad-see-ew|6|sauce huître|sauce-huitre|
+pad-see-ew|7|sauce poisson|sauce-poisson|
+pad-see-ew|8|sucre de palme|sucre-de-palme|
+pad-see-ew|9|huile neutre|huile-neutre|
+pad-see-ew|10|vinaigre blanc|vinaigre-blanc|
+pad-thai|0|nouilles de riz|nouilles-de-riz|
+pad-thai|1|crevette|crevette|
+pad-thai|2|tofu ferme|tofu-ferme|
+pad-thai|3|oeuf|oeuf|
+pad-thai|4|germes de soja|germes-de-soja|
+pad-thai|5|oignon nouveau|oignon-nouveau|
+pad-thai|6|pâte de tamarin|pate-de-tamarin|
+pad-thai|7|sauce poisson|sauce-poisson|
+pad-thai|8|sucre de palme|sucre-de-palme|
+pad-thai|9|crevette séchée|crevette-sechee|
+pad-thai|10|arachide grillée|arachide-grillee|
+pad-thai|11|citron vert|citron-vert|
+pad-thai|12|piment en poudre|piment-en-poudre|
+pad-thai|13|huile neutre|huile-neutre|
+panang|0|steak de bœuf|steak-de-boeuf|
+panang|1|pâte de curry rouge|pate-de-curry-rouge|
+panang|2|lait de coco|lait-de-coco|
+panang|3|pâte d'arachide|pate-d-arachide|
+panang|4|feuille de combava|combava-feuille|
+panang|5|sauce poisson|sauce-poisson|
+panang|6|sucre de palme|sucre-de-palme|
+panang|7|poivron rouge|poivron-rouge|
+panang|8|basilic|basilic|
+roti-kluay|0|farine de blé|farine-de-ble|
+roti-kluay|1|oeuf|oeuf|
+roti-kluay|2|lait|lait|
+roti-kluay|3|lait concentré sucré|lait-concentre-sucre|
+roti-kluay|4|sel|sel|
+roti-kluay|5|huile neutre|huile-neutre|
+roti-kluay|6|banane|banane|
+roti-kluay|7|beurre|beurre|
+roti-kluay|8|lait concentré sucré|lait-concentre-sucre|
+roti-kluay|9|sucre|sucre|
+som-tam|0|papaye|papaye|
+som-tam|1|piment oiseau|piment-oiseau|
+som-tam|2|ail|ail|
+som-tam|3|crevette séchée|crevette-sechee|
+som-tam|4|haricot vert|haricot-vert|
+som-tam|5|tomate|tomate|
+som-tam|6|sauce poisson|sauce-poisson|
+som-tam|7|citron vert|citron-vert|
+som-tam|8|sucre de palme|sucre-de-palme|
+som-tam|9|arachide grillée|arachide-grillee|
+tod-man-pla|0|cabillaud|cabillaud|
+tod-man-pla|1|pâte de curry rouge|pate-de-curry-rouge|
+tod-man-pla|2|oeuf|oeuf|
+tod-man-pla|3|sauce poisson|sauce-poisson|
+tod-man-pla|4|sucre de palme|sucre-de-palme|
+tod-man-pla|5|haricot vert|haricot-vert|
+tod-man-pla|6|feuille de combava|combava-feuille|
+tod-man-pla|7|concombre|concombre|
+tod-man-pla|8|vinaigre de riz|vinaigre-de-riz|
+tod-man-pla|9|sucre|sucre|
+tod-man-pla|10|arachide grillée|arachide-grillee|
+tod-man-pla|11|huile neutre|huile-neutre|
+tom-kha-gai|0|blanc de poulet|blanc-de-poulet|
+tom-kha-gai|1|lait de coco|lait-de-coco|
+tom-kha-gai|2|galanga|galanga|
+tom-kha-gai|3|citronnelle|citronnelle|
+tom-kha-gai|4|feuille de combava|combava-feuille|
+tom-kha-gai|5|champignon de Paris|champignon-de-paris|
+tom-kha-gai|6|sauce poisson|sauce-poisson|
+tom-kha-gai|7|citron vert|citron-vert|
+tom-kha-gai|8|sucre de palme|sucre-de-palme|
+tom-kha-gai|9|piment oiseau|piment-oiseau|
+tom-kha-gai|10|coriandre fraîche|coriandre-fraiche|
+tom-yum-goong|0|crevette|crevette|
+tom-yum-goong|1|citronnelle|citronnelle|
+tom-yum-goong|2|galanga|galanga|
+tom-yum-goong|3|feuille de combava|combava-feuille|
+tom-yum-goong|4|champignon de Paris|champignon-de-paris|
+tom-yum-goong|5|piment oiseau|piment-oiseau|
+tom-yum-goong|6|sauce poisson|sauce-poisson|
+tom-yum-goong|7|citron vert|citron-vert|
+tom-yum-goong|8|sucre de palme|sucre-de-palme|
+tom-yum-goong|9|eau|eau|
+tom-yum-goong|10|coriandre fraîche|coriandre-fraiche|
+tom-yum-goong|11|pâte de curry rouge|pate-de-curry-rouge|
+tub-tim-krob|0|châtaigne d'eau|chataigne-d-eau|
+tub-tim-krob|1|maïzena|maizena|
+tub-tim-krob|2|sirop de datte|sirop-de-datte|
+tub-tim-krob|3|lait de coco|lait-de-coco|
+tub-tim-krob|4|sucre|sucre|
+tub-tim-krob|5|eau|eau|
+tub-tim-krob|6|sel|sel|
+yam-woon-sen|0|vermicelle de soja|vermicelle-de-soja|
+yam-woon-sen|1|crevette|crevette|
+yam-woon-sen|2|calamar|calamar|
+yam-woon-sen|3|porc haché|porc-hache|
+yam-woon-sen|4|oignon rouge|oignon-rouge|
+yam-woon-sen|5|tomate|tomate|
+yam-woon-sen|6|oignon nouveau|oignon-nouveau|
+yam-woon-sen|7|coriandre fraîche|coriandre-fraiche|
+yam-woon-sen|8|sauce poisson|sauce-poisson|
+yam-woon-sen|9|citron vert|citron-vert|
+yam-woon-sen|10|sucre de palme|sucre-de-palme|
+yam-woon-sen|11|piment oiseau|piment-oiseau|
+yam-woon-sen|12|arachide grillée|arachide-grillee|
+amok-trey|0|cabillaud|cabillaud|
+amok-trey|1|citronnelle|citronnelle|
+amok-trey|2|lait de coco|lait-de-coco|
+amok-trey|3|oeuf|oeuf|
+amok-trey|4|sauce poisson|sauce-poisson|
+amok-trey|5|sucre de palme|sucre-de-palme|
+amok-trey|6|prahok|prahok|
+amok-trey|7|épinard|epinard|
+amok-trey|8|feuille de combava|combava-feuille|
+amok-trey|9|piment frais|piment-frais|
+amok-trey|10|sel|sel|
+bai-sach-chrouk|0|échine de porc|echine-de-porc|
+bai-sach-chrouk|1|lait de coco|lait-de-coco|
+bai-sach-chrouk|2|sauce soja|sauce-soja|
+bai-sach-chrouk|3|sucre de palme|sucre-de-palme|
+bai-sach-chrouk|4|ail|ail|
+bai-sach-chrouk|5|riz brisé|riz-brise|
+bai-sach-chrouk|6|oeuf|oeuf|
+bai-sach-chrouk|7|daikon|daikon|
+bai-sach-chrouk|8|concombre|concombre|
+bai-sach-chrouk|9|vinaigre blanc|vinaigre-blanc|
+bai-sach-chrouk|10|sucre|sucre|
+bai-sach-chrouk|11|sel|sel|
+bai-sach-chrouk|12|poivre noir|poivre-noir|
+bok-lahong|0|papaye|papaye|
+bok-lahong|1|piment oiseau|piment-oiseau|
+bok-lahong|2|ail|ail|
+bok-lahong|3|prahok|prahok|
+bok-lahong|4|sauce poisson|sauce-poisson|
+bok-lahong|5|citron vert|citron-vert|
+bok-lahong|6|sucre de palme|sucre-de-palme|
+bok-lahong|7|tomate|tomate|
+bok-lahong|8|haricot vert|haricot-vert|
+bok-lahong|9|arachide grillée|arachide-grillee|
+cha-houy-teuk|0|gelatine|gelatine|
+cha-houy-teuk|1|eau|eau|
+cha-houy-teuk|2|sucre|sucre|
+cha-houy-teuk|3|feuille de pandan|feuille-de-pandan|
+cha-houy-teuk|4|lait de coco|lait-de-coco|
+cha-houy-teuk|5|sucre de palme|sucre-de-palme|
+cha-houy-teuk|6|eau|eau|
+cha-houy-teuk|7|sel|sel|
+cha-kroeung|0|cuisse de poulet|cuisse-de-poulet|
+cha-kroeung|1|citronnelle|citronnelle|
+cha-kroeung|2|poivron rouge|poivron-rouge|
+cha-kroeung|3|haricot vert|haricot-vert|
+cha-kroeung|4|oignon|oignon|
+cha-kroeung|5|sauce poisson|sauce-poisson|
+cha-kroeung|6|sauce huître|sauce-huitre|
+cha-kroeung|7|sucre de palme|sucre-de-palme|
+cha-kroeung|8|piment oiseau|piment-oiseau|
+cha-kroeung|9|basilic|basilic|
+cha-kroeung|10|huile neutre|huile-neutre|
+cha-kroeung|11|riz long grain|riz-long-grain|
+kafe-tek-doh|0|café|cafe|
+kafe-tek-doh|1|eau|eau|
+kafe-tek-doh|2|lait concentré sucré|lait-concentre-sucre|
+kafe-tek-doh|3|eau|eau|
+kafe-tek-doh|4|sel|sel|
+kdam-chaa|0|crabe|crabe|
+kdam-chaa|1|poivre de Kampot|poivre-de-kampot|
+kdam-chaa|2|ail|ail|
+kdam-chaa|3|oignon nouveau|oignon-nouveau|
+kdam-chaa|4|sauce huître|sauce-huitre|
+kdam-chaa|5|sauce poisson|sauce-poisson|
+kdam-chaa|6|sucre de palme|sucre-de-palme|
+kdam-chaa|7|maïzena|maizena|
+kdam-chaa|8|bouillon volaille|bouillon-volaille|
+kdam-chaa|9|huile neutre|huile-neutre|
+kdam-chaa|10|citron vert|citron-vert|
+kroeung|0|citronnelle|citronnelle|
+kroeung|1|curcuma frais|curcuma-frais|
+kroeung|2|galanga|galanga|
+kroeung|3|feuille de combava|combava-feuille|
+kroeung|4|ail|ail|
+kroeung|5|échalote|echalote|
+kroeung|6|pâte de crevette|pate-de-crevette|
+kroeung|7|sel|sel|
+kuy-teav|0|os à moelle|os-a-moelle|
+kuy-teav|1|nouilles de riz|nouilles-de-riz|
+kuy-teav|2|porc haché|porc-hache|
+kuy-teav|3|crevette|crevette|
+kuy-teav|4|crevette séchée|crevette-sechee|
+kuy-teav|5|daikon|daikon|
+kuy-teav|6|oignon|oignon|
+kuy-teav|7|gingembre|gingembre|
+kuy-teav|8|sauce poisson|sauce-poisson|
+kuy-teav|9|germes de soja|germes-de-soja|
+kuy-teav|10|échalote|echalote|
+kuy-teav|11|coriandre fraîche|coriandre-fraiche|
+kuy-teav|12|citron vert|citron-vert|
+kuy-teav|13|sel|sel|
+lok-lak|0|steak de bœuf|steak-de-boeuf|
+lok-lak|1|sauce huître|sauce-huitre|
+lok-lak|2|sauce soja|sauce-soja|
+lok-lak|3|sucre de palme|sucre-de-palme|
+lok-lak|4|ail|ail|
+lok-lak|5|poivre de Kampot|poivre-de-kampot|
+lok-lak|6|citron vert|citron-vert|
+lok-lak|7|laitue|laitue|
+lok-lak|8|tomate|tomate|
+lok-lak|9|oignon rouge|oignon-rouge|
+lok-lak|10|oeuf|oeuf|
+lok-lak|11|huile neutre|huile-neutre|
+lok-lak|12|sel|sel|
+nom-banh-chok|0|nouilles de riz|nouilles-de-riz|
+nom-banh-chok|1|cabillaud|cabillaud|
+nom-banh-chok|2|citronnelle|citronnelle|
+nom-banh-chok|3|lait de coco|lait-de-coco|
+nom-banh-chok|4|prahok|prahok|
+nom-banh-chok|5|sauce poisson|sauce-poisson|
+nom-banh-chok|6|germes de soja|germes-de-soja|
+nom-banh-chok|7|concombre|concombre|
+nom-banh-chok|8|menthe fraîche|menthe-fraiche|
+nom-banh-chok|9|laitue|laitue|
+nom-banh-chok|10|basilic|basilic|
+nom-banh-chok|11|chou blanc|chou-blanc|
+nom-banh-chok|12|huile neutre|huile-neutre|
+nom-kroch|0|riz gluant|riz-gluant|
+nom-kroch|1|eau|eau|
+nom-kroch|2|haricot mungo|haricot-mungo|
+nom-kroch|3|sucre de palme|sucre-de-palme|
+nom-kroch|4|lait de coco|lait-de-coco|
+nom-kroch|5|sésame|sesame|
+nom-kroch|6|huile neutre|huile-neutre|
+nom-kroch|7|sel|sel|
+nom-plae-ai|0|riz gluant|riz-gluant|
+nom-plae-ai|1|eau|eau|
+nom-plae-ai|2|sucre de palme|sucre-de-palme|
+nom-plae-ai|3|coco râpé|coco-rape|
+nom-plae-ai|4|feuille de pandan|feuille-de-pandan|
+nom-plae-ai|5|sel|sel|
+num-ansom|0|riz gluant|riz-gluant|
+num-ansom|1|haricot mungo|haricot-mungo|
+num-ansom|2|banane plantain|banane-plantain|
+num-ansom|3|lait de coco|lait-de-coco|
+num-ansom|4|sucre de palme|sucre-de-palme|
+num-ansom|5|poitrine de porc|poitrine-de-porc|
+num-ansom|6|poivre noir|poivre-noir|
+num-ansom|7|sel|sel|
+prahok-ktis|0|porc haché|porc-hache|
+prahok-ktis|1|prahok|prahok|
+prahok-ktis|2|citronnelle|citronnelle|
+prahok-ktis|3|lait de coco|lait-de-coco|
+prahok-ktis|4|sucre de palme|sucre-de-palme|
+prahok-ktis|5|piment oiseau|piment-oiseau|
+prahok-ktis|6|concombre|concombre|
+prahok-ktis|7|haricot vert|haricot-vert|
+prahok-ktis|8|chou blanc|chou-blanc|
+prahok-ktis|9|huile neutre|huile-neutre|
+samlor-korko|0|échine de porc|echine-de-porc|
+samlor-korko|1|citronnelle|citronnelle|
+samlor-korko|2|prahok|prahok|
+samlor-korko|3|riz gluant|riz-gluant|
+samlor-korko|4|courge|courge|
+samlor-korko|5|aubergine|aubergine|
+samlor-korko|6|haricot vert|haricot-vert|
+samlor-korko|7|banane plantain|banane-plantain|
+samlor-korko|8|épinard|epinard|
+samlor-korko|9|sauce poisson|sauce-poisson|
+samlor-korko|10|sucre de palme|sucre-de-palme|
+samlor-korko|11|huile neutre|huile-neutre|
+samlor-machu-kroeung|0|boeuf à mijoter|boeuf-a-mijoter|
+samlor-machu-kroeung|1|citronnelle|citronnelle|
+samlor-machu-kroeung|2|pâte de tamarin|pate-de-tamarin|
+samlor-machu-kroeung|3|prahok|prahok|
+samlor-machu-kroeung|4|tomate|tomate|
+samlor-machu-kroeung|5|pousse de bambou|pousse-de-bambou|
+samlor-machu-kroeung|6|haricot vert|haricot-vert|
+samlor-machu-kroeung|7|basilic|basilic|
+samlor-machu-kroeung|8|sauce poisson|sauce-poisson|
+samlor-machu-kroeung|9|sucre de palme|sucre-de-palme|
+samlor-machu-kroeung|10|huile neutre|huile-neutre|
+samlor-machu-kroeung|11|eau|eau|
+sangkhya-lapov|0|potiron|potiron|
+sangkhya-lapov|1|oeuf|oeuf|
+sangkhya-lapov|2|lait de coco|lait-de-coco|
+sangkhya-lapov|3|sucre de palme|sucre-de-palme|
+sangkhya-lapov|4|feuille de pandan|feuille-de-pandan|
+sangkhya-lapov|5|sel|sel|
+saraman|0|boeuf à mijoter|boeuf-a-mijoter|
+saraman|1|citronnelle|citronnelle|
+saraman|2|lait de coco|lait-de-coco|
+saraman|3|arachide grillée|arachide-grillee|
+saraman|4|pâte de tamarin|pate-de-tamarin|
+saraman|5|sucre de palme|sucre-de-palme|
+saraman|6|cannelle|cannelle|
+saraman|7|badiane|badiane|
+saraman|8|cardamome|cardamome|
+saraman|9|pomme de terre|pomme-de-terre|
+saraman|10|sauce poisson|sauce-poisson|
+saraman|11|huile neutre|huile-neutre|
+trey-chien-chuon|0|dorade|dorade|
+trey-chien-chuon|1|maïzena|maizena|
+trey-chien-chuon|2|gingembre|gingembre|
+trey-chien-chuon|3|ail|ail|
+trey-chien-chuon|4|poivron rouge|poivron-rouge|
+trey-chien-chuon|5|vinaigre de riz|vinaigre-de-riz|
+trey-chien-chuon|6|sucre de palme|sucre-de-palme|
+trey-chien-chuon|7|sauce poisson|sauce-poisson|
+trey-chien-chuon|8|concentré de tomate|concentre-de-tomate|
+trey-chien-chuon|9|oignon nouveau|oignon-nouveau|
+trey-chien-chuon|10|huile neutre|huile-neutre|
+trey-chien-chuon|11|sel|sel|
+tuk-trey|0|sauce poisson|sauce-poisson|
+tuk-trey|1|sucre de palme|sucre-de-palme|
+tuk-trey|2|citron vert|citron-vert|
+tuk-trey|3|eau|eau|
+tuk-trey|4|ail|ail|
+tuk-trey|5|piment oiseau|piment-oiseau|
+tuk-trey|6|arachide grillée|arachide-grillee|
+tuk-trey|7|carotte|carotte|
+ayam-betutu|0|poulet entier|poulet-entier|
+ayam-betutu|1|échalote|echalote|
+ayam-betutu|2|ail|ail|
+ayam-betutu|3|piment oiseau|piment-oiseau|
+ayam-betutu|4|curcuma frais|curcuma-frais|
+ayam-betutu|5|galanga|galanga|
+ayam-betutu|6|gingembre|gingembre|
+ayam-betutu|7|noix de bancoul|noix-de-bancoul|
+ayam-betutu|8|coriandre graines|coriandre-graines|
+ayam-betutu|9|pâte de crevette|pate-de-crevette|
+ayam-betutu|10|épinard|epinard|
+ayam-betutu|11|citronnelle|citronnelle|
+ayam-betutu|12|huile neutre|huile-neutre|
+ayam-betutu|13|sel|sel|
+bakso|0|boeuf haché|boeuf-hache|
+bakso|1|maïzena|maizena|
+bakso|2|oeuf|oeuf|
+bakso|3|ail|ail|
+bakso|4|eau|eau|
+bakso|5|bouillon boeuf|bouillon-boeuf|
+bakso|6|vermicelle de soja|vermicelle-de-soja|
+bakso|7|chou chinois|chou-chinois|
+bakso|8|oignon nouveau|oignon-nouveau|
+bakso|9|échalote|echalote|
+bakso|10|sauce piquante|sauce-piquante|
+bakso|11|sel|sel|
+bakso|12|poivre blanc|poivre-blanc|
+bubur-ayam|0|riz long grain|riz-long-grain|
+bubur-ayam|1|bouillon volaille|bouillon-volaille|
+bubur-ayam|2|blanc de poulet|blanc-de-poulet|
+bubur-ayam|3|gingembre|gingembre|
+bubur-ayam|4|citronnelle|citronnelle|
+bubur-ayam|5|curcuma|curcuma|
+bubur-ayam|6|échalote|echalote|
+bubur-ayam|7|oignon nouveau|oignon-nouveau|
+bubur-ayam|8|kecap manis|kecap-manis|
+bubur-ayam|9|arachide grillée|arachide-grillee|
+bubur-ayam|10|sauce piquante|sauce-piquante|
+bubur-ayam|11|sel|sel|
+es-cendol|0|farine de riz|farine-de-riz|
+es-cendol|1|maïzena|maizena|
+es-cendol|2|eau|eau|
+es-cendol|3|feuille de pandan|feuille-de-pandan|
+es-cendol|4|sucre de palme|sucre-de-palme|
+es-cendol|5|eau|eau|
+es-cendol|6|lait de coco|lait-de-coco|
+es-cendol|7|eau|eau|
+es-cendol|8|sel|sel|
+gado-gado|0|haricot vert|haricot-vert|
+gado-gado|1|germes de soja|germes-de-soja|
+gado-gado|2|chou blanc|chou-blanc|
+gado-gado|3|pomme de terre|pomme-de-terre|
+gado-gado|4|tempeh|tempeh|
+gado-gado|5|tofu ferme|tofu-ferme|
+gado-gado|6|oeuf|oeuf|
+gado-gado|7|concombre|concombre|
+gado-gado|8|arachide grillée|arachide-grillee|
+gado-gado|9|ail|ail|
+gado-gado|10|piment oiseau|piment-oiseau|
+gado-gado|11|sucre de palme|sucre-de-palme|
+gado-gado|12|pâte de tamarin|pate-de-tamarin|
+gado-gado|13|kecap manis|kecap-manis|
+gado-gado|14|huile neutre|huile-neutre|
+jamu-kunyit-asam|0|curcuma frais|curcuma-frais|
+jamu-kunyit-asam|1|gingembre|gingembre|
+jamu-kunyit-asam|2|pâte de tamarin|pate-de-tamarin|
+jamu-kunyit-asam|3|sucre de palme|sucre-de-palme|
+jamu-kunyit-asam|4|eau|eau|
+jamu-kunyit-asam|5|citron vert|citron-vert|
+jamu-kunyit-asam|6|sel|sel|
+jamu-kunyit-asam|7|poivre noir|poivre-noir|
+klepon|0|riz gluant|riz-gluant|
+klepon|1|eau|eau|
+klepon|2|feuille de pandan|feuille-de-pandan|
+klepon|3|sucre de palme|sucre-de-palme|
+klepon|4|coco râpé|coco-rape|
+klepon|5|sel|sel|
+martabak-manis|0|farine de blé|farine-de-ble|
+martabak-manis|1|oeuf|oeuf|
+martabak-manis|2|sucre|sucre|
+martabak-manis|3|lait|lait|
+martabak-manis|4|levure boulangère|levure-boulangere|
+martabak-manis|5|bicarbonate|bicarbonate|
+martabak-manis|6|beurre|beurre|
+martabak-manis|7|chocolat noir|chocolat-noir|
+martabak-manis|8|arachide grillée|arachide-grillee|
+martabak-manis|9|lait concentré sucré|lait-concentre-sucre|
+martabak-manis|10|sel|sel|
+mie-goreng|0|nouilles de blé|nouilles-de-ble|
+mie-goreng|1|blanc de poulet|blanc-de-poulet|
+mie-goreng|2|crevette|crevette|
+mie-goreng|3|chou blanc|chou-blanc|
+mie-goreng|4|carotte|carotte|
+mie-goreng|5|échalote|echalote|
+mie-goreng|6|ail|ail|
+mie-goreng|7|piment oiseau|piment-oiseau|
+mie-goreng|8|kecap manis|kecap-manis|
+mie-goreng|9|sauce huître|sauce-huitre|
+mie-goreng|10|oeuf|oeuf|
+mie-goreng|11|oignon nouveau|oignon-nouveau|
+mie-goreng|12|huile neutre|huile-neutre|
+nasi-goreng|0|riz long grain|riz-long-grain|
+nasi-goreng|1|blanc de poulet|blanc-de-poulet|
+nasi-goreng|2|crevette|crevette|
+nasi-goreng|3|échalote|echalote|
+nasi-goreng|4|ail|ail|
+nasi-goreng|5|piment oiseau|piment-oiseau|
+nasi-goreng|6|pâte de crevette|pate-de-crevette|
+nasi-goreng|7|kecap manis|kecap-manis|
+nasi-goreng|8|oeuf|oeuf|
+nasi-goreng|9|oignon nouveau|oignon-nouveau|
+nasi-goreng|10|concombre|concombre|
+nasi-goreng|11|huile neutre|huile-neutre|
+nasi-uduk|0|riz long grain|riz-long-grain|
+nasi-uduk|1|lait de coco|lait-de-coco|
+nasi-uduk|2|eau|eau|
+nasi-uduk|3|citronnelle|citronnelle|
+nasi-uduk|4|feuille de combava|combava-feuille|
+nasi-uduk|5|laurier|laurier|
+nasi-uduk|6|feuille de pandan|feuille-de-pandan|
+nasi-uduk|7|galanga|galanga|
+nasi-uduk|8|échalote|echalote|
+nasi-uduk|9|sel|sel|
+perkedel|0|pomme de terre|pomme-de-terre|
+perkedel|1|boeuf haché|boeuf-hache|
+perkedel|2|échalote|echalote|
+perkedel|3|ail|ail|
+perkedel|4|oignon nouveau|oignon-nouveau|
+perkedel|5|muscade|muscade|
+perkedel|6|oeuf|oeuf|
+perkedel|7|huile neutre|huile-neutre|
+perkedel|8|sel|sel|
+perkedel|9|poivre blanc|poivre-blanc|
+pisang-goreng|0|banane plantain|banane-plantain|
+pisang-goreng|1|farine de blé|farine-de-ble|
+pisang-goreng|2|farine de riz|farine-de-riz|
+pisang-goreng|3|levure chimique|levure-chimique|
+pisang-goreng|4|eau|eau|
+pisang-goreng|5|sucre|sucre|
+pisang-goreng|6|huile neutre|huile-neutre|
+pisang-goreng|7|lait concentré sucré|lait-concentre-sucre|
+pisang-goreng|8|sel|sel|
+rawon|0|boeuf à mijoter|boeuf-a-mijoter|
+rawon|1|noix de keluak|noix-de-keluak|
+rawon|2|échalote|echalote|
+rawon|3|ail|ail|
+rawon|4|noix de bancoul|noix-de-bancoul|
+rawon|5|curcuma frais|curcuma-frais|
+rawon|6|galanga|galanga|
+rawon|7|coriandre graines|coriandre-graines|
+rawon|8|citronnelle|citronnelle|
+rawon|9|feuille de combava|combava-feuille|
+rawon|10|germes de soja|germes-de-soja|
+rawon|11|oeuf|oeuf|
+rawon|12|huile neutre|huile-neutre|
+rawon|13|sel|sel|
+rendang|0|boeuf à mijoter|boeuf-a-mijoter|
+rendang|1|lait de coco|lait-de-coco|
+rendang|2|échalote|echalote|
+rendang|3|ail|ail|
+rendang|4|piment séché|piment-seche|
+rendang|5|noix de bancoul|noix-de-bancoul|
+rendang|6|galanga|galanga|
+rendang|7|curcuma frais|curcuma-frais|
+rendang|8|gingembre|gingembre|
+rendang|9|citronnelle|citronnelle|
+rendang|10|feuille de combava|combava-feuille|
+rendang|11|laurier|laurier|
+rendang|12|sucre de palme|sucre-de-palme|
+rendang|13|sel|sel|
+sambal-terasi|0|piment frais|piment-frais|
+sambal-terasi|1|échalote|echalote|
+sambal-terasi|2|ail|ail|
+sambal-terasi|3|pâte de crevette|pate-de-crevette|
+sambal-terasi|4|tomate|tomate|
+sambal-terasi|5|sucre de palme|sucre-de-palme|
+sambal-terasi|6|pâte de tamarin|pate-de-tamarin|
+sambal-terasi|7|huile neutre|huile-neutre|
+sambal-terasi|8|sel|sel|
+satay-ayam|0|cuisse de poulet|cuisse-de-poulet|
+satay-ayam|1|kecap manis|kecap-manis|
+satay-ayam|2|ail|ail|
+satay-ayam|3|coriandre graines|coriandre-graines|
+satay-ayam|4|sucre de palme|sucre-de-palme|
+satay-ayam|5|arachide grillée|arachide-grillee|
+satay-ayam|6|échalote|echalote|
+satay-ayam|7|piment séché|piment-seche|
+satay-ayam|8|pâte de tamarin|pate-de-tamarin|
+satay-ayam|9|kecap manis|kecap-manis|
+satay-ayam|10|lait de coco|lait-de-coco|
+satay-ayam|11|huile neutre|huile-neutre|
+sayur-lodeh|0|lait de coco|lait-de-coco|
+sayur-lodeh|1|haricot vert|haricot-vert|
+sayur-lodeh|2|chayotte|chayotte|
+sayur-lodeh|3|aubergine|aubergine|
+sayur-lodeh|4|tempeh|tempeh|
+sayur-lodeh|5|tofu ferme|tofu-ferme|
+sayur-lodeh|6|échalote|echalote|
+sayur-lodeh|7|ail|ail|
+sayur-lodeh|8|noix de bancoul|noix-de-bancoul|
+sayur-lodeh|9|pâte de crevette|pate-de-crevette|
+sayur-lodeh|10|galanga|galanga|
+sayur-lodeh|11|laurier|laurier|
+sayur-lodeh|12|sucre de palme|sucre-de-palme|
+sayur-lodeh|13|huile neutre|huile-neutre|
+soto-ayam|0|poulet entier|poulet-entier|
+soto-ayam|1|vermicelle de soja|vermicelle-de-soja|
+soto-ayam|2|échalote|echalote|
+soto-ayam|3|ail|ail|
+soto-ayam|4|curcuma frais|curcuma-frais|
+soto-ayam|5|gingembre|gingembre|
+soto-ayam|6|noix de bancoul|noix-de-bancoul|
+soto-ayam|7|citronnelle|citronnelle|
+soto-ayam|8|feuille de combava|combava-feuille|
+soto-ayam|9|laurier|laurier|
+soto-ayam|10|germes de soja|germes-de-soja|
+soto-ayam|11|oeuf|oeuf|
+soto-ayam|12|échalote|echalote|
+soto-ayam|13|citron vert|citron-vert|
+soto-ayam|14|huile neutre|huile-neutre|
+tempe-orek|0|tempeh|tempeh|
+tempe-orek|1|échalote|echalote|
+tempe-orek|2|ail|ail|
+tempe-orek|3|piment oiseau|piment-oiseau|
+tempe-orek|4|kecap manis|kecap-manis|
+tempe-orek|5|sucre de palme|sucre-de-palme|
+tempe-orek|6|laurier|laurier|
+tempe-orek|7|galanga|galanga|
+tempe-orek|8|huile neutre|huile-neutre|
+tempe-orek|9|sel|sel|
+acar|0|concombre|concombre|
+acar|1|carotte|carotte|
+acar|2|chou blanc|chou-blanc|
+acar|3|haricot vert|haricot-vert|
+acar|4|vinaigre blanc|vinaigre-blanc|
+acar|5|sucre|sucre|
+acar|6|échalote|echalote|
+acar|7|ail|ail|
+acar|8|piment séché|piment-seche|
+acar|9|noix de bancoul|noix-de-bancoul|
+acar|10|curcuma frais|curcuma-frais|
+acar|11|arachide grillée|arachide-grillee|
+acar|12|sésame|sesame|
+acar|13|huile neutre|huile-neutre|
+acar|14|gros sel|gros-sel|
+ais-kacang|0|haricot rouge|haricot-rouge|
+ais-kacang|1|sucre|sucre|
+ais-kacang|2|maïs doux|mais-doux|
+ais-kacang|3|gelatine|gelatine|
+ais-kacang|4|eau|eau|
+ais-kacang|5|lait concentré sucré|lait-concentre-sucre|
+ais-kacang|6|eau de rose|eau-de-rose|
+ais-kacang|7|sucre de palme|sucre-de-palme|
+ais-kacang|8|sel|sel|
+asam-pedas|0|maquereau|maquereau|
+asam-pedas|1|pâte de tamarin|pate-de-tamarin|
+asam-pedas|2|piment séché|piment-seche|
+asam-pedas|3|échalote|echalote|
+asam-pedas|4|ail|ail|
+asam-pedas|5|curcuma frais|curcuma-frais|
+asam-pedas|6|pâte de crevette|pate-de-crevette|
+asam-pedas|7|citronnelle|citronnelle|
+asam-pedas|8|gombo|gombo|
+asam-pedas|9|tomate|tomate|
+asam-pedas|10|sucre de palme|sucre-de-palme|
+asam-pedas|11|huile neutre|huile-neutre|
+asam-pedas|12|sel|sel|
+ayam-masak-merah|0|poulet entier|poulet-entier|
+ayam-masak-merah|1|curcuma|curcuma|
+ayam-masak-merah|2|piment séché|piment-seche|
+ayam-masak-merah|3|échalote|echalote|
+ayam-masak-merah|4|ail|ail|
+ayam-masak-merah|5|gingembre|gingembre|
+ayam-masak-merah|6|concentré de tomate|concentre-de-tomate|
+ayam-masak-merah|7|lait de coco|lait-de-coco|
+ayam-masak-merah|8|sucre de palme|sucre-de-palme|
+ayam-masak-merah|9|citronnelle|citronnelle|
+ayam-masak-merah|10|oignon|oignon|
+ayam-masak-merah|11|petits pois surgelés|petits-pois-surgeles|
+ayam-masak-merah|12|huile neutre|huile-neutre|
+ayam-masak-merah|13|sel|sel|
+bubur-cha-cha|0|patate douce|patate-douce|
+bubur-cha-cha|1|taro|taro|
+bubur-cha-cha|2|banane plantain|banane-plantain|
+bubur-cha-cha|3|lait de coco|lait-de-coco|
+bubur-cha-cha|4|sucre de palme|sucre-de-palme|
+bubur-cha-cha|5|feuille de pandan|feuille-de-pandan|
+bubur-cha-cha|6|maïzena|maizena|
+bubur-cha-cha|7|sel|sel|
+char-kway-teow|0|nouilles de riz|nouilles-de-riz|
+char-kway-teow|1|crevette|crevette|
+char-kway-teow|2|moule|moule|
+char-kway-teow|3|saucisse chinoise|saucisse-chinoise|
+char-kway-teow|4|oeuf|oeuf|
+char-kway-teow|5|germes de soja|germes-de-soja|
+char-kway-teow|6|ciboulette|ciboulette|
+char-kway-teow|7|ail|ail|
+char-kway-teow|8|sauce soja foncée|sauce-soja-foncee|
+char-kway-teow|9|sauce soja claire|sauce-soja-claire|
+char-kway-teow|10|sauce huître|sauce-huitre|
+char-kway-teow|11|sambal oelek|sambal-oelek|
+char-kway-teow|12|saindoux|saindoux|
+ikan-bakar|0|dorade|dorade|
+ikan-bakar|1|piment séché|piment-seche|
+ikan-bakar|2|échalote|echalote|
+ikan-bakar|3|ail|ail|
+ikan-bakar|4|pâte de crevette|pate-de-crevette|
+ikan-bakar|5|citronnelle|citronnelle|
+ikan-bakar|6|curcuma frais|curcuma-frais|
+ikan-bakar|7|pâte de tamarin|pate-de-tamarin|
+ikan-bakar|8|sucre de palme|sucre-de-palme|
+ikan-bakar|9|huile neutre|huile-neutre|
+ikan-bakar|10|citron vert|citron-vert|
+ikan-bakar|11|sel|sel|
+kari-kapitan|0|cuisse de poulet|cuisse-de-poulet|
+kari-kapitan|1|piment séché|piment-seche|
+kari-kapitan|2|échalote|echalote|
+kari-kapitan|3|ail|ail|
+kari-kapitan|4|citronnelle|citronnelle|
+kari-kapitan|5|curcuma frais|curcuma-frais|
+kari-kapitan|6|galanga|galanga|
+kari-kapitan|7|noix de bancoul|noix-de-bancoul|
+kari-kapitan|8|pâte de crevette|pate-de-crevette|
+kari-kapitan|9|lait de coco|lait-de-coco|
+kari-kapitan|10|feuille de combava|combava-feuille|
+kari-kapitan|11|pâte de tamarin|pate-de-tamarin|
+kari-kapitan|12|sucre de palme|sucre-de-palme|
+kari-kapitan|13|huile neutre|huile-neutre|
+kaya-toast|0|oeuf|oeuf|
+kaya-toast|1|lait de coco|lait-de-coco|
+kaya-toast|2|sucre|sucre|
+kaya-toast|3|feuille de pandan|feuille-de-pandan|
+kaya-toast|4|pain de mie|pain-de-mie|
+kaya-toast|5|beurre demi-sel|beurre-demi-sel|
+kaya-toast|6|oeuf|oeuf|
+kaya-toast|7|sauce soja foncée|sauce-soja-foncee|
+kuih-seri-muka|0|riz gluant|riz-gluant|
+kuih-seri-muka|1|lait de coco|lait-de-coco|
+kuih-seri-muka|2|oeuf|oeuf|
+kuih-seri-muka|3|lait de coco|lait-de-coco|
+kuih-seri-muka|4|sucre|sucre|
+kuih-seri-muka|5|farine de blé|farine-de-ble|
+kuih-seri-muka|6|maïzena|maizena|
+kuih-seri-muka|7|feuille de pandan|feuille-de-pandan|
+kuih-seri-muka|8|sel|sel|
+laksa-lemak|0|nouilles de riz|nouilles-de-riz|
+laksa-lemak|1|crevette|crevette|
+laksa-lemak|2|blanc de poulet|blanc-de-poulet|
+laksa-lemak|3|lait de coco|lait-de-coco|
+laksa-lemak|4|piment séché|piment-seche|
+laksa-lemak|5|échalote|echalote|
+laksa-lemak|6|ail|ail|
+laksa-lemak|7|noix de bancoul|noix-de-bancoul|
+laksa-lemak|8|curcuma frais|curcuma-frais|
+laksa-lemak|9|galanga|galanga|
+laksa-lemak|10|citronnelle|citronnelle|
+laksa-lemak|11|pâte de crevette|pate-de-crevette|
+laksa-lemak|12|tofu ferme|tofu-ferme|
+laksa-lemak|13|germes de soja|germes-de-soja|
+laksa-lemak|14|menthe fraîche|menthe-fraiche|
+laksa-lemak|15|huile neutre|huile-neutre|
+mee-goreng-mamak|0|nouilles de blé|nouilles-de-ble|
+mee-goreng-mamak|1|tofu ferme|tofu-ferme|
+mee-goreng-mamak|2|crevette|crevette|
+mee-goreng-mamak|3|pomme de terre|pomme-de-terre|
+mee-goreng-mamak|4|oeuf|oeuf|
+mee-goreng-mamak|5|chou blanc|chou-blanc|
+mee-goreng-mamak|6|germes de soja|germes-de-soja|
+mee-goreng-mamak|7|sambal oelek|sambal-oelek|
+mee-goreng-mamak|8|concentré de tomate|concentre-de-tomate|
+mee-goreng-mamak|9|kecap manis|kecap-manis|
+mee-goreng-mamak|10|sauce soja|sauce-soja|
+mee-goreng-mamak|11|ail|ail|
+mee-goreng-mamak|12|citron vert|citron-vert|
+mee-goreng-mamak|13|huile neutre|huile-neutre|
+murtabak|0|farine de blé|farine-de-ble|
+murtabak|1|eau|eau|
+murtabak|2|sel|sel|
+murtabak|3|huile neutre|huile-neutre|
+murtabak|4|boeuf haché|boeuf-hache|
+murtabak|5|oignon|oignon|
+murtabak|6|poudre de curry|poudre-de-curry|
+murtabak|7|garam masala|garam-masala|
+murtabak|8|oeuf|oeuf|
+murtabak|9|oignon nouveau|oignon-nouveau|
+murtabak|10|ghee|ghee|
+murtabak|11|oignon|oignon|
+nasi-lemak|0|riz long grain|riz-long-grain|
+nasi-lemak|1|lait de coco|lait-de-coco|
+nasi-lemak|2|feuille de pandan|feuille-de-pandan|
+nasi-lemak|3|gingembre|gingembre|
+nasi-lemak|4|piment séché|piment-seche|
+nasi-lemak|5|échalote|echalote|
+nasi-lemak|6|ail|ail|
+nasi-lemak|7|pâte de crevette|pate-de-crevette|
+nasi-lemak|8|pâte de tamarin|pate-de-tamarin|
+nasi-lemak|9|sucre de palme|sucre-de-palme|
+nasi-lemak|10|anchois|anchois|
+nasi-lemak|11|arachide grillée|arachide-grillee|
+nasi-lemak|12|oeuf|oeuf|
+nasi-lemak|13|concombre|concombre|
+nasi-lemak|14|huile neutre|huile-neutre|
+nasi-lemak|15|sel|sel|
+otak-otak|0|cabillaud|cabillaud|
+otak-otak|1|lait de coco|lait-de-coco|
+otak-otak|2|oeuf|oeuf|
+otak-otak|3|maïzena|maizena|
+otak-otak|4|piment séché|piment-seche|
+otak-otak|5|échalote|echalote|
+otak-otak|6|ail|ail|
+otak-otak|7|citronnelle|citronnelle|
+otak-otak|8|curcuma frais|curcuma-frais|
+otak-otak|9|noix de bancoul|noix-de-bancoul|
+otak-otak|10|pâte de crevette|pate-de-crevette|
+otak-otak|11|feuille de combava|combava-feuille|
+otak-otak|12|sel|sel|
+rojak|0|concombre|concombre|
+rojak|1|ananas|ananas|
+rojak|2|mangue|mangue|
+rojak|3|pomme|pomme|
+rojak|4|germes de soja|germes-de-soja|
+rojak|5|tofu ferme|tofu-ferme|
+rojak|6|pâte de crevette|pate-de-crevette|
+rojak|7|sucre de palme|sucre-de-palme|
+rojak|8|pâte de tamarin|pate-de-tamarin|
+rojak|9|sambal oelek|sambal-oelek|
+rojak|10|arachide grillée|arachide-grillee|
+rojak|11|citron vert|citron-vert|
+roti-canai|0|farine de blé|farine-de-ble|
+roti-canai|1|eau|eau|
+roti-canai|2|oeuf|oeuf|
+roti-canai|3|lait concentré sucré|lait-concentre-sucre|
+roti-canai|4|sel|sel|
+roti-canai|5|huile neutre|huile-neutre|
+roti-canai|6|ghee|ghee|
+sambal-udang|0|crevette|crevette|
+sambal-udang|1|piment séché|piment-seche|
+sambal-udang|2|échalote|echalote|
+sambal-udang|3|ail|ail|
+sambal-udang|4|pâte de crevette|pate-de-crevette|
+sambal-udang|5|pâte de tamarin|pate-de-tamarin|
+sambal-udang|6|sucre de palme|sucre-de-palme|
+sambal-udang|7|oignon|oignon|
+sambal-udang|8|huile neutre|huile-neutre|
+sambal-udang|9|sel|sel|
+sup-kambing|0|épaule d'agneau|epaule-d-agneau|
+sup-kambing|1|oignon|oignon|
+sup-kambing|2|ail|ail|
+sup-kambing|3|gingembre|gingembre|
+sup-kambing|4|cannelle|cannelle|
+sup-kambing|5|cardamome|cardamome|
+sup-kambing|6|badiane|badiane|
+sup-kambing|7|clou de girofle|clou-de-girofle|
+sup-kambing|8|coriandre graines|coriandre-graines|
+sup-kambing|9|cumin|cumin|
+sup-kambing|10|poivre blanc|poivre-blanc|
+sup-kambing|11|pomme de terre|pomme-de-terre|
+sup-kambing|12|échalote|echalote|
+sup-kambing|13|ghee|ghee|
+sup-kambing|14|sel|sel|
+teh-tarik|0|thé vert|the-vert|
+teh-tarik|1|eau|eau|
+teh-tarik|2|lait concentré sucré|lait-concentre-sucre|
+teh-tarik|3|lait entier|lait-entier|
+teh-tarik|4|sucre|sucre|
+adobo|0|poitrine de porc|poitrine-de-porc|
+adobo|1|cuisse de poulet|cuisse-de-poulet|
+adobo|2|vinaigre de canne|vinaigre-de-canne|
+adobo|3|sauce soja|sauce-soja|
+adobo|4|ail|ail|
+adobo|5|laurier|laurier|
+adobo|6|poivre noir|poivre-noir|
+adobo|7|sucre roux|sucre-roux|
+adobo|8|eau|eau|
+adobo|9|huile neutre|huile-neutre|
+adobo|10|riz long grain|riz-long-grain|
+afritada|0|poulet entier|poulet-entier|
+afritada|1|tomate concassée|tomate-concassee|
+afritada|2|concentré de tomate|concentre-de-tomate|
+afritada|3|pomme de terre|pomme-de-terre|
+afritada|4|carotte|carotte|
+afritada|5|poivron rouge|poivron-rouge|
+afritada|6|poivron vert|poivron-vert|
+afritada|7|oignon|oignon|
+afritada|8|ail|ail|
+afritada|9|laurier|laurier|
+afritada|10|sauce poisson|sauce-poisson|
+afritada|11|huile neutre|huile-neutre|
+afritada|12|sel|sel|
+afritada|13|poivre noir|poivre-noir|
+arroz-caldo|0|riz gluant|riz-gluant|
+arroz-caldo|1|cuisse de poulet|cuisse-de-poulet|
+arroz-caldo|2|gingembre|gingembre|
+arroz-caldo|3|ail|ail|
+arroz-caldo|4|oignon|oignon|
+arroz-caldo|5|safran|safran|
+arroz-caldo|6|sauce poisson|sauce-poisson|
+arroz-caldo|7|bouillon volaille|bouillon-volaille|
+arroz-caldo|8|oeuf|oeuf|
+arroz-caldo|9|oignon nouveau|oignon-nouveau|
+arroz-caldo|10|citron vert|citron-vert|
+arroz-caldo|11|huile neutre|huile-neutre|
+bibingka|0|farine de riz|farine-de-riz|
+bibingka|1|lait de coco|lait-de-coco|
+bibingka|2|sucre|sucre|
+bibingka|3|oeuf|oeuf|
+bibingka|4|levure chimique|levure-chimique|
+bibingka|5|beurre|beurre|
+bibingka|6|oeuf|oeuf|
+bibingka|7|emmental|emmental|
+bibingka|8|coco râpé|coco-rape|
+bibingka|9|beurre|beurre|
+bibingka|10|sel|sel|
+bicol-express|0|poitrine de porc|poitrine-de-porc|
+bicol-express|1|lait de coco|lait-de-coco|
+bicol-express|2|piment frais|piment-frais|
+bicol-express|3|pâte de crevette|pate-de-crevette|
+bicol-express|4|oignon|oignon|
+bicol-express|5|ail|ail|
+bicol-express|6|gingembre|gingembre|
+bicol-express|7|huile neutre|huile-neutre|
+bicol-express|8|riz long grain|riz-long-grain|
+bistek-tagalog|0|steak de bœuf|steak-de-boeuf|
+bistek-tagalog|1|citron vert|citron-vert|
+bistek-tagalog|2|sauce soja|sauce-soja|
+bistek-tagalog|3|oignon|oignon|
+bistek-tagalog|4|ail|ail|
+bistek-tagalog|5|poivre noir|poivre-noir|
+bistek-tagalog|6|sucre roux|sucre-roux|
+bistek-tagalog|7|huile neutre|huile-neutre|
+bistek-tagalog|8|riz long grain|riz-long-grain|
+buko-pandan|0|noix de coco|noix-de-coco|
+buko-pandan|1|gelatine|gelatine|
+buko-pandan|2|eau|eau|
+buko-pandan|3|feuille de pandan|feuille-de-pandan|
+buko-pandan|4|crème liquide|creme-liquide|
+buko-pandan|5|lait concentré sucré|lait-concentre-sucre|
+buko-pandan|6|maïzena|maizena|
+buko-pandan|7|sel|sel|
+chicken-inasal|0|cuisse de poulet|cuisse-de-poulet|
+chicken-inasal|1|vinaigre de canne|vinaigre-de-canne|
+chicken-inasal|2|citron vert|citron-vert|
+chicken-inasal|3|citronnelle|citronnelle|
+chicken-inasal|4|gingembre|gingembre|
+chicken-inasal|5|ail|ail|
+chicken-inasal|6|sucre roux|sucre-roux|
+chicken-inasal|7|rocou|rocou|
+chicken-inasal|8|beurre|beurre|
+chicken-inasal|9|vinaigre de canne|vinaigre-de-canne|
+chicken-inasal|10|sauce soja|sauce-soja|
+chicken-inasal|11|sel|sel|
+chicken-inasal|12|poivre noir|poivre-noir|
+halo-halo|0|haricot rouge|haricot-rouge|
+halo-halo|1|banane plantain|banane-plantain|
+halo-halo|2|jacquier|jacquier|
+halo-halo|3|maïzena|maizena|
+halo-halo|4|ube|ube|
+halo-halo|5|lait concentré sucré|lait-concentre-sucre|
+halo-halo|6|eau|eau|
+halo-halo|7|lait entier|lait-entier|
+halo-halo|8|lait concentré sucré|lait-concentre-sucre|
+halo-halo|9|riz soufflé|riz-souffle|
+kare-kare|0|boeuf à mijoter|boeuf-a-mijoter|
+kare-kare|1|pâte d'arachide|pate-d-arachide|
+kare-kare|2|rocou|rocou|
+kare-kare|3|farine de riz|farine-de-riz|
+kare-kare|4|aubergine|aubergine|
+kare-kare|5|haricot vert|haricot-vert|
+kare-kare|6|chou chinois|chou-chinois|
+kare-kare|7|banane plantain|banane-plantain|
+kare-kare|8|oignon|oignon|
+kare-kare|9|ail|ail|
+kare-kare|10|pâte de crevette|pate-de-crevette|
+kare-kare|11|huile neutre|huile-neutre|
+kare-kare|12|sel|sel|
+leche-flan|0|oeuf|oeuf|
+leche-flan|1|lait concentré sucré|lait-concentre-sucre|
+leche-flan|2|lait entier|lait-entier|
+leche-flan|3|citron vert|citron-vert|
+leche-flan|4|extrait de vanille|extrait-de-vanille|
+leche-flan|5|sucre|sucre|
+lechon-kawali|0|poitrine de porc|poitrine-de-porc|
+lechon-kawali|1|laurier|laurier|
+lechon-kawali|2|poivre noir|poivre-noir|
+lechon-kawali|3|ail|ail|
+lechon-kawali|4|gros sel|gros-sel|
+lechon-kawali|5|huile neutre|huile-neutre|
+lechon-kawali|6|vinaigre de canne|vinaigre-de-canne|
+lechon-kawali|7|ail|ail|
+lechon-kawali|8|piment oiseau|piment-oiseau|
+lumpia-shanghai|0|pâte à wonton|pate-a-wonton|
+lumpia-shanghai|1|porc haché|porc-hache|
+lumpia-shanghai|2|carotte|carotte|
+lumpia-shanghai|3|oignon|oignon|
+lumpia-shanghai|4|ail|ail|
+lumpia-shanghai|5|oeuf|oeuf|
+lumpia-shanghai|6|sauce soja|sauce-soja|
+lumpia-shanghai|7|oignon nouveau|oignon-nouveau|
+lumpia-shanghai|8|huile neutre|huile-neutre|
+lumpia-shanghai|9|vinaigre de canne|vinaigre-de-canne|
+lumpia-shanghai|10|sucre|sucre|
+lumpia-shanghai|11|sel|sel|
+lumpia-shanghai|12|poivre noir|poivre-noir|
+pancit-canton|0|nouilles de blé|nouilles-de-ble|
+pancit-canton|1|blanc de poulet|blanc-de-poulet|
+pancit-canton|2|crevette|crevette|
+pancit-canton|3|saucisse chinoise|saucisse-chinoise|
+pancit-canton|4|chou blanc|chou-blanc|
+pancit-canton|5|carotte|carotte|
+pancit-canton|6|haricot vert|haricot-vert|
+pancit-canton|7|ail|ail|
+pancit-canton|8|bouillon volaille|bouillon-volaille|
+pancit-canton|9|sauce soja|sauce-soja|
+pancit-canton|10|sauce huître|sauce-huitre|
+pancit-canton|11|citron vert|citron-vert|
+pancit-canton|12|huile neutre|huile-neutre|
+pinakbet|0|aubergine|aubergine|
+pinakbet|1|gombo|gombo|
+pinakbet|2|courge|courge|
+pinakbet|3|haricot vert|haricot-vert|
+pinakbet|4|concombre|concombre|
+pinakbet|5|poitrine de porc|poitrine-de-porc|
+pinakbet|6|pâte de crevette|pate-de-crevette|
+pinakbet|7|tomate|tomate|
+pinakbet|8|oignon|oignon|
+pinakbet|9|gingembre|gingembre|
+pinakbet|10|huile neutre|huile-neutre|
+sago-gulaman|0|maïzena|maizena|
+sago-gulaman|1|gelatine|gelatine|
+sago-gulaman|2|sucre roux|sucre-roux|
+sago-gulaman|3|eau|eau|
+sago-gulaman|4|extrait de vanille|extrait-de-vanille|
+sago-gulaman|5|eau|eau|
+sago-gulaman|6|sel|sel|
+sinigang|0|poitrine de porc|poitrine-de-porc|
+sinigang|1|pâte de tamarin|pate-de-tamarin|
+sinigang|2|daikon|daikon|
+sinigang|3|haricot vert|haricot-vert|
+sinigang|4|aubergine|aubergine|
+sinigang|5|épinard|epinard|
+sinigang|6|tomate|tomate|
+sinigang|7|oignon|oignon|
+sinigang|8|piment frais|piment-frais|
+sinigang|9|sauce poisson|sauce-poisson|
+sinigang|10|eau|eau|
+sinigang|11|sel|sel|
+sisig|0|échine de porc|echine-de-porc|
+sisig|1|poitrine de porc|poitrine-de-porc|
+sisig|2|oignon|oignon|
+sisig|3|piment oiseau|piment-oiseau|
+sisig|4|ail|ail|
+sisig|5|citron vert|citron-vert|
+sisig|6|mayonnaise|mayonnaise|
+sisig|7|sauce soja|sauce-soja|
+sisig|8|laurier|laurier|
+sisig|9|oeuf|oeuf|
+sisig|10|beurre|beurre|
+sisig|11|sel|sel|
+sisig|12|poivre noir|poivre-noir|
+tinola|0|poulet entier|poulet-entier|
+tinola|1|gingembre|gingembre|
+tinola|2|chayotte|chayotte|
+tinola|3|épinard|epinard|
+tinola|4|oignon|oignon|
+tinola|5|ail|ail|
+tinola|6|sauce poisson|sauce-poisson|
+tinola|7|eau|eau|
+tinola|8|huile neutre|huile-neutre|
+tinola|9|sel|sel|
+tinola|10|poivre noir|poivre-noir|
+turon|0|pâte à wonton|pate-a-wonton|
+turon|1|banane plantain|banane-plantain|
+turon|2|jacquier|jacquier|
+turon|3|sucre roux|sucre-roux|
+turon|4|huile neutre|huile-neutre|
+turon|5|sel|sel|
+bak-chor-mee|0|nouilles de blé|nouilles-de-ble|
+bak-chor-mee|1|porc haché|porc-hache|
+bak-chor-mee|2|foie de veau|foie-de-veau|
+bak-chor-mee|3|shutki|shutki|
+bak-chor-mee|4|shiitake|shiitake|
+bak-chor-mee|5|vinaigre de riz|vinaigre-de-riz|
+bak-chor-mee|6|sauce soja claire|sauce-soja-claire|
+bak-chor-mee|7|sambal oelek|sambal-oelek|
+bak-chor-mee|8|saindoux|saindoux|
+bak-chor-mee|9|bouillon volaille|bouillon-volaille|
+bak-chor-mee|10|oignon nouveau|oignon-nouveau|
+bak-chor-mee|11|laitue|laitue|
+bak-chor-mee|12|sel|sel|
+bak-chor-mee|13|poivre blanc|poivre-blanc|
+bak-kut-teh|0|poitrine de porc|poitrine-de-porc|
+bak-kut-teh|1|ail|ail|
+bak-kut-teh|2|poivre blanc|poivre-blanc|
+bak-kut-teh|3|poivre noir|poivre-noir|
+bak-kut-teh|4|sauce soja claire|sauce-soja-claire|
+bak-kut-teh|5|sauce soja foncée|sauce-soja-foncee|
+bak-kut-teh|6|eau|eau|
+bak-kut-teh|7|shiitake|shiitake|
+bak-kut-teh|8|tofu ferme|tofu-ferme|
+bak-kut-teh|9|riz long grain|riz-long-grain|
+bak-kut-teh|10|sauce soja foncée|sauce-soja-foncee|
+bak-kut-teh|11|piment oiseau|piment-oiseau|
+bak-kut-teh|12|sel|sel|
+bandung|0|eau de rose|eau-de-rose|
+bandung|1|lait concentré sucré|lait-concentre-sucre|
+bandung|2|eau|eau|
+bandung|3|lait entier|lait-entier|
+bandung|4|eau|eau|
+chai-tow-kway|0|daikon|daikon|
+chai-tow-kway|1|farine de riz|farine-de-riz|
+chai-tow-kway|2|maïzena|maizena|
+chai-tow-kway|3|eau|eau|
+chai-tow-kway|4|oeuf|oeuf|
+chai-tow-kway|5|radis conservé|radis-conserve|
+chai-tow-kway|6|ail|ail|
+chai-tow-kway|7|sauce soja foncée|sauce-soja-foncee|
+chai-tow-kway|8|sauce poisson|sauce-poisson|
+chai-tow-kway|9|sambal oelek|sambal-oelek|
+chai-tow-kway|10|oignon nouveau|oignon-nouveau|
+chai-tow-kway|11|huile neutre|huile-neutre|
+chai-tow-kway|12|sel|sel|
+chai-tow-kway|13|poivre blanc|poivre-blanc|
+chilli-crab|0|crabe|crabe|
+chilli-crab|1|piment frais|piment-frais|
+chilli-crab|2|échalote|echalote|
+chilli-crab|3|ail|ail|
+chilli-crab|4|gingembre|gingembre|
+chilli-crab|5|pâte de crevette|pate-de-crevette|
+chilli-crab|6|concentré de tomate|concentre-de-tomate|
+chilli-crab|7|sambal oelek|sambal-oelek|
+chilli-crab|8|sucre|sucre|
+chilli-crab|9|vinaigre de riz|vinaigre-de-riz|
+chilli-crab|10|oeuf|oeuf|
+chilli-crab|11|maïzena|maizena|
+chilli-crab|12|bouillon volaille|bouillon-volaille|
+chilli-crab|13|pain de mie|pain-de-mie|
+chilli-crab|14|huile neutre|huile-neutre|
+chwee-kueh|0|farine de riz|farine-de-riz|
+chwee-kueh|1|maïzena|maizena|
+chwee-kueh|2|eau|eau|
+chwee-kueh|3|radis conservé|radis-conserve|
+chwee-kueh|4|ail|ail|
+chwee-kueh|5|sucre|sucre|
+chwee-kueh|6|huile neutre|huile-neutre|
+chwee-kueh|7|sauce piquante|sauce-piquante|
+chwee-kueh|8|sel|sel|
+curry-puff|0|farine de blé|farine-de-ble|
+curry-puff|1|beurre|beurre|
+curry-puff|2|eau|eau|
+curry-puff|3|sel|sel|
+curry-puff|4|pomme de terre|pomme-de-terre|
+curry-puff|5|poulet haché|poulet-hache|
+curry-puff|6|oignon|oignon|
+curry-puff|7|poudre de curry|poudre-de-curry|
+curry-puff|8|curcuma|curcuma|
+curry-puff|9|lait de coco|lait-de-coco|
+curry-puff|10|oeuf|oeuf|
+curry-puff|11|huile neutre|huile-neutre|
+fish-head-curry|0|dorade|dorade|
+fish-head-curry|1|poudre de curry|poudre-de-curry|
+fish-head-curry|2|curcuma|curcuma|
+fish-head-curry|3|lait de coco|lait-de-coco|
+fish-head-curry|4|pâte de tamarin|pate-de-tamarin|
+fish-head-curry|5|gombo|gombo|
+fish-head-curry|6|tomate|tomate|
+fish-head-curry|7|aubergine|aubergine|
+fish-head-curry|8|oignon|oignon|
+fish-head-curry|9|feuille de curry|feuille-de-curry|
+fish-head-curry|10|graine de moutarde|graine-de-moutarde|
+fish-head-curry|11|fenugrec|fenugrec|
+fish-head-curry|12|huile neutre|huile-neutre|
+fish-head-curry|13|sel|sel|
+hainanese-chicken-rice|0|poulet entier|poulet-entier|
+hainanese-chicken-rice|1|riz long grain|riz-long-grain|
+hainanese-chicken-rice|2|gingembre|gingembre|
+hainanese-chicken-rice|3|ail|ail|
+hainanese-chicken-rice|4|oignon nouveau|oignon-nouveau|
+hainanese-chicken-rice|5|feuille de pandan|feuille-de-pandan|
+hainanese-chicken-rice|6|huile de sésame|huile-de-sesame|
+hainanese-chicken-rice|7|piment oiseau|piment-oiseau|
+hainanese-chicken-rice|8|gingembre|gingembre|
+hainanese-chicken-rice|9|citron vert|citron-vert|
+hainanese-chicken-rice|10|gingembre|gingembre|
+hainanese-chicken-rice|11|huile neutre|huile-neutre|
+hainanese-chicken-rice|12|sauce soja foncée|sauce-soja-foncee|
+hainanese-chicken-rice|13|concombre|concombre|
+hainanese-chicken-rice|14|sel|sel|
+hokkien-mee|0|nouilles de blé|nouilles-de-ble|
+hokkien-mee|1|nouilles de riz|nouilles-de-riz|
+hokkien-mee|2|crevette|crevette|
+hokkien-mee|3|calamar|calamar|
+hokkien-mee|4|poitrine de porc|poitrine-de-porc|
+hokkien-mee|5|oeuf|oeuf|
+hokkien-mee|6|germes de soja|germes-de-soja|
+hokkien-mee|7|ciboulette|ciboulette|
+hokkien-mee|8|ail|ail|
+hokkien-mee|9|sauce poisson|sauce-poisson|
+hokkien-mee|10|sambal oelek|sambal-oelek|
+hokkien-mee|11|citron vert|citron-vert|
+hokkien-mee|12|saindoux|saindoux|
+laksa-katong|0|nouilles de riz|nouilles-de-riz|
+laksa-katong|1|crevette|crevette|
+laksa-katong|2|moule|moule|
+laksa-katong|3|lait de coco|lait-de-coco|
+laksa-katong|4|piment séché|piment-seche|
+laksa-katong|5|échalote|echalote|
+laksa-katong|6|ail|ail|
+laksa-katong|7|citronnelle|citronnelle|
+laksa-katong|8|galanga|galanga|
+laksa-katong|9|curcuma frais|curcuma-frais|
+laksa-katong|10|noix de bancoul|noix-de-bancoul|
+laksa-katong|11|pâte de crevette|pate-de-crevette|
+laksa-katong|12|crevette séchée|crevette-sechee|
+laksa-katong|13|germes de soja|germes-de-soja|
+laksa-katong|14|huile neutre|huile-neutre|
+mee-siam|0|nouilles de riz|nouilles-de-riz|
+mee-siam|1|crevette|crevette|
+mee-siam|2|tofu ferme|tofu-ferme|
+mee-siam|3|piment séché|piment-seche|
+mee-siam|4|échalote|echalote|
+mee-siam|5|ail|ail|
+mee-siam|6|pâte de crevette|pate-de-crevette|
+mee-siam|7|pâte de tamarin|pate-de-tamarin|
+mee-siam|8|sucre de palme|sucre-de-palme|
+mee-siam|9|germes de soja|germes-de-soja|
+mee-siam|10|oeuf|oeuf|
+mee-siam|11|ciboulette|ciboulette|
+mee-siam|12|citron vert|citron-vert|
+mee-siam|13|huile neutre|huile-neutre|
+orh-luak|0|moule|moule|
+orh-luak|1|maïzena|maizena|
+orh-luak|2|farine de riz|farine-de-riz|
+orh-luak|3|eau|eau|
+orh-luak|4|oeuf|oeuf|
+orh-luak|5|ail|ail|
+orh-luak|6|coriandre fraîche|coriandre-fraiche|
+orh-luak|7|sauce poisson|sauce-poisson|
+orh-luak|8|sauce piquante|sauce-piquante|
+orh-luak|9|citron vert|citron-vert|
+orh-luak|10|huile neutre|huile-neutre|
+orh-luak|11|poivre blanc|poivre-blanc|
+orh-luak|12|sel|sel|
+pandan-chiffon|0|farine T45|farine-t45|
+pandan-chiffon|1|oeuf|oeuf|
+pandan-chiffon|2|sucre|sucre|
+pandan-chiffon|3|huile neutre|huile-neutre|
+pandan-chiffon|4|lait de coco|lait-de-coco|
+pandan-chiffon|5|feuille de pandan|feuille-de-pandan|
+pandan-chiffon|6|levure chimique|levure-chimique|
+pandan-chiffon|7|bicarbonate|bicarbonate|
+pandan-chiffon|8|sel|sel|
+pineapple-tart|0|ananas|ananas|
+pineapple-tart|1|sucre|sucre|
+pineapple-tart|2|cannelle|cannelle|
+pineapple-tart|3|clou de girofle|clou-de-girofle|
+pineapple-tart|4|farine de blé|farine-de-ble|
+pineapple-tart|5|beurre|beurre|
+pineapple-tart|6|oeuf|oeuf|
+pineapple-tart|7|sucre glace|sucre-glace|
+pineapple-tart|8|maïzena|maizena|
+pineapple-tart|9|oeuf|oeuf|
+pineapple-tart|10|sel|sel|
+popiah|0|pâte à wonton|pate-a-wonton|
+popiah|1|daikon|daikon|
+popiah|2|carotte|carotte|
+popiah|3|poitrine de porc|poitrine-de-porc|
+popiah|4|crevette|crevette|
+popiah|5|tofu ferme|tofu-ferme|
+popiah|6|oeuf|oeuf|
+popiah|7|laitue|laitue|
+popiah|8|germes de soja|germes-de-soja|
+popiah|9|arachide grillée|arachide-grillee|
+popiah|10|sauce hoisin|sauce-hoisin|
+popiah|11|sauce piquante|sauce-piquante|
+popiah|12|ail|ail|
+popiah|13|huile neutre|huile-neutre|
+satay-bee-hoon|0|nouilles de riz|nouilles-de-riz|
+satay-bee-hoon|1|crevette|crevette|
+satay-bee-hoon|2|calamar|calamar|
+satay-bee-hoon|3|germes de soja|germes-de-soja|
+satay-bee-hoon|4|chou chinois|chou-chinois|
+satay-bee-hoon|5|pâte d'arachide|pate-d-arachide|
+satay-bee-hoon|6|piment séché|piment-seche|
+satay-bee-hoon|7|échalote|echalote|
+satay-bee-hoon|8|citronnelle|citronnelle|
+satay-bee-hoon|9|pâte de tamarin|pate-de-tamarin|
+satay-bee-hoon|10|sucre de palme|sucre-de-palme|
+satay-bee-hoon|11|huile neutre|huile-neutre|
+sugarcane-juice|0|canne à sucre|canne-a-sucre|
+sugarcane-juice|1|citron vert|citron-vert|
+sugarcane-juice|2|eau|eau|
+sugarcane-juice|3|sel|sel|
+tau-huay|0|tofu soyeux|tofu-soyeux|
+tau-huay|1|eau|eau|
+tau-huay|2|nigari|nigari|
+tau-huay|3|sucre|sucre|
+tau-huay|4|gingembre|gingembre|
+tau-huay|5|feuille de pandan|feuille-de-pandan|
+tau-huay|6|eau|eau|
+yong-tau-foo|0|cabillaud|cabillaud|
+yong-tau-foo|1|porc haché|porc-hache|
+yong-tau-foo|2|maïzena|maizena|
+yong-tau-foo|3|oignon nouveau|oignon-nouveau|
+yong-tau-foo|4|tofu ferme|tofu-ferme|
+yong-tau-foo|5|piment frais|piment-frais|
+yong-tau-foo|6|aubergine|aubergine|
+yong-tau-foo|7|gombo|gombo|
+yong-tau-foo|8|shiitake|shiitake|
+yong-tau-foo|9|bouillon volaille|bouillon-volaille|
+yong-tau-foo|10|nouilles de riz|nouilles-de-riz|
+yong-tau-foo|11|sauce hoisin|sauce-hoisin|
+yong-tau-foo|12|sel|sel|
+yong-tau-foo|13|poivre blanc|poivre-blanc|
+banh-cuon|0|farine de riz|farine-de-riz|
+banh-cuon|1|maïzena|maizena|
+banh-cuon|2|eau|eau|
+banh-cuon|3|huile neutre|huile-neutre|
+banh-cuon|4|porc haché|porc-hache|
+banh-cuon|5|champignon noir|champignon-noir|
+banh-cuon|6|échalote|echalote|
+banh-cuon|7|sauce poisson|sauce-poisson|
+banh-cuon|8|échalote|echalote|
+banh-cuon|9|coriandre fraîche|coriandre-fraiche|
+banh-cuon|10|concombre|concombre|
+banh-cuon|11|sauce poisson|sauce-poisson|
+banh-cuon|12|sucre|sucre|
+banh-cuon|13|citron vert|citron-vert|
+banh-flan|0|oeuf|oeuf|
+banh-flan|1|lait entier|lait-entier|
+banh-flan|2|lait concentré sucré|lait-concentre-sucre|
+banh-flan|3|extrait de vanille|extrait-de-vanille|
+banh-flan|4|sucre|sucre|
+banh-flan|5|citron|citron|
+banh-flan|6|café|cafe|
+banh-flan|7|eau|eau|
+banh-mi|0|baguette|baguette|
+banh-mi|1|échine de porc|echine-de-porc|
+banh-mi|2|carotte|carotte|
+banh-mi|3|daikon|daikon|
+banh-mi|4|vinaigre blanc|vinaigre-blanc|
+banh-mi|5|sucre|sucre|
+banh-mi|6|sauce poisson|sauce-poisson|
+banh-mi|7|sauce soja|sauce-soja|
+banh-mi|8|sucre|sucre|
+banh-mi|9|ail|ail|
+banh-mi|10|mayonnaise|mayonnaise|
+banh-mi|11|concombre|concombre|
+banh-mi|12|coriandre fraîche|coriandre-fraiche|
+banh-mi|13|piment frais|piment-frais|
+banh-xeo|0|farine de riz|farine-de-riz|
+banh-xeo|1|maïzena|maizena|
+banh-xeo|2|curcuma|curcuma|
+banh-xeo|3|lait de coco|lait-de-coco|
+banh-xeo|4|eau|eau|
+banh-xeo|5|oignon nouveau|oignon-nouveau|
+banh-xeo|6|poitrine de porc|poitrine-de-porc|
+banh-xeo|7|crevette|crevette|
+banh-xeo|8|germes de soja|germes-de-soja|
+banh-xeo|9|laitue|laitue|
+banh-xeo|10|menthe fraîche|menthe-fraiche|
+banh-xeo|11|huile neutre|huile-neutre|
+banh-xeo|12|sel|sel|
+bo-kho|0|boeuf à mijoter|boeuf-a-mijoter|
+bo-kho|1|carotte|carotte|
+bo-kho|2|citronnelle|citronnelle|
+bo-kho|3|badiane|badiane|
+bo-kho|4|cannelle|cannelle|
+bo-kho|5|concentré de tomate|concentre-de-tomate|
+bo-kho|6|sauce poisson|sauce-poisson|
+bo-kho|7|sucre de palme|sucre-de-palme|
+bo-kho|8|oignon|oignon|
+bo-kho|9|ail|ail|
+bo-kho|10|gingembre|gingembre|
+bo-kho|11|baguette|baguette|
+bo-kho|12|basilic|basilic|
+bo-kho|13|huile neutre|huile-neutre|
+bun-bo-hue|0|boeuf à mijoter|boeuf-a-mijoter|
+bun-bo-hue|1|échine de porc|echine-de-porc|
+bun-bo-hue|2|nouilles de riz|nouilles-de-riz|
+bun-bo-hue|3|citronnelle|citronnelle|
+bun-bo-hue|4|pâte de crevette|pate-de-crevette|
+bun-bo-hue|5|piment en poudre|piment-en-poudre|
+bun-bo-hue|6|oignon|oignon|
+bun-bo-hue|7|sauce poisson|sauce-poisson|
+bun-bo-hue|8|sucre de palme|sucre-de-palme|
+bun-bo-hue|9|oignon rouge|oignon-rouge|
+bun-bo-hue|10|germes de soja|germes-de-soja|
+bun-bo-hue|11|coriandre fraîche|coriandre-fraiche|
+bun-bo-hue|12|citron vert|citron-vert|
+bun-bo-hue|13|huile neutre|huile-neutre|
+bun-cha|0|poitrine de porc|poitrine-de-porc|
+bun-cha|1|porc haché|porc-hache|
+bun-cha|2|nouilles de riz|nouilles-de-riz|
+bun-cha|3|sauce poisson|sauce-poisson|
+bun-cha|4|sucre de palme|sucre-de-palme|
+bun-cha|5|échalote|echalote|
+bun-cha|6|sauce soja foncée|sauce-soja-foncee|
+bun-cha|7|sauce poisson|sauce-poisson|
+bun-cha|8|sucre|sucre|
+bun-cha|9|citron vert|citron-vert|
+bun-cha|10|carotte|carotte|
+bun-cha|11|daikon|daikon|
+bun-cha|12|laitue|laitue|
+bun-cha|13|menthe fraîche|menthe-fraiche|
+bun-cha|14|coriandre fraîche|coriandre-fraiche|
+ca-kho-to|0|poisson-chat|poisson-chat|
+ca-kho-to|1|sucre|sucre|
+ca-kho-to|2|sauce poisson|sauce-poisson|
+ca-kho-to|3|échalote|echalote|
+ca-kho-to|4|ail|ail|
+ca-kho-to|5|gingembre|gingembre|
+ca-kho-to|6|piment oiseau|piment-oiseau|
+ca-kho-to|7|poivre noir|poivre-noir|
+ca-kho-to|8|oignon nouveau|oignon-nouveau|
+ca-kho-to|9|huile neutre|huile-neutre|
+ca-kho-to|10|riz long grain|riz-long-grain|
+ca-phe-sua-da|0|café|cafe|
+ca-phe-sua-da|1|eau|eau|
+ca-phe-sua-da|2|lait concentré sucré|lait-concentre-sucre|
+ca-phe-sua-da|3|eau|eau|
+canh-chua|0|poisson-chat|poisson-chat|
+canh-chua|1|pâte de tamarin|pate-de-tamarin|
+canh-chua|2|ananas|ananas|
+canh-chua|3|tomate|tomate|
+canh-chua|4|germes de soja|germes-de-soja|
+canh-chua|5|céleri branche|celeri-branche|
+canh-chua|6|gombo|gombo|
+canh-chua|7|sauce poisson|sauce-poisson|
+canh-chua|8|sucre de palme|sucre-de-palme|
+canh-chua|9|coriandre fraîche|coriandre-fraiche|
+canh-chua|10|ail|ail|
+canh-chua|11|eau|eau|
+canh-chua|12|huile neutre|huile-neutre|
+cha-ca-la-vong|0|poisson-chat|poisson-chat|
+cha-ca-la-vong|1|curcuma|curcuma|
+cha-ca-la-vong|2|yaourt|yaourt|
+cha-ca-la-vong|3|gingembre|gingembre|
+cha-ca-la-vong|4|pâte de crevette|pate-de-crevette|
+cha-ca-la-vong|5|aneth|aneth|
+cha-ca-la-vong|6|oignon nouveau|oignon-nouveau|
+cha-ca-la-vong|7|nouilles de riz|nouilles-de-riz|
+cha-ca-la-vong|8|arachide grillée|arachide-grillee|
+cha-ca-la-vong|9|huile neutre|huile-neutre|
+cha-ca-la-vong|10|sauce poisson|sauce-poisson|
+cha-ca-la-vong|11|citron vert|citron-vert|
+che-ba-mau|0|haricot mungo|haricot-mungo|
+che-ba-mau|1|haricot rouge|haricot-rouge|
+che-ba-mau|2|maïzena|maizena|
+che-ba-mau|3|sucre|sucre|
+che-ba-mau|4|lait de coco|lait-de-coco|
+che-ba-mau|5|feuille de pandan|feuille-de-pandan|
+che-ba-mau|6|eau|eau|
+che-ba-mau|7|sel|sel|
+com-tam|0|riz brisé|riz-brise|
+com-tam|1|échine de porc|echine-de-porc|
+com-tam|2|sauce poisson|sauce-poisson|
+com-tam|3|sucre de palme|sucre-de-palme|
+com-tam|4|lait de coco|lait-de-coco|
+com-tam|5|citronnelle|citronnelle|
+com-tam|6|ail|ail|
+com-tam|7|oeuf|oeuf|
+com-tam|8|concombre|concombre|
+com-tam|9|tomate|tomate|
+com-tam|10|sauce poisson|sauce-poisson|
+com-tam|11|sucre|sucre|
+com-tam|12|citron vert|citron-vert|
+com-tam|13|oignon nouveau|oignon-nouveau|
+goi-cuon|0|galette de riz|galette-de-riz|
+goi-cuon|1|crevette|crevette|
+goi-cuon|2|poitrine de porc|poitrine-de-porc|
+goi-cuon|3|nouilles de riz|nouilles-de-riz|
+goi-cuon|4|laitue|laitue|
+goi-cuon|5|menthe fraîche|menthe-fraiche|
+goi-cuon|6|coriandre fraîche|coriandre-fraiche|
+goi-cuon|7|ciboulette|ciboulette|
+goi-cuon|8|pâte d'arachide|pate-d-arachide|
+goi-cuon|9|sauce hoisin|sauce-hoisin|
+goi-cuon|10|lait de coco|lait-de-coco|
+goi-cuon|11|arachide grillée|arachide-grillee|
+goi-ga|0|blanc de poulet|blanc-de-poulet|
+goi-ga|1|chou blanc|chou-blanc|
+goi-ga|2|carotte|carotte|
+goi-ga|3|oignon rouge|oignon-rouge|
+goi-ga|4|menthe fraîche|menthe-fraiche|
+goi-ga|5|coriandre fraîche|coriandre-fraiche|
+goi-ga|6|sauce poisson|sauce-poisson|
+goi-ga|7|sucre|sucre|
+goi-ga|8|citron vert|citron-vert|
+goi-ga|9|piment oiseau|piment-oiseau|
+goi-ga|10|ail|ail|
+goi-ga|11|arachide grillée|arachide-grillee|
+nem-ran|0|galette de riz|galette-de-riz|
+nem-ran|1|porc haché|porc-hache|
+nem-ran|2|crabe|crabe|
+nem-ran|3|vermicelle de soja|vermicelle-de-soja|
+nem-ran|4|champignon noir|champignon-noir|
+nem-ran|5|carotte|carotte|
+nem-ran|6|échalote|echalote|
+nem-ran|7|oeuf|oeuf|
+nem-ran|8|sauce poisson|sauce-poisson|
+nem-ran|9|huile neutre|huile-neutre|
+nem-ran|10|laitue|laitue|
+nem-ran|11|menthe fraîche|menthe-fraiche|
+nem-ran|12|sel|sel|
+nem-ran|13|poivre noir|poivre-noir|
+nuoc-cham|0|sauce poisson|sauce-poisson|
+nuoc-cham|1|sucre|sucre|
+nuoc-cham|2|citron vert|citron-vert|
+nuoc-cham|3|eau|eau|
+nuoc-cham|4|ail|ail|
+nuoc-cham|5|piment oiseau|piment-oiseau|
+nuoc-cham|6|carotte|carotte|
+pho-bo|0|os à moelle|os-a-moelle|
+pho-bo|1|boeuf à mijoter|boeuf-a-mijoter|
+pho-bo|2|nouilles de riz|nouilles-de-riz|
+pho-bo|3|steak de bœuf|steak-de-boeuf|
+pho-bo|4|oignon|oignon|
+pho-bo|5|gingembre|gingembre|
+pho-bo|6|badiane|badiane|
+pho-bo|7|cannelle|cannelle|
+pho-bo|8|clou de girofle|clou-de-girofle|
+pho-bo|9|coriandre graines|coriandre-graines|
+pho-bo|10|sauce poisson|sauce-poisson|
+pho-bo|11|coriandre fraîche|coriandre-fraiche|
+pho-bo|12|basilic|basilic|
+pho-bo|13|germes de soja|germes-de-soja|
+pho-bo|14|citron vert|citron-vert|
+pho-bo|15|sel|sel|
+thit-kho-tau|0|poitrine de porc|poitrine-de-porc|
+thit-kho-tau|1|oeuf|oeuf|
+thit-kho-tau|2|sucre|sucre|
+thit-kho-tau|3|lait de coco|lait-de-coco|
+thit-kho-tau|4|sauce poisson|sauce-poisson|
+thit-kho-tau|5|échalote|echalote|
+thit-kho-tau|6|ail|ail|
+thit-kho-tau|7|poivre noir|poivre-noir|
+thit-kho-tau|8|huile neutre|huile-neutre|
+thit-kho-tau|9|riz long grain|riz-long-grain|
+xoi-xeo|0|riz gluant|riz-gluant|
+xoi-xeo|1|haricot mungo|haricot-mungo|
+xoi-xeo|2|curcuma|curcuma|
+xoi-xeo|3|échalote|echalote|
+xoi-xeo|4|huile neutre|huile-neutre|
+xoi-xeo|5|sel|sel|
+xoi-xeo|6|sucre|sucre|

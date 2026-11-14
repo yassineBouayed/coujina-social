@@ -1,0 +1,41 @@
+{
+  "slug": "tajine-malsouka",
+  "cuisine": "maghrebi",
+  "country": "tunisie",
+  "origin": "Tunisie",
+  "native_name": "Tajine malsouka",
+  "title": {
+    "fr": "Tajine malsouka au poulet et au fromage",
+    "en": "Tajine malsouka with chicken and cheese"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["four", "oeuf", "fete", "brick"],
+  "ingredients": [
+    { "raw": "8 feuilles de brick", "qty": 8, "unit": "piece", "item": "feuille de brick" },
+    { "raw": "8 œufs", "qty": 8, "unit": "piece", "item": "oeuf" },
+    { "raw": "400 g de blanc de poulet, en petits dés", "qty": 400, "unit": "g", "item": "blanc de poulet", "prep": "en petits dés" },
+    { "raw": "150 g d'emmental râpé", "qty": 150, "unit": "g", "item": "emmental", "prep": "râpé" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "4 c. à s. d'huile d'olive", "qty": 4, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Faire revenir l'oignon puis le poulet avec le curcuma, jusqu'à ce que toute l'eau soit partie.", "en": "Cook the onion then the chicken with the turmeric, until all the water has gone." },
+    { "fr": "Laisser refroidir, puis mélanger avec les œufs battus, le fromage, le persil, le sel et le poivre.", "en": "Cool, then mix with the beaten eggs, cheese, parsley, salt and pepper." },
+    { "fr": "Tapisser un plat huilé de quatre feuilles de brick débordantes.", "en": "Line an oiled dish with four brick sheets, overhanging the edges." },
+    { "fr": "Verser l'appareil, replier les feuilles dessus et couvrir des quatre autres.", "en": "Pour in the mixture, fold the sheets over and cover with the remaining four." },
+    { "fr": "Badigeonner d'huile et cuire 45 minutes à 180 °C, jusqu'à ce que le centre soit ferme.", "en": "Brush with oil and bake for 45 minutes at 180°C, until the centre is firm." },
+    { "fr": "Laisser tiédir vingt minutes avant de découper : chaud, le tajine s'effondre en parts.", "en": "Let it cool for twenty minutes before cutting: hot, it collapses into slices." }
+  ],
+  "notes": [
+    { "fr": "Le tajine tunisien n'a rien du tajine marocain : c'est une omelette au four, épaisse et coupée en carrés.", "en": "Tunisian tajine has nothing to do with the Moroccan one: it is a thick baked omelette, cut into squares." }
+  ]
+}

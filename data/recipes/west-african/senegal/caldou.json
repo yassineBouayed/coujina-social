@@ -1,0 +1,42 @@
+{
+  "slug": "caldou",
+  "cuisine": "west-african",
+  "country": "senegal",
+  "origin": "Sénégal",
+  "native_name": "Caldou",
+  "title": {
+    "fr": "Caldou, poisson au bouillon citronné",
+    "en": "Caldou, fish in lemony broth"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["casamance", "leger", "citron", "riz-rouge"],
+  "ingredients": [
+    { "raw": "1 kg de thiof, en tronçons", "qty": 1000, "unit": "g", "item": "thiof", "prep": "en tronçons" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "3 citrons verts, leur jus", "qty": 3, "unit": "piece", "item": "citron vert" },
+    { "raw": "2 piments oiseau", "qty": 2, "unit": "piece", "item": "piment oiseau" },
+    { "raw": "3 gousses d'ail", "qty": 3, "unit": "piece", "item": "ail" },
+    { "raw": "1 cube de bouillon", "qty": 1, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "5 c. à s. d'huile d'arachide", "qty": 5, "unit": "tbsp", "item": "huile d'arachide" },
+    { "raw": "400 g de riz brisé", "qty": 400, "unit": "g", "item": "riz brisé", "group": "service" },
+    { "raw": "1 c. à s. de concentré de tomate", "qty": 1, "unit": "tbsp", "item": "concentré de tomate", "optional": true },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Faire suer les oignons dans l'huile sans les colorer : le caldou est un bouillon clair, pas une sauce brune.", "en": "Sweat the onions in the oil without colouring: caldou is a clear broth, not a brown sauce." },
+    { "fr": "Mouiller à hauteur, ajouter l'ail, le cube et le piment entier, et laisser frémir quinze minutes.", "en": "Add water to cover, with the garlic, stock cube and whole chilli, and simmer for fifteen minutes." },
+    { "fr": "Déposer le poisson et le pocher dix minutes à couvert, sans jamais faire bouillir.", "en": "Lay in the fish and poach for ten minutes, covered, never letting it boil." },
+    { "fr": "Retirer le poisson délicatement et le tenir au chaud.", "en": "Lift the fish out carefully and keep it warm." },
+    { "fr": "Cuire le riz dans une partie du bouillon, et ajouter le jus de citron au reste, hors du feu.", "en": "Cook the rice in some of the broth, and add the lime juice to the rest, off the heat." },
+    { "fr": "Servir le riz nappé de bouillon citronné, le poisson posé dessus.", "en": "Serve the rice bathed in the lemony broth, with the fish on top." }
+  ],
+  "notes": [
+    { "fr": "Le citron s'ajoute toujours hors du feu : bouilli, il devient amer.", "en": "The lime always goes in off the heat: boiled, it turns bitter." }
+  ]
+}

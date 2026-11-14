@@ -1,0 +1,39 @@
+{
+  "slug": "apple-tart-irlandaise",
+  "cuisine": "western-european",
+  "country": "irlande",
+  "origin": "Irlande",
+  "native_name": "Irish apple tart",
+  "title": {
+    "fr": "Tarte aux pommes irlandaise",
+    "en": "Irish apple tart"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 35, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["automne", "pomme", "famille", "classique"],
+  "ingredients": [
+    { "raw": "300 g de farine de blé", "qty": 300, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "180 g de beurre, très froid", "qty": 180, "unit": "g", "item": "beurre", "prep": "très froid", "group": "pâte" },
+    { "raw": "60 g de sucre", "qty": 60, "unit": "g", "item": "sucre", "group": "pâte" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf", "group": "pâte" },
+    { "raw": "1 kg de pommes à cuire, en tranches", "qty": 1000, "unit": "g", "item": "pomme", "prep": "en tranches", "group": "garniture" },
+    { "raw": "120 g de sucre", "qty": 120, "unit": "g", "item": "sucre", "group": "garniture" },
+    { "raw": "2 c. à c. de cannelle moulue", "qty": 2, "unit": "tsp", "item": "cannelle", "group": "garniture" },
+    { "raw": "3 clous de girofle", "qty": 3, "unit": "piece", "item": "clou de girofle", "group": "garniture" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron", "group": "garniture" },
+    { "raw": "1 œuf, pour dorer", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "La tarte irlandaise est COUVERTE : deux abaisses, avec les pommes crues entre les deux.", "en": "The Irish tart is COVERED: two sheets of pastry with the raw apples between them." },
+    { "fr": "Elle se cuit dans une ASSIETTE, pas dans un moule à tarte : c'est ainsi qu'on la fait chez soi.", "en": "It is baked on a PLATE, not in a tart tin: that is how it is made at home." },
+    { "fr": "Trancher les pommes ÉPAIS : trop fines, elles disparaissent en compote sous la pâte.", "en": "Slice the apples THICK: too thin, they vanish into purée under the pastry." },
+    { "fr": "Les citronner et les sucrer, mais ne PAS les précuire : elles cuisent dans la tarte.", "en": "Lemon and sugar them, but do NOT pre-cook them: they cook inside the tart." },
+    { "fr": "Souder les bords à la fourchette et PERCER trois fentes : sans elles, la pâte gonfle et se déchire.", "en": "Seal the edges with a fork and CUT three slits: without them, the pastry swells and tears." },
+    { "fr": "Dorer, sucrer, et cuire 45 minutes à 190 °C. Servir tiède avec de la crème.", "en": "Egg-wash, sugar, and bake for 45 minutes at 190°C. Serve warm with cream." }
+  ]
+}

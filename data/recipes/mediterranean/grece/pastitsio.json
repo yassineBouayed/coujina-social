@@ -1,0 +1,43 @@
+{
+  "slug": "pastitsio",
+  "cuisine": "mediterranean",
+  "country": "grece",
+  "origin": "Grèce",
+  "native_name": "Παστίτσιο",
+  "title": {
+    "fr": "Pastitsio, gratin de pâtes à la viande",
+    "en": "Pastitsio, baked pasta with meat"
+  },
+  "meal_type": "main",
+  "servings": 8,
+  "times": { "prep_min": 45, "cook_min": 80 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["pates", "bechamel", "famille", "four"],
+  "ingredients": [
+    { "raw": "500 g de gros macaronis", "qty": 500, "unit": "g", "item": "pâtes courtes" },
+    { "raw": "800 g de bœuf haché", "qty": 800, "unit": "g", "item": "boeuf haché", "group": "ragoût" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché", "group": "ragoût" },
+    { "raw": "400 g de tomate pelée en conserve", "qty": 400, "unit": "g", "item": "tomate pelée en conserve", "group": "ragoût" },
+    { "raw": "15 cl de vin rouge", "qty": 15, "unit": "cl", "item": "vin rouge", "group": "ragoût" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle", "prep": "en bâton", "group": "ragoût" },
+    { "raw": "3 clous de girofle", "qty": 3, "unit": "piece", "item": "clou de girofle", "group": "ragoût" },
+    { "raw": "120 g de beurre", "qty": 120, "unit": "g", "item": "beurre", "group": "béchamel" },
+    { "raw": "120 g de farine de blé", "qty": 120, "unit": "g", "item": "farine de blé", "group": "béchamel" },
+    { "raw": "1,2 l de lait entier", "qty": 1.2, "unit": "l", "item": "lait entier", "group": "béchamel" },
+    { "raw": "4 jaunes d'œufs", "qty": 4, "unit": "piece", "item": "oeuf", "group": "béchamel" },
+    { "raw": "200 g de kefalotyri, râpé", "qty": 200, "unit": "g", "item": "kefalotyri", "prep": "râpé" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Cuire les macaronis TRÈS al dente, deux minutes de moins qu'indiqué : ils finiront au four.", "en": "Cook the macaroni VERY al dente, two minutes short: they finish in the oven." },
+    { "fr": "Les mélanger à un peu de béchamel et à un œuf : c'est ce qui fait tenir la couche à la découpe.", "en": "Toss them with a little béchamel and an egg: that is what holds the layer together when cut." },
+    { "fr": "Ranger les macaronis DANS LE SENS DE LA LONGUEUR : c'est ce qui donne la coupe nette du pastitsio.", "en": "Lay the macaroni LENGTHWISE: that is what gives pastitsio its clean cut." },
+    { "fr": "Cuire le ragoût à la cannelle et au girofle quarante minutes, jusqu'à ce qu'il soit sec.", "en": "Cook the meat sauce with cinnamon and clove for forty minutes, until dry." },
+    { "fr": "La béchamel doit être TRÈS épaisse — elle doit tenir à la cuillère — et enrichie de jaunes.", "en": "The béchamel must be VERY thick — it should hold on a spoon — and enriched with yolks." },
+    { "fr": "Cuire une heure vingt à 180 °C et laisser reposer 45 minutes avant de découper.", "en": "Bake for an hour and twenty at 180°C and rest for 45 minutes before cutting." }
+  ]
+}

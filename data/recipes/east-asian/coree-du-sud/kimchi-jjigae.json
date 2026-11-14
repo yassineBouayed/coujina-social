@@ -1,0 +1,39 @@
+{
+  "slug": "kimchi-jjigae",
+  "cuisine": "east-asian",
+  "country": "coree-du-sud",
+  "origin": "Corée du Sud",
+  "native_name": "김치찌개",
+  "title": {
+    "fr": "Kimchi jjigae, ragoût de kimchi au porc",
+    "en": "Kimchi jjigae, kimchi and pork stew"
+  },
+  "meal_type": "soup",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 35 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["quotidien", "kimchi", "porc", "hiver"],
+  "ingredients": [
+    { "raw": "400 g de kimchi bien fermenté", "qty": 400, "unit": "g", "item": "kimchi", "prep": "bien fermenté" },
+    { "raw": "400 g de poitrine de porc, en lanières", "qty": 400, "unit": "g", "item": "poitrine de porc", "prep": "en lanières" },
+    { "raw": "300 g de tofu ferme, en tranches", "qty": 300, "unit": "g", "item": "tofu ferme", "prep": "en tranches" },
+    { "raw": "1 oignon, émincé", "qty": 1, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "6 oignons nouveaux, en tronçons", "qty": 6, "unit": "piece", "item": "oignon nouveau", "prep": "en tronçons" },
+    { "raw": "2 c. à s. de gochugaru", "qty": 2, "unit": "tbsp", "item": "gochugaru" },
+    { "raw": "1 c. à s. de gochujang", "qty": 1, "unit": "tbsp", "item": "gochujang" },
+    { "raw": "1 c. à s. de doenjang", "qty": 1, "unit": "tbsp", "item": "doenjang" },
+    { "raw": "70 cl d'eau", "qty": 70, "unit": "cl", "item": "eau" },
+    { "raw": "1 c. à s. d'huile de sésame", "qty": 1, "unit": "tbsp", "item": "huile de sésame" },
+    { "raw": "4 gousses d'ail, râpées", "qty": 4, "unit": "piece", "item": "ail", "prep": "râpé" }
+  ],
+  "steps": [
+    { "fr": "Le kimchi doit être VIEUX et franchement acide : un kimchi frais donne un jjigae fade.", "en": "The kimchi must be OLD and frankly sour: fresh kimchi gives a bland jjigae." },
+    { "fr": "Faire revenir le porc à feu vif jusqu'à ce qu'il rende son gras et colore.", "en": "Fry the pork over high heat until it renders its fat and colours." },
+    { "fr": "Ajouter le kimchi égoutté et le faire SAUTER cinq minutes dans ce gras, sans liquide.", "en": "Add the drained kimchi and FRY it for five minutes in that fat, with no liquid." },
+    { "fr": "Ce passage à la poêle est ce qui adoucit l'acidité et développe le goût : sauté, jamais bouilli d'emblée.", "en": "That frying is what softens the acidity and builds flavour: fried, never boiled from the start." },
+    { "fr": "Ajouter le jus de kimchi, l'eau et les pâtes fermentées, et laisser mijoter vingt minutes.", "en": "Add the kimchi juice, water and fermented pastes, and simmer for twenty minutes." },
+    { "fr": "Poser le tofu en tranches dessus les cinq dernières minutes, sans remuer, et servir dans la casserole.", "en": "Lay the sliced tofu on top for the last five minutes, without stirring, and serve in the pot." }
+  ]
+}

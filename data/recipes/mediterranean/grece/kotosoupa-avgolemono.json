@@ -1,0 +1,38 @@
+{
+  "slug": "kotosoupa-avgolemono",
+  "cuisine": "mediterranean",
+  "country": "grece",
+  "origin": "Grèce",
+  "native_name": "Κοτόσουπα αυγολέμονο",
+  "title": {
+    "fr": "Soupe de poulet à l'œuf et au citron",
+    "en": "Chicken soup with egg and lemon"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 75 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hiver", "citron", "reconfort", "poulet"],
+  "ingredients": [
+    { "raw": "1 poulet entier", "qty": 1, "unit": "piece", "item": "poulet entier" },
+    { "raw": "200 g de riz rond", "qty": 200, "unit": "g", "item": "riz rond" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf" },
+    { "raw": "3 citrons, leur jus", "qty": 3, "unit": "piece", "item": "citron" },
+    { "raw": "2 carottes", "qty": 2, "unit": "piece", "item": "carotte" },
+    { "raw": "2 branches de céleri", "qty": 2, "unit": "piece", "item": "céleri branche" },
+    { "raw": "1 oignon", "qty": 1, "unit": "piece", "item": "oignon" },
+    { "raw": "1/2 bouquet d'aneth, ciselé", "qty": 0.5, "unit": "bunch", "item": "aneth", "prep": "ciselé" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "L'avgolemono est une liaison œuf-citron : elle épaissit le bouillon sans crème ni farine.", "en": "Avgolemono is an egg-lemon liaison: it thickens the broth without cream or flour." },
+    { "fr": "Pocher le poulet une heure avec les légumes, en écumant, puis le désosser.", "en": "Poach the chicken for an hour with the vegetables, skimming, then bone it." },
+    { "fr": "Cuire le riz dans le bouillon filtré, puis RETIRER LA CASSEROLE DU FEU.", "en": "Cook the rice in the strained broth, then TAKE THE PAN OFF THE HEAT." },
+    { "fr": "Battre les œufs entiers avec le citron, très longuement, jusqu'à ce que le mélange mousse.", "en": "Beat the whole eggs with the lemon, at length, until the mixture foams." },
+    { "fr": "TEMPÉRER : verser une louche de bouillon chaud EN FILET sur les œufs, en fouettant sans arrêt.", "en": "TEMPER: pour a ladle of hot broth onto the eggs IN A THREAD, whisking constantly." },
+    { "fr": "Reverser dans la casserole HORS DU FEU : remise à bouillir, la soupe se transforme en soupe aux œufs filandreuse.", "en": "Return it to the pan OFF THE HEAT: brought back to a boil, the soup turns into stringy egg-drop soup." }
+  ]
+}

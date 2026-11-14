@@ -1,0 +1,35 @@
+{
+  "slug": "sombi",
+  "cuisine": "west-african",
+  "country": "senegal",
+  "origin": "Sénégal",
+  "native_name": "Sombi",
+  "title": {
+    "fr": "Sombi, riz au lait de coco",
+    "en": "Sombi, rice in coconut milk"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 10, "cook_min": 40 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["coco", "dessert", "enfance", "simple"],
+  "ingredients": [
+    { "raw": "250 g de riz brisé", "qty": 250, "unit": "g", "item": "riz brisé" },
+    { "raw": "80 cl de lait de coco", "qty": 80, "unit": "cl", "item": "lait de coco" },
+    { "raw": "50 cl de lait", "qty": 50, "unit": "cl", "item": "lait" },
+    { "raw": "150 g de sucre", "qty": 150, "unit": "g", "item": "sucre" },
+    { "raw": "1 gousse de vanille, fendue", "qty": 1, "unit": "piece", "item": "gousse de vanille", "prep": "fendue" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Rincer le riz brisé à l'eau claire jusqu'à ce qu'elle ne soit plus laiteuse.", "en": "Rinse the broken rice until the water runs clear." },
+    { "fr": "Le cuire vingt minutes dans de l'eau salée, jusqu'à ce qu'il soit tendre mais pas défait.", "en": "Cook it for twenty minutes in salted water, until tender but not collapsed." },
+    { "fr": "Ajouter le lait de coco, le lait et la gousse de vanille fendue.", "en": "Add the coconut milk, milk and split vanilla pod." },
+    { "fr": "Laisser cuire vingt minutes à feu très doux, en remuant régulièrement pour qu'il n'accroche pas.", "en": "Cook for twenty minutes over very low heat, stirring regularly so it does not catch." },
+    { "fr": "Sucrer en fin de cuisson seulement : trop tôt, le sucre empêche le riz de s'attendrir.", "en": "Sweeten only at the end: added early, sugar stops the rice from softening." },
+    { "fr": "Râper la muscade dessus et servir tiède ou glacé, au choix.", "en": "Grate nutmeg over and serve warm or chilled, as you prefer." }
+  ]
+}

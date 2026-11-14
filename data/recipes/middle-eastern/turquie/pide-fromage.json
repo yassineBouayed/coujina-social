@@ -1,0 +1,39 @@
+{
+  "slug": "pide-fromage",
+  "cuisine": "middle-eastern",
+  "country": "turquie",
+  "origin": "Turquie",
+  "native_name": "Kaşarlı pide",
+  "title": {
+    "fr": "Pide au fromage et à l'œuf",
+    "en": "Pide with cheese and egg"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 45, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["four", "fromage", "barque", "rue"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "1 c. à s. de levure boulangère sèche", "qty": 1, "unit": "tbsp", "item": "levure boulangère", "group": "pâte" },
+    { "raw": "1,5 c. à c. de sel", "qty": 1.5, "unit": "tsp", "item": "sel", "group": "pâte" },
+    { "raw": "1 c. à c. de sucre", "qty": 1, "unit": "tsp", "item": "sucre", "group": "pâte" },
+    { "raw": "30 cl d'eau tiède", "qty": 30, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "4 c. à s. d'huile d'olive", "qty": 4, "unit": "tbsp", "item": "huile d'olive", "group": "pâte" },
+    { "raw": "400 g de kasar, râpé", "qty": 400, "unit": "g", "item": "kasar", "prep": "râpé", "group": "garniture" },
+    { "raw": "150 g de mozzarella, râpée", "qty": 150, "unit": "g", "item": "mozzarella", "prep": "râpée", "group": "garniture" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf", "group": "garniture" },
+    { "raw": "60 g de beurre", "qty": 60, "unit": "g", "item": "beurre", "group": "finition" },
+    { "raw": "1 c. à c. de piment d'Alep", "qty": 1, "unit": "tsp", "item": "piment d'Alep", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Pétrir la pâte dix minutes et la laisser lever une heure et demie.", "en": "Knead the dough for ten minutes and prove it for an hour and a half." },
+    { "fr": "Étaler des ovales allongés, un demi-centimètre d'épaisseur, sur une plaque farinée.", "en": "Roll elongated ovals, half a centimetre thick, on a floured tray." },
+    { "fr": "Garnir de fromage en laissant trois centimètres libres tout autour.", "en": "Fill with cheese, leaving three centimetres bare all around." },
+    { "fr": "Replier les bords sur la garniture et PINCER FERMEMENT les deux extrémités : c'est ce qui fait la barque.", "en": "Fold the edges over the filling and PINCH THE TWO ENDS HARD: that is what makes the boat." },
+    { "fr": "Cuire 12 minutes à 250 °C, puis casser un œuf au centre de chaque pide.", "en": "Bake for 12 minutes at 250°C, then crack an egg into the centre of each pide." },
+    { "fr": "Remettre cinq minutes, jusqu'à ce que le blanc prenne, puis badigeonner de beurre fondu.", "en": "Return for five minutes, until the white sets, then brush with melted butter." }
+  ]
+}

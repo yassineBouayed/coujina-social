@@ -1,0 +1,40 @@
+{
+  "slug": "daal-mash",
+  "cuisine": "south-asian",
+  "country": "pakistan",
+  "origin": "Pakistan",
+  "native_name": "Daal mash",
+  "title": {
+    "fr": "Daal mash, lentilles noires sèches au gingembre",
+    "en": "Daal mash, dry black lentils with ginger"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 15, "cook_min": 40 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["vegetarien", "sec", "lentille", "quotidien"],
+  "ingredients": [
+    { "raw": "350 g de lentilles noires décortiquées", "qty": 350, "unit": "g", "item": "lentille noire" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "2 c. à s. de pâte gingembre-ail", "qty": 2, "unit": "tbsp", "item": "pâte gingembre-ail" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "1 c. à c. de coriandre en graines, moulue", "qty": 1, "unit": "tsp", "item": "coriandre graines", "prep": "moulue" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin" },
+    { "raw": "3 c. à s. de gingembre frais, en julienne", "qty": 3, "unit": "tbsp", "item": "gingembre", "prep": "en julienne" },
+    { "raw": "3 piments verts, fendus", "qty": 3, "unit": "piece", "item": "piment frais", "prep": "fendu" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "80 g de ghee", "qty": 80, "unit": "g", "item": "ghee" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le daal mash se sert SEC, grain par grain : c'est l'opposé du dal tadka, qui est une soupe.", "en": "Daal mash is served DRY, grain by grain: the opposite of dal tadka, which is a soup." },
+    { "fr": "Tremper les lentilles une heure seulement, puis les cuire vingt minutes dans très peu d'eau.", "en": "Soak the lentils for an hour only, then cook them for twenty minutes in very little water." },
+    { "fr": "Les grains doivent rester entiers et se détacher : surveiller de près, la fenêtre est étroite.", "en": "The grains must stay whole and separate: watch closely, the window is narrow." },
+    { "fr": "Faire brunir les oignons dans le ghee, ajouter la pâte gingembre-ail et les épices.", "en": "Brown the onions in the ghee, add the ginger-garlic paste and spices." },
+    { "fr": "Incorporer les lentilles délicatement, à la fourchette, sans les écraser.", "en": "Fold in the lentils gently, with a fork, without crushing them." },
+    { "fr": "Couvrir de gingembre en julienne, de piments verts, de coriandre et de citron.", "en": "Cover with julienned ginger, green chillies, coriander and lemon." }
+  ]
+}

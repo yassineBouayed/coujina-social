@@ -1,0 +1,38 @@
+{
+  "slug": "samsa-tunisienne",
+  "cuisine": "maghrebi",
+  "country": "tunisie",
+  "origin": "Tunisie",
+  "native_name": "Samsa",
+  "title": {
+    "fr": "Samsa, triangles feuilletés aux amandes et au sésame",
+    "en": "Samsa, layered almond and sesame triangles"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 40, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "amande", "sirop", "friture"],
+  "ingredients": [
+    { "raw": "12 feuilles de brick", "qty": 12, "unit": "piece", "item": "feuille de brick" },
+    { "raw": "250 g de poudre d'amande", "qty": 250, "unit": "g", "item": "poudre d'amande", "group": "farce" },
+    { "raw": "100 g de graines de sésame, grillées et moulues", "qty": 100, "unit": "g", "item": "sésame", "prep": "grillé et moulu", "group": "farce" },
+    { "raw": "120 g de sucre glace", "qty": 120, "unit": "g", "item": "sucre glace", "group": "farce" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle", "group": "farce" },
+    { "raw": "2 c. à s. d'eau de rose", "qty": 2, "unit": "tbsp", "item": "eau de rose", "group": "farce" },
+    { "raw": "400 g de sucre", "qty": 400, "unit": "g", "item": "sucre", "group": "sirop" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron", "group": "sirop" },
+    { "raw": "1 l d'huile de tournesol pour la friture", "qty": 1, "unit": "l", "item": "huile de tournesol", "group": "friture" },
+    { "raw": "1 c. à s. de farine délayée dans un peu d'eau", "qty": 1, "unit": "tbsp", "item": "farine de blé", "prep": "délayée", "group": "montage" }
+  ],
+  "steps": [
+    { "fr": "Préparer le sirop : sucre, 25 cl d'eau et citron, dix minutes à ébullition, puis laisser refroidir complètement.", "en": "Make the syrup: sugar, 250 ml water and lemon, ten minutes at a boil, then cool completely." },
+    { "fr": "Mélanger amande, sésame moulu, sucre glace, cannelle et eau de rose.", "en": "Mix the almonds, ground sesame, icing sugar, cinnamon and rose water." },
+    { "fr": "Couper les feuilles en bandes, déposer la farce et plier en triangles serrés.", "en": "Cut the sheets into strips, add the filling and fold into tight triangles." },
+    { "fr": "Frire à 165 °C jusqu'à ce qu'ils dorent, une minute par face.", "en": "Fry at 165°C until golden, a minute a side." },
+    { "fr": "Les plonger brûlants dans le sirop FROID : c'est ce choc qui les rend croustillants et non spongieux.", "en": "Plunge them scalding into the COLD syrup: that shock is what keeps them crisp rather than spongy." },
+    { "fr": "Égoutter sur grille et laisser figer une heure avant de servir.", "en": "Drain on a rack and let them set for an hour before serving." }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "peri-peri-poulet",
+  "cuisine": "southern-african",
+  "country": "afrique-du-sud",
+  "origin": "Afrique du Sud",
+  "native_name": "Peri-peri chicken",
+  "title": {
+    "fr": "Poulet peri-peri grillé",
+    "en": "Grilled peri-peri chicken"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["braai", "piment", "citron", "populaire"],
+  "ingredients": [
+    { "raw": "1 poulet entier, ouvert en crapaudine", "qty": 1, "unit": "piece", "item": "poulet entier", "prep": "ouvert en crapaudine" },
+    { "raw": "10 piments oiseau", "qty": 10, "unit": "piece", "item": "piment oiseau", "group": "peri-peri" },
+    { "raw": "1 poivron rouge", "qty": 1, "unit": "piece", "item": "poivron rouge", "group": "peri-peri" },
+    { "raw": "8 gousses d'ail", "qty": 8, "unit": "piece", "item": "ail", "group": "peri-peri" },
+    { "raw": "3 citrons, leur jus et le zeste d'un", "qty": 3, "unit": "piece", "item": "citron", "group": "peri-peri" },
+    { "raw": "12 cl d'huile d'olive", "qty": 12, "unit": "cl", "item": "huile d'olive", "group": "peri-peri" },
+    { "raw": "3 c. à s. de vinaigre de vin", "qty": 3, "unit": "tbsp", "item": "vinaigre de vin", "group": "peri-peri" },
+    { "raw": "1 c. à s. de paprika fumé", "qty": 1, "unit": "tbsp", "item": "paprika fumé", "group": "peri-peri" },
+    { "raw": "1 c. à c. d'origan séché", "qty": 1, "unit": "tsp", "item": "origan séché", "group": "peri-peri" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Mixer piments, poivron, ail, citron, vinaigre, paprika, origan, huile et sel en une sauce lisse.", "en": "Blend the chillies, pepper, garlic, lemon, vinegar, paprika, oregano, oil and salt into a smooth sauce." },
+    { "fr": "Ouvrir le poulet en crapaudine et l'aplatir d'un coup de paume sur le bréchet : il cuira uniformément.", "en": "Spatchcock the chicken and flatten it with a palm on the breastbone: it will then cook evenly." },
+    { "fr": "Le faire mariner dans la moitié de la sauce, au moins quatre heures, une nuit de préférence.", "en": "Marinate it in half the sauce, at least four hours, ideally overnight." },
+    { "fr": "Garder l'autre moitié de côté, non contaminée par le poulet cru, pour le service.", "en": "Keep the other half aside, never touched by raw chicken, for serving." },
+    { "fr": "Cuire côté peau vers le haut d'abord, à chaleur indirecte, trente minutes.", "en": "Cook skin side up first, over indirect heat, for thirty minutes." },
+    { "fr": "Terminer côté peau sur les braises vives, dix minutes, en badigeonnant de marinade cuite.", "en": "Finish skin side down over hot coals for ten minutes, basting with the cooked marinade." }
+  ]
+}

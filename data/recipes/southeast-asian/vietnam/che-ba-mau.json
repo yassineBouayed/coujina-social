@@ -1,0 +1,36 @@
+{
+  "slug": "che-ba-mau",
+  "cuisine": "southeast-asian",
+  "country": "vietnam",
+  "origin": "Viêt Nam",
+  "native_name": "Chè ba màu",
+  "title": {
+    "fr": "Chè ba màu, dessert glacé à trois couleurs",
+    "en": "Che ba mau, three-colour iced dessert"
+  },
+  "meal_type": "dessert",
+  "servings": 5,
+  "times": { "prep_min": 40, "cook_min": 40 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ete", "glace", "haricot", "coco"],
+  "ingredients": [
+    { "raw": "150 g de haricot mungo décortiqué", "qty": 150, "unit": "g", "item": "haricot mungo" },
+    { "raw": "150 g de haricots rouges", "qty": 150, "unit": "g", "item": "haricot rouge" },
+    { "raw": "150 g de farine de tapioca", "qty": 150, "unit": "g", "item": "maïzena" },
+    { "raw": "200 g de sucre", "qty": 200, "unit": "g", "item": "sucre" },
+    { "raw": "50 cl de lait de coco", "qty": 50, "unit": "cl", "item": "lait de coco" },
+    { "raw": "1 c. à c. d'extrait de pandan", "qty": 1, "unit": "tsp", "item": "feuille de pandan", "prep": "en extrait" },
+    { "raw": "800 g de glaçons", "qty": 800, "unit": "g", "item": "eau", "prep": "en glaçons" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Chè ba màu veut dire « trois couleurs » : haricot rouge, haricot mungo jaune, gelée verte au pandan.", "en": "Che ba mau means \"three colours\": red bean, yellow mung bean, green pandan jelly." },
+    { "fr": "Cuire les haricots rouges une heure avec du sucre, jusqu'à ce qu'ils soient tendres mais ENTIERS.", "en": "Cook the red beans for an hour with sugar, until tender but WHOLE." },
+    { "fr": "Cuire le haricot mungo et l'écraser en purée lisse avec du sucre.", "en": "Cook the mung beans and mash them into a smooth purée with sugar." },
+    { "fr": "Faire la gelée verte : farine de tapioca, eau et pandan, cuites jusqu'à devenir translucides.", "en": "Make the green jelly: tapioca flour, water and pandan, cooked until translucent." },
+    { "fr": "Chauffer le lait de coco avec une pincée de SEL : c'est le sel qui fait ressortir la douceur.", "en": "Heat the coconut milk with a pinch of SALT: the salt is what brings out the sweetness." },
+    { "fr": "Monter en couches visibles dans un verre haut, glace pilée par-dessus, et mélanger en mangeant.", "en": "Build visible layers in a tall glass, crushed ice on top, and mix as you eat." }
+  ]
+}

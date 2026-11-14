@@ -1,0 +1,40 @@
+{
+  "slug": "coleslaw",
+  "cuisine": "north-american",
+  "country": "etats-unis",
+  "origin": "États-Unis",
+  "native_name": "Coleslaw",
+  "title": {
+    "fr": "Coleslaw au chou et à la carotte",
+    "en": "Cabbage and carrot coleslaw"
+  },
+  "meal_type": "salad",
+  "servings": 8,
+  "times": { "prep_min": 25, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["barbecue", "chou", "accompagnement", "froid"],
+  "ingredients": [
+    { "raw": "1/2 chou blanc, en lanières très fines", "qty": 0.5, "unit": "piece", "item": "chou vert", "prep": "en lanières très fines" },
+    { "raw": "1/4 de chou rouge, en lanières très fines", "qty": 0.25, "unit": "piece", "item": "chou rouge", "prep": "en lanières très fines" },
+    { "raw": "4 carottes, râpées", "qty": 4, "unit": "piece", "item": "carotte", "prep": "râpée" },
+    { "raw": "1 oignon, râpé", "qty": 1, "unit": "piece", "item": "oignon", "prep": "râpé" },
+    { "raw": "25 cl de mayonnaise", "qty": 25, "unit": "cl", "item": "mayonnaise" },
+    { "raw": "5 cl de vinaigre de cidre", "qty": 5, "unit": "cl", "item": "vinaigre de cidre" },
+    { "raw": "2 c. à s. de moutarde", "qty": 2, "unit": "tbsp", "item": "moutarde" },
+    { "raw": "2 c. à s. de sucre", "qty": 2, "unit": "tbsp", "item": "sucre" },
+    { "raw": "2 c. à s. de gros sel", "qty": 2, "unit": "tbsp", "item": "gros sel" },
+    { "raw": "1 c. à c. de graines de céleri", "qty": 1, "unit": "tsp", "item": "céleri branche", "prep": "en graines" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "SALER le chou râpé et le laisser dégorger UNE HEURE dans une passoire, puis le rincer.", "en": "SALT the shredded cabbage and drain it for AN HOUR in a colander, then rinse it." },
+    { "fr": "Sans ce dégorgement, le coleslaw rend son eau et nage dans un jus fade au bout d'une heure.", "en": "Without that draining, coleslaw weeps and swims in a bland liquid within an hour." },
+    { "fr": "Le PRESSER ensuite à pleines mains, très fort : un chou est fait de 92 % d'eau.", "en": "Then SQUEEZE it hard with both hands: a cabbage is 92% water." },
+    { "fr": "Trancher le chou TRÈS fin, à la mandoline : c'est la finesse qui fait la texture.", "en": "Slice the cabbage VERY thin, on a mandolin: the fineness makes the texture." },
+    { "fr": "Mêler la sauce À PART et la verser sur les légumes bien essorés.", "en": "Mix the dressing SEPARATELY and pour it over the well-drained vegetables." },
+    { "fr": "Réfrigérer DEUX HEURES : le coleslaw a besoin de ce repos, contrairement aux salades vertes.", "en": "Chill for TWO HOURS: coleslaw needs that rest, unlike green salads." }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "ais-kacang",
+  "cuisine": "southeast-asian",
+  "country": "malaisie",
+  "origin": "Malaisie",
+  "native_name": "Ais kacang",
+  "title": {
+    "fr": "Ais kacang, montagne de glace pilée",
+    "en": "Ais kacang, shaved ice mountain"
+  },
+  "meal_type": "dessert",
+  "servings": 5,
+  "times": { "prep_min": 35, "cook_min": 40 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ete", "glace", "haricot", "sirop"],
+  "ingredients": [
+    { "raw": "200 g de haricots rouges", "qty": 200, "unit": "g", "item": "haricot rouge" },
+    { "raw": "150 g de sucre", "qty": 150, "unit": "g", "item": "sucre" },
+    { "raw": "200 g de maïs doux", "qty": 200, "unit": "g", "item": "maïs doux" },
+    { "raw": "150 g de gelée d'herbe, en dés", "qty": 150, "unit": "g", "item": "gelatine", "prep": "en dés" },
+    { "raw": "1,5 kg de glaçons", "qty": 1500, "unit": "g", "item": "eau", "prep": "en glaçons" },
+    { "raw": "15 cl de lait concentré sucré", "qty": 15, "unit": "cl", "item": "lait concentré sucré", "group": "nappage" },
+    { "raw": "10 cl de sirop de rose", "qty": 10, "unit": "cl", "item": "eau de rose", "group": "nappage" },
+    { "raw": "10 cl de sirop de sucre de palme", "qty": 10, "unit": "cl", "item": "sucre de palme", "prep": "en sirop", "group": "nappage" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire les haricots rouges une heure avec le sucre, jusqu'à ce qu'ils soient tendres mais entiers.", "en": "Cook the red beans for an hour with the sugar, until tender but whole." },
+    { "fr": "Tout doit être FROID avant le montage : un ingrédient tiède fait fondre la glace immédiatement.", "en": "Everything must be COLD before assembly: one warm ingredient melts the ice immediately." },
+    { "fr": "Râper la glace le plus FIN possible : en gros éclats, l'ais kacang devient une soupe glacée.", "en": "Shave the ice as FINELY as possible: in big shards, ais kacang becomes an icy soup." },
+    { "fr": "Disposer haricots, maïs et gelée AU FOND du bol, jamais dessus.", "en": "Put the beans, corn and jelly at the BOTTOM of the bowl, never on top." },
+    { "fr": "Monter la glace en montagne haute, en la tassant légèrement à la main.", "en": "Pile the ice into a tall mountain, pressing it lightly by hand." },
+    { "fr": "Verser les sirops et le lait concentré en dernier, et servir dans la minute.", "en": "Pour the syrups and condensed milk last, and serve within the minute." }
+  ]
+}

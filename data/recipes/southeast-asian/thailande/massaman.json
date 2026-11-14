@@ -1,0 +1,40 @@
+{
+  "slug": "massaman",
+  "cuisine": "southeast-asian",
+  "country": "thailande",
+  "origin": "Thaïlande",
+  "native_name": "แกงมัสมั่น",
+  "title": {
+    "fr": "Curry massaman au bœuf et aux arachides",
+    "en": "Massaman beef curry with peanuts"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 120 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["sud", "doux", "arachide", "cuisson-lente"],
+  "ingredients": [
+    { "raw": "1 kg de bœuf à mijoter, en gros cubes", "qty": 1000, "unit": "g", "item": "boeuf à mijoter", "prep": "en gros cubes" },
+    { "raw": "5 c. à s. de pâte de curry massaman", "qty": 5, "unit": "tbsp", "item": "pâte de curry massaman" },
+    { "raw": "80 cl de lait de coco", "qty": 80, "unit": "cl", "item": "lait de coco" },
+    { "raw": "4 pommes de terre, en gros cubes", "qty": 4, "unit": "piece", "item": "pomme de terre", "prep": "en gros cubes" },
+    { "raw": "2 oignons, en quartiers", "qty": 2, "unit": "piece", "item": "oignon", "prep": "en quartiers" },
+    { "raw": "120 g d'arachides grillées", "qty": 120, "unit": "g", "item": "arachide grillée" },
+    { "raw": "4 c. à s. de pâte de tamarin", "qty": 4, "unit": "tbsp", "item": "pâte de tamarin" },
+    { "raw": "4 c. à s. de sucre de palme", "qty": 4, "unit": "tbsp", "item": "sucre de palme" },
+    { "raw": "3 c. à s. de sauce poisson", "qty": 3, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "4 gousses de cardamome", "qty": 4, "unit": "piece", "item": "cardamome" },
+    { "raw": "3 badianes", "qty": 3, "unit": "piece", "item": "badiane" }
+  ],
+  "steps": [
+    { "fr": "Le massaman est le curry thaï d'influence persane : cannelle, cardamome et badiane le distinguent de tous les autres.", "en": "Massaman is the Persian-influenced Thai curry: cinnamon, cardamom and star anise set it apart from all the others." },
+    { "fr": "Casser la crème de coco et y frire la pâte de curry avec les épices entières, cinq minutes.", "en": "Crack the coconut cream and fry the curry paste in it with the whole spices, five minutes." },
+    { "fr": "Ajouter la viande et l'enrober, puis le reste du lait de coco, et laisser mijoter UNE HEURE ET DEMIE.", "en": "Add the meat and coat it, then the remaining coconut milk, and simmer for AN HOUR AND A HALF." },
+    { "fr": "Ajouter pommes de terre, oignons et arachides, et poursuivre trente minutes.", "en": "Add the potatoes, onions and peanuts, and continue for thirty minutes." },
+    { "fr": "Assaisonner de tamarin, de sucre de palme et de sauce poisson, en goûtant à chaque ajout.", "en": "Season with tamarind, palm sugar and fish sauce, tasting after each addition." },
+    { "fr": "Le massaman doit être DOUX : il pique à peine, et l'équilibre sucré-acide est ce qu'on juge.", "en": "Massaman should be MILD: barely spicy, and the sweet-sour balance is what people judge." }
+  ]
+}

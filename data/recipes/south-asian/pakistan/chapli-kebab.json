@@ -1,0 +1,40 @@
+{
+  "slug": "chapli-kebab",
+  "cuisine": "south-asian",
+  "country": "pakistan",
+  "origin": "Pakistan",
+  "native_name": "Chapli kebab",
+  "title": {
+    "fr": "Chapli kebab, galettes de bœuf à la coriandre",
+    "en": "Chapli kebab, coriander beef patties"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["peshawar", "galette", "coriandre", "tomate"],
+  "ingredients": [
+    { "raw": "800 g de bœuf haché avec 20 % de gras", "qty": 800, "unit": "g", "item": "boeuf haché" },
+    { "raw": "2 oignons, hachés très finement", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché très finement" },
+    { "raw": "3 tomates, en tout petits dés", "qty": 3, "unit": "piece", "item": "tomate", "prep": "en tout petits dés" },
+    { "raw": "1 bouquet de coriandre fraîche, ciselée", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "2 c. à s. de coriandre en graines, grossièrement concassée", "qty": 2, "unit": "tbsp", "item": "coriandre graines", "prep": "grossièrement concassée" },
+    { "raw": "1 c. à s. de graines de grenade séchées", "qty": 1, "unit": "tbsp", "item": "amchoor" },
+    { "raw": "4 c. à s. de farine de maïs blanche", "qty": 4, "unit": "tbsp", "item": "farine de maïs blanche" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf" },
+    { "raw": "3 piments verts, hachés", "qty": 3, "unit": "piece", "item": "piment frais", "prep": "haché" },
+    { "raw": "1 c. à c. de piment kashmiri", "qty": 1, "unit": "tsp", "item": "piment kashmiri" },
+    { "raw": "10 cl de ghee", "qty": 10, "unit": "cl", "item": "ghee" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "La coriandre en graines doit être CONCASSÉE, pas moulue : on doit sentir le croquant sous la dent.", "en": "The coriander seeds must be CRUSHED, not ground: you should feel the crunch between your teeth." },
+    { "fr": "Mélanger tous les ingrédients à la main, sans pétrir longuement : le chapli reste friable.", "en": "Mix everything by hand, without long kneading: chapli stays crumbly." },
+    { "fr": "La farine de maïs est ce qui tient la galette malgré la tomate : sans elle, tout se défait à la poêle.", "en": "The maize flour is what holds the patty together despite the tomato: without it, everything falls apart in the pan." },
+    { "fr": "Laisser reposer une heure au frais.", "en": "Rest for an hour in the fridge." },
+    { "fr": "Former des galettes LARGES et fines, de la taille d'une paume, un centimètre d'épaisseur.", "en": "Shape WIDE, thin patties the size of a palm, a centimetre thick." },
+    { "fr": "Cuire dans beaucoup de ghee très chaud, quatre minutes par face, en les retournant une seule fois.", "en": "Cook in plenty of very hot ghee, four minutes a side, turning only once." }
+  ]
+}

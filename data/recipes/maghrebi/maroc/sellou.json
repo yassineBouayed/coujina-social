@@ -1,0 +1,38 @@
+{
+  "slug": "sellou",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Sellou",
+  "title": {
+    "fr": "Sellou, farine grillée aux amandes et au sésame",
+    "en": "Sellou, toasted flour with almonds and sesame"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 30, "cook_min": 50 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ramadan", "relevailles", "conserve", "amande"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé" },
+    { "raw": "250 g de graines de sésame", "qty": 250, "unit": "g", "item": "sésame" },
+    { "raw": "250 g d'amandes", "qty": 250, "unit": "g", "item": "amande" },
+    { "raw": "200 g de sucre glace", "qty": 200, "unit": "g", "item": "sucre glace" },
+    { "raw": "250 g de beurre fondu", "qty": 250, "unit": "g", "item": "beurre", "prep": "fondu" },
+    { "raw": "3 c. à s. de miel", "qty": 3, "unit": "tbsp", "item": "miel" },
+    { "raw": "1 c. à s. de graines d'anis, moulues", "qty": 1, "unit": "tbsp", "item": "anis vert", "prep": "moulu" },
+    { "raw": "1 c. à s. de cannelle moulue", "qty": 1, "unit": "tbsp", "item": "cannelle" },
+    { "raw": "1 c. à c. de gomme arabique moulue", "qty": 1, "unit": "tsp", "item": "gomme arabique", "optional": true },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Griller la farine au four à 160 °C, en remuant toutes les dix minutes, jusqu'à ce qu'elle prenne une couleur noisette : compter quarante minutes.", "en": "Toast the flour at 160°C, stirring every ten minutes, until it turns hazelnut brown: about forty minutes." },
+    { "fr": "Griller le sésame à la poêle puis le moudre grossièrement ; frire les amandes et en garder une poignée entière pour le décor.", "en": "Toast the sesame in a pan then grind it coarsely; fry the almonds, keeping a handful whole for the top." },
+    { "fr": "Mélanger la farine grillée, le sésame, les amandes moulues, le sucre glace, l'anis, la cannelle et le sel.", "en": "Combine the toasted flour, sesame, ground almonds, icing sugar, anise, cinnamon and salt." },
+    { "fr": "Incorporer le beurre fondu et le miel, en travaillant à la main jusqu'à ce que le mélange tienne quand on le presse.", "en": "Work in the melted butter and honey by hand, until the mixture holds when pressed." },
+    { "fr": "Ajuster : trop sec, il s'effrite dans l'assiette ; trop gras, il devient une pâte lourde.", "en": "Adjust: too dry, it crumbles on the plate; too rich, it becomes a heavy paste." },
+    { "fr": "Tasser en dôme, décorer d'amandes entières, et laisser reposer un jour avant de servir.", "en": "Press into a dome, decorate with whole almonds, and rest for a day before serving." }
+  ]
+}

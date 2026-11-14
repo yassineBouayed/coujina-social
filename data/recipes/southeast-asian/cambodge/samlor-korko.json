@@ -1,0 +1,40 @@
+{
+  "slug": "samlor-korko",
+  "cuisine": "southeast-asian",
+  "country": "cambodge",
+  "origin": "Cambodge",
+  "native_name": "សម្លរកកូរ",
+  "title": {
+    "fr": "Samlor korko, soupe de légumes au riz grillé",
+    "en": "Samlor korko, mixed vegetable soup with toasted rice"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 35, "cook_min": 50 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["national", "legumes", "prahok", "riz-grille"],
+  "ingredients": [
+    { "raw": "600 g d'épaule de porc, en cubes", "qty": 600, "unit": "g", "item": "échine de porc", "prep": "en cubes" },
+    { "raw": "5 c. à s. de kroeung", "qty": 5, "unit": "tbsp", "item": "citronnelle", "prep": "en pâte kroeung" },
+    { "raw": "2 c. à s. de prahok", "qty": 2, "unit": "tbsp", "item": "prahok" },
+    { "raw": "4 c. à s. de riz gluant, grillé et moulu", "qty": 4, "unit": "tbsp", "item": "riz gluant", "prep": "grillé et moulu" },
+    { "raw": "1 courge, en cubes", "qty": 1, "unit": "piece", "item": "courge", "prep": "en cubes" },
+    { "raw": "2 aubergines, en tronçons", "qty": 2, "unit": "piece", "item": "aubergine", "prep": "en tronçons" },
+    { "raw": "200 g de haricots verts, en tronçons", "qty": 200, "unit": "g", "item": "haricot vert", "prep": "en tronçons" },
+    { "raw": "1 banane plantain verte, en tronçons", "qty": 1, "unit": "piece", "item": "banane plantain", "prep": "en tronçons" },
+    { "raw": "300 g d'épinards", "qty": 300, "unit": "g", "item": "épinard" },
+    { "raw": "3 c. à s. de sauce poisson", "qty": 3, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "2 c. à s. de sucre de palme", "qty": 2, "unit": "tbsp", "item": "sucre de palme" },
+    { "raw": "6 c. à s. d'huile neutre", "qty": 6, "unit": "tbsp", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Le samlor korko est la soupe des jours ordinaires : on y met les légumes qu'on a, sans règle stricte.", "en": "Samlor korko is the everyday soup: whatever vegetables you have go in, with no strict rule." },
+    { "fr": "Griller le riz gluant CRU à sec jusqu'à ce qu'il brunisse, puis le moudre finement.", "en": "Toast the RAW glutinous rice dry until brown, then grind it fine." },
+    { "fr": "Ce riz grillé est ce qui épaissit le bouillon ET lui donne son goût de fond.", "en": "That toasted rice is what thickens the broth AND gives it its background flavour." },
+    { "fr": "Frire le kroeung dix minutes, ajouter le prahok, puis la viande et l'eau.", "en": "Fry the kroeung for ten minutes, add the prahok, then the meat and water." },
+    { "fr": "Ajouter les légumes du plus dur au plus tendre, à cinq minutes d'écart.", "en": "Add the vegetables from firmest to softest, five minutes apart." },
+    { "fr": "Verser le riz grillé en pluie en remuant, et ajouter les épinards hors du feu.", "en": "Rain in the toasted rice while stirring, and add the spinach off the heat." }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "syrniki",
+  "cuisine": "eastern-european",
+  "country": "russie",
+  "origin": "Russie",
+  "native_name": "Сырники",
+  "title": {
+    "fr": "Syrniki, galettes au fromage blanc",
+    "en": "Syrniki, cheese pancakes"
+  },
+  "meal_type": "dessert",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["petit-dejeuner", "fromage", "enfants", "poele"],
+  "ingredients": [
+    { "raw": "800 g de fromage blanc, bien égoutté", "qty": 800, "unit": "g", "item": "fromage blanc", "prep": "bien égoutté" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf" },
+    { "raw": "120 g de farine de blé", "qty": 120, "unit": "g", "item": "farine de blé" },
+    { "raw": "60 g de sucre", "qty": 60, "unit": "g", "item": "sucre" },
+    { "raw": "80 g de raisins secs", "qty": 80, "unit": "g", "item": "raisin sec", "optional": true },
+    { "raw": "100 g de beurre", "qty": 100, "unit": "g", "item": "beurre" },
+    { "raw": "1 c. à c. d'extrait de vanille", "qty": 1, "unit": "tsp", "item": "extrait de vanille" },
+    { "raw": "25 cl de crème fraîche", "qty": 25, "unit": "cl", "item": "crème fraîche", "group": "service" },
+    { "raw": "200 g de confiture", "qty": 200, "unit": "g", "item": "confiture", "group": "service" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le fromage blanc doit être ÉGOUTTÉ douze heures : humide, il faut trop de farine et les syrniki durcissent.", "en": "The curd cheese must be DRAINED for twelve hours: wet, it needs too much flour and the syrniki toughen." },
+    { "fr": "Le passer au tamis fin : c'est ce qui donne la texture soyeuse à l'intérieur.", "en": "Pass it through a fine sieve: that gives the silky interior." },
+    { "fr": "Mettre le MOINS de farine possible : juste assez pour que la pâte se façonne.", "en": "Use AS LITTLE flour as possible: just enough for the mixture to hold a shape." },
+    { "fr": "Former des palets ÉPAIS de deux centimètres, fariner légèrement, et tapoter l'excédent.", "en": "Shape THICK discs of two centimetres, flour them lightly, and tap off the excess." },
+    { "fr": "Cuire au beurre à feu MOYEN, cinq minutes par face : à feu vif, ils brûlent et restent crus au cœur.", "en": "Cook in butter over MEDIUM heat, five minutes a side: on high heat, they burn and stay raw inside." },
+    { "fr": "Servir chauds avec de la smetana et de la confiture : c'est le petit-déjeuner russe classique.", "en": "Serve them hot with smetana and jam: the classic Russian breakfast." }
+  ]
+}

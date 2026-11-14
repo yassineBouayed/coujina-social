@@ -1,0 +1,40 @@
+{
+  "slug": "churros",
+  "cuisine": "mediterranean",
+  "country": "espagne",
+  "origin": "Espagne",
+  "native_name": "Churros con chocolate",
+  "title": {
+    "fr": "Churros au chocolat",
+    "en": "Churros with chocolate"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["madrid", "friture", "gouter", "chocolat"],
+  "ingredients": [
+    { "raw": "250 g de farine de blé", "qty": 250, "unit": "g", "item": "farine de blé" },
+    { "raw": "25 cl d'eau", "qty": 25, "unit": "cl", "item": "eau" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "2 c. à s. d'huile d'olive", "qty": 2, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "1,5 l d'huile neutre pour la friture", "qty": 1.5, "unit": "l", "item": "huile neutre" },
+    { "raw": "6 c. à s. de sucre", "qty": 6, "unit": "tbsp", "item": "sucre", "group": "finition" },
+    { "raw": "200 g de chocolat noir", "qty": 200, "unit": "g", "item": "chocolat noir", "group": "chocolat" },
+    { "raw": "50 cl de lait entier", "qty": 50, "unit": "cl", "item": "lait entier", "group": "chocolat" },
+    { "raw": "1 c. à s. de maïzena", "qty": 1, "unit": "tbsp", "item": "maïzena", "group": "chocolat" }
+  ],
+  "steps": [
+    { "fr": "La pâte à churros n'est pas une pâte à choux : ni œuf ni beurre, juste farine, eau bouillante et sel.", "en": "Churro dough is not choux pastry: no egg, no butter, just flour, boiling water and salt." },
+    { "fr": "Verser l'eau BOUILLANTE d'un coup sur la farine et mélanger vite à la cuillère en bois.", "en": "Pour the BOILING water onto the flour all at once and stir fast with a wooden spoon." },
+    { "fr": "C'est l'eau bouillante qui gélatinise l'amidon : à l'eau tiède, les churros s'affaissent.", "en": "The boiling water gelatinises the starch: with warm water, churros collapse." },
+    { "fr": "Laisser tiédir dix minutes avant de pocher : trop chaude, la pâte est impossible à tenir.", "en": "Rest for ten minutes before piping: too hot, the dough is impossible to handle." },
+    { "fr": "Pocher à la douille ÉTOILÉE : les cannelures ne sont pas décoratives, elles empêchent l'éclatement.", "en": "Pipe with a STAR nozzle: the ridges are not decorative, they stop the dough bursting." },
+    { "fr": "Frire à 190 °C, trois minutes, égoutter, et rouler dans le sucre pendant qu'ils sont chauds.", "en": "Fry at 190°C for three minutes, drain, and roll in sugar while still hot." }
+  ],
+  "notes": [
+    { "fr": "Une pâte trop humide projette l'huile violemment à la friture : elle doit être ferme et lisse.", "en": "Dough that is too wet spits oil violently in the fryer: it must be firm and smooth." }
+  ]
+}

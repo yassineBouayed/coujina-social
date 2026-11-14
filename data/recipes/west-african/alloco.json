@@ -1,0 +1,37 @@
+{
+  "slug": "alloco",
+  "cuisine": "west-african",
+  "origin": "Côte d'Ivoire",
+  "native_name": "Alloco",
+  "title": {
+    "fr": "Alloco, bananes plantains frites et sauce piment",
+    "en": "Alloco, fried plantain with chilli sauce"
+  },
+  "meal_type": "side",
+  "servings": 4,
+  "times": { "prep_min": 10, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j5-catalogue-v1", "date": "2026-08-29" },
+  "tags": ["plantain", "friture", "rue", "sans-viande"],
+  "ingredients": [
+    { "raw": "4 bananes plantains bien mûres", "qty": 4, "unit": "piece", "item": "banane plantain", "prep": "en tronçons biseautés" },
+    { "raw": "80 cl d'huile neutre pour la friture", "qty": 80, "unit": "cl", "item": "huile neutre" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché", "group": "sauce piment" },
+    { "raw": "2 tomates, hachées", "qty": 2, "unit": "piece", "item": "tomate", "prep": "hachée", "group": "sauce piment" },
+    { "raw": "2 piments antillais", "qty": 2, "unit": "piece", "item": "habanero", "prep": "haché", "group": "sauce piment" },
+    { "raw": "1 c. à s. d'huile neutre", "qty": 1, "unit": "tbsp", "item": "huile neutre", "group": "sauce piment" },
+    { "raw": "1/2 cube de bouillon", "qty": 0.5, "unit": "piece", "item": "bouillon cube", "prep": "émietté", "group": "sauce piment" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Éplucher les plantains et les couper en tronçons biseautés d'un bon centimètre. Les saler légèrement.", "en": "Peel the plantains and cut them into thick diagonal slices, about a centimetre. Salt them lightly." },
+    { "fr": "Chauffer l'huile à 170 °C et y frire les morceaux 5 à 6 minutes, en deux fois : ils doivent être dorés dehors et fondants dedans.", "en": "Heat the oil to 170 °C and fry the pieces for 5 to 6 minutes, in two batches: golden outside, soft inside." },
+    { "fr": "Égoutter sur du papier absorbant.", "en": "Drain on paper." },
+    { "fr": "Pour la sauce, mélanger à cru les oignons, les tomates, les piments, la cuillerée d'huile, le demi-cube émietté et du sel.", "en": "For the sauce, mix the onions, tomatoes, chillies, spoonful of oil, crumbled half stock cube and salt, all raw." },
+    { "fr": "Servir l'alloco brûlant, la sauce à côté.", "en": "Serve the alloco piping hot, with the sauce alongside." }
+  ],
+  "notes": [
+    { "fr": "Un plantain vert donne des chips, pas de l'alloco. Il faut la peau tachée de noir : c'est le sucre du fruit mûr qui caramélise et fait la croûte.", "en": "A green plantain gives crisps, not alloco. The skin must be blotched with black: it is the ripe fruit's sugar that caramelises and makes the crust." }
+  ]
+}

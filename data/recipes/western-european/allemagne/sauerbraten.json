@@ -1,0 +1,41 @@
+{
+  "slug": "sauerbraten",
+  "cuisine": "western-european",
+  "country": "allemagne",
+  "origin": "Allemagne",
+  "native_name": "Sauerbraten",
+  "title": {
+    "fr": "Sauerbraten, rôti mariné à l'aigre",
+    "en": "Sauerbraten, sour marinated roast"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 180 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rhenanie", "marinade", "dimanche", "embleme"],
+  "ingredients": [
+    { "raw": "1,5 kg de bœuf à mijoter, en rôti", "qty": 1500, "unit": "g", "item": "boeuf à mijoter", "prep": "en rôti" },
+    { "raw": "50 cl de vinaigre de vin", "qty": 50, "unit": "cl", "item": "vinaigre de vin", "group": "marinade" },
+    { "raw": "50 cl de vin rouge", "qty": 50, "unit": "cl", "item": "vin rouge", "group": "marinade" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé", "group": "marinade" },
+    { "raw": "3 carottes, en rondelles", "qty": 3, "unit": "piece", "item": "carotte", "prep": "en rondelles", "group": "marinade" },
+    { "raw": "10 baies de genièvre", "qty": 10, "unit": "piece", "item": "baie de genièvre", "group": "marinade" },
+    { "raw": "5 clous de girofle", "qty": 5, "unit": "piece", "item": "clou de girofle", "group": "marinade" },
+    { "raw": "3 feuilles de laurier", "qty": 3, "unit": "piece", "item": "laurier", "group": "marinade" },
+    { "raw": "80 g de pain d'épices, émietté", "qty": 80, "unit": "g", "item": "pain d'épices", "prep": "émietté", "group": "sauce" },
+    { "raw": "80 g de raisins secs", "qty": 80, "unit": "g", "item": "raisin sec", "group": "sauce" },
+    { "raw": "3 c. à s. de saindoux", "qty": 3, "unit": "tbsp", "item": "saindoux" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Mariner la viande TROIS À CINQ JOURS au réfrigérateur, en la retournant chaque jour.", "en": "Marinate the meat for THREE TO FIVE DAYS in the fridge, turning it every day." },
+    { "fr": "C'est cette marinade acide qui attendrit une pièce dure et donne au plat son nom : sauer, aigre.", "en": "That acid marinade tenderises a tough cut and gives the dish its name: sauer, sour." },
+    { "fr": "L'égoutter et la SÉCHER avant de la saisir : humide, elle ne colore pas.", "en": "Drain and DRY it before searing: wet, it will not brown." },
+    { "fr": "La saisir au saindoux sur toutes ses faces, puis mouiller de la marinade filtrée.", "en": "Sear it in lard on all sides, then moisten with the strained marinade." },
+    { "fr": "Braiser trois heures à couvert, à 150 °C, en retournant à mi-cuisson.", "en": "Braise for three hours covered, at 150°C, turning halfway." },
+    { "fr": "Lier la sauce au PAIN D'ÉPICES émietté : ses épices et son miel équilibrent l'acidité.", "en": "Thicken the sauce with crumbled GINGERBREAD: its spice and honey balance the acidity." }
+  ]
+}

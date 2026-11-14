@@ -1,0 +1,35 @@
+{
+  "slug": "tub-tim-krob",
+  "cuisine": "southeast-asian",
+  "country": "thailande",
+  "origin": "Thaïlande",
+  "native_name": "ทับทิมกรอบ",
+  "title": {
+    "fr": "Tub tim krob, châtaignes d'eau rubis au lait de coco",
+    "en": "Tub tim krob, ruby water chestnuts in coconut milk"
+  },
+  "meal_type": "dessert",
+  "servings": 5,
+  "times": { "prep_min": 35, "cook_min": 15 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ete", "glace", "coco", "croquant"],
+  "ingredients": [
+    { "raw": "300 g de châtaignes d'eau, en dés", "qty": 300, "unit": "g", "item": "châtaigne d'eau", "prep": "en dés" },
+    { "raw": "150 g de farine de tapioca", "qty": 150, "unit": "g", "item": "maïzena" },
+    { "raw": "3 c. à s. de sirop de grenadine", "qty": 3, "unit": "tbsp", "item": "sirop de datte" },
+    { "raw": "50 cl de lait de coco", "qty": 50, "unit": "cl", "item": "lait de coco" },
+    { "raw": "150 g de sucre", "qty": 150, "unit": "g", "item": "sucre" },
+    { "raw": "500 g de glaçons", "qty": 500, "unit": "g", "item": "eau", "prep": "en glaçons" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le nom veut dire « grenade croquante » : ce sont des châtaignes d'eau déguisées en grains de grenade.", "en": "The name means \"crunchy pomegranate\": these are water chestnuts disguised as pomegranate seeds." },
+    { "fr": "Colorer les dés de châtaigne d'eau au sirop rouge et les laisser prendre la couleur vingt minutes.", "en": "Colour the diced water chestnuts with the red syrup and let them take the colour for twenty minutes." },
+    { "fr": "Les rouler dans la farine de tapioca ET LES TAMISER : l'excédent troublerait l'eau de cuisson.", "en": "Roll them in the tapioca flour AND SIEVE THEM: the excess would cloud the cooking water." },
+    { "fr": "Les pocher dans l'eau bouillante jusqu'à ce qu'ils REMONTENT, puis deux minutes de plus.", "en": "Poach them in boiling water until they FLOAT, then two minutes more." },
+    { "fr": "Les plonger IMMÉDIATEMENT dans l'eau glacée : c'est le choc qui fige l'enrobage et le rend croquant.", "en": "Plunge them IMMEDIATELY into iced water: the shock sets the coating and makes it crunchy." },
+    { "fr": "Servir dans le lait de coco sucré et salé, avec beaucoup de glace pilée.", "en": "Serve in the sweetened and salted coconut milk, with plenty of crushed ice." }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "riz-bi-haleeb",
+  "cuisine": "levantine",
+  "country": "liban",
+  "origin": "Liban",
+  "native_name": "Riz bi haleeb",
+  "title": {
+    "fr": "Riz au lait à l'eau de rose",
+    "en": "Rice pudding with rose water"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 10, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["dessert", "rose", "enfance", "simple"],
+  "ingredients": [
+    { "raw": "150 g de riz rond", "qty": 150, "unit": "g", "item": "riz rond" },
+    { "raw": "1,2 l de lait entier", "qty": 1.2, "unit": "l", "item": "lait entier" },
+    { "raw": "120 g de sucre", "qty": 120, "unit": "g", "item": "sucre" },
+    { "raw": "2 c. à s. d'eau de rose", "qty": 2, "unit": "tbsp", "item": "eau de rose" },
+    { "raw": "1 c. à s. d'eau de fleur d'oranger", "qty": 1, "unit": "tbsp", "item": "eau de fleur d'oranger" },
+    { "raw": "1 c. à s. de maïzena", "qty": 1, "unit": "tbsp", "item": "maïzena", "optional": true },
+    { "raw": "40 g de pistaches, concassées", "qty": 40, "unit": "g", "item": "pistache", "prep": "concassée", "group": "décor" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire le riz dix minutes dans un peu d'eau, jusqu'à absorption : il boit ainsi moins de lait.", "en": "Cook the rice for ten minutes in a little water, until absorbed: it then drinks less milk." },
+    { "fr": "Ajouter le lait et le sel, et laisser cuire trente minutes à feu très doux, en remuant souvent.", "en": "Add the milk and salt, and cook for thirty minutes over very low heat, stirring often." },
+    { "fr": "Ajouter le sucre en fin de cuisson seulement : trop tôt, il empêche le riz de s'attendrir.", "en": "Add the sugar only at the end: too early, it stops the rice from softening." },
+    { "fr": "Si le mélange reste trop liquide, lier avec la maïzena délayée et cuire deux minutes de plus.", "en": "If it stays too loose, thicken with the slaked cornflour and cook two minutes more." },
+    { "fr": "Parfumer aux eaux de rose et de fleur d'oranger HORS DU FEU : chauffées, elles s'évaporent.", "en": "Scent with the rose and orange blossom waters OFF THE HEAT: heated, they evaporate." },
+    { "fr": "Verser en coupes et laisser prendre trois heures au frais, décoré de pistaches.", "en": "Pour into bowls and set for three hours in the fridge, topped with pistachios." }
+  ]
+}

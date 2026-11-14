@@ -1,0 +1,41 @@
+{
+  "slug": "fattet-makdous",
+  "cuisine": "levantine",
+  "country": "syrie",
+  "origin": "Syrie",
+  "native_name": "Fattet makdous",
+  "title": {
+    "fr": "Fatteh d'aubergines à la viande et au yaourt",
+    "en": "Aubergine fatteh with meat and yoghurt"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 35, "cook_min": 40 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["couches", "aubergine", "yaourt", "fete"],
+  "ingredients": [
+    { "raw": "4 aubergines, en cubes", "qty": 4, "unit": "piece", "item": "aubergine", "prep": "en cubes" },
+    { "raw": "500 g d'agneau haché", "qty": 500, "unit": "g", "item": "agneau haché" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "1 c. à c. de baharat", "qty": 1, "unit": "tsp", "item": "baharat" },
+    { "raw": "2 pains pita", "qty": 2, "unit": "piece", "item": "pain pita" },
+    { "raw": "60 cl de yaourt grec", "qty": 60, "unit": "cl", "item": "yaourt grec", "group": "sauce" },
+    { "raw": "3 c. à s. de tahini", "qty": 3, "unit": "tbsp", "item": "tahini", "group": "sauce" },
+    { "raw": "3 gousses d'ail, écrasées", "qty": 3, "unit": "piece", "item": "ail", "prep": "écrasé", "group": "sauce" },
+    { "raw": "60 g de pignons de pin", "qty": 60, "unit": "g", "item": "pignon de pin", "group": "garniture" },
+    { "raw": "50 g de beurre", "qty": 50, "unit": "g", "item": "beurre", "group": "garniture" },
+    { "raw": "8 c. à s. d'huile d'olive", "qty": 8, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Saler les cubes d'aubergine et les laisser dégorger trente minutes, puis les sécher.", "en": "Salt the aubergine cubes and let them drain for thirty minutes, then dry them." },
+    { "fr": "Les rôtir au four à 220 °C jusqu'à ce qu'elles soient dorées et fondantes.", "en": "Roast them at 220°C until golden and melting." },
+    { "fr": "Cuire la viande avec l'oignon, le concentré et les épices, jusqu'à ce que le mélange soit sec.", "en": "Cook the meat with the onion, purée and spices, until the mixture is dry." },
+    { "fr": "Griller le pain pita coupé en carrés jusqu'à ce qu'il soit cassant.", "en": "Toast the pita, cut into squares, until brittle." },
+    { "fr": "Monter au dernier moment : pain, aubergines, viande, puis la sauce yaourt-tahini-ail.", "en": "Assemble at the last moment: bread, aubergine, meat, then the yoghurt-tahini-garlic sauce." },
+    { "fr": "Couvrir de pignons dorés au beurre et servir sans attendre.", "en": "Top with pine nuts browned in butter and serve without waiting." }
+  ]
+}

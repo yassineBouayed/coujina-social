@@ -1,0 +1,32 @@
+{
+  "slug": "sugarcane-juice",
+  "cuisine": "southeast-asian",
+  "country": "singapour",
+  "origin": "Singapour",
+  "native_name": "甘蔗水",
+  "title": {
+    "fr": "Jus de canne à sucre au citron vert",
+    "en": "Sugarcane juice with lime"
+  },
+  "meal_type": "drink",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hawker", "ete", "canne", "frais"],
+  "ingredients": [
+    { "raw": "2 kg de canne à sucre, épluchée", "qty": 2000, "unit": "g", "item": "canne à sucre", "prep": "épluchée" },
+    { "raw": "3 citrons verts, leur jus", "qty": 3, "unit": "piece", "item": "citron vert" },
+    { "raw": "800 g de glaçons", "qty": 800, "unit": "g", "item": "eau", "prep": "en glaçons" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "La canne à sucre s'éplucher au couteau, en retirant toute l'écorce dure et fibreuse.", "en": "Sugarcane is peeled with a knife, removing all the hard fibrous bark." },
+    { "fr": "La couper en bâtonnets et la passer plusieurs fois à l'extracteur ou au presse-canne.", "en": "Cut it into batons and pass it several times through a juicer or cane press." },
+    { "fr": "Repasser le résidu deux fois : la deuxième extraction donne autant de jus que la première.", "en": "Press the pulp twice: the second extraction gives as much juice as the first." },
+    { "fr": "Filtrer soigneusement : les fibres restantes rendent le jus désagréable en bouche.", "en": "Strain it carefully: leftover fibres make the juice unpleasant to drink." },
+    { "fr": "Ajouter le jus de citron vert et une PINCÉE DE SEL : sans eux, le jus est écœurant de sucre.", "en": "Add the lime juice and a PINCH OF SALT: without them, the juice is sickly sweet." },
+    { "fr": "Servir immédiatement sur glace : le jus de canne fermente et brunit en deux heures.", "en": "Serve immediately over ice: sugarcane juice ferments and browns within two hours." }
+  ]
+}

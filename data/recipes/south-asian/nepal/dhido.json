@@ -1,0 +1,32 @@
+{
+  "slug": "dhido",
+  "cuisine": "south-asian",
+  "country": "nepal",
+  "origin": "Népal",
+  "native_name": "Dhido",
+  "title": {
+    "fr": "Dhido, pâte de sarrasin ou de millet",
+    "en": "Dhido, buckwheat or millet paste"
+  },
+  "meal_type": "side",
+  "servings": 4,
+  "times": { "prep_min": 5, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["montagne", "base", "sarrasin", "traditionnel"],
+  "ingredients": [
+    { "raw": "300 g de farine de sarrasin", "qty": 300, "unit": "g", "item": "farine de sarrasin" },
+    { "raw": "1 l d'eau", "qty": 1, "unit": "l", "item": "eau" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "1 c. à s. de ghee", "qty": 1, "unit": "tbsp", "item": "ghee", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Le dhido est le plat des montagnes, antérieur au riz : il se mange à la main, avec une soupe.", "en": "Dhido is the food of the hills, older than rice: it is eaten by hand, with a soup." },
+    { "fr": "Porter l'eau salée à ébullition dans une casserole à fond épais.", "en": "Bring the salted water to a boil in a heavy-based pan." },
+    { "fr": "Verser la farine en pluie fine d'une main en remuant vigoureusement de l'autre, avec une spatule en bois.", "en": "Rain the flour in with one hand while stirring hard with the other, using a wooden spatula." },
+    { "fr": "Le dhido se travaille en ÉCRASANT contre la paroi, pas en tournant : c'est un geste de force.", "en": "Dhido is worked by PRESSING against the side of the pan, not by stirring: it takes strength." },
+    { "fr": "Continuer dix minutes, jusqu'à ce que la pâte se détache complètement de la casserole.", "en": "Continue for ten minutes, until the paste pulls cleanly away from the pan." },
+    { "fr": "Former une boule à la louche mouillée et servir aussitôt : le dhido durcit en refroidissant.", "en": "Shape a ball with a wet ladle and serve at once: dhido hardens as it cools." }
+  ]
+}

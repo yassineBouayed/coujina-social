@@ -1,0 +1,40 @@
+{
+  "slug": "milanesa-napolitana",
+  "cuisine": "latin-american",
+  "country": "argentine",
+  "origin": "Argentine",
+  "native_name": "Milanesa napolitana",
+  "title": {
+    "fr": "Milanesa napolitaine au jambon et fromage",
+    "en": "Milanesa napolitana with ham and cheese"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 30, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["quotidien", "boeuf", "panure", "famille"],
+  "ingredients": [
+    { "raw": "4 escalopes de bœuf fines", "qty": 800, "unit": "g", "item": "boeuf", "prep": "en escalopes fines" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf" },
+    { "raw": "250 g de chapelure", "qty": 250, "unit": "g", "item": "panko" },
+    { "raw": "6 gousses d'ail, hachées", "qty": 6, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "8 tranches de jambon blanc", "qty": 8, "unit": "piece", "item": "jambon blanc" },
+    { "raw": "300 g de mozzarella, en tranches", "qty": 300, "unit": "g", "item": "mozzarella", "prep": "en tranches" },
+    { "raw": "400 g de coulis de tomate", "qty": 400, "unit": "g", "item": "coulis de tomate" },
+    { "raw": "2 c. à c. d'origan séché", "qty": 2, "unit": "tsp", "item": "origan séché" },
+    { "raw": "1 l d'huile neutre pour la friture", "qty": 1, "unit": "l", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La milanesa napolitana n'a rien de napolitain : elle vient d'un restaurant de Buenos Aires, « Nápoli ».", "en": "The milanesa napolitana has nothing Neapolitan about it: it comes from a Buenos Aires restaurant, \"Nápoli\"." },
+    { "fr": "Mettre l'AIL et le PERSIL dans l'ŒUF BATTU, pas dans la chapelure : ils brûleraient à la friture.", "en": "Put the GARLIC and PARSLEY in the BEATEN EGG, not the crumbs: they would burn in the fryer." },
+    { "fr": "Laisser les escalopes DANS l'œuf aillé DEUX HEURES au frais avant de paner.", "en": "Leave the escalopes IN the garlic egg for TWO HOURS in the fridge before breading." },
+    { "fr": "Aplatir la viande à un demi-centimètre : plus épaisse, elle est dure sous la panure.", "en": "Flatten the meat to half a centimetre: thicker, it is tough under the coating." },
+    { "fr": "Frire d'abord, PUIS garnir de jambon, sauce et fromage, et passer au four cinq minutes.", "en": "Fry first, THEN top with ham, sauce and cheese, and finish five minutes in the oven." },
+    { "fr": "Une milanesa garnie AVANT la friture serait un désastre : le fromage fondrait dans l'huile.", "en": "A milanesa topped BEFORE frying would be a disaster: the cheese would melt into the oil." }
+  ]
+}

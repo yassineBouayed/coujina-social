@@ -1,0 +1,44 @@
+{
+  "slug": "kibbe",
+  "cuisine": "levantine",
+  "country": "liban",
+  "origin": "Liban",
+  "native_name": "Kibbeh",
+  "title": {
+    "fr": "Kibbé frit, croquettes de boulgour farcies",
+    "en": "Fried kibbeh, stuffed bulgur croquettes"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 70, "cook_min": 25 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["boulgour", "friture", "fete", "technique"],
+  "ingredients": [
+    { "raw": "300 g de boulgour fin", "qty": 300, "unit": "g", "item": "boulgour fin", "group": "croûte" },
+    { "raw": "400 g d'agneau haché maigre", "qty": 400, "unit": "g", "item": "agneau haché", "group": "croûte" },
+    { "raw": "1 oignon, râpé", "qty": 1, "unit": "piece", "item": "oignon", "prep": "râpé", "group": "croûte" },
+    { "raw": "1 c. à c. de baharat", "qty": 1, "unit": "tsp", "item": "baharat", "group": "croûte" },
+    { "raw": "300 g d'agneau haché", "qty": 300, "unit": "g", "item": "agneau haché", "group": "farce" },
+    { "raw": "2 oignons, hachés finement", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché finement", "group": "farce" },
+    { "raw": "80 g de pignons de pin", "qty": 80, "unit": "g", "item": "pignon de pin", "group": "farce" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle", "group": "farce" },
+    { "raw": "1 c. à c. de baharat", "qty": 1, "unit": "tsp", "item": "baharat", "group": "farce" },
+    { "raw": "4 c. à s. de beurre", "qty": 4, "unit": "tbsp", "item": "beurre", "group": "farce" },
+    { "raw": "1 l d'huile de tournesol pour la friture", "qty": 1, "unit": "l", "item": "huile de tournesol", "group": "friture" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Rincer le boulgour fin et le laisser gonfler vingt minutes, puis le presser fortement.", "en": "Rinse the fine bulgur and let it swell for twenty minutes, then squeeze it hard." },
+    { "fr": "Pétrir longuement le boulgour, la viande maigre, l'oignon râpé et les épices, en mouillant les mains d'eau glacée.", "en": "Knead the bulgur, lean meat, grated onion and spices at length, wetting your hands with iced water." },
+    { "fr": "La pâte doit devenir lisse et collante comme une pâte à pain : c'est ce pétrissage qui tient la croûte.", "en": "The paste must turn smooth and tacky like bread dough: that kneading is what holds the shell." },
+    { "fr": "Faire la farce : oignons, viande, épices et pignons dorés au beurre, puis laisser refroidir complètement.", "en": "Make the filling: onions, meat, spices and pine nuts browned in butter, then cool completely." },
+    { "fr": "Creuser une boule de pâte autour de l'index, l'amincir au maximum, garnir et refermer en fuseau pointu.", "en": "Hollow a ball of paste around your index finger, thin it as much as possible, fill and close into a pointed spindle." },
+    { "fr": "Frire à 175 °C, quatre minutes, jusqu'à une couleur acajou uniforme.", "en": "Fry at 175°C for four minutes, to an even mahogany colour." }
+  ],
+  "notes": [
+    { "fr": "La finesse de la croûte est le seul critère par lequel on juge un kibbé. C'est un geste qui s'apprend en en ratant beaucoup.", "en": "The thinness of the shell is the only measure by which kibbeh is judged. It is a knack learned by failing at it many times." }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "maftoul",
+  "cuisine": "levantine",
+  "country": "jordanie",
+  "origin": "Jordanie",
+  "native_name": "Maftoul",
+  "title": {
+    "fr": "Maftoul au poulet et aux pois chiches",
+    "en": "Maftoul with chicken and chickpeas"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 75 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["maftoul", "vapeur", "famille", "hiver"],
+  "ingredients": [
+    { "raw": "500 g de maftoul", "qty": 500, "unit": "g", "item": "maftoul" },
+    { "raw": "1 poulet entier, découpé", "qty": 1, "unit": "piece", "item": "poulet entier", "prep": "découpé" },
+    { "raw": "300 g de pois chiches secs, trempés la veille", "qty": 300, "unit": "g", "item": "pois chiche sec", "prep": "trempé la veille" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "1 c. à s. de baharat", "qty": 1, "unit": "tbsp", "item": "baharat" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "8 c. à s. d'huile d'olive", "qty": 8, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire le poulet avec un oignon, la cannelle et le sel, quarante minutes, et garder le bouillon.", "en": "Cook the chicken with one onion, cinnamon and salt for forty minutes, and keep the broth." },
+    { "fr": "Cuire les pois chiches à part jusqu'à ce qu'ils soient tendres.", "en": "Cook the chickpeas separately until tender." },
+    { "fr": "Faire fondre les deux autres oignons dans l'huile avec le baharat et le curcuma.", "en": "Melt the other two onions in the oil with the baharat and turmeric." },
+    { "fr": "Le maftoul est plus gros que le couscous : il se cuit à la vapeur, jamais bouilli, sinon il colle.", "en": "Maftoul is coarser than couscous: it is steamed, never boiled, or it turns gluey." },
+    { "fr": "Le passer deux fois à la vapeur au-dessus du bouillon, en l'égrenant et l'huilant entre les deux.", "en": "Steam it twice over the broth, raking and oiling it between the passes." },
+    { "fr": "Mélanger avec les oignons et les pois chiches, dresser, poser le poulet, arroser de bouillon.", "en": "Fold in the onions and chickpeas, plate up, set the chicken on top and ladle over broth." }
+  ]
+}

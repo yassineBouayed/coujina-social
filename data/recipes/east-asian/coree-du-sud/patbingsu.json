@@ -1,0 +1,35 @@
+{
+  "slug": "patbingsu",
+  "cuisine": "east-asian",
+  "country": "coree-du-sud",
+  "origin": "Corée du Sud",
+  "native_name": "팥빙수",
+  "title": {
+    "fr": "Patbingsu, glace pilée aux haricots rouges",
+    "en": "Patbingsu, shaved ice with red beans"
+  },
+  "meal_type": "dessert",
+  "servings": 4,
+  "times": { "prep_min": 30, "cook_min": 60 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ete", "glace", "azuki", "partage"],
+  "ingredients": [
+    { "raw": "250 g d'azuki, trempés la veille", "qty": 250, "unit": "g", "item": "azuki", "prep": "trempé la veille" },
+    { "raw": "150 g de sucre", "qty": 150, "unit": "g", "item": "sucre" },
+    { "raw": "1 l de lait entier", "qty": 1, "unit": "l", "item": "lait entier" },
+    { "raw": "10 cl de lait concentré sucré", "qty": 10, "unit": "cl", "item": "lait concentré sucré" },
+    { "raw": "200 g de tteok", "qty": 200, "unit": "g", "item": "tteok", "optional": true, "group": "garniture" },
+    { "raw": "2 c. à s. de poudre de soja grillé", "qty": 2, "unit": "tbsp", "item": "farine de pois chiche", "optional": true, "group": "garniture" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire les azuki une heure, en jetant la première eau après dix minutes.", "en": "Cook the azuki for an hour, discarding the first water after ten minutes." },
+    { "fr": "Ajouter le sucre quand ils sont tendres et laisser réduire : ils doivent rester ENTIERS, pas en purée.", "en": "Add the sugar once they are tender and reduce: they must stay WHOLE, not become a purée." },
+    { "fr": "Congeler le lait dans un plat plat, la veille : c'est de la GLACE DE LAIT, pas de l'eau, qu'on râpe.", "en": "Freeze the milk in a shallow dish, the day before: it is MILK ICE, not water ice, that is shaved." },
+    { "fr": "Le râper à la fourchette ou au robot juste avant de servir, en flocons très fins.", "en": "Shave it with a fork or a machine just before serving, into very fine flakes." },
+    { "fr": "Monter dans un grand bol : glace, azuki, tteok, et un filet de lait concentré.", "en": "Build it in a large bowl: ice, azuki, rice cakes, and a drizzle of condensed milk." },
+    { "fr": "Servir un seul grand bol pour la table, avec plusieurs cuillères : le bingsu se partage.", "en": "Serve one large bowl for the table, with several spoons: bingsu is shared." }
+  ]
+}

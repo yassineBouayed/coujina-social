@@ -1,0 +1,40 @@
+{
+  "slug": "tlitli",
+  "cuisine": "maghrebi",
+  "country": "algerie",
+  "origin": "Algérie",
+  "native_name": "Tlitli",
+  "title": {
+    "fr": "Tlitli constantinois aux boulettes",
+    "en": "Constantine tlitli with meatballs"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 45, "cook_min": 60 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["constantine", "mariage", "pates", "boulettes"],
+  "ingredients": [
+    { "raw": "500 g de langue d'oiseau", "qty": 500, "unit": "g", "item": "langue d'oiseau" },
+    { "raw": "400 g de viande hachée d'agneau", "qty": 400, "unit": "g", "item": "agneau haché", "group": "boulettes" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf", "group": "boulettes" },
+    { "raw": "1/2 c. à c. de cannelle moulue", "qty": 0.5, "unit": "tsp", "item": "cannelle", "group": "boulettes" },
+    { "raw": "400 g de blanc de poulet, en morceaux", "qty": 400, "unit": "g", "item": "blanc de poulet", "prep": "en morceaux" },
+    { "raw": "200 g de pois chiches secs, trempés la veille", "qty": 200, "unit": "g", "item": "pois chiche sec", "prep": "trempé la veille" },
+    { "raw": "2 oignons, râpés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "râpé" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle" },
+    { "raw": "1/2 c. à c. de poivre blanc", "qty": 0.5, "unit": "tsp", "item": "poivre blanc" },
+    { "raw": "5 c. à s. de beurre", "qty": 5, "unit": "tbsp", "item": "beurre" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire revenir l'oignon au beurre, ajouter le poulet, le safran, la cannelle, le poivre blanc et les pois chiches, et mouiller largement.", "en": "Soften the onion in butter, add the chicken, saffron, cinnamon, white pepper and chickpeas, and cover generously with water." },
+    { "fr": "Rouler des boulettes minuscules avec la viande hachée, l'œuf et la cannelle, et les pocher dans le bouillon.", "en": "Roll tiny meatballs from the mince, egg and cinnamon, and poach them in the broth." },
+    { "fr": "Faire dorer les langues d'oiseau à sec dans une poêle jusqu'à ce qu'elles prennent une couleur noisette : c'est l'étape qui fait le goût.", "en": "Toast the birds-tongue pasta dry in a pan until hazelnut brown: this is the step that makes the flavour." },
+    { "fr": "Les cuire dans le bouillon filtré, à couvert, jusqu'à absorption complète.", "en": "Cook it in the strained broth, covered, until fully absorbed." },
+    { "fr": "Le tlitli doit rester en grains distincts, jamais collant : ajouter le bouillon par petites louches.", "en": "Tlitli must stay in separate grains, never sticky: add the broth a small ladle at a time." },
+    { "fr": "Dresser les pâtes, disposer poulet et boulettes dessus, et napper du reste de sauce.", "en": "Plate the pasta, arrange chicken and meatballs on top, and spoon over the remaining sauce." }
+  ]
+}

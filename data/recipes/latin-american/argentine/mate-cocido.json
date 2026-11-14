@@ -1,0 +1,32 @@
+{
+  "slug": "mate-cocido",
+  "cuisine": "latin-american",
+  "country": "argentine",
+  "origin": "Argentine",
+  "native_name": "Mate cocido",
+  "title": {
+    "fr": "Maté cuit au lait",
+    "en": "Brewed mate with milk"
+  },
+  "meal_type": "drink",
+  "servings": 4,
+  "times": { "prep_min": 5, "cook_min": 10 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["petit-dejeuner", "mate", "quotidien", "chaud"],
+  "ingredients": [
+    { "raw": "6 c. à s. de yerba maté", "qty": 6, "unit": "tbsp", "item": "yerba maté" },
+    { "raw": "80 cl d'eau", "qty": 80, "unit": "cl", "item": "eau" },
+    { "raw": "30 cl de lait entier", "qty": 30, "unit": "cl", "item": "lait entier" },
+    { "raw": "4 c. à c. de sucre", "qty": 4, "unit": "tsp", "item": "sucre", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Le mate cocido se BOIT DANS UNE TASSE, contrairement au maté traditionnel qui se prend à la bombilla.", "en": "Mate cocido is DRUNK FROM A CUP, unlike traditional mate taken through a bombilla." },
+    { "fr": "C'est la version des enfants et du petit-déjeuner : plus douce, allongée de lait.", "en": "It is the children's and breakfast version: milder, lengthened with milk." },
+    { "fr": "L'eau ne doit JAMAIS BOUILLIR : à 80 °C au maximum, pas un degré de plus.", "en": "The water must NEVER BOIL: 80°C at most, not a degree more." },
+    { "fr": "Bouillante, elle brûle la yerba et libère une amertume qui ne part plus.", "en": "Boiling, it scorches the yerba and releases a bitterness that never leaves." },
+    { "fr": "Infuser CINQ MINUTES, puis filtrer soigneusement : la yerba en poudre est désagréable en bouche.", "en": "Steep for FIVE MINUTES, then strain carefully: powdered yerba is unpleasant in the mouth." },
+    { "fr": "Ajouter le lait chaud et servir avec des medialunas : c'est le petit-déjeuner argentin.", "en": "Add the hot milk and serve with medialunas: the Argentine breakfast." }
+  ]
+}

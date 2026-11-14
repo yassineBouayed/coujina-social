@@ -1,0 +1,38 @@
+{
+  "slug": "tajine-hlou",
+  "cuisine": "maghrebi",
+  "country": "algerie",
+  "origin": "Algérie",
+  "native_name": "Tadjine hlou",
+  "title": {
+    "fr": "Tadjine hlou, agneau aux pruneaux et aux abricots",
+    "en": "Tadjine hlou, lamb with prunes and apricots"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 100 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ramadan", "sucre", "fruits-secs", "agneau"],
+  "ingredients": [
+    { "raw": "1 kg d'épaule d'agneau en morceaux", "qty": 1000, "unit": "g", "item": "épaule d'agneau", "prep": "en morceaux" },
+    { "raw": "250 g de pruneaux", "qty": 250, "unit": "g", "item": "pruneau" },
+    { "raw": "150 g d'abricots secs", "qty": 150, "unit": "g", "item": "abricot sec" },
+    { "raw": "100 g de raisins secs", "qty": 100, "unit": "g", "item": "raisin sec" },
+    { "raw": "100 g d'amandes, mondées", "qty": 100, "unit": "g", "item": "amande", "prep": "mondée" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "3 c. à s. de sucre", "qty": 3, "unit": "tbsp", "item": "sucre" },
+    { "raw": "2 c. à s. d'eau de fleur d'oranger", "qty": 2, "unit": "tbsp", "item": "eau de fleur d'oranger" },
+    { "raw": "50 g de beurre", "qty": 50, "unit": "g", "item": "beurre" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire revenir la viande au beurre avec la cannelle et une pincée de sel, sans oignon : le tadjine hlou n'en contient pas.", "en": "Brown the meat in butter with the cinnamon and a pinch of salt, with no onion: tadjine hlou contains none." },
+    { "fr": "Mouiller à hauteur et laisser mijoter une heure et quart à couvert.", "en": "Cover with water and simmer for an hour and a quarter, covered." },
+    { "fr": "Tremper les fruits secs à l'eau tiède pendant ce temps, puis les égoutter.", "en": "Soak the dried fruit in warm water meanwhile, then drain." },
+    { "fr": "Les ajouter avec le sucre pour les vingt dernières minutes seulement, sinon ils se défont.", "en": "Add them with the sugar for the last twenty minutes only, or they will fall apart." },
+    { "fr": "Découvrir et laisser réduire jusqu'à obtenir un sirop épais qui nappe la viande.", "en": "Uncover and reduce to a thick syrup that coats the meat." },
+    { "fr": "Parfumer à l'eau de fleur d'oranger hors du feu, et servir couvert d'amandes dorées.", "en": "Scent with orange blossom water off the heat, and serve covered with golden almonds." }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "tonkatsu",
+  "cuisine": "east-asian",
+  "country": "japon",
+  "origin": "Japon",
+  "native_name": "とんかつ",
+  "title": {
+    "fr": "Tonkatsu, côte de porc panée au panko",
+    "en": "Tonkatsu, panko-crumbed pork cutlet"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["friture", "panko", "populaire", "chou"],
+  "ingredients": [
+    { "raw": "4 côtes de porc épaisses", "qty": 4, "unit": "piece", "item": "échine de porc" },
+    { "raw": "200 g de panko", "qty": 200, "unit": "g", "item": "panko" },
+    { "raw": "100 g de farine de blé", "qty": 100, "unit": "g", "item": "farine de blé" },
+    { "raw": "2 œufs, battus", "qty": 2, "unit": "piece", "item": "oeuf", "prep": "battu" },
+    { "raw": "1/4 de chou blanc, en très fines lanières", "qty": 0.25, "unit": "piece", "item": "chou blanc", "prep": "en très fines lanières", "group": "service" },
+    { "raw": "6 c. à s. de sauce tonkatsu", "qty": 6, "unit": "tbsp", "item": "sauce tonkatsu", "group": "service" },
+    { "raw": "1 l d'huile neutre pour la friture", "qty": 1, "unit": "l", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Entailler le gras sur le bord de la côte tous les deux centimètres : sans cela, elle se recourbe à la friture.", "en": "Nick the fat along the edge of the chop every two centimetres: without this, it curls as it fries." },
+    { "fr": "Le panko n'est pas de la chapelure : ses flocons sont plus gros et absorbent bien moins d'huile.", "en": "Panko is not breadcrumbs: its flakes are larger and absorb far less oil." },
+    { "fr": "Fariner, tremper dans l'œuf, puis presser dans le panko SANS écraser les flocons.", "en": "Flour, dip in egg, then press into the panko WITHOUT crushing the flakes." },
+    { "fr": "Frire à 170 °C, quatre minutes par face, en ne retournant qu'une seule fois.", "en": "Fry at 170°C, four minutes a side, turning only once." },
+    { "fr": "Égoutter debout cinq minutes : le repos laisse la chaleur finir la cuisson sans dessécher.", "en": "Drain upright for five minutes: the rest lets residual heat finish the cooking without drying it." },
+    { "fr": "Trancher en bandes et servir avec le chou cru en fines lanières et la sauce tonkatsu.", "en": "Slice into strips and serve with the finely shredded raw cabbage and tonkatsu sauce." }
+  ]
+}

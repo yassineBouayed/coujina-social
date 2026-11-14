@@ -1,0 +1,38 @@
+{
+  "slug": "gahwa",
+  "cuisine": "middle-eastern",
+  "country": "arabie-saoudite",
+  "origin": "Arabie saoudite",
+  "native_name": "Gahwa",
+  "title": {
+    "fr": "Gahwa, café arabe à la cardamome et au safran",
+    "en": "Gahwa, Arabic coffee with cardamom and saffron"
+  },
+  "meal_type": "drink",
+  "servings": 8,
+  "times": { "prep_min": 10, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["accueil", "cardamome", "safran", "rituel"],
+  "ingredients": [
+    { "raw": "4 c. à s. de café vert légèrement torréfié, moulu", "qty": 4, "unit": "tbsp", "item": "café", "prep": "moulu" },
+    { "raw": "2 c. à s. de cardamome, écrasée", "qty": 2, "unit": "tbsp", "item": "cardamome", "prep": "écrasée" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "1/2 c. à c. de clous de girofle", "qty": 0.5, "unit": "tsp", "item": "clou de girofle", "optional": true },
+    { "raw": "1 c. à c. de gingembre moulu", "qty": 1, "unit": "tsp", "item": "gingembre moulu", "optional": true },
+    { "raw": "1,5 l d'eau", "qty": 1.5, "unit": "l", "item": "eau" },
+    { "raw": "200 g de dattes", "qty": 200, "unit": "g", "item": "datte", "group": "service" }
+  ],
+  "steps": [
+    { "fr": "Le café de la gahwa est très peu torréfié : il reste blond, presque vert, et le breuvage est clair.", "en": "Gahwa coffee is barely roasted: it stays pale, almost green, and the drink is light in colour." },
+    { "fr": "Faire bouillir l'eau et y jeter le café moulu, puis laisser frémir quinze minutes à découvert.", "en": "Boil the water and drop in the ground coffee, then simmer for fifteen minutes uncovered." },
+    { "fr": "Laisser reposer cinq minutes pour que le marc tombe au fond.", "en": "Rest for five minutes so the grounds settle." },
+    { "fr": "Ajouter la cardamome écrasée, le safran et les épices dans le dallah, et verser le café dessus.", "en": "Put the crushed cardamom, saffron and spices in the dallah, and pour the coffee over them." },
+    { "fr": "Laisser infuser dix minutes de plus : les épices ne bouillent jamais avec le café.", "en": "Steep for ten more minutes: the spices never boil with the coffee." },
+    { "fr": "Servir sans sucre, dans de petites tasses remplies au tiers, avec des dattes.", "en": "Serve unsweetened, in small cups filled a third full, with dates." }
+  ],
+  "notes": [
+    { "fr": "La tasse se remplit au tiers, et se resert tant que l'invité ne secoue pas sa tasse. Le geste dit « merci, ça suffit ».", "en": "The cup is filled a third full and refilled until the guest shakes it. That gesture says \"thank you, enough\"." }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "couscous-poisson",
+  "cuisine": "maghrebi",
+  "country": "tunisie",
+  "origin": "Tunisie",
+  "native_name": "Kosksi bel hout",
+  "title": {
+    "fr": "Couscous tunisien au poisson",
+    "en": "Tunisian fish couscous"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 75 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["sfax", "poisson", "harissa", "dimanche"],
+  "ingredients": [
+    { "raw": "500 g de couscous moyen", "qty": 500, "unit": "g", "item": "couscous moyen" },
+    { "raw": "1,2 kg de dorade, en tronçons", "qty": 1200, "unit": "g", "item": "dorade", "prep": "en tronçons" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "2 c. à s. de harissa", "qty": 2, "unit": "tbsp", "item": "harissa" },
+    { "raw": "1 c. à s. de tabil", "qty": 1, "unit": "tbsp", "item": "tabil" },
+    { "raw": "1 c. à c. de carvi moulu", "qty": 1, "unit": "tsp", "item": "carvi" },
+    { "raw": "200 g de pois chiches secs, trempés la veille", "qty": 200, "unit": "g", "item": "pois chiche sec", "prep": "trempé la veille" },
+    { "raw": "2 pommes de terre, en gros morceaux", "qty": 2, "unit": "piece", "item": "pomme de terre", "prep": "en gros morceaux" },
+    { "raw": "2 carottes, en tronçons", "qty": 2, "unit": "piece", "item": "carotte", "prep": "en tronçons" },
+    { "raw": "1 poivron vert, en lanières", "qty": 1, "unit": "piece", "item": "poivron vert", "prep": "en lanières" },
+    { "raw": "8 c. à s. d'huile d'olive", "qty": 8, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire revenir l'oignon dans l'huile, ajouter le concentré de tomate et la harissa délayés, et les laisser cuire trois minutes.", "en": "Soften the onion in the oil, add the diluted tomato purée and harissa, and let them cook for three minutes." },
+    { "fr": "Ajouter le tabil, le carvi, les pois chiches et de l'eau, et lancer le bouillon pour quarante minutes.", "en": "Add the tabil, caraway, chickpeas and water, and start the broth for forty minutes." },
+    { "fr": "Cuire le couscous à la vapeur au-dessus du bouillon, en trois passages, en l'égrenant entre chacun.", "en": "Steam the couscous over the broth in three passes, raking it apart between each." },
+    { "fr": "Ajouter les légumes au bouillon, puis le poisson en dernier : dix minutes lui suffisent.", "en": "Add the vegetables to the broth, then the fish last: ten minutes is enough for it." },
+    { "fr": "Ne jamais remuer le poisson dans la marmite : on le sort à l'écumoire, entier.", "en": "Never stir the fish in the pot: lift it out whole with a slotted spoon." },
+    { "fr": "Dresser la semoule, l'arroser généreusement de bouillon rouge, poser légumes et poisson dessus.", "en": "Plate the semolina, ladle over plenty of the red broth, and set the vegetables and fish on top." }
+  ],
+  "notes": [
+    { "fr": "Le couscous tunisien se sert franchement pimenté et rouge. Adouci, il devient un couscous marocain sans en être un.", "en": "Tunisian couscous is served frankly hot and red. Toned down, it becomes a Moroccan couscous without being one." }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "pepper-soup-poisson",
+  "cuisine": "west-african",
+  "country": "nigeria",
+  "origin": "Nigeria",
+  "native_name": "Catfish pepper soup",
+  "title": {
+    "fr": "Pepper soup au poisson-chat",
+    "en": "Catfish pepper soup"
+  },
+  "meal_type": "soup",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["pimente", "bouillon", "soiree", "poisson"],
+  "ingredients": [
+    { "raw": "1 kg de poisson-chat, en tronçons", "qty": 1000, "unit": "g", "item": "poisson-chat", "prep": "en tronçons" },
+    { "raw": "1 c. à s. d'ehuru moulu", "qty": 1, "unit": "tbsp", "item": "ehuru", "prep": "moulu" },
+    { "raw": "1 c. à c. de poivre de Selim, moulu", "qty": 1, "unit": "tsp", "item": "poivre de Selim", "prep": "moulu" },
+    { "raw": "3 piments habanero, mixés", "qty": 3, "unit": "piece", "item": "habanero", "prep": "mixé" },
+    { "raw": "1 oignon, haché", "qty": 1, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "1 c. à s. de crevettes séchées, moulues", "qty": 1, "unit": "tbsp", "item": "crevette séchée", "prep": "moulue" },
+    { "raw": "2 cubes de bouillon", "qty": 2, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "1/2 bouquet de basilic", "qty": 0.5, "unit": "bunch", "item": "basilic" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Frotter le poisson au citron et au sel, puis le rincer : cela retire le limon et l'odeur de vase.", "en": "Rub the fish with lemon and salt, then rinse: this strips the slime and muddy smell." },
+    { "fr": "Porter à frémissement 1,2 l d'eau avec l'oignon, les cubes, l'ehuru, le poivre de Selim et le piment.", "en": "Bring 1.2 litres of water to a simmer with the onion, stock cubes, ehuru, Selim pepper and chilli." },
+    { "fr": "Laisser infuser quinze minutes avant d'ajouter le poisson : le bouillon doit déjà avoir du goût.", "en": "Infuse for fifteen minutes before adding the fish: the broth must already taste of something." },
+    { "fr": "Déposer les tronçons et pocher dix minutes sans jamais remuer ni bouillir.", "en": "Lay in the pieces and poach for ten minutes, never stirring or boiling." },
+    { "fr": "Ajouter le basilic haché hors du feu.", "en": "Add the chopped basil off the heat." },
+    { "fr": "Servir brûlant, en bol, comme bouillon ou comme plat avec du riz blanc.", "en": "Serve scalding in a bowl, as a broth or as a dish with white rice." }
+  ]
+}

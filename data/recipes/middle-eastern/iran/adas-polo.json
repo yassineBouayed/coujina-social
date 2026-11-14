@@ -1,0 +1,38 @@
+{
+  "slug": "adas-polo",
+  "cuisine": "middle-eastern",
+  "country": "iran",
+  "origin": "Iran",
+  "native_name": "Adas polo",
+  "title": {
+    "fr": "Adas polo, riz aux lentilles, dattes et raisins",
+    "en": "Adas polo, rice with lentils, dates and raisins"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 70 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["sucre-sale", "lentille", "datte", "famille"],
+  "ingredients": [
+    { "raw": "500 g de riz basmati", "qty": 500, "unit": "g", "item": "riz basmati" },
+    { "raw": "250 g de lentilles vertes", "qty": 250, "unit": "g", "item": "lentille verte" },
+    { "raw": "150 g de dattes, dénoyautées", "qty": 150, "unit": "g", "item": "datte", "prep": "dénoyautée" },
+    { "raw": "100 g de raisins secs", "qty": 100, "unit": "g", "item": "raisin sec" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "100 g de beurre", "qty": 100, "unit": "g", "item": "beurre" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle" },
+    { "raw": "400 g d'agneau haché", "qty": 400, "unit": "g", "item": "agneau haché", "optional": true },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire les lentilles vingt minutes, jusqu'à ce qu'elles soient tendres mais entières, puis les égoutter.", "en": "Cook the lentils for twenty minutes, until tender but whole, then drain." },
+    { "fr": "Précuire le riz trempé sept minutes et l'égoutter.", "en": "Parboil the soaked rice for seven minutes and drain." },
+    { "fr": "Faire revenir les oignons au beurre, puis les dattes et les raisins UNE MINUTE seulement.", "en": "Fry the onions in butter, then the dates and raisins for ONE MINUTE only." },
+    { "fr": "Les fruits secs brûlent instantanément et deviennent amers : ils entrent en dernier, et brièvement.", "en": "Dried fruit burns instantly and turns bitter: it goes in last, and briefly." },
+    { "fr": "Monter en couches dans la cocotte : riz, lentilles, fruits, en alternant, et finir par le riz.", "en": "Layer it in the pot: rice, lentils, fruit, alternating, and finish with rice." },
+    { "fr": "Couvrir d'un linge et cuire quarante minutes à feu doux, puis colorer une part au safran.", "en": "Cover with a cloth and cook for forty minutes over low heat, then colour some of it with saffron." }
+  ]
+}

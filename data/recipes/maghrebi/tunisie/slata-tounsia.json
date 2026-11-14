@@ -1,0 +1,38 @@
+{
+  "slug": "slata-tounsia",
+  "cuisine": "maghrebi",
+  "country": "tunisie",
+  "origin": "Tunisie",
+  "native_name": "Slata tounsia",
+  "title": {
+    "fr": "Salade tunisienne au thon et aux œufs",
+    "en": "Tunisian salad with tuna and eggs"
+  },
+  "meal_type": "salad",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 10 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ete", "cru", "thon", "rapide"],
+  "ingredients": [
+    { "raw": "4 tomates, en petits dés", "qty": 4, "unit": "piece", "item": "tomate", "prep": "en petits dés" },
+    { "raw": "2 concombres, en petits dés", "qty": 2, "unit": "piece", "item": "concombre", "prep": "en petits dés" },
+    { "raw": "1 poivron vert, en petits dés", "qty": 1, "unit": "piece", "item": "poivron vert", "prep": "en petits dés" },
+    { "raw": "1 oignon, en petits dés", "qty": 1, "unit": "piece", "item": "oignon", "prep": "en petits dés" },
+    { "raw": "1/2 bouquet de menthe fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "menthe fraîche", "prep": "ciselée" },
+    { "raw": "150 g de thon en conserve, égoutté", "qty": 150, "unit": "g", "item": "thon en conserve", "prep": "égoutté" },
+    { "raw": "2 œufs durs, en quartiers", "qty": 2, "unit": "piece", "item": "oeuf", "prep": "dur" },
+    { "raw": "10 olives noires", "qty": 10, "unit": "piece", "item": "olive noire" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "4 c. à s. d'huile d'olive", "qty": 4, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Tailler tous les légumes en dés très petits et réguliers.", "en": "Dice all the vegetables very small and evenly." },
+    { "fr": "Faire dégorger l'oignon dix minutes dans de l'eau froide salée, pour lui ôter son mordant.", "en": "Soak the onion for ten minutes in cold salted water, to take off its bite." },
+    { "fr": "Mélanger les légumes avec la menthe, le jus de citron, l'huile et le sel.", "en": "Combine the vegetables with the mint, lemon juice, oil and salt." },
+    { "fr": "Laisser reposer un quart d'heure au frais pour que la menthe parfume l'ensemble.", "en": "Rest for a quarter of an hour in the fridge so the mint scents everything." },
+    { "fr": "Disposer le thon émietté, les œufs et les olives en surface, sans mélanger.", "en": "Arrange the flaked tuna, eggs and olives on top, without stirring." }
+  ]
+}

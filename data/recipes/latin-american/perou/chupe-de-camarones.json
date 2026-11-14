@@ -1,0 +1,43 @@
+{
+  "slug": "chupe-de-camarones",
+  "cuisine": "latin-american",
+  "country": "perou",
+  "origin": "Pérou",
+  "native_name": "Chupe de camarones",
+  "title": {
+    "fr": "Chupe, soupe de crevettes d'Arequipa",
+    "en": "Chupe, Arequipa prawn chowder"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 35, "cook_min": 50 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["arequipa", "crevette", "soupe", "fete"],
+  "ingredients": [
+    { "raw": "1 kg de crevettes crues, entières", "qty": 1000, "unit": "g", "item": "crevette", "prep": "entières" },
+    { "raw": "200 g de riz long grain", "qty": 200, "unit": "g", "item": "riz long grain" },
+    { "raw": "600 g de pommes de terre, en morceaux", "qty": 600, "unit": "g", "item": "pomme de terre", "prep": "en morceaux" },
+    { "raw": "300 g de courge butternut, en dés", "qty": 300, "unit": "g", "item": "butternut", "prep": "en dés" },
+    { "raw": "3 épis de maïs, en tronçons", "qty": 3, "unit": "piece", "item": "maïs doux", "prep": "en tronçons" },
+    { "raw": "200 g de petits pois surgelés", "qty": 200, "unit": "g", "item": "petits pois surgelés" },
+    { "raw": "3 piments ají panca", "qty": 3, "unit": "piece", "item": "ají panca" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "6 gousses d'ail, hachées", "qty": 6, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "40 cl de lait évaporé", "qty": 40, "unit": "cl", "item": "lait évaporé" },
+    { "raw": "250 g de queso fresco, en dés", "qty": 250, "unit": "g", "item": "queso fresco", "prep": "en dés" },
+    { "raw": "6 œufs", "qty": 6, "unit": "piece", "item": "oeuf" },
+    { "raw": "1/2 bouquet d'origan frais", "qty": 0.5, "unit": "bunch", "item": "origan séché", "prep": "ou origan frais" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "GARDER les têtes et carapaces : les faire revenir et en tirer un fumet est ce qui fait le chupe.", "en": "KEEP the heads and shells: frying them and drawing a stock is what makes a chupe." },
+    { "fr": "Les écraser au pilon pendant la cuisson : le corail se libère et colore le bouillon en orange.", "en": "Crush them with a pestle while they cook: the coral releases and turns the broth orange." },
+    { "fr": "Filtrer ce fumet DEUX FOIS : les fragments de carapace sont désagréables en bouche.", "en": "Strain that stock TWICE: shell fragments are unpleasant in the mouth." },
+    { "fr": "Ajouter les légumes du plus dur au plus tendre, sur trente minutes.", "en": "Add the vegetables from firmest to softest, over thirty minutes." },
+    { "fr": "Casser les œufs ENTIERS dans la soupe frémissante, cinq minutes avant la fin : ils pochent dedans.", "en": "Crack the eggs WHOLE into the simmering soup, five minutes before the end: they poach in it." },
+    { "fr": "Ajouter lait évaporé, fromage et crevettes en tout dernier, et ne plus faire bouillir.", "en": "Add the evaporated milk, cheese and prawns last of all, and do not boil again." }
+  ]
+}

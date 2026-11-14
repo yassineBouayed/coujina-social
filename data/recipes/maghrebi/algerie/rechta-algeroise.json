@@ -1,0 +1,39 @@
+{
+  "slug": "rechta-algeroise",
+  "cuisine": "maghrebi",
+  "country": "algerie",
+  "origin": "Algérie",
+  "native_name": "Rechta",
+  "title": {
+    "fr": "Rechta algéroise au poulet et aux navets",
+    "en": "Algiers rechta with chicken and turnips"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 70 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["alger", "mouloud", "nouilles", "sauce-blanche"],
+  "ingredients": [
+    { "raw": "500 g de rechta fraîche", "qty": 500, "unit": "g", "item": "rechta" },
+    { "raw": "1 poulet entier, découpé", "qty": 1, "unit": "piece", "item": "poulet entier", "prep": "découpé" },
+    { "raw": "4 navets, en quartiers", "qty": 4, "unit": "piece", "item": "navet", "prep": "en quartiers" },
+    { "raw": "1 courgette, en tronçons", "qty": 1, "unit": "piece", "item": "courgette", "prep": "en tronçons" },
+    { "raw": "200 g de pois chiches secs, trempés la veille", "qty": 200, "unit": "g", "item": "pois chiche sec", "prep": "trempé la veille" },
+    { "raw": "2 oignons, râpés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "râpé" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "1/2 c. à c. de poivre blanc", "qty": 0.5, "unit": "tsp", "item": "poivre blanc" },
+    { "raw": "5 c. à s. d'huile neutre", "qty": 5, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "1 bouquet de coriandre fraîche", "qty": 1, "unit": "bunch", "item": "coriandre fraîche" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire blondir l'oignon dans l'huile sans le colorer : la sauce de la rechta est blanche, et un oignon roussi la salit.", "en": "Soften the onion in the oil without colouring it: rechta sauce is white, and a browned onion dirties it." },
+    { "fr": "Ajouter le poulet, le poivre blanc, la cannelle et le sel, mouiller, et cuire quarante minutes avec les pois chiches.", "en": "Add the chicken, white pepper, cinnamon and salt, cover with water, and cook for forty minutes with the chickpeas." },
+    { "fr": "Ajouter les navets puis la courgette, en décalé, pour qu'aucun légume ne se défasse.", "en": "Add the turnips, then the courgette later, so no vegetable collapses." },
+    { "fr": "Cuire la rechta à la vapeur en trois passages, en l'huilant légèrement entre chacun.", "en": "Steam the rechta in three passes, lightly oiling it between each." },
+    { "fr": "Au dernier passage, l'arroser d'une louche de bouillon et laisser gonfler.", "en": "On the last pass, moisten with a ladle of broth and let it swell." },
+    { "fr": "Dresser les nouilles, poser le poulet et les légumes, arroser de bouillon et parsemer de coriandre.", "en": "Plate the noodles, set the chicken and vegetables on top, ladle over broth and scatter with coriander." }
+  ]
+}

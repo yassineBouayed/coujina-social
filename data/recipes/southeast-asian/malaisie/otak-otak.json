@@ -1,0 +1,41 @@
+{
+  "slug": "otak-otak",
+  "cuisine": "southeast-asian",
+  "country": "malaisie",
+  "origin": "Malaisie",
+  "native_name": "Otak-otak",
+  "title": {
+    "fr": "Otak-otak, pâté de poisson grillé en feuille",
+    "en": "Otak-otak, spiced fish paste grilled in leaves"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["grillade", "poisson", "coco", "rue"],
+  "ingredients": [
+    { "raw": "700 g de filets de cabillaud", "qty": 700, "unit": "g", "item": "cabillaud" },
+    { "raw": "25 cl de lait de coco", "qty": 25, "unit": "cl", "item": "lait de coco" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf" },
+    { "raw": "3 c. à s. de maïzena", "qty": 3, "unit": "tbsp", "item": "maïzena" },
+    { "raw": "10 piments séchés, trempés", "qty": 10, "unit": "piece", "item": "piment séché", "prep": "trempé", "group": "pâte" },
+    { "raw": "8 échalotes", "qty": 8, "unit": "piece", "item": "échalote", "group": "pâte" },
+    { "raw": "4 gousses d'ail", "qty": 4, "unit": "piece", "item": "ail", "group": "pâte" },
+    { "raw": "2 tiges de citronnelle", "qty": 2, "unit": "piece", "item": "citronnelle", "group": "pâte" },
+    { "raw": "1 morceau de curcuma frais", "qty": 1, "unit": "piece", "item": "curcuma frais", "group": "pâte" },
+    { "raw": "6 noix de bancoul", "qty": 6, "unit": "piece", "item": "noix de bancoul", "group": "pâte" },
+    { "raw": "1 c. à c. de pâte de crevette", "qty": 1, "unit": "tsp", "item": "pâte de crevette", "group": "pâte" },
+    { "raw": "8 feuilles de combava, en julienne", "qty": 8, "unit": "piece", "item": "feuille de combava", "prep": "en julienne" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Mixer le poisson avec le lait de coco, les œufs et la maïzena jusqu'à obtenir une pâte lisse.", "en": "Blend the fish with the coconut milk, eggs and cornflour into a smooth paste." },
+    { "fr": "Incorporer la pâte d'aromates CRUE : contrairement aux autres plats, elle ne se frit pas ici.", "en": "Fold in the RAW aromatic paste: unlike other dishes, it is not fried here." },
+    { "fr": "Elle cuira dans la feuille, à la vapeur de sa propre humidité : c'est ce qui garde le goût vif.", "en": "It cooks inside the leaf, in the steam of its own moisture: this is what keeps the flavour bright." },
+    { "fr": "Ajouter la julienne de combava et laisser reposer une heure au frais.", "en": "Add the shredded lime leaf and rest it for an hour in the fridge." },
+    { "fr": "Étaler l'appareil en boudin sur une feuille de bananier ou du papier cuisson, et refermer.", "en": "Spread the mixture in a log on banana leaf or baking paper, and close it up." },
+    { "fr": "Griller sur braises moyennes, six minutes par face : la feuille doit noircir sans brûler.", "en": "Grill over medium coals, six minutes a side: the leaf should char without burning through." }
+  ]
+}

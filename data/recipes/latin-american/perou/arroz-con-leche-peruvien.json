@@ -1,0 +1,39 @@
+{
+  "slug": "arroz-con-leche-peruvien",
+  "cuisine": "latin-american",
+  "country": "perou",
+  "origin": "Pérou",
+  "native_name": "Arroz con leche",
+  "title": {
+    "fr": "Riz au lait péruvien à la cannelle",
+    "en": "Peruvian rice pudding with cinnamon"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 15, "cook_min": 50 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["famille", "riz", "cannelle", "enfants"],
+  "ingredients": [
+    { "raw": "300 g de riz rond", "qty": 300, "unit": "g", "item": "riz rond" },
+    { "raw": "50 cl d'eau", "qty": 50, "unit": "cl", "item": "eau" },
+    { "raw": "1 l de lait entier", "qty": 1, "unit": "l", "item": "lait entier" },
+    { "raw": "400 g de lait concentré sucré", "qty": 400, "unit": "g", "item": "lait concentré sucré" },
+    { "raw": "25 cl de lait évaporé", "qty": 25, "unit": "cl", "item": "lait évaporé" },
+    { "raw": "120 g de raisins secs", "qty": 120, "unit": "g", "item": "raisin sec" },
+    { "raw": "3 bâtons de cannelle", "qty": 3, "unit": "piece", "item": "cannelle", "prep": "en bâton" },
+    { "raw": "6 clous de girofle", "qty": 6, "unit": "piece", "item": "clou de girofle" },
+    { "raw": "1 orange, son zeste", "qty": 1, "unit": "piece", "item": "orange" },
+    { "raw": "2 c. à s. de cannelle moulue", "qty": 2, "unit": "tbsp", "item": "cannelle", "group": "finition" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire le riz D'ABORD à l'eau, avec cannelle, girofle et zeste, jusqu'à absorption complète.", "en": "Cook the rice FIRST in water, with cinnamon, clove and zest, until fully absorbed." },
+    { "fr": "Le lait seul ne cuit pas le riz : le grain resterait ferme au cœur, quel que soit le temps.", "en": "Milk alone will not cook rice: the grain stays firm inside, however long you wait." },
+    { "fr": "Ajouter le lait CHAUD progressivement, en trois fois, en remuant souvent.", "en": "Add the HOT milk gradually, in three additions, stirring often." },
+    { "fr": "Le riz au lait attache au fond en quelques minutes d'inattention : ne pas s'éloigner.", "en": "Rice pudding catches within a few inattentive minutes: do not walk away." },
+    { "fr": "Ajouter les laits concentré et évaporé EN DERNIER, quand le riz est déjà tendre.", "en": "Add the condensed and evaporated milks LAST, once the rice is already tender." },
+    { "fr": "Il épaissit énormément en refroidissant : arrêter quand il paraît encore trop liquide.", "en": "It thickens a great deal as it cools: stop while it still looks too runny." }
+  ]
+}

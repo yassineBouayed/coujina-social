@@ -1,0 +1,39 @@
+{
+  "slug": "yalanji",
+  "cuisine": "levantine",
+  "country": "syrie",
+  "origin": "Syrie",
+  "native_name": "Yalanji",
+  "title": {
+    "fr": "Yalanji, feuilles de vigne farcies à froid",
+    "en": "Yalanji, vine leaves stuffed and served cold"
+  },
+  "meal_type": "starter",
+  "servings": 8,
+  "times": { "prep_min": 80, "cook_min": 50 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["mezze", "froid", "vegetarien", "careme"],
+  "ingredients": [
+    { "raw": "50 feuilles de vigne en saumure", "qty": 50, "unit": "piece", "item": "feuille de vigne" },
+    { "raw": "300 g de riz rond", "qty": 300, "unit": "g", "item": "riz rond" },
+    { "raw": "3 oignons, hachés très finement", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché très finement" },
+    { "raw": "3 tomates, en tout petits dés", "qty": 3, "unit": "piece", "item": "tomate", "prep": "en tout petits dés" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "2 c. à s. de mélasse de grenade", "qty": 2, "unit": "tbsp", "item": "mélasse de grenade" },
+    { "raw": "2 c. à s. de concentré de tomate", "qty": 2, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "3 citrons, leur jus", "qty": 3, "unit": "piece", "item": "citron" },
+    { "raw": "15 cl d'huile d'olive", "qty": 15, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "1 c. à c. de sumac", "qty": 1, "unit": "tsp", "item": "sumac" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le yalanji est la version maigre du warak enab : aucune viande, et il se mange FROID.", "en": "Yalanji is the meatless version of warak enab: no meat at all, and it is eaten COLD." },
+    { "fr": "Mélanger le riz cru, les oignons, les tomates, le persil, la mélasse, le concentré, le sumac, l'huile et le sel.", "en": "Mix the raw rice, onions, tomatoes, parsley, molasses, purée, sumac, oil and salt." },
+    { "fr": "Rouler serré, en laissant un peu de jeu pour que le riz gonfle.", "en": "Roll tightly, leaving a little slack for the rice to swell." },
+    { "fr": "Ranger en couches serrées, couvrir d'eau citronnée et poser une assiette dessus.", "en": "Pack in tight layers, cover with lemony water and set a plate on top." },
+    { "fr": "Cuire cinquante minutes à feu doux, puis laisser refroidir COMPLÈTEMENT dans la casserole.", "en": "Cook for fifty minutes over low heat, then cool COMPLETELY in the pan." },
+    { "fr": "Servir le lendemain, froid : chaud, le yalanji n'a pas encore pris son acidité.", "en": "Serve the next day, cold: warm, yalanji has not yet come into its acidity." }
+  ]
+}

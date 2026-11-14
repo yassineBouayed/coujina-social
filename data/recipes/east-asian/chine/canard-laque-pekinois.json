@@ -1,0 +1,42 @@
+{
+  "slug": "canard-laque-pekinois",
+  "cuisine": "east-asian",
+  "country": "chine",
+  "origin": "Chine",
+  "native_name": "北京烤鸭",
+  "title": {
+    "fr": "Canard laqué à la pékinoise",
+    "en": "Peking-style lacquered duck"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 60, "cook_min": 90 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["pekin", "fete", "laque", "crepe"],
+  "ingredients": [
+    { "raw": "1 canard entier de 2 kg", "qty": 1, "unit": "piece", "item": "canard" },
+    { "raw": "4 c. à s. de miel", "qty": 4, "unit": "tbsp", "item": "miel", "group": "laque" },
+    { "raw": "4 c. à s. de vinaigre de riz", "qty": 4, "unit": "tbsp", "item": "vinaigre de riz", "group": "laque" },
+    { "raw": "2 c. à s. de vin de riz", "qty": 2, "unit": "tbsp", "item": "vin de riz", "group": "laque" },
+    { "raw": "1 c. à s. de cinq-épices", "qty": 1, "unit": "tbsp", "item": "cinq-épices" },
+    { "raw": "1 morceau de gingembre frais", "qty": 1, "unit": "piece", "item": "gingembre" },
+    { "raw": "12 crêpes fines", "qty": 12, "unit": "piece", "item": "tortilla de blé", "group": "service" },
+    { "raw": "1 concombre, en bâtonnets", "qty": 1, "unit": "piece", "item": "concombre", "prep": "en bâtonnets", "group": "service" },
+    { "raw": "8 oignons nouveaux, en bâtonnets", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "en bâtonnets", "group": "service" },
+    { "raw": "6 c. à s. de sauce hoisin", "qty": 6, "unit": "tbsp", "item": "sauce hoisin", "group": "service" },
+    { "raw": "2 c. à s. de gros sel", "qty": 2, "unit": "tbsp", "item": "gros sel" }
+  ],
+  "steps": [
+    { "fr": "Ébouillanter le canard entier, à la louche, jusqu'à ce que la peau se rétracte et blanchisse.", "en": "Scald the whole duck with ladlefuls of boiling water, until the skin tightens and pales." },
+    { "fr": "Le badigeonner de la laque miel-vinaigre et le SUSPENDRE au réfrigérateur VINGT-QUATRE HEURES.", "en": "Brush it with the honey-vinegar glaze and HANG it in the fridge for TWENTY-FOUR HOURS." },
+    { "fr": "Le séchage est toute la recette : c'est lui, et non la cuisson, qui rend la peau craquante.", "en": "The drying is the whole recipe: it, not the roasting, is what makes the skin crackle." },
+    { "fr": "Cuire une heure et demie à 180 °C sur une grille, en retournant à mi-cuisson.", "en": "Roast for an hour and a half at 180°C on a rack, turning halfway." },
+    { "fr": "Monter à 230 °C les dix dernières minutes pour finir de colorer la peau.", "en": "Raise to 230°C for the last ten minutes to finish colouring the skin." },
+    { "fr": "Découper la peau et la chair séparément, et servir avec crêpes, concombre, ciboule et hoisin.", "en": "Carve the skin and the meat separately, and serve with pancakes, cucumber, spring onion and hoisin." }
+  ],
+  "notes": [
+    { "fr": "Sans four à canard, la peau ne sera jamais aussi laquée qu'à Pékin. Le séchage long est ce qui s'en approche le plus.", "en": "Without a duck oven, the skin will never be as lacquered as in Beijing. The long drying gets closest." }
+  ]
+}

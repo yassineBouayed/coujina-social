@@ -1,0 +1,41 @@
+{
+  "slug": "moqueca-baiana",
+  "cuisine": "latin-american",
+  "country": "bresil",
+  "origin": "Brésil",
+  "native_name": "Moqueca baiana",
+  "title": {
+    "fr": "Moqueca de poisson au lait de coco",
+    "en": "Bahian fish moqueca in coconut milk"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 35 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["bahia", "coco", "poisson", "embleme"],
+  "ingredients": [
+    { "raw": "1,2 kg de filet de cabillaud, en gros morceaux", "qty": 1200, "unit": "g", "item": "cabillaud", "prep": "en gros morceaux" },
+    { "raw": "400 g de crevettes crues, décortiquées", "qty": 400, "unit": "g", "item": "crevette", "prep": "décortiquée" },
+    { "raw": "80 cl de lait de coco", "qty": 80, "unit": "cl", "item": "lait de coco" },
+    { "raw": "10 cl d'huile de palme rouge", "qty": 10, "unit": "cl", "item": "huile de palme" },
+    { "raw": "3 poivrons, en lanières", "qty": 3, "unit": "piece", "item": "poivron rouge", "prep": "en lanières" },
+    { "raw": "3 oignons, en rondelles", "qty": 3, "unit": "piece", "item": "oignon", "prep": "en rondelles" },
+    { "raw": "4 tomates, en rondelles", "qty": 4, "unit": "piece", "item": "tomate", "prep": "en rondelles" },
+    { "raw": "8 gousses d'ail, écrasées", "qty": 8, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 gros bouquet de coriandre, ciselée", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "3 citrons verts, leur jus", "qty": 3, "unit": "piece", "item": "citron vert" },
+    { "raw": "2 piments frais", "qty": 2, "unit": "piece", "item": "piment frais" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "L'HUILE DE PALME ROUGE, ou dendê, est ce qui distingue la moqueca bahianaise de celle du Espírito Santo.", "en": "RED PALM OIL, or dendê, is what sets the Bahian moqueca apart from the Espírito Santo one." },
+    { "fr": "Faire mariner le poisson au citron vert, à l'ail et au sel QUARANTE MINUTES, pas davantage.", "en": "Marinate the fish in lime, garlic and salt for FORTY MINUTES, no longer." },
+    { "fr": "La moqueca se monte EN COUCHES et ne se remue JAMAIS : le poisson se briserait.", "en": "Moqueca is built IN LAYERS and NEVER stirred: the fish would break up." },
+    { "fr": "Alterner oignons, poivrons, tomates et poisson, en finissant par les légumes.", "en": "Alternate onions, peppers, tomatoes and fish, finishing with the vegetables." },
+    { "fr": "Verser le lait de coco et l'huile de dendê, couvrir, et cuire vingt minutes à feu moyen.", "en": "Pour in the coconut milk and dendê oil, cover, and cook for twenty minutes over medium heat." },
+    { "fr": "Ajouter les crevettes les CINQ dernières minutes, et la coriandre hors du feu.", "en": "Add the prawns in the LAST FIVE minutes, and the coriander off the heat." }
+  ]
+}

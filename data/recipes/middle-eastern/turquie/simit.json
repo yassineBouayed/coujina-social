@@ -1,0 +1,37 @@
+{
+  "slug": "simit",
+  "cuisine": "middle-eastern",
+  "country": "turquie",
+  "origin": "Turquie",
+  "native_name": "Simit",
+  "title": {
+    "fr": "Simit, couronnes au sésame de la rue",
+    "en": "Simit, sesame street rings"
+  },
+  "meal_type": "bread",
+  "servings": 8,
+  "times": { "prep_min": 50, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "sesame", "petit-dejeuner", "istanbul"],
+  "ingredients": [
+    { "raw": "600 g de farine de blé", "qty": 600, "unit": "g", "item": "farine de blé" },
+    { "raw": "1 c. à s. de levure boulangère sèche", "qty": 1, "unit": "tbsp", "item": "levure boulangère" },
+    { "raw": "1,5 c. à c. de sel", "qty": 1.5, "unit": "tsp", "item": "sel" },
+    { "raw": "1 c. à s. de sucre", "qty": 1, "unit": "tbsp", "item": "sucre" },
+    { "raw": "33 cl d'eau tiède", "qty": 33, "unit": "cl", "item": "eau" },
+    { "raw": "3 c. à s. d'huile d'olive", "qty": 3, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "250 g de graines de sésame", "qty": 250, "unit": "g", "item": "sésame", "group": "enrobage" },
+    { "raw": "6 c. à s. de mélasse", "qty": 6, "unit": "tbsp", "item": "mélasse", "group": "enrobage" },
+    { "raw": "20 cl d'eau", "qty": 20, "unit": "cl", "item": "eau", "group": "enrobage" }
+  ],
+  "steps": [
+    { "fr": "Pétrir la pâte dix minutes et la laisser lever une heure.", "en": "Knead the dough for ten minutes and prove it for an hour." },
+    { "fr": "Diviser en portions et rouler chacune en un long boudin fin.", "en": "Divide into portions and roll each into a long thin rope." },
+    { "fr": "Plier le boudin en deux et le TORSADER sur lui-même, puis joindre les extrémités en anneau.", "en": "Fold the rope in half and TWIST it on itself, then join the ends into a ring." },
+    { "fr": "Tremper chaque anneau dans la mélasse diluée, puis le rouler généreusement dans le sésame.", "en": "Dip each ring in the diluted molasses, then roll it generously in sesame." },
+    { "fr": "La mélasse n'est pas un détail : c'est elle qui colle le sésame et donne la couleur acajou.", "en": "The molasses is not a detail: it glues the sesame on and gives the mahogany colour." },
+    { "fr": "Cuire 20 minutes à 220 °C, jusqu'à ce que le sésame soit doré et le simit croustillant.", "en": "Bake for 20 minutes at 220°C, until the sesame is golden and the simit crisp." }
+  ]
+}

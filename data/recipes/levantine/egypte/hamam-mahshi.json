@@ -1,0 +1,40 @@
+{
+  "slug": "hamam-mahshi",
+  "cuisine": "levantine",
+  "country": "egypte",
+  "origin": "Égypte",
+  "native_name": "Hamam mahshi",
+  "title": {
+    "fr": "Pigeon farci au frik",
+    "en": "Pigeon stuffed with freekeh"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 45, "cook_min": 90 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "pigeon", "frik", "mariage"],
+  "ingredients": [
+    { "raw": "4 pigeons, vidés", "qty": 4, "unit": "piece", "item": "pigeon", "prep": "vidé" },
+    { "raw": "300 g de frik", "qty": 300, "unit": "g", "item": "frik", "group": "farce" },
+    { "raw": "2 oignons, hachés finement", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché finement", "group": "farce" },
+    { "raw": "1 c. à c. de quatre-épices", "qty": 1, "unit": "tsp", "item": "quatre-épices", "group": "farce" },
+    { "raw": "1/2 c. à c. de cannelle moulue", "qty": 0.5, "unit": "tsp", "item": "cannelle", "group": "farce" },
+    { "raw": "60 g de ghee", "qty": 60, "unit": "g", "item": "ghee" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle", "group": "bouillon" },
+    { "raw": "4 gousses de cardamome", "qty": 4, "unit": "piece", "item": "cardamome", "group": "bouillon" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier", "group": "bouillon" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Rincer le frik plusieurs fois et le laisser tremper vingt minutes, puis l'égoutter.", "en": "Rinse the freekeh several times and soak it for twenty minutes, then drain." },
+    { "fr": "Faire revenir l'oignon dans le ghee, ajouter le frik et les épices, et l'enrober cinq minutes.", "en": "Fry the onion in ghee, add the freekeh and spices, and coat it for five minutes." },
+    { "fr": "Farcir les pigeons aux DEUX TIERS seulement : le frik gonfle et ferait éclater la peau.", "en": "Stuff the pigeons only TWO-THIRDS full: freekeh swells and would split the skin." },
+    { "fr": "Coudre ou fermer avec un cure-dent, et pocher trente minutes dans un bouillon aromatisé.", "en": "Sew or pin them shut, and poach for thirty minutes in a spiced broth." },
+    { "fr": "Les sortir, les sécher, et les rôtir au four à 220 °C vingt minutes pour dorer la peau.", "en": "Lift them out, dry them, and roast at 220°C for twenty minutes to brown the skin." },
+    { "fr": "Arroser de jus de citron et servir avec un bol du bouillon de pochage.", "en": "Squeeze lemon over and serve with a bowl of the poaching broth." }
+  ]
+}

@@ -1,0 +1,272 @@
+# Vérité du catalogue, cuisine « caribbean ».
+#
+# Pour chaque ligne d'ingrédient, celui du référentiel qu'un relecteur
+# choisit, ou `-` quand le référentiel n'a rien à offrir.
+#
+# PASSE MODÈLE, pas humaine, et la circularité est ici maximale : les
+# recettes ont été écrites AVEC le référentiel sous les yeux, et les
+# ingrédients qui manquaient y ont été ajoutés dans la foulée. Le taux de
+# rattachement du champ `item` ne mesure donc presque rien sur ces cuisines.
+# Ce qui mesure quelque chose, c'est le témoin `raw`, que `catalog:gate`
+# donne en regard.
+#
+# Une ligne annotée ici n'a pas été relue par quelqu'un qui cuisine ces
+# plats. Le critère de sortie de J5 reste entier.
+recipe|line|item|expected_slug|note
+accras-morue|0|morue salée|morue-salee|
+accras-morue|1|farine de blé|farine-de-ble|
+accras-morue|2|eau|eau|
+accras-morue|3|levure chimique|levure-chimique|
+accras-morue|4|oeuf|oeuf|
+accras-morue|5|oignon nouveau|oignon-nouveau|
+accras-morue|6|ail|ail|
+accras-morue|7|persil plat|persil-plat|
+accras-morue|8|piment végétarien|piment-vegetarien|
+accras-morue|9|citron vert|citron-vert|
+accras-morue|10|huile neutre|huile-neutre|
+accras-morue|11|poivre noir|poivre-noir|
+blaff-poisson|0|dorade|dorade|
+blaff-poisson|1|citron vert|citron-vert|
+blaff-poisson|2|ail|ail|
+blaff-poisson|3|oignon|oignon|
+blaff-poisson|4|oignon nouveau|oignon-nouveau|
+blaff-poisson|5|piment végétarien|piment-vegetarien|
+blaff-poisson|6|bois d'Inde|bois-d-inde|
+blaff-poisson|7|thym|thym-seche|
+blaff-poisson|8|persil plat|persil-plat|
+blaff-poisson|9|eau|eau|
+blaff-poisson|10|clou de girofle|clou-de-girofle|
+blaff-poisson|11|gros sel|gros-sel|
+blaff-poisson|12|poivre noir|poivre-noir|
+bokit|0|farine de blé|farine-de-ble|
+bokit|1|eau|eau|
+bokit|2|levure chimique|levure-chimique|
+bokit|3|sel|sel|
+bokit|4|huile neutre|huile-neutre|
+bokit|5|morue salée|morue-salee|
+bokit|6|oignon|oignon|
+bokit|7|ail|ail|
+bokit|8|tomate|tomate|
+bokit|9|laitue|laitue|
+bokit|10|piment végétarien|piment-vegetarien|
+bokit|11|huile neutre|huile-neutre|
+bokit|12|sel|sel|
+bokit|13|poivre noir|poivre-noir|
+boudin-creole|0|sang de porc|sang-de-porc|
+boudin-creole|1|pain|pain|
+boudin-creole|2|lait entier|lait-entier|
+boudin-creole|3|oignon|oignon|
+boudin-creole|4|oignon nouveau|oignon-nouveau|
+boudin-creole|5|ail|ail|
+boudin-creole|6|piment végétarien|piment-vegetarien|
+boudin-creole|7|persil plat|persil-plat|
+boudin-creole|8|thym|thym-seche|
+boudin-creole|9|bois d'Inde|bois-d-inde|
+boudin-creole|10|clou de girofle|clou-de-girofle|
+boudin-creole|11|boyau naturel|boyau-naturel|
+boudin-creole|12|sel|sel|
+boudin-creole|13|poivre noir|poivre-noir|
+calalou|0|épinard|epinard|
+calalou|1|gombo|gombo|
+calalou|2|crabe|crabe|
+calalou|3|poitrine de porc|poitrine-de-porc|
+calalou|4|oignon|oignon|
+calalou|5|ail|ail|
+calalou|6|oignon nouveau|oignon-nouveau|
+calalou|7|piment végétarien|piment-vegetarien|
+calalou|8|bois d'Inde|bois-d-inde|
+calalou|9|thym|thym-seche|
+calalou|10|eau|eau|
+calalou|11|citron vert|citron-vert|
+calalou|12|huile neutre|huile-neutre|
+calalou|13|sel|sel|
+calalou|14|poivre noir|poivre-noir|
+colombo-poulet|0|poulet entier|poulet-entier|
+colombo-poulet|1|poudre à colombo|colombo|
+colombo-poulet|2|pomme de terre|pomme-de-terre|
+colombo-poulet|3|christophine|chayotte|
+colombo-poulet|4|aubergine|aubergine|
+colombo-poulet|5|oignon|oignon|
+colombo-poulet|6|ail|ail|
+colombo-poulet|7|gingembre frais|gingembre|
+colombo-poulet|8|citron vert|citron-vert|
+colombo-poulet|9|piment végétarien|piment-vegetarien|
+colombo-poulet|10|bois d'Inde|bois-d-inde|
+colombo-poulet|11|persil plat|persil-plat|
+colombo-poulet|12|oignon nouveau|oignon-nouveau|
+colombo-poulet|13|huile neutre|huile-neutre|
+colombo-poulet|14|eau|eau|
+colombo-poulet|15|sel|sel|
+colombo-poulet|16|poivre noir|poivre-noir|
+court-bouillon-poisson|0|dorade|dorade|
+court-bouillon-poisson|1|citron vert|citron-vert|
+court-bouillon-poisson|2|ail|ail|
+court-bouillon-poisson|3|tomate|tomate|
+court-bouillon-poisson|4|oignon|oignon|
+court-bouillon-poisson|5|oignon nouveau|oignon-nouveau|
+court-bouillon-poisson|6|concentré de tomate|concentre-de-tomate|
+court-bouillon-poisson|7|piment végétarien|piment-vegetarien|
+court-bouillon-poisson|8|bois d'Inde|bois-d-inde|
+court-bouillon-poisson|9|persil plat|persil-plat|
+court-bouillon-poisson|10|thym|thym-seche|
+court-bouillon-poisson|11|huile neutre|huile-neutre|
+court-bouillon-poisson|12|eau|eau|
+court-bouillon-poisson|13|sel|sel|
+court-bouillon-poisson|14|poivre noir|poivre-noir|
+crabes-farcis|0|crabe|crabe|
+crabes-farcis|1|crabe|crabe|
+crabes-farcis|2|pain|pain|
+crabes-farcis|3|lait entier|lait-entier|
+crabes-farcis|4|oignon|oignon|
+crabes-farcis|5|oignon nouveau|oignon-nouveau|
+crabes-farcis|6|ail|ail|
+crabes-farcis|7|piment végétarien|piment-vegetarien|
+crabes-farcis|8|citron vert|citron-vert|
+crabes-farcis|9|persil plat|persil-plat|
+crabes-farcis|10|thym|thym-seche|
+crabes-farcis|11|panko|panko|
+crabes-farcis|12|huile neutre|huile-neutre|
+crabes-farcis|13|sel|sel|
+crabes-farcis|14|poivre noir|poivre-noir|
+dombres-crevettes|0|crevette|crevette|
+dombres-crevettes|1|farine de blé|farine-de-ble|
+dombres-crevettes|2|eau|eau|
+dombres-crevettes|3|sel|sel|
+dombres-crevettes|4|tomate|tomate|
+dombres-crevettes|5|oignon|oignon|
+dombres-crevettes|6|ail|ail|
+dombres-crevettes|7|oignon nouveau|oignon-nouveau|
+dombres-crevettes|8|concentré de tomate|concentre-de-tomate|
+dombres-crevettes|9|piment végétarien|piment-vegetarien|
+dombres-crevettes|10|bois d'Inde|bois-d-inde|
+dombres-crevettes|11|citron vert|citron-vert|
+dombres-crevettes|12|eau|eau|
+dombres-crevettes|13|huile neutre|huile-neutre|
+dombres-crevettes|14|sel|sel|
+dombres-crevettes|15|poivre noir|poivre-noir|
+feroce-d-avocat|0|avocat|avocat|
+feroce-d-avocat|1|morue salée|morue-salee|
+feroce-d-avocat|2|farine de manioc|gari|
+feroce-d-avocat|3|citron vert|citron-vert|
+feroce-d-avocat|4|ail|ail|
+feroce-d-avocat|5|oignon nouveau|oignon-nouveau|
+feroce-d-avocat|6|piment végétarien|piment-vegetarien|
+feroce-d-avocat|7|persil plat|persil-plat|
+feroce-d-avocat|8|huile neutre|huile-neutre|
+feroce-d-avocat|9|sel|sel|
+feroce-d-avocat|10|poivre noir|poivre-noir|
+flan-coco|0|lait de coco|lait-de-coco|
+flan-coco|1|lait concentré sucré|lait-concentre-sucre|
+flan-coco|2|lait entier|lait-entier|
+flan-coco|3|oeuf|oeuf|
+flan-coco|4|noix de coco râpée|coco-rape|
+flan-coco|5|sucre|sucre|
+flan-coco|6|eau|eau|
+flan-coco|7|gousse de vanille|gousse-de-vanille|
+flan-coco|8|citron vert|citron-vert|
+flan-coco|9|sel|sel|
+gratin-christophine|0|christophine|chayotte|
+gratin-christophine|1|poitrine de porc|poitrine-de-porc|
+gratin-christophine|2|oignon|oignon|
+gratin-christophine|3|ail|ail|
+gratin-christophine|4|beurre|beurre|
+gratin-christophine|5|farine de blé|farine-de-ble|
+gratin-christophine|6|lait entier|lait-entier|
+gratin-christophine|7|emmental|emmental|
+gratin-christophine|8|panko|panko|
+gratin-christophine|9|piment végétarien|piment-vegetarien|
+gratin-christophine|10|muscade|muscade|
+gratin-christophine|11|persil plat|persil-plat|
+gratin-christophine|12|sel|sel|
+gratin-christophine|13|poivre noir|poivre-noir|
+jus-de-maracudja|0|fruit de la passion|fruit-de-la-passion|
+jus-de-maracudja|1|eau|eau|
+jus-de-maracudja|2|sucre|sucre|
+jus-de-maracudja|3|citron vert|citron-vert|
+jus-de-maracudja|4|gousse de vanille|gousse-de-vanille|
+jus-de-maracudja|5|sel|sel|
+migan-fruit-a-pain|0|fruit à pain|fruit-a-pain|
+migan-fruit-a-pain|1|poitrine de porc|poitrine-de-porc|
+migan-fruit-a-pain|2|poitrine de porc|poitrine-de-porc|
+migan-fruit-a-pain|3|oignon|oignon|
+migan-fruit-a-pain|4|ail|ail|
+migan-fruit-a-pain|5|oignon nouveau|oignon-nouveau|
+migan-fruit-a-pain|6|piment végétarien|piment-vegetarien|
+migan-fruit-a-pain|7|bois d'Inde|bois-d-inde|
+migan-fruit-a-pain|8|thym|thym-seche|
+migan-fruit-a-pain|9|eau|eau|
+migan-fruit-a-pain|10|huile neutre|huile-neutre|
+migan-fruit-a-pain|11|sel|sel|
+migan-fruit-a-pain|12|poivre noir|poivre-noir|
+poulet-boucane|0|poulet entier|poulet-entier|
+poulet-boucane|1|citron vert|citron-vert|
+poulet-boucane|2|ail|ail|
+poulet-boucane|3|oignon nouveau|oignon-nouveau|
+poulet-boucane|4|gingembre frais|gingembre|
+poulet-boucane|5|piment végétarien|piment-vegetarien|
+poulet-boucane|6|bois d'Inde|bois-d-inde|
+poulet-boucane|7|sirop de canne|sirop-de-canne|
+poulet-boucane|8|canne à sucre|canne-a-sucre|
+poulet-boucane|9|huile neutre|huile-neutre|
+poulet-boucane|10|sel|sel|
+poulet-boucane|11|poivre noir|poivre-noir|
+ragout-de-cochon|0|échine de porc|echine-de-porc|
+ragout-de-cochon|1|citron vert|citron-vert|
+ragout-de-cochon|2|ail|ail|
+ragout-de-cochon|3|oignon|oignon|
+ragout-de-cochon|4|oignon nouveau|oignon-nouveau|
+ragout-de-cochon|5|concentré de tomate|concentre-de-tomate|
+ragout-de-cochon|6|piment végétarien|piment-vegetarien|
+ragout-de-cochon|7|bois d'Inde|bois-d-inde|
+ragout-de-cochon|8|thym|thym-seche|
+ragout-de-cochon|9|sirop de canne|sirop-de-canne|
+ragout-de-cochon|10|eau|eau|
+ragout-de-cochon|11|huile neutre|huile-neutre|
+ragout-de-cochon|12|sel|sel|
+ragout-de-cochon|13|poivre noir|poivre-noir|
+riz-pois-rouges|0|haricot rouge|haricot-rouge|
+riz-pois-rouges|1|riz long grain|riz-long-grain|
+riz-pois-rouges|2|poitrine de porc|poitrine-de-porc|
+riz-pois-rouges|3|oignon|oignon|
+riz-pois-rouges|4|ail|ail|
+riz-pois-rouges|5|oignon nouveau|oignon-nouveau|
+riz-pois-rouges|6|bois d'Inde|bois-d-inde|
+riz-pois-rouges|7|piment végétarien|piment-vegetarien|
+riz-pois-rouges|8|thym|thym-seche|
+riz-pois-rouges|9|huile neutre|huile-neutre|
+riz-pois-rouges|10|sel|sel|
+riz-pois-rouges|11|poivre noir|poivre-noir|
+sauce-chien|0|oignon nouveau|oignon-nouveau|
+sauce-chien|1|oignon|oignon|
+sauce-chien|2|ail|ail|
+sauce-chien|3|persil plat|persil-plat|
+sauce-chien|4|piment végétarien|piment-vegetarien|
+sauce-chien|5|citron vert|citron-vert|
+sauce-chien|6|huile neutre|huile-neutre|
+sauce-chien|7|eau|eau|
+sauce-chien|8|thym|thym-seche|
+sauce-chien|9|sel|sel|
+sauce-chien|10|poivre noir|poivre-noir|
+sorbet-coco|0|lait de coco|lait-de-coco|
+sorbet-coco|1|noix de coco râpée|coco-rape|
+sorbet-coco|2|lait concentré sucré|lait-concentre-sucre|
+sorbet-coco|3|lait entier|lait-entier|
+sorbet-coco|4|cannelle|cannelle|
+sorbet-coco|5|citron vert|citron-vert|
+sorbet-coco|6|extrait de vanille|extrait-de-vanille|
+sorbet-coco|7|muscade|muscade|
+sorbet-coco|8|sel|sel|
+tourment-d-amour|0|farine de blé|farine-de-ble|
+tourment-d-amour|1|beurre|beurre|
+tourment-d-amour|2|eau|eau|
+tourment-d-amour|3|noix de coco râpée|coco-rape|
+tourment-d-amour|4|sucre|sucre|
+tourment-d-amour|5|eau|eau|
+tourment-d-amour|6|cannelle|cannelle|
+tourment-d-amour|7|citron vert|citron-vert|
+tourment-d-amour|8|oeuf|oeuf|
+tourment-d-amour|9|sucre|sucre|
+tourment-d-amour|10|farine de blé|farine-de-ble|
+tourment-d-amour|11|beurre|beurre|
+tourment-d-amour|12|extrait de vanille|extrait-de-vanille|
+tourment-d-amour|13|sel|sel|

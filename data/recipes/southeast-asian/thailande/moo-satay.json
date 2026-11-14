@@ -1,0 +1,40 @@
+{
+  "slug": "moo-satay",
+  "cuisine": "southeast-asian",
+  "country": "thailande",
+  "origin": "Thaïlande",
+  "native_name": "หมูสะเต๊ะ",
+  "title": {
+    "fr": "Satay de porc et sauce à l'arachide",
+    "en": "Pork satay with peanut sauce"
+  },
+  "meal_type": "starter",
+  "servings": 5,
+  "times": { "prep_min": 35, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "grillade", "arachide", "curcuma"],
+  "ingredients": [
+    { "raw": "800 g d'échine de porc, en lanières", "qty": 800, "unit": "g", "item": "échine de porc", "prep": "en lanières" },
+    { "raw": "25 cl de lait de coco", "qty": 25, "unit": "cl", "item": "lait de coco", "group": "marinade" },
+    { "raw": "2 c. à c. de curcuma", "qty": 2, "unit": "tsp", "item": "curcuma", "group": "marinade" },
+    { "raw": "1 c. à s. de coriandre en graines, moulue", "qty": 1, "unit": "tbsp", "item": "coriandre graines", "prep": "moulue", "group": "marinade" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin", "group": "marinade" },
+    { "raw": "3 c. à s. de sucre de palme", "qty": 3, "unit": "tbsp", "item": "sucre de palme", "group": "marinade" },
+    { "raw": "2 c. à s. de sauce poisson", "qty": 2, "unit": "tbsp", "item": "sauce poisson", "group": "marinade" },
+    { "raw": "25 cl de lait de coco", "qty": 25, "unit": "cl", "item": "lait de coco", "group": "sauce" },
+    { "raw": "3 c. à s. de pâte de curry rouge", "qty": 3, "unit": "tbsp", "item": "pâte de curry rouge", "group": "sauce" },
+    { "raw": "150 g de pâte d'arachide", "qty": 150, "unit": "g", "item": "pâte d'arachide", "group": "sauce" },
+    { "raw": "2 c. à s. de pâte de tamarin", "qty": 2, "unit": "tbsp", "item": "pâte de tamarin", "group": "sauce" },
+    { "raw": "1 concombre, en dés", "qty": 1, "unit": "piece", "item": "concombre", "prep": "en dés", "group": "service" }
+  ],
+  "steps": [
+    { "fr": "Le curcuma est ce qui donne au satay sa couleur jaune : sans lui, la brochette est pâle et fade.", "en": "Turmeric is what gives satay its yellow colour: without it, the skewer is pale and dull." },
+    { "fr": "Faire mariner le porc quatre heures dans le lait de coco et les épices.", "en": "Marinate the pork for four hours in the coconut milk and spices." },
+    { "fr": "Enfiler les lanières en accordéon sur des brochettes trempées trente minutes.", "en": "Thread the strips concertina-style onto skewers soaked for thirty minutes." },
+    { "fr": "Faire la sauce : frire la pâte de curry dans le lait de coco, puis ajouter arachide et tamarin.", "en": "Make the sauce: fry the curry paste in the coconut milk, then add peanut and tamarind." },
+    { "fr": "Griller sur braises vives, six minutes en tout, en badigeonnant de marinade au lait de coco.", "en": "Grill over hot coals, six minutes in all, basting with the coconut marinade." },
+    { "fr": "Servir avec la sauce tiède et un concombre au vinaigre : l'acidité coupe le gras de l'arachide.", "en": "Serve with the warm sauce and pickled cucumber: the acidity cuts the richness of the peanut." }
+  ]
+}

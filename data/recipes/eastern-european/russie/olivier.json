@@ -1,0 +1,40 @@
+{
+  "slug": "olivier",
+  "cuisine": "eastern-european",
+  "country": "russie",
+  "origin": "Russie",
+  "native_name": "Салат Оливье",
+  "title": {
+    "fr": "Salade Olivier, la russe",
+    "en": "Olivier salad, Russian salad"
+  },
+  "meal_type": "salad",
+  "servings": 8,
+  "times": { "prep_min": 40, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["nouvel-an", "froid", "mayonnaise", "fete"],
+  "ingredients": [
+    { "raw": "800 g de pommes de terre", "qty": 800, "unit": "g", "item": "pomme de terre" },
+    { "raw": "4 carottes", "qty": 4, "unit": "piece", "item": "carotte" },
+    { "raw": "6 œufs durs", "qty": 6, "unit": "piece", "item": "oeuf", "prep": "dur" },
+    { "raw": "300 g de jambon blanc, en dés", "qty": 300, "unit": "g", "item": "jambon blanc", "prep": "en dés" },
+    { "raw": "200 g de petits pois surgelés", "qty": 200, "unit": "g", "item": "petits pois surgelés" },
+    { "raw": "8 cornichons, en dés", "qty": 8, "unit": "piece", "item": "cornichon", "prep": "en dés" },
+    { "raw": "2 oignons, hachés très finement", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché très finement" },
+    { "raw": "35 cl de mayonnaise", "qty": 35, "unit": "cl", "item": "mayonnaise" },
+    { "raw": "2 c. à s. de moutarde", "qty": 2, "unit": "tbsp", "item": "moutarde" },
+    { "raw": "1/2 bouquet d'aneth, ciselé", "qty": 0.5, "unit": "bunch", "item": "aneth", "prep": "ciselé" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La salade Olivier est OBLIGATOIRE au réveillon du Nouvel An russe : chaque famille en fait un saladier.", "en": "Olivier salad is COMPULSORY at Russian New Year's Eve: every family makes a bowlful." },
+    { "fr": "Tout doit être coupé en dés de la MÊME taille, un centimètre : c'est la règle du plat.", "en": "Everything is diced to the SAME size, one centimetre: the rule of the dish." },
+    { "fr": "Cuire pommes de terre et carottes EN ROBE, et les laisser refroidir COMPLÈTEMENT.", "en": "Boil the potatoes and carrots IN THEIR SKINS, and cool them COMPLETELY." },
+    { "fr": "Tièdes, elles absorbent la mayonnaise et la salade devient une purée grasse.", "en": "Warm, they soak up the mayonnaise and the salad becomes a greasy mash." },
+    { "fr": "Presser les cornichons en dés dans un torchon : leur saumure délayerait la mayonnaise.", "en": "Squeeze the diced pickles in a cloth: their brine would thin the mayonnaise." },
+    { "fr": "Mélanger et réfrigérer QUATRE HEURES avant de servir.", "en": "Mix and chill for FOUR HOURS before serving." }
+  ]
+}

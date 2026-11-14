@@ -1,0 +1,38 @@
+{
+  "slug": "kaiserschmarrn",
+  "cuisine": "western-european",
+  "country": "autriche",
+  "origin": "Autriche",
+  "native_name": "Kaiserschmarrn",
+  "title": {
+    "fr": "Kaiserschmarrn, crêpe déchirée de l'empereur",
+    "en": "Kaiserschmarrn, the Emperor's torn pancake"
+  },
+  "meal_type": "dessert",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["montagne", "crepe", "raisin", "embleme"],
+  "ingredients": [
+    { "raw": "250 g de farine de blé", "qty": 250, "unit": "g", "item": "farine de blé" },
+    { "raw": "40 cl de lait entier", "qty": 40, "unit": "cl", "item": "lait entier" },
+    { "raw": "6 œufs, blancs et jaunes séparés", "qty": 6, "unit": "piece", "item": "oeuf", "prep": "séparés" },
+    { "raw": "80 g de sucre", "qty": 80, "unit": "g", "item": "sucre" },
+    { "raw": "120 g de raisins secs", "qty": 120, "unit": "g", "item": "raisin sec" },
+    { "raw": "120 g de beurre", "qty": 120, "unit": "g", "item": "beurre" },
+    { "raw": "1 gousse de vanille, fendue", "qty": 1, "unit": "piece", "item": "gousse de vanille", "prep": "fendue" },
+    { "raw": "80 g de sucre glace", "qty": 80, "unit": "g", "item": "sucre glace", "group": "finition" },
+    { "raw": "400 g de compote de prune", "qty": 400, "unit": "g", "item": "compote de pomme", "prep": "ou compote de prune", "group": "service" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Schmarrn veut dire « bêtise » ou « n'importe quoi » : le plat est né d'une crêpe RATÉE, déchirée.", "en": "Schmarrn means \"nonsense\": the dish was born from a FAILED pancake, torn up." },
+    { "fr": "Monter les blancs en neige et les incorporer À LA MARYSE : ce sont eux qui donnent le moelleux.", "en": "Whip the whites and fold them in WITH A SPATULA: they give the fluffiness." },
+    { "fr": "Faire tremper les raisins une heure dans l'eau tiède et les SÉCHER avant de les ajouter.", "en": "Soak the raisins for an hour in warm water and DRY them before adding." },
+    { "fr": "Verser la pâte épaisse dans le beurre mousseux et cuire quatre minutes sans y toucher.", "en": "Pour the thick batter into foaming butter and cook for four minutes untouched." },
+    { "fr": "DÉCHIRER la crêpe en gros morceaux À LA SPATULE, dans la poêle, et continuer à cuire.", "en": "TEAR the pancake into large pieces WITH A SPATULA, in the pan, and keep cooking." },
+    { "fr": "Caraméliser les morceaux au sucre, poudrer de sucre glace, et servir avec la compote.", "en": "Caramelise the pieces with sugar, dust with icing sugar, and serve with the compote." }
+  ]
+}

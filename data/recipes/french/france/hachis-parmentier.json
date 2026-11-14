@@ -1,0 +1,40 @@
+{
+  "slug": "hachis-parmentier",
+  "cuisine": "french",
+  "country": "france",
+  "origin": "France",
+  "native_name": "Hachis parmentier",
+  "title": {
+    "fr": "Hachis parmentier",
+    "en": "Hachis parmentier"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 35, "cook_min": 50 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["famille", "restes", "enfants", "gratin"],
+  "ingredients": [
+    { "raw": "1,2 kg de pommes de terre", "qty": 1200, "unit": "g", "item": "pomme de terre" },
+    { "raw": "700 g de bœuf haché", "qty": 700, "unit": "g", "item": "boeuf haché" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "3 gousses d'ail, écrasées", "qty": 3, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "2 c. à s. de concentré de tomate", "qty": 2, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "20 cl de lait entier", "qty": 20, "unit": "cl", "item": "lait entier" },
+    { "raw": "100 g de beurre", "qty": 100, "unit": "g", "item": "beurre" },
+    { "raw": "120 g de gruyère, râpé", "qty": 120, "unit": "g", "item": "gruyère", "prep": "râpé" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Cuire les pommes de terre EN ROBE, à l'eau salée : pelées, elles boivent l'eau et la purée est liquide.", "en": "Boil the potatoes IN THEIR SKINS, in salted water: peeled, they drink water and the mash turns runny." },
+    { "fr": "Les peler chaudes et les passer au presse-purée, JAMAIS au mixeur : mixées, elles deviennent élastiques.", "en": "Peel them hot and pass them through a ricer, NEVER a blender: blended, they turn gluey." },
+    { "fr": "Incorporer le beurre en premier, puis le lait CHAUD : le lait froid fait grumeler la purée.", "en": "Work in the butter first, then HOT milk: cold milk makes the mash lumpy." },
+    { "fr": "Faire revenir oignons et ail, ajouter la viande et la cuire jusqu'à ce qu'elle soit sèche.", "en": "Fry the onions and garlic, add the meat and cook it until dry." },
+    { "fr": "Monter en deux couches, rayer la purée à la fourchette, et couvrir de gruyère.", "en": "Build two layers, score the mash with a fork, and cover with gruyère." },
+    { "fr": "Les rayures ne sont pas décoratives : elles multiplient les arêtes qui gratinent.", "en": "The scoring is not decorative: it multiplies the ridges that brown." }
+  ]
+}

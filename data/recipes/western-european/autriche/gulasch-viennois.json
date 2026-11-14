@@ -1,0 +1,42 @@
+{
+  "slug": "gulasch-viennois",
+  "cuisine": "western-european",
+  "country": "autriche",
+  "origin": "Autriche",
+  "native_name": "Wiener Saftgulasch",
+  "title": {
+    "fr": "Goulasch viennois au paprika",
+    "en": "Viennese paprika goulash"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 180 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["vienne", "paprika", "boeuf", "mijote"],
+  "ingredients": [
+    { "raw": "1,2 kg de bœuf à mijoter, en gros cubes", "qty": 1200, "unit": "g", "item": "boeuf à mijoter", "prep": "en gros cubes" },
+    { "raw": "1,2 kg d'oignons, émincés", "qty": 1200, "unit": "g", "item": "oignon", "prep": "émincé" },
+    { "raw": "4 c. à s. de paprika doux", "qty": 4, "unit": "tbsp", "item": "paprika" },
+    { "raw": "1 c. à s. de paprika fumé", "qty": 1, "unit": "tbsp", "item": "paprika fumé" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "3 c. à s. de vinaigre de vin", "qty": 3, "unit": "tbsp", "item": "vinaigre de vin" },
+    { "raw": "2 c. à c. de carvi", "qty": 2, "unit": "tsp", "item": "carvi" },
+    { "raw": "1 c. à c. de marjolaine séchée", "qty": 1, "unit": "tsp", "item": "marjolaine" },
+    { "raw": "4 gousses d'ail, écrasées", "qty": 4, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 citron, son zeste", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "100 g de saindoux", "qty": 100, "unit": "g", "item": "saindoux" },
+    { "raw": "50 cl de bouillon de bœuf", "qty": 50, "unit": "cl", "item": "bouillon boeuf" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "AUTANT d'oignons que de viande, au poids : ce n'est pas une erreur, c'est la règle viennoise.", "en": "AS MANY onions as meat, by weight: that is not a mistake, it is the Viennese rule." },
+    { "fr": "Les oignons FONDENT entièrement et deviennent la sauce : il n'y a ni farine ni liant.", "en": "The onions MELT entirely and become the sauce: there is no flour, no thickener." },
+    { "fr": "Les cuire au saindoux QUARANTE MINUTES, jusqu'à ce qu'ils soient bruns et confits.", "en": "Cook them in lard for FORTY MINUTES, until brown and jammy." },
+    { "fr": "Retirer la casserole DU FEU avant d'ajouter le paprika : dans le gras brûlant, il devient amer.", "en": "Take the pan OFF THE HEAT before adding the paprika: in scalding fat, it turns bitter." },
+    { "fr": "Déglacer aussitôt au vinaigre pour stopper la cuisson du paprika, puis ajouter la viande.", "en": "Deglaze at once with vinegar to stop the paprika cooking, then add the meat." },
+    { "fr": "Ajouter carvi, marjolaine et zeste de citron, et mijoter trois heures à couvert.", "en": "Add the caraway, marjoram and lemon zest, and simmer for three hours, covered." }
+  ]
+}

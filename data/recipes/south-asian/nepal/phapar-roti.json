@@ -1,0 +1,34 @@
+{
+  "slug": "phapar-roti",
+  "cuisine": "south-asian",
+  "country": "nepal",
+  "origin": "Népal",
+  "native_name": "Phapar ko roti",
+  "title": {
+    "fr": "Galette de sarrasin des hautes vallées",
+    "en": "Buckwheat flatbread from the high valleys"
+  },
+  "meal_type": "bread",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["montagne", "sarrasin", "sans-gluten", "quotidien"],
+  "ingredients": [
+    { "raw": "400 g de farine de sarrasin", "qty": 400, "unit": "g", "item": "farine de sarrasin" },
+    { "raw": "100 g de farine de blé", "qty": 100, "unit": "g", "item": "farine de blé", "optional": true },
+    { "raw": "30 cl d'eau tiède", "qty": 30, "unit": "cl", "item": "eau" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "1 oignon, haché finement", "qty": 1, "unit": "piece", "item": "oignon", "prep": "haché finement", "optional": true },
+    { "raw": "3 c. à s. d'huile de moutarde", "qty": 3, "unit": "tbsp", "item": "huile de moutarde" }
+  ],
+  "steps": [
+    { "fr": "Le sarrasin n'a pas de gluten : la pâte ne s'étale pas au rouleau, elle se travaille à la paume.", "en": "Buckwheat has no gluten: the dough cannot be rolled, it is worked with the palm." },
+    { "fr": "Mélanger les farines, le sel, l'oignon et l'eau tiède en une pâte souple et collante.", "en": "Mix the flours, salt, onion and warm water into a soft, tacky dough." },
+    { "fr": "L'ajout d'un peu de farine de blé aide à la tenue ; sans elle, la galette se fend au retournement.", "en": "A little wheat flour helps it hold together; without it, the bread cracks when turned." },
+    { "fr": "Aplatir une boule entre deux feuilles de papier cuisson, à un demi-centimètre.", "en": "Flatten a ball between two sheets of baking paper, to half a centimetre." },
+    { "fr": "Faire glisser sur une poêle chaude huilée et cuire quatre minutes par face.", "en": "Slide it onto a hot oiled pan and cook four minutes a side." },
+    { "fr": "Servir avec un achar et du fromage frais de montagne.", "en": "Serve with an achar and fresh mountain cheese." }
+  ]
+}

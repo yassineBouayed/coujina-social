@@ -1,0 +1,37 @@
+{
+  "slug": "backhendl",
+  "cuisine": "western-european",
+  "country": "autriche",
+  "origin": "Autriche",
+  "native_name": "Backhendl",
+  "title": {
+    "fr": "Poulet frit pané à la viennoise",
+    "en": "Viennese fried breaded chicken"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["vienne", "poulet", "friture", "classique"],
+  "ingredients": [
+    { "raw": "1 poulet entier, découpé en huit", "qty": 1, "unit": "piece", "item": "poulet entier", "prep": "découpé en huit" },
+    { "raw": "150 g de farine de blé", "qty": 150, "unit": "g", "item": "farine de blé" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf" },
+    { "raw": "250 g de chapelure", "qty": 250, "unit": "g", "item": "panko" },
+    { "raw": "1,5 l d'huile neutre pour la friture", "qty": 1.5, "unit": "l", "item": "huile neutre" },
+    { "raw": "2 citrons, en quartiers", "qty": 2, "unit": "piece", "item": "citron", "prep": "en quartiers" },
+    { "raw": "1 bouquet de persil plat", "qty": 1, "unit": "bunch", "item": "persil plat" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Saler les morceaux UNE HEURE avant et les laisser reposer : le sel pénètre et assaisonne à cœur.", "en": "Salt the pieces AN HOUR ahead and let them rest: the salt penetrates and seasons throughout." },
+    { "fr": "Les ÉPONGER avant de paner : l'eau ressortie empêcherait la panure d'adhérer.", "en": "BLOT them before breading: the drawn-out water would stop the coating sticking." },
+    { "fr": "Paner farine, œuf, chapelure, sans tasser, et frire IMMÉDIATEMENT.", "en": "Coat in flour, egg and crumbs, without pressing, and fry IMMEDIATELY." },
+    { "fr": "Frire à 160 °C, pas plus : à 180 °C, la panure brûle avant que la cuisse soit cuite.", "en": "Fry at 160°C, no hotter: at 180°C, the crumb burns before the thigh is cooked." },
+    { "fr": "Compter quinze minutes pour les cuisses, dix pour les blancs : les cuire séparément.", "en": "Allow fifteen minutes for the thighs, ten for the breasts: fry them separately." },
+    { "fr": "Frire le persil dix secondes en toute fin : c'est la garniture traditionnelle du Backhendl.", "en": "Fry the parsley for ten seconds at the very end: the traditional Backhendl garnish." }
+  ]
+}

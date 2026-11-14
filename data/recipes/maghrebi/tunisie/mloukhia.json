@@ -1,0 +1,39 @@
+{
+  "slug": "mloukhia",
+  "cuisine": "maghrebi",
+  "country": "tunisie",
+  "origin": "Tunisie",
+  "native_name": "Mloukhia",
+  "title": {
+    "fr": "Mloukhia tunisienne au bœuf",
+    "en": "Tunisian mloukhia with beef"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 300 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "cuisson-lente", "nouvel-an", "boeuf"],
+  "ingredients": [
+    { "raw": "250 g de poudre de mloukhia", "qty": 250, "unit": "g", "item": "molokhia" },
+    { "raw": "1 kg de bœuf à mijoter, en gros morceaux", "qty": 1000, "unit": "g", "item": "boeuf à mijoter", "prep": "en gros morceaux" },
+    { "raw": "25 cl d'huile d'olive", "qty": 25, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "6 gousses d'ail", "qty": 6, "unit": "piece", "item": "ail" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "1 c. à s. de coriandre en graines", "qty": 1, "unit": "tbsp", "item": "coriandre graines" },
+    { "raw": "1 c. à c. de piment en poudre", "qty": 1, "unit": "tsp", "item": "piment en poudre" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Délayer la poudre de mloukhia dans un peu d'eau froide jusqu'à obtenir une pâte lisse, sans grumeau.", "en": "Slake the mloukhia powder in a little cold water to a smooth, lump-free paste." },
+    { "fr": "Chauffer l'huile d'olive à feu doux et y verser la pâte : elle doit frire, pas bouillir.", "en": "Heat the olive oil gently and pour in the paste: it must fry, not boil." },
+    { "fr": "Remuer sans arrêt pendant vingt minutes, jusqu'à ce que le vert vire au brun très foncé. C'est ce virage qui fait le plat.", "en": "Stir constantly for twenty minutes, until the green turns very dark brown. That colour change is the dish." },
+    { "fr": "Mouiller progressivement à l'eau chaude, ajouter l'ail, le laurier, la coriandre et le piment.", "en": "Gradually add hot water, then the garlic, bay, coriander and chilli." },
+    { "fr": "Ajouter la viande et laisser cuire quatre à cinq heures à feu très doux, en rajoutant de l'eau au besoin.", "en": "Add the meat and cook for four to five hours over very low heat, topping up the water as needed." },
+    { "fr": "La mloukhia est prête quand elle est noire, épaisse, et que l'huile remonte en surface. Servir avec du pain.", "en": "Mloukhia is ready when it is black, thick, and the oil rises to the surface. Serve with bread." }
+  ],
+  "notes": [
+    { "fr": "Impossible à presser : une mloukhia de deux heures reste verte et amère. Le temps n'est pas négociable.", "en": "It cannot be rushed: a two-hour mloukhia stays green and bitter. The time is not negotiable." }
+  ]
+}

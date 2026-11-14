@@ -1,0 +1,40 @@
+{
+  "slug": "tafelspitz",
+  "cuisine": "western-european",
+  "country": "autriche",
+  "origin": "Autriche",
+  "native_name": "Tafelspitz",
+  "title": {
+    "fr": "Tafelspitz, bœuf bouilli à la viennoise",
+    "en": "Tafelspitz, Viennese boiled beef"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 180 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["vienne", "boeuf", "bouillon", "dimanche"],
+  "ingredients": [
+    { "raw": "1,5 kg de tête de filet de bœuf", "qty": 1500, "unit": "g", "item": "boeuf à mijoter" },
+    { "raw": "2 os à moelle", "qty": 2, "unit": "piece", "item": "os à moelle" },
+    { "raw": "4 carottes", "qty": 4, "unit": "piece", "item": "carotte" },
+    { "raw": "1/2 céleri-rave", "qty": 0.5, "unit": "piece", "item": "céleri-rave" },
+    { "raw": "3 poireaux", "qty": 3, "unit": "piece", "item": "poireau" },
+    { "raw": "2 oignons, coupés en deux et grillés à sec", "qty": 2, "unit": "piece", "item": "oignon", "prep": "grillés à sec" },
+    { "raw": "1 bouquet de ciboulette, ciselée", "qty": 1, "unit": "bunch", "item": "ciboulette", "prep": "ciselée", "group": "sauce" },
+    { "raw": "200 g de raifort, râpé", "qty": 200, "unit": "g", "item": "raifort", "prep": "râpé", "group": "sauce" },
+    { "raw": "25 cl de crème fraîche", "qty": 25, "unit": "cl", "item": "crème fraîche", "group": "sauce" },
+    { "raw": "1 kg de pommes de terre", "qty": 1000, "unit": "g", "item": "pomme de terre" },
+    { "raw": "10 grains de poivre noir", "qty": 10, "unit": "piece", "item": "poivre noir" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "GRILLER À SEC les moitiés d'oignon, face coupée sur la poêle brûlante, jusqu'à ce qu'elles NOIRCISSENT.", "en": "DRY-CHAR the onion halves, cut face on a scalding pan, until they BLACKEN." },
+    { "fr": "Ce brûlé donne au bouillon sa couleur dorée : c'est le geste viennois, et il ne se saute pas.", "en": "That char gives the broth its golden colour: the Viennese move, and it is not skipped." },
+    { "fr": "Départ à l'eau BOUILLANTE, contrairement au pot-au-feu : on veut ici une viande savoureuse.", "en": "Start in BOILING water, unlike a pot-au-feu: here we want flavourful meat." },
+    { "fr": "Écumer sans relâche pendant vingt minutes, puis cuire trois heures sans jamais bouillir.", "en": "Skim relentlessly for twenty minutes, then cook for three hours without ever boiling." },
+    { "fr": "Trancher la viande CONTRE LE SENS DES FIBRES : dans le sens, elle est filandreuse.", "en": "Slice the meat AGAINST THE GRAIN: with the grain, it is stringy." },
+    { "fr": "Servir avec le bouillon en premier, puis la viande, avec la sauce au raifort et à la ciboulette.", "en": "Serve the broth first, then the meat, with the horseradish and chive sauces." }
+  ]
+}

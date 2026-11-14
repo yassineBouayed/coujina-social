@@ -1,0 +1,27 @@
+# Les continents du catalogue.
+#
+# Un cran au-dessus du pays, et une echelle DE PLUS que la cuisine -- pas la
+# meme echelle vue de plus loin. Les deux decoupages ne se recouvrent pas, et
+# c'est voulu :
+#
+#   * la CUISINE est culinaire. « Levantine » tient ensemble Beyrouth, Damas,
+#     Amman et Le Caire parce que le foul, la molokheya et le mahchi les
+#     tiennent ensemble ;
+#   * le CONTINENT est geographique, celui d'un atlas. L'Egypte y est
+#     africaine, comme sur n'importe quelle carte.
+#
+# Les deux sont vrais en meme temps, et aucun ne remplace l'autre. Ce fichier
+# existe parce que l'ecran « mes recettes hors ligne » deroulait cinquante pays
+# a plat : un cran de plus, et la liste se parcourt.
+#
+# `sort_order` -> l'ordre d'affichage. Il commence par ce que les cuisines de
+#                 lancement couvrent (SPEC 1) et finit par le reste : une liste
+#                 rangee par ordre alphabetique mettrait l'Amerique du Nord
+#                 avant l'Afrique dans une application dont le socle est
+#                 maghrebin et ouest-africain.
+slug|name_fr|name_en|sort_order
+afrique|Afrique|Africa|10
+asie|Asie|Asia|20
+europe|Europe|Europe|30
+amerique-du-nord|Amérique du Nord|North America|40
+amerique-du-sud|Amérique du Sud|South America|50

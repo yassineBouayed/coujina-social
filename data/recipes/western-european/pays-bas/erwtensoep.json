@@ -1,0 +1,40 @@
+{
+  "slug": "erwtensoep",
+  "cuisine": "western-european",
+  "country": "pays-bas",
+  "origin": "Pays-Bas",
+  "native_name": "Snert",
+  "title": {
+    "fr": "Erwtensoep, soupe de pois cassés",
+    "en": "Erwtensoep, split pea soup"
+  },
+  "meal_type": "soup",
+  "servings": 8,
+  "times": { "prep_min": 25, "cook_min": 150 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hiver", "pois-casse", "patinage", "famille"],
+  "ingredients": [
+    { "raw": "600 g de pois cassés", "qty": 600, "unit": "g", "item": "pois cassé" },
+    { "raw": "600 g de jarret de porc", "qty": 600, "unit": "g", "item": "jarret de porc" },
+    { "raw": "3 saucisses fumées", "qty": 3, "unit": "piece", "item": "saucisse fumée" },
+    { "raw": "200 g de poitrine de porc fumée", "qty": 200, "unit": "g", "item": "poitrine de porc", "prep": "fumée" },
+    { "raw": "1/2 céleri-rave, en dés", "qty": 0.5, "unit": "piece", "item": "céleri-rave", "prep": "en dés" },
+    { "raw": "3 poireaux, en rondelles", "qty": 3, "unit": "piece", "item": "poireau", "prep": "en rondelles" },
+    { "raw": "3 carottes, en dés", "qty": 3, "unit": "piece", "item": "carotte", "prep": "en dés" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "2 l d'eau", "qty": 2, "unit": "l", "item": "eau" },
+    { "raw": "1 bouquet de céleri branche avec ses feuilles", "qty": 1, "unit": "bunch", "item": "céleri branche" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Une vraie snert doit tenir la CUILLÈRE DEBOUT : c'est le test néerlandais, et il est sérieux.", "en": "A proper snert must hold a SPOON UPRIGHT: that is the Dutch test, and it is taken seriously." },
+    { "fr": "Les pois cassés ne se trempent PAS : ils se défont d'eux-mêmes en deux heures.", "en": "Split peas are NOT soaked: they break down on their own within two hours." },
+    { "fr": "Cuire pois et jarret ensemble, à l'eau froide, en écumant pendant le premier quart d'heure.", "en": "Cook the peas and knuckle together, from cold water, skimming for the first fifteen minutes." },
+    { "fr": "Ajouter les légumes après une heure : plus tôt, ils disparaissent entièrement.", "en": "Add the vegetables after an hour: earlier, they vanish completely." },
+    { "fr": "La soupe est meilleure LE LENDEMAIN : elle épaissit encore en refroidissant.", "en": "The soup is better THE NEXT DAY: it thickens further as it cools." },
+    { "fr": "Ajouter la saucisse fumée en rondelles au réchauffage, jamais pendant les deux heures.", "en": "Add the sliced smoked sausage when reheating, never during the two hours." }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "empanada-gallega",
+  "cuisine": "mediterranean",
+  "country": "espagne",
+  "origin": "Espagne",
+  "native_name": "Empanada gallega",
+  "title": {
+    "fr": "Empanada galicienne au thon",
+    "en": "Galician tuna empanada"
+  },
+  "meal_type": "main",
+  "servings": 8,
+  "times": { "prep_min": 50, "cook_min": 45 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["galice", "tourte", "thon", "partage"],
+  "ingredients": [
+    { "raw": "500 g de farine T55", "qty": 500, "unit": "g", "item": "farine T55", "group": "pâte" },
+    { "raw": "20 cl d'eau tiède", "qty": 20, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "10 cl d'huile d'olive", "qty": 10, "unit": "cl", "item": "huile d'olive", "group": "pâte" },
+    { "raw": "7 g de levure boulangère sèche", "qty": 7, "unit": "g", "item": "levure boulangère", "group": "pâte" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel", "group": "pâte" },
+    { "raw": "4 oignons, émincés", "qty": 4, "unit": "piece", "item": "oignon", "prep": "émincé", "group": "garniture" },
+    { "raw": "2 poivrons rouges, en lanières", "qty": 2, "unit": "piece", "item": "poivron rouge", "prep": "en lanières", "group": "garniture" },
+    { "raw": "400 g de thon en conserve, égoutté", "qty": 400, "unit": "g", "item": "thon en conserve", "prep": "égoutté", "group": "garniture" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate", "group": "garniture" },
+    { "raw": "2 c. à c. de paprika fumé", "qty": 2, "unit": "tsp", "item": "paprika fumé", "group": "garniture" },
+    { "raw": "2 œufs durs, en rondelles", "qty": 2, "unit": "piece", "item": "oeuf", "prep": "dur, en rondelles", "group": "garniture" },
+    { "raw": "1 œuf, pour dorer", "qty": 1, "unit": "piece", "item": "oeuf", "group": "dorure" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Faire une sofrito d'oignons et poivrons TRÈS longuement : quarante minutes, jusqu'à confiture.", "en": "Cook the onion and pepper sofrito for a VERY long time: forty minutes, to a jammy state." },
+    { "fr": "La FROIDIR complètement avant de garnir : chaude, elle fait fondre la pâte du dessous.", "en": "COOL it completely before filling: warm, it melts the pastry beneath." },
+    { "fr": "Utiliser l'huile de la sofrito dans la pâte : c'est le geste qui donne son goût à l'empanada.", "en": "Use the sofrito oil in the dough: that is the move that gives the empanada its flavour." },
+    { "fr": "Étaler deux abaisses fines, garnir la première en laissant deux centimètres de bord.", "en": "Roll two thin sheets, fill the first leaving a two-centimetre border." },
+    { "fr": "Souder les bords en les torsadant, et percer une CHEMINÉE au centre pour la vapeur.", "en": "Seal the edges by twisting them, and pierce a CHIMNEY in the centre for the steam." },
+    { "fr": "Sans cheminée, la vapeur soulève la pâte et la garniture ressort par les côtés.", "en": "Without a chimney, steam lifts the pastry and the filling escapes at the sides." }
+  ]
+}

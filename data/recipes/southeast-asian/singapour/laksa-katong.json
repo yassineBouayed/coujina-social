@@ -1,0 +1,43 @@
+{
+  "slug": "laksa-katong",
+  "cuisine": "southeast-asian",
+  "country": "singapour",
+  "origin": "Singapour",
+  "native_name": "Katong laksa",
+  "title": {
+    "fr": "Laksa de Katong aux nouilles coupées",
+    "en": "Katong laksa with cut noodles"
+  },
+  "meal_type": "soup",
+  "servings": 5,
+  "times": { "prep_min": 40, "cook_min": 40 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["katong", "coco", "cuillere", "peranakan"],
+  "ingredients": [
+    { "raw": "400 g de nouilles de riz épaisses", "qty": 400, "unit": "g", "item": "nouilles de riz" },
+    { "raw": "400 g de crevettes, avec les têtes", "qty": 400, "unit": "g", "item": "crevette" },
+    { "raw": "200 g de coques ou de moules", "qty": 200, "unit": "g", "item": "moule" },
+    { "raw": "70 cl de lait de coco", "qty": 70, "unit": "cl", "item": "lait de coco" },
+    { "raw": "10 piments séchés, trempés", "qty": 10, "unit": "piece", "item": "piment séché", "prep": "trempé", "group": "rempah" },
+    { "raw": "10 échalotes", "qty": 10, "unit": "piece", "item": "échalote", "group": "rempah" },
+    { "raw": "6 gousses d'ail", "qty": 6, "unit": "piece", "item": "ail", "group": "rempah" },
+    { "raw": "3 tiges de citronnelle", "qty": 3, "unit": "piece", "item": "citronnelle", "group": "rempah" },
+    { "raw": "1 morceau de galanga", "qty": 1, "unit": "piece", "item": "galanga", "group": "rempah" },
+    { "raw": "1 morceau de curcuma frais", "qty": 1, "unit": "piece", "item": "curcuma frais", "group": "rempah" },
+    { "raw": "6 noix de bancoul", "qty": 6, "unit": "piece", "item": "noix de bancoul", "group": "rempah" },
+    { "raw": "2 c. à s. de pâte de crevette", "qty": 2, "unit": "tbsp", "item": "pâte de crevette", "group": "rempah" },
+    { "raw": "3 c. à s. de crevettes séchées", "qty": 3, "unit": "tbsp", "item": "crevette séchée", "group": "rempah" },
+    { "raw": "200 g de germes de soja", "qty": 200, "unit": "g", "item": "germes de soja", "group": "garniture" },
+    { "raw": "12 cl d'huile neutre", "qty": 12, "unit": "cl", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "La laksa de Katong se mange À LA CUILLÈRE : les nouilles sont coupées court, exprès, avant de servir.", "en": "Katong laksa is eaten WITH A SPOON: the noodles are cut short, deliberately, before serving." },
+    { "fr": "Faire un fumet avec les têtes de crevettes, et le filtrer.", "en": "Make a stock from the prawn heads, and strain it." },
+    { "fr": "Mixer le rempah très fin et le frire VINGT MINUTES : c'est la seule étape qui décide du goût.", "en": "Blend the rempah very fine and fry it for TWENTY MINUTES: the only step that decides the flavour." },
+    { "fr": "Ajouter le fumet, laisser dix minutes, puis le lait de coco, et frémir sans bouillir.", "en": "Add the stock, cook for ten minutes, then the coconut milk, and simmer without boiling." },
+    { "fr": "Cuire les nouilles, les couper en tronçons de trois centimètres aux ciseaux.", "en": "Cook the noodles and cut them into three-centimetre lengths with scissors." },
+    { "fr": "Ajouter crevettes et coques au bouillon deux minutes, et servir sur les nouilles coupées.", "en": "Add the prawns and cockles to the broth for two minutes, and serve over the cut noodles." }
+  ]
+}

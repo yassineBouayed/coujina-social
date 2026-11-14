@@ -1,0 +1,43 @@
+{
+  "slug": "albondigas",
+  "cuisine": "mediterranean",
+  "country": "espagne",
+  "origin": "Espagne",
+  "native_name": "Albóndigas en salsa",
+  "title": {
+    "fr": "Boulettes de viande en sauce",
+    "en": "Meatballs in sauce"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["tapas", "boulettes", "famille", "enfants"],
+  "ingredients": [
+    { "raw": "500 g de bœuf haché", "qty": 500, "unit": "g", "item": "boeuf haché" },
+    { "raw": "300 g de porc haché", "qty": 300, "unit": "g", "item": "porc haché" },
+    { "raw": "100 g de mie de pain", "qty": 100, "unit": "g", "item": "pain", "prep": "en mie" },
+    { "raw": "12 cl de lait entier", "qty": 12, "unit": "cl", "item": "lait entier" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "4 gousses d'ail, hachées", "qty": 4, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché", "group": "sauce" },
+    { "raw": "400 g de tomate pelée en conserve", "qty": 400, "unit": "g", "item": "tomate pelée en conserve", "group": "sauce" },
+    { "raw": "15 cl de vin blanc sec", "qty": 15, "unit": "cl", "item": "vin blanc", "group": "sauce" },
+    { "raw": "1 c. à c. de paprika fumé", "qty": 1, "unit": "tsp", "item": "paprika fumé", "group": "sauce" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran", "group": "sauce" },
+    { "raw": "8 c. à s. d'huile d'olive", "qty": 8, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Faire tremper la mie dans le lait dix minutes : c'est la panade, elle garde les boulettes moelleuses.", "en": "Soak the crumb in milk for ten minutes: this is the panade, it keeps the meatballs moist." },
+    { "fr": "Sans elle, la viande hachée se contracte à la cuisson et donne des boulettes sèches et fermes.", "en": "Without it, the mince tightens as it cooks and gives dry, firm meatballs." },
+    { "fr": "Mélanger viandes, panade, œuf, ail et persil du BOUT DES DOIGTS, sans écraser.", "en": "Mix the meats, panade, egg, garlic and parsley WITH YOUR FINGERTIPS, without compacting." },
+    { "fr": "Rouler des boulettes de la taille d'une noix et les faire dorer à l'huile d'olive.", "en": "Roll walnut-sized balls and brown them in olive oil." },
+    { "fr": "Faire la sauce dans la même poêle : oignon, paprika hors du feu, vin blanc, tomate et safran.", "en": "Make the sauce in the same pan: onion, paprika off the heat, white wine, tomato and saffron." },
+    { "fr": "Remettre les boulettes et laisser mijoter trente minutes à couvert.", "en": "Return the meatballs and simmer for thirty minutes, covered." }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "harcha",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Harcha",
+  "title": {
+    "fr": "Harcha, galette de semoule à la poêle",
+    "en": "Harcha, pan-cooked semolina cake"
+  },
+  "meal_type": "bread",
+  "servings": 6,
+  "times": { "prep_min": 15, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["petit-dejeuner", "the", "semoule", "gouter"],
+  "ingredients": [
+    { "raw": "400 g de semoule moyenne", "qty": 400, "unit": "g", "item": "semoule moyenne" },
+    { "raw": "120 g de beurre, ramolli", "qty": 120, "unit": "g", "item": "beurre", "prep": "ramolli" },
+    { "raw": "2 c. à s. de sucre", "qty": 2, "unit": "tbsp", "item": "sucre" },
+    { "raw": "1 c. à c. de levure chimique", "qty": 1, "unit": "tsp", "item": "levure chimique" },
+    { "raw": "1/2 c. à c. de sel", "qty": 0.5, "unit": "tsp", "item": "sel" },
+    { "raw": "20 cl de lait tiède", "qty": 20, "unit": "cl", "item": "lait" },
+    { "raw": "2 c. à s. de semoule fine, pour le moule", "qty": 2, "unit": "tbsp", "item": "semoule fine", "group": "façonnage" }
+  ],
+  "steps": [
+    { "fr": "Sabler la semoule moyenne avec le beurre du bout des doigts, jusqu'à ce que chaque grain soit enrobé.", "en": "Rub the butter into the medium semolina with your fingertips, until every grain is coated." },
+    { "fr": "Ajouter sucre, sel et levure, puis le lait tiède petit à petit.", "en": "Add sugar, salt and baking powder, then the warm milk a little at a time." },
+    { "fr": "Ne pas pétrir : la harcha se rassemble, elle ne se travaille pas. Trop pétrie, elle devient dure.", "en": "Do not knead: harcha is gathered, not worked. Over-kneaded, it turns hard." },
+    { "fr": "Laisser reposer dix minutes pour que la semoule boive le lait.", "en": "Rest for ten minutes so the semolina drinks the milk." },
+    { "fr": "Façonner des galettes d'un centimètre et demi dans un cercle, en les roulant dans la semoule fine.", "en": "Shape cakes a centimetre and a half thick in a ring, rolling them in fine semolina." },
+    { "fr": "Cuire à la poêle à feu doux, huit minutes par face, jusqu'à ce que le cœur soit pris et la surface sablée.", "en": "Cook in a dry pan over low heat, eight minutes a side, until set through and sandy on the surface." }
+  ],
+  "notes": [
+    { "fr": "Feu vif, la harcha brunit avant d'être cuite au centre. C'est l'erreur qui revient le plus souvent.", "en": "Over high heat, harcha browns before the centre cooks. That is the most common failure." }
+  ]
+}

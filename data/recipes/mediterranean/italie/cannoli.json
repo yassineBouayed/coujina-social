@@ -1,0 +1,40 @@
+{
+  "slug": "cannoli",
+  "cuisine": "mediterranean",
+  "country": "italie",
+  "origin": "Italie",
+  "native_name": "Cannoli siciliani",
+  "title": {
+    "fr": "Cannoli siciliens à la ricotta",
+    "en": "Sicilian ricotta cannoli"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 60, "cook_min": 25 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["sicile", "ricotta", "friture", "fete"],
+  "ingredients": [
+    { "raw": "300 g de farine T45", "qty": 300, "unit": "g", "item": "farine T45", "group": "pâte" },
+    { "raw": "40 g de saindoux", "qty": 40, "unit": "g", "item": "saindoux", "group": "pâte" },
+    { "raw": "2 c. à s. de sucre", "qty": 2, "unit": "tbsp", "item": "sucre", "group": "pâte" },
+    { "raw": "1 c. à s. de cacao en poudre", "qty": 1, "unit": "tbsp", "item": "cacao en poudre", "group": "pâte" },
+    { "raw": "10 cl de vin blanc", "qty": 10, "unit": "cl", "item": "vin blanc", "group": "pâte" },
+    { "raw": "1 œuf, pour souder", "qty": 1, "unit": "piece", "item": "oeuf", "group": "pâte" },
+    { "raw": "800 g de ricotta de brebis", "qty": 800, "unit": "g", "item": "ricotta", "group": "farce" },
+    { "raw": "200 g de sucre glace", "qty": 200, "unit": "g", "item": "sucre glace", "group": "farce" },
+    { "raw": "100 g de chocolat noir, en pépites", "qty": 100, "unit": "g", "item": "chocolat noir", "prep": "en pépites", "group": "farce" },
+    { "raw": "60 g de pistaches, concassées", "qty": 60, "unit": "g", "item": "pistache", "prep": "concassée", "group": "décor" },
+    { "raw": "1,5 l d'huile neutre pour la friture", "qty": 1.5, "unit": "l", "item": "huile neutre" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "ÉGOUTTER la ricotta VINGT-QUATRE HEURES dans une étamine : c'est la condition de la farce.", "en": "DRAIN the ricotta for TWENTY-FOUR HOURS in muslin: the condition for the filling." },
+    { "fr": "Une ricotta humide donne une crème liquide qui détrempe la coque en dix minutes.", "en": "Wet ricotta gives a runny cream that soaks the shell within ten minutes." },
+    { "fr": "Pétrir la pâte au vin blanc et la laisser reposer UNE HEURE : elle doit être très ferme.", "en": "Knead the dough with the white wine and rest it for AN HOUR: it must be very firm." },
+    { "fr": "L'étaler jusqu'à la transparence, l'enrouler sur les tubes, et souder à l'œuf battu.", "en": "Roll it translucent, wrap it around the tubes, and seal with beaten egg." },
+    { "fr": "Frire à 180 °C, deux minutes, et laisser refroidir COMPLÈTEMENT avant de retirer les tubes.", "en": "Fry at 180°C for two minutes, and cool COMPLETELY before removing the tubes." },
+    { "fr": "Garnir AU MOMENT DE SERVIR, jamais avant : c'est ce qui distingue un bon cannolo d'un mou.", "en": "Fill them AT THE MOMENT OF SERVING, never before: that is what separates a good cannolo from a soggy one." }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "keema-matar",
+  "cuisine": "south-asian",
+  "country": "pakistan",
+  "origin": "Pakistan",
+  "native_name": "Keema matar",
+  "title": {
+    "fr": "Keema matar, hachis d'agneau aux petits pois",
+    "en": "Keema matar, minced lamb with peas"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["quotidien", "hachis", "petits-pois", "famille"],
+  "ingredients": [
+    { "raw": "700 g d'agneau haché", "qty": 700, "unit": "g", "item": "agneau haché" },
+    { "raw": "300 g de petits pois surgelés", "qty": 300, "unit": "g", "item": "petits pois surgelés" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "3 tomates, râpées", "qty": 3, "unit": "piece", "item": "tomate", "prep": "râpée" },
+    { "raw": "2 c. à s. de pâte gingembre-ail", "qty": 2, "unit": "tbsp", "item": "pâte gingembre-ail" },
+    { "raw": "2 c. à c. de coriandre en graines, moulue", "qty": 2, "unit": "tsp", "item": "coriandre graines", "prep": "moulue" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "1 c. à c. de piment kashmiri", "qty": 1, "unit": "tsp", "item": "piment kashmiri" },
+    { "raw": "1 c. à c. de garam masala", "qty": 1, "unit": "tsp", "item": "garam masala" },
+    { "raw": "2 piments verts, fendus", "qty": 2, "unit": "piece", "item": "piment frais", "prep": "fendu" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "6 c. à s. d'huile neutre", "qty": 6, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire dorer les oignons quinze minutes, jusqu'à ce qu'ils soient franchement bruns.", "en": "Brown the onions for fifteen minutes, until decidedly brown." },
+    { "fr": "Ajouter la pâte gingembre-ail et cuire jusqu'à disparition de l'odeur crue.", "en": "Add the ginger-garlic paste and cook until the raw smell goes." },
+    { "fr": "Ajouter la viande hachée à FEU VIF et l'écraser à la cuillère pour qu'elle ne fasse pas de blocs.", "en": "Add the mince over HIGH heat and break it up with a spoon so it does not clump." },
+    { "fr": "Laisser toute l'eau s'évaporer avant d'ajouter les tomates : sinon le keema bout au lieu de rissoler.", "en": "Let all the water evaporate before adding the tomatoes: otherwise the keema boils instead of frying." },
+    { "fr": "Ajouter les épices moulues et les tomates, et cuire jusqu'à ce que l'huile se sépare.", "en": "Add the ground spices and tomatoes, and cook until the oil separates." },
+    { "fr": "Ajouter les petits pois pour les dix dernières minutes, puis le garam masala et la coriandre hors du feu.", "en": "Add the peas for the last ten minutes, then the garam masala and coriander off the heat." }
+  ]
+}

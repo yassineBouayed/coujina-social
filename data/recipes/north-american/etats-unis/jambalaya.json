@@ -1,0 +1,44 @@
+{
+  "slug": "jambalaya",
+  "cuisine": "north-american",
+  "country": "etats-unis",
+  "origin": "États-Unis",
+  "native_name": "Jambalaya",
+  "title": {
+    "fr": "Jambalaya créole de Louisiane",
+    "en": "Louisiana creole jambalaya"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 50 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["louisiane", "riz", "creole", "epice"],
+  "ingredients": [
+    { "raw": "500 g de riz long", "qty": 500, "unit": "g", "item": "riz long" },
+    { "raw": "500 g de blanc de poulet, en cubes", "qty": 500, "unit": "g", "item": "blanc de poulet", "prep": "en cubes" },
+    { "raw": "300 g de saucisse fumée, en rondelles", "qty": 300, "unit": "g", "item": "saucisse fumée", "prep": "en rondelles" },
+    { "raw": "300 g de crevettes crues, décortiquées", "qty": 300, "unit": "g", "item": "crevette", "prep": "décortiquée" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "2 poivrons verts, en dés", "qty": 2, "unit": "piece", "item": "poivron vert", "prep": "en dés" },
+    { "raw": "4 branches de céleri, en dés", "qty": 4, "unit": "piece", "item": "céleri branche", "prep": "en dés" },
+    { "raw": "400 g de tomate pelée en conserve", "qty": 400, "unit": "g", "item": "tomate pelée en conserve" },
+    { "raw": "1 l de bouillon de volaille", "qty": 1, "unit": "l", "item": "bouillon volaille" },
+    { "raw": "3 c. à s. de paprika fumé", "qty": 3, "unit": "tbsp", "item": "paprika fumé" },
+    { "raw": "2 c. à c. de thym séché", "qty": 2, "unit": "tsp", "item": "thym" },
+    { "raw": "1 c. à c. de piment de Cayenne", "qty": 1, "unit": "tsp", "item": "piment de Cayenne" },
+    { "raw": "3 feuilles de laurier", "qty": 3, "unit": "piece", "item": "laurier" },
+    { "raw": "8 c. à s. d'huile neutre", "qty": 8, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La « sainte trinité » cajun est OIGNON, POIVRON VERT et CÉLERI : c'est la base de toute la cuisine créole.", "en": "The Cajun \"holy trinity\" is ONION, GREEN PEPPER and CELERY: the base of all Creole cooking." },
+    { "fr": "Le jambalaya créole contient de la TOMATE ; le cajun, plus rustique, n'en a pas.", "en": "Creole jambalaya contains TOMATO; the Cajun one, more rustic, has none." },
+    { "fr": "Faire dorer viandes et saucisse d'abord, puis la trinité dans le même gras, vingt minutes.", "en": "Brown the meats and sausage first, then the trinity in the same fat, for twenty minutes." },
+    { "fr": "Nacrer le riz CRU dans ce gras deux minutes, jusqu'à ce qu'il devienne translucide aux bords.", "en": "Toast the RAW rice in that fat for two minutes, until translucent at the edges." },
+    { "fr": "Verser le bouillon, couvrir, et NE PLUS REMUER pendant vingt-cinq minutes.", "en": "Add the stock, cover, and DO NOT STIR for twenty-five minutes." },
+    { "fr": "Ajouter les crevettes les CINQ dernières minutes seulement : plus tôt, elles durcissent.", "en": "Add the prawns in the LAST FIVE minutes only: earlier, they toughen." }
+  ]
+}

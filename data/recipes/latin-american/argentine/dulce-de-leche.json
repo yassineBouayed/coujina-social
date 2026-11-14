@@ -1,0 +1,33 @@
+{
+  "slug": "dulce-de-leche",
+  "cuisine": "latin-american",
+  "country": "argentine",
+  "origin": "Argentine",
+  "native_name": "Dulce de leche",
+  "title": {
+    "fr": "Dulce de leche maison",
+    "en": "Homemade dulce de leche"
+  },
+  "meal_type": "dessert",
+  "servings": 12,
+  "times": { "prep_min": 10, "cook_min": 180 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["base", "lait", "caramel", "embleme"],
+  "ingredients": [
+    { "raw": "2 l de lait entier", "qty": 2, "unit": "l", "item": "lait entier" },
+    { "raw": "600 g de sucre", "qty": 600, "unit": "g", "item": "sucre" },
+    { "raw": "1 c. à c. de bicarbonate de soude", "qty": 1, "unit": "tsp", "item": "bicarbonate de soude" },
+    { "raw": "1 gousse de vanille, fendue", "qty": 1, "unit": "piece", "item": "gousse de vanille", "prep": "fendue" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le BICARBONATE est l'ingrédient secret : il élève le pH et accélère la réaction de Maillard.", "en": "BICARBONATE is the secret ingredient: it raises the pH and speeds the Maillard reaction." },
+    { "fr": "Sans lui, le dulce de leche reste beige clair au lieu de virer au brun ambré.", "en": "Without it, dulce de leche stays pale beige instead of turning amber brown." },
+    { "fr": "Utiliser une casserole LARGE et HAUTE : le mélange monte violemment au bicarbonate.", "en": "Use a WIDE, TALL pan: the mixture rises violently when the bicarbonate goes in." },
+    { "fr": "Cuire TROIS HEURES à feu très doux, en remuant toutes les dix minutes.", "en": "Cook for THREE HOURS over very low heat, stirring every ten minutes." },
+    { "fr": "Sur la dernière demi-heure, remuer SANS ARRÊT : c'est là qu'il attache.", "en": "For the last half hour, stir WITHOUT STOPPING: that is when it catches." },
+    { "fr": "Il épaissit encore beaucoup en refroidissant : arrêter quand il nappe encore souplement la cuillère.", "en": "It thickens a great deal more as it cools: stop while it still coats a spoon loosely." }
+  ]
+}

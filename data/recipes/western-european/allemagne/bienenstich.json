@@ -1,0 +1,43 @@
+{
+  "slug": "bienenstich",
+  "cuisine": "western-european",
+  "country": "allemagne",
+  "origin": "Allemagne",
+  "native_name": "Bienenstich",
+  "title": {
+    "fr": "Bienenstich, gâteau aux amandes et à la crème",
+    "en": "Bienenstich, almond and cream cake"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 50, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["brioche", "amande", "creme", "gouter"],
+  "ingredients": [
+    { "raw": "400 g de farine T45", "qty": 400, "unit": "g", "item": "farine T45", "group": "pâte" },
+    { "raw": "20 cl de lait entier, tiède", "qty": 20, "unit": "cl", "item": "lait entier", "prep": "tiède", "group": "pâte" },
+    { "raw": "7 g de levure boulangère sèche", "qty": 7, "unit": "g", "item": "levure boulangère", "group": "pâte" },
+    { "raw": "60 g de sucre", "qty": 60, "unit": "g", "item": "sucre", "group": "pâte" },
+    { "raw": "80 g de beurre, mou", "qty": 80, "unit": "g", "item": "beurre", "prep": "mou", "group": "pâte" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf", "group": "pâte" },
+    { "raw": "150 g d'amandes effilées", "qty": 150, "unit": "g", "item": "amande effilée", "group": "nappage" },
+    { "raw": "100 g de beurre", "qty": 100, "unit": "g", "item": "beurre", "group": "nappage" },
+    { "raw": "100 g de sucre", "qty": 100, "unit": "g", "item": "sucre", "group": "nappage" },
+    { "raw": "4 c. à s. de miel", "qty": 4, "unit": "tbsp", "item": "miel", "group": "nappage" },
+    { "raw": "50 cl de lait entier", "qty": 50, "unit": "cl", "item": "lait entier", "group": "crème" },
+    { "raw": "5 jaunes d'œufs", "qty": 5, "unit": "piece", "item": "oeuf", "group": "crème" },
+    { "raw": "50 g de maïzena", "qty": 50, "unit": "g", "item": "maïzena", "group": "crème" },
+    { "raw": "30 cl de crème liquide entière", "qty": 30, "unit": "cl", "item": "crème liquide", "group": "crème" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le nom signifie « piqûre d'abeille » : le nappage au miel et aux amandes en est la raison.", "en": "The name means \"bee sting\": the honey and almond topping is the reason." },
+    { "fr": "Faire lever la pâte briochée une heure, l'étaler dans le moule, et la laisser lever encore.", "en": "Prove the enriched dough for an hour, spread it in the tin, and prove it again." },
+    { "fr": "Faire fondre beurre, sucre et miel, ajouter les amandes, et laisser TIÉDIR le nappage.", "en": "Melt the butter, sugar and honey, add the almonds, and let the topping COOL." },
+    { "fr": "Un nappage brûlant fait retomber la pâte levée d'un coup, et elle ne remonte pas.", "en": "A scalding topping knocks the proved dough flat at once, and it does not rise again." },
+    { "fr": "Cuire trente minutes à 180 °C, laisser refroidir, et couper le gâteau EN DEUX à l'horizontale.", "en": "Bake for thirty minutes at 180°C, cool, and split the cake IN TWO horizontally." },
+    { "fr": "Garnir d'une crème pâtissière allégée à la chantilly, et prédécouper AVANT de refermer.", "en": "Fill with a crème pâtissière lightened with whipped cream, and pre-cut BEFORE closing it." }
+  ]
+}

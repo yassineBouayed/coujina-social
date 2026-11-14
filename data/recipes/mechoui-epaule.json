@@ -1,0 +1,44 @@
+{
+  "slug": "mechoui-epaule",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Mechoui",
+  "title": {
+    "fr": "Épaule d'agneau mechoui au cumin",
+    "en": "Mechoui-style roast lamb shoulder with cumin"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 15, "cook_min": 210 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j2-sonde-v1", "date": "2026-08-28" },
+  "tags": ["agneau", "four", "fete", "cumin"],
+  "ingredients": [
+    { "raw": "1 épaule d'agneau entière, environ 2 kg", "qty": 2, "unit": "kg", "item": "épaule d'agneau" },
+    { "raw": "100 g de beurre mou", "qty": 100, "unit": "g", "item": "beurre", "prep": "ramolli" },
+    { "raw": "1 c. à s. de smen", "qty": 1, "unit": "tbsp", "item": "smen", "optional": true },
+    { "raw": "6 gousses d'ail, réduites en pâte", "qty": 6, "unit": "piece", "item": "ail", "prep": "réduit en pâte" },
+    { "raw": "2 c. à s. de cumin moulu", "qty": 2, "unit": "tbsp", "item": "cumin moulu" },
+    { "raw": "1 c. à s. de paprika", "qty": 1, "unit": "tbsp", "item": "paprika" },
+    { "raw": "1 c. à c. de coriandre moulue", "qty": 1, "unit": "tsp", "item": "coriandre moulue" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "1 c. à s. de gros sel", "qty": 1, "unit": "tbsp", "item": "gros sel" },
+    { "raw": "1 c. à c. de poivre noir", "qty": 1, "unit": "tsp", "item": "poivre noir" },
+    { "raw": "20 cl d'eau", "qty": 20, "unit": "cl", "item": "eau" },
+    { "raw": "cumin moulu et sel fin, servis à part", "qty": null, "unit": null, "item": "cumin moulu", "group": "service" }
+  ],
+  "steps": [
+    { "fr": "Mélanger le beurre mou, le smen, l'ail, le cumin, le paprika, la coriandre, le safran, le sel et le poivre en une pommade.", "en": "Work the softened butter, smen, garlic, cumin, paprika, coriander, saffron, salt and pepper into a paste." },
+    { "fr": "Inciser l'épaule au couteau et la masser longuement avec la pommade, jusque dans les entailles.", "en": "Score the shoulder with a knife and massage it thoroughly with the paste, right into the cuts." },
+    { "fr": "Poser dans un plat, verser l'eau au fond, couvrir hermétiquement de papier aluminium.", "en": "Set it in a dish, pour the water into the base and seal tightly with foil." },
+    { "fr": "Cuire 3 heures à 150 °C, en arrosant toutes les quarante minutes avec le jus.", "en": "Cook for 3 hours at 150 °C, basting with the juices every forty minutes." },
+    { "fr": "Découvrir et pousser à 220 °C pendant 20 minutes pour laquer la surface.", "en": "Uncover and raise to 220 °C for 20 minutes to glaze the surface." },
+    { "fr": "Laisser reposer dix minutes : la viande doit se détacher à la cuillère, jamais se découper.", "en": "Rest for ten minutes: the meat should come away with a spoon, never need carving." },
+    { "fr": "Servir avec deux coupelles, l'une de cumin, l'autre de sel fin, dans lesquelles chacun trempe sa bouchée.", "en": "Serve with two small bowls, one of cumin and one of fine salt, for dipping each mouthful." }
+  ],
+  "notes": [
+    { "fr": "Le vrai mechoui cuit au four à bois, entier. À la maison, c'est la longueur à basse température qui l'approche, pas la puissance.", "en": "True mechoui is a whole animal in a wood oven. At home it is the long low heat that comes close, not high power." }
+  ]
+}

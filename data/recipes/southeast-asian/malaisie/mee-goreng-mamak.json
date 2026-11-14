@@ -1,0 +1,42 @@
+{
+  "slug": "mee-goreng-mamak",
+  "cuisine": "southeast-asian",
+  "country": "malaisie",
+  "origin": "Malaisie",
+  "native_name": "Mee goreng mamak",
+  "title": {
+    "fr": "Mee goreng mamak, nouilles sautées indo-malaises",
+    "en": "Mamak-style fried noodles"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 15 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["mamak", "rue", "nuit", "tofu"],
+  "ingredients": [
+    { "raw": "500 g de nouilles de blé jaunes", "qty": 500, "unit": "g", "item": "nouilles de blé" },
+    { "raw": "200 g de tofu ferme frit, en dés", "qty": 200, "unit": "g", "item": "tofu ferme", "prep": "frit" },
+    { "raw": "200 g de crevettes, décortiquées", "qty": 200, "unit": "g", "item": "crevette", "prep": "décortiquée" },
+    { "raw": "2 pommes de terre, cuites en cubes", "qty": 2, "unit": "piece", "item": "pomme de terre", "prep": "cuite" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf" },
+    { "raw": "200 g de chou blanc, en lanières", "qty": 200, "unit": "g", "item": "chou blanc", "prep": "en lanières" },
+    { "raw": "200 g de germes de soja", "qty": 200, "unit": "g", "item": "germes de soja" },
+    { "raw": "4 c. à s. de sambal oelek", "qty": 4, "unit": "tbsp", "item": "sambal oelek", "group": "sauce" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate", "group": "sauce" },
+    { "raw": "3 c. à s. de kecap manis", "qty": 3, "unit": "tbsp", "item": "kecap manis", "group": "sauce" },
+    { "raw": "2 c. à s. de sauce soja", "qty": 2, "unit": "tbsp", "item": "sauce soja", "group": "sauce" },
+    { "raw": "6 gousses d'ail, hachées", "qty": 6, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "2 citrons verts, en quartiers", "qty": 2, "unit": "piece", "item": "citron vert", "group": "service" },
+    { "raw": "8 c. à s. d'huile neutre", "qty": 8, "unit": "tbsp", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Le concentré de tomate est ce qui distingue le mee goreng mamak des autres nouilles sautées.", "en": "Tomato purée is what sets mamak mee goreng apart from other fried noodles." },
+    { "fr": "Mélanger la sauce à l'avance : sambal, concentré, kecap et sauce soja, dans un bol.", "en": "Mix the sauce in advance: sambal, purée, kecap and soy, in a bowl." },
+    { "fr": "Chauffer le wok à blanc et saisir ail, crevettes et tofu, une minute.", "en": "Heat the wok until smoking and sear the garlic, prawns and tofu for a minute." },
+    { "fr": "Pousser sur le côté, brouiller les œufs, puis ajouter les pommes de terre et le chou.", "en": "Push everything aside, scramble the eggs, then add the potatoes and cabbage." },
+    { "fr": "Ajouter les nouilles et la sauce, et sauter en soulevant à la pince, deux minutes.", "en": "Add the noodles and the sauce, and toss with tongs, lifting, for two minutes." },
+    { "fr": "Ajouter les germes hors du feu et servir avec un quartier de citron vert à presser.", "en": "Add the sprouts off the heat and serve with a wedge of lime to squeeze over." }
+  ]
+}

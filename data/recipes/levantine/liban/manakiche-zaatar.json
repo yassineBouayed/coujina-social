@@ -1,0 +1,36 @@
+{
+  "slug": "manakiche-zaatar",
+  "cuisine": "levantine",
+  "country": "liban",
+  "origin": "Liban",
+  "native_name": "Manakish zaatar",
+  "title": {
+    "fr": "Manakiche au zaatar",
+    "en": "Zaatar manakish"
+  },
+  "meal_type": "bread",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 15 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["petit-dejeuner", "boulangerie", "zaatar", "four"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "1 c. à s. de levure boulangère sèche", "qty": 1, "unit": "tbsp", "item": "levure boulangère", "group": "pâte" },
+    { "raw": "1 c. à c. de sucre", "qty": 1, "unit": "tsp", "item": "sucre", "group": "pâte" },
+    { "raw": "1,5 c. à c. de sel", "qty": 1.5, "unit": "tsp", "item": "sel", "group": "pâte" },
+    { "raw": "30 cl d'eau tiède", "qty": 30, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "5 c. à s. d'huile d'olive", "qty": 5, "unit": "tbsp", "item": "huile d'olive", "group": "pâte" },
+    { "raw": "8 c. à s. de zaatar", "qty": 8, "unit": "tbsp", "item": "zaatar", "group": "garniture" },
+    { "raw": "10 c. à s. d'huile d'olive", "qty": 10, "unit": "tbsp", "item": "huile d'olive", "group": "garniture" }
+  ],
+  "steps": [
+    { "fr": "Pétrir farine, levure, sucre, sel, eau et huile dix minutes, jusqu'à une pâte souple et lisse.", "en": "Knead the flour, yeast, sugar, salt, water and oil for ten minutes, to a soft, smooth dough." },
+    { "fr": "Laisser lever une heure et demie, jusqu'à ce qu'elle double.", "en": "Prove for an hour and a half, until doubled." },
+    { "fr": "Mélanger le zaatar et l'huile d'olive en une pâte coulante : sèche, elle brûle au four.", "en": "Mix the zaatar and olive oil into a loose paste: dry, it burns in the oven." },
+    { "fr": "Étaler des disques d'un demi-centimètre et les marquer du bout des doigts, en creux.", "en": "Roll discs half a centimetre thick and dimple them with your fingertips." },
+    { "fr": "Étaler généreusement le zaatar jusqu'aux bords, sans laisser de marge.", "en": "Spread the zaatar generously right to the edges, leaving no margin." },
+    { "fr": "Cuire 8 à 10 minutes à 250 °C : la manakiche doit rester souple, pas croustillante.", "en": "Bake for 8 to 10 minutes at 250°C: manakish should stay soft, not crisp." }
+  ]
+}

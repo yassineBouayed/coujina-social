@@ -1,0 +1,41 @@
+{
+  "slug": "burger-maison",
+  "cuisine": "north-american",
+  "country": "etats-unis",
+  "origin": "États-Unis",
+  "native_name": "Cheeseburger",
+  "title": {
+    "fr": "Cheeseburger maison",
+    "en": "Homemade cheeseburger"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["embleme", "boeuf", "grill", "enfants"],
+  "ingredients": [
+    { "raw": "800 g de bœuf haché à 20 % de matière grasse", "qty": 800, "unit": "g", "item": "boeuf haché" },
+    { "raw": "4 pains à burger", "qty": 4, "unit": "piece", "item": "pain", "prep": "en pains à burger" },
+    { "raw": "8 tranches de cheddar", "qty": 8, "unit": "piece", "item": "cheddar", "prep": "en tranches" },
+    { "raw": "2 tomates, en rondelles", "qty": 2, "unit": "piece", "item": "tomate", "prep": "en rondelles" },
+    { "raw": "1 oignon rouge, en rondelles", "qty": 1, "unit": "piece", "item": "oignon rouge", "prep": "en rondelles" },
+    { "raw": "8 feuilles de laitue", "qty": 8, "unit": "piece", "item": "laitue" },
+    { "raw": "8 cornichons, en tranches", "qty": 8, "unit": "piece", "item": "cornichon", "prep": "en tranches" },
+    { "raw": "6 c. à s. de mayonnaise", "qty": 6, "unit": "tbsp", "item": "mayonnaise" },
+    { "raw": "4 c. à s. de ketchup", "qty": 4, "unit": "tbsp", "item": "ketchup" },
+    { "raw": "2 c. à s. de moutarde", "qty": 2, "unit": "tbsp", "item": "moutarde" },
+    { "raw": "40 g de beurre", "qty": 40, "unit": "g", "item": "beurre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La viande doit contenir 20 % de GRAS : à 5 %, le steak est sec quel que soit le savoir-faire.", "en": "The mince must be 20% FAT: at 5%, the patty is dry no matter the technique." },
+    { "fr": "Ne PAS malaxer la viande : la former en boule sans la travailler, du bout des doigts.", "en": "Do NOT work the meat: shape it into a ball without kneading, with your fingertips." },
+    { "fr": "Saler UNIQUEMENT la surface, juste avant la cuisson : salée dans la masse, la viande devient élastique.", "en": "Salt the SURFACE only, just before cooking: salted through, the meat turns springy." },
+    { "fr": "Creuser une FOSSETTE au pouce au centre du steak : sinon il gonfle en ballon à la cuisson.", "en": "Press a DIMPLE in the centre of the patty: otherwise it swells into a ball as it cooks." },
+    { "fr": "Cuire sur une poêle en fonte TRÈS chaude, trois minutes par face, en ne le retournant qu'UNE fois.", "en": "Cook on a VERY hot cast-iron pan, three minutes a side, turning only ONCE." },
+    { "fr": "Griller les pains au beurre côté mie : c'est ce qui les empêche de se détremper.", "en": "Toast the buns in butter on the cut side: that keeps them from going soggy." }
+  ]
+}

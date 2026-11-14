@@ -1,0 +1,1040 @@
+# Vérité du catalogue, cuisine « south-asian ».
+#
+# Pour chaque ligne d'ingrédient, celui du référentiel qu'un relecteur
+# choisit, ou `-` quand le référentiel n'a rien à offrir.
+#
+# PASSE MODÈLE, pas humaine, et la circularité est ici maximale : les
+# recettes ont été écrites AVEC le référentiel sous les yeux, et les
+# ingrédients qui manquaient y ont été ajoutés dans la foulée. Le taux de
+# rattachement du champ `item` ne mesure donc presque rien sur ces cuisines.
+# Ce qui mesure quelque chose, c'est le témoin `raw`, que `catalog:gate`
+# donne en regard.
+#
+# Une ligne annotée ici n'a pas été relue par quelqu'un qui cuisine ces
+# plats. Le critère de sortie de J5 reste entier.
+recipe|line|item|expected_slug|note
+aloo-gobi|0|chou-fleur|chou-fleur|
+aloo-gobi|1|pomme de terre|pomme-de-terre|
+aloo-gobi|2|oignon|oignon|
+aloo-gobi|3|pâte gingembre-ail|pate-gingembre-ail|
+aloo-gobi|4|cumin|cumin|
+aloo-gobi|5|curcuma|curcuma|
+aloo-gobi|6|coriandre graines|coriandre-graines|
+aloo-gobi|7|amchoor|amchoor|
+aloo-gobi|8|piment frais|piment-frais|
+aloo-gobi|9|coriandre fraîche|coriandre-fraiche|
+aloo-gobi|10|huile neutre|huile-neutre|
+aloo-gobi|11|sel|sel|
+biryani|0|épaule d'agneau|epaule-d-agneau|
+biryani|1|riz basmati|riz-basmati|
+biryani|2|yaourt|yaourt|
+biryani|3|pâte gingembre-ail|pate-gingembre-ail|
+biryani|4|piment kashmiri|piment-kashmiri|re-annotee : le referentiel a gagne l entree precise
+biryani|5|garam masala|garam-masala|
+biryani|6|citron|citron|
+biryani|7|oignon|oignon|
+biryani|8|safran|safran|
+biryani|9|lait|lait|
+biryani|10|coriandre fraîche|coriandre-fraiche|
+biryani|11|menthe fraîche|menthe-fraiche|
+biryani|12|cardamome|cardamome|
+biryani|13|cardamome noire|cardamome-noire|
+biryani|14|cannelle|cannelle|
+biryani|15|ghee|ghee|
+biryani|16|sel|sel|
+chana-masala|0|pois chiche sec|pois-chiche-sec|
+chana-masala|1|oignon|oignon|
+chana-masala|2|tomate|tomate|
+chana-masala|3|pâte gingembre-ail|pate-gingembre-ail|
+chana-masala|4|coriandre graines|coriandre-graines|
+chana-masala|5|cumin|cumin|
+chana-masala|6|curcuma|curcuma|
+chana-masala|7|chaat masala|chaat-masala|
+chana-masala|8|amchoor|amchoor|
+chana-masala|9|garam masala|garam-masala|
+chana-masala|10|thé vert|the-vert|
+chana-masala|11|huile neutre|huile-neutre|
+chana-masala|12|sel|sel|
+chapati|0|farine complète|farine-complete|
+chapati|1|eau|eau|
+chapati|2|sel|sel|
+chapati|3|ghee|ghee|
+dal-tadka|0|pois cassé|pois-casse|
+dal-tadka|1|curcuma|curcuma|
+dal-tadka|2|tomate|tomate|
+dal-tadka|3|ghee|ghee|
+dal-tadka|4|cumin|cumin|
+dal-tadka|5|graine de moutarde|graine-de-moutarde|
+dal-tadka|6|asafoetida|asafoetida|
+dal-tadka|7|ail|ail|
+dal-tadka|8|piment séché|piment-seche|
+dal-tadka|9|feuille de curry|feuille-de-curry|
+dal-tadka|10|piment kashmiri|piment-kashmiri|re-annotee : le referentiel a gagne l entree precise
+dal-tadka|11|coriandre fraîche|coriandre-fraiche|
+dal-tadka|12|citron|citron|
+dal-tadka|13|sel|sel|
+gulab-jamun|0|lait en poudre|lait-en-poudre|
+gulab-jamun|1|farine de blé|farine-de-ble|
+gulab-jamun|2|levure chimique|levure-chimique|
+gulab-jamun|3|ghee|ghee|
+gulab-jamun|4|lait entier|lait-entier|
+gulab-jamun|5|sucre|sucre|
+gulab-jamun|6|eau|eau|
+gulab-jamun|7|cardamome|cardamome|
+gulab-jamun|8|eau de rose|eau-de-rose|
+gulab-jamun|9|safran|safran|
+gulab-jamun|10|huile neutre|huile-neutre|
+kheer|0|riz basmati|riz-basmati|
+kheer|1|lait entier|lait-entier|
+kheer|2|sucre|sucre|
+kheer|3|cardamome|cardamome|
+kheer|4|safran|safran|
+kheer|5|amande effilée|amande-effilee|
+kheer|6|pistache|pistache|
+kheer|7|raisin sec|raisin-sec|
+kheer|8|ghee|ghee|
+khichdi|0|riz basmati|riz-basmati|
+khichdi|1|lentille corail|lentille-corail|
+khichdi|2|curcuma|curcuma|
+khichdi|3|cumin|cumin|
+khichdi|4|asafoetida|asafoetida|
+khichdi|5|gingembre|gingembre|
+khichdi|6|ghee|ghee|
+khichdi|7|carotte|carotte|
+khichdi|8|citron|citron|
+khichdi|9|sel|sel|
+korma-agneau|0|épaule d'agneau|epaule-d-agneau|
+korma-agneau|1|noix de cajou|noix-de-cajou|
+korma-agneau|2|amande|amande|
+korma-agneau|3|yaourt|yaourt|
+korma-agneau|4|oignon|oignon|
+korma-agneau|5|pâte gingembre-ail|pate-gingembre-ail|
+korma-agneau|6|cardamome|cardamome|
+korma-agneau|7|cannelle|cannelle|
+korma-agneau|8|coriandre graines|coriandre-graines|
+korma-agneau|9|garam masala|garam-masala|
+korma-agneau|10|safran|safran|
+korma-agneau|11|crème liquide|creme-liquide|
+korma-agneau|12|ghee|ghee|
+korma-agneau|13|sel|sel|
+lassi-mangue|0|mangue|mangue|
+lassi-mangue|1|yaourt|yaourt|
+lassi-mangue|2|lait|lait|
+lassi-mangue|3|sucre|sucre|
+lassi-mangue|4|cardamome|cardamome|
+lassi-mangue|5|safran|safran|
+lassi-mangue|6|pistache|pistache|
+masala-dosa|0|riz long grain|riz-long-grain|
+masala-dosa|1|lentille noire|lentille-noire|
+masala-dosa|2|fenugrec|fenugrec|
+masala-dosa|3|pomme de terre|pomme-de-terre|
+masala-dosa|4|oignon|oignon|
+masala-dosa|5|graine de moutarde|graine-de-moutarde|
+masala-dosa|6|feuille de curry|feuille-de-curry|
+masala-dosa|7|curcuma|curcuma|
+masala-dosa|8|piment frais|piment-frais|
+masala-dosa|9|gingembre|gingembre|
+masala-dosa|10|huile neutre|huile-neutre|
+masala-dosa|11|sel|sel|
+murgh-makhani|0|cuisse de poulet|cuisse-de-poulet|
+murgh-makhani|1|yaourt|yaourt|
+murgh-makhani|2|pâte gingembre-ail|pate-gingembre-ail|
+murgh-makhani|3|piment kashmiri|piment-kashmiri|re-annotee : le referentiel a gagne l entree precise
+murgh-makhani|4|garam masala|garam-masala|
+murgh-makhani|5|tomate concassée|tomate-concassee|re-annotee : le referentiel a gagne l entree precise
+murgh-makhani|6|noix de cajou|noix-de-cajou|
+murgh-makhani|7|beurre|beurre|
+murgh-makhani|8|crème liquide|creme-liquide|
+murgh-makhani|9|feuille de fenugrec|feuille-de-fenugrec|
+murgh-makhani|10|sucre|sucre|
+murgh-makhani|11|cardamome|cardamome|
+murgh-makhani|12|sel|sel|
+naan-maison|0|farine de blé|farine-de-ble|
+naan-maison|1|yaourt|yaourt|
+naan-maison|2|levure boulangère|levure-boulangere|
+naan-maison|3|sucre|sucre|
+naan-maison|4|sel|sel|
+naan-maison|5|levure chimique|levure-chimique|
+naan-maison|6|lait|lait|
+naan-maison|7|ghee|ghee|
+naan-maison|8|graine de nigelle|graine-de-nigelle|
+naan-maison|9|coriandre fraîche|coriandre-fraiche|
+palak-paneer|0|épinard|epinard|
+palak-paneer|1|paneer|paneer|
+palak-paneer|2|oignon|oignon|
+palak-paneer|3|pâte gingembre-ail|pate-gingembre-ail|
+palak-paneer|4|piment frais|piment-frais|
+palak-paneer|5|cumin|cumin|
+palak-paneer|6|garam masala|garam-masala|
+palak-paneer|7|crème liquide|creme-liquide|
+palak-paneer|8|ghee|ghee|
+palak-paneer|9|feuille de fenugrec|feuille-de-fenugrec|
+palak-paneer|10|sel|sel|
+pav-bhaji|0|pomme de terre|pomme-de-terre|
+pav-bhaji|1|chou-fleur|chou-fleur|
+pav-bhaji|2|petits pois surgelés|petits-pois-surgeles|
+pav-bhaji|3|poivron vert|poivron-vert|
+pav-bhaji|4|tomate|tomate|
+pav-bhaji|5|oignon|oignon|
+pav-bhaji|6|pâte gingembre-ail|pate-gingembre-ail|
+pav-bhaji|7|garam masala|garam-masala|
+pav-bhaji|8|piment kashmiri|piment-kashmiri|re-annotee : le referentiel a gagne l entree precise
+pav-bhaji|9|beurre|beurre|
+pav-bhaji|10|pain de mie|pain-de-mie|
+pav-bhaji|11|citron|citron|
+pav-bhaji|12|oignon rouge|oignon-rouge|
+pav-bhaji|13|sel|sel|
+raita|0|yaourt|yaourt|
+raita|1|concombre|concombre|
+raita|2|cumin|cumin|
+raita|3|piment kashmiri|piment-kashmiri|re-annotee : le referentiel a gagne l entree precise
+raita|4|coriandre fraîche|coriandre-fraiche|
+raita|5|chaat masala|chaat-masala|
+raita|6|sel|sel|
+rogan-josh|0|épaule d'agneau|epaule-d-agneau|
+rogan-josh|1|piment kashmiri|piment-kashmiri|re-annotee : le referentiel a gagne l entree precise
+rogan-josh|2|yaourt|yaourt|
+rogan-josh|3|gingembre moulu|gingembre-moulu|
+rogan-josh|4|graine de fenouil|graine-de-fenouil|
+rogan-josh|5|cardamome noire|cardamome-noire|
+rogan-josh|6|cardamome|cardamome|
+rogan-josh|7|cannelle|cannelle|
+rogan-josh|8|clou de girofle|clou-de-girofle|
+rogan-josh|9|asafoetida|asafoetida|
+rogan-josh|10|ghee|ghee|
+rogan-josh|11|sel|sel|
+sambar|0|pois cassé|pois-casse|
+sambar|1|pâte de tamarin|pate-de-tamarin|
+sambar|2|carotte|carotte|
+sambar|3|aubergine|aubergine|
+sambar|4|gombo|gombo|
+sambar|5|tomate|tomate|
+sambar|6|poudre de curry|poudre-de-curry|
+sambar|7|curcuma|curcuma|
+sambar|8|graine de moutarde|graine-de-moutarde|
+sambar|9|asafoetida|asafoetida|
+sambar|10|feuille de curry|feuille-de-curry|
+sambar|11|piment séché|piment-seche|
+sambar|12|huile de sésame|huile-de-sesame|
+sambar|13|sel|sel|
+samosa|0|farine de blé|farine-de-ble|
+samosa|1|ghee|ghee|
+samosa|2|graine de nigelle|graine-de-nigelle|
+samosa|3|sel|sel|
+samosa|4|pomme de terre|pomme-de-terre|
+samosa|5|petits pois surgelés|petits-pois-surgeles|
+samosa|6|cumin|cumin|
+samosa|7|coriandre graines|coriandre-graines|
+samosa|8|amchoor|amchoor|
+samosa|9|garam masala|garam-masala|
+samosa|10|piment frais|piment-frais|
+samosa|11|coriandre fraîche|coriandre-fraiche|
+samosa|12|huile neutre|huile-neutre|
+tandoori-poulet|0|cuisse de poulet|cuisse-de-poulet|
+tandoori-poulet|1|yaourt grec|yaourt-grec|
+tandoori-poulet|2|pâte gingembre-ail|pate-gingembre-ail|
+tandoori-poulet|3|tandoori masala|tandoori-masala|
+tandoori-poulet|4|piment kashmiri|piment-kashmiri|re-annotee : le referentiel a gagne l entree precise
+tandoori-poulet|5|citron|citron|
+tandoori-poulet|6|garam masala|garam-masala|
+tandoori-poulet|7|huile neutre|huile-neutre|
+tandoori-poulet|8|ghee|ghee|
+tandoori-poulet|9|oignon rouge|oignon-rouge|
+tandoori-poulet|10|chaat masala|chaat-masala|
+tandoori-poulet|11|sel|sel|
+aloo-gosht|0|épaule d'agneau|epaule-d-agneau|
+aloo-gosht|1|pomme de terre|pomme-de-terre|
+aloo-gosht|2|oignon|oignon|
+aloo-gosht|3|tomate|tomate|
+aloo-gosht|4|pâte gingembre-ail|pate-gingembre-ail|
+aloo-gosht|5|coriandre graines|coriandre-graines|
+aloo-gosht|6|cumin|cumin|
+aloo-gosht|7|curcuma|curcuma|
+aloo-gosht|8|piment kashmiri|piment-kashmiri|re-annotee : le referentiel a gagne l entree precise
+aloo-gosht|9|garam masala|garam-masala|
+aloo-gosht|10|huile neutre|huile-neutre|
+aloo-gosht|11|coriandre fraîche|coriandre-fraiche|
+aloo-gosht|12|sel|sel|
+bihari-boti|0|steak de bœuf|steak-de-boeuf|
+bihari-boti|1|papaye|papaye|
+bihari-boti|2|oignon|oignon|
+bihari-boti|3|yaourt|yaourt|
+bihari-boti|4|pâte gingembre-ail|pate-gingembre-ail|
+bihari-boti|5|piment kashmiri|piment-kashmiri|re-annotee : le referentiel a gagne l entree precise
+bihari-boti|6|coriandre graines|coriandre-graines|
+bihari-boti|7|garam masala|garam-masala|
+bihari-boti|8|farine de pois chiche|farine-de-pois-chiche|
+bihari-boti|9|huile neutre|huile-neutre|
+bihari-boti|10|sel|sel|
+chapli-kebab|0|boeuf haché|boeuf-hache|
+chapli-kebab|1|oignon|oignon|
+chapli-kebab|2|tomate|tomate|
+chapli-kebab|3|coriandre fraîche|coriandre-fraiche|
+chapli-kebab|4|coriandre graines|coriandre-graines|
+chapli-kebab|5|amchoor|amchoor|
+chapli-kebab|6|farine de maïs blanche|farine-de-mais-blanche|
+chapli-kebab|7|oeuf|oeuf|
+chapli-kebab|8|piment frais|piment-frais|
+chapli-kebab|9|piment kashmiri|piment-kashmiri|re-annotee : le referentiel a gagne l entree precise
+chapli-kebab|10|ghee|ghee|
+chapli-kebab|11|sel|sel|
+daal-mash|0|lentille noire|lentille-noire|
+daal-mash|1|oignon|oignon|
+daal-mash|2|pâte gingembre-ail|pate-gingembre-ail|
+daal-mash|3|curcuma|curcuma|
+daal-mash|4|coriandre graines|coriandre-graines|
+daal-mash|5|cumin|cumin|
+daal-mash|6|gingembre|gingembre|
+daal-mash|7|piment frais|piment-frais|
+daal-mash|8|coriandre fraîche|coriandre-fraiche|
+daal-mash|9|ghee|ghee|
+daal-mash|10|citron|citron|
+daal-mash|11|sel|sel|
+falooda|0|graine de basilic|graine-de-basilic|
+falooda|1|nouilles de riz|nouilles-de-riz|
+falooda|2|lait entier|lait-entier|
+falooda|3|eau de rose|eau-de-rose|
+falooda|4|sucre|sucre|
+falooda|5|crème liquide|creme-liquide|
+falooda|6|pistache|pistache|
+gajar-ka-halwa|0|carotte|carotte|
+gajar-ka-halwa|1|lait entier|lait-entier|
+gajar-ka-halwa|2|sucre|sucre|
+gajar-ka-halwa|3|ghee|ghee|
+gajar-ka-halwa|4|lait en poudre|lait-en-poudre|
+gajar-ka-halwa|5|cardamome|cardamome|
+gajar-ka-halwa|6|amande effilée|amande-effilee|
+gajar-ka-halwa|7|pistache|pistache|
+gajar-ka-halwa|8|raisin sec|raisin-sec|
+haleem|0|blé tendre|ble-tendre|
+haleem|1|boulgour gros|boulgour-gros|
+haleem|2|lentille noire|lentille-noire|
+haleem|3|pois cassé|pois-casse|
+haleem|4|gigot d'agneau|gigot-d-agneau|
+haleem|5|oignon|oignon|
+haleem|6|pâte gingembre-ail|pate-gingembre-ail|
+haleem|7|garam masala|garam-masala|
+haleem|8|piment kashmiri|piment-kashmiri|re-annotee : le referentiel a gagne l entree precise
+haleem|9|curcuma|curcuma|
+haleem|10|ghee|ghee|
+haleem|11|gingembre|gingembre|
+haleem|12|citron|citron|
+haleem|13|sel|sel|
+halwa-puri|0|farine de blé|farine-de-ble|
+halwa-puri|1|sel|sel|
+halwa-puri|2|huile neutre|huile-neutre|
+halwa-puri|3|semoule fine|semoule-fine|
+halwa-puri|4|sucre|sucre|
+halwa-puri|5|ghee|ghee|
+halwa-puri|6|cardamome|cardamome|
+halwa-puri|7|safran|safran|
+halwa-puri|8|amande effilée|amande-effilee|
+halwa-puri|9|eau|eau|
+halwa-puri|10|huile neutre|huile-neutre|
+kachumber|0|tomate|tomate|
+kachumber|1|concombre|concombre|
+kachumber|2|oignon rouge|oignon-rouge|
+kachumber|3|piment frais|piment-frais|
+kachumber|4|coriandre fraîche|coriandre-fraiche|
+kachumber|5|citron|citron|
+kachumber|6|cumin|cumin|
+kachumber|7|chaat masala|chaat-masala|
+kachumber|8|sel|sel|
+karahi-poulet|0|poulet entier|poulet-entier|
+karahi-poulet|1|tomate|tomate|
+karahi-poulet|2|gingembre|gingembre|
+karahi-poulet|3|ail|ail|
+karahi-poulet|4|coriandre graines|coriandre-graines|
+karahi-poulet|5|cumin|cumin|
+karahi-poulet|6|piment kashmiri|piment-kashmiri|re-annotee : le referentiel a gagne l entree precise
+karahi-poulet|7|piment frais|piment-frais|
+karahi-poulet|8|coriandre fraîche|coriandre-fraiche|
+karahi-poulet|9|ghee|ghee|
+karahi-poulet|10|garam masala|garam-masala|
+karahi-poulet|11|sel|sel|
+keema-matar|0|agneau haché|agneau-hache|
+keema-matar|1|petits pois surgelés|petits-pois-surgeles|
+keema-matar|2|oignon|oignon|
+keema-matar|3|tomate|tomate|
+keema-matar|4|pâte gingembre-ail|pate-gingembre-ail|
+keema-matar|5|coriandre graines|coriandre-graines|
+keema-matar|6|cumin|cumin|
+keema-matar|7|curcuma|curcuma|
+keema-matar|8|piment kashmiri|piment-kashmiri|re-annotee : le referentiel a gagne l entree precise
+keema-matar|9|garam masala|garam-masala|
+keema-matar|10|piment frais|piment-frais|
+keema-matar|11|coriandre fraîche|coriandre-fraiche|
+keema-matar|12|huile neutre|huile-neutre|
+keema-matar|13|sel|sel|
+lassi-sale|0|yaourt|yaourt|
+lassi-sale|1|eau|eau|
+lassi-sale|2|cumin|cumin|
+lassi-sale|3|sel|sel|
+lassi-sale|4|chaat masala|chaat-masala|
+lassi-sale|5|menthe fraîche|menthe-fraiche|
+nihari|0|boeuf à mijoter|boeuf-a-mijoter|
+nihari|1|os à moelle|os-a-moelle|
+nihari|2|oignon|oignon|
+nihari|3|pâte gingembre-ail|pate-gingembre-ail|
+nihari|4|piment kashmiri|piment-kashmiri|re-annotee : le referentiel a gagne l entree precise
+nihari|5|coriandre graines|coriandre-graines|
+nihari|6|graine de fenouil|graine-de-fenouil|
+nihari|7|cardamome noire|cardamome-noire|
+nihari|8|muscade|muscade|
+nihari|9|farine de blé|farine-de-ble|
+nihari|10|ghee|ghee|
+nihari|11|gingembre|gingembre|
+nihari|12|citron|citron|
+nihari|13|sel|sel|
+paratha|0|farine complète|farine-complete|
+paratha|1|eau|eau|
+paratha|2|sel|sel|
+paratha|3|ghee|ghee|
+paya|0|pied de veau|pied-de-veau|re-annotee : le referentiel a gagne l entree precise
+paya|1|oignon|oignon|
+paya|2|pâte gingembre-ail|pate-gingembre-ail|
+paya|3|coriandre graines|coriandre-graines|
+paya|4|piment kashmiri|piment-kashmiri|re-annotee : le referentiel a gagne l entree precise
+paya|5|curcuma|curcuma|
+paya|6|garam masala|garam-masala|
+paya|7|cardamome noire|cardamome-noire|
+paya|8|ghee|ghee|
+paya|9|gingembre|gingembre|
+paya|10|citron|citron|
+paya|11|sel|sel|
+pulao-yakhni|0|riz basmati|riz-basmati|
+pulao-yakhni|1|épaule d'agneau|epaule-d-agneau|
+pulao-yakhni|2|oignon|oignon|
+pulao-yakhni|3|pâte gingembre-ail|pate-gingembre-ail|
+pulao-yakhni|4|coriandre graines|coriandre-graines|
+pulao-yakhni|5|graine de fenouil|graine-de-fenouil|
+pulao-yakhni|6|cumin|cumin|
+pulao-yakhni|7|cardamome|cardamome|
+pulao-yakhni|8|cardamome noire|cardamome-noire|
+pulao-yakhni|9|cannelle|cannelle|
+pulao-yakhni|10|yaourt|yaourt|
+pulao-yakhni|11|ghee|ghee|
+pulao-yakhni|12|sel|sel|
+saag-gosht|0|épaule d'agneau|epaule-d-agneau|
+saag-gosht|1|épinard|epinard|
+saag-gosht|2|chou frisé|chou-frise|
+saag-gosht|3|oignon|oignon|
+saag-gosht|4|pâte gingembre-ail|pate-gingembre-ail|
+saag-gosht|5|tomate|tomate|
+saag-gosht|6|curcuma|curcuma|
+saag-gosht|7|piment kashmiri|piment-kashmiri|re-annotee : le referentiel a gagne l entree precise
+saag-gosht|8|farine de maïs blanche|farine-de-mais-blanche|
+saag-gosht|9|ghee|ghee|
+saag-gosht|10|piment frais|piment-frais|
+saag-gosht|11|garam masala|garam-masala|
+saag-gosht|12|sel|sel|
+seekh-kebab|0|agneau haché|agneau-hache|
+seekh-kebab|1|oignon|oignon|
+seekh-kebab|2|pâte gingembre-ail|pate-gingembre-ail|
+seekh-kebab|3|garam masala|garam-masala|
+seekh-kebab|4|piment kashmiri|piment-kashmiri|re-annotee : le referentiel a gagne l entree precise
+seekh-kebab|5|farine de pois chiche|farine-de-pois-chiche|
+seekh-kebab|6|coriandre fraîche|coriandre-fraiche|
+seekh-kebab|7|piment frais|piment-frais|
+seekh-kebab|8|oeuf|oeuf|
+seekh-kebab|9|ghee|ghee|
+seekh-kebab|10|sel|sel|
+seekh-kebab|11|poivre noir|poivre-noir|
+shami-kebab|0|épaule d'agneau|epaule-d-agneau|
+shami-kebab|1|pois cassé|pois-casse|
+shami-kebab|2|oignon|oignon|
+shami-kebab|3|pâte gingembre-ail|pate-gingembre-ail|
+shami-kebab|4|cardamome noire|cardamome-noire|
+shami-kebab|5|cannelle|cannelle|
+shami-kebab|6|piment séché|piment-seche|
+shami-kebab|7|oeuf|oeuf|
+shami-kebab|8|coriandre fraîche|coriandre-fraiche|
+shami-kebab|9|oignon rouge|oignon-rouge|
+shami-kebab|10|huile neutre|huile-neutre|
+shami-kebab|11|sel|sel|
+sheer-khurma|0|vermicelle|vermicelle|
+sheer-khurma|1|lait entier|lait-entier|
+sheer-khurma|2|sucre|sucre|
+sheer-khurma|3|datte|datte|
+sheer-khurma|4|amande effilée|amande-effilee|
+sheer-khurma|5|pistache|pistache|
+sheer-khurma|6|raisin sec|raisin-sec|
+sheer-khurma|7|cardamome|cardamome|
+sheer-khurma|8|safran|safran|
+sheer-khurma|9|ghee|ghee|
+sheer-khurma|10|eau de rose|eau-de-rose|
+aloo-bhorta|0|pomme de terre|pomme-de-terre|
+aloo-bhorta|1|oignon|oignon|
+aloo-bhorta|2|piment frais|piment-frais|
+aloo-bhorta|3|huile de moutarde|huile-de-moutarde|
+aloo-bhorta|4|coriandre fraîche|coriandre-fraiche|
+aloo-bhorta|5|sel|sel|
+beef-bhuna|0|boeuf à mijoter|boeuf-a-mijoter|
+beef-bhuna|1|oignon|oignon|
+beef-bhuna|2|pâte gingembre-ail|pate-gingembre-ail|
+beef-bhuna|3|curcuma|curcuma|
+beef-bhuna|4|piment kashmiri|piment-kashmiri|re-annotee : le referentiel a gagne l entree precise
+beef-bhuna|5|coriandre graines|coriandre-graines|
+beef-bhuna|6|garam masala|garam-masala|
+beef-bhuna|7|cannelle|cannelle|
+beef-bhuna|8|cardamome|cardamome|
+beef-bhuna|9|huile de moutarde|huile-de-moutarde|
+beef-bhuna|10|piment frais|piment-frais|
+beef-bhuna|11|sel|sel|
+begun-bhaja|0|aubergine|aubergine|
+begun-bhaja|1|curcuma|curcuma|
+begun-bhaja|2|piment kashmiri|piment-kashmiri|re-annotee : le referentiel a gagne l entree precise
+begun-bhaja|3|farine de riz|farine-de-riz|
+begun-bhaja|4|huile de moutarde|huile-de-moutarde|
+begun-bhaja|5|sucre|sucre|
+begun-bhaja|6|sel|sel|
+bhuna-khichuri|0|riz basmati|riz-basmati|
+bhuna-khichuri|1|lentille corail|lentille-corail|
+bhuna-khichuri|2|oignon|oignon|
+bhuna-khichuri|3|pâte gingembre-ail|pate-gingembre-ail|
+bhuna-khichuri|4|curcuma|curcuma|
+bhuna-khichuri|5|cumin|cumin|
+bhuna-khichuri|6|cardamome|cardamome|
+bhuna-khichuri|7|cannelle|cannelle|
+bhuna-khichuri|8|laurier|laurier|
+bhuna-khichuri|9|piment frais|piment-frais|
+bhuna-khichuri|10|ghee|ghee|
+bhuna-khichuri|11|garam masala|garam-masala|
+bhuna-khichuri|12|sel|sel|
+borhani|0|yaourt|yaourt|
+borhani|1|eau|eau|
+borhani|2|menthe fraîche|menthe-fraiche|
+borhani|3|coriandre fraîche|coriandre-fraiche|
+borhani|4|piment frais|piment-frais|
+borhani|5|graine de moutarde|graine-de-moutarde|
+borhani|6|cumin|cumin|
+borhani|7|chaat masala|chaat-masala|
+borhani|8|sucre|sucre|
+borhani|9|sel|sel|
+chingri-malai-curry|0|crevette|crevette|
+chingri-malai-curry|1|lait de coco|lait-de-coco|
+chingri-malai-curry|2|oignon|oignon|
+chingri-malai-curry|3|pâte gingembre-ail|pate-gingembre-ail|
+chingri-malai-curry|4|curcuma|curcuma|
+chingri-malai-curry|5|piment kashmiri|piment-kashmiri|re-annotee : le referentiel a gagne l entree precise
+chingri-malai-curry|6|cardamome|cardamome|
+chingri-malai-curry|7|cannelle|cannelle|
+chingri-malai-curry|8|sucre|sucre|
+chingri-malai-curry|9|piment frais|piment-frais|
+chingri-malai-curry|10|huile de moutarde|huile-de-moutarde|
+chingri-malai-curry|11|sel|sel|
+chotpoti|0|pois chiche sec|pois-chiche-sec|
+chotpoti|1|pomme de terre|pomme-de-terre|
+chotpoti|2|pâte de tamarin|pate-de-tamarin|
+chotpoti|3|oignon|oignon|
+chotpoti|4|oeuf|oeuf|
+chotpoti|5|cumin|cumin|
+chotpoti|6|chaat masala|chaat-masala|
+chotpoti|7|piment en poudre|piment-en-poudre|
+chotpoti|8|piment frais|piment-frais|
+chotpoti|9|coriandre fraîche|coriandre-fraiche|
+chotpoti|10|huile neutre|huile-neutre|
+chotpoti|11|sel|sel|
+doodh-cha|0|thé vert|the-vert|
+doodh-cha|1|eau|eau|
+doodh-cha|2|lait entier|lait-entier|
+doodh-cha|3|sucre|sucre|
+doodh-cha|4|cardamome|cardamome|
+doodh-cha|5|cannelle|cannelle|
+firni|0|riz basmati|riz-basmati|
+firni|1|lait entier|lait-entier|
+firni|2|sucre|sucre|
+firni|3|cardamome|cardamome|
+firni|4|safran|safran|
+firni|5|pistache|pistache|
+firni|6|amande effilée|amande-effilee|
+firni|7|eau de rose|eau-de-rose|
+fuchka|0|semoule fine|semoule-fine|
+fuchka|1|farine de blé|farine-de-ble|
+fuchka|2|bicarbonate|bicarbonate|
+fuchka|3|pois chiche en conserve|pois-chiche-en-conserve|
+fuchka|4|pomme de terre|pomme-de-terre|
+fuchka|5|oignon|oignon|
+fuchka|6|pâte de tamarin|pate-de-tamarin|
+fuchka|7|chaat masala|chaat-masala|
+fuchka|8|cumin|cumin|
+fuchka|9|coriandre fraîche|coriandre-fraiche|
+fuchka|10|piment frais|piment-frais|
+fuchka|11|huile neutre|huile-neutre|
+fuchka|12|sel|sel|
+ilish-bhapa|0|hilsa|hilsa|
+ilish-bhapa|1|graine de moutarde|graine-de-moutarde|
+ilish-bhapa|2|coco râpé|coco-rape|
+ilish-bhapa|3|yaourt|yaourt|
+ilish-bhapa|4|piment frais|piment-frais|
+ilish-bhapa|5|curcuma|curcuma|
+ilish-bhapa|6|huile de moutarde|huile-de-moutarde|
+ilish-bhapa|7|sel|sel|
+jhal-muri|0|riz soufflé|riz-souffle|
+jhal-muri|1|oignon|oignon|
+jhal-muri|2|tomate|tomate|
+jhal-muri|3|pomme de terre|pomme-de-terre|
+jhal-muri|4|pois chiche en conserve|pois-chiche-en-conserve|
+jhal-muri|5|piment frais|piment-frais|
+jhal-muri|6|huile de moutarde|huile-de-moutarde|
+jhal-muri|7|chaat masala|chaat-masala|
+jhal-muri|8|citron|citron|
+jhal-muri|9|arachide grillée|arachide-grillee|
+jhal-muri|10|coriandre fraîche|coriandre-fraiche|
+jhal-muri|11|sel|sel|
+kacchi-biryani|0|épaule d'agneau|epaule-d-agneau|
+kacchi-biryani|1|riz basmati|riz-basmati|
+kacchi-biryani|2|yaourt|yaourt|
+kacchi-biryani|3|papaye|papaye|
+kacchi-biryani|4|pâte gingembre-ail|pate-gingembre-ail|
+kacchi-biryani|5|garam masala|garam-masala|
+kacchi-biryani|6|piment kashmiri|piment-kashmiri|re-annotee : le referentiel a gagne l entree precise
+kacchi-biryani|7|oignon|oignon|
+kacchi-biryani|8|pomme de terre|pomme-de-terre|
+kacchi-biryani|9|safran|safran|
+kacchi-biryani|10|lait|lait|
+kacchi-biryani|11|cardamome|cardamome|
+kacchi-biryani|12|cardamome noire|cardamome-noire|
+kacchi-biryani|13|ghee|ghee|
+kacchi-biryani|14|pruneau|pruneau|
+kacchi-biryani|15|sel|sel|
+mishti-doi|0|lait entier|lait-entier|
+mishti-doi|1|panela|panela|
+mishti-doi|2|yaourt|yaourt|
+mishti-doi|3|cardamome|cardamome|
+morog-polao|0|poulet entier|poulet-entier|
+morog-polao|1|riz basmati|riz-basmati|
+morog-polao|2|yaourt|yaourt|
+morog-polao|3|oignon|oignon|
+morog-polao|4|pâte gingembre-ail|pate-gingembre-ail|
+morog-polao|5|cardamome|cardamome|
+morog-polao|6|cannelle|cannelle|
+morog-polao|7|clou de girofle|clou-de-girofle|
+morog-polao|8|sucre|sucre|
+morog-polao|9|ghee|ghee|
+morog-polao|10|piment frais|piment-frais|
+morog-polao|11|lait|lait|
+morog-polao|12|sel|sel|
+musur-dal|0|lentille corail|lentille-corail|
+musur-dal|1|curcuma|curcuma|
+musur-dal|2|panch phoron|panch-phoron|
+musur-dal|3|piment séché|piment-seche|
+musur-dal|4|oignon|oignon|
+musur-dal|5|ail|ail|
+musur-dal|6|laurier|laurier|
+musur-dal|7|huile de moutarde|huile-de-moutarde|
+musur-dal|8|coriandre fraîche|coriandre-fraiche|
+musur-dal|9|sel|sel|
+patishapta|0|farine de riz|farine-de-riz|
+patishapta|1|semoule fine|semoule-fine|
+patishapta|2|farine de blé|farine-de-ble|
+patishapta|3|lait|lait|
+patishapta|4|sucre|sucre|
+patishapta|5|coco râpé|coco-rape|
+patishapta|6|panela|panela|
+patishapta|7|lait concentré sucré|lait-concentre-sucre|
+patishapta|8|cardamome|cardamome|
+patishapta|9|ghee|ghee|
+patishapta|10|sel|sel|
+roshogolla|0|lait entier|lait-entier|
+roshogolla|1|vinaigre blanc|vinaigre-blanc|
+roshogolla|2|semoule fine|semoule-fine|
+roshogolla|3|sucre|sucre|
+roshogolla|4|eau|eau|
+roshogolla|5|cardamome|cardamome|
+roshogolla|6|eau de rose|eau-de-rose|
+shorshe-ilish|0|hilsa|hilsa|
+shorshe-ilish|1|graine de moutarde|graine-de-moutarde|
+shorshe-ilish|2|piment frais|piment-frais|
+shorshe-ilish|3|curcuma|curcuma|
+shorshe-ilish|4|huile de moutarde|huile-de-moutarde|
+shorshe-ilish|5|graine de nigelle|graine-de-nigelle|
+shorshe-ilish|6|sel|sel|
+shutki-bhuna|0|shutki|shutki|
+shutki-bhuna|1|oignon|oignon|
+shutki-bhuna|2|ail|ail|
+shutki-bhuna|3|piment frais|piment-frais|
+shutki-bhuna|4|piment kashmiri|piment-kashmiri|re-annotee : le referentiel a gagne l entree precise
+shutki-bhuna|5|curcuma|curcuma|
+shutki-bhuna|6|tomate|tomate|
+shutki-bhuna|7|huile de moutarde|huile-de-moutarde|
+shutki-bhuna|8|coriandre fraîche|coriandre-fraiche|
+shutki-bhuna|9|sel|sel|
+aloo-ko-achar|0|pomme de terre|pomme-de-terre|
+aloo-ko-achar|1|sésame|sesame|
+aloo-ko-achar|2|concombre|concombre|
+aloo-ko-achar|3|citron|citron|
+aloo-ko-achar|4|timur|timur|
+aloo-ko-achar|5|piment en poudre|piment-en-poudre|
+aloo-ko-achar|6|fenugrec|fenugrec|
+aloo-ko-achar|7|curcuma|curcuma|
+aloo-ko-achar|8|huile de moutarde|huile-de-moutarde|
+aloo-ko-achar|9|coriandre fraîche|coriandre-fraiche|
+aloo-ko-achar|10|sel|sel|
+aloo-tama|0|pousse de bambou|pousse-de-bambou|
+aloo-tama|1|pomme de terre|pomme-de-terre|
+aloo-tama|2|haricot mungo|haricot-mungo|
+aloo-tama|3|tomate|tomate|
+aloo-tama|4|oignon|oignon|
+aloo-tama|5|pâte gingembre-ail|pate-gingembre-ail|
+aloo-tama|6|curcuma|curcuma|
+aloo-tama|7|timur|timur|
+aloo-tama|8|fenugrec|fenugrec|
+aloo-tama|9|huile de moutarde|huile-de-moutarde|
+aloo-tama|10|sel|sel|
+bara|0|lentille noire|lentille-noire|
+bara|1|gingembre|gingembre|
+bara|2|timur|timur|
+bara|3|asafoetida|asafoetida|
+bara|4|oeuf|oeuf|
+bara|5|coriandre fraîche|coriandre-fraiche|
+bara|6|piment frais|piment-frais|
+bara|7|huile de moutarde|huile-de-moutarde|
+bara|8|sel|sel|
+chatamari|0|farine de riz|farine-de-riz|
+chatamari|1|eau|eau|
+chatamari|2|agneau haché|agneau-hache|
+chatamari|3|oeuf|oeuf|
+chatamari|4|oignon|oignon|
+chatamari|5|pâte gingembre-ail|pate-gingembre-ail|
+chatamari|6|timur|timur|
+chatamari|7|garam masala|garam-masala|
+chatamari|8|coriandre fraîche|coriandre-fraiche|
+chatamari|9|huile de moutarde|huile-de-moutarde|
+chatamari|10|sel|sel|
+choila|0|gigot d'agneau|gigot-d-agneau|
+choila|1|piment en poudre|piment-en-poudre|
+choila|2|timur|timur|
+choila|3|pâte gingembre-ail|pate-gingembre-ail|
+choila|4|curcuma|curcuma|
+choila|5|fenugrec|fenugrec|
+choila|6|oignon rouge|oignon-rouge|
+choila|7|coriandre fraîche|coriandre-fraiche|
+choila|8|citron vert|citron-vert|
+choila|9|huile de moutarde|huile-de-moutarde|
+choila|10|sel|sel|
+dal-bhat|0|riz long grain|riz-long-grain|
+dal-bhat|1|lentille corail|lentille-corail|
+dal-bhat|2|curcuma|curcuma|
+dal-bhat|3|cumin|cumin|
+dal-bhat|4|asafoetida|asafoetida|
+dal-bhat|5|ail|ail|
+dal-bhat|6|piment séché|piment-seche|
+dal-bhat|7|pomme de terre|pomme-de-terre|
+dal-bhat|8|chou-fleur|chou-fleur|
+dal-bhat|9|tomate|tomate|
+dal-bhat|10|pâte gingembre-ail|pate-gingembre-ail|
+dal-bhat|11|huile de moutarde|huile-de-moutarde|
+dal-bhat|12|garam masala|garam-masala|
+dal-bhat|13|sel|sel|
+dhido|0|farine de sarrasin|farine-de-sarrasin|
+dhido|1|eau|eau|
+dhido|2|sel|sel|
+dhido|3|ghee|ghee|
+gundruk-ko-jhol|0|gundruk|gundruk|
+gundruk-ko-jhol|1|pomme de terre|pomme-de-terre|
+gundruk-ko-jhol|2|haricot mungo|haricot-mungo|
+gundruk-ko-jhol|3|tomate|tomate|
+gundruk-ko-jhol|4|oignon|oignon|
+gundruk-ko-jhol|5|pâte gingembre-ail|pate-gingembre-ail|
+gundruk-ko-jhol|6|curcuma|curcuma|
+gundruk-ko-jhol|7|timur|timur|
+gundruk-ko-jhol|8|piment séché|piment-seche|
+gundruk-ko-jhol|9|huile de moutarde|huile-de-moutarde|
+gundruk-ko-jhol|10|sel|sel|
+juju-dhau|0|lait entier|lait-entier|
+juju-dhau|1|sucre|sucre|
+juju-dhau|2|yaourt|yaourt|
+juju-dhau|3|cardamome|cardamome|
+juju-dhau|4|clou de girofle|clou-de-girofle|
+juju-dhau|5|muscade|muscade|
+khasi-ko-masu|0|viande de chèvre|chevre-viande|
+khasi-ko-masu|1|oignon|oignon|
+khasi-ko-masu|2|pâte gingembre-ail|pate-gingembre-ail|
+khasi-ko-masu|3|tomate|tomate|
+khasi-ko-masu|4|timur|timur|
+khasi-ko-masu|5|piment en poudre|piment-en-poudre|
+khasi-ko-masu|6|coriandre graines|coriandre-graines|
+khasi-ko-masu|7|curcuma|curcuma|
+khasi-ko-masu|8|garam masala|garam-masala|
+khasi-ko-masu|9|cardamome noire|cardamome-noire|
+khasi-ko-masu|10|huile de moutarde|huile-de-moutarde|
+khasi-ko-masu|11|coriandre fraîche|coriandre-fraiche|
+khasi-ko-masu|12|sel|sel|
+kwati|0|haricot mungo|haricot-mungo|
+kwati|1|pois chiche sec|pois-chiche-sec|
+kwati|2|haricot rouge|haricot-rouge|
+kwati|3|haricot blanc|haricot-blanc|
+kwati|4|niébé|niebe|
+kwati|5|pois cassé|pois-casse|
+kwati|6|oignon|oignon|
+kwati|7|pâte gingembre-ail|pate-gingembre-ail|
+kwati|8|timur|timur|
+kwati|9|curcuma|curcuma|
+kwati|10|graine de nigelle|graine-de-nigelle|
+kwati|11|huile de moutarde|huile-de-moutarde|
+kwati|12|sel|sel|
+masala-chiya|0|thé vert|the-vert|
+masala-chiya|1|eau|eau|
+masala-chiya|2|lait entier|lait-entier|
+masala-chiya|3|cardamome|cardamome|
+masala-chiya|4|clou de girofle|clou-de-girofle|
+masala-chiya|5|cannelle|cannelle|
+masala-chiya|6|gingembre|gingembre|
+masala-chiya|7|poivre noir|poivre-noir|
+masala-chiya|8|sucre|sucre|
+momo|0|farine de blé|farine-de-ble|
+momo|1|eau|eau|
+momo|2|agneau haché|agneau-hache|
+momo|3|oignon|oignon|
+momo|4|pâte gingembre-ail|pate-gingembre-ail|
+momo|5|coriandre fraîche|coriandre-fraiche|
+momo|6|timur|timur|
+momo|7|garam masala|garam-masala|
+momo|8|huile de moutarde|huile-de-moutarde|
+momo|9|tomate|tomate|
+momo|10|piment séché|piment-seche|
+momo|11|sésame|sesame|
+momo|12|sel|sel|
+phapar-roti|0|farine de sarrasin|farine-de-sarrasin|
+phapar-roti|1|farine de blé|farine-de-ble|
+phapar-roti|2|eau|eau|
+phapar-roti|3|sel|sel|
+phapar-roti|4|oignon|oignon|
+phapar-roti|5|huile de moutarde|huile-de-moutarde|
+sekuwa|0|gigot d'agneau|gigot-d-agneau|
+sekuwa|1|yaourt|yaourt|
+sekuwa|2|pâte gingembre-ail|pate-gingembre-ail|
+sekuwa|3|piment en poudre|piment-en-poudre|
+sekuwa|4|timur|timur|
+sekuwa|5|cumin|cumin|
+sekuwa|6|curcuma|curcuma|
+sekuwa|7|garam masala|garam-masala|
+sekuwa|8|huile de moutarde|huile-de-moutarde|
+sekuwa|9|citron vert|citron-vert|
+sekuwa|10|sel|sel|
+sel-roti|0|riz long grain|riz-long-grain|
+sel-roti|1|sucre|sucre|
+sel-roti|2|beurre|beurre|
+sel-roti|3|lait|lait|
+sel-roti|4|banane|banane|
+sel-roti|5|cardamome|cardamome|
+sel-roti|6|sel|sel|
+sel-roti|7|huile neutre|huile-neutre|
+sikarni|0|yaourt grec|yaourt-grec|
+sikarni|1|sucre glace|sucre-glace|
+sikarni|2|safran|safran|
+sikarni|3|cardamome|cardamome|
+sikarni|4|muscade|muscade|
+sikarni|5|pistache|pistache|
+sikarni|6|amande effilée|amande-effilee|
+sikarni|7|poivre noir|poivre-noir|
+sukuti|0|viande séchée|viande-sechee|
+sukuti|1|oignon rouge|oignon-rouge|
+sukuti|2|tomate|tomate|
+sukuti|3|piment en poudre|piment-en-poudre|
+sukuti|4|timur|timur|
+sukuti|5|pâte gingembre-ail|pate-gingembre-ail|
+sukuti|6|cumin|cumin|
+sukuti|7|coriandre fraîche|coriandre-fraiche|
+sukuti|8|citron vert|citron-vert|
+sukuti|9|huile de moutarde|huile-de-moutarde|
+sukuti|10|sel|sel|
+thukpa|0|nouilles de blé|nouilles-de-ble|
+thukpa|1|gigot d'agneau|gigot-d-agneau|
+thukpa|2|carotte|carotte|
+thukpa|3|chou blanc|chou-blanc|
+thukpa|4|oignon|oignon|
+thukpa|5|tomate|tomate|
+thukpa|6|pâte gingembre-ail|pate-gingembre-ail|
+thukpa|7|timur|timur|
+thukpa|8|curcuma|curcuma|
+thukpa|9|bouillon volaille|bouillon-volaille|
+thukpa|10|coriandre fraîche|coriandre-fraiche|
+thukpa|11|huile de moutarde|huile-de-moutarde|
+thukpa|12|sel|sel|
+yomari|0|farine de riz|farine-de-riz|
+yomari|1|eau|eau|
+yomari|2|mélasse|melasse|
+yomari|3|sésame|sesame|
+yomari|4|coco râpé|coco-rape|
+yomari|5|cardamome|cardamome|
+yomari|6|sel|sel|
+appa|0|farine de riz|farine-de-riz|
+appa|1|lait de coco|lait-de-coco|
+appa|2|levure boulangère|levure-boulangere|
+appa|3|sucre|sucre|
+appa|4|eau|eau|
+appa|5|oeuf|oeuf|
+appa|6|sel|sel|
+appa|7|huile de coco|huile-de-coco|
+brinjal-moju|0|aubergine|aubergine|
+brinjal-moju|1|oignon rouge|oignon-rouge|
+brinjal-moju|2|piment frais|piment-frais|
+brinjal-moju|3|curcuma|curcuma|
+brinjal-moju|4|moutarde|moutarde|
+brinjal-moju|5|vinaigre blanc|vinaigre-blanc|
+brinjal-moju|6|sucre|sucre|
+brinjal-moju|7|feuille de curry|feuille-de-curry|
+brinjal-moju|8|huile de coco|huile-de-coco|
+brinjal-moju|9|sel|sel|
+fish-ambul-thiyal|0|thon|thon|
+fish-ambul-thiyal|1|goraka|goraka|
+fish-ambul-thiyal|2|poivre noir|poivre-noir|
+fish-ambul-thiyal|3|pâte gingembre-ail|pate-gingembre-ail|
+fish-ambul-thiyal|4|cannelle|cannelle|
+fish-ambul-thiyal|5|feuille de curry|feuille-de-curry|
+fish-ambul-thiyal|6|feuille de pandan|feuille-de-pandan|
+fish-ambul-thiyal|7|curcuma|curcuma|
+fish-ambul-thiyal|8|huile de coco|huile-de-coco|
+fish-ambul-thiyal|9|sel|sel|
+gotu-kola-sambol|0|gotu kola|gotu-kola|
+gotu-kola-sambol|1|coco râpé|coco-rape|
+gotu-kola-sambol|2|oignon rouge|oignon-rouge|
+gotu-kola-sambol|3|piment frais|piment-frais|
+gotu-kola-sambol|4|tomate|tomate|
+gotu-kola-sambol|5|citron vert|citron-vert|
+gotu-kola-sambol|6|poisson des Maldives|poisson-des-maldives|
+gotu-kola-sambol|7|sel|sel|
+idiyappam|0|farine de riz|farine-de-riz|
+idiyappam|1|eau|eau|
+idiyappam|2|sel|sel|
+idiyappam|3|coco râpé|coco-rape|
+idiyappam|4|huile de coco|huile-de-coco|
+isso-badun|0|crevette|crevette|
+isso-badun|1|oignon rouge|oignon-rouge|
+isso-badun|2|poivron vert|poivron-vert|
+isso-badun|3|piment en poudre|piment-en-poudre|
+isso-badun|4|curcuma|curcuma|
+isso-badun|5|sauce piquante|sauce-piquante|
+isso-badun|6|concentré de tomate|concentre-de-tomate|
+isso-badun|7|feuille de curry|feuille-de-curry|
+isso-badun|8|pâte gingembre-ail|pate-gingembre-ail|
+isso-badun|9|huile de coco|huile-de-coco|
+isso-badun|10|citron vert|citron-vert|
+isso-badun|11|sel|sel|
+kaju-curry|0|noix de cajou|noix-de-cajou|
+kaju-curry|1|petits pois surgelés|petits-pois-surgeles|
+kaju-curry|2|lait de coco|lait-de-coco|
+kaju-curry|3|oignon|oignon|
+kaju-curry|4|curcuma|curcuma|
+kaju-curry|5|poudre de curry|poudre-de-curry|
+kaju-curry|6|feuille de curry|feuille-de-curry|
+kaju-curry|7|feuille de pandan|feuille-de-pandan|
+kaju-curry|8|cannelle|cannelle|
+kaju-curry|9|huile de coco|huile-de-coco|
+kaju-curry|10|sel|sel|
+kavum|0|farine de riz|farine-de-riz|
+kavum|1|mélasse|melasse|
+kavum|2|lait de coco|lait-de-coco|
+kavum|3|cardamome|cardamome|
+kavum|4|sel|sel|
+kavum|5|huile de coco|huile-de-coco|
+kiri-te|0|thé vert|the-vert|
+kiri-te|1|eau|eau|
+kiri-te|2|lait concentré sucré|lait-concentre-sucre|
+kiri-te|3|sucre|sucre|
+kiri-te|4|cardamome|cardamome|
+kiribath|0|riz rond|riz-rond|
+kiribath|1|lait de coco|lait-de-coco|
+kiribath|2|eau|eau|
+kiribath|3|feuille de pandan|feuille-de-pandan|
+kiribath|4|sel|sel|
+kola-kanda|0|riz brun|riz-brun|
+kola-kanda|1|gotu kola|gotu-kola|
+kola-kanda|2|lait de coco|lait-de-coco|
+kola-kanda|3|eau|eau|
+kola-kanda|4|ail|ail|
+kola-kanda|5|panela|panela|
+kola-kanda|6|sel|sel|
+kottu-roti|0|chapati|chapati|
+kottu-roti|1|blanc de poulet|blanc-de-poulet|
+kottu-roti|2|oeuf|oeuf|
+kottu-roti|3|oignon|oignon|
+kottu-roti|4|poireau|poireau|
+kottu-roti|5|carotte|carotte|
+kottu-roti|6|piment frais|piment-frais|
+kottu-roti|7|poudre de curry|poudre-de-curry|
+kottu-roti|8|feuille de curry|feuille-de-curry|
+kottu-roti|9|lait de coco|lait-de-coco|
+kottu-roti|10|huile de coco|huile-de-coco|
+kottu-roti|11|sel|sel|
+kottu-roti|12|poivre noir|poivre-noir|
+kukul-mas-curry|0|cuisse de poulet|cuisse-de-poulet|
+kukul-mas-curry|1|poudre de curry|poudre-de-curry|
+kukul-mas-curry|2|piment en poudre|piment-en-poudre|
+kukul-mas-curry|3|curcuma|curcuma|
+kukul-mas-curry|4|oignon|oignon|
+kukul-mas-curry|5|citronnelle|citronnelle|
+kukul-mas-curry|6|feuille de pandan|feuille-de-pandan|
+kukul-mas-curry|7|feuille de curry|feuille-de-curry|
+kukul-mas-curry|8|cannelle|cannelle|
+kukul-mas-curry|9|lait de coco|lait-de-coco|
+kukul-mas-curry|10|pâte gingembre-ail|pate-gingembre-ail|
+kukul-mas-curry|11|huile de coco|huile-de-coco|
+kukul-mas-curry|12|citron vert|citron-vert|
+kukul-mas-curry|13|sel|sel|
+mallung|0|épinard|epinard|
+mallung|1|coco râpé|coco-rape|
+mallung|2|oignon|oignon|
+mallung|3|curcuma|curcuma|
+mallung|4|piment frais|piment-frais|
+mallung|5|graine de moutarde|graine-de-moutarde|
+mallung|6|citron vert|citron-vert|
+mallung|7|huile de coco|huile-de-coco|
+mallung|8|sel|sel|
+parippu|0|lentille corail|lentille-corail|
+parippu|1|lait de coco|lait-de-coco|
+parippu|2|curcuma|curcuma|
+parippu|3|oignon|oignon|
+parippu|4|feuille de curry|feuille-de-curry|
+parippu|5|feuille de pandan|feuille-de-pandan|
+parippu|6|piment séché|piment-seche|
+parippu|7|graine de moutarde|graine-de-moutarde|
+parippu|8|fenugrec|fenugrec|
+parippu|9|huile de coco|huile-de-coco|
+parippu|10|sel|sel|
+pol-roti|0|farine de blé|farine-de-ble|
+pol-roti|1|coco râpé|coco-rape|
+pol-roti|2|oignon|oignon|
+pol-roti|3|piment frais|piment-frais|
+pol-roti|4|eau|eau|
+pol-roti|5|sel|sel|
+pol-roti|6|huile de coco|huile-de-coco|
+pol-sambol|0|coco râpé|coco-rape|
+pol-sambol|1|piment en poudre|piment-en-poudre|
+pol-sambol|2|oignon rouge|oignon-rouge|
+pol-sambol|3|poisson des Maldives|poisson-des-maldives|
+pol-sambol|4|citron vert|citron-vert|
+pol-sambol|5|poivre noir|poivre-noir|
+pol-sambol|6|sel|sel|
+polos-curry|0|jacquier|jacquier|
+polos-curry|1|lait de coco|lait-de-coco|
+polos-curry|2|oignon|oignon|
+polos-curry|3|poudre de curry|poudre-de-curry|
+polos-curry|4|curcuma|curcuma|
+polos-curry|5|piment en poudre|piment-en-poudre|
+polos-curry|6|goraka|goraka|
+polos-curry|7|feuille de curry|feuille-de-curry|
+polos-curry|8|feuille de pandan|feuille-de-pandan|
+polos-curry|9|citronnelle|citronnelle|
+polos-curry|10|huile de coco|huile-de-coco|
+polos-curry|11|sel|sel|
+seeni-sambol|0|oignon rouge|oignon-rouge|
+seeni-sambol|1|piment en poudre|piment-en-poudre|
+seeni-sambol|2|poisson des Maldives|poisson-des-maldives|
+seeni-sambol|3|pâte de tamarin|pate-de-tamarin|
+seeni-sambol|4|panela|panela|
+seeni-sambol|5|cannelle|cannelle|
+seeni-sambol|6|feuille de curry|feuille-de-curry|
+seeni-sambol|7|citronnelle|citronnelle|
+seeni-sambol|8|huile de coco|huile-de-coco|
+seeni-sambol|9|sel|sel|
+watalappan|0|panela|panela|
+watalappan|1|lait de coco|lait-de-coco|
+watalappan|2|oeuf|oeuf|
+watalappan|3|cardamome|cardamome|
+watalappan|4|muscade|muscade|
+watalappan|5|clou de girofle|clou-de-girofle|
+watalappan|6|noix de cajou|noix-de-cajou|
+watalappan|7|sel|sel|

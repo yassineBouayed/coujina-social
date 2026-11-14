@@ -1,0 +1,36 @@
+{
+  "slug": "elote",
+  "cuisine": "latin-american",
+  "country": "mexique",
+  "origin": "Mexique",
+  "native_name": "Elote",
+  "title": {
+    "fr": "Épi de maïs grillé à la mexicaine",
+    "en": "Mexican grilled corn on the cob"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 15, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "mais", "grill", "rapide"],
+  "ingredients": [
+    { "raw": "6 épis de maïs", "qty": 6, "unit": "piece", "item": "maïs doux", "prep": "en épis" },
+    { "raw": "15 cl de mayonnaise", "qty": 15, "unit": "cl", "item": "mayonnaise" },
+    { "raw": "15 cl de crème fraîche", "qty": 15, "unit": "cl", "item": "crème fraîche" },
+    { "raw": "200 g de queso fresco, râpé fin", "qty": 200, "unit": "g", "item": "queso fresco", "prep": "râpé fin" },
+    { "raw": "3 c. à s. de piment en poudre", "qty": 3, "unit": "tbsp", "item": "piment en poudre" },
+    { "raw": "3 citrons verts, en quartiers", "qty": 3, "unit": "piece", "item": "citron vert", "prep": "en quartiers" },
+    { "raw": "1/2 bouquet de coriandre, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Griller les épis À NU, sans papillote : le contact direct avec la flamme fait tout le goût.", "en": "Grill the cobs BARE, not wrapped: direct contact with the flame makes the flavour." },
+    { "fr": "Les grains doivent NOIRCIR par endroits : c'est ce brûlé qu'on cherche, pas une cuisson douce.", "en": "The kernels should BLACKEN in places: that char is what you want, not gentle cooking." },
+    { "fr": "Compter quinze minutes en les tournant tous les trois ou quatre minutes.", "en": "Allow fifteen minutes, turning every three or four minutes." },
+    { "fr": "Mêler mayonnaise et crème : c'est la « crema » qui fait tenir le fromage sur l'épi.", "en": "Mix the mayonnaise and cream: that \"crema\" is what makes the cheese stick to the cob." },
+    { "fr": "Badigeonner l'épi BRÛLANT, puis le rouler dans le fromage râpé fin.", "en": "Brush the SCALDING cob, then roll it in the finely grated cheese." },
+    { "fr": "Poudrer de piment et arroser de citron vert au dernier moment, et manger à la main.", "en": "Dust with chilli and squeeze lime over at the last moment, and eat it by hand." }
+  ]
+}

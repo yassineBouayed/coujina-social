@@ -1,0 +1,40 @@
+{
+  "slug": "wonton-tang",
+  "cuisine": "east-asian",
+  "country": "chine",
+  "origin": "Chine",
+  "native_name": "馄饨汤",
+  "title": {
+    "fr": "Soupe de wontons aux crevettes",
+    "en": "Wonton soup with prawns"
+  },
+  "meal_type": "soup",
+  "servings": 5,
+  "times": { "prep_min": 50, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["canton", "soupe", "ravioli", "reconfort"],
+  "ingredients": [
+    { "raw": "40 pâtes à wonton", "qty": 40, "unit": "piece", "item": "pâte à wonton" },
+    { "raw": "300 g de crevettes, décortiquées et hachées", "qty": 300, "unit": "g", "item": "crevette", "prep": "hachée", "group": "farce" },
+    { "raw": "250 g de porc haché", "qty": 250, "unit": "g", "item": "porc haché", "group": "farce" },
+    { "raw": "4 oignons nouveaux, ciselés", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé", "group": "farce" },
+    { "raw": "1 c. à s. de gingembre frais, haché", "qty": 1, "unit": "tbsp", "item": "gingembre", "prep": "haché", "group": "farce" },
+    { "raw": "2 c. à s. de sauce soja", "qty": 2, "unit": "tbsp", "item": "sauce soja", "group": "farce" },
+    { "raw": "1 c. à s. d'huile de sésame", "qty": 1, "unit": "tbsp", "item": "huile de sésame", "group": "farce" },
+    { "raw": "1,5 l de bouillon de volaille", "qty": 1.5, "unit": "l", "item": "bouillon volaille", "group": "bouillon" },
+    { "raw": "200 g de pak choï", "qty": 200, "unit": "g", "item": "pak choi", "group": "bouillon" },
+    { "raw": "1 morceau de gingembre frais", "qty": 1, "unit": "piece", "item": "gingembre", "group": "bouillon" },
+    { "raw": "sel et poivre blanc", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre blanc", "qty": null, "unit": null, "item": "poivre blanc" }
+  ],
+  "steps": [
+    { "fr": "Hacher les crevettes au couteau en gardant des morceaux : mixées, elles perdent tout leur croquant.", "en": "Chop the prawns with a knife, keeping some texture: blended, they lose all their bite." },
+    { "fr": "Battre la farce dans un seul sens jusqu'à ce qu'elle devienne collante et compacte.", "en": "Beat the filling in one direction until it turns tacky and compact." },
+    { "fr": "Déposer une petite cuillère au centre de chaque carré et refermer sans chasser tout l'air.", "en": "Place a small spoonful in the centre of each square and close it without pressing out all the air." },
+    { "fr": "Un wonton doit rester lâche : le bouillon doit pouvoir entrer dans les plis à la cuisson.", "en": "A wonton should stay loose: the broth needs to get into the folds as it cooks." },
+    { "fr": "Pocher les wontons dans de l'EAU, à part, quatre minutes, et non dans le bouillon.", "en": "Poach the wontons in WATER, separately, for four minutes, not in the broth." },
+    { "fr": "Répartir dans les bols avec le pak choï et verser le bouillon clair et brûlant par-dessus.", "en": "Divide them into bowls with the pak choi and pour the clear, scalding broth over." }
+  ]
+}

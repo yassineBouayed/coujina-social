@@ -1,0 +1,37 @@
+{
+  "slug": "schweinshaxe",
+  "cuisine": "western-european",
+  "country": "allemagne",
+  "origin": "Allemagne",
+  "native_name": "Schweinshaxe",
+  "title": {
+    "fr": "Jarret de porc rôti à la bière",
+    "en": "Roast pork knuckle with beer"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 180 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["baviere", "biere", "four", "fete"],
+  "ingredients": [
+    { "raw": "2 jarrets de porc", "qty": 2, "unit": "piece", "item": "jarret de porc" },
+    { "raw": "50 cl de bière brune", "qty": 50, "unit": "cl", "item": "bière" },
+    { "raw": "3 oignons, en quartiers", "qty": 3, "unit": "piece", "item": "oignon", "prep": "en quartiers" },
+    { "raw": "3 carottes, en tronçons", "qty": 3, "unit": "piece", "item": "carotte", "prep": "en tronçons" },
+    { "raw": "2 c. à s. de graines de carvi", "qty": 2, "unit": "tbsp", "item": "carvi" },
+    { "raw": "6 gousses d'ail", "qty": 6, "unit": "piece", "item": "ail" },
+    { "raw": "2 c. à s. de gros sel", "qty": 2, "unit": "tbsp", "item": "gros sel" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "QUADRILLER la couenne au couteau, sans entamer la chair : c'est ce qui la fait éclater en croustillant.", "en": "SCORE the rind in a diamond pattern, without cutting the flesh: that is what makes it puff and crisp." },
+    { "fr": "La frotter de gros sel et de carvi, et la laisser SÉCHER une nuit à découvert au frais.", "en": "Rub it with coarse salt and caraway, and let it DRY overnight uncovered in the fridge." },
+    { "fr": "Une couenne humide ne croustille jamais : elle cuit à la vapeur et reste molle.", "en": "Damp rind never crisps: it steams and stays soft." },
+    { "fr": "Cuire deux heures et demie à 160 °C, dans la bière et les légumes, à mi-hauteur du liquide.", "en": "Roast for two and a half hours at 160°C, in the beer and vegetables, half-submerged." },
+    { "fr": "Monter le four à 240 °C les vingt dernières minutes, en arrosant à la bière.", "en": "Raise the oven to 240°C for the last twenty minutes, basting with beer." },
+    { "fr": "Servir avec du chou rouge et une Knödel, et laisser reposer dix minutes avant de découper.", "en": "Serve with red cabbage and a dumpling, and rest ten minutes before carving." }
+  ]
+}

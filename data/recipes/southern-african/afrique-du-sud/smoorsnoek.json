@@ -1,0 +1,37 @@
+{
+  "slug": "smoorsnoek",
+  "cuisine": "southern-african",
+  "country": "afrique-du-sud",
+  "origin": "Afrique du Sud",
+  "native_name": "Smoorsnoek",
+  "title": {
+    "fr": "Smoorsnoek, poisson fumé étuvé aux pommes de terre",
+    "en": "Smoorsnoek, smoked fish smothered with potato"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 35 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["cap", "poisson-fume", "economique", "etuve"],
+  "ingredients": [
+    { "raw": "600 g de maquereau fumé, effeuillé", "qty": 600, "unit": "g", "item": "maquereau", "prep": "fumé et effeuillé" },
+    { "raw": "4 pommes de terre, en cubes", "qty": 4, "unit": "piece", "item": "pomme de terre", "prep": "en cubes" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "2 tomates, en dés", "qty": 2, "unit": "piece", "item": "tomate", "prep": "en dés" },
+    { "raw": "1 piment frais, haché", "qty": 1, "unit": "piece", "item": "piment frais", "prep": "haché", "optional": true },
+    { "raw": "5 c. à s. d'huile neutre", "qty": 5, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "1 c. à c. de sucre", "qty": 1, "unit": "tsp", "item": "sucre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Effeuiller le poisson fumé à la main en retirant soigneusement toutes les arêtes.", "en": "Flake the smoked fish by hand, carefully removing every bone." },
+    { "fr": "Faire fondre les oignons dans l'huile quinze minutes, à couvert, sans les colorer.", "en": "Melt the onions in the oil for fifteen minutes, covered, without colouring them." },
+    { "fr": "Ajouter les pommes de terre, les tomates, le sucre et le piment, et couvrir.", "en": "Add the potatoes, tomatoes, sugar and chilli, and cover." },
+    { "fr": "Laisser étuver vingt minutes sans ajouter d'eau : c'est ce que veut dire smoor.", "en": "Smother for twenty minutes without adding water: that is what smoor means." },
+    { "fr": "Ajouter le poisson en dernier et le réchauffer cinq minutes, sans remuer.", "en": "Add the fish last and warm it through for five minutes, without stirring." },
+    { "fr": "Saler avec prudence : le poisson fumé est déjà très salé.", "en": "Salt cautiously: smoked fish is already very salty." }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "aguapanela-con-limon",
+  "cuisine": "latin-american",
+  "country": "colombie",
+  "origin": "Colombie",
+  "native_name": "Aguapanela",
+  "title": {
+    "fr": "Aguapanela au citron vert",
+    "en": "Aguapanela with lime"
+  },
+  "meal_type": "drink",
+  "servings": 6,
+  "times": { "prep_min": 10, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["quotidien", "panela", "chaud-froid", "sans-alcool"],
+  "ingredients": [
+    { "raw": "400 g de panela", "qty": 400, "unit": "g", "item": "sucre de canne complet" },
+    { "raw": "2 l d'eau", "qty": 2, "unit": "l", "item": "eau" },
+    { "raw": "6 citrons verts, leur jus", "qty": 6, "unit": "piece", "item": "citron vert" },
+    { "raw": "2 bâtons de cannelle", "qty": 2, "unit": "piece", "item": "cannelle", "prep": "en bâton", "optional": true },
+    { "raw": "200 g de queso fresco", "qty": 200, "unit": "g", "item": "queso fresco", "optional": true }
+  ],
+  "steps": [
+    { "fr": "La PANELA est du jus de canne évaporé, vendu en blocs durs : elle n'est ni raffinée ni blanchie.", "en": "PANELA is evaporated cane juice sold in hard blocks: neither refined nor bleached." },
+    { "fr": "L'aguapanela est la boisson quotidienne colombienne, chaude le matin, glacée l'après-midi.", "en": "Aguapanela is Colombia's everyday drink: hot in the morning, iced in the afternoon." },
+    { "fr": "CASSER le bloc au couteau ou au marteau : entier, il met une heure à se dissoudre.", "en": "BREAK the block with a knife or hammer: whole, it takes an hour to dissolve." },
+    { "fr": "Faire bouillir vingt minutes en remuant, jusqu'à dissolution complète.", "en": "Boil for twenty minutes, stirring, until fully dissolved." },
+    { "fr": "Ajouter le citron vert FROID, hors du feu : à chaud, il devient amer.", "en": "Add the lime COLD, off the heat: hot, it turns bitter." },
+    { "fr": "En version chaude, on y trempe un morceau de queso fresco : il fond dedans, c'est la tradition.", "en": "In the hot version, a piece of fresh cheese is dipped in: it melts, and that is the tradition." }
+  ]
+}

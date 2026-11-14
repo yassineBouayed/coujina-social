@@ -1,0 +1,42 @@
+{
+  "slug": "kuy-teav",
+  "cuisine": "southeast-asian",
+  "country": "cambodge",
+  "origin": "Cambodge",
+  "native_name": "គុយទាវ",
+  "title": {
+    "fr": "Kuy teav, soupe de nouilles du matin",
+    "en": "Kuy teav, morning noodle soup"
+  },
+  "meal_type": "soup",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 180 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["petit-dejeuner", "bouillon", "nouilles", "rue"],
+  "ingredients": [
+    { "raw": "1,5 kg d'os de porc", "qty": 1500, "unit": "g", "item": "os à moelle" },
+    { "raw": "400 g de nouilles de riz", "qty": 400, "unit": "g", "item": "nouilles de riz" },
+    { "raw": "300 g de porc haché", "qty": 300, "unit": "g", "item": "porc haché" },
+    { "raw": "200 g de crevettes, décortiquées", "qty": 200, "unit": "g", "item": "crevette", "prep": "décortiquée" },
+    { "raw": "100 g de crevettes séchées", "qty": 100, "unit": "g", "item": "crevette séchée" },
+    { "raw": "1 daikon, en gros tronçons", "qty": 1, "unit": "piece", "item": "daikon", "prep": "en gros tronçons" },
+    { "raw": "2 oignons, coupés en deux", "qty": 2, "unit": "piece", "item": "oignon", "prep": "coupé en deux" },
+    { "raw": "1 morceau de gingembre", "qty": 1, "unit": "piece", "item": "gingembre" },
+    { "raw": "5 c. à s. de sauce poisson", "qty": 5, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "200 g de germes de soja", "qty": 200, "unit": "g", "item": "germes de soja", "group": "garniture" },
+    { "raw": "6 échalotes, frites", "qty": 6, "unit": "piece", "item": "échalote", "prep": "frite", "group": "garniture" },
+    { "raw": "1 bouquet de coriandre fraîche", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "group": "garniture" },
+    { "raw": "3 citrons verts, en quartiers", "qty": 3, "unit": "piece", "item": "citron vert", "group": "garniture" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le kuy teav se juge à la LIMPIDITÉ du bouillon : trouble, il trahit une cuisson trop vive.", "en": "Kuy teav is judged on the CLARITY of the broth: cloudy, it betrays too fierce a boil." },
+    { "fr": "Blanchir les os dix minutes, jeter l'eau, et les rincer un par un.", "en": "Blanch the bones for ten minutes, discard the water, and rinse them one by one." },
+    { "fr": "BRÛLER les oignons et le gingembre sur la flamme avant de les ajouter au bouillon.", "en": "CHAR the onions and ginger over a flame before adding them to the broth." },
+    { "fr": "Cuire TROIS HEURES à frémissement à peine visible, en écumant toutes les demi-heures.", "en": "Cook for THREE HOURS at a barely visible simmer, skimming every half hour." },
+    { "fr": "Ajouter crevettes séchées et daikon la dernière heure : ils donnent le sucré du bouillon.", "en": "Add the dried prawns and daikon in the last hour: they give the broth its sweetness." },
+    { "fr": "Monter le bol : nouilles blanchies, porc et crevettes pochés, puis le bouillon brûlant.", "en": "Build the bowl: blanched noodles, poached pork and prawns, then the scalding broth." }
+  ]
+}

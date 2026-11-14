@@ -1,0 +1,42 @@
+{
+  "slug": "bokit",
+  "cuisine": "caribbean",
+  "country": "guadeloupe",
+  "origin": "Guadeloupe",
+  "native_name": "Bokit",
+  "title": {
+    "fr": "Bokit guadeloupéen à la morue",
+    "en": "Guadeloupean fried bread with salt cod"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 45, "cook_min": 30 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["embleme", "rue", "friture", "sandwich"],
+  "ingredients": [
+    { "raw": "600 g de farine de blé", "qty": 600, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "35 cl d'eau tiède", "qty": 35, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "1 c. à s. de levure chimique", "qty": 1, "unit": "tbsp", "item": "levure chimique", "group": "pâte" },
+    { "raw": "2 c. à c. de sel", "qty": 2, "unit": "tsp", "item": "sel", "group": "pâte" },
+    { "raw": "2 c. à s. d'huile neutre", "qty": 2, "unit": "tbsp", "item": "huile neutre", "group": "pâte" },
+    { "raw": "400 g de morue salée, dessalée 36 h", "qty": 400, "unit": "g", "item": "morue salée", "prep": "dessalée 36 h", "group": "garniture" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé", "group": "garniture" },
+    { "raw": "6 gousses d'ail, écrasées", "qty": 6, "unit": "piece", "item": "ail", "prep": "écrasé", "group": "garniture" },
+    { "raw": "4 tomates, en rondelles", "qty": 4, "unit": "piece", "item": "tomate", "prep": "en rondelles", "group": "garniture" },
+    { "raw": "8 feuilles de laitue", "qty": 8, "unit": "piece", "item": "laitue", "group": "garniture" },
+    { "raw": "1 piment végétarien, haché", "qty": 1, "unit": "piece", "item": "piment végétarien", "prep": "haché", "group": "garniture" },
+    { "raw": "2 l d'huile neutre pour la friture", "qty": 2, "unit": "l", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le bokit est un PAIN FRIT, pas un beignet : la pâte est l'exercice, la garniture vient après.", "en": "The bokit is FRIED BREAD, not a fritter: the dough is the exercise, the filling comes after." },
+    { "fr": "La pâte est levée à la LEVURE CHIMIQUE, pas à la levure de boulanger : elle se fait en une heure.", "en": "The dough is raised with BAKING POWDER, not yeast: it is ready within an hour." },
+    { "fr": "La laisser reposer TRENTE MINUTES sous un linge : elle doit se détendre pour s'abaisser.", "en": "Rest it for THIRTY MINUTES under a cloth: it must relax before it can be rolled." },
+    { "fr": "L'abaisser à UN CENTIMÈTRE : plus fin, le bokit ne gonfle pas et devient une galette dure.", "en": "Roll it ONE CENTIMETRE thick: any thinner and the bokit will not puff, it becomes a hard flatbread." },
+    { "fr": "Frire à 170 °C en ARROSANT le dessus d'huile à la louche : c'est ce qui le fait gonfler en ballon.", "en": "Fry at 170°C, SPOONING oil over the top: that is what makes it balloon." },
+    { "fr": "L'ouvrir TIÈDE, en coupant un côté, et garnir : chaud, la vapeur brûle et le pain se déchire.", "en": "Open it WARM, cutting one side, and fill it: hot, the steam scalds and the bread tears." }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "satay-bee-hoon",
+  "cuisine": "southeast-asian",
+  "country": "singapour",
+  "origin": "Singapour",
+  "native_name": "沙爹米粉",
+  "title": {
+    "fr": "Vermicelles à la sauce satay",
+    "en": "Rice vermicelli in satay sauce"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 30, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hawker", "arachide", "vermicelle", "peranakan"],
+  "ingredients": [
+    { "raw": "400 g de vermicelles de riz", "qty": 400, "unit": "g", "item": "nouilles de riz" },
+    { "raw": "300 g de crevettes, décortiquées", "qty": 300, "unit": "g", "item": "crevette", "prep": "décortiquée" },
+    { "raw": "200 g de calamars, en anneaux", "qty": 200, "unit": "g", "item": "calamar", "prep": "en anneaux" },
+    { "raw": "200 g de germes de soja", "qty": 200, "unit": "g", "item": "germes de soja" },
+    { "raw": "200 g de chou chinois, en lanières", "qty": 200, "unit": "g", "item": "chou chinois", "prep": "en lanières" },
+    { "raw": "250 g de pâte d'arachide", "qty": 250, "unit": "g", "item": "pâte d'arachide", "group": "sauce" },
+    { "raw": "6 piments séchés, trempés", "qty": 6, "unit": "piece", "item": "piment séché", "prep": "trempé", "group": "sauce" },
+    { "raw": "6 échalotes", "qty": 6, "unit": "piece", "item": "échalote", "group": "sauce" },
+    { "raw": "2 tiges de citronnelle", "qty": 2, "unit": "piece", "item": "citronnelle", "group": "sauce" },
+    { "raw": "3 c. à s. de pâte de tamarin", "qty": 3, "unit": "tbsp", "item": "pâte de tamarin", "group": "sauce" },
+    { "raw": "4 c. à s. de sucre de palme", "qty": 4, "unit": "tbsp", "item": "sucre de palme", "group": "sauce" },
+    { "raw": "8 c. à s. d'huile neutre", "qty": 8, "unit": "tbsp", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Ce plat est une invention purement singapourienne : la sauce satay détournée en sauce à nouilles.", "en": "This dish is a purely Singaporean invention: satay sauce repurposed as a noodle sauce." },
+    { "fr": "Mixer piments, échalotes et citronnelle, et frire cette pâte quinze minutes.", "en": "Blend the chillies, shallots and lemongrass, and fry the paste for fifteen minutes." },
+    { "fr": "Ajouter la pâte d'arachide, le tamarin et le sucre de palme, et allonger d'eau chaude.", "en": "Add the peanut paste, tamarind and palm sugar, and let it down with hot water." },
+    { "fr": "La sauce doit NAPPER, pas couler : trop liquide, les vermicelles se noient au lieu d'être enrobés.", "en": "The sauce should COAT, not run: too thin, and the noodles drown instead of being coated." },
+    { "fr": "Blanchir vermicelles, légumes, crevettes et calamars séparément, chacun le temps qu'il faut.", "en": "Blanch the noodles, vegetables, prawns and squid separately, each for as long as it needs." },
+    { "fr": "Dresser dans le bol et napper de sauce satay tiède au moment de servir.", "en": "Plate them in the bowl and coat with the warm satay sauce as you serve." }
+  ]
+}

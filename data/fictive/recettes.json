@@ -1,0 +1,124 @@
+{
+  "_lisezmoi": "Recettes écrites par les personnes fictives. `copie_de` = copie AVEC modifications d'une autre recette (slug du livre, ou `key` d'une recette de ce fichier) : elle s'affichera « Recette de X · modifiée par Y ». `video` = une vidéo d'exemple libre de droits (elle ne montre pas le plat : c'est pour tester le lecteur).",
+  "recettes": [
+    {
+      "key": "msemen-amina", "auteur": "amina", "visibility": "public",
+      "title": "Msemen de ma mère", "native_name": "Msemen", "cuisine": "maghrebi", "country": "maroc",
+      "meal_type": "bread", "difficulty": "medium", "prep_min": 40, "cook_min": 20, "servings": 8, "jours": 12,
+      "description": "Les crêpes feuilletées du petit-déjeuner, pliées comme chez nous.",
+      "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+      "ingredients": ["500 g de farine de blé", "100 g de semoule fine", "1 c. à c. de sel", "30 cl d'eau tiède", "80 g de beurre fondu", "10 cl d'huile"],
+      "steps": ["Mélanger farine, semoule et sel, ajouter l'eau peu à peu et pétrir 10 minutes.", "Former des boules, huiler et laisser reposer 15 minutes.", "Étaler très finement, badigeonner de beurre, saupoudrer de semoule et plier en carré.", "Cuire à la poêle 3 minutes de chaque côté."]
+    },
+    {
+      "key": "harira-amina", "auteur": "amina", "visibility": "followers",
+      "title": "Harira du ramadan", "native_name": "Harira", "cuisine": "maghrebi", "country": "maroc",
+      "meal_type": "soup", "difficulty": "medium", "prep_min": 30, "cook_min": 90, "servings": 6, "jours": 3,
+      "description": "Réservée à mes abonnés : la version de la famille.",
+      "ingredients": ["300 g d'agneau en dés", "150 g de lentilles", "150 g de pois chiches trempés", "4 tomates", "1 oignon", "1 bouquet de coriandre", "1 bouquet de persil", "50 g de vermicelles", "2 c. à s. de farine"],
+      "steps": ["Faire revenir l'agneau et l'oignon.", "Ajouter tomates mixées, lentilles, pois chiches, herbes et 2 l d'eau ; cuire 1 h.", "Lier avec la farine délayée, ajouter les vermicelles, cuire 10 minutes."]
+    },
+    {
+      "key": "blanquette-lucas", "auteur": "lucas", "visibility": "public",
+      "title": "Blanquette du dimanche", "cuisine": "french", "country": "france",
+      "meal_type": "main", "difficulty": "medium", "prep_min": 30, "cook_min": 120, "servings": 6, "jours": 20,
+      "ingredients": ["1,2 kg de veau", "2 carottes", "1 oignon piqué de clous de girofle", "250 g de champignons", "20 cl de crème fraîche", "2 jaunes d'œufs", "40 g de beurre", "40 g de farine"],
+      "steps": ["Blanchir la viande, puis la cuire 1 h 30 avec les légumes dans l'eau froide.", "Faire un roux, mouiller avec le bouillon filtré.", "Lier hors du feu avec crème et jaunes, remettre la viande."]
+    },
+    {
+      "key": "msemen-miel-lucas", "auteur": "lucas", "visibility": "public", "copie_de": "msemen-amina",
+      "title": "Msemen au miel et à la fleur d'oranger", "native_name": "Msemen", "cuisine": "maghrebi", "country": "maroc",
+      "meal_type": "bread", "difficulty": "medium", "prep_min": 40, "cook_min": 20, "servings": 8, "jours": 2,
+      "description": "La recette d'Amina, avec un sirop de miel en plus.",
+      "ingredients": ["500 g de farine de blé", "100 g de semoule fine", "1 c. à c. de sel", "30 cl d'eau tiède", "80 g de beurre fondu", "10 cl d'huile", "4 c. à s. de miel", "1 c. à s. d'eau de fleur d'oranger"],
+      "steps": ["Pétrir comme la recette d'origine.", "Plier et cuire de la même façon.", "Chauffer miel et fleur d'oranger, napper à la sortie de la poêle."]
+    },
+    {
+      "key": "dal-priya", "auteur": "priya", "visibility": "public",
+      "title": "Dal tadka express", "cuisine": "south-asian", "country": "inde",
+      "meal_type": "main", "difficulty": "easy", "prep_min": 10, "cook_min": 25, "servings": 4, "jours": 1,
+      "ingredients": ["250 g de lentilles corail", "1 oignon", "2 tomates", "1 c. à c. de curcuma", "1 c. à c. de cumin en grains", "2 gousses d'ail", "2 c. à s. d'huile"],
+      "steps": ["Cuire les lentilles avec le curcuma 20 minutes.", "Faire crépiter le cumin dans l'huile, ajouter ail, oignon, tomates.", "Verser le tadka sur le dal."]
+    },
+    {
+      "key": "ramen-kenji", "auteur": "kenji", "visibility": "public",
+      "title": "Ramen shoyu maison", "native_name": "醤油ラーメン", "cuisine": "east-asian", "country": "japon",
+      "meal_type": "soup", "difficulty": "hard", "prep_min": 60, "cook_min": 240, "servings": 4, "jours": 6,
+      "video": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+      "ingredients": ["1 carcasse de poulet", "4 portions de nouilles ramen", "10 cl de sauce soja", "2 c. à s. de mirin", "4 œufs", "2 oignons nouveaux", "1 morceau de gingembre"],
+      "steps": ["Cuire la carcasse 4 h à frémissement avec gingembre.", "Mariner les œufs mollets dans soja et mirin.", "Assembler tare, bouillon, nouilles et garnitures."]
+    },
+    {
+      "key": "thieb-fatou", "auteur": "fatou", "visibility": "public",
+      "title": "Thiéboudienne de Fatou", "native_name": "Ceebu jën", "cuisine": "west-african", "country": "senegal",
+      "meal_type": "main", "difficulty": "hard", "prep_min": 45, "cook_min": 90, "servings": 6, "jours": 9,
+      "ingredients": ["1 kg de poisson (thiof ou mérou)", "500 g de riz brisé", "1 bouquet de persil", "3 c. à s. de concentré de tomate", "1 chou", "2 carottes", "1 aubergine", "1 manioc"],
+      "steps": ["Farcir le poisson au roff (persil, ail, piment).", "Cuire légumes et poisson dans la sauce tomate.", "Cuire le riz dans le bouillon jusqu'au xooñ."]
+    },
+    {
+      "key": "lasagnes-sofia", "auteur": "sofia", "visibility": "public",
+      "title": "Lasagnes sans gluten", "cuisine": "mediterranean", "country": "italie",
+      "meal_type": "main", "difficulty": "medium", "prep_min": 40, "cook_min": 45, "servings": 6, "jours": 15,
+      "declared_flags": ["dairy", "meat"],
+      "ingredients": ["12 feuilles de lasagnes sans gluten", "500 g de bœuf haché", "70 cl de coulis de tomate", "50 cl de lait", "40 g de fécule de maïs", "100 g de parmesan"],
+      "steps": ["Préparer une bolognaise.", "Béchamel à la fécule de maïs.", "Monter en couches et cuire 45 minutes à 180 °C."]
+    },
+    {
+      "key": "tacos-diego", "auteur": "diego", "visibility": "public",
+      "title": "Tacos al pastor de Diego", "native_name": "Tacos al pastor", "cuisine": "latin-american", "country": "mexique",
+      "meal_type": "main", "difficulty": "medium", "prep_min": 30, "cook_min": 30, "servings": 4, "jours": 4,
+      "ingredients": ["800 g d'échine de porc", "3 piments guajillo", "1/2 ananas", "12 tortillas de maïs", "1 oignon blanc", "1 bouquet de coriandre"],
+      "steps": ["Mariner le porc une nuit dans les piments.", "Griller avec l'ananas.", "Servir dans les tortillas chaudes."]
+    },
+    {
+      "key": "curry-lea", "auteur": "lea", "visibility": "public",
+      "title": "Curry vert végane", "cuisine": "southeast-asian", "country": "thailande",
+      "meal_type": "main", "difficulty": "easy", "prep_min": 15, "cook_min": 20, "servings": 4, "jours": 0,
+      "ingredients": ["2 c. à s. de pâte de curry vert", "40 cl de lait de coco", "300 g de tofu ferme", "1 courgette", "1 poivron", "1 bouquet de basilic thaï"],
+      "steps": ["Faire revenir la pâte dans un peu de lait de coco.", "Ajouter légumes et tofu, puis le reste du lait de coco.", "Finir avec le basilic."]
+    },
+    {
+      "key": "shish-omar", "auteur": "omar", "visibility": "public",
+      "title": "Shish taouk mariné 24 h", "native_name": "شيش طاووق", "cuisine": "levantine", "country": "liban",
+      "meal_type": "main", "difficulty": "easy", "prep_min": 20, "cook_min": 15, "servings": 4, "jours": 5,
+      "ingredients": ["800 g de blancs de poulet", "15 cl de yaourt", "3 gousses d'ail", "1 citron", "1 c. à s. de paprika", "2 c. à s. d'huile d'olive"],
+      "steps": ["Mariner le poulet 24 h.", "Embrocher et griller 12 à 15 minutes.", "Servir avec toum et pain."]
+    },
+    {
+      "key": "gratin-marie", "auteur": "marie", "visibility": "private",
+      "title": "Gratin secret de mamie", "cuisine": "french", "country": "france",
+      "meal_type": "side", "difficulty": "easy", "prep_min": 20, "cook_min": 60, "servings": 6, "jours": 30,
+      "ingredients": ["1,5 kg de pommes de terre", "50 cl de crème", "25 cl de lait", "1 gousse d'ail", "1 pincée de muscade"],
+      "steps": ["Trancher finement les pommes de terre.", "Frotter le plat à l'ail, ranger les tranches.", "Couvrir de crème et lait, cuire 1 h à 160 °C."]
+    },
+    {
+      "key": "tatin-marie", "auteur": "marie", "visibility": "followers",
+      "title": "Tarte Tatin de la famille", "cuisine": "french", "country": "france",
+      "meal_type": "dessert", "difficulty": "medium", "prep_min": 30, "cook_min": 45, "servings": 8, "jours": 8,
+      "ingredients": ["1 pâte brisée", "8 pommes", "150 g de sucre", "80 g de beurre"],
+      "steps": ["Caraméliser sucre et beurre dans le moule.", "Ranger les pommes serrées, cuire 20 minutes.", "Couvrir de pâte, cuire 25 minutes, retourner tiède."]
+    },
+    {
+      "key": "tatin-nadia", "auteur": "nadia", "visibility": "followers", "copie_de": "tatin-marie",
+      "title": "Tarte Tatin aux poires", "cuisine": "french", "country": "france",
+      "meal_type": "dessert", "difficulty": "medium", "prep_min": 30, "cook_min": 45, "servings": 8, "jours": 1,
+      "ingredients": ["1 pâte brisée", "6 poires", "150 g de sucre", "80 g de beurre", "1 gousse de vanille"],
+      "steps": ["Caraméliser sucre, beurre et vanille.", "Ranger les poires, cuire 15 minutes.", "Couvrir de pâte, cuire 25 minutes, retourner tiède."]
+    },
+    {
+      "key": "dal-vegan-lea", "auteur": "lea", "visibility": "public", "copie_de": "dal-priya",
+      "title": "Dal tadka au lait de coco", "cuisine": "south-asian", "country": "inde",
+      "meal_type": "main", "difficulty": "easy", "prep_min": 10, "cook_min": 25, "servings": 4, "jours": 0,
+      "ingredients": ["250 g de lentilles corail", "20 cl de lait de coco", "1 oignon", "2 tomates", "1 c. à c. de curcuma", "1 c. à c. de cumin en grains", "2 c. à s. d'huile"],
+      "steps": ["Cuire les lentilles avec curcuma et lait de coco.", "Préparer le tadka.", "Verser et servir avec du riz."]
+    },
+    {
+      "key": "jollof-diego", "auteur": "diego", "visibility": "public", "copie_de": "jollof-rice",
+      "title": "Jollof rice au chipotle", "cuisine": "west-african", "country": "nigeria",
+      "meal_type": "main", "difficulty": "medium", "prep_min": 20, "cook_min": 45, "servings": 6, "jours": 3,
+      "description": "La recette du livre couJina, avec du chipotle fumé à la place du piment frais.",
+      "ingredients": ["500 g de riz long", "4 tomates", "2 poivrons rouges", "2 piments chipotle", "1 oignon", "2 c. à s. de concentré de tomate", "50 cl de bouillon"],
+      "steps": ["Mixer tomates, poivrons, chipotle et oignon.", "Réduire la sauce 20 minutes avec le concentré.", "Cuire le riz dans la sauce et le bouillon, à couvert."]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "kamounia",
+  "cuisine": "maghrebi",
+  "country": "tunisie",
+  "origin": "Tunisie",
+  "native_name": "Kamounia",
+  "title": {
+    "fr": "Kamounia, foie de veau au cumin",
+    "en": "Kamounia, calf liver with cumin"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 60 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["abats", "cumin", "aid", "populaire"],
+  "ingredients": [
+    { "raw": "700 g de foie de veau, en cubes", "qty": 700, "unit": "g", "item": "foie de veau", "prep": "en cubes" },
+    { "raw": "3 c. à s. de cumin moulu", "qty": 3, "unit": "tbsp", "item": "cumin" },
+    { "raw": "8 gousses d'ail, écrasées", "qty": 8, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 c. à s. de harissa", "qty": 1, "unit": "tbsp", "item": "harissa" },
+    { "raw": "1 c. à s. de concentré de tomate", "qty": 1, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "1 c. à c. de paprika", "qty": 1, "unit": "tsp", "item": "paprika" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "6 c. à s. d'huile d'olive", "qty": 6, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Saisir les cubes de foie à feu vif dans l'huile, une minute par face, et les réserver.", "en": "Sear the liver cubes over high heat in the oil, a minute a side, and set aside." },
+    { "fr": "Faire revenir l'ail dans la même huile, ajouter la harissa, le concentré et le paprika.", "en": "Cook the garlic in the same oil, then add the harissa, purée and paprika." },
+    { "fr": "Ajouter le cumin — beaucoup, c'est le nom du plat — et le laurier, et mouiller à hauteur.", "en": "Add the cumin — a lot of it, it is the dish's name — and the bay, and cover with water." },
+    { "fr": "Remettre le foie et laisser mijoter cinquante minutes à feu doux, à couvert.", "en": "Return the liver and simmer for fifty minutes over low heat, covered." },
+    { "fr": "Le foie doit redevenir tendre : entre la minute de saisie et l'heure de mijotage, il passe par une phase dure qu'il faut traverser.", "en": "The liver must turn tender again: between the searing and the long simmer it goes through a tough stage you have to cook past." },
+    { "fr": "Réduire à découvert jusqu'à ce que la sauce soit courte et brillante.", "en": "Reduce uncovered until the sauce is short and glossy." }
+  ]
+}

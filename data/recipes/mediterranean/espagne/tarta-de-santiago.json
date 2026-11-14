@@ -1,0 +1,35 @@
+{
+  "slug": "tarta-de-santiago",
+  "cuisine": "mediterranean",
+  "country": "espagne",
+  "origin": "Espagne",
+  "native_name": "Tarta de Santiago",
+  "title": {
+    "fr": "Gâteau de Saint-Jacques aux amandes",
+    "en": "Santiago almond cake"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 20, "cook_min": 40 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["galice", "amande", "sans-gluten", "simple"],
+  "ingredients": [
+    { "raw": "250 g de poudre d'amande", "qty": 250, "unit": "g", "item": "poudre d'amande" },
+    { "raw": "250 g de sucre", "qty": 250, "unit": "g", "item": "sucre" },
+    { "raw": "5 œufs", "qty": 5, "unit": "piece", "item": "oeuf" },
+    { "raw": "1 citron, son zeste", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle" },
+    { "raw": "3 c. à s. de sucre glace", "qty": 3, "unit": "tbsp", "item": "sucre glace" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Ce gâteau ne contient AUCUNE farine : uniquement de la poudre d'amande, ce qui le rend sans gluten.", "en": "This cake contains NO flour: only ground almonds, which makes it gluten-free." },
+    { "fr": "Battre les œufs et le sucre DIX MINUTES, jusqu'au ruban : c'est la seule levée du gâteau.", "en": "Beat the eggs and sugar for TEN MINUTES, to the ribbon stage: it is the cake's only leavening." },
+    { "fr": "Ajouter zeste et cannelle, puis la poudre d'amande à la maryse, en soulevant.", "en": "Add the zest and cinnamon, then fold in the ground almonds with a spatula." },
+    { "fr": "Cuire 35 minutes à 175 °C : le gâteau doit rester légèrement humide au centre.", "en": "Bake for 35 minutes at 175°C: the cake should stay slightly moist in the centre." },
+    { "fr": "Laisser refroidir COMPLÈTEMENT avant de démouler : chaud, il se casse.", "en": "Cool it COMPLETELY before turning out: warm, it breaks." },
+    { "fr": "Poser un pochoir en forme de croix de Saint-Jacques et poudrer de sucre glace.", "en": "Lay a Cross of Saint James stencil on top and dust with icing sugar." }
+  ]
+}

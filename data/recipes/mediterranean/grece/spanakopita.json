@@ -1,0 +1,39 @@
+{
+  "slug": "spanakopita",
+  "cuisine": "mediterranean",
+  "country": "grece",
+  "origin": "Grèce",
+  "native_name": "Σπανακόπιτα",
+  "title": {
+    "fr": "Spanakopita, tourte aux épinards et à la feta",
+    "en": "Spanakopita, spinach and feta pie"
+  },
+  "meal_type": "main",
+  "servings": 8,
+  "times": { "prep_min": 45, "cook_min": 50 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["tourte", "epinard", "feta", "filo"],
+  "ingredients": [
+    { "raw": "1,2 kg d'épinards frais", "qty": 1200, "unit": "g", "item": "épinard" },
+    { "raw": "400 g de feta, émiettée", "qty": 400, "unit": "g", "item": "feta", "prep": "émiettée" },
+    { "raw": "1 botte d'oignons nouveaux, émincés", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "émincé" },
+    { "raw": "1 bouquet d'aneth, ciselé", "qty": 1, "unit": "bunch", "item": "aneth", "prep": "ciselé" },
+    { "raw": "1/2 bouquet de menthe, ciselée", "qty": 0.5, "unit": "bunch", "item": "menthe", "prep": "ciselée" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf" },
+    { "raw": "400 g de pâte filo", "qty": 400, "unit": "g", "item": "pâte filo" },
+    { "raw": "15 cl d'huile d'olive", "qty": 15, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Faire tomber les épinards, les laisser refroidir, puis les PRESSER à pleines mains.", "en": "Wilt the spinach, cool it, then SQUEEZE it hard with both hands." },
+    { "fr": "Un kilo d'épinards contient presque un litre d'eau : mal essorés, ils détrempent le filo par en dessous.", "en": "A kilo of spinach holds nearly a litre of water: badly wrung out, it soaks the filo from below." },
+    { "fr": "Ne pas saler la farce avant d'avoir goûté : la feta apporte déjà beaucoup de sel.", "en": "Do not salt the filling before tasting: the feta already brings plenty of salt." },
+    { "fr": "Travailler le filo sous un LINGE HUMIDE : à l'air, il devient cassant en trois minutes.", "en": "Work the filo under a DAMP CLOTH: in open air, it turns brittle within three minutes." },
+    { "fr": "Huiler chaque feuille au pinceau, en superposer sept dessous et sept dessus.", "en": "Brush each sheet with oil, layering seven below and seven above." },
+    { "fr": "PRÉDÉCOUPER les parts avant d'enfourner : cuit, le filo se brise au couteau.", "en": "PRE-CUT the portions before baking: once baked, filo shatters under the knife." }
+  ]
+}

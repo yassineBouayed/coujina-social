@@ -1,0 +1,40 @@
+{
+  "slug": "isso-badun",
+  "cuisine": "south-asian",
+  "country": "sri-lanka",
+  "origin": "Sri Lanka",
+  "native_name": "Isso badun",
+  "title": {
+    "fr": "Isso badun, crevettes sautées au piment",
+    "en": "Isso badun, devilled prawns"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rapide", "crevette", "pimente", "cote"],
+  "ingredients": [
+    { "raw": "700 g de crevettes, décortiquées", "qty": 700, "unit": "g", "item": "crevette", "prep": "décortiquée" },
+    { "raw": "2 oignons rouges, en gros dés", "qty": 2, "unit": "piece", "item": "oignon rouge", "prep": "en gros dés" },
+    { "raw": "1 poivron vert, en lanières", "qty": 1, "unit": "piece", "item": "poivron vert", "prep": "en lanières" },
+    { "raw": "2 c. à s. de piment en poudre", "qty": 2, "unit": "tbsp", "item": "piment en poudre" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "2 c. à s. de sauce piquante", "qty": 2, "unit": "tbsp", "item": "sauce piquante" },
+    { "raw": "2 c. à s. de concentré de tomate", "qty": 2, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "20 feuilles de curry", "qty": 20, "unit": "piece", "item": "feuille de curry" },
+    { "raw": "1 c. à s. de pâte gingembre-ail", "qty": 1, "unit": "tbsp", "item": "pâte gingembre-ail" },
+    { "raw": "5 c. à s. d'huile de coco", "qty": 5, "unit": "tbsp", "item": "huile de coco" },
+    { "raw": "1 citron vert, son jus", "qty": 1, "unit": "piece", "item": "citron vert" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Sécher les crevettes soigneusement : mouillées, elles bouillent au lieu de saisir.", "en": "Dry the prawns thoroughly: wet, they boil instead of searing." },
+    { "fr": "Les frotter de curcuma et de sel et les saisir DEUX MINUTES à feu très vif, puis les réserver.", "en": "Rub them with turmeric and salt and sear them for TWO MINUTES over very high heat, then set aside." },
+    { "fr": "Faire sauter oignons, poivron et feuilles de curry à feu vif, trois minutes : ils restent croquants.", "en": "Stir-fry the onions, pepper and curry leaves over high heat for three minutes: they stay crunchy." },
+    { "fr": "Ajouter la pâte gingembre-ail, le piment, la sauce piquante et le concentré de tomate.", "en": "Add the ginger-garlic paste, chilli, hot sauce and tomato purée." },
+    { "fr": "Remettre les crevettes UNE MINUTE seulement : recuites, elles deviennent caoutchouteuses.", "en": "Return the prawns for ONE MINUTE only: overcooked, they turn rubbery." },
+    { "fr": "Finir au citron vert et servir immédiatement, avec du riz.", "en": "Finish with lime and serve immediately, with rice." }
+  ]
+}

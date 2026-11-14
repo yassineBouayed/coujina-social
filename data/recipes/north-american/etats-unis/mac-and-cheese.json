@@ -1,0 +1,40 @@
+{
+  "slug": "mac-and-cheese",
+  "cuisine": "north-american",
+  "country": "etats-unis",
+  "origin": "États-Unis",
+  "native_name": "Macaroni and cheese",
+  "title": {
+    "fr": "Gratin de macaronis au cheddar",
+    "en": "Baked macaroni and cheese"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 40 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["famille", "enfants", "gratin", "reconfort"],
+  "ingredients": [
+    { "raw": "500 g de pâtes courtes", "qty": 500, "unit": "g", "item": "pâtes courtes" },
+    { "raw": "500 g de cheddar, râpé", "qty": 500, "unit": "g", "item": "cheddar", "prep": "râpé" },
+    { "raw": "80 g de beurre", "qty": 80, "unit": "g", "item": "beurre" },
+    { "raw": "80 g de farine de blé", "qty": 80, "unit": "g", "item": "farine de blé" },
+    { "raw": "1 l de lait entier", "qty": 1, "unit": "l", "item": "lait entier" },
+    { "raw": "2 c. à c. de moutarde", "qty": 2, "unit": "tsp", "item": "moutarde" },
+    { "raw": "1 c. à c. de paprika fumé", "qty": 1, "unit": "tsp", "item": "paprika fumé" },
+    { "raw": "120 g de chapelure", "qty": 120, "unit": "g", "item": "panko", "group": "croûte" },
+    { "raw": "40 g de beurre", "qty": 40, "unit": "g", "item": "beurre", "group": "croûte" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Râper le cheddar SOI-MÊME : le fromage râpé industriel est poudré d'antiagglomérant qui fait grumeler.", "en": "Grate the cheddar YOURSELF: shop-grated cheese is dusted with anti-caking agent that makes it lumpy." },
+    { "fr": "Cuire les pâtes DEUX MINUTES de moins que le paquet : elles finissent de cuire au four.", "en": "Cook the pasta TWO MINUTES short of the packet: it finishes in the oven." },
+    { "fr": "Faire une béchamel et la laisser TIÉDIR avant d'ajouter le fromage, par poignées.", "en": "Make a béchamel and let it COOL before adding the cheese, a handful at a time." },
+    { "fr": "Au-dessus de 70 °C, le cheddar tranche et libère son huile : la sauce devient granuleuse.", "en": "Above 70°C, cheddar splits and releases its oil: the sauce turns grainy." },
+    { "fr": "La MOUTARDE n'est pas là pour son goût : son acidité empêche le fromage de filer.", "en": "The MUSTARD is not there for flavour: its acidity keeps the cheese from stringing." },
+    { "fr": "Couvrir de chapelure beurrée et gratiner vingt minutes à 200 °C.", "en": "Cover with buttered breadcrumbs and bake for twenty minutes at 200°C." }
+  ]
+}

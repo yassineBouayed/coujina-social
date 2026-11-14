@@ -1,0 +1,34 @@
+{
+  "slug": "kesra-rakhsis",
+  "cuisine": "maghrebi",
+  "country": "algerie",
+  "origin": "Algérie",
+  "native_name": "Kesra rakhsis",
+  "title": {
+    "fr": "Kesra rakhsis, galette de semoule",
+    "en": "Kesra rakhsis, semolina flatbread"
+  },
+  "meal_type": "bread",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["pain", "poele", "semoule", "quotidien"],
+  "ingredients": [
+    { "raw": "500 g de semoule moyenne", "qty": 500, "unit": "g", "item": "semoule moyenne" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "1 c. à c. de levure chimique", "qty": 1, "unit": "tsp", "item": "levure chimique" },
+    { "raw": "6 c. à s. d'huile neutre", "qty": 6, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "25 cl d'eau tiède", "qty": 25, "unit": "cl", "item": "eau" },
+    { "raw": "2 c. à s. de semoule fine, pour le plan de travail", "qty": 2, "unit": "tbsp", "item": "semoule fine", "group": "façonnage" }
+  ],
+  "steps": [
+    { "fr": "Sabler la semoule moyenne avec l'huile et le sel, jusqu'à ce que chaque grain soit gras.", "en": "Rub the oil and salt into the medium semolina, until every grain is coated." },
+    { "fr": "Ajouter la levure puis l'eau tiède petit à petit, jusqu'à obtenir une pâte souple qui ne colle plus.", "en": "Add the baking powder then the warm water a little at a time, to a supple dough that no longer sticks." },
+    { "fr": "Laisser reposer quinze minutes : la semoule doit finir d'absorber l'eau, sinon la galette se fend à la cuisson.", "en": "Rest for fifteen minutes: the semolina must finish absorbing the water, or the bread cracks as it cooks." },
+    { "fr": "Aplatir en disque d'un centimètre sur un plan semoulé, et piquer toute la surface à la fourchette.", "en": "Flatten into a one-centimetre disc on a semolina-dusted surface, and prick all over with a fork." },
+    { "fr": "Cuire sur une plaque en fonte à feu moyen, dix minutes par face, en retournant plusieurs fois.", "en": "Cook on a cast-iron griddle over medium heat, ten minutes a side, turning several times." },
+    { "fr": "La kesra est cuite quand elle sonne creux et que la mie est sèche au centre.", "en": "It is done when it sounds hollow and the crumb is dry in the middle." }
+  ]
+}

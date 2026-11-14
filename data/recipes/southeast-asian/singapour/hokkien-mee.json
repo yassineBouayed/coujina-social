@@ -1,0 +1,41 @@
+{
+  "slug": "hokkien-mee",
+  "cuisine": "southeast-asian",
+  "country": "singapour",
+  "origin": "Singapour",
+  "native_name": "福建面",
+  "title": {
+    "fr": "Hokkien mee, nouilles au fumet de crevettes",
+    "en": "Hokkien mee, noodles in prawn stock"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 30, "cook_min": 25 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hawker", "crevette", "wok", "fumet"],
+  "ingredients": [
+    { "raw": "300 g de nouilles de blé jaunes", "qty": 300, "unit": "g", "item": "nouilles de blé" },
+    { "raw": "200 g de nouilles de riz", "qty": 200, "unit": "g", "item": "nouilles de riz" },
+    { "raw": "400 g de crevettes, avec les têtes", "qty": 400, "unit": "g", "item": "crevette" },
+    { "raw": "200 g de calamars, en anneaux", "qty": 200, "unit": "g", "item": "calamar", "prep": "en anneaux" },
+    { "raw": "200 g de poitrine de porc, en lanières", "qty": 200, "unit": "g", "item": "poitrine de porc", "prep": "en lanières" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf" },
+    { "raw": "200 g de germes de soja", "qty": 200, "unit": "g", "item": "germes de soja" },
+    { "raw": "1 bouquet de ciboulette chinoise", "qty": 1, "unit": "bunch", "item": "ciboulette" },
+    { "raw": "6 gousses d'ail, hachées", "qty": 6, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "3 c. à s. de sauce poisson", "qty": 3, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "4 c. à s. de sambal oelek", "qty": 4, "unit": "tbsp", "item": "sambal oelek", "group": "service" },
+    { "raw": "3 citrons verts, en quartiers", "qty": 3, "unit": "piece", "item": "citron vert", "group": "service" },
+    { "raw": "8 c. à s. de saindoux", "qty": 8, "unit": "tbsp", "item": "saindoux" }
+  ],
+  "steps": [
+    { "fr": "Le hokkien mee n'est pas un plat de nouilles sautées mais de nouilles BRAISÉES dans un fumet.", "en": "Hokkien mee is not a stir-fry but noodles BRAISED in stock." },
+    { "fr": "Faire un fumet puissant avec les têtes et carapaces de crevettes et la couenne de porc.", "en": "Make a powerful stock from the prawn heads and shells and the pork rind." },
+    { "fr": "Mélanger les deux sortes de nouilles : ce mélange est la définition même du plat.", "en": "Mix the two kinds of noodle: that mixture is the definition of the dish." },
+    { "fr": "Saisir ail, porc, crevettes et calamars au saindoux, puis pousser sur le côté et brouiller les œufs.", "en": "Sear the garlic, pork, prawns and squid in lard, push them aside and scramble the eggs." },
+    { "fr": "Ajouter les nouilles et VERSER LE FUMET par louches, en laissant absorber entre chaque.", "en": "Add the noodles and ADD THE STOCK by ladles, letting it absorb between each." },
+    { "fr": "Servir humide, presque en sauce, avec du sambal et un quartier de citron vert.", "en": "Serve it wet, almost saucy, with sambal and a lime wedge." }
+  ]
+}

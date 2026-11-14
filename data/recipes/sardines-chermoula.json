@@ -1,0 +1,45 @@
+{
+  "slug": "sardines-chermoula",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Sardines mchermla",
+  "title": {
+    "fr": "Sardines farcies à la chermoula",
+    "en": "Sardines stuffed with chermoula"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 40, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j2-sonde-v1", "date": "2026-08-28" },
+  "tags": ["poisson", "chermoula", "cote", "friture"],
+  "ingredients": [
+    { "raw": "16 sardines fraîches, écaillées et ouvertes en portefeuille", "qty": 16, "unit": "piece", "item": "sardine", "prep": "écaillée et ouverte en portefeuille" },
+    { "raw": "1 gros bouquet de coriandre fraîche", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée", "group": "chermoula" },
+    { "raw": "1/2 bouquet de persil plat", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé", "group": "chermoula" },
+    { "raw": "5 gousses d'ail", "qty": 5, "unit": "piece", "item": "ail", "prep": "écrasé", "group": "chermoula" },
+    { "raw": "2 c. à c. de cumin moulu", "qty": 2, "unit": "tsp", "item": "cumin moulu", "group": "chermoula" },
+    { "raw": "2 c. à c. de paprika", "qty": 2, "unit": "tsp", "item": "paprika", "group": "chermoula" },
+    { "raw": "1 pincée de piment de Cayenne", "qty": 1, "unit": "pinch", "item": "piment de Cayenne", "group": "chermoula" },
+    { "raw": "le jus de 2 citrons", "qty": 2, "unit": "piece", "item": "citron", "prep": "pressé", "group": "chermoula" },
+    { "raw": "6 c. à s. d'huile d'olive", "qty": 6, "unit": "tbsp", "item": "huile d'olive", "group": "chermoula" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel", "group": "chermoula" },
+    { "raw": "150 g de semoule de blé fine pour l'enrobage", "qty": 150, "unit": "g", "item": "semoule de blé fine", "group": "enrobage" },
+    { "raw": "50 cl d'huile de tournesol pour la friture", "qty": 50, "unit": "cl", "item": "huile de tournesol", "group": "friture" },
+    { "raw": "1 citron, en quartiers, pour servir", "qty": 1, "unit": "piece", "item": "citron", "prep": "en quartiers" }
+  ],
+  "steps": [
+    { "fr": "Écailler les sardines, retirer tête et arête centrale en gardant les deux filets attachés par le dos.", "en": "Scale the sardines and remove head and backbone, keeping the two fillets joined along the back." },
+    { "fr": "Piler ou mixer la coriandre, le persil, l'ail, le cumin, le paprika, le piment, le jus de citron, l'huile et le sel en une chermoula épaisse.", "en": "Pound or blend the coriander, parsley, garlic, cumin, paprika, chilli, lemon juice, oil and salt into a thick chermoula." },
+    { "fr": "Tartiner l'intérieur de chaque sardine de chermoula et refermer en sandwich avec une seconde sardine, chair contre chair.", "en": "Spread the inside of each sardine with chermoula and close it sandwich-fashion against a second sardine, flesh to flesh." },
+    { "fr": "Laisser mariner trente minutes au frais.", "en": "Marinate for thirty minutes in the fridge." },
+    { "fr": "Passer chaque sandwich dans la semoule fine en pressant légèrement.", "en": "Coat each sandwich in the fine semolina, pressing lightly." },
+    { "fr": "Frire à 180 °C, trois minutes par face, jusqu'à ce que l'enrobage soit doré et croustillant.", "en": "Fry at 180 °C for three minutes a side, until the coating is golden and crisp." },
+    { "fr": "Égoutter et servir brûlant avec des quartiers de citron.", "en": "Drain and serve piping hot with lemon wedges." }
+  ],
+  "notes": [
+    { "fr": "La chermoula est une marinade, pas un ingrédient : elle se refait à chaque plat, avec le poisson du jour.", "en": "Chermoula is a marinade, not an ingredient: it is made fresh for each dish, with the day's fish." }
+  ]
+}

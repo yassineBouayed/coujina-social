@@ -1,0 +1,42 @@
+{
+  "slug": "qatayef",
+  "cuisine": "levantine",
+  "country": "jordanie",
+  "origin": "Jordanie",
+  "native_name": "Qatayef",
+  "title": {
+    "fr": "Qatayef, crêpes farcies aux noix du ramadan",
+    "en": "Qatayef, Ramadan pancakes stuffed with walnuts"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 50, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ramadan", "friture", "noix", "sirop"],
+  "ingredients": [
+    { "raw": "400 g de farine de blé", "qty": 400, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "50 g de semoule fine", "qty": 50, "unit": "g", "item": "semoule fine", "group": "pâte" },
+    { "raw": "1 c. à s. de levure boulangère sèche", "qty": 1, "unit": "tbsp", "item": "levure boulangère", "group": "pâte" },
+    { "raw": "1 c. à c. de levure chimique", "qty": 1, "unit": "tsp", "item": "levure chimique", "group": "pâte" },
+    { "raw": "1 c. à s. de sucre", "qty": 1, "unit": "tbsp", "item": "sucre", "group": "pâte" },
+    { "raw": "70 cl d'eau tiède", "qty": 70, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "300 g de noix, concassées", "qty": 300, "unit": "g", "item": "noix", "prep": "concassée", "group": "farce" },
+    { "raw": "80 g de sucre", "qty": 80, "unit": "g", "item": "sucre", "group": "farce" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle", "group": "farce" },
+    { "raw": "400 g de sucre", "qty": 400, "unit": "g", "item": "sucre", "group": "sirop" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron", "group": "sirop" },
+    { "raw": "1 c. à s. d'eau de rose", "qty": 1, "unit": "tbsp", "item": "eau de rose", "group": "sirop" },
+    { "raw": "1 l d'huile de tournesol pour la friture", "qty": 1, "unit": "l", "item": "huile de tournesol", "group": "friture" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Fouetter tous les éléments de la pâte en un appareil très fluide et laisser lever une heure.", "en": "Whisk all the batter ingredients into a very thin mixture and prove for an hour." },
+    { "fr": "Cuire les crêpes D'UN SEUL CÔTÉ, sur poêle sèche, jusqu'à ce que la surface soit sèche et criblée de trous.", "en": "Cook the pancakes ON ONE SIDE ONLY, in a dry pan, until the surface is dry and full of holes." },
+    { "fr": "Le côté non cuit est ce qui permettra de souder : cuit des deux côtés, le qatayef ne se referme plus.", "en": "The uncooked side is what allows sealing: cooked on both sides, qatayef will not close." },
+    { "fr": "Les couvrir d'un linge sec dès la sortie, sinon ils sèchent et se fendent au pliage.", "en": "Cover them with a dry cloth straight away, or they dry out and split when folded." },
+    { "fr": "Garnir de noix sucrées, plier en demi-lune et pincer fermement tout le bord.", "en": "Fill with the sweetened walnuts, fold into half-moons and pinch the whole edge firmly." },
+    { "fr": "Frire à 175 °C jusqu'à coloration, puis tremper trente secondes dans le sirop froid.", "en": "Fry at 175°C until golden, then dip for thirty seconds in the cold syrup." }
+  ]
+}

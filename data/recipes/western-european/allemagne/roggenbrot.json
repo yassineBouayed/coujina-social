@@ -1,0 +1,38 @@
+{
+  "slug": "roggenbrot",
+  "cuisine": "western-european",
+  "country": "allemagne",
+  "origin": "Allemagne",
+  "native_name": "Roggenmischbrot",
+  "title": {
+    "fr": "Pain de seigle au levain",
+    "en": "Sourdough rye bread"
+  },
+  "meal_type": "bread",
+  "servings": 10,
+  "times": { "prep_min": 40, "cook_min": 60 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["seigle", "levain", "pain", "quotidien"],
+  "ingredients": [
+    { "raw": "400 g de farine de seigle", "qty": 400, "unit": "g", "item": "farine de seigle" },
+    { "raw": "300 g de farine T55", "qty": 300, "unit": "g", "item": "farine T55" },
+    { "raw": "200 g de levain", "qty": 200, "unit": "g", "item": "levain" },
+    { "raw": "45 cl d'eau tiède", "qty": 45, "unit": "cl", "item": "eau" },
+    { "raw": "14 g de sel", "qty": 14, "unit": "g", "item": "sel" },
+    { "raw": "2 c. à s. de graines de carvi", "qty": 2, "unit": "tbsp", "item": "carvi" },
+    { "raw": "2 c. à s. de graines de coriandre, concassées", "qty": 2, "unit": "tbsp", "item": "graine de coriandre", "prep": "concassée" }
+  ],
+  "steps": [
+    { "fr": "Le seigle a peu de gluten : il exige un LEVAIN, la levure de boulanger seule ne le fait pas lever.", "en": "Rye has little gluten: it needs a SOURDOUGH starter, baker's yeast alone will not raise it." },
+    { "fr": "L'acidité du levain est aussi ce qui empêche l'amidon du seigle de rendre la mie collante.", "en": "The starter's acidity is also what stops rye starch making the crumb gummy." },
+    { "fr": "La pâte de seigle est COLLANTE et ne se pétrit pas : elle se mélange, à la corne, dix minutes.", "en": "Rye dough is STICKY and cannot be kneaded: it is mixed, with a scraper, for ten minutes." },
+    { "fr": "Laisser lever quatre heures : le seigle lève lentement, et la pâte gonfle peu.", "en": "Prove for four hours: rye rises slowly, and the dough swells little." },
+    { "fr": "Façonner à la main MOUILLÉE et laisser lever encore une heure et demie en banneton.", "en": "Shape with a WET hand and prove for another hour and a half in a banneton." },
+    { "fr": "Cuire une heure à 230 °C puis 200 °C, et ATTENDRE 24 HEURES avant de trancher.", "en": "Bake for an hour at 230°C then 200°C, and WAIT 24 HOURS before slicing." }
+  ],
+  "notes": [
+    { "fr": "Un pain de seigle coupé chaud a la mie collante : il finit de prendre en refroidissant.", "en": "Rye bread cut warm has a gummy crumb: it finishes setting as it cools." }
+  ]
+}

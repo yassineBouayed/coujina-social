@@ -1,0 +1,43 @@
+{
+  "slug": "tamales-tolimenses",
+  "cuisine": "latin-american",
+  "country": "colombie",
+  "origin": "Colombie",
+  "native_name": "Tamales tolimenses",
+  "title": {
+    "fr": "Tamales du Tolima en feuille de bananier",
+    "en": "Tolima tamales in banana leaf"
+  },
+  "meal_type": "main",
+  "servings": 8,
+  "times": { "prep_min": 70, "cook_min": 180 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["tolima", "dimanche", "vapeur", "fete"],
+  "ingredients": [
+    { "raw": "500 g de farine de maïs précuite", "qty": 500, "unit": "g", "item": "masa harina" },
+    { "raw": "400 g de pois cassés", "qty": 400, "unit": "g", "item": "pois cassé" },
+    { "raw": "400 g de riz long grain", "qty": 400, "unit": "g", "item": "riz long grain" },
+    { "raw": "600 g d'échine de porc, en cubes", "qty": 600, "unit": "g", "item": "échine de porc", "prep": "en cubes" },
+    { "raw": "1/2 poulet, en morceaux", "qty": 0.5, "unit": "piece", "item": "poulet entier", "prep": "en morceaux" },
+    { "raw": "600 g de pommes de terre, en tranches", "qty": 600, "unit": "g", "item": "pomme de terre", "prep": "en tranches" },
+    { "raw": "6 œufs durs, en quartiers", "qty": 6, "unit": "piece", "item": "oeuf", "prep": "dur, en quartiers" },
+    { "raw": "3 carottes, en rondelles", "qty": 3, "unit": "piece", "item": "carotte", "prep": "en rondelles" },
+    { "raw": "20 feuilles de bananier", "qty": 20, "unit": "piece", "item": "feuille de bananier" },
+    { "raw": "4 oignons, hachés", "qty": 4, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "8 gousses d'ail, hachées", "qty": 8, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "3 c. à s. de cumin moulu", "qty": 3, "unit": "tbsp", "item": "cumin" },
+    { "raw": "2 c. à s. de curcuma", "qty": 2, "unit": "tbsp", "item": "curcuma" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le tamal tolimense est le déjeuner du DIMANCHE : on en fait vingt d'un coup, pour toute la semaine.", "en": "The Tolima tamal is SUNDAY lunch: twenty are made at once, for the whole week." },
+    { "fr": "PASSER les feuilles de bananier À LA FLAMME quelques secondes : elles deviennent souples et brillantes.", "en": "PASS the banana leaves THROUGH A FLAME for a few seconds: they turn supple and glossy." },
+    { "fr": "Sans cette étape, elles cassent net dès qu'on les plie.", "en": "Without that step, they snap the moment you fold them." },
+    { "fr": "Mariner viandes et poulet UNE NUIT dans l'ail, le cumin et le curcuma.", "en": "Marinate the meats and chicken OVERNIGHT in garlic, cumin and turmeric." },
+    { "fr": "Monter dans l'ordre : masa, riz, pois cassés, viandes, légumes, œuf. Puis refermer serré.", "en": "Layer in order: masa, rice, split peas, meats, vegetables, egg. Then close it tightly." },
+    { "fr": "Cuire à la vapeur TROIS HEURES, les tamales bien serrés et couverts d'eau bouillante à mi-hauteur.", "en": "Steam for THREE HOURS, the tamales packed tight and half-covered in boiling water." }
+  ]
+}

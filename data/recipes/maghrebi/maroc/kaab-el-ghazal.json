@@ -1,0 +1,41 @@
+{
+  "slug": "kaab-el-ghazal",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Kaab el-ghzal",
+  "title": {
+    "fr": "Cornes de gazelle à la pâte d'amande",
+    "en": "Gazelle horns with almond paste"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 75, "cook_min": 18 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["patisserie", "amande", "mariage", "the"],
+  "ingredients": [
+    { "raw": "400 g de poudre d'amande", "qty": 400, "unit": "g", "item": "poudre d'amande", "group": "farce" },
+    { "raw": "200 g de sucre glace", "qty": 200, "unit": "g", "item": "sucre glace", "group": "farce" },
+    { "raw": "50 g de beurre fondu", "qty": 50, "unit": "g", "item": "beurre", "prep": "fondu", "group": "farce" },
+    { "raw": "3 c. à s. d'eau de fleur d'oranger", "qty": 3, "unit": "tbsp", "item": "eau de fleur d'oranger", "group": "farce" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle", "group": "farce" },
+    { "raw": "250 g de farine de blé", "qty": 250, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "40 g de beurre, ramolli", "qty": 40, "unit": "g", "item": "beurre", "prep": "ramolli", "group": "pâte" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf", "group": "pâte" },
+    { "raw": "2 c. à s. d'eau de fleur d'oranger", "qty": 2, "unit": "tbsp", "item": "eau de fleur d'oranger", "group": "pâte" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel", "group": "pâte" }
+  ],
+  "steps": [
+    { "fr": "Travailler la poudre d'amande, le sucre glace, le beurre, la cannelle et l'eau de fleur d'oranger jusqu'à obtenir une pâte souple qui tient en boudin.", "en": "Work the ground almonds, icing sugar, butter, cinnamon and orange blossom water into a supple paste that rolls into a rope." },
+    { "fr": "Rouler des boudins fins et pointus aux deux bouts, et les réserver.", "en": "Roll thin ropes tapered at both ends, and set aside." },
+    { "fr": "Pétrir la pâte longuement : elle doit devenir élastique, presque comme une pâte à pain, sinon elle craquera à l'étalage.", "en": "Knead the dough at length: it must become elastic, almost bread-like, or it will crack when rolled." },
+    { "fr": "L'étaler jusqu'à la transparence — on doit voir la main au travers. C'est le seul vrai test de cette recette.", "en": "Roll it out until translucent — you should see your hand through it. That is the only real test in this recipe." },
+    { "fr": "Poser les boudins, refermer, chasser l'air, découper à la roulette et courber en croissant.", "en": "Lay the ropes on, fold over, press out the air, cut with a wheel and bend into crescents." },
+    { "fr": "Piquer chaque corne à l'aiguille et cuire 18 minutes à 170 °C : elles doivent rester blondes, jamais dorées.", "en": "Prick each horn with a needle and bake for 18 minutes at 170°C: they must stay pale, never golden." }
+  ],
+  "notes": [
+    { "fr": "Une corne dorée est une corne trop cuite : la pâte durcit et l'amande perd son parfum.", "en": "A browned horn is an overbaked horn: the pastry hardens and the almond loses its scent." }
+  ]
+}

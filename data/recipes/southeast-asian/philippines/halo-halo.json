@@ -1,0 +1,38 @@
+{
+  "slug": "halo-halo",
+  "cuisine": "southeast-asian",
+  "country": "philippines",
+  "origin": "Philippines",
+  "native_name": "Halo-halo",
+  "title": {
+    "fr": "Halo-halo, glace pilée à tout mélanger",
+    "en": "Halo-halo, shaved ice with everything mixed in"
+  },
+  "meal_type": "dessert",
+  "servings": 4,
+  "times": { "prep_min": 40, "cook_min": 40 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ete", "glace", "ube", "couches"],
+  "ingredients": [
+    { "raw": "200 g de haricots rouges, cuits et sucrés", "qty": 200, "unit": "g", "item": "haricot rouge", "prep": "cuit et sucré" },
+    { "raw": "200 g de banane plantain, confite", "qty": 200, "unit": "g", "item": "banane plantain", "prep": "confite" },
+    { "raw": "150 g de jacquier en conserve, en lanières", "qty": 150, "unit": "g", "item": "jacquier", "prep": "en lanières" },
+    { "raw": "150 g de perles de tapioca, cuites", "qty": 150, "unit": "g", "item": "maïzena", "prep": "en perles cuites" },
+    { "raw": "200 g de purée d'ube", "qty": 200, "unit": "g", "item": "ube", "prep": "en purée" },
+    { "raw": "150 g de flan, en cubes", "qty": 150, "unit": "g", "item": "lait concentré sucré", "prep": "en flan" },
+    { "raw": "1,2 kg de glaçons", "qty": 1200, "unit": "g", "item": "eau", "prep": "en glaçons" },
+    { "raw": "25 cl de lait entier", "qty": 25, "unit": "cl", "item": "lait entier" },
+    { "raw": "15 cl de lait concentré sucré", "qty": 15, "unit": "cl", "item": "lait concentré sucré" },
+    { "raw": "60 g de riz soufflé", "qty": 60, "unit": "g", "item": "riz soufflé", "group": "décor" }
+  ],
+  "steps": [
+    { "fr": "Halo-halo veut dire « mélange-mélange » : le geste de tout écraser ensemble EST la recette.", "en": "Halo-halo means \"mix-mix\": the act of crushing everything together IS the recipe." },
+    { "fr": "Tout préparer et tout REFROIDIR la veille : un seul élément tiède fait fondre la glace.", "en": "Prepare everything and CHILL it the day before: one warm element melts the whole thing." },
+    { "fr": "Disposer les garnitures AU FOND d'un grand verre, en couches visibles.", "en": "Layer the toppings at the BOTTOM of a tall glass, in visible bands." },
+    { "fr": "Râper la glace le plus fin possible et l'entasser en dôme par-dessus.", "en": "Shave the ice as finely as possible and pile it into a dome on top." },
+    { "fr": "Verser les laits, puis poser l'ube, le flan et le riz soufflé au sommet.", "en": "Pour over the milks, then set the ube, flan and puffed rice on top." },
+    { "fr": "Servir avec une longue cuillère et dire de TOUT ÉCRASER : c'est ainsi qu'il se mange.", "en": "Serve with a long spoon and tell people to CRUSH IT ALL: that is how it is eaten." }
+  ]
+}

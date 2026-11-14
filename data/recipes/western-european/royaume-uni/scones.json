@@ -1,0 +1,37 @@
+{
+  "slug": "scones",
+  "cuisine": "western-european",
+  "country": "royaume-uni",
+  "origin": "Royaume-Uni",
+  "native_name": "Scones",
+  "title": {
+    "fr": "Scones à la crème et à la confiture",
+    "en": "Scones with cream and jam"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 20, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["the", "gouter", "rapide", "classique"],
+  "ingredients": [
+    { "raw": "450 g de farine de blé", "qty": 450, "unit": "g", "item": "farine de blé" },
+    { "raw": "100 g de beurre, très froid", "qty": 100, "unit": "g", "item": "beurre", "prep": "très froid" },
+    { "raw": "60 g de sucre", "qty": 60, "unit": "g", "item": "sucre" },
+    { "raw": "3 c. à c. de levure chimique", "qty": 3, "unit": "tsp", "item": "levure chimique" },
+    { "raw": "25 cl de lait entier, froid", "qty": 25, "unit": "cl", "item": "lait entier", "prep": "froid" },
+    { "raw": "1 œuf, pour dorer", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" },
+    { "raw": "250 g de crème épaisse", "qty": 250, "unit": "g", "item": "crème fraîche", "group": "service" },
+    { "raw": "250 g de confiture de fraise", "qty": 250, "unit": "g", "item": "confiture", "group": "service" }
+  ],
+  "steps": [
+    { "fr": "Le beurre doit être TRÈS FROID et rester en morceaux visibles : c'est ce qui feuillette le scone.", "en": "The butter must be VERY COLD and stay in visible pieces: that is what flakes the scone." },
+    { "fr": "Travailler la pâte LE MOINS POSSIBLE : dix secondes de trop et le scone devient dur.", "en": "Work the dough AS LITTLE AS POSSIBLE: ten seconds too long and the scone turns tough." },
+    { "fr": "L'abaisser à DEUX CENTIMÈTRES d'épaisseur : plus fin, le scone ne monte pas.", "en": "Roll it TWO CENTIMETRES thick: any thinner and the scone will not rise." },
+    { "fr": "Découper à l'emporte-pièce D'UN COUP SEC, sans tourner : en tournant, on scelle les bords.", "en": "Cut with a SHARP straight press, without twisting: twisting seals the edges." },
+    { "fr": "Dorer le DESSUS seulement, jamais les côtés : l'œuf sur les côtés bloque la levée.", "en": "Egg-wash the TOP only, never the sides: egg on the sides blocks the rise." },
+    { "fr": "Cuire quinze minutes à 220 °C, et servir tièdes. Confiture avant ou après la crème, chacun sa chapelle.", "en": "Bake for fifteen minutes at 220°C, and serve warm. Jam before or after the cream: pick your camp." }
+  ]
+}

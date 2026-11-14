@@ -1,0 +1,41 @@
+{
+  "slug": "enchiladas-verdes",
+  "cuisine": "latin-american",
+  "country": "mexique",
+  "origin": "Mexique",
+  "native_name": "Enchiladas verdes",
+  "title": {
+    "fr": "Enchiladas à la sauce verte",
+    "en": "Enchiladas in green sauce"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 40 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["tomatille", "poulet", "gratin", "famille"],
+  "ingredients": [
+    { "raw": "800 g de tomatilles", "qty": 800, "unit": "g", "item": "tomatille" },
+    { "raw": "700 g de blanc de poulet, cuit et effiloché", "qty": 700, "unit": "g", "item": "blanc de poulet", "prep": "cuit et effiloché" },
+    { "raw": "18 tortillas de maïs", "qty": 18, "unit": "piece", "item": "tortilla de maïs" },
+    { "raw": "4 piments frais", "qty": 4, "unit": "piece", "item": "piment frais" },
+    { "raw": "2 oignons", "qty": 2, "unit": "piece", "item": "oignon" },
+    { "raw": "6 gousses d'ail", "qty": 6, "unit": "piece", "item": "ail" },
+    { "raw": "1 bouquet de coriandre", "qty": 1, "unit": "bunch", "item": "coriandre fraîche" },
+    { "raw": "300 g de queso fresco, émietté", "qty": 300, "unit": "g", "item": "queso fresco", "prep": "émietté" },
+    { "raw": "25 cl de crème fraîche", "qty": 25, "unit": "cl", "item": "crème fraîche" },
+    { "raw": "40 cl de bouillon de volaille", "qty": 40, "unit": "cl", "item": "bouillon volaille" },
+    { "raw": "10 cl d'huile neutre", "qty": 10, "unit": "cl", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Les TOMATILLES ne sont pas des tomates vertes : ce sont des fruits acides, sous une enveloppe de papier.", "en": "TOMATILLOS are not green tomatoes: they are tart fruits in a papery husk." },
+    { "fr": "Les GRILLER entières au four jusqu'à ce qu'elles noircissent : le brûlé fait tout le goût.", "en": "CHAR them whole in the oven until blackened: the charring makes the flavour." },
+    { "fr": "Passer les tortillas dans l'huile chaude DEUX SECONDES par face avant de garnir.", "en": "Pass the tortillas through hot oil for TWO SECONDS a side before filling." },
+    { "fr": "Ce passage les imperméabilise : sans lui, elles se désagrègent dans la sauce en dix minutes.", "en": "That dip waterproofs them: without it, they disintegrate in the sauce within ten minutes." },
+    { "fr": "Rouler serré, ranger SOUDURE VERS LE BAS, et napper de sauce verte.", "en": "Roll tightly, arrange SEAM DOWN, and coat with the green sauce." },
+    { "fr": "Gratiner quinze minutes et servir AUSSITÔT : les enchiladas ne se réchauffent pas.", "en": "Bake for fifteen minutes and serve AT ONCE: enchiladas do not reheat." }
+  ]
+}

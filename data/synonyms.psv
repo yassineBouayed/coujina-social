@@ -1,0 +1,415 @@
+# Appellations alternatives. Les noms officiels (name_fr / name_en) sont déjà
+# des synonymes primaires : ils sont générés, pas répétés ici.
+#
+# Un terme normalisé ne peut appartenir qu'à UN ingrédient par langue. Une
+# collision est une erreur de donnée, pas un arbitrage à faire à l'exécution :
+# `npm run refdata:validate` la refuse.
+#
+# Les pluriels ne sont pas listés : le rattachement retombe sur les trigrammes,
+# qui les absorbent. On ne liste ici que les mots réellement différents.
+ingredient|lang|term
+# ------------------------------------------------------------- légumes
+tomate|fr|tomate fraîche
+tomate-pelee|fr|tomates pelées en boîte
+tomate-pelee|en|whole peeled tomatoes
+tomate-concassee|fr|pulpe de tomate
+coulis-de-tomate|fr|passata
+coulis-de-tomate|fr|sauce tomate
+concentre-de-tomate|fr|double concentré de tomate
+concentre-de-tomate|fr|purée de tomate
+concentre-de-tomate|en|tomato purée
+oignon|fr|oignon jaune
+oignon-nouveau|fr|cébette
+oignon-nouveau|en|scallion
+echalote|fr|eschalote
+ail|fr|gousse d'ail
+ail|en|garlic clove
+poireau|fr|blanc de poireau
+carotte|fr|carotte fane
+courgette|fr|zucchini
+aubergine|fr|aubergine violette
+aubergine|en|eggplant
+poivron|fr|poivron doux
+piment-frais|fr|piment
+piment-frais|fr|piment fort
+piment-frais|en|chili pepper
+habanero|fr|piment antillais
+chou-frise|fr|kale
+chou-chinois|fr|chou nappa
+chou-chinois|en|napa cabbage
+haricot-vert|en|french beans
+epinard|fr|pousse d'épinard
+gombo|fr|okra
+gombo|fr|kopto
+celeri-branche|fr|céleri
+courge|fr|potimarron
+potiron|fr|citrouille
+butternut|fr|doubeurre
+champignon-de-paris|fr|champignon
+champignon-de-paris|fr|champignon blanc
+pak-choi|fr|bok choy
+pak-choi|en|bok choy
+germes-de-soja|fr|pousse de soja
+daikon|fr|radis blanc
+daikon|en|mooli
+laitue|fr|salade verte
+laitue|fr|salade
+roquette|fr|rucola
+mais-doux|fr|maïs en conserve
+betterave|fr|betterave rouge
+tomatille|fr|tomate verte mexicaine
+molokhia|fr|mouloukhia
+molokhia|fr|corète potagère
+molokhia|en|jute mallow
+feuille-de-manioc|fr|saka saka
+feuille-de-manioc|fr|pondu
+feuille-de-manioc|en|pounded cassava leaves
+banane-plantain|fr|plantain
+chayotte|fr|christophine
+chayotte|fr|chouchou
+chayotte|en|chayote squash
+nopal|fr|figuier de barbarie
+nopal|en|nopales
+coeur-de-palmier|fr|chou palmiste
+feuille-de-vigne|fr|feuille de vigne en saumure
+pousse-de-bambou|fr|bambou
+champignon-seche|fr|cèpe séché
+butternut|fr|courge butternut
+# ------------------------------------------------------ herbes fraîches
+persil|fr|persil frais
+persil-plat|fr|persil italien
+coriandre-fraiche|fr|cilantro
+coriandre-fraiche|fr|persil arabe
+coriandre-fraiche|fr|kosbor
+coriandre-fraiche|en|cilantro
+menthe-fraiche|fr|menthe
+menthe-fraiche|fr|naana
+basilic|fr|basilic frais
+ciboulette|fr|cive
+citronnelle|en|lemon grass
+citronnelle|fr|sereh
+feuille-de-curry|fr|kadi patta
+feuille-de-curry|en|curry leaves
+combava-feuille|fr|feuille de kaffir
+combava-feuille|en|makrut lime leaf
+# -------------------------------------------------------------- fruits
+citron|fr|jus de citron
+citron|fr|citron jaune
+citron-vert|fr|lime
+citron-vert|fr|limette
+grenade|fr|graine de grenade
+raisin-sec|fr|raisin de Corinthe
+raisin-sec|fr|sultanine
+pruneau|fr|prune séchée
+noix-de-coco|fr|coco frais
+coco-rape|fr|coco râpé
+tamarin|fr|pain de tamarin
+tamarin|en|tamarind block
+fruit-de-la-passion|fr|maracudja
+jacquier|fr|jacquier
+# ------------------------------------------------ tubercules et racines
+pomme-de-terre|fr|patate
+manioc|fr|yuca
+manioc|fr|cassave
+taro|fr|madère
+taro|fr|dachine
+gingembre|fr|gingembre frais
+gingembre|fr|racine de gingembre
+curcuma-frais|fr|racine de curcuma
+galanga|fr|laos
+# ---------------------------------------------- viandes, volailles, mer
+boeuf-a-mijoter|fr|paleron
+boeuf-a-mijoter|fr|macreuse
+boeuf-a-mijoter|fr|gîte
+boeuf-a-mijoter|en|stewing steak
+boeuf-hache|fr|viande hachée
+agneau|fr|mouton
+epaule-d-agneau|fr|épaule de mouton
+veau-a-mijoter|fr|tendron de veau
+veau-a-mijoter|fr|épaule de veau
+chevre-viande|fr|cabri
+chevre-viande|en|goat
+poulet|fr|poulet fermier
+cuisse-de-poulet|fr|haut de cuisse
+cuisse-de-poulet|fr|pilon de poulet
+blanc-de-poulet|fr|escalope de poulet
+blanc-de-poulet|fr|filet de poulet
+lardon|fr|poitrine fumée
+jambon-blanc|fr|jambon
+basturma|fr|pastirma
+soudjouk|fr|sujuk
+saucisse-chinoise|fr|lap cheong
+saucisse-chinoise|en|lap cheung
+cabillaud|fr|dos de cabillaud
+morue-salee|fr|morue
+morue-salee|en|bacalao
+dorade|fr|daurade
+thiof|fr|mérou blanc
+anchois|fr|filet d'anchois
+thon-en-conserve|fr|thon en boîte
+thon-en-conserve|fr|thon au naturel
+sardine-en-conserve|fr|sardine à l'huile
+poisson-fume|fr|poisson séché
+crevette|fr|gambas
+calamar|fr|encornet
+calamar|fr|chipiron
+poulpe|fr|pieuvre
+# --------------------------------------------- laitiers, œufs, fromages
+lait-entier|fr|lait de vache
+lait-concentre-sucre|fr|lait concentré
+beurre|fr|beurre doux
+ghee|fr|beurre clarifié
+ghee|fr|samna
+smen|fr|beurre rance
+smen|fr|sman
+creme-fraiche|fr|crème épaisse
+creme-liquide|fr|crème fleurette
+yaourt|fr|yaourt nature
+yaourt-grec|fr|yaourt à la grecque
+labneh|fr|labné
+emmental|fr|gruyère
+emmental|fr|fromage râpé
+parmesan|fr|parmigiano
+feta|fr|fromage de brebis
+paneer|fr|fromage indien
+queso-fresco|fr|fromage frais mexicain
+oeuf|fr|œuf de poule
+# ----------------------------------------------- céréales, pâtes, pains
+riz-basmati|fr|basmati
+riz-brise|fr|brisure de riz
+riz-gluant|fr|riz collant
+riz-gluant|en|sticky rice
+pates-courtes|fr|penne
+pates-courtes|fr|coquillette
+pates-courtes|fr|macaroni
+pates-courtes|fr|farfalle
+vermicelle|fr|cheveu d'ange
+langue-d-oiseau|fr|orzo
+langue-d-oiseau|fr|risoni
+couscous|fr|graine de couscous
+couscous|fr|semoule de couscous
+berkoukes|fr|mhamsa
+boulgour|fr|blé concassé
+boulgour|en|bulgur wheat
+frik|fr|freekeh
+frik|fr|blé vert concassé
+polenta|fr|semoule de maïs
+flocon-d-avoine|fr|avoine
+hominy|fr|maïs cacahuazintle
+petit-mil|fr|mil
+petit-mil|fr|millet
+attieke|fr|semoule de manioc fermentée
+nouilles-de-riz|fr|banh pho
+nouilles-de-riz|en|rice stick
+vermicelle-de-soja|fr|nouille cellophane
+vermicelle-de-soja|fr|vermicelle chinois
+semoule-de-ble|fr|semoule
+semoule-fine|fr|semoule de blé fine
+farine-complete|fr|farine intégrale
+farine-de-pois-chiche|fr|besan
+farine-de-pois-chiche|en|gram flour
+gari|fr|farine de manioc
+masa-harina|fr|farine de maïs nixtamalisée
+baguette|fr|pain baguette
+khobz|fr|kesra
+khobz|fr|matlouh
+pain-pita|fr|pain libanais
+pain-pita|fr|pita
+chapati|fr|roti
+chapati|fr|phulka
+msemen|fr|rghaif
+msemen|fr|mlaoui
+feuille-de-brick|fr|brick
+feuille-de-brick|fr|malsouka
+feuille-de-brick|fr|warqa
+pate-filo|fr|filo
+pate-filo|fr|pâte phyllo
+tortilla-de-mais|fr|tortilla
+pate-feuilletee|fr|pâte feuilletée pur beurre
+langue-d-oiseau|fr|langue d'oiseau
+sarrasin|fr|kacha
+riz-long-grain|fr|riz long
+# --------------------------------------------------------- légumineuses
+pois-chiche|fr|garbanzo
+pois-chiche-en-conserve|fr|pois chiche en boîte
+lentille-corail|fr|lentille rouge
+lentille-corail|fr|masoor dal
+lentille-noire|fr|urad dal
+lentille-noire|fr|haricot urd
+haricot-rouge-en-conserve|fr|haricot rouge en boîte
+haricot-mungo|fr|moong dal
+haricot-mungo|fr|soja vert
+pois-d-angole|fr|toor dal
+pois-d-angole|fr|arhar dal
+pois-d-angole|en|pigeon pea
+niebe|fr|cornille
+niebe|fr|haricot cornille
+niebe|en|cowpea
+tofu|fr|fromage de soja
+# ------------------------------------------------------ noix et graines
+arachide|fr|cacahuète
+arachide-grillee|fr|cacahuète grillée
+poudre-d-amande|fr|amande en poudre
+poudre-d-amande|en|ground almonds
+pignon-de-pin|fr|pignon
+sesame|fr|graine de sésame
+noix-de-cajou|fr|cajou
+# ------------------------------------------------------------- épices
+sel|fr|sel fin
+sel|fr|sel de table
+gros-sel|fr|gros sel de mer
+poivre-noir|fr|poivre
+poivre-noir|fr|poivre du moulin
+paprika|fr|paprika doux
+curcuma|fr|safran des Indes
+curcuma|fr|haldi
+cannelle|fr|bâton de cannelle
+cannelle|fr|cannelle en poudre
+clou-de-girofle|fr|girofle
+cardamome|fr|cardamome verte
+cardamome|fr|elaichi
+muscade|fr|noix de muscade
+safran|fr|pistil de safran
+badiane|fr|anis étoilé
+anis-vert|fr|graine d'anis
+fenugrec|fr|methi
+fenugrec|fr|helba
+graine-de-nigelle|fr|nigelle
+graine-de-nigelle|fr|habba sawda
+graine-de-nigelle|fr|kalonji
+graine-de-moutarde|fr|moutarde en grain
+graine-de-fenouil|fr|fenouil en graine
+laurier|fr|feuille de laurier
+thym-seche|fr|thym
+origan-seche|fr|origan
+sumac|fr|somak
+asafoetida|fr|hing
+poivre-de-selim|fr|kani
+poivre-de-selim|fr|poivre de Guinée
+piment-en-poudre|fr|poudre de piment
+piment-de-cayenne|fr|cayenne
+piment-kashmiri|fr|piment du Kashmir
+ancho|fr|chile ancho
+guajillo|fr|chile guajillo
+chipotle|fr|piment chipotle
+coriandre-graines|fr|coriandre moulue
+gingembre-moulu|fr|gingembre en poudre
+ail-en-poudre|fr|poudre d'ail
+coriandre-graines|fr|coriandre graines
+piment-kashmiri|fr|piment kashmiri
+coriandre-graines|fr|graine de coriandre
+# -------------------------------------------------- mélanges d'épices
+ras-el-hanout|fr|épices à couscous
+baharat|fr|sept épices
+baharat|en|seven spice
+zaatar|fr|za'atar
+poudre-de-curry|fr|curry
+poudre-de-curry|fr|curry madras
+colombo|fr|poudre à colombo antillaise
+cinq-epices|fr|cinq épices chinois
+chili-powder-mexicain|fr|mélange chili
+yaji|fr|épices à suya
+# --------------------------------------- condiments et bases aromatiques
+sauce-soja|fr|shoyu
+sauce-poisson|fr|nuoc mam
+sauce-poisson|fr|nam pla
+tahini|fr|tahiné
+tahini|fr|crème de sésame
+tahini|en|sesame paste
+melasse-de-grenade|fr|dibs remmane
+bouillon-cube|fr|cube maggi
+bouillon-cube|fr|maggi
+bouillon-cube|fr|jumbo
+bouillon-cube|fr|cube de bouillon
+moutarde|fr|moutarde de Dijon
+sauce-piquante|fr|tabasco
+sauce-piquante|fr|sriracha
+cornichon|fr|pickles
+harissa|fr|harissa en tube
+pate-d-arachide|fr|dakatine
+pate-d-arachide|fr|tigadèguè
+pate-d-arachide|en|unsweetened peanut butter
+sambal-oelek|fr|sambal
+gochujang|fr|pâte de piment coréenne
+miso|fr|pâte de miso
+pate-de-crevette|fr|belacan
+pate-de-crevette|fr|terasi
+pate-de-tamarin|fr|concentré de tamarin
+chipotle-en-adobo|fr|chipotle à l'adobo
+citron-confit|fr|citron beldi
+citron-confit|fr|citron salé
+nere|fr|soumbala
+nere|fr|netetou
+nere|fr|dawadawa
+nere|fr|sumbala
+nere|fr|graine de néré
+nere|en|dawadawa
+nere|en|iru
+nere|en|fermented locust bean
+bouillon-volaille|fr|bouillon volaille
+sauce-huitre|fr|sauce huître
+bouillon-legumes|fr|bouillon légumes
+bouillon-boeuf|fr|bouillon boeuf
+# ----------------------------------------- ajouts du catalogue J5 (ouest-africain)
+feuille-de-ndole|fr|ndolé
+feuille-de-ndole|fr|feuille amère
+feuille-de-ndole|en|bitter leaf
+egusi|fr|graine de melon
+egusi|en|melon seed
+petit-mil|fr|semoule de mil
+# ------------------------------------------------------ huiles et sucres
+huile-neutre|fr|huile végétale
+huile-neutre|fr|huile de friture
+huile-neutre|en|vegetable oil
+huile-de-sesame|fr|huile de sésame grillé
+huile-de-coco|fr|huile de noix de coco
+huile-de-palme-rouge|fr|huile de palme
+huile-de-palme-rouge|fr|zomi
+huile-de-palme-rouge|en|dendê oil
+saindoux|fr|manteca
+miel|fr|miel liquide
+melasse|fr|mélasse noire
+sirop-de-datte|fr|dibs
+panela|fr|piloncillo
+panela|fr|rapadura
+sucre-glace|fr|sucre impalpable
+# ------------------------------------------------ pâtisserie et boissons
+maizena|fr|fécule de maïs
+maizena|en|cornstarch
+levure-chimique|fr|poudre à lever
+bicarbonate|fr|bicarbonate de soude
+vanille|fr|vanille en poudre
+chocolat-noir|fr|chocolat pâtissier
+cacao-en-poudre|fr|cacao amer
+gelatine|fr|feuille de gélatine
+eau-de-fleur-d-oranger|fr|fleur d'oranger
+eau-de-fleur-d-oranger|fr|mazhar
+the-vert|fr|thé vert gunpowder
+cafe|fr|café moulu
+rhum|fr|rhum agricole
+hibiscus-seche|fr|bissap
+hibiscus-seche|fr|oseille de Guinée
+hibiscus-seche|fr|karkadé
+hibiscus-seche|en|sorrel
+levure-boulangere|fr|levure boulangère
+tomate-concassee|fr|tomate concassée
+pecorino|fr|pecorino
+pecorino|en|pecorino
+biscuit-a-la-cuillere|fr|boudoir
+biscuit-a-la-cuillere|fr|savoiardi
+jambon-cru|fr|jambon serrano
+jambon-cru|fr|jambon de bayonne
+jambon-cru|fr|prosciutto
+souchet|fr|chufa
+biscuit-sec|fr|petit-beurre
+biscuit-sec|fr|biscuit maria
+fromage-blanc|fr|quark
+lait-fermente|fr|babeurre
+sirop-de-poire|fr|vin cuit
+vacherin|fr|vacherin
+roquefort|fr|bleu
+hominy|fr|hominy
+fecule-de-tapioca|fr|polvilho
+fecule-de-tapioca|fr|tapioca aigre
+bar|fr|loup de mer
+panela|fr|sucre de canne complet

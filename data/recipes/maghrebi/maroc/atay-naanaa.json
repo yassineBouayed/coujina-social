@@ -1,0 +1,32 @@
+{
+  "slug": "atay-naanaa",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Atay bi naânaâ",
+  "title": {
+    "fr": "Thé à la menthe marocain",
+    "en": "Moroccan mint tea"
+  },
+  "meal_type": "drink",
+  "servings": 4,
+  "times": { "prep_min": 10, "cook_min": 10 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["the", "accueil", "menthe", "quotidien"],
+  "ingredients": [
+    { "raw": "2 c. à s. de thé vert gunpowder", "qty": 2, "unit": "tbsp", "item": "thé vert" },
+    { "raw": "1 gros bouquet de menthe fraîche", "qty": 1, "unit": "bunch", "item": "menthe fraîche" },
+    { "raw": "80 g de sucre en morceaux", "qty": 80, "unit": "g", "item": "sucre" },
+    { "raw": "1 l d'eau", "qty": 1, "unit": "l", "item": "eau" }
+  ],
+  "steps": [
+    { "fr": "Ébouillanter le thé dans la théière avec un peu d'eau, remuer et jeter cette première eau : elle porte l'amertume.", "en": "Scald the tea in the pot with a little water, swirl and discard that first water: it carries the bitterness." },
+    { "fr": "Garder à part un demi-verre de la deuxième eau, qui est le premier jus et concentre le parfum.", "en": "Set aside half a glass of the second water, the first juice, which concentrates the aroma." },
+    { "fr": "Remplir d'eau bouillante, ajouter le sucre, et laisser infuser trois minutes sur feu doux sans faire bouillir.", "en": "Fill with boiling water, add the sugar, and steep for three minutes over low heat without boiling." },
+    { "fr": "Ajouter la menthe entière, tiges comprises, et laisser deux minutes seulement : plus longtemps, elle noircit et devient âcre.", "en": "Add the mint whole, stems included, for two minutes only: longer and it blackens and turns acrid." },
+    { "fr": "Reverser le premier jus, puis servir en versant de haut pour faire mousser.", "en": "Return the first juice, then pour from a height to raise the foam." },
+    { "fr": "Goûter et rectifier le sucre avant de servir : le thé se sucre dans la théière, jamais dans le verre.", "en": "Taste and adjust the sugar before serving: the tea is sweetened in the pot, never in the glass." }
+  ]
+}

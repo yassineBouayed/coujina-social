@@ -1,0 +1,37 @@
+{
+  "slug": "bissap",
+  "cuisine": "west-african",
+  "origin": "Sénégal",
+  "native_name": "Bissap",
+  "title": {
+    "fr": "Bissap, infusion glacée d'hibiscus à la menthe",
+    "en": "Bissap, iced hibiscus infusion with mint"
+  },
+  "meal_type": "drink",
+  "servings": 6,
+  "times": { "prep_min": 10, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j5-catalogue-v1", "date": "2026-08-29" },
+  "tags": ["hibiscus", "boisson", "glace", "sans-alcool"],
+  "ingredients": [
+    { "raw": "100 g de fleurs d'hibiscus séchées", "qty": 100, "unit": "g", "item": "hibiscus séché", "prep": "rincée" },
+    { "raw": "2 litres d'eau", "qty": 2, "unit": "l", "item": "eau" },
+    { "raw": "200 g de sucre", "qty": 200, "unit": "g", "item": "sucre" },
+    { "raw": "1 bouquet de menthe fraîche", "qty": 1, "unit": "bunch", "item": "menthe fraîche" },
+    { "raw": "1 gousse de vanille, fendue", "qty": 1, "unit": "piece", "item": "vanille", "prep": "fendue", "optional": true },
+    { "raw": "1 c. à s. d'eau de fleur d'oranger", "qty": 1, "unit": "tbsp", "item": "eau de fleur d'oranger", "optional": true },
+    { "raw": "20 g de gingembre frais", "qty": 20, "unit": "g", "item": "gingembre", "prep": "en rondelles", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Rincer les fleurs d'hibiscus à l'eau froide pour en ôter la poussière.", "en": "Rinse the dried hibiscus in cold water to wash off the dust." },
+    { "fr": "Porter les 2 litres d'eau à ébullition, y jeter les fleurs, le gingembre et la vanille, et couper le feu immédiatement.", "en": "Bring the 2 litres of water to the boil, tip in the flowers, ginger and vanilla, and turn the heat off at once." },
+    { "fr": "Laisser infuser 15 minutes à couvert, pas davantage.", "en": "Infuse covered for 15 minutes, no longer." },
+    { "fr": "Filtrer, sucrer à chaud pour que le sucre fonde, ajouter la menthe et l'eau de fleur d'oranger.", "en": "Strain, sweeten while hot so the sugar dissolves, then add the mint and the orange blossom water." },
+    { "fr": "Laisser refroidir puis mettre au frais au moins 3 heures. Servir très froid, sur glace.", "en": "Cool, then chill for at least 3 hours. Serve very cold, over ice." }
+  ],
+  "notes": [
+    { "fr": "Une infusion prolongée ou bouillie rend le bissap astringent et amer. Quinze minutes hors du feu suffisent : c'est l'erreur la plus fréquente, et elle est irrattrapable.", "en": "Long or boiling infusion turns bissap astringent and bitter. Fifteen minutes off the heat is enough: this is the commonest mistake, and there is no coming back from it." },
+    { "fr": "Le dosage du sucre est une affaire de famille et de pays : très sucré au Sénégal, presque sec ailleurs. La quantité donnée est un milieu, à ajuster sans complexe.", "en": "Sweetness is a matter of family and country: heavily sweet in Senegal, almost dry elsewhere. The amount given is a middle ground, to be adjusted without apology." }
+  ]
+}

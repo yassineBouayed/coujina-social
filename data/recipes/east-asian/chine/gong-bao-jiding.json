@@ -1,0 +1,40 @@
+{
+  "slug": "gong-bao-jiding",
+  "cuisine": "east-asian",
+  "country": "chine",
+  "origin": "Chine",
+  "native_name": "宫保鸡丁",
+  "title": {
+    "fr": "Poulet gong bao aux cacahuètes",
+    "en": "Gong bao chicken with peanuts"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 10 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["sichuan", "wok", "rapide", "arachide"],
+  "ingredients": [
+    { "raw": "600 g de blanc de poulet, en cubes", "qty": 600, "unit": "g", "item": "blanc de poulet", "prep": "en cubes" },
+    { "raw": "120 g d'arachides grillées", "qty": 120, "unit": "g", "item": "arachide grillée" },
+    { "raw": "12 piments séchés", "qty": 12, "unit": "piece", "item": "piment séché" },
+    { "raw": "1 c. à s. de poivre de Sichuan", "qty": 1, "unit": "tbsp", "item": "poivre de Sichuan" },
+    { "raw": "6 oignons nouveaux, en tronçons", "qty": 6, "unit": "piece", "item": "oignon nouveau", "prep": "en tronçons" },
+    { "raw": "3 c. à s. de vinaigre de riz", "qty": 3, "unit": "tbsp", "item": "vinaigre de riz", "group": "sauce" },
+    { "raw": "2 c. à s. de sauce soja", "qty": 2, "unit": "tbsp", "item": "sauce soja", "group": "sauce" },
+    { "raw": "2 c. à s. de sucre", "qty": 2, "unit": "tbsp", "item": "sucre", "group": "sauce" },
+    { "raw": "2 c. à s. de vin de riz", "qty": 2, "unit": "tbsp", "item": "vin de riz", "group": "sauce" },
+    { "raw": "1 c. à s. de maïzena", "qty": 1, "unit": "tbsp", "item": "maïzena", "group": "sauce" },
+    { "raw": "1 c. à s. de gingembre frais, haché", "qty": 1, "unit": "tbsp", "item": "gingembre", "prep": "haché" },
+    { "raw": "6 c. à s. d'huile neutre", "qty": 6, "unit": "tbsp", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Mariner le poulet vingt minutes dans un peu de vin de riz, de sauce soja et de maïzena : c'est le velvetage.", "en": "Marinate the chicken for twenty minutes in a little rice wine, soy and cornflour: this is velveting." },
+    { "fr": "Le velvetage forme une pellicule qui garde la chair tendre : sans lui, le blanc de poulet sèche en trente secondes.", "en": "Velveting forms a film that keeps the flesh tender: without it, chicken breast dries out in thirty seconds." },
+    { "fr": "Mélanger tous les éléments de la sauce à l'avance, dans un bol, à portée de main.", "en": "Mix all the sauce ingredients in advance, in a bowl, within reach." },
+    { "fr": "Chauffer le wok à blanc, saisir le poulet deux minutes sans le remuer, puis le réserver.", "en": "Heat the wok until smoking, sear the chicken for two minutes without stirring, then set it aside." },
+    { "fr": "Faire frire piments séchés et poivre de Sichuan trente secondes, jusqu'au parfum, sans les brûler.", "en": "Fry the dried chillies and Sichuan pepper for thirty seconds, until fragrant, without burning them." },
+    { "fr": "Tout réunir, verser la sauce, laisser épaissir dix secondes, et ajouter les arachides hors du feu.", "en": "Bring it all together, pour in the sauce, let it thicken for ten seconds, and add the peanuts off the heat." }
+  ]
+}

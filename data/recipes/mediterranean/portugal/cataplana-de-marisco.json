@@ -1,0 +1,46 @@
+{
+  "slug": "cataplana-de-marisco",
+  "cuisine": "mediterranean",
+  "country": "portugal",
+  "origin": "Portugal",
+  "native_name": "Cataplana de marisco",
+  "title": {
+    "fr": "Cataplana de fruits de mer",
+    "en": "Seafood cataplana"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 35 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["algarve", "fruits-de-mer", "vapeur", "partage"],
+  "ingredients": [
+    { "raw": "1 kg de palourdes", "qty": 1000, "unit": "g", "item": "palourde" },
+    { "raw": "600 g de moules", "qty": 600, "unit": "g", "item": "moule" },
+    { "raw": "500 g de crevettes crues", "qty": 500, "unit": "g", "item": "crevette" },
+    { "raw": "400 g de filet de cabillaud, en morceaux", "qty": 400, "unit": "g", "item": "cabillaud", "prep": "en morceaux" },
+    { "raw": "2 chorizos, en rondelles", "qty": 2, "unit": "piece", "item": "chorizo", "prep": "en rondelles" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "2 poivrons rouges, en lanières", "qty": 2, "unit": "piece", "item": "poivron rouge", "prep": "en lanières" },
+    { "raw": "600 g de tomates, concassées", "qty": 600, "unit": "g", "item": "tomate", "prep": "concassée" },
+    { "raw": "25 cl de vin blanc sec", "qty": 25, "unit": "cl", "item": "vin blanc" },
+    { "raw": "6 gousses d'ail, hachées", "qty": 6, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "1 bouquet de coriandre, ciselée", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "12 cl d'huile d'olive", "qty": 12, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La cataplana est un récipient en cuivre qui se ferme comme une coquille : c'est un cuiseur vapeur.", "en": "A cataplana is a copper vessel that shuts like a clamshell: it is a steamer." },
+    { "fr": "À défaut, une cocotte à couvercle LOURD et bien ajusté fait le même travail.", "en": "Failing that, a pot with a HEAVY, well-fitting lid does the same job." },
+    { "fr": "Faire une base d'oignons, poivrons, ail et chorizo, vingt minutes à l'huile d'olive.", "en": "Build a base of onion, pepper, garlic and chorizo, twenty minutes in olive oil." },
+    { "fr": "Ajouter tomates et vin blanc, et laisser réduire dix minutes.", "en": "Add the tomatoes and white wine, and reduce for ten minutes." },
+    { "fr": "Ranger les fruits de mer PAR ÉTAGES : poisson au fond, coquillages dessus, crevettes en dernier.", "en": "Layer the seafood IN TIERS: fish at the bottom, shellfish above, prawns last." },
+    { "fr": "Fermer et cuire DOUZE MINUTES sans jamais soulever le couvercle : la vapeur fait tout.", "en": "Close it and cook for TWELVE MINUTES without ever lifting the lid: the steam does everything." }
+  ],
+  "notes": [
+    { "fr": "Jeter tout coquillage resté fermé après cuisson, et tout coquillage déjà ouvert avant.", "en": "Discard any shellfish still shut after cooking, and any already open before." }
+  ]
+}

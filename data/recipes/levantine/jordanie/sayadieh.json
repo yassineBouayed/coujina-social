@@ -1,0 +1,41 @@
+{
+  "slug": "sayadieh",
+  "cuisine": "levantine",
+  "country": "jordanie",
+  "origin": "Jordanie",
+  "native_name": "Sayadieh",
+  "title": {
+    "fr": "Sayadieh, poisson au riz brun aux oignons",
+    "en": "Sayadieh, fish with browned onion rice"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 35, "cook_min": 60 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["aqaba", "poisson", "oignon", "fete"],
+  "ingredients": [
+    { "raw": "1,2 kg de cabillaud, en gros tronçons", "qty": 1200, "unit": "g", "item": "cabillaud", "prep": "en gros tronçons" },
+    { "raw": "500 g de riz long grain", "qty": 500, "unit": "g", "item": "riz long grain" },
+    { "raw": "1 kg d'oignons, émincés finement", "qty": 1000, "unit": "g", "item": "oignon", "prep": "émincé finement" },
+    { "raw": "1 c. à s. de cumin moulu", "qty": 1, "unit": "tbsp", "item": "cumin" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "4 gousses de cardamome", "qty": 4, "unit": "piece", "item": "cardamome" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "100 g d'amandes, mondées", "qty": 100, "unit": "g", "item": "amande", "prep": "mondée", "group": "garniture" },
+    { "raw": "60 g de pignons de pin", "qty": 60, "unit": "g", "item": "pignon de pin", "group": "garniture" },
+    { "raw": "20 cl d'huile d'olive", "qty": 20, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "2 citrons, leur jus", "qty": 2, "unit": "piece", "item": "citron" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Frire les oignons jusqu'à ce qu'ils soient TRÈS BRUNS, presque noirs par endroits : c'est eux qui colorent le riz.", "en": "Fry the onions until VERY BROWN, almost black in places: they are what colour the rice." },
+    { "fr": "En mixer les deux tiers avec un peu d'eau pour obtenir un jus brun foncé, et garder le reste croustillant.", "en": "Blend two-thirds of them with a little water into a dark brown juice, and keep the rest crisp." },
+    { "fr": "Saisir le poisson dans l'huile parfumée, deux minutes par face, et le réserver.", "en": "Sear the fish in the scented oil, two minutes a side, and set aside." },
+    { "fr": "Cuire le riz dans le jus d'oignon allongé d'eau, avec le cumin, le curcuma et les épices entières.", "en": "Cook the rice in the onion juice let down with water, with the cumin, turmeric and whole spices." },
+    { "fr": "Le riz doit être BRUN, pas jaune : un riz jaune signale que les oignons n'ont pas été assez poussés.", "en": "The rice must be BROWN, not yellow: yellow rice means the onions were not taken far enough." },
+    { "fr": "Dresser le riz, poser le poisson, couvrir d'oignons croustillants, d'amandes, de pignons et de citron.", "en": "Plate the rice, set the fish on top, cover with crisp onions, almonds, pine nuts and lemon." }
+  ]
+}

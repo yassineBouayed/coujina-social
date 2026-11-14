@@ -1,0 +1,32 @@
+{
+  "slug": "submarino",
+  "cuisine": "latin-american",
+  "country": "argentine",
+  "origin": "Argentine",
+  "native_name": "Submarino",
+  "title": {
+    "fr": "Submarino, chocolat chaud au lait",
+    "en": "Submarino, hot chocolate in milk"
+  },
+  "meal_type": "drink",
+  "servings": 4,
+  "times": { "prep_min": 5, "cook_min": 10 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hiver", "chocolat", "enfants", "gouter"],
+  "ingredients": [
+    { "raw": "80 cl de lait entier", "qty": 80, "unit": "cl", "item": "lait entier" },
+    { "raw": "200 g de chocolat noir, en barres", "qty": 200, "unit": "g", "item": "chocolat noir", "prep": "en barres" },
+    { "raw": "2 c. à s. de sucre", "qty": 2, "unit": "tbsp", "item": "sucre", "optional": true },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le submarino se distingue du chocolat chaud : la barre de chocolat est PLONGÉE ENTIÈRE dans le lait.", "en": "The submarino differs from hot chocolate: the chocolate bar is DROPPED IN WHOLE." },
+    { "fr": "Elle coule au fond comme un sous-marin : c'est de là que vient le nom.", "en": "It sinks to the bottom like a submarine: that is where the name comes from." },
+    { "fr": "Chauffer le lait à 70 °C, sans bouillir : plus chaud, il prend un goût de cuit.", "en": "Heat the milk to 70°C, without boiling: hotter, it takes on a cooked taste." },
+    { "fr": "Verser le lait BRÛLANT dans le verre, puis glisser la barre de chocolat dedans.", "en": "Pour the SCALDING milk into the glass, then slide the chocolate bar in." },
+    { "fr": "C'est le convive qui REMUE lui-même, avec sa cuillère, jusqu'à ce que le chocolat fonde.", "en": "The drinker STIRS it themselves, with their spoon, until the chocolate melts." },
+    { "fr": "Compter deux à trois minutes : le plaisir du submarino est dans cette attente.", "en": "Allow two or three minutes: the pleasure of the submarino is in that wait." }
+  ]
+}

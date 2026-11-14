@@ -1,0 +1,37 @@
+{
+  "slug": "salad-shirazi",
+  "cuisine": "middle-eastern",
+  "country": "iran",
+  "origin": "Iran",
+  "native_name": "Salad-e Shirazi",
+  "title": {
+    "fr": "Salade shirazi, concombre, tomate et menthe",
+    "en": "Shirazi salad with cucumber, tomato and mint"
+  },
+  "meal_type": "salad",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["cru", "ete", "menthe", "accompagnement"],
+  "ingredients": [
+    { "raw": "4 concombres, en tout petits dés", "qty": 4, "unit": "piece", "item": "concombre", "prep": "en tout petits dés" },
+    { "raw": "4 tomates fermes, en tout petits dés", "qty": 4, "unit": "piece", "item": "tomate", "prep": "en tout petits dés" },
+    { "raw": "1 oignon rouge, en tout petits dés", "qty": 1, "unit": "piece", "item": "oignon rouge", "prep": "en tout petits dés" },
+    { "raw": "1/2 bouquet de menthe fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "menthe fraîche", "prep": "ciselée" },
+    { "raw": "2 citrons verts, leur jus", "qty": 2, "unit": "piece", "item": "citron vert" },
+    { "raw": "1 c. à c. de menthe séchée", "qty": 1, "unit": "tsp", "item": "menthe séchée" },
+    { "raw": "4 c. à s. d'huile d'olive", "qty": 4, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La taille des dés est le seul critère de cette salade : le plus petit possible, et tous identiques.", "en": "The size of the dice is the only test this salad has: as small as possible, and all identical." },
+    { "fr": "Épépiner les tomates : leurs graines rendraient trop d'eau.", "en": "Seed the tomatoes: their seeds would release too much water." },
+    { "fr": "Mélanger tous les légumes avec la menthe fraîche.", "en": "Combine all the vegetables with the fresh mint." },
+    { "fr": "Fouetter le jus de citron vert, la menthe séchée, le sel, le poivre et l'huile.", "en": "Whisk the lime juice, dried mint, salt, pepper and oil." },
+    { "fr": "Assaisonner au dernier moment, jamais à l'avance.", "en": "Dress at the last moment, never in advance." },
+    { "fr": "Servir très froid, à côté d'un riz ou d'un kabab.", "en": "Serve very cold, beside rice or kebab." }
+  ]
+}

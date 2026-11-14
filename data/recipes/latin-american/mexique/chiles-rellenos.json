@@ -1,0 +1,39 @@
+{
+  "slug": "chiles-rellenos",
+  "cuisine": "latin-american",
+  "country": "mexique",
+  "origin": "Mexique",
+  "native_name": "Chiles rellenos",
+  "title": {
+    "fr": "Piments poblanos farcis au fromage",
+    "en": "Poblano peppers stuffed with cheese"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 50, "cook_min": 30 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["poblano", "friture", "fromage", "fete"],
+  "ingredients": [
+    { "raw": "8 piments poblanos", "qty": 8, "unit": "piece", "item": "poivron vert", "prep": "variété poblano" },
+    { "raw": "500 g de queso fresco, en bâtonnets", "qty": 500, "unit": "g", "item": "queso fresco", "prep": "en bâtonnets" },
+    { "raw": "5 œufs, blancs et jaunes séparés", "qty": 5, "unit": "piece", "item": "oeuf", "prep": "séparés" },
+    { "raw": "120 g de farine de blé", "qty": 120, "unit": "g", "item": "farine de blé" },
+    { "raw": "1 l d'huile neutre pour la friture", "qty": 1, "unit": "l", "item": "huile neutre" },
+    { "raw": "800 g de tomate pelée en conserve", "qty": 800, "unit": "g", "item": "tomate pelée en conserve", "group": "sauce" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché", "group": "sauce" },
+    { "raw": "4 gousses d'ail", "qty": 4, "unit": "piece", "item": "ail", "group": "sauce" },
+    { "raw": "2 c. à c. d'origan séché", "qty": 2, "unit": "tsp", "item": "origan séché", "group": "sauce" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "GRILLER les poblanos jusqu'à ce que la peau NOIRCISSE entièrement, sur toutes leurs faces.", "en": "CHAR the poblanos until the skin BLACKENS entirely, on every side." },
+    { "fr": "Les enfermer vingt minutes dans un sac : la vapeur décolle la peau, qui part alors à la main.", "en": "Seal them in a bag for twenty minutes: the steam loosens the skin, which then peels by hand." },
+    { "fr": "Les inciser SUR LA LONGUEUR, d'un seul côté, et retirer les graines sans percer les parois.", "en": "Slit them LENGTHWISE on one side only, and remove the seeds without piercing the walls." },
+    { "fr": "Farcir sans trop remplir et FERMER avec un cure-dent : le fromage doit rester dedans.", "en": "Fill them without overpacking and PIN them shut: the cheese must stay inside." },
+    { "fr": "La pâte est un SOUFFLÉ : blancs montés très fermes, jaunes incorporés à la maryse.", "en": "The batter is a SOUFFLÉ: whites whipped very stiff, yolks folded in with a spatula." },
+    { "fr": "Fariner le piment, l'enrober de pâte, et frire À LA CUILLÈRE, en arrosant le dessus d'huile.", "en": "Flour the pepper, coat it in batter, and fry WITH A SPOON, basting the top with oil." }
+  ]
+}

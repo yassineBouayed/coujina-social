@@ -1,0 +1,39 @@
+{
+  "slug": "larb-gai",
+  "cuisine": "southeast-asian",
+  "country": "thailande",
+  "origin": "Thaïlande",
+  "native_name": "ลาบไก่",
+  "title": {
+    "fr": "Larb gai, salade de poulet haché au riz grillé",
+    "en": "Larb gai, minced chicken salad with toasted rice"
+  },
+  "meal_type": "salad",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["isan", "menthe", "riz-grille", "citron-vert"],
+  "ingredients": [
+    { "raw": "600 g de poulet haché", "qty": 600, "unit": "g", "item": "poulet haché" },
+    { "raw": "3 c. à s. de riz gluant", "qty": 3, "unit": "tbsp", "item": "riz gluant" },
+    { "raw": "4 c. à s. de sauce poisson", "qty": 4, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "4 citrons verts, leur jus", "qty": 4, "unit": "piece", "item": "citron vert" },
+    { "raw": "2 c. à s. de piment en poudre", "qty": 2, "unit": "tbsp", "item": "piment en poudre" },
+    { "raw": "1 c. à s. de sucre de palme", "qty": 1, "unit": "tbsp", "item": "sucre de palme" },
+    { "raw": "4 oignons nouveaux, ciselés", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé" },
+    { "raw": "1 oignon rouge, émincé", "qty": 1, "unit": "piece", "item": "oignon rouge", "prep": "émincé" },
+    { "raw": "1 bouquet de menthe fraîche", "qty": 1, "unit": "bunch", "item": "menthe fraîche" },
+    { "raw": "1/2 bouquet de coriandre fraîche", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche" },
+    { "raw": "1 laitue, en feuilles", "qty": 1, "unit": "piece", "item": "laitue", "group": "service" }
+  ],
+  "steps": [
+    { "fr": "Griller le riz gluant CRU à sec, dix minutes, jusqu'à ce qu'il soit brun foncé, puis le moudre.", "en": "Toast the RAW glutinous rice dry for ten minutes, until deep brown, then grind it." },
+    { "fr": "Ce riz grillé moulu — le khao khua — est la signature du larb : il épaissit et parfume à la fois.", "en": "That ground toasted rice — khao khua — is the larb signature: it thickens and perfumes at once." },
+    { "fr": "Cuire le poulet haché dans un peu d'eau, sans matière grasse, en l'écrasant à la cuillère.", "en": "Cook the minced chicken in a little water, with no fat, breaking it up with a spoon." },
+    { "fr": "Le laisser TIÉDIR : monté chaud, le larb cuit les herbes et perd sa fraîcheur.", "en": "Let it COOL to warm: assembled hot, larb cooks the herbs and loses its freshness." },
+    { "fr": "Assaisonner de sauce poisson, citron vert, piment et sucre, en goûtant.", "en": "Season with fish sauce, lime, chilli and sugar, tasting as you go." },
+    { "fr": "Ajouter herbes, oignons et riz grillé au dernier moment, et servir avec des feuilles de laitue.", "en": "Add the herbs, onions and toasted rice at the last moment, and serve with lettuce leaves." }
+  ]
+}

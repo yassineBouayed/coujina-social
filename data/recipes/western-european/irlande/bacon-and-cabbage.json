@@ -1,0 +1,39 @@
+{
+  "slug": "bacon-and-cabbage",
+  "cuisine": "western-european",
+  "country": "irlande",
+  "origin": "Irlande",
+  "native_name": "Bacon and cabbage",
+  "title": {
+    "fr": "Petit salé au chou à l'irlandaise",
+    "en": "Irish bacon and cabbage"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 120 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["dimanche", "chou", "porc", "classique"],
+  "ingredients": [
+    { "raw": "1,5 kg d'échine de porc demi-sel", "qty": 1500, "unit": "g", "item": "échine de porc", "prep": "demi-sel" },
+    { "raw": "1 chou vert, en quartiers", "qty": 1, "unit": "piece", "item": "chou vert", "prep": "en quartiers" },
+    { "raw": "1 kg de pommes de terre", "qty": 1000, "unit": "g", "item": "pomme de terre" },
+    { "raw": "3 carottes, en tronçons", "qty": 3, "unit": "piece", "item": "carotte", "prep": "en tronçons" },
+    { "raw": "2 oignons, piqués de girofle", "qty": 2, "unit": "piece", "item": "oignon", "prep": "piqué de girofle" },
+    { "raw": "50 g de beurre", "qty": 50, "unit": "g", "item": "beurre", "group": "sauce" },
+    { "raw": "50 g de farine de blé", "qty": 50, "unit": "g", "item": "farine de blé", "group": "sauce" },
+    { "raw": "50 cl de lait entier", "qty": 50, "unit": "cl", "item": "lait entier", "group": "sauce" },
+    { "raw": "3 c. à s. de moutarde", "qty": 3, "unit": "tbsp", "item": "moutarde", "group": "sauce" },
+    { "raw": "3 feuilles de laurier", "qty": 3, "unit": "piece", "item": "laurier" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Faire dessaler la viande DOUZE HEURES à l'eau froide, en changeant l'eau deux fois.", "en": "Soak the meat for TWELVE HOURS in cold water, changing the water twice." },
+    { "fr": "Sans dessalage, le plat entier est immangeable : la salaison irlandaise est forte.", "en": "Without soaking, the whole dish is inedible: Irish curing is heavy." },
+    { "fr": "Pocher la viande une heure et demie à frémissement, avec oignon et laurier.", "en": "Poach the meat for an hour and a half at a simmer, with onion and bay." },
+    { "fr": "Cuire le chou DANS ce bouillon, les dix dernières minutes : il y prend tout son goût.", "en": "Cook the cabbage IN that broth, in the last ten minutes: it takes up all its flavour." },
+    { "fr": "Faire une sauce à la moutarde avec un roux et le lait, jamais avec le bouillon salé.", "en": "Make a mustard sauce with a roux and milk, never with the salty broth." },
+    { "fr": "Trancher la viande épais et servir avec le chou égoutté et les pommes de terre nature.", "en": "Slice the meat thickly and serve with the drained cabbage and plain potatoes." }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "ojja-merguez",
+  "cuisine": "maghrebi",
+  "country": "tunisie",
+  "origin": "Tunisie",
+  "native_name": "Ojja merguez",
+  "title": {
+    "fr": "Ojja aux merguez et aux œufs",
+    "en": "Ojja with merguez and eggs"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rapide", "oeuf", "merguez", "poele"],
+  "ingredients": [
+    { "raw": "400 g de merguez, en tronçons", "qty": 400, "unit": "g", "item": "merguez", "prep": "en tronçons" },
+    { "raw": "6 œufs", "qty": 6, "unit": "piece", "item": "oeuf" },
+    { "raw": "4 tomates, râpées", "qty": 4, "unit": "piece", "item": "tomate", "prep": "râpée" },
+    { "raw": "2 poivrons verts, en lanières", "qty": 2, "unit": "piece", "item": "poivron vert", "prep": "en lanières" },
+    { "raw": "4 gousses d'ail, écrasées", "qty": 4, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 c. à s. de harissa", "qty": 1, "unit": "tbsp", "item": "harissa" },
+    { "raw": "1 c. à s. de concentré de tomate", "qty": 1, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "1 c. à c. de tabil", "qty": 1, "unit": "tsp", "item": "tabil" },
+    { "raw": "4 c. à s. d'huile d'olive", "qty": 4, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire dorer les merguez dans l'huile et les réserver : leur gras parfume tout le reste.", "en": "Brown the merguez in the oil and set them aside: their fat flavours everything else." },
+    { "fr": "Cuire les poivrons et l'ail dans ce gras, puis ajouter la harissa et le concentré, deux minutes.", "en": "Cook the peppers and garlic in that fat, then add the harissa and purée for two minutes." },
+    { "fr": "Ajouter les tomates râpées et le tabil, et laisser réduire vingt minutes jusqu'à une sauce épaisse.", "en": "Add the grated tomatoes and tabil, and reduce for twenty minutes to a thick sauce." },
+    { "fr": "Remettre les merguez, faire des puits dans la sauce et y casser les œufs.", "en": "Return the merguez, make wells in the sauce and crack the eggs into them." },
+    { "fr": "Couvrir et cuire cinq minutes : le blanc doit prendre, le jaune rester coulant.", "en": "Cover and cook for five minutes: the whites set, the yolks stay runny." },
+    { "fr": "Servir directement dans la poêle, avec du pain, et manger à même le plat.", "en": "Serve straight from the pan, with bread, and eat from the dish." }
+  ]
+}

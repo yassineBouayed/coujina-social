@@ -1,0 +1,40 @@
+{
+  "slug": "sernik",
+  "cuisine": "eastern-european",
+  "country": "pologne",
+  "origin": "Pologne",
+  "native_name": "Sernik",
+  "title": {
+    "fr": "Sernik, gâteau au fromage polonais",
+    "en": "Sernik, Polish cheesecake"
+  },
+  "meal_type": "dessert",
+  "servings": 12,
+  "times": { "prep_min": 40, "cook_min": 75 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "fromage", "paques", "classique"],
+  "ingredients": [
+    { "raw": "250 g de farine de blé", "qty": 250, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "150 g de beurre, froid", "qty": 150, "unit": "g", "item": "beurre", "prep": "froid", "group": "pâte" },
+    { "raw": "80 g de sucre glace", "qty": 80, "unit": "g", "item": "sucre glace", "group": "pâte" },
+    { "raw": "2 jaunes d'œufs", "qty": 2, "unit": "piece", "item": "oeuf", "group": "pâte" },
+    { "raw": "1,2 kg de fromage blanc, bien égoutté", "qty": 1200, "unit": "g", "item": "fromage blanc", "prep": "bien égoutté", "group": "appareil" },
+    { "raw": "6 œufs, blancs et jaunes séparés", "qty": 6, "unit": "piece", "item": "oeuf", "prep": "séparés", "group": "appareil" },
+    { "raw": "250 g de sucre", "qty": 250, "unit": "g", "item": "sucre", "group": "appareil" },
+    { "raw": "150 g de beurre, mou", "qty": 150, "unit": "g", "item": "beurre", "prep": "mou", "group": "appareil" },
+    { "raw": "60 g de fécule de pomme de terre", "qty": 60, "unit": "g", "item": "maïzena", "prep": "ou fécule", "group": "appareil" },
+    { "raw": "1 citron, son zeste", "qty": 1, "unit": "piece", "item": "citron", "group": "appareil" },
+    { "raw": "120 g de raisins secs", "qty": 120, "unit": "g", "item": "raisin sec", "optional": true },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le sernik se fait au TWARÓG, un fromage blanc frais TRÈS égoutté, jamais au cream cheese.", "en": "Sernik uses TWARÓG, a fresh curd cheese VERY well drained, never cream cheese." },
+    { "fr": "Le passer DEUX FOIS au tamis fin : c'est ce qui donne la texture soyeuse du sernik.", "en": "Pass it TWICE through a fine sieve: that is what gives sernik its silky texture." },
+    { "fr": "Crémer beurre, sucre et jaunes DIX MINUTES, jusqu'à ce que le mélange blanchisse.", "en": "Cream the butter, sugar and yolks for TEN MINUTES, until the mixture pales." },
+    { "fr": "Monter les blancs et les incorporer EN DERNIER, à la maryse, en soulevant.", "en": "Whip the whites and fold them in LAST, with a spatula, lifting." },
+    { "fr": "Cuire 75 minutes à 160 °C, au bain-marie, pour éviter que le dessus ne craquelle.", "en": "Bake for 75 minutes at 160°C, in a water bath, to keep the top from cracking." },
+    { "fr": "Laisser refroidir DANS LE FOUR ÉTEINT, porte entrouverte, puis réfrigérer une nuit.", "en": "Cool it IN THE SWITCHED-OFF OVEN, door ajar, then chill overnight." }
+  ]
+}

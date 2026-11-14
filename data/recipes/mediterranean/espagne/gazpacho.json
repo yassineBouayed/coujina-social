@@ -1,0 +1,37 @@
+{
+  "slug": "gazpacho",
+  "cuisine": "mediterranean",
+  "country": "espagne",
+  "origin": "Espagne",
+  "native_name": "Gazpacho andaluz",
+  "title": {
+    "fr": "Gaspacho andalou",
+    "en": "Andalusian gazpacho"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["andalousie", "ete", "cru", "froid"],
+  "ingredients": [
+    { "raw": "1,2 kg de tomates très mûres", "qty": 1200, "unit": "g", "item": "tomate" },
+    { "raw": "1 concombre, pelé", "qty": 1, "unit": "piece", "item": "concombre", "prep": "pelé" },
+    { "raw": "1 poivron vert", "qty": 1, "unit": "piece", "item": "poivron vert" },
+    { "raw": "1 gousse d'ail", "qty": 1, "unit": "piece", "item": "ail" },
+    { "raw": "120 g de pain de campagne rassis", "qty": 120, "unit": "g", "item": "pain", "prep": "rassis" },
+    { "raw": "12 cl d'huile d'olive", "qty": 12, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "3 c. à s. de vinaigre de xérès", "qty": 3, "unit": "tbsp", "item": "vinaigre de xérès" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le gaspacho n'est pas une soupe de tomate froide : le PAIN et l'HUILE en font une émulsion.", "en": "Gazpacho is not cold tomato soup: the BREAD and the OIL make it an emulsion." },
+    { "fr": "Faire tremper le pain rassis dans un peu d'eau et l'essorer avant de le mixer.", "en": "Soak the stale bread in a little water and squeeze it out before blending." },
+    { "fr": "Mixer TRÈS longuement — trois minutes — tous les légumes, le pain, l'ail et le vinaigre.", "en": "Blend ALL the vegetables, bread, garlic and vinegar for a VERY long time — three minutes." },
+    { "fr": "Verser l'huile d'olive EN FILET, mixeur en marche : c'est ce qui donne la couleur orangée.", "en": "Pour the olive oil IN A STREAM with the blender running: that is what gives the orange colour." },
+    { "fr": "PASSER AU CHINOIS : c'est ce qui sépare un gaspacho d'un jus de légumes granuleux.", "en": "PASS IT THROUGH A SIEVE: that is what separates a gazpacho from a gritty vegetable juice." },
+    { "fr": "Réfrigérer QUATRE HEURES et rectifier le sel FROID : le froid éteint l'assaisonnement.", "en": "Chill for FOUR HOURS and adjust the salt COLD: cold dulls the seasoning." }
+  ]
+}

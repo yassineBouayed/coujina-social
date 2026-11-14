@@ -1,0 +1,36 @@
+{
+  "slug": "su-boregi",
+  "cuisine": "middle-eastern",
+  "country": "turquie",
+  "origin": "Turquie",
+  "native_name": "Su böreği",
+  "title": {
+    "fr": "Su böreği, feuilleté au fromage et au persil",
+    "en": "Su boregi, layered cheese and parsley pastry"
+  },
+  "meal_type": "starter",
+  "servings": 8,
+  "times": { "prep_min": 45, "cook_min": 45 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["feuillete", "fromage", "four", "fete"],
+  "ingredients": [
+    { "raw": "500 g de pâte filo", "qty": 500, "unit": "g", "item": "pâte filo" },
+    { "raw": "400 g de feta, émiettée", "qty": 400, "unit": "g", "item": "feta", "prep": "émiettée", "group": "farce" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé", "group": "farce" },
+    { "raw": "150 g de beurre, fondu", "qty": 150, "unit": "g", "item": "beurre", "prep": "fondu" },
+    { "raw": "20 cl d'huile de tournesol", "qty": 20, "unit": "cl", "item": "huile de tournesol" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf", "group": "appareil" },
+    { "raw": "25 cl de lait", "qty": 25, "unit": "cl", "item": "lait", "group": "appareil" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Su böreği veut dire « börek à l'eau » : les feuilles sont ÉBOUILLANTÉES avant d'être montées.", "en": "Su boregi means \"water borek\": the sheets are BLANCHED before assembly." },
+    { "fr": "Plonger chaque feuille de filo trente secondes dans l'eau bouillante salée, puis la rafraîchir à l'eau froide.", "en": "Dip each filo sheet for thirty seconds in boiling salted water, then refresh it in cold water." },
+    { "fr": "L'égoutter sur un linge : c'est cette étape qui donne au su böreği sa texture de lasagne moelleuse.", "en": "Drain it on a cloth: this step is what gives su boregi its soft, lasagne-like texture." },
+    { "fr": "Fouetter œufs, lait, beurre fondu et huile en un appareil, et en badigeonner chaque feuille.", "en": "Whisk the eggs, milk, melted butter and oil into a mixture, and brush each sheet with it." },
+    { "fr": "Empiler la moitié des feuilles, étaler feta et persil, puis empiler le reste.", "en": "Stack half the sheets, spread the feta and parsley, then stack the rest." },
+    { "fr": "Cuire 45 minutes à 190 °C, jusqu'à ce que le dessus soit doré et croustillant.", "en": "Bake for 45 minutes at 190°C, until the top is golden and crisp." }
+  ]
+}

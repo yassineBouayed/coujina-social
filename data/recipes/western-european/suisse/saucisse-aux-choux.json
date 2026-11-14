@@ -1,0 +1,40 @@
+{
+  "slug": "saucisse-aux-choux",
+  "cuisine": "western-european",
+  "country": "suisse",
+  "origin": "Suisse",
+  "native_name": "Saucisse aux choux",
+  "title": {
+    "fr": "Saucisse aux choux et pommes de terre",
+    "en": "Cabbage sausage with potatoes"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 60 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["vaud", "saucisse", "chou", "hiver"],
+  "ingredients": [
+    { "raw": "5 saucisses fumées", "qty": 5, "unit": "piece", "item": "saucisse fumée" },
+    { "raw": "1 chou vert, en lanières", "qty": 1, "unit": "piece", "item": "chou vert", "prep": "en lanières" },
+    { "raw": "1 kg de pommes de terre", "qty": 1000, "unit": "g", "item": "pomme de terre" },
+    { "raw": "3 carottes, en rondelles", "qty": 3, "unit": "piece", "item": "carotte", "prep": "en rondelles" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "20 cl de vin blanc sec", "qty": 20, "unit": "cl", "item": "vin blanc" },
+    { "raw": "60 g de beurre", "qty": 60, "unit": "g", "item": "beurre" },
+    { "raw": "6 baies de genièvre", "qty": 6, "unit": "piece", "item": "baie de genièvre" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "3 c. à s. de moutarde", "qty": 3, "unit": "tbsp", "item": "moutarde", "group": "service" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La saucisse aux choux vaudoise est fumée et contient déjà du chou : c'est une IGP protégée.", "en": "The Vaud cabbage sausage is smoked and already contains cabbage: it carries a protected label." },
+    { "fr": "Elle se pOche à l'eau FRÉMISSANTE, jamais bouillante : bouillie, elle éclate.", "en": "It is poached in SIMMERING water, never boiling: boiled, it bursts." },
+    { "fr": "La piquer d'un coup d'aiguille avant de la pocher évite qu'elle ne se fende sur la longueur.", "en": "One needle prick before poaching keeps it from splitting lengthwise." },
+    { "fr": "Braiser le chou au beurre avec oignons, genièvre et vin blanc, quarante minutes.", "en": "Braise the cabbage in butter with onions, juniper and white wine, for forty minutes." },
+    { "fr": "Cuire les pommes de terre à part, à l'eau salée, et les servir nature.", "en": "Cook the potatoes separately, in salted water, and serve them plain." },
+    { "fr": "Trancher la saucisse épaisse et la poser sur le chou, avec de la moutarde à côté.", "en": "Slice the sausage thickly and lay it on the cabbage, with mustard alongside." }
+  ]
+}

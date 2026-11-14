@@ -1,0 +1,43 @@
+{
+  "slug": "lablabi",
+  "cuisine": "maghrebi",
+  "country": "tunisie",
+  "origin": "Tunisie",
+  "native_name": "Lablabi",
+  "title": {
+    "fr": "Lablabi, soupe de pois chiches au pain rassis",
+    "en": "Lablabi, chickpea soup with stale bread"
+  },
+  "meal_type": "soup",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 90 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "hiver", "economique", "pois-chiche"],
+  "ingredients": [
+    { "raw": "400 g de pois chiches secs, trempés la veille", "qty": 400, "unit": "g", "item": "pois chiche sec", "prep": "trempé la veille" },
+    { "raw": "6 gousses d'ail", "qty": 6, "unit": "piece", "item": "ail" },
+    { "raw": "2 c. à s. de harissa", "qty": 2, "unit": "tbsp", "item": "harissa" },
+    { "raw": "2 c. à c. de cumin moulu", "qty": 2, "unit": "tsp", "item": "cumin" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "8 c. à s. d'huile d'olive", "qty": 8, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "400 g de pain rassis, en morceaux", "qty": 400, "unit": "g", "item": "pain", "prep": "rassis, en morceaux" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf", "group": "garniture" },
+    { "raw": "100 g de thon en conserve, égoutté", "qty": 100, "unit": "g", "item": "thon en conserve", "prep": "égoutté", "optional": true, "group": "garniture" },
+    { "raw": "2 c. à s. de câpres", "qty": 2, "unit": "tbsp", "item": "câpre", "optional": true, "group": "garniture" },
+    { "raw": "8 olives noires", "qty": 8, "unit": "piece", "item": "olive noire", "optional": true, "group": "garniture" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire les pois chiches une heure et demie dans une grande eau non salée, avec l'ail entier.", "en": "Cook the chickpeas for an hour and a half in plenty of unsalted water, with the garlic whole." },
+    { "fr": "Saler seulement en fin de cuisson, et garder le bouillon : c'est lui qu'on sert, pas les pois chiches égouttés.", "en": "Salt only at the end, and keep the broth: it is the broth that is served, not drained chickpeas." },
+    { "fr": "Écraser l'ail cuit avec le cumin, la harissa et un peu de bouillon, et le reverser dans la marmite.", "en": "Crush the cooked garlic with the cumin, harissa and a little broth, and stir it back into the pot." },
+    { "fr": "Émietter le pain rassis au fond de chaque bol, en couche généreuse.", "en": "Tear the stale bread into the bottom of each bowl, in a generous layer." },
+    { "fr": "Verser dessus le bouillon brûlant avec les pois chiches, et casser un œuf dans chaque bol : la chaleur le pochera.", "en": "Ladle the scalding broth and chickpeas over it, and crack an egg into each bowl: the heat will poach it." },
+    { "fr": "Terminer par l'huile d'olive crue, le jus de citron, le thon, les câpres et les olives, et manger sans attendre.", "en": "Finish with raw olive oil, lemon juice, tuna, capers and olives, and eat without waiting." }
+  ],
+  "notes": [
+    { "fr": "Le pain doit être vraiment rassis : du pain frais se dissout et le lablabi devient une bouillie.", "en": "The bread must be genuinely stale: fresh bread dissolves and lablabi turns to mush." }
+  ]
+}

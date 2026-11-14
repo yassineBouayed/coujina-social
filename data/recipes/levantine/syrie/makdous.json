@@ -1,0 +1,38 @@
+{
+  "slug": "makdous",
+  "cuisine": "levantine",
+  "country": "syrie",
+  "origin": "Syrie",
+  "native_name": "Makdous",
+  "title": {
+    "fr": "Makdous, petites aubergines confites aux noix",
+    "en": "Makdous, baby aubergines cured with walnuts"
+  },
+  "meal_type": "starter",
+  "servings": 10,
+  "times": { "prep_min": 60, "cook_min": 20 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["conserve", "automne", "noix", "petit-dejeuner"],
+  "ingredients": [
+    { "raw": "2 kg de petites aubergines", "qty": 2000, "unit": "g", "item": "aubergine" },
+    { "raw": "300 g de noix, concassées", "qty": 300, "unit": "g", "item": "noix", "prep": "concassée", "group": "farce" },
+    { "raw": "1 tête d'ail, écrasée", "qty": 12, "unit": "piece", "item": "ail", "prep": "écrasé", "group": "farce" },
+    { "raw": "3 c. à s. de piment en poudre", "qty": 3, "unit": "tbsp", "item": "piment en poudre", "group": "farce" },
+    { "raw": "1 poivron rouge, en tout petits dés", "qty": 1, "unit": "piece", "item": "poivron rouge", "prep": "en tout petits dés", "group": "farce" },
+    { "raw": "100 g de gros sel", "qty": 100, "unit": "g", "item": "gros sel" },
+    { "raw": "1 l d'huile d'olive", "qty": 1, "unit": "l", "item": "huile d'olive" }
+  ],
+  "steps": [
+    { "fr": "Choisir des aubergines petites et fermes, de la taille d'un œuf : plus grosses, elles ne se conservent pas.", "en": "Choose small, firm aubergines, the size of an egg: larger ones will not keep." },
+    { "fr": "Les blanchir dix minutes entières, jusqu'à ce qu'un couteau les traverse sans les traverser tout à fait.", "en": "Blanch them whole for ten minutes, until a knife almost but not quite goes through." },
+    { "fr": "Les fendre sur un côté, les saler à l'intérieur, et les mettre à égoutter TÊTE EN BAS vingt-quatre heures, sous un poids.", "en": "Slit them on one side, salt inside, and drain them CUT SIDE DOWN for twenty-four hours, under a weight." },
+    { "fr": "L'égouttage total est la seule sécurité de cette conserve : une goutte d'eau restante fait moisir le bocal.", "en": "Complete draining is the only safety in this preserve: a single drop of water left will spoil the jar." },
+    { "fr": "Farcir de noix, ail, piment et poivron, et ranger serré dans un bocal stérilisé.", "en": "Stuff with walnuts, garlic, chilli and pepper, and pack tightly into a sterilised jar." },
+    { "fr": "Couvrir entièrement d'huile d'olive, sans laisser dépasser une seule aubergine, et attendre trois semaines.", "en": "Cover completely with olive oil, with no aubergine poking out, and wait three weeks." }
+  ],
+  "notes": [
+    { "fr": "Conserve à l'huile : tout doit rester immergé et le bocal se garde au frais. Jeter au moindre doute d'odeur ou de bulle.", "en": "An oil preserve: everything must stay submerged and the jar kept cool. Discard at the slightest off smell or bubble." }
+  ]
+}

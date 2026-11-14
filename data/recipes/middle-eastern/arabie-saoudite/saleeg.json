@@ -1,0 +1,39 @@
+{
+  "slug": "saleeg",
+  "cuisine": "middle-eastern",
+  "country": "arabie-saoudite",
+  "origin": "Arabie saoudite",
+  "native_name": "Saleeg",
+  "title": {
+    "fr": "Saleeg, riz crémeux au lait et au poulet",
+    "en": "Saleeg, creamy milk rice with chicken"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 80 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hedjaz", "riz", "lait", "doux"],
+  "ingredients": [
+    { "raw": "500 g de riz rond", "qty": 500, "unit": "g", "item": "riz rond" },
+    { "raw": "1 poulet entier, découpé", "qty": 1, "unit": "piece", "item": "poulet entier", "prep": "découpé" },
+    { "raw": "1 l de lait entier", "qty": 1, "unit": "l", "item": "lait entier" },
+    { "raw": "1 oignon", "qty": 1, "unit": "piece", "item": "oignon" },
+    { "raw": "6 gousses de cardamome", "qty": 6, "unit": "piece", "item": "cardamome" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "3 c. à s. de mastic en poudre", "qty": 3, "unit": "tbsp", "item": "gomme arabique", "optional": true },
+    { "raw": "100 g de ghee", "qty": 100, "unit": "g", "item": "ghee" },
+    { "raw": "sel et poivre blanc", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre blanc", "qty": null, "unit": null, "item": "poivre blanc" }
+  ],
+  "steps": [
+    { "fr": "Cuire le poulet avec l'oignon, la cardamome, la cannelle, le laurier et le sel, quarante minutes.", "en": "Cook the chicken with the onion, cardamom, cinnamon, bay and salt for forty minutes." },
+    { "fr": "Filtrer et garder le bouillon. Passer le poulet au four pour le dorer.", "en": "Strain and keep the broth. Finish the chicken in the oven to brown it." },
+    { "fr": "Cuire le riz rond dans le bouillon, en remuant SOUVENT : le saleeg se veut crémeux, à l'inverse du kabsa.", "en": "Cook the short-grain rice in the broth, stirring OFTEN: saleeg is meant to be creamy, unlike kabsa." },
+    { "fr": "Ajouter le lait petit à petit, comme pour un risotto, sur trente minutes.", "en": "Add the milk little by little, as for a risotto, over thirty minutes." },
+    { "fr": "Le riz doit être si tendre qu'il se défait : ne pas chercher le grain détaché.", "en": "The rice must be so tender it collapses: do not aim for separate grains." },
+    { "fr": "Dresser en couche épaisse, poser le poulet dessus et verser le ghee fondu brûlant.", "en": "Spread it in a thick layer, set the chicken on top and pour over scalding melted ghee." }
+  ]
+}

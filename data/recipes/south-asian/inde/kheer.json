@@ -1,0 +1,37 @@
+{
+  "slug": "kheer",
+  "cuisine": "south-asian",
+  "country": "inde",
+  "origin": "Inde",
+  "native_name": "Kheer",
+  "title": {
+    "fr": "Kheer, riz au lait à la cardamome",
+    "en": "Kheer, cardamom rice pudding"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 10, "cook_min": 75 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "lait", "cardamome", "temple"],
+  "ingredients": [
+    { "raw": "120 g de riz basmati", "qty": 120, "unit": "g", "item": "riz basmati" },
+    { "raw": "1,5 l de lait entier", "qty": 1.5, "unit": "l", "item": "lait entier" },
+    { "raw": "150 g de sucre", "qty": 150, "unit": "g", "item": "sucre" },
+    { "raw": "1 c. à c. de cardamome moulue", "qty": 1, "unit": "tsp", "item": "cardamome", "prep": "moulue" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "50 g d'amandes effilées", "qty": 50, "unit": "g", "item": "amande effilée" },
+    { "raw": "40 g de pistaches, concassées", "qty": 40, "unit": "g", "item": "pistache", "prep": "concassée" },
+    { "raw": "40 g de raisins secs", "qty": 40, "unit": "g", "item": "raisin sec", "optional": true },
+    { "raw": "1 c. à s. de ghee", "qty": 1, "unit": "tbsp", "item": "ghee" }
+  ],
+  "steps": [
+    { "fr": "Rincer le riz et le faire revenir une minute au ghee : les grains restent alors distincts.", "en": "Rinse the rice and fry it in ghee for a minute: the grains then stay distinct." },
+    { "fr": "Ajouter le lait et cuire À DÉCOUVERT une heure, à feu doux, en remuant régulièrement.", "en": "Add the milk and cook UNCOVERED for an hour, over low heat, stirring regularly." },
+    { "fr": "Le kheer se fait par réduction : le lait doit perdre un tiers de son volume, ce qui prend le temps que ça prend.", "en": "Kheer is made by reduction: the milk must lose a third of its volume, which takes as long as it takes." },
+    { "fr": "Racler le fond et les bords à la spatule : la peau qui s'y forme apporte du goût, mais brûle vite.", "en": "Scrape the base and sides with a spatula: the skin that forms adds flavour, but scorches fast." },
+    { "fr": "Ajouter le sucre en fin de cuisson seulement, puis le safran et la cardamome.", "en": "Add the sugar only at the end, then the saffron and cardamom." },
+    { "fr": "Incorporer les fruits secs et servir chaud ou glacé, au choix.", "en": "Stir in the nuts and serve hot or chilled, as you prefer." }
+  ]
+}

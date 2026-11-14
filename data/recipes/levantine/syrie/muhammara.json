@@ -1,0 +1,38 @@
+{
+  "slug": "muhammara",
+  "cuisine": "levantine",
+  "country": "syrie",
+  "origin": "Syrie",
+  "native_name": "Muhammara",
+  "title": {
+    "fr": "Muhammara, purée de poivrons rouges aux noix",
+    "en": "Muhammara, red pepper and walnut dip"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["alep", "mezze", "noix", "grenade"],
+  "ingredients": [
+    { "raw": "6 poivrons rouges", "qty": 6, "unit": "piece", "item": "poivron rouge" },
+    { "raw": "200 g de noix", "qty": 200, "unit": "g", "item": "noix" },
+    { "raw": "80 g de chapelure", "qty": 80, "unit": "g", "item": "pain", "prep": "en chapelure" },
+    { "raw": "3 c. à s. de mélasse de grenade", "qty": 3, "unit": "tbsp", "item": "mélasse de grenade" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin" },
+    { "raw": "1 c. à c. de piment en poudre", "qty": 1, "unit": "tsp", "item": "piment en poudre" },
+    { "raw": "1 gousse d'ail", "qty": 1, "unit": "piece", "item": "ail" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "8 c. à s. d'huile d'olive", "qty": 8, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Griller les poivrons jusqu'à ce que la peau noircisse, les couvrir dix minutes, puis les peler et les épépiner.", "en": "Char the peppers until the skins blacken, cover them for ten minutes, then peel and seed them." },
+    { "fr": "Les laisser égoutter une demi-heure : leur eau rendrait la muhammara liquide.", "en": "Let them drain for half an hour: their water would make the muhammara runny." },
+    { "fr": "Griller les noix à sec cinq minutes, jusqu'à ce qu'elles embaument, et les laisser refroidir.", "en": "Toast the walnuts dry for five minutes, until fragrant, and let them cool." },
+    { "fr": "Mixer poivrons, noix, chapelure, ail, cumin, piment, mélasse et citron en une pâte GRANULEUSE.", "en": "Blend the peppers, walnuts, breadcrumbs, garlic, cumin, chilli, molasses and lemon into a COARSE paste." },
+    { "fr": "Ne pas lisser : la muhammara garde le grain de la noix, c'est ce qui la distingue d'une purée de poivron.", "en": "Do not smooth it: muhammara keeps the grain of the walnut, which is what sets it apart from a pepper purée." },
+    { "fr": "Incorporer l'huile d'olive en dernier, à la spatule, et laisser reposer une heure avant de servir.", "en": "Fold in the olive oil last, with a spatula, and rest for an hour before serving." }
+  ]
+}

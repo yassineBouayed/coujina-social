@@ -1,0 +1,40 @@
+{
+  "slug": "sheikh-el-mahshi",
+  "cuisine": "levantine",
+  "country": "syrie",
+  "origin": "Syrie",
+  "native_name": "Sheikh el mahshi",
+  "title": {
+    "fr": "Sheikh el mahshi, aubergines farcies à la viande",
+    "en": "Sheikh el mahshi, aubergines stuffed with meat"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 60 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["farci", "aubergine", "fete", "four"],
+  "ingredients": [
+    { "raw": "8 petites aubergines", "qty": 8, "unit": "piece", "item": "aubergine" },
+    { "raw": "600 g d'agneau haché", "qty": 600, "unit": "g", "item": "agneau haché", "group": "farce" },
+    { "raw": "2 oignons, hachés finement", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché finement", "group": "farce" },
+    { "raw": "80 g de pignons de pin", "qty": 80, "unit": "g", "item": "pignon de pin", "group": "farce" },
+    { "raw": "1 c. à c. de baharat", "qty": 1, "unit": "tsp", "item": "baharat", "group": "farce" },
+    { "raw": "1/2 c. à c. de cannelle moulue", "qty": 0.5, "unit": "tsp", "item": "cannelle", "group": "farce" },
+    { "raw": "4 c. à s. de concentré de tomate", "qty": 4, "unit": "tbsp", "item": "concentré de tomate", "group": "sauce" },
+    { "raw": "2 gousses d'ail", "qty": 2, "unit": "piece", "item": "ail", "group": "sauce" },
+    { "raw": "50 cl d'eau", "qty": 50, "unit": "cl", "item": "eau", "group": "sauce" },
+    { "raw": "8 c. à s. d'huile d'olive", "qty": 8, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Peler les aubergines par bandes, une sur deux : entièrement pelées, elles s'effondrent.", "en": "Peel the aubergines in stripes, every other band: fully peeled, they collapse." },
+    { "fr": "Les rôtir au four à 200 °C vingt minutes, jusqu'à ce qu'elles ramollissent sans se défaire.", "en": "Roast them at 200°C for twenty minutes, until soft but still holding." },
+    { "fr": "Cuire la farce : oignons, viande, épices et pignons, jusqu'à ce qu'elle soit sèche.", "en": "Cook the filling: onions, meat, spices and pine nuts, until dry." },
+    { "fr": "Fendre chaque aubergine sur la longueur, sans la traverser, et l'ouvrir en barque.", "en": "Slit each aubergine lengthways without cutting through, and open it into a boat." },
+    { "fr": "Garnir généreusement, ranger serré dans un plat, et verser la sauce tomate autour, pas dessus.", "en": "Fill generously, pack them into a dish, and pour the tomato sauce around them, not over." },
+    { "fr": "Cuire 40 minutes à 180 °C, en arrosant deux fois. Servir avec du riz aux vermicelles.", "en": "Bake for 40 minutes at 180°C, basting twice. Serve with vermicelli rice." }
+  ]
+}

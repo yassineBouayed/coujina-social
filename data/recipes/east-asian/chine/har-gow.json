@@ -1,0 +1,39 @@
+{
+  "slug": "har-gow",
+  "cuisine": "east-asian",
+  "country": "chine",
+  "origin": "Chine",
+  "native_name": "虾饺",
+  "title": {
+    "fr": "Har gow, raviolis translucides aux crevettes",
+    "en": "Har gow, translucent prawn dumplings"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 70, "cook_min": 15 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["dim-sum", "canton", "vapeur", "crevette"],
+  "ingredients": [
+    { "raw": "200 g d'amidon de blé", "qty": 200, "unit": "g", "item": "maïzena", "group": "pâte" },
+    { "raw": "60 g de maïzena", "qty": 60, "unit": "g", "item": "maïzena", "group": "pâte" },
+    { "raw": "25 cl d'eau bouillante", "qty": 25, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "2 c. à s. d'huile neutre", "qty": 2, "unit": "tbsp", "item": "huile neutre", "group": "pâte" },
+    { "raw": "400 g de crevettes, décortiquées", "qty": 400, "unit": "g", "item": "crevette", "prep": "décortiquée", "group": "farce" },
+    { "raw": "80 g de pousses de bambou, en petits dés", "qty": 80, "unit": "g", "item": "pousse de bambou", "prep": "en petits dés", "group": "farce" },
+    { "raw": "1 c. à s. d'huile de sésame", "qty": 1, "unit": "tbsp", "item": "huile de sésame", "group": "farce" },
+    { "raw": "1 c. à s. de vin de riz", "qty": 1, "unit": "tbsp", "item": "vin de riz", "group": "farce" },
+    { "raw": "1 c. à c. de sucre", "qty": 1, "unit": "tsp", "item": "sucre", "group": "farce" },
+    { "raw": "sel et poivre blanc", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre blanc", "qty": null, "unit": null, "item": "poivre blanc" }
+  ],
+  "steps": [
+    { "fr": "La pâte se fait à l'amidon, jamais à la farine de blé : c'est ce qui donne la transparence.", "en": "The wrapper is made with starch, never wheat flour: that is what gives the translucency." },
+    { "fr": "Verser l'eau BOUILLANTE d'un coup sur les amidons et mélanger immédiatement à la cuillère.", "en": "Pour the BOILING water onto the starches all at once and mix immediately with a spoon." },
+    { "fr": "L'eau doit bouillir à gros bouillons : à 95 °C, l'amidon ne gélatinise pas et la pâte reste sableuse.", "en": "The water must be at a rolling boil: at 95°C the starch does not gelatinise and the dough stays sandy." },
+    { "fr": "Pétrir chaud avec l'huile, couvrir, et travailler la pâte tiède, jamais froide.", "en": "Knead it hot with the oil, cover it, and work the dough warm, never cold." },
+    { "fr": "Hacher la moitié des crevettes, garder l'autre en morceaux, et mélanger à la farce.", "en": "Chop half the prawns, leave the rest in pieces, and mix into the filling." },
+    { "fr": "Aplatir des disques au couperet huilé, garnir, plisser d'un côté, et cuire six minutes à la vapeur.", "en": "Flatten discs with an oiled cleaver, fill, pleat one side, and steam for six minutes." }
+  ]
+}

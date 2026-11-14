@@ -1,0 +1,35 @@
+{
+  "slug": "bambalouni",
+  "cuisine": "maghrebi",
+  "country": "tunisie",
+  "origin": "Tunisie",
+  "native_name": "Bambalouni",
+  "title": {
+    "fr": "Bambalouni, beignet sucré de Sidi Bou Saïd",
+    "en": "Bambalouni, Sidi Bou Said sugared doughnut"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 20, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "friture", "gouter", "sucre"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé" },
+    { "raw": "1 c. à s. de levure boulangère sèche", "qty": 1, "unit": "tbsp", "item": "levure boulangère" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "1 c. à s. de sucre", "qty": 1, "unit": "tbsp", "item": "sucre" },
+    { "raw": "35 cl d'eau tiède", "qty": 35, "unit": "cl", "item": "eau" },
+    { "raw": "1 l d'huile de tournesol pour la friture", "qty": 1, "unit": "l", "item": "huile de tournesol" },
+    { "raw": "100 g de sucre, pour rouler", "qty": 100, "unit": "g", "item": "sucre", "group": "finition" }
+  ],
+  "steps": [
+    { "fr": "Fouetter farine, levure, sel, sucre et eau en une pâte très molle, presque coulante.", "en": "Whisk flour, yeast, salt, sugar and water into a very soft, almost pourable dough." },
+    { "fr": "Laisser lever deux heures : elle doit être pleine de bulles et retomber quand on la touche.", "en": "Prove for two hours: it should be full of bubbles and collapse when touched." },
+    { "fr": "Prendre une portion à mains mouillées et percer un trou au milieu, en étirant en couronne.", "en": "Take a portion with wet hands and pierce a hole in the middle, stretching it into a ring." },
+    { "fr": "Frire à 175 °C : le beignet doit remonter aussitôt et gonfler en quelques secondes.", "en": "Fry at 175°C: the doughnut should surface immediately and puff within seconds." },
+    { "fr": "Retourner une fois, dès que le dessous est doré.", "en": "Turn once, as soon as the underside is golden." },
+    { "fr": "Rouler dans le sucre à la sortie, encore brûlant, et manger tout de suite.", "en": "Roll in sugar straight out, still scalding, and eat immediately." }
+  ]
+}

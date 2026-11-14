@@ -1,0 +1,825 @@
+# Vérité du catalogue, cuisine « mediterranean ».
+#
+# Pour chaque ligne d'ingrédient, celui du référentiel qu'un relecteur
+# choisit, ou `-` quand le référentiel n'a rien à offrir.
+#
+# PASSE MODÈLE, pas humaine, et la circularité est ici maximale : les
+# recettes ont été écrites AVEC le référentiel sous les yeux, et les
+# ingrédients qui manquaient y ont été ajoutés dans la foulée. Le taux de
+# rattachement du champ `item` ne mesure donc presque rien sur ces cuisines.
+# Ce qui mesure quelque chose, c'est le témoin `raw`, que `catalog:gate`
+# donne en regard.
+#
+# Une ligne annotée ici n'a pas été relue par quelqu'un qui cuisine ces
+# plats. Le critère de sortie de J5 reste entier.
+recipe|line|item|expected_slug|note
+albondigas|0|boeuf haché|boeuf-hache|
+albondigas|1|porc haché|porc-hache|
+albondigas|2|pain|pain|
+albondigas|3|lait entier|lait-entier|
+albondigas|4|oeuf|oeuf|
+albondigas|5|ail|ail|
+albondigas|6|persil plat|persil-plat|
+albondigas|7|oignon|oignon|
+albondigas|8|tomate pelée en conserve|tomate-pelee|
+albondigas|9|vin blanc|vin-blanc|
+albondigas|10|paprika fumé|paprika-fume|
+albondigas|11|safran|safran|
+albondigas|12|huile d'olive|huile-d-olive|
+albondigas|13|sel|sel|
+albondigas|14|poivre noir|poivre-noir|
+bacalao-al-pil-pil|0|morue salée|morue-salee|
+bacalao-al-pil-pil|1|huile d'olive|huile-d-olive|
+bacalao-al-pil-pil|2|ail|ail|
+bacalao-al-pil-pil|3|piment séché|piment-seche|
+churros|0|farine de blé|farine-de-ble|
+churros|1|eau|eau|
+churros|2|sel|sel|
+churros|3|huile d'olive|huile-d-olive|
+churros|4|huile neutre|huile-neutre|
+churros|5|sucre|sucre|
+churros|6|chocolat noir|chocolat-noir|
+churros|7|lait entier|lait-entier|
+churros|8|maïzena|maizena|
+cocido-madrileno|0|pois chiche|pois-chiche|
+cocido-madrileno|1|boeuf à mijoter|boeuf-a-mijoter|
+cocido-madrileno|2|poulet entier|poulet-entier|
+cocido-madrileno|3|poitrine de porc|poitrine-de-porc|
+cocido-madrileno|4|chorizo|chorizo|
+cocido-madrileno|5|boudin noir|boudin-noir|
+cocido-madrileno|6|os à moelle|os-a-moelle|
+cocido-madrileno|7|carotte|carotte|
+cocido-madrileno|8|pomme de terre|pomme-de-terre|
+cocido-madrileno|9|chou vert|chou-vert|
+cocido-madrileno|10|vermicelle|vermicelle|
+cocido-madrileno|11|sel|sel|
+crema-catalana|0|lait entier|lait-entier|
+crema-catalana|1|oeuf|oeuf|
+crema-catalana|2|sucre|sucre|
+crema-catalana|3|maïzena|maizena|
+crema-catalana|4|citron|citron|
+crema-catalana|5|orange|orange|
+crema-catalana|6|cannelle|cannelle|
+crema-catalana|7|sucre|sucre|
+crema-catalana|8|sel|sel|
+empanada-gallega|0|farine T55|farine-t55|
+empanada-gallega|1|eau|eau|
+empanada-gallega|2|huile d'olive|huile-d-olive|
+empanada-gallega|3|levure boulangère|levure-boulangere|
+empanada-gallega|4|sel|sel|
+empanada-gallega|5|oignon|oignon|
+empanada-gallega|6|poivron rouge|poivron-rouge|
+empanada-gallega|7|thon en conserve|thon-en-conserve|
+empanada-gallega|8|concentré de tomate|concentre-de-tomate|
+empanada-gallega|9|paprika fumé|paprika-fume|
+empanada-gallega|10|oeuf|oeuf|
+empanada-gallega|11|oeuf|oeuf|
+empanada-gallega|12|sel|sel|
+empanada-gallega|13|poivre noir|poivre-noir|
+escalivada|0|aubergine|aubergine|
+escalivada|1|poivron rouge|poivron-rouge|
+escalivada|2|oignon|oignon|
+escalivada|3|tomate|tomate|
+escalivada|4|huile d'olive|huile-d-olive|
+escalivada|5|ail|ail|
+escalivada|6|vinaigre de xérès|vinaigre-de-xeres|
+escalivada|7|anchois|anchois|
+escalivada|8|sel|sel|
+fabada-asturiana|0|haricot blanc|haricot-blanc|
+fabada-asturiana|1|chorizo|chorizo|
+fabada-asturiana|2|boudin noir|boudin-noir|
+fabada-asturiana|3|poitrine de porc|poitrine-de-porc|
+fabada-asturiana|4|échine de porc|echine-de-porc|
+fabada-asturiana|5|safran|safran|
+fabada-asturiana|6|oignon|oignon|
+fabada-asturiana|7|ail|ail|
+fabada-asturiana|8|paprika fumé|paprika-fume|
+fabada-asturiana|9|sel|sel|
+gambas-al-ajillo|0|crevette|crevette|
+gambas-al-ajillo|1|ail|ail|
+gambas-al-ajillo|2|piment séché|piment-seche|
+gambas-al-ajillo|3|huile d'olive|huile-d-olive|
+gambas-al-ajillo|4|paprika fumé|paprika-fume|
+gambas-al-ajillo|5|vin blanc|vin-blanc|
+gambas-al-ajillo|6|persil plat|persil-plat|
+gambas-al-ajillo|7|sel|sel|
+gazpacho|0|tomate|tomate|
+gazpacho|1|concombre|concombre|
+gazpacho|2|poivron vert|poivron-vert|
+gazpacho|3|ail|ail|
+gazpacho|4|pain|pain|
+gazpacho|5|huile d'olive|huile-d-olive|
+gazpacho|6|vinaigre de xérès|vinaigre-de-xeres|
+gazpacho|7|sel|sel|
+gazpacho|8|poivre noir|poivre-noir|
+horchata-de-chufa|0|souchet|souchet|
+horchata-de-chufa|1|eau|eau|
+horchata-de-chufa|2|sucre|sucre|
+horchata-de-chufa|3|cannelle|cannelle|
+horchata-de-chufa|4|citron|citron|
+horchata-de-chufa|5|sel|sel|
+paella-valenciana|0|riz rond|riz-rond|
+paella-valenciana|1|poulet entier|poulet-entier|
+paella-valenciana|2|lapin|lapin|
+paella-valenciana|3|haricot vert|haricot-vert|
+paella-valenciana|4|haricot blanc|haricot-blanc|
+paella-valenciana|5|tomate|tomate|
+paella-valenciana|6|safran|safran|
+paella-valenciana|7|paprika|paprika|
+paella-valenciana|8|bouillon volaille|bouillon-volaille|
+paella-valenciana|9|romarin|romarin|
+paella-valenciana|10|huile d'olive|huile-d-olive|
+paella-valenciana|11|sel|sel|
+paella-valenciana|12|poivre noir|poivre-noir|
+pan-con-tomate|0|pain|pain|
+pan-con-tomate|1|tomate|tomate|
+pan-con-tomate|2|ail|ail|
+pan-con-tomate|3|huile d'olive|huile-d-olive|
+pan-con-tomate|4|jambon cru|jambon-cru|
+pan-con-tomate|5|gros sel|gros-sel|
+patatas-bravas|0|pomme de terre|pomme-de-terre|
+patatas-bravas|1|huile neutre|huile-neutre|
+patatas-bravas|2|tomate pelée en conserve|tomate-pelee|
+patatas-bravas|3|paprika fumé|paprika-fume|
+patatas-bravas|4|piment de Cayenne|piment-de-cayenne|
+patatas-bravas|5|vinaigre de xérès|vinaigre-de-xeres|
+patatas-bravas|6|ail|ail|
+patatas-bravas|7|farine de blé|farine-de-ble|
+patatas-bravas|8|mayonnaise|mayonnaise|
+patatas-bravas|9|sel|sel|
+pisto-manchego|0|courgette|courgette|
+pisto-manchego|1|poivron rouge|poivron-rouge|
+pisto-manchego|2|poivron vert|poivron-vert|
+pisto-manchego|3|aubergine|aubergine|
+pisto-manchego|4|tomate|tomate|
+pisto-manchego|5|oignon|oignon|
+pisto-manchego|6|huile d'olive|huile-d-olive|
+pisto-manchego|7|oeuf|oeuf|
+pisto-manchego|8|sucre|sucre|
+pisto-manchego|9|sel|sel|
+pisto-manchego|10|poivre noir|poivre-noir|
+pollo-al-ajillo|0|poulet entier|poulet-entier|
+pollo-al-ajillo|1|ail|ail|
+pollo-al-ajillo|2|vin blanc|vin-blanc|
+pollo-al-ajillo|3|huile d'olive|huile-d-olive|
+pollo-al-ajillo|4|laurier|laurier|
+pollo-al-ajillo|5|paprika fumé|paprika-fume|
+pollo-al-ajillo|6|persil plat|persil-plat|
+pollo-al-ajillo|7|sel|sel|
+pollo-al-ajillo|8|poivre noir|poivre-noir|
+pulpo-a-la-gallega|0|poulpe|poulpe|
+pulpo-a-la-gallega|1|pomme de terre|pomme-de-terre|
+pulpo-a-la-gallega|2|paprika fumé|paprika-fume|
+pulpo-a-la-gallega|3|huile d'olive|huile-d-olive|
+pulpo-a-la-gallega|4|oignon|oignon|
+pulpo-a-la-gallega|5|gros sel|gros-sel|
+pulpo-a-la-gallega|6|laurier|laurier|
+salmorejo|0|tomate|tomate|
+salmorejo|1|pain|pain|
+salmorejo|2|huile d'olive|huile-d-olive|
+salmorejo|3|ail|ail|
+salmorejo|4|vinaigre de xérès|vinaigre-de-xeres|
+salmorejo|5|oeuf|oeuf|
+salmorejo|6|jambon cru|jambon-cru|
+salmorejo|7|sel|sel|
+tarta-de-santiago|0|poudre d'amande|poudre-d-amande|
+tarta-de-santiago|1|sucre|sucre|
+tarta-de-santiago|2|oeuf|oeuf|
+tarta-de-santiago|3|citron|citron|
+tarta-de-santiago|4|cannelle|cannelle|
+tarta-de-santiago|5|sucre glace|sucre-glace|
+tarta-de-santiago|6|sel|sel|
+tortilla-de-patatas|0|pomme de terre|pomme-de-terre|
+tortilla-de-patatas|1|oeuf|oeuf|
+tortilla-de-patatas|2|oignon|oignon|
+tortilla-de-patatas|3|huile d'olive|huile-d-olive|
+tortilla-de-patatas|4|sel|sel|
+tortilla-de-patatas|5|poivre noir|poivre-noir|
+amatriciana|0|spaghetti|spaghetti|
+amatriciana|1|guanciale|guanciale|
+amatriciana|2|tomate pelée en conserve|tomate-pelee|
+amatriciana|3|pecorino|pecorino|
+amatriciana|4|piment séché|piment-seche|
+amatriciana|5|vin blanc|vin-blanc|
+amatriciana|6|sel|sel|
+amatriciana|7|poivre noir|poivre-noir|
+arancini|0|riz arborio|riz-arborio|
+arancini|1|bouillon volaille|bouillon-volaille|
+arancini|2|safran|safran|
+arancini|3|parmesan|parmesan|
+arancini|4|boeuf haché|boeuf-hache|
+arancini|5|petits pois surgelés|petits-pois-surgeles|
+arancini|6|concentré de tomate|concentre-de-tomate|
+arancini|7|mozzarella|mozzarella|
+arancini|8|oeuf|oeuf|
+arancini|9|panko|panko|
+arancini|10|farine de blé|farine-de-ble|
+arancini|11|huile neutre|huile-neutre|
+arancini|12|sel|sel|
+arancini|13|poivre noir|poivre-noir|
+cacio-e-pepe|0|spaghetti|spaghetti|
+cacio-e-pepe|1|pecorino|pecorino|
+cacio-e-pepe|2|poivre noir|poivre-noir|
+cacio-e-pepe|3|sel|sel|
+cannoli|0|farine T45|farine-t45|
+cannoli|1|saindoux|saindoux|
+cannoli|2|sucre|sucre|
+cannoli|3|cacao en poudre|cacao-en-poudre|
+cannoli|4|vin blanc|vin-blanc|
+cannoli|5|oeuf|oeuf|
+cannoli|6|ricotta|ricotta|
+cannoli|7|sucre glace|sucre-glace|
+cannoli|8|chocolat noir|chocolat-noir|
+cannoli|9|pistache|pistache|
+cannoli|10|huile neutre|huile-neutre|
+cannoli|11|sel|sel|
+carbonara|0|spaghetti|spaghetti|
+carbonara|1|guanciale|guanciale|
+carbonara|2|oeuf|oeuf|
+carbonara|3|oeuf|oeuf|
+carbonara|4|pecorino|pecorino|
+carbonara|5|poivre noir|poivre-noir|
+carbonara|6|sel|sel|
+focaccia|0|farine T55|farine-t55|
+focaccia|1|eau|eau|
+focaccia|2|levure boulangère|levure-boulangere|
+focaccia|3|sel|sel|
+focaccia|4|huile d'olive|huile-d-olive|
+focaccia|5|romarin|romarin|
+focaccia|6|gros sel|gros-sel|
+focaccia|7|eau|eau|
+gnocchi-sorrentina|0|pomme de terre|pomme-de-terre|
+gnocchi-sorrentina|1|farine T45|farine-t45|
+gnocchi-sorrentina|2|oeuf|oeuf|
+gnocchi-sorrentina|3|tomate pelée en conserve|tomate-pelee|
+gnocchi-sorrentina|4|mozzarella|mozzarella|
+gnocchi-sorrentina|5|parmesan|parmesan|
+gnocchi-sorrentina|6|ail|ail|
+gnocchi-sorrentina|7|basilic|basilic|
+gnocchi-sorrentina|8|huile d'olive|huile-d-olive|
+gnocchi-sorrentina|9|sel|sel|
+gnocchi-sorrentina|10|poivre noir|poivre-noir|
+granita-al-caffe|0|café|cafe|
+granita-al-caffe|1|sucre|sucre|
+granita-al-caffe|2|crème liquide|creme-liquide|
+granita-al-caffe|3|sucre glace|sucre-glace|
+granita-al-caffe|4|sel|sel|
+lasagne-bolognese|0|pâtes courtes|pates-courtes|
+lasagne-bolognese|1|boeuf haché|boeuf-hache|
+lasagne-bolognese|2|porc haché|porc-hache|
+lasagne-bolognese|3|lardon|lardon|
+lasagne-bolognese|4|carotte|carotte|
+lasagne-bolognese|5|céleri branche|celeri-branche|
+lasagne-bolognese|6|oignon|oignon|
+lasagne-bolognese|7|vin blanc|vin-blanc|
+lasagne-bolognese|8|lait entier|lait-entier|
+lasagne-bolognese|9|tomate pelée en conserve|tomate-pelee|
+lasagne-bolognese|10|beurre|beurre|
+lasagne-bolognese|11|farine de blé|farine-de-ble|
+lasagne-bolognese|12|lait entier|lait-entier|
+lasagne-bolognese|13|parmesan|parmesan|
+lasagne-bolognese|14|muscade|muscade|
+lasagne-bolognese|15|sel|sel|
+lasagne-bolognese|16|poivre noir|poivre-noir|
+melanzane-parmigiana|0|aubergine|aubergine|
+melanzane-parmigiana|1|tomate pelée en conserve|tomate-pelee|
+melanzane-parmigiana|2|mozzarella|mozzarella|
+melanzane-parmigiana|3|parmesan|parmesan|
+melanzane-parmigiana|4|ail|ail|
+melanzane-parmigiana|5|basilic|basilic|
+melanzane-parmigiana|6|huile d'olive|huile-d-olive|
+melanzane-parmigiana|7|gros sel|gros-sel|
+melanzane-parmigiana|8|sel|sel|
+melanzane-parmigiana|9|poivre noir|poivre-noir|
+minestrone|0|haricot blanc|haricot-blanc|
+minestrone|1|carotte|carotte|
+minestrone|2|céleri branche|celeri-branche|
+minestrone|3|courgette|courgette|
+minestrone|4|pomme de terre|pomme-de-terre|
+minestrone|5|chou vert|chou-vert|
+minestrone|6|oignon|oignon|
+minestrone|7|tomate pelée en conserve|tomate-pelee|
+minestrone|8|pâtes courtes|pates-courtes|
+minestrone|9|parmesan|parmesan|
+minestrone|10|huile d'olive|huile-d-olive|
+minestrone|11|basilic|basilic|
+minestrone|12|sel|sel|
+minestrone|13|poivre noir|poivre-noir|
+osso-buco|0|veau à mijoter|veau-a-mijoter|
+osso-buco|1|carotte|carotte|
+osso-buco|2|céleri branche|celeri-branche|
+osso-buco|3|oignon|oignon|
+osso-buco|4|vin blanc|vin-blanc|
+osso-buco|5|bouillon volaille|bouillon-volaille|
+osso-buco|6|farine de blé|farine-de-ble|
+osso-buco|7|beurre|beurre|
+osso-buco|8|citron|citron|
+osso-buco|9|persil plat|persil-plat|
+osso-buco|10|ail|ail|
+osso-buco|11|sel|sel|
+osso-buco|12|poivre noir|poivre-noir|
+panna-cotta|0|crème liquide|creme-liquide|
+panna-cotta|1|lait entier|lait-entier|
+panna-cotta|2|sucre|sucre|
+panna-cotta|3|gelatine|gelatine|
+panna-cotta|4|gousse de vanille|gousse-de-vanille|
+panna-cotta|5|griotte|griotte|
+panna-cotta|6|sucre|sucre|
+panna-cotta|7|citron|citron|
+panna-cotta|8|sel|sel|
+pizza-margherita|0|farine T45|farine-t45|
+pizza-margherita|1|eau|eau|
+pizza-margherita|2|levure boulangère|levure-boulangere|
+pizza-margherita|3|sel|sel|
+pizza-margherita|4|tomate pelée en conserve|tomate-pelee|
+pizza-margherita|5|mozzarella|mozzarella|
+pizza-margherita|6|basilic|basilic|
+pizza-margherita|7|huile d'olive|huile-d-olive|
+ribollita|0|haricot blanc|haricot-blanc|
+ribollita|1|chou frisé|chou-frise|
+ribollita|2|chou vert|chou-vert|
+ribollita|3|pain|pain|
+ribollita|4|carotte|carotte|
+ribollita|5|céleri branche|celeri-branche|
+ribollita|6|oignon|oignon|
+ribollita|7|tomate pelée en conserve|tomate-pelee|
+ribollita|8|ail|ail|
+ribollita|9|huile d'olive|huile-d-olive|
+ribollita|10|sel|sel|
+ribollita|11|poivre noir|poivre-noir|
+risotto-milanese|0|riz arborio|riz-arborio|
+risotto-milanese|1|bouillon volaille|bouillon-volaille|
+risotto-milanese|2|safran|safran|
+risotto-milanese|3|oignon|oignon|
+risotto-milanese|4|vin blanc|vin-blanc|
+risotto-milanese|5|beurre|beurre|
+risotto-milanese|6|parmesan|parmesan|
+risotto-milanese|7|os à moelle|os-a-moelle|
+risotto-milanese|8|sel|sel|
+risotto-milanese|9|poivre noir|poivre-noir|
+saltimbocca|0|veau à mijoter|veau-a-mijoter|
+saltimbocca|1|jambon blanc|jambon-blanc|
+saltimbocca|2|sauge|sauge|
+saltimbocca|3|vin blanc|vin-blanc|
+saltimbocca|4|beurre|beurre|
+saltimbocca|5|farine de blé|farine-de-ble|
+saltimbocca|6|sel|sel|
+saltimbocca|7|poivre noir|poivre-noir|
+tiramisu|0|mascarpone|mascarpone|
+tiramisu|1|oeuf|oeuf|
+tiramisu|2|sucre|sucre|
+tiramisu|3|biscuit à la cuillère|biscuit-a-la-cuillere|
+tiramisu|4|café|cafe|
+tiramisu|5|cacao en poudre|cacao-en-poudre|
+tiramisu|6|sel|sel|
+trofie-al-pesto|0|pâtes courtes|pates-courtes|
+trofie-al-pesto|1|basilic|basilic|
+trofie-al-pesto|2|pignon de pin|pignon-de-pin|
+trofie-al-pesto|3|parmesan|parmesan|
+trofie-al-pesto|4|pecorino|pecorino|
+trofie-al-pesto|5|ail|ail|
+trofie-al-pesto|6|huile d'olive|huile-d-olive|
+trofie-al-pesto|7|pomme de terre|pomme-de-terre|
+trofie-al-pesto|8|haricot vert|haricot-vert|
+trofie-al-pesto|9|gros sel|gros-sel|
+vitello-tonnato|0|veau à mijoter|veau-a-mijoter|
+vitello-tonnato|1|carotte|carotte|
+vitello-tonnato|2|céleri branche|celeri-branche|
+vitello-tonnato|3|oignon|oignon|
+vitello-tonnato|4|vin blanc|vin-blanc|
+vitello-tonnato|5|thon en conserve|thon-en-conserve|
+vitello-tonnato|6|anchois|anchois|
+vitello-tonnato|7|câpre|capre|
+vitello-tonnato|8|mayonnaise|mayonnaise|
+vitello-tonnato|9|citron|citron|
+vitello-tonnato|10|bouquet garni|bouquet-garni|
+vitello-tonnato|11|sel|sel|
+vitello-tonnato|12|poivre noir|poivre-noir|
+baklava-grec|0|pâte filo|pate-filo|
+baklava-grec|1|noix|noix|
+baklava-grec|2|beurre|beurre|
+baklava-grec|3|cannelle|cannelle|
+baklava-grec|4|clou de girofle|clou-de-girofle|
+baklava-grec|5|sucre|sucre|
+baklava-grec|6|eau|eau|
+baklava-grec|7|miel|miel|
+baklava-grec|8|citron|citron|
+baklava-grec|9|cannelle|cannelle|
+dolmadakia|0|feuille de vigne|feuille-de-vigne|
+dolmadakia|1|riz rond|riz-rond|
+dolmadakia|2|oignon|oignon|
+dolmadakia|3|aneth|aneth|
+dolmadakia|4|menthe|menthe-fraiche|
+dolmadakia|5|oignon nouveau|oignon-nouveau|
+dolmadakia|6|citron|citron|
+dolmadakia|7|huile d'olive|huile-d-olive|
+dolmadakia|8|pignon de pin|pignon-de-pin|
+dolmadakia|9|sel|sel|
+dolmadakia|10|poivre noir|poivre-noir|
+fasolada|0|haricot blanc|haricot-blanc|
+fasolada|1|carotte|carotte|
+fasolada|2|céleri branche|celeri-branche|
+fasolada|3|oignon|oignon|
+fasolada|4|concentré de tomate|concentre-de-tomate|
+fasolada|5|huile d'olive|huile-d-olive|
+fasolada|6|persil plat|persil-plat|
+fasolada|7|laurier|laurier|
+fasolada|8|piment en flocons|piment-en-flocons|
+fasolada|9|sel|sel|
+fasolada|10|poivre noir|poivre-noir|
+frappe-grec|0|café soluble|cafe-soluble|
+frappe-grec|1|sucre|sucre|
+frappe-grec|2|eau|eau|
+frappe-grec|3|lait évaporé|lait-evapore|
+frappe-grec|4|eau|eau|
+galaktoboureko|0|lait entier|lait-entier|
+galaktoboureko|1|semoule fine|semoule-fine|
+galaktoboureko|2|oeuf|oeuf|
+galaktoboureko|3|sucre|sucre|
+galaktoboureko|4|gousse de vanille|gousse-de-vanille|
+galaktoboureko|5|citron|citron|
+galaktoboureko|6|pâte filo|pate-filo|
+galaktoboureko|7|beurre|beurre|
+galaktoboureko|8|sucre|sucre|
+galaktoboureko|9|eau|eau|
+galaktoboureko|10|sel|sel|
+gemista|0|tomate|tomate|
+gemista|1|poivron vert|poivron-vert|
+gemista|2|riz rond|riz-rond|
+gemista|3|oignon|oignon|
+gemista|4|persil plat|persil-plat|
+gemista|5|menthe|menthe-fraiche|
+gemista|6|pomme de terre|pomme-de-terre|
+gemista|7|huile d'olive|huile-d-olive|
+gemista|8|concentré de tomate|concentre-de-tomate|
+gemista|9|sucre|sucre|
+gemista|10|sel|sel|
+gemista|11|poivre noir|poivre-noir|
+gigantes-plaki|0|haricot blanc|haricot-blanc|
+gigantes-plaki|1|tomate pelée en conserve|tomate-pelee|
+gigantes-plaki|2|oignon|oignon|
+gigantes-plaki|3|ail|ail|
+gigantes-plaki|4|carotte|carotte|
+gigantes-plaki|5|persil plat|persil-plat|
+gigantes-plaki|6|origan|origan-seche|
+gigantes-plaki|7|huile d'olive|huile-d-olive|
+gigantes-plaki|8|sucre|sucre|
+gigantes-plaki|9|feta|feta|
+gigantes-plaki|10|sel|sel|
+gigantes-plaki|11|poivre noir|poivre-noir|
+horiatiki|0|tomate|tomate|
+horiatiki|1|concombre|concombre|
+horiatiki|2|oignon rouge|oignon-rouge|
+horiatiki|3|poivron vert|poivron-vert|
+horiatiki|4|feta|feta|
+horiatiki|5|olive noire|olive-noire|
+horiatiki|6|origan|origan-seche|
+horiatiki|7|huile d'olive|huile-d-olive|
+horiatiki|8|câpre|capre|
+horiatiki|9|sel|sel|
+keftedes|0|boeuf haché|boeuf-hache|
+keftedes|1|agneau haché|agneau-hache|
+keftedes|2|pain|pain|
+keftedes|3|oignon|oignon|
+keftedes|4|oeuf|oeuf|
+keftedes|5|menthe|menthe-fraiche|
+keftedes|6|persil plat|persil-plat|
+keftedes|7|vinaigre de vin|vinaigre-de-vin|
+keftedes|8|origan|origan-seche|
+keftedes|9|farine de blé|farine-de-ble|
+keftedes|10|huile d'olive|huile-d-olive|
+keftedes|11|sel|sel|
+keftedes|12|poivre noir|poivre-noir|
+kotosoupa-avgolemono|0|poulet entier|poulet-entier|
+kotosoupa-avgolemono|1|riz rond|riz-rond|
+kotosoupa-avgolemono|2|oeuf|oeuf|
+kotosoupa-avgolemono|3|citron|citron|
+kotosoupa-avgolemono|4|carotte|carotte|
+kotosoupa-avgolemono|5|céleri branche|celeri-branche|
+kotosoupa-avgolemono|6|oignon|oignon|
+kotosoupa-avgolemono|7|aneth|aneth|
+kotosoupa-avgolemono|8|sel|sel|
+kotosoupa-avgolemono|9|poivre noir|poivre-noir|
+loukoumades|0|farine de blé|farine-de-ble|
+loukoumades|1|eau|eau|
+loukoumades|2|levure boulangère|levure-boulangere|
+loukoumades|3|sucre|sucre|
+loukoumades|4|sel|sel|
+loukoumades|5|huile neutre|huile-neutre|
+loukoumades|6|miel|miel|
+loukoumades|7|cannelle|cannelle|
+loukoumades|8|noix|noix|
+melomakarona|0|farine de blé|farine-de-ble|
+melomakarona|1|huile d'olive|huile-d-olive|
+melomakarona|2|orange|orange|
+melomakarona|3|sucre|sucre|
+melomakarona|4|orange|orange|
+melomakarona|5|cannelle|cannelle|
+melomakarona|6|clou de girofle|clou-de-girofle|
+melomakarona|7|bicarbonate de soude|bicarbonate|
+melomakarona|8|miel|miel|
+melomakarona|9|eau|eau|
+melomakarona|10|sucre|sucre|
+melomakarona|11|noix|noix|
+moussaka|0|aubergine|aubergine|
+moussaka|1|agneau haché|agneau-hache|
+moussaka|2|oignon|oignon|
+moussaka|3|tomate pelée en conserve|tomate-pelee|
+moussaka|4|vin rouge|vin-rouge|
+moussaka|5|cannelle|cannelle|
+moussaka|6|piment de la Jamaïque|piment-de-la-jamaique|
+moussaka|7|beurre|beurre|
+moussaka|8|farine de blé|farine-de-ble|
+moussaka|9|lait entier|lait-entier|
+moussaka|10|oeuf|oeuf|
+moussaka|11|kefalotyri|kefalotyri|
+moussaka|12|pomme de terre|pomme-de-terre|
+moussaka|13|huile d'olive|huile-d-olive|
+moussaka|14|muscade|muscade|
+moussaka|15|sel|sel|
+moussaka|16|poivre noir|poivre-noir|
+pastitsio|0|pâtes courtes|pates-courtes|
+pastitsio|1|boeuf haché|boeuf-hache|
+pastitsio|2|oignon|oignon|
+pastitsio|3|tomate pelée en conserve|tomate-pelee|
+pastitsio|4|vin rouge|vin-rouge|
+pastitsio|5|cannelle|cannelle|
+pastitsio|6|clou de girofle|clou-de-girofle|
+pastitsio|7|beurre|beurre|
+pastitsio|8|farine de blé|farine-de-ble|
+pastitsio|9|lait entier|lait-entier|
+pastitsio|10|oeuf|oeuf|
+pastitsio|11|kefalotyri|kefalotyri|
+pastitsio|12|muscade|muscade|
+pastitsio|13|sel|sel|
+pastitsio|14|poivre noir|poivre-noir|
+psari-plaki|0|dorade|dorade|
+psari-plaki|1|tomate|tomate|
+psari-plaki|2|oignon|oignon|
+psari-plaki|3|pomme de terre|pomme-de-terre|
+psari-plaki|4|ail|ail|
+psari-plaki|5|citron|citron|
+psari-plaki|6|persil plat|persil-plat|
+psari-plaki|7|huile d'olive|huile-d-olive|
+psari-plaki|8|origan|origan-seche|
+psari-plaki|9|vin blanc|vin-blanc|
+psari-plaki|10|sel|sel|
+psari-plaki|11|poivre noir|poivre-noir|
+saganaki|0|kefalotyri|kefalotyri|
+saganaki|1|farine de blé|farine-de-ble|
+saganaki|2|huile d'olive|huile-d-olive|
+saganaki|3|citron|citron|
+saganaki|4|origan|origan-seche|
+saganaki|5|poivre noir|poivre-noir|
+souvlaki|0|échine de porc|echine-de-porc|
+souvlaki|1|huile d'olive|huile-d-olive|
+souvlaki|2|citron|citron|
+souvlaki|3|ail|ail|
+souvlaki|4|origan|origan-seche|
+souvlaki|5|paprika|paprika|
+souvlaki|6|pain pita|pain-pita|
+souvlaki|7|tomate|tomate|
+souvlaki|8|oignon rouge|oignon-rouge|
+souvlaki|9|sel|sel|
+souvlaki|10|poivre noir|poivre-noir|
+spanakopita|0|épinard|epinard|
+spanakopita|1|feta|feta|
+spanakopita|2|oignon nouveau|oignon-nouveau|
+spanakopita|3|aneth|aneth|
+spanakopita|4|menthe|menthe-fraiche|
+spanakopita|5|oeuf|oeuf|
+spanakopita|6|pâte filo|pate-filo|
+spanakopita|7|huile d'olive|huile-d-olive|
+spanakopita|8|muscade|muscade|
+spanakopita|9|sel|sel|
+spanakopita|10|poivre noir|poivre-noir|
+stifado|0|boeuf à mijoter|boeuf-a-mijoter|
+stifado|1|oignon nouveau|oignon-nouveau|
+stifado|2|tomate pelée en conserve|tomate-pelee|
+stifado|3|vin rouge|vin-rouge|
+stifado|4|vinaigre de vin|vinaigre-de-vin|
+stifado|5|cannelle|cannelle|
+stifado|6|clou de girofle|clou-de-girofle|
+stifado|7|piment de la Jamaïque|piment-de-la-jamaique|
+stifado|8|laurier|laurier|
+stifado|9|ail|ail|
+stifado|10|huile d'olive|huile-d-olive|
+stifado|11|miel|miel|
+stifado|12|sel|sel|
+stifado|13|poivre noir|poivre-noir|
+tzatziki|0|yaourt grec|yaourt-grec|
+tzatziki|1|concombre|concombre|
+tzatziki|2|ail|ail|
+tzatziki|3|huile d'olive|huile-d-olive|
+tzatziki|4|vinaigre de vin|vinaigre-de-vin|
+tzatziki|5|aneth|aneth|
+tzatziki|6|gros sel|gros-sel|
+tzatziki|7|sel|sel|
+acorda-alentejana|0|pain|pain|
+acorda-alentejana|1|coriandre fraîche|coriandre-fraiche|
+acorda-alentejana|2|ail|ail|
+acorda-alentejana|3|oeuf|oeuf|
+acorda-alentejana|4|huile d'olive|huile-d-olive|
+acorda-alentejana|5|eau|eau|
+acorda-alentejana|6|gros sel|gros-sel|
+acorda-alentejana|7|poivre noir|poivre-noir|
+amejoas-a-bulhao-pato|0|palourde|palourde|
+amejoas-a-bulhao-pato|1|ail|ail|
+amejoas-a-bulhao-pato|2|coriandre fraîche|coriandre-fraiche|
+amejoas-a-bulhao-pato|3|huile d'olive|huile-d-olive|
+amejoas-a-bulhao-pato|4|vin blanc|vin-blanc|
+amejoas-a-bulhao-pato|5|citron|citron|
+amejoas-a-bulhao-pato|6|gros sel|gros-sel|
+amejoas-a-bulhao-pato|7|poivre noir|poivre-noir|
+arroz-de-pato|0|canard entier|canard-entier|
+arroz-de-pato|1|riz rond|riz-rond|
+arroz-de-pato|2|chorizo|chorizo|
+arroz-de-pato|3|poitrine de porc|poitrine-de-porc|
+arroz-de-pato|4|oignon|oignon|
+arroz-de-pato|5|carotte|carotte|
+arroz-de-pato|6|orange|orange|
+arroz-de-pato|7|laurier|laurier|
+arroz-de-pato|8|ail|ail|
+arroz-de-pato|9|huile d'olive|huile-d-olive|
+arroz-de-pato|10|sel|sel|
+arroz-de-pato|11|poivre noir|poivre-noir|
+arroz-doce|0|riz rond|riz-rond|
+arroz-doce|1|lait entier|lait-entier|
+arroz-doce|2|sucre|sucre|
+arroz-doce|3|oeuf|oeuf|
+arroz-doce|4|citron|citron|
+arroz-doce|5|cannelle|cannelle|
+arroz-doce|6|beurre|beurre|
+arroz-doce|7|cannelle|cannelle|
+arroz-doce|8|sel|sel|
+bacalhau-a-bras|0|morue salée|morue-salee|
+bacalhau-a-bras|1|pomme de terre|pomme-de-terre|
+bacalhau-a-bras|2|oeuf|oeuf|
+bacalhau-a-bras|3|oignon|oignon|
+bacalhau-a-bras|4|ail|ail|
+bacalhau-a-bras|5|olive noire|olive-noire|
+bacalhau-a-bras|6|persil plat|persil-plat|
+bacalhau-a-bras|7|huile d'olive|huile-d-olive|
+bacalhau-a-bras|8|huile neutre|huile-neutre|
+bacalhau-a-bras|9|laurier|laurier|
+bacalhau-a-bras|10|sel|sel|
+bacalhau-a-bras|11|poivre noir|poivre-noir|
+bifana|0|échine de porc|echine-de-porc|
+bifana|1|ail|ail|
+bifana|2|vin blanc|vin-blanc|
+bifana|3|paprika|paprika|
+bifana|4|laurier|laurier|
+bifana|5|piment en poudre|piment-en-poudre|
+bifana|6|pain|pain|
+bifana|7|huile d'olive|huile-d-olive|
+bifana|8|moutarde|moutarde|
+bifana|9|sel|sel|
+bifana|10|poivre noir|poivre-noir|
+bolo-de-bolacha|0|biscuit sec|biscuit-sec|
+bolo-de-bolacha|1|beurre|beurre|
+bolo-de-bolacha|2|sucre|sucre|
+bolo-de-bolacha|3|café|cafe|
+bolo-de-bolacha|4|cacao en poudre|cacao-en-poudre|
+bolo-de-bolacha|5|sel|sel|
+broa-de-milho|0|farine de maïs|farine-de-mais|
+broa-de-milho|1|farine de blé|farine-de-ble|
+broa-de-milho|2|eau|eau|
+broa-de-milho|3|levure boulangère|levure-boulangere|
+broa-de-milho|4|sel|sel|
+broa-de-milho|5|huile d'olive|huile-d-olive|
+caldeirada|0|cabillaud|cabillaud|
+caldeirada|1|dorade|dorade|
+caldeirada|2|pomme de terre|pomme-de-terre|
+caldeirada|3|oignon|oignon|
+caldeirada|4|poivron rouge|poivron-rouge|
+caldeirada|5|tomate|tomate|
+caldeirada|6|ail|ail|
+caldeirada|7|vin blanc|vin-blanc|
+caldeirada|8|coriandre fraîche|coriandre-fraiche|
+caldeirada|9|huile d'olive|huile-d-olive|
+caldeirada|10|laurier|laurier|
+caldeirada|11|sel|sel|
+caldeirada|12|poivre noir|poivre-noir|
+caldo-verde|0|pomme de terre|pomme-de-terre|
+caldo-verde|1|chou frisé|chou-frise|
+caldo-verde|2|chorizo|chorizo|
+caldo-verde|3|oignon|oignon|
+caldo-verde|4|ail|ail|
+caldo-verde|5|eau|eau|
+caldo-verde|6|huile d'olive|huile-d-olive|
+caldo-verde|7|sel|sel|
+caldo-verde|8|poivre noir|poivre-noir|
+cataplana-de-marisco|0|palourde|palourde|
+cataplana-de-marisco|1|moule|moule|
+cataplana-de-marisco|2|crevette|crevette|
+cataplana-de-marisco|3|cabillaud|cabillaud|
+cataplana-de-marisco|4|chorizo|chorizo|
+cataplana-de-marisco|5|oignon|oignon|
+cataplana-de-marisco|6|poivron rouge|poivron-rouge|
+cataplana-de-marisco|7|tomate|tomate|
+cataplana-de-marisco|8|vin blanc|vin-blanc|
+cataplana-de-marisco|9|ail|ail|
+cataplana-de-marisco|10|coriandre fraîche|coriandre-fraiche|
+cataplana-de-marisco|11|huile d'olive|huile-d-olive|
+cataplana-de-marisco|12|laurier|laurier|
+cataplana-de-marisco|13|sel|sel|
+cataplana-de-marisco|14|poivre noir|poivre-noir|
+cozido-a-portuguesa|0|boeuf à mijoter|boeuf-a-mijoter|
+cozido-a-portuguesa|1|poulet entier|poulet-entier|
+cozido-a-portuguesa|2|poitrine de porc|poitrine-de-porc|
+cozido-a-portuguesa|3|chorizo|chorizo|
+cozido-a-portuguesa|4|boudin noir|boudin-noir|
+cozido-a-portuguesa|5|carotte|carotte|
+cozido-a-portuguesa|6|navet|navet|
+cozido-a-portuguesa|7|chou vert|chou-vert|
+cozido-a-portuguesa|8|pomme de terre|pomme-de-terre|
+cozido-a-portuguesa|9|riz rond|riz-rond|
+cozido-a-portuguesa|10|haricot rouge|haricot-rouge|
+cozido-a-portuguesa|11|sel|sel|
+feijoada-a-transmontana|0|haricot rouge|haricot-rouge|
+feijoada-a-transmontana|1|échine de porc|echine-de-porc|
+feijoada-a-transmontana|2|poitrine de porc|poitrine-de-porc|
+feijoada-a-transmontana|3|chorizo|chorizo|
+feijoada-a-transmontana|4|boudin noir|boudin-noir|
+feijoada-a-transmontana|5|chou vert|chou-vert|
+feijoada-a-transmontana|6|carotte|carotte|
+feijoada-a-transmontana|7|oignon|oignon|
+feijoada-a-transmontana|8|ail|ail|
+feijoada-a-transmontana|9|paprika fumé|paprika-fume|
+feijoada-a-transmontana|10|riz rond|riz-rond|
+feijoada-a-transmontana|11|huile d'olive|huile-d-olive|
+feijoada-a-transmontana|12|sel|sel|
+feijoada-a-transmontana|13|poivre noir|poivre-noir|
+francesinha|0|pain de mie|pain-de-mie|
+francesinha|1|boeuf haché|boeuf-hache|
+francesinha|2|saucisse de Toulouse|saucisse-de-toulouse|
+francesinha|3|jambon blanc|jambon-blanc|
+francesinha|4|emmental|emmental|
+francesinha|5|bière|biere|
+francesinha|6|tomate pelée en conserve|tomate-pelee|
+francesinha|7|bouillon boeuf|bouillon-boeuf|
+francesinha|8|oignon|oignon|
+francesinha|9|farine de blé|farine-de-ble|
+francesinha|10|piment en poudre|piment-en-poudre|
+francesinha|11|laurier|laurier|
+francesinha|12|oeuf|oeuf|
+francesinha|13|sel|sel|
+francesinha|14|poivre noir|poivre-noir|
+frango-piri-piri|0|poulet entier|poulet-entier|
+frango-piri-piri|1|piment frais|piment-frais|
+frango-piri-piri|2|ail|ail|
+frango-piri-piri|3|huile d'olive|huile-d-olive|
+frango-piri-piri|4|citron|citron|
+frango-piri-piri|5|vinaigre de vin|vinaigre-de-vin|
+frango-piri-piri|6|paprika fumé|paprika-fume|
+frango-piri-piri|7|laurier|laurier|
+frango-piri-piri|8|gros sel|gros-sel|
+frango-piri-piri|9|poivre noir|poivre-noir|
+pasteis-de-bacalhau|0|morue salée|morue-salee|
+pasteis-de-bacalhau|1|pomme de terre|pomme-de-terre|
+pasteis-de-bacalhau|2|oeuf|oeuf|
+pasteis-de-bacalhau|3|oignon|oignon|
+pasteis-de-bacalhau|4|persil plat|persil-plat|
+pasteis-de-bacalhau|5|huile neutre|huile-neutre|
+pasteis-de-bacalhau|6|muscade|muscade|
+pasteis-de-bacalhau|7|sel|sel|
+pasteis-de-bacalhau|8|poivre noir|poivre-noir|
+pasteis-de-nata|0|pâte feuilletée|pate-feuilletee|
+pasteis-de-nata|1|lait entier|lait-entier|
+pasteis-de-nata|2|sucre|sucre|
+pasteis-de-nata|3|eau|eau|
+pasteis-de-nata|4|farine de blé|farine-de-ble|
+pasteis-de-nata|5|oeuf|oeuf|
+pasteis-de-nata|6|citron|citron|
+pasteis-de-nata|7|cannelle|cannelle|
+pasteis-de-nata|8|cannelle|cannelle|
+pasteis-de-nata|9|sel|sel|
+peixinhos-da-horta|0|haricot vert|haricot-vert|
+peixinhos-da-horta|1|farine de blé|farine-de-ble|
+peixinhos-da-horta|2|oeuf|oeuf|
+peixinhos-da-horta|3|eau|eau|
+peixinhos-da-horta|4|levure chimique|levure-chimique|
+peixinhos-da-horta|5|huile neutre|huile-neutre|
+peixinhos-da-horta|6|citron|citron|
+peixinhos-da-horta|7|sel|sel|
+salada-de-polvo|0|poulpe|poulpe|
+salada-de-polvo|1|oignon rouge|oignon-rouge|
+salada-de-polvo|2|poivron rouge|poivron-rouge|
+salada-de-polvo|3|persil plat|persil-plat|
+salada-de-polvo|4|coriandre fraîche|coriandre-fraiche|
+salada-de-polvo|5|huile d'olive|huile-d-olive|
+salada-de-polvo|6|vinaigre de vin|vinaigre-de-vin|
+salada-de-polvo|7|ail|ail|
+salada-de-polvo|8|oignon|oignon|
+salada-de-polvo|9|laurier|laurier|
+salada-de-polvo|10|sel|sel|
+salada-de-polvo|11|poivre noir|poivre-noir|
+sangria-branca|0|vin blanc|vin-blanc|
+sangria-branca|1|orange|orange|
+sangria-branca|2|citron|citron|
+sangria-branca|3|pomme|pomme|
+sangria-branca|4|pêche|peche|
+sangria-branca|5|sucre|sucre|
+sangria-branca|6|cannelle|cannelle|
+sangria-branca|7|menthe|menthe-fraiche|
+sangria-branca|8|eau gazeuse|eau-gazeuse|

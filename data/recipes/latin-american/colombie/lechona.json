@@ -1,0 +1,40 @@
+{
+  "slug": "lechona",
+  "cuisine": "latin-american",
+  "country": "colombie",
+  "origin": "Colombie",
+  "native_name": "Lechona tolimense",
+  "title": {
+    "fr": "Porc farci au riz du Tolima",
+    "en": "Tolima pork stuffed with rice"
+  },
+  "meal_type": "main",
+  "servings": 10,
+  "times": { "prep_min": 50, "cook_min": 240 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["tolima", "fete", "porc", "four"],
+  "ingredients": [
+    { "raw": "2,5 kg d'épaule de porc avec sa couenne", "qty": 2500, "unit": "g", "item": "échine de porc", "prep": "avec sa couenne" },
+    { "raw": "600 g de pois cassés", "qty": 600, "unit": "g", "item": "pois cassé" },
+    { "raw": "400 g de riz long grain", "qty": 400, "unit": "g", "item": "riz long grain" },
+    { "raw": "4 oignons, hachés", "qty": 4, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "1 botte d'oignons nouveaux, émincés", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "émincé" },
+    { "raw": "10 gousses d'ail, hachées", "qty": 10, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "3 c. à s. de cumin moulu", "qty": 3, "unit": "tbsp", "item": "cumin" },
+    { "raw": "2 c. à s. de curcuma", "qty": 2, "unit": "tbsp", "item": "curcuma" },
+    { "raw": "3 c. à s. de gros sel", "qty": 3, "unit": "tbsp", "item": "gros sel" },
+    { "raw": "1 bouquet de coriandre, ciselée", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "3 arepas", "qty": 3, "unit": "piece", "item": "masa harina", "prep": "en arepas", "group": "service" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La lechona traditionnelle est un cochon ENTIER farci : cette version en épaule est la version domestique.", "en": "Traditional lechona is a WHOLE stuffed pig: this shoulder version is the home one." },
+    { "fr": "Les POIS CASSÉS sont l'ingrédient central de la farce, avant même le riz.", "en": "SPLIT PEAS are the filling's central ingredient, ahead even of the rice." },
+    { "fr": "Les cuire à moitié seulement : ils finiront dans le porc, en absorbant son gras.", "en": "Cook them only halfway: they finish inside the pork, absorbing its fat." },
+    { "fr": "QUADRILLER la couenne au couteau et la frotter de gros sel la VEILLE, à découvert au frais.", "en": "SCORE the rind and rub it with coarse salt the DAY BEFORE, uncovered in the fridge." },
+    { "fr": "Cuire QUATRE HEURES à 150 °C, couenne vers le haut, sans jamais l'arroser.", "en": "Roast for FOUR HOURS at 150°C, rind up, never basting it." },
+    { "fr": "Arroser la couenne la ferait ramollir : elle doit rester sèche pour cloquer à la fin.", "en": "Basting the rind would soften it: it must stay dry to blister at the end." }
+  ]
+}

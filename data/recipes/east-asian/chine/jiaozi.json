@@ -1,0 +1,40 @@
+{
+  "slug": "jiaozi",
+  "cuisine": "east-asian",
+  "country": "chine",
+  "origin": "Chine",
+  "native_name": "饺子",
+  "title": {
+    "fr": "Jiaozi, raviolis au porc et au chou",
+    "en": "Jiaozi, pork and cabbage dumplings"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 90, "cook_min": 20 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["nouvel-an", "ravioli", "nord", "famille"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "26 cl d'eau", "qty": 26, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "500 g de porc haché", "qty": 500, "unit": "g", "item": "porc haché", "group": "farce" },
+    { "raw": "400 g de chou chinois, haché et pressé", "qty": 400, "unit": "g", "item": "chou chinois", "prep": "haché et pressé", "group": "farce" },
+    { "raw": "6 oignons nouveaux, ciselés", "qty": 6, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé", "group": "farce" },
+    { "raw": "2 c. à s. de gingembre frais, haché", "qty": 2, "unit": "tbsp", "item": "gingembre", "prep": "haché", "group": "farce" },
+    { "raw": "3 c. à s. de sauce soja", "qty": 3, "unit": "tbsp", "item": "sauce soja", "group": "farce" },
+    { "raw": "2 c. à s. d'huile de sésame", "qty": 2, "unit": "tbsp", "item": "huile de sésame", "group": "farce" },
+    { "raw": "2 c. à s. de vin de riz", "qty": 2, "unit": "tbsp", "item": "vin de riz", "group": "farce" },
+    { "raw": "4 c. à s. de vinaigre de riz", "qty": 4, "unit": "tbsp", "item": "vinaigre de riz", "group": "sauce" },
+    { "raw": "2 c. à s. d'huile pimentée", "qty": 2, "unit": "tbsp", "item": "huile pimentée", "group": "sauce" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Pétrir farine et eau dix minutes, et laisser reposer une heure sous un linge humide.", "en": "Knead the flour and water for ten minutes, and rest for an hour under a damp cloth." },
+    { "fr": "Saler le chou haché et le laisser dégorger vingt minutes, puis le PRESSER à fond.", "en": "Salt the chopped cabbage and let it weep for twenty minutes, then SQUEEZE it hard." },
+    { "fr": "Une farce humide perce la pâte à la cuisson : c'est la première cause d'échec.", "en": "A wet filling tears the wrapper as it cooks: the number one cause of failure." },
+    { "fr": "Battre la farce DANS UN SEUL SENS trois minutes, jusqu'à ce qu'elle devienne collante.", "en": "Beat the filling IN ONE DIRECTION for three minutes, until it turns tacky." },
+    { "fr": "Rouler des disques fins aux bords et épais au centre, garnir, et plisser un seul côté.", "en": "Roll discs thin at the edges and thick in the middle, fill, and pleat one side only." },
+    { "fr": "Cuire à la poêle : dorer le fond, ajouter un demi-verre d'eau, couvrir huit minutes, puis découvrir.", "en": "Pan-fry them: brown the base, add half a glass of water, cover for eight minutes, then uncover." }
+  ]
+}

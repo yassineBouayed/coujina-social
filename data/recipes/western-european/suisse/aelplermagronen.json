@@ -1,0 +1,40 @@
+{
+  "slug": "aelplermagronen",
+  "cuisine": "western-european",
+  "country": "suisse",
+  "origin": "Suisse",
+  "native_name": "Älplermagronen",
+  "title": {
+    "fr": "Macaronis du berger aux pommes de terre",
+    "en": "Alpine herdsman's macaroni"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 40 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["montagne", "pates", "fromage", "reconfort"],
+  "ingredients": [
+    { "raw": "400 g de pâtes courtes", "qty": 400, "unit": "g", "item": "pâtes courtes" },
+    { "raw": "600 g de pommes de terre, en dés", "qty": 600, "unit": "g", "item": "pomme de terre", "prep": "en dés" },
+    { "raw": "300 g de gruyère, râpé", "qty": 300, "unit": "g", "item": "gruyère", "prep": "râpé" },
+    { "raw": "5 oignons, émincés", "qty": 5, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "30 cl de crème liquide", "qty": 30, "unit": "cl", "item": "crème liquide" },
+    { "raw": "20 cl de lait entier", "qty": 20, "unit": "cl", "item": "lait entier" },
+    { "raw": "150 g de lardons", "qty": 150, "unit": "g", "item": "lardon" },
+    { "raw": "100 g de beurre", "qty": 100, "unit": "g", "item": "beurre" },
+    { "raw": "600 g de compote de pomme", "qty": 600, "unit": "g", "item": "compote de pomme", "group": "service" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Ce plat se sert TOUJOURS avec de la compote de pommes : c'est l'accord sucré-salé de l'alpage.", "en": "This dish is ALWAYS served with apple sauce: the sweet-savoury pairing of the high pastures." },
+    { "fr": "Cuire pommes de terre ET pâtes DANS LA MÊME EAU : les pommes de terre d'abord, en décalé.", "en": "Cook the potatoes AND pasta IN THE SAME WATER: potatoes first, staggered." },
+    { "fr": "L'eau devient amidonnée et lie la crème sans qu'on ait besoin de farine.", "en": "The water turns starchy and binds the cream without any need for flour." },
+    { "fr": "Faire dorer les oignons TRENTE MINUTES au beurre, jusqu'au brun profond.", "en": "Fry the onions for THIRTY MINUTES in butter, to a deep brown." },
+    { "fr": "Réunir pâtes, pommes de terre, crème et fromage HORS DU FEU, en remuant.", "en": "Combine the pasta, potatoes, cream and cheese OFF THE HEAT, stirring." },
+    { "fr": "Couvrir d'oignons frits et servir dans la casserole, avec la compote à part.", "en": "Top with the fried onions and serve in the pot, with the apple sauce alongside." }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "kiribath",
+  "cuisine": "south-asian",
+  "country": "sri-lanka",
+  "origin": "Sri Lanka",
+  "native_name": "Kiribath",
+  "title": {
+    "fr": "Kiribath, riz au lait de coco en losanges",
+    "en": "Kiribath, coconut milk rice cut into diamonds"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 10, "cook_min": 35 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["nouvel-an", "coco", "rituel", "riz"],
+  "ingredients": [
+    { "raw": "500 g de riz rond", "qty": 500, "unit": "g", "item": "riz rond" },
+    { "raw": "50 cl de lait de coco", "qty": 50, "unit": "cl", "item": "lait de coco" },
+    { "raw": "50 cl d'eau", "qty": 50, "unit": "cl", "item": "eau" },
+    { "raw": "1 feuille de pandan", "qty": 1, "unit": "piece", "item": "feuille de pandan", "optional": true },
+    { "raw": "1,5 c. à c. de sel", "qty": 1.5, "unit": "tsp", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le kiribath ouvre chaque nouvel an et chaque événement heureux : c'est un plat rituel avant d'être un plat.", "en": "Kiribath opens every new year and every happy occasion: it is a ritual dish before it is a dish." },
+    { "fr": "Cuire le riz rond dans l'eau salée avec le pandan, vingt minutes, jusqu'à absorption.", "en": "Cook the short-grain rice in the salted water with the pandan for twenty minutes, until absorbed." },
+    { "fr": "Ajouter le lait de coco et cuire quinze minutes de plus, à feu doux, en remuant.", "en": "Add the coconut milk and cook for fifteen more minutes over low heat, stirring." },
+    { "fr": "Le kiribath est SALÉ, jamais sucré : c'est ce qui surprend et c'est ce qui est juste.", "en": "Kiribath is SALTED, never sweetened: that is what surprises, and it is correct." },
+    { "fr": "Étaler en couche épaisse de trois centimètres sur un plateau et tasser à la spatule mouillée.", "en": "Spread it three centimetres thick on a tray and press it flat with a wet spatula." },
+    { "fr": "Laisser tiédir vingt minutes, puis découper en losanges et servir avec un lunu miris.", "en": "Cool for twenty minutes, then cut into diamonds and serve with lunu miris." }
+  ]
+}

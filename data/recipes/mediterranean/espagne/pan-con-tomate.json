@@ -1,0 +1,34 @@
+{
+  "slug": "pan-con-tomate",
+  "cuisine": "mediterranean",
+  "country": "espagne",
+  "origin": "Espagne",
+  "native_name": "Pa amb tomàquet",
+  "title": {
+    "fr": "Pain à la tomate à la catalane",
+    "en": "Catalan tomato bread"
+  },
+  "meal_type": "starter",
+  "servings": 4,
+  "times": { "prep_min": 10, "cook_min": 5 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["catalogne", "petit-dejeuner", "rapide", "tomate"],
+  "ingredients": [
+    { "raw": "8 tranches de pain de campagne", "qty": 8, "unit": "piece", "item": "pain", "prep": "en tranches" },
+    { "raw": "4 tomates très mûres", "qty": 4, "unit": "piece", "item": "tomate" },
+    { "raw": "2 gousses d'ail", "qty": 2, "unit": "piece", "item": "ail" },
+    { "raw": "8 c. à s. d'huile d'olive", "qty": 8, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "120 g de jambon serrano", "qty": 120, "unit": "g", "item": "jambon cru", "optional": true },
+    { "raw": "gros sel", "qty": null, "unit": null, "item": "gros sel" }
+  ],
+  "steps": [
+    { "fr": "Quatre ingrédients et un ordre qui ne se discute pas : pain grillé, ail, tomate, huile, sel.", "en": "Four ingredients and an order that is not up for debate: toast, garlic, tomato, oil, salt." },
+    { "fr": "Griller le pain jusqu'à ce qu'il soit ferme : mou, il s'effondre sous la tomate.", "en": "Toast the bread until firm: soft, it collapses under the tomato." },
+    { "fr": "Frotter l'ail sur le pain CHAUD : la mie râpeuse est ce qui râpe la gousse.", "en": "Rub the garlic on the HOT bread: the rough crumb is what grates the clove." },
+    { "fr": "Couper la tomate en deux et la FROTTER, chair contre pain, jusqu'à ne garder que la peau.", "en": "Halve the tomato and RUB it, flesh against bread, until only the skin is left." },
+    { "fr": "On ne pose jamais de tranches de tomate : on frotte, et c'est toute la différence.", "en": "You never lay on tomato slices: you rub, and that is the whole difference." },
+    { "fr": "Arroser d'huile d'olive, saler au gros sel, et manger IMMÉDIATEMENT.", "en": "Drizzle with olive oil, salt with coarse salt, and eat IMMEDIATELY." }
+  ]
+}

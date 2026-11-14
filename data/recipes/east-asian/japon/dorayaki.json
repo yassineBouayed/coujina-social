@@ -1,0 +1,37 @@
+{
+  "slug": "dorayaki",
+  "cuisine": "east-asian",
+  "country": "japon",
+  "origin": "Japon",
+  "native_name": "どら焼き",
+  "title": {
+    "fr": "Dorayaki, pancakes fourrés à la pâte d'azuki",
+    "en": "Dorayaki, pancakes filled with red bean paste"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 60 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["gouter", "azuki", "enfance", "miel"],
+  "ingredients": [
+    { "raw": "250 g d'azuki, trempés la veille", "qty": 250, "unit": "g", "item": "azuki", "prep": "trempé la veille", "group": "anko" },
+    { "raw": "200 g de sucre", "qty": 200, "unit": "g", "item": "sucre", "group": "anko" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf", "group": "pâte" },
+    { "raw": "120 g de sucre", "qty": 120, "unit": "g", "item": "sucre", "group": "pâte" },
+    { "raw": "2 c. à s. de miel", "qty": 2, "unit": "tbsp", "item": "miel", "group": "pâte" },
+    { "raw": "180 g de farine de blé", "qty": 180, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "1 c. à c. de levure chimique", "qty": 1, "unit": "tsp", "item": "levure chimique", "group": "pâte" },
+    { "raw": "6 cl d'eau", "qty": 6, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire les azuki une heure, en JETANT la première eau après dix minutes : elle porte l'amertume.", "en": "Cook the azuki for an hour, DISCARDING the first water after ten minutes: it carries the bitterness." },
+    { "fr": "Ajouter le sucre seulement quand les haricots s'écrasent entre deux doigts, puis réduire en pâte.", "en": "Add the sugar only once the beans crush between two fingers, then reduce to a paste." },
+    { "fr": "Battre œufs, sucre et miel jusqu'à ce que le mélange blanchisse, puis incorporer la farine.", "en": "Beat the eggs, sugar and honey until pale, then fold in the flour." },
+    { "fr": "LAISSER REPOSER la pâte trente minutes : sans repos, les pancakes sont irréguliers et pâles.", "en": "REST the batter for thirty minutes: without it, the pancakes are uneven and pale." },
+    { "fr": "Cuire sur poêle antiadhésive à feu doux, SANS matière grasse : la face doit être uniformément dorée.", "en": "Cook on a non-stick pan over low heat, WITHOUT fat: the face must be evenly golden." },
+    { "fr": "Retourner dès que des bulles éclatent en surface, cuire une minute, et assembler par paires tièdes.", "en": "Turn as soon as bubbles pop on the surface, cook for a minute, and sandwich them warm in pairs." }
+  ]
+}

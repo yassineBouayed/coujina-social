@@ -1,0 +1,36 @@
+{
+  "slug": "azifa",
+  "cuisine": "east-african",
+  "country": "ethiopie",
+  "origin": "Éthiopie",
+  "native_name": "Azifa",
+  "title": {
+    "fr": "Azifa, salade de lentilles vertes",
+    "en": "Azifa, green lentil salad"
+  },
+  "meal_type": "salad",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["jeune", "froid", "lentille", "moutarde"],
+  "ingredients": [
+    { "raw": "350 g de lentilles vertes", "qty": 350, "unit": "g", "item": "lentille verte" },
+    { "raw": "1 oignon rouge, en petits dés", "qty": 1, "unit": "piece", "item": "oignon rouge", "prep": "en petits dés" },
+    { "raw": "2 piments verts, hachés", "qty": 2, "unit": "piece", "item": "piment frais", "prep": "haché" },
+    { "raw": "2 c. à s. de moutarde", "qty": 2, "unit": "tbsp", "item": "moutarde" },
+    { "raw": "2 citrons, leur jus", "qty": 2, "unit": "piece", "item": "citron" },
+    { "raw": "5 c. à s. d'huile d'olive", "qty": 5, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé", "optional": true },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire les lentilles vingt-cinq minutes à l'eau non salée, jusqu'à ce qu'elles soient tendres sans éclater.", "en": "Cook the lentils for twenty-five minutes in unsalted water, until tender without bursting." },
+    { "fr": "Les rincer à l'eau froide et les égoutter parfaitement.", "en": "Rinse them in cold water and drain thoroughly." },
+    { "fr": "Faire dégorger l'oignon rouge dix minutes dans l'eau froide pour lui ôter son mordant.", "en": "Soak the red onion for ten minutes in cold water to take off its bite." },
+    { "fr": "Délayer la moutarde dans le jus de citron avant d'ajouter l'huile : versée sèche, elle fait des points amers.", "en": "Slake the mustard in the lemon juice before adding the oil: added dry, it leaves bitter spots." },
+    { "fr": "Mélanger lentilles, oignon, piment et assaisonnement, et saler.", "en": "Combine the lentils, onion, chilli and dressing, and salt." },
+    { "fr": "Laisser reposer une heure au frais avant de servir : l'azifa a besoin de ce temps.", "en": "Rest for an hour in the fridge before serving: azifa needs that time." }
+  ]
+}

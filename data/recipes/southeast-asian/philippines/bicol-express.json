@@ -1,0 +1,37 @@
+{
+  "slug": "bicol-express",
+  "cuisine": "southeast-asian",
+  "country": "philippines",
+  "origin": "Philippines",
+  "native_name": "Bicol express",
+  "title": {
+    "fr": "Bicol express, porc au lait de coco et piments",
+    "en": "Bicol express, pork in coconut milk and chillies"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["bicol", "coco", "pimente", "bagoong"],
+  "ingredients": [
+    { "raw": "800 g de poitrine de porc, en lanières", "qty": 800, "unit": "g", "item": "poitrine de porc", "prep": "en lanières" },
+    { "raw": "60 cl de lait de coco", "qty": 60, "unit": "cl", "item": "lait de coco" },
+    { "raw": "15 piments verts longs, en rondelles", "qty": 15, "unit": "piece", "item": "piment frais", "prep": "en rondelles" },
+    { "raw": "4 c. à s. de pâte de crevette", "qty": 4, "unit": "tbsp", "item": "pâte de crevette" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "8 gousses d'ail, hachées", "qty": 8, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "1 morceau de gingembre, en julienne", "qty": 1, "unit": "piece", "item": "gingembre", "prep": "en julienne" },
+    { "raw": "3 c. à s. d'huile neutre", "qty": 3, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "500 g de riz long grain", "qty": 500, "unit": "g", "item": "riz long grain", "group": "service" }
+  ],
+  "steps": [
+    { "fr": "Le bicol express est FRANCHEMENT piquant : quinze piments pour cinq personnes est la dose normale.", "en": "Bicol express is FRANKLY hot: fifteen chillies for five people is the normal dose." },
+    { "fr": "Faire revenir ail, oignon et gingembre, puis le porc, jusqu'à ce qu'il rende son gras.", "en": "Fry the garlic, onion and ginger, then the pork, until it renders its fat." },
+    { "fr": "Ajouter la pâte de crevette et la cuire deux minutes : c'est elle qui sale le plat, pas le sel.", "en": "Add the shrimp paste and cook it for two minutes: it salts the dish, not salt itself." },
+    { "fr": "Verser le lait de coco et laisser RÉDUIRE trente minutes à découvert, sans faire bouillir fort.", "en": "Add the coconut milk and REDUCE it for thirty minutes uncovered, without a hard boil." },
+    { "fr": "Le plat est prêt quand l'huile de coco se sépare et que la sauce est très courte.", "en": "It is ready when the coconut oil separates and the sauce is very short." },
+    { "fr": "Ajouter les piments les DIX dernières minutes : cuits plus longtemps, ils perdent leur mordant.", "en": "Add the chillies in the LAST ten minutes: cooked longer, they lose their bite." }
+  ]
+}

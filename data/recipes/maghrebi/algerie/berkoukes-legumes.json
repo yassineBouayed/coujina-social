@@ -1,0 +1,43 @@
+{
+  "slug": "berkoukes-legumes",
+  "cuisine": "maghrebi",
+  "country": "algerie",
+  "origin": "Algérie",
+  "native_name": "Berkoukes",
+  "title": {
+    "fr": "Berkoukes aux légumes et à l'agneau",
+    "en": "Berkoukes with vegetables and lamb"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 75 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hiver", "plombs", "hautes-plaines", "agneau"],
+  "ingredients": [
+    { "raw": "400 g de berkoukes", "qty": 400, "unit": "g", "item": "berkoukes" },
+    { "raw": "600 g d'épaule d'agneau en morceaux", "qty": 600, "unit": "g", "item": "épaule d'agneau", "prep": "en morceaux" },
+    { "raw": "2 carottes, en rondelles", "qty": 2, "unit": "piece", "item": "carotte", "prep": "en rondelles" },
+    { "raw": "2 courgettes, en tronçons", "qty": 2, "unit": "piece", "item": "courgette", "prep": "en tronçons" },
+    { "raw": "2 navets, en quartiers", "qty": 2, "unit": "piece", "item": "navet", "prep": "en quartiers" },
+    { "raw": "150 g de pois chiches secs, trempés la veille", "qty": 150, "unit": "g", "item": "pois chiche sec", "prep": "trempé la veille" },
+    { "raw": "2 oignons, râpés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "râpé" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "1 c. à c. de paprika", "qty": 1, "unit": "tsp", "item": "paprika" },
+    { "raw": "1/2 c. à c. de piment en poudre", "qty": 0.5, "unit": "tsp", "item": "piment en poudre" },
+    { "raw": "5 c. à s. d'huile d'olive", "qty": 5, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire revenir viande et oignon dans l'huile, ajouter le concentré, le paprika et le piment, puis mouiller largement.", "en": "Brown the meat and onion in the oil, add the purée, paprika and chilli, then cover generously with water." },
+    { "fr": "Ajouter les pois chiches et laisser cuire quarante-cinq minutes.", "en": "Add the chickpeas and cook for forty-five minutes." },
+    { "fr": "Ajouter les légumes durs d'abord, les tendres ensuite, à dix minutes d'écart.", "en": "Add the firm vegetables first, the tender ones ten minutes later." },
+    { "fr": "Verser les berkoukes en pluie dans le bouillon frémissant, en remuant, pour qu'ils ne s'agglomèrent pas.", "en": "Rain the berkoukes into the simmering broth, stirring, so they do not clump." },
+    { "fr": "Cuire quinze minutes : ils doivent rester fermes sous la dent et le bouillon rester liquide.", "en": "Cook for fifteen minutes: they should stay firm to the bite and the broth stay loose." },
+    { "fr": "Servir en assiette creuse, très chaud, le bouillon généreux.", "en": "Serve in deep bowls, very hot, with plenty of broth." }
+  ],
+  "notes": [
+    { "fr": "Les berkoukes gonflent encore après le feu : ce qui reste devient une purée le lendemain. Cuire la quantité qu'on mange.", "en": "Berkoukes keep swelling off the heat: leftovers turn to porridge overnight. Cook what you will eat." }
+  ]
+}

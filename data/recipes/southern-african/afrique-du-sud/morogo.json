@@ -1,0 +1,36 @@
+{
+  "slug": "morogo",
+  "cuisine": "southern-african",
+  "country": "afrique-du-sud",
+  "origin": "Afrique du Sud",
+  "native_name": "Morogo",
+  "title": {
+    "fr": "Morogo, feuilles vertes mijotées",
+    "en": "Morogo, braised wild greens"
+  },
+  "meal_type": "side",
+  "servings": 5,
+  "times": { "prep_min": 15, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["legume", "quotidien", "economique", "vert"],
+  "ingredients": [
+    { "raw": "800 g d'épinards, ciselés", "qty": 800, "unit": "g", "item": "épinard", "prep": "ciselé" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "2 tomates, en dés", "qty": 2, "unit": "piece", "item": "tomate", "prep": "en dés" },
+    { "raw": "3 gousses d'ail, écrasées", "qty": 3, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 piment oiseau, haché", "qty": 1, "unit": "piece", "item": "piment oiseau", "prep": "haché", "optional": true },
+    { "raw": "4 c. à s. d'huile neutre", "qty": 4, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "1 cube de bouillon", "qty": 1, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire revenir les oignons dans l'huile jusqu'à ce qu'ils soient dorés.", "en": "Fry the onions in the oil until golden." },
+    { "fr": "Ajouter l'ail, le piment et les tomates, et laisser cinq minutes.", "en": "Add the garlic, chilli and tomatoes, and cook for five minutes." },
+    { "fr": "Ajouter les feuilles en plusieurs fois, en attendant que chaque poignée retombe.", "en": "Add the greens in batches, waiting for each handful to wilt." },
+    { "fr": "Émietter le cube, couvrir et laisser vingt minutes à feu doux.", "en": "Crumble in the stock cube, cover and cook for twenty minutes over low heat." },
+    { "fr": "Découvrir en fin de cuisson pour faire évaporer l'eau rendue : le morogo se sert sec.", "en": "Uncover at the end to drive off the released water: morogo is served dry." },
+    { "fr": "Servir à côté d'un pap, sans autre accompagnement.", "en": "Serve beside pap, with nothing else." }
+  ]
+}

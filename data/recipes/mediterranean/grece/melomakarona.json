@@ -1,0 +1,40 @@
+{
+  "slug": "melomakarona",
+  "cuisine": "mediterranean",
+  "country": "grece",
+  "origin": "Grèce",
+  "native_name": "Μελομακάρονα",
+  "title": {
+    "fr": "Melomakarona, biscuits de Noël au miel",
+    "en": "Melomakarona, honey Christmas cookies"
+  },
+  "meal_type": "dessert",
+  "servings": 12,
+  "times": { "prep_min": 35, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["noel", "miel", "orange", "biscuit"],
+  "ingredients": [
+    { "raw": "600 g de farine de blé", "qty": 600, "unit": "g", "item": "farine de blé" },
+    { "raw": "25 cl d'huile d'olive", "qty": 25, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "15 cl de jus d'orange", "qty": 15, "unit": "cl", "item": "orange", "prep": "pressée" },
+    { "raw": "100 g de sucre", "qty": 100, "unit": "g", "item": "sucre" },
+    { "raw": "1 orange, son zeste", "qty": 1, "unit": "piece", "item": "orange" },
+    { "raw": "2 c. à c. de cannelle moulue", "qty": 2, "unit": "tsp", "item": "cannelle" },
+    { "raw": "1/2 c. à c. de clou de girofle moulu", "qty": 0.5, "unit": "tsp", "item": "clou de girofle", "prep": "moulu" },
+    { "raw": "1 c. à c. de bicarbonate de soude", "qty": 1, "unit": "tsp", "item": "bicarbonate de soude" },
+    { "raw": "300 g de miel", "qty": 300, "unit": "g", "item": "miel", "group": "sirop" },
+    { "raw": "20 cl d'eau", "qty": 20, "unit": "cl", "item": "eau", "group": "sirop" },
+    { "raw": "150 g de sucre", "qty": 150, "unit": "g", "item": "sucre", "group": "sirop" },
+    { "raw": "150 g de cerneaux de noix, concassés", "qty": 150, "unit": "g", "item": "noix", "prep": "concassée", "group": "finition" }
+  ],
+  "steps": [
+    { "fr": "Ces biscuits sont à l'HUILE D'OLIVE, sans beurre ni œuf : ils sont donc de carême, et ils se gardent.", "en": "These cookies use OLIVE OIL, no butter and no egg: they are Lenten, and they keep." },
+    { "fr": "Mêler l'huile, le jus d'orange et le sucre AVANT la farine, en une émulsion.", "en": "Combine the oil, orange juice and sugar BEFORE the flour, into an emulsion." },
+    { "fr": "Ajouter la farine et travailler LE MOINS POSSIBLE : trop pétris, ils deviennent durs comme du bois.", "en": "Add the flour and work it AS LITTLE AS POSSIBLE: overworked, they turn hard as wood." },
+    { "fr": "Former des ovales, les rayer à la fourchette, et cuire trente minutes à 180 °C.", "en": "Shape ovals, score them with a fork, and bake for thirty minutes at 180°C." },
+    { "fr": "Tremper les biscuits CHAUDS dans le sirop FROID, vingt secondes par face.", "en": "Dip the WARM cookies into the COLD syrup, twenty seconds a side." },
+    { "fr": "Les égoutter sur une grille et poudrer de noix : ils sont meilleurs après deux jours.", "en": "Drain them on a rack and sprinkle with walnuts: they are best after two days." }
+  ]
+}

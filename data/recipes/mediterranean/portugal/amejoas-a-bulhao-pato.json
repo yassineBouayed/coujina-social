@@ -1,0 +1,36 @@
+{
+  "slug": "amejoas-a-bulhao-pato",
+  "cuisine": "mediterranean",
+  "country": "portugal",
+  "origin": "Portugal",
+  "native_name": "Amêijoas à Bulhão Pato",
+  "title": {
+    "fr": "Palourdes à l'ail et à la coriandre",
+    "en": "Clams with garlic and coriander"
+  },
+  "meal_type": "starter",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 10 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["lisbonne", "palourde", "coriandre", "rapide"],
+  "ingredients": [
+    { "raw": "1,5 kg de palourdes", "qty": 1500, "unit": "g", "item": "palourde" },
+    { "raw": "8 gousses d'ail, en lamelles", "qty": 8, "unit": "piece", "item": "ail", "prep": "en lamelles" },
+    { "raw": "1 gros bouquet de coriandre, ciselée", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "15 cl d'huile d'olive", "qty": 15, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "15 cl de vin blanc sec", "qty": 15, "unit": "cl", "item": "vin blanc" },
+    { "raw": "2 citrons", "qty": 2, "unit": "piece", "item": "citron" },
+    { "raw": "3 c. à s. de gros sel", "qty": 3, "unit": "tbsp", "item": "gros sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Faire dégorger les palourdes DEUX HEURES dans l'eau très salée : elles rejettent leur sable.", "en": "Purge the clams for TWO HOURS in heavily salted water: they spit out their sand." },
+    { "fr": "Sans ce dégorgement, chaque bouchée croque désagréablement, et il n'y a pas de rattrapage.", "en": "Without that purge, every mouthful grits unpleasantly, and there is no fixing it after." },
+    { "fr": "Faire blondir l'ail dans l'huile d'olive À FROID, très doucement, cinq minutes.", "en": "Gently brown the garlic in olive oil FROM COLD, very slowly, five minutes." },
+    { "fr": "Jeter les palourdes, verser le vin blanc, et couvrir.", "en": "Tip in the clams, add the white wine, and cover." },
+    { "fr": "Elles sont cuites dès qu'elles sont TOUTES ouvertes : quatre minutes, jamais plus.", "en": "They are done as soon as they are ALL open: four minutes, never more." },
+    { "fr": "Ajouter la coriandre HORS DU FEU, en grande quantité, et le jus de citron.", "en": "Add the coriander OFF THE HEAT, in generous quantity, and the lemon juice." }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "brezel",
+  "cuisine": "western-european",
+  "country": "allemagne",
+  "origin": "Allemagne",
+  "native_name": "Brezel",
+  "title": {
+    "fr": "Bretzels bavarois",
+    "en": "Bavarian pretzels"
+  },
+  "meal_type": "bread",
+  "servings": 8,
+  "times": { "prep_min": 45, "cook_min": 20 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["baviere", "pain", "gros-sel", "embleme"],
+  "ingredients": [
+    { "raw": "500 g de farine T55", "qty": 500, "unit": "g", "item": "farine T55" },
+    { "raw": "28 cl d'eau tiède", "qty": 28, "unit": "cl", "item": "eau" },
+    { "raw": "10 g de sel", "qty": 10, "unit": "g", "item": "sel" },
+    { "raw": "7 g de levure boulangère sèche", "qty": 7, "unit": "g", "item": "levure boulangère" },
+    { "raw": "30 g de beurre, mou", "qty": 30, "unit": "g", "item": "beurre", "prep": "mou" },
+    { "raw": "1 c. à c. de sucre", "qty": 1, "unit": "tsp", "item": "sucre" },
+    { "raw": "60 g de bicarbonate de soude", "qty": 60, "unit": "g", "item": "bicarbonate de soude", "group": "bain" },
+    { "raw": "1,5 l d'eau", "qty": 1.5, "unit": "l", "item": "eau", "group": "bain" },
+    { "raw": "4 c. à s. de gros sel", "qty": 4, "unit": "tbsp", "item": "gros sel", "group": "finition" }
+  ],
+  "steps": [
+    { "fr": "Le goût et la couleur du bretzel viennent du BAIN ALCALIN, pas de la cuisson.", "en": "A pretzel's taste and colour come from the ALKALINE BATH, not from the baking." },
+    { "fr": "Les boulangeries utilisent de la soude caustique. À la maison, le bicarbonate CUIT au four est la voie sûre.", "en": "Bakeries use lye. At home, BAKED bicarbonate is the safe route." },
+    { "fr": "Étaler le bicarbonate sur une plaque et le cuire une heure à 130 °C : il devient bien plus alcalin.", "en": "Spread the bicarbonate on a tray and bake it for an hour at 130°C: it becomes far more alkaline." },
+    { "fr": "Rouler des boudins fins aux extrémités et épais au centre, puis les nouer en bretzel.", "en": "Roll ropes thin at the ends and thick in the middle, then knot them into pretzels." },
+    { "fr": "Les RÉFRIGÉRER trente minutes : froids et fermes, ils gardent leur forme dans le bain.", "en": "CHILL them for thirty minutes: cold and firm, they keep their shape in the bath." },
+    { "fr": "Les tremper trente secondes dans le bain, inciser le ventre, saler et cuire à 220 °C.", "en": "Dip them for thirty seconds, slash the belly, salt them and bake at 220°C." }
+  ],
+  "notes": [
+    { "fr": "Ne jamais tremper de bretzel dans un bain de soude caustique à la maison : c'est corrosif et dangereux.", "en": "Never use a household lye bath for pretzels: it is corrosive and dangerous." }
+  ]
+}

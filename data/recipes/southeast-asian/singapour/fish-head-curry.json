@@ -1,0 +1,42 @@
+{
+  "slug": "fish-head-curry",
+  "cuisine": "southeast-asian",
+  "country": "singapour",
+  "origin": "Singapour",
+  "native_name": "Fish head curry",
+  "title": {
+    "fr": "Curry de tête de poisson",
+    "en": "Fish head curry"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 40 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["indien", "tamarin", "gombo", "fete"],
+  "ingredients": [
+    { "raw": "1 grosse tête de dorade, coupée en deux", "qty": 1, "unit": "piece", "item": "dorade", "prep": "tête coupée en deux" },
+    { "raw": "4 c. à s. de poudre de curry", "qty": 4, "unit": "tbsp", "item": "poudre de curry" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "50 cl de lait de coco", "qty": 50, "unit": "cl", "item": "lait de coco" },
+    { "raw": "5 c. à s. de pâte de tamarin", "qty": 5, "unit": "tbsp", "item": "pâte de tamarin" },
+    { "raw": "200 g de gombos, entiers", "qty": 200, "unit": "g", "item": "gombo" },
+    { "raw": "3 tomates, en quartiers", "qty": 3, "unit": "piece", "item": "tomate", "prep": "en quartiers" },
+    { "raw": "2 aubergines, en tronçons", "qty": 2, "unit": "piece", "item": "aubergine", "prep": "en tronçons" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "20 feuilles de curry", "qty": 20, "unit": "piece", "item": "feuille de curry" },
+    { "raw": "1 c. à s. de graines de moutarde", "qty": 1, "unit": "tbsp", "item": "graine de moutarde" },
+    { "raw": "1 c. à s. de fenugrec", "qty": 1, "unit": "tbsp", "item": "fenugrec" },
+    { "raw": "8 c. à s. d'huile neutre", "qty": 8, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "La tête de poisson est le morceau le plus goûteux : les joues et le collier sont ce qu'on se dispute.", "en": "The fish head is the tastiest cut: the cheeks and collar are what people compete for." },
+    { "fr": "Faire éclater moutarde et fenugrec dans l'huile avec les feuilles de curry.", "en": "Pop the mustard and fenugreek in the oil with the curry leaves." },
+    { "fr": "Ajouter les oignons, la poudre de curry et le curcuma délayés, et cuire cinq minutes.", "en": "Add the onions and the slaked curry powder and turmeric, and cook for five minutes." },
+    { "fr": "Verser l'eau de tamarin et le lait de coco, et laisser mijoter quinze minutes.", "en": "Add the tamarind water and coconut milk, and simmer for fifteen minutes." },
+    { "fr": "Déposer la tête de poisson et pocher quinze minutes SANS jamais la retourner.", "en": "Lay in the fish head and poach it for fifteen minutes WITHOUT ever turning it." },
+    { "fr": "Ajouter gombos et aubergines en fin de cuisson, et servir avec du riz.", "en": "Add the okra and aubergine at the end, and serve with rice." }
+  ]
+}

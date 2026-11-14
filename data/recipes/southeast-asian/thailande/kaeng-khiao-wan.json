@@ -1,0 +1,39 @@
+{
+  "slug": "kaeng-khiao-wan",
+  "cuisine": "southeast-asian",
+  "country": "thailande",
+  "origin": "Thaïlande",
+  "native_name": "แกงเขียวหวาน",
+  "title": {
+    "fr": "Curry vert de poulet",
+    "en": "Green chicken curry"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["curry-vert", "coco", "basilic", "populaire"],
+  "ingredients": [
+    { "raw": "700 g de cuisses de poulet, en morceaux", "qty": 700, "unit": "g", "item": "cuisse de poulet", "prep": "en morceaux" },
+    { "raw": "5 c. à s. de pâte de curry verte", "qty": 5, "unit": "tbsp", "item": "pâte de curry verte" },
+    { "raw": "80 cl de lait de coco", "qty": 80, "unit": "cl", "item": "lait de coco" },
+    { "raw": "200 g d'aubergines thaïes, en quartiers", "qty": 200, "unit": "g", "item": "aubergine", "prep": "en quartiers" },
+    { "raw": "100 g de pousses de bambou", "qty": 100, "unit": "g", "item": "pousse de bambou" },
+    { "raw": "6 feuilles de combava", "qty": 6, "unit": "piece", "item": "feuille de combava" },
+    { "raw": "1 bouquet de basilic thaï", "qty": 1, "unit": "bunch", "item": "basilic" },
+    { "raw": "4 c. à s. de sauce poisson", "qty": 4, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "3 c. à s. de sucre de palme", "qty": 3, "unit": "tbsp", "item": "sucre de palme" },
+    { "raw": "3 piments oiseau, fendus", "qty": 3, "unit": "piece", "item": "piment oiseau", "prep": "fendu" },
+    { "raw": "400 g de riz long grain", "qty": 400, "unit": "g", "item": "riz long grain", "group": "service" }
+  ],
+  "steps": [
+    { "fr": "Ouvrir la boîte de lait de coco SANS la secouer et prélever la crème épaisse du dessus.", "en": "Open the coconut milk WITHOUT shaking it and skim the thick cream from the top." },
+    { "fr": "Faire chauffer cette crème seule jusqu'à ce que l'huile se sépare et remonte : cela prend cinq minutes.", "en": "Heat that cream alone until the oil separates and rises: about five minutes." },
+    { "fr": "Y frire la pâte de curry TROIS MINUTES : c'est cette étape, appelée « casser la crème », qui fait le curry.", "en": "Fry the curry paste in it for THREE MINUTES: this step, \"cracking the cream\", is what makes the curry." },
+    { "fr": "Ajouter le poulet et l'enrober, puis le reste du lait de coco et les légumes.", "en": "Add the chicken and coat it, then the remaining coconut milk and the vegetables." },
+    { "fr": "Laisser frémir vingt minutes, sans jamais bouillir, et assaisonner à la sauce poisson et au sucre.", "en": "Simmer for twenty minutes, never boiling, and season with fish sauce and palm sugar." },
+    { "fr": "Ajouter le basilic thaï HORS DU FEU : cuit, il noircit et perd tout son parfum anisé.", "en": "Add the Thai basil OFF THE HEAT: cooked, it blackens and loses all its aniseed scent." }
+  ]
+}

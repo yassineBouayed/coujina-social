@@ -1,0 +1,32 @@
+{
+  "slug": "cacio-e-pepe",
+  "cuisine": "mediterranean",
+  "country": "italie",
+  "origin": "Italie",
+  "native_name": "Cacio e pepe",
+  "title": {
+    "fr": "Cacio e pepe, pâtes au pecorino et au poivre",
+    "en": "Cacio e pepe, pasta with pecorino and pepper"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 10, "cook_min": 15 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rome", "pates", "technique", "minimal"],
+  "ingredients": [
+    { "raw": "400 g de spaghetti", "qty": 400, "unit": "g", "item": "spaghetti" },
+    { "raw": "250 g de pecorino romano, râpé très fin", "qty": 250, "unit": "g", "item": "pecorino", "prep": "râpé très fin" },
+    { "raw": "3 c. à s. de poivre noir en grains", "qty": 3, "unit": "tbsp", "item": "poivre noir" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Trois ingrédients, et c'est l'un des plats les plus difficiles de la cuisine italienne.", "en": "Three ingredients, and one of the hardest dishes in Italian cooking." },
+    { "fr": "Concasser le poivre au mortier et le TORRÉFIER à sec dans la poêle, jusqu'au parfum.", "en": "Crush the pepper in a mortar and TOAST it dry in the pan, until fragrant." },
+    { "fr": "Cuire les pâtes dans TRÈS PEU d'eau : elle doit être aussi amidonnée que possible.", "en": "Cook the pasta in VERY LITTLE water: it must be as starchy as possible." },
+    { "fr": "Faire une crème avec le pecorino et un peu d'eau de cuisson TIÈDE, jamais bouillante.", "en": "Make a cream with the pecorino and a little LUKEWARM cooking water, never boiling." },
+    { "fr": "Au-delà de 65 °C, le pecorino coagule en fils : c'est l'unique cause d'échec du plat.", "en": "Above 65°C, pecorino seizes into strings: the one and only cause of failure here." },
+    { "fr": "Mélanger pâtes et crème HORS DU FEU, en remuant vivement, jusqu'à une sauce lisse et nappante.", "en": "Toss the pasta and cream OFF THE HEAT, stirring briskly, into a smooth coating sauce." }
+  ]
+}

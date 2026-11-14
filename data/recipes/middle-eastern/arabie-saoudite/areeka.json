@@ -1,0 +1,35 @@
+{
+  "slug": "areeka",
+  "cuisine": "middle-eastern",
+  "country": "arabie-saoudite",
+  "origin": "Arabie saoudite",
+  "native_name": "Areeka",
+  "title": {
+    "fr": "Areeka, pain écrasé aux dattes et au miel",
+    "en": "Areeka, mashed bread with dates and honey"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 10 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["datte", "miel", "fete", "sud"],
+  "ingredients": [
+    { "raw": "5 pains arabes fins", "qty": 5, "unit": "piece", "item": "khobz" },
+    { "raw": "400 g de dattes, dénoyautées", "qty": 400, "unit": "g", "item": "datte", "prep": "dénoyautée" },
+    { "raw": "120 g de ghee", "qty": 120, "unit": "g", "item": "ghee" },
+    { "raw": "5 c. à s. de miel", "qty": 5, "unit": "tbsp", "item": "miel" },
+    { "raw": "1 c. à c. de cardamome moulue", "qty": 1, "unit": "tsp", "item": "cardamome", "prep": "moulue" },
+    { "raw": "40 g d'amandes effilées, grillées", "qty": 40, "unit": "g", "item": "amande effilée", "prep": "grillée", "group": "décor" },
+    { "raw": "20 cl de crème liquide", "qty": 20, "unit": "cl", "item": "crème liquide", "optional": true, "group": "service" }
+  ],
+  "steps": [
+    { "fr": "Chauffer les dattes dénoyautées avec un peu d'eau et le ghee jusqu'à ce qu'elles fondent en pâte.", "en": "Warm the pitted dates with a little water and the ghee until they melt into a paste." },
+    { "fr": "Déchirer le pain et l'écraser dans la pâte de dattes brûlante, à la main ou au pilon.", "en": "Tear the bread and mash it into the scalding date paste, by hand or with a pestle." },
+    { "fr": "Travailler tant que c'est chaud : refroidi, le pain ne s'incorpore plus.", "en": "Work it while hot: cooled, the bread no longer blends in." },
+    { "fr": "Ajouter la cardamome et le miel, et rectifier la texture avec un peu d'eau chaude.", "en": "Add the cardamom and honey, and adjust the texture with a little hot water." },
+    { "fr": "Dresser en dôme et creuser un puits au centre.", "en": "Mound it up and hollow a well in the centre." },
+    { "fr": "Verser du ghee fondu et du miel dans le puits, parsemer d'amandes, et manger à la main.", "en": "Pour melted ghee and honey into the well, scatter with almonds, and eat with your hands." }
+  ]
+}

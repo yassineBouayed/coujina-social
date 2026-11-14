@@ -1,0 +1,39 @@
+{
+  "slug": "chorba-beida",
+  "cuisine": "maghrebi",
+  "country": "algerie",
+  "origin": "Algérie",
+  "native_name": "Chorba beida",
+  "title": {
+    "fr": "Chorba beida, soupe blanche au poulet",
+    "en": "Chorba beida, white chicken soup"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 50 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ramadan", "soupe", "poulet", "alger"],
+  "ingredients": [
+    { "raw": "500 g de blanc de poulet, en petits morceaux", "qty": 500, "unit": "g", "item": "blanc de poulet", "prep": "en petits morceaux" },
+    { "raw": "150 g de langue d'oiseau", "qty": 150, "unit": "g", "item": "langue d'oiseau" },
+    { "raw": "150 g de pois chiches secs, trempés la veille", "qty": 150, "unit": "g", "item": "pois chiche sec", "prep": "trempé la veille" },
+    { "raw": "2 oignons, râpés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "râpé" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "1/2 c. à c. de poivre blanc", "qty": 0.5, "unit": "tsp", "item": "poivre blanc" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf", "group": "liaison" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron", "group": "liaison" },
+    { "raw": "4 c. à s. de beurre", "qty": 4, "unit": "tbsp", "item": "beurre" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselé", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire suer l'oignon au beurre sans coloration : toute la difficulté de cette soupe est de rester blanche.", "en": "Sweat the onion in butter without colour: the whole difficulty of this soup is staying white." },
+    { "fr": "Ajouter le poulet, la cannelle, le poivre blanc et le sel, puis les pois chiches et 1,5 l d'eau.", "en": "Add the chicken, cinnamon, white pepper and salt, then the chickpeas and 1.5 litres of water." },
+    { "fr": "Laisser cuire quarante minutes à petits bouillons, en écumant.", "en": "Simmer for forty minutes, skimming." },
+    { "fr": "Ajouter les langues d'oiseau et cuire dix minutes de plus.", "en": "Add the birds-tongue pasta and cook for another ten minutes." },
+    { "fr": "Battre l'œuf avec le jus de citron, et l'incorporer hors du feu en filet, en fouettant : sur le feu, l'œuf coagule en grumeaux.", "en": "Beat the egg with the lemon juice, and whisk it in off the heat in a stream: over heat, the egg curdles into lumps." },
+    { "fr": "Rectifier le sel, parsemer de coriandre et servir aussitôt.", "en": "Adjust the salt, scatter with coriander and serve at once." }
+  ]
+}

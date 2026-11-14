@@ -1,0 +1,38 @@
+{
+  "slug": "tarte-au-vin-cuit",
+  "cuisine": "western-european",
+  "country": "suisse",
+  "origin": "Suisse",
+  "native_name": "Vin cuit",
+  "title": {
+    "fr": "Tarte au vin cuit fribourgeoise",
+    "en": "Fribourg pear syrup tart"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 35, "cook_min": 40 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fribourg", "poire", "tarte", "tradition"],
+  "ingredients": [
+    { "raw": "300 g de farine de blé", "qty": 300, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "150 g de beurre, froid", "qty": 150, "unit": "g", "item": "beurre", "prep": "froid", "group": "pâte" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf", "group": "pâte" },
+    { "raw": "5 cl d'eau glacée", "qty": 5, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "300 g de sirop de poire", "qty": 300, "unit": "g", "item": "sirop de poire", "group": "garniture" },
+    { "raw": "25 cl de crème liquide entière", "qty": 25, "unit": "cl", "item": "crème liquide", "group": "garniture" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf", "group": "garniture" },
+    { "raw": "2 c. à s. de farine de blé", "qty": 2, "unit": "tbsp", "item": "farine de blé", "group": "garniture" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle", "group": "garniture" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le vin cuit fribourgeois ne contient PAS de vin : c'est du jus de poire réduit pendant des heures.", "en": "Fribourg vin cuit contains NO wine: it is pear juice reduced over many hours." },
+    { "fr": "On le prépare l'automne, en plein air, dans de grands chaudrons de cuivre.", "en": "It is made in autumn, in the open air, in large copper cauldrons." },
+    { "fr": "Foncer le moule et faire cuire la pâte à blanc quinze minutes.", "en": "Line the tin and blind-bake the pastry for fifteen minutes." },
+    { "fr": "Battre sirop, crème, œufs et farine SANS FAIRE MOUSSER : les bulles remonteraient à la cuisson.", "en": "Beat the syrup, cream, eggs and flour WITHOUT FROTHING: bubbles would rise while baking." },
+    { "fr": "Cuire 35 minutes à 170 °C : la garniture doit encore trembler légèrement au centre.", "en": "Bake for 35 minutes at 170°C: the filling should still wobble slightly in the centre." },
+    { "fr": "Servir FROIDE : chaude, la garniture n'a pas fini de prendre et coule à la découpe.", "en": "Serve it COLD: warm, the filling has not finished setting and runs when cut." }
+  ]
+}

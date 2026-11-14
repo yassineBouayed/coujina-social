@@ -1,0 +1,36 @@
+{
+  "slug": "gratin-dauphinois",
+  "cuisine": "french",
+  "country": "france",
+  "origin": "France",
+  "native_name": "Gratin dauphinois",
+  "title": {
+    "fr": "Gratin dauphinois",
+    "en": "Gratin dauphinois"
+  },
+  "meal_type": "side",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 90 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["dauphine", "creme", "pomme-de-terre", "four"],
+  "ingredients": [
+    { "raw": "1,5 kg de pommes de terre à chair ferme", "qty": 1500, "unit": "g", "item": "pomme de terre" },
+    { "raw": "50 cl de crème liquide", "qty": 50, "unit": "cl", "item": "crème liquide" },
+    { "raw": "25 cl de lait entier", "qty": 25, "unit": "cl", "item": "lait entier" },
+    { "raw": "2 gousses d'ail", "qty": 2, "unit": "piece", "item": "ail" },
+    { "raw": "30 g de beurre", "qty": 30, "unit": "g", "item": "beurre" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le vrai gratin dauphinois ne contient NI FROMAGE NI ŒUF : c'est de la pomme de terre et de la crème.", "en": "A true gratin dauphinois contains NEITHER CHEESE NOR EGG: potato and cream, and that is all." },
+    { "fr": "Trancher les pommes de terre à la mandoline, à trois millimètres, et NE PAS LES RINCER.", "en": "Slice the potatoes on a mandolin, three millimetres thick, and DO NOT RINSE THEM." },
+    { "fr": "L'amidon de surface est ce qui lie la crème : rincées, les tranches nagent dans un jus liquide.", "en": "The surface starch is what binds the cream: rinsed, the slices swim in a thin liquid." },
+    { "fr": "Frotter le plat à l'ail, le beurrer, et ranger les tranches en couches serrées.", "en": "Rub the dish with garlic, butter it, and layer the slices tightly." },
+    { "fr": "Faire chauffer crème, lait, muscade et sel, et verser à hauteur des pommes de terre.", "en": "Heat the cream, milk, nutmeg and salt, and pour to just cover the potatoes." },
+    { "fr": "Cuire une heure trente à 150 °C : la lame d'un couteau doit traverser sans résistance.", "en": "Bake for an hour and a half at 150°C: a knife should slide through with no resistance." }
+  ]
+}

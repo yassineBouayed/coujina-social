@@ -1,0 +1,35 @@
+{
+  "slug": "matlouh",
+  "cuisine": "maghrebi",
+  "country": "algerie",
+  "origin": "Algérie",
+  "native_name": "Matlouh",
+  "title": {
+    "fr": "Matlouh, pain de semoule à la poêle",
+    "en": "Matlouh, pan-cooked semolina bread"
+  },
+  "meal_type": "bread",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["pain", "levure", "poele", "ramadan"],
+  "ingredients": [
+    { "raw": "400 g de semoule fine", "qty": 400, "unit": "g", "item": "semoule fine" },
+    { "raw": "100 g de farine de blé", "qty": 100, "unit": "g", "item": "farine de blé" },
+    { "raw": "1 c. à s. de levure boulangère sèche", "qty": 1, "unit": "tbsp", "item": "levure boulangère" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "1 c. à c. de sucre", "qty": 1, "unit": "tsp", "item": "sucre" },
+    { "raw": "30 cl d'eau tiède", "qty": 30, "unit": "cl", "item": "eau" },
+    { "raw": "2 c. à s. d'huile neutre", "qty": 2, "unit": "tbsp", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Mélanger semoule fine, farine, levure, sel et sucre, puis pétrir avec l'eau tiède et l'huile dix minutes.", "en": "Mix fine semolina, flour, yeast, salt and sugar, then knead with the warm water and oil for ten minutes." },
+    { "fr": "Laisser lever une heure au chaud, sous un linge humide.", "en": "Prove for an hour in a warm place, under a damp cloth." },
+    { "fr": "Diviser en boules, les aplatir à un centimètre et les rouler dans la semoule.", "en": "Divide into balls, flatten to a centimetre and roll them in semolina." },
+    { "fr": "Laisser lever encore trente minutes sur le plan de travail : sans cette seconde pousse, le matlouh est dense.", "en": "Prove for another thirty minutes on the counter: without this second rise, matlouh is dense." },
+    { "fr": "Cuire à la poêle sèche à feu doux, dix minutes de chaque côté.", "en": "Cook in a dry pan over low heat, ten minutes a side." },
+    { "fr": "Envelopper dans un linge dès la sortie, pour que la croûte reste souple.", "en": "Wrap in a cloth as soon as they come off, so the crust stays soft." }
+  ]
+}

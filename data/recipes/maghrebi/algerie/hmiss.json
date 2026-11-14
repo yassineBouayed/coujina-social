@@ -1,0 +1,36 @@
+{
+  "slug": "hmiss",
+  "cuisine": "maghrebi",
+  "country": "algerie",
+  "origin": "Algérie",
+  "native_name": "Hmiss",
+  "title": {
+    "fr": "Hmiss, salade de poivrons et tomates grillés",
+    "en": "Hmiss, grilled pepper and tomato salad"
+  },
+  "meal_type": "salad",
+  "servings": 4,
+  "times": { "prep_min": 30, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["grille", "ete", "vegetarien", "entree"],
+  "ingredients": [
+    { "raw": "6 poivrons verts", "qty": 6, "unit": "piece", "item": "poivron vert" },
+    { "raw": "4 tomates", "qty": 4, "unit": "piece", "item": "tomate" },
+    { "raw": "4 gousses d'ail", "qty": 4, "unit": "piece", "item": "ail" },
+    { "raw": "5 c. à s. d'huile d'olive", "qty": 5, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin" },
+    { "raw": "1 c. à s. de vinaigre de vin", "qty": 1, "unit": "tbsp", "item": "vinaigre de vin", "optional": true },
+    { "raw": "1 piment frais", "qty": 1, "unit": "piece", "item": "piment frais", "optional": true },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Griller les poivrons et les tomates à la flamme ou sous le gril, jusqu'à ce que la peau soit noire de partout.", "en": "Char the peppers and tomatoes over a flame or under the grill, until the skin is black all over." },
+    { "fr": "Les enfermer dix minutes dans un sac ou un saladier couvert : la vapeur décolle la peau toute seule.", "en": "Seal them in a bag or covered bowl for ten minutes: the steam lifts the skin on its own." },
+    { "fr": "Peler, épépiner, et écraser grossièrement à la fourchette. Le hmiss ne se mixe pas.", "en": "Peel, seed, and crush roughly with a fork. Hmiss is never blended." },
+    { "fr": "Faire chauffer l'huile avec l'ail écrasé, sans le colorer, puis ajouter la chair grillée.", "en": "Warm the oil with the crushed garlic, without colouring it, then add the charred flesh." },
+    { "fr": "Laisser réduire dix minutes à feu doux, jusqu'à ce que l'eau soit partie et que l'huile remonte.", "en": "Reduce for ten minutes over low heat, until the water has gone and the oil rises." },
+    { "fr": "Assaisonner de cumin, sel et vinaigre, et servir tiède ou froid avec du pain.", "en": "Season with cumin, salt and vinegar, and serve warm or cold with bread." }
+  ]
+}

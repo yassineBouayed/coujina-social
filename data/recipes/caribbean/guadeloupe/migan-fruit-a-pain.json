@@ -1,0 +1,41 @@
+{
+  "slug": "migan-fruit-a-pain",
+  "cuisine": "caribbean",
+  "country": "guadeloupe",
+  "origin": "Guadeloupe",
+  "native_name": "Migan de fruit à pain",
+  "title": {
+    "fr": "Migan de fruit à pain",
+    "en": "Breadfruit migan"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 60 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["embleme", "fruit-a-pain", "ecrase", "famille"],
+  "ingredients": [
+    { "raw": "1 fruit à pain", "qty": 1, "unit": "piece", "item": "fruit à pain" },
+    { "raw": "400 g de queue de porc salée, dessalée", "qty": 400, "unit": "g", "item": "poitrine de porc", "prep": "salée, dessalée" },
+    { "raw": "200 g de poitrine de porc fumée, en dés", "qty": 200, "unit": "g", "item": "poitrine de porc", "prep": "fumée, en dés" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "8 gousses d'ail, écrasées", "qty": 8, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 bouquet d'oignons nouveaux, émincés", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "émincé" },
+    { "raw": "1 piment végétarien", "qty": 1, "unit": "piece", "item": "piment végétarien" },
+    { "raw": "4 feuilles de bois d'Inde", "qty": 4, "unit": "piece", "item": "bois d'Inde" },
+    { "raw": "1/2 bouquet de thym frais", "qty": 0.5, "unit": "bunch", "item": "thym" },
+    { "raw": "1,5 l d'eau", "qty": 1.5, "unit": "l", "item": "eau" },
+    { "raw": "8 c. à s. d'huile neutre", "qty": 8, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le migan garde la mémoire d'un aliment de nécessité : le fruit à pain a nourri les Antilles.", "en": "The migan remembers a food of necessity: breadfruit fed the Antilles." },
+    { "fr": "Choisir un fruit à pain MÛR mais encore ferme : trop vert il est amer, trop mûr il est sucré.", "en": "Choose a RIPE but still firm breadfruit: too green it is bitter, too ripe it turns sweet." },
+    { "fr": "Le peler et retirer le CŒUR CENTRAL, cotonneux : il ne s'attendrit jamais.", "en": "Peel it and remove the SPONGY CORE: it never softens." },
+    { "fr": "Dessaler la queue de porc DOUZE HEURES : sans cela, le migan est immangeable.", "en": "Desalt the pork tail for TWELVE HOURS: without it, the migan is inedible." },
+    { "fr": "Cuire une heure, puis ÉCRASER au pilon dans la marmite, sans mixer : il reste des morceaux.", "en": "Cook for an hour, then CRUSH it with a masher in the pot, without blending: pieces remain." },
+    { "fr": "Le migan doit être ÉPAIS, entre la purée et le ragoût : ni soupe, ni purée lisse.", "en": "A migan is THICK, between a mash and a stew: neither soup nor smooth purée." }
+  ]
+}

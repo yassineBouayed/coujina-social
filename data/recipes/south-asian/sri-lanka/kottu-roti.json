@@ -1,0 +1,41 @@
+{
+  "slug": "kottu-roti",
+  "cuisine": "south-asian",
+  "country": "sri-lanka",
+  "origin": "Sri Lanka",
+  "native_name": "Kottu roti",
+  "title": {
+    "fr": "Kottu roti, pain haché sauté aux légumes",
+    "en": "Kottu roti, chopped flatbread stir-fry"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 30, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "restes", "rapide", "soiree"],
+  "ingredients": [
+    { "raw": "6 rotis ou paratha, de la veille", "qty": 6, "unit": "piece", "item": "chapati" },
+    { "raw": "400 g de blanc de poulet, en lanières", "qty": 400, "unit": "g", "item": "blanc de poulet", "prep": "en lanières" },
+    { "raw": "3 œufs, battus", "qty": 3, "unit": "piece", "item": "oeuf", "prep": "battu" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "1 poireau, émincé", "qty": 1, "unit": "piece", "item": "poireau", "prep": "émincé" },
+    { "raw": "2 carottes, en julienne", "qty": 2, "unit": "piece", "item": "carotte", "prep": "en julienne" },
+    { "raw": "3 piments verts, hachés", "qty": 3, "unit": "piece", "item": "piment frais", "prep": "haché" },
+    { "raw": "2 c. à s. de poudre de curry", "qty": 2, "unit": "tbsp", "item": "poudre de curry" },
+    { "raw": "15 feuilles de curry", "qty": 15, "unit": "piece", "item": "feuille de curry" },
+    { "raw": "20 cl de sauce de curry", "qty": 20, "unit": "cl", "item": "lait de coco" },
+    { "raw": "6 c. à s. d'huile de coco", "qty": 6, "unit": "tbsp", "item": "huile de coco" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le kottu se fait avec des rotis DE LA VEILLE : frais, ils se réduisent en pâte sous la lame.", "en": "Kottu is made with YESTERDAY'S rotis: fresh, they turn to paste under the blade." },
+    { "fr": "Découper les rotis en lanières au couteau, à l'avance.", "en": "Cut the rotis into strips with a knife, in advance." },
+    { "fr": "Faire sauter poulet, oignons, poireau, carottes, piments et feuilles de curry à feu TRÈS vif.", "en": "Stir-fry the chicken, onions, leek, carrots, chillies and curry leaves over VERY high heat." },
+    { "fr": "Pousser sur le côté, verser les œufs battus, les brouiller, puis tout réunir.", "en": "Push everything aside, pour in the beaten eggs, scramble them, then bring it all together." },
+    { "fr": "Ajouter les lanières de roti et HACHER le tout à la spatule, en frappant la plaque, une minute.", "en": "Add the roti strips and CHOP everything with the spatula, striking the plate, for a minute." },
+    { "fr": "Verser la sauce de curry à la fin et mélanger : le bruit du hachage est le nom même du plat.", "en": "Pour in the curry sauce at the end and toss: the sound of the chopping gives the dish its name." }
+  ]
+}

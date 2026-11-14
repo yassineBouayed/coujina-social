@@ -1,0 +1,39 @@
+{
+  "slug": "sukuti",
+  "cuisine": "south-asian",
+  "country": "nepal",
+  "origin": "Népal",
+  "native_name": "Sukuti",
+  "title": {
+    "fr": "Sukuti, viande séchée sautée aux épices",
+    "en": "Sukuti, dried meat tossed with spices"
+  },
+  "meal_type": "starter",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["montagne", "viande-sechee", "soiree", "timur"],
+  "ingredients": [
+    { "raw": "300 g de viande séchée", "qty": 300, "unit": "g", "item": "viande séchée" },
+    { "raw": "2 oignons rouges, émincés", "qty": 2, "unit": "piece", "item": "oignon rouge", "prep": "émincé" },
+    { "raw": "2 tomates, en dés", "qty": 2, "unit": "piece", "item": "tomate", "prep": "en dés" },
+    { "raw": "2 c. à s. de piment en poudre", "qty": 2, "unit": "tbsp", "item": "piment en poudre" },
+    { "raw": "2 c. à c. de timur, moulu", "qty": 2, "unit": "tsp", "item": "timur", "prep": "moulu" },
+    { "raw": "1 c. à s. de pâte gingembre-ail", "qty": 1, "unit": "tbsp", "item": "pâte gingembre-ail" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "2 citrons verts, leur jus", "qty": 2, "unit": "piece", "item": "citron vert" },
+    { "raw": "8 c. à s. d'huile de moutarde", "qty": 8, "unit": "tbsp", "item": "huile de moutarde" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire tremper la viande séchée vingt minutes dans l'eau tiède pour l'assouplir.", "en": "Soak the dried meat for twenty minutes in warm water to soften it." },
+    { "fr": "La griller ensuite à sec sur braises ou à la poêle, jusqu'à ce qu'elle noircisse par endroits.", "en": "Then grill it dry over coals or in a pan, until it chars in places." },
+    { "fr": "La déchirer À LA MAIN dans le sens des fibres : coupée au couteau, elle perd sa mâche.", "en": "Tear it BY HAND along the grain: knife-cut, it loses its chew." },
+    { "fr": "Faire revenir oignons, gingembre-ail et tomates dans l'huile de moutarde chaude.", "en": "Fry the onions, ginger-garlic and tomatoes in the hot mustard oil." },
+    { "fr": "Ajouter la viande, le piment, le cumin et le timur, et sauter cinq minutes à feu vif.", "en": "Add the meat, chilli, cumin and timur, and toss over high heat for five minutes." },
+    { "fr": "Finir au citron vert et à la coriandre, et servir avec du riz battu et de la bière.", "en": "Finish with lime and coriander, and serve with beaten rice and beer." }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "afang-soup",
+  "cuisine": "west-african",
+  "country": "nigeria",
+  "origin": "Nigeria",
+  "native_name": "Afang soup",
+  "title": {
+    "fr": "Afang, soupe de feuilles okazi et waterleaf",
+    "en": "Afang, okazi and waterleaf soup"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 45 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["efik", "feuilles", "fete", "calabar"],
+  "ingredients": [
+    { "raw": "250 g de feuilles d'afang, finement broyées", "qty": 250, "unit": "g", "item": "feuille d'afang", "prep": "finement broyée" },
+    { "raw": "400 g d'épinards, ciselés", "qty": 400, "unit": "g", "item": "épinard", "prep": "ciselé" },
+    { "raw": "400 g de bœuf à mijoter, en cubes", "qty": 400, "unit": "g", "item": "boeuf à mijoter", "prep": "en cubes" },
+    { "raw": "150 g de stockfish, trempé", "qty": 150, "unit": "g", "item": "stockfish", "prep": "trempé" },
+    { "raw": "150 g de poisson fumé, émietté", "qty": 150, "unit": "g", "item": "poisson fumé", "prep": "émietté" },
+    { "raw": "4 c. à s. de crevettes séchées, moulues", "qty": 4, "unit": "tbsp", "item": "crevette séchée", "prep": "moulue" },
+    { "raw": "15 cl d'huile de palme rouge", "qty": 15, "unit": "cl", "item": "huile de palme rouge" },
+    { "raw": "1 oignon, haché", "qty": 1, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "3 piments habanero, mixés", "qty": 3, "unit": "piece", "item": "habanero", "prep": "mixé" },
+    { "raw": "2 cubes de bouillon", "qty": 2, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Broyer les feuilles d'afang très finement au mortier : coupées au couteau, elles restent coriaces.", "en": "Pound the afang leaves very fine in a mortar: knife-cut, they stay tough." },
+    { "fr": "Cuire viande et stockfish avec l'oignon, les cubes et peu d'eau, jusqu'à tendreté.", "en": "Cook the meat and stockfish with the onion, stock cubes and little water, until tender." },
+    { "fr": "Ajouter l'huile de palme, le poisson fumé, les crevettes séchées et le piment.", "en": "Add the palm oil, smoked fish, dried prawns and chilli." },
+    { "fr": "Incorporer l'afang broyé et laisser mijoter dix minutes à découvert.", "en": "Stir in the pounded afang and simmer for ten minutes uncovered." },
+    { "fr": "Ajouter les épinards en dernier, cinq minutes, sans couvrir.", "en": "Add the spinach last, for five minutes, uncovered." },
+    { "fr": "L'afang se sert très peu liquide : c'est une soupe qui tient à la cuillère.", "en": "Afang is served barely liquid: a soup that holds on a spoon." }
+  ]
+}

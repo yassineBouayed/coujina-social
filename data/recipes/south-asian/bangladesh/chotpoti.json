@@ -1,0 +1,40 @@
+{
+  "slug": "chotpoti",
+  "cuisine": "south-asian",
+  "country": "bangladesh",
+  "origin": "Bangladesh",
+  "native_name": "Chotpoti",
+  "title": {
+    "fr": "Chotpoti, pois chiches épicés au tamarin",
+    "en": "Chotpoti, spiced chickpeas with tamarind"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 60 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "tamarin", "pois-chiche", "gouter"],
+  "ingredients": [
+    { "raw": "400 g de pois chiches secs, trempés la veille", "qty": 400, "unit": "g", "item": "pois chiche sec", "prep": "trempé la veille" },
+    { "raw": "3 pommes de terre, en petits dés", "qty": 3, "unit": "piece", "item": "pomme de terre", "prep": "en petits dés" },
+    { "raw": "3 c. à s. de pâte de tamarin", "qty": 3, "unit": "tbsp", "item": "pâte de tamarin" },
+    { "raw": "2 oignons, hachés finement", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché finement", "group": "garniture" },
+    { "raw": "4 œufs durs, hachés", "qty": 4, "unit": "piece", "item": "oeuf", "prep": "dur et haché", "group": "garniture" },
+    { "raw": "1 c. à s. de cumin moulu, grillé", "qty": 1, "unit": "tbsp", "item": "cumin", "prep": "grillé" },
+    { "raw": "1 c. à s. de chaat masala", "qty": 1, "unit": "tbsp", "item": "chaat masala" },
+    { "raw": "1 c. à c. de piment en poudre", "qty": 1, "unit": "tsp", "item": "piment en poudre" },
+    { "raw": "4 piments verts, hachés", "qty": 4, "unit": "piece", "item": "piment frais", "prep": "haché", "group": "garniture" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée", "group": "garniture" },
+    { "raw": "4 c. à s. d'huile neutre", "qty": 4, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire les pois chiches une heure jusqu'à ce qu'ils soient très tendres, en gardant leur bouillon.", "en": "Cook the chickpeas for an hour until very tender, keeping their broth." },
+    { "fr": "Ajouter les pommes de terre en dés et les cuire dans le même bouillon.", "en": "Add the diced potatoes and cook them in the same broth." },
+    { "fr": "Écraser un tiers des pois chiches pour épaissir : le chotpoti doit napper, pas être soupe.", "en": "Crush a third of the chickpeas to thicken it: chotpoti should coat, not be soupy." },
+    { "fr": "Ajouter le tamarin, le cumin grillé, le chaat masala, le piment et le sel.", "en": "Add the tamarind, roasted cumin, chaat masala, chilli and salt." },
+    { "fr": "Le chotpoti se sert TIÈDE : chaud, l'acidité du tamarin est écrasée par la chaleur.", "en": "Chotpoti is served WARM: hot, the tamarind acidity is flattened by the heat." },
+    { "fr": "Servir en bol avec oignon cru, œuf dur haché, piments et coriandre par-dessus.", "en": "Serve in bowls with raw onion, chopped hard-boiled egg, chillies and coriander on top." }
+  ]
+}

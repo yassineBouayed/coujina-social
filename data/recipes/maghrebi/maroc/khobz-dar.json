@@ -1,0 +1,37 @@
+{
+  "slug": "khobz-dar",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Khobz dar",
+  "title": {
+    "fr": "Khobz dar, pain de maison marocain",
+    "en": "Khobz dar, Moroccan household bread"
+  },
+  "meal_type": "bread",
+  "servings": 8,
+  "times": { "prep_min": 25, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["pain", "quotidien", "four", "anis"],
+  "ingredients": [
+    { "raw": "400 g de farine de blé", "qty": 400, "unit": "g", "item": "farine de blé" },
+    { "raw": "100 g de semoule fine", "qty": 100, "unit": "g", "item": "semoule fine" },
+    { "raw": "1 c. à s. de levure boulangère sèche", "qty": 1, "unit": "tbsp", "item": "levure boulangère" },
+    { "raw": "1,5 c. à c. de sel", "qty": 1.5, "unit": "tsp", "item": "sel" },
+    { "raw": "1 c. à c. de sucre", "qty": 1, "unit": "tsp", "item": "sucre" },
+    { "raw": "1 c. à c. de graines d'anis", "qty": 1, "unit": "tsp", "item": "anis vert", "optional": true },
+    { "raw": "1 c. à s. de graines de sésame", "qty": 1, "unit": "tbsp", "item": "sésame", "optional": true },
+    { "raw": "28 cl d'eau tiède", "qty": 28, "unit": "cl", "item": "eau" },
+    { "raw": "2 c. à s. d'huile d'olive", "qty": 2, "unit": "tbsp", "item": "huile d'olive" }
+  ],
+  "steps": [
+    { "fr": "Mélanger les farines, la levure, le sel, le sucre, l'anis et le sésame.", "en": "Combine the flours, yeast, salt, sugar, anise and sesame." },
+    { "fr": "Pétrir dix minutes avec l'eau et l'huile jusqu'à obtenir une pâte lisse et ferme.", "en": "Knead for ten minutes with the water and oil until smooth and firm." },
+    { "fr": "Diviser en deux boules, les aplatir à deux centimètres, et les poser sur une plaque semoulée.", "en": "Divide into two balls, flatten to two centimetres, and set on a semolina-dusted tray." },
+    { "fr": "Laisser lever une heure sous un linge, puis piquer le dessus à la fourchette.", "en": "Prove for an hour under a cloth, then prick the top with a fork." },
+    { "fr": "Cuire 25 minutes à 220 °C : le pain sonne creux quand on tape le dessous.", "en": "Bake for 25 minutes at 220°C: the loaf sounds hollow when tapped underneath." },
+    { "fr": "Laisser refroidir sur grille, jamais à plat, sinon le dessous devient humide.", "en": "Cool on a rack, never flat, or the base turns damp." }
+  ]
+}

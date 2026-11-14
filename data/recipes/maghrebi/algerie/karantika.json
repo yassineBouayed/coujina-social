@@ -1,0 +1,35 @@
+{
+  "slug": "karantika",
+  "cuisine": "maghrebi",
+  "country": "algerie",
+  "origin": "Algérie",
+  "native_name": "Karantika",
+  "title": {
+    "fr": "Karantika, flan de pois chiche d'Oran",
+    "en": "Karantika, Oran chickpea flan"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 15, "cook_min": 50 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["oran", "rue", "vegetarien", "pois-chiche"],
+  "ingredients": [
+    { "raw": "250 g de farine de pois chiche", "qty": 250, "unit": "g", "item": "farine de pois chiche" },
+    { "raw": "1 l d'eau", "qty": 1, "unit": "l", "item": "eau" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf" },
+    { "raw": "10 cl d'huile neutre", "qty": 10, "unit": "cl", "item": "huile neutre" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "1 c. à s. de cumin moulu, pour servir", "qty": 1, "unit": "tbsp", "item": "cumin", "group": "service" },
+    { "raw": "1 c. à c. de harissa, pour servir", "qty": 1, "unit": "tsp", "item": "harissa", "optional": true, "group": "service" }
+  ],
+  "steps": [
+    { "fr": "Délayer la farine de pois chiche dans l'eau froide, en fouettant, jusqu'à ce qu'il ne reste aucun grumeau.", "en": "Whisk the chickpea flour into cold water until not a single lump remains." },
+    { "fr": "Filtrer au chinois : c'est le seul moyen d'avoir un flan lisse, et l'étape que tout le monde saute.", "en": "Strain it: the only way to a smooth flan, and the step everybody skips." },
+    { "fr": "Ajouter les œufs battus, l'huile et le sel, et mélanger sans monter en mousse.", "en": "Add the beaten eggs, oil and salt, and mix without whipping in air." },
+    { "fr": "Verser dans un plat huilé sur trois centimètres d'épaisseur, pas plus.", "en": "Pour into an oiled dish three centimetres deep, no more." },
+    { "fr": "Cuire 50 minutes à 200 °C, jusqu'à ce que la surface soit dorée et le centre ferme sous le doigt.", "en": "Bake for 50 minutes at 200°C, until the top is golden and the centre firm under a finger." },
+    { "fr": "Servir chaud, coupé en carrés, dans du pain, avec du cumin et de la harissa.", "en": "Serve hot, cut into squares, in bread, with cumin and harissa." }
+  ]
+}

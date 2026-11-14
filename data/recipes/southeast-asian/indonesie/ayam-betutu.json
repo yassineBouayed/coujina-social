@@ -1,0 +1,42 @@
+{
+  "slug": "ayam-betutu",
+  "cuisine": "southeast-asian",
+  "country": "indonesie",
+  "origin": "Indonésie",
+  "native_name": "Ayam betutu",
+  "title": {
+    "fr": "Ayam betutu, poulet balinais aux épices",
+    "en": "Ayam betutu, Balinese spiced whole chicken"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 45, "cook_min": 180 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["bali", "fete", "cuisson-lente", "epices"],
+  "ingredients": [
+    { "raw": "1 poulet entier", "qty": 1, "unit": "piece", "item": "poulet entier" },
+    { "raw": "12 échalotes", "qty": 12, "unit": "piece", "item": "échalote", "group": "base-gede" },
+    { "raw": "10 gousses d'ail", "qty": 10, "unit": "piece", "item": "ail", "group": "base-gede" },
+    { "raw": "15 piments oiseau", "qty": 15, "unit": "piece", "item": "piment oiseau", "group": "base-gede" },
+    { "raw": "1 morceau de curcuma frais", "qty": 1, "unit": "piece", "item": "curcuma frais", "group": "base-gede" },
+    { "raw": "1 morceau de galanga", "qty": 1, "unit": "piece", "item": "galanga", "group": "base-gede" },
+    { "raw": "1 morceau de gingembre", "qty": 1, "unit": "piece", "item": "gingembre", "group": "base-gede" },
+    { "raw": "8 noix de bancoul", "qty": 8, "unit": "piece", "item": "noix de bancoul", "group": "base-gede" },
+    { "raw": "1 c. à s. de coriandre en graines", "qty": 1, "unit": "tbsp", "item": "coriandre graines", "group": "base-gede" },
+    { "raw": "1 c. à c. de pâte de crevette", "qty": 1, "unit": "tsp", "item": "pâte de crevette", "group": "base-gede" },
+    { "raw": "400 g d'épinards, blanchis", "qty": 400, "unit": "g", "item": "épinard", "prep": "blanchi", "group": "farce" },
+    { "raw": "3 tiges de citronnelle, écrasées", "qty": 3, "unit": "piece", "item": "citronnelle", "prep": "écrasée" },
+    { "raw": "12 cl d'huile neutre", "qty": 12, "unit": "cl", "item": "huile neutre" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "La base gede est la pâte d'épices balinaise : une trentaine d'ingrédients pilés, cuits longuement.", "en": "Base gede is the Balinese spice paste: some thirty ingredients pounded and cooked at length." },
+    { "fr": "Mixer tous les aromates et les frire VINGT MINUTES à feu doux, jusqu'à ce que l'huile se sépare.", "en": "Blend all the aromatics and fry them for TWENTY MINUTES over low heat, until the oil separates." },
+    { "fr": "Une base gede insuffisamment cuite laisse un goût d'échalote crue qui domine tout le plat.", "en": "An undercooked base gede leaves a raw shallot taste that dominates the whole dish." },
+    { "fr": "Frotter le poulet de pâte DEDANS ET DEHORS, y compris sous la peau, et le farcir d'épinards.", "en": "Rub the chicken with the paste INSIDE AND OUT, including under the skin, and stuff it with spinach." },
+    { "fr": "L'envelopper hermétiquement dans du papier cuisson puis de l'aluminium, en double couche.", "en": "Wrap it airtight in baking paper then foil, in a double layer." },
+    { "fr": "Cuire TROIS HEURES à 150 °C : la viande doit se détacher de l'os d'elle-même.", "en": "Bake for THREE HOURS at 150°C: the meat should fall from the bone on its own." }
+  ]
+}

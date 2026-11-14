@@ -1,0 +1,37 @@
+{
+  "slug": "alicha-wat",
+  "cuisine": "east-african",
+  "country": "ethiopie",
+  "origin": "Éthiopie",
+  "native_name": "Alicha wat",
+  "title": {
+    "fr": "Alicha wat, ragoût doux au curcuma",
+    "en": "Alicha wat, mild turmeric stew"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 100 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["doux", "curcuma", "enfants", "agneau"],
+  "ingredients": [
+    { "raw": "800 g d'épaule d'agneau, en cubes", "qty": 800, "unit": "g", "item": "épaule d'agneau", "prep": "en cubes" },
+    { "raw": "800 g d'oignons, hachés finement", "qty": 800, "unit": "g", "item": "oignon", "prep": "haché finement" },
+    { "raw": "100 g de niter kibbeh", "qty": 100, "unit": "g", "item": "beurre", "prep": "clarifié aux épices" },
+    { "raw": "1 c. à s. de curcuma", "qty": 1, "unit": "tbsp", "item": "curcuma" },
+    { "raw": "4 gousses d'ail, écrasées", "qty": 4, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 c. à s. de gingembre frais, râpé", "qty": 1, "unit": "tbsp", "item": "gingembre", "prep": "râpé" },
+    { "raw": "2 pommes de terre, en cubes", "qty": 2, "unit": "piece", "item": "pomme de terre", "prep": "en cubes" },
+    { "raw": "1 piment vert, fendu", "qty": 1, "unit": "piece", "item": "piment frais", "prep": "fendu", "optional": true },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire les oignons à sec trente minutes, jusqu'à ce qu'ils fondent sans colorer.", "en": "Cook the onions dry for thirty minutes, until they melt without colouring." },
+    { "fr": "L'alicha ne contient pas de berbéré : c'est le plat qu'on sert aux enfants et pendant le jeûne.", "en": "Alicha contains no berbere: it is the dish served to children and during fasting." },
+    { "fr": "Ajouter le niter kibbeh, l'ail, le gingembre et le curcuma, et cuire dix minutes.", "en": "Add the niter kibbeh, garlic, ginger and turmeric, and cook for ten minutes." },
+    { "fr": "Ajouter la viande, saler et mouiller à mi-hauteur, puis laisser une heure.", "en": "Add the meat, salt and add water halfway up, then cook for an hour." },
+    { "fr": "Ajouter les pommes de terre et le piment fendu pour les vingt dernières minutes.", "en": "Add the potatoes and split chilli for the last twenty minutes." },
+    { "fr": "La sauce doit rester jaune vif et épaisse. Servir sur injera.", "en": "The sauce should stay bright yellow and thick. Serve on injera." }
+  ]
+}

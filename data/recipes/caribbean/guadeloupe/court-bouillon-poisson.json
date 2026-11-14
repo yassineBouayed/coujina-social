@@ -1,0 +1,43 @@
+{
+  "slug": "court-bouillon-poisson",
+  "cuisine": "caribbean",
+  "country": "guadeloupe",
+  "origin": "Guadeloupe",
+  "native_name": "Court-bouillon de poisson",
+  "title": {
+    "fr": "Court-bouillon de poisson créole",
+    "en": "Creole fish court-bouillon"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 35 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["embleme", "poisson", "dimanche", "tomate"],
+  "ingredients": [
+    { "raw": "1,5 kg de vivaneau, en tronçons", "qty": 1500, "unit": "g", "item": "dorade", "prep": "en tronçons" },
+    { "raw": "6 citrons verts, leur jus", "qty": 6, "unit": "piece", "item": "citron vert" },
+    { "raw": "8 gousses d'ail, écrasées", "qty": 8, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "6 tomates, en dés", "qty": 6, "unit": "piece", "item": "tomate", "prep": "en dés" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "1 bouquet d'oignons nouveaux, émincés", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "émincé" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "1 piment végétarien", "qty": 1, "unit": "piece", "item": "piment végétarien" },
+    { "raw": "4 feuilles de bois d'Inde", "qty": 4, "unit": "piece", "item": "bois d'Inde" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "1/2 bouquet de thym frais", "qty": 0.5, "unit": "bunch", "item": "thym" },
+    { "raw": "10 cl d'huile neutre", "qty": 10, "unit": "cl", "item": "huile neutre" },
+    { "raw": "40 cl d'eau", "qty": 40, "unit": "cl", "item": "eau" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Ce court-bouillon n'a RIEN du court-bouillon français : c'est un poisson mijoté en sauce tomate.", "en": "This court-bouillon has NOTHING of the French one: it is fish stewed in a tomato sauce." },
+    { "fr": "Le mot désigne ici la cuisson courte, pas un bouillon aromatique dans lequel on poche.", "en": "The word here means the short cooking, not an aromatic liquid to poach in." },
+    { "fr": "CITRONNER le poisson vingt minutes avant, avec de l'ail écrasé : c'est le « lavé » créole.", "en": "LIME the fish twenty minutes ahead, with crushed garlic: the Creole \"washing\"." },
+    { "fr": "Le rincer ensuite : le citron a raffermi la chair et ôté l'odeur de vase.", "en": "Rinse it afterwards: the lime has firmed the flesh and removed any muddy smell." },
+    { "fr": "Faire la sauce d'abord, VINGT MINUTES, avant d'y déposer le poisson.", "en": "Make the sauce first, TWENTY MINUTES, before laying in the fish." },
+    { "fr": "Le poisson cuit QUINZE MINUTES et ne se retourne JAMAIS : secouer la cocotte, c'est tout.", "en": "The fish cooks FIFTEEN MINUTES and is NEVER turned: shake the pot, and nothing more." }
+  ]
+}

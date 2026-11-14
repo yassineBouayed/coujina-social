@@ -1,0 +1,1467 @@
+# Vérité du catalogue, cuisine « western-european ».
+#
+# Pour chaque ligne d'ingrédient, celui du référentiel qu'un relecteur
+# choisit, ou `-` quand le référentiel n'a rien à offrir.
+#
+# PASSE MODÈLE, pas humaine, et la circularité est ici maximale : les
+# recettes ont été écrites AVEC le référentiel sous les yeux, et les
+# ingrédients qui manquaient y ont été ajoutés dans la foulée. Le taux de
+# rattachement du champ `item` ne mesure donc presque rien sur ces cuisines.
+# Ce qui mesure quelque chose, c'est le témoin `raw`, que `catalog:gate`
+# donne en regard.
+#
+# Une ligne annotée ici n'a pas été relue par quelqu'un qui cuisine ces
+# plats. Le critère de sortie de J5 reste entier.
+recipe|line|item|expected_slug|note
+bienenstich|0|farine T45|farine-t45|
+bienenstich|1|lait entier|lait-entier|
+bienenstich|2|levure boulangère|levure-boulangere|
+bienenstich|3|sucre|sucre|
+bienenstich|4|beurre|beurre|
+bienenstich|5|oeuf|oeuf|
+bienenstich|6|amande effilée|amande-effilee|
+bienenstich|7|beurre|beurre|
+bienenstich|8|sucre|sucre|
+bienenstich|9|miel|miel|
+bienenstich|10|lait entier|lait-entier|
+bienenstich|11|oeuf|oeuf|
+bienenstich|12|maïzena|maizena|
+bienenstich|13|crème liquide|creme-liquide|
+bienenstich|14|sel|sel|
+brezel|0|farine T55|farine-t55|
+brezel|1|eau|eau|
+brezel|2|sel|sel|
+brezel|3|levure boulangère|levure-boulangere|
+brezel|4|beurre|beurre|
+brezel|5|sucre|sucre|
+brezel|6|bicarbonate de soude|bicarbonate|
+brezel|7|eau|eau|
+brezel|8|gros sel|gros-sel|
+currywurst|0|saucisse de Toulouse|saucisse-de-toulouse|
+currywurst|1|coulis de tomate|coulis-de-tomate|
+currywurst|2|concentré de tomate|concentre-de-tomate|
+currywurst|3|oignon|oignon|
+currywurst|4|poudre de curry|poudre-de-curry|
+currywurst|5|paprika|paprika|
+currywurst|6|vinaigre de vin|vinaigre-de-vin|
+currywurst|7|sucre roux|sucre-roux|
+currywurst|8|huile neutre|huile-neutre|
+currywurst|9|sel|sel|
+currywurst|10|poivre noir|poivre-noir|
+himmel-und-erde|0|pomme de terre|pomme-de-terre|
+himmel-und-erde|1|pomme|pomme|
+himmel-und-erde|2|boudin noir|boudin-noir|
+himmel-und-erde|3|oignon|oignon|
+himmel-und-erde|4|beurre|beurre|
+himmel-und-erde|5|lait entier|lait-entier|
+himmel-und-erde|6|vinaigre de vin|vinaigre-de-vin|
+himmel-und-erde|7|sucre|sucre|
+himmel-und-erde|8|sel|sel|
+himmel-und-erde|9|poivre noir|poivre-noir|
+jagerschnitzel|0|échine de porc|echine-de-porc|
+jagerschnitzel|1|champignon de Paris|champignon-de-paris|
+jagerschnitzel|2|oignon|oignon|
+jagerschnitzel|3|crème liquide|creme-liquide|
+jagerschnitzel|4|bouillon boeuf|bouillon-boeuf|
+jagerschnitzel|5|vin blanc|vin-blanc|
+jagerschnitzel|6|farine de blé|farine-de-ble|
+jagerschnitzel|7|beurre|beurre|
+jagerschnitzel|8|persil plat|persil-plat|
+jagerschnitzel|9|sel|sel|
+jagerschnitzel|10|poivre noir|poivre-noir|
+kartoffelpuffer|0|pomme de terre|pomme-de-terre|
+kartoffelpuffer|1|oignon|oignon|
+kartoffelpuffer|2|oeuf|oeuf|
+kartoffelpuffer|3|farine de blé|farine-de-ble|
+kartoffelpuffer|4|huile neutre|huile-neutre|
+kartoffelpuffer|5|compote de pomme|compote-de-pomme|
+kartoffelpuffer|6|muscade|muscade|
+kartoffelpuffer|7|sel|sel|
+kartoffelpuffer|8|poivre noir|poivre-noir|
+kartoffelsalat|0|pomme de terre|pomme-de-terre|
+kartoffelsalat|1|bouillon boeuf|bouillon-boeuf|
+kartoffelsalat|2|oignon|oignon|
+kartoffelsalat|3|vinaigre de vin|vinaigre-de-vin|
+kartoffelsalat|4|huile neutre|huile-neutre|
+kartoffelsalat|5|moutarde|moutarde|
+kartoffelsalat|6|lardon|lardon|
+kartoffelsalat|7|ciboulette|ciboulette|
+kartoffelsalat|8|sel|sel|
+kartoffelsalat|9|poivre noir|poivre-noir|
+kartoffelsuppe|0|pomme de terre|pomme-de-terre|
+kartoffelsuppe|1|carotte|carotte|
+kartoffelsuppe|2|poireau|poireau|
+kartoffelsuppe|3|céleri-rave|celeri-rave|
+kartoffelsuppe|4|oignon|oignon|
+kartoffelsuppe|5|lardon|lardon|
+kartoffelsuppe|6|bouillon boeuf|bouillon-boeuf|
+kartoffelsuppe|7|crème liquide|creme-liquide|
+kartoffelsuppe|8|marjolaine|marjolaine|
+kartoffelsuppe|9|saucisse fumée|saucisse-fumee|
+kartoffelsuppe|10|sel|sel|
+kartoffelsuppe|11|poivre noir|poivre-noir|
+kasekuchen|0|farine de blé|farine-de-ble|
+kasekuchen|1|beurre|beurre|
+kasekuchen|2|sucre|sucre|
+kasekuchen|3|oeuf|oeuf|
+kasekuchen|4|fromage blanc|fromage-blanc|
+kasekuchen|5|oeuf|oeuf|
+kasekuchen|6|sucre|sucre|
+kasekuchen|7|maïzena|maizena|
+kasekuchen|8|citron|citron|
+kasekuchen|9|beurre|beurre|
+kasekuchen|10|sel|sel|
+kasespatzle|0|farine de blé|farine-de-ble|
+kasespatzle|1|oeuf|oeuf|
+kasespatzle|2|eau|eau|
+kasespatzle|3|emmental|emmental|
+kasespatzle|4|oignon|oignon|
+kasespatzle|5|beurre|beurre|
+kasespatzle|6|muscade|muscade|
+kasespatzle|7|ciboulette|ciboulette|
+kasespatzle|8|sel|sel|
+kasespatzle|9|poivre noir|poivre-noir|
+konigsberger-klopse|0|veau haché|veau-hache|
+konigsberger-klopse|1|porc haché|porc-hache|
+konigsberger-klopse|2|anchois|anchois|
+konigsberger-klopse|3|pain|pain|
+konigsberger-klopse|4|lait entier|lait-entier|
+konigsberger-klopse|5|oignon|oignon|
+konigsberger-klopse|6|oeuf|oeuf|
+konigsberger-klopse|7|bouillon volaille|bouillon-volaille|
+konigsberger-klopse|8|câpre|capre|
+konigsberger-klopse|9|beurre|beurre|
+konigsberger-klopse|10|farine de blé|farine-de-ble|
+konigsberger-klopse|11|crème liquide|creme-liquide|
+konigsberger-klopse|12|citron|citron|
+konigsberger-klopse|13|sel|sel|
+konigsberger-klopse|14|poivre blanc|poivre-blanc|
+linseneintopf|0|lentille verte|lentille-verte|
+linseneintopf|1|saucisse fumée|saucisse-fumee|
+linseneintopf|2|lardon|lardon|
+linseneintopf|3|carotte|carotte|
+linseneintopf|4|céleri branche|celeri-branche|
+linseneintopf|5|oignon|oignon|
+linseneintopf|6|pomme de terre|pomme-de-terre|
+linseneintopf|7|bouillon boeuf|bouillon-boeuf|
+linseneintopf|8|vinaigre de vin|vinaigre-de-vin|
+linseneintopf|9|laurier|laurier|
+linseneintopf|10|moutarde|moutarde|
+linseneintopf|11|sel|sel|
+linseneintopf|12|poivre noir|poivre-noir|
+maultaschen|0|farine de blé|farine-de-ble|
+maultaschen|1|oeuf|oeuf|
+maultaschen|2|huile neutre|huile-neutre|
+maultaschen|3|épinard|epinard|
+maultaschen|4|porc haché|porc-hache|
+maultaschen|5|veau haché|veau-hache|
+maultaschen|6|pain|pain|
+maultaschen|7|oignon|oignon|
+maultaschen|8|persil plat|persil-plat|
+maultaschen|9|bouillon boeuf|bouillon-boeuf|
+maultaschen|10|muscade|muscade|
+maultaschen|11|sel|sel|
+maultaschen|12|poivre noir|poivre-noir|
+rinderrouladen|0|boeuf à mijoter|boeuf-a-mijoter|
+rinderrouladen|1|moutarde|moutarde|
+rinderrouladen|2|lardon|lardon|
+rinderrouladen|3|cornichon|cornichon|
+rinderrouladen|4|oignon|oignon|
+rinderrouladen|5|carotte|carotte|
+rinderrouladen|6|bouillon boeuf|bouillon-boeuf|
+rinderrouladen|7|vin rouge|vin-rouge|
+rinderrouladen|8|farine de blé|farine-de-ble|
+rinderrouladen|9|saindoux|saindoux|
+rinderrouladen|10|laurier|laurier|
+rinderrouladen|11|sel|sel|
+rinderrouladen|12|poivre noir|poivre-noir|
+roggenbrot|0|farine de seigle|farine-de-seigle|
+roggenbrot|1|farine T55|farine-t55|
+roggenbrot|2|levain|levain|
+roggenbrot|3|eau|eau|
+roggenbrot|4|sel|sel|
+roggenbrot|5|carvi|carvi|
+roggenbrot|6|graine de coriandre|coriandre-graines|
+rotkohl|0|chou rouge|chou-rouge|
+rotkohl|1|pomme|pomme|
+rotkohl|2|oignon|oignon|
+rotkohl|3|vinaigre de vin|vinaigre-de-vin|
+rotkohl|4|vin rouge|vin-rouge|
+rotkohl|5|sucre roux|sucre-roux|
+rotkohl|6|baie de genièvre|baie-de-genievre|
+rotkohl|7|clou de girofle|clou-de-girofle|
+rotkohl|8|laurier|laurier|
+rotkohl|9|saindoux|saindoux|
+rotkohl|10|sel|sel|
+rotkohl|11|poivre noir|poivre-noir|
+sauerbraten|0|boeuf à mijoter|boeuf-a-mijoter|
+sauerbraten|1|vinaigre de vin|vinaigre-de-vin|
+sauerbraten|2|vin rouge|vin-rouge|
+sauerbraten|3|oignon|oignon|
+sauerbraten|4|carotte|carotte|
+sauerbraten|5|baie de genièvre|baie-de-genievre|
+sauerbraten|6|clou de girofle|clou-de-girofle|
+sauerbraten|7|laurier|laurier|
+sauerbraten|8|pain d'épices|pain-d-epices|
+sauerbraten|9|raisin sec|raisin-sec|
+sauerbraten|10|saindoux|saindoux|
+sauerbraten|11|sel|sel|
+sauerbraten|12|poivre noir|poivre-noir|
+schwarzwalder-kirschtorte|0|oeuf|oeuf|
+schwarzwalder-kirschtorte|1|sucre|sucre|
+schwarzwalder-kirschtorte|2|farine de blé|farine-de-ble|
+schwarzwalder-kirschtorte|3|cacao en poudre|cacao-en-poudre|
+schwarzwalder-kirschtorte|4|beurre|beurre|
+schwarzwalder-kirschtorte|5|griotte|griotte|
+schwarzwalder-kirschtorte|6|sucre|sucre|
+schwarzwalder-kirschtorte|7|maïzena|maizena|
+schwarzwalder-kirschtorte|8|crème liquide|creme-liquide|
+schwarzwalder-kirschtorte|9|sucre glace|sucre-glace|
+schwarzwalder-kirschtorte|10|chocolat noir|chocolat-noir|
+schwarzwalder-kirschtorte|11|sel|sel|
+schweinshaxe|0|jarret de porc|jarret-de-porc|
+schweinshaxe|1|bière|biere|
+schweinshaxe|2|oignon|oignon|
+schweinshaxe|3|carotte|carotte|
+schweinshaxe|4|carvi|carvi|
+schweinshaxe|5|ail|ail|
+schweinshaxe|6|gros sel|gros-sel|
+schweinshaxe|7|laurier|laurier|
+schweinshaxe|8|poivre noir|poivre-noir|
+stollen|0|farine T45|farine-t45|
+stollen|1|lait entier|lait-entier|
+stollen|2|levure boulangère|levure-boulangere|
+stollen|3|beurre|beurre|
+stollen|4|sucre|sucre|
+stollen|5|raisin sec|raisin-sec|
+stollen|6|fruit confit|fruit-confit|
+stollen|7|amande|amande|
+stollen|8|orange|orange|
+stollen|9|cannelle|cannelle|
+stollen|10|cardamome|cardamome|
+stollen|11|beurre|beurre|
+stollen|12|sucre glace|sucre-glace|
+stollen|13|sel|sel|
+apfelstrudel|0|farine de blé|farine-de-ble|
+apfelstrudel|1|eau|eau|
+apfelstrudel|2|huile neutre|huile-neutre|
+apfelstrudel|3|vinaigre de vin|vinaigre-de-vin|
+apfelstrudel|4|pomme|pomme|
+apfelstrudel|5|sucre|sucre|
+apfelstrudel|6|raisin sec|raisin-sec|
+apfelstrudel|7|panko|panko|
+apfelstrudel|8|cannelle|cannelle|
+apfelstrudel|9|citron|citron|
+apfelstrudel|10|beurre|beurre|
+apfelstrudel|11|sel|sel|
+backhendl|0|poulet entier|poulet-entier|
+backhendl|1|farine de blé|farine-de-ble|
+backhendl|2|oeuf|oeuf|
+backhendl|3|panko|panko|
+backhendl|4|huile neutre|huile-neutre|
+backhendl|5|citron|citron|
+backhendl|6|persil plat|persil-plat|
+backhendl|7|sel|sel|
+backhendl|8|poivre noir|poivre-noir|
+buchteln|0|farine T45|farine-t45|
+buchteln|1|lait entier|lait-entier|
+buchteln|2|levure boulangère|levure-boulangere|
+buchteln|3|beurre|beurre|
+buchteln|4|sucre|sucre|
+buchteln|5|oeuf|oeuf|
+buchteln|6|confiture|confiture|
+buchteln|7|beurre|beurre|
+buchteln|8|citron|citron|
+buchteln|9|sucre glace|sucre-glace|
+buchteln|10|sel|sel|
+erdapfelsalat|0|pomme de terre|pomme-de-terre|
+erdapfelsalat|1|bouillon boeuf|bouillon-boeuf|
+erdapfelsalat|2|oignon rouge|oignon-rouge|
+erdapfelsalat|3|vinaigre de vin|vinaigre-de-vin|
+erdapfelsalat|4|huile neutre|huile-neutre|
+erdapfelsalat|5|moutarde|moutarde|
+erdapfelsalat|6|ciboulette|ciboulette|
+erdapfelsalat|7|sucre|sucre|
+erdapfelsalat|8|sel|sel|
+erdapfelsalat|9|poivre noir|poivre-noir|
+esterhazy-torte|0|oeuf|oeuf|
+esterhazy-torte|1|sucre|sucre|
+esterhazy-torte|2|poudre d'amande|poudre-d-amande|
+esterhazy-torte|3|farine de blé|farine-de-ble|
+esterhazy-torte|4|lait entier|lait-entier|
+esterhazy-torte|5|oeuf|oeuf|
+esterhazy-torte|6|sucre|sucre|
+esterhazy-torte|7|maïzena|maizena|
+esterhazy-torte|8|beurre|beurre|
+esterhazy-torte|9|sucre glace|sucre-glace|
+esterhazy-torte|10|chocolat noir|chocolat-noir|
+esterhazy-torte|11|amande effilée|amande-effilee|
+esterhazy-torte|12|sel|sel|
+frittatensuppe|0|bouillon boeuf|bouillon-boeuf|
+frittatensuppe|1|farine de blé|farine-de-ble|
+frittatensuppe|2|lait entier|lait-entier|
+frittatensuppe|3|oeuf|oeuf|
+frittatensuppe|4|beurre|beurre|
+frittatensuppe|5|ciboulette|ciboulette|
+frittatensuppe|6|persil plat|persil-plat|
+frittatensuppe|7|muscade|muscade|
+frittatensuppe|8|sel|sel|
+frittatensuppe|9|poivre noir|poivre-noir|
+gulasch-viennois|0|boeuf à mijoter|boeuf-a-mijoter|
+gulasch-viennois|1|oignon|oignon|
+gulasch-viennois|2|paprika|paprika|
+gulasch-viennois|3|paprika fumé|paprika-fume|
+gulasch-viennois|4|concentré de tomate|concentre-de-tomate|
+gulasch-viennois|5|vinaigre de vin|vinaigre-de-vin|
+gulasch-viennois|6|carvi|carvi|
+gulasch-viennois|7|marjolaine|marjolaine|
+gulasch-viennois|8|ail|ail|
+gulasch-viennois|9|citron|citron|
+gulasch-viennois|10|saindoux|saindoux|
+gulasch-viennois|11|bouillon boeuf|bouillon-boeuf|
+gulasch-viennois|12|sel|sel|
+gulasch-viennois|13|poivre noir|poivre-noir|
+kaiserschmarrn|0|farine de blé|farine-de-ble|
+kaiserschmarrn|1|lait entier|lait-entier|
+kaiserschmarrn|2|oeuf|oeuf|
+kaiserschmarrn|3|sucre|sucre|
+kaiserschmarrn|4|raisin sec|raisin-sec|
+kaiserschmarrn|5|beurre|beurre|
+kaiserschmarrn|6|gousse de vanille|gousse-de-vanille|
+kaiserschmarrn|7|sucre glace|sucre-glace|
+kaiserschmarrn|8|compote de pomme|compote-de-pomme|
+kaiserschmarrn|9|sel|sel|
+kartoffelgulasch|0|pomme de terre|pomme-de-terre|
+kartoffelgulasch|1|oignon|oignon|
+kartoffelgulasch|2|saucisse fumée|saucisse-fumee|
+kartoffelgulasch|3|paprika|paprika|
+kartoffelgulasch|4|poivron rouge|poivron-rouge|
+kartoffelgulasch|5|concentré de tomate|concentre-de-tomate|
+kartoffelgulasch|6|vinaigre de vin|vinaigre-de-vin|
+kartoffelgulasch|7|carvi|carvi|
+kartoffelgulasch|8|marjolaine|marjolaine|
+kartoffelgulasch|9|saindoux|saindoux|
+kartoffelgulasch|10|bouillon boeuf|bouillon-boeuf|
+kartoffelgulasch|11|sel|sel|
+kartoffelgulasch|12|poivre noir|poivre-noir|
+knodel-de-pain|0|pain|pain|
+knodel-de-pain|1|lait entier|lait-entier|
+knodel-de-pain|2|oeuf|oeuf|
+knodel-de-pain|3|oignon|oignon|
+knodel-de-pain|4|persil plat|persil-plat|
+knodel-de-pain|5|beurre|beurre|
+knodel-de-pain|6|farine de blé|farine-de-ble|
+knodel-de-pain|7|muscade|muscade|
+knodel-de-pain|8|sel|sel|
+knodel-de-pain|9|poivre noir|poivre-noir|
+linzer-torte|0|farine de blé|farine-de-ble|
+linzer-torte|1|noisette|noisette|
+linzer-torte|2|beurre|beurre|
+linzer-torte|3|sucre|sucre|
+linzer-torte|4|oeuf|oeuf|
+linzer-torte|5|cannelle|cannelle|
+linzer-torte|6|clou de girofle|clou-de-girofle|
+linzer-torte|7|citron|citron|
+linzer-torte|8|confiture|confiture|
+linzer-torte|9|oeuf|oeuf|
+linzer-torte|10|sel|sel|
+liptauer|0|fromage blanc|fromage-blanc|
+liptauer|1|beurre|beurre|
+liptauer|2|paprika|paprika|
+liptauer|3|câpre|capre|
+liptauer|4|anchois|anchois|
+liptauer|5|oignon|oignon|
+liptauer|6|moutarde|moutarde|
+liptauer|7|carvi|carvi|
+liptauer|8|ciboulette|ciboulette|
+liptauer|9|sel|sel|
+liptauer|10|poivre noir|poivre-noir|
+marillenknodel|0|abricot|abricot|
+marillenknodel|1|pomme de terre|pomme-de-terre|
+marillenknodel|2|farine de blé|farine-de-ble|
+marillenknodel|3|semoule fine|semoule-fine|
+marillenknodel|4|oeuf|oeuf|
+marillenknodel|5|beurre|beurre|
+marillenknodel|6|sucre|sucre|
+marillenknodel|7|panko|panko|
+marillenknodel|8|beurre|beurre|
+marillenknodel|9|sucre glace|sucre-glace|
+marillenknodel|10|sel|sel|
+melange-viennois|0|café|cafe|
+melange-viennois|1|lait entier|lait-entier|
+melange-viennois|2|sucre|sucre|
+melange-viennois|3|cacao en poudre|cacao-en-poudre|
+sachertorte|0|chocolat noir|chocolat-noir|
+sachertorte|1|beurre|beurre|
+sachertorte|2|sucre glace|sucre-glace|
+sachertorte|3|oeuf|oeuf|
+sachertorte|4|farine de blé|farine-de-ble|
+sachertorte|5|sucre|sucre|
+sachertorte|6|confiture d'abricot|confiture-d-abricot|
+sachertorte|7|chocolat noir|chocolat-noir|
+sachertorte|8|sucre|sucre|
+sachertorte|9|eau|eau|
+sachertorte|10|crème liquide|creme-liquide|
+sachertorte|11|sel|sel|
+salzburger-nockerl|0|oeuf|oeuf|
+salzburger-nockerl|1|oeuf|oeuf|
+salzburger-nockerl|2|sucre|sucre|
+salzburger-nockerl|3|farine de blé|farine-de-ble|
+salzburger-nockerl|4|citron|citron|
+salzburger-nockerl|5|gousse de vanille|gousse-de-vanille|
+salzburger-nockerl|6|lait entier|lait-entier|
+salzburger-nockerl|7|beurre|beurre|
+salzburger-nockerl|8|confiture|confiture|
+salzburger-nockerl|9|sucre glace|sucre-glace|
+salzburger-nockerl|10|sel|sel|
+schweinsbraten|0|échine de porc|echine-de-porc|
+schweinsbraten|1|bière|biere|
+schweinsbraten|2|carvi|carvi|
+schweinsbraten|3|ail|ail|
+schweinsbraten|4|oignon|oignon|
+schweinsbraten|5|carotte|carotte|
+schweinsbraten|6|bouillon boeuf|bouillon-boeuf|
+schweinsbraten|7|gros sel|gros-sel|
+schweinsbraten|8|laurier|laurier|
+schweinsbraten|9|poivre noir|poivre-noir|
+tafelspitz|0|boeuf à mijoter|boeuf-a-mijoter|
+tafelspitz|1|os à moelle|os-a-moelle|
+tafelspitz|2|carotte|carotte|
+tafelspitz|3|céleri-rave|celeri-rave|
+tafelspitz|4|poireau|poireau|
+tafelspitz|5|oignon|oignon|
+tafelspitz|6|ciboulette|ciboulette|
+tafelspitz|7|raifort|raifort|
+tafelspitz|8|crème fraîche|creme-fraiche|
+tafelspitz|9|pomme de terre|pomme-de-terre|
+tafelspitz|10|poivre noir|poivre-noir|
+tafelspitz|11|sel|sel|
+topfenstrudel|0|pâte filo|pate-filo|
+topfenstrudel|1|fromage blanc|fromage-blanc|
+topfenstrudel|2|oeuf|oeuf|
+topfenstrudel|3|sucre|sucre|
+topfenstrudel|4|beurre|beurre|
+topfenstrudel|5|semoule fine|semoule-fine|
+topfenstrudel|6|raisin sec|raisin-sec|
+topfenstrudel|7|citron|citron|
+topfenstrudel|8|gousse de vanille|gousse-de-vanille|
+topfenstrudel|9|beurre|beurre|
+topfenstrudel|10|sucre glace|sucre-glace|
+topfenstrudel|11|sel|sel|
+wiener-schnitzel|0|veau|veau|
+wiener-schnitzel|1|farine de blé|farine-de-ble|
+wiener-schnitzel|2|oeuf|oeuf|
+wiener-schnitzel|3|panko|panko|
+wiener-schnitzel|4|saindoux|saindoux|
+wiener-schnitzel|5|citron|citron|
+wiener-schnitzel|6|crème liquide|creme-liquide|
+wiener-schnitzel|7|sel|sel|
+wiener-schnitzel|8|poivre noir|poivre-noir|
+anguilles-au-vert|0|anguille|anguille|
+anguilles-au-vert|1|épinard|epinard|
+anguilles-au-vert|2|oseille|oseille|
+anguilles-au-vert|3|persil plat|persil-plat|
+anguilles-au-vert|4|cerfeuil|cerfeuil|
+anguilles-au-vert|5|estragon|estragon|
+anguilles-au-vert|6|menthe|menthe-fraiche|
+anguilles-au-vert|7|vin blanc|vin-blanc|
+anguilles-au-vert|8|échalote|echalote|
+anguilles-au-vert|9|oeuf|oeuf|
+anguilles-au-vert|10|beurre|beurre|
+anguilles-au-vert|11|citron|citron|
+anguilles-au-vert|12|sel|sel|
+anguilles-au-vert|13|poivre noir|poivre-noir|
+boulets-liegeois|0|boeuf haché|boeuf-hache|
+boulets-liegeois|1|porc haché|porc-hache|
+boulets-liegeois|2|pain|pain|
+boulets-liegeois|3|lait entier|lait-entier|
+boulets-liegeois|4|oeuf|oeuf|
+boulets-liegeois|5|oignon|oignon|
+boulets-liegeois|6|sirop de Liège|sirop-de-liege|
+boulets-liegeois|7|vinaigre de vin|vinaigre-de-vin|
+boulets-liegeois|8|oignon|oignon|
+boulets-liegeois|9|bouillon boeuf|bouillon-boeuf|
+boulets-liegeois|10|laurier|laurier|
+boulets-liegeois|11|beurre|beurre|
+boulets-liegeois|12|sel|sel|
+boulets-liegeois|13|poivre noir|poivre-noir|
+carbonnade-flamande|0|boeuf à mijoter|boeuf-a-mijoter|
+carbonnade-flamande|1|bière|biere|
+carbonnade-flamande|2|oignon|oignon|
+carbonnade-flamande|3|pain|pain|
+carbonnade-flamande|4|moutarde|moutarde|
+carbonnade-flamande|5|sucre roux|sucre-roux|
+carbonnade-flamande|6|vinaigre de vin|vinaigre-de-vin|
+carbonnade-flamande|7|laurier|laurier|
+carbonnade-flamande|8|thym|thym-seche|
+carbonnade-flamande|9|beurre|beurre|
+carbonnade-flamande|10|sel|sel|
+carbonnade-flamande|11|poivre noir|poivre-noir|
+chicons-au-gratin|0|endive|endive|
+chicons-au-gratin|1|jambon blanc|jambon-blanc|
+chicons-au-gratin|2|beurre|beurre|
+chicons-au-gratin|3|farine de blé|farine-de-ble|
+chicons-au-gratin|4|lait entier|lait-entier|
+chicons-au-gratin|5|emmental|emmental|
+chicons-au-gratin|6|sucre|sucre|
+chicons-au-gratin|7|citron|citron|
+chicons-au-gratin|8|muscade|muscade|
+chicons-au-gratin|9|sel|sel|
+chicons-au-gratin|10|poivre noir|poivre-noir|
+couque-de-dinant|0|farine de blé|farine-de-ble|
+couque-de-dinant|1|miel|miel|
+cramique|0|farine T45|farine-t45|
+cramique|1|lait entier|lait-entier|
+cramique|2|levure boulangère|levure-boulangere|
+cramique|3|beurre|beurre|
+cramique|4|oeuf|oeuf|
+cramique|5|sucre|sucre|
+cramique|6|raisin sec|raisin-sec|
+cramique|7|oeuf|oeuf|
+cramique|8|sel|sel|
+croquettes-aux-crevettes|0|crevette|crevette|
+croquettes-aux-crevettes|1|beurre|beurre|
+croquettes-aux-crevettes|2|farine de blé|farine-de-ble|
+croquettes-aux-crevettes|3|lait entier|lait-entier|
+croquettes-aux-crevettes|4|oeuf|oeuf|
+croquettes-aux-crevettes|5|gelatine|gelatine|
+croquettes-aux-crevettes|6|oeuf|oeuf|
+croquettes-aux-crevettes|7|panko|panko|
+croquettes-aux-crevettes|8|farine de blé|farine-de-ble|
+croquettes-aux-crevettes|9|huile neutre|huile-neutre|
+croquettes-aux-crevettes|10|citron|citron|
+croquettes-aux-crevettes|11|muscade|muscade|
+croquettes-aux-crevettes|12|sel|sel|
+croquettes-aux-crevettes|13|poivre blanc|poivre-blanc|
+filet-americain|0|filet de boeuf|filet-de-boeuf|
+filet-americain|1|mayonnaise|mayonnaise|
+filet-americain|2|moutarde|moutarde|
+filet-americain|3|câpre|capre|
+filet-americain|4|cornichon|cornichon|
+filet-americain|5|échalote|echalote|
+filet-americain|6|persil plat|persil-plat|
+filet-americain|7|sauce Worcestershire|sauce-worcestershire|
+filet-americain|8|piment de Cayenne|piment-de-cayenne|
+filet-americain|9|citron|citron|
+filet-americain|10|sel|sel|
+filet-americain|11|poivre noir|poivre-noir|
+gaufres-de-bruxelles|0|farine de blé|farine-de-ble|
+gaufres-de-bruxelles|1|lait entier|lait-entier|
+gaufres-de-bruxelles|2|oeuf|oeuf|
+gaufres-de-bruxelles|3|beurre|beurre|
+gaufres-de-bruxelles|4|levure boulangère|levure-boulangere|
+gaufres-de-bruxelles|5|sucre|sucre|
+gaufres-de-bruxelles|6|extrait de vanille|extrait-de-vanille|
+gaufres-de-bruxelles|7|sel|sel|
+gaufres-de-bruxelles|8|sucre glace|sucre-glace|
+gaufres-de-liege|0|farine T45|farine-t45|
+gaufres-de-liege|1|lait entier|lait-entier|
+gaufres-de-liege|2|levure boulangère|levure-boulangere|
+gaufres-de-liege|3|beurre|beurre|
+gaufres-de-liege|4|oeuf|oeuf|
+gaufres-de-liege|5|sucre perlé|sucre-perle|
+gaufres-de-liege|6|extrait de vanille|extrait-de-vanille|
+gaufres-de-liege|7|sel|sel|
+lait-russe|0|café|cafe|
+lait-russe|1|lait entier|lait-entier|
+lait-russe|2|sucre|sucre|
+lait-russe|3|biscuit sec|biscuit-sec|
+moules-frites|0|moule|moule|
+moules-frites|1|pomme de terre|pomme-de-terre|
+moules-frites|2|céleri branche|celeri-branche|
+moules-frites|3|oignon|oignon|
+moules-frites|4|échalote|echalote|
+moules-frites|5|bière|biere|
+moules-frites|6|beurre|beurre|
+moules-frites|7|persil plat|persil-plat|
+moules-frites|8|huile neutre|huile-neutre|
+moules-frites|9|mayonnaise|mayonnaise|
+moules-frites|10|laurier|laurier|
+moules-frites|11|poivre noir|poivre-noir|
+mousse-au-chocolat-belge|0|chocolat noir|chocolat-noir|
+mousse-au-chocolat-belge|1|oeuf|oeuf|
+mousse-au-chocolat-belge|2|crème liquide|creme-liquide|
+mousse-au-chocolat-belge|3|sucre|sucre|
+mousse-au-chocolat-belge|4|beurre|beurre|
+mousse-au-chocolat-belge|5|sel|sel|
+pain-a-la-grecque|0|farine T45|farine-t45|
+pain-a-la-grecque|1|lait entier|lait-entier|
+pain-a-la-grecque|2|levure boulangère|levure-boulangere|
+pain-a-la-grecque|3|beurre|beurre|
+pain-a-la-grecque|4|oeuf|oeuf|
+pain-a-la-grecque|5|sucre perlé|sucre-perle|
+pain-a-la-grecque|6|cannelle|cannelle|
+pain-a-la-grecque|7|sel|sel|
+salade-liegeoise|0|haricot vert|haricot-vert|
+salade-liegeoise|1|pomme de terre|pomme-de-terre|
+salade-liegeoise|2|lardon|lardon|
+salade-liegeoise|3|oignon|oignon|
+salade-liegeoise|4|vinaigre de vin|vinaigre-de-vin|
+salade-liegeoise|5|ail|ail|
+salade-liegeoise|6|persil plat|persil-plat|
+salade-liegeoise|7|sel|sel|
+salade-liegeoise|8|poivre noir|poivre-noir|
+soupe-aux-poireaux-belge|0|poireau|poireau|
+soupe-aux-poireaux-belge|1|pomme de terre|pomme-de-terre|
+soupe-aux-poireaux-belge|2|oignon|oignon|
+soupe-aux-poireaux-belge|3|bouillon volaille|bouillon-volaille|
+soupe-aux-poireaux-belge|4|emmental|emmental|
+soupe-aux-poireaux-belge|5|crème liquide|creme-liquide|
+soupe-aux-poireaux-belge|6|beurre|beurre|
+soupe-aux-poireaux-belge|7|muscade|muscade|
+soupe-aux-poireaux-belge|8|laurier|laurier|
+soupe-aux-poireaux-belge|9|sel|sel|
+soupe-aux-poireaux-belge|10|poivre noir|poivre-noir|
+speculoos|0|farine de blé|farine-de-ble|
+speculoos|1|sucre roux|sucre-roux|
+speculoos|2|beurre|beurre|
+speculoos|3|oeuf|oeuf|
+speculoos|4|cannelle|cannelle|
+speculoos|5|gingembre moulu|gingembre-moulu|
+speculoos|6|clou de girofle|clou-de-girofle|
+speculoos|7|cardamome|cardamome|
+speculoos|8|bicarbonate de soude|bicarbonate|
+speculoos|9|sel|sel|
+stoemp|0|pomme de terre|pomme-de-terre|
+stoemp|1|carotte|carotte|
+stoemp|2|poireau|poireau|
+stoemp|3|oignon|oignon|
+stoemp|4|lardon|lardon|
+stoemp|5|beurre|beurre|
+stoemp|6|crème liquide|creme-liquide|
+stoemp|7|laurier|laurier|
+stoemp|8|muscade|muscade|
+stoemp|9|sel|sel|
+stoemp|10|poivre noir|poivre-noir|
+tarte-au-riz-verviers|0|farine T45|farine-t45|
+tarte-au-riz-verviers|1|lait entier|lait-entier|
+tarte-au-riz-verviers|2|levure boulangère|levure-boulangere|
+tarte-au-riz-verviers|3|beurre|beurre|
+tarte-au-riz-verviers|4|oeuf|oeuf|
+tarte-au-riz-verviers|5|riz rond|riz-rond|
+tarte-au-riz-verviers|6|lait entier|lait-entier|
+tarte-au-riz-verviers|7|sucre|sucre|
+tarte-au-riz-verviers|8|oeuf|oeuf|
+tarte-au-riz-verviers|9|gousse de vanille|gousse-de-vanille|
+tarte-au-riz-verviers|10|sel|sel|
+waterzooi|0|poulet entier|poulet-entier|
+waterzooi|1|carotte|carotte|
+waterzooi|2|poireau|poireau|
+waterzooi|3|céleri branche|celeri-branche|
+waterzooi|4|céleri-rave|celeri-rave|
+waterzooi|5|pomme de terre|pomme-de-terre|
+waterzooi|6|crème liquide|creme-liquide|
+waterzooi|7|oeuf|oeuf|
+waterzooi|8|beurre|beurre|
+waterzooi|9|bouquet garni|bouquet-garni|
+waterzooi|10|persil plat|persil-plat|
+waterzooi|11|citron|citron|
+waterzooi|12|sel|sel|
+waterzooi|13|poivre blanc|poivre-blanc|
+apple-tart-irlandaise|0|farine de blé|farine-de-ble|
+apple-tart-irlandaise|1|beurre|beurre|
+apple-tart-irlandaise|2|sucre|sucre|
+apple-tart-irlandaise|3|oeuf|oeuf|
+apple-tart-irlandaise|4|pomme|pomme|
+apple-tart-irlandaise|5|sucre|sucre|
+apple-tart-irlandaise|6|cannelle|cannelle|
+apple-tart-irlandaise|7|clou de girofle|clou-de-girofle|
+apple-tart-irlandaise|8|citron|citron|
+apple-tart-irlandaise|9|oeuf|oeuf|
+apple-tart-irlandaise|10|sel|sel|
+bacon-and-cabbage|0|échine de porc|echine-de-porc|
+bacon-and-cabbage|1|chou vert|chou-vert|
+bacon-and-cabbage|2|pomme de terre|pomme-de-terre|
+bacon-and-cabbage|3|carotte|carotte|
+bacon-and-cabbage|4|oignon|oignon|
+bacon-and-cabbage|5|beurre|beurre|
+bacon-and-cabbage|6|farine de blé|farine-de-ble|
+bacon-and-cabbage|7|lait entier|lait-entier|
+bacon-and-cabbage|8|moutarde|moutarde|
+bacon-and-cabbage|9|laurier|laurier|
+bacon-and-cabbage|10|poivre noir|poivre-noir|
+barmbrack|0|raisin sec|raisin-sec|
+barmbrack|1|thé noir|the-noir|
+barmbrack|2|sucre roux|sucre-roux|
+barmbrack|3|farine de blé|farine-de-ble|
+barmbrack|4|oeuf|oeuf|
+barmbrack|5|levure chimique|levure-chimique|
+barmbrack|6|cannelle|cannelle|
+barmbrack|7|orange|orange|
+barmbrack|8|sel|sel|
+beef-and-guinness-stew|0|boeuf à mijoter|boeuf-a-mijoter|
+beef-and-guinness-stew|1|bière|biere|
+beef-and-guinness-stew|2|carotte|carotte|
+beef-and-guinness-stew|3|oignon|oignon|
+beef-and-guinness-stew|4|pomme de terre|pomme-de-terre|
+beef-and-guinness-stew|5|concentré de tomate|concentre-de-tomate|
+beef-and-guinness-stew|6|farine de blé|farine-de-ble|
+beef-and-guinness-stew|7|bouillon boeuf|bouillon-boeuf|
+beef-and-guinness-stew|8|sucre roux|sucre-roux|
+beef-and-guinness-stew|9|thym|thym-seche|
+beef-and-guinness-stew|10|laurier|laurier|
+beef-and-guinness-stew|11|sel|sel|
+beef-and-guinness-stew|12|poivre noir|poivre-noir|
+beurre-irlandais-a-l-ail|0|pain|pain|
+beurre-irlandais-a-l-ail|1|beurre|beurre|
+beurre-irlandais-a-l-ail|2|ail|ail|
+beurre-irlandais-a-l-ail|3|persil plat|persil-plat|
+beurre-irlandais-a-l-ail|4|ciboulette|ciboulette|
+beurre-irlandais-a-l-ail|5|cheddar|cheddar|
+beurre-irlandais-a-l-ail|6|citron|citron|
+beurre-irlandais-a-l-ail|7|sel|sel|
+beurre-irlandais-a-l-ail|8|poivre noir|poivre-noir|
+boxty|0|pomme de terre|pomme-de-terre|
+boxty|1|pomme de terre|pomme-de-terre|
+boxty|2|farine de blé|farine-de-ble|
+boxty|3|lait fermenté|lait-fermente|
+boxty|4|bicarbonate de soude|bicarbonate|
+boxty|5|beurre|beurre|
+boxty|6|oeuf|oeuf|
+boxty|7|sel|sel|
+boxty|8|poivre noir|poivre-noir|
+carrot-and-parsnip-mash|0|carotte|carotte|
+carrot-and-parsnip-mash|1|panais|panais|
+carrot-and-parsnip-mash|2|beurre|beurre|
+carrot-and-parsnip-mash|3|crème liquide|creme-liquide|
+carrot-and-parsnip-mash|4|muscade|muscade|
+carrot-and-parsnip-mash|5|miel|miel|
+carrot-and-parsnip-mash|6|sel|sel|
+carrot-and-parsnip-mash|7|poivre noir|poivre-noir|
+champ|0|pomme de terre|pomme-de-terre|
+champ|1|oignon nouveau|oignon-nouveau|
+champ|2|lait entier|lait-entier|
+champ|3|beurre|beurre|
+champ|4|sel|sel|
+champ|5|poivre noir|poivre-noir|
+chocolat-chaud-irlandais|0|chocolat noir|chocolat-noir|
+chocolat-chaud-irlandais|1|lait entier|lait-entier|
+chocolat-chaud-irlandais|2|crème liquide|creme-liquide|
+chocolat-chaud-irlandais|3|cacao en poudre|cacao-en-poudre|
+chocolat-chaud-irlandais|4|sucre roux|sucre-roux|
+chocolat-chaud-irlandais|5|sel|sel|
+chocolat-chaud-irlandais|6|cannelle|cannelle|
+colcannon|0|pomme de terre|pomme-de-terre|
+colcannon|1|chou frisé|chou-frise|
+colcannon|2|oignon nouveau|oignon-nouveau|
+colcannon|3|lait entier|lait-entier|
+colcannon|4|beurre|beurre|
+colcannon|5|muscade|muscade|
+colcannon|6|sel|sel|
+colcannon|7|poivre noir|poivre-noir|
+dublin-coddle|0|saucisse de Toulouse|saucisse-de-toulouse|
+dublin-coddle|1|lardon|lardon|
+dublin-coddle|2|pomme de terre|pomme-de-terre|
+dublin-coddle|3|oignon|oignon|
+dublin-coddle|4|carotte|carotte|
+dublin-coddle|5|bouillon volaille|bouillon-volaille|
+dublin-coddle|6|persil plat|persil-plat|
+dublin-coddle|7|laurier|laurier|
+dublin-coddle|8|sel|sel|
+dublin-coddle|9|poivre noir|poivre-noir|
+guinness-chocolate-cake|0|bière|biere|
+guinness-chocolate-cake|1|beurre|beurre|
+guinness-chocolate-cake|2|cacao en poudre|cacao-en-poudre|
+guinness-chocolate-cake|3|sucre|sucre|
+guinness-chocolate-cake|4|farine de blé|farine-de-ble|
+guinness-chocolate-cake|5|oeuf|oeuf|
+guinness-chocolate-cake|6|crème fraîche|creme-fraiche|
+guinness-chocolate-cake|7|bicarbonate de soude|bicarbonate|
+guinness-chocolate-cake|8|fromage frais|fromage-frais|
+guinness-chocolate-cake|9|sucre glace|sucre-glace|
+guinness-chocolate-cake|10|crème liquide|creme-liquide|
+guinness-chocolate-cake|11|sel|sel|
+irish-stew|0|agneau|agneau|
+irish-stew|1|pomme de terre|pomme-de-terre|
+irish-stew|2|oignon|oignon|
+irish-stew|3|carotte|carotte|
+irish-stew|4|poireau|poireau|
+irish-stew|5|bouillon boeuf|bouillon-boeuf|
+irish-stew|6|thym|thym-seche|
+irish-stew|7|laurier|laurier|
+irish-stew|8|persil plat|persil-plat|
+irish-stew|9|sel|sel|
+irish-stew|10|poivre noir|poivre-noir|
+porridge-irlandais|0|flocon d'avoine|flocon-d-avoine|
+porridge-irlandais|1|eau|eau|
+porridge-irlandais|2|lait entier|lait-entier|
+porridge-irlandais|3|sel|sel|
+porridge-irlandais|4|miel|miel|
+porridge-irlandais|5|crème liquide|creme-liquide|
+porridge-irlandais|6|framboise|framboise|
+potato-farls|0|pomme de terre|pomme-de-terre|
+potato-farls|1|farine de blé|farine-de-ble|
+potato-farls|2|beurre|beurre|
+potato-farls|3|sel|sel|
+potato-farls|4|poivre noir|poivre-noir|
+potato-leek-soup|0|pomme de terre|pomme-de-terre|
+potato-leek-soup|1|poireau|poireau|
+potato-leek-soup|2|oignon|oignon|
+potato-leek-soup|3|bouillon volaille|bouillon-volaille|
+potato-leek-soup|4|crème liquide|creme-liquide|
+potato-leek-soup|5|beurre|beurre|
+potato-leek-soup|6|laurier|laurier|
+potato-leek-soup|7|ciboulette|ciboulette|
+potato-leek-soup|8|muscade|muscade|
+potato-leek-soup|9|sel|sel|
+potato-leek-soup|10|poivre noir|poivre-noir|
+scones-irlandais-aux-raisins|0|farine de blé|farine-de-ble|
+scones-irlandais-aux-raisins|1|beurre|beurre|
+scones-irlandais-aux-raisins|2|sucre|sucre|
+scones-irlandais-aux-raisins|3|raisin sec|raisin-sec|
+scones-irlandais-aux-raisins|4|lait fermenté|lait-fermente|
+scones-irlandais-aux-raisins|5|bicarbonate de soude|bicarbonate|
+scones-irlandais-aux-raisins|6|levure chimique|levure-chimique|
+scones-irlandais-aux-raisins|7|oeuf|oeuf|
+scones-irlandais-aux-raisins|8|sel|sel|
+seafood-chowder|0|cabillaud|cabillaud|
+seafood-chowder|1|haddock fumé|haddock-fume|
+seafood-chowder|2|moule|moule|
+seafood-chowder|3|crevette|crevette|
+seafood-chowder|4|pomme de terre|pomme-de-terre|
+seafood-chowder|5|poireau|poireau|
+seafood-chowder|6|oignon|oignon|
+seafood-chowder|7|lardon|lardon|
+seafood-chowder|8|lait entier|lait-entier|
+seafood-chowder|9|crème liquide|creme-liquide|
+seafood-chowder|10|vin blanc|vin-blanc|
+seafood-chowder|11|aneth|aneth|
+seafood-chowder|12|sel|sel|
+seafood-chowder|13|poivre noir|poivre-noir|
+shepherds-pie-irlandais|0|agneau haché|agneau-hache|
+shepherds-pie-irlandais|1|pomme de terre|pomme-de-terre|
+shepherds-pie-irlandais|2|carotte|carotte|
+shepherds-pie-irlandais|3|oignon|oignon|
+shepherds-pie-irlandais|4|petits pois surgelés|petits-pois-surgeles|
+shepherds-pie-irlandais|5|bière|biere|
+shepherds-pie-irlandais|6|bouillon boeuf|bouillon-boeuf|
+shepherds-pie-irlandais|7|concentré de tomate|concentre-de-tomate|
+shepherds-pie-irlandais|8|sauce Worcestershire|sauce-worcestershire|
+shepherds-pie-irlandais|9|cheddar|cheddar|
+shepherds-pie-irlandais|10|beurre|beurre|
+shepherds-pie-irlandais|11|lait entier|lait-entier|
+shepherds-pie-irlandais|12|romarin|romarin|
+shepherds-pie-irlandais|13|sel|sel|
+shepherds-pie-irlandais|14|poivre noir|poivre-noir|
+soda-bread|0|farine de blé|farine-de-ble|
+soda-bread|1|lait fermenté|lait-fermente|
+soda-bread|2|bicarbonate de soude|bicarbonate|
+soda-bread|3|sel|sel|
+soda-bread|4|flocon d'avoine|flocon-d-avoine|
+appeltaart|0|farine de blé|farine-de-ble|
+appeltaart|1|beurre|beurre|
+appeltaart|2|sucre roux|sucre-roux|
+appeltaart|3|oeuf|oeuf|
+appeltaart|4|sel|sel|
+appeltaart|5|pomme|pomme|
+appeltaart|6|raisin sec|raisin-sec|
+appeltaart|7|cannelle|cannelle|
+appeltaart|8|sucre|sucre|
+appeltaart|9|panko|panko|
+appeltaart|10|citron|citron|
+appeltaart|11|oeuf|oeuf|
+bitterballen|0|boeuf à mijoter|boeuf-a-mijoter|
+bitterballen|1|beurre|beurre|
+bitterballen|2|farine de blé|farine-de-ble|
+bitterballen|3|bouillon boeuf|bouillon-boeuf|
+bitterballen|4|oignon|oignon|
+bitterballen|5|persil plat|persil-plat|
+bitterballen|6|muscade|muscade|
+bitterballen|7|oeuf|oeuf|
+bitterballen|8|panko|panko|
+bitterballen|9|farine de blé|farine-de-ble|
+bitterballen|10|huile neutre|huile-neutre|
+bitterballen|11|moutarde|moutarde|
+bitterballen|12|sel|sel|
+bitterballen|13|poivre noir|poivre-noir|
+boterham-met-kaas|0|pain|pain|
+boterham-met-kaas|1|gouda|gouda|
+boterham-met-kaas|2|beurre|beurre|
+boterham-met-kaas|3|moutarde|moutarde|
+boterham-met-kaas|4|concombre|concombre|
+boterham-met-kaas|5|poivre noir|poivre-noir|
+chocolademelk|0|lait entier|lait-entier|
+chocolademelk|1|cacao en poudre|cacao-en-poudre|
+chocolademelk|2|chocolat noir|chocolat-noir|
+chocolademelk|3|sucre|sucre|
+chocolademelk|4|crème liquide|creme-liquide|
+chocolademelk|5|sel|sel|
+chocolademelk|6|cannelle|cannelle|
+erwtensoep|0|pois cassé|pois-casse|
+erwtensoep|1|jarret de porc|jarret-de-porc|
+erwtensoep|2|saucisse fumée|saucisse-fumee|
+erwtensoep|3|poitrine de porc|poitrine-de-porc|
+erwtensoep|4|céleri-rave|celeri-rave|
+erwtensoep|5|poireau|poireau|
+erwtensoep|6|carotte|carotte|
+erwtensoep|7|oignon|oignon|
+erwtensoep|8|eau|eau|
+erwtensoep|9|céleri branche|celeri-branche|
+erwtensoep|10|sel|sel|
+erwtensoep|11|poivre noir|poivre-noir|
+gehaktballen|0|boeuf haché|boeuf-hache|
+gehaktballen|1|porc haché|porc-hache|
+gehaktballen|2|panko|panko|
+gehaktballen|3|lait entier|lait-entier|
+gehaktballen|4|oeuf|oeuf|
+gehaktballen|5|oignon|oignon|
+gehaktballen|6|muscade|muscade|
+gehaktballen|7|moutarde|moutarde|
+gehaktballen|8|beurre|beurre|
+gehaktballen|9|bouillon boeuf|bouillon-boeuf|
+gehaktballen|10|farine de blé|farine-de-ble|
+gehaktballen|11|laurier|laurier|
+gehaktballen|12|sel|sel|
+gehaktballen|13|poivre noir|poivre-noir|
+haring-met-uitjes|0|hareng|hareng|
+haring-met-uitjes|1|oignon|oignon|
+haring-met-uitjes|2|cornichon|cornichon|
+haring-met-uitjes|3|pain|pain|
+haring-met-uitjes|4|citron|citron|
+haring-met-uitjes|5|poivre noir|poivre-noir|
+hutspot|0|boeuf à mijoter|boeuf-a-mijoter|
+hutspot|1|pomme de terre|pomme-de-terre|
+hutspot|2|carotte|carotte|
+hutspot|3|oignon|oignon|
+hutspot|4|beurre|beurre|
+hutspot|5|laurier|laurier|
+hutspot|6|clou de girofle|clou-de-girofle|
+hutspot|7|vinaigre de vin|vinaigre-de-vin|
+hutspot|8|sel|sel|
+hutspot|9|poivre noir|poivre-noir|
+kibbeling|0|cabillaud|cabillaud|
+kibbeling|1|farine de blé|farine-de-ble|
+kibbeling|2|bière|biere|
+kibbeling|3|levure chimique|levure-chimique|
+kibbeling|4|paprika|paprika|
+kibbeling|5|poudre de curry|poudre-de-curry|
+kibbeling|6|huile neutre|huile-neutre|
+kibbeling|7|mayonnaise|mayonnaise|
+kibbeling|8|cornichon|cornichon|
+kibbeling|9|câpre|capre|
+kibbeling|10|citron|citron|
+kibbeling|11|sel|sel|
+kibbeling|12|poivre noir|poivre-noir|
+kroket|0|boeuf à mijoter|boeuf-a-mijoter|
+kroket|1|beurre|beurre|
+kroket|2|farine de blé|farine-de-ble|
+kroket|3|bouillon boeuf|bouillon-boeuf|
+kroket|4|gelatine|gelatine|
+kroket|5|oignon|oignon|
+kroket|6|oeuf|oeuf|
+kroket|7|panko|panko|
+kroket|8|farine de blé|farine-de-ble|
+kroket|9|huile neutre|huile-neutre|
+kroket|10|pain|pain|
+kroket|11|moutarde|moutarde|
+kroket|12|sel|sel|
+kroket|13|poivre noir|poivre-noir|
+nasi-goreng-hollandais|0|riz basmati|riz-basmati|
+nasi-goreng-hollandais|1|blanc de poulet|blanc-de-poulet|
+nasi-goreng-hollandais|2|crevette|crevette|
+nasi-goreng-hollandais|3|oeuf|oeuf|
+nasi-goreng-hollandais|4|oignon|oignon|
+nasi-goreng-hollandais|5|ail|ail|
+nasi-goreng-hollandais|6|sambal oelek|sambal-oelek|
+nasi-goreng-hollandais|7|kecap manis|kecap-manis|
+nasi-goreng-hollandais|8|gingembre frais|gingembre|
+nasi-goreng-hollandais|9|chou vert|chou-vert|
+nasi-goreng-hollandais|10|poireau|poireau|
+nasi-goreng-hollandais|11|huile neutre|huile-neutre|
+nasi-goreng-hollandais|12|sel|sel|
+nasi-goreng-hollandais|13|poivre noir|poivre-noir|
+oliebollen|0|farine de blé|farine-de-ble|
+oliebollen|1|lait entier|lait-entier|
+oliebollen|2|levure boulangère|levure-boulangere|
+oliebollen|3|oeuf|oeuf|
+oliebollen|4|raisin sec|raisin-sec|
+oliebollen|5|pomme|pomme|
+oliebollen|6|sel|sel|
+oliebollen|7|huile neutre|huile-neutre|
+oliebollen|8|sucre glace|sucre-glace|
+pannenkoeken|0|farine de blé|farine-de-ble|
+pannenkoeken|1|lait entier|lait-entier|
+pannenkoeken|2|oeuf|oeuf|
+pannenkoeken|3|beurre|beurre|
+pannenkoeken|4|lardon|lardon|
+pannenkoeken|5|pomme|pomme|
+pannenkoeken|6|mélasse|melasse|
+pannenkoeken|7|sel|sel|
+poffertjes|0|farine de sarrasin|farine-de-sarrasin|
+poffertjes|1|farine de blé|farine-de-ble|
+poffertjes|2|lait entier|lait-entier|
+poffertjes|3|levure boulangère|levure-boulangere|
+poffertjes|4|oeuf|oeuf|
+poffertjes|5|beurre|beurre|
+poffertjes|6|sucre glace|sucre-glace|
+poffertjes|7|sel|sel|
+speculaas|0|farine de blé|farine-de-ble|
+speculaas|1|sucre roux|sucre-roux|
+speculaas|2|beurre|beurre|
+speculaas|3|lait entier|lait-entier|
+speculaas|4|cannelle|cannelle|
+speculaas|5|muscade|muscade|
+speculaas|6|gingembre moulu|gingembre-moulu|
+speculaas|7|clou de girofle|clou-de-girofle|
+speculaas|8|cardamome|cardamome|
+speculaas|9|poivre blanc|poivre-blanc|
+speculaas|10|bicarbonate de soude|bicarbonate|
+speculaas|11|amande effilée|amande-effilee|
+speculaas|12|sel|sel|
+stamppot-boerenkool|0|pomme de terre|pomme-de-terre|
+stamppot-boerenkool|1|chou frisé|chou-frise|
+stamppot-boerenkool|2|saucisse fumée|saucisse-fumee|
+stamppot-boerenkool|3|lardon|lardon|
+stamppot-boerenkool|4|lait entier|lait-entier|
+stamppot-boerenkool|5|beurre|beurre|
+stamppot-boerenkool|6|moutarde|moutarde|
+stamppot-boerenkool|7|muscade|muscade|
+stamppot-boerenkool|8|sel|sel|
+stamppot-boerenkool|9|poivre noir|poivre-noir|
+stroopwafels|0|farine de blé|farine-de-ble|
+stroopwafels|1|beurre|beurre|
+stroopwafels|2|sucre roux|sucre-roux|
+stroopwafels|3|oeuf|oeuf|
+stroopwafels|4|levure boulangère|levure-boulangere|
+stroopwafels|5|lait entier|lait-entier|
+stroopwafels|6|cannelle|cannelle|
+stroopwafels|7|mélasse|melasse|
+stroopwafels|8|sucre roux|sucre-roux|
+stroopwafels|9|beurre|beurre|
+stroopwafels|10|sel|sel|
+uitsmijter|0|pain|pain|
+uitsmijter|1|oeuf|oeuf|
+uitsmijter|2|jambon blanc|jambon-blanc|
+uitsmijter|3|emmental|emmental|
+uitsmijter|4|beurre|beurre|
+uitsmijter|5|ciboulette|ciboulette|
+uitsmijter|6|cornichon|cornichon|
+uitsmijter|7|sel|sel|
+uitsmijter|8|poivre noir|poivre-noir|
+vlaflip|0|lait entier|lait-entier|
+vlaflip|1|maïzena|maizena|
+vlaflip|2|sucre|sucre|
+vlaflip|3|oeuf|oeuf|
+vlaflip|4|gousse de vanille|gousse-de-vanille|
+vlaflip|5|yaourt nature|yaourt|
+vlaflip|6|confiture|confiture|
+vlaflip|7|sel|sel|
+zuurkool-stamppot|0|pomme de terre|pomme-de-terre|
+zuurkool-stamppot|1|choucroute|choucroute|
+zuurkool-stamppot|2|saucisse fumée|saucisse-fumee|
+zuurkool-stamppot|3|lardon|lardon|
+zuurkool-stamppot|4|lait entier|lait-entier|
+zuurkool-stamppot|5|beurre|beurre|
+zuurkool-stamppot|6|pomme|pomme|
+zuurkool-stamppot|7|muscade|muscade|
+zuurkool-stamppot|8|sel|sel|
+zuurkool-stamppot|9|poivre noir|poivre-noir|
+bangers-and-mash|0|saucisse de Toulouse|saucisse-de-toulouse|
+bangers-and-mash|1|pomme de terre|pomme-de-terre|
+bangers-and-mash|2|beurre|beurre|
+bangers-and-mash|3|lait entier|lait-entier|
+bangers-and-mash|4|oignon|oignon|
+bangers-and-mash|5|bouillon boeuf|bouillon-boeuf|
+bangers-and-mash|6|farine de blé|farine-de-ble|
+bangers-and-mash|7|sauce Worcestershire|sauce-worcestershire|
+bangers-and-mash|8|moutarde|moutarde|
+bangers-and-mash|9|sel|sel|
+bangers-and-mash|10|poivre noir|poivre-noir|
+beef-wellington|0|filet de boeuf|filet-de-boeuf|
+beef-wellington|1|champignon de Paris|champignon-de-paris|
+beef-wellington|2|jambon cru|jambon-cru|
+beef-wellington|3|pâte feuilletée|pate-feuilletee|
+beef-wellington|4|moutarde|moutarde|
+beef-wellington|5|échalote|echalote|
+beef-wellington|6|vin blanc|vin-blanc|
+beef-wellington|7|thym|thym-seche|
+beef-wellington|8|beurre|beurre|
+beef-wellington|9|oeuf|oeuf|
+beef-wellington|10|sel|sel|
+beef-wellington|11|poivre noir|poivre-noir|
+bread-and-butter-pudding|0|pain de mie|pain-de-mie|
+bread-and-butter-pudding|1|beurre|beurre|
+bread-and-butter-pudding|2|raisin sec|raisin-sec|
+bread-and-butter-pudding|3|lait entier|lait-entier|
+bread-and-butter-pudding|4|crème liquide|creme-liquide|
+bread-and-butter-pudding|5|oeuf|oeuf|
+bread-and-butter-pudding|6|sucre|sucre|
+bread-and-butter-pudding|7|gousse de vanille|gousse-de-vanille|
+bread-and-butter-pudding|8|citron|citron|
+bread-and-butter-pudding|9|muscade|muscade|
+bread-and-butter-pudding|10|sucre roux|sucre-roux|
+chicken-tikka-masala|0|blanc de poulet|blanc-de-poulet|
+chicken-tikka-masala|1|yaourt nature|yaourt|
+chicken-tikka-masala|2|garam masala|garam-masala|
+chicken-tikka-masala|3|gingembre frais|gingembre|
+chicken-tikka-masala|4|ail|ail|
+chicken-tikka-masala|5|curcuma|curcuma|
+chicken-tikka-masala|6|piment du Cachemire|piment-kashmiri|
+chicken-tikka-masala|7|tomate pelée en conserve|tomate-pelee|
+chicken-tikka-masala|8|oignon|oignon|
+chicken-tikka-masala|9|crème liquide|creme-liquide|
+chicken-tikka-masala|10|beurre|beurre|
+chicken-tikka-masala|11|coriandre fraîche|coriandre-fraiche|
+chicken-tikka-masala|12|citron|citron|
+chicken-tikka-masala|13|sel|sel|
+cornish-pasty|0|farine de blé|farine-de-ble|
+cornish-pasty|1|saindoux|saindoux|
+cornish-pasty|2|beurre|beurre|
+cornish-pasty|3|eau|eau|
+cornish-pasty|4|boeuf à mijoter|boeuf-a-mijoter|
+cornish-pasty|5|pomme de terre|pomme-de-terre|
+cornish-pasty|6|navet|navet|
+cornish-pasty|7|oignon|oignon|
+cornish-pasty|8|beurre|beurre|
+cornish-pasty|9|oeuf|oeuf|
+cornish-pasty|10|sel|sel|
+cornish-pasty|11|poivre noir|poivre-noir|
+cottage-pie|0|boeuf haché|boeuf-hache|
+cottage-pie|1|pomme de terre|pomme-de-terre|
+cottage-pie|2|oignon|oignon|
+cottage-pie|3|carotte|carotte|
+cottage-pie|4|céleri branche|celeri-branche|
+cottage-pie|5|concentré de tomate|concentre-de-tomate|
+cottage-pie|6|sauce Worcestershire|sauce-worcestershire|
+cottage-pie|7|bouillon boeuf|bouillon-boeuf|
+cottage-pie|8|vin rouge|vin-rouge|
+cottage-pie|9|beurre|beurre|
+cottage-pie|10|lait entier|lait-entier|
+cottage-pie|11|cheddar|cheddar|
+cottage-pie|12|laurier|laurier|
+cottage-pie|13|sel|sel|
+cottage-pie|14|poivre noir|poivre-noir|
+crumble-aux-pommes|0|pomme|pomme|
+crumble-aux-pommes|1|farine de blé|farine-de-ble|
+crumble-aux-pommes|2|beurre|beurre|
+crumble-aux-pommes|3|sucre roux|sucre-roux|
+crumble-aux-pommes|4|flocon d'avoine|flocon-d-avoine|
+crumble-aux-pommes|5|sucre|sucre|
+crumble-aux-pommes|6|cannelle|cannelle|
+crumble-aux-pommes|7|citron|citron|
+crumble-aux-pommes|8|sel|sel|
+cullen-skink|0|haddock fumé|haddock-fume|
+cullen-skink|1|pomme de terre|pomme-de-terre|
+cullen-skink|2|oignon|oignon|
+cullen-skink|3|poireau|poireau|
+cullen-skink|4|lait entier|lait-entier|
+cullen-skink|5|crème liquide|creme-liquide|
+cullen-skink|6|beurre|beurre|
+cullen-skink|7|laurier|laurier|
+cullen-skink|8|ciboulette|ciboulette|
+cullen-skink|9|poivre noir|poivre-noir|
+eton-mess|0|oeuf|oeuf|
+eton-mess|1|sucre|sucre|
+eton-mess|2|vinaigre blanc|vinaigre-blanc|
+eton-mess|3|fraise|fraise|
+eton-mess|4|crème liquide|creme-liquide|
+eton-mess|5|sucre glace|sucre-glace|
+eton-mess|6|citron|citron|
+eton-mess|7|sel|sel|
+fish-and-chips|0|cabillaud|cabillaud|
+fish-and-chips|1|pomme de terre|pomme-de-terre|
+fish-and-chips|2|farine de blé|farine-de-ble|
+fish-and-chips|3|bière|biere|
+fish-and-chips|4|maïzena|maizena|
+fish-and-chips|5|levure chimique|levure-chimique|
+fish-and-chips|6|huile neutre|huile-neutre|
+fish-and-chips|7|vinaigre de malt|vinaigre-de-malt|
+fish-and-chips|8|sel|sel|
+fish-and-chips|9|poivre noir|poivre-noir|
+full-english-breakfast|0|saucisse de Toulouse|saucisse-de-toulouse|
+full-english-breakfast|1|lardon|lardon|
+full-english-breakfast|2|oeuf|oeuf|
+full-english-breakfast|3|haricot blanc|haricot-blanc|
+full-english-breakfast|4|tomate|tomate|
+full-english-breakfast|5|champignon de Paris|champignon-de-paris|
+full-english-breakfast|6|pain de mie|pain-de-mie|
+full-english-breakfast|7|boudin noir|boudin-noir|
+full-english-breakfast|8|beurre|beurre|
+full-english-breakfast|9|sel|sel|
+full-english-breakfast|10|poivre noir|poivre-noir|
+scones|0|farine de blé|farine-de-ble|
+scones|1|beurre|beurre|
+scones|2|sucre|sucre|
+scones|3|levure chimique|levure-chimique|
+scones|4|lait entier|lait-entier|
+scones|5|oeuf|oeuf|
+scones|6|sel|sel|
+scones|7|crème fraîche|creme-fraiche|
+scones|8|confiture|confiture|
+scotch-eggs|0|oeuf|oeuf|
+scotch-eggs|1|porc haché|porc-hache|
+scotch-eggs|2|moutarde|moutarde|
+scotch-eggs|3|thym|thym-seche|
+scotch-eggs|4|muscade|muscade|
+scotch-eggs|5|oeuf|oeuf|
+scotch-eggs|6|farine de blé|farine-de-ble|
+scotch-eggs|7|panko|panko|
+scotch-eggs|8|huile neutre|huile-neutre|
+scotch-eggs|9|sel|sel|
+scotch-eggs|10|poivre noir|poivre-noir|
+shepherds-pie|0|agneau haché|agneau-hache|
+shepherds-pie|1|pomme de terre|pomme-de-terre|
+shepherds-pie|2|oignon|oignon|
+shepherds-pie|3|carotte|carotte|
+shepherds-pie|4|petits pois surgelés|petits-pois-surgeles|
+shepherds-pie|5|concentré de tomate|concentre-de-tomate|
+shepherds-pie|6|sauce Worcestershire|sauce-worcestershire|
+shepherds-pie|7|bouillon boeuf|bouillon-boeuf|
+shepherds-pie|8|beurre|beurre|
+shepherds-pie|9|lait entier|lait-entier|
+shepherds-pie|10|cheddar|cheddar|
+shepherds-pie|11|thym|thym-seche|
+shepherds-pie|12|sel|sel|
+shepherds-pie|13|poivre noir|poivre-noir|
+sticky-toffee-pudding|0|datte|datte|
+sticky-toffee-pudding|1|eau|eau|
+sticky-toffee-pudding|2|bicarbonate de soude|bicarbonate|
+sticky-toffee-pudding|3|farine de blé|farine-de-ble|
+sticky-toffee-pudding|4|sucre roux|sucre-roux|
+sticky-toffee-pudding|5|beurre|beurre|
+sticky-toffee-pudding|6|oeuf|oeuf|
+sticky-toffee-pudding|7|levure chimique|levure-chimique|
+sticky-toffee-pudding|8|sucre roux|sucre-roux|
+sticky-toffee-pudding|9|beurre|beurre|
+sticky-toffee-pudding|10|crème liquide|creme-liquide|
+sticky-toffee-pudding|11|sel|sel|
+the-au-lait-anglais|0|thé noir|the-noir|
+the-au-lait-anglais|1|eau|eau|
+the-au-lait-anglais|2|lait entier|lait-entier|
+the-au-lait-anglais|3|sucre|sucre|
+toad-in-the-hole|0|saucisse de Toulouse|saucisse-de-toulouse|
+toad-in-the-hole|1|farine de blé|farine-de-ble|
+toad-in-the-hole|2|oeuf|oeuf|
+toad-in-the-hole|3|lait entier|lait-entier|
+toad-in-the-hole|4|huile neutre|huile-neutre|
+toad-in-the-hole|5|oignon|oignon|
+toad-in-the-hole|6|bouillon boeuf|bouillon-boeuf|
+toad-in-the-hole|7|thym|thym-seche|
+toad-in-the-hole|8|sel|sel|
+toad-in-the-hole|9|poivre noir|poivre-noir|
+trifle|0|biscuit à la cuillère|biscuit-a-la-cuillere|
+trifle|1|fraise|fraise|
+trifle|2|framboise|framboise|
+trifle|3|confiture|confiture|
+trifle|4|lait entier|lait-entier|
+trifle|5|oeuf|oeuf|
+trifle|6|sucre|sucre|
+trifle|7|maïzena|maizena|
+trifle|8|gousse de vanille|gousse-de-vanille|
+trifle|9|crème liquide|creme-liquide|
+trifle|10|sucre glace|sucre-glace|
+trifle|11|amande effilée|amande-effilee|
+welsh-rarebit|0|cheddar|cheddar|
+welsh-rarebit|1|bière|biere|
+welsh-rarebit|2|moutarde|moutarde|
+welsh-rarebit|3|sauce Worcestershire|sauce-worcestershire|
+welsh-rarebit|4|beurre|beurre|
+welsh-rarebit|5|farine de blé|farine-de-ble|
+welsh-rarebit|6|oeuf|oeuf|
+welsh-rarebit|7|pain|pain|
+welsh-rarebit|8|poivre noir|poivre-noir|
+yorkshire-pudding|0|farine de blé|farine-de-ble|
+yorkshire-pudding|1|oeuf|oeuf|
+yorkshire-pudding|2|lait entier|lait-entier|
+yorkshire-pudding|3|huile neutre|huile-neutre|
+yorkshire-pudding|4|sel|sel|
+yorkshire-pudding|5|poivre noir|poivre-noir|
+aelplermagronen|0|pâtes courtes|pates-courtes|
+aelplermagronen|1|pomme de terre|pomme-de-terre|
+aelplermagronen|2|gruyère|emmental|
+aelplermagronen|3|oignon|oignon|
+aelplermagronen|4|crème liquide|creme-liquide|
+aelplermagronen|5|lait entier|lait-entier|
+aelplermagronen|6|lardon|lardon|
+aelplermagronen|7|beurre|beurre|
+aelplermagronen|8|compote de pomme|compote-de-pomme|
+aelplermagronen|9|muscade|muscade|
+aelplermagronen|10|sel|sel|
+aelplermagronen|11|poivre noir|poivre-noir|
+basler-leckerli|0|miel|miel|
+basler-leckerli|1|sucre|sucre|
+basler-leckerli|2|farine de blé|farine-de-ble|
+basler-leckerli|3|amande|amande|
+basler-leckerli|4|fruit confit|fruit-confit|
+basler-leckerli|5|orange|orange|
+basler-leckerli|6|citron|citron|
+basler-leckerli|7|cannelle|cannelle|
+basler-leckerli|8|clou de girofle|clou-de-girofle|
+basler-leckerli|9|muscade|muscade|
+basler-leckerli|10|bicarbonate de soude|bicarbonate|
+basler-leckerli|11|sucre glace|sucre-glace|
+basler-leckerli|12|sel|sel|
+birchermuesli|0|flocon d'avoine|flocon-d-avoine|
+birchermuesli|1|lait entier|lait-entier|
+birchermuesli|2|yaourt nature|yaourt|
+birchermuesli|3|pomme|pomme|
+birchermuesli|4|citron|citron|
+birchermuesli|5|noisette|noisette|
+birchermuesli|6|miel|miel|
+birchermuesli|7|framboise|framboise|
+birchermuesli|8|sel|sel|
+cholera-valaisan|0|pâte feuilletée|pate-feuilletee|
+cholera-valaisan|1|pomme de terre|pomme-de-terre|
+cholera-valaisan|2|poireau|poireau|
+cholera-valaisan|3|pomme|pomme|
+cholera-valaisan|4|fromage à raclette|fromage-a-raclette|
+cholera-valaisan|5|jambon cru|jambon-cru|
+cholera-valaisan|6|oignon|oignon|
+cholera-valaisan|7|beurre|beurre|
+cholera-valaisan|8|oeuf|oeuf|
+cholera-valaisan|9|muscade|muscade|
+cholera-valaisan|10|sel|sel|
+cholera-valaisan|11|poivre noir|poivre-noir|
+filets-de-perche-meuniere|0|perche|perche|
+filets-de-perche-meuniere|1|farine de blé|farine-de-ble|
+filets-de-perche-meuniere|2|beurre|beurre|
+filets-de-perche-meuniere|3|citron|citron|
+filets-de-perche-meuniere|4|persil plat|persil-plat|
+filets-de-perche-meuniere|5|câpre|capre|
+filets-de-perche-meuniere|6|sel|sel|
+filets-de-perche-meuniere|7|poivre blanc|poivre-blanc|
+fondue-moitie-moitie|0|gruyère|emmental|
+fondue-moitie-moitie|1|vacherin|vacherin|
+fondue-moitie-moitie|2|vin blanc|vin-blanc|
+fondue-moitie-moitie|3|maïzena|maizena|
+fondue-moitie-moitie|4|ail|ail|
+fondue-moitie-moitie|5|pain|pain|
+fondue-moitie-moitie|6|muscade|muscade|
+fondue-moitie-moitie|7|poivre noir|poivre-noir|
+gateau-aux-carottes-argovien|0|carotte|carotte|
+gateau-aux-carottes-argovien|1|poudre d'amande|poudre-d-amande|
+gateau-aux-carottes-argovien|2|sucre|sucre|
+gateau-aux-carottes-argovien|3|oeuf|oeuf|
+gateau-aux-carottes-argovien|4|farine de blé|farine-de-ble|
+gateau-aux-carottes-argovien|5|citron|citron|
+gateau-aux-carottes-argovien|6|cannelle|cannelle|
+gateau-aux-carottes-argovien|7|levure chimique|levure-chimique|
+gateau-aux-carottes-argovien|8|sucre glace|sucre-glace|
+gateau-aux-carottes-argovien|9|sel|sel|
+malakoff|0|gruyère|emmental|
+malakoff|1|oeuf|oeuf|
+malakoff|2|vin blanc|vin-blanc|
+malakoff|3|farine de blé|farine-de-ble|
+malakoff|4|pain de mie|pain-de-mie|
+malakoff|5|ail|ail|
+malakoff|6|huile neutre|huile-neutre|
+malakoff|7|muscade|muscade|
+malakoff|8|sel|sel|
+malakoff|9|poivre noir|poivre-noir|
+meringues-double-creme|0|oeuf|oeuf|
+meringues-double-creme|1|sucre|sucre|
+meringues-double-creme|2|crème liquide|creme-liquide|
+meringues-double-creme|3|citron|citron|
+meringues-double-creme|4|framboise|framboise|
+meringues-double-creme|5|sel|sel|
+ovomaltine-chaude|0|lait entier|lait-entier|
+ovomaltine-chaude|1|malt d'orge|malt-d-orge|
+ovomaltine-chaude|2|cacao en poudre|cacao-en-poudre|
+ovomaltine-chaude|3|sucre|sucre|
+ovomaltine-chaude|4|lait en poudre|lait-en-poudre|
+ovomaltine-chaude|5|sel|sel|
+papet-vaudois|0|poireau|poireau|
+papet-vaudois|1|pomme de terre|pomme-de-terre|
+papet-vaudois|2|saucisse fumée|saucisse-fumee|
+papet-vaudois|3|vin blanc|vin-blanc|
+papet-vaudois|4|crème liquide|creme-liquide|
+papet-vaudois|5|oignon|oignon|
+papet-vaudois|6|beurre|beurre|
+papet-vaudois|7|bouillon volaille|bouillon-volaille|
+papet-vaudois|8|laurier|laurier|
+papet-vaudois|9|sel|sel|
+papet-vaudois|10|poivre noir|poivre-noir|
+raclette|0|fromage à raclette|fromage-a-raclette|
+raclette|1|pomme de terre|pomme-de-terre|
+raclette|2|jambon cru|jambon-cru|
+raclette|3|viande séchée|viande-sechee|
+raclette|4|cornichon|cornichon|
+raclette|5|oignon|oignon|
+raclette|6|paprika|paprika|
+raclette|7|poivre noir|poivre-noir|
+rosti|0|pomme de terre|pomme-de-terre|
+rosti|1|beurre|beurre|
+rosti|2|lardon|lardon|
+rosti|3|oignon|oignon|
+rosti|4|sel|sel|
+rosti|5|poivre noir|poivre-noir|
+saucisse-aux-choux|0|saucisse fumée|saucisse-fumee|
+saucisse-aux-choux|1|chou vert|chou-vert|
+saucisse-aux-choux|2|pomme de terre|pomme-de-terre|
+saucisse-aux-choux|3|carotte|carotte|
+saucisse-aux-choux|4|oignon|oignon|
+saucisse-aux-choux|5|vin blanc|vin-blanc|
+saucisse-aux-choux|6|beurre|beurre|
+saucisse-aux-choux|7|baie de genièvre|baie-de-genievre|
+saucisse-aux-choux|8|laurier|laurier|
+saucisse-aux-choux|9|moutarde|moutarde|
+saucisse-aux-choux|10|sel|sel|
+saucisse-aux-choux|11|poivre noir|poivre-noir|
+soupe-a-l-orge-des-grisons|0|orge perlé|orge-perle|
+soupe-a-l-orge-des-grisons|1|viande séchée|viande-sechee|
+soupe-a-l-orge-des-grisons|2|lardon|lardon|
+soupe-a-l-orge-des-grisons|3|carotte|carotte|
+soupe-a-l-orge-des-grisons|4|céleri-rave|celeri-rave|
+soupe-a-l-orge-des-grisons|5|poireau|poireau|
+soupe-a-l-orge-des-grisons|6|oignon|oignon|
+soupe-a-l-orge-des-grisons|7|haricot blanc|haricot-blanc|
+soupe-a-l-orge-des-grisons|8|bouillon boeuf|bouillon-boeuf|
+soupe-a-l-orge-des-grisons|9|crème liquide|creme-liquide|
+soupe-a-l-orge-des-grisons|10|laurier|laurier|
+soupe-a-l-orge-des-grisons|11|sel|sel|
+soupe-a-l-orge-des-grisons|12|poivre noir|poivre-noir|
+soupe-au-chalet|0|pomme de terre|pomme-de-terre|
+soupe-au-chalet|1|poireau|poireau|
+soupe-au-chalet|2|carotte|carotte|
+soupe-au-chalet|3|chou vert|chou-vert|
+soupe-au-chalet|4|oignon|oignon|
+soupe-au-chalet|5|pâtes courtes|pates-courtes|
+soupe-au-chalet|6|gruyère|emmental|
+soupe-au-chalet|7|bouillon volaille|bouillon-volaille|
+soupe-au-chalet|8|lait entier|lait-entier|
+soupe-au-chalet|9|beurre|beurre|
+soupe-au-chalet|10|muscade|muscade|
+soupe-au-chalet|11|sel|sel|
+soupe-au-chalet|12|poivre noir|poivre-noir|
+tarte-au-vin-cuit|0|farine de blé|farine-de-ble|
+tarte-au-vin-cuit|1|beurre|beurre|
+tarte-au-vin-cuit|2|oeuf|oeuf|
+tarte-au-vin-cuit|3|eau|eau|
+tarte-au-vin-cuit|4|sirop de poire|sirop-de-poire|
+tarte-au-vin-cuit|5|crème liquide|creme-liquide|
+tarte-au-vin-cuit|6|oeuf|oeuf|
+tarte-au-vin-cuit|7|farine de blé|farine-de-ble|
+tarte-au-vin-cuit|8|cannelle|cannelle|
+tarte-au-vin-cuit|9|sel|sel|
+tarte-aux-oignons-suisse|0|farine de blé|farine-de-ble|
+tarte-aux-oignons-suisse|1|beurre|beurre|
+tarte-aux-oignons-suisse|2|eau|eau|
+tarte-aux-oignons-suisse|3|oignon|oignon|
+tarte-aux-oignons-suisse|4|lardon|lardon|
+tarte-aux-oignons-suisse|5|oeuf|oeuf|
+tarte-aux-oignons-suisse|6|crème fraîche|creme-fraiche|
+tarte-aux-oignons-suisse|7|carvi|carvi|
+tarte-aux-oignons-suisse|8|muscade|muscade|
+tarte-aux-oignons-suisse|9|gruyère|emmental|
+tarte-aux-oignons-suisse|10|sel|sel|
+tarte-aux-oignons-suisse|11|poivre noir|poivre-noir|
+tresse-au-beurre|0|farine T45|farine-t45|
+tresse-au-beurre|1|lait entier|lait-entier|
+tresse-au-beurre|2|levure boulangère|levure-boulangere|
+tresse-au-beurre|3|beurre|beurre|
+tresse-au-beurre|4|oeuf|oeuf|
+tresse-au-beurre|5|sel|sel|
+tresse-au-beurre|6|sucre|sucre|
+tresse-au-beurre|7|oeuf|oeuf|
+zurcher-geschnetzeltes|0|veau|veau|
+zurcher-geschnetzeltes|1|champignon de Paris|champignon-de-paris|
+zurcher-geschnetzeltes|2|échalote|echalote|
+zurcher-geschnetzeltes|3|crème liquide|creme-liquide|
+zurcher-geschnetzeltes|4|vin blanc|vin-blanc|
+zurcher-geschnetzeltes|5|bouillon volaille|bouillon-volaille|
+zurcher-geschnetzeltes|6|farine de blé|farine-de-ble|
+zurcher-geschnetzeltes|7|beurre|beurre|
+zurcher-geschnetzeltes|8|citron|citron|
+zurcher-geschnetzeltes|9|persil plat|persil-plat|
+zurcher-geschnetzeltes|10|sel|sel|
+zurcher-geschnetzeltes|11|poivre blanc|poivre-blanc|

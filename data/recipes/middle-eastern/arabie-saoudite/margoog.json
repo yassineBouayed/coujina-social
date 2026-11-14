@@ -1,0 +1,41 @@
+{
+  "slug": "margoog",
+  "cuisine": "middle-eastern",
+  "country": "arabie-saoudite",
+  "origin": "Arabie saoudite",
+  "native_name": "Margoog",
+  "title": {
+    "fr": "Margoog, ragoût de légumes aux disques de pâte",
+    "en": "Margoog, vegetable stew with dough discs"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 90 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hiver", "pate", "legumes", "famille"],
+  "ingredients": [
+    { "raw": "400 g de farine de blé", "qty": 400, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel", "group": "pâte" },
+    { "raw": "3 c. à s. d'huile neutre", "qty": 3, "unit": "tbsp", "item": "huile neutre", "group": "pâte" },
+    { "raw": "800 g d'épaule d'agneau, en cubes", "qty": 800, "unit": "g", "item": "épaule d'agneau", "prep": "en cubes" },
+    { "raw": "3 courgettes, en tronçons", "qty": 3, "unit": "piece", "item": "courgette", "prep": "en tronçons" },
+    { "raw": "3 carottes, en tronçons", "qty": 3, "unit": "piece", "item": "carotte", "prep": "en tronçons" },
+    { "raw": "1 potiron, en cubes", "qty": 1, "unit": "piece", "item": "potiron", "prep": "en cubes" },
+    { "raw": "2 pommes de terre, en cubes", "qty": 2, "unit": "piece", "item": "pomme de terre", "prep": "en cubes" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "1 c. à s. de baharat", "qty": 1, "unit": "tbsp", "item": "baharat" },
+    { "raw": "2 citrons séchés d'Oman", "qty": 2, "unit": "piece", "item": "citron séché d'Oman" },
+    { "raw": "60 g de ghee", "qty": 60, "unit": "g", "item": "ghee" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Pétrir une pâte ferme et la laisser reposer une heure.", "en": "Knead a firm dough and rest it for an hour." },
+    { "fr": "Cuire la viande avec le concentré, le baharat et les citrons séchés, une heure.", "en": "Cook the meat with the purée, baharat and dried limes for an hour." },
+    { "fr": "Ajouter les légumes du plus dur au plus tendre, à dix minutes d'écart.", "en": "Add the vegetables from firmest to softest, ten minutes apart." },
+    { "fr": "Étaler la pâte très finement et découper des disques de la taille d'une soucoupe.", "en": "Roll the dough very thin and cut discs the size of a saucer." },
+    { "fr": "Les déposer un à un dans le ragoût frémissant, en attendant entre chacun pour qu'ils ne collent pas.", "en": "Drop them into the simmering stew one at a time, waiting between each so they do not stick together." },
+    { "fr": "Cuire vingt minutes : la pâte épaissit le ragoût en même temps qu'elle cuit.", "en": "Cook for twenty minutes: the dough thickens the stew as it cooks." }
+  ]
+}

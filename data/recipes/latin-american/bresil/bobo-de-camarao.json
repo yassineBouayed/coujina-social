@@ -1,0 +1,42 @@
+{
+  "slug": "bobo-de-camarao",
+  "cuisine": "latin-american",
+  "country": "bresil",
+  "origin": "Brésil",
+  "native_name": "Bobó de camarão",
+  "title": {
+    "fr": "Bobó de crevettes au manioc",
+    "en": "Prawn bobó with cassava"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 35, "cook_min": 50 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["bahia", "crevette", "manioc", "coco"],
+  "ingredients": [
+    { "raw": "1 kg de crevettes crues, décortiquées", "qty": 1000, "unit": "g", "item": "crevette", "prep": "décortiquée" },
+    { "raw": "1 kg de manioc", "qty": 1000, "unit": "g", "item": "manioc" },
+    { "raw": "80 cl de lait de coco", "qty": 80, "unit": "cl", "item": "lait de coco" },
+    { "raw": "6 cl d'huile de palme rouge", "qty": 6, "unit": "cl", "item": "huile de palme" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "2 poivrons, en dés", "qty": 2, "unit": "piece", "item": "poivron rouge", "prep": "en dés" },
+    { "raw": "4 tomates, en dés", "qty": 4, "unit": "piece", "item": "tomate", "prep": "en dés" },
+    { "raw": "8 gousses d'ail, écrasées", "qty": 8, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 bouquet de coriandre, ciselée", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "2 citrons verts, leur jus", "qty": 2, "unit": "piece", "item": "citron vert" },
+    { "raw": "2 piments frais", "qty": 2, "unit": "piece", "item": "piment frais" },
+    { "raw": "8 c. à s. d'huile d'olive", "qty": 8, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le manioc est cuit puis MIXÉ avec le lait de coco : c'est lui qui donne la texture crémeuse.", "en": "The cassava is boiled then BLENDED with the coconut milk: it gives the creamy texture." },
+    { "fr": "Retirer la FIBRE centrale avant de cuire : elle ne s'attendrit jamais, quelle que soit la cuisson.", "en": "Remove the CENTRAL fibre before cooking: it never softens, whatever you do." },
+    { "fr": "GARDER l'eau de cuisson du manioc : elle sert à ajuster la texture à la fin.", "en": "KEEP the cassava's cooking water: it is used to adjust the texture at the end." },
+    { "fr": "Mariner les crevettes au citron vert et à l'ail QUINZE MINUTES, pas davantage.", "en": "Marinate the prawns in lime and garlic for FIFTEEN MINUTES, no longer." },
+    { "fr": "Faire le refogado de légumes, ajouter la purée de manioc, et cuire vingt minutes.", "en": "Make the vegetable refogado, add the cassava purée, and cook for twenty minutes." },
+    { "fr": "Ajouter les crevettes les TROIS dernières minutes : au-delà, elles deviennent caoutchouteuses.", "en": "Add the prawns in the LAST THREE minutes: beyond that, they turn rubbery." }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "tharid",
+  "cuisine": "middle-eastern",
+  "country": "arabie-saoudite",
+  "origin": "Arabie saoudite",
+  "native_name": "Tharid",
+  "title": {
+    "fr": "Tharid, pain trempé dans un ragoût de légumes",
+    "en": "Tharid, bread soaked in vegetable stew"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 100 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ramadan", "pain", "ancien", "legumes"],
+  "ingredients": [
+    { "raw": "4 pains arabes fins, rassis", "qty": 4, "unit": "piece", "item": "khobz", "prep": "rassis" },
+    { "raw": "900 g d'épaule d'agneau, en cubes", "qty": 900, "unit": "g", "item": "épaule d'agneau", "prep": "en cubes" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "4 c. à s. de concentré de tomate", "qty": 4, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "3 courgettes, en tronçons", "qty": 3, "unit": "piece", "item": "courgette", "prep": "en tronçons" },
+    { "raw": "3 carottes, en tronçons", "qty": 3, "unit": "piece", "item": "carotte", "prep": "en tronçons" },
+    { "raw": "1 aubergine, en gros cubes", "qty": 1, "unit": "piece", "item": "aubergine", "prep": "en gros cubes" },
+    { "raw": "1 c. à s. de baharat", "qty": 1, "unit": "tbsp", "item": "baharat" },
+    { "raw": "2 citrons séchés d'Oman", "qty": 2, "unit": "piece", "item": "citron séché d'Oman" },
+    { "raw": "60 g de ghee", "qty": 60, "unit": "g", "item": "ghee" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire dorer la viande dans le ghee avec les oignons.", "en": "Brown the meat in the ghee with the onions." },
+    { "fr": "Ajouter le concentré, le baharat et les citrons séchés percés, mouiller et cuire une heure.", "en": "Add the purée, baharat and pierced dried limes, add water and cook for an hour." },
+    { "fr": "Ajouter les légumes en décalé et poursuivre trente minutes : le bouillon doit rester abondant.", "en": "Add the vegetables in stages and continue for thirty minutes: the broth must stay plentiful." },
+    { "fr": "Casser le pain rassis en morceaux et en tapisser le fond d'un grand plat creux.", "en": "Break the stale bread into pieces and line the base of a large deep dish with it." },
+    { "fr": "Arroser d'abord d'un peu de bouillon seul, pour que le pain gonfle sans se déliter.", "en": "Moisten first with a little broth alone, so the bread swells without dissolving." },
+    { "fr": "Disposer viande et légumes dessus et napper du reste. Servir immédiatement.", "en": "Arrange the meat and vegetables on top and ladle over the rest. Serve at once." }
+  ]
+}

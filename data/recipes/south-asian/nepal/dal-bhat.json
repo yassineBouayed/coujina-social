@@ -1,0 +1,42 @@
+{
+  "slug": "dal-bhat",
+  "cuisine": "south-asian",
+  "country": "nepal",
+  "origin": "Népal",
+  "native_name": "Dal bhat tarkari",
+  "title": {
+    "fr": "Dal bhat, riz, lentilles et légumes du quotidien",
+    "en": "Dal bhat, everyday rice, lentils and vegetables"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["national", "quotidien", "lentille", "riz"],
+  "ingredients": [
+    { "raw": "400 g de riz long grain", "qty": 400, "unit": "g", "item": "riz long grain" },
+    { "raw": "250 g de lentilles corail", "qty": 250, "unit": "g", "item": "lentille corail", "group": "dal" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma", "group": "dal" },
+    { "raw": "1 c. à c. de graines de cumin", "qty": 1, "unit": "tsp", "item": "cumin", "group": "dal" },
+    { "raw": "1 pincée d'asafoetida", "qty": 1, "unit": "pinch", "item": "asafoetida", "group": "dal" },
+    { "raw": "4 gousses d'ail, en lamelles", "qty": 4, "unit": "piece", "item": "ail", "prep": "en lamelles", "group": "dal" },
+    { "raw": "2 piments séchés", "qty": 2, "unit": "piece", "item": "piment séché", "group": "dal" },
+    { "raw": "4 pommes de terre, en cubes", "qty": 4, "unit": "piece", "item": "pomme de terre", "prep": "en cubes", "group": "tarkari" },
+    { "raw": "1 chou-fleur, en bouquets", "qty": 1, "unit": "piece", "item": "chou-fleur", "prep": "en bouquets", "group": "tarkari" },
+    { "raw": "2 tomates, en dés", "qty": 2, "unit": "piece", "item": "tomate", "prep": "en dés", "group": "tarkari" },
+    { "raw": "1 c. à s. de pâte gingembre-ail", "qty": 1, "unit": "tbsp", "item": "pâte gingembre-ail", "group": "tarkari" },
+    { "raw": "8 c. à s. d'huile de moutarde", "qty": 8, "unit": "tbsp", "item": "huile de moutarde" },
+    { "raw": "1 c. à c. de garam masala", "qty": 1, "unit": "tsp", "item": "garam masala" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le dal bhat est un ASSEMBLAGE, pas un plat : riz, dal et un légume, servis ensemble dans un plateau.", "en": "Dal bhat is an ASSEMBLY, not a dish: rice, dal and a vegetable, served together on a tray." },
+    { "fr": "Cuire le dal avec le curcuma vingt-cinq minutes, jusqu'à ce qu'il devienne un velouté fluide.", "en": "Cook the dal with the turmeric for twenty-five minutes, until it becomes a loose soup." },
+    { "fr": "Le dal népalais est LIQUIDE, plus qu'en Inde : il se verse sur le riz, il ne s'y pose pas.", "en": "Nepali dal is LOOSE, more so than in India: it is poured over the rice, not spooned onto it." },
+    { "fr": "Faire éclater le cumin dans l'huile de moutarde avec l'asafoetida, l'ail et les piments, et le verser sur le dal.", "en": "Pop the cumin in mustard oil with the asafoetida, garlic and chillies, and pour it over the dal." },
+    { "fr": "Cuire le tarkari : pommes de terre et chou-fleur avec gingembre-ail, tomates et épices, vingt-cinq minutes.", "en": "Cook the tarkari: potatoes and cauliflower with ginger-garlic, tomatoes and spices, twenty-five minutes." },
+    { "fr": "Dresser le riz au centre, le dal dans un bol à part, et le tarkari autour.", "en": "Plate the rice in the middle, the dal in a separate bowl, and the tarkari around it." }
+  ]
+}

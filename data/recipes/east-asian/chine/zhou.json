@@ -1,0 +1,38 @@
+{
+  "slug": "zhou",
+  "cuisine": "east-asian",
+  "country": "chine",
+  "origin": "Chine",
+  "native_name": "粥",
+  "title": {
+    "fr": "Congee, bouillie de riz du matin",
+    "en": "Congee, morning rice porridge"
+  },
+  "meal_type": "soup",
+  "servings": 5,
+  "times": { "prep_min": 10, "cook_min": 90 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["petit-dejeuner", "convalescence", "riz", "doux"],
+  "ingredients": [
+    { "raw": "200 g de riz long grain", "qty": 200, "unit": "g", "item": "riz long grain" },
+    { "raw": "2,5 l de bouillon de volaille", "qty": 2.5, "unit": "l", "item": "bouillon volaille" },
+    { "raw": "1 morceau de gingembre frais, en julienne", "qty": 1, "unit": "piece", "item": "gingembre", "prep": "en julienne" },
+    { "raw": "300 g de blanc de poulet, effiloché", "qty": 300, "unit": "g", "item": "blanc de poulet", "prep": "effiloché", "optional": true },
+    { "raw": "6 oignons nouveaux, ciselés", "qty": 6, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé", "group": "garniture" },
+    { "raw": "2 c. à s. d'huile de sésame", "qty": 2, "unit": "tbsp", "item": "huile de sésame", "group": "garniture" },
+    { "raw": "2 c. à s. de sauce soja", "qty": 2, "unit": "tbsp", "item": "sauce soja", "group": "garniture" },
+    { "raw": "1 c. à s. d'huile neutre", "qty": 1, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel et poivre blanc", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre blanc", "qty": null, "unit": null, "item": "poivre blanc" }
+  ],
+  "steps": [
+    { "fr": "Rincer le riz, l'égoutter et le mélanger à une cuillère d'huile : cela l'aide à éclater plus vite.", "en": "Rinse the rice, drain it and toss it with a spoon of oil: this helps it break down faster." },
+    { "fr": "Le congelé une heure avant de cuire accélère encore la chose, en fissurant les grains.", "en": "Freezing it for an hour before cooking speeds it up further, by cracking the grains." },
+    { "fr": "Porter le bouillon à ébullition, ajouter le riz et le gingembre, et baisser le feu au minimum.", "en": "Bring the stock to a boil, add the rice and ginger, and turn the heat right down." },
+    { "fr": "Cuire une heure et demie EN REMUANT toutes les dix minutes : le riz accroche dès qu'il épaissit.", "en": "Cook for an hour and a half, STIRRING every ten minutes: the rice catches as soon as it thickens." },
+    { "fr": "Le congee est prêt quand aucun grain n'est plus reconnaissable et qu'il nappe la cuillère.", "en": "Congee is ready when no grain is recognisable and it coats a spoon." },
+    { "fr": "Servir brûlant, chacun assaisonnant son bol de sauce soja, d'huile de sésame et d'oignons nouveaux.", "en": "Serve scalding, each person seasoning their own bowl with soy, sesame oil and spring onions." }
+  ]
+}

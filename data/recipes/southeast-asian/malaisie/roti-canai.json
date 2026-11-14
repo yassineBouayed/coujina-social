@@ -1,0 +1,35 @@
+{
+  "slug": "roti-canai",
+  "cuisine": "southeast-asian",
+  "country": "malaisie",
+  "origin": "Malaisie",
+  "native_name": "Roti canai",
+  "title": {
+    "fr": "Roti canai, galette feuilletée étirée",
+    "en": "Roti canai, stretched flaky flatbread"
+  },
+  "meal_type": "bread",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 25 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["mamak", "petit-dejeuner", "feuillete", "dhal"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé" },
+    { "raw": "28 cl d'eau tiède", "qty": 28, "unit": "cl", "item": "eau" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "3 c. à s. de lait concentré sucré", "qty": 3, "unit": "tbsp", "item": "lait concentré sucré" },
+    { "raw": "1,5 c. à c. de sel", "qty": 1.5, "unit": "tsp", "item": "sel" },
+    { "raw": "15 cl d'huile neutre", "qty": 15, "unit": "cl", "item": "huile neutre" },
+    { "raw": "80 g de ghee", "qty": 80, "unit": "g", "item": "ghee" }
+  ],
+  "steps": [
+    { "fr": "Pétrir la pâte quinze minutes, jusqu'à ce qu'elle soit très élastique et se déchire difficilement.", "en": "Knead the dough for fifteen minutes, until very elastic and hard to tear." },
+    { "fr": "Former des boules, les huiler généreusement, et les laisser reposer QUATRE HEURES DANS L'HUILE.", "en": "Shape balls, oil them generously, and rest them for FOUR HOURS IN OIL." },
+    { "fr": "C'est ce repos immergé, et lui seul, qui permet d'étirer la pâte jusqu'à la transparence.", "en": "That submerged rest, and nothing else, is what lets the dough be stretched translucent." },
+    { "fr": "Aplatir une boule sur un plan huilé et l'étirer à la main jusqu'à voir le plan au travers.", "en": "Flatten a ball on an oiled surface and stretch it by hand until you can see the surface through it." },
+    { "fr": "La replier en accordéon, puis l'enrouler en escargot et laisser reposer dix minutes.", "en": "Fold it concertina-style, then coil it into a spiral and rest it for ten minutes." },
+    { "fr": "L'aplatir et cuire au ghee, trois minutes par face, puis la CLAQUER entre les mains pour la défaire.", "en": "Flatten it and cook in ghee, three minutes a side, then CLAP it between your hands to loosen the layers." }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "chawanmushi",
+  "cuisine": "east-asian",
+  "country": "japon",
+  "origin": "Japon",
+  "native_name": "茶碗蒸し",
+  "title": {
+    "fr": "Chawanmushi, flan salé au dashi",
+    "en": "Chawanmushi, savoury dashi custard"
+  },
+  "meal_type": "starter",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 20 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["vapeur", "dashi", "delicat", "fete"],
+  "ingredients": [
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf" },
+    { "raw": "45 cl de dashi", "qty": 45, "unit": "cl", "item": "kombu", "prep": "en bouillon dashi" },
+    { "raw": "1 c. à s. de sauce soja claire", "qty": 1, "unit": "tbsp", "item": "sauce soja claire" },
+    { "raw": "1 c. à s. de mirin", "qty": 1, "unit": "tbsp", "item": "mirin" },
+    { "raw": "8 crevettes, décortiquées", "qty": 8, "unit": "piece", "item": "crevette", "prep": "décortiquée", "group": "garniture" },
+    { "raw": "4 shiitakes frais, en lamelles", "qty": 4, "unit": "piece", "item": "shiitake", "prep": "en lamelles", "group": "garniture" },
+    { "raw": "120 g de blanc de poulet, en dés", "qty": 120, "unit": "g", "item": "blanc de poulet", "prep": "en dés", "group": "garniture" },
+    { "raw": "4 tiges de mitsuba", "qty": 4, "unit": "piece", "item": "persil plat", "optional": true, "group": "garniture" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le rapport est de UN œuf pour TROIS parts de dashi : plus d'œuf et le flan devient caoutchouteux.", "en": "The ratio is ONE egg to THREE parts dashi: more egg and the custard turns rubbery." },
+    { "fr": "Battre les œufs SANS les faire mousser, à la baguette, en les coupant plutôt qu'en les fouettant.", "en": "Beat the eggs WITHOUT frothing, with chopsticks, cutting through them rather than whisking." },
+    { "fr": "Mélanger au dashi tiède et FILTRER DEUX FOIS : les bulles et les filaments gâchent la surface.", "en": "Mix with the lukewarm dashi and STRAIN TWICE: bubbles and threads spoil the surface." },
+    { "fr": "Répartir la garniture dans les bols et verser l'appareil dessus, doucement.", "en": "Divide the garnish into the bowls and pour the mixture over, gently." },
+    { "fr": "Cuire à la vapeur à FEU DOUX, couvercle entrouvert, quinze minutes : la vapeur violente crée des cratères.", "en": "Steam over LOW heat, lid ajar, for fifteen minutes: fierce steam creates craters." },
+    { "fr": "Le flan est prêt quand un cure-dent planté au centre laisse remonter un liquide clair.", "en": "It is ready when a toothpick pushed into the centre releases a clear liquid." }
+  ]
+}

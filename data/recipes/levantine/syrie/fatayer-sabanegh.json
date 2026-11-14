@@ -1,0 +1,40 @@
+{
+  "slug": "fatayer-sabanegh",
+  "cuisine": "levantine",
+  "country": "syrie",
+  "origin": "Syrie",
+  "native_name": "Fatayer sabanegh",
+  "title": {
+    "fr": "Fatayer aux épinards et au sumac",
+    "en": "Spinach and sumac fatayer"
+  },
+  "meal_type": "starter",
+  "servings": 8,
+  "times": { "prep_min": 50, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["careme", "epinard", "sumac", "boulangerie"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "1 c. à s. de levure boulangère sèche", "qty": 1, "unit": "tbsp", "item": "levure boulangère", "group": "pâte" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel", "group": "pâte" },
+    { "raw": "28 cl d'eau tiède", "qty": 28, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "6 c. à s. d'huile d'olive", "qty": 6, "unit": "tbsp", "item": "huile d'olive", "group": "pâte" },
+    { "raw": "800 g d'épinards, ciselés", "qty": 800, "unit": "g", "item": "épinard", "prep": "ciselé", "group": "farce" },
+    { "raw": "2 oignons, hachés finement", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché finement", "group": "farce" },
+    { "raw": "3 c. à s. de sumac", "qty": 3, "unit": "tbsp", "item": "sumac", "group": "farce" },
+    { "raw": "2 citrons, leur jus", "qty": 2, "unit": "piece", "item": "citron", "group": "farce" },
+    { "raw": "60 g de pignons de pin", "qty": 60, "unit": "g", "item": "pignon de pin", "optional": true, "group": "farce" },
+    { "raw": "5 c. à s. d'huile d'olive", "qty": 5, "unit": "tbsp", "item": "huile d'olive", "group": "farce" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Pétrir la pâte et la laisser lever une heure et demie.", "en": "Knead the dough and prove it for an hour and a half." },
+    { "fr": "Saler les épinards crus et les laisser dégorger vingt minutes, puis les PRESSER à s'en faire mal aux mains.", "en": "Salt the raw spinach and let it weep for twenty minutes, then SQUEEZE it until your hands ache." },
+    { "fr": "Une farce humide fait s'ouvrir les fatayer au four : c'est l'unique cause d'échec.", "en": "A wet filling makes fatayer burst open in the oven: the single cause of failure." },
+    { "fr": "Mélanger les épinards pressés avec l'oignon, le sumac, le citron, les pignons et l'huile.", "en": "Mix the squeezed spinach with the onion, sumac, lemon, pine nuts and oil." },
+    { "fr": "Découper des disques, garnir, et pincer en TRIANGLE à trois coutures, bien scellées.", "en": "Cut discs, fill them, and pinch into a TRIANGLE with three seams, tightly sealed." },
+    { "fr": "Cuire 18 minutes à 220 °C, jusqu'à ce que les coutures soient dorées.", "en": "Bake for 18 minutes at 220°C, until the seams are golden." }
+  ]
+}

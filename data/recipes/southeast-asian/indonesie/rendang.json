@@ -1,0 +1,45 @@
+{
+  "slug": "rendang",
+  "cuisine": "southeast-asian",
+  "country": "indonesie",
+  "origin": "Indonésie",
+  "native_name": "Rendang",
+  "title": {
+    "fr": "Rendang, bœuf confit au lait de coco",
+    "en": "Rendang, beef braised dry in coconut milk"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 240 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["padang", "cuisson-lente", "coco", "fete"],
+  "ingredients": [
+    { "raw": "1,5 kg de bœuf à mijoter, en gros cubes", "qty": 1500, "unit": "g", "item": "boeuf à mijoter", "prep": "en gros cubes" },
+    { "raw": "1,5 l de lait de coco", "qty": 1.5, "unit": "l", "item": "lait de coco" },
+    { "raw": "12 échalotes", "qty": 12, "unit": "piece", "item": "échalote", "group": "pâte" },
+    { "raw": "8 gousses d'ail", "qty": 8, "unit": "piece", "item": "ail", "group": "pâte" },
+    { "raw": "12 piments séchés, trempés", "qty": 12, "unit": "piece", "item": "piment séché", "prep": "trempé", "group": "pâte" },
+    { "raw": "6 noix de bancoul", "qty": 6, "unit": "piece", "item": "noix de bancoul", "group": "pâte" },
+    { "raw": "1 morceau de galanga", "qty": 1, "unit": "piece", "item": "galanga", "group": "pâte" },
+    { "raw": "1 morceau de curcuma frais", "qty": 1, "unit": "piece", "item": "curcuma frais", "group": "pâte" },
+    { "raw": "1 morceau de gingembre", "qty": 1, "unit": "piece", "item": "gingembre", "group": "pâte" },
+    { "raw": "4 tiges de citronnelle, écrasées", "qty": 4, "unit": "piece", "item": "citronnelle", "prep": "écrasée" },
+    { "raw": "8 feuilles de combava", "qty": 8, "unit": "piece", "item": "feuille de combava" },
+    { "raw": "3 feuilles de laurier", "qty": 3, "unit": "piece", "item": "laurier" },
+    { "raw": "3 c. à s. de sucre de palme", "qty": 3, "unit": "tbsp", "item": "sucre de palme" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le rendang n'est PAS un curry : c'est une viande confite dans le lait de coco jusqu'à ce qu'il n'en reste rien.", "en": "Rendang is NOT a curry: it is meat confited in coconut milk until none of it is left." },
+    { "fr": "Mixer tous les aromates de la pâte en une purée lisse et la faire revenir dix minutes.", "en": "Blend all the paste aromatics into a smooth purée and fry it for ten minutes." },
+    { "fr": "Ajouter la viande, le lait de coco et les feuilles, et laisser mijoter À DÉCOUVERT quatre heures.", "en": "Add the meat, coconut milk and leaves, and simmer UNCOVERED for four hours." },
+    { "fr": "Le plat traverse trois états : gulai liquide, kalio brun, puis rendang noir et sec.", "en": "The dish passes through three states: liquid gulai, brown kalio, then black, dry rendang." },
+    { "fr": "Remuer sans arrêt la dernière heure : l'huile de coco se sépare et la viande frit DEDANS.", "en": "Stir constantly for the last hour: the coconut oil separates and the meat fries IN it." },
+    { "fr": "Le rendang est prêt quand il est brun foncé, sec, et que la viande s'effiloche au doigt.", "en": "Rendang is ready when it is dark brown, dry, and the meat shreds under a finger." }
+  ],
+  "notes": [
+    { "fr": "Arrêté au stade kalio — sauce brune encore liquide — c'est un très bon plat, mais ce n'est pas un rendang.", "en": "Stopped at the kalio stage — a brown, still-liquid sauce — it is a very good dish, but it is not rendang." }
+  ]
+}

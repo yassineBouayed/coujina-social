@@ -1,0 +1,41 @@
+{
+  "slug": "khasi-ko-masu",
+  "cuisine": "south-asian",
+  "country": "nepal",
+  "origin": "Népal",
+  "native_name": "Khasi ko masu",
+  "title": {
+    "fr": "Khasi ko masu, curry de chèvre des grandes occasions",
+    "en": "Khasi ko masu, goat curry for special occasions"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 120 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["dashain", "chevre", "fete", "timur"],
+  "ingredients": [
+    { "raw": "1,2 kg de viande de chèvre, en morceaux avec os", "qty": 1200, "unit": "g", "item": "viande de chèvre", "prep": "en morceaux" },
+    { "raw": "4 oignons, émincés", "qty": 4, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "3 c. à s. de pâte gingembre-ail", "qty": 3, "unit": "tbsp", "item": "pâte gingembre-ail" },
+    { "raw": "4 tomates, râpées", "qty": 4, "unit": "piece", "item": "tomate", "prep": "râpée" },
+    { "raw": "2 c. à c. de timur, moulu", "qty": 2, "unit": "tsp", "item": "timur", "prep": "moulu" },
+    { "raw": "2 c. à s. de piment en poudre", "qty": 2, "unit": "tbsp", "item": "piment en poudre" },
+    { "raw": "1 c. à s. de coriandre en graines, moulue", "qty": 1, "unit": "tbsp", "item": "coriandre graines", "prep": "moulue" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "1 c. à c. de garam masala", "qty": 1, "unit": "tsp", "item": "garam masala" },
+    { "raw": "4 cardamomes noires", "qty": 4, "unit": "piece", "item": "cardamome noire" },
+    { "raw": "12 cl d'huile de moutarde", "qty": 12, "unit": "cl", "item": "huile de moutarde" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "La chèvre se cuit AVEC les os : c'est la moelle qui donne au bouillon sa profondeur.", "en": "Goat is cooked ON THE BONE: the marrow gives the broth its depth." },
+    { "fr": "Chauffer l'huile de moutarde jusqu'à ce qu'elle fume, puis y faire brunir les oignons vingt minutes.", "en": "Heat the mustard oil until it smokes, then brown the onions in it for twenty minutes." },
+    { "fr": "Ajouter gingembre-ail, épices délayées et viande, et la saisir à feu vif.", "en": "Add the ginger-garlic, slaked spices and meat, and sear it over high heat." },
+    { "fr": "Ajouter les tomates râpées et cuire jusqu'à ce que l'huile se sépare.", "en": "Add the grated tomatoes and cook until the oil separates." },
+    { "fr": "Mouiller à hauteur et laisser mijoter une heure et demie à couvert, à feu très doux.", "en": "Cover with water and simmer for an hour and a half, covered, over very low heat." },
+    { "fr": "Finir au timur moulu et au garam masala hors du feu : le timur cuit perd son picotement.", "en": "Finish with ground timur and garam masala off the heat: cooked, timur loses its tingle." }
+  ]
+}

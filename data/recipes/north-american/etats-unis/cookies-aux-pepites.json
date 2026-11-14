@@ -1,0 +1,37 @@
+{
+  "slug": "cookies-aux-pepites",
+  "cuisine": "north-american",
+  "country": "etats-unis",
+  "origin": "États-Unis",
+  "native_name": "Chocolate chip cookies",
+  "title": {
+    "fr": "Cookies aux pépites de chocolat",
+    "en": "Chocolate chip cookies"
+  },
+  "meal_type": "dessert",
+  "servings": 16,
+  "times": { "prep_min": 25, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["gouter", "chocolat", "enfants", "embleme"],
+  "ingredients": [
+    { "raw": "350 g de farine de blé", "qty": 350, "unit": "g", "item": "farine de blé" },
+    { "raw": "220 g de beurre", "qty": 220, "unit": "g", "item": "beurre" },
+    { "raw": "180 g de sucre roux", "qty": 180, "unit": "g", "item": "sucre roux" },
+    { "raw": "100 g de sucre", "qty": 100, "unit": "g", "item": "sucre" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf" },
+    { "raw": "300 g de chocolat noir, en gros morceaux", "qty": 300, "unit": "g", "item": "chocolat noir", "prep": "en gros morceaux" },
+    { "raw": "1 c. à c. de bicarbonate de soude", "qty": 1, "unit": "tsp", "item": "bicarbonate de soude" },
+    { "raw": "2 c. à c. d'extrait de vanille", "qty": 2, "unit": "tsp", "item": "extrait de vanille" },
+    { "raw": "1 c. à c. de gros sel", "qty": 1, "unit": "tsp", "item": "gros sel" }
+  ],
+  "steps": [
+    { "fr": "Faire un BEURRE NOISETTE et le laisser refroidir : il apporte un goût de caramel qu'aucun autre geste ne donne.", "en": "Make a BROWN BUTTER and let it cool: it brings a caramel note nothing else provides." },
+    { "fr": "Le SUCRE ROUX donne le moelleux, le sucre blanc le croustillant : le mélange équilibre les deux.", "en": "BROWN SUGAR gives chewiness, white sugar gives crispness: the mix balances both." },
+    { "fr": "RÉFRIGÉRER la pâte VINGT-QUATRE HEURES : c'est l'étape que tout le monde saute, et elle change tout.", "en": "CHILL the dough for TWENTY-FOUR HOURS: the step everyone skips, and it changes everything." },
+    { "fr": "Le repos hydrate la farine et concentre le goût : les cookies s'étalent moins et brunissent mieux.", "en": "Resting hydrates the flour and concentrates the flavour: they spread less and brown better." },
+    { "fr": "Utiliser du chocolat en GROS MORCEAUX, pas des pépites : ils forment des coulées, pas des points.", "en": "Use chocolate in LARGE CHUNKS, not chips: they form pools, not dots." },
+    { "fr": "Cuire douze minutes à 180 °C : les bords pris, le centre encore MOU. Ils finissent sur la plaque.", "en": "Bake for twelve minutes at 180°C: edges set, centre still SOFT. They finish on the tray." }
+  ]
+}

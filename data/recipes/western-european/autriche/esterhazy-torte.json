@@ -1,0 +1,41 @@
+{
+  "slug": "esterhazy-torte",
+  "cuisine": "western-european",
+  "country": "autriche",
+  "origin": "Autriche",
+  "native_name": "Esterházy-Torte",
+  "title": {
+    "fr": "Torte Esterházy aux amandes",
+    "en": "Esterházy almond torte"
+  },
+  "meal_type": "dessert",
+  "servings": 12,
+  "times": { "prep_min": 75, "cook_min": 50 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["vienne", "amande", "fete", "technique"],
+  "ingredients": [
+    { "raw": "8 blancs d'œufs", "qty": 8, "unit": "piece", "item": "oeuf", "group": "disques" },
+    { "raw": "250 g de sucre", "qty": 250, "unit": "g", "item": "sucre", "group": "disques" },
+    { "raw": "250 g de poudre d'amande", "qty": 250, "unit": "g", "item": "poudre d'amande", "group": "disques" },
+    { "raw": "40 g de farine de blé", "qty": 40, "unit": "g", "item": "farine de blé", "group": "disques" },
+    { "raw": "50 cl de lait entier", "qty": 50, "unit": "cl", "item": "lait entier", "group": "crème" },
+    { "raw": "6 jaunes d'œufs", "qty": 6, "unit": "piece", "item": "oeuf", "group": "crème" },
+    { "raw": "120 g de sucre", "qty": 120, "unit": "g", "item": "sucre", "group": "crème" },
+    { "raw": "40 g de maïzena", "qty": 40, "unit": "g", "item": "maïzena", "group": "crème" },
+    { "raw": "250 g de beurre, mou", "qty": 250, "unit": "g", "item": "beurre", "prep": "mou", "group": "crème" },
+    { "raw": "250 g de sucre glace", "qty": 250, "unit": "g", "item": "sucre glace", "group": "glaçage" },
+    { "raw": "50 g de chocolat noir", "qty": 50, "unit": "g", "item": "chocolat noir", "group": "glaçage" },
+    { "raw": "150 g d'amandes effilées, grillées", "qty": 150, "unit": "g", "item": "amande effilée", "prep": "grillée", "group": "décor" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "La torte est faite de CINQ disques de dacquoise aux amandes, sans farine ou presque.", "en": "The torte is built from FIVE almond dacquoise discs, with almost no flour." },
+    { "fr": "Tracer les cercles au crayon sous le papier cuisson : ils doivent être RIGOUREUSEMENT identiques.", "en": "Trace the circles in pencil under the baking paper: they must be RIGOROUSLY identical." },
+    { "fr": "Cuire chaque disque quinze minutes à 170 °C : ils doivent être secs mais pas colorés.", "en": "Bake each disc for fifteen minutes at 170°C: dry but not coloured." },
+    { "fr": "La crème est une pâtissière montée au BEURRE : les deux doivent être à la MÊME température.", "en": "The cream is a pastry cream beaten with BUTTER: both must be at the SAME temperature." },
+    { "fr": "Si l'une est froide et l'autre tiède, la crème tranche en grains et ne se rattrape pas.", "en": "If one is cold and the other warm, the cream splits into grains and cannot be saved." },
+    { "fr": "Le décor en toile d'araignée se fait au chocolat sur le glaçage ENCORE HUMIDE, tiré à la pointe.", "en": "The cobweb pattern is drawn in chocolate on the STILL-WET glaze, pulled with a skewer." }
+  ]
+}

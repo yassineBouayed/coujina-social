@@ -1,0 +1,30 @@
+{
+  "slug": "the-au-jasmin",
+  "cuisine": "east-asian",
+  "country": "chine",
+  "origin": "Chine",
+  "native_name": "茉莉花茶",
+  "title": {
+    "fr": "Thé au jasmin infusé plusieurs fois",
+    "en": "Jasmine tea, steeped several times"
+  },
+  "meal_type": "drink",
+  "servings": 4,
+  "times": { "prep_min": 5, "cook_min": 10 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["the", "jasmin", "accueil", "quotidien"],
+  "ingredients": [
+    { "raw": "6 g de thé vert au jasmin", "qty": 6, "unit": "g", "item": "thé vert" },
+    { "raw": "75 cl d'eau", "qty": 75, "unit": "cl", "item": "eau" }
+  ],
+  "steps": [
+    { "fr": "Chauffer l'eau à 80 °C, pas plus : l'eau bouillante brûle le thé vert et le rend amer.", "en": "Heat the water to 80°C, no more: boiling water scorches green tea and makes it bitter." },
+    { "fr": "Rincer les feuilles avec un peu d'eau chaude et jeter cette première eau immédiatement.", "en": "Rinse the leaves with a little hot water and discard that first water at once." },
+    { "fr": "Ce rinçage ouvre les feuilles roulées et enlève la poussière : il ne remplace pas l'infusion.", "en": "That rinse opens the rolled leaves and washes off dust: it does not replace the steeping." },
+    { "fr": "Première infusion : trente secondes seulement. Le thé au jasmin s'infuse court.", "en": "First steeping: thirty seconds only. Jasmine tea steeps briefly." },
+    { "fr": "Les mêmes feuilles se réinfusent quatre à cinq fois, en ajoutant dix secondes à chaque fois.", "en": "The same leaves are steeped four or five times, adding ten seconds each round." },
+    { "fr": "Chaque infusion a un goût différent : la deuxième est souvent la meilleure.", "en": "Each steeping tastes different: the second is often the best." }
+  ]
+}

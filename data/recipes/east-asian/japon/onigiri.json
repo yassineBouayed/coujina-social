@@ -1,0 +1,34 @@
+{
+  "slug": "onigiri",
+  "cuisine": "east-asian",
+  "country": "japon",
+  "origin": "Japon",
+  "native_name": "おにぎり",
+  "title": {
+    "fr": "Onigiri, boules de riz au saumon et à l'algue",
+    "en": "Onigiri, rice balls with salmon and nori"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["bento", "riz", "pique-nique", "enfance"],
+  "ingredients": [
+    { "raw": "500 g de riz rond", "qty": 500, "unit": "g", "item": "riz rond" },
+    { "raw": "200 g de saumon", "qty": 200, "unit": "g", "item": "saumon" },
+    { "raw": "4 feuilles de nori, en bandes", "qty": 4, "unit": "piece", "item": "nori", "prep": "en bandes" },
+    { "raw": "2 c. à s. de graines de sésame noir", "qty": 2, "unit": "tbsp", "item": "sésame noir" },
+    { "raw": "1 c. à s. de sauce soja", "qty": 1, "unit": "tbsp", "item": "sauce soja" },
+    { "raw": "1 c. à s. de gros sel", "qty": 1, "unit": "tbsp", "item": "gros sel" }
+  ],
+  "steps": [
+    { "fr": "Utiliser du riz rond japonais : c'est son amidon qui fait tenir la boule, et lui seul.", "en": "Use Japanese short-grain rice: its starch is what holds the ball together, and nothing else." },
+    { "fr": "Le rincer jusqu'à ce que l'eau soit claire, le cuire, et le laisser reposer dix minutes à couvert.", "en": "Rinse it until the water runs clear, cook it, and rest it for ten minutes covered." },
+    { "fr": "Le façonner TIÈDE, jamais chaud ni froid : chaud il brûle les mains, froid il ne colle plus.", "en": "Shape it WARM, never hot or cold: hot it burns the hands, cold it no longer sticks." },
+    { "fr": "Se mouiller les mains à l'eau salée avant chaque boule : c'est ce qui sale l'onigiri et l'empêche de coller.", "en": "Wet your hands with salted water before each ball: this both salts the onigiri and stops it sticking." },
+    { "fr": "Presser en triangle en trois gestes fermes, pas plus : trop pressé, le riz devient compact.", "en": "Press into a triangle in three firm movements, no more: over-pressed, the rice turns dense." },
+    { "fr": "Poser la bande de nori AU MOMENT DE MANGER : posée à l'avance, elle ramollit et devient caoutchouteuse.", "en": "Add the nori strip AT THE MOMENT OF EATING: added in advance, it softens and turns rubbery." }
+  ]
+}

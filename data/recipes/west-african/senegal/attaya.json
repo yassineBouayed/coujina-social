@@ -1,0 +1,32 @@
+{
+  "slug": "attaya",
+  "cuisine": "west-african",
+  "country": "senegal",
+  "origin": "Sénégal",
+  "native_name": "Ataya",
+  "title": {
+    "fr": "Attaya, thé sénégalais en trois verres",
+    "en": "Attaya, Senegalese three-glass tea"
+  },
+  "meal_type": "drink",
+  "servings": 4,
+  "times": { "prep_min": 10, "cook_min": 45 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["the", "rituel", "menthe", "partage"],
+  "ingredients": [
+    { "raw": "3 c. à s. de thé vert", "qty": 3, "unit": "tbsp", "item": "thé vert" },
+    { "raw": "200 g de sucre", "qty": 200, "unit": "g", "item": "sucre" },
+    { "raw": "1 bouquet de menthe fraîche", "qty": 1, "unit": "bunch", "item": "menthe fraîche" },
+    { "raw": "50 cl d'eau", "qty": 50, "unit": "cl", "item": "eau" }
+  ],
+  "steps": [
+    { "fr": "Faire bouillir le thé dans une petite théière, cinq minutes, jusqu'à ce qu'il soit très amer.", "en": "Boil the tea in a small pot for five minutes, until very bitter." },
+    { "fr": "Le premier verre est amer comme la mort : peu de sucre, beaucoup de mousse. On le sert d'abord.", "en": "The first glass is bitter as death: little sugar, plenty of foam. It is served first." },
+    { "fr": "Faire mousser en versant de haut, d'un verre à l'autre, jusqu'à obtenir un col épais.", "en": "Raise the foam by pouring from a height, glass to glass, until a thick head forms." },
+    { "fr": "Remettre les feuilles à bouillir avec de l'eau et plus de sucre pour le deuxième verre, doux comme la vie.", "en": "Boil the leaves again with water and more sugar for the second glass, sweet as life." },
+    { "fr": "Ajouter la menthe au troisième, très sucré, doux comme l'amour.", "en": "Add the mint to the third, very sweet, sweet as love." },
+    { "fr": "Chaque tour prend un quart d'heure. Presser l'attaya, c'est en manquer le sens.", "en": "Each round takes a quarter of an hour. Rushing attaya is missing its point." }
+  ]
+}

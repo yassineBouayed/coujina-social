@@ -1,0 +1,36 @@
+{
+  "slug": "gomen",
+  "cuisine": "east-african",
+  "country": "ethiopie",
+  "origin": "Éthiopie",
+  "native_name": "Gomen",
+  "title": {
+    "fr": "Gomen, chou frisé mijoté à l'ail",
+    "en": "Gomen, braised collard greens with garlic"
+  },
+  "meal_type": "side",
+  "servings": 5,
+  "times": { "prep_min": 15, "cook_min": 40 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["legume", "jeune", "accompagnement", "vert"],
+  "ingredients": [
+    { "raw": "800 g de chou frisé, en lanières", "qty": 800, "unit": "g", "item": "chou frisé", "prep": "en lanières" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "6 gousses d'ail, écrasées", "qty": 6, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "2 c. à s. de gingembre frais, râpé", "qty": 2, "unit": "tbsp", "item": "gingembre", "prep": "râpé" },
+    { "raw": "60 g de niter kibbeh", "qty": 60, "unit": "g", "item": "beurre", "prep": "clarifié aux épices" },
+    { "raw": "2 piments verts, fendus", "qty": 2, "unit": "piece", "item": "piment frais", "prep": "fendu" },
+    { "raw": "1/2 c. à c. de curcuma", "qty": 0.5, "unit": "tsp", "item": "curcuma", "optional": true },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Retirer les grosses côtes des feuilles : elles restent dures même après quarante minutes.", "en": "Strip the thick ribs from the leaves: they stay tough even after forty minutes." },
+    { "fr": "Blanchir les feuilles cinq minutes, les égoutter et les presser fortement.", "en": "Blanch the leaves for five minutes, drain and squeeze them hard." },
+    { "fr": "Faire fondre les oignons dans le niter kibbeh, puis ajouter ail, gingembre et curcuma.", "en": "Melt the onions in the niter kibbeh, then add the garlic, ginger and turmeric." },
+    { "fr": "Ajouter le chou pressé, les piments fendus et un fond d'eau.", "en": "Add the squeezed greens, split chillies and a splash of water." },
+    { "fr": "Laisser mijoter trente minutes à couvert, jusqu'à ce que le chou soit tendre et le fond sec.", "en": "Simmer covered for thirty minutes, until the greens are tender and the pan dry." },
+    { "fr": "Saler en fin de cuisson et servir tiède, à côté d'un wat.", "en": "Salt at the end and serve warm, alongside a wat." }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "frappe-grec",
+  "cuisine": "mediterranean",
+  "country": "grece",
+  "origin": "Grèce",
+  "native_name": "Φραπές",
+  "title": {
+    "fr": "Frappé grec au café",
+    "en": "Greek coffee frappé"
+  },
+  "meal_type": "drink",
+  "servings": 2,
+  "times": { "prep_min": 10, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ete", "cafe", "froid", "rapide"],
+  "ingredients": [
+    { "raw": "4 c. à c. de café soluble", "qty": 4, "unit": "tsp", "item": "café soluble" },
+    { "raw": "4 c. à c. de sucre", "qty": 4, "unit": "tsp", "item": "sucre" },
+    { "raw": "10 cl d'eau froide", "qty": 10, "unit": "cl", "item": "eau" },
+    { "raw": "10 cl de lait évaporé", "qty": 10, "unit": "cl", "item": "lait évaporé", "optional": true },
+    { "raw": "20 glaçons", "qty": 20, "unit": "piece", "item": "eau", "prep": "en glaçons" }
+  ],
+  "steps": [
+    { "fr": "Le frappé se fait au café SOLUBLE, jamais à l'expresso : c'est lui qui donne la mousse.", "en": "Frappé is made with INSTANT coffee, never espresso: the instant is what makes the foam." },
+    { "fr": "Ce n'est pas un pis-aller : le soluble contient les protéines qui stabilisent la mousse.", "en": "That is not a compromise: instant coffee holds the proteins that stabilise the foam." },
+    { "fr": "Battre café, sucre et TRÈS PEU d'eau — trois cuillères — au shaker ou au batteur.", "en": "Beat the coffee, sugar and VERY LITTLE water — three spoonfuls — in a shaker or with a whisk." },
+    { "fr": "Battre DEUX MINUTES : la mousse doit être épaisse, beige, et tenir seule à la cuillère.", "en": "Beat for TWO MINUTES: the foam should be thick, beige, and hold on a spoon." },
+    { "fr": "Verser dans un grand verre, ajouter les glaçons, puis l'eau froide et le lait évaporé.", "en": "Pour into a tall glass, add the ice, then the cold water and evaporated milk." },
+    { "fr": "Boire à la PAILLE, depuis le fond : c'est ainsi qu'on garde la mousse jusqu'à la dernière gorgée.", "en": "Drink through a STRAW, from the bottom: that is how the foam survives to the last sip." }
+  ]
+}

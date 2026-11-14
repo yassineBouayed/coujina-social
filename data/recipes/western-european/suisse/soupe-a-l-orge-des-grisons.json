@@ -1,0 +1,41 @@
+{
+  "slug": "soupe-a-l-orge-des-grisons",
+  "cuisine": "western-european",
+  "country": "suisse",
+  "origin": "Suisse",
+  "native_name": "Bündner Gerstensuppe",
+  "title": {
+    "fr": "Soupe d'orge des Grisons",
+    "en": "Grisons barley soup"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 90 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["grisons", "orge", "montagne", "hiver"],
+  "ingredients": [
+    { "raw": "250 g d'orge perlé", "qty": 250, "unit": "g", "item": "orge perlé" },
+    { "raw": "200 g de viande séchée, en lanières", "qty": 200, "unit": "g", "item": "viande séchée", "prep": "en lanières" },
+    { "raw": "150 g de lardons", "qty": 150, "unit": "g", "item": "lardon" },
+    { "raw": "3 carottes, en dés", "qty": 3, "unit": "piece", "item": "carotte", "prep": "en dés" },
+    { "raw": "1/2 céleri-rave, en dés", "qty": 0.5, "unit": "piece", "item": "céleri-rave", "prep": "en dés" },
+    { "raw": "2 poireaux, en rondelles", "qty": 2, "unit": "piece", "item": "poireau", "prep": "en rondelles" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "200 g de haricots blancs cuits", "qty": 200, "unit": "g", "item": "haricot blanc", "prep": "cuit" },
+    { "raw": "1,8 l de bouillon de bœuf", "qty": 1.8, "unit": "l", "item": "bouillon boeuf" },
+    { "raw": "20 cl de crème liquide", "qty": 20, "unit": "cl", "item": "crème liquide" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "L'ORGE PERLÉ épaissit la soupe tout seul : il libère son amidon pendant l'heure et demie de cuisson.", "en": "PEARL BARLEY thickens the soup by itself: it releases starch over the hour and a half." },
+    { "fr": "Le rincer à l'eau froide avant : cela ôte la poussière d'amidon qui trouble le bouillon.", "en": "Rinse it in cold water first: this removes the starch dust that clouds the broth." },
+    { "fr": "Faire fondre lardons et légumes racines quinze minutes, sans coloration.", "en": "Render the bacon and melt the root vegetables for fifteen minutes, without colouring." },
+    { "fr": "Ajouter l'orge et le bouillon, et cuire une heure et demie à petits frémissements.", "en": "Add the barley and stock, and cook for an hour and a half at a bare simmer." },
+    { "fr": "Ajouter la VIANDE SÉCHÉE les dix dernières minutes : cuite plus longtemps, elle durcit.", "en": "Add the AIR-DRIED BEEF in the last ten minutes: cooked longer, it toughens." },
+    { "fr": "Ajouter la crème hors du feu, et goûter avant de saler : la viande séchée est très salée.", "en": "Add the cream off the heat, and taste before salting: air-dried beef is very salty." }
+  ]
+}

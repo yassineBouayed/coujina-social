@@ -1,0 +1,33 @@
+# Catégories d'ingrédients.
+# La colonne `aisle` est le rayon utilisé pour regrouper la liste de courses (J3).
+# La section « épicerie spécialisée » n'est PAS un rayon : elle est calculée à
+# part, depuis availability, conformément à SPEC.md section 7.
+slug|name_fr|name_en|aisle|sort_order
+legumes|Légumes|Vegetables|produce|10
+herbes-fraiches|Herbes fraîches|Fresh herbs|produce|20
+fruits|Fruits|Fruits|produce|30
+tubercules|Tubercules et racines|Tubers and roots|produce|40
+viandes|Viandes|Meat|butcher|50
+volailles|Volailles|Poultry|butcher|60
+charcuterie|Charcuterie|Cured meats|butcher|70
+poissons|Poissons|Fish|fish|80
+fruits-de-mer|Fruits de mer|Seafood|fish|90
+produits-laitiers|Produits laitiers|Dairy|dairy|100
+oeufs|Œufs|Eggs|dairy|110
+cereales|Céréales et pâtes|Grains and pasta|dry-goods|120
+farines|Farines et semoules|Flours and semolina|dry-goods|130
+pains|Pains et galettes|Breads and flatbreads|bakery|140
+legumineuses|Légumineuses|Pulses|dry-goods|150
+noix-graines|Noix et graines|Nuts and seeds|dry-goods|160
+epices|Épices|Spices|spices|170
+melanges-epices|Mélanges d'épices|Spice blends|spices|180
+condiments|Condiments et sauces|Condiments and sauces|condiments|190
+pates-aromatiques|Pâtes et bases aromatiques|Aromatic pastes and bases|condiments|200
+matieres-grasses|Matières grasses|Fats and oils|condiments|210
+conserves|Conserves|Canned goods|canned|220
+laits-vegetaux|Laits et crèmes végétales|Plant milks and creams|canned|230
+fermentes|Produits fermentés et saumures|Fermented and pickled|condiments|240
+sucrants|Sucres et sucrants|Sugars and sweeteners|baking|250
+patisserie|Aide à la pâtisserie|Baking aids|baking|260
+boissons|Boissons et liquides|Beverages and liquids|beverages|270
+surgeles|Surgelés|Frozen|frozen|280

@@ -1,0 +1,40 @@
+{
+  "slug": "tod-man-pla",
+  "cuisine": "southeast-asian",
+  "country": "thailande",
+  "origin": "Thaïlande",
+  "native_name": "ทอดมันปลา",
+  "title": {
+    "fr": "Tod man pla, galettes de poisson au curry rouge",
+    "en": "Tod man pla, red curry fish cakes"
+  },
+  "meal_type": "starter",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["friture", "poisson", "curry-rouge", "apero"],
+  "ingredients": [
+    { "raw": "700 g de filets de cabillaud", "qty": 700, "unit": "g", "item": "cabillaud" },
+    { "raw": "4 c. à s. de pâte de curry rouge", "qty": 4, "unit": "tbsp", "item": "pâte de curry rouge" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "3 c. à s. de sauce poisson", "qty": 3, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "1 c. à s. de sucre de palme", "qty": 1, "unit": "tbsp", "item": "sucre de palme" },
+    { "raw": "150 g de haricots verts, en fines rondelles", "qty": 150, "unit": "g", "item": "haricot vert", "prep": "en fines rondelles" },
+    { "raw": "8 feuilles de combava, en fine julienne", "qty": 8, "unit": "piece", "item": "feuille de combava", "prep": "en fine julienne" },
+    { "raw": "1 concombre, en dés", "qty": 1, "unit": "piece", "item": "concombre", "prep": "en dés", "group": "service" },
+    { "raw": "5 c. à s. de vinaigre de riz", "qty": 5, "unit": "tbsp", "item": "vinaigre de riz", "group": "service" },
+    { "raw": "3 c. à s. de sucre", "qty": 3, "unit": "tbsp", "item": "sucre", "group": "service" },
+    { "raw": "60 g d'arachides grillées", "qty": 60, "unit": "g", "item": "arachide grillée", "group": "service" },
+    { "raw": "1 l d'huile neutre pour la friture", "qty": 1, "unit": "l", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Mixer le poisson avec la pâte de curry, l'œuf et les assaisonnements jusqu'à obtenir une pâte COLLANTE.", "en": "Blend the fish with the curry paste, egg and seasonings into a STICKY paste." },
+    { "fr": "Battre ensuite la pâte contre le bol, une trentaine de fois : c'est ce qui donne le rebond typique.", "en": "Then slap the paste against the bowl, about thirty times: this is what gives the springy bounce." },
+    { "fr": "Sans ce battage, la galette est molle et friable, et n'a rien du tod man de rue.", "en": "Without that slapping, the cake is soft and crumbly, nothing like a street tod man." },
+    { "fr": "Incorporer les haricots verts et la julienne de combava à la main, sans mixer.", "en": "Fold in the green beans and shredded lime leaf by hand, without blending." },
+    { "fr": "Former des galettes fines à mains mouillées et frire à 175 °C, deux minutes par face.", "en": "Shape thin patties with wet hands and fry at 175°C, two minutes a side." },
+    { "fr": "Servir avec la sauce au concombre et au vinaigre sucré, couverte d'arachides concassées.", "en": "Serve with the cucumber and sweet vinegar sauce, topped with crushed peanuts." }
+  ]
+}

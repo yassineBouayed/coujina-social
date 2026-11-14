@@ -1,0 +1,40 @@
+{
+  "slug": "goi-ga",
+  "cuisine": "southeast-asian",
+  "country": "vietnam",
+  "origin": "Viêt Nam",
+  "native_name": "Gỏi gà",
+  "title": {
+    "fr": "Gỏi gà, salade de poulet au chou et à la menthe",
+    "en": "Goi ga, chicken and cabbage salad with mint"
+  },
+  "meal_type": "salad",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["froid", "herbes", "chou", "citron-vert"],
+  "ingredients": [
+    { "raw": "600 g de blanc de poulet", "qty": 600, "unit": "g", "item": "blanc de poulet" },
+    { "raw": "1/2 chou blanc, en très fines lanières", "qty": 0.5, "unit": "piece", "item": "chou blanc", "prep": "en très fines lanières" },
+    { "raw": "2 carottes, en julienne", "qty": 2, "unit": "piece", "item": "carotte", "prep": "en julienne" },
+    { "raw": "1 oignon rouge, émincé", "qty": 1, "unit": "piece", "item": "oignon rouge", "prep": "émincé" },
+    { "raw": "1 bouquet de menthe fraîche", "qty": 1, "unit": "bunch", "item": "menthe fraîche" },
+    { "raw": "1 bouquet de coriandre fraîche", "qty": 1, "unit": "bunch", "item": "coriandre fraîche" },
+    { "raw": "6 c. à s. de sauce poisson", "qty": 6, "unit": "tbsp", "item": "sauce poisson", "group": "sauce" },
+    { "raw": "6 c. à s. de sucre", "qty": 6, "unit": "tbsp", "item": "sucre", "group": "sauce" },
+    { "raw": "4 citrons verts, leur jus", "qty": 4, "unit": "piece", "item": "citron vert", "group": "sauce" },
+    { "raw": "3 piments oiseau, hachés", "qty": 3, "unit": "piece", "item": "piment oiseau", "prep": "haché", "group": "sauce" },
+    { "raw": "3 gousses d'ail, écrasées", "qty": 3, "unit": "piece", "item": "ail", "prep": "écrasé", "group": "sauce" },
+    { "raw": "100 g d'arachides grillées, concassées", "qty": 100, "unit": "g", "item": "arachide grillée", "prep": "concassée" }
+  ],
+  "steps": [
+    { "fr": "Pocher le poulet vingt minutes dans l'eau frémissante, puis le laisser refroidir DANS le bouillon.", "en": "Poach the chicken for twenty minutes in simmering water, then let it cool IN the broth." },
+    { "fr": "Sorti chaud, il sèche en dix minutes : le refroidissement dans le bouillon le garde moelleux.", "en": "Lifted out hot, it dries within ten minutes: cooling in the broth keeps it succulent." },
+    { "fr": "L'effilocher À LA MAIN, dans le sens des fibres : coupé au couteau, il perd sa texture.", "en": "Shred it BY HAND, along the grain: knife-cut, it loses its texture." },
+    { "fr": "Saler le chou dix minutes et le presser : sinon la salade rend son eau en un quart d'heure.", "en": "Salt the cabbage for ten minutes and squeeze it: otherwise the salad weeps within a quarter of an hour." },
+    { "fr": "Faire dégorger l'oignon rouge à l'eau vinaigrée pour lui ôter son mordant.", "en": "Soak the red onion in vinegared water to take off its bite." },
+    { "fr": "Assaisonner AU DERNIER MOMENT et couvrir d'arachides concassées.", "en": "Dress it AT THE LAST MOMENT and cover with crushed peanuts." }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "vinegret",
+  "cuisine": "eastern-european",
+  "country": "russie",
+  "origin": "Russie",
+  "native_name": "Винегрет",
+  "title": {
+    "fr": "Vinegret, salade de betteraves",
+    "en": "Vinegret, beetroot salad"
+  },
+  "meal_type": "salad",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 40 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hiver", "betterave", "froid", "vegetarien"],
+  "ingredients": [
+    { "raw": "600 g de betteraves, cuites et en dés", "qty": 600, "unit": "g", "item": "betterave", "prep": "cuites, en dés" },
+    { "raw": "500 g de pommes de terre, cuites et en dés", "qty": 500, "unit": "g", "item": "pomme de terre", "prep": "cuites, en dés" },
+    { "raw": "3 carottes, cuites et en dés", "qty": 3, "unit": "piece", "item": "carotte", "prep": "cuites, en dés" },
+    { "raw": "300 g de choucroute, rincée", "qty": 300, "unit": "g", "item": "choucroute", "prep": "rincée" },
+    { "raw": "6 cornichons, en dés", "qty": 6, "unit": "piece", "item": "cornichon", "prep": "en dés" },
+    { "raw": "1 oignon, haché très finement", "qty": 1, "unit": "piece", "item": "oignon", "prep": "haché très finement" },
+    { "raw": "200 g de haricots blancs cuits", "qty": 200, "unit": "g", "item": "haricot blanc", "prep": "cuit", "optional": true },
+    { "raw": "10 cl d'huile de tournesol", "qty": 10, "unit": "cl", "item": "huile neutre" },
+    { "raw": "1/2 bouquet d'aneth, ciselé", "qty": 0.5, "unit": "bunch", "item": "aneth", "prep": "ciselé" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le vinegret ne contient NI mayonnaise NI vinaigrette : juste de l'huile de tournesol.", "en": "Vinegret contains NO mayonnaise and NO vinaigrette: just sunflower oil." },
+    { "fr": "L'acidité vient de la choucroute et des cornichons, pas d'un vinaigre ajouté.", "en": "The acidity comes from the sauerkraut and pickles, not from added vinegar." },
+    { "fr": "HUILER les dés de betterave SÉPARÉMENT, en premier : l'huile les empêche de tout teindre.", "en": "OIL the diced beetroot SEPARATELY, first: the oil stops it staining everything." },
+    { "fr": "Sans ce geste, la salade entière vire au rose uniforme et perd tout son intérêt visuel.", "en": "Without that step, the whole salad turns uniformly pink and loses its visual point." },
+    { "fr": "Mélanger les autres légumes ensemble, puis incorporer les betteraves À LA FIN, délicatement.", "en": "Mix the other vegetables together, then fold the beetroot in AT THE END, gently." },
+    { "fr": "Réfrigérer deux heures et servir bien frais, avec du pain de seigle noir.", "en": "Chill for two hours and serve well cold, with dark rye bread." }
+  ]
+}

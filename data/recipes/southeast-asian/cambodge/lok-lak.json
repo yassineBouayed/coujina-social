@@ -1,0 +1,41 @@
+{
+  "slug": "lok-lak",
+  "cuisine": "southeast-asian",
+  "country": "cambodge",
+  "origin": "Cambodge",
+  "native_name": "ឡុកឡាក់",
+  "title": {
+    "fr": "Lok lak, bœuf sauté au poivre de Kampot",
+    "en": "Lok lak, stir-fried beef with Kampot pepper"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["populaire", "poivre", "citron-vert", "rapide"],
+  "ingredients": [
+    { "raw": "700 g de bœuf, en gros cubes", "qty": 700, "unit": "g", "item": "steak de bœuf", "prep": "en gros cubes" },
+    { "raw": "3 c. à s. de sauce huître", "qty": 3, "unit": "tbsp", "item": "sauce huître", "group": "marinade" },
+    { "raw": "2 c. à s. de sauce soja", "qty": 2, "unit": "tbsp", "item": "sauce soja", "group": "marinade" },
+    { "raw": "2 c. à s. de sucre de palme", "qty": 2, "unit": "tbsp", "item": "sucre de palme", "group": "marinade" },
+    { "raw": "6 gousses d'ail, écrasées", "qty": 6, "unit": "piece", "item": "ail", "prep": "écrasé", "group": "marinade" },
+    { "raw": "2 c. à s. de poivre de Kampot, concassé", "qty": 2, "unit": "tbsp", "item": "poivre de Kampot", "prep": "concassé" },
+    { "raw": "3 citrons verts, leur jus", "qty": 3, "unit": "piece", "item": "citron vert", "group": "sauce" },
+    { "raw": "1 laitue, en feuilles", "qty": 1, "unit": "piece", "item": "laitue", "group": "service" },
+    { "raw": "2 tomates, en rondelles", "qty": 2, "unit": "piece", "item": "tomate", "prep": "en rondelles", "group": "service" },
+    { "raw": "1 oignon rouge, émincé", "qty": 1, "unit": "piece", "item": "oignon rouge", "prep": "émincé", "group": "service" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf", "group": "service" },
+    { "raw": "5 c. à s. d'huile neutre", "qty": 5, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le poivre de Kampot est le cœur du plat : concassé au dernier moment, jamais moulu d'avance.", "en": "Kampot pepper is the heart of the dish: crushed at the last moment, never pre-ground." },
+    { "fr": "Faire mariner le bœuf trente minutes dans les sauces, l'ail et le sucre de palme.", "en": "Marinate the beef for thirty minutes in the sauces, garlic and palm sugar." },
+    { "fr": "La sauce d'accompagnement est simplissime : jus de citron vert, poivre concassé et sel. Rien d'autre.", "en": "The dipping sauce is minimal: lime juice, crushed pepper and salt. Nothing else." },
+    { "fr": "Chauffer la poêle À BLANC et saisir la viande en une seule couche, deux minutes.", "en": "Heat the pan until smoking and sear the meat in a single layer, two minutes." },
+    { "fr": "Le bœuf reste SAIGNANT : trop cuit, il durcit et le lok lak perd tout son intérêt.", "en": "The beef stays RARE: overcooked, it toughens and lok lak loses its point." },
+    { "fr": "Servir sur la salade, avec un œuf au plat, et la sauce au citron vert dans une soucoupe.", "en": "Serve over the salad, with a fried egg, and the lime sauce in a saucer." }
+  ]
+}

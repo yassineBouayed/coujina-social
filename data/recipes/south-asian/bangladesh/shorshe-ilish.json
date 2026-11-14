@@ -1,0 +1,35 @@
+{
+  "slug": "shorshe-ilish",
+  "cuisine": "south-asian",
+  "country": "bangladesh",
+  "origin": "Bangladesh",
+  "native_name": "Shorshe ilish",
+  "title": {
+    "fr": "Ilish à la pâte de moutarde",
+    "en": "Hilsa in mustard paste"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["national", "moutarde", "poisson", "bengale"],
+  "ingredients": [
+    { "raw": "800 g d'ilish, en darnes", "qty": 800, "unit": "g", "item": "hilsa", "prep": "en darnes" },
+    { "raw": "4 c. à s. de graines de moutarde", "qty": 4, "unit": "tbsp", "item": "graine de moutarde" },
+    { "raw": "6 piments verts", "qty": 6, "unit": "piece", "item": "piment frais" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "10 cl d'huile de moutarde", "qty": 10, "unit": "cl", "item": "huile de moutarde" },
+    { "raw": "1/2 c. à c. de graines de nigelle", "qty": 0.5, "unit": "tsp", "item": "graine de nigelle" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire tremper les graines de moutarde une heure, puis les broyer avec les piments verts et du sel.", "en": "Soak the mustard seeds for an hour, then grind them with the green chillies and salt." },
+    { "fr": "Le sel et le piment pendant le broyage empêchent la moutarde de devenir amère : broyée seule, elle l'est toujours.", "en": "Salt and chilli during grinding stop the mustard turning bitter: ground alone, it always does." },
+    { "fr": "Frotter les darnes de curcuma et de sel et les laisser dix minutes.", "en": "Rub the fish steaks with turmeric and salt and leave them for ten minutes." },
+    { "fr": "Chauffer l'huile de moutarde JUSQU'À CE QU'ELLE FUME, puis la laisser refroidir légèrement : cela enlève son âcreté.", "en": "Heat the mustard oil UNTIL IT SMOKES, then let it cool slightly: this removes its harshness." },
+    { "fr": "Délayer la pâte de moutarde dans un peu d'eau, la verser dans l'huile et déposer le poisson dessus.", "en": "Slake the mustard paste in a little water, pour it into the oil and lay the fish on top." },
+    { "fr": "Couvrir et cuire douze minutes à feu doux, SANS RETOURNER le poisson : secouer la casserole suffit.", "en": "Cover and cook for twelve minutes over low heat, WITHOUT TURNING the fish: shaking the pan is enough." }
+  ]
+}

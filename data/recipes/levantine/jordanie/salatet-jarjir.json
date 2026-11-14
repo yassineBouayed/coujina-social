@@ -1,0 +1,37 @@
+{
+  "slug": "salatet-jarjir",
+  "cuisine": "levantine",
+  "country": "jordanie",
+  "origin": "Jordanie",
+  "native_name": "Salatet jarjir",
+  "title": {
+    "fr": "Salade de roquette au sumac et à la grenade",
+    "en": "Rocket salad with sumac and pomegranate"
+  },
+  "meal_type": "salad",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["cru", "grenade", "rapide", "amer"],
+  "ingredients": [
+    { "raw": "300 g de roquette", "qty": 300, "unit": "g", "item": "roquette" },
+    { "raw": "1 oignon rouge, émincé finement", "qty": 1, "unit": "piece", "item": "oignon rouge", "prep": "émincé finement" },
+    { "raw": "2 tomates, en quartiers", "qty": 2, "unit": "piece", "item": "tomate", "prep": "en quartiers" },
+    { "raw": "1 grenade, égrenée", "qty": 1, "unit": "piece", "item": "grenade", "prep": "égrenée" },
+    { "raw": "2 c. à s. de sumac", "qty": 2, "unit": "tbsp", "item": "sumac" },
+    { "raw": "2 c. à s. de mélasse de grenade", "qty": 2, "unit": "tbsp", "item": "mélasse de grenade" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "6 c. à s. d'huile d'olive", "qty": 6, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Laver la roquette et la sécher soigneusement : mouillée, la vinaigrette glisse et ne tient pas.", "en": "Wash the rocket and dry it thoroughly: wet, the dressing slides off." },
+    { "fr": "Faire dégorger l'oignon rouge dix minutes dans l'eau froide, puis l'égoutter.", "en": "Soak the red onion for ten minutes in cold water, then drain." },
+    { "fr": "Fouetter sumac, mélasse de grenade, citron, sel et huile d'olive.", "en": "Whisk the sumac, pomegranate molasses, lemon, salt and olive oil." },
+    { "fr": "L'amertume de la roquette demande l'acidité du sumac et le sucré de la mélasse : les trois vont ensemble.", "en": "The bitterness of rocket calls for the acidity of sumac and the sweetness of molasses: the three belong together." },
+    { "fr": "Assaisonner juste avant de servir, en mélangeant du bout des doigts.", "en": "Dress just before serving, tossing with your fingertips." },
+    { "fr": "Parsemer de grains de grenade au dernier moment.", "en": "Scatter the pomegranate seeds at the last moment." }
+  ]
+}

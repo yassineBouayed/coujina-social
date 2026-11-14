@@ -1,0 +1,45 @@
+{
+  "slug": "yassa-poulet",
+  "cuisine": "west-african",
+  "origin": "Sénégal (Casamance)",
+  "native_name": "Yassa ginaar",
+  "title": {
+    "fr": "Yassa de poulet aux oignons et au citron",
+    "en": "Chicken yassa with onions and lemon"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 60 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j5-catalogue-v1", "date": "2026-08-29" },
+  "tags": ["poulet", "oignon", "citron", "marinade"],
+  "ingredients": [
+    { "raw": "1 poulet fermier d'environ 1,4 kg, en morceaux", "qty": 1.4, "unit": "kg", "item": "poulet", "prep": "en morceaux" },
+    { "raw": "1,2 kg d'oignons, émincés en lamelles", "qty": 1.2, "unit": "kg", "item": "oignon", "prep": "émincé en lamelles", "group": "marinade" },
+    { "raw": "le jus de 4 citrons", "qty": 4, "unit": "piece", "item": "citron", "prep": "pressé", "group": "marinade" },
+    { "raw": "3 c. à s. de moutarde", "qty": 3, "unit": "tbsp", "item": "moutarde", "group": "marinade" },
+    { "raw": "5 gousses d'ail, écrasées", "qty": 5, "unit": "piece", "item": "ail", "prep": "écrasé", "group": "marinade" },
+    { "raw": "1 piment antillais", "qty": 1, "unit": "piece", "item": "habanero", "optional": true, "group": "marinade" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier", "group": "marinade" },
+    { "raw": "6 cl d'huile d'arachide", "qty": 6, "unit": "cl", "item": "huile d'arachide" },
+    { "raw": "1 cube de bouillon", "qty": 1, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "1 c. à s. de vinaigre blanc", "qty": 1, "unit": "tbsp", "item": "vinaigre blanc", "optional": true },
+    { "raw": "400 g de riz brisé", "qty": 400, "unit": "g", "item": "riz brisé" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Mélanger les oignons, le jus de citron, la moutarde, l'ail, le laurier, le piment entier, du sel et du poivre. Y enfouir les morceaux de poulet et laisser mariner au moins 4 heures, une nuit de préférence.", "en": "Mix the onions, lemon juice, mustard, garlic, bay leaves, the whole chilli, salt and pepper. Bury the chicken pieces in it and marinate for at least 4 hours, ideally overnight." },
+    { "fr": "Égoutter le poulet en gardant toute la marinade. Le griller au barbecue ou le colorer à la poêle très chaude, jusqu'à ce que la peau soit dorée et un peu brûlée par endroits.", "en": "Drain the chicken, keeping every drop of the marinade. Grill it over charcoal, or colour it in a very hot pan, until the skin is golden and slightly charred in places." },
+    { "fr": "Dans une marmite, faire tomber les oignons de la marinade dans l'huile, à feu moyen, 25 à 30 minutes : ils doivent fondre et blondir sans brûler.", "en": "In a pot, cook the marinade onions in the oil over medium heat for 25 to 30 minutes: they should collapse and turn golden without burning." },
+    { "fr": "Ajouter le liquide de la marinade, le cube de bouillon et 20 cl d'eau. Laisser réduire 10 minutes.", "en": "Add the marinade liquid, the stock cube and 200 ml of water. Let it reduce for 10 minutes." },
+    { "fr": "Remettre le poulet grillé dans la sauce, couvrir et laisser mijoter 20 minutes à feu doux.", "en": "Return the grilled chicken to the sauce, cover and simmer gently for 20 minutes." },
+    { "fr": "Goûter : la sauce doit être franchement acide et légèrement moutardée. Corriger avec le vinaigre si les citrons manquaient de nerf.", "en": "Taste: the sauce should be frankly sharp and faintly mustardy. Correct with the vinegar if the lemons were weak." },
+    { "fr": "Servir sur du riz brisé, en nappant largement d'oignons.", "en": "Serve over broken rice, spooning the onions generously over the top." }
+  ],
+  "notes": [
+    { "fr": "Le poids d'oignons n'est pas une erreur : le yassa est un plat d'oignons où il y a du poulet, pas l'inverse. En mettre moitié moins donne un poulet au citron, pas un yassa.", "en": "The weight of onions is not a typo: yassa is an onion dish with chicken in it, not the other way round. Halving them gives lemon chicken, not yassa." },
+    { "fr": "Le passage au gril n'est pas décoratif. C'est le goût de brûlé qui tient tête à l'acidité du citron ; un poulet seulement poêlé donne une sauce plate.", "en": "The grilling is not decorative. That burnt edge is what stands up to the lemon; chicken merely pan-fried leaves the sauce flat." }
+  ]
+}

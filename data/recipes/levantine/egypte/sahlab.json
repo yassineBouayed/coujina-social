@@ -1,0 +1,35 @@
+{
+  "slug": "sahlab",
+  "cuisine": "levantine",
+  "country": "egypte",
+  "origin": "Égypte",
+  "native_name": "Sahlab",
+  "title": {
+    "fr": "Sahlab, boisson lactée épaisse à la cannelle",
+    "en": "Sahlab, thick milk drink with cinnamon"
+  },
+  "meal_type": "drink",
+  "servings": 4,
+  "times": { "prep_min": 10, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hiver", "lait", "rue", "chaud"],
+  "ingredients": [
+    { "raw": "1 l de lait entier", "qty": 1, "unit": "l", "item": "lait entier" },
+    { "raw": "3 c. à s. de salep", "qty": 3, "unit": "tbsp", "item": "salep", "substitutes": [{ "item": "maïzena", "note": "la maïzena épaissit mais n'a pas le parfum floral ni la texture élastique du salep" }] },
+    { "raw": "100 g de sucre", "qty": 100, "unit": "g", "item": "sucre" },
+    { "raw": "1 c. à s. d'eau de rose", "qty": 1, "unit": "tbsp", "item": "eau de rose" },
+    { "raw": "1 c. à s. de cannelle moulue", "qty": 1, "unit": "tbsp", "item": "cannelle", "group": "service" },
+    { "raw": "40 g de pistaches, concassées", "qty": 40, "unit": "g", "item": "pistache", "prep": "concassée", "group": "service" },
+    { "raw": "40 g de noix de coco râpée", "qty": 40, "unit": "g", "item": "coco râpé", "group": "service" }
+  ],
+  "steps": [
+    { "fr": "Délayer le salep et le sucre dans un peu de lait FROID, jusqu'à disparition des grumeaux.", "en": "Slake the salep and sugar in a little COLD milk, until no lumps remain." },
+    { "fr": "Verser dans le reste du lait et porter à frémissement en fouettant sans arrêt.", "en": "Pour it into the remaining milk and bring to a simmer, whisking constantly." },
+    { "fr": "Le sahlab épaissit d'un coup autour de 80 °C : arrêter de fouetter à ce moment donne des grumeaux.", "en": "Sahlab thickens suddenly around 80°C: stopping the whisk at that point gives lumps." },
+    { "fr": "Cuire cinq minutes de plus à feu doux, jusqu'à ce qu'il nappe la cuillère.", "en": "Cook for five more minutes over low heat, until it coats a spoon." },
+    { "fr": "Parfumer à l'eau de rose hors du feu.", "en": "Scent with rose water off the heat." },
+    { "fr": "Servir brûlant en tasses, couvert de cannelle, de pistaches et de coco.", "en": "Serve scalding in cups, topped with cinnamon, pistachios and coconut." }
+  ]
+}

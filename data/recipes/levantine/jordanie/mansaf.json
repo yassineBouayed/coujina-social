@@ -1,0 +1,44 @@
+{
+  "slug": "mansaf",
+  "cuisine": "levantine",
+  "country": "jordanie",
+  "origin": "Jordanie",
+  "native_name": "Mansaf",
+  "title": {
+    "fr": "Mansaf, agneau au jameed sur riz",
+    "en": "Mansaf, lamb in fermented yoghurt over rice"
+  },
+  "meal_type": "main",
+  "servings": 8,
+  "times": { "prep_min": 40, "cook_min": 180 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["national", "jameed", "fete", "tablee"],
+  "ingredients": [
+    { "raw": "2 kg d'épaule d'agneau, en gros morceaux", "qty": 2000, "unit": "g", "item": "épaule d'agneau", "prep": "en gros morceaux" },
+    { "raw": "500 g de jameed", "qty": 500, "unit": "g", "item": "jameed" },
+    { "raw": "600 g de riz long grain", "qty": 600, "unit": "g", "item": "riz long grain" },
+    { "raw": "3 pains taboon", "qty": 3, "unit": "piece", "item": "khobz" },
+    { "raw": "150 g d'amandes, mondées", "qty": 150, "unit": "g", "item": "amande", "prep": "mondée", "group": "garniture" },
+    { "raw": "100 g de pignons de pin", "qty": 100, "unit": "g", "item": "pignon de pin", "group": "garniture" },
+    { "raw": "1 c. à s. de baharat", "qty": 1, "unit": "tbsp", "item": "baharat" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "4 gousses de cardamome", "qty": 4, "unit": "piece", "item": "cardamome" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "100 g de beurre", "qty": 100, "unit": "g", "item": "beurre" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé", "group": "garniture" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire tremper le jameed cassé en morceaux dans l'eau tiède UNE NUIT, puis le mixer et le passer au tamis.", "en": "Soak the broken jameed in warm water OVERNIGHT, then blend it and pass it through a sieve." },
+    { "fr": "Le jameed est un yaourt de brebis séché en boules dures. C'est lui, et rien d'autre, qui fait le mansaf.", "en": "Jameed is sheep's yoghurt dried into hard balls. It, and nothing else, is what makes mansaf." },
+    { "fr": "Cuire l'agneau à l'eau avec la cannelle, la cardamome et le sel, deux heures, en écumant.", "en": "Boil the lamb with cinnamon, cardamom and salt for two hours, skimming." },
+    { "fr": "Verser le jameed liquide sur la viande et porter à ébullition en remuant SANS ARRÊT dans un seul sens.", "en": "Pour the liquid jameed over the meat and bring to a boil, stirring CONSTANTLY in one direction." },
+    { "fr": "Cesser de remuer, même quelques secondes, suffit à faire trancher la sauce.", "en": "Stopping the stirring, even for a few seconds, is enough to split the sauce." },
+    { "fr": "Dresser : pain taboon au fond, riz dessus, viande par-dessus, sauce brûlante, amandes et pignons.", "en": "Assemble: taboon bread at the base, rice on it, meat on top, scalding sauce, almonds and pine nuts." }
+  ],
+  "notes": [
+    { "fr": "Le mansaf se mange debout, à la main droite, dans un plat unique. Servir des assiettes individuelles change le plat en autre chose.", "en": "Mansaf is eaten standing, with the right hand, from a single tray. Serving it in individual plates turns it into something else." }
+  ]
+}

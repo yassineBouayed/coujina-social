@@ -1,0 +1,32 @@
+{
+  "slug": "melange-viennois",
+  "cuisine": "western-european",
+  "country": "autriche",
+  "origin": "Autriche",
+  "native_name": "Wiener Melange",
+  "title": {
+    "fr": "Melange viennois au café",
+    "en": "Viennese melange coffee"
+  },
+  "meal_type": "drink",
+  "servings": 2,
+  "times": { "prep_min": 10, "cook_min": 5 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["vienne", "cafe", "mousse", "cafe-viennois"],
+  "ingredients": [
+    { "raw": "20 cl de café expresso", "qty": 20, "unit": "cl", "item": "café", "prep": "en expresso" },
+    { "raw": "25 cl de lait entier", "qty": 25, "unit": "cl", "item": "lait entier" },
+    { "raw": "2 c. à c. de sucre", "qty": 2, "unit": "tsp", "item": "sucre", "optional": true },
+    { "raw": "1 c. à c. de cacao en poudre", "qty": 1, "unit": "tsp", "item": "cacao en poudre", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Le Melange est le café viennois par excellence : moitié café, moitié lait, avec une mousse épaisse.", "en": "The Melange is the Viennese coffee par excellence: half coffee, half milk, with a thick foam." },
+    { "fr": "Il se distingue du cappuccino par sa mousse : plus AÉRÉE et plus haute, presque une chantilly.", "en": "It differs from a cappuccino by its foam: AIRIER and taller, almost whipped cream." },
+    { "fr": "Chauffer le lait à 60 °C, jamais plus : au-delà, ses protéines se dénaturent et la mousse s'effondre.", "en": "Heat the milk to 60°C, never more: beyond that its proteins break down and the foam collapses." },
+    { "fr": "Le faire mousser LONGUEMENT, jusqu'à doubler de volume, puis TAPER le pichet sur le plan.", "en": "Froth it at LENGTH, until doubled, then TAP the jug on the counter." },
+    { "fr": "Ce coup fait éclater les grosses bulles et laisse une mousse fine et brillante.", "en": "That tap bursts the large bubbles and leaves a fine, glossy foam." },
+    { "fr": "Verser le café puis le lait, et servir avec un verre d'eau : c'est la règle des cafés viennois.", "en": "Pour the coffee then the milk, and serve with a glass of water: the rule in Viennese cafés." }
+  ]
+}

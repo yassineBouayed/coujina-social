@@ -1,0 +1,39 @@
+{
+  "slug": "fattah-masri",
+  "cuisine": "levantine",
+  "country": "egypte",
+  "origin": "Égypte",
+  "native_name": "Fattah",
+  "title": {
+    "fr": "Fattah égyptienne, riz, pain et viande à la sauce vinaigrée",
+    "en": "Egyptian fattah, rice, bread and meat in vinegar sauce"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 120 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["aid", "couches", "vinaigre", "fete"],
+  "ingredients": [
+    { "raw": "1,2 kg de bœuf à mijoter, en gros cubes", "qty": 1200, "unit": "g", "item": "boeuf à mijoter", "prep": "en gros cubes" },
+    { "raw": "400 g de riz long grain", "qty": 400, "unit": "g", "item": "riz long grain" },
+    { "raw": "3 pains pita", "qty": 3, "unit": "piece", "item": "pain pita" },
+    { "raw": "1 tête d'ail, écrasée", "qty": 12, "unit": "piece", "item": "ail", "prep": "écrasé", "group": "sauce" },
+    { "raw": "10 cl de vinaigre blanc", "qty": 10, "unit": "cl", "item": "vinaigre blanc", "group": "sauce" },
+    { "raw": "4 c. à s. de concentré de tomate", "qty": 4, "unit": "tbsp", "item": "concentré de tomate", "group": "sauce" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle", "group": "bouillon" },
+    { "raw": "4 gousses de cardamome", "qty": 4, "unit": "piece", "item": "cardamome", "group": "bouillon" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier", "group": "bouillon" },
+    { "raw": "80 g de ghee", "qty": 80, "unit": "g", "item": "ghee" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire la viande deux heures avec la cannelle, la cardamome, le laurier et le sel, et garder le bouillon.", "en": "Cook the meat for two hours with the cinnamon, cardamom, bay and salt, and keep the broth." },
+    { "fr": "Griller les pitas coupés en carrés jusqu'à ce qu'ils soient cassants.", "en": "Toast the pitas, cut into squares, until brittle." },
+    { "fr": "Cuire le riz dans le bouillon filtré, au ghee.", "en": "Cook the rice in the strained broth, with ghee." },
+    { "fr": "Faire la sauce : ail dans le ghee brûlant, puis vinaigre et concentré de tomate — reculer, cela projette.", "en": "Make the sauce: garlic in scalding ghee, then vinegar and tomato purée — stand back, it spits." },
+    { "fr": "Le vinaigre est le cœur de la fattah : c'est lui qui coupe le gras de la viande de l'Aïd.", "en": "Vinegar is the heart of fattah: it cuts the fat of the Eid meat." },
+    { "fr": "Monter : pain arrosé de bouillon, riz, sauce à l'ail, viande, et le reste de sauce par-dessus.", "en": "Layer it: bread moistened with broth, rice, garlic sauce, meat, and the remaining sauce over the top." }
+  ]
+}

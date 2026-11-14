@@ -1,0 +1,46 @@
+{
+  "slug": "calalou",
+  "cuisine": "caribbean",
+  "country": "guadeloupe",
+  "origin": "Guadeloupe",
+  "native_name": "Calalou",
+  "title": {
+    "fr": "Calalou aux feuilles et au crabe",
+    "en": "Calalou with greens and crab"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 35, "cook_min": 60 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["embleme", "feuilles", "gombo", "paques"],
+  "ingredients": [
+    { "raw": "800 g de feuilles de dachine", "qty": 800, "unit": "g", "item": "épinard", "prep": "ou feuilles de dachine" },
+    { "raw": "300 g de gombos, en rondelles", "qty": 300, "unit": "g", "item": "gombo", "prep": "en rondelles" },
+    { "raw": "400 g de chair de crabe", "qty": 400, "unit": "g", "item": "crabe" },
+    { "raw": "200 g de poitrine de porc fumée, en dés", "qty": 200, "unit": "g", "item": "poitrine de porc", "prep": "fumée, en dés" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "8 gousses d'ail, écrasées", "qty": 8, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 bouquet d'oignons nouveaux, émincés", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "émincé" },
+    { "raw": "1 piment végétarien", "qty": 1, "unit": "piece", "item": "piment végétarien" },
+    { "raw": "4 feuilles de bois d'Inde", "qty": 4, "unit": "piece", "item": "bois d'Inde" },
+    { "raw": "1/2 bouquet de thym frais", "qty": 0.5, "unit": "bunch", "item": "thym" },
+    { "raw": "1,2 l d'eau", "qty": 1.2, "unit": "l", "item": "eau" },
+    { "raw": "2 citrons verts, leur jus", "qty": 2, "unit": "piece", "item": "citron vert" },
+    { "raw": "8 c. à s. d'huile neutre", "qty": 8, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Ce sont les FEUILLES qui font le calalou : le gombo n'en est que l'épaississant.", "en": "The LEAVES make a calalou: the okra is only its thickener." },
+    { "fr": "Les feuilles de dachine se remplacent par des épinards, mais le goût de terre manque.", "en": "Taro leaves can be replaced by spinach, but the earthy taste is missing." },
+    { "fr": "Le calalou se mange le JEUDI SAINT en Guadeloupe : c'est un plat de calendrier.", "en": "Calalou is eaten on MAUNDY THURSDAY in Guadeloupe: a dish of the calendar." },
+    { "fr": "Cuire feuilles et gombos UNE HEURE, jusqu'à ce que tout soit complètement défait.", "en": "Cook the leaves and okra for AN HOUR, until everything has fully collapsed." },
+    { "fr": "Écraser AU BÂTON LÉLÉ ou au fouet, dans la marmite : le calalou ne se mixe pas au robot.", "en": "Crush it with a LÉLÉ stick or a whisk, in the pot: calalou is not put through a blender." },
+    { "fr": "Ajouter le crabe et le citron vert EN TOUT DERNIER, hors du feu.", "en": "Add the crab and lime LAST OF ALL, off the heat." }
+  ],
+  "notes": [
+    { "fr": "Les feuilles de dachine crues sont irritantes : elles doivent être longuement cuites, jamais goûtées crues.", "en": "Raw taro leaves are irritant: they must be cooked at length, and never tasted raw." }
+  ]
+}

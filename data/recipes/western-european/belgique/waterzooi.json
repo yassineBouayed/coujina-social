@@ -1,0 +1,42 @@
+{
+  "slug": "waterzooi",
+  "cuisine": "western-european",
+  "country": "belgique",
+  "origin": "Belgique",
+  "native_name": "Gentse waterzooi",
+  "title": {
+    "fr": "Waterzooi de poulet à la gantoise",
+    "en": "Ghent chicken waterzooi"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 75 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["gand", "creme", "poulet", "hiver"],
+  "ingredients": [
+    { "raw": "1 poulet entier, découpé", "qty": 1, "unit": "piece", "item": "poulet entier", "prep": "découpé" },
+    { "raw": "4 carottes, en julienne", "qty": 4, "unit": "piece", "item": "carotte", "prep": "en julienne" },
+    { "raw": "3 poireaux, en julienne", "qty": 3, "unit": "piece", "item": "poireau", "prep": "en julienne" },
+    { "raw": "4 branches de céleri, en julienne", "qty": 4, "unit": "piece", "item": "céleri branche", "prep": "en julienne" },
+    { "raw": "1/4 de céleri-rave, en julienne", "qty": 0.25, "unit": "piece", "item": "céleri-rave", "prep": "en julienne" },
+    { "raw": "600 g de pommes de terre, en morceaux", "qty": 600, "unit": "g", "item": "pomme de terre", "prep": "en morceaux" },
+    { "raw": "25 cl de crème liquide", "qty": 25, "unit": "cl", "item": "crème liquide" },
+    { "raw": "3 jaunes d'œufs", "qty": 3, "unit": "piece", "item": "oeuf" },
+    { "raw": "80 g de beurre", "qty": 80, "unit": "g", "item": "beurre" },
+    { "raw": "1 bouquet garni", "qty": 1, "unit": "piece", "item": "bouquet garni" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "sel et poivre blanc", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre blanc", "qty": null, "unit": null, "item": "poivre blanc" }
+  ],
+  "steps": [
+    { "fr": "Waterzooi veut dire « eau qui bout » : c'est un plat POCHÉ, et le poulet ne se colore jamais.", "en": "Waterzooi means \"boiling water\": this is a POACHED dish, and the chicken is never browned." },
+    { "fr": "Pocher le poulet une heure avec le bouquet garni, en écumant, à petits frémissements.", "en": "Poach the chicken for an hour with the bouquet garni, skimming, at a bare simmer." },
+    { "fr": "Couper les légumes en JULIENNE FINE : c'est la coupe qui définit le plat.", "en": "Cut the vegetables in FINE JULIENNE: that cut defines the dish." },
+    { "fr": "Les faire suer au beurre à part et les ajouter au bouillon les vingt dernières minutes.", "en": "Sweat them in butter separately and add them to the broth in the last twenty minutes." },
+    { "fr": "Battre crème et jaunes, y verser une louche de bouillon CHAUD, puis reverser dans la casserole.", "en": "Beat the cream and yolks, whisk in a ladle of HOT broth, then return it to the pot." },
+    { "fr": "NE PLUS FAIRE BOUILLIR : les jaunes coaguleraient et le waterzooi grainerait aussitôt.", "en": "DO NOT BOIL AGAIN: the yolks would coagulate and the waterzooi would curdle at once." }
+  ]
+}

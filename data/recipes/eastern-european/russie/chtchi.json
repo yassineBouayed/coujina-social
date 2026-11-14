@@ -1,0 +1,42 @@
+{
+  "slug": "chtchi",
+  "cuisine": "eastern-european",
+  "country": "russie",
+  "origin": "Russie",
+  "native_name": "Щи",
+  "title": {
+    "fr": "Chtchi, soupe de chou russe",
+    "en": "Shchi, Russian cabbage soup"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 150 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hiver", "chou", "ancien", "famille"],
+  "ingredients": [
+    { "raw": "800 g de bœuf à mijoter", "qty": 800, "unit": "g", "item": "boeuf à mijoter" },
+    { "raw": "600 g de choucroute, rincée", "qty": 600, "unit": "g", "item": "choucroute", "prep": "rincée" },
+    { "raw": "1/2 chou vert, en lanières", "qty": 0.5, "unit": "piece", "item": "chou vert", "prep": "en lanières" },
+    { "raw": "500 g de pommes de terre, en dés", "qty": 500, "unit": "g", "item": "pomme de terre", "prep": "en dés" },
+    { "raw": "3 carottes, en dés", "qty": 3, "unit": "piece", "item": "carotte", "prep": "en dés" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "40 g de champignons séchés", "qty": 40, "unit": "g", "item": "champignon séché" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "2 l d'eau", "qty": 2, "unit": "l", "item": "eau" },
+    { "raw": "25 cl de crème fraîche", "qty": 25, "unit": "cl", "item": "crème fraîche", "group": "service" },
+    { "raw": "1 bouquet d'aneth, ciselé", "qty": 1, "unit": "bunch", "item": "aneth", "prep": "ciselé" },
+    { "raw": "3 feuilles de laurier", "qty": 3, "unit": "piece", "item": "laurier" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le chtchi est la plus vieille soupe russe attestée : on la fait depuis le IXe siècle.", "en": "Shchi is the oldest attested Russian soup: it has been made since the ninth century." },
+    { "fr": "Un proverbe russe dit que le chtchi est meilleur après avoir GELÉ puis dégelé.", "en": "A Russian proverb says shchi is better after it has FROZEN and thawed." },
+    { "fr": "Faire un bouillon de deux heures avec le bœuf, en écumant sans relâche au début.", "en": "Make a two-hour broth with the beef, skimming relentlessly at the start." },
+    { "fr": "Ajouter la choucroute rincée et cuire trente minutes AVANT les pommes de terre.", "en": "Add the rinsed sauerkraut and cook for thirty minutes BEFORE the potatoes." },
+    { "fr": "L'acide de la choucroute empêche les pommes de terre de cuire : elles resteraient dures.", "en": "The sauerkraut's acid stops the potatoes cooking: they would stay hard." },
+    { "fr": "Servir avec beaucoup de smetana et d'aneth, et du pain de seigle noir.", "en": "Serve with plenty of smetana and dill, and dark rye bread." }
+  ]
+}

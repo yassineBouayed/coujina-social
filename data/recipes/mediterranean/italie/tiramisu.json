@@ -1,0 +1,35 @@
+{
+  "slug": "tiramisu",
+  "cuisine": "mediterranean",
+  "country": "italie",
+  "origin": "Italie",
+  "native_name": "Tiramisù",
+  "title": {
+    "fr": "Tiramisù au mascarpone",
+    "en": "Mascarpone tiramisù"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 30, "cook_min": 10 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["venetie", "cafe", "mascarpone", "froid"],
+  "ingredients": [
+    { "raw": "500 g de mascarpone", "qty": 500, "unit": "g", "item": "mascarpone" },
+    { "raw": "4 œufs, blancs et jaunes séparés", "qty": 4, "unit": "piece", "item": "oeuf", "prep": "séparés" },
+    { "raw": "120 g de sucre", "qty": 120, "unit": "g", "item": "sucre" },
+    { "raw": "300 g de biscuits à la cuillère", "qty": 300, "unit": "g", "item": "biscuit à la cuillère" },
+    { "raw": "40 cl de café expresso, froid", "qty": 40, "unit": "cl", "item": "café", "prep": "en expresso froid" },
+    { "raw": "4 c. à s. de cacao en poudre", "qty": 4, "unit": "tbsp", "item": "cacao en poudre" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le café doit être FROID : chaud, il désagrège le biscuit avant même qu'on l'ait posé.", "en": "The coffee must be COLD: hot, it dissolves the biscuit before you have even laid it down." },
+    { "fr": "Tremper les biscuits UNE SECONDE par face, pas plus : ils continuent d'absorber une fois posés.", "en": "Dip the biscuits for ONE SECOND a side, no more: they keep absorbing once laid down." },
+    { "fr": "Blanchir les jaunes avec le sucre au bain-marie, jusqu'à 65 °C, pour sécuriser les œufs.", "en": "Whisk the yolks with the sugar over a water bath, to 65°C, to make the eggs safe." },
+    { "fr": "Incorporer le mascarpone FROID au fouet, sans trop travailler : trop battu, il tranche.", "en": "Whisk in the COLD mascarpone, without overworking: over-beaten, it splits." },
+    { "fr": "Monter les blancs avec le sel et les incorporer à la maryse, en soulevant.", "en": "Whip the whites with the salt and fold them in with a spatula, lifting." },
+    { "fr": "Réfrigérer SIX HEURES et poudrer de cacao AU MOMENT DE SERVIR : posé avant, il devient humide.", "en": "Chill for SIX HOURS and dust with cocoa AT THE MOMENT OF SERVING: dusted earlier, it turns damp." }
+  ]
+}

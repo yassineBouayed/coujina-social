@@ -1,0 +1,35 @@
+{
+  "slug": "chocolat-chaud",
+  "cuisine": "french",
+  "country": "france",
+  "origin": "France",
+  "native_name": "Chocolat chaud",
+  "title": {
+    "fr": "Chocolat chaud à l'ancienne",
+    "en": "Old-fashioned hot chocolate"
+  },
+  "meal_type": "drink",
+  "servings": 4,
+  "times": { "prep_min": 5, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hiver", "chocolat", "gouter", "enfants"],
+  "ingredients": [
+    { "raw": "200 g de chocolat noir à 70 %", "qty": 200, "unit": "g", "item": "chocolat noir" },
+    { "raw": "60 cl de lait entier", "qty": 60, "unit": "cl", "item": "lait entier" },
+    { "raw": "15 cl de crème liquide", "qty": 15, "unit": "cl", "item": "crème liquide" },
+    { "raw": "2 c. à s. de cacao en poudre", "qty": 2, "unit": "tbsp", "item": "cacao en poudre" },
+    { "raw": "2 c. à s. de sucre", "qty": 2, "unit": "tbsp", "item": "sucre", "optional": true },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" },
+    { "raw": "1 gousse de vanille, fendue", "qty": 1, "unit": "piece", "item": "gousse de vanille", "prep": "fendue", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Le chocolat chaud à l'ancienne se fait avec du VRAI CHOCOLAT fondu, pas avec du cacao seul.", "en": "Old-fashioned hot chocolate is made with REAL MELTED CHOCOLATE, not cocoa powder alone." },
+    { "fr": "Chauffer le lait avec la crème, la vanille et le sel, sans faire bouillir.", "en": "Heat the milk with the cream, vanilla and salt, without boiling." },
+    { "fr": "Verser un peu de lait chaud sur le chocolat haché et remuer jusqu'à obtenir une ganache lisse.", "en": "Pour a little hot milk onto the chopped chocolate and stir into a smooth ganache." },
+    { "fr": "Ajouter le reste du lait progressivement, en fouettant : versé d'un coup, le chocolat tranche.", "en": "Add the remaining milk gradually, whisking: poured in at once, the chocolate splits." },
+    { "fr": "Ajouter le cacao en poudre tamisé : il renforce le goût sans alourdir la texture.", "en": "Add the sifted cocoa powder: it deepens the flavour without weighing down the texture." },
+    { "fr": "Fouetter énergiquement une minute avant de servir, pour faire mousser.", "en": "Whisk vigorously for a minute before serving, to raise a foam." }
+  ]
+}

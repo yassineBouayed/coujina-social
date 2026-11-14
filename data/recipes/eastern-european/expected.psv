@@ -1,0 +1,472 @@
+# Vérité du catalogue, cuisine « eastern-european ».
+#
+# Pour chaque ligne d'ingrédient, celui du référentiel qu'un relecteur
+# choisit, ou `-` quand le référentiel n'a rien à offrir.
+#
+# PASSE MODÈLE, pas humaine, et la circularité est ici maximale : les
+# recettes ont été écrites AVEC le référentiel sous les yeux, et les
+# ingrédients qui manquaient y ont été ajoutés dans la foulée. Le taux de
+# rattachement du champ `item` ne mesure donc presque rien sur ces cuisines.
+# Ce qui mesure quelque chose, c'est le témoin `raw`, que `catalog:gate`
+# donne en regard.
+#
+# Une ligne annotée ici n'a pas été relue par quelqu'un qui cuisine ces
+# plats. Le critère de sortie de J5 reste entier.
+recipe|line|item|expected_slug|note
+barszcz-czerwony|0|betterave|betterave|
+barszcz-czerwony|1|bouillon volaille|bouillon-volaille|
+barszcz-czerwony|2|champignon séché|champignon-seche|
+barszcz-czerwony|3|carotte|carotte|
+barszcz-czerwony|4|poireau|poireau|
+barszcz-czerwony|5|oignon|oignon|
+barszcz-czerwony|6|ail|ail|
+barszcz-czerwony|7|vinaigre de vin|vinaigre-de-vin|
+barszcz-czerwony|8|sucre|sucre|
+barszcz-czerwony|9|baie de genièvre|baie-de-genievre|
+barszcz-czerwony|10|laurier|laurier|
+barszcz-czerwony|11|marjolaine|marjolaine|
+barszcz-czerwony|12|sel|sel|
+barszcz-czerwony|13|poivre noir|poivre-noir|
+bigos|0|choucroute|choucroute|
+bigos|1|chou vert|chou-vert|
+bigos|2|échine de porc|echine-de-porc|
+bigos|3|boeuf à mijoter|boeuf-a-mijoter|
+bigos|4|saucisse fumée|saucisse-fumee|
+bigos|5|poitrine de porc|poitrine-de-porc|
+bigos|6|champignon séché|champignon-seche|
+bigos|7|pruneau|pruneau|
+bigos|8|oignon|oignon|
+bigos|9|concentré de tomate|concentre-de-tomate|
+bigos|10|baie de genièvre|baie-de-genievre|
+bigos|11|laurier|laurier|
+bigos|12|carvi|carvi|
+bigos|13|sel|sel|
+bigos|14|poivre noir|poivre-noir|
+chlodnik|0|betterave|betterave|
+chlodnik|1|lait fermenté|lait-fermente|
+chlodnik|2|crème fraîche|creme-fraiche|
+chlodnik|3|concombre|concombre|
+chlodnik|4|radis|radis|
+chlodnik|5|oignon nouveau|oignon-nouveau|
+chlodnik|6|aneth|aneth|
+chlodnik|7|oeuf|oeuf|
+chlodnik|8|citron|citron|
+chlodnik|9|sel|sel|
+chlodnik|10|poivre noir|poivre-noir|
+golabki|0|chou vert|chou-vert|
+golabki|1|porc haché|porc-hache|
+golabki|2|boeuf haché|boeuf-hache|
+golabki|3|riz rond|riz-rond|
+golabki|4|oignon|oignon|
+golabki|5|oeuf|oeuf|
+golabki|6|coulis de tomate|coulis-de-tomate|
+golabki|7|bouillon boeuf|bouillon-boeuf|
+golabki|8|concentré de tomate|concentre-de-tomate|
+golabki|9|marjolaine|marjolaine|
+golabki|10|beurre|beurre|
+golabki|11|sel|sel|
+golabki|12|poivre noir|poivre-noir|
+gulasz-polski|0|boeuf à mijoter|boeuf-a-mijoter|
+gulasz-polski|1|oignon|oignon|
+gulasz-polski|2|champignon de Paris|champignon-de-paris|
+gulasz-polski|3|champignon séché|champignon-seche|
+gulasz-polski|4|paprika|paprika|
+gulasz-polski|5|poivron rouge|poivron-rouge|
+gulasz-polski|6|concentré de tomate|concentre-de-tomate|
+gulasz-polski|7|bouillon boeuf|bouillon-boeuf|
+gulasz-polski|8|marjolaine|marjolaine|
+gulasz-polski|9|carvi|carvi|
+gulasz-polski|10|saindoux|saindoux|
+gulasz-polski|11|sel|sel|
+gulasz-polski|12|poivre noir|poivre-noir|
+kapusniak|0|choucroute|choucroute|
+kapusniak|1|poitrine de porc|poitrine-de-porc|
+kapusniak|2|pomme de terre|pomme-de-terre|
+kapusniak|3|carotte|carotte|
+kapusniak|4|oignon|oignon|
+kapusniak|5|eau|eau|
+kapusniak|6|champignon séché|champignon-seche|
+kapusniak|7|baie de genièvre|baie-de-genievre|
+kapusniak|8|laurier|laurier|
+kapusniak|9|carvi|carvi|
+kapusniak|10|saindoux|saindoux|
+kapusniak|11|sel|sel|
+kapusniak|12|poivre noir|poivre-noir|
+kluski-slaskie|0|pomme de terre|pomme-de-terre|
+kluski-slaskie|1|maïzena|maizena|
+kluski-slaskie|2|oeuf|oeuf|
+kluski-slaskie|3|beurre|beurre|
+kluski-slaskie|4|sel|sel|
+kluski-slaskie|5|poivre noir|poivre-noir|
+kompot-z-suszu|0|pruneau|pruneau|
+kompot-z-suszu|1|pomme|pomme|
+kompot-z-suszu|2|poire|poire|
+kompot-z-suszu|3|abricot sec|abricot-sec|
+kompot-z-suszu|4|eau|eau|
+kompot-z-suszu|5|cannelle|cannelle|
+kompot-z-suszu|6|clou de girofle|clou-de-girofle|
+kompot-z-suszu|7|orange|orange|
+kompot-z-suszu|8|sucre|sucre|
+kompot-z-suszu|9|citron|citron|
+kopytka|0|pomme de terre|pomme-de-terre|
+kopytka|1|farine de blé|farine-de-ble|
+kopytka|2|oeuf|oeuf|
+kopytka|3|beurre|beurre|
+kopytka|4|panko|panko|
+kopytka|5|lardon|lardon|
+kopytka|6|sel|sel|
+kopytka|7|poivre noir|poivre-noir|
+kotlet-schabowy|0|échine de porc|echine-de-porc|
+kotlet-schabowy|1|farine de blé|farine-de-ble|
+kotlet-schabowy|2|oeuf|oeuf|
+kotlet-schabowy|3|panko|panko|
+kotlet-schabowy|4|saindoux|saindoux|
+kotlet-schabowy|5|pomme de terre|pomme-de-terre|
+kotlet-schabowy|6|chou vert|chou-vert|
+kotlet-schabowy|7|aneth|aneth|
+kotlet-schabowy|8|sel|sel|
+kotlet-schabowy|9|poivre noir|poivre-noir|
+makowiec|0|farine T45|farine-t45|
+makowiec|1|lait entier|lait-entier|
+makowiec|2|levure boulangère|levure-boulangere|
+makowiec|3|beurre|beurre|
+makowiec|4|sucre|sucre|
+makowiec|5|oeuf|oeuf|
+makowiec|6|graine de pavot|graine-de-pavot|
+makowiec|7|miel|miel|
+makowiec|8|raisin sec|raisin-sec|
+makowiec|9|fruit confit|fruit-confit|
+makowiec|10|amande|amande|
+makowiec|11|orange|orange|
+makowiec|12|sucre glace|sucre-glace|
+makowiec|13|sel|sel|
+paczki|0|farine T45|farine-t45|
+paczki|1|lait entier|lait-entier|
+paczki|2|levure boulangère|levure-boulangere|
+paczki|3|oeuf|oeuf|
+paczki|4|beurre|beurre|
+paczki|5|sucre|sucre|
+paczki|6|confiture|confiture|
+paczki|7|huile neutre|huile-neutre|
+paczki|8|sucre glace|sucre-glace|
+paczki|9|orange|orange|
+paczki|10|sel|sel|
+pierogi-ruskie|0|farine de blé|farine-de-ble|
+pierogi-ruskie|1|eau|eau|
+pierogi-ruskie|2|huile neutre|huile-neutre|
+pierogi-ruskie|3|sel|sel|
+pierogi-ruskie|4|pomme de terre|pomme-de-terre|
+pierogi-ruskie|5|fromage blanc|fromage-blanc|
+pierogi-ruskie|6|oignon|oignon|
+pierogi-ruskie|7|beurre|beurre|
+pierogi-ruskie|8|crème fraîche|creme-fraiche|
+pierogi-ruskie|9|lardon|lardon|
+pierogi-ruskie|10|sel|sel|
+pierogi-ruskie|11|poivre noir|poivre-noir|
+pierogi-z-miesem|0|farine de blé|farine-de-ble|
+pierogi-z-miesem|1|eau|eau|
+pierogi-z-miesem|2|huile neutre|huile-neutre|
+pierogi-z-miesem|3|boeuf à mijoter|boeuf-a-mijoter|
+pierogi-z-miesem|4|porc haché|porc-hache|
+pierogi-z-miesem|5|oignon|oignon|
+pierogi-z-miesem|6|panko|panko|
+pierogi-z-miesem|7|marjolaine|marjolaine|
+pierogi-z-miesem|8|beurre|beurre|
+pierogi-z-miesem|9|lardon|lardon|
+pierogi-z-miesem|10|sel|sel|
+pierogi-z-miesem|11|poivre noir|poivre-noir|
+placki-ziemniaczane|0|pomme de terre|pomme-de-terre|
+placki-ziemniaczane|1|oignon|oignon|
+placki-ziemniaczane|2|oeuf|oeuf|
+placki-ziemniaczane|3|farine de blé|farine-de-ble|
+placki-ziemniaczane|4|huile neutre|huile-neutre|
+placki-ziemniaczane|5|crème fraîche|creme-fraiche|
+placki-ziemniaczane|6|ciboulette|ciboulette|
+placki-ziemniaczane|7|sel|sel|
+placki-ziemniaczane|8|poivre noir|poivre-noir|
+rosol|0|poulet entier|poulet-entier|
+rosol|1|boeuf à mijoter|boeuf-a-mijoter|
+rosol|2|carotte|carotte|
+rosol|3|céleri-rave|celeri-rave|
+rosol|4|poireau|poireau|
+rosol|5|panais|panais|
+rosol|6|oignon|oignon|
+rosol|7|vermicelle|vermicelle|
+rosol|8|persil plat|persil-plat|
+rosol|9|poivre noir|poivre-noir|
+rosol|10|laurier|laurier|
+rosol|11|sel|sel|
+sernik|0|farine de blé|farine-de-ble|
+sernik|1|beurre|beurre|
+sernik|2|sucre glace|sucre-glace|
+sernik|3|oeuf|oeuf|
+sernik|4|fromage blanc|fromage-blanc|
+sernik|5|oeuf|oeuf|
+sernik|6|sucre|sucre|
+sernik|7|beurre|beurre|
+sernik|8|maïzena|maizena|
+sernik|9|citron|citron|
+sernik|10|raisin sec|raisin-sec|
+sernik|11|sel|sel|
+sledz-w-smietanie|0|hareng|hareng|
+sledz-w-smietanie|1|lait entier|lait-entier|
+sledz-w-smietanie|2|crème fraîche|creme-fraiche|
+sledz-w-smietanie|3|pomme|pomme|
+sledz-w-smietanie|4|oignon rouge|oignon-rouge|
+sledz-w-smietanie|5|cornichon|cornichon|
+sledz-w-smietanie|6|citron|citron|
+sledz-w-smietanie|7|aneth|aneth|
+sledz-w-smietanie|8|sucre|sucre|
+sledz-w-smietanie|9|poivre noir|poivre-noir|
+surowka-z-marchewki|0|carotte|carotte|
+surowka-z-marchewki|1|pomme|pomme|
+surowka-z-marchewki|2|crème fraîche|creme-fraiche|
+surowka-z-marchewki|3|citron|citron|
+surowka-z-marchewki|4|miel|miel|
+surowka-z-marchewki|5|raisin sec|raisin-sec|
+surowka-z-marchewki|6|persil plat|persil-plat|
+surowka-z-marchewki|7|sel|sel|
+surowka-z-marchewki|8|poivre noir|poivre-noir|
+zurek|0|farine de seigle|farine-de-seigle|
+zurek|1|eau|eau|
+zurek|2|ail|ail|
+zurek|3|saucisse fumée|saucisse-fumee|
+zurek|4|poitrine de porc|poitrine-de-porc|
+zurek|5|bouillon boeuf|bouillon-boeuf|
+zurek|6|crème fraîche|creme-fraiche|
+zurek|7|oeuf|oeuf|
+zurek|8|marjolaine|marjolaine|
+zurek|9|laurier|laurier|
+zurek|10|raifort|raifort|
+zurek|11|sel|sel|
+zurek|12|poivre noir|poivre-noir|
+beef-stroganoff|0|filet de boeuf|filet-de-boeuf|
+beef-stroganoff|1|champignon de Paris|champignon-de-paris|
+beef-stroganoff|2|oignon|oignon|
+beef-stroganoff|3|crème fraîche|creme-fraiche|
+beef-stroganoff|4|moutarde|moutarde|
+beef-stroganoff|5|farine de blé|farine-de-ble|
+beef-stroganoff|6|bouillon boeuf|bouillon-boeuf|
+beef-stroganoff|7|beurre|beurre|
+beef-stroganoff|8|paprika|paprika|
+beef-stroganoff|9|aneth|aneth|
+beef-stroganoff|10|citron|citron|
+beef-stroganoff|11|sel|sel|
+beef-stroganoff|12|poivre noir|poivre-noir|
+blinis|0|farine de sarrasin|farine-de-sarrasin|
+blinis|1|farine de blé|farine-de-ble|
+blinis|2|lait entier|lait-entier|
+blinis|3|levure boulangère|levure-boulangere|
+blinis|4|oeuf|oeuf|
+blinis|5|beurre|beurre|
+blinis|6|crème fraîche|creme-fraiche|
+blinis|7|saumon fumé|saumon-fume|
+blinis|8|aneth|aneth|
+blinis|9|sel|sel|
+bortsch|0|boeuf à mijoter|boeuf-a-mijoter|
+bortsch|1|betterave|betterave|
+bortsch|2|chou vert|chou-vert|
+bortsch|3|pomme de terre|pomme-de-terre|
+bortsch|4|carotte|carotte|
+bortsch|5|oignon|oignon|
+bortsch|6|concentré de tomate|concentre-de-tomate|
+bortsch|7|vinaigre de vin|vinaigre-de-vin|
+bortsch|8|eau|eau|
+bortsch|9|crème fraîche|creme-fraiche|
+bortsch|10|aneth|aneth|
+bortsch|11|ail|ail|
+bortsch|12|laurier|laurier|
+bortsch|13|saindoux|saindoux|
+bortsch|14|sel|sel|
+bortsch|15|poivre noir|poivre-noir|
+chtchi|0|boeuf à mijoter|boeuf-a-mijoter|
+chtchi|1|choucroute|choucroute|
+chtchi|2|chou vert|chou-vert|
+chtchi|3|pomme de terre|pomme-de-terre|
+chtchi|4|carotte|carotte|
+chtchi|5|oignon|oignon|
+chtchi|6|champignon séché|champignon-seche|
+chtchi|7|concentré de tomate|concentre-de-tomate|
+chtchi|8|eau|eau|
+chtchi|9|crème fraîche|creme-fraiche|
+chtchi|10|aneth|aneth|
+chtchi|11|laurier|laurier|
+chtchi|12|sel|sel|
+chtchi|13|poivre noir|poivre-noir|
+golubtsy|0|chou vert|chou-vert|
+golubtsy|1|boeuf haché|boeuf-hache|
+golubtsy|2|porc haché|porc-hache|
+golubtsy|3|riz rond|riz-rond|
+golubtsy|4|oignon|oignon|
+golubtsy|5|carotte|carotte|
+golubtsy|6|concentré de tomate|concentre-de-tomate|
+golubtsy|7|crème fraîche|creme-fraiche|
+golubtsy|8|bouillon boeuf|bouillon-boeuf|
+golubtsy|9|aneth|aneth|
+golubtsy|10|laurier|laurier|
+golubtsy|11|beurre|beurre|
+golubtsy|12|sel|sel|
+golubtsy|13|poivre noir|poivre-noir|
+kacha-de-sarrasin|0|sarrasin|sarrasin|
+kacha-de-sarrasin|1|eau|eau|
+kacha-de-sarrasin|2|oeuf|oeuf|
+kacha-de-sarrasin|3|beurre|beurre|
+kacha-de-sarrasin|4|oignon|oignon|
+kacha-de-sarrasin|5|champignon de Paris|champignon-de-paris|
+kacha-de-sarrasin|6|sel|sel|
+kacha-de-sarrasin|7|poivre noir|poivre-noir|
+kissel|0|framboise|framboise|
+kissel|1|eau|eau|
+kissel|2|sucre|sucre|
+kissel|3|maïzena|maizena|
+kissel|4|citron|citron|
+kissel|5|cannelle|cannelle|
+kotlety-pojarski|0|blanc de poulet|blanc-de-poulet|
+kotlety-pojarski|1|pain|pain|
+kotlety-pojarski|2|crème liquide|creme-liquide|
+kotlety-pojarski|3|beurre|beurre|
+kotlety-pojarski|4|oignon|oignon|
+kotlety-pojarski|5|pain de mie|pain-de-mie|
+kotlety-pojarski|6|oeuf|oeuf|
+kotlety-pojarski|7|farine de blé|farine-de-ble|
+kotlety-pojarski|8|beurre|beurre|
+kotlety-pojarski|9|muscade|muscade|
+kotlety-pojarski|10|sel|sel|
+kotlety-pojarski|11|poivre blanc|poivre-blanc|
+koulebiak-de-saumon|0|saumon|saumon|
+koulebiak-de-saumon|1|pâte feuilletée|pate-feuilletee|
+koulebiak-de-saumon|2|riz rond|riz-rond|
+koulebiak-de-saumon|3|champignon de Paris|champignon-de-paris|
+koulebiak-de-saumon|4|oeuf|oeuf|
+koulebiak-de-saumon|5|échalote|echalote|
+koulebiak-de-saumon|6|aneth|aneth|
+koulebiak-de-saumon|7|beurre|beurre|
+koulebiak-de-saumon|8|citron|citron|
+koulebiak-de-saumon|9|oeuf|oeuf|
+koulebiak-de-saumon|10|sel|sel|
+koulebiak-de-saumon|11|poivre noir|poivre-noir|
+medovik|0|miel|miel|
+medovik|1|beurre|beurre|
+medovik|2|sucre|sucre|
+medovik|3|oeuf|oeuf|
+medovik|4|farine de blé|farine-de-ble|
+medovik|5|bicarbonate de soude|bicarbonate|
+medovik|6|crème fraîche|creme-fraiche|
+medovik|7|crème liquide|creme-liquide|
+medovik|8|sucre glace|sucre-glace|
+medovik|9|sel|sel|
+okrochka|0|kéfir|kefir|
+okrochka|1|pomme de terre|pomme-de-terre|
+okrochka|2|concombre|concombre|
+okrochka|3|radis|radis|
+okrochka|4|oeuf|oeuf|
+okrochka|5|jambon blanc|jambon-blanc|
+okrochka|6|oignon nouveau|oignon-nouveau|
+okrochka|7|aneth|aneth|
+okrochka|8|crème fraîche|creme-fraiche|
+okrochka|9|moutarde|moutarde|
+okrochka|10|citron|citron|
+okrochka|11|sel|sel|
+okrochka|12|poivre noir|poivre-noir|
+olivier|0|pomme de terre|pomme-de-terre|
+olivier|1|carotte|carotte|
+olivier|2|oeuf|oeuf|
+olivier|3|jambon blanc|jambon-blanc|
+olivier|4|petits pois surgelés|petits-pois-surgeles|
+olivier|5|cornichon|cornichon|
+olivier|6|oignon|oignon|
+olivier|7|mayonnaise|mayonnaise|
+olivier|8|moutarde|moutarde|
+olivier|9|aneth|aneth|
+olivier|10|sel|sel|
+olivier|11|poivre noir|poivre-noir|
+pain-noir-de-seigle|0|farine de seigle|farine-de-seigle|
+pain-noir-de-seigle|1|farine T55|farine-t55|
+pain-noir-de-seigle|2|levain|levain|
+pain-noir-de-seigle|3|eau|eau|
+pain-noir-de-seigle|4|mélasse|melasse|
+pain-noir-de-seigle|5|malt d'orge|malt-d-orge|
+pain-noir-de-seigle|6|graine de coriandre|coriandre-graines|
+pain-noir-de-seigle|7|sel|sel|
+pelmeni|0|farine de blé|farine-de-ble|
+pelmeni|1|eau|eau|
+pelmeni|2|oeuf|oeuf|
+pelmeni|3|sel|sel|
+pelmeni|4|boeuf haché|boeuf-hache|
+pelmeni|5|porc haché|porc-hache|
+pelmeni|6|oignon|oignon|
+pelmeni|7|eau|eau|
+pelmeni|8|crème fraîche|creme-fraiche|
+pelmeni|9|beurre|beurre|
+pelmeni|10|laurier|laurier|
+pelmeni|11|sel|sel|
+pelmeni|12|poivre noir|poivre-noir|
+pirojki|0|farine T45|farine-t45|
+pirojki|1|lait entier|lait-entier|
+pirojki|2|levure boulangère|levure-boulangere|
+pirojki|3|beurre|beurre|
+pirojki|4|oeuf|oeuf|
+pirojki|5|sucre|sucre|
+pirojki|6|chou vert|chou-vert|
+pirojki|7|oignon|oignon|
+pirojki|8|oeuf|oeuf|
+pirojki|9|aneth|aneth|
+pirojki|10|beurre|beurre|
+pirojki|11|oeuf|oeuf|
+pirojki|12|sel|sel|
+pirojki|13|poivre noir|poivre-noir|
+ptichie-moloko|0|beurre|beurre|
+ptichie-moloko|1|sucre|sucre|
+ptichie-moloko|2|oeuf|oeuf|
+ptichie-moloko|3|farine de blé|farine-de-ble|
+ptichie-moloko|4|oeuf|oeuf|
+ptichie-moloko|5|sucre|sucre|
+ptichie-moloko|6|agar-agar|agar-agar|
+ptichie-moloko|7|eau|eau|
+ptichie-moloko|8|beurre|beurre|
+ptichie-moloko|9|lait concentré sucré|lait-concentre-sucre|
+ptichie-moloko|10|citron|citron|
+ptichie-moloko|11|chocolat noir|chocolat-noir|
+ptichie-moloko|12|sel|sel|
+solianka|0|boeuf à mijoter|boeuf-a-mijoter|
+solianka|1|saucisse fumée|saucisse-fumee|
+solianka|2|jambon cru|jambon-cru|
+solianka|3|lardon|lardon|
+solianka|4|cornichon|cornichon|
+solianka|5|cornichon|cornichon|
+solianka|6|concentré de tomate|concentre-de-tomate|
+solianka|7|oignon|oignon|
+solianka|8|olive noire|olive-noire|
+solianka|9|câpre|capre|
+solianka|10|citron|citron|
+solianka|11|eau|eau|
+solianka|12|crème fraîche|creme-fraiche|
+solianka|13|aneth|aneth|
+solianka|14|sel|sel|
+solianka|15|poivre noir|poivre-noir|
+syrniki|0|fromage blanc|fromage-blanc|
+syrniki|1|oeuf|oeuf|
+syrniki|2|farine de blé|farine-de-ble|
+syrniki|3|sucre|sucre|
+syrniki|4|raisin sec|raisin-sec|
+syrniki|5|beurre|beurre|
+syrniki|6|extrait de vanille|extrait-de-vanille|
+syrniki|7|crème fraîche|creme-fraiche|
+syrniki|8|confiture|confiture|
+syrniki|9|sel|sel|
+the-russe-au-samovar|0|thé noir|the-noir|
+the-russe-au-samovar|1|eau|eau|
+the-russe-au-samovar|2|citron|citron|
+the-russe-au-samovar|3|confiture|confiture|
+the-russe-au-samovar|4|miel|miel|
+vinegret|0|betterave|betterave|
+vinegret|1|pomme de terre|pomme-de-terre|
+vinegret|2|carotte|carotte|
+vinegret|3|choucroute|choucroute|
+vinegret|4|cornichon|cornichon|
+vinegret|5|oignon|oignon|
+vinegret|6|haricot blanc|haricot-blanc|
+vinegret|7|huile neutre|huile-neutre|
+vinegret|8|aneth|aneth|
+vinegret|9|sel|sel|
+vinegret|10|poivre noir|poivre-noir|

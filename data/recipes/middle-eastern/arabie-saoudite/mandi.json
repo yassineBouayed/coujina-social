@@ -1,0 +1,43 @@
+{
+  "slug": "mandi",
+  "cuisine": "middle-eastern",
+  "country": "arabie-saoudite",
+  "origin": "Arabie saoudite",
+  "native_name": "Mandi",
+  "title": {
+    "fr": "Mandi, agneau fumé au charbon sur riz",
+    "en": "Mandi, charcoal-smoked lamb over rice"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 35, "cook_min": 180 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fume", "fete", "riz", "agneau"],
+  "ingredients": [
+    { "raw": "1,5 kg d'épaule d'agneau", "qty": 1500, "unit": "g", "item": "épaule d'agneau" },
+    { "raw": "600 g de riz basmati", "qty": 600, "unit": "g", "item": "riz basmati" },
+    { "raw": "2 c. à s. de baharat", "qty": 2, "unit": "tbsp", "item": "baharat" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "1 grosse pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "6 gousses de cardamome", "qty": 6, "unit": "piece", "item": "cardamome" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "2 citrons séchés d'Oman", "qty": 2, "unit": "piece", "item": "citron séché d'Oman" },
+    { "raw": "2 oignons", "qty": 2, "unit": "piece", "item": "oignon" },
+    { "raw": "60 g de ghee", "qty": 60, "unit": "g", "item": "ghee" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Frotter l'agneau de baharat, curcuma, sel et poivre, et le laisser mariner une nuit.", "en": "Rub the lamb with baharat, turmeric, salt and pepper, and marinate it overnight." },
+    { "fr": "Le cuire à couvert deux heures et demie à 150 °C, posé sur une grille au-dessus d'un plat d'eau épicée.", "en": "Cook it covered for two and a half hours at 150°C, on a rack over a dish of spiced water." },
+    { "fr": "Récupérer le jus tombé dans le plat : c'est lui qui cuira le riz, et c'est là qu'est tout le goût.", "en": "Keep the juices that fall into the dish: they cook the rice, and that is where the flavour is." },
+    { "fr": "Cuire le riz trempé dans ce jus filtré, avec le safran et les épices entières.", "en": "Cook the soaked rice in those strained juices, with the saffron and whole spices." },
+    { "fr": "Pour le fumage : poser un morceau de charbon incandescent dans une coupelle au centre du riz, verser une cuillère de ghee dessus, et couvrir cinq minutes.", "en": "To smoke it: set a glowing charcoal in a small bowl in the middle of the rice, pour a spoon of ghee onto it, and cover for five minutes." },
+    { "fr": "Le charbon est ce qui distingue le mandi du kabsa. Sans lui, on a un bon riz, pas un mandi.", "en": "The charcoal is what separates mandi from kabsa. Without it you have good rice, not mandi." }
+  ],
+  "notes": [
+    { "fr": "Le fumage au charbon se fait fenêtre ouverte, dans un récipient métallique stable, jamais posé à même le riz.", "en": "Charcoal smoking is done with a window open, in a stable metal container, never set directly on the rice." }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "cochinita-pibil",
+  "cuisine": "latin-american",
+  "country": "mexique",
+  "origin": "Mexique",
+  "native_name": "Cochinita pibil",
+  "title": {
+    "fr": "Porc mariné au rocou du Yucatán",
+    "en": "Yucatán annatto-marinated pork"
+  },
+  "meal_type": "main",
+  "servings": 8,
+  "times": { "prep_min": 30, "cook_min": 240 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["yucatan", "rocou", "orange-amere", "mijote"],
+  "ingredients": [
+    { "raw": "2 kg d'épaule de porc, en gros morceaux", "qty": 2000, "unit": "g", "item": "échine de porc", "prep": "en gros morceaux" },
+    { "raw": "100 g de pâte de rocou", "qty": 100, "unit": "g", "item": "rocou" },
+    { "raw": "4 oranges, leur jus", "qty": 4, "unit": "piece", "item": "orange" },
+    { "raw": "4 citrons verts, leur jus", "qty": 4, "unit": "piece", "item": "citron vert" },
+    { "raw": "10 gousses d'ail", "qty": 10, "unit": "piece", "item": "ail" },
+    { "raw": "2 c. à s. de cumin moulu", "qty": 2, "unit": "tbsp", "item": "cumin" },
+    { "raw": "2 c. à s. d'origan séché", "qty": 2, "unit": "tbsp", "item": "origan séché" },
+    { "raw": "5 clous de girofle", "qty": 5, "unit": "piece", "item": "clou de girofle" },
+    { "raw": "1 c. à s. de poivre noir en grains", "qty": 1, "unit": "tbsp", "item": "poivre noir" },
+    { "raw": "3 oignons rouges, émincés", "qty": 3, "unit": "piece", "item": "oignon rouge", "prep": "émincé", "group": "oignons marinés" },
+    { "raw": "20 cl de vinaigre blanc", "qty": 20, "unit": "cl", "item": "vinaigre blanc", "group": "oignons marinés" },
+    { "raw": "2 habaneros", "qty": 2, "unit": "piece", "item": "habanero", "group": "oignons marinés" },
+    { "raw": "24 tortillas de maïs", "qty": 24, "unit": "piece", "item": "tortilla de maïs", "group": "service" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "L'orange amère du Yucatán se remplace par un mélange d'orange douce et de citron vert.", "en": "The Yucatán's bitter orange is replaced by a mix of sweet orange and lime." },
+    { "fr": "Délayer la pâte de rocou dans le jus d'agrumes AVANT d'ajouter le reste : elle ne se dissout pas dans le gras.", "en": "Slacken the annatto paste in the citrus juice BEFORE anything else: it will not dissolve in fat." },
+    { "fr": "Mariner le porc VINGT-QUATRE HEURES au réfrigérateur, en le retournant deux fois.", "en": "Marinate the pork for TWENTY-FOUR HOURS in the fridge, turning it twice." },
+    { "fr": "Traditionnellement, il cuit enveloppé de feuilles de bananier, enterré dans un four de terre.", "en": "Traditionally it cooks wrapped in banana leaves, buried in an earth oven." },
+    { "fr": "À défaut, cuire QUATRE HEURES à 140 °C dans une cocotte bien fermée, sans ouvrir.", "en": "Failing that, cook for FOUR HOURS at 140°C in a tightly sealed pot, without opening." },
+    { "fr": "Les oignons rouges au vinaigre ne sont pas un accompagnement : ils font partie du plat.", "en": "The pickled red onions are not a side: they are part of the dish." }
+  ]
+}

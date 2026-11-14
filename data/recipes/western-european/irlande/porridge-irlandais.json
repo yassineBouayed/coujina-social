@@ -1,0 +1,35 @@
+{
+  "slug": "porridge-irlandais",
+  "cuisine": "western-european",
+  "country": "irlande",
+  "origin": "Irlande",
+  "native_name": "Irish porridge",
+  "title": {
+    "fr": "Porridge d'avoine à l'irlandaise",
+    "en": "Irish oat porridge"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 5, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["petit-dejeuner", "avoine", "hiver", "simple"],
+  "ingredients": [
+    { "raw": "200 g de flocons d'avoine", "qty": 200, "unit": "g", "item": "flocon d'avoine" },
+    { "raw": "80 cl d'eau", "qty": 80, "unit": "cl", "item": "eau" },
+    { "raw": "25 cl de lait entier", "qty": 25, "unit": "cl", "item": "lait entier" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "4 c. à s. de miel", "qty": 4, "unit": "tbsp", "item": "miel", "optional": true },
+    { "raw": "15 cl de crème liquide", "qty": 15, "unit": "cl", "item": "crème liquide", "optional": true },
+    { "raw": "100 g de framboises", "qty": 100, "unit": "g", "item": "framboise", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Le porridge irlandais est SALÉ à la cuisson : le sel est ce qui révèle le goût de l'avoine.", "en": "Irish porridge is SALTED as it cooks: salt is what brings out the flavour of the oats." },
+    { "fr": "Partir à l'eau FROIDE : versés dans l'eau bouillante, les flocons font des grumeaux.", "en": "Start in COLD water: dropped into boiling water, the oats go lumpy." },
+    { "fr": "Porter doucement à frémissement en remuant, puis baisser le feu au minimum.", "en": "Bring gently to a simmer while stirring, then lower the heat to a minimum." },
+    { "fr": "Cuire VINGT-CINQ MINUTES en remuant régulièrement : c'est le temps qui rend le porridge crémeux.", "en": "Cook for TWENTY-FIVE MINUTES, stirring regularly: time is what makes porridge creamy." },
+    { "fr": "Ajouter le lait à MI-CUISSON seulement : mis au départ, il attache et brûle au fond.", "en": "Add the milk only HALFWAY THROUGH: added at the start, it catches and burns." },
+    { "fr": "Servir avec un filet de crème froide et du miel, jamais mélangés dedans.", "en": "Serve with a thread of cold cream and honey, never stirred in." }
+  ]
+}

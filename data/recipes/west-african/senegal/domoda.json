@@ -1,0 +1,43 @@
+{
+  "slug": "domoda",
+  "cuisine": "west-african",
+  "country": "senegal",
+  "origin": "Sénégal",
+  "native_name": "Domoda",
+  "title": {
+    "fr": "Domoda, ragoût d'arachide au bœuf",
+    "en": "Domoda, beef and groundnut stew"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 90 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["arachide", "casamance", "acidule", "boeuf"],
+  "ingredients": [
+    { "raw": "900 g de bœuf à mijoter, en cubes", "qty": 900, "unit": "g", "item": "boeuf à mijoter", "prep": "en cubes" },
+    { "raw": "250 g de pâte d'arachide", "qty": 250, "unit": "g", "item": "pâte d'arachide" },
+    { "raw": "2 c. à s. de pâte de tamarin", "qty": 2, "unit": "tbsp", "item": "pâte de tamarin" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "2 patates douces, en gros cubes", "qty": 2, "unit": "piece", "item": "patate douce", "prep": "en gros cubes" },
+    { "raw": "2 carottes, en tronçons", "qty": 2, "unit": "piece", "item": "carotte", "prep": "en tronçons" },
+    { "raw": "1 piment oiseau", "qty": 1, "unit": "piece", "item": "piment oiseau" },
+    { "raw": "1 cube de bouillon", "qty": 1, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "5 c. à s. d'huile d'arachide", "qty": 5, "unit": "tbsp", "item": "huile d'arachide" },
+    { "raw": "400 g de riz brisé", "qty": 400, "unit": "g", "item": "riz brisé", "group": "service" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire dorer la viande dans l'huile, ajouter l'oignon puis le concentré de tomate et laisser cuire cinq minutes.", "en": "Brown the meat in the oil, add the onion then the tomato purée and cook for five minutes." },
+    { "fr": "Délayer la pâte d'arachide dans de l'eau chaude jusqu'à obtenir un lait homogène, sans grumeau.", "en": "Slake the groundnut paste in hot water to a smooth milk, with no lumps." },
+    { "fr": "La verser sur la viande, mouiller largement, et laisser mijoter une heure à feu doux.", "en": "Pour it over the meat, add plenty of water, and simmer for an hour over low heat." },
+    { "fr": "Remuer souvent : la pâte d'arachide accroche au fond et brûle sans prévenir.", "en": "Stir often: groundnut paste catches on the base and scorches without warning." },
+    { "fr": "Ajouter le tamarin, les légumes, le piment entier et le cube, et poursuivre trente minutes.", "en": "Add the tamarind, vegetables, whole chilli and stock cube, and continue for thirty minutes." },
+    { "fr": "La sauce est prête quand l'huile d'arachide remonte en surface. Servir sur du riz blanc.", "en": "The sauce is ready when the groundnut oil rises to the surface. Serve over white rice." }
+  ],
+  "notes": [
+    { "fr": "C'est le tamarin qui distingue le domoda du mafé : sans son acidité, on a juste une sauce arachide.", "en": "Tamarind is what separates domoda from mafé: without its acidity, you just have a groundnut sauce." }
+  ]
+}

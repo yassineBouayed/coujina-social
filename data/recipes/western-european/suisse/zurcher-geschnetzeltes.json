@@ -1,0 +1,40 @@
+{
+  "slug": "zurcher-geschnetzeltes",
+  "cuisine": "western-european",
+  "country": "suisse",
+  "origin": "Suisse",
+  "native_name": "Zürcher Geschnetzeltes",
+  "title": {
+    "fr": "Émincé de veau à la zurichoise",
+    "en": "Zurich-style veal in cream"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["zurich", "veau", "creme", "rapide"],
+  "ingredients": [
+    { "raw": "700 g de veau, en fines lanières", "qty": 700, "unit": "g", "item": "veau", "prep": "en fines lanières" },
+    { "raw": "300 g de champignons de Paris, émincés", "qty": 300, "unit": "g", "item": "champignon de Paris", "prep": "émincé" },
+    { "raw": "3 échalotes, ciselées", "qty": 3, "unit": "piece", "item": "échalote", "prep": "ciselée" },
+    { "raw": "25 cl de crème liquide", "qty": 25, "unit": "cl", "item": "crème liquide" },
+    { "raw": "15 cl de vin blanc sec", "qty": 15, "unit": "cl", "item": "vin blanc" },
+    { "raw": "20 cl de bouillon de veau", "qty": 20, "unit": "cl", "item": "bouillon volaille" },
+    { "raw": "3 c. à s. de farine de blé", "qty": 3, "unit": "tbsp", "item": "farine de blé" },
+    { "raw": "80 g de beurre", "qty": 80, "unit": "g", "item": "beurre" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "sel et poivre blanc", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre blanc", "qty": null, "unit": null, "item": "poivre blanc" }
+  ],
+  "steps": [
+    { "fr": "Le veau se coupe en lanières TRÈS fines, contre le sens des fibres, et cuit en deux minutes.", "en": "The veal is cut into VERY thin strips, against the grain, and cooks in two minutes." },
+    { "fr": "Le saisir par PETITES QUANTITÉS, à feu maximum : entassé, il bout et durcit aussitôt.", "en": "Sear it in SMALL BATCHES, at maximum heat: crowded, it boils and toughens at once." },
+    { "fr": "Le réserver dès qu'il est coloré : il finira de cuire dans la sauce, deux minutes de plus.", "en": "Set it aside as soon as it colours: it finishes in the sauce, two minutes more." },
+    { "fr": "Cuire les champignons à part, à feu vif, puis les échalotes, et déglacer au vin blanc.", "en": "Cook the mushrooms separately over high heat, then the shallots, and deglaze with white wine." },
+    { "fr": "Mouiller au bouillon, laisser réduire de moitié, puis ajouter la crème.", "en": "Add the stock, reduce by half, then add the cream." },
+    { "fr": "Remettre le veau et son JUS RENDU, chauffer sans bouillir, et acidifier au citron.", "en": "Return the veal and its RELEASED JUICES, heat without boiling, and sharpen with lemon." }
+  ]
+}

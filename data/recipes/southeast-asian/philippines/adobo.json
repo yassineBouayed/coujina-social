@@ -1,0 +1,42 @@
+{
+  "slug": "adobo",
+  "cuisine": "southeast-asian",
+  "country": "philippines",
+  "origin": "Philippines",
+  "native_name": "Adobo",
+  "title": {
+    "fr": "Adobo, porc et poulet au vinaigre et sauce soja",
+    "en": "Adobo, pork and chicken in vinegar and soy"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 60 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["national", "vinaigre", "conserve", "quotidien"],
+  "ingredients": [
+    { "raw": "800 g de poitrine de porc, en gros cubes", "qty": 800, "unit": "g", "item": "poitrine de porc", "prep": "en gros cubes" },
+    { "raw": "800 g de cuisses de poulet, en morceaux", "qty": 800, "unit": "g", "item": "cuisse de poulet", "prep": "en morceaux" },
+    { "raw": "20 cl de vinaigre de canne", "qty": 20, "unit": "cl", "item": "vinaigre de canne" },
+    { "raw": "15 cl de sauce soja", "qty": 15, "unit": "cl", "item": "sauce soja" },
+    { "raw": "1 tête d'ail, écrasée", "qty": 12, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "6 feuilles de laurier", "qty": 6, "unit": "piece", "item": "laurier" },
+    { "raw": "2 c. à s. de poivre noir en grains", "qty": 2, "unit": "tbsp", "item": "poivre noir" },
+    { "raw": "2 c. à s. de sucre roux", "qty": 2, "unit": "tbsp", "item": "sucre roux" },
+    { "raw": "25 cl d'eau", "qty": 25, "unit": "cl", "item": "eau" },
+    { "raw": "4 c. à s. d'huile neutre", "qty": 4, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "500 g de riz long grain", "qty": 500, "unit": "g", "item": "riz long grain", "group": "service" }
+  ],
+  "steps": [
+    { "fr": "L'adobo est né comme méthode de CONSERVATION : le vinaigre et le sel gardaient la viande sans froid.", "en": "Adobo began as a PRESERVING method: vinegar and salt kept meat without refrigeration." },
+    { "fr": "Faire mariner les viandes trente minutes dans le vinaigre, la sauce soja, l'ail et le poivre.", "en": "Marinate the meats for thirty minutes in the vinegar, soy, garlic and pepper." },
+    { "fr": "Porter à ébullition et NE PAS REMUER pendant les dix premières minutes.", "en": "Bring it to a boil and DO NOT STIR for the first ten minutes." },
+    { "fr": "Remuer avant que le vinaigre ait bouilli laisse un goût cru et agressif qui ne part plus.", "en": "Stirring before the vinegar has boiled leaves a raw, aggressive taste that never goes." },
+    { "fr": "Laisser mijoter quarante minutes à couvert, puis retirer les viandes et faire réduire la sauce.", "en": "Simmer for forty minutes covered, then lift out the meats and reduce the sauce." },
+    { "fr": "Faire revenir les viandes dans l'huile jusqu'à ce qu'elles caramélisent, et les remettre en sauce.", "en": "Fry the meats in oil until they caramelise, and return them to the sauce." }
+  ],
+  "notes": [
+    { "fr": "L'adobo est meilleur le lendemain, et meilleur encore le surlendemain. Il n'y a pas deux familles qui le font pareil.", "en": "Adobo is better the next day, and better still the day after. No two families make it the same way." }
+  ]
+}

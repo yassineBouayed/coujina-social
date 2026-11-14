@@ -1,0 +1,39 @@
+{
+  "slug": "yu-xiang-qie-zi",
+  "cuisine": "east-asian",
+  "country": "chine",
+  "origin": "Chine",
+  "native_name": "鱼香茄子",
+  "title": {
+    "fr": "Aubergines saveur poisson",
+    "en": "Fish-fragrant aubergine"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["sichuan", "aubergine", "aigre-doux", "vegetarien"],
+  "ingredients": [
+    { "raw": "800 g d'aubergines, en bâtonnets", "qty": 800, "unit": "g", "item": "aubergine", "prep": "en bâtonnets" },
+    { "raw": "2 c. à s. de doubanjiang", "qty": 2, "unit": "tbsp", "item": "doubanjiang" },
+    { "raw": "6 gousses d'ail, hachées", "qty": 6, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "2 c. à s. de gingembre frais, haché", "qty": 2, "unit": "tbsp", "item": "gingembre", "prep": "haché" },
+    { "raw": "6 oignons nouveaux, ciselés", "qty": 6, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé" },
+    { "raw": "3 c. à s. de vinaigre de riz", "qty": 3, "unit": "tbsp", "item": "vinaigre de riz", "group": "sauce" },
+    { "raw": "2 c. à s. de sucre", "qty": 2, "unit": "tbsp", "item": "sucre", "group": "sauce" },
+    { "raw": "2 c. à s. de sauce soja", "qty": 2, "unit": "tbsp", "item": "sauce soja", "group": "sauce" },
+    { "raw": "1 c. à s. de maïzena", "qty": 1, "unit": "tbsp", "item": "maïzena", "group": "sauce" },
+    { "raw": "15 cl de bouillon de légumes", "qty": 15, "unit": "cl", "item": "bouillon légumes", "group": "sauce" },
+    { "raw": "50 cl d'huile neutre pour la friture", "qty": 50, "unit": "cl", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "« Saveur poisson » ne contient aucun poisson : c'est le nom d'un profil aigre-doux-pimenté sichuanais.", "en": "\"Fish fragrant\" contains no fish: it names a Sichuanese sweet-sour-spicy flavour profile." },
+    { "fr": "Frire les bâtonnets d'aubergine à 180 °C jusqu'à ce qu'ils soient dorés, puis les égoutter.", "en": "Fry the aubergine batons at 180°C until golden, then drain them." },
+    { "fr": "Une aubergine non frite reste spongieuse et boit toute la sauce : la friture est obligatoire.", "en": "Unfried aubergine stays spongy and drinks all the sauce: frying is not optional." },
+    { "fr": "Vider l'huile, en garder deux cuillères, et y cuire le doubanjiang jusqu'à ce qu'il rougisse.", "en": "Pour off the oil, keep two spoonfuls, and cook the doubanjiang in it until it turns red." },
+    { "fr": "Ajouter ail et gingembre, la sauce mélangée, et laisser épaissir.", "en": "Add the garlic and ginger, the mixed sauce, and let it thicken." },
+    { "fr": "Remettre les aubergines, enrober trente secondes, et ajouter les oignons nouveaux hors du feu.", "en": "Return the aubergine, coat for thirty seconds, and add the spring onions off the heat." }
+  ]
+}

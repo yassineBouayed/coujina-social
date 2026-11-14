@@ -1,0 +1,40 @@
+{
+  "slug": "karahi-poulet",
+  "cuisine": "south-asian",
+  "country": "pakistan",
+  "origin": "Pakistan",
+  "native_name": "Chicken karahi",
+  "title": {
+    "fr": "Karahi de poulet à la tomate et au gingembre",
+    "en": "Chicken karahi with tomato and ginger"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 35 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rapide", "tomate", "gingembre", "restaurant"],
+  "ingredients": [
+    { "raw": "1,2 kg de poulet, en morceaux avec os", "qty": 1200, "unit": "g", "item": "poulet entier", "prep": "en morceaux" },
+    { "raw": "800 g de tomates, en quartiers", "qty": 800, "unit": "g", "item": "tomate", "prep": "en quartiers" },
+    { "raw": "3 c. à s. de gingembre frais, en julienne", "qty": 3, "unit": "tbsp", "item": "gingembre", "prep": "en julienne" },
+    { "raw": "8 gousses d'ail, écrasées", "qty": 8, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 c. à s. de coriandre en graines, concassée", "qty": 1, "unit": "tbsp", "item": "coriandre graines", "prep": "concassée" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin" },
+    { "raw": "1 c. à c. de piment kashmiri", "qty": 1, "unit": "tsp", "item": "piment kashmiri" },
+    { "raw": "4 piments verts, fendus", "qty": 4, "unit": "piece", "item": "piment frais", "prep": "fendu" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "10 cl de ghee", "qty": 10, "unit": "cl", "item": "ghee" },
+    { "raw": "1 c. à c. de garam masala", "qty": 1, "unit": "tsp", "item": "garam masala" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le karahi ne contient NI OIGNON NI YAOURT : c'est un plat de tomate, d'ail et de gingembre, et rien d'autre.", "en": "Karahi contains NEITHER ONION NOR YOGHURT: it is a dish of tomato, garlic and ginger, and nothing else." },
+    { "fr": "Chauffer le ghee à feu vif et y saisir le poulet jusqu'à ce qu'il colore.", "en": "Heat the ghee over high heat and sear the chicken until it colours." },
+    { "fr": "Ajouter l'ail et cuire deux minutes, puis les tomates en quartiers.", "en": "Add the garlic and cook for two minutes, then the tomato wedges." },
+    { "fr": "Cuire À DÉCOUVERT et à feu vif : les tomates doivent se défaire et l'eau s'évaporer entièrement.", "en": "Cook UNCOVERED over high heat: the tomatoes must break down and the water evaporate entirely." },
+    { "fr": "Le karahi est prêt quand le ghee se sépare et que la sauce accroche à la viande.", "en": "Karahi is ready when the ghee separates and the sauce clings to the meat." },
+    { "fr": "Finir au gingembre en julienne, aux piments verts, à la coriandre et au garam masala.", "en": "Finish with julienned ginger, green chillies, coriander and garam masala." }
+  ]
+}

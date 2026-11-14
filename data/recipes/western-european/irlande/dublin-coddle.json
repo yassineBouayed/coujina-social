@@ -1,0 +1,38 @@
+{
+  "slug": "dublin-coddle",
+  "cuisine": "western-european",
+  "country": "irlande",
+  "origin": "Irlande",
+  "native_name": "Dublin coddle",
+  "title": {
+    "fr": "Coddle de Dublin aux saucisses",
+    "en": "Dublin coddle with sausages"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 120 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["dublin", "saucisse", "mijote", "pauvre"],
+  "ingredients": [
+    { "raw": "8 saucisses fraîches", "qty": 8, "unit": "piece", "item": "saucisse de Toulouse" },
+    { "raw": "300 g de lardons", "qty": 300, "unit": "g", "item": "lardon" },
+    { "raw": "1,2 kg de pommes de terre, en grosses rondelles", "qty": 1200, "unit": "g", "item": "pomme de terre", "prep": "en grosses rondelles" },
+    { "raw": "4 oignons, en rondelles", "qty": 4, "unit": "piece", "item": "oignon", "prep": "en rondelles" },
+    { "raw": "3 carottes, en rondelles", "qty": 3, "unit": "piece", "item": "carotte", "prep": "en rondelles" },
+    { "raw": "80 cl de bouillon de volaille", "qty": 80, "unit": "cl", "item": "bouillon volaille" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le coddle est un plat de restes : on y met ce qu'il y a, et on ne fait rissoler RIEN.", "en": "Coddle is a leftovers dish: you use what is there, and you brown NOTHING." },
+    { "fr": "« Coddle » veut dire mijoter doucement : c'est le nom de la méthode, pas d'un ingrédient.", "en": "\"Coddle\" means to simmer gently: it names the method, not an ingredient." },
+    { "fr": "Certains Dublinois blanchissent les saucisses avant, pour que le bouillon reste clair.", "en": "Some Dubliners blanch the sausages first, to keep the broth clear." },
+    { "fr": "Monter en couches dans une cocotte : oignons, lardons, pommes de terre, saucisses.", "en": "Layer it in a pot: onions, bacon, potatoes, sausages." },
+    { "fr": "Mouiller à MI-HAUTEUR seulement : ce n'est pas une soupe, les pommes de terre doivent affleurer.", "en": "Add liquid only HALFWAY UP: this is not a soup, the potatoes should just break the surface." },
+    { "fr": "Cuire deux heures à couvert, à 150 °C, sans jamais remuer.", "en": "Cook for two hours covered, at 150°C, without ever stirring." }
+  ]
+}

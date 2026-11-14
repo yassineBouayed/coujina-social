@@ -1,0 +1,34 @@
+{
+  "slug": "jallab",
+  "cuisine": "levantine",
+  "country": "liban",
+  "origin": "Liban",
+  "native_name": "Jallab",
+  "title": {
+    "fr": "Jallab, boisson de dattes aux pignons",
+    "en": "Jallab, date syrup drink with pine nuts"
+  },
+  "meal_type": "drink",
+  "servings": 6,
+  "times": { "prep_min": 15, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ramadan", "ete", "datte", "rose"],
+  "ingredients": [
+    { "raw": "20 cl de sirop de dattes", "qty": 20, "unit": "cl", "item": "sirop de datte" },
+    { "raw": "1,2 l d'eau glacée", "qty": 1.2, "unit": "l", "item": "eau" },
+    { "raw": "2 c. à s. d'eau de rose", "qty": 2, "unit": "tbsp", "item": "eau de rose" },
+    { "raw": "6 c. à s. de pignons de pin", "qty": 6, "unit": "tbsp", "item": "pignon de pin" },
+    { "raw": "4 c. à s. de raisins secs blonds", "qty": 4, "unit": "tbsp", "item": "raisin sec" },
+    { "raw": "2 c. à s. de sucre", "qty": 2, "unit": "tbsp", "item": "sucre", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Faire tremper les pignons et les raisins secs dans l'eau froide une heure, pour qu'ils gonflent.", "en": "Soak the pine nuts and raisins in cold water for an hour, so they swell." },
+    { "fr": "Délayer le sirop de dattes dans l'eau glacée, en fouettant jusqu'à ce qu'il soit complètement dissous.", "en": "Whisk the date syrup into the iced water, until fully dissolved." },
+    { "fr": "Goûter avant de sucrer : le sirop de dattes est déjà très sucré, et beaucoup de jallab sont écœurants.", "en": "Taste before sweetening: date syrup is already very sweet, and much jallab is cloying." },
+    { "fr": "Ajouter l'eau de rose : une cuillère de plus et la boisson devient parfumée comme un savon.", "en": "Add the rose water: one spoonful too many and the drink tastes like soap." },
+    { "fr": "Servir sur beaucoup de glace pilée, dans de grands verres.", "en": "Serve over plenty of crushed ice, in tall glasses." },
+    { "fr": "Déposer pignons et raisins égouttés en surface : ils se mangent à la cuillère à la fin.", "en": "Float the drained pine nuts and raisins on top: they are spooned up at the end." }
+  ]
+}

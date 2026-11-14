@@ -1,0 +1,38 @@
+{
+  "slug": "ginger-beer",
+  "cuisine": "southern-african",
+  "country": "afrique-du-sud",
+  "origin": "Afrique du Sud",
+  "native_name": "Ginger beer",
+  "title": {
+    "fr": "Ginger beer maison, fermenté deux jours",
+    "en": "Homemade ginger beer, two-day ferment"
+  },
+  "meal_type": "drink",
+  "servings": 10,
+  "times": { "prep_min": 25, "cook_min": 15 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fermentation", "gingembre", "ete", "sans-alcool"],
+  "ingredients": [
+    { "raw": "200 g de gingembre frais, râpé", "qty": 200, "unit": "g", "item": "gingembre", "prep": "râpé" },
+    { "raw": "400 g de sucre", "qty": 400, "unit": "g", "item": "sucre" },
+    { "raw": "3 l d'eau", "qty": 3, "unit": "l", "item": "eau" },
+    { "raw": "2 citrons, leur jus", "qty": 2, "unit": "piece", "item": "citron" },
+    { "raw": "1/2 c. à c. de levure boulangère sèche", "qty": 0.5, "unit": "tsp", "item": "levure boulangère" },
+    { "raw": "100 g de raisins secs", "qty": 100, "unit": "g", "item": "raisin sec", "optional": true },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire bouillir le gingembre râpé dans un litre d'eau dix minutes, puis ajouter le sucre.", "en": "Boil the grated ginger in a litre of water for ten minutes, then add the sugar." },
+    { "fr": "Allonger avec le reste d'eau froide et laisser tiédir jusqu'à 30 °C, pas plus.", "en": "Top up with the remaining cold water and let it cool to 30°C, no more." },
+    { "fr": "Plus chaud, l'eau tue la levure ; plus froid, la fermentation ne démarre pas.", "en": "Hotter and the water kills the yeast; colder and the ferment will not start." },
+    { "fr": "Ajouter le jus de citron, le sel, les raisins et la levure, et remuer.", "en": "Add the lemon juice, salt, raisins and yeast, and stir." },
+    { "fr": "Couvrir d'un linge et laisser fermenter deux jours à température ambiante.", "en": "Cover with a cloth and ferment for two days at room temperature." },
+    { "fr": "Filtrer et mettre en bouteilles PLASTIQUE, en ouvrant chaque jour : la pression monte vite et le verre peut éclater.", "en": "Strain and bottle in PLASTIC, opening daily: pressure builds fast and glass can burst." }
+  ],
+  "notes": [
+    { "fr": "Deux jours donnent une boisson pétillante à peine alcoolisée. Au-delà, la fermentation continue et le taux monte.", "en": "Two days gives a fizzy, barely alcoholic drink. Beyond that, fermentation continues and the level rises." }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "tacos-al-pastor",
+  "cuisine": "latin-american",
+  "country": "mexique",
+  "origin": "Mexique",
+  "native_name": "Tacos al pastor",
+  "title": {
+    "fr": "Tacos al pastor à l'ananas",
+    "en": "Tacos al pastor with pineapple"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 40 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["embleme", "porc", "rue", "ananas"],
+  "ingredients": [
+    { "raw": "1,2 kg d'échine de porc, en fines tranches", "qty": 1200, "unit": "g", "item": "échine de porc", "prep": "en fines tranches" },
+    { "raw": "6 piments guajillo séchés", "qty": 6, "unit": "piece", "item": "piment séché" },
+    { "raw": "3 chipotles en adobo", "qty": 3, "unit": "piece", "item": "chipotle en adobo" },
+    { "raw": "1 ananas, en tranches", "qty": 1, "unit": "piece", "item": "ananas", "prep": "en tranches" },
+    { "raw": "2 c. à s. de rocou", "qty": 2, "unit": "tbsp", "item": "rocou" },
+    { "raw": "6 gousses d'ail", "qty": 6, "unit": "piece", "item": "ail" },
+    { "raw": "2 c. à c. de cumin moulu", "qty": 2, "unit": "tsp", "item": "cumin" },
+    { "raw": "2 c. à c. d'origan séché", "qty": 2, "unit": "tsp", "item": "origan séché" },
+    { "raw": "10 cl de vinaigre blanc", "qty": 10, "unit": "cl", "item": "vinaigre blanc" },
+    { "raw": "24 tortillas de maïs", "qty": 24, "unit": "piece", "item": "tortilla de maïs" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché", "group": "service" },
+    { "raw": "1 bouquet de coriandre, ciselée", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée", "group": "service" },
+    { "raw": "4 citrons verts, en quartiers", "qty": 4, "unit": "piece", "item": "citron vert", "prep": "en quartiers", "group": "service" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le ROCOU donne la couleur rouge orangé caractéristique : ce n'est pas du piment fort.", "en": "ANNATTO gives the characteristic orange-red colour: it is not a hot chilli." },
+    { "fr": "Réhydrater les piments séchés dans l'eau chaude vingt minutes et les mixer avec le vinaigre.", "en": "Rehydrate the dried chillies in hot water for twenty minutes and blend them with the vinegar." },
+    { "fr": "Mariner le porc VINGT-QUATRE HEURES : c'est le temps qu'il faut pour que la couleur pénètre.", "en": "Marinate the pork for TWENTY-FOUR HOURS: the time the colour needs to penetrate." },
+    { "fr": "L'ananas n'est pas qu'une garniture : son enzyme, la broméline, attendrit la viande.", "en": "The pineapple is not just a garnish: its enzyme, bromelain, tenderises the meat." },
+    { "fr": "Empiler les tranches sur une brochette verticale, ou les griller à plat par petites quantités.", "en": "Stack the slices on a vertical spit, or grill them flat in small batches." },
+    { "fr": "CHAUFFER les tortillas à sec, sur la poêle brûlante, dix secondes par face avant de garnir.", "en": "HEAT the tortillas dry on a scalding pan, ten seconds a side, before filling." }
+  ]
+}

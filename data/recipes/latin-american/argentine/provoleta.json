@@ -1,0 +1,34 @@
+{
+  "slug": "provoleta",
+  "cuisine": "latin-american",
+  "country": "argentine",
+  "origin": "Argentine",
+  "native_name": "Provoleta",
+  "title": {
+    "fr": "Provoleta grillée à l'origan",
+    "en": "Grilled provoleta with oregano"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 10, "cook_min": 10 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["asado", "fromage", "grill", "rapide"],
+  "ingredients": [
+    { "raw": "600 g de provolone, en tranches épaisses", "qty": 600, "unit": "g", "item": "provolone", "prep": "en tranches épaisses" },
+    { "raw": "3 c. à s. d'origan séché", "qty": 3, "unit": "tbsp", "item": "origan séché" },
+    { "raw": "2 c. à c. de piment en flocons", "qty": 2, "unit": "tsp", "item": "piment en flocons" },
+    { "raw": "8 c. à s. d'huile d'olive", "qty": 8, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "1 baguette", "qty": 1, "unit": "piece", "item": "baguette", "group": "service" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La provoleta ouvre TOUS les asados argentins : elle se sert avant la viande, jamais après.", "en": "Provoleta opens EVERY Argentine asado: it is served before the meat, never after." },
+    { "fr": "Couper des tranches ÉPAISSES, de deux centimètres : fines, elles fondent et coulent dans les braises.", "en": "Cut THICK slices, two centimetres: thin ones melt and drip into the coals." },
+    { "fr": "Les laisser SÉCHER À L'AIR une heure au réfrigérateur : la surface doit être sèche au toucher.", "en": "Let them AIR-DRY for an hour in the fridge: the surface must feel dry." },
+    { "fr": "Ce séchage forme une croûte qui retient le fromage fondu à l'intérieur.", "en": "That drying forms a skin that holds the melted cheese inside." },
+    { "fr": "Cuire dans une poêle en fonte BRÛLANTE, trois minutes par face, sans y toucher.", "en": "Cook in a SCALDING cast-iron pan, three minutes a side, without touching it." },
+    { "fr": "Poudrer d'origan et de piment À LA SORTIE, et manger IMMÉDIATEMENT, avant que ça fige.", "en": "Dust with oregano and chilli AS IT COMES OFF, and eat IMMEDIATELY, before it sets." }
+  ]
+}

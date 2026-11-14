@@ -1,0 +1,42 @@
+{
+  "slug": "banh-mi",
+  "cuisine": "southeast-asian",
+  "country": "vietnam",
+  "origin": "Viêt Nam",
+  "native_name": "Bánh mì",
+  "title": {
+    "fr": "Bánh mì au porc et aux légumes marinés",
+    "en": "Banh mi with pork and pickled vegetables"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 40, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "sandwich", "saigon", "pickles"],
+  "ingredients": [
+    { "raw": "4 baguettes courtes", "qty": 4, "unit": "piece", "item": "baguette" },
+    { "raw": "600 g d'échine de porc, en fines tranches", "qty": 600, "unit": "g", "item": "échine de porc", "prep": "en fines tranches" },
+    { "raw": "2 carottes, en julienne", "qty": 2, "unit": "piece", "item": "carotte", "prep": "en julienne", "group": "pickles" },
+    { "raw": "1 daikon, en julienne", "qty": 1, "unit": "piece", "item": "daikon", "prep": "en julienne", "group": "pickles" },
+    { "raw": "12 cl de vinaigre blanc", "qty": 12, "unit": "cl", "item": "vinaigre blanc", "group": "pickles" },
+    { "raw": "5 c. à s. de sucre", "qty": 5, "unit": "tbsp", "item": "sucre", "group": "pickles" },
+    { "raw": "3 c. à s. de sauce poisson", "qty": 3, "unit": "tbsp", "item": "sauce poisson", "group": "marinade" },
+    { "raw": "2 c. à s. de sauce soja", "qty": 2, "unit": "tbsp", "item": "sauce soja", "group": "marinade" },
+    { "raw": "2 c. à s. de sucre", "qty": 2, "unit": "tbsp", "item": "sucre", "group": "marinade" },
+    { "raw": "4 gousses d'ail, écrasées", "qty": 4, "unit": "piece", "item": "ail", "prep": "écrasé", "group": "marinade" },
+    { "raw": "6 c. à s. de mayonnaise", "qty": 6, "unit": "tbsp", "item": "mayonnaise", "group": "montage" },
+    { "raw": "1 concombre, en bâtonnets", "qty": 1, "unit": "piece", "item": "concombre", "prep": "en bâtonnets", "group": "montage" },
+    { "raw": "1 bouquet de coriandre fraîche", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "group": "montage" },
+    { "raw": "3 piments frais, en rondelles", "qty": 3, "unit": "piece", "item": "piment frais", "prep": "en rondelles", "group": "montage" }
+  ],
+  "steps": [
+    { "fr": "Faire les pickles au moins UNE HEURE avant : carottes et daikon dans vinaigre, sucre, sel et eau.", "en": "Make the pickles at least AN HOUR ahead: carrot and daikon in vinegar, sugar, salt and water." },
+    { "fr": "Le pain doit être une baguette à mie LÉGÈRE et croûte fine : la baguette française est trop dense.", "en": "The bread must be a baguette with a LIGHT crumb and thin crust: a French baguette is too dense." },
+    { "fr": "Faire mariner le porc trente minutes, puis le saisir à feu vif jusqu'à ce qu'il caramélise.", "en": "Marinate the pork for thirty minutes, then sear it over high heat until it caramelises." },
+    { "fr": "Passer les baguettes deux minutes au four très chaud pour raviver la croûte.", "en": "Give the baguettes two minutes in a very hot oven to revive the crust." },
+    { "fr": "Les fendre, retirer un peu de mie, tartiner de mayonnaise sur les DEUX faces.", "en": "Split them, pull out some crumb, and spread mayonnaise on BOTH faces." },
+    { "fr": "Garnir de porc, de pickles ÉGOUTTÉS, de concombre, de coriandre et de piment, et presser fort.", "en": "Fill with pork, DRAINED pickles, cucumber, coriander and chilli, and press it firmly shut." }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "gizdodo",
+  "cuisine": "west-african",
+  "country": "nigeria",
+  "origin": "Nigeria",
+  "native_name": "Gizdodo",
+  "title": {
+    "fr": "Gizdodo, gésiers et plantains à la sauce piment",
+    "en": "Gizdodo, gizzards and plantain in pepper sauce"
+  },
+  "meal_type": "starter",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 50 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["plantain", "gesier", "fete", "buffet"],
+  "ingredients": [
+    { "raw": "500 g de gésiers de poulet", "qty": 500, "unit": "g", "item": "gésier de poulet" },
+    { "raw": "3 bananes plantain mûres, en dés", "qty": 3, "unit": "piece", "item": "banane plantain", "prep": "en dés" },
+    { "raw": "2 poivrons rouges", "qty": 2, "unit": "piece", "item": "poivron rouge" },
+    { "raw": "2 piments habanero", "qty": 2, "unit": "piece", "item": "habanero" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "2 c. à s. de concentré de tomate", "qty": 2, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "1 c. à c. de thym séché", "qty": 1, "unit": "tsp", "item": "thym séché" },
+    { "raw": "2 cubes de bouillon", "qty": 2, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "50 cl d'huile neutre pour la friture", "qty": 50, "unit": "cl", "item": "huile neutre" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire les gésiers quarante minutes avec un oignon, le thym, un cube et le sel, jusqu'à ce qu'ils soient tendres.", "en": "Cook the gizzards for forty minutes with one onion, thyme, a stock cube and salt, until tender." },
+    { "fr": "Les égoutter, les couper en morceaux et les faire dorer à la poêle.", "en": "Drain them, cut them up and brown them in a pan." },
+    { "fr": "Frire les dés de plantain bien mûr jusqu'à ce qu'ils soient dorés, et les égoutter.", "en": "Fry the ripe plantain cubes until golden, and drain." },
+    { "fr": "Le plantain doit être très mûr, presque noir : vert, il reste farineux et sans sucre.", "en": "The plantain must be very ripe, almost black: green, it stays starchy and unsweet." },
+    { "fr": "Réduire la purée de poivrons, piments et oignon avec le concentré, quinze minutes.", "en": "Reduce the pepper, chilli and onion purée with the tomato purée, fifteen minutes." },
+    { "fr": "Mélanger gésiers et plantains à la sauce hors du feu, pour que le plantain ne se défasse pas.", "en": "Fold the gizzards and plantain into the sauce off the heat, so the plantain does not collapse." }
+  ]
+}

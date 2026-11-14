@@ -1,0 +1,48 @@
+{
+  "slug": "colombo-poulet",
+  "cuisine": "caribbean",
+  "country": "guadeloupe",
+  "origin": "Guadeloupe",
+  "native_name": "Colombo de poulet",
+  "title": {
+    "fr": "Colombo de poulet",
+    "en": "Chicken colombo"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 60 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["embleme", "colombo", "poulet", "dimanche"],
+  "ingredients": [
+    { "raw": "1 poulet entier, découpé", "qty": 1, "unit": "piece", "item": "poulet entier", "prep": "découpé" },
+    { "raw": "4 c. à s. de poudre à colombo", "qty": 4, "unit": "tbsp", "item": "poudre à colombo" },
+    { "raw": "600 g de pommes de terre, en gros morceaux", "qty": 600, "unit": "g", "item": "pomme de terre", "prep": "en gros morceaux" },
+    { "raw": "2 christophines, en gros dés", "qty": 2, "unit": "piece", "item": "christophine", "prep": "en gros dés" },
+    { "raw": "2 aubergines, en gros dés", "qty": 2, "unit": "piece", "item": "aubergine", "prep": "en gros dés" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "8 gousses d'ail, écrasées", "qty": 8, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "2 c. à s. de gingembre frais, râpé", "qty": 2, "unit": "tbsp", "item": "gingembre frais", "prep": "râpé" },
+    { "raw": "3 citrons verts, leur jus", "qty": 3, "unit": "piece", "item": "citron vert" },
+    { "raw": "1 piment végétarien", "qty": 1, "unit": "piece", "item": "piment végétarien" },
+    { "raw": "4 feuilles de bois d'Inde", "qty": 4, "unit": "piece", "item": "bois d'Inde" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "1 bouquet d'oignons nouveaux, émincés", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "émincé" },
+    { "raw": "10 cl d'huile neutre", "qty": 10, "unit": "cl", "item": "huile neutre" },
+    { "raw": "70 cl d'eau", "qty": 70, "unit": "cl", "item": "eau" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le colombo est un MÉLANGE CRÉOLE, pas un curry indien : il vient des engagés tamouls du XIXe siècle.", "en": "Colombo is a CREOLE BLEND, not an Indian curry: it came with 19th-century Tamil indentured workers." },
+    { "fr": "Il contient du riz grillé moulu, ce qu'aucun curry indien ne fait : c'est ce qui le lie et l'épaissit.", "en": "It contains ground toasted rice, which no Indian curry does: that is what binds and thickens it." },
+    { "fr": "Faire mariner le poulet au citron vert, à l'ail et au colombo QUATRE HEURES au frais.", "en": "Marinate the chicken in lime, garlic and colombo for FOUR HOURS in the fridge." },
+    { "fr": "Faire revenir la poudre à colombo dans l'huile TRENTE SECONDES avant d'ajouter la viande.", "en": "Fry the colombo powder in the oil for THIRTY SECONDS before adding the meat." },
+    { "fr": "Au-delà, elle brûle et rend tout le plat amer : c'est l'unique risque de la recette.", "en": "Any longer and it burns, turning the whole dish bitter: the recipe's one real risk." },
+    { "fr": "Poser le PIMENT VÉGÉTARIEN entier sur le dessus, sans le percer : il parfume sans piquer.", "en": "Lay the SEASONING PEPPER on top whole, unpierced: it perfumes without heat." }
+  ],
+  "notes": [
+    { "fr": "Un piment percé change le plat : il devient très fort, et rien ne le rattrape.", "en": "A pierced pepper changes the dish: it turns fiercely hot, and nothing brings it back." }
+  ]
+}

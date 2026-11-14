@@ -1,0 +1,43 @@
+{
+  "slug": "chawarma-poulet",
+  "cuisine": "levantine",
+  "country": "liban",
+  "origin": "Liban",
+  "native_name": "Shawarma djej",
+  "title": {
+    "fr": "Chawarma de poulet à la poêle",
+    "en": "Pan-cooked chicken shawarma"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "sandwich", "marinade", "populaire"],
+  "ingredients": [
+    { "raw": "1 kg de cuisses de poulet désossées, en lanières", "qty": 1000, "unit": "g", "item": "cuisse de poulet", "prep": "désossée, en lanières" },
+    { "raw": "2 c. à c. de baharat", "qty": 2, "unit": "tsp", "item": "baharat", "group": "marinade" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin", "group": "marinade" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma", "group": "marinade" },
+    { "raw": "1 c. à c. de cardamome moulue", "qty": 1, "unit": "tsp", "item": "cardamome", "prep": "moulue", "group": "marinade" },
+    { "raw": "6 gousses d'ail, écrasées", "qty": 6, "unit": "piece", "item": "ail", "prep": "écrasé", "group": "marinade" },
+    { "raw": "3 c. à s. de vinaigre blanc", "qty": 3, "unit": "tbsp", "item": "vinaigre blanc", "group": "marinade" },
+    { "raw": "2 citrons, leur jus", "qty": 2, "unit": "piece", "item": "citron", "group": "marinade" },
+    { "raw": "6 c. à s. d'huile d'olive", "qty": 6, "unit": "tbsp", "item": "huile d'olive", "group": "marinade" },
+    { "raw": "4 pains pita", "qty": 4, "unit": "piece", "item": "pain pita", "group": "service" },
+    { "raw": "4 c. à s. de tahini", "qty": 4, "unit": "tbsp", "item": "tahini", "group": "service" },
+    { "raw": "4 cornichons, en lanières", "qty": 4, "unit": "piece", "item": "cornichon", "prep": "en lanières", "group": "service" },
+    { "raw": "1 oignon rouge, émincé", "qty": 1, "unit": "piece", "item": "oignon rouge", "prep": "émincé", "group": "service" },
+    { "raw": "1 c. à s. de sumac", "qty": 1, "unit": "tbsp", "item": "sumac", "group": "service" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Prendre de la cuisse et non du blanc : le chawarma est un plat gras, et le blanc sèche en trois minutes.", "en": "Use thigh, not breast: shawarma is a fatty dish, and breast dries out in three minutes." },
+    { "fr": "Faire mariner les lanières une nuit entière dans les épices, l'ail, le vinaigre, le citron et l'huile.", "en": "Marinate the strips overnight in the spices, garlic, vinegar, lemon and oil." },
+    { "fr": "Saisir dans une poêle brûlante, en une seule couche, sans remuer les deux premières minutes.", "en": "Sear in a scorching pan, in a single layer, without stirring for the first two minutes." },
+    { "fr": "Cuire en trois fois plutôt que d'entasser : entassée, la viande bout et ne caramélise jamais.", "en": "Cook in three batches rather than crowding: crowded, the meat boils and never caramelises." },
+    { "fr": "Mélanger l'oignon rouge émincé avec le sumac, dix minutes avant de servir.", "en": "Toss the sliced red onion with the sumac, ten minutes before serving." },
+    { "fr": "Garnir les pitas de viande, de sauce tahini, de cornichons et d'oignon au sumac, et rouler serré.", "en": "Fill the pitas with meat, tahini sauce, pickles and sumac onion, and roll them tight." }
+  ]
+}

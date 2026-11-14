@@ -1,0 +1,39 @@
+{
+  "slug": "tibs",
+  "cuisine": "east-african",
+  "country": "ethiopie",
+  "origin": "Éthiopie",
+  "native_name": "Tibs",
+  "title": {
+    "fr": "Tibs, sautés d'agneau au beurre épicé",
+    "en": "Tibs, lamb sauteed in spiced butter"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rapide", "fete", "agneau", "poele"],
+  "ingredients": [
+    { "raw": "800 g de gigot d'agneau, en cubes", "qty": 800, "unit": "g", "item": "gigot d'agneau", "prep": "en cubes" },
+    { "raw": "80 g de niter kibbeh", "qty": 80, "unit": "g", "item": "beurre", "prep": "clarifié aux épices" },
+    { "raw": "2 oignons, en gros quartiers", "qty": 2, "unit": "piece", "item": "oignon", "prep": "en gros quartiers" },
+    { "raw": "1 poivron vert, en lanières", "qty": 1, "unit": "piece", "item": "poivron vert", "prep": "en lanières" },
+    { "raw": "3 piments verts, fendus", "qty": 3, "unit": "piece", "item": "piment frais", "prep": "fendu" },
+    { "raw": "1 c. à s. de gingembre frais, râpé", "qty": 1, "unit": "tbsp", "item": "gingembre", "prep": "râpé" },
+    { "raw": "4 gousses d'ail, écrasées", "qty": 4, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 c. à s. de romarin frais", "qty": 1, "unit": "tbsp", "item": "romarin" },
+    { "raw": "1 c. à c. de berbéré", "qty": 1, "unit": "tsp", "item": "berbéré", "optional": true },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Sécher la viande soigneusement : humide, elle bout au lieu de saisir.", "en": "Dry the meat thoroughly: wet, it boils instead of searing." },
+    { "fr": "Chauffer le niter kibbeh jusqu'à ce qu'il grésille, dans une poêle très chaude.", "en": "Heat the niter kibbeh until it sizzles, in a very hot pan." },
+    { "fr": "Saisir la viande en une seule couche, sans la remuer, deux minutes par face.", "en": "Sear the meat in a single layer, without stirring, two minutes a side." },
+    { "fr": "Cuire en deux fois si la poêle est petite : entassée, la viande rend son jus.", "en": "Cook in two batches if the pan is small: crowded, the meat weeps." },
+    { "fr": "Ajouter oignon, poivron, piments, ail, gingembre et romarin, et sauter cinq minutes à feu vif.", "en": "Add the onion, pepper, chillies, garlic, ginger and rosemary, and toss over high heat for five minutes." },
+    { "fr": "Les légumes doivent rester croquants. Servir directement dans la poêle chaude, sur injera.", "en": "The vegetables must stay crunchy. Serve straight from the hot pan, on injera." }
+  ]
+}

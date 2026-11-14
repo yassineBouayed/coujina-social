@@ -1,0 +1,38 @@
+{
+  "slug": "schweinsbraten",
+  "cuisine": "western-european",
+  "country": "autriche",
+  "origin": "Autriche",
+  "native_name": "Schweinsbraten",
+  "title": {
+    "fr": "Rôti de porc à la bière et au carvi",
+    "en": "Roast pork with beer and caraway"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 150 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["dimanche", "porc", "carvi", "four"],
+  "ingredients": [
+    { "raw": "1,8 kg d'épaule de porc avec sa couenne", "qty": 1800, "unit": "g", "item": "échine de porc", "prep": "avec sa couenne" },
+    { "raw": "50 cl de bière blonde", "qty": 50, "unit": "cl", "item": "bière" },
+    { "raw": "3 c. à s. de carvi", "qty": 3, "unit": "tbsp", "item": "carvi" },
+    { "raw": "6 gousses d'ail, écrasées", "qty": 6, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "3 oignons, en quartiers", "qty": 3, "unit": "piece", "item": "oignon", "prep": "en quartiers" },
+    { "raw": "3 carottes, en tronçons", "qty": 3, "unit": "piece", "item": "carotte", "prep": "en tronçons" },
+    { "raw": "30 cl de bouillon de bœuf", "qty": 30, "unit": "cl", "item": "bouillon boeuf" },
+    { "raw": "2 c. à s. de gros sel", "qty": 2, "unit": "tbsp", "item": "gros sel" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "QUADRILLER la couenne au cutter, tous les centimètres, sans entamer la chair.", "en": "SCORE the rind with a blade, every centimetre, without cutting the flesh." },
+    { "fr": "Frotter le gros sel et le carvi DANS les entailles, en insistant.", "en": "Rub the coarse salt and caraway INTO the cuts, working them in." },
+    { "fr": "Cuire deux heures COUENNE VERS LE BAS, à demi immergée dans la bière : elle s'attendrit.", "en": "Roast for two hours RIND DOWN, half-submerged in the beer: it tenderises." },
+    { "fr": "La retourner et monter le four à 240 °C : la couenne doit CLOQUER et croustiller.", "en": "Turn it over and raise the oven to 240°C: the rind must BLISTER and crisp." },
+    { "fr": "Cette cuisson en deux temps est la clé : la couenne cuite à sec dès le départ reste dure.", "en": "That two-stage cooking is the key: rind roasted dry from the start stays tough." },
+    { "fr": "Laisser reposer vingt minutes et servir avec des knödel et du chou.", "en": "Rest for twenty minutes and serve with dumplings and cabbage." }
+  ]
+}

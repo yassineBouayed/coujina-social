@@ -1,0 +1,40 @@
+{
+  "slug": "bacalhau-a-bras",
+  "cuisine": "mediterranean",
+  "country": "portugal",
+  "origin": "Portugal",
+  "native_name": "Bacalhau à Brás",
+  "title": {
+    "fr": "Morue à la Brás",
+    "en": "Bacalhau à Brás"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["lisbonne", "morue", "oeuf", "embleme"],
+  "ingredients": [
+    { "raw": "600 g de morue salée, dessalée 36 h et effeuillée", "qty": 600, "unit": "g", "item": "morue salée", "prep": "dessalée et effeuillée" },
+    { "raw": "800 g de pommes de terre, en allumettes", "qty": 800, "unit": "g", "item": "pomme de terre", "prep": "en allumettes" },
+    { "raw": "8 œufs", "qty": 8, "unit": "piece", "item": "oeuf" },
+    { "raw": "3 oignons, émincés finement", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé finement" },
+    { "raw": "4 gousses d'ail, hachées", "qty": 4, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "100 g d'olives noires", "qty": 100, "unit": "g", "item": "olive noire" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "12 cl d'huile d'olive", "qty": 12, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "1 l d'huile neutre pour la friture", "qty": 1, "unit": "l", "item": "huile neutre" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Dessaler la morue 36 heures au frais, en changeant l'eau quatre fois, puis l'effeuiller à la main.", "en": "Desalt the cod for 36 hours in the fridge, changing the water four times, then flake it by hand." },
+    { "fr": "Frire les pommes de terre en allumettes et les ÉGOUTTER : molles, elles gâchent tout le plat.", "en": "Fry the matchstick potatoes and DRAIN them: soft, they ruin the whole dish." },
+    { "fr": "Faire fondre les oignons vingt minutes à l'huile d'olive, sans les colorer.", "en": "Melt the onions for twenty minutes in olive oil, without colouring them." },
+    { "fr": "Ajouter la morue et la chauffer deux minutes seulement : cuite, elle devient sèche et filandreuse.", "en": "Add the cod and heat it for two minutes only: cooked, it turns dry and stringy." },
+    { "fr": "Mêler les pommes de terre, verser les œufs battus, et remuer HORS DU FEU vif.", "en": "Fold in the potatoes, pour on the beaten eggs, and stir OFF the fierce heat." },
+    { "fr": "L'œuf doit rester BAVEUX et napper l'ensemble : trop cuit, le brás devient une omelette de morue.", "en": "The egg must stay RUNNY and coat everything: overcooked, brás becomes a cod omelette." }
+  ]
+}

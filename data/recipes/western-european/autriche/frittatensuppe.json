@@ -1,0 +1,38 @@
+{
+  "slug": "frittatensuppe",
+  "cuisine": "western-european",
+  "country": "autriche",
+  "origin": "Autriche",
+  "native_name": "Frittatensuppe",
+  "title": {
+    "fr": "Bouillon aux lanières de crêpe",
+    "en": "Beef broth with pancake strips"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["vienne", "bouillon", "crepe", "classique"],
+  "ingredients": [
+    { "raw": "1,5 l de bouillon de bœuf", "qty": 1.5, "unit": "l", "item": "bouillon boeuf" },
+    { "raw": "150 g de farine de blé", "qty": 150, "unit": "g", "item": "farine de blé", "group": "crêpes" },
+    { "raw": "25 cl de lait entier", "qty": 25, "unit": "cl", "item": "lait entier", "group": "crêpes" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf", "group": "crêpes" },
+    { "raw": "40 g de beurre", "qty": 40, "unit": "g", "item": "beurre", "group": "crêpes" },
+    { "raw": "1 bouquet de ciboulette, ciselée", "qty": 1, "unit": "bunch", "item": "ciboulette", "prep": "ciselée" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Ce plat existe pour utiliser les crêpes de la veille : c'est une recette d'économie devenue classique.", "en": "This dish exists to use up yesterday's pancakes: a thrift recipe turned classic." },
+    { "fr": "Faire des crêpes SALÉES, fines, sans sucre : c'est un bouillon, pas un dessert.", "en": "Make SAVOURY pancakes, thin, without sugar: this is a broth, not a dessert." },
+    { "fr": "Les laisser refroidir COMPLÈTEMENT avant de les rouler : chaudes, elles collent et se déchirent.", "en": "Cool them COMPLETELY before rolling: warm, they stick and tear." },
+    { "fr": "Les rouler SERRÉ et les trancher au couteau en lanières de cinq millimètres.", "en": "Roll them TIGHTLY and slice into five-millimetre ribbons with a knife." },
+    { "fr": "Les mettre dans le bol AU DERNIER MOMENT et verser le bouillon brûlant dessus.", "en": "Put them in the bowl AT THE LAST MOMENT and pour the scalding broth over." },
+    { "fr": "Laissées dans le bouillon, elles se gorgent et se transforment en bouillie en cinq minutes.", "en": "Left in the broth, they swell and turn to mush within five minutes." }
+  ]
+}

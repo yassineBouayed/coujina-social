@@ -1,0 +1,43 @@
+{
+  "slug": "tandoori-poulet",
+  "cuisine": "south-asian",
+  "country": "inde",
+  "origin": "Inde",
+  "native_name": "Tandoori murgh",
+  "title": {
+    "fr": "Poulet tandoori au four",
+    "en": "Oven-cooked tandoori chicken"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 40 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["four", "yaourt", "marinade", "populaire"],
+  "ingredients": [
+    { "raw": "1,2 kg de cuisses de poulet avec peau retirée", "qty": 1200, "unit": "g", "item": "cuisse de poulet", "prep": "sans peau" },
+    { "raw": "30 cl de yaourt grec", "qty": 30, "unit": "cl", "item": "yaourt grec", "group": "marinade" },
+    { "raw": "2 c. à s. de pâte gingembre-ail", "qty": 2, "unit": "tbsp", "item": "pâte gingembre-ail", "group": "marinade" },
+    { "raw": "2 c. à s. de tandoori masala", "qty": 2, "unit": "tbsp", "item": "tandoori masala", "group": "marinade" },
+    { "raw": "2 c. à c. de piment kashmiri", "qty": 2, "unit": "tsp", "item": "piment kashmiri", "group": "marinade" },
+    { "raw": "2 citrons, leur jus", "qty": 2, "unit": "piece", "item": "citron", "group": "marinade" },
+    { "raw": "1 c. à c. de garam masala", "qty": 1, "unit": "tsp", "item": "garam masala", "group": "marinade" },
+    { "raw": "4 c. à s. d'huile neutre", "qty": 4, "unit": "tbsp", "item": "huile neutre", "group": "marinade" },
+    { "raw": "60 g de ghee, fondu", "qty": 60, "unit": "g", "item": "ghee", "prep": "fondu", "group": "cuisson" },
+    { "raw": "1 oignon rouge, en rondelles", "qty": 1, "unit": "piece", "item": "oignon rouge", "prep": "en rondelles", "group": "service" },
+    { "raw": "1 c. à s. de chaat masala", "qty": 1, "unit": "tbsp", "item": "chaat masala", "group": "service" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Retirer la peau : sans peau, la marinade pénètre la chair, et c'est le principe même du tandoori.", "en": "Remove the skin: without it, the marinade penetrates the flesh, which is the whole principle of tandoori." },
+    { "fr": "Inciser profondément chaque morceau et le frotter d'abord de citron, de sel et de piment kashmiri, trente minutes.", "en": "Slash each piece deeply and rub it first with lemon, salt and Kashmiri chilli, for thirty minutes." },
+    { "fr": "Égoutter le yaourt une heure avant de l'utiliser : trop liquide, il glisse au lieu d'adhérer.", "en": "Strain the yoghurt for an hour before using it: too runny, it slides off instead of clinging." },
+    { "fr": "Enrober de la seconde marinade et laisser au frais huit heures, une nuit de préférence.", "en": "Coat with the second marinade and refrigerate for eight hours, ideally overnight." },
+    { "fr": "Cuire à 250 °C sur une grille, vingt-cinq minutes, en badigeonnant de ghee deux fois.", "en": "Cook at 250°C on a rack for twenty-five minutes, basting with ghee twice." },
+    { "fr": "Finir deux minutes sous le gril pour brûler les bords, et saupoudrer de chaat masala à la sortie.", "en": "Finish two minutes under the grill to char the edges, and dust with chaat masala as it comes out." }
+  ],
+  "notes": [
+    { "fr": "Sans tandoor, on n'obtient ni la chaleur de 450 °C ni la fumée. La transposition au four est honnête, mais c'en est une.", "en": "Without a tandoor you get neither 450°C heat nor smoke. The oven version is honest, but it is a transposition." }
+  ]
+}

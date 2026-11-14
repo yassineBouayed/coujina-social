@@ -1,0 +1,39 @@
+{
+  "slug": "samke-harra",
+  "cuisine": "levantine",
+  "country": "liban",
+  "origin": "Liban",
+  "native_name": "Samke harra",
+  "title": {
+    "fr": "Samke harra, poisson au four à la sauce tahini pimentée",
+    "en": "Samke harra, baked fish in spicy tahini sauce"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 40 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["tripoli", "poisson", "tahini", "fete"],
+  "ingredients": [
+    { "raw": "1,2 kg de dorade entière, vidée", "qty": 1200, "unit": "g", "item": "dorade", "prep": "vidée" },
+    { "raw": "200 g de tahini", "qty": 200, "unit": "g", "item": "tahini", "group": "sauce" },
+    { "raw": "3 citrons, leur jus", "qty": 3, "unit": "piece", "item": "citron", "group": "sauce" },
+    { "raw": "1 tête d'ail", "qty": 12, "unit": "piece", "item": "ail", "group": "sauce" },
+    { "raw": "1 bouquet de coriandre fraîche, ciselé", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée", "group": "sauce" },
+    { "raw": "2 piments frais, hachés", "qty": 2, "unit": "piece", "item": "piment frais", "prep": "haché", "group": "sauce" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin", "group": "sauce" },
+    { "raw": "80 g de noix, concassées", "qty": 80, "unit": "g", "item": "noix", "prep": "concassée", "group": "garniture" },
+    { "raw": "60 g de pignons de pin", "qty": 60, "unit": "g", "item": "pignon de pin", "group": "garniture" },
+    { "raw": "8 c. à s. d'huile d'olive", "qty": 8, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Frotter le poisson d'huile et de sel, et le cuire 25 minutes à 200 °C.", "en": "Rub the fish with oil and salt, and bake for 25 minutes at 200°C." },
+    { "fr": "Faire revenir l'ail écrasé, la coriandre et le piment dans l'huile, trois minutes.", "en": "Fry the crushed garlic, coriander and chilli in the oil for three minutes." },
+    { "fr": "Délayer le tahini avec le jus de citron : il se fige d'abord, c'est normal.", "en": "Slake the tahini with the lemon juice: it seizes at first, which is normal." },
+    { "fr": "L'allonger à l'eau tiède jusqu'à ce qu'il redevienne crémeux et coulant.", "en": "Loosen it with warm water until it turns creamy and pourable again." },
+    { "fr": "Chauffer la sauce à feu très doux sans jamais la faire bouillir : bouillie, elle tranche et devient huileuse.", "en": "Warm the sauce over very low heat, never boiling: boiled, it splits and turns oily." },
+    { "fr": "Napper le poisson, parsemer de noix et de pignons dorés, et repasser cinq minutes au four.", "en": "Coat the fish, scatter with toasted walnuts and pine nuts, and return to the oven for five minutes." }
+  ]
+}

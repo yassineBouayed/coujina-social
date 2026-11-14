@@ -1,0 +1,36 @@
+{
+  "slug": "labneh-maison",
+  "cuisine": "levantine",
+  "country": "liban",
+  "origin": "Liban",
+  "native_name": "Labneh",
+  "title": {
+    "fr": "Labneh maison, yaourt égoutté",
+    "en": "Homemade labneh, strained yoghurt"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 10, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["mezze", "petit-dejeuner", "yaourt", "base"],
+  "ingredients": [
+    { "raw": "1 kg de yaourt grec", "qty": 1000, "unit": "g", "item": "yaourt grec" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "4 c. à s. d'huile d'olive", "qty": 4, "unit": "tbsp", "item": "huile d'olive", "group": "service" },
+    { "raw": "1 c. à s. de zaatar", "qty": 1, "unit": "tbsp", "item": "zaatar", "group": "service" },
+    { "raw": "1 c. à s. de menthe séchée", "qty": 1, "unit": "tbsp", "item": "menthe séchée", "optional": true, "group": "service" }
+  ],
+  "steps": [
+    { "fr": "Mélanger le yaourt et le sel : c'est le sel qui fait sortir le petit-lait, pas seulement l'égouttage.", "en": "Mix the yoghurt with the salt: it is the salt that draws out the whey, not the draining alone." },
+    { "fr": "Verser dans une étamine ou un torchon fin posé sur une passoire.", "en": "Tip into muslin or a fine cloth set over a sieve." },
+    { "fr": "Nouer et suspendre au-dessus d'un bol, au réfrigérateur.", "en": "Tie it up and hang it over a bowl in the fridge." },
+    { "fr": "Douze heures donnent un labneh à tartiner, vingt-quatre un labneh assez ferme pour être roulé en boules.", "en": "Twelve hours gives a spreadable labneh, twenty-four one firm enough to roll into balls." },
+    { "fr": "Ne jamais presser : pressé, le labneh devient granuleux et perd son onctuosité.", "en": "Never press it: pressed, labneh turns grainy and loses its silkiness." },
+    { "fr": "Étaler en creusant un sillon, arroser d'huile d'olive et saupoudrer de zaatar.", "en": "Spread it with a furrow hollowed in, pour over olive oil and dust with zaatar." }
+  ],
+  "notes": [
+    { "fr": "Ce n'est pas une recette, c'est un égouttage — et c'est pour ça qu'on la rate : on presse, on sale trop tard, on n'attend pas.", "en": "This is not a recipe but a draining — which is why it goes wrong: people press it, salt too late, and do not wait." }
+  ]
+}

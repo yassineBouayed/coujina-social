@@ -1,0 +1,33 @@
+{
+  "slug": "hindbeh-bzeit",
+  "cuisine": "levantine",
+  "country": "liban",
+  "origin": "Liban",
+  "native_name": "Hindbeh bzeit",
+  "title": {
+    "fr": "Hindbeh, chicorée à l'huile et aux oignons frits",
+    "en": "Hindbeh, chicory with oil and fried onions"
+  },
+  "meal_type": "side",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 35 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["mezze", "amer", "careme", "vegetarien"],
+  "ingredients": [
+    { "raw": "1 kg de chicorée sauvage", "qty": 1000, "unit": "g", "item": "chicorée sauvage" },
+    { "raw": "4 oignons, émincés", "qty": 4, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "12 cl d'huile d'olive", "qty": 12, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "2 citrons, leur jus", "qty": 2, "unit": "piece", "item": "citron" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Laver la chicorée feuille à feuille : elle pousse à même la terre et en garde beaucoup.", "en": "Wash the chicory leaf by leaf: it grows in bare soil and holds a lot of it." },
+    { "fr": "La blanchir dix minutes à grande eau, puis l'égoutter et la presser fortement.", "en": "Blanch it for ten minutes in plenty of water, then drain and squeeze it hard." },
+    { "fr": "Jeter l'eau de blanchiment : elle emporte l'excès d'amertume, et la garder ruinerait le plat.", "en": "Discard the blanching water: it carries off the excess bitterness, and keeping it would ruin the dish." },
+    { "fr": "Frire les oignons dans l'huile jusqu'à ce qu'ils soient bruns et croustillants, en gardant la moitié pour le dessus.", "en": "Fry the onions in the oil until brown and crisp, keeping half back for the top." },
+    { "fr": "Faire revenir la chicorée pressée dans l'huile parfumée, dix minutes, et saler.", "en": "Sauté the squeezed chicory in the scented oil for ten minutes, and salt it." },
+    { "fr": "Servir tiède ou froid, couvert des oignons croustillants et arrosé de citron.", "en": "Serve warm or cold, topped with the crisp onions and sharpened with lemon." }
+  ]
+}

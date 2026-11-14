@@ -1,0 +1,38 @@
+{
+  "slug": "denningvleis",
+  "cuisine": "southern-african",
+  "country": "afrique-du-sud",
+  "origin": "Afrique du Sud",
+  "native_name": "Denningvleis",
+  "title": {
+    "fr": "Denningvleis, agneau au tamarin et piment de la Jamaïque",
+    "en": "Denningvleis, lamb with tamarind and allspice"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 150 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["cap-malais", "tamarin", "aigre-doux", "ancien"],
+  "ingredients": [
+    { "raw": "1,2 kg d'épaule d'agneau, en morceaux", "qty": 1200, "unit": "g", "item": "épaule d'agneau", "prep": "en morceaux" },
+    { "raw": "4 oignons, émincés", "qty": 4, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "3 c. à s. de pâte de tamarin", "qty": 3, "unit": "tbsp", "item": "pâte de tamarin" },
+    { "raw": "1 c. à c. de quatre-épices", "qty": 1, "unit": "tsp", "item": "quatre-épices" },
+    { "raw": "6 clous de girofle", "qty": 6, "unit": "piece", "item": "clou de girofle" },
+    { "raw": "3 feuilles de laurier", "qty": 3, "unit": "piece", "item": "laurier" },
+    { "raw": "1 c. à s. de sucre roux", "qty": 1, "unit": "tbsp", "item": "sucre roux" },
+    { "raw": "5 c. à s. d'huile neutre", "qty": 5, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Faire dorer la viande dans l'huile et la réserver.", "en": "Brown the meat in the oil and set it aside." },
+    { "fr": "Cuire les oignons vingt minutes, jusqu'à ce qu'ils soient bruns et sucrés : ils font tout le corps de la sauce.", "en": "Cook the onions for twenty minutes, until brown and sweet: they carry the whole body of the sauce." },
+    { "fr": "Remettre la viande avec les épices, le laurier et le sucre, et mouiller à mi-hauteur.", "en": "Return the meat with the spices, bay and sugar, and add water halfway up." },
+    { "fr": "Laisser mijoter deux heures à couvert, à feu très doux.", "en": "Simmer covered for two hours over very low heat." },
+    { "fr": "Ajouter le tamarin dans le dernier quart d'heure seulement : cuit longtemps, il devient amer.", "en": "Add the tamarind only in the last quarter of an hour: cooked long, it turns bitter." },
+    { "fr": "Goûter et ajuster l'équilibre acide-sucré avant de servir, avec du riz blanc.", "en": "Taste and adjust the sweet-sour balance before serving, with white rice." }
+  ]
+}

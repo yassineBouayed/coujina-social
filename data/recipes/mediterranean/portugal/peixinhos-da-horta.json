@@ -1,0 +1,36 @@
+{
+  "slug": "peixinhos-da-horta",
+  "cuisine": "mediterranean",
+  "country": "portugal",
+  "origin": "Portugal",
+  "native_name": "Peixinhos da horta",
+  "title": {
+    "fr": "Haricots verts en beignets",
+    "en": "Battered green beans"
+  },
+  "meal_type": "starter",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["friture", "haricot", "vegetarien", "meze"],
+  "ingredients": [
+    { "raw": "600 g de haricots verts plats", "qty": 600, "unit": "g", "item": "haricot vert" },
+    { "raw": "200 g de farine de blé", "qty": 200, "unit": "g", "item": "farine de blé" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf" },
+    { "raw": "25 cl d'eau glacée", "qty": 25, "unit": "cl", "item": "eau" },
+    { "raw": "1 c. à c. de levure chimique", "qty": 1, "unit": "tsp", "item": "levure chimique" },
+    { "raw": "1,5 l d'huile neutre pour la friture", "qty": 1.5, "unit": "l", "item": "huile neutre" },
+    { "raw": "1 citron, en quartiers", "qty": 1, "unit": "piece", "item": "citron", "prep": "en quartiers" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Ces beignets sont l'ancêtre portugais de la tempura japonaise, arrivée au Japon par les missionnaires.", "en": "These fritters are the Portuguese ancestor of Japanese tempura, carried to Japan by missionaries." },
+    { "fr": "Blanchir les haricots quatre minutes à l'eau salée, puis les plonger dans l'eau glacée.", "en": "Blanch the beans for four minutes in salted water, then plunge them into iced water." },
+    { "fr": "Les SÉCHER soigneusement : mouillés, la pâte glisse et ne les enrobe pas.", "en": "DRY them carefully: wet, the batter slides off instead of coating them." },
+    { "fr": "Faire la pâte à l'eau GLACÉE, juste avant de frire, et la laisser GRUMELEUSE.", "en": "Make the batter with ICED water, just before frying, and leave it LUMPY." },
+    { "fr": "Une pâte lisse et reposée donne un beignet lourd : c'est le choc thermique qui fait le croustillant.", "en": "A smooth, rested batter gives a heavy fritter: thermal shock is what makes it crisp." },
+    { "fr": "Frire à 180 °C, trois minutes, par petites quantités, et saler à la sortie.", "en": "Fry at 180°C for three minutes, in small batches, and salt as they come out." }
+  ]
+}

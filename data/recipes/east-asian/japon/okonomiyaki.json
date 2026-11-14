@@ -1,0 +1,39 @@
+{
+  "slug": "okonomiyaki",
+  "cuisine": "east-asian",
+  "country": "japon",
+  "origin": "Japon",
+  "native_name": "お好み焼き",
+  "title": {
+    "fr": "Okonomiyaki, galette de chou à la plancha",
+    "en": "Okonomiyaki, savoury cabbage pancake"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["osaka", "chou", "plancha", "convivial"],
+  "ingredients": [
+    { "raw": "500 g de chou blanc, en très fines lanières", "qty": 500, "unit": "g", "item": "chou blanc", "prep": "en très fines lanières" },
+    { "raw": "200 g de farine de blé", "qty": 200, "unit": "g", "item": "farine de blé" },
+    { "raw": "20 cl de dashi", "qty": 20, "unit": "cl", "item": "kombu", "prep": "en bouillon dashi" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf" },
+    { "raw": "200 g de poitrine de porc, en fines tranches", "qty": 200, "unit": "g", "item": "poitrine de porc", "prep": "en fines tranches" },
+    { "raw": "4 oignons nouveaux, ciselés", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé" },
+    { "raw": "6 c. à s. de sauce tonkatsu", "qty": 6, "unit": "tbsp", "item": "sauce tonkatsu", "group": "service" },
+    { "raw": "4 c. à s. de mayonnaise", "qty": 4, "unit": "tbsp", "item": "mayonnaise", "group": "service" },
+    { "raw": "20 g de katsuobushi", "qty": 20, "unit": "g", "item": "katsuobushi", "group": "service" },
+    { "raw": "1 feuille de nori, en poudre", "qty": 1, "unit": "piece", "item": "nori", "prep": "en poudre", "group": "service" },
+    { "raw": "4 c. à s. d'huile neutre", "qty": 4, "unit": "tbsp", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Couper le chou en lanières TRÈS fines : c'est la moitié du volume de la galette, et sa texture.", "en": "Shred the cabbage VERY finely: it is half the volume of the pancake, and its texture." },
+    { "fr": "Mélanger la farine et le dashi la veille si possible, et laisser reposer au froid.", "en": "Mix the flour and dashi the day before if you can, and rest it in the fridge." },
+    { "fr": "Ajouter les œufs et le chou JUSTE avant de cuire, et mélanger à la baguette, sans écraser.", "en": "Add the eggs and cabbage JUST before cooking, and toss with chopsticks, without crushing." },
+    { "fr": "Verser une galette épaisse sur la plancha huilée et NE PAS L'APLATIR : c'est l'erreur classique.", "en": "Pour a thick pancake onto the oiled griddle and DO NOT PRESS IT DOWN: the classic mistake." },
+    { "fr": "Poser les tranches de porc dessus, cuire six minutes, retourner, et cuire six minutes de plus.", "en": "Lay the pork slices on top, cook for six minutes, flip, and cook six more." },
+    { "fr": "Napper de sauce, de mayonnaise en quadrillage, et couvrir de katsuobushi qui ondule à la chaleur.", "en": "Coat with sauce, criss-cross with mayonnaise, and cover with katsuobushi that waves in the heat." }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "aji-de-gallina",
+  "cuisine": "latin-american",
+  "country": "perou",
+  "origin": "Pérou",
+  "native_name": "Ají de gallina",
+  "title": {
+    "fr": "Poulet crémeux au piment jaune",
+    "en": "Creamy chicken in yellow chilli sauce"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 60 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["classique", "aji-amarillo", "creme", "famille"],
+  "ingredients": [
+    { "raw": "1 kg de blanc de poulet", "qty": 1000, "unit": "g", "item": "blanc de poulet" },
+    { "raw": "6 piments ají amarillo", "qty": 6, "unit": "piece", "item": "ají amarillo" },
+    { "raw": "250 g de pain de mie rassis", "qty": 250, "unit": "g", "item": "pain de mie", "prep": "rassis" },
+    { "raw": "50 cl de lait entier", "qty": 50, "unit": "cl", "item": "lait entier" },
+    { "raw": "150 g de noix, concassées", "qty": 150, "unit": "g", "item": "noix", "prep": "concassée" },
+    { "raw": "120 g de parmesan, râpé", "qty": 120, "unit": "g", "item": "parmesan", "prep": "râpé" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "6 gousses d'ail, hachées", "qty": 6, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "800 g de pommes de terre", "qty": 800, "unit": "g", "item": "pomme de terre", "group": "service" },
+    { "raw": "4 œufs durs, en quartiers", "qty": 4, "unit": "piece", "item": "oeuf", "prep": "dur, en quartiers", "group": "service" },
+    { "raw": "100 g d'olives noires", "qty": 100, "unit": "g", "item": "olive noire", "group": "service" },
+    { "raw": "10 cl d'huile neutre", "qty": 10, "unit": "cl", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "L'AJÍ AMARILLO est le piment national péruvien : fruité, orangé, il est plus parfumé que fort.", "en": "AJÍ AMARILLO is Peru's national chilli: fruity, orange, more fragrant than hot." },
+    { "fr": "L'ÉBOUILLANTER TROIS FOIS, en changeant l'eau à chaque fois : c'est ce qui ôte le piquant.", "en": "BLANCH it THREE TIMES, changing the water each time: that is what removes the heat." },
+    { "fr": "Retirer graines et nervures : elles portent presque toute la capsaïcine.", "en": "Remove the seeds and ribs: they carry almost all the capsaicin." },
+    { "fr": "Le PAIN trempé dans le lait est le liant : il n'y a ni farine ni crème dans ce plat.", "en": "The BREAD soaked in milk is the thickener: there is neither flour nor cream in this dish." },
+    { "fr": "Pocher le poulet et l'effilocher À LA MAIN, dans le sens des fibres.", "en": "Poach the chicken and shred it BY HAND, along the grain." },
+    { "fr": "Cuire la sauce vingt minutes en remuant : elle doit napper lourdement la cuillère.", "en": "Cook the sauce for twenty minutes, stirring: it must coat a spoon heavily." }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "fish-ambul-thiyal",
+  "cuisine": "south-asian",
+  "country": "sri-lanka",
+  "origin": "Sri Lanka",
+  "native_name": "Ambul thiyal",
+  "title": {
+    "fr": "Ambul thiyal, poisson noir aigre au goraka",
+    "en": "Ambul thiyal, black sour fish with goraka"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 40 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["sud", "conserve", "goraka", "poisson"],
+  "ingredients": [
+    { "raw": "900 g de thon, en gros cubes", "qty": 900, "unit": "g", "item": "thon", "prep": "en gros cubes" },
+    { "raw": "6 morceaux de goraka", "qty": 6, "unit": "piece", "item": "goraka" },
+    { "raw": "2 c. à s. de poivre noir, moulu", "qty": 2, "unit": "tbsp", "item": "poivre noir", "prep": "moulu" },
+    { "raw": "1 c. à s. de pâte gingembre-ail", "qty": 1, "unit": "tbsp", "item": "pâte gingembre-ail" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "20 feuilles de curry", "qty": 20, "unit": "piece", "item": "feuille de curry" },
+    { "raw": "1 feuille de pandan", "qty": 1, "unit": "piece", "item": "feuille de pandan" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "3 c. à s. d'huile de coco", "qty": 3, "unit": "tbsp", "item": "huile de coco" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "L'ambul thiyal est un plat de CONSERVATION : très acide et très poivré, il se gardait des jours sans froid.", "en": "Ambul thiyal is a PRESERVING dish: intensely sour and peppery, it kept for days without refrigeration." },
+    { "fr": "Faire tremper le goraka vingt minutes dans l'eau chaude, puis le broyer en pâte noire.", "en": "Soak the goraka for twenty minutes in hot water, then grind it into a black paste." },
+    { "fr": "Enrober les cubes de poisson de cette pâte, du poivre, du curcuma et du sel.", "en": "Coat the fish cubes in that paste, with the pepper, turmeric and salt." },
+    { "fr": "Ranger en UNE SEULE couche dans une casserole, avec la cannelle, le pandan et les feuilles de curry.", "en": "Arrange in a SINGLE layer in a pan, with the cinnamon, pandan and curry leaves." },
+    { "fr": "Mouiller à peine — un demi-verre — et cuire trente minutes à couvert, sans jamais remuer.", "en": "Add barely any water — half a glass — and cook covered for thirty minutes, never stirring." },
+    { "fr": "Le plat est prêt quand le poisson est noir et qu'il ne reste plus de liquide.", "en": "It is ready when the fish is black and no liquid remains." }
+  ]
+}

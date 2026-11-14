@@ -1,0 +1,42 @@
+{
+  "slug": "gulab-jamun",
+  "cuisine": "south-asian",
+  "country": "inde",
+  "origin": "Inde",
+  "native_name": "Gulab jamun",
+  "title": {
+    "fr": "Gulab jamun, boulettes frites au sirop de rose",
+    "en": "Gulab jamun, fried milk balls in rose syrup"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 30, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "friture", "rose", "sirop"],
+  "ingredients": [
+    { "raw": "250 g de lait en poudre", "qty": 250, "unit": "g", "item": "lait en poudre" },
+    { "raw": "80 g de farine de blé", "qty": 80, "unit": "g", "item": "farine de blé" },
+    { "raw": "1/2 c. à c. de levure chimique", "qty": 0.5, "unit": "tsp", "item": "levure chimique" },
+    { "raw": "60 g de ghee", "qty": 60, "unit": "g", "item": "ghee" },
+    { "raw": "12 cl de lait entier", "qty": 12, "unit": "cl", "item": "lait entier" },
+    { "raw": "500 g de sucre", "qty": 500, "unit": "g", "item": "sucre", "group": "sirop" },
+    { "raw": "50 cl d'eau", "qty": 50, "unit": "cl", "item": "eau", "group": "sirop" },
+    { "raw": "1 c. à c. de cardamome moulue", "qty": 1, "unit": "tsp", "item": "cardamome", "prep": "moulue", "group": "sirop" },
+    { "raw": "2 c. à s. d'eau de rose", "qty": 2, "unit": "tbsp", "item": "eau de rose", "group": "sirop" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran", "group": "sirop" },
+    { "raw": "1 l d'huile neutre pour la friture", "qty": 1, "unit": "l", "item": "huile neutre", "group": "friture" }
+  ],
+  "steps": [
+    { "fr": "Faire le sirop, le parfumer hors du feu, et le garder TIÈDE : ni froid ni bouillant.", "en": "Make the syrup, scent it off the heat, and keep it WARM: neither cold nor boiling." },
+    { "fr": "Mélanger lait en poudre, farine, levure et ghee, puis lier avec le lait, un peu à la fois.", "en": "Mix the milk powder, flour, baking powder and ghee, then bind with the milk, a little at a time." },
+    { "fr": "Ne PAS pétrir : rassembler à peine. Pétrie, la pâte donne des boulettes dures.", "en": "Do NOT knead: barely bring it together. Kneaded, the dough gives hard balls." },
+    { "fr": "Rouler des boules parfaitement lisses, sans la moindre fissure, qui éclateraient à la friture.", "en": "Roll perfectly smooth balls, with no crack at all, or they will burst while frying." },
+    { "fr": "Frire à 120 °C — très doux — en remuant l'huile, huit à dix minutes, jusqu'à une couleur acajou.", "en": "Fry at 120°C — very gentle — swirling the oil, eight to ten minutes, to a mahogany colour." },
+    { "fr": "Les plonger dans le sirop tiède et les laisser boire DEUX HEURES avant de servir.", "en": "Drop them into the warm syrup and let them drink for TWO HOURS before serving." }
+  ],
+  "notes": [
+    { "fr": "Une huile trop chaude cuit l'extérieur en trente secondes et laisse le cœur cru : le gulab jamun reste alors dur au centre.", "en": "Oil that is too hot cooks the outside in thirty seconds and leaves the middle raw: the gulab jamun then stays hard at the core." }
+  ]
+}

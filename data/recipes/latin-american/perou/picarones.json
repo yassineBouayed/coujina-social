@@ -1,0 +1,40 @@
+{
+  "slug": "picarones",
+  "cuisine": "latin-american",
+  "country": "perou",
+  "origin": "Pérou",
+  "native_name": "Picarones",
+  "title": {
+    "fr": "Picarones, beignets de courge et patate douce",
+    "en": "Picarones, squash and sweet potato fritters"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 40, "cook_min": 40 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "friture", "courge", "sirop"],
+  "ingredients": [
+    { "raw": "500 g de courge butternut", "qty": 500, "unit": "g", "item": "butternut" },
+    { "raw": "400 g de patate douce", "qty": 400, "unit": "g", "item": "patate douce" },
+    { "raw": "600 g de farine de blé", "qty": 600, "unit": "g", "item": "farine de blé" },
+    { "raw": "14 g de levure boulangère sèche", "qty": 14, "unit": "g", "item": "levure boulangère" },
+    { "raw": "1 c. à c. d'anis en grains", "qty": 1, "unit": "tsp", "item": "anis vert" },
+    { "raw": "2 l d'huile neutre pour la friture", "qty": 2, "unit": "l", "item": "huile neutre" },
+    { "raw": "400 g de sucre roux", "qty": 400, "unit": "g", "item": "sucre roux", "group": "sirop" },
+    { "raw": "50 cl d'eau", "qty": 50, "unit": "cl", "item": "eau", "group": "sirop" },
+    { "raw": "2 bâtons de cannelle", "qty": 2, "unit": "piece", "item": "cannelle", "prep": "en bâton", "group": "sirop" },
+    { "raw": "6 clous de girofle", "qty": 6, "unit": "piece", "item": "clou de girofle", "group": "sirop" },
+    { "raw": "1 orange, son zeste", "qty": 1, "unit": "piece", "item": "orange", "group": "sirop" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire courge et patate douce À L'EAU AVEC L'ANIS : c'est cette eau parfumée qui hydrate la pâte.", "en": "Boil the squash and sweet potato IN WATER WITH ANISEED: that fragrant water hydrates the dough." },
+    { "fr": "Les EFFEUILLER À CHAUD et les laisser sécher : trop humides, la pâte ne prend jamais.", "en": "Mash them HOT and let them dry: too wet, the dough never comes together." },
+    { "fr": "La pâte doit être TRÈS collante, presque coulante : c'est ce qui fait les picarones légers.", "en": "The dough must be VERY sticky, almost pourable: that is what makes picarones light." },
+    { "fr": "Laisser lever DEUX HEURES : elle doit tripler de volume et être criblée de bulles.", "en": "Prove for TWO HOURS: it should triple in volume and be riddled with bubbles." },
+    { "fr": "Former l'anneau à la MAIN MOUILLÉE, en perçant le centre du pouce, directement au-dessus de l'huile.", "en": "Shape the ring with a WET HAND, piercing the centre with your thumb, right over the oil." },
+    { "fr": "Frire à 180 °C, deux minutes par face, et arroser de sirop de chancaca à la sortie.", "en": "Fry at 180°C for two minutes a side, and drench in chancaca syrup as they come out." }
+  ]
+}

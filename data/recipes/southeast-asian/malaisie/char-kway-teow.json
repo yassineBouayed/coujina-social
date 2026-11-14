@@ -1,0 +1,41 @@
+{
+  "slug": "char-kway-teow",
+  "cuisine": "southeast-asian",
+  "country": "malaisie",
+  "origin": "Malaisie",
+  "native_name": "Char kway teow",
+  "title": {
+    "fr": "Char kway teow, nouilles plates sautées",
+    "en": "Char kway teow, stir-fried flat noodles"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 15 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["penang", "wok", "rue", "wok-hei"],
+  "ingredients": [
+    { "raw": "600 g de nouilles de riz plates fraîches", "qty": 600, "unit": "g", "item": "nouilles de riz" },
+    { "raw": "300 g de crevettes, décortiquées", "qty": 300, "unit": "g", "item": "crevette", "prep": "décortiquée" },
+    { "raw": "200 g de coques ou de moules", "qty": 200, "unit": "g", "item": "moule" },
+    { "raw": "150 g de saucisse chinoise, en rondelles", "qty": 150, "unit": "g", "item": "saucisse chinoise", "prep": "en rondelles" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf" },
+    { "raw": "200 g de germes de soja", "qty": 200, "unit": "g", "item": "germes de soja" },
+    { "raw": "1 bouquet de ciboulette chinoise", "qty": 1, "unit": "bunch", "item": "ciboulette" },
+    { "raw": "6 gousses d'ail, hachées", "qty": 6, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "3 c. à s. de sauce soja foncée", "qty": 3, "unit": "tbsp", "item": "sauce soja foncée", "group": "sauce" },
+    { "raw": "2 c. à s. de sauce soja claire", "qty": 2, "unit": "tbsp", "item": "sauce soja claire", "group": "sauce" },
+    { "raw": "2 c. à s. de sauce huître", "qty": 2, "unit": "tbsp", "item": "sauce huître", "group": "sauce" },
+    { "raw": "2 c. à s. de sambal oelek", "qty": 2, "unit": "tbsp", "item": "sambal oelek", "group": "sauce" },
+    { "raw": "4 c. à s. de saindoux", "qty": 4, "unit": "tbsp", "item": "saindoux" }
+  ],
+  "steps": [
+    { "fr": "Le char kway teow se cuit UNE PORTION À LA FOIS : c'est la condition du wok hei, et il n'y en a pas d'autre.", "en": "Char kway teow is cooked ONE PORTION AT A TIME: that is the condition for wok hei, and there is no other." },
+    { "fr": "Le SAINDOUX, et non l'huile, est ce qui donne le goût de rue : c'est un choix, pas un détail.", "en": "LARD, not oil, is what gives the street-stall taste: it is a choice, not a detail." },
+    { "fr": "Chauffer le wok jusqu'à ce qu'il fume franchement, presque au rouge.", "en": "Heat the wok until it smokes properly, almost glowing." },
+    { "fr": "Saisir ail, saucisse, crevettes et coques, pousser sur le côté, brouiller les œufs.", "en": "Sear the garlic, sausage, prawns and cockles, push them aside, scramble the eggs." },
+    { "fr": "Ajouter les nouilles et les LAISSER SANS Y TOUCHER trente secondes, deux fois de suite.", "en": "Add the noodles and LEAVE THEM UNTOUCHED for thirty seconds, twice over." },
+    { "fr": "Ces temps d'immobilité brûlent légèrement les nouilles : sans eux, il n'y a pas de wok hei.", "en": "Those still moments char the noodles slightly: without them, there is no wok hei." }
+  ]
+}

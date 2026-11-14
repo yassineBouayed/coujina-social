@@ -1,0 +1,39 @@
+{
+  "slug": "adana-kebab",
+  "cuisine": "middle-eastern",
+  "country": "turquie",
+  "origin": "Turquie",
+  "native_name": "Adana kebap",
+  "title": {
+    "fr": "Adana kebab, brochettes hachées pimentées",
+    "en": "Adana kebab, spiced minced skewers"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 15 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["adana", "grillade", "piment", "brochette"],
+  "ingredients": [
+    { "raw": "1 kg d'agneau haché avec 20 % de gras", "qty": 1000, "unit": "g", "item": "agneau haché" },
+    { "raw": "2 c. à s. de piment d'Alep", "qty": 2, "unit": "tbsp", "item": "piment d'Alep" },
+    { "raw": "1 poivron rouge, haché très finement", "qty": 1, "unit": "piece", "item": "poivron rouge", "prep": "haché très finement" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "1 oignon, râpé et pressé", "qty": 1, "unit": "piece", "item": "oignon", "prep": "râpé et pressé" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin" },
+    { "raw": "2 oignons, en fines rondelles", "qty": 2, "unit": "piece", "item": "oignon", "prep": "en fines rondelles", "group": "service" },
+    { "raw": "1 c. à s. de sumac", "qty": 1, "unit": "tbsp", "item": "sumac", "group": "service" },
+    { "raw": "4 pains pita", "qty": 4, "unit": "piece", "item": "pain pita", "group": "service" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le gras n'est pas négociable : à moins de 20 %, la viande tombe de la brochette et sèche.", "en": "The fat is not negotiable: below 20%, the meat falls off the skewer and dries out." },
+    { "fr": "Pétrir la viande avec le piment, le poivron, le persil, l'oignon pressé, le cumin et le sel, dix minutes.", "en": "Knead the meat with the chilli, pepper, parsley, squeezed onion, cumin and salt for ten minutes." },
+    { "fr": "Ce pétrissage long est ce qui fait tenir la viande : bâclé, elle se détache au premier retournement.", "en": "That long kneading is what makes the meat hold: rushed, it falls off at the first turn." },
+    { "fr": "Laisser reposer deux heures au frais.", "en": "Rest for two hours in the fridge." },
+    { "fr": "Mouler à mains mouillées sur des brochettes LARGES et plates, en pressant fermement.", "en": "Mould it with wet hands onto WIDE, flat skewers, pressing firmly." },
+    { "fr": "Griller sur braises vives, huit minutes, en retournant deux fois, et servir sur l'oignon au sumac.", "en": "Grill over hot coals for eight minutes, turning twice, and serve on the sumac onions." }
+  ]
+}

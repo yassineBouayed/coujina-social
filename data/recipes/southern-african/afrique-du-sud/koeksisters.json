@@ -1,0 +1,43 @@
+{
+  "slug": "koeksisters",
+  "cuisine": "southern-african",
+  "country": "afrique-du-sud",
+  "origin": "Afrique du Sud",
+  "native_name": "Koeksisters",
+  "title": {
+    "fr": "Koeksisters, tresses frites au sirop glacé",
+    "en": "Koeksisters, plaited doughnuts in iced syrup"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 50, "cook_min": 30 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["sirop", "friture", "fete", "tresse"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé" },
+    { "raw": "3 c. à c. de levure chimique", "qty": 3, "unit": "tsp", "item": "levure chimique" },
+    { "raw": "1/2 c. à c. de sel", "qty": 0.5, "unit": "tsp", "item": "sel" },
+    { "raw": "60 g de beurre, froid", "qty": 60, "unit": "g", "item": "beurre", "prep": "froid" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "20 cl de lait", "qty": 20, "unit": "cl", "item": "lait" },
+    { "raw": "800 g de sucre", "qty": 800, "unit": "g", "item": "sucre", "group": "sirop" },
+    { "raw": "40 cl d'eau", "qty": 40, "unit": "cl", "item": "eau", "group": "sirop" },
+    { "raw": "1 c. à s. de gingembre frais, râpé", "qty": 1, "unit": "tbsp", "item": "gingembre", "prep": "râpé", "group": "sirop" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron", "group": "sirop" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle", "group": "sirop" },
+    { "raw": "1 l d'huile neutre pour la friture", "qty": 1, "unit": "l", "item": "huile neutre", "group": "friture" }
+  ],
+  "steps": [
+    { "fr": "Faire le sirop la veille : sucre, eau, gingembre, citron et cannelle, dix minutes à ébullition.", "en": "Make the syrup the day before: sugar, water, ginger, lemon and cinnamon, ten minutes at a boil." },
+    { "fr": "Le mettre au réfrigérateur toute la nuit. Il doit être GLACÉ au moment de tremper.", "en": "Refrigerate it overnight. It must be ICE COLD when you dip." },
+    { "fr": "Sabler la farine, la levure, le sel et le beurre froid, puis lier avec l'œuf et le lait.", "en": "Rub the flour, baking powder, salt and cold butter together, then bind with the egg and milk." },
+    { "fr": "Laisser reposer la pâte une heure au frais, l'étaler, la couper en bandes et les tresser par trois.", "en": "Rest the dough for an hour in the fridge, roll it out, cut strips and plait them in threes." },
+    { "fr": "Frire à 175 °C jusqu'à belle coloration, puis plonger immédiatement dans le sirop glacé.", "en": "Fry at 175°C to a deep gold, then plunge straight into the ice-cold syrup." },
+    { "fr": "Le choc entre la pâte brûlante et le sirop glacé fait entrer le sirop au cœur : c'est toute la recette.", "en": "The shock between scalding dough and freezing syrup drives the syrup to the centre: that is the whole recipe." }
+  ],
+  "notes": [
+    { "fr": "Travailler par petites fournées et remettre le sirop au froid entre chacune. Un sirop tiédi ne pénètre plus.", "en": "Work in small batches and return the syrup to the fridge between each. Warmed syrup no longer penetrates." }
+  ]
+}

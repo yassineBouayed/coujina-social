@@ -1,0 +1,37 @@
+{
+  "slug": "cornbread",
+  "cuisine": "north-american",
+  "country": "etats-unis",
+  "origin": "États-Unis",
+  "native_name": "Skillet cornbread",
+  "title": {
+    "fr": "Pain de maïs à la poêle",
+    "en": "Skillet cornbread"
+  },
+  "meal_type": "bread",
+  "servings": 8,
+  "times": { "prep_min": 15, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["sud", "mais", "rapide", "accompagnement"],
+  "ingredients": [
+    { "raw": "300 g de farine de maïs", "qty": 300, "unit": "g", "item": "farine de maïs" },
+    { "raw": "150 g de farine de blé", "qty": 150, "unit": "g", "item": "farine de blé" },
+    { "raw": "40 cl de lait fermenté", "qty": 40, "unit": "cl", "item": "lait fermenté" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf" },
+    { "raw": "100 g de beurre", "qty": 100, "unit": "g", "item": "beurre" },
+    { "raw": "2 c. à c. de bicarbonate de soude", "qty": 2, "unit": "tsp", "item": "bicarbonate de soude" },
+    { "raw": "1 c. à c. de levure chimique", "qty": 1, "unit": "tsp", "item": "levure chimique" },
+    { "raw": "2 c. à s. de sucre", "qty": 2, "unit": "tbsp", "item": "sucre", "optional": true },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le cornbread du Sud ne contient PAS de sucre : la version sucrée est nordiste, et le débat est ancien.", "en": "Southern cornbread contains NO sugar: the sweet version is Northern, and the argument is old." },
+    { "fr": "Chauffer la poêle EN FONTE avec le beurre au four jusqu'à ce qu'il grésille.", "en": "Heat the CAST-IRON pan with the butter in the oven until it sizzles." },
+    { "fr": "Verser la pâte dans le beurre BRÛLANT : le contact forme la croûte dorée du fond.", "en": "Pour the batter into the SCALDING butter: the contact forms the golden bottom crust." },
+    { "fr": "Mélanger le MOINS possible : quelques grumeaux valent mieux qu'une pâte travaillée.", "en": "Mix AS LITTLE as possible: a few lumps beat an overworked batter." },
+    { "fr": "Le lait fermenté et le bicarbonate réagissent immédiatement : enfourner sans attendre.", "en": "The buttermilk and bicarbonate react at once: get it in the oven without delay." },
+    { "fr": "Cuire 25 minutes à 220 °C et servir CHAUD, avec du beurre qui fond dessus.", "en": "Bake for 25 minutes at 220°C and serve it HOT, with butter melting on top." }
+  ]
+}

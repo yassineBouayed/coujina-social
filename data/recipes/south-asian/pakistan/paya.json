@@ -1,0 +1,40 @@
+{
+  "slug": "paya",
+  "cuisine": "south-asian",
+  "country": "pakistan",
+  "origin": "Pakistan",
+  "native_name": "Paya",
+  "title": {
+    "fr": "Paya, pieds d'agneau en bouillon gélatineux",
+    "en": "Paya, lamb trotters in gelatinous broth"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 330 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["petit-dejeuner", "abats", "cuisson-lente", "hiver"],
+  "ingredients": [
+    { "raw": "6 pieds d'agneau, nettoyés et coupés", "qty": 6, "unit": "piece", "item": "pied de veau", "prep": "nettoyé et coupé" },
+    { "raw": "4 oignons, émincés", "qty": 4, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "3 c. à s. de pâte gingembre-ail", "qty": 3, "unit": "tbsp", "item": "pâte gingembre-ail" },
+    { "raw": "2 c. à s. de coriandre en graines, moulue", "qty": 2, "unit": "tbsp", "item": "coriandre graines", "prep": "moulue" },
+    { "raw": "2 c. à c. de piment kashmiri", "qty": 2, "unit": "tsp", "item": "piment kashmiri" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "1 c. à s. de garam masala", "qty": 1, "unit": "tbsp", "item": "garam masala" },
+    { "raw": "4 cardamomes noires", "qty": 4, "unit": "piece", "item": "cardamome noire" },
+    { "raw": "120 g de ghee", "qty": 120, "unit": "g", "item": "ghee" },
+    { "raw": "1 c. à s. de gingembre frais, en julienne", "qty": 1, "unit": "tbsp", "item": "gingembre", "prep": "en julienne", "group": "service" },
+    { "raw": "2 citrons, en quartiers", "qty": 2, "unit": "piece", "item": "citron", "group": "service" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Flamber et brosser les pieds soigneusement, puis les blanchir dix minutes et jeter cette eau.", "en": "Singe and scrub the trotters thoroughly, then blanch them for ten minutes and discard that water." },
+    { "fr": "Ce nettoyage décide de tout : mal fait, le bouillon garde une odeur qui ne partira jamais.", "en": "That cleaning decides everything: done badly, the broth keeps a smell that will never leave." },
+    { "fr": "Faire revenir oignons, pâte gingembre-ail et épices dans le ghee, puis ajouter les pieds.", "en": "Fry the onions, ginger-garlic paste and spices in the ghee, then add the trotters." },
+    { "fr": "Mouiller largement et laisser mijoter CINQ HEURES à feu très doux, en écumant régulièrement.", "en": "Cover generously and simmer for FIVE HOURS over very low heat, skimming regularly." },
+    { "fr": "Le paya est prêt quand le bouillon colle aux lèvres et que la chair se détache des os.", "en": "Paya is ready when the broth sticks to the lips and the meat falls off the bones." },
+    { "fr": "Servir brûlant avec du naan, du gingembre cru et beaucoup de citron.", "en": "Serve scalding with naan, raw ginger and plenty of lemon." }
+  ]
+}

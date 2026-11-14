@@ -1,0 +1,39 @@
+{
+  "slug": "aloo-ko-achar",
+  "cuisine": "south-asian",
+  "country": "nepal",
+  "origin": "Népal",
+  "native_name": "Aloo ko achar",
+  "title": {
+    "fr": "Aloo ko achar, pommes de terre au sésame et citron",
+    "en": "Aloo ko achar, potatoes with sesame and lemon"
+  },
+  "meal_type": "salad",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["froid", "sesame", "accompagnement", "newar"],
+  "ingredients": [
+    { "raw": "800 g de pommes de terre", "qty": 800, "unit": "g", "item": "pomme de terre" },
+    { "raw": "100 g de graines de sésame, grillées et moulues", "qty": 100, "unit": "g", "item": "sésame", "prep": "grillé et moulu" },
+    { "raw": "1 concombre, en bâtonnets", "qty": 1, "unit": "piece", "item": "concombre", "prep": "en bâtonnets", "optional": true },
+    { "raw": "2 citrons, leur jus", "qty": 2, "unit": "piece", "item": "citron" },
+    { "raw": "1 c. à c. de timur, moulu", "qty": 1, "unit": "tsp", "item": "timur", "prep": "moulu" },
+    { "raw": "2 c. à s. de piment en poudre", "qty": 2, "unit": "tbsp", "item": "piment en poudre" },
+    { "raw": "1 c. à c. de graines de fenugrec", "qty": 1, "unit": "tsp", "item": "fenugrec" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "6 c. à s. d'huile de moutarde", "qty": 6, "unit": "tbsp", "item": "huile de moutarde" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire les pommes de terre en robe des champs, les peler et les couper en gros cubes.", "en": "Boil the potatoes in their skins, peel them and cut them into large cubes." },
+    { "fr": "Griller le sésame à sec puis le moudre finement : c'est lui qui lie et qui donne le goût.", "en": "Toast the sesame dry then grind it fine: it is what binds the dish and gives it flavour." },
+    { "fr": "Chauffer l'huile de moutarde jusqu'à ce qu'elle fume, y noircir le fenugrec, et le retirer.", "en": "Heat the mustard oil until it smokes, blacken the fenugreek in it, and remove it." },
+    { "fr": "Ce fenugrec brûlé parfume l'huile puis s'enlève : laissé dedans, il rendrait le plat amer.", "en": "That blackened fenugreek scents the oil then comes out: left in, it would turn the dish bitter." },
+    { "fr": "Mélanger pommes de terre, sésame moulu, piment, curcuma, timur, citron et huile parfumée.", "en": "Combine the potatoes, ground sesame, chilli, turmeric, timur, lemon and scented oil." },
+    { "fr": "Se sert FROID, et c'est meilleur le lendemain. Ajouter le concombre au dernier moment.", "en": "Serve it COLD, and it is better the next day. Add the cucumber at the last moment." }
+  ]
+}

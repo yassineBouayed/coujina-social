@@ -1,0 +1,40 @@
+{
+  "slug": "gyoza",
+  "cuisine": "east-asian",
+  "country": "japon",
+  "origin": "Japon",
+  "native_name": "餃子",
+  "title": {
+    "fr": "Gyoza, raviolis grillés au porc et au chou",
+    "en": "Gyoza, pan-fried pork and cabbage dumplings"
+  },
+  "meal_type": "starter",
+  "servings": 5,
+  "times": { "prep_min": 60, "cook_min": 15 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["izakaya", "ravioli", "poele", "populaire"],
+  "ingredients": [
+    { "raw": "40 pâtes à gyoza", "qty": 40, "unit": "piece", "item": "pâte à wonton" },
+    { "raw": "400 g de porc haché", "qty": 400, "unit": "g", "item": "porc haché", "group": "farce" },
+    { "raw": "300 g de chou chinois, haché et pressé", "qty": 300, "unit": "g", "item": "chou chinois", "prep": "haché et pressé", "group": "farce" },
+    { "raw": "4 gousses d'ail, râpées", "qty": 4, "unit": "piece", "item": "ail", "prep": "râpé", "group": "farce" },
+    { "raw": "2 c. à s. de gingembre frais, râpé", "qty": 2, "unit": "tbsp", "item": "gingembre", "prep": "râpé", "group": "farce" },
+    { "raw": "4 oignons nouveaux, ciselés", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé", "group": "farce" },
+    { "raw": "2 c. à s. de sauce soja", "qty": 2, "unit": "tbsp", "item": "sauce soja", "group": "farce" },
+    { "raw": "1 c. à s. d'huile de sésame", "qty": 1, "unit": "tbsp", "item": "huile de sésame", "group": "farce" },
+    { "raw": "4 c. à s. de vinaigre de riz", "qty": 4, "unit": "tbsp", "item": "vinaigre de riz", "group": "sauce" },
+    { "raw": "3 c. à s. d'huile pimentée", "qty": 3, "unit": "tbsp", "item": "huile pimentée", "group": "sauce" },
+    { "raw": "1 c. à s. de maïzena", "qty": 1, "unit": "tbsp", "item": "maïzena", "group": "cuisson" },
+    { "raw": "3 c. à s. d'huile neutre", "qty": 3, "unit": "tbsp", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Saler le chou, le laisser dégorger vingt minutes, et le presser jusqu'à la dernière goutte.", "en": "Salt the cabbage, let it weep for twenty minutes, and squeeze out every last drop." },
+    { "fr": "Battre la farce dans un seul sens jusqu'à ce qu'elle devienne pâteuse et colle à la cuillère.", "en": "Beat the filling in one direction until it turns pasty and clings to the spoon." },
+    { "fr": "Plisser un SEUL côté du disque, en sept plis, et laisser l'autre côté lisse.", "en": "Pleat ONE side of the disc only, in seven pleats, leaving the other side smooth." },
+    { "fr": "Dorer les gyoza côté plat dans l'huile chaude, deux minutes, sans les bouger.", "en": "Brown the gyoza flat side down in hot oil for two minutes, without moving them." },
+    { "fr": "Verser un verre d'eau additionnée de maïzena, couvrir aussitôt, et cuire six minutes.", "en": "Pour in a glass of water mixed with cornflour, cover at once, and cook for six minutes." },
+    { "fr": "Découvrir et laisser l'eau s'évaporer : la maïzena forme une dentelle croustillante entre les raviolis.", "en": "Uncover and let the water evaporate: the cornflour forms a crisp lace between the dumplings." }
+  ]
+}

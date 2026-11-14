@@ -1,0 +1,39 @@
+{
+  "slug": "arroz-a-la-mexicana",
+  "cuisine": "latin-american",
+  "country": "mexique",
+  "origin": "Mexique",
+  "native_name": "Arroz a la mexicana",
+  "title": {
+    "fr": "Riz rouge à la mexicaine",
+    "en": "Mexican red rice"
+  },
+  "meal_type": "side",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["accompagnement", "riz", "tomate", "quotidien"],
+  "ingredients": [
+    { "raw": "500 g de riz long grain", "qty": 500, "unit": "g", "item": "riz long grain" },
+    { "raw": "600 g de tomates", "qty": 600, "unit": "g", "item": "tomate" },
+    { "raw": "1 oignon", "qty": 1, "unit": "piece", "item": "oignon" },
+    { "raw": "4 gousses d'ail", "qty": 4, "unit": "piece", "item": "ail" },
+    { "raw": "200 g de petits pois surgelés", "qty": 200, "unit": "g", "item": "petits pois surgelés" },
+    { "raw": "2 carottes, en petits dés", "qty": 2, "unit": "piece", "item": "carotte", "prep": "en petits dés" },
+    { "raw": "80 cl de bouillon de volaille", "qty": 80, "unit": "cl", "item": "bouillon volaille" },
+    { "raw": "10 cl d'huile neutre", "qty": 10, "unit": "cl", "item": "huile neutre" },
+    { "raw": "2 piments frais", "qty": 2, "unit": "piece", "item": "piment frais", "optional": true },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "RINCER le riz jusqu'à ce que l'eau soit claire, puis le SÉCHER trente minutes sur un torchon.", "en": "RINSE the rice until the water runs clear, then DRY it for thirty minutes on a cloth." },
+    { "fr": "Un riz humide ne dore pas : il colle et le plat devient une bouillie rouge.", "en": "Wet rice will not brown: it clumps and the dish becomes a red mush." },
+    { "fr": "Le FRIRE dans l'huile jusqu'à ce qu'il soit BLOND, cinq minutes, en remuant sans arrêt.", "en": "FRY it in oil until GOLDEN, five minutes, stirring constantly." },
+    { "fr": "Cette friture enrobe chaque grain de gras : c'est ce qui les garde détachés.", "en": "That frying coats each grain in fat: it is what keeps them separate." },
+    { "fr": "Mixer tomates, oignon et ail, et verser cette purée sur le riz doré : elle doit grésiller.", "en": "Blend the tomatoes, onion and garlic, and pour that purée onto the golden rice: it must sizzle." },
+    { "fr": "Ajouter le bouillon, couvrir, et NE PLUS SOULEVER LE COUVERCLE pendant vingt minutes.", "en": "Add the stock, cover, and DO NOT LIFT THE LID for twenty minutes." }
+  ]
+}

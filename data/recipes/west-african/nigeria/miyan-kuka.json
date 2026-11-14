@@ -1,0 +1,38 @@
+{
+  "slug": "miyan-kuka",
+  "cuisine": "west-african",
+  "country": "nigeria",
+  "origin": "Nigeria",
+  "native_name": "Miyan kuka",
+  "title": {
+    "fr": "Miyan kuka, soupe de feuilles de baobab",
+    "en": "Miyan kuka, baobab leaf soup"
+  },
+  "meal_type": "soup",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hausa", "nord", "baobab", "quotidien"],
+  "ingredients": [
+    { "raw": "80 g de poudre de kuka", "qty": 80, "unit": "g", "item": "poudre de kuka" },
+    { "raw": "500 g d'agneau à mijoter, en cubes", "qty": 500, "unit": "g", "item": "épaule d'agneau", "prep": "en cubes" },
+    { "raw": "100 g de poisson fumé, émietté", "qty": 100, "unit": "g", "item": "poisson fumé", "prep": "émietté" },
+    { "raw": "3 c. à s. de crevettes séchées, moulues", "qty": 3, "unit": "tbsp", "item": "crevette séchée", "prep": "moulue" },
+    { "raw": "1 c. à s. de graines de néré", "qty": 1, "unit": "tbsp", "item": "néré" },
+    { "raw": "1 oignon, haché", "qty": 1, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "2 c. à s. de piment en poudre", "qty": 2, "unit": "tbsp", "item": "piment en poudre" },
+    { "raw": "8 cl d'huile d'arachide", "qty": 8, "unit": "cl", "item": "huile d'arachide" },
+    { "raw": "2 cubes de bouillon", "qty": 2, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire la viande avec l'oignon, les cubes, le sel et 1,2 l d'eau, quarante minutes.", "en": "Cook the meat with the onion, stock cubes, salt and 1.2 litres of water, for forty minutes." },
+    { "fr": "Ajouter le poisson fumé, les crevettes séchées, le néré, le piment et l'huile.", "en": "Add the smoked fish, dried prawns, néré, chilli and oil." },
+    { "fr": "Verser la poudre de kuka en pluie, à travers les doigts, en remuant sans arrêt.", "en": "Rain in the kuka powder through your fingers, stirring constantly." },
+    { "fr": "Versée d'un coup, elle fait des blocs verts qui ne se défont plus.", "en": "Tipped in at once, it forms green lumps that never break up." },
+    { "fr": "Laisser mijoter cinq minutes seulement : cuite trop longtemps, elle devient amère.", "en": "Simmer for five minutes only: cooked longer, it turns bitter." },
+    { "fr": "Servir avec du tuwo shinkafa.", "en": "Serve with tuwo shinkafa." }
+  ]
+}

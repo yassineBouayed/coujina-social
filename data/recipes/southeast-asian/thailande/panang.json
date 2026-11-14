@@ -1,0 +1,37 @@
+{
+  "slug": "panang",
+  "cuisine": "southeast-asian",
+  "country": "thailande",
+  "origin": "Thaïlande",
+  "native_name": "พะแนง",
+  "title": {
+    "fr": "Curry panang au bœuf, court et épais",
+    "en": "Panang beef curry, thick and reduced"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 35 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["curry", "epais", "arachide", "combava"],
+  "ingredients": [
+    { "raw": "700 g de bœuf en tranches fines", "qty": 700, "unit": "g", "item": "steak de bœuf", "prep": "en tranches fines" },
+    { "raw": "5 c. à s. de pâte de curry rouge", "qty": 5, "unit": "tbsp", "item": "pâte de curry rouge" },
+    { "raw": "50 cl de lait de coco", "qty": 50, "unit": "cl", "item": "lait de coco" },
+    { "raw": "4 c. à s. de pâte d'arachide", "qty": 4, "unit": "tbsp", "item": "pâte d'arachide" },
+    { "raw": "8 feuilles de combava, en fine julienne", "qty": 8, "unit": "piece", "item": "feuille de combava", "prep": "en fine julienne" },
+    { "raw": "3 c. à s. de sauce poisson", "qty": 3, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "3 c. à s. de sucre de palme", "qty": 3, "unit": "tbsp", "item": "sucre de palme" },
+    { "raw": "1 poivron rouge, en lanières", "qty": 1, "unit": "piece", "item": "poivron rouge", "prep": "en lanières" },
+    { "raw": "1 bouquet de basilic thaï", "qty": 1, "unit": "bunch", "item": "basilic" }
+  ],
+  "steps": [
+    { "fr": "Le panang se distingue du curry rouge par deux choses : il est plus ÉPAIS et contient de l'arachide.", "en": "Panang differs from red curry in two ways: it is THICKER and contains peanut." },
+    { "fr": "Casser la crème de coco et y frire la pâte de curry cinq minutes, jusqu'à ce qu'elle embaume.", "en": "Crack the coconut cream and fry the curry paste in it for five minutes, until fragrant." },
+    { "fr": "Ajouter la pâte d'arachide et la travailler dans le curry jusqu'à ce qu'elle soit lisse.", "en": "Add the peanut paste and work it into the curry until smooth." },
+    { "fr": "Ajouter le bœuf et le reste du lait de coco, et laisser RÉDUIRE vingt-cinq minutes à découvert.", "en": "Add the beef and the remaining coconut milk, and REDUCE for twenty-five minutes uncovered." },
+    { "fr": "Le panang doit napper la viande et non l'entourer : s'il est liquide, il n'a pas assez réduit.", "en": "Panang should coat the meat, not surround it: if it is runny, it has not reduced enough." },
+    { "fr": "Finir au basilic et parsemer de julienne de combava crue, qui doit rester vive et parfumée.", "en": "Finish with basil and scatter raw shredded lime leaf, which should stay bright and fragrant." }
+  ]
+}

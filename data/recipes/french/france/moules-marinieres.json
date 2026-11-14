@@ -1,0 +1,40 @@
+{
+  "slug": "moules-marinieres",
+  "cuisine": "french",
+  "country": "france",
+  "origin": "France",
+  "native_name": "Moules marinières",
+  "title": {
+    "fr": "Moules marinières",
+    "en": "Moules marinières"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["cote", "vin-blanc", "rapide", "frites"],
+  "ingredients": [
+    { "raw": "2 kg de moules", "qty": 2000, "unit": "g", "item": "moule" },
+    { "raw": "4 échalotes, ciselées", "qty": 4, "unit": "piece", "item": "échalote", "prep": "ciselée" },
+    { "raw": "3 gousses d'ail, écrasées", "qty": 3, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "30 cl de vin blanc sec", "qty": 30, "unit": "cl", "item": "vin blanc" },
+    { "raw": "60 g de beurre", "qty": 60, "unit": "g", "item": "beurre" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "10 cl de crème liquide", "qty": 10, "unit": "cl", "item": "crème liquide", "optional": true },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Trier les moules : jeter toutes celles qui restent OUVERTES après un coup sur le plan de travail.", "en": "Sort the mussels: discard any that stay OPEN after a tap on the counter." },
+    { "fr": "Les gratter et les rincer à grande eau, mais NE PAS les laisser tremper : elles se videraient.", "en": "Scrape and rinse them well, but DO NOT soak them: they would empty themselves." },
+    { "fr": "Faire suer échalotes et ail au beurre, ajouter vin blanc et laurier, et porter à ébullition.", "en": "Sweat the shallots and garlic in butter, add the wine and bay, and bring to a boil." },
+    { "fr": "Jeter les moules d'un coup, couvrir, et SECOUER la casserole toutes les trente secondes.", "en": "Tip in the mussels all at once, cover, and SHAKE the pan every thirty seconds." },
+    { "fr": "Elles sont cuites dès qu'elles sont TOUTES ouvertes : trois à quatre minutes, jamais plus.", "en": "They are done as soon as they are ALL open: three to four minutes, never more." },
+    { "fr": "Jeter celles restées fermées, ajouter le persil, et servir avec le jus de cuisson.", "en": "Discard any that stayed shut, add the parsley, and serve with the cooking liquor." }
+  ],
+  "notes": [
+    { "fr": "Une moule qui ne s'ouvre pas à la cuisson ne se force pas : elle se jette.", "en": "A mussel that does not open during cooking is never forced open: it is thrown away." }
+  ]
+}

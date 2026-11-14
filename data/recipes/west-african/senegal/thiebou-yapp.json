@@ -1,0 +1,40 @@
+{
+  "slug": "thiebou-yapp",
+  "cuisine": "west-african",
+  "country": "senegal",
+  "origin": "Sénégal",
+  "native_name": "Ceebu yapp",
+  "title": {
+    "fr": "Thiébou yapp, riz à la viande",
+    "en": "Thiebou yapp, rice with meat"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 35, "cook_min": 90 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["riz", "mouton", "oignon", "tablee"],
+  "ingredients": [
+    { "raw": "1 kg d'épaule d'agneau, en morceaux", "qty": 1000, "unit": "g", "item": "épaule d'agneau", "prep": "en morceaux" },
+    { "raw": "600 g de riz brisé", "qty": 600, "unit": "g", "item": "riz brisé" },
+    { "raw": "1 kg d'oignons, émincés", "qty": 1000, "unit": "g", "item": "oignon", "prep": "émincé" },
+    { "raw": "3 c. à s. de moutarde", "qty": 3, "unit": "tbsp", "item": "moutarde" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "2 citrons verts, leur jus", "qty": 2, "unit": "piece", "item": "citron vert" },
+    { "raw": "1 piment oiseau", "qty": 1, "unit": "piece", "item": "piment oiseau" },
+    { "raw": "2 cubes de bouillon", "qty": 2, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "12 c. à s. d'huile d'arachide", "qty": 12, "unit": "tbsp", "item": "huile d'arachide" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Faire dorer la viande dans l'huile bien chaude, sur toutes ses faces, et la réserver.", "en": "Brown the meat in very hot oil on all sides, and set aside." },
+    { "fr": "Faire fondre les oignons dans la même huile, très longuement, jusqu'à ce qu'ils deviennent une confiture blonde.", "en": "Melt the onions in the same oil, at length, until they become a golden jam." },
+    { "fr": "Ajouter moutarde, concentré de tomate, cube et laurier, et remettre la viande avec de l'eau.", "en": "Add mustard, tomato purée, stock cube and bay, and return the meat with water." },
+    { "fr": "Laisser mijoter une heure, puis retirer la viande et une louche de sauce d'oignons.", "en": "Simmer for an hour, then remove the meat and a ladle of the onion sauce." },
+    { "fr": "Cuire le riz dans le bouillon restant, à couvert, sans remuer, jusqu'à absorption complète.", "en": "Cook the rice in the remaining broth, covered, without stirring, until fully absorbed." },
+    { "fr": "Dresser le riz, poser la viande dessus et napper des oignons réservés, arrosés de citron.", "en": "Plate the rice, set the meat on top and spoon over the reserved onions, sharpened with lime." }
+  ]
+}

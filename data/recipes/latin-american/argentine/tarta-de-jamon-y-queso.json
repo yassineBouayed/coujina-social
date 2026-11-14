@@ -1,0 +1,39 @@
+{
+  "slug": "tarta-de-jamon-y-queso",
+  "cuisine": "latin-american",
+  "country": "argentine",
+  "origin": "Argentine",
+  "native_name": "Tarta de jamón y queso",
+  "title": {
+    "fr": "Tarte au jambon et au fromage",
+    "en": "Ham and cheese tart"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 40 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["quotidien", "tarte", "famille", "rapide"],
+  "ingredients": [
+    { "raw": "2 pâtes brisées", "qty": 2, "unit": "piece", "item": "pâte brisée" },
+    { "raw": "400 g de jambon blanc, en dés", "qty": 400, "unit": "g", "item": "jambon blanc", "prep": "en dés" },
+    { "raw": "400 g de mozzarella, râpée", "qty": 400, "unit": "g", "item": "mozzarella", "prep": "râpée" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf" },
+    { "raw": "25 cl de crème fraîche", "qty": 25, "unit": "cl", "item": "crème fraîche" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "1 c. à c. d'origan séché", "qty": 1, "unit": "tsp", "item": "origan séché" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "1 œuf, pour dorer", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La tarta argentine est COUVERTE : deux abaisses, comme un chausson géant.", "en": "The Argentine tarta is COVERED: two pastry sheets, like a giant turnover." },
+    { "fr": "C'est le plat de semaine par défaut de tout foyer argentin : rapide, complet, économique.", "en": "It is the default weekday dish of every Argentine household: quick, complete, cheap." },
+    { "fr": "Faire fondre les oignons vingt minutes et les laisser REFROIDIR avant de garnir.", "en": "Melt the onions for twenty minutes and COOL them before filling." },
+    { "fr": "Cuire la pâte du dessous À BLANC dix minutes : sinon le fond reste cru sous la garniture.", "en": "BLIND-BAKE the bottom pastry for ten minutes: otherwise the base stays raw under the filling." },
+    { "fr": "Souder les deux abaisses en TORSADANT le bord, et percer trois fentes au centre.", "en": "Seal the two sheets by TWISTING the edge, and cut three slits in the centre." },
+    { "fr": "Dorer à l'œuf et cuire trente minutes à 190 °C, jusqu'à un doré profond.", "en": "Egg-wash and bake for thirty minutes at 190°C, to a deep gold." }
+  ]
+}

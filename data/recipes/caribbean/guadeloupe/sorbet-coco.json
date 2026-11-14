@@ -1,0 +1,37 @@
+{
+  "slug": "sorbet-coco",
+  "cuisine": "caribbean",
+  "country": "guadeloupe",
+  "origin": "Guadeloupe",
+  "native_name": "Sorbet coco",
+  "title": {
+    "fr": "Sorbet coco à la sorbetière à manivelle",
+    "en": "Hand-churned coconut sorbet"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 25, "cook_min": 10 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "coco", "glace", "ete"],
+  "ingredients": [
+    { "raw": "80 cl de lait de coco", "qty": 80, "unit": "cl", "item": "lait de coco" },
+    { "raw": "200 g de noix de coco râpée", "qty": 200, "unit": "g", "item": "noix de coco râpée" },
+    { "raw": "400 g de lait concentré sucré", "qty": 400, "unit": "g", "item": "lait concentré sucré" },
+    { "raw": "30 cl de lait entier", "qty": 30, "unit": "cl", "item": "lait entier" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle", "prep": "en bâton" },
+    { "raw": "1 citron vert, son zeste", "qty": 1, "unit": "piece", "item": "citron vert" },
+    { "raw": "1 c. à c. d'extrait de vanille", "qty": 1, "unit": "tsp", "item": "extrait de vanille" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le sorbet coco se vend dans la rue, tourné à la MANIVELLE dans un seau de glace et de gros sel.", "en": "Coconut sorbet is sold in the street, HAND-CHURNED in a bucket of ice and coarse salt." },
+    { "fr": "Ce n'est pas un sorbet au sens strict : il contient du lait, c'est une crème glacée sans œufs.", "en": "It is not strictly a sorbet: it contains milk, it is an eggless ice cream." },
+    { "fr": "Infuser cannelle, muscade et zeste dans le lait chaud vingt minutes, puis FILTRER.", "en": "Steep the cinnamon, nutmeg and zest in the hot milk for twenty minutes, then STRAIN." },
+    { "fr": "Réfrigérer l'appareil QUATRE HEURES avant de turbiner : tiède, il ne prend jamais.", "en": "Chill the mixture for FOUR HOURS before churning: warm, it never sets." },
+    { "fr": "Garder une partie de la noix de coco râpée ENTIÈRE : les morceaux font toute la texture.", "en": "Keep some of the grated coconut WHOLE: the pieces make the whole texture." },
+    { "fr": "Sans sorbetière, congeler et FOUETTER à la fourchette toutes les trente minutes, quatre fois.", "en": "Without a machine, freeze and BEAT with a fork every thirty minutes, four times." }
+  ]
+}

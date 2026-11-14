@@ -1,0 +1,40 @@
+{
+  "slug": "rotkohl",
+  "cuisine": "western-european",
+  "country": "allemagne",
+  "origin": "Allemagne",
+  "native_name": "Rotkohl",
+  "title": {
+    "fr": "Chou rouge aux pommes",
+    "en": "Braised red cabbage with apple"
+  },
+  "meal_type": "side",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 75 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hiver", "chou", "accompagnement", "noel"],
+  "ingredients": [
+    { "raw": "1 chou rouge, en lanières fines", "qty": 1, "unit": "piece", "item": "chou rouge", "prep": "en lanières fines" },
+    { "raw": "3 pommes, en dés", "qty": 3, "unit": "piece", "item": "pomme", "prep": "en dés" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "12 cl de vinaigre de vin", "qty": 12, "unit": "cl", "item": "vinaigre de vin" },
+    { "raw": "20 cl de vin rouge", "qty": 20, "unit": "cl", "item": "vin rouge" },
+    { "raw": "4 c. à s. de sucre roux", "qty": 4, "unit": "tbsp", "item": "sucre roux" },
+    { "raw": "6 baies de genièvre", "qty": 6, "unit": "piece", "item": "baie de genièvre" },
+    { "raw": "4 clous de girofle", "qty": 4, "unit": "piece", "item": "clou de girofle" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "50 g de saindoux", "qty": 50, "unit": "g", "item": "saindoux" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le VINAIGRE se met au DÉBUT : sans acide, le chou rouge vire au bleu-gris en cuisant.", "en": "The VINEGAR goes in at the START: without acid, red cabbage turns blue-grey as it cooks." },
+    { "fr": "C'est de la chimie, pas une tradition : le pigment du chou change de couleur selon l'acidité.", "en": "That is chemistry, not tradition: the cabbage pigment shifts colour with acidity." },
+    { "fr": "Faire mariner le chou dans le vinaigre et le sucre une heure avant de cuire.", "en": "Marinate the cabbage in the vinegar and sugar for an hour before cooking." },
+    { "fr": "Faire fondre les oignons au saindoux, ajouter le chou et les épices en sachet.", "en": "Melt the onions in lard, add the cabbage and the spices in a bag." },
+    { "fr": "Mouiller au vin rouge et cuire une heure à couvert, à feu très doux.", "en": "Add the red wine and cook for an hour, covered, over very low heat." },
+    { "fr": "Ajouter les pommes les vingt dernières minutes : plus tôt, elles disparaissent en compote.", "en": "Add the apples in the last twenty minutes: earlier, they vanish into purée." }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "madfoon",
+  "cuisine": "middle-eastern",
+  "country": "arabie-saoudite",
+  "origin": "Arabie saoudite",
+  "native_name": "Madfoon",
+  "title": {
+    "fr": "Madfoon, agneau enterré sous le riz",
+    "en": "Madfoon, lamb buried under rice"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 210 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["cuisson-lente", "fete", "riz", "agneau"],
+  "ingredients": [
+    { "raw": "1,5 kg de gigot d'agneau, en gros morceaux", "qty": 1500, "unit": "g", "item": "gigot d'agneau", "prep": "en gros morceaux" },
+    { "raw": "600 g de riz basmati", "qty": 600, "unit": "g", "item": "riz basmati" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "2 c. à s. de baharat", "qty": 2, "unit": "tbsp", "item": "baharat" },
+    { "raw": "6 gousses de cardamome", "qty": 6, "unit": "piece", "item": "cardamome" },
+    { "raw": "2 citrons séchés d'Oman", "qty": 2, "unit": "piece", "item": "citron séché d'Oman" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "80 g de ghee", "qty": 80, "unit": "g", "item": "ghee" },
+    { "raw": "60 g d'amandes effilées", "qty": 60, "unit": "g", "item": "amande effilée", "group": "décor" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Madfoon veut dire « enterré » : la viande cuit SOUS le riz, et non à côté.", "en": "Madfoon means \"buried\": the meat cooks UNDER the rice, not beside it." },
+    { "fr": "Faire dorer l'agneau dans le ghee avec les oignons et toutes les épices.", "en": "Brown the lamb in the ghee with the onions and all the spices." },
+    { "fr": "Mouiller à hauteur et laisser mijoter deux heures et demie, jusqu'à ce que la viande se détache.", "en": "Cover with water and simmer for two and a half hours, until the meat falls apart." },
+    { "fr": "Retirer la viande, mesurer le bouillon, et remettre la viande au FOND de la cocotte.", "en": "Lift out the meat, measure the broth, and return the meat to the BOTTOM of the pot." },
+    { "fr": "Verser le riz trempé par-dessus et le bouillon chaud, sans jamais mélanger les deux couches.", "en": "Add the soaked rice on top and the hot broth, never stirring the two layers together." },
+    { "fr": "Cuire quarante minutes à couvert, laisser reposer, puis renverser sur un grand plat.", "en": "Cook for forty minutes covered, rest it, then invert onto a large platter." }
+  ]
+}

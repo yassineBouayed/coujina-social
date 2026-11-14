@@ -1,0 +1,36 @@
+{
+  "slug": "mirza-ghasemi",
+  "cuisine": "middle-eastern",
+  "country": "iran",
+  "origin": "Iran",
+  "native_name": "Mirza ghasemi",
+  "title": {
+    "fr": "Mirza ghasemi, aubergines fumées à l'ail et à l'œuf",
+    "en": "Mirza ghasemi, smoked aubergine with garlic and egg"
+  },
+  "meal_type": "starter",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 35 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["gilan", "aubergine", "fume", "oeuf"],
+  "ingredients": [
+    { "raw": "4 grosses aubergines", "qty": 4, "unit": "piece", "item": "aubergine" },
+    { "raw": "1 tête d'ail, écrasée", "qty": 12, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "4 tomates, pelées et concassées", "qty": 4, "unit": "piece", "item": "tomate", "prep": "pelée et concassée" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "8 c. à s. d'huile neutre", "qty": 8, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Brûler les aubergines entières directement sur la flamme jusqu'à ce que la peau soit noire et craquelée.", "en": "Char the whole aubergines directly over a flame until the skin is black and cracked." },
+    { "fr": "Sans flamme vive, il n'y a pas de fumé, et le mirza ghasemi n'est plus qu'un caviar d'aubergine.", "en": "Without live flame there is no smoke, and mirza ghasemi becomes just an aubergine dip." },
+    { "fr": "Peler, égoutter, et écraser la chair grossièrement à la fourchette.", "en": "Peel, drain, and mash the flesh roughly with a fork." },
+    { "fr": "Faire revenir l'ail dans l'huile avec le curcuma, puis ajouter la chair d'aubergine.", "en": "Fry the garlic in the oil with the turmeric, then add the aubergine flesh." },
+    { "fr": "Ajouter les tomates et laisser réduire quinze minutes, jusqu'à ce que l'huile se sépare.", "en": "Add the tomatoes and reduce for fifteen minutes, until the oil separates." },
+    { "fr": "Casser les œufs dedans et les brouiller grossièrement, en laissant des traînées blanches et jaunes.", "en": "Crack in the eggs and scramble them roughly, leaving streaks of white and yellow." }
+  ]
+}

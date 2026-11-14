@@ -1,0 +1,40 @@
+{
+  "slug": "bassi-salte",
+  "cuisine": "west-african",
+  "country": "senegal",
+  "origin": "Sénégal",
+  "native_name": "Basi salté",
+  "title": {
+    "fr": "Bassi salté, couscous de mil à la viande",
+    "en": "Basi salte, millet couscous with meat"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 90 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["mil", "tabaski", "vapeur", "fete"],
+  "ingredients": [
+    { "raw": "600 g de petit mil", "qty": 600, "unit": "g", "item": "petit mil" },
+    { "raw": "900 g d'épaule d'agneau, en morceaux", "qty": 900, "unit": "g", "item": "épaule d'agneau", "prep": "en morceaux" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "2 c. à s. de concentré de tomate", "qty": 2, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "2 carottes, en tronçons", "qty": 2, "unit": "piece", "item": "carotte", "prep": "en tronçons" },
+    { "raw": "1 chou blanc, en quartiers", "qty": 1, "unit": "piece", "item": "chou blanc", "prep": "en quartiers" },
+    { "raw": "200 g de niébé, trempé la veille", "qty": 200, "unit": "g", "item": "niébé", "prep": "trempé la veille" },
+    { "raw": "1 c. à s. de nététou", "qty": 1, "unit": "tbsp", "item": "néré" },
+    { "raw": "1 piment oiseau", "qty": 1, "unit": "piece", "item": "piment oiseau" },
+    { "raw": "1 cube de bouillon", "qty": 1, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "8 c. à s. d'huile d'arachide", "qty": 8, "unit": "tbsp", "item": "huile d'arachide" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Humidifier le mil et l'égrener à la main, puis le cuire à la vapeur trois fois, vingt minutes chaque fois.", "en": "Dampen the millet and rake it apart by hand, then steam it three times, twenty minutes each." },
+    { "fr": "Entre chaque passage, l'asperger d'eau salée et le laisser gonfler dix minutes.", "en": "Between each steaming, sprinkle it with salted water and let it swell for ten minutes." },
+    { "fr": "Faire revenir viande et oignons, ajouter le concentré, le nététou, le cube et l'eau.", "en": "Brown the meat and onions, add the purée, néré, stock cube and water." },
+    { "fr": "Ajouter le niébé et laisser cuire une heure, puis les légumes du plus dur au plus tendre.", "en": "Add the cowpeas and cook for an hour, then the vegetables from firmest to most tender." },
+    { "fr": "Le mil ne se sert jamais sec : l'arroser d'une louche de bouillon juste avant de dresser.", "en": "Millet is never served dry: moisten it with a ladle of broth just before plating." },
+    { "fr": "Dresser le mil en dôme, la viande et les légumes dessus, le bouillon à part.", "en": "Mound the millet, set meat and vegetables on top, and serve the broth alongside." }
+  ]
+}

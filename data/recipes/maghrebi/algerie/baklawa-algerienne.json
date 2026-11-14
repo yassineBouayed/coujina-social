@@ -1,0 +1,40 @@
+{
+  "slug": "baklawa-algerienne",
+  "cuisine": "maghrebi",
+  "country": "algerie",
+  "origin": "Algérie",
+  "native_name": "Baklawa",
+  "title": {
+    "fr": "Baklawa algérienne aux amandes",
+    "en": "Algerian almond baklava"
+  },
+  "meal_type": "dessert",
+  "servings": 12,
+  "times": { "prep_min": 60, "cook_min": 40 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "amande", "miel", "aid"],
+  "ingredients": [
+    { "raw": "400 g de pâte filo", "qty": 400, "unit": "g", "item": "pâte filo" },
+    { "raw": "500 g de poudre d'amande", "qty": 500, "unit": "g", "item": "poudre d'amande", "group": "farce" },
+    { "raw": "200 g de sucre glace", "qty": 200, "unit": "g", "item": "sucre glace", "group": "farce" },
+    { "raw": "2 c. à c. de cannelle moulue", "qty": 2, "unit": "tsp", "item": "cannelle", "group": "farce" },
+    { "raw": "3 c. à s. d'eau de fleur d'oranger", "qty": 3, "unit": "tbsp", "item": "eau de fleur d'oranger", "group": "farce" },
+    { "raw": "300 g de beurre fondu", "qty": 300, "unit": "g", "item": "beurre", "prep": "fondu" },
+    { "raw": "400 g de miel", "qty": 400, "unit": "g", "item": "miel", "group": "sirop" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron", "group": "sirop" },
+    { "raw": "100 g d'amandes entières, pour le décor", "qty": 100, "unit": "g", "item": "amande", "group": "décor" }
+  ],
+  "steps": [
+    { "fr": "Mélanger poudre d'amande, sucre glace, cannelle et eau de fleur d'oranger en une farce qui tient sans être humide.", "en": "Mix ground almonds, icing sugar, cinnamon and orange blossom water into a filling that holds without being wet." },
+    { "fr": "Beurrer chaque feuille de filo une par une, en gardant les autres sous un linge humide : à l'air, elles cassent en trente secondes.", "en": "Butter each filo sheet one at a time, keeping the rest under a damp cloth: in the open air they crack within thirty seconds." },
+    { "fr": "Monter la moitié des feuilles, étaler la farce, puis monter l'autre moitié.", "en": "Layer half the sheets, spread the filling, then layer the rest." },
+    { "fr": "Découper en losanges AVANT la cuisson, jusqu'au fond du plat : découpée après, la baklawa s'effondre.", "en": "Cut into diamonds BEFORE baking, all the way to the base: cut afterwards, baklava collapses." },
+    { "fr": "Poser une amande sur chaque losange, verser le beurre restant, et cuire 40 minutes à 170 °C.", "en": "Set an almond on each diamond, pour over the remaining butter, and bake for 40 minutes at 170°C." },
+    { "fr": "Verser le miel tiède additionné de citron sur la baklawa brûlante, et laisser absorber une nuit entière.", "en": "Pour warm honey mixed with lemon over the scalding baklava, and let it soak overnight." }
+  ],
+  "notes": [
+    { "fr": "Sirop chaud sur pâte chaude, et tout se ramollit ; sirop froid sur pâte froide, et rien ne pénètre. Il en faut un chaud et un tiède.", "en": "Hot syrup on hot pastry and everything goes soggy; cold on cold and nothing soaks in. One must be hot, the other warm." }
+  ]
+}

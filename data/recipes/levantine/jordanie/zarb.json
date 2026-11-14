@@ -1,0 +1,43 @@
+{
+  "slug": "zarb",
+  "cuisine": "levantine",
+  "country": "jordanie",
+  "origin": "Jordanie",
+  "native_name": "Zarb",
+  "title": {
+    "fr": "Zarb, agneau et légumes cuits en fosse",
+    "en": "Zarb, lamb and vegetables cooked in a pit"
+  },
+  "meal_type": "main",
+  "servings": 8,
+  "times": { "prep_min": 45, "cook_min": 240 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["bedouin", "desert", "cuisson-lente", "fete"],
+  "ingredients": [
+    { "raw": "2,5 kg de gigot d'agneau", "qty": 2500, "unit": "g", "item": "gigot d'agneau" },
+    { "raw": "6 pommes de terre, entières", "qty": 6, "unit": "piece", "item": "pomme de terre" },
+    { "raw": "4 carottes, en gros tronçons", "qty": 4, "unit": "piece", "item": "carotte", "prep": "en gros tronçons" },
+    { "raw": "4 oignons, entiers", "qty": 4, "unit": "piece", "item": "oignon" },
+    { "raw": "2 aubergines, en gros morceaux", "qty": 2, "unit": "piece", "item": "aubergine", "prep": "en gros morceaux" },
+    { "raw": "3 c. à s. de baharat", "qty": 3, "unit": "tbsp", "item": "baharat" },
+    { "raw": "1 c. à s. de curcuma", "qty": 1, "unit": "tbsp", "item": "curcuma" },
+    { "raw": "1 tête d'ail, écrasée", "qty": 12, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "12 cl d'huile d'olive", "qty": 12, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "2 citrons, leur jus", "qty": 2, "unit": "piece", "item": "citron" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Frotter la viande d'huile, d'ail, de baharat, de curcuma et de sel, et la laisser mariner une nuit.", "en": "Rub the meat with oil, garlic, baharat, turmeric and salt, and marinate it overnight." },
+    { "fr": "Le zarb authentique cuit dans une fosse chauffée par des braises et refermée par du sable.", "en": "True zarb cooks in a pit heated with coals and sealed with sand." },
+    { "fr": "À la maison : poser viande et légumes dans une cocotte fermée, sur une grille, avec un fond d'eau.", "en": "At home: set the meat and vegetables in a sealed pot, on a rack, with a little water beneath." },
+    { "fr": "Cuire quatre heures à 140 °C, hermétiquement fermé : c'est la vapeur enfermée qui fait tout.", "en": "Cook for four hours at 140°C, tightly sealed: the trapped steam does all the work." },
+    { "fr": "Ne jamais ouvrir avant trois heures. Chaque ouverture coûte vingt minutes de cuisson.", "en": "Never open before three hours. Each opening costs twenty minutes of cooking." },
+    { "fr": "Découvrir et passer dix minutes sous le gril pour colorer, puis arroser de citron.", "en": "Uncover and give it ten minutes under the grill to colour, then squeeze lemon over." }
+  ],
+  "notes": [
+    { "fr": "La cocotte ne fume pas et ne donnera jamais le goût de la fosse. C'est une transposition, et il vaut mieux le dire.", "en": "A pot does not smoke and will never give the pit flavour. This is a transposition, and it is better said than hidden." }
+  ]
+}

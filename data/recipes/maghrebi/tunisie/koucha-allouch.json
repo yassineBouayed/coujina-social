@@ -1,0 +1,38 @@
+{
+  "slug": "koucha-allouch",
+  "cuisine": "maghrebi",
+  "country": "tunisie",
+  "origin": "Tunisie",
+  "native_name": "Koucha bel allouch",
+  "title": {
+    "fr": "Koucha, épaule d'agneau au four aux pommes de terre",
+    "en": "Koucha, oven-roasted lamb shoulder with potatoes"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 150 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["four", "fete", "agneau", "dimanche"],
+  "ingredients": [
+    { "raw": "1,5 kg d'épaule d'agneau", "qty": 1500, "unit": "g", "item": "épaule d'agneau" },
+    { "raw": "1 kg de pommes de terre, en gros quartiers", "qty": 1000, "unit": "g", "item": "pomme de terre", "prep": "en gros quartiers" },
+    { "raw": "8 gousses d'ail", "qty": 8, "unit": "piece", "item": "ail" },
+    { "raw": "2 c. à s. de tabil", "qty": 2, "unit": "tbsp", "item": "tabil" },
+    { "raw": "1 c. à s. de harissa", "qty": 1, "unit": "tbsp", "item": "harissa" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "8 c. à s. d'huile d'olive", "qty": 8, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Piquer l'épaule et y glisser des éclats d'ail, puis la frotter d'huile, de tabil, de harissa, de curcuma et de sel.", "en": "Stud the shoulder with slivers of garlic, then rub it with oil, tabil, harissa, turmeric and salt." },
+    { "fr": "La laisser mariner deux heures au frais, ou une nuit si l'on peut.", "en": "Marinate for two hours in the fridge, or overnight if you can." },
+    { "fr": "Poser la viande sur les pommes de terre dans un plat creux, ajouter un verre d'eau, et couvrir de papier aluminium.", "en": "Set the meat on the potatoes in a deep dish, add a glass of water, and cover with foil." },
+    { "fr": "Cuire deux heures à 160 °C, couvert : la vapeur attendrit la viande et cuit les pommes de terre dans le jus.", "en": "Bake for two hours at 160°C, covered: the steam tenderises the meat and cooks the potatoes in its juices." },
+    { "fr": "Découvrir, monter à 220 °C et laisser trente minutes pour colorer.", "en": "Uncover, raise to 220°C and give it thirty minutes to colour." },
+    { "fr": "Arroser de jus de citron à la sortie, et servir dans le plat de cuisson.", "en": "Squeeze lemon over as it comes out, and serve in the roasting dish." }
+  ]
+}

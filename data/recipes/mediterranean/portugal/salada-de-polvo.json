@@ -1,0 +1,40 @@
+{
+  "slug": "salada-de-polvo",
+  "cuisine": "mediterranean",
+  "country": "portugal",
+  "origin": "Portugal",
+  "native_name": "Salada de polvo",
+  "title": {
+    "fr": "Salade de poulpe à l'huile d'olive",
+    "en": "Octopus salad with olive oil"
+  },
+  "meal_type": "salad",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 60 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["froid", "poulpe", "ete", "meze"],
+  "ingredients": [
+    { "raw": "1 poulpe de 1,5 kg", "qty": 1500, "unit": "g", "item": "poulpe" },
+    { "raw": "1 oignon rouge, émincé finement", "qty": 1, "unit": "piece", "item": "oignon rouge", "prep": "émincé finement" },
+    { "raw": "1 poivron rouge, en petits dés", "qty": 1, "unit": "piece", "item": "poivron rouge", "prep": "en petits dés" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "1/2 bouquet de coriandre, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "15 cl d'huile d'olive", "qty": 15, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "4 c. à s. de vinaigre de vin", "qty": 4, "unit": "tbsp", "item": "vinaigre de vin" },
+    { "raw": "3 gousses d'ail, hachées", "qty": 3, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "1 oignon", "qty": 1, "unit": "piece", "item": "oignon" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Cuire le poulpe SANS SEL, avec un oignon entier et du laurier : le sel le durcit à la cuisson.", "en": "Cook the octopus WITHOUT SALT, with a whole onion and bay: salt toughens it as it cooks." },
+    { "fr": "Compter 45 minutes pour 1,5 kg, et vérifier à la pointe du couteau dans la partie la plus épaisse.", "en": "Allow 45 minutes for 1.5 kg, and test with a knife tip in the thickest part." },
+    { "fr": "Le laisser refroidir DANS SON EAU : sorti chaud, il se rétracte et devient caoutchouteux.", "en": "Cool it IN ITS WATER: lifted out hot, it contracts and turns rubbery." },
+    { "fr": "Le trancher en rondelles d'un centimètre, tiède, et l'assaisonner encore TIÈDE.", "en": "Slice it into one-centimetre rounds while warm, and dress it while still WARM." },
+    { "fr": "Un poulpe froid n'absorbe plus rien : c'est tiède qu'il prend l'huile et le vinaigre.", "en": "Cold octopus absorbs nothing: warm is when it takes up the oil and vinegar." },
+    { "fr": "Ajouter oignon rouge, poivron et herbes, et laisser reposer deux heures au frais.", "en": "Add the red onion, pepper and herbs, and rest for two hours in the fridge." }
+  ]
+}

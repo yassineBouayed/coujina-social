@@ -1,0 +1,41 @@
+{
+  "slug": "salada-de-maionese",
+  "cuisine": "latin-american",
+  "country": "bresil",
+  "origin": "Brésil",
+  "native_name": "Maionese brasileira",
+  "title": {
+    "fr": "Salade de pommes de terre brésilienne",
+    "en": "Brazilian potato salad"
+  },
+  "meal_type": "salad",
+  "servings": 8,
+  "times": { "prep_min": 30, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["churrasco", "froid", "accompagnement", "fete"],
+  "ingredients": [
+    { "raw": "1 kg de pommes de terre", "qty": 1000, "unit": "g", "item": "pomme de terre" },
+    { "raw": "4 carottes", "qty": 4, "unit": "piece", "item": "carotte" },
+    { "raw": "200 g de petits pois surgelés", "qty": 200, "unit": "g", "item": "petits pois surgelés" },
+    { "raw": "200 g de maïs doux en conserve", "qty": 200, "unit": "g", "item": "maïs doux" },
+    { "raw": "300 g de jambon blanc, en dés", "qty": 300, "unit": "g", "item": "jambon blanc", "prep": "en dés" },
+    { "raw": "4 œufs durs, en dés", "qty": 4, "unit": "piece", "item": "oeuf", "prep": "dur, en dés" },
+    { "raw": "30 cl de mayonnaise", "qty": 30, "unit": "cl", "item": "mayonnaise" },
+    { "raw": "15 cl de crème fraîche", "qty": 15, "unit": "cl", "item": "crème fraîche" },
+    { "raw": "1 oignon, haché très finement", "qty": 1, "unit": "piece", "item": "oignon", "prep": "haché très finement" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "2 citrons verts, leur jus", "qty": 2, "unit": "piece", "item": "citron vert" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Cette salade est sur TOUTES les tables de churrasco : elle accompagne la viande grillée.", "en": "This salad is on EVERY churrasco table: it accompanies the grilled meat." },
+    { "fr": "Cuire pommes de terre et carottes EN ROBE, puis les laisser refroidir COMPLÈTEMENT.", "en": "Boil the potatoes and carrots IN THEIR SKINS, then cool them COMPLETELY." },
+    { "fr": "Tièdes, elles absorbent la mayonnaise et la salade devient une purée grasse.", "en": "Warm, they soak up the mayonnaise and the salad turns into a greasy mash." },
+    { "fr": "Les couper en dés RÉGULIERS d'un centimètre, comme tous les autres ingrédients.", "en": "Dice them EVENLY at one centimetre, like every other ingredient." },
+    { "fr": "Le CITRON VERT dans la mayonnaise est la touche brésilienne : il allège l'ensemble.", "en": "The LIME in the mayonnaise is the Brazilian touch: it lightens the whole thing." },
+    { "fr": "Réfrigérer TROIS HEURES et rectifier le sel froid avant de servir.", "en": "Chill for THREE HOURS and adjust the salt cold before serving." }
+  ]
+}

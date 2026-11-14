@@ -1,0 +1,41 @@
+{
+  "slug": "posta-negra",
+  "cuisine": "latin-american",
+  "country": "colombie",
+  "origin": "Colombie",
+  "native_name": "Posta negra cartagenera",
+  "title": {
+    "fr": "Rôti de bœuf noir de Carthagène",
+    "en": "Cartagena black beef roast"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 150 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["carthagene", "boeuf", "caramel", "fete"],
+  "ingredients": [
+    { "raw": "1,5 kg de rôti de bœuf, en une pièce", "qty": 1500, "unit": "g", "item": "boeuf à mijoter", "prep": "en un rôti" },
+    { "raw": "200 g de sucre roux", "qty": 200, "unit": "g", "item": "sucre roux" },
+    { "raw": "25 cl de sauce soja", "qty": 25, "unit": "cl", "item": "sauce soja" },
+    { "raw": "20 cl de coulis de tomate", "qty": 20, "unit": "cl", "item": "coulis de tomate" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "8 gousses d'ail, écrasées", "qty": 8, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "2 c. à s. de cumin moulu", "qty": 2, "unit": "tbsp", "item": "cumin" },
+    { "raw": "5 cl de vinaigre de vin", "qty": 5, "unit": "cl", "item": "vinaigre de vin" },
+    { "raw": "3 feuilles de laurier", "qty": 3, "unit": "piece", "item": "laurier" },
+    { "raw": "50 cl de bouillon de bœuf", "qty": 50, "unit": "cl", "item": "bouillon boeuf" },
+    { "raw": "8 c. à s. d'huile neutre", "qty": 8, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La couleur NOIRE vient d'un caramel poussé très loin, presque brûlé : c'est le geste de la recette.", "en": "The BLACK colour comes from a caramel taken very far, almost burnt: the recipe's key move." },
+    { "fr": "Faire un caramel À SEC jusqu'à ce qu'il fume légèrement et sente l'amer.", "en": "Make a DRY caramel until it smokes lightly and smells bitter." },
+    { "fr": "Y jeter la viande AUSSITÔT : le caramel fige en une seconde s'il refroidit.", "en": "Drop the meat in AT ONCE: caramel sets within a second if it cools." },
+    { "fr": "Mariner la viande VINGT-QUATRE HEURES à la sauce soja, l'ail et le cumin avant tout cela.", "en": "Marinate the meat for TWENTY-FOUR HOURS in soy sauce, garlic and cumin before any of this." },
+    { "fr": "Braiser DEUX HEURES à couvert, en retournant la pièce toutes les trente minutes.", "en": "Braise for TWO HOURS covered, turning the joint every thirty minutes." },
+    { "fr": "La laisser REFROIDIR dans sa sauce avant de trancher : chaude, elle s'effiloche au couteau.", "en": "COOL it in its sauce before slicing: hot, it shreds under the knife." }
+  ]
+}

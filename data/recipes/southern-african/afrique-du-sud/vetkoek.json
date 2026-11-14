@@ -1,0 +1,41 @@
+{
+  "slug": "vetkoek",
+  "cuisine": "southern-african",
+  "country": "afrique-du-sud",
+  "origin": "Afrique du Sud",
+  "native_name": "Vetkoek",
+  "title": {
+    "fr": "Vetkoek, pain frit farci à la viande",
+    "en": "Vetkoek, fried dough filled with mince"
+  },
+  "meal_type": "main",
+  "servings": 8,
+  "times": { "prep_min": 30, "cook_min": 40 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "friture", "economique", "gouter"],
+  "ingredients": [
+    { "raw": "600 g de farine de blé", "qty": 600, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "1 c. à s. de levure boulangère sèche", "qty": 1, "unit": "tbsp", "item": "levure boulangère", "group": "pâte" },
+    { "raw": "1 c. à s. de sucre", "qty": 1, "unit": "tbsp", "item": "sucre", "group": "pâte" },
+    { "raw": "1,5 c. à c. de sel", "qty": 1.5, "unit": "tsp", "item": "sel", "group": "pâte" },
+    { "raw": "35 cl d'eau tiède", "qty": 35, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "500 g de viande hachée de bœuf", "qty": 500, "unit": "g", "item": "boeuf haché", "group": "farce" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché", "group": "farce" },
+    { "raw": "1 c. à s. de poudre de curry", "qty": 1, "unit": "tbsp", "item": "poudre de curry", "group": "farce" },
+    { "raw": "2 tomates, en dés", "qty": 2, "unit": "piece", "item": "tomate", "prep": "en dés", "group": "farce" },
+    { "raw": "1 c. à s. de confiture d'abricot", "qty": 1, "unit": "tbsp", "item": "confiture d'abricot", "group": "farce" },
+    { "raw": "1 l d'huile neutre pour la friture", "qty": 1, "unit": "l", "item": "huile neutre", "group": "friture" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Pétrir farine, levure, sucre, sel et eau dix minutes, et laisser lever une heure et demie.", "en": "Knead the flour, yeast, sugar, salt and water for ten minutes, and prove for an hour and a half." },
+    { "fr": "Faire la farce : oignons, curry, viande, tomates et confiture, jusqu'à ce que ce soit sec.", "en": "Make the filling: onions, curry, meat, tomatoes and jam, cooked until dry." },
+    { "fr": "Diviser la pâte en boules et les aplatir légèrement, puis laisser lever vingt minutes.", "en": "Divide the dough into balls, flatten them slightly, and prove for twenty minutes." },
+    { "fr": "Frire à 170 °C, cinq minutes par face : plus chaud, le vetkoek dore avant que le cœur cuise.", "en": "Fry at 170°C, five minutes a side: hotter, and the vetkoek browns before the centre cooks." },
+    { "fr": "Le vetkoek est cuit quand il sonne creux et qu'un pic en ressort sec.", "en": "It is done when it sounds hollow and a skewer comes out dry." },
+    { "fr": "L'ouvrir en deux et le garnir de farce brûlante, comme un sandwich.", "en": "Split it and fill with scalding mince, like a sandwich." }
+  ]
+}

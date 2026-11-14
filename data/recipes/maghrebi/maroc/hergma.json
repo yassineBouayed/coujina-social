@@ -1,0 +1,40 @@
+{
+  "slug": "hergma",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Hergma",
+  "title": {
+    "fr": "Hergma, pieds de veau aux pois chiches et au blé",
+    "en": "Hergma, calf trotters with chickpeas and wheat"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 300 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["abats", "cuisson-lente", "populaire", "hiver"],
+  "ingredients": [
+    { "raw": "1,5 kg de pieds de veau, coupés par le boucher", "qty": 1500, "unit": "g", "item": "pied de veau", "prep": "coupé en morceaux" },
+    { "raw": "250 g de pois chiches secs, trempés la veille", "qty": 250, "unit": "g", "item": "pois chiche sec", "prep": "trempé la veille" },
+    { "raw": "200 g de blé tendre, trempé la veille", "qty": 200, "unit": "g", "item": "blé tendre", "prep": "trempé la veille" },
+    { "raw": "2 oignons, râpés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "râpé" },
+    { "raw": "6 gousses d'ail", "qty": 6, "unit": "piece", "item": "ail" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "1 c. à c. de gingembre moulu", "qty": 1, "unit": "tsp", "item": "gingembre moulu" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin" },
+    { "raw": "4 c. à s. d'huile d'olive", "qty": 4, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Faire flamber ou racler les pieds pour retirer tout poil résiduel, puis les brosser sous l'eau : c'est l'étape que personne ne raconte et que tout le monde juge.", "en": "Singe or scrape the trotters to remove any remaining hair, then scrub them under water: the step nobody mentions and everybody judges." },
+    { "fr": "Les blanchir dix minutes à l'eau bouillante, jeter cette eau, et repartir à l'eau froide.", "en": "Blanch for ten minutes in boiling water, discard that water, and start again with cold water." },
+    { "fr": "Cuire avec l'oignon, l'ail, les épices et l'huile pendant trois heures à petits bouillons.", "en": "Cook with onion, garlic, spices and oil for three hours at a bare simmer." },
+    { "fr": "Ajouter les pois chiches et le blé égouttés, et poursuivre deux heures.", "en": "Add the drained chickpeas and wheat, and continue for two hours." },
+    { "fr": "Saler seulement à ce moment : le sel précoce durcit le pois chiche et le blé.", "en": "Salt only now: early salt keeps chickpeas and wheat hard." },
+    { "fr": "Le plat est prêt quand le bouillon est gélatineux et colle légèrement aux lèvres. Servir brûlant.", "en": "It is ready when the broth is gelatinous and slightly sticks to the lips. Serve scalding hot." }
+  ]
+}

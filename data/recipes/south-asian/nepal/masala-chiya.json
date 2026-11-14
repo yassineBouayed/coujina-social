@@ -1,0 +1,37 @@
+{
+  "slug": "masala-chiya",
+  "cuisine": "south-asian",
+  "country": "nepal",
+  "origin": "Népal",
+  "native_name": "Masala chiya",
+  "title": {
+    "fr": "Masala chiya, thé au lait épicé népalais",
+    "en": "Masala chiya, Nepali spiced milk tea"
+  },
+  "meal_type": "drink",
+  "servings": 4,
+  "times": { "prep_min": 5, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["quotidien", "the", "epices", "montagne"],
+  "ingredients": [
+    { "raw": "4 c. à c. de thé noir en vrac", "qty": 4, "unit": "tsp", "item": "thé vert" },
+    { "raw": "40 cl d'eau", "qty": 40, "unit": "cl", "item": "eau" },
+    { "raw": "40 cl de lait entier", "qty": 40, "unit": "cl", "item": "lait entier" },
+    { "raw": "6 gousses de cardamome, écrasées", "qty": 6, "unit": "piece", "item": "cardamome", "prep": "écrasée" },
+    { "raw": "4 clous de girofle", "qty": 4, "unit": "piece", "item": "clou de girofle" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "1 c. à s. de gingembre frais, râpé", "qty": 1, "unit": "tbsp", "item": "gingembre", "prep": "râpé" },
+    { "raw": "6 grains de poivre noir", "qty": 6, "unit": "piece", "item": "poivre noir" },
+    { "raw": "5 c. à c. de sucre", "qty": 5, "unit": "tsp", "item": "sucre" }
+  ],
+  "steps": [
+    { "fr": "Écraser les épices au mortier juste avant : moulues d'avance, elles ne parfument plus rien.", "en": "Crush the spices in a mortar just before: ground in advance, they no longer perfume anything." },
+    { "fr": "Les faire bouillir dans l'eau cinq minutes, avec le gingembre râpé.", "en": "Boil them in the water for five minutes, with the grated ginger." },
+    { "fr": "Ajouter le thé et laisser bouillir deux minutes de plus.", "en": "Add the tea and boil for two minutes more." },
+    { "fr": "Ajouter le lait et le sucre, et porter à ébullition en surveillant : il déborde très vite.", "en": "Add the milk and sugar, and bring to the boil watching closely: it boils over fast." },
+    { "fr": "Laisser monter et retomber trois fois, en écartant la casserole du feu à chaque montée.", "en": "Let it rise and fall three times, pulling the pan off the heat each time." },
+    { "fr": "Filtrer et servir brûlant, dans de petits verres.", "en": "Strain and serve scalding, in small glasses." }
+  ]
+}

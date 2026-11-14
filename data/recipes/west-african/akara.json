@@ -1,0 +1,37 @@
+{
+  "slug": "akara",
+  "cuisine": "west-african",
+  "origin": "Nigeria / Sénégal",
+  "native_name": "Àkàrà",
+  "title": {
+    "fr": "Akara, beignets de niébé",
+    "en": "Akara, black-eyed pea fritters"
+  },
+  "meal_type": "starter",
+  "servings": 4,
+  "times": { "prep_min": 30, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j5-catalogue-v1", "date": "2026-08-29" },
+  "tags": ["niebe", "beignet", "petit-dejeuner", "sans-viande"],
+  "ingredients": [
+    { "raw": "400 g de niébé sec", "qty": 400, "unit": "g", "item": "niébé", "prep": "trempé une nuit" },
+    { "raw": "1 oignon", "qty": 1, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "1 piment antillais", "qty": 1, "unit": "piece", "item": "habanero", "prep": "épépiné", "optional": true },
+    { "raw": "1/2 cube de bouillon", "qty": 0.5, "unit": "piece", "item": "bouillon cube", "prep": "émietté" },
+    { "raw": "1 litre d'huile neutre pour la friture", "qty": 1, "unit": "l", "item": "huile neutre" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Frotter énergiquement les niébés trempés entre les mains, dans un grand volume d'eau, pour en détacher les peaux. Les faire flotter et les jeter. Répéter jusqu'à ce que les graines soient blanches.", "en": "Rub the soaked peas hard between your hands in plenty of water to loosen the skins. Float them off and discard. Repeat until the beans are white." },
+    { "fr": "Mixer les niébés pelés avec l'oignon, le piment et le moins d'eau possible : la pâte doit être épaisse et lisse.", "en": "Blend the peeled peas with the onion, chilli and as little water as possible: the batter must be thick and smooth." },
+    { "fr": "Battre la pâte au fouet ou à la main pendant 5 bonnes minutes, jusqu'à ce qu'elle blanchisse et gonfle. Une cuillerée déposée dans un verre d'eau doit flotter.", "en": "Beat the batter by whisk or by hand for a good 5 minutes, until it pales and swells. A spoonful dropped in a glass of water should float." },
+    { "fr": "Saler et ajouter le demi-cube émietté juste avant de frire.", "en": "Season and stir in the crumbled half stock cube just before frying." },
+    { "fr": "Chauffer l'huile à 170 °C et y déposer des cuillerées de pâte. Frire 4 à 5 minutes en les retournant, jusqu'à ce qu'elles soient dorées et creuses.", "en": "Heat the oil to 170 °C and drop in spoonfuls of batter. Fry for 4 to 5 minutes, turning, until golden and hollow." },
+    { "fr": "Égoutter sur du papier absorbant et manger chaud, avec du pain ou une bouillie de mil.", "en": "Drain on paper and eat hot, with bread or a millet porridge." }
+  ],
+  "notes": [
+    { "fr": "Le battage est toute la recette : c'est de l'air, pas de la levure, qui fait lever l'akara. Une pâte non battue donne des beignets denses et gras.", "en": "The beating is the whole recipe: air, not yeast, is what raises akara. Unbeaten batter gives dense, greasy fritters." },
+    { "fr": "Saler trop tôt liquéfie la pâte. C'est la raison de l'ordre indiqué, et non une précaution de style.", "en": "Salting too early slackens the batter. That is the reason for the order given, not a stylistic flourish." }
+  ]
+}

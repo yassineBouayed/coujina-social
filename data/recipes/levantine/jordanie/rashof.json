@@ -1,0 +1,36 @@
+{
+  "slug": "rashof",
+  "cuisine": "levantine",
+  "country": "jordanie",
+  "origin": "Jordanie",
+  "native_name": "Rashof",
+  "title": {
+    "fr": "Rashof, soupe de lentilles au jameed",
+    "en": "Rashof, lentil soup with jameed"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 60 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hiver", "jameed", "lentille", "paysan"],
+  "ingredients": [
+    { "raw": "350 g de lentilles vertes", "qty": 350, "unit": "g", "item": "lentille verte" },
+    { "raw": "200 g de jameed", "qty": 200, "unit": "g", "item": "jameed" },
+    { "raw": "150 g de boulgour gros", "qty": 150, "unit": "g", "item": "boulgour gros" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "8 c. à s. d'huile d'olive", "qty": 8, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Faire tremper le jameed une nuit dans l'eau tiède, puis le mixer et le tamiser.", "en": "Soak the jameed overnight in warm water, then blend and sieve it." },
+    { "fr": "Cuire les lentilles et le boulgour ensemble trente minutes, jusqu'à ce que tout soit tendre.", "en": "Cook the lentils and bulgur together for thirty minutes, until everything is tender." },
+    { "fr": "Frire les oignons dans l'huile jusqu'à ce qu'ils soient bruns et croustillants.", "en": "Fry the onions in the oil until brown and crisp." },
+    { "fr": "Verser le jameed liquide dans la soupe et porter à ébullition en remuant sans arrêt.", "en": "Pour the liquid jameed into the soup and bring to a boil, stirring constantly." },
+    { "fr": "Le jameed tranche comme n'importe quel yaourt si l'on cesse de remuer : c'est la seule difficulté.", "en": "Jameed splits like any yoghurt if you stop stirring: the only difficulty here." },
+    { "fr": "Servir brûlant, couvert d'oignons frits et de leur huile, avec du cumin.", "en": "Serve scalding, topped with the fried onions and their oil, with cumin." }
+  ]
+}

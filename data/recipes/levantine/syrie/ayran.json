@@ -1,0 +1,33 @@
+{
+  "slug": "ayran",
+  "cuisine": "levantine",
+  "country": "syrie",
+  "origin": "Syrie",
+  "native_name": "Ayran",
+  "title": {
+    "fr": "Ayran, yaourt salé battu à la menthe",
+    "en": "Ayran, salted whipped yoghurt with mint"
+  },
+  "meal_type": "drink",
+  "servings": 4,
+  "times": { "prep_min": 10, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["yaourt", "ete", "sale", "rapide"],
+  "ingredients": [
+    { "raw": "50 cl de yaourt", "qty": 50, "unit": "cl", "item": "yaourt" },
+    { "raw": "50 cl d'eau glacée", "qty": 50, "unit": "cl", "item": "eau" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "1 c. à s. de menthe séchée", "qty": 1, "unit": "tbsp", "item": "menthe séchée" },
+    { "raw": "1/2 concombre, râpé", "qty": 0.5, "unit": "piece", "item": "concombre", "prep": "râpé", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Fouetter le yaourt seul jusqu'à ce qu'il soit parfaitement lisse, avant d'ajouter quoi que ce soit.", "en": "Whisk the yoghurt on its own until perfectly smooth, before adding anything." },
+    { "fr": "Verser l'eau glacée petit à petit, en fouettant, pour éviter les grumeaux.", "en": "Add the iced water little by little, whisking, to avoid lumps." },
+    { "fr": "Saler et fouetter énergiquement jusqu'à faire mousser en surface.", "en": "Salt it and whisk hard until a foam forms on top." },
+    { "fr": "L'ayran se boit SALÉ : sucré, c'est un lassi, et ce n'est plus le même geste ni le même repas.", "en": "Ayran is drunk SALTED: sweetened, it becomes a lassi, a different gesture and a different meal." },
+    { "fr": "Froisser la menthe séchée entre les doigts au-dessus du verre, pour qu'elle libère son huile.", "en": "Crumble the dried mint between your fingers over the glass, so it releases its oil." },
+    { "fr": "Servir immédiatement, très froid, avec les grillades.", "en": "Serve at once, very cold, with grilled meats." }
+  ]
+}

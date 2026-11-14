@@ -1,0 +1,38 @@
+{
+  "slug": "borhani",
+  "cuisine": "south-asian",
+  "country": "bangladesh",
+  "origin": "Bangladesh",
+  "native_name": "Borhani",
+  "title": {
+    "fr": "Borhani, yaourt épicé des repas de fête",
+    "en": "Borhani, spiced yoghurt drink for feasts"
+  },
+  "meal_type": "drink",
+  "servings": 6,
+  "times": { "prep_min": 15, "cook_min": 5 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["mariage", "yaourt", "epice", "biryani"],
+  "ingredients": [
+    { "raw": "75 cl de yaourt", "qty": 75, "unit": "cl", "item": "yaourt" },
+    { "raw": "25 cl d'eau glacée", "qty": 25, "unit": "cl", "item": "eau" },
+    { "raw": "1/2 bouquet de menthe fraîche", "qty": 0.5, "unit": "bunch", "item": "menthe fraîche" },
+    { "raw": "1/2 bouquet de coriandre fraîche", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche" },
+    { "raw": "4 piments verts", "qty": 4, "unit": "piece", "item": "piment frais" },
+    { "raw": "1 c. à s. de graines de moutarde", "qty": 1, "unit": "tbsp", "item": "graine de moutarde" },
+    { "raw": "1 c. à c. de cumin moulu, grillé", "qty": 1, "unit": "tsp", "item": "cumin", "prep": "grillé" },
+    { "raw": "1 c. à c. de chaat masala", "qty": 1, "unit": "tsp", "item": "chaat masala" },
+    { "raw": "1 c. à c. de sucre", "qty": 1, "unit": "tsp", "item": "sucre" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le borhani accompagne le kacchi biryani : son acidité et son piquant coupent le gras du plat.", "en": "Borhani accompanies kacchi biryani: its acidity and heat cut the richness of the dish." },
+    { "fr": "Broyer les graines de moutarde trempées avec les piments verts, la menthe et la coriandre.", "en": "Grind the soaked mustard seeds with the green chillies, mint and coriander." },
+    { "fr": "Filtrer cette pâte pour n'en garder que le jus : les morceaux gêneraient à la boisson.", "en": "Strain that paste to keep only the juice: pieces would get in the way of drinking." },
+    { "fr": "Fouetter le yaourt jusqu'à ce qu'il soit lisse, puis l'allonger à l'eau glacée.", "en": "Whisk the yoghurt smooth, then let it down with iced water." },
+    { "fr": "Ajouter le jus filtré, le cumin grillé, le chaat masala, le sel et le sucre.", "en": "Add the strained juice, roasted cumin, chaat masala, salt and sugar." },
+    { "fr": "Laisser reposer deux heures au frais avant de servir : les épices ont besoin de ce temps.", "en": "Rest for two hours in the fridge before serving: the spices need that time." }
+  ]
+}

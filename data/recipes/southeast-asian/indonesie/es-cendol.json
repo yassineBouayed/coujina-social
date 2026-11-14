@@ -1,0 +1,37 @@
+{
+  "slug": "es-cendol",
+  "cuisine": "southeast-asian",
+  "country": "indonesie",
+  "origin": "Indonésie",
+  "native_name": "Es cendol",
+  "title": {
+    "fr": "Es cendol, boisson glacée aux vermicelles verts",
+    "en": "Es cendol, iced drink with green rice jelly"
+  },
+  "meal_type": "drink",
+  "servings": 5,
+  "times": { "prep_min": 35, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ete", "pandan", "coco", "glace"],
+  "ingredients": [
+    { "raw": "120 g de farine de riz", "qty": 120, "unit": "g", "item": "farine de riz", "group": "cendol" },
+    { "raw": "60 g de maïzena", "qty": 60, "unit": "g", "item": "maïzena", "group": "cendol" },
+    { "raw": "60 cl d'eau", "qty": 60, "unit": "cl", "item": "eau", "group": "cendol" },
+    { "raw": "2 c. à c. d'extrait de pandan", "qty": 2, "unit": "tsp", "item": "feuille de pandan", "prep": "en extrait", "group": "cendol" },
+    { "raw": "250 g de sucre de palme", "qty": 250, "unit": "g", "item": "sucre de palme", "group": "sirop" },
+    { "raw": "15 cl d'eau", "qty": 15, "unit": "cl", "item": "eau", "group": "sirop" },
+    { "raw": "50 cl de lait de coco", "qty": 50, "unit": "cl", "item": "lait de coco" },
+    { "raw": "800 g de glaçons", "qty": 800, "unit": "g", "item": "eau", "prep": "en glaçons" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire farine de riz, maïzena, eau et pandan en remuant sans arrêt, jusqu'à obtenir une pâte ÉPAISSE.", "en": "Cook the rice flour, cornflour, water and pandan, stirring constantly, into a THICK paste." },
+    { "fr": "Elle doit se détacher de la casserole : trop liquide, les vermicelles se dissoudront dans la glace.", "en": "It must pull away from the pan: too loose, and the jellies will dissolve in the ice." },
+    { "fr": "La presser CHAUDE à travers une passoire à gros trous, directement au-dessus d'un bol d'eau glacée.", "en": "Press it HOT through a coarse colander, directly over a bowl of iced water." },
+    { "fr": "C'est l'eau glacée en dessous qui fige les vermicelles en gouttes : sans elle, ils s'agglomèrent.", "en": "The iced water beneath is what sets them into droplets: without it, they clump together." },
+    { "fr": "Faire fondre le sucre de palme en sirop épais et le laisser refroidir complètement.", "en": "Melt the palm sugar into a thick syrup and cool it completely." },
+    { "fr": "Monter dans les verres : sirop au fond, cendol, glace pilée, puis le lait de coco SALÉ.", "en": "Build in the glasses: syrup at the bottom, cendol, crushed ice, then the SALTED coconut milk." }
+  ]
+}

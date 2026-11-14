@@ -1,0 +1,39 @@
+{
+  "slug": "warak-enab",
+  "cuisine": "levantine",
+  "country": "liban",
+  "origin": "Liban",
+  "native_name": "Warak enab",
+  "title": {
+    "fr": "Feuilles de vigne farcies au riz",
+    "en": "Vine leaves stuffed with rice"
+  },
+  "meal_type": "starter",
+  "servings": 8,
+  "times": { "prep_min": 90, "cook_min": 60 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["mezze", "patience", "vigne", "citron"],
+  "ingredients": [
+    { "raw": "60 feuilles de vigne en saumure", "qty": 60, "unit": "piece", "item": "feuille de vigne" },
+    { "raw": "300 g de riz rond", "qty": 300, "unit": "g", "item": "riz rond", "group": "farce" },
+    { "raw": "4 tomates, en tout petits dés", "qty": 4, "unit": "piece", "item": "tomate", "prep": "en tout petits dés", "group": "farce" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé", "group": "farce" },
+    { "raw": "1/2 bouquet de menthe fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "menthe fraîche", "prep": "ciselée", "group": "farce" },
+    { "raw": "2 oignons, hachés très finement", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché très finement", "group": "farce" },
+    { "raw": "1 c. à c. de baharat", "qty": 1, "unit": "tsp", "item": "baharat", "group": "farce" },
+    { "raw": "12 cl d'huile d'olive", "qty": 12, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "4 citrons, leur jus", "qty": 4, "unit": "piece", "item": "citron" },
+    { "raw": "4 pommes de terre, en rondelles épaisses", "qty": 4, "unit": "piece", "item": "pomme de terre", "prep": "en rondelles épaisses" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Rincer les feuilles de vigne à grande eau et les blanchir deux minutes pour ôter l'excès de sel.", "en": "Rinse the vine leaves well and blanch them for two minutes to remove excess salt." },
+    { "fr": "Mélanger le riz CRU avec les tomates, les herbes, l'oignon, les épices, l'huile et le sel.", "en": "Mix the RAW rice with the tomatoes, herbs, onion, spices, oil and salt." },
+    { "fr": "Poser une cuillère de farce sur chaque feuille, nervures vers le haut, et rouler serré mais pas trop : le riz doit avoir la place de gonfler.", "en": "Place a spoonful of filling on each leaf, veins up, and roll it tight but not too tight: the rice needs room to swell." },
+    { "fr": "Tapisser le fond de la casserole de rondelles de pommes de terre : elles empêchent les rouleaux du fond de brûler.", "en": "Line the base of the pan with potato slices: they stop the bottom rolls from scorching." },
+    { "fr": "Ranger les rouleaux serrés en couches, poser une assiette dessus pour les maintenir, et couvrir d'eau citronnée.", "en": "Pack the rolls tightly in layers, set a plate on top to hold them down, and cover with lemony water." },
+    { "fr": "Cuire une heure à feu doux, et laisser refroidir dans le jus avant de démouler.", "en": "Cook for an hour over low heat, and let them cool in their juices before turning out." }
+  ]
+}

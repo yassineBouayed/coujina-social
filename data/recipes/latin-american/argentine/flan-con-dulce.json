@@ -1,0 +1,37 @@
+{
+  "slug": "flan-con-dulce",
+  "cuisine": "latin-american",
+  "country": "argentine",
+  "origin": "Argentine",
+  "native_name": "Flan mixto",
+  "title": {
+    "fr": "Flan au dulce de leche et à la crème",
+    "en": "Flan with dulce de leche and cream"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 20, "cook_min": 60 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["classique", "caramel", "dulce-de-leche", "froid"],
+  "ingredients": [
+    { "raw": "1 l de lait entier", "qty": 1, "unit": "l", "item": "lait entier" },
+    { "raw": "8 œufs", "qty": 8, "unit": "piece", "item": "oeuf" },
+    { "raw": "250 g de sucre", "qty": 250, "unit": "g", "item": "sucre" },
+    { "raw": "1 gousse de vanille, fendue", "qty": 1, "unit": "piece", "item": "gousse de vanille", "prep": "fendue" },
+    { "raw": "200 g de sucre", "qty": 200, "unit": "g", "item": "sucre", "group": "caramel" },
+    { "raw": "5 cl d'eau", "qty": 5, "unit": "cl", "item": "eau", "group": "caramel" },
+    { "raw": "400 g de dulce de leche", "qty": 400, "unit": "g", "item": "dulce de leche", "group": "service" },
+    { "raw": "40 cl de crème liquide entière, très froide", "qty": 40, "unit": "cl", "item": "crème liquide", "prep": "très froide", "group": "service" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "« Mixto » veut dire les deux : le flan se sert AVEC dulce de leche ET chantilly, jamais l'un sans l'autre.", "en": "\"Mixto\" means both: the flan is served WITH dulce de leche AND whipped cream, never one alone." },
+    { "fr": "Faire un caramel AMBRÉ FONCÉ : son amertume est ce qui équilibre le dulce de leche.", "en": "Make a DEEP AMBER caramel: its bitterness is what balances the dulce de leche." },
+    { "fr": "Infuser la vanille dans le lait chaud vingt minutes, puis le laisser TIÉDIR.", "en": "Steep the vanilla in the hot milk for twenty minutes, then let it COOL." },
+    { "fr": "Battre les œufs SANS FAIRE MOUSSER : les bulles remonteraient et troueraient le flan.", "en": "Beat the eggs WITHOUT FROTHING: bubbles would rise and pit the flan." },
+    { "fr": "Filtrer et cuire au BAIN-MARIE, 60 minutes à 160 °C : le centre doit encore trembler.", "en": "Strain and bake in a WATER BATH, 60 minutes at 160°C: the centre must still wobble." },
+    { "fr": "Réfrigérer DOUZE HEURES avant de démouler.", "en": "Chill for TWELVE HOURS before turning out." }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "cha-siu",
+  "cuisine": "east-asian",
+  "country": "chine",
+  "origin": "Chine",
+  "native_name": "叉烧",
+  "title": {
+    "fr": "Cha siu, porc laqué cantonais",
+    "en": "Cha siu, Cantonese barbecued pork"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 50 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["canton", "laque", "four", "miel"],
+  "ingredients": [
+    { "raw": "1,2 kg d'échine de porc, en longues bandes", "qty": 1200, "unit": "g", "item": "échine de porc", "prep": "en longues bandes" },
+    { "raw": "4 c. à s. de sauce hoisin", "qty": 4, "unit": "tbsp", "item": "sauce hoisin", "group": "marinade" },
+    { "raw": "3 c. à s. de sauce soja", "qty": 3, "unit": "tbsp", "item": "sauce soja", "group": "marinade" },
+    { "raw": "3 c. à s. de miel", "qty": 3, "unit": "tbsp", "item": "miel", "group": "marinade" },
+    { "raw": "3 c. à s. de vin de riz", "qty": 3, "unit": "tbsp", "item": "vin de riz", "group": "marinade" },
+    { "raw": "2 c. à s. de sucre roux", "qty": 2, "unit": "tbsp", "item": "sucre roux", "group": "marinade" },
+    { "raw": "1 c. à c. de cinq-épices", "qty": 1, "unit": "tsp", "item": "cinq-épices", "group": "marinade" },
+    { "raw": "4 gousses d'ail, écrasées", "qty": 4, "unit": "piece", "item": "ail", "prep": "écrasé", "group": "marinade" },
+    { "raw": "2 c. à s. de miel, pour laquer", "qty": 2, "unit": "tbsp", "item": "miel", "group": "laque" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Prendre de l'échine, pas du filet : le cha siu a besoin de gras pour rester moelleux.", "en": "Use shoulder, not loin: cha siu needs fat to stay tender." },
+    { "fr": "Faire mariner les bandes VINGT-QUATRE HEURES au réfrigérateur, en les retournant deux fois.", "en": "Marinate the strips for TWENTY-FOUR HOURS in the fridge, turning them twice." },
+    { "fr": "Cuire à 200 °C sur une grille, avec un plat d'eau en dessous pour éviter la fumée.", "en": "Roast at 200°C on a rack, with a tray of water beneath to stop the smoke." },
+    { "fr": "Retourner et badigeonner de marinade toutes les dix minutes, quatre fois en tout.", "en": "Turn and baste with the marinade every ten minutes, four times in all." },
+    { "fr": "Les cinq dernières minutes, badigeonner de miel pur et passer sous le gril pour caraméliser.", "en": "For the last five minutes, brush with pure honey and finish under the grill to caramelise." },
+    { "fr": "Les bords doivent noircir légèrement : c'est ce brûlé qui fait le cha siu de rôtisserie.", "en": "The edges should char slightly: that char is what makes a roast-shop cha siu." }
+  ]
+}

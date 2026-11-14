@@ -1,0 +1,52 @@
+{
+  "slug": "couscous-sept-legumes",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Couscous bidaoui",
+  "title": {
+    "fr": "Couscous aux sept légumes",
+    "en": "Seven-vegetable couscous"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 35, "cook_min": 110 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j2-sonde-v1", "date": "2026-08-28" },
+  "tags": ["couscous", "legumes", "agneau", "vendredi"],
+  "ingredients": [
+    { "raw": "800 g de collier d'agneau", "qty": 800, "unit": "g", "item": "collier d'agneau" },
+    { "raw": "500 g de semoule de couscous moyenne", "qty": 500, "unit": "g", "item": "semoule de couscous" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "3 carottes, coupées en deux dans la longueur", "qty": 3, "unit": "piece", "item": "carotte", "prep": "coupée en deux dans la longueur" },
+    { "raw": "3 navets, coupés en quartiers", "qty": 3, "unit": "piece", "item": "navet", "prep": "coupé en quartiers" },
+    { "raw": "2 courgettes, en gros tronçons", "qty": 2, "unit": "piece", "item": "courgette", "prep": "en gros tronçons" },
+    { "raw": "400 g de potiron, en gros cubes", "qty": 400, "unit": "g", "item": "potiron", "prep": "en gros cubes" },
+    { "raw": "1/4 de chou vert", "qty": 0.25, "unit": "piece", "item": "chou vert" },
+    { "raw": "2 tomates, pelées et concassées", "qty": 2, "unit": "piece", "item": "tomate", "prep": "pelée et concassée" },
+    { "raw": "200 g de pois chiches trempés la veille", "qty": 200, "unit": "g", "item": "pois chiche sec", "prep": "trempé la veille" },
+    { "raw": "1 c. à c. de gingembre moulu", "qty": 1, "unit": "tsp", "item": "gingembre moulu" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "1 c. à c. de poivre noir", "qty": 1, "unit": "tsp", "item": "poivre noir" },
+    { "raw": "1 bouquet de coriandre fraîche", "qty": 1, "unit": "bunch", "item": "coriandre fraîche" },
+    { "raw": "1 bouquet de persil plat", "qty": 1, "unit": "bunch", "item": "persil plat" },
+    { "raw": "4 c. à s. d'huile d'olive", "qty": 4, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "50 g de beurre pour la semoule", "qty": 50, "unit": "g", "item": "beurre" },
+    { "raw": "1 c. à c. de harissa, servie à part", "qty": 1, "unit": "tsp", "item": "harissa", "optional": true },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Saisir la viande avec les oignons, les épices et l'huile dans le bas du couscoussier, puis couvrir largement d'eau et ajouter les pois chiches et les herbes ficelées.", "en": "Sear the meat with the onions, spices and oil in the base of the couscoussier, then cover generously with water and add the chickpeas and the tied herbs." },
+    { "fr": "Laisser frémir 45 minutes pendant que la semoule reçoit sa première vapeur.", "en": "Simmer for 45 minutes while the couscous takes its first steaming." },
+    { "fr": "Ajouter les carottes et les navets, cuire 20 minutes.", "en": "Add the carrots and turnips and cook for 20 minutes." },
+    { "fr": "Ajouter le chou, les tomates et le potiron, puis les courgettes dix minutes plus tard : chaque légume entre selon son temps de cuisson, sinon tout se défait.", "en": "Add the cabbage, tomatoes and pumpkin, then the courgettes ten minutes later: each vegetable goes in according to its cooking time, or everything falls apart." },
+    { "fr": "Rouler et faire gonfler la semoule entre chaque vapeur, trois fois en tout, en la beurrant à la dernière.", "en": "Work and swell the couscous between each steaming, three times in all, buttering it at the last." },
+    { "fr": "Dresser la semoule en dôme, disposer la viande au centre et les légumes en couronne, arroser de deux louches de bouillon.", "en": "Mound the couscous, set the meat in the middle and the vegetables in a crown, and moisten with two ladles of broth." },
+    { "fr": "Servir le reste du bouillon en saucière, et la harissa délayée dedans à part pour ceux qui la veulent.", "en": "Serve the rest of the broth in a jug, and the harissa let down with a little of it on the side for those who want it." }
+  ],
+  "notes": [
+    { "fr": "Sept légumes est un usage, pas une règle arithmétique : ce qui compte est qu'aucun ne soit en bouillie.", "en": "Seven vegetables is a custom, not a count: what matters is that none of them turn to mush." }
+  ]
+}

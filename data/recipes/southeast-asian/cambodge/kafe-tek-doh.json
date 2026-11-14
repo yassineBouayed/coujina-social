@@ -1,0 +1,33 @@
+{
+  "slug": "kafe-tek-doh",
+  "cuisine": "southeast-asian",
+  "country": "cambodge",
+  "origin": "Cambodge",
+  "native_name": "កាហ្វេទឹកដោះ",
+  "title": {
+    "fr": "Café glacé au lait concentré khmer",
+    "en": "Khmer iced coffee with condensed milk"
+  },
+  "meal_type": "drink",
+  "servings": 2,
+  "times": { "prep_min": 5, "cook_min": 10 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "cafe", "glace", "matin"],
+  "ingredients": [
+    { "raw": "5 c. à s. de café moulu grossièrement", "qty": 5, "unit": "tbsp", "item": "café", "prep": "moulu grossièrement" },
+    { "raw": "25 cl d'eau bouillante", "qty": 25, "unit": "cl", "item": "eau" },
+    { "raw": "6 c. à s. de lait concentré sucré", "qty": 6, "unit": "tbsp", "item": "lait concentré sucré" },
+    { "raw": "400 g de glaçons", "qty": 400, "unit": "g", "item": "eau", "prep": "en glaçons" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Le café khmer est souvent torréfié avec du beurre et du sucre : il est plus doux et plus rond que l'arabica.", "en": "Khmer coffee is often roasted with butter and sugar: it is softer and rounder than plain arabica." },
+    { "fr": "Verser le lait concentré au FOND du verre, en premier, avant tout le reste.", "en": "Pour the condensed milk into the BOTTOM of the glass first, before anything else." },
+    { "fr": "Faire couler le café à travers un filtre en tissu, lentement : compter cinq minutes.", "en": "Drip the coffee through a cloth filter, slowly: allow five minutes." },
+    { "fr": "Le café doit être TRÈS fort : dilué par la glace, un café faible ne donne plus rien.", "en": "The coffee must be VERY strong: diluted by ice, a weak brew tastes of nothing." },
+    { "fr": "Ajouter une pincée de SEL : c'est un usage local, et cela coupe l'amertume.", "en": "Add a pinch of SALT: a local habit, and it cuts the bitterness." },
+    { "fr": "Remuer pour lier le lait, puis verser sur un grand verre de glaçons.", "en": "Stir to blend in the milk, then pour over a tall glass of ice." }
+  ]
+}

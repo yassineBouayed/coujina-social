@@ -1,0 +1,41 @@
+{
+  "slug": "nom-banh-chok",
+  "cuisine": "southeast-asian",
+  "country": "cambodge",
+  "origin": "Cambodge",
+  "native_name": "នំបញ្ចុក",
+  "title": {
+    "fr": "Nom banh chok, nouilles au curry de poisson",
+    "en": "Nom banh chok, rice noodles in fish gravy"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 35, "cook_min": 40 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["petit-dejeuner", "national", "poisson", "herbes"],
+  "ingredients": [
+    { "raw": "500 g de vermicelles de riz frais", "qty": 500, "unit": "g", "item": "nouilles de riz" },
+    { "raw": "600 g de filets de cabillaud", "qty": 600, "unit": "g", "item": "cabillaud" },
+    { "raw": "5 c. à s. de kroeung", "qty": 5, "unit": "tbsp", "item": "citronnelle", "prep": "en pâte kroeung" },
+    { "raw": "50 cl de lait de coco", "qty": 50, "unit": "cl", "item": "lait de coco" },
+    { "raw": "2 c. à s. de prahok", "qty": 2, "unit": "tbsp", "item": "prahok" },
+    { "raw": "3 c. à s. de sauce poisson", "qty": 3, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "200 g de germes de soja", "qty": 200, "unit": "g", "item": "germes de soja", "group": "herbes" },
+    { "raw": "1 concombre, en julienne", "qty": 1, "unit": "piece", "item": "concombre", "prep": "en julienne", "group": "herbes" },
+    { "raw": "1 bouquet de menthe fraîche", "qty": 1, "unit": "bunch", "item": "menthe fraîche", "group": "herbes" },
+    { "raw": "1 laitue, en lanières", "qty": 1, "unit": "piece", "item": "laitue", "prep": "en lanières", "group": "herbes" },
+    { "raw": "1 bouquet de basilic thaï", "qty": 1, "unit": "bunch", "item": "basilic", "group": "herbes" },
+    { "raw": "200 g de fleur de bananier, en julienne", "qty": 200, "unit": "g", "item": "chou blanc", "prep": "en julienne", "optional": true, "group": "herbes" },
+    { "raw": "5 c. à s. d'huile neutre", "qty": 5, "unit": "tbsp", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Le nom banh chok se mange au petit-déjeuner, avec une MONTAGNE d'herbes crues : c'est la moitié du plat.", "en": "Nom banh chok is eaten at breakfast, with a MOUNTAIN of raw herbs: they are half the dish." },
+    { "fr": "Pocher le poisson dix minutes, l'égoutter, et le PILER au mortier en pâte fine.", "en": "Poach the fish for ten minutes, drain it, and POUND it in a mortar into a fine paste." },
+    { "fr": "Le poisson pilé, et non mixé, garde une texture fibreuse qui tient dans le bouillon.", "en": "Pounded, not blended, the fish keeps a fibrous texture that holds up in the gravy." },
+    { "fr": "Frire le kroeung dix minutes, ajouter le prahok, puis le poisson pilé.", "en": "Fry the kroeung for ten minutes, add the prahok, then the pounded fish." },
+    { "fr": "Verser le lait de coco et laisser frémir vingt minutes, sans jamais faire bouillir.", "en": "Add the coconut milk and simmer for twenty minutes, never letting it boil." },
+    { "fr": "Servir le bouillon TIÈDE sur les vermicelles froids, avec les herbes crues à volonté.", "en": "Serve the gravy WARM over the cold noodles, with as many raw herbs as you like." }
+  ]
+}

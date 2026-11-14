@@ -1,0 +1,43 @@
+{
+  "slug": "efo-riro",
+  "cuisine": "west-african",
+  "country": "nigeria",
+  "origin": "Nigeria",
+  "native_name": "Ẹ̀fọ́ riro",
+  "title": {
+    "fr": "Efo riro, ragoût d'épinards yoruba",
+    "en": "Efo riro, Yoruba spinach stew"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 50 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["yoruba", "epinard", "huile-de-palme", "dimanche"],
+  "ingredients": [
+    { "raw": "800 g d'épinards, grossièrement hachés", "qty": 800, "unit": "g", "item": "épinard", "prep": "grossièrement haché" },
+    { "raw": "400 g de bœuf à mijoter, en cubes", "qty": 400, "unit": "g", "item": "boeuf à mijoter", "prep": "en cubes" },
+    { "raw": "150 g de stockfish, trempé", "qty": 150, "unit": "g", "item": "stockfish", "prep": "trempé" },
+    { "raw": "100 g de poisson fumé, émietté", "qty": 100, "unit": "g", "item": "poisson fumé", "prep": "émietté" },
+    { "raw": "3 c. à s. de crevettes séchées, moulues", "qty": 3, "unit": "tbsp", "item": "crevette séchée", "prep": "moulue" },
+    { "raw": "2 poivrons rouges", "qty": 2, "unit": "piece", "item": "poivron rouge", "group": "base" },
+    { "raw": "3 piments habanero", "qty": 3, "unit": "piece", "item": "habanero", "group": "base" },
+    { "raw": "2 oignons", "qty": 2, "unit": "piece", "item": "oignon", "group": "base" },
+    { "raw": "1 c. à s. de graines de néré", "qty": 1, "unit": "tbsp", "item": "néré" },
+    { "raw": "15 cl d'huile de palme rouge", "qty": 15, "unit": "cl", "item": "huile de palme rouge" },
+    { "raw": "2 cubes de bouillon", "qty": 2, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Mixer poivrons, habaneros et un oignon en une purée épaisse, et la faire réduire à sec vingt minutes.", "en": "Blend the peppers, habaneros and one onion to a thick purée, and reduce it dry for twenty minutes." },
+    { "fr": "Chauffer l'huile de palme jusqu'à ce qu'elle devienne fluide et claire, sans jamais la faire fumer.", "en": "Heat the palm oil until it turns fluid and clear, never letting it smoke." },
+    { "fr": "Y faire revenir le second oignon émincé et le néré, puis verser la purée réduite.", "en": "Fry the second sliced onion and the néré in it, then add the reduced purée." },
+    { "fr": "Ajouter viande, stockfish, poisson fumé, crevettes séchées et cubes, et laisser vingt minutes.", "en": "Add the meat, stockfish, smoked fish, dried prawns and stock cubes, and cook for twenty minutes." },
+    { "fr": "Ajouter les épinards en dernier et couper le feu au bout de cinq minutes : trop cuits, ils grisent et rendent de l'eau.", "en": "Add the spinach last and cut the heat after five minutes: overcooked, it greys and weeps." },
+    { "fr": "L'efo riro doit rester épais, presque sec. On le mange avec de l'igname pilée.", "en": "Efo riro must stay thick, almost dry. It is eaten with pounded yam." }
+  ],
+  "notes": [
+    { "fr": "L'huile de palme fumée devient âcre et ne redevient jamais bonne. Si elle fume, on recommence.", "en": "Smoking palm oil turns acrid and never recovers. If it smokes, start again." }
+  ]
+}

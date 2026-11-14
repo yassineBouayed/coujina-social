@@ -1,0 +1,37 @@
+{
+  "slug": "ghriba-bahla",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Ghriba bahla",
+  "title": {
+    "fr": "Ghriba bahla, sablés craquelés au sésame",
+    "en": "Ghriba bahla, crackled sesame shortbread"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 25, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["biscuit", "the", "sesame", "fete"],
+  "ingredients": [
+    { "raw": "400 g de farine de blé", "qty": 400, "unit": "g", "item": "farine de blé" },
+    { "raw": "150 g de sucre glace", "qty": 150, "unit": "g", "item": "sucre glace" },
+    { "raw": "100 g de beurre fondu", "qty": 100, "unit": "g", "item": "beurre", "prep": "fondu" },
+    { "raw": "10 cl d'huile de tournesol", "qty": 10, "unit": "cl", "item": "huile de tournesol" },
+    { "raw": "50 g de graines de sésame, grillées", "qty": 50, "unit": "g", "item": "sésame", "prep": "grillé" },
+    { "raw": "50 g d'amandes, grillées et concassées", "qty": 50, "unit": "g", "item": "amande", "prep": "grillée et concassée" },
+    { "raw": "1 c. à c. de levure chimique", "qty": 1, "unit": "tsp", "item": "levure chimique" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Mélanger la farine avec le beurre fondu et l'huile, et laisser reposer une heure : la farine doit boire le gras.", "en": "Mix the flour with the melted butter and oil, and rest for an hour: the flour must drink up the fat." },
+    { "fr": "Ajouter le sucre glace, la levure, la cannelle, le sel, le sésame et les amandes.", "en": "Add the icing sugar, baking powder, cinnamon, salt, sesame and almonds." },
+    { "fr": "Travailler le moins possible : la ghriba bahla se serre à la main, elle ne se pétrit pas.", "en": "Work it as little as possible: ghriba bahla is pressed together by hand, never kneaded." },
+    { "fr": "Former des boules et les aplatir légèrement sur une plaque, bien espacées.", "en": "Shape balls and flatten them slightly on a tray, well spaced." },
+    { "fr": "Cuire 20 minutes à 170 °C : les craquelures apparaissent d'elles-mêmes, et c'est le signe que la pâte était assez sèche.", "en": "Bake for 20 minutes at 170°C: the cracks appear on their own, and prove the dough was dry enough." },
+    { "fr": "Laisser refroidir sur la plaque : chaudes, elles se cassent au moindre geste.", "en": "Cool on the tray: warm, they break at the slightest touch." }
+  ]
+}

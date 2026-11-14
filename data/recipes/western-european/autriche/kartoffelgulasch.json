@@ -1,0 +1,41 @@
+{
+  "slug": "kartoffelgulasch",
+  "cuisine": "western-european",
+  "country": "autriche",
+  "origin": "Autriche",
+  "native_name": "Erdäpfelgulasch",
+  "title": {
+    "fr": "Goulasch de pommes de terre",
+    "en": "Potato goulash"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["quotidien", "paprika", "pomme-de-terre", "economique"],
+  "ingredients": [
+    { "raw": "1,2 kg de pommes de terre, en gros cubes", "qty": 1200, "unit": "g", "item": "pomme de terre", "prep": "en gros cubes" },
+    { "raw": "600 g d'oignons, émincés", "qty": 600, "unit": "g", "item": "oignon", "prep": "émincé" },
+    { "raw": "3 saucisses fumées, en rondelles", "qty": 3, "unit": "piece", "item": "saucisse fumée", "prep": "en rondelles" },
+    { "raw": "3 c. à s. de paprika doux", "qty": 3, "unit": "tbsp", "item": "paprika" },
+    { "raw": "1 poivron rouge, en dés", "qty": 1, "unit": "piece", "item": "poivron rouge", "prep": "en dés" },
+    { "raw": "2 c. à s. de concentré de tomate", "qty": 2, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "2 c. à s. de vinaigre de vin", "qty": 2, "unit": "tbsp", "item": "vinaigre de vin" },
+    { "raw": "2 c. à c. de carvi", "qty": 2, "unit": "tsp", "item": "carvi" },
+    { "raw": "1 c. à c. de marjolaine séchée", "qty": 1, "unit": "tsp", "item": "marjolaine" },
+    { "raw": "60 g de saindoux", "qty": 60, "unit": "g", "item": "saindoux" },
+    { "raw": "70 cl de bouillon de bœuf", "qty": 70, "unit": "cl", "item": "bouillon boeuf" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "C'est le plat du milieu de mois : des pommes de terre, des oignons, du paprika, et rien de cher.", "en": "This is the mid-month dish: potatoes, onions, paprika, and nothing expensive." },
+    { "fr": "Faire fondre les oignons VINGT-CINQ MINUTES au saindoux, jusqu'au brun clair.", "en": "Melt the onions for TWENTY-FIVE MINUTES in lard, to a light brown." },
+    { "fr": "Retirer du feu AVANT d'ajouter le paprika : dans le gras brûlant, il devient amer en dix secondes.", "en": "Take it off the heat BEFORE adding the paprika: in scalding fat, it turns bitter in ten seconds." },
+    { "fr": "Déglacer au vinaigre, ajouter concentré, bouillon et épices, puis les pommes de terre.", "en": "Deglaze with vinegar, add the purée, stock and spices, then the potatoes." },
+    { "fr": "Écraser QUELQUES pommes de terre à la fin : leur amidon lie la sauce sans farine.", "en": "Crush A FEW potatoes at the end: their starch thickens the sauce without flour." },
+    { "fr": "Ajouter la saucisse fumée les dix dernières minutes seulement.", "en": "Add the smoked sausage in the last ten minutes only." }
+  ]
+}

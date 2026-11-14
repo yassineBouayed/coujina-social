@@ -1,0 +1,36 @@
+{
+  "slug": "banh-flan",
+  "cuisine": "southeast-asian",
+  "country": "vietnam",
+  "origin": "Viêt Nam",
+  "native_name": "Bánh flan",
+  "title": {
+    "fr": "Bánh flan au café",
+    "en": "Vietnamese flan with coffee"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 45 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["colonial", "caramel", "cafe", "froid"],
+  "ingredients": [
+    { "raw": "6 œufs", "qty": 6, "unit": "piece", "item": "oeuf" },
+    { "raw": "50 cl de lait entier", "qty": 50, "unit": "cl", "item": "lait entier" },
+    { "raw": "20 cl de lait concentré sucré", "qty": 20, "unit": "cl", "item": "lait concentré sucré" },
+    { "raw": "1 c. à c. d'extrait de vanille", "qty": 1, "unit": "tsp", "item": "extrait de vanille" },
+    { "raw": "150 g de sucre", "qty": 150, "unit": "g", "item": "sucre", "group": "caramel" },
+    { "raw": "1 citron, quelques gouttes", "qty": 1, "unit": "piece", "item": "citron", "group": "caramel" },
+    { "raw": "15 cl de café fort", "qty": 15, "unit": "cl", "item": "café", "group": "service" },
+    { "raw": "400 g de glaçons", "qty": 400, "unit": "g", "item": "eau", "prep": "en glaçons", "group": "service" }
+  ],
+  "steps": [
+    { "fr": "Le bánh flan se sert avec du CAFÉ NOIR versé dessus et de la glace : c'est ce qui le distingue du flan français.", "en": "Banh flan is served with BLACK COFFEE poured over and ice: that is what sets it apart from a French flan." },
+    { "fr": "Faire un caramel ambré avec quelques gouttes de citron et le répartir au fond des ramequins.", "en": "Make an amber caramel with a few drops of lemon and share it into the bottom of the ramekins." },
+    { "fr": "Chauffer le lait avec le lait concentré, sans faire bouillir, puis laisser tiédir.", "en": "Heat the milk with the condensed milk, without boiling, then let it cool a little." },
+    { "fr": "Battre les œufs SANS les faire mousser, verser le lait tiède en filet, et FILTRER deux fois.", "en": "Beat the eggs WITHOUT frothing, pour in the warm milk in a stream, and STRAIN twice." },
+    { "fr": "Cuire au bain-marie à 150 °C, quarante minutes : au-delà, le flan se troue de bulles.", "en": "Bake in a water bath at 150°C for forty minutes: any hotter and the flan fills with holes." },
+    { "fr": "Réfrigérer six heures, démouler, et servir noyé de café glacé.", "en": "Chill for six hours, turn out, and serve flooded with iced coffee." }
+  ]
+}

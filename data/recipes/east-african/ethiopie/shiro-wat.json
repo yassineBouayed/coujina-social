@@ -1,0 +1,37 @@
+{
+  "slug": "shiro-wat",
+  "cuisine": "east-african",
+  "country": "ethiopie",
+  "origin": "Éthiopie",
+  "native_name": "Shiro",
+  "title": {
+    "fr": "Shiro, purée de pois chiches au berbéré",
+    "en": "Shiro, spiced chickpea flour stew"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 15, "cook_min": 35 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["jeune", "vegetarien", "quotidien", "pois-chiche"],
+  "ingredients": [
+    { "raw": "200 g de farine de pois chiche", "qty": 200, "unit": "g", "item": "farine de pois chiche" },
+    { "raw": "2 c. à s. de berbéré", "qty": 2, "unit": "tbsp", "item": "berbéré" },
+    { "raw": "2 oignons, hachés très finement", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché très finement" },
+    { "raw": "4 gousses d'ail, écrasées", "qty": 4, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 c. à s. de gingembre frais, râpé", "qty": 1, "unit": "tbsp", "item": "gingembre", "prep": "râpé" },
+    { "raw": "8 c. à s. d'huile neutre", "qty": 8, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "1 tomate, en dés", "qty": 1, "unit": "piece", "item": "tomate", "prep": "en dés", "optional": true },
+    { "raw": "1 l d'eau", "qty": 1, "unit": "l", "item": "eau" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire fondre les oignons dans l'huile vingt minutes, jusqu'à ce qu'ils soient dorés.", "en": "Melt the onions in the oil for twenty minutes, until golden." },
+    { "fr": "Ajouter ail, gingembre, berbéré et tomate, et laisser cinq minutes.", "en": "Add the garlic, ginger, berbere and tomato, and cook for five minutes." },
+    { "fr": "Verser l'eau et porter à ébullition.", "en": "Pour in the water and bring to a boil." },
+    { "fr": "Verser la farine de pois chiche en pluie fine, à travers un tamis, en fouettant sans arrêt.", "en": "Rain the chickpea flour in through a sieve, whisking constantly." },
+    { "fr": "Versée d'un coup, elle fait des grumeaux qui ne se défont plus jamais.", "en": "Tipped in at once, it forms lumps that never break up." },
+    { "fr": "Laisser cuire dix minutes à feu doux, jusqu'à ce que le shiro nappe la cuillère. Servir sur injera.", "en": "Cook for ten minutes over low heat, until the shiro coats a spoon. Serve on injera." }
+  ]
+}

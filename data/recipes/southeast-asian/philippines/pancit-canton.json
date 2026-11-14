@@ -1,0 +1,41 @@
+{
+  "slug": "pancit-canton",
+  "cuisine": "southeast-asian",
+  "country": "philippines",
+  "origin": "Philippines",
+  "native_name": "Pancit canton",
+  "title": {
+    "fr": "Pancit canton, nouilles sautées d'anniversaire",
+    "en": "Pancit canton, birthday stir-fried noodles"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "anniversaire", "nouilles", "legumes"],
+  "ingredients": [
+    { "raw": "500 g de nouilles de blé", "qty": 500, "unit": "g", "item": "nouilles de blé" },
+    { "raw": "300 g de blanc de poulet, en lanières", "qty": 300, "unit": "g", "item": "blanc de poulet", "prep": "en lanières" },
+    { "raw": "200 g de crevettes, décortiquées", "qty": 200, "unit": "g", "item": "crevette", "prep": "décortiquée" },
+    { "raw": "150 g de saucisse chinoise, en rondelles", "qty": 150, "unit": "g", "item": "saucisse chinoise", "prep": "en rondelles" },
+    { "raw": "200 g de chou blanc, en lanières", "qty": 200, "unit": "g", "item": "chou blanc", "prep": "en lanières" },
+    { "raw": "2 carottes, en julienne", "qty": 2, "unit": "piece", "item": "carotte", "prep": "en julienne" },
+    { "raw": "200 g de haricots verts, en tronçons", "qty": 200, "unit": "g", "item": "haricot vert", "prep": "en tronçons" },
+    { "raw": "6 gousses d'ail, hachées", "qty": 6, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "1 l de bouillon de volaille", "qty": 1, "unit": "l", "item": "bouillon volaille" },
+    { "raw": "5 c. à s. de sauce soja", "qty": 5, "unit": "tbsp", "item": "sauce soja" },
+    { "raw": "2 c. à s. de sauce huître", "qty": 2, "unit": "tbsp", "item": "sauce huître" },
+    { "raw": "3 citrons verts, en quartiers", "qty": 3, "unit": "piece", "item": "citron vert", "group": "service" },
+    { "raw": "6 c. à s. d'huile neutre", "qty": 6, "unit": "tbsp", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Le pancit se sert aux anniversaires : les nouilles LONGUES symbolisent une longue vie, on ne les coupe pas.", "en": "Pancit is served at birthdays: the LONG noodles stand for long life, and are never cut." },
+    { "fr": "Saisir successivement saucisse, poulet et crevettes, et les réserver séparément.", "en": "Sear the sausage, chicken and prawns in turn, and set each aside." },
+    { "fr": "Faire sauter les légumes du plus dur au plus tendre, en gardant du croquant.", "en": "Stir-fry the vegetables from firmest to softest, keeping some crunch." },
+    { "fr": "Verser le bouillon et les sauces, porter à ébullition, puis ajouter les nouilles SÈCHES.", "en": "Add the stock and sauces, bring to a boil, then add the DRY noodles." },
+    { "fr": "Les nouilles cuisent DANS le bouillon et l'absorbent entièrement : elles ne se pré-cuisent pas.", "en": "The noodles cook IN the broth and absorb it entirely: they are not pre-cooked." },
+    { "fr": "Remettre viandes et crevettes, mélanger, et servir avec des quartiers de citron vert.", "en": "Return the meats and prawns, toss, and serve with lime wedges." }
+  ]
+}

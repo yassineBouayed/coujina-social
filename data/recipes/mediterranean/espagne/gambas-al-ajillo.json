@@ -1,0 +1,36 @@
+{
+  "slug": "gambas-al-ajillo",
+  "cuisine": "mediterranean",
+  "country": "espagne",
+  "origin": "Espagne",
+  "native_name": "Gambas al ajillo",
+  "title": {
+    "fr": "Gambas à l'ail",
+    "en": "Garlic prawns"
+  },
+  "meal_type": "starter",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 10 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["tapas", "ail", "rapide", "crevette"],
+  "ingredients": [
+    { "raw": "600 g de crevettes crues, décortiquées", "qty": 600, "unit": "g", "item": "crevette", "prep": "décortiquée" },
+    { "raw": "10 gousses d'ail, en lamelles", "qty": 10, "unit": "piece", "item": "ail", "prep": "en lamelles" },
+    { "raw": "2 piments séchés", "qty": 2, "unit": "piece", "item": "piment séché" },
+    { "raw": "15 cl d'huile d'olive", "qty": 15, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "1 c. à c. de paprika fumé", "qty": 1, "unit": "tsp", "item": "paprika fumé" },
+    { "raw": "5 cl de vin blanc sec", "qty": 5, "unit": "cl", "item": "vin blanc" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "L'ail se met À FROID dans l'huile et monte doucement en température : jeté chaud, il brûle et amertume tout.", "en": "The garlic goes into COLD oil and warms gently: dropped into hot oil, it burns and turns everything bitter." },
+    { "fr": "Le laisser blondir cinq minutes à feu doux, avec les piments, jusqu'à ce qu'il embaume.", "en": "Let it turn pale gold over low heat for five minutes, with the chillies, until fragrant." },
+    { "fr": "Sécher les crevettes au papier absorbant : mouillées, elles bouillent au lieu de saisir.", "en": "Dry the prawns on paper: wet, they boil instead of searing." },
+    { "fr": "Monter le feu, jeter les crevettes, et les cuire DEUX MINUTES, pas davantage.", "en": "Raise the heat, add the prawns, and cook them for TWO MINUTES, no longer." },
+    { "fr": "Ajouter le paprika hors du feu et déglacer au vin blanc.", "en": "Add the paprika off the heat and deglaze with the white wine." },
+    { "fr": "Servir dans le plat de cuisson, brûlant, avec du pain pour l'huile à l'ail.", "en": "Serve in the cooking dish, scalding, with bread for the garlic oil." }
+  ]
+}

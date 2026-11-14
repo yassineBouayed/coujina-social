@@ -1,0 +1,40 @@
+{
+  "slug": "griwech",
+  "cuisine": "maghrebi",
+  "country": "algerie",
+  "origin": "Algérie",
+  "native_name": "Griwech",
+  "title": {
+    "fr": "Griwech, rubans frits au miel et au sésame",
+    "en": "Griwech, honey and sesame fried ribbons"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 50, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ramadan", "friture", "miel", "sesame"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf" },
+    { "raw": "80 g de beurre fondu", "qty": 80, "unit": "g", "item": "beurre", "prep": "fondu" },
+    { "raw": "3 c. à s. de graines de sésame, grillées", "qty": 3, "unit": "tbsp", "item": "sésame", "prep": "grillé" },
+    { "raw": "1 c. à s. de vinaigre blanc", "qty": 1, "unit": "tbsp", "item": "vinaigre blanc" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran", "optional": true },
+    { "raw": "1 c. à c. de levure chimique", "qty": 1, "unit": "tsp", "item": "levure chimique" },
+    { "raw": "600 g de miel", "qty": 600, "unit": "g", "item": "miel", "group": "trempage" },
+    { "raw": "1 c. à s. d'eau de fleur d'oranger", "qty": 1, "unit": "tbsp", "item": "eau de fleur d'oranger", "group": "trempage" },
+    { "raw": "1 l d'huile de tournesol pour la friture", "qty": 1, "unit": "l", "item": "huile de tournesol", "group": "friture" },
+    { "raw": "3 c. à s. de graines de sésame, pour la finition", "qty": 3, "unit": "tbsp", "item": "sésame", "group": "finition" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Pétrir farine, œufs, beurre, sésame moulu, vinaigre, levure, safran et sel en une pâte ferme et lisse.", "en": "Knead flour, eggs, butter, ground sesame, vinegar, baking powder, saffron and salt into a firm, smooth dough." },
+    { "fr": "Laisser reposer trente minutes, puis étaler très finement au laminoir ou au rouleau.", "en": "Rest for thirty minutes, then roll out very thin with a pasta machine or pin." },
+    { "fr": "Découper des rectangles, y faire quatre fentes, et les torsader en passant un bout dans une fente.", "en": "Cut rectangles, make four slits, and twist by passing one end through a slit." },
+    { "fr": "Frire à 165 °C en les retournant, jusqu'à une couleur dorée régulière.", "en": "Fry at 165°C, turning, to an even golden colour." },
+    { "fr": "Les plonger brûlants dans le miel tiède parfumé à la fleur d'oranger, cinq minutes.", "en": "Plunge them scalding into warm honey scented with orange blossom water, for five minutes." },
+    { "fr": "Égoutter sur grille et saupoudrer de sésame avant que le miel prenne.", "en": "Drain on a rack and dust with sesame before the honey sets." }
+  ]
+}

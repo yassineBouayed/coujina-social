@@ -1,0 +1,37 @@
+{
+  "slug": "farofa",
+  "cuisine": "latin-american",
+  "country": "bresil",
+  "origin": "Brésil",
+  "native_name": "Farofa",
+  "title": {
+    "fr": "Farofa de manioc au lard",
+    "en": "Toasted cassava flour with bacon"
+  },
+  "meal_type": "side",
+  "servings": 8,
+  "times": { "prep_min": 15, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["accompagnement", "manioc", "churrasco", "quotidien"],
+  "ingredients": [
+    { "raw": "400 g de farine de manioc", "qty": 400, "unit": "g", "item": "farine de manioc" },
+    { "raw": "250 g de lardons", "qty": 250, "unit": "g", "item": "lardon" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "120 g de beurre", "qty": 120, "unit": "g", "item": "beurre" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf", "optional": true },
+    { "raw": "100 g de raisins secs", "qty": 100, "unit": "g", "item": "raisin sec", "optional": true },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La farofa accompagne PRESQUE TOUS les plats brésiliens : elle absorbe le jus dans l'assiette.", "en": "Farofa accompanies ALMOST EVERY Brazilian dish: it soaks up the juices on the plate." },
+    { "fr": "Faire fondre les lardons et cuire les oignons dans leur gras, quinze minutes.", "en": "Render the bacon and cook the onions in its fat, for fifteen minutes." },
+    { "fr": "Ajouter la farine de manioc EN PLUIE, en remuant sans arrêt, hors du feu vif.", "en": "Rain in the cassava flour, stirring constantly, off the fierce heat." },
+    { "fr": "Elle doit BLONDIR uniformément : compter dix minutes de remuage continu.", "en": "It should turn EVENLY GOLDEN: allow ten minutes of continuous stirring." },
+    { "fr": "La farine de manioc brûle en quelques secondes d'inattention et devient irrécupérable.", "en": "Cassava flour burns within seconds of inattention and cannot be saved." },
+    { "fr": "La farofa doit rester SÈCHE et sableuse : si elle s'agglomère, il y a trop de gras.", "en": "Farofa must stay DRY and sandy: if it clumps, there is too much fat." }
+  ]
+}

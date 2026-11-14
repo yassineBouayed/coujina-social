@@ -1,0 +1,40 @@
+{
+  "slug": "matambre-arrollado",
+  "cuisine": "latin-american",
+  "country": "argentine",
+  "origin": "Argentine",
+  "native_name": "Matambre arrollado",
+  "title": {
+    "fr": "Matambre roulé farci",
+    "en": "Rolled stuffed flank steak"
+  },
+  "meal_type": "main",
+  "servings": 8,
+  "times": { "prep_min": 50, "cook_min": 120 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "boeuf", "roule", "froid"],
+  "ingredients": [
+    { "raw": "1,5 kg de flanchet de bœuf, en une pièce fine", "qty": 1500, "unit": "g", "item": "boeuf à mijoter", "prep": "en flanchet, en une pièce fine" },
+    { "raw": "4 carottes, en bâtonnets", "qty": 4, "unit": "piece", "item": "carotte", "prep": "en bâtonnets" },
+    { "raw": "6 œufs durs", "qty": 6, "unit": "piece", "item": "oeuf", "prep": "dur" },
+    { "raw": "200 g d'épinards", "qty": 200, "unit": "g", "item": "épinard" },
+    { "raw": "2 poivrons rouges, en lanières", "qty": 2, "unit": "piece", "item": "poivron rouge", "prep": "en lanières" },
+    { "raw": "8 gousses d'ail, hachées", "qty": 8, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "3 c. à s. d'origan séché", "qty": 3, "unit": "tbsp", "item": "origan séché" },
+    { "raw": "20 cl de vinaigre de vin", "qty": 20, "unit": "cl", "item": "vinaigre de vin" },
+    { "raw": "1 l de bouillon de bœuf", "qty": 1, "unit": "l", "item": "bouillon boeuf" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le matambre est le muscle entre la peau et les côtes : son nom vient de « mata hambre », tue-la-faim.", "en": "The matambre is the muscle between hide and ribs: its name comes from \"mata hambre\", hunger-killer." },
+    { "fr": "Le mariner au vinaigre, à l'ail et à l'origan UNE NUIT : le vinaigre attendrit ce muscle dur.", "en": "Marinate it in vinegar, garlic and oregano OVERNIGHT: the vinegar tenderises this tough muscle." },
+    { "fr": "Disposer la garniture EN BANDES, dans le sens où l'on va rouler : les carottes doivent traverser.", "en": "Lay the filling IN STRIPS, along the rolling direction: the carrots should run through." },
+    { "fr": "Placer les œufs durs EN LIGNE au centre : à la découpe, chaque tranche aura son rond jaune.", "en": "Place the hard-boiled eggs IN A LINE at the centre: each slice will then show its yellow round." },
+    { "fr": "Rouler TRÈS serré et ficeler tous les deux centimètres : lâche, le rouleau se défait à la cuisson.", "en": "Roll VERY tightly and tie every two centimetres: loose, the roll falls apart while cooking." },
+    { "fr": "Pocher deux heures dans le bouillon, puis PRESSER sous un poids une nuit avant de trancher.", "en": "Poach for two hours in the broth, then PRESS under a weight overnight before slicing." }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "buna",
+  "cuisine": "east-african",
+  "country": "ethiopie",
+  "origin": "Éthiopie",
+  "native_name": "Buna",
+  "title": {
+    "fr": "Buna, café éthiopien torréfié à la minute",
+    "en": "Buna, Ethiopian coffee roasted to order"
+  },
+  "meal_type": "drink",
+  "servings": 6,
+  "times": { "prep_min": 15, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ceremonie", "cafe", "accueil", "rituel"],
+  "ingredients": [
+    { "raw": "120 g de café vert en grains", "qty": 120, "unit": "g", "item": "café" },
+    { "raw": "1,2 l d'eau", "qty": 1.2, "unit": "l", "item": "eau" },
+    { "raw": "4 gousses de cardamome, écrasées", "qty": 4, "unit": "piece", "item": "cardamome", "prep": "écrasée", "optional": true },
+    { "raw": "6 c. à c. de sucre", "qty": 6, "unit": "tsp", "item": "sucre", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Laver les grains verts à l'eau froide et les égoutter.", "en": "Wash the green beans in cold water and drain." },
+    { "fr": "Les torréfier à la poêle, à feu moyen, en remuant sans arrêt, jusqu'à ce qu'ils brunissent et luisent d'huile.", "en": "Roast them in a pan over medium heat, stirring constantly, until they brown and glisten with oil." },
+    { "fr": "Faire circuler la poêle fumante parmi les invités : cette étape fait partie de la cérémonie, elle ne se saute pas.", "en": "Carry the smoking pan among the guests: this step is part of the ceremony, and is not skipped." },
+    { "fr": "Piler les grains au mortier, grossièrement, encore tièdes.", "en": "Pound the beans coarsely in a mortar, while still warm." },
+    { "fr": "Les faire bouillir dans la jebena avec la cardamome, puis laisser retomber trois fois.", "en": "Boil them in the jebena with the cardamom, letting it settle three times." },
+    { "fr": "Verser de haut, sans filtre, en laissant le marc au fond. Trois tournées se servent : abol, tona, baraka.", "en": "Pour from a height, unfiltered, leaving the grounds behind. Three rounds are served: abol, tona, baraka." }
+  ]
+}

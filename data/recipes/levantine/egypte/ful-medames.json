@@ -1,0 +1,39 @@
+{
+  "slug": "ful-medames",
+  "cuisine": "levantine",
+  "country": "egypte",
+  "origin": "Égypte",
+  "native_name": "Ful medames",
+  "title": {
+    "fr": "Ful medames, fèves à l'huile d'olive et au cumin",
+    "en": "Ful medames, broad beans with olive oil and cumin"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 15, "cook_min": 120 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["petit-dejeuner", "feve", "quotidien", "populaire"],
+  "ingredients": [
+    { "raw": "500 g de fèves sèches, trempées la veille", "qty": 500, "unit": "g", "item": "fève sèche", "prep": "trempée la veille" },
+    { "raw": "6 gousses d'ail, écrasées", "qty": 6, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "2 c. à c. de cumin moulu", "qty": 2, "unit": "tsp", "item": "cumin" },
+    { "raw": "2 citrons, leur jus", "qty": 2, "unit": "piece", "item": "citron" },
+    { "raw": "10 cl d'huile d'olive", "qty": 10, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "2 tomates, en dés", "qty": 2, "unit": "piece", "item": "tomate", "prep": "en dés", "group": "garniture" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé", "group": "garniture" },
+    { "raw": "3 œufs durs, en quartiers", "qty": 3, "unit": "piece", "item": "oeuf", "prep": "dur", "group": "garniture" },
+    { "raw": "1 c. à c. de piment en poudre", "qty": 1, "unit": "tsp", "item": "piment en poudre", "optional": true },
+    { "raw": "4 pains pita", "qty": 4, "unit": "piece", "item": "pain pita", "group": "service" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire les fèves trempées à petit feu deux heures, dans beaucoup d'eau non salée.", "en": "Cook the soaked beans over low heat for two hours, in plenty of unsalted water." },
+    { "fr": "Traditionnellement, elles cuisent toute la nuit dans une jarre à col étroit posée sur des braises mourantes.", "en": "Traditionally they cook overnight in a narrow-necked jar set on dying coals." },
+    { "fr": "Saler seulement en fin de cuisson, quand elles sont déjà tendres.", "en": "Salt only at the end, once they are already tender." },
+    { "fr": "Écraser un tiers des fèves à la fourchette et laisser le reste entier : le ful n'est pas une purée.", "en": "Crush a third of the beans with a fork and leave the rest whole: ful is not a purée." },
+    { "fr": "Ajouter l'ail, le cumin, le citron et l'huile d'olive, généreusement, et rectifier.", "en": "Add the garlic, cumin, lemon and olive oil, generously, and adjust." },
+    { "fr": "Servir brûlant, couvert de tomates, de persil et d'œufs durs, avec du pain chaud.", "en": "Serve scalding, topped with tomato, parsley and hard-boiled eggs, with warm bread." }
+  ]
+}

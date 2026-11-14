@@ -1,0 +1,32 @@
+{
+  "slug": "ca-phe-sua-da",
+  "cuisine": "southeast-asian",
+  "country": "vietnam",
+  "origin": "Viêt Nam",
+  "native_name": "Cà phê sữa đá",
+  "title": {
+    "fr": "Café glacé au lait concentré",
+    "en": "Iced coffee with condensed milk"
+  },
+  "meal_type": "drink",
+  "servings": 2,
+  "times": { "prep_min": 5, "cook_min": 10 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["cafe", "glace", "quotidien", "rue"],
+  "ingredients": [
+    { "raw": "4 c. à s. de café moulu grossièrement", "qty": 4, "unit": "tbsp", "item": "café", "prep": "moulu grossièrement" },
+    { "raw": "20 cl d'eau bouillante", "qty": 20, "unit": "cl", "item": "eau" },
+    { "raw": "6 c. à s. de lait concentré sucré", "qty": 6, "unit": "tbsp", "item": "lait concentré sucré" },
+    { "raw": "400 g de glaçons", "qty": 400, "unit": "g", "item": "eau", "prep": "en glaçons" }
+  ],
+  "steps": [
+    { "fr": "Le café vietnamien se moud GROSSIÈREMENT : une mouture fine bouche le filtre phin.", "en": "Vietnamese coffee is ground COARSE: a fine grind clogs the phin filter." },
+    { "fr": "Verser le lait concentré au fond du verre AVANT le café : on ne le remue pas tout de suite.", "en": "Pour the condensed milk into the bottom of the glass BEFORE the coffee: it is not stirred straight away." },
+    { "fr": "Poser le phin sur le verre, y mettre le café, tasser légèrement, et mouiller de deux cuillères d'eau.", "en": "Set the phin on the glass, add the coffee, tamp it lightly, and wet it with two spoons of water." },
+    { "fr": "Attendre trente secondes que le café gonfle, puis remplir le filtre.", "en": "Wait thirty seconds for the coffee to bloom, then fill the filter." },
+    { "fr": "L'écoulement doit prendre CINQ MINUTES : plus vite, le café est faible ; plus lent, il est amer.", "en": "The drip should take FIVE MINUTES: faster and the coffee is weak; slower and it is bitter." },
+    { "fr": "Remuer pour mélanger le lait, puis verser sur un grand verre de glaçons.", "en": "Stir to mix in the milk, then pour over a tall glass of ice." }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "bacalao-al-pil-pil",
+  "cuisine": "mediterranean",
+  "country": "espagne",
+  "origin": "Espagne",
+  "native_name": "Bacalao al pil-pil",
+  "title": {
+    "fr": "Morue au pil-pil",
+    "en": "Cod in pil-pil sauce"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 25 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["pays-basque", "morue", "emulsion", "technique"],
+  "ingredients": [
+    { "raw": "800 g de morue salée, dessalée 36 h", "qty": 800, "unit": "g", "item": "morue salée", "prep": "dessalée 36 h" },
+    { "raw": "25 cl d'huile d'olive", "qty": 25, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "6 gousses d'ail, en lamelles", "qty": 6, "unit": "piece", "item": "ail", "prep": "en lamelles" },
+    { "raw": "2 piments séchés", "qty": 2, "unit": "piece", "item": "piment séché" }
+  ],
+  "steps": [
+    { "fr": "Quatre ingrédients, aucune farine, aucun œuf : le pil-pil est une émulsion de gélatine de poisson.", "en": "Four ingredients, no flour, no egg: pil-pil is an emulsion of fish gelatine." },
+    { "fr": "Dessaler la morue 36 heures au frais, en changeant l'eau quatre fois.", "en": "Desalt the cod for 36 hours in the fridge, changing the water four times." },
+    { "fr": "Faire blondir l'ail et le piment dans l'huile, les retirer, et laisser TIÉDIR l'huile.", "en": "Gently brown the garlic and chilli in the oil, remove them, and let the oil COOL to warm." },
+    { "fr": "Pocher la morue PEAU VERS LE BAS, à 60 °C, dix minutes : c'est la peau qui libère la gélatine.", "en": "Poach the cod SKIN DOWN at 60°C for ten minutes: the skin is what releases the gelatine." },
+    { "fr": "Retirer le poisson, laisser l'huile tiédir encore, puis remuer la casserole EN CERCLES, sans arrêt.", "en": "Lift out the fish, let the oil cool further, then swirl the pan IN CIRCLES, without stopping." },
+    { "fr": "L'huile blanchit et épaissit en cinq à dix minutes : si elle reste liquide, elle est trop chaude.", "en": "The oil whitens and thickens within five to ten minutes: if it stays thin, it is too hot." }
+  ]
+}

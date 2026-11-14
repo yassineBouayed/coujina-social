@@ -1,0 +1,41 @@
+{
+  "slug": "boulettes-sardines-tomate",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Kefta del hout",
+  "title": {
+    "fr": "Boulettes de sardines à la sauce tomate",
+    "en": "Sardine balls in tomato sauce"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 40, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["sardine", "cote", "economique", "boulettes"],
+  "ingredients": [
+    { "raw": "1 kg de sardines, en filets sans arêtes", "qty": 1000, "unit": "g", "item": "sardine", "prep": "en filets", "group": "boulettes" },
+    { "raw": "1 bouquet de coriandre fraîche, ciselé", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée", "group": "boulettes" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé", "group": "boulettes" },
+    { "raw": "4 gousses d'ail", "qty": 4, "unit": "piece", "item": "ail", "group": "boulettes" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin", "group": "boulettes" },
+    { "raw": "1 c. à c. de paprika", "qty": 1, "unit": "tsp", "item": "paprika", "group": "boulettes" },
+    { "raw": "2 c. à s. de semoule fine", "qty": 2, "unit": "tbsp", "item": "semoule fine", "group": "boulettes" },
+    { "raw": "800 g de tomates, pelées et concassées", "qty": 800, "unit": "g", "item": "tomate", "prep": "pelée et concassée", "group": "sauce" },
+    { "raw": "1 oignon, émincé", "qty": 1, "unit": "piece", "item": "oignon", "prep": "émincé", "group": "sauce" },
+    { "raw": "1 c. à s. de concentré de tomate", "qty": 1, "unit": "tbsp", "item": "concentré de tomate", "group": "sauce" },
+    { "raw": "1 c. à c. de paprika", "qty": 1, "unit": "tsp", "item": "paprika", "group": "sauce" },
+    { "raw": "5 c. à s. d'huile d'olive", "qty": 5, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Hacher les filets de sardine au couteau, pas au mixeur : mixée, la chair rend son eau et les boulettes se délitent.", "en": "Chop the sardine fillets with a knife, not a blender: blended, the flesh weeps and the balls fall apart." },
+    { "fr": "Mélanger avec ail, herbes, cumin, paprika, sel et semoule fine, et laisser reposer vingt minutes au frais.", "en": "Mix with garlic, herbs, cumin, paprika, salt and fine semolina, and rest for twenty minutes in the fridge." },
+    { "fr": "Former des boulettes de la taille d'une noix, à mains mouillées.", "en": "Shape walnut-sized balls with wet hands." },
+    { "fr": "Faire la sauce : oignon dans l'huile, tomates, concentré et paprika, vingt minutes jusqu'à ce qu'elle épaississe.", "en": "Make the sauce: onion in oil, tomatoes, purée and paprika, twenty minutes until thickened." },
+    { "fr": "Déposer les boulettes dans la sauce frémissante sans les remuer, et couvrir dix minutes.", "en": "Lay the balls in the simmering sauce without stirring, and cover for ten minutes." },
+    { "fr": "Les retourner une seule fois, en fin de cuisson, et servir avec du pain.", "en": "Turn them once only, at the end, and serve with bread." }
+  ]
+}

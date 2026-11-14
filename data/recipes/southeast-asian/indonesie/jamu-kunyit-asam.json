@@ -1,0 +1,36 @@
+{
+  "slug": "jamu-kunyit-asam",
+  "cuisine": "southeast-asian",
+  "country": "indonesie",
+  "origin": "Indonésie",
+  "native_name": "Jamu kunyit asam",
+  "title": {
+    "fr": "Jamu, boisson au curcuma et au tamarin",
+    "en": "Jamu, turmeric and tamarind tonic"
+  },
+  "meal_type": "drink",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["tonique", "curcuma", "tamarin", "java"],
+  "ingredients": [
+    { "raw": "200 g de curcuma frais", "qty": 200, "unit": "g", "item": "curcuma frais" },
+    { "raw": "80 g de gingembre frais", "qty": 80, "unit": "g", "item": "gingembre" },
+    { "raw": "4 c. à s. de pâte de tamarin", "qty": 4, "unit": "tbsp", "item": "pâte de tamarin" },
+    { "raw": "150 g de sucre de palme", "qty": 150, "unit": "g", "item": "sucre de palme" },
+    { "raw": "1,5 l d'eau", "qty": 1.5, "unit": "l", "item": "eau" },
+    { "raw": "2 citrons verts, leur jus", "qty": 2, "unit": "piece", "item": "citron vert" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" },
+    { "raw": "1 pincée de poivre noir", "qty": 1, "unit": "pinch", "item": "poivre noir", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Le jamu est une boisson-remède qui se boit quotidiennement à Java, souvent le matin.", "en": "Jamu is a remedy-drink taken daily in Java, often in the morning." },
+    { "fr": "Râper le curcuma frais et le gingembre — porter des gants, le curcuma tache tout durablement.", "en": "Grate the fresh turmeric and ginger — wear gloves, turmeric stains everything permanently." },
+    { "fr": "Les faire bouillir dans l'eau avec le tamarin et le sucre de palme, quinze minutes.", "en": "Boil them in the water with the tamarind and palm sugar for fifteen minutes." },
+    { "fr": "Filtrer à travers un linge fin en pressant fort, pour extraire tout le jus.", "en": "Strain through fine cloth, pressing hard, to extract every drop." },
+    { "fr": "Ajouter le sel, le citron vert et une pointe de poivre : le poivre aide l'assimilation du curcuma.", "en": "Add the salt, lime and a touch of pepper: pepper helps the turmeric be absorbed." },
+    { "fr": "Se boit chaud ou glacé, et se garde trois jours au réfrigérateur.", "en": "Drink it hot or iced; it keeps three days in the fridge." }
+  ]
+}

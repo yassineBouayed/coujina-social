@@ -1,0 +1,36 @@
+{
+  "slug": "guacamole",
+  "cuisine": "latin-american",
+  "country": "mexique",
+  "origin": "Mexique",
+  "native_name": "Guacamole",
+  "title": {
+    "fr": "Guacamole au mortier",
+    "en": "Mortar-crushed guacamole"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 15, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["avocat", "cru", "rapide", "apero"],
+  "ingredients": [
+    { "raw": "5 avocats mûrs", "qty": 5, "unit": "piece", "item": "avocat" },
+    { "raw": "2 citrons verts, leur jus", "qty": 2, "unit": "piece", "item": "citron vert" },
+    { "raw": "1 oignon rouge, haché très finement", "qty": 1, "unit": "piece", "item": "oignon rouge", "prep": "haché très finement" },
+    { "raw": "2 tomates, épépinées et en dés", "qty": 2, "unit": "piece", "item": "tomate", "prep": "épépinée, en dés" },
+    { "raw": "2 piments frais, hachés", "qty": 2, "unit": "piece", "item": "piment frais", "prep": "haché" },
+    { "raw": "1 bouquet de coriandre, ciselée", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "1 c. à c. de gros sel", "qty": 1, "unit": "tsp", "item": "gros sel" },
+    { "raw": "200 g de tortillas de maïs, en chips", "qty": 200, "unit": "g", "item": "tortilla de maïs", "prep": "en chips", "group": "service" }
+  ],
+  "steps": [
+    { "fr": "Le guacamole ne contient NI crème NI mayonnaise NI ail : cinq ingrédients, et c'est tout.", "en": "Guacamole contains NO cream, NO mayonnaise and NO garlic: five ingredients, and that is all." },
+    { "fr": "Écraser d'abord piment, oignon, coriandre et gros sel au MORTIER, en pâte.", "en": "First crush the chilli, onion, coriander and coarse salt IN A MORTAR, to a paste." },
+    { "fr": "Le sel agit comme abrasif et libère les huiles : c'est le geste qui fait la différence.", "en": "The salt acts as an abrasive and releases the oils: the move that makes the difference." },
+    { "fr": "Écraser l'avocat À LA FOURCHETTE, en gardant des MORCEAUX : mixé, il devient une purée sans intérêt.", "en": "Crush the avocado WITH A FORK, keeping CHUNKS: blended, it becomes a characterless purée." },
+    { "fr": "Ajouter le citron vert IMMÉDIATEMENT : l'avocat brunit en dix minutes à l'air libre.", "en": "Add the lime IMMEDIATELY: avocado browns within ten minutes in open air." },
+    { "fr": "Ajouter les tomates EN DERNIER, épépinées : leur jus liquéfierait tout le guacamole.", "en": "Add the tomatoes LAST, deseeded: their juice would water down the whole guacamole." }
+  ]
+}

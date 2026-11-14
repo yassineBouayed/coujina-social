@@ -1,0 +1,41 @@
+{
+  "slug": "osso-buco",
+  "cuisine": "mediterranean",
+  "country": "italie",
+  "origin": "Italie",
+  "native_name": "Ossobuco alla milanese",
+  "title": {
+    "fr": "Osso buco à la milanaise",
+    "en": "Ossobuco alla milanese"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 120 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["milan", "veau", "gremolata", "mijote"],
+  "ingredients": [
+    { "raw": "5 tranches de jarret de veau", "qty": 5, "unit": "piece", "item": "veau à mijoter", "prep": "en tranches de jarret" },
+    { "raw": "2 carottes, en petits dés", "qty": 2, "unit": "piece", "item": "carotte", "prep": "en petits dés" },
+    { "raw": "2 branches de céleri, en petits dés", "qty": 2, "unit": "piece", "item": "céleri branche", "prep": "en petits dés" },
+    { "raw": "1 oignon, en petits dés", "qty": 1, "unit": "piece", "item": "oignon", "prep": "en petits dés" },
+    { "raw": "25 cl de vin blanc sec", "qty": 25, "unit": "cl", "item": "vin blanc" },
+    { "raw": "50 cl de bouillon de volaille", "qty": 50, "unit": "cl", "item": "bouillon volaille" },
+    { "raw": "3 c. à s. de farine de blé", "qty": 3, "unit": "tbsp", "item": "farine de blé" },
+    { "raw": "80 g de beurre", "qty": 80, "unit": "g", "item": "beurre" },
+    { "raw": "1 citron, son zeste", "qty": 1, "unit": "piece", "item": "citron", "group": "gremolata" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé", "group": "gremolata" },
+    { "raw": "2 gousses d'ail, hachées", "qty": 2, "unit": "piece", "item": "ail", "prep": "haché", "group": "gremolata" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Inciser la membrane qui entoure chaque tranche en trois endroits : sans cela, elle se recroqueville.", "en": "Nick the membrane around each slice in three places: without this, it curls up." },
+    { "fr": "Fariner et faire dorer au beurre sur les deux faces, puis réserver.", "en": "Flour them and brown them in butter on both sides, then set aside." },
+    { "fr": "Cuire le soffritto quinze minutes, déglacer au vin blanc, et le laisser réduire de moitié.", "en": "Cook the soffritto for fifteen minutes, deglaze with white wine, and reduce it by half." },
+    { "fr": "Remettre la viande À PLAT, os vers le haut, pour que la moelle ne tombe pas dans la sauce.", "en": "Return the meat FLAT, bone side up, so the marrow does not fall into the sauce." },
+    { "fr": "Cuire une heure et demie à couvert, en arrosant, sans jamais retourner les tranches.", "en": "Cook for an hour and a half covered, basting, without ever turning the slices." },
+    { "fr": "La gremolata se met CRUE au dernier moment : c'est elle qui réveille tout le plat.", "en": "The gremolata goes on RAW at the last moment: it is what wakes the whole dish up." }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "sticky-toffee-pudding",
+  "cuisine": "western-european",
+  "country": "royaume-uni",
+  "origin": "Royaume-Uni",
+  "native_name": "Sticky toffee pudding",
+  "title": {
+    "fr": "Pudding aux dattes et caramel",
+    "en": "Sticky toffee pudding"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 25, "cook_min": 40 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["datte", "caramel", "hiver", "reconfort"],
+  "ingredients": [
+    { "raw": "250 g de dattes, dénoyautées", "qty": 250, "unit": "g", "item": "datte", "prep": "dénoyautée" },
+    { "raw": "25 cl d'eau bouillante", "qty": 25, "unit": "cl", "item": "eau" },
+    { "raw": "1 c. à c. de bicarbonate de soude", "qty": 1, "unit": "tsp", "item": "bicarbonate de soude" },
+    { "raw": "200 g de farine de blé", "qty": 200, "unit": "g", "item": "farine de blé" },
+    { "raw": "150 g de sucre roux", "qty": 150, "unit": "g", "item": "sucre roux" },
+    { "raw": "80 g de beurre, mou", "qty": 80, "unit": "g", "item": "beurre", "prep": "mou" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf" },
+    { "raw": "1 c. à c. de levure chimique", "qty": 1, "unit": "tsp", "item": "levure chimique" },
+    { "raw": "200 g de sucre roux", "qty": 200, "unit": "g", "item": "sucre roux", "group": "caramel" },
+    { "raw": "150 g de beurre", "qty": 150, "unit": "g", "item": "beurre", "group": "caramel" },
+    { "raw": "30 cl de crème liquide", "qty": 30, "unit": "cl", "item": "crème liquide", "group": "caramel" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire tremper les dattes dans l'eau bouillante avec le BICARBONATE : il les fait éclater en purée.", "en": "Soak the dates in boiling water with the BICARBONATE: it breaks them down to a purée." },
+    { "fr": "C'est cette purée de dattes, et non le caramel, qui donne au pudding son moelleux et sa couleur.", "en": "That date purée, not the toffee, gives the pudding its moistness and its colour." },
+    { "fr": "Crémer beurre et sucre roux, ajouter les œufs un à un, puis farine et purée de dattes.", "en": "Cream the butter and brown sugar, add the eggs one at a time, then the flour and date purée." },
+    { "fr": "Cuire quarante minutes à 175 °C : la pointe d'un couteau doit ressortir juste humide.", "en": "Bake for forty minutes at 175°C: a knife tip should come out just moist." },
+    { "fr": "Pour le caramel, faire fondre beurre et sucre, puis ajouter la crème et laisser bouillir trois minutes.", "en": "For the toffee, melt the butter and sugar, then add the cream and boil for three minutes." },
+    { "fr": "PIQUER le gâteau chaud à la fourchette et verser un tiers du caramel dessus, pour qu'il l'absorbe.", "en": "PRICK the warm cake with a fork and pour a third of the toffee over, so it soaks in." }
+  ]
+}

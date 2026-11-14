@@ -1,0 +1,34 @@
+{
+  "slug": "broa-de-milho",
+  "cuisine": "mediterranean",
+  "country": "portugal",
+  "origin": "Portugal",
+  "native_name": "Broa de milho",
+  "title": {
+    "fr": "Broa, pain de maïs portugais",
+    "en": "Broa, Portuguese corn bread"
+  },
+  "meal_type": "bread",
+  "servings": 8,
+  "times": { "prep_min": 40, "cook_min": 50 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["nord", "mais", "pain", "rustique"],
+  "ingredients": [
+    { "raw": "400 g de farine de maïs", "qty": 400, "unit": "g", "item": "farine de maïs" },
+    { "raw": "200 g de farine de blé", "qty": 200, "unit": "g", "item": "farine de blé" },
+    { "raw": "45 cl d'eau bouillante", "qty": 45, "unit": "cl", "item": "eau" },
+    { "raw": "10 g de levure boulangère sèche", "qty": 10, "unit": "g", "item": "levure boulangère" },
+    { "raw": "12 g de sel", "qty": 12, "unit": "g", "item": "sel" },
+    { "raw": "3 c. à s. d'huile d'olive", "qty": 3, "unit": "tbsp", "item": "huile d'olive" }
+  ],
+  "steps": [
+    { "fr": "Ébouillanter la farine de maïs : l'eau BOUILLANTE gélatinise l'amidon et rend la mie moelleuse.", "en": "Scald the corn flour: BOILING water gelatinises the starch and makes the crumb tender." },
+    { "fr": "À l'eau tiède, la broa reste sableuse et s'effrite dès qu'on la coupe.", "en": "With warm water, broa stays sandy and crumbles the moment you cut it.." },
+    { "fr": "Laisser refroidir cette bouillie à 40 °C avant d'ajouter la levure, qui meurt au-dessus de 50 °C.", "en": "Cool that porridge to 40°C before adding the yeast, which dies above 50°C." },
+    { "fr": "Ajouter la farine de blé : sans elle, le maïs seul n'a pas de gluten et ne lève pas.", "en": "Add the wheat flour: without it, corn alone has no gluten and cannot rise." },
+    { "fr": "Façonner une miche RONDE et haute, la fariner généreusement, et laisser lever une heure.", "en": "Shape a tall ROUND loaf, flour it generously, and prove for an hour." },
+    { "fr": "Cuire 50 minutes à 200 °C : la croûte doit être épaisse et craqueler en refroidissant.", "en": "Bake for 50 minutes at 200°C: the crust should be thick and crack as it cools." }
+  ]
+}

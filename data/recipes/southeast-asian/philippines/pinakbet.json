@@ -1,0 +1,39 @@
+{
+  "slug": "pinakbet",
+  "cuisine": "southeast-asian",
+  "country": "philippines",
+  "origin": "Philippines",
+  "native_name": "Pinakbet",
+  "title": {
+    "fr": "Pinakbet, légumes du Nord au bagoong",
+    "en": "Pinakbet, northern vegetables with shrimp paste"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ilocos", "legumes", "bagoong", "quotidien"],
+  "ingredients": [
+    { "raw": "2 aubergines, en tronçons", "qty": 2, "unit": "piece", "item": "aubergine", "prep": "en tronçons" },
+    { "raw": "200 g de gombos, entiers", "qty": 200, "unit": "g", "item": "gombo" },
+    { "raw": "300 g de courge, en cubes", "qty": 300, "unit": "g", "item": "courge", "prep": "en cubes" },
+    { "raw": "200 g de haricots verts, en tronçons", "qty": 200, "unit": "g", "item": "haricot vert", "prep": "en tronçons" },
+    { "raw": "1 amère melon, en tronçons", "qty": 1, "unit": "piece", "item": "concombre", "prep": "en tronçons" },
+    { "raw": "300 g de poitrine de porc, en lanières", "qty": 300, "unit": "g", "item": "poitrine de porc", "prep": "en lanières" },
+    { "raw": "4 c. à s. de pâte de crevette", "qty": 4, "unit": "tbsp", "item": "pâte de crevette" },
+    { "raw": "3 tomates, en quartiers", "qty": 3, "unit": "piece", "item": "tomate", "prep": "en quartiers" },
+    { "raw": "1 oignon, émincé", "qty": 1, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "1 morceau de gingembre, en julienne", "qty": 1, "unit": "piece", "item": "gingembre", "prep": "en julienne" },
+    { "raw": "3 c. à s. d'huile neutre", "qty": 3, "unit": "tbsp", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "La règle du pinakbet : ON NE REMUE PAS. On secoue la casserole, sinon les légumes se réduisent en purée.", "en": "The pinakbet rule: DO NOT STIR. Shake the pan instead, or the vegetables turn to mush." },
+    { "fr": "Faire rendre son gras au porc, puis ajouter oignon, gingembre et tomates.", "en": "Render the fat from the pork, then add the onion, ginger and tomatoes." },
+    { "fr": "Ajouter la pâte de crevette et la cuire deux minutes : elle sale tout le plat.", "en": "Add the shrimp paste and cook it for two minutes: it salts the whole dish." },
+    { "fr": "Empiler les légumes EN COUCHES par temps de cuisson : courge en bas, gombos en haut.", "en": "Stack the vegetables IN LAYERS by cooking time: squash at the bottom, okra on top." },
+    { "fr": "Couvrir et laisser étuver vingt minutes sans ouvrir : les légumes cuisent dans leur propre eau.", "en": "Cover and steam for twenty minutes without opening: the vegetables cook in their own moisture." },
+    { "fr": "Secouer la casserole une fois à mi-cuisson, et servir directement dedans.", "en": "Shake the pan once halfway through, and serve it straight from the pot." }
+  ]
+}

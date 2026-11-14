@@ -1,0 +1,40 @@
+{
+  "slug": "arroz-caldo",
+  "cuisine": "southeast-asian",
+  "country": "philippines",
+  "origin": "Philippines",
+  "native_name": "Arroz caldo",
+  "title": {
+    "fr": "Arroz caldo, bouillie de riz au poulet et safran",
+    "en": "Arroz caldo, chicken rice porridge with saffron"
+  },
+  "meal_type": "soup",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 60 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["pluie", "reconfort", "gingembre", "riz"],
+  "ingredients": [
+    { "raw": "300 g de riz gluant", "qty": 300, "unit": "g", "item": "riz gluant" },
+    { "raw": "800 g de cuisses de poulet, en morceaux", "qty": 800, "unit": "g", "item": "cuisse de poulet", "prep": "en morceaux" },
+    { "raw": "1 gros morceau de gingembre, en julienne", "qty": 1, "unit": "piece", "item": "gingembre", "prep": "en julienne" },
+    { "raw": "8 gousses d'ail, hachées", "qty": 8, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "5 c. à s. de sauce poisson", "qty": 5, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "2 l de bouillon de volaille", "qty": 2, "unit": "l", "item": "bouillon volaille" },
+    { "raw": "4 œufs durs, coupés en deux", "qty": 4, "unit": "piece", "item": "oeuf", "prep": "dur", "group": "garniture" },
+    { "raw": "6 oignons nouveaux, ciselés", "qty": 6, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé", "group": "garniture" },
+    { "raw": "4 citrons verts, en quartiers", "qty": 4, "unit": "piece", "item": "citron vert", "group": "garniture" },
+    { "raw": "6 c. à s. d'huile neutre", "qty": 6, "unit": "tbsp", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Frire la moitié de l'ail jusqu'à ce qu'il soit BRUN et croustillant, et le réserver pour le service.", "en": "Fry half the garlic until BROWN and crisp, and set it aside for serving." },
+    { "fr": "Cet ail frit est ce qui distingue l'arroz caldo d'un simple congee : il n'est pas facultatif.", "en": "That fried garlic is what separates arroz caldo from a plain congee: it is not optional." },
+    { "fr": "Faire revenir gingembre, oignon et le reste de l'ail, puis saisir le poulet.", "en": "Fry the ginger, onion and remaining garlic, then sear the chicken." },
+    { "fr": "Ajouter le riz gluant, le remuer deux minutes, puis verser le bouillon et le safran.", "en": "Add the glutinous rice, stir it for two minutes, then add the stock and saffron." },
+    { "fr": "Cuire quarante-cinq minutes en remuant souvent : le riz gluant accroche très vite au fond.", "en": "Cook for forty-five minutes, stirring often: glutinous rice catches on the base very fast." },
+    { "fr": "Servir avec œuf dur, ail frit, ciboule et un quartier de citron vert à presser.", "en": "Serve with hard-boiled egg, fried garlic, spring onion and a lime wedge to squeeze." }
+  ]
+}

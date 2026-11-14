@@ -1,0 +1,40 @@
+{
+  "slug": "ghormeh-sabzi",
+  "cuisine": "middle-eastern",
+  "country": "iran",
+  "origin": "Iran",
+  "native_name": "Ghormeh sabzi",
+  "title": {
+    "fr": "Ghormeh sabzi, ragoût d'herbes au citron séché",
+    "en": "Ghormeh sabzi, herb stew with dried lime"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 180 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["national", "herbes", "citron-seche", "cuisson-lente"],
+  "ingredients": [
+    { "raw": "800 g d'épaule d'agneau, en cubes", "qty": 800, "unit": "g", "item": "épaule d'agneau", "prep": "en cubes" },
+    { "raw": "3 bouquets de persil plat, ciselés", "qty": 3, "unit": "bunch", "item": "persil plat", "prep": "ciselé", "group": "herbes" },
+    { "raw": "1 bouquet de coriandre fraîche, ciselée", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée", "group": "herbes" },
+    { "raw": "4 oignons nouveaux, ciselés", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé", "group": "herbes" },
+    { "raw": "3 c. à s. de feuilles de fenugrec séchées", "qty": 3, "unit": "tbsp", "item": "feuille de fenugrec", "group": "herbes" },
+    { "raw": "250 g de haricots rouges, trempés la veille", "qty": 250, "unit": "g", "item": "haricot rouge", "prep": "trempé la veille" },
+    { "raw": "5 citrons séchés d'Oman", "qty": 5, "unit": "piece", "item": "citron séché d'Oman" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "10 cl d'huile neutre", "qty": 10, "unit": "cl", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Faire revenir les herbes ciselées dans l'huile, à feu moyen, VINGT MINUTES, jusqu'à ce qu'elles noircissent presque.", "en": "Fry the chopped herbs in the oil over medium heat for TWENTY MINUTES, until they nearly blacken." },
+    { "fr": "C'est cette cuisson des herbes qui fait le plat : vertes, elles donnent une soupe fade et amère.", "en": "That frying of the herbs is what makes the dish: left green, they give a bland, bitter soup." },
+    { "fr": "Faire dorer la viande avec l'oignon et le curcuma dans une autre casserole.", "en": "Brown the meat with the onion and turmeric in another pan." },
+    { "fr": "Réunir viande, herbes et haricots, mouiller à hauteur, et laisser mijoter deux heures.", "en": "Combine the meat, herbs and beans, cover with water, and simmer for two hours." },
+    { "fr": "Percer les citrons séchés et les ajouter à mi-cuisson : ajoutés dès le début, ils rendent le plat amer.", "en": "Pierce the dried limes and add them halfway through: added at the start, they turn the dish bitter." },
+    { "fr": "Le ghormeh sabzi est prêt quand une nappe d'huile verte se sépare en surface. Servir sur du riz basmati.", "en": "Ghormeh sabzi is ready when a film of green oil separates on top. Serve over basmati rice." }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "shami-kebab",
+  "cuisine": "south-asian",
+  "country": "pakistan",
+  "origin": "Pakistan",
+  "native_name": "Shami kebab",
+  "title": {
+    "fr": "Shami kebab, galettes de viande aux pois cassés",
+    "en": "Shami kebab, meat and split pea patties"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 60 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "galette", "pois-casse", "ramadan"],
+  "ingredients": [
+    { "raw": "600 g d'épaule d'agneau, en cubes", "qty": 600, "unit": "g", "item": "épaule d'agneau", "prep": "en cubes" },
+    { "raw": "200 g de pois cassés", "qty": 200, "unit": "g", "item": "pois cassé" },
+    { "raw": "1 oignon", "qty": 1, "unit": "piece", "item": "oignon" },
+    { "raw": "2 c. à s. de pâte gingembre-ail", "qty": 2, "unit": "tbsp", "item": "pâte gingembre-ail" },
+    { "raw": "4 cardamomes noires", "qty": 4, "unit": "piece", "item": "cardamome noire" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "4 piments séchés", "qty": 4, "unit": "piece", "item": "piment séché" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "1 oignon rouge, haché finement", "qty": 1, "unit": "piece", "item": "oignon rouge", "prep": "haché finement", "group": "farce" },
+    { "raw": "10 cl d'huile neutre", "qty": 10, "unit": "cl", "item": "huile neutre" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire viande, pois cassés, oignon et toutes les épices ensemble, avec très peu d'eau, une heure.", "en": "Cook the meat, split peas, onion and all the spices together, with very little water, for an hour." },
+    { "fr": "Faire évaporer TOUT le liquide en fin de cuisson : une pâte humide donne des kebabs qui se défont.", "en": "Drive off ALL the liquid at the end: a wet paste gives kebabs that fall apart." },
+    { "fr": "Mixer le tout en une pâte fine, puis ajouter les œufs et la coriandre.", "en": "Blend everything to a fine paste, then add the eggs and coriander." },
+    { "fr": "Laisser reposer deux heures au réfrigérateur : la pâte doit être ferme et froide avant façonnage.", "en": "Rest for two hours in the fridge: the paste must be firm and cold before shaping." },
+    { "fr": "Former des galettes fines en glissant une pincée d'oignon rouge cru au centre de chacune.", "en": "Shape thin patties, tucking a pinch of raw red onion into the middle of each." },
+    { "fr": "Poêler dans peu d'huile, trois minutes par face, jusqu'à ce qu'elles soient brunes et croustillantes.", "en": "Pan-fry in a little oil, three minutes a side, until brown and crisp." }
+  ]
+}

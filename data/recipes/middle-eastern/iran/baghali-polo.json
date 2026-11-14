@@ -1,0 +1,38 @@
+{
+  "slug": "baghali-polo",
+  "cuisine": "middle-eastern",
+  "country": "iran",
+  "origin": "Iran",
+  "native_name": "Baghali polo",
+  "title": {
+    "fr": "Baghali polo, riz aux fèves et à l'aneth",
+    "en": "Baghali polo, rice with broad beans and dill"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 70 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["printemps", "feve", "aneth", "agneau"],
+  "ingredients": [
+    { "raw": "600 g de riz basmati", "qty": 600, "unit": "g", "item": "riz basmati" },
+    { "raw": "500 g de fèves fraîches, écossées", "qty": 500, "unit": "g", "item": "fève fraîche", "prep": "écossée" },
+    { "raw": "2 bouquets d'aneth, ciselés", "qty": 2, "unit": "bunch", "item": "aneth", "prep": "ciselé" },
+    { "raw": "1 kg de gigot d'agneau, en morceaux", "qty": 1000, "unit": "g", "item": "gigot d'agneau", "prep": "en morceaux" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "120 g de beurre", "qty": 120, "unit": "g", "item": "beurre" },
+    { "raw": "1 oignon", "qty": 1, "unit": "piece", "item": "oignon" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Écosser les fèves ET retirer leur seconde peau : gardée, elle est coriace et amère.", "en": "Shell the beans AND slip off the second skin: left on, it is tough and bitter." },
+    { "fr": "Cuire l'agneau avec l'oignon, la cannelle et le sel, une heure et demie, jusqu'à ce qu'il soit tendre.", "en": "Cook the lamb with the onion, cinnamon and salt for an hour and a half, until tender." },
+    { "fr": "Précuire le riz trempé cinq minutes, ajouter les fèves deux minutes, puis égoutter le tout.", "en": "Parboil the soaked rice for five minutes, add the beans for two, then drain everything." },
+    { "fr": "Monter en couches dans la cocotte beurrée : riz, aneth, fèves, en terminant par le riz.", "en": "Layer it in the buttered pot: rice, dill, beans, finishing with rice." },
+    { "fr": "L'aneth ne se cuit jamais longtemps : il perd sa couleur et son parfum en dix minutes de feu vif.", "en": "Dill is never cooked long: it loses its colour and scent within ten minutes of high heat." },
+    { "fr": "Couvrir d'un linge et cuire quarante minutes à feu doux, puis servir avec l'agneau.", "en": "Cover with a cloth and cook for forty minutes over low heat, then serve with the lamb." }
+  ]
+}

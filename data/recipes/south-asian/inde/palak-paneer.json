@@ -1,0 +1,39 @@
+{
+  "slug": "palak-paneer",
+  "cuisine": "south-asian",
+  "country": "inde",
+  "origin": "Inde",
+  "native_name": "Palak paneer",
+  "title": {
+    "fr": "Palak paneer, épinards au fromage frais",
+    "en": "Palak paneer, spinach with fresh cheese"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["vegetarien", "epinard", "paneer", "punjab"],
+  "ingredients": [
+    { "raw": "800 g d'épinards frais", "qty": 800, "unit": "g", "item": "épinard" },
+    { "raw": "400 g de paneer, en cubes", "qty": 400, "unit": "g", "item": "paneer", "prep": "en cubes" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "2 c. à s. de pâte gingembre-ail", "qty": 2, "unit": "tbsp", "item": "pâte gingembre-ail" },
+    { "raw": "2 piments verts", "qty": 2, "unit": "piece", "item": "piment frais" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin" },
+    { "raw": "1 c. à c. de garam masala", "qty": 1, "unit": "tsp", "item": "garam masala" },
+    { "raw": "10 cl de crème liquide", "qty": 10, "unit": "cl", "item": "crème liquide" },
+    { "raw": "60 g de ghee", "qty": 60, "unit": "g", "item": "ghee" },
+    { "raw": "1 c. à s. de feuilles de fenugrec séchées", "qty": 1, "unit": "tbsp", "item": "feuille de fenugrec", "optional": true },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Blanchir les épinards DEUX MINUTES seulement, puis les plonger aussitôt dans l'eau glacée.", "en": "Blanch the spinach for TWO MINUTES only, then plunge it straight into iced water." },
+    { "fr": "Ce choc thermique fixe la chlorophylle : sans lui, le palak vire au vert kaki en cuisant.", "en": "That thermal shock fixes the chlorophyll: without it, palak turns khaki as it cooks." },
+    { "fr": "Les mixer avec les piments verts, sans ajouter d'eau.", "en": "Blend it with the green chillies, adding no water." },
+    { "fr": "Faire revenir oignons, pâte gingembre-ail et épices dans le ghee jusqu'à ce que l'huile se sépare.", "en": "Fry the onions, ginger-garlic paste and spices in the ghee until the oil separates." },
+    { "fr": "Ajouter la purée d'épinards et cuire CINQ MINUTES au maximum : plus longtemps, la couleur est perdue.", "en": "Add the spinach purée and cook for FIVE MINUTES at most: any longer and the colour is lost." },
+    { "fr": "Ajouter le paneer et la crème hors du feu, et servir aussitôt.", "en": "Add the paneer and cream off the heat, and serve at once." }
+  ]
+}

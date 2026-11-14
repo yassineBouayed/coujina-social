@@ -1,0 +1,39 @@
+{
+  "slug": "naengmyeon",
+  "cuisine": "east-asian",
+  "country": "coree-du-sud",
+  "origin": "Corée du Sud",
+  "native_name": "냉면",
+  "title": {
+    "fr": "Naengmyeon, nouilles froides en bouillon glacé",
+    "en": "Naengmyeon, cold noodles in iced broth"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 30, "cook_min": 15 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ete", "froid", "sarrasin", "vinaigre"],
+  "ingredients": [
+    { "raw": "400 g de nouilles de sarrasin", "qty": 400, "unit": "g", "item": "farine de sarrasin", "prep": "en nouilles" },
+    { "raw": "1,2 l de bouillon de bœuf", "qty": 1.2, "unit": "l", "item": "bouillon boeuf" },
+    { "raw": "25 cl de jus de kimchi", "qty": 25, "unit": "cl", "item": "kimchi", "prep": "son jus" },
+    { "raw": "4 c. à s. de vinaigre de riz", "qty": 4, "unit": "tbsp", "item": "vinaigre de riz" },
+    { "raw": "1 c. à s. de sucre", "qty": 1, "unit": "tbsp", "item": "sucre" },
+    { "raw": "1 concombre, en julienne", "qty": 1, "unit": "piece", "item": "concombre", "prep": "en julienne", "group": "garniture" },
+    { "raw": "1 poire, en julienne", "qty": 1, "unit": "piece", "item": "pomme", "prep": "en julienne", "group": "garniture" },
+    { "raw": "200 g de bœuf bouilli, en tranches", "qty": 200, "unit": "g", "item": "boeuf à mijoter", "prep": "bouilli, en tranches", "group": "garniture" },
+    { "raw": "2 œufs durs, coupés en deux", "qty": 2, "unit": "piece", "item": "oeuf", "prep": "dur", "group": "garniture" },
+    { "raw": "2 c. à s. de moutarde", "qty": 2, "unit": "tbsp", "item": "moutarde", "group": "service" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Mettre le bouillon au CONGÉLATEUR trois heures : il doit contenir des cristaux de glace au service.", "en": "Put the broth in the FREEZER for three hours: it should hold ice crystals when served." },
+    { "fr": "Un bouillon simplement froid ne suffit pas : le naengmyeon se boit glacé, presque granité.", "en": "Merely cold broth is not enough: naengmyeon is drunk icy, almost slushy." },
+    { "fr": "Assaisonner le bouillon de jus de kimchi, de vinaigre, de sucre et de sel, à froid.", "en": "Season the broth with kimchi juice, vinegar, sugar and salt, while cold." },
+    { "fr": "Cuire les nouilles de sarrasin TROIS MINUTES au maximum, puis les rincer longuement à l'eau glacée.", "en": "Cook the buckwheat noodles for THREE MINUTES at most, then rinse them at length in iced water." },
+    { "fr": "Les frotter entre les mains sous l'eau froide pour enlever tout l'amidon : sinon elles collent en bloc.", "en": "Rub them between your hands under cold water to strip all the starch: otherwise they clump." },
+    { "fr": "Dresser en nid, verser le bouillon glacé, et poser les garnitures. Servir moutarde et vinaigre à part.", "en": "Coil them into a nest, pour over the iced broth, and add the garnishes. Serve mustard and vinegar alongside." }
+  ]
+}

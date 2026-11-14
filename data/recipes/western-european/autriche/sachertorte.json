@@ -1,0 +1,43 @@
+{
+  "slug": "sachertorte",
+  "cuisine": "western-european",
+  "country": "autriche",
+  "origin": "Autriche",
+  "native_name": "Sachertorte",
+  "title": {
+    "fr": "Sachertorte au chocolat et à l'abricot",
+    "en": "Sachertorte with chocolate and apricot"
+  },
+  "meal_type": "dessert",
+  "servings": 12,
+  "times": { "prep_min": 60, "cook_min": 50 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["vienne", "chocolat", "abricot", "fete"],
+  "ingredients": [
+    { "raw": "200 g de chocolat noir", "qty": 200, "unit": "g", "item": "chocolat noir", "group": "gâteau" },
+    { "raw": "180 g de beurre, mou", "qty": 180, "unit": "g", "item": "beurre", "prep": "mou", "group": "gâteau" },
+    { "raw": "180 g de sucre glace", "qty": 180, "unit": "g", "item": "sucre glace", "group": "gâteau" },
+    { "raw": "8 œufs, blancs et jaunes séparés", "qty": 8, "unit": "piece", "item": "oeuf", "prep": "séparés", "group": "gâteau" },
+    { "raw": "180 g de farine de blé", "qty": 180, "unit": "g", "item": "farine de blé", "group": "gâteau" },
+    { "raw": "80 g de sucre", "qty": 80, "unit": "g", "item": "sucre", "group": "gâteau" },
+    { "raw": "300 g de confiture d'abricot", "qty": 300, "unit": "g", "item": "confiture d'abricot", "group": "fourrage" },
+    { "raw": "200 g de chocolat noir", "qty": 200, "unit": "g", "item": "chocolat noir", "group": "glaçage" },
+    { "raw": "200 g de sucre", "qty": 200, "unit": "g", "item": "sucre", "group": "glaçage" },
+    { "raw": "12 cl d'eau", "qty": 12, "unit": "cl", "item": "eau", "group": "glaçage" },
+    { "raw": "30 cl de crème liquide entière", "qty": 30, "unit": "cl", "item": "crème liquide", "group": "service" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "La confiture d'abricot n'est pas une garniture : elle IMPERMÉABILISE le gâteau et permet un glaçage lisse.", "en": "The apricot jam is not a filling: it SEALS the cake and allows a smooth glaze." },
+    { "fr": "La faire CHAUFFER et la PASSER au tamis : les morceaux empêcheraient le glaçage d'être plat.", "en": "HEAT it and SIEVE it: lumps would stop the glaze lying flat." },
+    { "fr": "Crémer beurre et sucre glace dix minutes, ajouter le chocolat fondu tiède, puis les jaunes.", "en": "Cream the butter and icing sugar for ten minutes, add the warm melted chocolate, then the yolks." },
+    { "fr": "Monter les blancs et les incorporer à la maryse : c'est la seule levée du gâteau.", "en": "Whip the whites and fold them in with a spatula: the cake's only leavening." },
+    { "fr": "Le glaçage se cuit à 108 °C exactement : plus froid il coule, plus chaud il devient terne.", "en": "The glaze is cooked to exactly 108°C: cooler it runs, hotter it goes dull." },
+    { "fr": "Le verser D'UN SEUL COUP au centre et laisser couler : le lisser à la spatule le ternit.", "en": "Pour it ALL AT ONCE in the centre and let it flow: smoothing with a spatula dulls it." }
+  ],
+  "notes": [
+    { "fr": "La Sachertorte se sert toujours avec de la chantilly non sucrée : le gâteau est déjà très sucré.", "en": "Sachertorte is always served with unsweetened whipped cream: the cake is already very sweet." }
+  ]
+}

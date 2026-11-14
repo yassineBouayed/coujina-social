@@ -1,0 +1,37 @@
+{
+  "slug": "patacones",
+  "cuisine": "latin-american",
+  "country": "colombie",
+  "origin": "Colombie",
+  "native_name": "Patacones",
+  "title": {
+    "fr": "Patacones, plantains verts écrasés et frits",
+    "en": "Patacones, twice-fried green plantains"
+  },
+  "meal_type": "side",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["accompagnement", "plantain", "friture", "cote"],
+  "ingredients": [
+    { "raw": "5 bananes plantains vertes", "qty": 5, "unit": "piece", "item": "plantain", "prep": "vertes" },
+    { "raw": "1,5 l d'huile neutre pour la friture", "qty": 1.5, "unit": "l", "item": "huile neutre" },
+    { "raw": "6 gousses d'ail, écrasées", "qty": 6, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "50 cl d'eau", "qty": 50, "unit": "cl", "item": "eau" },
+    { "raw": "3 c. à s. de gros sel", "qty": 3, "unit": "tbsp", "item": "gros sel" },
+    { "raw": "4 tomates, en dés", "qty": 4, "unit": "piece", "item": "tomate", "prep": "en dés", "group": "hogao" },
+    { "raw": "1 botte d'oignons nouveaux, émincés", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "émincé", "group": "hogao" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin", "group": "hogao" },
+    { "raw": "1/2 bouquet de coriandre, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée", "group": "hogao" }
+  ],
+  "steps": [
+    { "fr": "Les plantains doivent être VERTS et fermes : mûrs, ils sont sucrés et ne s'écrasent pas.", "en": "The plantains must be GREEN and firm: ripe, they are sweet and will not flatten." },
+    { "fr": "Les peler en INCISANT la peau dans la longueur : elle ne se détache pas comme une banane.", "en": "Peel them by SCORING the skin lengthwise: it does not come off like a banana." },
+    { "fr": "Frire une PREMIÈRE fois à 150 °C, cinq minutes : ils doivent être tendres, pas dorés.", "en": "Fry them a FIRST time at 150°C for five minutes: tender, not golden." },
+    { "fr": "Les écraser à la presse ou entre deux assiettes, puis les TREMPER dans l'eau salée à l'ail.", "en": "Flatten them in a press or between two plates, then DIP them in salted garlic water." },
+    { "fr": "Ce bain d'eau salée est le secret : il assaisonne à cœur et fait le croustillant à la seconde friture.", "en": "That salt-water bath is the secret: it seasons through and gives the crispness on the second fry." },
+    { "fr": "Frire une SECONDE fois à 190 °C, deux minutes, et saler à la sortie.", "en": "Fry a SECOND time at 190°C for two minutes, and salt them as they come out." }
+  ]
+}

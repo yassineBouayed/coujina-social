@@ -1,0 +1,35 @@
+{
+  "slug": "tamagoyaki",
+  "cuisine": "east-asian",
+  "country": "japon",
+  "origin": "Japon",
+  "native_name": "卵焼き",
+  "title": {
+    "fr": "Tamagoyaki, omelette roulée sucrée-salée",
+    "en": "Tamagoyaki, rolled sweet-savoury omelette"
+  },
+  "meal_type": "starter",
+  "servings": 4,
+  "times": { "prep_min": 10, "cook_min": 15 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["bento", "oeuf", "technique", "petit-dejeuner"],
+  "ingredients": [
+    { "raw": "6 œufs", "qty": 6, "unit": "piece", "item": "oeuf" },
+    { "raw": "5 c. à s. de dashi", "qty": 5, "unit": "tbsp", "item": "kombu", "prep": "en bouillon dashi" },
+    { "raw": "2 c. à s. de mirin", "qty": 2, "unit": "tbsp", "item": "mirin" },
+    { "raw": "1 c. à s. de sucre", "qty": 1, "unit": "tbsp", "item": "sucre" },
+    { "raw": "1 c. à c. de sauce soja claire", "qty": 1, "unit": "tsp", "item": "sauce soja claire" },
+    { "raw": "3 c. à s. d'huile neutre", "qty": 3, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Battre les œufs à la baguette EN COUPANT, sans jamais soulever : aucune bulle ne doit se former.", "en": "Beat the eggs with chopsticks by CUTTING through them, never lifting: no bubble should form." },
+    { "fr": "Filtrer l'appareil : les chalazes laisseraient des filaments blancs dans le rouleau.", "en": "Strain the mixture: the chalazae would leave white threads in the roll." },
+    { "fr": "Huiler la poêle rectangulaire et verser une couche TRÈS fine, en crevant les bulles à la baguette.", "en": "Oil the rectangular pan and pour a VERY thin layer, popping any bubbles with a chopstick." },
+    { "fr": "Rouler dès que le dessus est encore humide, de haut en bas, puis pousser le rouleau vers le haut.", "en": "Roll it while the top is still moist, from far to near, then push the roll back to the far side." },
+    { "fr": "Huiler à nouveau, verser une couche, SOULEVER le rouleau pour que la pâte coule dessous, et rouler.", "en": "Oil again, pour another layer, LIFT the roll so the egg runs underneath, and roll again." },
+    { "fr": "Répéter cinq à six fois. Serrer dans un tapis de bambou pour former le rectangle, et laisser tiédir.", "en": "Repeat five or six times. Shape it in a bamboo mat to square it off, and let it cool a little." }
+  ]
+}

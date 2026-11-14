@@ -1,0 +1,33 @@
+{
+  "slug": "rooibos-latte",
+  "cuisine": "southern-african",
+  "country": "afrique-du-sud",
+  "origin": "Afrique du Sud",
+  "native_name": "Rooibos",
+  "title": {
+    "fr": "Rooibos infusé au lait et au miel",
+    "en": "Rooibos steeped with milk and honey"
+  },
+  "meal_type": "drink",
+  "servings": 4,
+  "times": { "prep_min": 5, "cook_min": 10 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["sans-theine", "enfants", "chaud", "cederberg"],
+  "ingredients": [
+    { "raw": "4 c. à s. de rooibos", "qty": 4, "unit": "tbsp", "item": "rooibos" },
+    { "raw": "60 cl d'eau", "qty": 60, "unit": "cl", "item": "eau" },
+    { "raw": "30 cl de lait", "qty": 30, "unit": "cl", "item": "lait" },
+    { "raw": "3 c. à s. de miel", "qty": 3, "unit": "tbsp", "item": "miel" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Porter l'eau à ébullition et y jeter le rooibos avec la cannelle.", "en": "Bring the water to a boil and drop in the rooibos with the cinnamon." },
+    { "fr": "Laisser infuser sept minutes au minimum : le rooibos ne devient jamais amer, contrairement au thé.", "en": "Steep for at least seven minutes: rooibos never turns bitter, unlike tea." },
+    { "fr": "C'est une plante sans théine : on peut la laisser vingt minutes, et les enfants en boivent le soir.", "en": "It is caffeine-free: it can steep for twenty minutes, and children drink it in the evening." },
+    { "fr": "Chauffer le lait sans le faire bouillir et le faire mousser au fouet.", "en": "Heat the milk without boiling it and froth it with a whisk." },
+    { "fr": "Filtrer l'infusion, ajouter le miel et remuer jusqu'à dissolution.", "en": "Strain the infusion, add the honey and stir until dissolved." },
+    { "fr": "Verser le lait mousseux par-dessus et servir chaud.", "en": "Pour the frothed milk over and serve hot." }
+  ]
+}

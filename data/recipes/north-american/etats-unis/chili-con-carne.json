@@ -1,0 +1,42 @@
+{
+  "slug": "chili-con-carne",
+  "cuisine": "north-american",
+  "country": "etats-unis",
+  "origin": "États-Unis",
+  "native_name": "Chili con carne",
+  "title": {
+    "fr": "Chili con carne du Texas",
+    "en": "Texas chili con carne"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 180 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["texas", "piment", "mijote", "famille"],
+  "ingredients": [
+    { "raw": "1,2 kg de bœuf à mijoter, en petits cubes", "qty": 1200, "unit": "g", "item": "boeuf à mijoter", "prep": "en petits cubes" },
+    { "raw": "600 g de haricots rouges cuits", "qty": 600, "unit": "g", "item": "haricot rouge", "prep": "cuit" },
+    { "raw": "800 g de tomate pelée en conserve", "qty": 800, "unit": "g", "item": "tomate pelée en conserve" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "6 gousses d'ail, écrasées", "qty": 6, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "4 piments séchés", "qty": 4, "unit": "piece", "item": "piment séché" },
+    { "raw": "3 c. à s. de chili powder mexicain", "qty": 3, "unit": "tbsp", "item": "chili powder mexicain" },
+    { "raw": "2 c. à s. de cumin moulu", "qty": 2, "unit": "tbsp", "item": "cumin" },
+    { "raw": "2 c. à c. d'origan séché", "qty": 2, "unit": "tsp", "item": "origan séché" },
+    { "raw": "30 g de chocolat noir", "qty": 30, "unit": "g", "item": "chocolat noir" },
+    { "raw": "50 cl de bouillon de bœuf", "qty": 50, "unit": "cl", "item": "bouillon boeuf" },
+    { "raw": "2 c. à s. de vinaigre de cidre", "qty": 2, "unit": "tbsp", "item": "vinaigre de cidre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le chili du Texas ne contient PAS de haricots : ce chili-ci en contient, et les Texans le contesteraient.", "en": "Texas chili contains NO beans: this one does, and Texans would object." },
+    { "fr": "Couper la viande AU COUTEAU en petits cubes plutôt que de la hacher : la texture est bien meilleure.", "en": "Cut the meat into small cubes WITH A KNIFE rather than mincing: the texture is far better." },
+    { "fr": "Réhydrater les piments séchés dans l'eau chaude et les mixer en pâte : c'est la base du chili.", "en": "Rehydrate the dried chillies in hot water and blend them to a paste: the chili's base." },
+    { "fr": "Faire GRILLER les épices à sec trente secondes avant de les ajouter : leur parfum s'ouvre.", "en": "TOAST the spices dry for thirty seconds before adding them: it opens their aroma." },
+    { "fr": "Le CHOCOLAT n'apporte pas de goût sucré : il ajoute de l'amertume et de la profondeur.", "en": "The CHOCOLATE brings no sweetness: it adds bitterness and depth." },
+    { "fr": "Mijoter trois heures à couvert, et ajouter les haricots la dernière demi-heure.", "en": "Simmer for three hours covered, and add the beans in the last half hour." }
+  ]
+}

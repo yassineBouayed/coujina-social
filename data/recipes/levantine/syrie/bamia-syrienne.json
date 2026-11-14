@@ -1,0 +1,38 @@
+{
+  "slug": "bamia-syrienne",
+  "cuisine": "levantine",
+  "country": "syrie",
+  "origin": "Syrie",
+  "native_name": "Bamia",
+  "title": {
+    "fr": "Bamia, gombos à l'agneau et à la coriandre",
+    "en": "Bamia, okra with lamb and coriander"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 75 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["gombo", "ete", "tomate", "quotidien"],
+  "ingredients": [
+    { "raw": "600 g de gombos, équeutés", "qty": 600, "unit": "g", "item": "gombo", "prep": "équeuté" },
+    { "raw": "600 g d'épaule d'agneau, en cubes", "qty": 600, "unit": "g", "item": "épaule d'agneau", "prep": "en cubes" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "4 c. à s. de concentré de tomate", "qty": 4, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "1 tête d'ail, écrasée", "qty": 10, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 bouquet de coriandre fraîche, ciselé", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "1 c. à c. de baharat", "qty": 1, "unit": "tsp", "item": "baharat" },
+    { "raw": "8 c. à s. d'huile d'olive", "qty": 8, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Équeuter les gombos SANS entamer la gousse : ouverte, elle libère son mucilage et la sauce file.", "en": "Trim the okra WITHOUT cutting into the pod: opened, it releases mucilage and the sauce turns ropy." },
+    { "fr": "Les faire dorer à l'huile ou au four dix minutes avant de les mettre en sauce : c'est l'autre parade au filant.", "en": "Brown them in oil or the oven for ten minutes before saucing: the other guard against sliminess." },
+    { "fr": "Faire revenir la viande et l'oignon, ajouter le concentré et le baharat, et mouiller.", "en": "Brown the meat and onion, add the purée and baharat, and add water." },
+    { "fr": "Laisser mijoter une heure, jusqu'à ce que l'agneau soit tendre.", "en": "Simmer for an hour, until the lamb is tender." },
+    { "fr": "Ajouter les gombos dorés et cuire quinze minutes, sans remuer avec une cuillère : secouer la casserole.", "en": "Add the browned okra and cook for fifteen minutes, never stirring with a spoon: shake the pan." },
+    { "fr": "Faire revenir l'ail et la coriandre à l'huile et les verser dessus, avec le citron, hors du feu.", "en": "Fry the garlic and coriander in oil and pour them over, with the lemon, off the heat." }
+  ]
+}

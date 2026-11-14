@@ -1,0 +1,39 @@
+{
+  "slug": "stroopwafels",
+  "cuisine": "western-european",
+  "country": "pays-bas",
+  "origin": "Pays-Bas",
+  "native_name": "Stroopwafels",
+  "title": {
+    "fr": "Stroopwafels au sirop de caramel",
+    "en": "Stroopwafels, caramel syrup waffles"
+  },
+  "meal_type": "dessert",
+  "servings": 12,
+  "times": { "prep_min": 45, "cook_min": 30 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["gouda", "gaufre", "caramel", "cafe"],
+  "ingredients": [
+    { "raw": "400 g de farine de blé", "qty": 400, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "200 g de beurre, mou", "qty": 200, "unit": "g", "item": "beurre", "prep": "mou", "group": "pâte" },
+    { "raw": "120 g de cassonade", "qty": 120, "unit": "g", "item": "sucre roux", "group": "pâte" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf", "group": "pâte" },
+    { "raw": "7 g de levure boulangère sèche", "qty": 7, "unit": "g", "item": "levure boulangère", "group": "pâte" },
+    { "raw": "8 cl de lait entier, tiède", "qty": 8, "unit": "cl", "item": "lait entier", "prep": "tiède", "group": "pâte" },
+    { "raw": "2 c. à c. de cannelle moulue", "qty": 2, "unit": "tsp", "item": "cannelle", "group": "pâte" },
+    { "raw": "250 g de mélasse", "qty": 250, "unit": "g", "item": "mélasse", "group": "sirop" },
+    { "raw": "150 g de cassonade", "qty": 150, "unit": "g", "item": "sucre roux", "group": "sirop" },
+    { "raw": "100 g de beurre", "qty": 100, "unit": "g", "item": "beurre", "group": "sirop" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le stroopwafel est né à Gouda, fait des restes de pâte et de sirop des boulangers.", "en": "The stroopwafel was born in Gouda, made from bakers' leftover dough and syrup." },
+    { "fr": "Cuire des gaufres TRÈS fines au gaufrier, moins de deux minutes chacune.", "en": "Cook VERY thin waffles in the iron, under two minutes each." },
+    { "fr": "Les FENDRE EN DEUX dans l'épaisseur pendant qu'elles sont BRÛLANTES, au couteau-scie.", "en": "SPLIT them in two through the thickness while SCALDING, with a serrated knife." },
+    { "fr": "Refroidies, elles cassent au lieu de se fendre : il faut travailler vite et se brûler un peu.", "en": "Once cooled, they shatter instead of splitting: work fast and expect to burn your fingers." },
+    { "fr": "Cuire le sirop à 115 °C : plus froid il coule, plus chaud il devient dur comme du verre.", "en": "Cook the syrup to 115°C: cooler and it runs, hotter and it sets hard as glass." },
+    { "fr": "Tartiner de sirop chaud, refermer, presser, et poser sur une tasse de café pour le ramollir.", "en": "Spread with hot syrup, close, press, and rest it on a cup of coffee to soften it." }
+  ]
+}

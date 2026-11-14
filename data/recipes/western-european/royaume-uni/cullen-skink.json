@@ -1,0 +1,38 @@
+{
+  "slug": "cullen-skink",
+  "cuisine": "western-european",
+  "country": "royaume-uni",
+  "origin": "Royaume-Uni",
+  "native_name": "Cullen skink",
+  "title": {
+    "fr": "Cullen skink, soupe écossaise au haddock",
+    "en": "Cullen skink, Scottish smoked haddock soup"
+  },
+  "meal_type": "soup",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 35 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ecosse", "fume", "soupe", "hiver"],
+  "ingredients": [
+    { "raw": "600 g de haddock fumé", "qty": 600, "unit": "g", "item": "haddock fumé" },
+    { "raw": "700 g de pommes de terre, en dés", "qty": 700, "unit": "g", "item": "pomme de terre", "prep": "en dés" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "1 poireau, en rondelles", "qty": 1, "unit": "piece", "item": "poireau", "prep": "en rondelles" },
+    { "raw": "70 cl de lait entier", "qty": 70, "unit": "cl", "item": "lait entier" },
+    { "raw": "20 cl de crème liquide", "qty": 20, "unit": "cl", "item": "crème liquide" },
+    { "raw": "60 g de beurre", "qty": 60, "unit": "g", "item": "beurre" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "1/2 bouquet de ciboulette, ciselée", "qty": 0.5, "unit": "bunch", "item": "ciboulette", "prep": "ciselée" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Pocher le haddock dans le lait avec le laurier, cinq minutes, puis le retirer et l'effeuiller.", "en": "Poach the haddock in the milk with the bay for five minutes, then lift it out and flake it." },
+    { "fr": "GARDER ce lait de pochage : c'est lui qui porte tout le goût fumé de la soupe.", "en": "KEEP that poaching milk: it carries the soup's entire smoky flavour." },
+    { "fr": "Ne PAS saler avant d'avoir goûté : le haddock fumé est déjà très salé.", "en": "Do NOT salt before tasting: smoked haddock is already very salty." },
+    { "fr": "Faire fondre oignons et poireau au beurre, ajouter les pommes de terre et le lait filtré.", "en": "Melt the onions and leek in butter, add the potatoes and the strained milk." },
+    { "fr": "Cuire vingt minutes, puis écraser GROSSIÈREMENT une partie des pommes de terre à la fourchette.", "en": "Cook for twenty minutes, then crush some of the potatoes ROUGHLY with a fork." },
+    { "fr": "Remettre le poisson effeuillé, ajouter la crème, et ne plus faire bouillir.", "en": "Return the flaked fish, add the cream, and do not boil again." }
+  ]
+}

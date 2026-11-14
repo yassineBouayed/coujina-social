@@ -1,0 +1,43 @@
+{
+  "slug": "soupe-kandia",
+  "cuisine": "west-african",
+  "origin": "Sénégal",
+  "native_name": "Soupou kandia",
+  "title": {
+    "fr": "Soupe kandia, sauce gombo à l'huile de palme",
+    "en": "Soupou kandia, okra stew in red palm oil"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 70 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j5-catalogue-v1", "date": "2026-08-29" },
+  "tags": ["gombo", "huile-de-palme", "poisson", "riz"],
+  "ingredients": [
+    { "raw": "500 g de gombos frais", "qty": 500, "unit": "g", "item": "gombo", "prep": "équeuté", "substitutes": [{ "item": "gombo surgelé", "note": "le surgelé est déjà émincé et file un peu moins ; c'est le seul recours hors saison" }] },
+    { "raw": "600 g de bœuf à mijoter, en morceaux", "qty": 600, "unit": "g", "item": "bœuf à mijoter", "prep": "en morceaux" },
+    { "raw": "2 dorades, en darnes", "qty": 2, "unit": "piece", "item": "dorade", "prep": "en darnes" },
+    { "raw": "100 g de poisson fumé", "qty": 100, "unit": "g", "item": "poisson fumé", "prep": "en morceaux" },
+    { "raw": "50 g de crevettes séchées", "qty": 50, "unit": "g", "item": "crevette séchée" },
+    { "raw": "10 cl d'huile de palme rouge", "qty": 10, "unit": "cl", "item": "huile de palme rouge" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "1 c. à s. de nététou", "qty": 1, "unit": "tbsp", "item": "néré" },
+    { "raw": "1 piment antillais", "qty": 1, "unit": "piece", "item": "habanero", "optional": true },
+    { "raw": "1 cube de bouillon", "qty": 1, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "400 g de riz brisé", "qty": 400, "unit": "g", "item": "riz brisé" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Émincer les gombos en fines rondelles, ou les piler grossièrement : plus ils sont coupés fin, plus la sauce filera.", "en": "Slice the okra into thin rounds, or pound it coarsely: the finer it is cut, the more the sauce will draw." },
+    { "fr": "Faire cuire le bœuf 40 minutes dans 1,5 litre d'eau avec un oignon, le cube et les crevettes séchées.", "en": "Simmer the beef for 40 minutes in 1.5 litres of water with one onion, the stock cube and the dried shrimp." },
+    { "fr": "Ajouter le poisson fumé et le nététou, puis les gombos. Cuire 20 minutes à feu moyen en remuant régulièrement.", "en": "Add the smoked fish and the fermented locust bean, then the okra. Cook for 20 minutes over medium heat, stirring regularly." },
+    { "fr": "Verser l'huile de palme et le second oignon émincé. Poursuivre 15 minutes : la sauce épaissit et prend une couleur orange profond.", "en": "Pour in the palm oil and the second sliced onion. Continue for 15 minutes: the sauce thickens and turns deep orange." },
+    { "fr": "Poser délicatement les darnes de dorade sur la sauce, ajouter le piment entier, couvrir et laisser pocher 10 minutes sans remuer.", "en": "Lay the fish steaks gently on the sauce, add the whole chilli, cover and poach for 10 minutes without stirring." },
+    { "fr": "Rectifier le sel et servir sur du riz brisé blanc.", "en": "Adjust the salt and serve over plain broken rice." }
+  ],
+  "notes": [
+    { "fr": "Le filant du gombo est le plat, pas un défaut à corriger. Qui cherche une sauce lisse cuisine autre chose ; ajouter du citron pour « couper le fil » revient à rater exprès.", "en": "The slippery draw of the okra is the dish, not a fault to fix. Anyone chasing a smooth sauce is cooking something else; adding lemon to cut the strings is failing on purpose." },
+    { "fr": "L'huile de palme rouge n'est pas interchangeable avec une huile neutre : c'est elle qui donne la couleur et le goût. Sans elle, on obtient une soupe de gombo, pas une soupe kandia.", "en": "Red palm oil is not interchangeable with a neutral oil: it carries the colour and the taste. Without it you get okra soup, not soupou kandia." }
+  ]
+}

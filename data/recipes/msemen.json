@@ -1,0 +1,42 @@
+{
+  "slug": "msemen",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Msemen",
+  "title": {
+    "fr": "Msemen, crêpes feuilletées carrées",
+    "en": "Msemen, square layered flatbreads"
+  },
+  "meal_type": "bread",
+  "servings": 6,
+  "times": { "prep_min": 45, "cook_min": 30 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j2-sonde-v1", "date": "2026-08-28" },
+  "tags": ["pain", "petit-dejeuner", "the", "feuillete"],
+  "ingredients": [
+    { "raw": "400 g de farine de blé", "qty": 400, "unit": "g", "item": "farine de blé" },
+    { "raw": "100 g de semoule de blé fine", "qty": 100, "unit": "g", "item": "semoule de blé fine" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "1 c. à c. de sucre", "qty": 1, "unit": "tsp", "item": "sucre" },
+    { "raw": "1 c. à c. de levure boulangère sèche", "qty": 1, "unit": "tsp", "item": "levure boulangère sèche", "optional": true },
+    { "raw": "30 cl d'eau tiède", "qty": 30, "unit": "cl", "item": "eau" },
+    { "raw": "100 g de beurre fondu", "qty": 100, "unit": "g", "item": "beurre", "prep": "fondu", "group": "feuilletage" },
+    { "raw": "10 cl d'huile de tournesol", "qty": 10, "unit": "cl", "item": "huile de tournesol", "group": "feuilletage" },
+    { "raw": "150 g de semoule de blé fine pour le feuilletage", "qty": 150, "unit": "g", "item": "semoule de blé fine", "group": "feuilletage" }
+  ],
+  "steps": [
+    { "fr": "Mélanger la farine, la semoule fine, le sel, le sucre et la levure, puis pétrir dix minutes avec l'eau tiède jusqu'à obtenir une pâte très souple et élastique.", "en": "Mix the flour, fine semolina, salt, sugar and yeast, then knead for ten minutes with the warm water until the dough is very soft and elastic." },
+    { "fr": "Diviser en boules de la taille d'un œuf, les huiler généreusement et laisser reposer vingt minutes sous un film.", "en": "Divide into egg-sized balls, oil them generously and rest them for twenty minutes under a film." },
+    { "fr": "Sur un plan de travail huilé, étaler chaque boule à la main jusqu'à ce qu'elle soit presque transparente : c'est la finesse qui fait le feuilletage.", "en": "On an oiled worktop, stretch each ball by hand until it is almost transparent: it is the thinness that makes the layers." },
+    { "fr": "Badigeonner de beurre fondu mélangé à l'huile, saupoudrer de semoule fine.", "en": "Brush with melted butter mixed with the oil and dust with fine semolina." },
+    { "fr": "Rabattre les côtés vers le centre pour former une bande, puis replier la bande en carré.", "en": "Fold the sides in to form a strip, then fold the strip into a square." },
+    { "fr": "Laisser reposer dix minutes, puis aplatir chaque carré à la main sans écraser les couches.", "en": "Rest for ten minutes, then flatten each square by hand without crushing the layers." },
+    { "fr": "Cuire à la poêle très chaude, deux à trois minutes par face, en appuyant du bout des doigts pour décoller les feuillets.", "en": "Cook on a very hot pan for two to three minutes a side, pressing with your fingertips to separate the layers." },
+    { "fr": "Servir chaud avec du miel et du beurre, ou du thé à la menthe.", "en": "Serve hot with honey and butter, or with mint tea." }
+  ],
+  "notes": [
+    { "fr": "Une pâte qui se déchire à l'étalage a manqué de pétrissage ou de repos, jamais de farine.", "en": "Dough that tears while stretching was under-kneaded or under-rested, never short of flour." }
+  ]
+}

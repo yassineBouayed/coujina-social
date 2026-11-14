@@ -1,0 +1,39 @@
+{
+  "slug": "salzburger-nockerl",
+  "cuisine": "western-european",
+  "country": "autriche",
+  "origin": "Autriche",
+  "native_name": "Salzburger Nockerl",
+  "title": {
+    "fr": "Nockerl de Salzbourg soufflés",
+    "en": "Salzburg soufflé dumplings"
+  },
+  "meal_type": "dessert",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 15 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["salzbourg", "souffle", "vanille", "fete"],
+  "ingredients": [
+    { "raw": "6 blancs d'œufs", "qty": 6, "unit": "piece", "item": "oeuf" },
+    { "raw": "4 jaunes d'œufs", "qty": 4, "unit": "piece", "item": "oeuf" },
+    { "raw": "100 g de sucre", "qty": 100, "unit": "g", "item": "sucre" },
+    { "raw": "40 g de farine de blé", "qty": 40, "unit": "g", "item": "farine de blé" },
+    { "raw": "1 citron, son zeste", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "1 gousse de vanille, fendue", "qty": 1, "unit": "piece", "item": "gousse de vanille", "prep": "fendue" },
+    { "raw": "15 cl de lait entier", "qty": 15, "unit": "cl", "item": "lait entier" },
+    { "raw": "40 g de beurre", "qty": 40, "unit": "g", "item": "beurre" },
+    { "raw": "3 c. à s. de confiture de framboise", "qty": 3, "unit": "tbsp", "item": "confiture" },
+    { "raw": "60 g de sucre glace", "qty": 60, "unit": "g", "item": "sucre glace", "group": "finition" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Les trois monticules représentent les trois collines de Salzbourg : la forme n'est pas décorative.", "en": "The three mounds stand for Salzburg's three hills: the shape is not decorative." },
+    { "fr": "C'est un soufflé POSÉ, sans moule : il doit être servi dans les DEUX MINUTES.", "en": "It is a soufflé SET FREE, without a mould: it must be served WITHIN TWO MINUTES." },
+    { "fr": "Monter les blancs très fermes avec le sucre, puis incorporer les jaunes en TROIS mouvements.", "en": "Whip the whites very stiff with the sugar, then fold in the yolks in THREE movements." },
+    { "fr": "Ajouter la farine tamisée en pluie, à la maryse, sans jamais tourner : on soulève seulement.", "en": "Sift in the flour, folding with a spatula, never stirring: you only lift." },
+    { "fr": "Verser lait et confiture dans le plat beurré, et poser TROIS monticules dessus.", "en": "Pour the milk and jam into the buttered dish, and set THREE mounds on top." },
+    { "fr": "Cuire douze minutes à 200 °C, et courir à table : ils retombent en deux minutes.", "en": "Bake for twelve minutes at 200°C, and run to the table: they fall within two minutes." }
+  ]
+}

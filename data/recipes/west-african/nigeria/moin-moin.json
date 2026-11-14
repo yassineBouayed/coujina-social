@@ -1,0 +1,38 @@
+{
+  "slug": "moin-moin",
+  "cuisine": "west-african",
+  "country": "nigeria",
+  "origin": "Nigeria",
+  "native_name": "Moin moin",
+  "title": {
+    "fr": "Moin moin, flan de niébé à la vapeur",
+    "en": "Moin moin, steamed bean pudding"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 45, "cook_min": 60 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["niebe", "vapeur", "fete", "proteine"],
+  "ingredients": [
+    { "raw": "500 g de niébé, trempé et décortiqué", "qty": 500, "unit": "g", "item": "niébé", "prep": "trempé et décortiqué" },
+    { "raw": "2 poivrons rouges", "qty": 2, "unit": "piece", "item": "poivron rouge" },
+    { "raw": "2 piments habanero", "qty": 2, "unit": "piece", "item": "habanero" },
+    { "raw": "1 oignon", "qty": 1, "unit": "piece", "item": "oignon" },
+    { "raw": "12 cl d'huile de palme rouge", "qty": 12, "unit": "cl", "item": "huile de palme rouge" },
+    { "raw": "3 œufs durs, en rondelles", "qty": 3, "unit": "piece", "item": "oeuf", "prep": "dur", "group": "garniture" },
+    { "raw": "100 g de poisson fumé, émietté", "qty": 100, "unit": "g", "item": "poisson fumé", "prep": "émietté", "optional": true, "group": "garniture" },
+    { "raw": "2 cubes de bouillon", "qty": 2, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "25 cl d'eau chaude", "qty": 25, "unit": "cl", "item": "eau" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Tremper le niébé une heure, puis le frotter entre les mains pour en détacher toutes les peaux.", "en": "Soak the cowpeas for an hour, then rub them between your hands to slip off every skin." },
+    { "fr": "Une seule peau restante donne un moin moin granuleux : cette étape ne se bâcle pas.", "en": "A single skin left gives a gritty moin moin: this step cannot be rushed." },
+    { "fr": "Mixer avec poivrons, piments et oignon, en ajoutant l'eau chaude petit à petit.", "en": "Blend with the peppers, chillies and onion, adding the hot water a little at a time." },
+    { "fr": "Battre l'appareil cinq minutes à la spatule pour l'aérer, puis incorporer l'huile de palme et les cubes.", "en": "Beat the batter for five minutes with a spatula to aerate it, then work in the palm oil and stock cubes." },
+    { "fr": "Verser dans des ramequins huilés, en glissant une rondelle d'œuf et du poisson fumé au centre.", "en": "Pour into oiled ramekins, sliding a slice of egg and some smoked fish into the centre." },
+    { "fr": "Cuire à la vapeur une heure, à couvert, sans laisser l'eau toucher les moules.", "en": "Steam for an hour, covered, without letting the water touch the moulds." }
+  ]
+}

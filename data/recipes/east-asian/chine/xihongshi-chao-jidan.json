@@ -1,0 +1,37 @@
+{
+  "slug": "xihongshi-chao-jidan",
+  "cuisine": "east-asian",
+  "country": "chine",
+  "origin": "Chine",
+  "native_name": "西红柿炒鸡蛋",
+  "title": {
+    "fr": "Œufs brouillés aux tomates",
+    "en": "Scrambled eggs with tomato"
+  },
+  "meal_type": "main",
+  "servings": 3,
+  "times": { "prep_min": 10, "cook_min": 10 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["quotidien", "rapide", "oeuf", "enfance"],
+  "ingredients": [
+    { "raw": "5 œufs", "qty": 5, "unit": "piece", "item": "oeuf" },
+    { "raw": "5 tomates mûres, en quartiers", "qty": 5, "unit": "piece", "item": "tomate", "prep": "en quartiers" },
+    { "raw": "2 oignons nouveaux, ciselés", "qty": 2, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé" },
+    { "raw": "1 c. à s. de sucre", "qty": 1, "unit": "tbsp", "item": "sucre" },
+    { "raw": "1 c. à s. de sauce soja claire", "qty": 1, "unit": "tbsp", "item": "sauce soja claire" },
+    { "raw": "1 c. à s. de vin de riz", "qty": 1, "unit": "tbsp", "item": "vin de riz" },
+    { "raw": "5 c. à s. d'huile neutre", "qty": 5, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel et poivre blanc", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre blanc", "qty": null, "unit": null, "item": "poivre blanc" }
+  ],
+  "steps": [
+    { "fr": "C'est le premier plat que tout enfant chinois apprend à faire : trois ingrédients, dix minutes.", "en": "This is the first dish every Chinese child learns to cook: three ingredients, ten minutes." },
+    { "fr": "Battre les œufs avec le vin de riz et une pincée de sel, sans les faire mousser.", "en": "Beat the eggs with the rice wine and a pinch of salt, without frothing them." },
+    { "fr": "Les cuire dans l'huile TRÈS chaude, dix secondes, en gros morceaux, et les réserver aussitôt.", "en": "Cook them in VERY hot oil for ten seconds, in large curds, and set them aside at once." },
+    { "fr": "Ils finiront de cuire au réchauffage : cuits à point maintenant, ils seront secs à la fin.", "en": "They finish cooking when reheated: cooked through now, they will be dry at the end." },
+    { "fr": "Faire tomber les tomates avec le sucre jusqu'à ce qu'elles rendent leur jus, cinq minutes.", "en": "Cook the tomatoes with the sugar until they release their juices, five minutes." },
+    { "fr": "Le sucre n'est pas là pour sucrer : il corrige l'acidité et lie la sauce. Remettre les œufs, servir.", "en": "The sugar is not there to sweeten: it corrects the acidity and binds the sauce. Return the eggs and serve." }
+  ]
+}

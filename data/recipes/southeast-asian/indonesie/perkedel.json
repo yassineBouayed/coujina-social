@@ -1,0 +1,38 @@
+{
+  "slug": "perkedel",
+  "cuisine": "southeast-asian",
+  "country": "indonesie",
+  "origin": "Indonésie",
+  "native_name": "Perkedel",
+  "title": {
+    "fr": "Perkedel, galettes de pomme de terre frites",
+    "en": "Perkedel, fried potato patties"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["colonial", "friture", "accompagnement", "pomme-de-terre"],
+  "ingredients": [
+    { "raw": "800 g de pommes de terre", "qty": 800, "unit": "g", "item": "pomme de terre" },
+    { "raw": "200 g de bœuf haché", "qty": 200, "unit": "g", "item": "boeuf haché", "optional": true },
+    { "raw": "6 échalotes, frites et écrasées", "qty": 6, "unit": "piece", "item": "échalote", "prep": "frite et écrasée" },
+    { "raw": "4 gousses d'ail, écrasées", "qty": 4, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "4 oignons nouveaux, ciselés", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé" },
+    { "raw": "1 c. à c. de muscade râpée", "qty": 1, "unit": "tsp", "item": "muscade", "prep": "râpée" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf" },
+    { "raw": "50 cl d'huile neutre pour la friture", "qty": 50, "unit": "cl", "item": "huile neutre" },
+    { "raw": "sel et poivre blanc", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre blanc", "qty": null, "unit": null, "item": "poivre blanc" }
+  ],
+  "steps": [
+    { "fr": "FRIRE les pommes de terre en cubes plutôt que de les bouillir : c'est ce qui évite une purée humide.", "en": "FRY the potatoes in cubes rather than boiling them: this avoids a wet mash." },
+    { "fr": "Les écraser à la fourchette encore chaudes, sans les mixer.", "en": "Crush them with a fork while still hot, without blending." },
+    { "fr": "La muscade est l'ingrédient qui trahit l'origine néerlandaise du plat : elle ne s'omet pas.", "en": "Nutmeg is the ingredient that betrays the dish's Dutch origin: it is not left out." },
+    { "fr": "Mélanger avec la viande cuite, les échalotes frites, l'ail, la ciboule et un seul œuf.", "en": "Mix with the cooked meat, fried shallots, garlic, spring onion and one egg only." },
+    { "fr": "Former des galettes bombées et les tremper dans le second œuf battu juste avant de frire.", "en": "Shape domed patties and dip them in the second beaten egg just before frying." },
+    { "fr": "Frire à 175 °C jusqu'à ce qu'elles soient dorées, et servir avec du sambal.", "en": "Fry at 175°C until golden, and serve with sambal." }
+  ]
+}

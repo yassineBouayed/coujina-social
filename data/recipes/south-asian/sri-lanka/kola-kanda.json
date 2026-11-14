@@ -1,0 +1,35 @@
+{
+  "slug": "kola-kanda",
+  "cuisine": "south-asian",
+  "country": "sri-lanka",
+  "origin": "Sri Lanka",
+  "native_name": "Kola kanda",
+  "title": {
+    "fr": "Kola kanda, bouillie verte du matin",
+    "en": "Kola kanda, green herbal morning porridge"
+  },
+  "meal_type": "soup",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["petit-dejeuner", "sante", "vert", "coco"],
+  "ingredients": [
+    { "raw": "150 g de riz rouge", "qty": 150, "unit": "g", "item": "riz brun" },
+    { "raw": "200 g de gotu kola", "qty": 200, "unit": "g", "item": "gotu kola" },
+    { "raw": "30 cl de lait de coco", "qty": 30, "unit": "cl", "item": "lait de coco" },
+    { "raw": "1 l d'eau", "qty": 1, "unit": "l", "item": "eau" },
+    { "raw": "2 gousses d'ail", "qty": 2, "unit": "piece", "item": "ail" },
+    { "raw": "2 c. à s. de panela", "qty": 2, "unit": "tbsp", "item": "panela", "optional": true },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le kola kanda se boit le matin, à jeun : c'est autant un remède qu'un petit-déjeuner.", "en": "Kola kanda is drunk in the morning, on an empty stomach: it is as much a remedy as a breakfast." },
+    { "fr": "Cuire le riz dans l'eau jusqu'à ce qu'il se défasse complètement, vingt-cinq minutes.", "en": "Cook the rice in the water until it collapses entirely, twenty-five minutes." },
+    { "fr": "Mixer le gotu kola CRU avec l'ail et un peu d'eau, puis filtrer pour n'en garder que le jus.", "en": "Blend the RAW gotu kola with the garlic and a little water, then strain to keep only the juice." },
+    { "fr": "Ajouter ce jus vert au riz cuit HORS DU FEU : cuit, il vire au brun et perd ses propriétés.", "en": "Add that green juice to the cooked rice OFF THE HEAT: cooked, it turns brown and loses its virtue." },
+    { "fr": "Ajouter le lait de coco et le sel, et réchauffer sans bouillir.", "en": "Add the coconut milk and salt, and warm through without boiling." },
+    { "fr": "Servir brûlant, avec un morceau de panela à croquer à côté.", "en": "Serve scalding, with a piece of panela to bite alongside." }
+  ]
+}

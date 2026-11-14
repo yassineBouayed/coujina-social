@@ -1,0 +1,42 @@
+{
+  "slug": "pozole-rojo",
+  "cuisine": "latin-american",
+  "country": "mexique",
+  "origin": "Mexique",
+  "native_name": "Pozole rojo",
+  "title": {
+    "fr": "Pozole rouge au maïs et au porc",
+    "en": "Red pozole with hominy and pork"
+  },
+  "meal_type": "soup",
+  "servings": 8,
+  "times": { "prep_min": 35, "cook_min": 180 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "mais", "porc", "partage"],
+  "ingredients": [
+    { "raw": "1,2 kg d'épaule de porc, en gros cubes", "qty": 1200, "unit": "g", "item": "échine de porc", "prep": "en gros cubes" },
+    { "raw": "800 g de maïs à pozole en conserve", "qty": 800, "unit": "g", "item": "hominy" },
+    { "raw": "6 piments guajillo séchés", "qty": 6, "unit": "piece", "item": "piment séché" },
+    { "raw": "3 piments ancho séchés", "qty": 3, "unit": "piece", "item": "piment séché" },
+    { "raw": "2 oignons", "qty": 2, "unit": "piece", "item": "oignon" },
+    { "raw": "8 gousses d'ail", "qty": 8, "unit": "piece", "item": "ail" },
+    { "raw": "2 c. à s. d'origan séché", "qty": 2, "unit": "tbsp", "item": "origan séché" },
+    { "raw": "2 l d'eau", "qty": 2, "unit": "l", "item": "eau" },
+    { "raw": "1/2 chou blanc, en lanières fines", "qty": 0.5, "unit": "piece", "item": "chou vert", "prep": "en lanières fines", "group": "service" },
+    { "raw": "1 botte de radis, en rondelles", "qty": 10, "unit": "piece", "item": "radis", "prep": "en rondelles", "group": "service" },
+    { "raw": "4 citrons verts, en quartiers", "qty": 4, "unit": "piece", "item": "citron vert", "prep": "en quartiers", "group": "service" },
+    { "raw": "2 avocats, en tranches", "qty": 2, "unit": "piece", "item": "avocat", "prep": "en tranches", "group": "service" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le maïs à pozole est NIXTAMALISÉ : traité à la chaux, il éclate en fleur et n'a plus le goût du maïs doux.", "en": "Pozole maize is NIXTAMALISED: treated with lime, it bursts into a flower and loses the sweetcorn taste." },
+    { "fr": "Cuire le porc DEUX HEURES à l'eau avec oignon et ail, en écumant, puis le désosser.", "en": "Cook the pork for TWO HOURS in water with onion and garlic, skimming, then bone it." },
+    { "fr": "Réhydrater les piments et les mixer avec un peu de bouillon, puis PASSER au tamis.", "en": "Rehydrate the chillies and blend them with a little broth, then SIEVE the purée." },
+    { "fr": "Les peaux de piment ne se mixent jamais complètement : elles restent en filaments désagréables.", "en": "Chilli skins never blend fully: they stay as unpleasant threads." },
+    { "fr": "Ajouter la purée de piment au bouillon et cuire une heure de plus avec le maïs.", "en": "Add the chilli purée to the broth and cook an hour more with the maize." },
+    { "fr": "Les garnitures CRUES ne sont pas facultatives : chou, radis et citron vert font la moitié du plat.", "en": "The RAW toppings are not optional: cabbage, radish and lime make half the dish." }
+  ]
+}

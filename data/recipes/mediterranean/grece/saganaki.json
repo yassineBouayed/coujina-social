@@ -1,0 +1,34 @@
+{
+  "slug": "saganaki",
+  "cuisine": "mediterranean",
+  "country": "grece",
+  "origin": "Grèce",
+  "native_name": "Σαγανάκι",
+  "title": {
+    "fr": "Saganaki, fromage poêlé",
+    "en": "Saganaki, pan-fried cheese"
+  },
+  "meal_type": "starter",
+  "servings": 4,
+  "times": { "prep_min": 10, "cook_min": 8 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["meze", "fromage", "rapide", "poele"],
+  "ingredients": [
+    { "raw": "400 g de kefalotyri, en tranches épaisses", "qty": 400, "unit": "g", "item": "kefalotyri", "prep": "en tranches épaisses" },
+    { "raw": "80 g de farine de blé", "qty": 80, "unit": "g", "item": "farine de blé" },
+    { "raw": "8 c. à s. d'huile d'olive", "qty": 8, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "1 citron, en quartiers", "qty": 1, "unit": "piece", "item": "citron", "prep": "en quartiers" },
+    { "raw": "1 c. à c. d'origan séché", "qty": 1, "unit": "tsp", "item": "origan" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Choisir un fromage à PÂTE FERME : la feta fond et s'échappe, elle ne convient pas ici.", "en": "Choose a FIRM cheese: feta melts and escapes, it is not right here." },
+    { "fr": "Couper des tranches ÉPAISSES, d'un bon centimètre : fines, elles fondent avant de dorer.", "en": "Cut THICK slices, a good centimetre: thin ones melt before they brown." },
+    { "fr": "Les tremper dans l'eau, puis dans la farine : l'humidité fait tenir la panure.", "en": "Dip them in water, then in flour: the moisture makes the coating stick." },
+    { "fr": "Chauffer la poêle À BLANC avant de poser le fromage : tiède, il colle et se déchire.", "en": "Heat the pan until very hot before adding the cheese: lukewarm, it sticks and tears." },
+    { "fr": "Deux minutes par face, pas davantage : une croûte dorée, un cœur juste fondant.", "en": "Two minutes a side, no longer: a golden crust, a barely molten centre." },
+    { "fr": "Servir IMMÉDIATEMENT, arrosé de citron : refroidi, le saganaki devient caoutchouteux.", "en": "Serve IMMEDIATELY, with lemon squeezed over: cooled, saganaki turns rubbery." }
+  ]
+}

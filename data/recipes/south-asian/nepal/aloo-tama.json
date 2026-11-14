@@ -1,0 +1,39 @@
+{
+  "slug": "aloo-tama",
+  "cuisine": "south-asian",
+  "country": "nepal",
+  "origin": "Népal",
+  "native_name": "Aloo tama",
+  "title": {
+    "fr": "Aloo tama, pommes de terre aux pousses de bambou",
+    "en": "Aloo tama, potatoes with fermented bamboo shoots"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fermente", "bambou", "acide", "newar"],
+  "ingredients": [
+    { "raw": "300 g de pousses de bambou fermentées", "qty": 300, "unit": "g", "item": "pousse de bambou" },
+    { "raw": "4 pommes de terre, en cubes", "qty": 4, "unit": "piece", "item": "pomme de terre", "prep": "en cubes" },
+    { "raw": "200 g de haricot mungo, trempé", "qty": 200, "unit": "g", "item": "haricot mungo", "prep": "trempé" },
+    { "raw": "2 tomates, en dés", "qty": 2, "unit": "piece", "item": "tomate", "prep": "en dés" },
+    { "raw": "1 oignon, émincé", "qty": 1, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "1 c. à s. de pâte gingembre-ail", "qty": 1, "unit": "tbsp", "item": "pâte gingembre-ail" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "1 c. à c. de timur, moulu", "qty": 1, "unit": "tsp", "item": "timur", "prep": "moulu" },
+    { "raw": "1 c. à c. de graines de fenugrec", "qty": 1, "unit": "tsp", "item": "fenugrec" },
+    { "raw": "6 c. à s. d'huile de moutarde", "qty": 6, "unit": "tbsp", "item": "huile de moutarde" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Rincer les pousses de bambou fermentées à grande eau : elles arrivent très acides et très salées.", "en": "Rinse the fermented bamboo shoots well: they arrive very sour and very salty." },
+    { "fr": "Les faire bouillir dix minutes et jeter cette eau : cela ajuste l'acidité au niveau voulu.", "en": "Boil them for ten minutes and discard the water: this brings the sourness to the level you want." },
+    { "fr": "Faire noircir le fenugrec dans l'huile de moutarde chaude, puis le retirer : il ne doit pas rester.", "en": "Blacken the fenugreek in the hot mustard oil, then remove it: it is not meant to stay in." },
+    { "fr": "Faire revenir oignon, gingembre-ail, curcuma et tomates dans cette huile parfumée.", "en": "Fry the onion, ginger-garlic, turmeric and tomatoes in that scented oil." },
+    { "fr": "Ajouter le bambou, les haricots mungo, les pommes de terre et de l'eau, et cuire trente minutes.", "en": "Add the bamboo, mung beans, potatoes and water, and cook for thirty minutes." },
+    { "fr": "Le plat doit rester franchement acide. Finir au timur et servir avec du riz.", "en": "The dish should stay decidedly sour. Finish with timur and serve with rice." }
+  ]
+}

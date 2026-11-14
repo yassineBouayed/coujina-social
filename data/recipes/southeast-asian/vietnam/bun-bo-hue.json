@@ -1,0 +1,42 @@
+{
+  "slug": "bun-bo-hue",
+  "cuisine": "southeast-asian",
+  "country": "vietnam",
+  "origin": "Viêt Nam",
+  "native_name": "Bún bò Huế",
+  "title": {
+    "fr": "Bún bò Huế, soupe épicée à la citronnelle",
+    "en": "Bun bo Hue, spicy lemongrass beef noodle soup"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 180 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hue", "pimente", "citronnelle", "bouillon"],
+  "ingredients": [
+    { "raw": "1,5 kg de jarret de bœuf", "qty": 1500, "unit": "g", "item": "boeuf à mijoter" },
+    { "raw": "600 g de jarret de porc", "qty": 600, "unit": "g", "item": "échine de porc" },
+    { "raw": "500 g de vermicelles de riz épais", "qty": 500, "unit": "g", "item": "nouilles de riz" },
+    { "raw": "6 tiges de citronnelle, écrasées", "qty": 6, "unit": "piece", "item": "citronnelle", "prep": "écrasée" },
+    { "raw": "3 c. à s. de pâte de crevette", "qty": 3, "unit": "tbsp", "item": "pâte de crevette" },
+    { "raw": "4 c. à s. de piment en poudre", "qty": 4, "unit": "tbsp", "item": "piment en poudre" },
+    { "raw": "2 oignons, coupés en deux", "qty": 2, "unit": "piece", "item": "oignon", "prep": "coupé en deux" },
+    { "raw": "8 c. à s. de sauce poisson", "qty": 8, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "2 c. à s. de sucre de palme", "qty": 2, "unit": "tbsp", "item": "sucre de palme" },
+    { "raw": "1 oignon rouge, émincé", "qty": 1, "unit": "piece", "item": "oignon rouge", "prep": "émincé", "group": "garniture" },
+    { "raw": "200 g de germes de soja", "qty": 200, "unit": "g", "item": "germes de soja", "group": "garniture" },
+    { "raw": "1 bouquet de coriandre fraîche", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "group": "garniture" },
+    { "raw": "3 citrons verts, en quartiers", "qty": 3, "unit": "piece", "item": "citron vert", "group": "garniture" },
+    { "raw": "10 cl d'huile neutre", "qty": 10, "unit": "cl", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "La citronnelle est mise EN QUANTITÉ et entière : c'est elle qui distingue le bún bò Huế du phở.", "en": "Lemongrass goes in IN QUANTITY and whole: it is what separates bun bo Hue from pho." },
+    { "fr": "Blanchir les viandes, jeter l'eau, puis les cuire trois heures avec la citronnelle et les oignons.", "en": "Blanch the meats, discard the water, then cook them for three hours with the lemongrass and onions." },
+    { "fr": "Délayer la pâte de crevette dans un peu de bouillon chaud et la FILTRER avant de l'ajouter.", "en": "Slake the shrimp paste in a little hot broth and STRAIN it before adding it." },
+    { "fr": "Non filtrée, elle laisse des grains et une amertume : c'est un ingrédient puissant, à doser.", "en": "Unstrained, it leaves grit and bitterness: it is a powerful ingredient, to be measured." },
+    { "fr": "Faire une huile pimentée à part : piment en poudre, citronnelle hachée et huile chaude.", "en": "Make a chilli oil separately: chilli powder, chopped lemongrass and hot oil." },
+    { "fr": "Verser cette huile rouge en surface au moment de servir, et garnir d'herbes et de citron vert.", "en": "Pour that red oil on top as you serve, and garnish with herbs and lime." }
+  ]
+}

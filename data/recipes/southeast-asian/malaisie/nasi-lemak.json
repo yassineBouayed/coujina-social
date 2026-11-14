@@ -1,0 +1,44 @@
+{
+  "slug": "nasi-lemak",
+  "cuisine": "southeast-asian",
+  "country": "malaisie",
+  "origin": "Malaisie",
+  "native_name": "Nasi lemak",
+  "title": {
+    "fr": "Nasi lemak, riz au coco et sambal",
+    "en": "Nasi lemak, coconut rice with sambal"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 35, "cook_min": 45 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["national", "petit-dejeuner", "coco", "sambal"],
+  "ingredients": [
+    { "raw": "500 g de riz long grain", "qty": 500, "unit": "g", "item": "riz long grain" },
+    { "raw": "40 cl de lait de coco", "qty": 40, "unit": "cl", "item": "lait de coco" },
+    { "raw": "1 feuille de pandan, nouée", "qty": 1, "unit": "piece", "item": "feuille de pandan", "prep": "nouée" },
+    { "raw": "1 morceau de gingembre, en rondelles", "qty": 1, "unit": "piece", "item": "gingembre", "prep": "en rondelles" },
+    { "raw": "12 piments séchés, trempés", "qty": 12, "unit": "piece", "item": "piment séché", "prep": "trempé", "group": "sambal" },
+    { "raw": "10 échalotes", "qty": 10, "unit": "piece", "item": "échalote", "group": "sambal" },
+    { "raw": "4 gousses d'ail", "qty": 4, "unit": "piece", "item": "ail", "group": "sambal" },
+    { "raw": "1 c. à s. de pâte de crevette", "qty": 1, "unit": "tbsp", "item": "pâte de crevette", "group": "sambal" },
+    { "raw": "3 c. à s. de pâte de tamarin", "qty": 3, "unit": "tbsp", "item": "pâte de tamarin", "group": "sambal" },
+    { "raw": "3 c. à s. de sucre de palme", "qty": 3, "unit": "tbsp", "item": "sucre de palme", "group": "sambal" },
+    { "raw": "100 g d'anchois séchés", "qty": 100, "unit": "g", "item": "anchois", "group": "garniture" },
+    { "raw": "100 g d'arachides grillées", "qty": 100, "unit": "g", "item": "arachide grillée", "group": "garniture" },
+    { "raw": "4 œufs durs, coupés en deux", "qty": 4, "unit": "piece", "item": "oeuf", "prep": "dur", "group": "garniture" },
+    { "raw": "1 concombre, en rondelles", "qty": 1, "unit": "piece", "item": "concombre", "prep": "en rondelles", "group": "garniture" },
+    { "raw": "15 cl d'huile neutre", "qty": 15, "unit": "cl", "item": "huile neutre" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le nasi lemak est un ASSEMBLAGE : riz au coco, sambal, anchois frits, arachides, œuf et concombre.", "en": "Nasi lemak is an ASSEMBLY: coconut rice, sambal, fried anchovies, peanuts, egg and cucumber." },
+    { "fr": "Cuire le riz rincé dans le lait de coco allongé d'eau, avec le pandan noué et le gingembre.", "en": "Cook the rinsed rice in coconut milk let down with water, with the knotted pandan and ginger." },
+    { "fr": "Remuer UNE FOIS au départ puis ne plus toucher : le lait de coco accroche au fond dès qu'on remue.", "en": "Stir ONCE at the start then leave it: coconut milk catches on the base as soon as it is stirred." },
+    { "fr": "Frire les anchois séchés jusqu'à ce qu'ils soient bruns et croustillants, et les égoutter.", "en": "Fry the dried anchovies until brown and crisp, and drain them." },
+    { "fr": "Mixer les aromates du sambal et les frire VINGT MINUTES, jusqu'à ce que l'huile rougisse et se sépare.", "en": "Blend the sambal aromatics and fry them for TWENTY MINUTES, until the oil reddens and separates." },
+    { "fr": "Ajouter tamarin et sucre de palme : le sambal doit être sucré, acide et piquant, dans cet ordre.", "en": "Add the tamarind and palm sugar: the sambal should be sweet, sour and hot, in that order." }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "bistek-tagalog",
+  "cuisine": "southeast-asian",
+  "country": "philippines",
+  "origin": "Philippines",
+  "native_name": "Bistek tagalog",
+  "title": {
+    "fr": "Bistek tagalog, bœuf au citron vert et aux oignons",
+    "en": "Bistek tagalog, beef with lime and onions"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["quotidien", "citron-vert", "oignon", "boeuf"],
+  "ingredients": [
+    { "raw": "800 g de bœuf en tranches fines", "qty": 800, "unit": "g", "item": "steak de bœuf", "prep": "en tranches fines" },
+    { "raw": "6 citrons verts, leur jus", "qty": 6, "unit": "piece", "item": "citron vert" },
+    { "raw": "8 c. à s. de sauce soja", "qty": 8, "unit": "tbsp", "item": "sauce soja" },
+    { "raw": "4 gros oignons, en anneaux épais", "qty": 4, "unit": "piece", "item": "oignon", "prep": "en anneaux épais" },
+    { "raw": "6 gousses d'ail, écrasées", "qty": 6, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 c. à c. de poivre noir concassé", "qty": 1, "unit": "tsp", "item": "poivre noir", "prep": "concassé" },
+    { "raw": "1 c. à s. de sucre roux", "qty": 1, "unit": "tbsp", "item": "sucre roux" },
+    { "raw": "6 c. à s. d'huile neutre", "qty": 6, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "500 g de riz long grain", "qty": 500, "unit": "g", "item": "riz long grain", "group": "service" }
+  ],
+  "steps": [
+    { "fr": "Faire mariner le bœuf DEUX HEURES dans le citron vert, la sauce soja, l'ail et le poivre.", "en": "Marinate the beef for TWO HOURS in the lime, soy, garlic and pepper." },
+    { "fr": "Frire les anneaux d'oignon À PART, jusqu'à ce qu'ils soient translucides mais encore fermes.", "en": "Fry the onion rings SEPARATELY, until translucent but still firm." },
+    { "fr": "Les réserver : cuits avec la viande, ils fondraient complètement et disparaîtraient.", "en": "Set them aside: cooked with the meat, they would melt away entirely." },
+    { "fr": "Égoutter la viande et la saisir à feu vif, en une seule couche, une minute par face.", "en": "Drain the meat and sear it over high heat, in a single layer, a minute a side." },
+    { "fr": "Verser la marinade, ajouter le sucre, et laisser réduire cinq minutes.", "en": "Add the marinade and the sugar, and reduce for five minutes." },
+    { "fr": "Remettre les oignons hors du feu et servir aussitôt : ils doivent rester croquants.", "en": "Return the onions off the heat and serve at once: they must stay crunchy." }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "kopytka",
+  "cuisine": "eastern-european",
+  "country": "pologne",
+  "origin": "Pologne",
+  "native_name": "Kopytka",
+  "title": {
+    "fr": "Kopytka, gnocchis polonais",
+    "en": "Kopytka, Polish potato dumplings"
+  },
+  "meal_type": "side",
+  "servings": 6,
+  "times": { "prep_min": 35, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["accompagnement", "pomme-de-terre", "famille", "simple"],
+  "ingredients": [
+    { "raw": "1 kg de pommes de terre à chair farineuse", "qty": 1000, "unit": "g", "item": "pomme de terre" },
+    { "raw": "250 g de farine de blé", "qty": 250, "unit": "g", "item": "farine de blé" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "100 g de beurre", "qty": 100, "unit": "g", "item": "beurre" },
+    { "raw": "120 g de chapelure", "qty": 120, "unit": "g", "item": "panko", "group": "finition" },
+    { "raw": "150 g de lardons", "qty": 150, "unit": "g", "item": "lardon", "optional": true },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Kopytka veut dire « petits sabots » : la forme en losange biseauté leur donne leur nom.", "en": "Kopytka means \"little hooves\": the bevelled diamond shape gives them their name." },
+    { "fr": "Cuire les pommes de terre EN ROBE, la veille de préférence, et les presser FROIDES.", "en": "Boil the potatoes IN THEIR SKINS, ideally the day before, and rice them COLD." },
+    { "fr": "La proportion est de UN QUART de farine pour trois quarts de pomme de terre, au poids.", "en": "The ratio is ONE QUARTER flour to three quarters potato, by weight." },
+    { "fr": "Travailler la pâte le MOINS possible : trop pétrie, elle devient élastique et les kopytka sont durs.", "en": "Work the dough AS LITTLE as possible: overworked, it turns elastic and the kopytka are tough." },
+    { "fr": "Rouler des boudins, aplatir légèrement, et couper EN BIAIS pour la forme de sabot.", "en": "Roll ropes, flatten slightly, and cut ON THE DIAGONAL for the hoof shape." },
+    { "fr": "Pocher jusqu'à ce qu'ils remontent, puis les rouler dans la chapelure dorée au beurre.", "en": "Poach until they float, then roll them in butter-toasted breadcrumbs." }
+  ]
+}

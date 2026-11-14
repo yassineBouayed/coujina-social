@@ -1,0 +1,41 @@
+{
+  "slug": "bak-kut-teh",
+  "cuisine": "southeast-asian",
+  "country": "singapour",
+  "origin": "Singapour",
+  "native_name": "肉骨茶",
+  "title": {
+    "fr": "Bak kut teh, bouillon de porc au poivre blanc",
+    "en": "Bak kut teh, peppery pork rib soup"
+  },
+  "meal_type": "soup",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 120 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["teochew", "poivre", "ail", "petit-dejeuner"],
+  "ingredients": [
+    { "raw": "1,5 kg de travers de porc", "qty": 1500, "unit": "g", "item": "poitrine de porc" },
+    { "raw": "3 têtes d'ail entières", "qty": 30, "unit": "piece", "item": "ail" },
+    { "raw": "3 c. à s. de poivre blanc en grains, concassé", "qty": 3, "unit": "tbsp", "item": "poivre blanc", "prep": "concassé" },
+    { "raw": "2 c. à s. de poivre noir en grains", "qty": 2, "unit": "tbsp", "item": "poivre noir" },
+    { "raw": "3 c. à s. de sauce soja claire", "qty": 3, "unit": "tbsp", "item": "sauce soja claire" },
+    { "raw": "1 c. à s. de sauce soja foncée", "qty": 1, "unit": "tbsp", "item": "sauce soja foncée" },
+    { "raw": "2,5 l d'eau", "qty": 2.5, "unit": "l", "item": "eau" },
+    { "raw": "200 g de champignons shiitake", "qty": 200, "unit": "g", "item": "shiitake", "optional": true },
+    { "raw": "300 g de tofu ferme frit", "qty": 300, "unit": "g", "item": "tofu ferme", "prep": "frit", "optional": true },
+    { "raw": "500 g de riz long grain", "qty": 500, "unit": "g", "item": "riz long grain", "group": "service" },
+    { "raw": "4 c. à s. de sauce soja foncée", "qty": 4, "unit": "tbsp", "item": "sauce soja foncée", "group": "service" },
+    { "raw": "4 piments oiseau, en rondelles", "qty": 4, "unit": "piece", "item": "piment oiseau", "prep": "en rondelles", "group": "service" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "La version de Singapour est TEOCHEW : claire, poivrée et à l'ail, sans les herbes chinoises de Malaisie.", "en": "The Singapore version is TEOCHEW: clear, peppery and garlicky, without the Malaysian herbal broth." },
+    { "fr": "Blanchir les travers dix minutes et JETER cette eau : c'est ce qui rend le bouillon limpide.", "en": "Blanch the ribs for ten minutes and DISCARD that water: this is what makes the broth clear." },
+    { "fr": "Concasser le poivre blanc au mortier juste avant : moulu d'avance, il perd toute sa force.", "en": "Crush the white pepper in a mortar just before: pre-ground, it loses all its bite." },
+    { "fr": "Mettre les têtes d'ail ENTIÈRES, non épluchées : elles fondent et parfument sans se défaire.", "en": "Add the garlic heads WHOLE and unpeeled: they melt and perfume without breaking up." },
+    { "fr": "Cuire deux heures à petits bouillons : le bouillon doit rester clair, jamais laiteux.", "en": "Cook for two hours at a bare simmer: the broth must stay clear, never milky." },
+    { "fr": "Servir avec du riz et une soucoupe de sauce soja aux piments, pour tremper la viande.", "en": "Serve with rice and a saucer of soy and chilli, for dipping the meat." }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "salmorejo",
+  "cuisine": "mediterranean",
+  "country": "espagne",
+  "origin": "Espagne",
+  "native_name": "Salmorejo cordobés",
+  "title": {
+    "fr": "Salmorejo de Cordoue",
+    "en": "Cordoban salmorejo"
+  },
+  "meal_type": "starter",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["cordoue", "ete", "froid", "pain"],
+  "ingredients": [
+    { "raw": "1,2 kg de tomates très mûres", "qty": 1200, "unit": "g", "item": "tomate" },
+    { "raw": "250 g de pain de campagne rassis", "qty": 250, "unit": "g", "item": "pain", "prep": "rassis" },
+    { "raw": "20 cl d'huile d'olive", "qty": 20, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "1 gousse d'ail", "qty": 1, "unit": "piece", "item": "ail" },
+    { "raw": "1 c. à s. de vinaigre de xérès", "qty": 1, "unit": "tbsp", "item": "vinaigre de xérès" },
+    { "raw": "3 œufs durs, hachés", "qty": 3, "unit": "piece", "item": "oeuf", "prep": "dur, haché", "group": "service" },
+    { "raw": "120 g de jambon serrano, en lanières", "qty": 120, "unit": "g", "item": "jambon cru", "prep": "en lanières", "group": "service" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le salmorejo est le cousin ÉPAIS du gaspacho : deux fois plus de pain, aucune eau ajoutée.", "en": "Salmorejo is gazpacho's THICK cousin: twice the bread, no added water." },
+    { "fr": "Il ne contient ni concombre ni poivron : tomate, pain, ail, huile, et rien de plus.", "en": "It contains no cucumber and no pepper: tomato, bread, garlic, oil, and nothing else." },
+    { "fr": "Mixer les tomates seules d'abord, puis y faire tremper le pain vingt minutes.", "en": "Blend the tomatoes alone first, then soak the bread in them for twenty minutes." },
+    { "fr": "Mixer longuement, puis verser l'huile EN FILET jusqu'à obtenir une crème rose pâle.", "en": "Blend at length, then pour the oil IN A STREAM until you get a pale pink cream." },
+    { "fr": "C'est cette émulsion qui donne la couleur : un salmorejo rouge vif manque d'huile.", "en": "That emulsion gives the colour: a bright red salmorejo is short on oil." },
+    { "fr": "Réfrigérer trois heures et servir avec œuf dur et jambon serrano par-dessus.", "en": "Chill for three hours and serve topped with hard-boiled egg and serrano ham." }
+  ]
+}

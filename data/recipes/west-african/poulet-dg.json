@@ -1,0 +1,46 @@
+{
+  "slug": "poulet-dg",
+  "cuisine": "west-african",
+  "origin": "Cameroun",
+  "native_name": "Poulet DG",
+  "title": {
+    "fr": "Poulet DG, poulet sauté aux plantains et aux légumes",
+    "en": "Poulet DG, sautéed chicken with plantain and vegetables"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 45 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j5-catalogue-v1", "date": "2026-08-29" },
+  "tags": ["poulet", "plantain", "fete", "saute"],
+  "ingredients": [
+    { "raw": "1 poulet d'environ 1,4 kg, en morceaux", "qty": 1.4, "unit": "kg", "item": "poulet", "prep": "en morceaux" },
+    { "raw": "4 bananes plantains bien mûres", "qty": 4, "unit": "piece", "item": "banane plantain", "prep": "en rondelles épaisses" },
+    { "raw": "2 gousses d'ail", "qty": 2, "unit": "piece", "item": "ail", "prep": "écrasé", "group": "marinade" },
+    { "raw": "20 g de gingembre frais", "qty": 20, "unit": "g", "item": "gingembre", "prep": "râpé", "group": "marinade" },
+    { "raw": "1 c. à c. de poivre blanc", "qty": 1, "unit": "tsp", "item": "poivre blanc", "group": "marinade" },
+    { "raw": "1 cube de bouillon", "qty": 1, "unit": "piece", "item": "bouillon cube", "group": "marinade" },
+    { "raw": "1 litre d'huile neutre pour la friture", "qty": 1, "unit": "l", "item": "huile neutre" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "2 carottes, en bâtonnets", "qty": 2, "unit": "piece", "item": "carotte", "prep": "en bâtonnets" },
+    { "raw": "150 g de haricots verts", "qty": 150, "unit": "g", "item": "haricot vert", "prep": "équeuté" },
+    { "raw": "1 poivron rouge, en lanières", "qty": 1, "unit": "piece", "item": "poivron rouge", "prep": "en lanières" },
+    { "raw": "1 poivron vert, en lanières", "qty": 1, "unit": "piece", "item": "poivron vert", "prep": "en lanières" },
+    { "raw": "3 tomates, en dés", "qty": 3, "unit": "piece", "item": "tomate", "prep": "en dés" },
+    { "raw": "1 piment antillais", "qty": 1, "unit": "piece", "item": "habanero", "optional": true },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Frotter le poulet avec l'ail, le gingembre, le poivre blanc, le cube émietté et un peu de sel. Laisser 30 minutes.", "en": "Rub the chicken with the garlic, ginger, white pepper, crumbled stock cube and a little salt. Leave for 30 minutes." },
+    { "fr": "Faire dorer les morceaux de poulet dans l'huile de friture, à feu moyen, jusqu'à ce qu'ils soient colorés et presque cuits. Les égoutter.", "en": "Fry the chicken pieces in the deep oil over medium heat until coloured and nearly cooked through. Drain." },
+    { "fr": "Frire les rondelles de plantain dans la même huile jusqu'à ce qu'elles soient dorées et fondantes. Les égoutter à leur tour.", "en": "Fry the plantain rounds in the same oil until golden and soft. Drain them too." },
+    { "fr": "Dans une sauteuse, faire revenir les oignons dans deux cuillerées de l'huile de friture, ajouter les carottes, les haricots verts et les poivrons. Sauter 6 à 8 minutes à feu vif : les légumes doivent rester croquants.", "en": "In a wide pan, fry the onions in two spoonfuls of oil, then add the carrots, green beans and peppers. Stir-fry for 6 to 8 minutes over high heat: the vegetables must stay crisp." },
+    { "fr": "Ajouter les tomates et le piment entier, laisser trois minutes, puis remettre le poulet et les plantains.", "en": "Add the tomatoes and the whole chilli, give it three minutes, then return the chicken and plantains." },
+    { "fr": "Mélanger délicatement, rectifier le sel et servir tout de suite.", "en": "Fold together gently, adjust the salt and serve immediately." }
+  ],
+  "notes": [
+    { "fr": "« DG » pour directeur général : le plat a été nommé d'après les gens qui pouvaient s'offrir autant de poulet et de plantain à la fois. C'est un plat d'occasion, pas de semaine.", "en": "\"DG\" is for directeur général: the dish is named after the people who could afford that much chicken and plantain at once. It is an occasion dish, not a weekday one." },
+    { "fr": "Les plantains doivent être bien mûrs, presque noirs. Verts, ils restent farineux et le plat perd son contraste sucré-salé.", "en": "The plantains must be properly ripe, nearly black. Green ones stay starchy and the dish loses its sweet-savoury contrast." }
+  ]
+}

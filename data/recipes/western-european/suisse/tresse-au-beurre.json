@@ -1,0 +1,36 @@
+{
+  "slug": "tresse-au-beurre",
+  "cuisine": "western-european",
+  "country": "suisse",
+  "origin": "Suisse",
+  "native_name": "Zopf",
+  "title": {
+    "fr": "Tresse au beurre du dimanche",
+    "en": "Sunday butter braid"
+  },
+  "meal_type": "bread",
+  "servings": 10,
+  "times": { "prep_min": 45, "cook_min": 40 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["dimanche", "pain", "beurre", "petit-dejeuner"],
+  "ingredients": [
+    { "raw": "600 g de farine T45", "qty": 600, "unit": "g", "item": "farine T45" },
+    { "raw": "30 cl de lait entier, tiède", "qty": 30, "unit": "cl", "item": "lait entier", "prep": "tiède" },
+    { "raw": "14 g de levure boulangère sèche", "qty": 14, "unit": "g", "item": "levure boulangère" },
+    { "raw": "120 g de beurre, mou", "qty": 120, "unit": "g", "item": "beurre", "prep": "mou" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "12 g de sel", "qty": 12, "unit": "g", "item": "sel" },
+    { "raw": "1 c. à s. de sucre", "qty": 1, "unit": "tbsp", "item": "sucre" },
+    { "raw": "1 œuf, pour dorer", "qty": 1, "unit": "piece", "item": "oeuf" }
+  ],
+  "steps": [
+    { "fr": "Le zopf est le pain du dimanche matin en Suisse : chaque famille a sa tresse.", "en": "Zopf is Switzerland's Sunday-morning bread: every family has its braid." },
+    { "fr": "Pétrir quinze minutes : la pâte doit être ÉLASTIQUE et se décoller de la cuve.", "en": "Knead for fifteen minutes: the dough must be ELASTIC and pull away from the bowl." },
+    { "fr": "Diviser en deux boudins EFFILÉS AUX EXTRÉMITÉS et épais au centre.", "en": "Divide into two ropes TAPERED AT THE ENDS and thick in the middle." },
+    { "fr": "Cette forme n'est pas décorative : elle donne une tresse régulière et bien gonflée au centre.", "en": "That shape is not decorative: it gives an even braid, well risen in the middle." },
+    { "fr": "Croiser les deux boudins et tresser en alternant, en glissant toujours par-dessous.", "en": "Cross the two ropes and braid alternately, always tucking underneath." },
+    { "fr": "Laisser lever une heure, dorer DEUX FOIS à l'œuf, et cuire quarante minutes à 180 °C.", "en": "Prove for an hour, egg-wash TWICE, and bake for forty minutes at 180°C." }
+  ]
+}

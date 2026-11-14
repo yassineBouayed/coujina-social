@@ -1,0 +1,39 @@
+{
+  "slug": "bihari-boti",
+  "cuisine": "south-asian",
+  "country": "pakistan",
+  "origin": "Pakistan",
+  "native_name": "Bihari boti",
+  "title": {
+    "fr": "Bihari boti, brochettes de bœuf attendries à la papaye",
+    "en": "Bihari boti, papaya-tenderised beef skewers"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["karachi", "grillade", "papaye", "fete"],
+  "ingredients": [
+    { "raw": "900 g de steak de bœuf, en fines lanières", "qty": 900, "unit": "g", "item": "steak de bœuf", "prep": "en fines lanières" },
+    { "raw": "1/2 papaye verte, râpée", "qty": 0.5, "unit": "piece", "item": "papaye", "prep": "râpée" },
+    { "raw": "3 oignons, frits et écrasés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "frit et écrasé" },
+    { "raw": "20 cl de yaourt", "qty": 20, "unit": "cl", "item": "yaourt" },
+    { "raw": "2 c. à s. de pâte gingembre-ail", "qty": 2, "unit": "tbsp", "item": "pâte gingembre-ail" },
+    { "raw": "2 c. à s. de piment kashmiri", "qty": 2, "unit": "tbsp", "item": "piment kashmiri" },
+    { "raw": "1 c. à s. de coriandre en graines, moulue", "qty": 1, "unit": "tbsp", "item": "coriandre graines", "prep": "moulue" },
+    { "raw": "1 c. à c. de garam masala", "qty": 1, "unit": "tsp", "item": "garam masala" },
+    { "raw": "3 c. à s. de farine de pois chiche, grillée", "qty": 3, "unit": "tbsp", "item": "farine de pois chiche", "prep": "grillée" },
+    { "raw": "10 cl d'huile de moutarde", "qty": 10, "unit": "cl", "item": "huile neutre" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "La papaye VERTE contient une enzyme qui attendrit la viande : la papaye mûre n'en a plus.", "en": "GREEN papaya contains an enzyme that tenderises meat: ripe papaya no longer does." },
+    { "fr": "Mélanger tous les éléments de la marinade et y faire mariner la viande QUATRE HEURES au maximum.", "en": "Mix all the marinade ingredients and marinate the meat for FOUR HOURS at most." },
+    { "fr": "Au-delà, l'enzyme continue et transforme la viande en une bouillie molle : c'est irrattrapable.", "en": "Beyond that, the enzyme keeps working and turns the meat to mush: there is no fixing it." },
+    { "fr": "Enfiler les lanières sur des brochettes en les repliant en accordéon.", "en": "Thread the strips onto skewers, folding them concertina-style." },
+    { "fr": "Griller sur braises très vives, huit minutes en tout, en badigeonnant d'huile.", "en": "Grill over very hot coals, eight minutes in all, basting with oil." },
+    { "fr": "Servir avec du naan, de l'oignon cru et du chutney à la menthe.", "en": "Serve with naan, raw onion and mint chutney." }
+  ]
+}

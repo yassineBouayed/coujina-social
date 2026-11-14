@@ -1,0 +1,44 @@
+{
+  "slug": "laksa-lemak",
+  "cuisine": "southeast-asian",
+  "country": "malaisie",
+  "origin": "Malaisie",
+  "native_name": "Laksa lemak",
+  "title": {
+    "fr": "Laksa lemak, nouilles au curry de coco",
+    "en": "Laksa lemak, coconut curry noodle soup"
+  },
+  "meal_type": "soup",
+  "servings": 5,
+  "times": { "prep_min": 40, "cook_min": 40 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["nyonya", "coco", "crevette", "nouilles"],
+  "ingredients": [
+    { "raw": "400 g de nouilles de riz épaisses", "qty": 400, "unit": "g", "item": "nouilles de riz" },
+    { "raw": "500 g de crevettes, avec les têtes", "qty": 500, "unit": "g", "item": "crevette" },
+    { "raw": "400 g de blanc de poulet", "qty": 400, "unit": "g", "item": "blanc de poulet" },
+    { "raw": "80 cl de lait de coco", "qty": 80, "unit": "cl", "item": "lait de coco" },
+    { "raw": "12 piments séchés, trempés", "qty": 12, "unit": "piece", "item": "piment séché", "prep": "trempé", "group": "pâte" },
+    { "raw": "10 échalotes", "qty": 10, "unit": "piece", "item": "échalote", "group": "pâte" },
+    { "raw": "6 gousses d'ail", "qty": 6, "unit": "piece", "item": "ail", "group": "pâte" },
+    { "raw": "6 noix de bancoul", "qty": 6, "unit": "piece", "item": "noix de bancoul", "group": "pâte" },
+    { "raw": "1 morceau de curcuma frais", "qty": 1, "unit": "piece", "item": "curcuma frais", "group": "pâte" },
+    { "raw": "1 morceau de galanga", "qty": 1, "unit": "piece", "item": "galanga", "group": "pâte" },
+    { "raw": "3 tiges de citronnelle", "qty": 3, "unit": "piece", "item": "citronnelle", "group": "pâte" },
+    { "raw": "2 c. à s. de pâte de crevette", "qty": 2, "unit": "tbsp", "item": "pâte de crevette", "group": "pâte" },
+    { "raw": "200 g de tofu ferme frit, en tranches", "qty": 200, "unit": "g", "item": "tofu ferme", "prep": "frit", "group": "garniture" },
+    { "raw": "200 g de germes de soja", "qty": 200, "unit": "g", "item": "germes de soja", "group": "garniture" },
+    { "raw": "1 bouquet de menthe fraîche", "qty": 1, "unit": "bunch", "item": "menthe fraîche", "group": "garniture" },
+    { "raw": "12 cl d'huile neutre", "qty": 12, "unit": "cl", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Décortiquer les crevettes et faire un fumet avec les TÊTES : c'est le fond du laksa.", "en": "Peel the prawns and make a stock from the HEADS: that is the base of laksa." },
+    { "fr": "Mixer tous les aromates en pâte fine — le rempah — et la frire VINGT MINUTES à feu moyen.", "en": "Blend all the aromatics into a fine paste — the rempah — and fry it for TWENTY MINUTES over medium heat." },
+    { "fr": "Le rempah doit foncer et l'huile s'en séparer franchement : c'est le seul indicateur qui vaille.", "en": "The rempah must darken and the oil separate clearly: the only reliable indicator." },
+    { "fr": "Ajouter le fumet de crevettes, laisser dix minutes, puis le lait de coco et le poulet.", "en": "Add the prawn stock, cook for ten minutes, then the coconut milk and chicken." },
+    { "fr": "Frémir vingt minutes SANS bouillir : à gros bouillons, le lait de coco tranche.", "en": "Simmer for twenty minutes WITHOUT boiling: at a rolling boil, the coconut milk splits." },
+    { "fr": "Monter le bol : nouilles, germes crus, tofu, poulet, crevettes, puis le bouillon brûlant.", "en": "Build the bowl: noodles, raw sprouts, tofu, chicken, prawns, then the scalding broth." }
+  ]
+}

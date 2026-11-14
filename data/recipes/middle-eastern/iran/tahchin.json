@@ -1,0 +1,39 @@
+{
+  "slug": "tahchin",
+  "cuisine": "middle-eastern",
+  "country": "iran",
+  "origin": "Iran",
+  "native_name": "Tahchin",
+  "title": {
+    "fr": "Tahchin, gâteau de riz au safran et au poulet",
+    "en": "Tahchin, saffron rice cake with chicken"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 90 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "safran", "riz", "yaourt"],
+  "ingredients": [
+    { "raw": "600 g de riz basmati", "qty": 600, "unit": "g", "item": "riz basmati" },
+    { "raw": "800 g de blanc de poulet", "qty": 800, "unit": "g", "item": "blanc de poulet" },
+    { "raw": "40 cl de yaourt grec", "qty": 40, "unit": "cl", "item": "yaourt grec" },
+    { "raw": "3 jaunes d'œufs", "qty": 3, "unit": "piece", "item": "oeuf" },
+    { "raw": "1 grosse pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "120 g de beurre, fondu", "qty": 120, "unit": "g", "item": "beurre", "prep": "fondu" },
+    { "raw": "1 oignon", "qty": 1, "unit": "piece", "item": "oignon" },
+    { "raw": "50 g de zereshk", "qty": 50, "unit": "g", "item": "zereshk", "group": "décor" },
+    { "raw": "40 g de pistaches, effilées", "qty": 40, "unit": "g", "item": "pistache", "prep": "effilée", "group": "décor" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Cuire le poulet avec l'oignon et le sel, l'effilocher, et garder le bouillon.", "en": "Cook the chicken with the onion and salt, shred it, and keep the broth." },
+    { "fr": "Tremper le riz deux heures en eau salée, puis le précuire sept minutes et l'égoutter : il doit rester ferme au cœur.", "en": "Soak the rice for two hours in salted water, then parboil it for seven minutes and drain: it must stay firm at the core." },
+    { "fr": "Infuser le safran pilé dans deux cuillères d'eau chaude, un quart d'heure.", "en": "Steep the ground saffron in two spoons of hot water for a quarter of an hour." },
+    { "fr": "Mélanger le yaourt, les jaunes, le safran et un tiers du riz : c'est cette couche qui formera la croûte dorée.", "en": "Mix the yoghurt, yolks, saffron and a third of the rice: this layer forms the golden crust." },
+    { "fr": "Tasser ce mélange au fond d'un moule beurré, puis alterner poulet et riz nature par-dessus.", "en": "Press that mixture into a buttered tin, then alternate chicken and plain rice on top." },
+    { "fr": "Cuire 90 minutes à 180 °C, démouler à l'envers et décorer de zereshk et de pistaches.", "en": "Bake for 90 minutes at 180°C, turn out upside down and decorate with barberries and pistachios." }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "bubur-ayam",
+  "cuisine": "southeast-asian",
+  "country": "indonesie",
+  "origin": "Indonésie",
+  "native_name": "Bubur ayam",
+  "title": {
+    "fr": "Bubur ayam, bouillie de riz au poulet",
+    "en": "Bubur ayam, chicken rice porridge"
+  },
+  "meal_type": "soup",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 75 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["petit-dejeuner", "rue", "riz", "reconfort"],
+  "ingredients": [
+    { "raw": "250 g de riz long grain", "qty": 250, "unit": "g", "item": "riz long grain" },
+    { "raw": "2 l de bouillon de volaille", "qty": 2, "unit": "l", "item": "bouillon volaille" },
+    { "raw": "500 g de blanc de poulet", "qty": 500, "unit": "g", "item": "blanc de poulet" },
+    { "raw": "1 morceau de gingembre", "qty": 1, "unit": "piece", "item": "gingembre" },
+    { "raw": "2 tiges de citronnelle, écrasées", "qty": 2, "unit": "piece", "item": "citronnelle", "prep": "écrasée" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "6 échalotes, frites", "qty": 6, "unit": "piece", "item": "échalote", "prep": "frite", "group": "garniture" },
+    { "raw": "4 oignons nouveaux, ciselés", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé", "group": "garniture" },
+    { "raw": "4 c. à s. de kecap manis", "qty": 4, "unit": "tbsp", "item": "kecap manis", "group": "garniture" },
+    { "raw": "60 g d'arachides grillées", "qty": 60, "unit": "g", "item": "arachide grillée", "group": "garniture" },
+    { "raw": "4 c. à s. de sauce piquante", "qty": 4, "unit": "tbsp", "item": "sauce piquante", "group": "garniture" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Rincer le riz et le cuire dans le bouillon avec gingembre, citronnelle et curcuma.", "en": "Rinse the rice and cook it in the stock with ginger, lemongrass and turmeric." },
+    { "fr": "Compter UNE HEURE ET QUART à feu doux, en remuant toutes les dix minutes.", "en": "Allow AN HOUR AND A QUARTER over low heat, stirring every ten minutes." },
+    { "fr": "Le bubur doit se défaire complètement : aucun grain ne doit rester reconnaissable.", "en": "Bubur must break down entirely: no grain should stay recognisable." },
+    { "fr": "Pocher le poulet à part et l'effilocher à la main.", "en": "Poach the chicken separately and shred it by hand." },
+    { "fr": "Le bubur est servi NEUTRE : ce sont les garnitures et les sauces qui font tout le goût.", "en": "Bubur is served PLAIN: the toppings and sauces carry all the flavour." },
+    { "fr": "Chacun garnit son bol de poulet, échalotes frites, kecap manis, arachides et sauce piquante.", "en": "Each person tops their own bowl with chicken, fried shallots, kecap manis, peanuts and hot sauce." }
+  ]
+}

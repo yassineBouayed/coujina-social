@@ -1,0 +1,49 @@
+{
+  "slug": "seffa-medfouna",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Seffa medfouna",
+  "title": {
+    "fr": "Seffa medfouna, vermicelles sucrés au poulet caché",
+    "en": "Seffa medfouna, sweet vermicelli with hidden chicken"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 35, "cook_min": 90 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j2-sonde-v1", "date": "2026-08-28" },
+  "tags": ["sucre-sale", "poulet", "vapeur", "fete"],
+  "ingredients": [
+    { "raw": "500 g de cheveux d'ange", "qty": 500, "unit": "g", "item": "vermicelle" },
+    { "raw": "1 poulet de 1,3 kg, coupé en morceaux", "qty": 1.3, "unit": "kg", "item": "poulet", "prep": "coupé en morceaux" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "1 c. à c. de gingembre moulu", "qty": 1, "unit": "tsp", "item": "gingembre moulu" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "1/2 c. à c. de poivre blanc", "qty": 0.5, "unit": "tsp", "item": "poivre blanc" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "4 c. à s. d'huile d'olive", "qty": 4, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "120 g de beurre", "qty": 120, "unit": "g", "item": "beurre" },
+    { "raw": "100 g de sucre glace", "qty": 100, "unit": "g", "item": "sucre glace" },
+    { "raw": "2 c. à c. de cannelle moulue", "qty": 2, "unit": "tsp", "item": "cannelle moulue" },
+    { "raw": "150 g d'amandes émondées", "qty": 150, "unit": "g", "item": "amande", "prep": "émondée" },
+    { "raw": "100 g de raisins secs, trempés", "qty": 100, "unit": "g", "item": "raisin sec", "prep": "trempé" },
+    { "raw": "2 c. à s. d'eau de fleur d'oranger", "qty": 2, "unit": "tbsp", "item": "eau de fleur d'oranger" },
+    { "raw": "3 c. à s. d'huile de tournesol", "qty": 3, "unit": "tbsp", "item": "huile de tournesol" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire le poulet avec les oignons, le gingembre, le safran, le poivre blanc, le bâton de cannelle, l'huile d'olive et un verre d'eau, une heure à couvert.", "en": "Cook the chicken with the onions, ginger, saffron, white pepper, cinnamon stick, olive oil and a glass of water, covered, for an hour." },
+    { "fr": "Faire réduire la sauce jusqu'à ce que les oignons forment une compotée presque sèche.", "en": "Reduce the sauce until the onions form an almost dry confit." },
+    { "fr": "Huiler légèrement les cheveux d'ange et les passer une première fois à la vapeur, quinze minutes.", "en": "Oil the vermicelli lightly and steam it for a first fifteen minutes." },
+    { "fr": "Les arroser d'eau salée, les défaire à la fourchette, et répéter la vapeur deux fois de plus.", "en": "Sprinkle with salted water, loosen with a fork, and repeat the steaming twice more." },
+    { "fr": "Beurrer les vermicelles chauds, ajouter l'eau de fleur d'oranger, la moitié du sucre glace et la cannelle.", "en": "Butter the hot vermicelli, add the orange blossom water, half the icing sugar and the cinnamon." },
+    { "fr": "Frire les amandes, en concasser les deux tiers, garder le reste entier.", "en": "Fry the almonds, crush two thirds and keep the rest whole." },
+    { "fr": "Dresser la moitié des vermicelles dans un grand plat, enfouir dessus le poulet et sa compotée d'oignons, puis recouvrir du reste de vermicelles en dôme — c'est ce qui donne son nom au plat.", "en": "Spread half the vermicelli in a large dish, bury the chicken and its onion confit on top, then cover with the rest in a dome — which is what gives the dish its name." },
+    { "fr": "Décorer de bandes de cannelle et de sucre glace, planter les amandes entières et les raisins secs, servir aussitôt.", "en": "Decorate with stripes of cinnamon and icing sugar, stud with whole almonds and raisins, and serve at once." }
+  ],
+  "notes": [
+    { "fr": "Le poulet doit rester invisible : on le découvre à la cuillère, et c'est tout l'effet du plat.", "en": "The chicken must stay hidden: it is uncovered with the spoon, and that is the whole effect of the dish." }
+  ]
+}

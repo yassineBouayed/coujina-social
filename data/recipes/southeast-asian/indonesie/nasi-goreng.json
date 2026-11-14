@@ -1,0 +1,40 @@
+{
+  "slug": "nasi-goreng",
+  "cuisine": "southeast-asian",
+  "country": "indonesie",
+  "origin": "Indonésie",
+  "native_name": "Nasi goreng",
+  "title": {
+    "fr": "Nasi goreng, riz sauté au kecap manis",
+    "en": "Nasi goreng, fried rice with sweet soy"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["national", "rapide", "kecap", "oeuf"],
+  "ingredients": [
+    { "raw": "600 g de riz long grain, cuit la veille", "qty": 600, "unit": "g", "item": "riz long grain", "prep": "cuit la veille" },
+    { "raw": "300 g de blanc de poulet, en dés", "qty": 300, "unit": "g", "item": "blanc de poulet", "prep": "en dés" },
+    { "raw": "200 g de crevettes, décortiquées", "qty": 200, "unit": "g", "item": "crevette", "prep": "décortiquée" },
+    { "raw": "6 échalotes", "qty": 6, "unit": "piece", "item": "échalote", "group": "pâte" },
+    { "raw": "4 gousses d'ail", "qty": 4, "unit": "piece", "item": "ail", "group": "pâte" },
+    { "raw": "4 piments oiseau", "qty": 4, "unit": "piece", "item": "piment oiseau", "group": "pâte" },
+    { "raw": "1 c. à c. de pâte de crevette", "qty": 1, "unit": "tsp", "item": "pâte de crevette", "group": "pâte" },
+    { "raw": "5 c. à s. de kecap manis", "qty": 5, "unit": "tbsp", "item": "kecap manis" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf" },
+    { "raw": "4 oignons nouveaux, ciselés", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé" },
+    { "raw": "1 concombre, en rondelles", "qty": 1, "unit": "piece", "item": "concombre", "prep": "en rondelles", "group": "service" },
+    { "raw": "6 c. à s. d'huile neutre", "qty": 6, "unit": "tbsp", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Le kecap manis est une sauce soja SUCRÉE et sirupeuse : c'est elle qui donne la couleur brune du nasi goreng.", "en": "Kecap manis is a SWEET, syrupy soy sauce: it gives nasi goreng its brown colour." },
+    { "fr": "Mixer échalotes, ail, piments et pâte de crevette en une pâte — le bumbu — et la frire cinq minutes.", "en": "Blend the shallots, garlic, chillies and shrimp paste into a paste — the bumbu — and fry it for five minutes." },
+    { "fr": "La pâte doit foncer et l'huile s'en séparer : crue, elle laisse un goût d'échalote agressif.", "en": "The paste must darken and the oil separate: raw, it leaves an aggressive shallot taste." },
+    { "fr": "Ajouter poulet et crevettes, les saisir, puis le riz FROID de la veille, bien égrené.", "en": "Add the chicken and prawns, sear them, then the COLD day-old rice, well separated." },
+    { "fr": "Verser le kecap manis par les bords du wok et sauter en soulevant.", "en": "Pour the kecap manis around the edge of the wok and toss, lifting the rice." },
+    { "fr": "Servir avec un œuf au plat par personne, du concombre cru et des oignons nouveaux.", "en": "Serve with a fried egg each, raw cucumber and spring onions." }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "kafteji",
+  "cuisine": "maghrebi",
+  "country": "tunisie",
+  "origin": "Tunisie",
+  "native_name": "Kafteji",
+  "title": {
+    "fr": "Kafteji, légumes frits hachés à l'œuf",
+    "en": "Kafteji, chopped fried vegetables with egg"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "friture", "vegetarien", "etudiant"],
+  "ingredients": [
+    { "raw": "2 poivrons verts", "qty": 2, "unit": "piece", "item": "poivron vert" },
+    { "raw": "3 tomates", "qty": 3, "unit": "piece", "item": "tomate" },
+    { "raw": "1 courgette", "qty": 1, "unit": "piece", "item": "courgette" },
+    { "raw": "1 aubergine", "qty": 1, "unit": "piece", "item": "aubergine" },
+    { "raw": "2 pommes de terre", "qty": 2, "unit": "piece", "item": "pomme de terre" },
+    { "raw": "1 piment frais", "qty": 1, "unit": "piece", "item": "piment frais" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf" },
+    { "raw": "1 c. à c. de harissa", "qty": 1, "unit": "tsp", "item": "harissa" },
+    { "raw": "1 c. à c. de carvi moulu", "qty": 1, "unit": "tsp", "item": "carvi" },
+    { "raw": "50 cl d'huile de tournesol pour la friture", "qty": 50, "unit": "cl", "item": "huile de tournesol" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Frire chaque légume séparément : ils n'ont pas le même temps de cuisson, et tout jeter ensemble donne un mélange raté.", "en": "Fry each vegetable separately: they do not cook at the same rate, and throwing them in together ruins the mix." },
+    { "fr": "Commencer par la pomme de terre, finir par la tomate, qui rend le plus d'eau.", "en": "Start with the potato and finish with the tomato, which gives up the most water." },
+    { "fr": "Frire les œufs à l'huile chaude, bords dentelés.", "en": "Fry the eggs in the hot oil, edges frilled." },
+    { "fr": "Tout réunir sur une planche et hacher grossièrement au couteau, œufs compris.", "en": "Gather everything on a board and chop it roughly with a knife, eggs included." },
+    { "fr": "Assaisonner de harissa, carvi et sel, en mélangeant à la lame.", "en": "Season with harissa, caraway and salt, mixing with the blade." },
+    { "fr": "Servir immédiatement, tiède, dans du pain ou en assiette.", "en": "Serve at once, warm, in bread or on a plate." }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "mhadjeb",
+  "cuisine": "maghrebi",
+  "country": "algerie",
+  "origin": "Algérie",
+  "native_name": "Mhadjeb",
+  "title": {
+    "fr": "Mhadjeb, crêpes farcies à la tomate et à l'oignon",
+    "en": "Mhadjeb, semolina pancakes stuffed with tomato and onion"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 45, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "ramadan", "semoule", "vegetarien"],
+  "ingredients": [
+    { "raw": "500 g de semoule fine", "qty": 500, "unit": "g", "item": "semoule fine", "group": "pâte" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel", "group": "pâte" },
+    { "raw": "10 cl d'huile neutre", "qty": 10, "unit": "cl", "item": "huile neutre", "group": "pâte" },
+    { "raw": "4 tomates, râpées", "qty": 4, "unit": "piece", "item": "tomate", "prep": "râpée", "group": "farce" },
+    { "raw": "3 oignons, hachés finement", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché finement", "group": "farce" },
+    { "raw": "1 poivron rouge, en petits dés", "qty": 1, "unit": "piece", "item": "poivron rouge", "prep": "en petits dés", "group": "farce" },
+    { "raw": "2 c. à s. de concentré de tomate", "qty": 2, "unit": "tbsp", "item": "concentré de tomate", "group": "farce" },
+    { "raw": "1 c. à c. de paprika", "qty": 1, "unit": "tsp", "item": "paprika", "group": "farce" },
+    { "raw": "1 c. à c. de harissa", "qty": 1, "unit": "tsp", "item": "harissa", "optional": true, "group": "farce" },
+    { "raw": "4 c. à s. d'huile d'olive", "qty": 4, "unit": "tbsp", "item": "huile d'olive", "group": "farce" }
+  ],
+  "steps": [
+    { "fr": "Pétrir la semoule fine avec l'eau tiède et le sel vingt minutes, jusqu'à ce que la pâte devienne élastique et lisse.", "en": "Knead the fine semolina with warm water and salt for twenty minutes, until the dough turns elastic and smooth." },
+    { "fr": "La diviser en boules, les huiler généreusement et les laisser reposer une heure : c'est le repos qui permettra de les étirer.", "en": "Divide into balls, oil them generously and rest for an hour: the rest is what lets them stretch." },
+    { "fr": "Cuire la farce à feu doux quarante minutes, jusqu'à ce qu'elle soit sèche. Une farce humide perce la pâte.", "en": "Cook the filling gently for forty minutes, until dry. A wet filling tears the dough." },
+    { "fr": "Étaler chaque boule à la main sur un plan huilé, jusqu'à la transparence, sans rouleau.", "en": "Stretch each ball by hand on an oiled surface until translucent, without a rolling pin." },
+    { "fr": "Déposer la farce au centre et replier les quatre côtés en carré, en soudant bien.", "en": "Spoon the filling into the centre and fold the four sides into a square, sealing well." },
+    { "fr": "Cuire à la poêle sèche, à feu moyen, six minutes par face, jusqu'à ce que la pâte soit tachetée de brun.", "en": "Cook in a dry pan over medium heat, six minutes a side, until the dough is mottled brown." }
+  ]
+}

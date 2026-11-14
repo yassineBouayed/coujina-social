@@ -1,0 +1,37 @@
+{
+  "slug": "asun",
+  "cuisine": "west-african",
+  "country": "nigeria",
+  "origin": "Nigeria",
+  "native_name": "Asun",
+  "title": {
+    "fr": "Asun, chèvre fumée pimentée",
+    "en": "Asun, spicy smoked goat"
+  },
+  "meal_type": "starter",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 90 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["chevre", "fume", "piment", "fete"],
+  "ingredients": [
+    { "raw": "1,2 kg de viande de chèvre, en cubes", "qty": 1200, "unit": "g", "item": "viande de chèvre", "prep": "en cubes" },
+    { "raw": "4 piments habanero, mixés", "qty": 4, "unit": "piece", "item": "habanero", "prep": "mixé" },
+    { "raw": "1 poivron rouge, mixé", "qty": 1, "unit": "piece", "item": "poivron rouge", "prep": "mixé" },
+    { "raw": "2 oignons, en gros dés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "en gros dés" },
+    { "raw": "1 c. à c. de thym séché", "qty": 1, "unit": "tsp", "item": "thym séché" },
+    { "raw": "2 cubes de bouillon", "qty": 2, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "6 c. à s. d'huile neutre", "qty": 6, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire la chèvre avec un oignon, le thym, le laurier, les cubes et le sel, une heure, sans excès d'eau.", "en": "Cook the goat with one onion, thyme, bay, stock cubes and salt for an hour, without too much water." },
+    { "fr": "Égoutter et faire griller les morceaux au four à 220 °C, vingt minutes, jusqu'à ce que les bords noircissent.", "en": "Drain and roast the pieces at 220°C for twenty minutes, until the edges char." },
+    { "fr": "C'est ce léger brûlé qui imite le fumage : sans lui, on a juste de la chèvre en sauce.", "en": "That light char is what stands in for smoking: without it, this is just goat in sauce." },
+    { "fr": "Faire revenir le second oignon dans l'huile, ajouter la purée de piment et de poivron, dix minutes.", "en": "Fry the second onion in the oil, add the chilli and pepper purée, ten minutes." },
+    { "fr": "Ajouter la viande grillée et enrober, sans ajouter d'eau : l'asun se sert sec.", "en": "Add the roasted meat and coat it, adding no water: asun is served dry." },
+    { "fr": "Servir chaud, en cure-dents, avec de la bière fraîche.", "en": "Serve hot, on toothpicks, with cold beer." }
+  ]
+}

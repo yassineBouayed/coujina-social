@@ -1,0 +1,37 @@
+{
+  "slug": "mousse-au-chocolat-belge",
+  "cuisine": "western-european",
+  "country": "belgique",
+  "origin": "Belgique",
+  "native_name": "Chocolademousse",
+  "title": {
+    "fr": "Mousse au chocolat belge",
+    "en": "Belgian chocolate mousse"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 5 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["chocolat", "froid", "fete", "classique"],
+  "ingredients": [
+    { "raw": "250 g de chocolat noir à 70 %", "qty": 250, "unit": "g", "item": "chocolat noir" },
+    { "raw": "6 œufs, blancs et jaunes séparés", "qty": 6, "unit": "piece", "item": "oeuf", "prep": "séparés" },
+    { "raw": "25 cl de crème liquide entière, très froide", "qty": 25, "unit": "cl", "item": "crème liquide", "prep": "très froide" },
+    { "raw": "60 g de sucre", "qty": 60, "unit": "g", "item": "sucre" },
+    { "raw": "40 g de beurre", "qty": 40, "unit": "g", "item": "beurre" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "La version belge ajoute de la CRÈME MONTÉE aux blancs : elle est plus dense et plus onctueuse.", "en": "The Belgian version adds WHIPPED CREAM to the whites: it is denser and more unctuous." },
+    { "fr": "Choisir un chocolat à 70 % : moins fort, la mousse est écœurante et ne tient pas.", "en": "Choose 70% chocolate: any milder and the mousse is cloying and does not hold." },
+    { "fr": "Faire fondre le chocolat au bain-marie sans dépasser 45 °C, et le laisser TIÉDIR.", "en": "Melt the chocolate over a water bath without exceeding 45°C, and let it COOL." },
+    { "fr": "Monter la crème à peine, en chantilly MOLLE : trop ferme, elle ne s'incorpore pas.", "en": "Whip the cream only to SOFT peaks: too firm, it will not fold in." },
+    { "fr": "Incorporer d'abord les blancs, puis la crème : dans cet ordre, jamais l'inverse.", "en": "Fold in the whites first, then the cream: in that order, never the reverse." },
+    { "fr": "Réfrigérer SIX HEURES au minimum, et sortir dix minutes avant de servir.", "en": "Chill for SIX HOURS minimum, and take it out ten minutes before serving." }
+  ],
+  "notes": [
+    { "fr": "Cette mousse contient des œufs crus : à éviter pour les personnes enceintes, âgées ou immunodéprimées.", "en": "This mousse contains raw eggs: not for pregnant, elderly or immunocompromised eaters." }
+  ]
+}

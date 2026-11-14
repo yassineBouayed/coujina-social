@@ -1,0 +1,41 @@
+{
+  "slug": "chelow-kabab-koobideh",
+  "cuisine": "middle-eastern",
+  "country": "iran",
+  "origin": "Iran",
+  "native_name": "Chelow kabab koobideh",
+  "title": {
+    "fr": "Kabab koobideh et riz au safran",
+    "en": "Koobideh kebab with saffron rice"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 40, "cook_min": 40 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["national", "grillade", "safran", "riz"],
+  "ingredients": [
+    { "raw": "800 g d'agneau haché avec 20 % de gras", "qty": 800, "unit": "g", "item": "agneau haché", "group": "kabab" },
+    { "raw": "2 oignons, râpés et pressés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "râpé et pressé", "group": "kabab" },
+    { "raw": "1/2 c. à c. de curcuma", "qty": 0.5, "unit": "tsp", "item": "curcuma", "group": "kabab" },
+    { "raw": "500 g de riz basmati", "qty": 500, "unit": "g", "item": "riz basmati", "group": "chelow" },
+    { "raw": "1 grosse pincée de safran", "qty": 1, "unit": "pinch", "item": "safran", "group": "chelow" },
+    { "raw": "80 g de beurre", "qty": 80, "unit": "g", "item": "beurre", "group": "chelow" },
+    { "raw": "4 tomates", "qty": 4, "unit": "piece", "item": "tomate", "group": "service" },
+    { "raw": "1 c. à s. de sumac", "qty": 1, "unit": "tbsp", "item": "sumac", "group": "service" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Râper l'oignon et le PRESSER dans un linge jusqu'à ce qu'il ne rende plus une goutte.", "en": "Grate the onion and SQUEEZE it in a cloth until not a drop remains." },
+    { "fr": "Pétrir la viande et l'oignon vingt minutes, à la main, jusqu'à ce que la masse devienne élastique et colle à la paume.", "en": "Knead the meat and onion for twenty minutes by hand, until the mass turns elastic and clings to your palm." },
+    { "fr": "Ce pétrissage très long est la seule chose qui empêche le koobideh de tomber de la brochette.", "en": "That very long kneading is the only thing that stops koobideh falling off the skewer." },
+    { "fr": "Rincer le riz et le laisser tremper deux heures en eau salée, puis le précuire sept minutes et l'égoutter.", "en": "Rinse the rice and soak it for two hours in salted water, then parboil it for seven minutes and drain." },
+    { "fr": "Le remettre en cocotte sur un fond de beurre, en dôme, percé de trous, et cuire quarante minutes à feu doux pour former le tahdig.", "en": "Return it to the pot over a layer of butter, in a dome pierced with holes, and cook for forty minutes over low heat to form the tahdig." },
+    { "fr": "Mouler la viande sur des brochettes plates larges, griller six minutes sur braises vives, et servir avec le riz safrané.", "en": "Mould the meat onto wide flat skewers, grill for six minutes over hot coals, and serve with the saffron rice." }
+  ],
+  "notes": [
+    { "fr": "Le tahdig — la croûte de riz du fond — se sert en morceaux sur le dessus. C'est la partie que l'on se dispute.", "en": "The tahdig — the crust from the bottom of the pot — is served in shards on top. It is the part people fight over." }
+  ]
+}

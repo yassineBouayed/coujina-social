@@ -1,0 +1,39 @@
+{
+  "slug": "chakalaka",
+  "cuisine": "southern-african",
+  "country": "afrique-du-sud",
+  "origin": "Afrique du Sud",
+  "native_name": "Chakalaka",
+  "title": {
+    "fr": "Chakalaka, légumes pimentés au curry",
+    "en": "Chakalaka, spicy curried vegetable relish"
+  },
+  "meal_type": "side",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["township", "braai", "accompagnement", "pimente"],
+  "ingredients": [
+    { "raw": "3 carottes, râpées", "qty": 3, "unit": "piece", "item": "carotte", "prep": "râpée" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "1 poivron rouge, en dés", "qty": 1, "unit": "piece", "item": "poivron rouge", "prep": "en dés" },
+    { "raw": "1 poivron vert, en dés", "qty": 1, "unit": "piece", "item": "poivron vert", "prep": "en dés" },
+    { "raw": "400 g de haricots blancs en conserve, égouttés", "qty": 400, "unit": "g", "item": "haricot blanc", "prep": "égoutté" },
+    { "raw": "3 tomates, en dés", "qty": 3, "unit": "piece", "item": "tomate", "prep": "en dés" },
+    { "raw": "2 c. à s. de poudre de curry", "qty": 2, "unit": "tbsp", "item": "poudre de curry" },
+    { "raw": "2 piments oiseau, hachés", "qty": 2, "unit": "piece", "item": "piment oiseau", "prep": "haché" },
+    { "raw": "3 gousses d'ail, écrasées", "qty": 3, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "5 c. à s. d'huile neutre", "qty": 5, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire revenir oignons, ail et piments dans l'huile jusqu'à ce qu'ils soient tendres.", "en": "Fry the onions, garlic and chillies in the oil until soft." },
+    { "fr": "Ajouter le curry et le cuire une minute dans le gras, pour qu'il perde son goût de poudre.", "en": "Add the curry powder and cook it for a minute in the fat, to lose its raw dustiness." },
+    { "fr": "Ajouter les poivrons, puis les carottes râpées, et laisser cinq minutes à feu vif.", "en": "Add the peppers, then the grated carrots, and cook for five minutes over high heat." },
+    { "fr": "Les carottes doivent rester croquantes : la chakalaka n'est pas une ratatouille.", "en": "The carrots must stay crunchy: chakalaka is not a ratatouille." },
+    { "fr": "Ajouter les tomates et les haricots, et laisser dix minutes à feu doux.", "en": "Add the tomatoes and beans, and cook for ten minutes over low heat." },
+    { "fr": "Se sert chaud ou froid, à côté d'un braai ou d'un pap.", "en": "Serve hot or cold, alongside a braai or pap." }
+  ]
+}

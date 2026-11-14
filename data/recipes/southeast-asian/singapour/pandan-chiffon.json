@@ -1,0 +1,37 @@
+{
+  "slug": "pandan-chiffon",
+  "cuisine": "southeast-asian",
+  "country": "singapour",
+  "origin": "Singapour",
+  "native_name": "Pandan chiffon cake",
+  "title": {
+    "fr": "Gâteau chiffon au pandan",
+    "en": "Pandan chiffon cake"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 30, "cook_min": 50 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["pandan", "leger", "gouter", "coco"],
+  "ingredients": [
+    { "raw": "180 g de farine T45", "qty": 180, "unit": "g", "item": "farine T45" },
+    { "raw": "7 œufs, blancs et jaunes séparés", "qty": 7, "unit": "piece", "item": "oeuf", "prep": "séparés" },
+    { "raw": "180 g de sucre", "qty": 180, "unit": "g", "item": "sucre" },
+    { "raw": "12 cl d'huile neutre", "qty": 12, "unit": "cl", "item": "huile neutre" },
+    { "raw": "12 cl de lait de coco", "qty": 12, "unit": "cl", "item": "lait de coco" },
+    { "raw": "2 c. à c. d'extrait de pandan", "qty": 2, "unit": "tsp", "item": "feuille de pandan", "prep": "en extrait" },
+    { "raw": "1,5 c. à c. de levure chimique", "qty": 1.5, "unit": "tsp", "item": "levure chimique" },
+    { "raw": "1/2 c. à c. de crème de tartre", "qty": 0.5, "unit": "tsp", "item": "bicarbonate" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le moule à chiffon ne se beurre JAMAIS : la pâte doit s'accrocher aux parois pour monter.", "en": "A chiffon tin is NEVER greased: the batter must cling to the sides to climb." },
+    { "fr": "Fouetter jaunes, huile, lait de coco et pandan, puis incorporer la farine tamisée.", "en": "Whisk the yolks, oil, coconut milk and pandan, then fold in the sifted flour." },
+    { "fr": "Monter les blancs en bec d'oiseau, pas plus fermes : trop montés, ils cassent au mélange.", "en": "Whip the whites to soft peaks, no firmer: over-whipped, they break when folded in." },
+    { "fr": "Incorporer en TROIS fois, à la maryse, en soulevant, sans jamais tourner.", "en": "Fold them in THREE additions, with a spatula, lifting, never stirring." },
+    { "fr": "Cuire cinquante minutes à 160 °C, puis RETOURNER LE MOULE et laisser refroidir à l'envers.", "en": "Bake for fifty minutes at 160°C, then INVERT THE TIN and cool it upside down." },
+    { "fr": "Refroidi à l'endroit, le gâteau s'affaisse sous son propre poids : c'est irrattrapable.", "en": "Cooled the right way up, the cake collapses under its own weight: there is no fixing it." }
+  ]
+}

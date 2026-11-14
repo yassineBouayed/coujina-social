@@ -1,0 +1,41 @@
+{
+  "slug": "orh-luak",
+  "cuisine": "southeast-asian",
+  "country": "singapour",
+  "origin": "Singapour",
+  "native_name": "蚝烙",
+  "title": {
+    "fr": "Orh luak, omelette aux huîtres",
+    "en": "Orh luak, oyster omelette"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 15 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hawker", "huitre", "tapioca", "croustillant"],
+  "ingredients": [
+    { "raw": "300 g d'huîtres, décoquillées", "qty": 300, "unit": "g", "item": "moule", "prep": "décoquillée" },
+    { "raw": "150 g de farine de tapioca", "qty": 150, "unit": "g", "item": "maïzena" },
+    { "raw": "50 g de farine de riz", "qty": 50, "unit": "g", "item": "farine de riz" },
+    { "raw": "30 cl d'eau", "qty": 30, "unit": "cl", "item": "eau" },
+    { "raw": "5 œufs", "qty": 5, "unit": "piece", "item": "oeuf" },
+    { "raw": "6 gousses d'ail, hachées", "qty": 6, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "1 bouquet de coriandre fraîche", "qty": 1, "unit": "bunch", "item": "coriandre fraîche" },
+    { "raw": "3 c. à s. de sauce poisson", "qty": 3, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "4 c. à s. de sauce piquante", "qty": 4, "unit": "tbsp", "item": "sauce piquante", "group": "service" },
+    { "raw": "2 citrons verts, en quartiers", "qty": 2, "unit": "piece", "item": "citron vert", "group": "service" },
+    { "raw": "12 cl d'huile neutre", "qty": 12, "unit": "cl", "item": "huile neutre" },
+    { "raw": "poivre blanc", "qty": null, "unit": null, "item": "poivre blanc" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "L'orh luak joue sur DEUX textures : la pâte de tapioca gélatineuse et les bords brûlés croustillants.", "en": "Orh luak plays on TWO textures: gelatinous tapioca batter and charred crisp edges." },
+    { "fr": "Fouetter les farines et l'eau en une pâte très liquide, et la laisser reposer trente minutes.", "en": "Whisk the flours and water into a very thin batter, and rest it for thirty minutes." },
+    { "fr": "Chauffer beaucoup d'huile à feu TRÈS vif et y verser la pâte : elle doit grésiller violemment.", "en": "Heat plenty of oil over VERY high heat and pour in the batter: it should hiss violently." },
+    { "fr": "La laisser prendre sans y toucher, puis la casser en morceaux à la spatule.", "en": "Let it set without touching it, then break it into pieces with the spatula." },
+    { "fr": "Verser les œufs battus par-dessus, ajouter les huîtres, et laisser prendre.", "en": "Pour the beaten eggs over, add the oysters, and let it set." },
+    { "fr": "Les huîtres entrent EN DERNIER, trente secondes : recuites, elles deviennent caoutchouteuses.", "en": "The oysters go in LAST, for thirty seconds: overcooked, they turn rubbery." }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "ndole",
+  "cuisine": "west-african",
+  "origin": "Cameroun",
+  "native_name": "Ndolé",
+  "title": {
+    "fr": "Ndolé, feuilles amères à l'arachide et aux crevettes",
+    "en": "Ndolé, bitterleaf stew with peanut and prawns"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 60 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j5-catalogue-v1", "date": "2026-08-29" },
+  "tags": ["feuilles", "arachide", "crevette", "fete"],
+  "ingredients": [
+    { "raw": "500 g de feuilles de ndolé", "qty": 500, "unit": "g", "item": "feuille de ndolé", "prep": "lavée", "substitutes": [{ "item": "épinard surgelé", "note": "l'épinard n'est pas amer : le plat devient doux et perd la moitié de son identité. Ajouter une poignée de roquette rend un peu de l'amertume" }] },
+    { "raw": "500 g de bœuf à mijoter, en cubes", "qty": 500, "unit": "g", "item": "bœuf à mijoter", "prep": "en cubes" },
+    { "raw": "300 g de crevettes décortiquées", "qty": 300, "unit": "g", "item": "crevette", "prep": "décortiquée" },
+    { "raw": "100 g de poisson fumé", "qty": 100, "unit": "g", "item": "poisson fumé", "prep": "effeuillé", "optional": true },
+    { "raw": "200 g d'arachides crues", "qty": 200, "unit": "g", "item": "arachide" },
+    { "raw": "2 oignons", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "4 gousses d'ail", "qty": 4, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "10 cl d'huile neutre", "qty": 10, "unit": "cl", "item": "huile neutre" },
+    { "raw": "2 cubes de bouillon", "qty": 2, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "1 piment antillais", "qty": 1, "unit": "piece", "item": "habanero", "optional": true },
+    { "raw": "4 bananes plantains", "qty": 4, "unit": "piece", "item": "banane plantain" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire bouillir les feuilles de ndolé 10 minutes, les égoutter, les rincer à l'eau froide et les presser. Recommencer une deuxième fois : c'est ce double blanchiment qui règle l'amertume.", "en": "Boil the bitterleaf for 10 minutes, drain, rinse under cold water and squeeze dry. Repeat a second time: this double blanching is what sets the bitterness." },
+    { "fr": "Cuire les arachides 20 minutes à l'eau, les égoutter et les mixer avec un oignon jusqu'à obtenir une pâte épaisse.", "en": "Boil the peanuts for 20 minutes, drain and blend them with one onion to a thick paste." },
+    { "fr": "Cuire le bœuf 40 minutes dans 1 litre d'eau avec un cube. Garder le bouillon.", "en": "Simmer the beef for 40 minutes in 1 litre of water with a stock cube. Keep the broth." },
+    { "fr": "Faire revenir le second oignon et l'ail dans l'huile, ajouter la pâte d'arachide et la cuire cinq minutes en remuant sans arrêt.", "en": "Fry the second onion and the garlic in the oil, add the peanut paste and cook it for five minutes, stirring without stopping." },
+    { "fr": "Mouiller avec le bouillon de viande, ajouter le second cube et laisser épaissir 15 minutes.", "en": "Loosen with the meat broth, add the second stock cube and let it thicken for 15 minutes." },
+    { "fr": "Hacher les feuilles pressées et les incorporer, puis la viande, le poisson fumé et le piment entier. Cuire 15 minutes.", "en": "Chop the squeezed leaves and fold them in, then the meat, smoked fish and whole chilli. Cook for 15 minutes." },
+    { "fr": "Ajouter les crevettes en dernier, cinq minutes avant de servir : elles doivent rester fermes.", "en": "Add the prawns last, five minutes before serving: they should stay firm." },
+    { "fr": "Servir avec des plantains bouillis ou frits.", "en": "Serve with boiled or fried plantain." }
+  ],
+  "notes": [
+    { "fr": "Le double blanchiment enlève l'amertume, il ne doit pas l'effacer. Un ndolé qui ne pique plus du tout au fond de la gorge a été lavé une fois de trop.", "en": "The double blanching tames the bitterness; it should not erase it. A ndolé with no catch at the back of the throat has been washed once too often." },
+    { "fr": "Les feuilles fraîches se trouvent en épicerie africaine, fraîches ou surgelées. Le plat entier repose sur elles : c'est l'ingrédient à chercher avant de décider le menu.", "en": "The leaves are found fresh or frozen at African grocers. The whole dish rests on them: this is the ingredient to find before deciding the menu." }
+  ]
+}

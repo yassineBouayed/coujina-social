@@ -1,0 +1,37 @@
+{
+  "slug": "uitsmijter",
+  "cuisine": "western-european",
+  "country": "pays-bas",
+  "origin": "Pays-Bas",
+  "native_name": "Uitsmijter",
+  "title": {
+    "fr": "Uitsmijter, tartine aux œufs et au jambon",
+    "en": "Uitsmijter, ham and egg open sandwich"
+  },
+  "meal_type": "main",
+  "servings": 2,
+  "times": { "prep_min": 10, "cook_min": 10 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["petit-dejeuner", "rapide", "oeuf", "cafe"],
+  "ingredients": [
+    { "raw": "4 tranches de pain de campagne", "qty": 4, "unit": "piece", "item": "pain", "prep": "en tranches" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf" },
+    { "raw": "4 tranches de jambon blanc", "qty": 4, "unit": "piece", "item": "jambon blanc" },
+    { "raw": "4 tranches d'emmental", "qty": 4, "unit": "piece", "item": "emmental", "prep": "en tranches" },
+    { "raw": "60 g de beurre", "qty": 60, "unit": "g", "item": "beurre" },
+    { "raw": "1/2 bouquet de ciboulette, ciselée", "qty": 0.5, "unit": "bunch", "item": "ciboulette", "prep": "ciselée" },
+    { "raw": "4 cornichons", "qty": 4, "unit": "piece", "item": "cornichon", "optional": true },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Uitsmijter veut dire « videur » : c'était le dernier plat servi avant la fermeture du café.", "en": "Uitsmijter means \"bouncer\": it was the last dish served before the café closed." },
+    { "fr": "Beurrer le pain GÉNÉREUSEMENT : il ne se grille pas, il reste moelleux sous les œufs.", "en": "Butter the bread GENEROUSLY: it is not toasted, it stays soft under the eggs." },
+    { "fr": "Poser le jambon, puis le fromage, et le faire fondre une minute sous le gril.", "en": "Lay on the ham, then the cheese, and melt it for a minute under the grill." },
+    { "fr": "Cuire les œufs au plat à feu DOUX, dans le beurre, en arrosant le blanc à la cuillère.", "en": "Fry the eggs over LOW heat, in butter, spooning butter over the whites." },
+    { "fr": "Le blanc doit être pris, le jaune COULANT : c'est le jaune qui sert de sauce.", "en": "The white must be set, the yolk RUNNING: the yolk is the sauce." },
+    { "fr": "Deux œufs par tartine, poivre, ciboulette, et se mange à la fourchette et au couteau.", "en": "Two eggs per slice, pepper, chives, and it is eaten with a knife and fork." }
+  ]
+}

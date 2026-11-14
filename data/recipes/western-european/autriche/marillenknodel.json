@@ -1,0 +1,39 @@
+{
+  "slug": "marillenknodel",
+  "cuisine": "western-european",
+  "country": "autriche",
+  "origin": "Autriche",
+  "native_name": "Marillenknödel",
+  "title": {
+    "fr": "Knödel aux abricots",
+    "en": "Apricot dumplings"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["wachau", "abricot", "ete", "pomme-de-terre"],
+  "ingredients": [
+    { "raw": "12 abricots", "qty": 12, "unit": "piece", "item": "abricot" },
+    { "raw": "800 g de pommes de terre à chair farineuse", "qty": 800, "unit": "g", "item": "pomme de terre" },
+    { "raw": "200 g de farine de blé", "qty": 200, "unit": "g", "item": "farine de blé" },
+    { "raw": "60 g de semoule fine", "qty": 60, "unit": "g", "item": "semoule fine" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "40 g de beurre", "qty": 40, "unit": "g", "item": "beurre" },
+    { "raw": "12 morceaux de sucre", "qty": 12, "unit": "piece", "item": "sucre", "prep": "en morceaux" },
+    { "raw": "150 g de chapelure", "qty": 150, "unit": "g", "item": "panko", "group": "finition" },
+    { "raw": "120 g de beurre", "qty": 120, "unit": "g", "item": "beurre", "group": "finition" },
+    { "raw": "80 g de sucre glace", "qty": 80, "unit": "g", "item": "sucre glace", "group": "finition" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "La pâte est à base de POMME DE TERRE, pas de farine seule : c'est ce qui la rend légère et fondante.", "en": "The dough is POTATO-based, not flour alone: that is what makes it light and tender." },
+    { "fr": "Cuire les pommes de terre en robe LA VEILLE et les passer au presse-purée FROIDES.", "en": "Boil the potatoes in their skins THE DAY BEFORE and rice them COLD." },
+    { "fr": "Dénoyauter les abricots par une incision et glisser un morceau de sucre à la place du noyau.", "en": "Stone the apricots through a slit and slip a sugar cube in place of the stone." },
+    { "fr": "Enrober chaque abricot d'une couche FINE et RÉGULIÈRE de pâte, sans laisser de fissure.", "en": "Wrap each apricot in a THIN, EVEN layer of dough, leaving no crack." },
+    { "fr": "Pocher à FRÉMISSEMENT douze minutes : à gros bouillons, ils s'ouvrent et se vident.", "en": "Poach at a BARE SIMMER for twelve minutes: at a rolling boil, they split and empty." },
+    { "fr": "Rouler dans la chapelure dorée au beurre, et poudrer généreusement de sucre glace.", "en": "Roll them in butter-toasted breadcrumbs, and dust generously with icing sugar." }
+  ]
+}

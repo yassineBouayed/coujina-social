@@ -1,0 +1,70 @@
+# Registre de relecture du catalogue (jalons J2 et J5).
+#
+# Le critère de sortie de J5 est ici : « les plats emblématiques sont relus et
+# marqués vérifiés », et son contrôle décisif est « faire relire une cuisine par
+# quelqu'un qui la cuisine réellement, et écouter sa réaction sans se défendre »
+# (SPEC.md §13). Ce fichier est ce qui rend cette phrase opérable : il enregistre
+# QUI a relu, et à quel titre.
+#
+# recipe   | le slug de la recette
+# reviewer | qui. Un nom, pas un rôle : une relecture est signée
+# kind     | modele | humain
+# cooks    | y  le relecteur cuisine réellement cette cuisine
+#          | n  il ne la cuisine pas — sa relecture ne vérifie rien
+# verdict  | ok      la recette tient
+#          | reserve un point à faire trancher par un cuisinier
+#          | erreur  la recette ne marcherait pas telle quelle
+# issue    | ce qui est en cause. Obligatoire pour `reserve` et `erreur`
+# date     | AAAA-MM-JJ
+#
+# UNE RECETTE NE SE DÉCLARE PAS VÉRIFIÉE ICI, ET SON FICHIER JSON NON PLUS.
+# Le statut est DÉRIVÉ, en base, de ce registre : `verified` demande une
+# relecture humaine, faite par quelqu'un qui cuisine la cuisine, avec le verdict
+# `ok`, et aucune ligne d'ingrédient mal rattachée. Un champ que le générateur
+# pourrait écrire serait un champ qu'il finirait par s'attribuer.
+#
+# Les passes ci-dessous sont TOUTES des passes modèle : elles sont faites par ce
+# qui a écrit les recettes, ce qui les disqualifie comme garantie et les rend
+# utiles seulement comme point de départ. Elles servent à pointer d'avance les
+# endroits où un cuisinier aura quelque chose à dire. Aucune recette du
+# catalogue n'est donc vérifiée à ce jour, et c'est la raison pour laquelle le
+# jalon J5 n'est pas franchi.
+recipe|reviewer|kind|cooks|verdict|issue|date
+# --------------------------------------- maghrébine : la passe modèle de J2
+tajine-zitoune|claude-opus-5|modele|n|ok||2026-08-28
+couscous-tfaya|claude-opus-5|modele|n|ok||2026-08-28
+couscous-sept-legumes|claude-opus-5|modele|n|ok||2026-08-28
+tajine-agneau-pruneaux|claude-opus-5|modele|n|ok||2026-08-28
+harira|claude-opus-5|modele|n|ok||2026-08-28
+chorba-frik|claude-opus-5|modele|n|ok||2026-08-28
+rfissa|claude-opus-5|modele|n|reserve|La rfissa classique se fait sur du trid ; le msemen est l'usage courant à la maison, pas la version canonique. À trancher avec un cuisinier marocain.|2026-08-28
+pastilla-poulet|claude-opus-5|modele|n|reserve|La pastilla se monte traditionnellement en warqa, pas en feuille de brick. Le référentiel n'a pas de warqa : c'est un choix de disponibilité qui devrait être dit dans la recette, pas subi.|2026-08-28
+mechoui-epaule|claude-opus-5|modele|n|reserve|Le mechoui est un animal entier au four à bois. L'épaule au four est une transposition domestique honnête, mais le nom promet autre chose.|2026-08-28
+kefta-mkaouara|claude-opus-5|modele|n|ok||2026-08-28
+zaalouk|claude-opus-5|modele|n|ok||2026-08-28
+taktouka|claude-opus-5|modele|n|ok||2026-08-28
+salade-carottes-cumin|claude-opus-5|modele|n|ok||2026-08-28
+bissara|claude-opus-5|modele|n|reserve|La note « salées trop tôt, les fèves restent dures » est une croyance de cuisine contestée : l'acidité et l'eau calcaire pèsent plus que le sel. À vérifier avant de l'imprimer comme un fait.|2026-08-28
+loubia|claude-opus-5|modele|n|reserve|Même note que la bissara sur le sel tardif. Le rejet de la première eau de cuisson, lui, est bien établi.|2026-08-28
+msemen|claude-opus-5|modele|n|ok||2026-08-28
+baghrir|claude-opus-5|modele|n|reserve|Double levée, boulangère et chimique : c'est un raccourci moderne. Le baghrir classique ne monte qu'à la levure de boulanger. La recette marche, mais elle n'est pas la version de référence.|2026-08-28
+briouates-viande|claude-opus-5|modele|n|ok||2026-08-28
+seffa-medfouna|claude-opus-5|modele|n|ok||2026-08-28
+sardines-chermoula|claude-opus-5|modele|n|ok||2026-08-28
+# ------------------------------- ouest-africaine : la passe modèle de J5
+thieboudienne|claude-opus-5|modele|n|reserve|Le thiéboudienne se décline en rouge, blanc et « bou reug ». Celui-ci est le rouge, sans le dire. Un Sénégalais commencera par demander lequel.|2026-08-29
+mafe|claude-opus-5|modele|n|reserve|Le mafé malien et le mafé sénégalais ne portent pas les mêmes légumes, et certains refusent la tomate. La recette tranche sans annoncer qu'elle tranche.|2026-08-29
+yassa-poulet|claude-opus-5|modele|n|ok||2026-08-29
+jollof-rice|claude-opus-5|modele|n|reserve|Version nigériane. Le jollof ghanéen part de riz basmati et d'un bouillon différent : publier l'un sous le nom générique est exactement ce qui alimente la dispute.|2026-08-29
+riz-gras|claude-opus-5|modele|n|ok||2026-08-29
+soupe-kandia|claude-opus-5|modele|n|ok||2026-08-29
+egusi|claude-opus-5|modele|n|reserve|Le choix « caking » contre la version lisse est annoncé en note, mais la recette n'en donne qu'une. Un cuisinier nigérian dira laquelle est la sienne, et probablement que l'autre n'existe pas.|2026-08-29
+suya|claude-opus-5|modele|n|reserve|Le yaji du commerce contient souvent du kani (poivre de Selim) et du clou de girofle, absents ici. La recette donne un yaji simplifié sans le signaler.|2026-08-29
+akara|claude-opus-5|modele|n|ok||2026-08-29
+poulet-dg|claude-opus-5|modele|n|ok||2026-08-29
+ndole|claude-opus-5|modele|n|reserve|Le double blanchiment est la méthode prudente ; beaucoup de familles camerounaises n'en font qu'un, ou lavent à l'eau chaude sans bouillir. Le réglage de l'amertume est précisément ce qui se transmet, et donc ce qui se discute.|2026-08-29
+kedjenou|claude-opus-5|modele|n|ok||2026-08-29
+attieke-poisson-braise|claude-opus-5|modele|n|ok||2026-08-29
+alloco|claude-opus-5|modele|n|ok||2026-08-29
+bissap|claude-opus-5|modele|n|reserve|L'infusion à chaud est une méthode parmi d'autres : le bissap se fait aussi à froid, sur douze heures, avec un résultat moins astringent. La recette impose la version rapide.|2026-08-29
+thiakry|claude-opus-5|modele|n|reserve|Le thiakry se fait au lait caillé (sow), pas au yaourt battu. Le référentiel n'a pas de lait caillé : la substitution est raisonnable mais devrait être dite dans la recette.|2026-08-29

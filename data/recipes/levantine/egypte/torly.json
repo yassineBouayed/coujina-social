@@ -1,0 +1,42 @@
+{
+  "slug": "torly",
+  "cuisine": "levantine",
+  "country": "egypte",
+  "origin": "Égypte",
+  "native_name": "Torly",
+  "title": {
+    "fr": "Torly, légumes rôtis au four à la tomate",
+    "en": "Torly, oven-roasted vegetables in tomato"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 75 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["four", "legumes", "famille", "ete"],
+  "ingredients": [
+    { "raw": "2 aubergines, en gros cubes", "qty": 2, "unit": "piece", "item": "aubergine", "prep": "en gros cubes" },
+    { "raw": "3 courgettes, en tronçons", "qty": 3, "unit": "piece", "item": "courgette", "prep": "en tronçons" },
+    { "raw": "4 pommes de terre, en quartiers", "qty": 4, "unit": "piece", "item": "pomme de terre", "prep": "en quartiers" },
+    { "raw": "3 carottes, en tronçons", "qty": 3, "unit": "piece", "item": "carotte", "prep": "en tronçons" },
+    { "raw": "200 g de haricots verts", "qty": 200, "unit": "g", "item": "haricot vert" },
+    { "raw": "600 g d'épaule d'agneau, en cubes", "qty": 600, "unit": "g", "item": "épaule d'agneau", "prep": "en cubes", "optional": true },
+    { "raw": "600 g de tomates concassées", "qty": 600, "unit": "g", "item": "tomate concassée" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "6 gousses d'ail, écrasées", "qty": 6, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "2 c. à s. de concentré de tomate", "qty": 2, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "1 c. à c. de quatre-épices", "qty": 1, "unit": "tsp", "item": "quatre-épices" },
+    { "raw": "12 cl d'huile de tournesol", "qty": 12, "unit": "cl", "item": "huile de tournesol" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Faire dorer les aubergines et les pommes de terre à part, à la poêle ou au four : jetées crues, elles rendent trop d'eau.", "en": "Brown the aubergine and potatoes separately, in a pan or the oven: added raw, they release too much water." },
+    { "fr": "Faire revenir la viande avec l'oignon et l'ail, puis ajouter le concentré et les tomates.", "en": "Brown the meat with the onion and garlic, then add the purée and tomatoes." },
+    { "fr": "Assaisonner de quatre-épices, de sel et de poivre, et laisser réduire dix minutes.", "en": "Season with allspice, salt and pepper, and reduce for ten minutes." },
+    { "fr": "Ranger tous les légumes dans un grand plat à four et verser la sauce dessus.", "en": "Arrange all the vegetables in a large baking dish and pour the sauce over." },
+    { "fr": "Couvrir d'aluminium et cuire une heure à 190 °C.", "en": "Cover with foil and bake for an hour at 190°C." },
+    { "fr": "Découvrir quinze minutes pour faire colorer et réduire le jus.", "en": "Uncover for fifteen minutes to colour and reduce the juices." }
+  ]
+}

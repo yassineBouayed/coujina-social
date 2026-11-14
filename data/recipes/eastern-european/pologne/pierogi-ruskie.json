@@ -1,0 +1,40 @@
+{
+  "slug": "pierogi-ruskie",
+  "cuisine": "eastern-european",
+  "country": "pologne",
+  "origin": "Pologne",
+  "native_name": "Pierogi ruskie",
+  "title": {
+    "fr": "Pierogi à la pomme de terre et au fromage",
+    "en": "Pierogi with potato and cheese"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 60, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["embleme", "ravioli", "famille", "vegetarien"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "25 cl d'eau bouillante", "qty": 25, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "3 c. à s. d'huile neutre", "qty": 3, "unit": "tbsp", "item": "huile neutre", "group": "pâte" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel", "group": "pâte" },
+    { "raw": "800 g de pommes de terre", "qty": 800, "unit": "g", "item": "pomme de terre", "group": "farce" },
+    { "raw": "400 g de fromage blanc, bien égoutté", "qty": 400, "unit": "g", "item": "fromage blanc", "prep": "bien égoutté", "group": "farce" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché", "group": "farce" },
+    { "raw": "100 g de beurre", "qty": 100, "unit": "g", "item": "beurre" },
+    { "raw": "25 cl de crème fraîche", "qty": 25, "unit": "cl", "item": "crème fraîche", "group": "service" },
+    { "raw": "150 g de lardons", "qty": 150, "unit": "g", "item": "lardon", "group": "service" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La pâte se fait à l'eau BOUILLANTE : elle devient souple, se travaille chaude et ne se rétracte pas.", "en": "The dough uses BOILING water: it turns supple, works warm and does not spring back." },
+    { "fr": "Malgré leur nom, les pierogi ruskie ne viennent pas de Russie mais de la Ruthénie rouge, en Galicie.", "en": "Despite the name, pierogi ruskie come not from Russia but from Red Ruthenia, in Galicia." },
+    { "fr": "Faire dorer les oignons TRENTE MINUTES : c'est eux qui font le goût de la farce.", "en": "Fry the onions for THIRTY MINUTES: they make the filling's flavour." },
+    { "fr": "Laisser la farce REFROIDIR complètement : chaude, elle ramollit la pâte et perce les pierogi.", "en": "COOL the filling completely: warm, it softens the dough and bursts the pierogi." },
+    { "fr": "Souder les bords en PINÇANT fermement, sans laisser d'air : une bulle d'air les fait éclater.", "en": "Seal the edges by PINCHING firmly, with no trapped air: an air bubble bursts them." },
+    { "fr": "Pocher à FRÉMISSEMENT, deux minutes après qu'ils remontent, puis les poêler au beurre.", "en": "Poach at a BARE SIMMER, two minutes after they float, then pan-fry them in butter." }
+  ]
+}

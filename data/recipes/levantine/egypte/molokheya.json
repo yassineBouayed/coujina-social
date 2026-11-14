@@ -1,0 +1,38 @@
+{
+  "slug": "molokheya",
+  "cuisine": "levantine",
+  "country": "egypte",
+  "origin": "Égypte",
+  "native_name": "Molokheya",
+  "title": {
+    "fr": "Molokheya, soupe verte à l'ail et à la coriandre",
+    "en": "Molokheya, green soup with garlic and coriander"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 60 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["national", "filant", "ail", "famille"],
+  "ingredients": [
+    { "raw": "600 g de molokhia surgelée, hachée", "qty": 600, "unit": "g", "item": "molokhia", "prep": "hachée" },
+    { "raw": "1 poulet entier, découpé", "qty": 1, "unit": "piece", "item": "poulet entier", "prep": "découpé" },
+    { "raw": "1 tête d'ail, écrasée", "qty": 12, "unit": "piece", "item": "ail", "prep": "écrasé", "group": "tesha" },
+    { "raw": "2 c. à s. de coriandre en graines, moulue", "qty": 2, "unit": "tbsp", "item": "coriandre graines", "prep": "moulue", "group": "tesha" },
+    { "raw": "60 g de ghee", "qty": 60, "unit": "g", "item": "ghee", "group": "tesha" },
+    { "raw": "1 oignon", "qty": 1, "unit": "piece", "item": "oignon", "group": "bouillon" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle", "group": "bouillon" },
+    { "raw": "4 gousses de cardamome", "qty": 4, "unit": "piece", "item": "cardamome", "group": "bouillon" },
+    { "raw": "400 g de riz long grain", "qty": 400, "unit": "g", "item": "riz long grain", "group": "service" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire le poulet avec l'oignon, la cannelle, la cardamome et le sel une heure, et filtrer le bouillon.", "en": "Cook the chicken with the onion, cinnamon, cardamom and salt for an hour, and strain the broth." },
+    { "fr": "Porter le bouillon à frémissement et y jeter la molokhia hachée.", "en": "Bring the broth to a simmer and drop in the chopped molokhia." },
+    { "fr": "NE JAMAIS FAIRE BOUILLIR : au premier gros bouillon, les feuilles se séparent du liquide et le plat est perdu.", "en": "NEVER LET IT BOIL: at the first rolling boil the leaves separate from the liquid and the dish is lost." },
+    { "fr": "Faire la tesha : frire l'ail écrasé et la coriandre moulue dans le ghee jusqu'à ce que l'ail dore à peine.", "en": "Make the tesha: fry the crushed garlic and ground coriander in ghee until the garlic barely colours." },
+    { "fr": "La verser dans la soupe : elle doit grésiller en touchant la surface, c'est le bruit qui signale la réussite.", "en": "Pour it into the soup: it should hiss on contact, the sound that signals success." },
+    { "fr": "Couvrir immédiatement cinq minutes, puis servir sur du riz blanc avec le poulet.", "en": "Cover at once for five minutes, then serve over white rice with the chicken." }
+  ]
+}

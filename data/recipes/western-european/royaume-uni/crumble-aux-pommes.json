@@ -1,0 +1,37 @@
+{
+  "slug": "crumble-aux-pommes",
+  "cuisine": "western-european",
+  "country": "royaume-uni",
+  "origin": "Royaume-Uni",
+  "native_name": "Apple crumble",
+  "title": {
+    "fr": "Crumble aux pommes",
+    "en": "Apple crumble"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["automne", "pomme", "simple", "famille"],
+  "ingredients": [
+    { "raw": "1,2 kg de pommes, en gros quartiers", "qty": 1200, "unit": "g", "item": "pomme", "prep": "en gros quartiers" },
+    { "raw": "200 g de farine de blé", "qty": 200, "unit": "g", "item": "farine de blé", "group": "crumble" },
+    { "raw": "120 g de beurre, froid", "qty": 120, "unit": "g", "item": "beurre", "prep": "froid", "group": "crumble" },
+    { "raw": "120 g de sucre roux", "qty": 120, "unit": "g", "item": "sucre roux", "group": "crumble" },
+    { "raw": "80 g de flocons d'avoine", "qty": 80, "unit": "g", "item": "flocon d'avoine", "group": "crumble" },
+    { "raw": "80 g de sucre", "qty": 80, "unit": "g", "item": "sucre", "group": "garniture" },
+    { "raw": "2 c. à c. de cannelle moulue", "qty": 2, "unit": "tsp", "item": "cannelle", "group": "garniture" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron", "group": "garniture" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le beurre doit être FROID et travaillé DU BOUT DES DOIGTS : chaud, on obtient une pâte, pas des miettes.", "en": "The butter must be COLD and worked WITH THE FINGERTIPS: warm, you get dough, not crumbs." },
+    { "fr": "S'arrêter dès que le mélange ressemble à du gros sable, avec des morceaux inégaux.", "en": "Stop as soon as the mixture looks like coarse sand, with uneven lumps." },
+    { "fr": "Les FLOCONS D'AVOINE ne sont pas obligatoires, mais ils apportent le croustillant qui dure.", "en": "The OATS are not compulsory, but they bring the crispness that lasts." },
+    { "fr": "Précuire les pommes dix minutes avec sucre et citron : crues, elles rendent leur eau sous le crumble.", "en": "Pre-cook the apples for ten minutes with sugar and lemon: raw, they weep under the crumble." },
+    { "fr": "Verser le crumble SANS TASSER : tassé, il forme une croûte compacte au lieu de miettes.", "en": "Scatter the crumble WITHOUT PRESSING: pressed, it forms a solid crust instead of crumbs." },
+    { "fr": "Cuire 45 minutes à 180 °C, et servir tiède avec de la crème anglaise.", "en": "Bake for 45 minutes at 180°C, and serve warm with custard." }
+  ]
+}

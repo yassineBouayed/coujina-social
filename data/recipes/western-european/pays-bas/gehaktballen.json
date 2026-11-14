@@ -1,0 +1,42 @@
+{
+  "slug": "gehaktballen",
+  "cuisine": "western-european",
+  "country": "pays-bas",
+  "origin": "Pays-Bas",
+  "native_name": "Gehaktballen",
+  "title": {
+    "fr": "Grosses boulettes néerlandaises en sauce",
+    "en": "Large Dutch meatballs in gravy"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 50 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["famille", "boulettes", "quotidien", "reconfort"],
+  "ingredients": [
+    { "raw": "500 g de bœuf haché", "qty": 500, "unit": "g", "item": "boeuf haché" },
+    { "raw": "500 g de porc haché", "qty": 500, "unit": "g", "item": "porc haché" },
+    { "raw": "120 g de chapelure", "qty": 120, "unit": "g", "item": "panko" },
+    { "raw": "12 cl de lait entier", "qty": 12, "unit": "cl", "item": "lait entier" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "2 oignons, hachés très finement", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché très finement" },
+    { "raw": "2 c. à c. de muscade râpée", "qty": 2, "unit": "tsp", "item": "muscade", "prep": "râpée" },
+    { "raw": "2 c. à c. de moutarde", "qty": 2, "unit": "tsp", "item": "moutarde" },
+    { "raw": "100 g de beurre", "qty": 100, "unit": "g", "item": "beurre" },
+    { "raw": "40 cl de bouillon de bœuf", "qty": 40, "unit": "cl", "item": "bouillon boeuf" },
+    { "raw": "2 c. à s. de farine de blé", "qty": 2, "unit": "tbsp", "item": "farine de blé" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La MUSCADE est l'épice néerlandaise par excellence, héritée du commerce colonial : en mettre franchement.", "en": "NUTMEG is the Dutch spice par excellence, inherited from the colonial trade: use it boldly." },
+    { "fr": "Les gehaktballen sont GROSSES : une par personne, de la taille d'un poing.", "en": "Gehaktballen are LARGE: one per person, the size of a fist." },
+    { "fr": "Mêler la chapelure au lait dix minutes avant d'ajouter les viandes.", "en": "Soak the breadcrumbs in the milk for ten minutes before adding the meats." },
+    { "fr": "Les faire dorer au beurre sur toutes leurs faces, à feu moyen, dix minutes.", "en": "Brown them in butter on all sides, over medium heat, for ten minutes." },
+    { "fr": "Mouiller à MI-HAUTEUR seulement et laisser mijoter quarante minutes à couvert.", "en": "Add liquid only HALFWAY UP and simmer for forty minutes, covered." },
+    { "fr": "Lier le jus à la farine délayée : la sauce doit être brune, courte et brillante.", "en": "Thicken the juices with slaked flour: the gravy should be brown, short and glossy." }
+  ]
+}

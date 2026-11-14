@@ -1,0 +1,39 @@
+{
+  "slug": "chatamari",
+  "cuisine": "south-asian",
+  "country": "nepal",
+  "origin": "Népal",
+  "native_name": "Chatamari",
+  "title": {
+    "fr": "Chatamari, crêpe de riz newar garnie",
+    "en": "Chatamari, topped Newari rice crepe"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["newar", "crepe", "oeuf", "fete"],
+  "ingredients": [
+    { "raw": "400 g de farine de riz", "qty": 400, "unit": "g", "item": "farine de riz", "group": "pâte" },
+    { "raw": "50 cl d'eau", "qty": 50, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "400 g d'agneau haché", "qty": 400, "unit": "g", "item": "agneau haché", "group": "garniture" },
+    { "raw": "5 œufs", "qty": 5, "unit": "piece", "item": "oeuf", "group": "garniture" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché", "group": "garniture" },
+    { "raw": "1 c. à s. de pâte gingembre-ail", "qty": 1, "unit": "tbsp", "item": "pâte gingembre-ail", "group": "garniture" },
+    { "raw": "1 c. à c. de timur, moulu", "qty": 1, "unit": "tsp", "item": "timur", "prep": "moulu", "group": "garniture" },
+    { "raw": "1 c. à c. de garam masala", "qty": 1, "unit": "tsp", "item": "garam masala", "group": "garniture" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée", "group": "garniture" },
+    { "raw": "6 c. à s. d'huile de moutarde", "qty": 6, "unit": "tbsp", "item": "huile de moutarde" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Fouetter la farine de riz et l'eau en une pâte fluide et laisser reposer une heure.", "en": "Whisk the rice flour and water into a thin batter and rest it for an hour." },
+    { "fr": "Cuire la viande hachée avec l'oignon, le gingembre-ail et les épices, jusqu'à ce qu'elle soit sèche.", "en": "Cook the mince with the onion, ginger-garlic and spices, until dry." },
+    { "fr": "Verser une louche de pâte sur une poêle huilée et l'étaler en disque épais d'un demi-centimètre.", "en": "Pour a ladle of batter into an oiled pan and spread it into a half-centimetre disc." },
+    { "fr": "La chatamari n'est pas une crêpe fine : c'est une base épaisse qui doit porter la garniture.", "en": "Chatamari is not a thin crepe: it is a thick base meant to carry the topping." },
+    { "fr": "Répartir la viande dessus, casser un œuf au centre et l'étaler à la spatule.", "en": "Spread the meat on top, crack an egg into the centre and spread it with a spatula." },
+    { "fr": "Couvrir et cuire six minutes, D'UN SEUL CÔTÉ, jusqu'à ce que l'œuf prenne.", "en": "Cover and cook for six minutes, on ONE SIDE ONLY, until the egg sets." }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "jameed-maison",
+  "cuisine": "levantine",
+  "country": "jordanie",
+  "origin": "Jordanie",
+  "native_name": "Jameed",
+  "title": {
+    "fr": "Jameed, yaourt de brebis séché",
+    "en": "Jameed, dried sheep's yoghurt"
+  },
+  "meal_type": "side",
+  "servings": 12,
+  "times": { "prep_min": 30, "cook_min": 0 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["conserve", "bedouin", "base", "sechage"],
+  "ingredients": [
+    { "raw": "3 l de yaourt de brebis", "qty": 3, "unit": "l", "item": "yaourt" },
+    { "raw": "150 g de gros sel", "qty": 150, "unit": "g", "item": "gros sel" }
+  ],
+  "steps": [
+    { "fr": "Battre le yaourt et le laisser reposer trois jours au frais, en retirant chaque jour le petit-lait qui remonte.", "en": "Whisk the yoghurt and rest it for three days in the fridge, drawing off the whey that rises each day." },
+    { "fr": "Verser dans un linge et suspendre quarante-huit heures, jusqu'à obtenir une pâte très ferme.", "en": "Tip it into a cloth and hang it for forty-eight hours, until you have a very firm paste." },
+    { "fr": "Malaxer avec le sel : le sel est ce qui conserve, sa quantité n'est pas négociable.", "en": "Work in the salt: salt is what preserves it, and the quantity is not negotiable." },
+    { "fr": "Former des boules de la taille d'un poing et les poser sur une claie, à l'ombre et au vent.", "en": "Shape fist-sized balls and set them on a rack, in the shade with air moving around them." },
+    { "fr": "Les retourner chaque jour pendant deux à trois semaines, jusqu'à ce qu'elles soient dures comme de la pierre.", "en": "Turn them daily for two to three weeks, until they are hard as stone." },
+    { "fr": "Se conservent un an au sec. Se cassent au marteau et se trempent une nuit avant usage.", "en": "They keep a year in the dry. Break them with a hammer and soak overnight before use." }
+  ],
+  "notes": [
+    { "fr": "Séchage à l'air d'un produit laitier : à faire au sec, à l'ombre, et à jeter au moindre point de moisissure.", "en": "Air-drying a dairy product: keep it dry and shaded, and discard at the first spot of mould." }
+  ]
+}

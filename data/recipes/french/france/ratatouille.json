@@ -1,0 +1,40 @@
+{
+  "slug": "ratatouille",
+  "cuisine": "french",
+  "country": "france",
+  "origin": "France",
+  "native_name": "Ratatouille",
+  "title": {
+    "fr": "Ratatouille niçoise",
+    "en": "Ratatouille from Nice"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 35, "cook_min": 60 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["provence", "ete", "legumes", "vegetarien"],
+  "ingredients": [
+    { "raw": "2 aubergines, en gros cubes", "qty": 2, "unit": "piece", "item": "aubergine", "prep": "en gros cubes" },
+    { "raw": "3 courgettes, en gros cubes", "qty": 3, "unit": "piece", "item": "courgette", "prep": "en gros cubes" },
+    { "raw": "2 poivrons rouges, en lanières", "qty": 2, "unit": "piece", "item": "poivron rouge", "prep": "en lanières" },
+    { "raw": "1 poivron vert, en lanières", "qty": 1, "unit": "piece", "item": "poivron vert", "prep": "en lanières" },
+    { "raw": "800 g de tomates, pelées et concassées", "qty": 800, "unit": "g", "item": "tomate", "prep": "pelée et concassée" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "4 gousses d'ail, écrasées", "qty": 4, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 bouquet de basilic", "qty": 1, "unit": "bunch", "item": "basilic" },
+    { "raw": "2 c. à c. d'herbes de Provence", "qty": 2, "unit": "tsp", "item": "herbes de Provence" },
+    { "raw": "15 cl d'huile d'olive", "qty": 15, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Chaque légume se cuit SÉPARÉMENT : c'est la règle, et c'est ce qui distingue une ratatouille d'une potée.", "en": "Each vegetable is cooked SEPARATELY: that is the rule, and what separates ratatouille from a stew." },
+    { "fr": "Ils n'ont ni la même densité ni la même teneur en eau : cuits ensemble, certains fondent, d'autres restent crus.", "en": "They differ in density and water content: cooked together, some collapse while others stay raw." },
+    { "fr": "Faire revenir chaque légume à l'huile d'olive, à feu vif, jusqu'à ce qu'il colore.", "en": "Fry each vegetable in olive oil, over high heat, until it takes colour." },
+    { "fr": "Faire la base tomate-oignon-ail à part et la laisser réduire vingt minutes.", "en": "Make the tomato-onion-garlic base separately and reduce it for twenty minutes." },
+    { "fr": "Réunir tous les légumes dans la base et laisser mijoter vingt minutes à découvert.", "en": "Combine all the vegetables in the base and simmer for twenty minutes uncovered." },
+    { "fr": "Ajouter le basilic hors du feu, et servir tiède ou froid : elle est meilleure le lendemain.", "en": "Add the basil off the heat, and serve warm or cold: it is better the next day." }
+  ]
+}

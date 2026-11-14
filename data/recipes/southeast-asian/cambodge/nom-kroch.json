@@ -1,0 +1,36 @@
+{
+  "slug": "nom-kroch",
+  "cuisine": "southeast-asian",
+  "country": "cambodge",
+  "origin": "Cambodge",
+  "native_name": "នំគ្រូច",
+  "title": {
+    "fr": "Nom kroch, beignets de riz gluant au sésame",
+    "en": "Nom kroch, sesame glutinous rice balls"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 35, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["nouvel-an", "friture", "sesame", "haricot"],
+  "ingredients": [
+    { "raw": "400 g de riz gluant, en farine", "qty": 400, "unit": "g", "item": "riz gluant", "prep": "en farine" },
+    { "raw": "25 cl d'eau tiède", "qty": 25, "unit": "cl", "item": "eau" },
+    { "raw": "250 g de haricot mungo décortiqué, trempé", "qty": 250, "unit": "g", "item": "haricot mungo", "prep": "trempé", "group": "farce" },
+    { "raw": "120 g de sucre de palme", "qty": 120, "unit": "g", "item": "sucre de palme", "group": "farce" },
+    { "raw": "10 cl de lait de coco", "qty": 10, "unit": "cl", "item": "lait de coco", "group": "farce" },
+    { "raw": "150 g de graines de sésame", "qty": 150, "unit": "g", "item": "sésame", "group": "enrobage" },
+    { "raw": "1 l d'huile neutre pour la friture", "qty": 1, "unit": "l", "item": "huile neutre" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire le haricot mungo à la vapeur et l'écraser en purée FERME avec le sucre de palme.", "en": "Steam the mung beans and mash them into a FIRM purée with the palm sugar." },
+    { "fr": "La rouler en billes et les mettre au frais : une farce molle est impossible à enfermer.", "en": "Roll it into balls and chill them: a soft filling cannot be enclosed." },
+    { "fr": "Pétrir la farine de riz gluant et l'eau tiède en une pâte souple comme de la pâte à modeler.", "en": "Knead the glutinous rice flour and warm water into a dough as soft as modelling clay." },
+    { "fr": "Creuser, garnir, refermer PARFAITEMENT, et rouler dans le sésame en pressant.", "en": "Hollow, fill, seal PERFECTLY, and roll in sesame, pressing it on." },
+    { "fr": "Frire à 150 °C — feu DOUX — en remuant l'huile : elles gonflent progressivement.", "en": "Fry at 150°C — LOW heat — swirling the oil: they swell gradually." },
+    { "fr": "Une huile trop chaude fait éclater les billes avant qu'elles aient gonflé.", "en": "Oil that is too hot bursts the balls before they have puffed." }
+  ]
+}

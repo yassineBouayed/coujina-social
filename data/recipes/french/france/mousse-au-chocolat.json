@@ -1,0 +1,36 @@
+{
+  "slug": "mousse-au-chocolat",
+  "cuisine": "french",
+  "country": "france",
+  "origin": "France",
+  "native_name": "Mousse au chocolat",
+  "title": {
+    "fr": "Mousse au chocolat",
+    "en": "Chocolate mousse"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 5 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["classique", "chocolat", "enfants", "froid"],
+  "ingredients": [
+    { "raw": "200 g de chocolat noir à 70 %", "qty": 200, "unit": "g", "item": "chocolat noir" },
+    { "raw": "6 œufs, blancs et jaunes séparés", "qty": 6, "unit": "piece", "item": "oeuf", "prep": "séparés" },
+    { "raw": "40 g de sucre", "qty": 40, "unit": "g", "item": "sucre" },
+    { "raw": "30 g de beurre", "qty": 30, "unit": "g", "item": "beurre" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire fondre le chocolat au bain-marie avec le beurre, sans jamais dépasser 45 °C.", "en": "Melt the chocolate with the butter over a water bath, never above 45°C." },
+    { "fr": "Le laisser TIÉDIR avant d'ajouter les jaunes : trop chaud, il les cuit en grumeaux.", "en": "Let it COOL before adding the yolks: too hot, it scrambles them." },
+    { "fr": "Monter les blancs avec le sel, puis serrer avec le sucre à la fin : ils doivent faire le bec.", "en": "Whip the whites with the salt, then tighten with the sugar at the end: they should hold a peak." },
+    { "fr": "Incorporer un TIERS des blancs vigoureusement, pour détendre le chocolat.", "en": "Beat in a THIRD of the whites vigorously, to loosen the chocolate." },
+    { "fr": "Incorporer le reste À LA MARYSE, en soulevant, en douze mouvements maximum.", "en": "Fold in the rest WITH A SPATULA, lifting, in twelve movements at most." },
+    { "fr": "Réfrigérer SIX HEURES : une mousse de deux heures n'a pas fini de prendre.", "en": "Chill for SIX HOURS: a two-hour mousse has not finished setting." }
+  ],
+  "notes": [
+    { "fr": "Cette mousse contient des œufs crus : à éviter pour les personnes enceintes, âgées ou immunodéprimées.", "en": "This mousse contains raw eggs: not for pregnant, elderly or immunocompromised eaters." }
+  ]
+}

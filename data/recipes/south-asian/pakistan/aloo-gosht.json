@@ -1,0 +1,41 @@
+{
+  "slug": "aloo-gosht",
+  "cuisine": "south-asian",
+  "country": "pakistan",
+  "origin": "Pakistan",
+  "native_name": "Aloo gosht",
+  "title": {
+    "fr": "Aloo gosht, agneau aux pommes de terre en sauce",
+    "en": "Aloo gosht, lamb and potato curry"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 90 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["quotidien", "famille", "pomme-de-terre", "sauce"],
+  "ingredients": [
+    { "raw": "800 g d'épaule d'agneau, en cubes", "qty": 800, "unit": "g", "item": "épaule d'agneau", "prep": "en cubes" },
+    { "raw": "5 pommes de terre, en gros quartiers", "qty": 5, "unit": "piece", "item": "pomme de terre", "prep": "en gros quartiers" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "4 tomates, râpées", "qty": 4, "unit": "piece", "item": "tomate", "prep": "râpée" },
+    { "raw": "2 c. à s. de pâte gingembre-ail", "qty": 2, "unit": "tbsp", "item": "pâte gingembre-ail" },
+    { "raw": "2 c. à c. de coriandre en graines, moulue", "qty": 2, "unit": "tsp", "item": "coriandre graines", "prep": "moulue" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "2 c. à c. de piment kashmiri", "qty": 2, "unit": "tsp", "item": "piment kashmiri" },
+    { "raw": "1 c. à c. de garam masala", "qty": 1, "unit": "tsp", "item": "garam masala" },
+    { "raw": "8 c. à s. d'huile neutre", "qty": 8, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire brunir les oignons vingt minutes : c'est la base de couleur et de goût de tout le plat.", "en": "Brown the onions for twenty minutes: the colour and flavour base of the whole dish." },
+    { "fr": "Ajouter la pâte gingembre-ail, puis les épices moulues délayées dans un peu d'eau.", "en": "Add the ginger-garlic paste, then the ground spices slaked in a little water." },
+    { "fr": "Délayer les épices avant de les jeter dans l'huile chaude les empêche de brûler en une seconde.", "en": "Slaking the spices before they hit hot oil stops them burning in a second." },
+    { "fr": "Ajouter la viande et la tomate râpée, et cuire jusqu'à ce que l'huile se sépare.", "en": "Add the meat and grated tomato, and cook until the oil separates." },
+    { "fr": "Mouiller et laisser mijoter une heure à couvert.", "en": "Add water and simmer for an hour, covered." },
+    { "fr": "Ajouter les pommes de terre pour les vingt-cinq dernières minutes, et finir au garam masala.", "en": "Add the potatoes for the last twenty-five minutes, and finish with garam masala." }
+  ]
+}

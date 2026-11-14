@@ -1,0 +1,42 @@
+{
+  "slug": "pastel-de-papas",
+  "cuisine": "latin-american",
+  "country": "argentine",
+  "origin": "Argentine",
+  "native_name": "Pastel de papas",
+  "title": {
+    "fr": "Hachis argentin aux olives",
+    "en": "Argentine shepherd's pie with olives"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 35, "cook_min": 55 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["famille", "boeuf", "gratin", "enfants"],
+  "ingredients": [
+    { "raw": "1,2 kg de pommes de terre", "qty": 1200, "unit": "g", "item": "pomme de terre" },
+    { "raw": "800 g de bœuf haché", "qty": 800, "unit": "g", "item": "boeuf haché" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "2 poivrons rouges, en dés", "qty": 2, "unit": "piece", "item": "poivron rouge", "prep": "en dés" },
+    { "raw": "3 œufs durs, en rondelles", "qty": 3, "unit": "piece", "item": "oeuf", "prep": "dur, en rondelles" },
+    { "raw": "120 g d'olives vertes, en rondelles", "qty": 120, "unit": "g", "item": "olive verte", "prep": "en rondelles" },
+    { "raw": "80 g de raisins secs", "qty": 80, "unit": "g", "item": "raisin sec" },
+    { "raw": "3 c. à s. de paprika", "qty": 3, "unit": "tbsp", "item": "paprika" },
+    { "raw": "2 c. à c. de cumin moulu", "qty": 2, "unit": "tsp", "item": "cumin" },
+    { "raw": "120 g de beurre", "qty": 120, "unit": "g", "item": "beurre" },
+    { "raw": "20 cl de lait entier", "qty": 20, "unit": "cl", "item": "lait entier" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Les OLIVES, les RAISINS SECS et les ŒUFS DURS distinguent le pastel argentin du hachis européen.", "en": "The OLIVES, RAISINS and HARD-BOILED EGGS set the Argentine pastel apart from the European version." },
+    { "fr": "Le contraste sucré-salé n'est pas un accident : c'est un héritage de la cuisine coloniale espagnole.", "en": "The sweet-savoury contrast is no accident: an inheritance from Spanish colonial cooking." },
+    { "fr": "Le CUMIN est indispensable : sans lui, ce n'est plus un pastel de papas argentin.", "en": "CUMIN is essential: without it, it is no longer an Argentine pastel de papas." },
+    { "fr": "Cuire la viande jusqu'à ce qu'elle soit SÈCHE : humide, elle traverse la purée.", "en": "Cook the meat until DRY: wet, it seeps through the mash." },
+    { "fr": "Ranger les rondelles d'œuf dur EN LIGNES au-dessus de la viande, avant la purée.", "en": "Lay the egg slices IN ROWS over the meat, before the mash." },
+    { "fr": "Rayer la purée à la fourchette et gratiner trente minutes à 200 °C.", "en": "Score the mash with a fork and bake for thirty minutes at 200°C." }
+  ]
+}

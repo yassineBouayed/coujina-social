@@ -1,0 +1,43 @@
+{
+  "slug": "bigos",
+  "cuisine": "eastern-european",
+  "country": "pologne",
+  "origin": "Pologne",
+  "native_name": "Bigos",
+  "title": {
+    "fr": "Bigos, ragoût de chou et de viandes",
+    "en": "Bigos, hunter's cabbage stew"
+  },
+  "meal_type": "main",
+  "servings": 8,
+  "times": { "prep_min": 40, "cook_min": 240 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["embleme", "chou", "hiver", "mijote"],
+  "ingredients": [
+    { "raw": "1 kg de choucroute, rincée", "qty": 1000, "unit": "g", "item": "choucroute", "prep": "rincée" },
+    { "raw": "1/2 chou vert, en lanières", "qty": 0.5, "unit": "piece", "item": "chou vert", "prep": "en lanières" },
+    { "raw": "600 g d'échine de porc, en cubes", "qty": 600, "unit": "g", "item": "échine de porc", "prep": "en cubes" },
+    { "raw": "400 g de bœuf à mijoter, en cubes", "qty": 400, "unit": "g", "item": "boeuf à mijoter", "prep": "en cubes" },
+    { "raw": "300 g de saucisse fumée, en rondelles", "qty": 300, "unit": "g", "item": "saucisse fumée", "prep": "en rondelles" },
+    { "raw": "200 g de poitrine de porc fumée", "qty": 200, "unit": "g", "item": "poitrine de porc", "prep": "fumée" },
+    { "raw": "80 g de champignons séchés", "qty": 80, "unit": "g", "item": "champignon séché" },
+    { "raw": "150 g de pruneaux", "qty": 150, "unit": "g", "item": "pruneau" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "10 baies de genièvre", "qty": 10, "unit": "piece", "item": "baie de genièvre" },
+    { "raw": "4 feuilles de laurier", "qty": 4, "unit": "piece", "item": "laurier" },
+    { "raw": "2 c. à c. de carvi", "qty": 2, "unit": "tsp", "item": "carvi" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le bigos se cuit sur TROIS JOURS : quatre heures le premier, deux le deuxième, deux le troisième.", "en": "Bigos is cooked over THREE DAYS: four hours the first, two the second, two the third." },
+    { "fr": "Chaque refroidissement et chaque réchauffage concentrent le goût : c'est le principe du plat.", "en": "Each cooling and reheating concentrates the flavour: that is the dish's whole principle." },
+    { "fr": "Réhydrater les champignons séchés et GARDER leur eau : elle porte tout le goût de sous-bois.", "en": "Rehydrate the dried mushrooms and KEEP their water: it carries all the forest flavour." },
+    { "fr": "Saisir chaque viande séparément, à feu vif, avant de tout réunir.", "en": "Sear each meat separately over high heat, before combining everything." },
+    { "fr": "Mêler choucroute rincée, chou frais, viandes, pruneaux et épices, et cuire à couvert.", "en": "Combine the rinsed sauerkraut, fresh cabbage, meats, prunes and spices, and cook covered." },
+    { "fr": "Les PRUNEAUX ne sont pas décoratifs : leur sucre équilibre l'acidité de la choucroute.", "en": "The PRUNES are not decorative: their sweetness balances the sauerkraut's acidity." }
+  ]
+}

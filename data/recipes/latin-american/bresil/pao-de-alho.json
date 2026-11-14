@@ -1,0 +1,37 @@
+{
+  "slug": "pao-de-alho",
+  "cuisine": "latin-american",
+  "country": "bresil",
+  "origin": "Brésil",
+  "native_name": "Pão de alho",
+  "title": {
+    "fr": "Pain à l'ail grillé du churrasco",
+    "en": "Grilled garlic bread for churrasco"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["churrasco", "ail", "grill", "rapide"],
+  "ingredients": [
+    { "raw": "2 baguettes", "qty": 2, "unit": "piece", "item": "baguette" },
+    { "raw": "12 gousses d'ail, écrasées", "qty": 12, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "200 g de beurre, mou", "qty": 200, "unit": "g", "item": "beurre", "prep": "mou" },
+    { "raw": "25 cl de crème fraîche", "qty": 25, "unit": "cl", "item": "crème fraîche" },
+    { "raw": "150 g de parmesan, râpé", "qty": 150, "unit": "g", "item": "parmesan", "prep": "râpé" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "1/2 bouquet de ciboulette, ciselée", "qty": 0.5, "unit": "bunch", "item": "ciboulette", "prep": "ciselée" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La CRÈME dans le beurre à l'ail est la particularité brésilienne : elle empêche le pain de sécher.", "en": "The CREAM in the garlic butter is the Brazilian touch: it keeps the bread from drying." },
+    { "fr": "Trancher la baguette SANS ALLER JUSQU'AU BOUT : les tranches restent tenues par la base.", "en": "Slice the baguette WITHOUT CUTTING THROUGH: the slices stay held by the base." },
+    { "fr": "Écraser l'ail EN PÂTE avec du sel : haché, il brûle sur le gril et devient amer.", "en": "Crush the garlic TO A PASTE with salt: chopped, it burns on the grill and turns bitter." },
+    { "fr": "Faire tremper le pain dans le mélange en écartant chaque tranche, une par une.", "en": "Soak the bread in the mixture, prising each slice apart, one by one." },
+    { "fr": "Laisser reposer une heure au frais : le pain doit s'imprégner entièrement.", "en": "Rest for an hour in the fridge: the bread must soak right through." },
+    { "fr": "Griller sur la braise, en le tournant souvent : il doit être doré dehors et fondant dedans.", "en": "Grill over coals, turning often: golden outside, melting within." }
+  ]
+}

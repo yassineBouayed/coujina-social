@@ -1,0 +1,42 @@
+{
+  "slug": "ogbono-soup",
+  "cuisine": "west-african",
+  "country": "nigeria",
+  "origin": "Nigeria",
+  "native_name": "Ogbono soup",
+  "title": {
+    "fr": "Soupe ogbono aux graines de mangue sauvage",
+    "en": "Ogbono soup with wild mango seeds"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 55 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["filant", "igbo", "huile-de-palme", "swallow"],
+  "ingredients": [
+    { "raw": "120 g d'ogbono moulu", "qty": 120, "unit": "g", "item": "ogbono", "prep": "moulu" },
+    { "raw": "500 g de bœuf à mijoter, en cubes", "qty": 500, "unit": "g", "item": "boeuf à mijoter", "prep": "en cubes" },
+    { "raw": "150 g de poisson fumé, émietté", "qty": 150, "unit": "g", "item": "poisson fumé", "prep": "émietté" },
+    { "raw": "3 c. à s. de crevettes séchées, moulues", "qty": 3, "unit": "tbsp", "item": "crevette séchée", "prep": "moulue" },
+    { "raw": "200 g d'épinards, ciselés", "qty": 200, "unit": "g", "item": "épinard", "prep": "ciselé" },
+    { "raw": "12 cl d'huile de palme rouge", "qty": 12, "unit": "cl", "item": "huile de palme rouge" },
+    { "raw": "1 oignon, haché", "qty": 1, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "2 piments habanero, mixés", "qty": 2, "unit": "piece", "item": "habanero", "prep": "mixé" },
+    { "raw": "2 cubes de bouillon", "qty": 2, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "1 c. à s. de graines de néré", "qty": 1, "unit": "tbsp", "item": "néré", "optional": true },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire la viande avec l'oignon, les cubes et le sel, et garder ce bouillon : il fera toute la soupe.", "en": "Cook the meat with the onion, stock cubes and salt, and keep the broth: it makes the whole soup." },
+    { "fr": "Délayer l'ogbono moulu dans l'huile de palme tiède, hors du feu, jusqu'à obtenir une pâte lisse.", "en": "Work the ground ogbono into the warm palm oil, off the heat, to a smooth paste." },
+    { "fr": "Verser cette pâte dans le bouillon frémissant en filet, sans remuer tout de suite.", "en": "Pour that paste into the simmering broth in a stream, without stirring straight away." },
+    { "fr": "Laisser gonfler dix minutes à découvert : c'est là que l'ogbono devient filant.", "en": "Let it swell for ten minutes uncovered: this is where ogbono turns ropy." },
+    { "fr": "Ajouter poisson fumé, crevettes séchées, piment et néré, et poursuivre quinze minutes.", "en": "Add the smoked fish, dried prawns, chilli and néré, and continue for fifteen minutes." },
+    { "fr": "Ajouter les épinards deux minutes avant de servir, et ne plus couvrir : la vapeur casse le filant.", "en": "Add the spinach two minutes before serving, and leave it uncovered: steam breaks the draw." }
+  ],
+  "notes": [
+    { "fr": "Une soupe ogbono qui ne file pas a été trop remuée ou couverte. Le filant est le critère, pas le goût.", "en": "An ogbono soup that does not draw was over-stirred or covered. The draw is the test, not the taste." }
+  ]
+}

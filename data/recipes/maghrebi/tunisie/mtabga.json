@@ -1,0 +1,39 @@
+{
+  "slug": "mtabga",
+  "cuisine": "maghrebi",
+  "country": "tunisie",
+  "origin": "Tunisie",
+  "native_name": "Mtabga",
+  "title": {
+    "fr": "Mtabga, galette farcie du Kef",
+    "en": "Mtabga, stuffed flatbread from Le Kef"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 45, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["kef", "farci", "semoule", "rue"],
+  "ingredients": [
+    { "raw": "400 g de semoule fine", "qty": 400, "unit": "g", "item": "semoule fine", "group": "pâte" },
+    { "raw": "100 g de farine de blé", "qty": 100, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "1 c. à c. de levure boulangère sèche", "qty": 1, "unit": "tsp", "item": "levure boulangère", "group": "pâte" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel", "group": "pâte" },
+    { "raw": "300 g de viande hachée d'agneau", "qty": 300, "unit": "g", "item": "agneau haché", "group": "farce" },
+    { "raw": "3 oignons, hachés finement", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché finement", "group": "farce" },
+    { "raw": "3 tomates, râpées", "qty": 3, "unit": "piece", "item": "tomate", "prep": "râpée", "group": "farce" },
+    { "raw": "1 c. à s. de harissa", "qty": 1, "unit": "tbsp", "item": "harissa", "group": "farce" },
+    { "raw": "1 c. à c. de tabil", "qty": 1, "unit": "tsp", "item": "tabil", "group": "farce" },
+    { "raw": "6 c. à s. d'huile d'olive", "qty": 6, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Pétrir semoule fine, farine, levure, sel et eau tiède dix minutes, puis laisser lever une heure.", "en": "Knead fine semolina, flour, yeast, salt and warm water for ten minutes, then prove for an hour." },
+    { "fr": "Cuire la farce longuement, jusqu'à ce qu'elle soit sèche et compacte : c'est la condition pour qu'elle ne perce pas la galette.", "en": "Cook the filling at length, until dry and compact: the condition for it not to tear the bread." },
+    { "fr": "Diviser la pâte en boules et les étaler finement, deux par mtabga.", "en": "Divide the dough into balls and roll them thin, two per mtabga." },
+    { "fr": "Étaler la farce sur un disque, couvrir du second, et souder les bords en pinçant.", "en": "Spread the filling on one disc, cover with the second, and pinch the edges shut." },
+    { "fr": "Cuire à la poêle huilée à feu moyen, huit minutes par face, en pressant à la spatule.", "en": "Cook in an oiled pan over medium heat, eight minutes a side, pressing with a spatula." },
+    { "fr": "Découper en parts et manger brûlant, à la main.", "en": "Cut into wedges and eat scalding, with your hands." }
+  ]
+}

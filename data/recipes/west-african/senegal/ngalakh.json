@@ -1,0 +1,40 @@
+{
+  "slug": "ngalakh",
+  "cuisine": "west-african",
+  "country": "senegal",
+  "origin": "Sénégal",
+  "native_name": "Ngalax",
+  "title": {
+    "fr": "Ngalakh, crème de mil au pain de singe",
+    "en": "Ngalakh, millet cream with baobab fruit"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 30, "cook_min": 40 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["paques", "partage", "baobab", "arachide"],
+  "ingredients": [
+    { "raw": "500 g de petit mil", "qty": 500, "unit": "g", "item": "petit mil" },
+    { "raw": "200 g de pain de singe", "qty": 200, "unit": "g", "item": "pain de singe" },
+    { "raw": "250 g de pâte d'arachide", "qty": 250, "unit": "g", "item": "pâte d'arachide" },
+    { "raw": "200 g de sucre", "qty": 200, "unit": "g", "item": "sucre" },
+    { "raw": "100 g de raisins secs", "qty": 100, "unit": "g", "item": "raisin sec" },
+    { "raw": "1 c. à c. d'extrait de vanille", "qty": 1, "unit": "tsp", "item": "extrait de vanille" },
+    { "raw": "2 c. à s. d'eau de fleur d'oranger", "qty": 2, "unit": "tbsp", "item": "eau de fleur d'oranger" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire le mil à la vapeur en trois passages, comme un couscous, et le laisser refroidir.", "en": "Steam the millet in three passes, like couscous, and let it cool." },
+    { "fr": "Faire tremper le pain de singe dans de l'eau tiède vingt minutes, puis le passer au tamis pour retirer graines et fibres.", "en": "Soak the baobab pulp in warm water for twenty minutes, then sieve it to remove seeds and fibres." },
+    { "fr": "Délayer la pâte d'arachide dans de l'eau chaude jusqu'à obtenir une crème lisse.", "en": "Slake the groundnut paste in hot water to a smooth cream." },
+    { "fr": "Mélanger le jus de pain de singe, la crème d'arachide, le sucre, la vanille, la fleur d'oranger et la muscade.", "en": "Combine the baobab juice, groundnut cream, sugar, vanilla, orange blossom water and nutmeg." },
+    { "fr": "Incorporer le mil froid et les raisins, et rectifier la texture : le ngalakh doit napper, pas couler.", "en": "Fold in the cold millet and raisins, and adjust the texture: ngalakh should coat, not run." },
+    { "fr": "Laisser reposer quatre heures au frais, et servir en petits pots à partager.", "en": "Rest for four hours in the fridge, and serve in small pots to share." }
+  ],
+  "notes": [
+    { "fr": "Le ngalakh se prépare le Vendredi saint et se distribue aux voisins, chrétiens comme musulmans. La quantité fait partie du plat.", "en": "Ngalakh is made on Good Friday and shared with neighbours, Christian and Muslim alike. The quantity is part of the dish." }
+  ]
+}

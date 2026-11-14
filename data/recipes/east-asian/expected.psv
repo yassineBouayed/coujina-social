@@ -1,0 +1,633 @@
+# Vérité du catalogue, cuisine « east-asian ».
+#
+# Pour chaque ligne d'ingrédient, celui du référentiel qu'un relecteur
+# choisit, ou `-` quand le référentiel n'a rien à offrir.
+#
+# PASSE MODÈLE, pas humaine, et la circularité est ici maximale : les
+# recettes ont été écrites AVEC le référentiel sous les yeux, et les
+# ingrédients qui manquaient y ont été ajoutés dans la foulée. Le taux de
+# rattachement du champ `item` ne mesure donc presque rien sur ces cuisines.
+# Ce qui mesure quelque chose, c'est le témoin `raw`, que `catalog:gate`
+# donne en regard.
+#
+# Une ligne annotée ici n'a pas été relue par quelqu'un qui cuisine ces
+# plats. Le critère de sortie de J5 reste entier.
+recipe|line|item|expected_slug|note
+baozi|0|farine de blé|farine-de-ble|
+baozi|1|levure boulangère|levure-boulangere|
+baozi|2|sucre|sucre|
+baozi|3|lait|lait|
+baozi|4|huile neutre|huile-neutre|
+baozi|5|porc haché|porc-hache|
+baozi|6|oignon nouveau|oignon-nouveau|
+baozi|7|gingembre|gingembre|
+baozi|8|sauce hoisin|sauce-hoisin|
+baozi|9|sauce soja|sauce-soja|
+baozi|10|huile de sésame|huile-de-sesame|
+baozi|11|cinq-épices|cinq-epices|
+canard-laque-pekinois|0|canard|canard|
+canard-laque-pekinois|1|miel|miel|
+canard-laque-pekinois|2|vinaigre de riz|vinaigre-de-riz|
+canard-laque-pekinois|3|vin de riz|vin-de-riz|
+canard-laque-pekinois|4|cinq-épices|cinq-epices|
+canard-laque-pekinois|5|gingembre|gingembre|
+canard-laque-pekinois|6|tortilla de blé|tortilla-de-ble|
+canard-laque-pekinois|7|concombre|concombre|
+canard-laque-pekinois|8|oignon nouveau|oignon-nouveau|
+canard-laque-pekinois|9|sauce hoisin|sauce-hoisin|
+canard-laque-pekinois|10|gros sel|gros-sel|
+cha-siu|0|échine de porc|echine-de-porc|
+cha-siu|1|sauce hoisin|sauce-hoisin|
+cha-siu|2|sauce soja|sauce-soja|
+cha-siu|3|miel|miel|
+cha-siu|4|vin de riz|vin-de-riz|
+cha-siu|5|sucre roux|sucre-roux|
+cha-siu|6|cinq-épices|cinq-epices|
+cha-siu|7|ail|ail|
+cha-siu|8|miel|miel|
+cha-siu|9|sel|sel|
+chow-mein|0|nouilles de blé|nouilles-de-ble|
+chow-mein|1|blanc de poulet|blanc-de-poulet|
+chow-mein|2|chou chinois|chou-chinois|
+chow-mein|3|carotte|carotte|
+chow-mein|4|germes de soja|germes-de-soja|
+chow-mein|5|oignon nouveau|oignon-nouveau|
+chow-mein|6|sauce soja|sauce-soja|
+chow-mein|7|sauce huître|sauce-huitre|
+chow-mein|8|huile de sésame|huile-de-sesame|
+chow-mein|9|vin de riz|vin-de-riz|
+chow-mein|10|huile neutre|huile-neutre|
+chow-mein|11|sel|sel|
+chow-mein|12|poivre blanc|poivre-blanc|
+dan-dan-mian|0|nouilles de blé|nouilles-de-ble|
+dan-dan-mian|1|porc haché|porc-hache|
+dan-dan-mian|2|tahini|tahini|
+dan-dan-mian|3|sauce soja|sauce-soja|
+dan-dan-mian|4|huile pimentée|huile-pimentee|
+dan-dan-mian|5|vinaigre de riz|vinaigre-de-riz|
+dan-dan-mian|6|poivre de Sichuan|poivre-de-sichuan|
+dan-dan-mian|7|sucre|sucre|
+dan-dan-mian|8|ail|ail|
+dan-dan-mian|9|oignon nouveau|oignon-nouveau|
+dan-dan-mian|10|vin de riz|vin-de-riz|
+dan-dan-mian|11|huile neutre|huile-neutre|
+dan-ta|0|pâte feuilletée|pate-feuilletee|
+dan-ta|1|oeuf|oeuf|
+dan-ta|2|sucre|sucre|
+dan-ta|3|eau|eau|
+dan-ta|4|lait concentré sucré|lait-concentre-sucre|
+dan-ta|5|extrait de vanille|extrait-de-vanille|
+gong-bao-jiding|0|blanc de poulet|blanc-de-poulet|
+gong-bao-jiding|1|arachide grillée|arachide-grillee|
+gong-bao-jiding|2|piment séché|piment-seche|
+gong-bao-jiding|3|poivre de Sichuan|poivre-de-sichuan|
+gong-bao-jiding|4|oignon nouveau|oignon-nouveau|
+gong-bao-jiding|5|vinaigre de riz|vinaigre-de-riz|
+gong-bao-jiding|6|sauce soja|sauce-soja|
+gong-bao-jiding|7|sucre|sucre|
+gong-bao-jiding|8|vin de riz|vin-de-riz|
+gong-bao-jiding|9|maïzena|maizena|
+gong-bao-jiding|10|gingembre|gingembre|
+gong-bao-jiding|11|huile neutre|huile-neutre|
+gu-lao-rou|0|échine de porc|echine-de-porc|
+gu-lao-rou|1|oeuf|oeuf|
+gu-lao-rou|2|maïzena|maizena|
+gu-lao-rou|3|poivron rouge|poivron-rouge|
+gu-lao-rou|4|poivron vert|poivron-vert|
+gu-lao-rou|5|oignon|oignon|
+gu-lao-rou|6|ananas|ananas|
+gu-lao-rou|7|vinaigre de riz|vinaigre-de-riz|
+gu-lao-rou|8|sucre|sucre|
+gu-lao-rou|9|concentré de tomate|concentre-de-tomate|
+gu-lao-rou|10|sauce soja|sauce-soja|
+gu-lao-rou|11|huile neutre|huile-neutre|
+gu-lao-rou|12|sel|sel|
+gu-lao-rou|13|poivre blanc|poivre-blanc|
+har-gow|0|maïzena|maizena|
+har-gow|1|maïzena|maizena|
+har-gow|2|eau|eau|
+har-gow|3|huile neutre|huile-neutre|
+har-gow|4|crevette|crevette|
+har-gow|5|pousse de bambou|pousse-de-bambou|
+har-gow|6|huile de sésame|huile-de-sesame|
+har-gow|7|vin de riz|vin-de-riz|
+har-gow|8|sucre|sucre|
+har-gow|9|sel|sel|
+har-gow|10|poivre blanc|poivre-blanc|
+hongshao-rou|0|poitrine de porc|poitrine-de-porc|
+hongshao-rou|1|sucre roux|sucre-roux|
+hongshao-rou|2|sauce soja claire|sauce-soja-claire|
+hongshao-rou|3|sauce soja foncée|sauce-soja-foncee|
+hongshao-rou|4|vin de riz|vin-de-riz|
+hongshao-rou|5|gingembre|gingembre|
+hongshao-rou|6|oignon nouveau|oignon-nouveau|
+hongshao-rou|7|badiane|badiane|
+hongshao-rou|8|cannelle|cannelle|
+hongshao-rou|9|huile neutre|huile-neutre|
+jiaozi|0|farine de blé|farine-de-ble|
+jiaozi|1|eau|eau|
+jiaozi|2|porc haché|porc-hache|
+jiaozi|3|chou chinois|chou-chinois|
+jiaozi|4|oignon nouveau|oignon-nouveau|
+jiaozi|5|gingembre|gingembre|
+jiaozi|6|sauce soja|sauce-soja|
+jiaozi|7|huile de sésame|huile-de-sesame|
+jiaozi|8|vin de riz|vin-de-riz|
+jiaozi|9|vinaigre de riz|vinaigre-de-riz|
+jiaozi|10|huile pimentée|huile-pimentee|
+jiaozi|11|sel|sel|
+mapo-tofu|0|tofu soyeux|tofu-soyeux|
+mapo-tofu|1|boeuf haché|boeuf-hache|
+mapo-tofu|2|doubanjiang|doubanjiang|
+mapo-tofu|3|poivre de Sichuan|poivre-de-sichuan|
+mapo-tofu|4|piment en poudre|piment-en-poudre|
+mapo-tofu|5|ail|ail|
+mapo-tofu|6|gingembre|gingembre|
+mapo-tofu|7|oignon nouveau|oignon-nouveau|
+mapo-tofu|8|sauce soja|sauce-soja|
+mapo-tofu|9|bouillon volaille|bouillon-volaille|
+mapo-tofu|10|maïzena|maizena|
+mapo-tofu|11|huile neutre|huile-neutre|
+shui-zhu-yu|0|cabillaud|cabillaud|
+shui-zhu-yu|1|oeuf|oeuf|
+shui-zhu-yu|2|maïzena|maizena|
+shui-zhu-yu|3|vin de riz|vin-de-riz|
+shui-zhu-yu|4|germes de soja|germes-de-soja|
+shui-zhu-yu|5|doubanjiang|doubanjiang|
+shui-zhu-yu|6|piment séché|piment-seche|
+shui-zhu-yu|7|poivre de Sichuan|poivre-de-sichuan|
+shui-zhu-yu|8|ail|ail|
+shui-zhu-yu|9|huile neutre|huile-neutre|
+shui-zhu-yu|10|bouillon volaille|bouillon-volaille|
+shui-zhu-yu|11|sel|sel|
+tang-yuan|0|riz gluant|riz-gluant|
+tang-yuan|1|eau|eau|
+tang-yuan|2|sésame noir|sesame-noir|
+tang-yuan|3|sucre glace|sucre-glace|
+tang-yuan|4|saindoux|saindoux|
+tang-yuan|5|gingembre|gingembre|
+tang-yuan|6|sucre roux|sucre-roux|
+tang-yuan|7|eau|eau|
+the-au-jasmin|0|thé vert|the-vert|
+the-au-jasmin|1|eau|eau|
+wonton-tang|0|pâte à wonton|pate-a-wonton|
+wonton-tang|1|crevette|crevette|
+wonton-tang|2|porc haché|porc-hache|
+wonton-tang|3|oignon nouveau|oignon-nouveau|
+wonton-tang|4|gingembre|gingembre|
+wonton-tang|5|sauce soja|sauce-soja|
+wonton-tang|6|huile de sésame|huile-de-sesame|
+wonton-tang|7|bouillon volaille|bouillon-volaille|
+wonton-tang|8|pak choi|pak-choi|
+wonton-tang|9|gingembre|gingembre|
+wonton-tang|10|sel|sel|
+wonton-tang|11|poivre blanc|poivre-blanc|
+xihongshi-chao-jidan|0|oeuf|oeuf|
+xihongshi-chao-jidan|1|tomate|tomate|
+xihongshi-chao-jidan|2|oignon nouveau|oignon-nouveau|
+xihongshi-chao-jidan|3|sucre|sucre|
+xihongshi-chao-jidan|4|sauce soja claire|sauce-soja-claire|
+xihongshi-chao-jidan|5|vin de riz|vin-de-riz|
+xihongshi-chao-jidan|6|huile neutre|huile-neutre|
+xihongshi-chao-jidan|7|sel|sel|
+xihongshi-chao-jidan|8|poivre blanc|poivre-blanc|
+yangzhou-chao-fan|0|riz long grain|riz-long-grain|
+yangzhou-chao-fan|1|oeuf|oeuf|
+yangzhou-chao-fan|2|crevette|crevette|
+yangzhou-chao-fan|3|jambon blanc|jambon-blanc|
+yangzhou-chao-fan|4|petits pois surgelés|petits-pois-surgeles|
+yangzhou-chao-fan|5|oignon nouveau|oignon-nouveau|
+yangzhou-chao-fan|6|sauce soja claire|sauce-soja-claire|
+yangzhou-chao-fan|7|vin de riz|vin-de-riz|
+yangzhou-chao-fan|8|huile neutre|huile-neutre|
+yangzhou-chao-fan|9|sel|sel|
+yangzhou-chao-fan|10|poivre blanc|poivre-blanc|
+yu-xiang-qie-zi|0|aubergine|aubergine|
+yu-xiang-qie-zi|1|doubanjiang|doubanjiang|
+yu-xiang-qie-zi|2|ail|ail|
+yu-xiang-qie-zi|3|gingembre|gingembre|
+yu-xiang-qie-zi|4|oignon nouveau|oignon-nouveau|
+yu-xiang-qie-zi|5|vinaigre de riz|vinaigre-de-riz|
+yu-xiang-qie-zi|6|sucre|sucre|
+yu-xiang-qie-zi|7|sauce soja|sauce-soja|
+yu-xiang-qie-zi|8|maïzena|maizena|
+yu-xiang-qie-zi|9|bouillon légumes|bouillon-legumes|
+yu-xiang-qie-zi|10|huile neutre|huile-neutre|
+zhou|0|riz long grain|riz-long-grain|
+zhou|1|bouillon volaille|bouillon-volaille|
+zhou|2|gingembre|gingembre|
+zhou|3|blanc de poulet|blanc-de-poulet|
+zhou|4|oignon nouveau|oignon-nouveau|
+zhou|5|huile de sésame|huile-de-sesame|
+zhou|6|sauce soja|sauce-soja|
+zhou|7|huile neutre|huile-neutre|
+zhou|8|sel|sel|
+zhou|9|poivre blanc|poivre-blanc|
+baechu-kimchi|0|chou chinois|chou-chinois|
+baechu-kimchi|1|gros sel|gros-sel|
+baechu-kimchi|2|gochugaru|gochugaru|
+baechu-kimchi|3|daikon|daikon|
+baechu-kimchi|4|oignon nouveau|oignon-nouveau|
+baechu-kimchi|5|ail|ail|
+baechu-kimchi|6|gingembre|gingembre|
+baechu-kimchi|7|sauce poisson|sauce-poisson|
+baechu-kimchi|8|farine de riz|farine-de-riz|
+baechu-kimchi|9|sucre|sucre|
+baechu-kimchi|10|pomme|pomme|
+bibimbap|0|riz rond|riz-rond|
+bibimbap|1|boeuf haché|boeuf-hache|
+bibimbap|2|épinard|epinard|
+bibimbap|3|germes de soja|germes-de-soja|
+bibimbap|4|carotte|carotte|
+bibimbap|5|shiitake|shiitake|
+bibimbap|6|courgette|courgette|
+bibimbap|7|oeuf|oeuf|
+bibimbap|8|gochujang|gochujang|
+bibimbap|9|huile de sésame|huile-de-sesame|
+bibimbap|10|vinaigre de riz|vinaigre-de-riz|
+bibimbap|11|sucre|sucre|
+bibimbap|12|sauce soja|sauce-soja|
+bibimbap|13|sésame|sesame|
+bibimbap|14|huile de sésame|huile-de-sesame|
+bibimbap|15|sel|sel|
+bulgogi|0|steak de bœuf|steak-de-boeuf|
+bulgogi|1|pomme|pomme|
+bulgogi|2|sauce soja|sauce-soja|
+bulgogi|3|sucre roux|sucre-roux|
+bulgogi|4|huile de sésame|huile-de-sesame|
+bulgogi|5|ail|ail|
+bulgogi|6|gingembre|gingembre|
+bulgogi|7|oignon|oignon|
+bulgogi|8|oignon nouveau|oignon-nouveau|
+bulgogi|9|sésame|sesame|
+bulgogi|10|poivre noir|poivre-noir|
+dakgalbi|0|cuisse de poulet|cuisse-de-poulet|
+dakgalbi|1|gochujang|gochujang|
+dakgalbi|2|gochugaru|gochugaru|
+dakgalbi|3|sauce soja|sauce-soja|
+dakgalbi|4|sucre roux|sucre-roux|
+dakgalbi|5|ail|ail|
+dakgalbi|6|gingembre|gingembre|
+dakgalbi|7|chou blanc|chou-blanc|
+dakgalbi|8|patate douce|patate-douce|
+dakgalbi|9|tteok|tteok|
+dakgalbi|10|oignon nouveau|oignon-nouveau|
+dakgalbi|11|huile neutre|huile-neutre|
+doenjang-jjigae|0|doenjang|doenjang|
+doenjang-jjigae|1|anchois|anchois|
+doenjang-jjigae|2|tofu ferme|tofu-ferme|
+doenjang-jjigae|3|courgette|courgette|
+doenjang-jjigae|4|pomme de terre|pomme-de-terre|
+doenjang-jjigae|5|oignon|oignon|
+doenjang-jjigae|6|shiitake|shiitake|
+doenjang-jjigae|7|piment frais|piment-frais|
+doenjang-jjigae|8|ail|ail|
+doenjang-jjigae|9|oignon nouveau|oignon-nouveau|
+doenjang-jjigae|10|gochugaru|gochugaru|
+galbi|0|boeuf à mijoter|boeuf-a-mijoter|
+galbi|1|pomme|pomme|
+galbi|2|sauce soja|sauce-soja|
+galbi|3|sucre roux|sucre-roux|
+galbi|4|huile de sésame|huile-de-sesame|
+galbi|5|ail|ail|
+galbi|6|oignon|oignon|
+galbi|7|saké|sake|
+galbi|8|laitue|laitue|
+galbi|9|gochujang|gochujang|
+galbi|10|sésame|sesame|
+gimbap|0|riz rond|riz-rond|
+gimbap|1|nori|nori|
+gimbap|2|oeuf|oeuf|
+gimbap|3|carotte|carotte|
+gimbap|4|épinard|epinard|
+gimbap|5|concombre|concombre|
+gimbap|6|steak de bœuf|steak-de-boeuf|
+gimbap|7|huile de sésame|huile-de-sesame|
+gimbap|8|sésame|sesame|
+gimbap|9|sauce soja|sauce-soja|
+gimbap|10|sel|sel|
+haemul-pajeon|0|farine de blé|farine-de-ble|
+haemul-pajeon|1|farine de riz|farine-de-riz|
+haemul-pajeon|2|eau|eau|
+haemul-pajeon|3|oeuf|oeuf|
+haemul-pajeon|4|oignon nouveau|oignon-nouveau|
+haemul-pajeon|5|crevette|crevette|
+haemul-pajeon|6|calamar|calamar|
+haemul-pajeon|7|sauce soja|sauce-soja|
+haemul-pajeon|8|vinaigre de riz|vinaigre-de-riz|
+haemul-pajeon|9|gochugaru|gochugaru|
+haemul-pajeon|10|huile neutre|huile-neutre|
+haemul-pajeon|11|sel|sel|
+hotteok|0|farine de blé|farine-de-ble|
+hotteok|1|riz gluant|riz-gluant|
+hotteok|2|levure boulangère|levure-boulangere|
+hotteok|3|sucre|sucre|
+hotteok|4|lait|lait|
+hotteok|5|sucre roux|sucre-roux|
+hotteok|6|cannelle|cannelle|
+hotteok|7|noix|noix|
+hotteok|8|huile neutre|huile-neutre|
+hotteok|9|sel|sel|
+japchae|0|dangmyeon|dangmyeon|
+japchae|1|steak de bœuf|steak-de-boeuf|
+japchae|2|épinard|epinard|
+japchae|3|shiitake|shiitake|
+japchae|4|carotte|carotte|
+japchae|5|oignon|oignon|
+japchae|6|poivron rouge|poivron-rouge|
+japchae|7|sauce soja|sauce-soja|
+japchae|8|sucre|sucre|
+japchae|9|huile de sésame|huile-de-sesame|
+japchae|10|ail|ail|
+japchae|11|sésame|sesame|
+japchae|12|huile neutre|huile-neutre|
+japchae|13|sel|sel|
+jjajangmyeon|0|nouilles de blé|nouilles-de-ble|
+jjajangmyeon|1|chunjang|chunjang|
+jjajangmyeon|2|échine de porc|echine-de-porc|
+jjajangmyeon|3|oignon|oignon|
+jjajangmyeon|4|courgette|courgette|
+jjajangmyeon|5|chou blanc|chou-blanc|
+jjajangmyeon|6|sucre|sucre|
+jjajangmyeon|7|maïzena|maizena|
+jjajangmyeon|8|eau|eau|
+jjajangmyeon|9|concombre|concombre|
+jjajangmyeon|10|huile neutre|huile-neutre|
+kimchi-jjigae|0|kimchi|kimchi|
+kimchi-jjigae|1|poitrine de porc|poitrine-de-porc|
+kimchi-jjigae|2|tofu ferme|tofu-ferme|
+kimchi-jjigae|3|oignon|oignon|
+kimchi-jjigae|4|oignon nouveau|oignon-nouveau|
+kimchi-jjigae|5|gochugaru|gochugaru|
+kimchi-jjigae|6|gochujang|gochujang|
+kimchi-jjigae|7|doenjang|doenjang|
+kimchi-jjigae|8|eau|eau|
+kimchi-jjigae|9|huile de sésame|huile-de-sesame|
+kimchi-jjigae|10|ail|ail|
+kongnamul-muchim|0|germes de soja|germes-de-soja|
+kongnamul-muchim|1|huile de sésame|huile-de-sesame|
+kongnamul-muchim|2|ail|ail|
+kongnamul-muchim|3|oignon nouveau|oignon-nouveau|
+kongnamul-muchim|4|sésame|sesame|
+kongnamul-muchim|5|gochugaru|gochugaru|
+kongnamul-muchim|6|sel|sel|
+naengmyeon|0|farine de sarrasin|farine-de-sarrasin|
+naengmyeon|1|bouillon boeuf|bouillon-boeuf|re-annotee : le referentiel a gagne l entree precise
+naengmyeon|2|kimchi|kimchi|
+naengmyeon|3|vinaigre de riz|vinaigre-de-riz|
+naengmyeon|4|sucre|sucre|
+naengmyeon|5|concombre|concombre|
+naengmyeon|6|pomme|pomme|
+naengmyeon|7|boeuf à mijoter|boeuf-a-mijoter|
+naengmyeon|8|oeuf|oeuf|
+naengmyeon|9|moutarde|moutarde|
+naengmyeon|10|sel|sel|
+patbingsu|0|azuki|azuki|
+patbingsu|1|sucre|sucre|
+patbingsu|2|lait entier|lait-entier|
+patbingsu|3|lait concentré sucré|lait-concentre-sucre|
+patbingsu|4|tteok|tteok|
+patbingsu|5|farine de pois chiche|farine-de-pois-chiche|
+patbingsu|6|sel|sel|
+samgyeopsal|0|poitrine de porc|poitrine-de-porc|
+samgyeopsal|1|laitue|laitue|
+samgyeopsal|2|kimchi|kimchi|
+samgyeopsal|3|ail|ail|
+samgyeopsal|4|doenjang|doenjang|
+samgyeopsal|5|gochujang|gochujang|
+samgyeopsal|6|huile de sésame|huile-de-sesame|
+samgyeopsal|7|sucre|sucre|
+samgyeopsal|8|oignon nouveau|oignon-nouveau|
+samgyeopsal|9|huile de sésame|huile-de-sesame|
+samgyeopsal|10|sel|sel|
+samgyeopsal|11|poivre noir|poivre-noir|
+samgyetang|0|poulet entier|poulet-entier|
+samgyetang|1|riz gluant|riz-gluant|
+samgyetang|2|ginseng|ginseng|
+samgyetang|3|jujube|jujube|
+samgyetang|4|ail|ail|
+samgyetang|5|oignon nouveau|oignon-nouveau|
+samgyetang|6|eau|eau|
+samgyetang|7|sel|sel|
+samgyetang|8|poivre noir|poivre-noir|
+sikhye|0|malt d'orge|malt-d-orge|
+sikhye|1|riz rond|riz-rond|
+sikhye|2|eau|eau|
+sikhye|3|sucre|sucre|
+sikhye|4|gingembre|gingembre|
+sikhye|5|jujube|jujube|
+sikhye|6|pignon de pin|pignon-de-pin|
+sundubu-jjigae|0|tofu soyeux|tofu-soyeux|
+sundubu-jjigae|1|porc haché|porc-hache|
+sundubu-jjigae|2|crevette|crevette|
+sundubu-jjigae|3|gochugaru|gochugaru|
+sundubu-jjigae|4|huile neutre|huile-neutre|
+sundubu-jjigae|5|oignon|oignon|
+sundubu-jjigae|6|kimchi|kimchi|
+sundubu-jjigae|7|anchois|anchois|
+sundubu-jjigae|8|sauce poisson|sauce-poisson|
+sundubu-jjigae|9|ail|ail|
+sundubu-jjigae|10|oeuf|oeuf|
+sundubu-jjigae|11|oignon nouveau|oignon-nouveau|
+tteokbokki|0|tteok|tteok|
+tteokbokki|1|gochujang|gochujang|
+tteokbokki|2|gochugaru|gochugaru|
+tteokbokki|3|sucre|sucre|
+tteokbokki|4|sauce soja|sauce-soja|
+tteokbokki|5|anchois|anchois|
+tteokbokki|6|oignon nouveau|oignon-nouveau|
+tteokbokki|7|oeuf|oeuf|
+tteokbokki|8|nori|nori|
+tteokbokki|9|huile de sésame|huile-de-sesame|
+chawanmushi|0|oeuf|oeuf|
+chawanmushi|1|kombu|kombu|
+chawanmushi|2|sauce soja claire|sauce-soja-claire|
+chawanmushi|3|mirin|mirin|
+chawanmushi|4|crevette|crevette|
+chawanmushi|5|shiitake|shiitake|
+chawanmushi|6|blanc de poulet|blanc-de-poulet|
+chawanmushi|7|persil plat|persil-plat|
+chawanmushi|8|sel|sel|
+chirashi-zushi|0|riz rond|riz-rond|
+chirashi-zushi|1|vinaigre de riz|vinaigre-de-riz|
+chirashi-zushi|2|sucre|sucre|
+chirashi-zushi|3|sel|sel|
+chirashi-zushi|4|saumon|saumon|
+chirashi-zushi|5|thon|thon|
+chirashi-zushi|6|avocat|avocat|
+chirashi-zushi|7|concombre|concombre|
+chirashi-zushi|8|nori|nori|
+chirashi-zushi|9|sésame noir|sesame-noir|
+chirashi-zushi|10|wasabi|wasabi|
+chirashi-zushi|11|sauce soja|sauce-soja|
+dashi|0|kombu|kombu|
+dashi|1|katsuobushi|katsuobushi|
+dashi|2|eau|eau|
+dorayaki|0|azuki|azuki|
+dorayaki|1|sucre|sucre|
+dorayaki|2|oeuf|oeuf|
+dorayaki|3|sucre|sucre|
+dorayaki|4|miel|miel|
+dorayaki|5|farine de blé|farine-de-ble|
+dorayaki|6|levure chimique|levure-chimique|
+dorayaki|7|eau|eau|
+dorayaki|8|sel|sel|
+gyoza|0|pâte à wonton|pate-a-wonton|
+gyoza|1|porc haché|porc-hache|
+gyoza|2|chou chinois|chou-chinois|
+gyoza|3|ail|ail|
+gyoza|4|gingembre|gingembre|
+gyoza|5|oignon nouveau|oignon-nouveau|
+gyoza|6|sauce soja|sauce-soja|
+gyoza|7|huile de sésame|huile-de-sesame|
+gyoza|8|vinaigre de riz|vinaigre-de-riz|
+gyoza|9|huile pimentée|huile-pimentee|
+gyoza|10|maïzena|maizena|
+gyoza|11|huile neutre|huile-neutre|
+gyudon|0|steak de bœuf|steak-de-boeuf|
+gyudon|1|riz rond|riz-rond|
+gyudon|2|oignon|oignon|
+gyudon|3|kombu|kombu|
+gyudon|4|sauce soja|sauce-soja|
+gyudon|5|mirin|mirin|
+gyudon|6|saké|sake|
+gyudon|7|sucre|sucre|
+gyudon|8|gingembre|gingembre|
+gyudon|9|oignon nouveau|oignon-nouveau|
+karaage|0|cuisse de poulet|cuisse-de-poulet|
+karaage|1|sauce soja|sauce-soja|
+karaage|2|saké|sake|
+karaage|3|mirin|mirin|
+karaage|4|gingembre|gingembre|
+karaage|5|ail|ail|
+karaage|6|huile de sésame|huile-de-sesame|
+karaage|7|maïzena|maizena|
+karaage|8|citron|citron|
+karaage|9|huile neutre|huile-neutre|
+kare-raisu|0|boeuf à mijoter|boeuf-a-mijoter|
+kare-raisu|1|curry japonais|curry-japonais|
+kare-raisu|2|pomme de terre|pomme-de-terre|
+kare-raisu|3|carotte|carotte|
+kare-raisu|4|oignon|oignon|
+kare-raisu|5|pomme|pomme|
+kare-raisu|6|miel|miel|
+kare-raisu|7|eau|eau|
+kare-raisu|8|riz rond|riz-rond|
+kare-raisu|9|huile neutre|huile-neutre|
+matcha|0|matcha|matcha|
+matcha|1|eau|eau|
+miso-shiru|0|kombu|kombu|
+miso-shiru|1|miso|miso|
+miso-shiru|2|tofu ferme|tofu-ferme|
+miso-shiru|3|wakamé|wakame|
+miso-shiru|4|oignon nouveau|oignon-nouveau|
+nikujaga|0|steak de bœuf|steak-de-boeuf|
+nikujaga|1|pomme de terre|pomme-de-terre|
+nikujaga|2|oignon|oignon|
+nikujaga|3|carotte|carotte|
+nikujaga|4|kombu|kombu|
+nikujaga|5|sauce soja|sauce-soja|
+nikujaga|6|mirin|mirin|
+nikujaga|7|saké|sake|
+nikujaga|8|sucre|sucre|
+nikujaga|9|haricot vert|haricot-vert|
+nikujaga|10|huile neutre|huile-neutre|
+okonomiyaki|0|chou blanc|chou-blanc|
+okonomiyaki|1|farine de blé|farine-de-ble|
+okonomiyaki|2|kombu|kombu|
+okonomiyaki|3|oeuf|oeuf|
+okonomiyaki|4|poitrine de porc|poitrine-de-porc|
+okonomiyaki|5|oignon nouveau|oignon-nouveau|
+okonomiyaki|6|sauce tonkatsu|sauce-tonkatsu|
+okonomiyaki|7|mayonnaise|mayonnaise|
+okonomiyaki|8|katsuobushi|katsuobushi|
+okonomiyaki|9|nori|nori|
+okonomiyaki|10|huile neutre|huile-neutre|
+onigiri|0|riz rond|riz-rond|
+onigiri|1|saumon|saumon|
+onigiri|2|nori|nori|
+onigiri|3|sésame noir|sesame-noir|
+onigiri|4|sauce soja|sauce-soja|
+onigiri|5|gros sel|gros-sel|
+oyakodon|0|cuisse de poulet|cuisse-de-poulet|
+oyakodon|1|oeuf|oeuf|
+oyakodon|2|riz rond|riz-rond|
+oyakodon|3|oignon|oignon|
+oyakodon|4|kombu|kombu|
+oyakodon|5|sauce soja|sauce-soja|
+oyakodon|6|mirin|mirin|
+oyakodon|7|sucre|sucre|
+oyakodon|8|oignon nouveau|oignon-nouveau|
+oyakodon|9|nori|nori|
+ramen-shoyu|0|ramen|ramen|
+ramen-shoyu|1|os à moelle|os-a-moelle|
+ramen-shoyu|2|poulet entier|poulet-entier|
+ramen-shoyu|3|kombu|kombu|
+ramen-shoyu|4|shiitake|shiitake|
+ramen-shoyu|5|gingembre|gingembre|
+ramen-shoyu|6|poitrine de porc|poitrine-de-porc|
+ramen-shoyu|7|sauce soja|sauce-soja|
+ramen-shoyu|8|mirin|mirin|
+ramen-shoyu|9|saké|sake|
+ramen-shoyu|10|oeuf|oeuf|
+ramen-shoyu|11|oignon nouveau|oignon-nouveau|
+ramen-shoyu|12|nori|nori|
+ramen-shoyu|13|sel|sel|
+sukiyaki|0|steak de bœuf|steak-de-boeuf|
+sukiyaki|1|tofu ferme|tofu-ferme|
+sukiyaki|2|chou chinois|chou-chinois|
+sukiyaki|3|shiitake|shiitake|
+sukiyaki|4|vermicelle de soja|vermicelle-de-soja|
+sukiyaki|5|oignon nouveau|oignon-nouveau|
+sukiyaki|6|sauce soja|sauce-soja|
+sukiyaki|7|mirin|mirin|
+sukiyaki|8|saké|sake|
+sukiyaki|9|sucre|sucre|
+sukiyaki|10|oeuf|oeuf|
+sukiyaki|11|saindoux|saindoux|
+tamagoyaki|0|oeuf|oeuf|
+tamagoyaki|1|kombu|kombu|
+tamagoyaki|2|mirin|mirin|
+tamagoyaki|3|sucre|sucre|
+tamagoyaki|4|sauce soja claire|sauce-soja-claire|
+tamagoyaki|5|huile neutre|huile-neutre|
+tamagoyaki|6|sel|sel|
+tempura|0|crevette|crevette|
+tempura|1|patate douce|patate-douce|
+tempura|2|aubergine|aubergine|
+tempura|3|shiitake|shiitake|
+tempura|4|farine T45|farine-t45|
+tempura|5|oeuf|oeuf|
+tempura|6|eau|eau|
+tempura|7|kombu|kombu|
+tempura|8|sauce soja|sauce-soja|
+tempura|9|mirin|mirin|
+tempura|10|daikon|daikon|
+tempura|11|huile neutre|huile-neutre|
+tonkatsu|0|échine de porc|echine-de-porc|
+tonkatsu|1|panko|panko|
+tonkatsu|2|farine de blé|farine-de-ble|
+tonkatsu|3|oeuf|oeuf|
+tonkatsu|4|chou blanc|chou-blanc|
+tonkatsu|5|sauce tonkatsu|sauce-tonkatsu|
+tonkatsu|6|huile neutre|huile-neutre|
+tonkatsu|7|sel|sel|
+tonkatsu|8|poivre noir|poivre-noir|
+udon-kake|0|udon|udon|
+udon-kake|1|kombu|kombu|
+udon-kake|2|sauce soja claire|sauce-soja-claire|
+udon-kake|3|mirin|mirin|
+udon-kake|4|sucre|sucre|
+udon-kake|5|oignon nouveau|oignon-nouveau|
+udon-kake|6|cabillaud|cabillaud|
+udon-kake|7|piment en poudre|piment-en-poudre|
+udon-kake|8|sel|sel|
+yakitori|0|cuisse de poulet|cuisse-de-poulet|
+yakitori|1|oignon nouveau|oignon-nouveau|
+yakitori|2|sauce soja|sauce-soja|
+yakitori|3|mirin|mirin|
+yakitori|4|saké|sake|
+yakitori|5|sucre|sucre|
+yakitori|6|gingembre|gingembre|
+yakitori|7|ail|ail|
+yakitori|8|piment en poudre|piment-en-poudre|

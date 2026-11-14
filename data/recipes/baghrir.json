@@ -1,0 +1,41 @@
+{
+  "slug": "baghrir",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Baghrir",
+  "title": {
+    "fr": "Baghrir, crêpes mille trous",
+    "en": "Baghrir, thousand-hole pancakes"
+  },
+  "meal_type": "bread",
+  "servings": 6,
+  "times": { "prep_min": 15, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j2-sonde-v1", "date": "2026-08-28" },
+  "tags": ["crepe", "petit-dejeuner", "the", "semoule"],
+  "ingredients": [
+    { "raw": "250 g de semoule de blé fine", "qty": 250, "unit": "g", "item": "semoule de blé fine" },
+    { "raw": "80 g de farine de blé", "qty": 80, "unit": "g", "item": "farine de blé" },
+    { "raw": "1 c. à s. de levure boulangère sèche", "qty": 1, "unit": "tbsp", "item": "levure boulangère sèche" },
+    { "raw": "1 c. à c. de levure chimique", "qty": 1, "unit": "tsp", "item": "levure chimique" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "1 c. à c. de sucre", "qty": 1, "unit": "tsp", "item": "sucre" },
+    { "raw": "75 cl d'eau tiède", "qty": 75, "unit": "cl", "item": "eau" },
+    { "raw": "80 g de beurre", "qty": 80, "unit": "g", "item": "beurre", "group": "service" },
+    { "raw": "4 c. à s. de miel", "qty": 4, "unit": "tbsp", "item": "miel", "group": "service" }
+  ],
+  "steps": [
+    { "fr": "Mixer la semoule fine, la farine, les deux levures, le sel, le sucre et l'eau tiède deux minutes au blender, jusqu'à obtenir une pâte parfaitement lisse et très liquide.", "en": "Blend the fine semolina, flour, both raising agents, salt, sugar and warm water for two minutes, until the batter is perfectly smooth and very thin." },
+    { "fr": "Laisser reposer 30 minutes à couvert, jusqu'à ce que la surface se couvre de bulles.", "en": "Rest covered for 30 minutes, until the surface is covered in bubbles." },
+    { "fr": "Chauffer une poêle à fond épais sans matière grasse, à feu moyen : une poêle huilée bouche les trous.", "en": "Heat a heavy pan with no fat over medium heat: an oiled pan closes the holes." },
+    { "fr": "Verser une louche de pâte sans l'étaler, et ne cuire que d'un seul côté.", "en": "Pour a ladle of batter without spreading it, and cook on one side only." },
+    { "fr": "Attendre que toute la surface soit percée de trous et sèche au toucher, puis retirer sans retourner.", "en": "Wait until the whole surface is pierced with holes and dry to the touch, then lift out without turning." },
+    { "fr": "Empiler les baghrir à plat sur un torchon, sans les superposer tant qu'ils sont brûlants, sinon ils collent.", "en": "Stack the baghrir flat on a cloth, not on top of each other while scalding, or they stick." },
+    { "fr": "Servir arrosés de beurre fondu mélangé au miel tiède.", "en": "Serve doused in melted butter mixed with warm honey." }
+  ],
+  "notes": [
+    { "fr": "Pas de trous : la pâte est trop épaisse ou la poêle trop froide. Ce sont les deux seules causes.", "en": "No holes means the batter is too thick or the pan too cool. Those are the only two causes." }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "harissa-maison",
+  "cuisine": "maghrebi",
+  "country": "tunisie",
+  "origin": "Tunisie",
+  "native_name": "Harissa",
+  "title": {
+    "fr": "Harissa maison aux piments séchés",
+    "en": "Homemade harissa from dried chillies"
+  },
+  "meal_type": "side",
+  "servings": 12,
+  "times": { "prep_min": 40, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["condiment", "piment", "conserve", "base"],
+  "ingredients": [
+    { "raw": "200 g de piments séchés doux", "qty": 200, "unit": "g", "item": "piment séché" },
+    { "raw": "10 gousses d'ail", "qty": 10, "unit": "piece", "item": "ail" },
+    { "raw": "2 c. à s. de coriandre en graines", "qty": 2, "unit": "tbsp", "item": "coriandre graines" },
+    { "raw": "1 c. à s. de carvi", "qty": 1, "unit": "tbsp", "item": "carvi" },
+    { "raw": "1 c. à s. de cumin", "qty": 1, "unit": "tbsp", "item": "cumin" },
+    { "raw": "15 cl d'huile d'olive", "qty": 15, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "1 c. à s. de gros sel", "qty": 1, "unit": "tbsp", "item": "gros sel" }
+  ],
+  "steps": [
+    { "fr": "Équeuter et épépiner les piments : les graines apportent une amertume qui ne part plus.", "en": "Stem and seed the chillies: the seeds bring a bitterness that never leaves." },
+    { "fr": "Les tremper trente minutes dans l'eau chaude, puis les essorer fortement à la main.", "en": "Soak them for thirty minutes in hot water, then squeeze them hard by hand." },
+    { "fr": "Griller coriandre, carvi et cumin à sec une minute, jusqu'à ce qu'ils embaument, et les moudre.", "en": "Toast the coriander, caraway and cumin dry for a minute, until fragrant, and grind them." },
+    { "fr": "Broyer les piments avec l'ail, le sel et les épices moulues, jusqu'à obtenir une pâte lisse.", "en": "Grind the chillies with the garlic, salt and ground spices, to a smooth paste." },
+    { "fr": "Mettre en bocal en tassant, sans bulle d'air, et couvrir d'un centimètre d'huile d'olive.", "en": "Pack into a jar without air pockets, and cover with a centimetre of olive oil." },
+    { "fr": "Se garde deux mois au frais, à condition de recouvrir d'huile après chaque prélèvement.", "en": "Keeps two months in the fridge, provided you re-cover with oil after each spoonful." }
+  ]
+}

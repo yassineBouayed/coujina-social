@@ -1,0 +1,212 @@
+# Vérité du catalogue, cuisine « french ».
+#
+# Pour chaque ligne d'ingrédient, celui du référentiel qu'un relecteur
+# choisit, ou `-` quand le référentiel n'a rien à offrir.
+#
+# PASSE MODÈLE, pas humaine, et la circularité est ici maximale : les
+# recettes ont été écrites AVEC le référentiel sous les yeux, et les
+# ingrédients qui manquaient y ont été ajoutés dans la foulée. Le taux de
+# rattachement du champ `item` ne mesure donc presque rien sur ces cuisines.
+# Ce qui mesure quelque chose, c'est le témoin `raw`, que `catalog:gate`
+# donne en regard.
+#
+# Une ligne annotée ici n'a pas été relue par quelqu'un qui cuisine ces
+# plats. Le critère de sortie de J5 reste entier.
+recipe|line|item|expected_slug|note
+baguette-maison|0|farine T55|farine-t55|
+baguette-maison|1|eau|eau|
+baguette-maison|2|sel|sel|
+baguette-maison|3|levure boulangère|levure-boulangere|
+blanquette-de-veau|0|veau à mijoter|veau-a-mijoter|
+blanquette-de-veau|1|carotte|carotte|
+blanquette-de-veau|2|poireau|poireau|
+blanquette-de-veau|3|oignon|oignon|
+blanquette-de-veau|4|bouquet garni|bouquet-garni|
+blanquette-de-veau|5|champignon de Paris|champignon-de-paris|
+blanquette-de-veau|6|oignon nouveau|oignon-nouveau|
+blanquette-de-veau|7|beurre|beurre|
+blanquette-de-veau|8|farine de blé|farine-de-ble|
+blanquette-de-veau|9|crème fraîche|creme-fraiche|
+blanquette-de-veau|10|oeuf|oeuf|
+blanquette-de-veau|11|citron|citron|
+blanquette-de-veau|12|sel|sel|
+blanquette-de-veau|13|poivre blanc|poivre-blanc|
+boeuf-bourguignon|0|boeuf à mijoter|boeuf-a-mijoter|
+boeuf-bourguignon|1|vin rouge|vin-rouge|
+boeuf-bourguignon|2|lardon|lardon|
+boeuf-bourguignon|3|champignon de Paris|champignon-de-paris|
+boeuf-bourguignon|4|oignon nouveau|oignon-nouveau|
+boeuf-bourguignon|5|carotte|carotte|
+boeuf-bourguignon|6|oignon|oignon|
+boeuf-bourguignon|7|ail|ail|
+boeuf-bourguignon|8|farine de blé|farine-de-ble|
+boeuf-bourguignon|9|bouquet garni|bouquet-garni|
+boeuf-bourguignon|10|concentré de tomate|concentre-de-tomate|
+boeuf-bourguignon|11|beurre|beurre|
+boeuf-bourguignon|12|sel|sel|
+boeuf-bourguignon|13|poivre noir|poivre-noir|
+cassoulet|0|haricot blanc|haricot-blanc|
+cassoulet|1|confit de canard|confit-de-canard|
+cassoulet|2|échine de porc|echine-de-porc|
+cassoulet|3|saucisse de Toulouse|saucisse-de-toulouse|
+cassoulet|4|poitrine de porc|poitrine-de-porc|
+cassoulet|5|oignon|oignon|
+cassoulet|6|ail|ail|
+cassoulet|7|carotte|carotte|
+cassoulet|8|bouquet garni|bouquet-garni|
+cassoulet|9|concentré de tomate|concentre-de-tomate|
+cassoulet|10|sel|sel|
+cassoulet|11|poivre noir|poivre-noir|
+chocolat-chaud|0|chocolat noir|chocolat-noir|
+chocolat-chaud|1|lait entier|lait-entier|
+chocolat-chaud|2|crème liquide|creme-liquide|
+chocolat-chaud|3|cacao en poudre|cacao-en-poudre|
+chocolat-chaud|4|sucre|sucre|
+chocolat-chaud|5|sel|sel|
+chocolat-chaud|6|gousse de vanille|gousse-de-vanille|
+clafoutis|0|griotte|griotte|
+clafoutis|1|oeuf|oeuf|
+clafoutis|2|sucre|sucre|
+clafoutis|3|farine de blé|farine-de-ble|
+clafoutis|4|lait entier|lait-entier|
+clafoutis|5|beurre|beurre|
+clafoutis|6|extrait de vanille|extrait-de-vanille|
+clafoutis|7|sel|sel|
+clafoutis|8|sucre glace|sucre-glace|
+coq-au-vin|0|poulet entier|poulet-entier|
+coq-au-vin|1|vin rouge|vin-rouge|
+coq-au-vin|2|lardon|lardon|
+coq-au-vin|3|champignon de Paris|champignon-de-paris|
+coq-au-vin|4|oignon nouveau|oignon-nouveau|
+coq-au-vin|5|ail|ail|
+coq-au-vin|6|farine de blé|farine-de-ble|
+coq-au-vin|7|bouquet garni|bouquet-garni|
+coq-au-vin|8|vin rouge|vin-rouge|
+coq-au-vin|9|beurre|beurre|
+coq-au-vin|10|sel|sel|
+coq-au-vin|11|poivre noir|poivre-noir|
+creme-brulee|0|crème liquide|creme-liquide|
+creme-brulee|1|oeuf|oeuf|
+creme-brulee|2|sucre|sucre|
+creme-brulee|3|gousse de vanille|gousse-de-vanille|
+creme-brulee|4|sucre roux|sucre-roux|
+creme-brulee|5|sel|sel|
+crepes|0|farine de blé|farine-de-ble|
+crepes|1|oeuf|oeuf|
+crepes|2|lait entier|lait-entier|
+crepes|3|beurre|beurre|
+crepes|4|sucre|sucre|
+crepes|5|sel|sel|
+crepes|6|eau de fleur d'oranger|eau-de-fleur-d-oranger|
+gratin-dauphinois|0|pomme de terre|pomme-de-terre|
+gratin-dauphinois|1|crème liquide|creme-liquide|
+gratin-dauphinois|2|lait entier|lait-entier|
+gratin-dauphinois|3|ail|ail|
+gratin-dauphinois|4|beurre|beurre|
+gratin-dauphinois|5|muscade|muscade|
+gratin-dauphinois|6|sel|sel|
+gratin-dauphinois|7|poivre noir|poivre-noir|
+hachis-parmentier|0|pomme de terre|pomme-de-terre|
+hachis-parmentier|1|boeuf haché|boeuf-hache|
+hachis-parmentier|2|oignon|oignon|
+hachis-parmentier|3|ail|ail|
+hachis-parmentier|4|concentré de tomate|concentre-de-tomate|
+hachis-parmentier|5|lait entier|lait-entier|
+hachis-parmentier|6|beurre|beurre|
+hachis-parmentier|7|gruyère|emmental|
+hachis-parmentier|8|persil plat|persil-plat|
+hachis-parmentier|9|muscade|muscade|
+hachis-parmentier|10|sel|sel|
+hachis-parmentier|11|poivre noir|poivre-noir|
+moules-marinieres|0|moule|moule|
+moules-marinieres|1|échalote|echalote|
+moules-marinieres|2|ail|ail|
+moules-marinieres|3|vin blanc|vin-blanc|
+moules-marinieres|4|beurre|beurre|
+moules-marinieres|5|persil plat|persil-plat|
+moules-marinieres|6|laurier|laurier|
+moules-marinieres|7|crème liquide|creme-liquide|
+moules-marinieres|8|poivre noir|poivre-noir|
+mousse-au-chocolat|0|chocolat noir|chocolat-noir|
+mousse-au-chocolat|1|oeuf|oeuf|
+mousse-au-chocolat|2|sucre|sucre|
+mousse-au-chocolat|3|beurre|beurre|
+mousse-au-chocolat|4|sel|sel|
+pot-au-feu|0|boeuf à mijoter|boeuf-a-mijoter|
+pot-au-feu|1|boeuf à mijoter|boeuf-a-mijoter|
+pot-au-feu|2|os à moelle|os-a-moelle|
+pot-au-feu|3|carotte|carotte|
+pot-au-feu|4|navet|navet|
+pot-au-feu|5|poireau|poireau|
+pot-au-feu|6|céleri branche|celeri-branche|
+pot-au-feu|7|oignon|oignon|
+pot-au-feu|8|bouquet garni|bouquet-garni|
+pot-au-feu|9|pomme de terre|pomme-de-terre|
+pot-au-feu|10|gros sel|gros-sel|
+pot-au-feu|11|moutarde|moutarde|
+pot-au-feu|12|cornichon|cornichon|
+poulet-basquaise|0|poulet entier|poulet-entier|
+poulet-basquaise|1|poivron rouge|poivron-rouge|
+poulet-basquaise|2|poivron vert|poivron-vert|
+poulet-basquaise|3|tomate|tomate|
+poulet-basquaise|4|oignon|oignon|
+poulet-basquaise|5|jambon blanc|jambon-blanc|
+poulet-basquaise|6|ail|ail|
+poulet-basquaise|7|piment d'Espelette|piment-d-espelette|
+poulet-basquaise|8|vin blanc|vin-blanc|
+poulet-basquaise|9|bouquet garni|bouquet-garni|
+poulet-basquaise|10|huile d'olive|huile-d-olive|
+poulet-basquaise|11|sel|sel|
+poulet-basquaise|12|poivre noir|poivre-noir|
+quiche-lorraine|0|farine de blé|farine-de-ble|
+quiche-lorraine|1|beurre|beurre|
+quiche-lorraine|2|eau|eau|
+quiche-lorraine|3|lardon|lardon|
+quiche-lorraine|4|oeuf|oeuf|
+quiche-lorraine|5|crème fraîche|creme-fraiche|
+quiche-lorraine|6|lait entier|lait-entier|
+quiche-lorraine|7|muscade|muscade|
+quiche-lorraine|8|sel|sel|
+quiche-lorraine|9|poivre noir|poivre-noir|
+ratatouille|0|aubergine|aubergine|
+ratatouille|1|courgette|courgette|
+ratatouille|2|poivron rouge|poivron-rouge|
+ratatouille|3|poivron vert|poivron-vert|
+ratatouille|4|tomate|tomate|
+ratatouille|5|oignon|oignon|
+ratatouille|6|ail|ail|
+ratatouille|7|basilic|basilic|
+ratatouille|8|herbes de Provence|herbes-de-provence|
+ratatouille|9|huile d'olive|huile-d-olive|
+ratatouille|10|sel|sel|
+ratatouille|11|poivre noir|poivre-noir|
+salade-nicoise|0|tomate|tomate|
+salade-nicoise|1|poivron vert|poivron-vert|
+salade-nicoise|2|concombre|concombre|
+salade-nicoise|3|oignon nouveau|oignon-nouveau|
+salade-nicoise|4|thon en conserve|thon-en-conserve|
+salade-nicoise|5|anchois|anchois|
+salade-nicoise|6|oeuf|oeuf|
+salade-nicoise|7|olive noire|olive-noire|
+salade-nicoise|8|basilic|basilic|
+salade-nicoise|9|huile d'olive|huile-d-olive|
+salade-nicoise|10|ail|ail|
+salade-nicoise|11|sel|sel|
+salade-nicoise|12|poivre noir|poivre-noir|
+soupe-a-l-oignon|0|oignon|oignon|
+soupe-a-l-oignon|1|beurre|beurre|
+soupe-a-l-oignon|2|farine de blé|farine-de-ble|
+soupe-a-l-oignon|3|bouillon boeuf|bouillon-boeuf|
+soupe-a-l-oignon|4|vin blanc|vin-blanc|
+soupe-a-l-oignon|5|baguette|baguette|
+soupe-a-l-oignon|6|gruyère|emmental|
+soupe-a-l-oignon|7|bouquet garni|bouquet-garni|
+soupe-a-l-oignon|8|sucre|sucre|
+soupe-a-l-oignon|9|sel|sel|
+soupe-a-l-oignon|10|poivre noir|poivre-noir|
+tarte-tatin|0|pomme|pomme|
+tarte-tatin|1|sucre|sucre|
+tarte-tatin|2|beurre demi-sel|beurre-demi-sel|
+tarte-tatin|3|pâte feuilletée|pate-feuilletee|
+tarte-tatin|4|citron|citron|
+tarte-tatin|5|cannelle|cannelle|

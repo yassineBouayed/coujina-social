@@ -1,0 +1,33 @@
+{
+  "slug": "feteer-meshaltet",
+  "cuisine": "levantine",
+  "country": "egypte",
+  "origin": "Égypte",
+  "native_name": "Feteer meshaltet",
+  "title": {
+    "fr": "Feteer meshaltet, feuilleté égyptien au ghee",
+    "en": "Feteer meshaltet, layered Egyptian pastry"
+  },
+  "meal_type": "bread",
+  "servings": 8,
+  "times": { "prep_min": 60, "cook_min": 30 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["feuillete", "ghee", "fete", "campagne"],
+  "ingredients": [
+    { "raw": "600 g de farine de blé", "qty": 600, "unit": "g", "item": "farine de blé" },
+    { "raw": "1,5 c. à c. de sel", "qty": 1.5, "unit": "tsp", "item": "sel" },
+    { "raw": "35 cl d'eau tiède", "qty": 35, "unit": "cl", "item": "eau" },
+    { "raw": "300 g de ghee, fondu", "qty": 300, "unit": "g", "item": "ghee", "prep": "fondu" },
+    { "raw": "2 c. à s. d'huile neutre", "qty": 2, "unit": "tbsp", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Pétrir farine, sel et eau quinze minutes en une pâte très souple, puis la diviser en boules huilées.", "en": "Knead the flour, salt and water for fifteen minutes into a very soft dough, then divide it into oiled balls." },
+    { "fr": "Laisser reposer une heure : sans ce repos, la pâte se déchirera à l'étirage.", "en": "Rest for an hour: without that rest, the dough tears when stretched." },
+    { "fr": "Étirer chaque boule à la main sur un plan huilé, jusqu'à la TRANSPARENCE, en la faisant tourner.", "en": "Stretch each ball by hand on an oiled surface, until TRANSLUCENT, turning it as you go." },
+    { "fr": "Badigeonner de ghee fondu, replier en trois, badigeonner encore, et replier en carré.", "en": "Brush with melted ghee, fold in three, brush again, and fold into a square." },
+    { "fr": "Empiler les carrés dans un moule beurré, en badigeonnant entre chaque couche.", "en": "Stack the squares in a buttered tin, brushing between each layer." },
+    { "fr": "Cuire 30 minutes à 220 °C : le feteer doit être doré, feuilleté et gras. Il se mange salé ou sucré.", "en": "Bake for 30 minutes at 220°C: feteer should be golden, flaky and rich. It is eaten savoury or sweet." }
+  ]
+}

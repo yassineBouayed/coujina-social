@@ -1,0 +1,43 @@
+{
+  "slug": "sukiyaki",
+  "cuisine": "east-asian",
+  "country": "japon",
+  "origin": "Japon",
+  "native_name": "すき焼き",
+  "title": {
+    "fr": "Sukiyaki, bœuf mijoté à table",
+    "en": "Sukiyaki, beef simmered at the table"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 35, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "table", "boeuf", "hiver"],
+  "ingredients": [
+    { "raw": "800 g de bœuf en tranches très fines", "qty": 800, "unit": "g", "item": "steak de bœuf", "prep": "en tranches très fines" },
+    { "raw": "300 g de tofu ferme, en cubes", "qty": 300, "unit": "g", "item": "tofu ferme", "prep": "en cubes" },
+    { "raw": "1/2 chou chinois, en lanières", "qty": 0.5, "unit": "piece", "item": "chou chinois", "prep": "en lanières" },
+    { "raw": "200 g de shiitakes frais", "qty": 200, "unit": "g", "item": "shiitake" },
+    { "raw": "200 g de vermicelles de soja", "qty": 200, "unit": "g", "item": "vermicelle de soja" },
+    { "raw": "8 oignons nouveaux, en tronçons", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "en tronçons" },
+    { "raw": "20 cl de sauce soja", "qty": 20, "unit": "cl", "item": "sauce soja", "group": "warishita" },
+    { "raw": "20 cl de mirin", "qty": 20, "unit": "cl", "item": "mirin", "group": "warishita" },
+    { "raw": "10 cl de saké", "qty": 10, "unit": "cl", "item": "saké", "group": "warishita" },
+    { "raw": "5 c. à s. de sucre", "qty": 5, "unit": "tbsp", "item": "sucre", "group": "warishita" },
+    { "raw": "5 œufs crus", "qty": 5, "unit": "piece", "item": "oeuf", "group": "service" },
+    { "raw": "2 c. à s. de saindoux", "qty": 2, "unit": "tbsp", "item": "saindoux" }
+  ],
+  "steps": [
+    { "fr": "Le sukiyaki se cuit À TABLE, devant les convives : c'est un plat de partage, pas un plat de cuisine.", "en": "Sukiyaki is cooked AT THE TABLE, in front of the guests: it is a dish of sharing, not of the kitchen." },
+    { "fr": "Graisser la poêle au saindoux et y saisir les PREMIÈRES tranches de bœuf seules.", "en": "Grease the pan with lard and sear the FIRST slices of beef on their own." },
+    { "fr": "Les saupoudrer de sucre et arroser de sauce soja directement : c'est la manière du Kansai.", "en": "Sprinkle them with sugar and pour soy directly over: this is the Kansai way." },
+    { "fr": "Ajouter ensuite les légumes, le tofu et les vermicelles, en les rangeant par groupes.", "en": "Then add the vegetables, tofu and noodles, arranging them in groups." },
+    { "fr": "Verser le warishita et laisser mijoter doucement : on pioche au fur et à mesure, on ne sert pas d'assiettes.", "en": "Pour in the warishita and let it simmer gently: people pick from the pot, no plates are served." },
+    { "fr": "Chacun bat un œuf CRU dans son bol et y trempe la viande brûlante : l'œuf tiédit et enrobe.", "en": "Each person beats a RAW egg in their bowl and dips the scalding meat in it: the egg warms and coats." }
+  ],
+  "notes": [
+    { "fr": "L'œuf cru se sert avec des œufs extra-frais. À éviter pour les personnes enceintes, âgées ou immunodéprimées.", "en": "The raw egg calls for very fresh eggs. Not for pregnant, elderly or immunocompromised eaters." }
+  ]
+}

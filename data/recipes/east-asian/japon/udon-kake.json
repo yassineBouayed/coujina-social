@@ -1,0 +1,37 @@
+{
+  "slug": "udon-kake",
+  "cuisine": "east-asian",
+  "country": "japon",
+  "origin": "Japon",
+  "native_name": "かけうどん",
+  "title": {
+    "fr": "Udon en bouillon clair",
+    "en": "Udon in clear broth"
+  },
+  "meal_type": "soup",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hiver", "nouilles", "dashi", "rapide"],
+  "ingredients": [
+    { "raw": "600 g de nouilles udon", "qty": 600, "unit": "g", "item": "udon" },
+    { "raw": "1,2 l de dashi", "qty": 1.2, "unit": "l", "item": "kombu", "prep": "en bouillon dashi" },
+    { "raw": "6 c. à s. de sauce soja claire", "qty": 6, "unit": "tbsp", "item": "sauce soja claire" },
+    { "raw": "4 c. à s. de mirin", "qty": 4, "unit": "tbsp", "item": "mirin" },
+    { "raw": "1 c. à c. de sucre", "qty": 1, "unit": "tsp", "item": "sucre" },
+    { "raw": "6 oignons nouveaux, ciselés", "qty": 6, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé", "group": "garniture" },
+    { "raw": "4 tranches de kamaboko", "qty": 4, "unit": "piece", "item": "cabillaud", "prep": "en pâte de poisson", "optional": true, "group": "garniture" },
+    { "raw": "1 c. à s. de shichimi", "qty": 1, "unit": "tbsp", "item": "piment en poudre", "optional": true, "group": "garniture" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le bouillon d'udon se fait à la sauce soja CLAIRE : la foncée le noircirait, et le kake doit rester translucide.", "en": "Udon broth uses LIGHT soy sauce: the dark kind would blacken it, and kake broth must stay translucent." },
+    { "fr": "Porter le dashi à frémissement avec la sauce soja, le mirin et le sucre, sans faire bouillir.", "en": "Bring the dashi to a simmer with the soy, mirin and sugar, without boiling." },
+    { "fr": "Cuire les udon dans une grande casserole d'eau NON salée, à part du bouillon.", "en": "Cook the udon in a large pan of UNSALTED water, separately from the broth." },
+    { "fr": "Les rincer à l'eau froide pour enlever l'amidon, puis les réchauffer dix secondes à l'eau bouillante.", "en": "Rinse them in cold water to remove the starch, then reheat them for ten seconds in boiling water." },
+    { "fr": "Ce rinçage est ce qui garde le bouillon clair : cuites dedans, les udon le troublent en deux minutes.", "en": "That rinse is what keeps the broth clear: cooked in it, udon cloud it within two minutes." },
+    { "fr": "Répartir dans les bols, verser le bouillon brûlant, et garnir d'oignons nouveaux.", "en": "Divide into bowls, pour over the scalding broth, and top with spring onions." }
+  ]
+}

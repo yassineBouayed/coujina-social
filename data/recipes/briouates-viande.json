@@ -1,0 +1,48 @@
+{
+  "slug": "briouates-viande",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Briouates bel kefta",
+  "title": {
+    "fr": "Briouates à la viande hachée",
+    "en": "Minced meat briouats"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 45, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j2-sonde-v1", "date": "2026-08-28" },
+  "tags": ["brick", "entree", "ramadan", "friture"],
+  "ingredients": [
+    { "raw": "12 feuilles de brick", "qty": 12, "unit": "piece", "item": "feuille de brick" },
+    { "raw": "500 g de viande de bœuf hachée", "qty": 500, "unit": "g", "item": "viande hachée de bœuf", "group": "farce" },
+    { "raw": "2 oignons, hachés finement", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché finement", "group": "farce" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin moulu", "group": "farce" },
+    { "raw": "1 c. à c. de paprika", "qty": 1, "unit": "tsp", "item": "paprika", "group": "farce" },
+    { "raw": "1/2 c. à c. de cannelle moulue", "qty": 0.5, "unit": "tsp", "item": "cannelle moulue", "group": "farce" },
+    { "raw": "1/2 c. à c. de gingembre moulu", "qty": 0.5, "unit": "tsp", "item": "gingembre moulu", "group": "farce" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé", "group": "farce" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselé", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée", "group": "farce" },
+    { "raw": "3 c. à s. d'huile d'olive", "qty": 3, "unit": "tbsp", "item": "huile d'olive", "group": "farce" },
+    { "raw": "2 œufs, battus", "qty": 2, "unit": "piece", "item": "oeuf", "prep": "battu", "group": "farce" },
+    { "raw": "1 c. à s. de farine délayée dans un peu d'eau, pour coller", "qty": 1, "unit": "tbsp", "item": "farine de blé", "prep": "délayée dans un peu d'eau", "group": "montage" },
+    { "raw": "1 l d'huile de tournesol pour la friture", "qty": 1, "unit": "l", "item": "huile de tournesol", "group": "friture" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Faire revenir les oignons dans l'huile, ajouter la viande hachée et l'écraser à la cuillère pour qu'elle ne fasse pas de blocs.", "en": "Soften the onions in the oil, add the minced meat and break it up with a spoon so it does not clump." },
+    { "fr": "Ajouter les épices, saler, poivrer et cuire jusqu'à ce que toute l'eau soit évaporée.", "en": "Add the spices, season, and cook until every drop of water has evaporated." },
+    { "fr": "Hors du feu, incorporer les herbes puis les œufs battus, qui vont lier la farce en refroidissant.", "en": "Off the heat, stir in the herbs then the beaten eggs, which will bind the filling as it cools." },
+    { "fr": "Laisser refroidir complètement : une farce tiède ramollit la feuille de brick et la déchire au pliage.", "en": "Cool completely: a warm filling softens the pastry and tears it at the folding stage." },
+    { "fr": "Couper chaque feuille en bandes, déposer une cuillère de farce en haut et plier en triangles successifs.", "en": "Cut each sheet into strips, place a spoon of filling at one end and fold into successive triangles." },
+    { "fr": "Sceller le dernier rabat avec la farine délayée.", "en": "Seal the final flap with the flour paste." },
+    { "fr": "Frire dans l'huile à 170 °C, deux minutes par face, jusqu'à une couleur ambrée.", "en": "Fry at 170 °C for two minutes a side, until amber." },
+    { "fr": "Égoutter debout dans une passoire plutôt qu'à plat sur du papier, pour garder le croustillant.", "en": "Drain them standing in a colander rather than flat on paper, to keep them crisp." }
+  ],
+  "notes": [
+    { "fr": "Les briouates se congèlent crues et se frient sans décongélation : c'est le geste qui sauve les soirées de Ramadan.", "en": "Briouats freeze raw and fry straight from frozen: the move that saves Ramadan evenings." }
+  ]
+}

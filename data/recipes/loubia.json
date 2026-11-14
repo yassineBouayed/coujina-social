@@ -1,0 +1,44 @@
+{
+  "slug": "loubia",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Loubia",
+  "title": {
+    "fr": "Loubia, haricots blancs à la tomate et au cumin",
+    "en": "Loubia, white beans in cumin tomato sauce"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 90 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j2-sonde-v1", "date": "2026-08-28" },
+  "tags": ["legumineuses", "vegetarien", "hiver", "economique"],
+  "ingredients": [
+    { "raw": "400 g de haricots blancs secs, trempés la veille", "qty": 400, "unit": "g", "item": "haricot blanc sec", "prep": "trempé la veille" },
+    { "raw": "1 oignon, haché", "qty": 1, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "4 gousses d'ail, écrasées", "qty": 4, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "3 tomates, pelées et concassées", "qty": 3, "unit": "piece", "item": "tomate", "prep": "pelée et concassée" },
+    { "raw": "1 c. à s. de concentré de tomate", "qty": 1, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin moulu" },
+    { "raw": "1 c. à c. de paprika", "qty": 1, "unit": "tsp", "item": "paprika" },
+    { "raw": "1/2 c. à c. de gingembre moulu", "qty": 0.5, "unit": "tsp", "item": "gingembre moulu" },
+    { "raw": "5 c. à s. d'huile d'olive", "qty": 5, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "1 bouquet de coriandre fraîche, ciselé", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "1 c. à c. de harissa", "qty": 1, "unit": "tsp", "item": "harissa", "optional": true },
+    { "raw": "1 l d'eau", "qty": 1, "unit": "l", "item": "eau" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Égoutter les haricots trempés, les couvrir d'eau froide et les porter à ébullition dix minutes, puis jeter cette première eau.", "en": "Drain the soaked beans, cover with cold water, boil hard for ten minutes and throw that first water away." },
+    { "fr": "Faire revenir l'oignon et l'ail dans l'huile, ajouter les épices puis les tomates et le concentré.", "en": "Soften the onion and garlic in the oil, add the spices, then the tomatoes and the tomato paste." },
+    { "fr": "Ajouter les haricots et l'eau, couvrir et laisser mijoter une heure à petit feu.", "en": "Add the beans and the water, cover and simmer gently for an hour." },
+    { "fr": "Saler à mi-cuisson seulement, quand les haricots commencent à céder sous le doigt.", "en": "Salt only halfway through, once the beans begin to give under a finger." },
+    { "fr": "Découvrir les vingt dernières minutes pour lier la sauce, qui doit devenir onctueuse sans être farineuse.", "en": "Uncover for the last twenty minutes to bind the sauce, which should turn creamy without going floury." },
+    { "fr": "Ajouter la coriandre et, pour ceux qui la veulent, la harissa à part.", "en": "Add the coriander, and offer the harissa separately for those who want it." }
+  ],
+  "notes": [
+    { "fr": "Écraser une louche de haricots contre la paroi lie la sauce mieux que n'importe quelle farine.", "en": "Crushing a ladle of beans against the side of the pot binds the sauce better than any flour." }
+  ]
+}

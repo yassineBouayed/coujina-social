@@ -1,0 +1,42 @@
+{
+  "slug": "ragout-de-cochon",
+  "cuisine": "caribbean",
+  "country": "guadeloupe",
+  "origin": "Guadeloupe",
+  "native_name": "Ragoût de cochon",
+  "title": {
+    "fr": "Ragoût de cochon de Noël",
+    "en": "Christmas pork stew"
+  },
+  "meal_type": "main",
+  "servings": 8,
+  "times": { "prep_min": 35, "cook_min": 150 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["noel", "porc", "mijote", "fete"],
+  "ingredients": [
+    { "raw": "1,8 kg d'échine de porc, en gros cubes", "qty": 1800, "unit": "g", "item": "échine de porc", "prep": "en gros cubes" },
+    { "raw": "6 citrons verts, leur jus", "qty": 6, "unit": "piece", "item": "citron vert" },
+    { "raw": "12 gousses d'ail, écrasées", "qty": 12, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "4 oignons, émincés", "qty": 4, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "1 bouquet d'oignons nouveaux, émincés", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "émincé" },
+    { "raw": "4 c. à s. de concentré de tomate", "qty": 4, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "1 piment végétarien", "qty": 1, "unit": "piece", "item": "piment végétarien" },
+    { "raw": "6 feuilles de bois d'Inde", "qty": 6, "unit": "piece", "item": "bois d'Inde" },
+    { "raw": "1/2 bouquet de thym frais", "qty": 0.5, "unit": "bunch", "item": "thym" },
+    { "raw": "3 c. à s. de sirop de canne", "qty": 3, "unit": "tbsp", "item": "sirop de canne" },
+    { "raw": "80 cl d'eau", "qty": 80, "unit": "cl", "item": "eau" },
+    { "raw": "10 cl d'huile neutre", "qty": 10, "unit": "cl", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "C'est le plat du réveillon guadeloupéen, servi avec des pois d'Angole et de l'igname.", "en": "This is the Guadeloupean Christmas Eve dish, served with pigeon peas and yam." },
+    { "fr": "« LAVER » la viande au citron vert et à l'ail vingt minutes, puis la rincer : c'est le geste créole.", "en": "\"WASH\" the meat in lime and garlic for twenty minutes, then rinse it: the Creole move." },
+    { "fr": "Le SIROP DE CANNE sert à CARAMÉLISER la viande, pas à la sucrer : on le fait brunir en premier.", "en": "The CANE SYRUP is there to CARAMELISE the meat, not to sweeten it: it is browned first." },
+    { "fr": "Le chauffer seul jusqu'à ce qu'il fume, puis y jeter la viande : elle prend une couleur acajou.", "en": "Heat it alone until it smokes, then tip in the meat: it takes on a mahogany colour." },
+    { "fr": "Mijoter DEUX HEURES à couvert, à feu très doux, en ajoutant l'eau petit à petit.", "en": "Simmer for TWO HOURS covered, over very low heat, adding water little by little." },
+    { "fr": "Le ragoût est meilleur LE LENDEMAIN : le faire la veille du réveillon.", "en": "The stew is better THE NEXT DAY: make it the day before Christmas Eve." }
+  ]
+}

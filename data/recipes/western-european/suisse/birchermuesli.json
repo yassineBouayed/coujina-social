@@ -1,0 +1,37 @@
+{
+  "slug": "birchermuesli",
+  "cuisine": "western-european",
+  "country": "suisse",
+  "origin": "Suisse",
+  "native_name": "Birchermüesli",
+  "title": {
+    "fr": "Bircher müesli aux pommes",
+    "en": "Bircher muesli with apple"
+  },
+  "meal_type": "dessert",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["petit-dejeuner", "avoine", "froid", "sain"],
+  "ingredients": [
+    { "raw": "200 g de flocons d'avoine", "qty": 200, "unit": "g", "item": "flocon d'avoine" },
+    { "raw": "40 cl de lait entier", "qty": 40, "unit": "cl", "item": "lait entier" },
+    { "raw": "400 g de yaourt nature", "qty": 400, "unit": "g", "item": "yaourt nature" },
+    { "raw": "4 pommes, râpées", "qty": 4, "unit": "piece", "item": "pomme", "prep": "râpée" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "80 g de noisettes, concassées", "qty": 80, "unit": "g", "item": "noisette", "prep": "concassée" },
+    { "raw": "4 c. à s. de miel", "qty": 4, "unit": "tbsp", "item": "miel" },
+    { "raw": "200 g de framboises", "qty": 200, "unit": "g", "item": "framboise", "optional": true },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le bircher a été inventé par un médecin zurichois vers 1900, comme repas de sanatorium.", "en": "Bircher was devised by a Zurich physician around 1900, as a sanatorium meal." },
+    { "fr": "La POMME RÂPÉE est l'ingrédient principal, pas une garniture : autant de pomme que d'avoine.", "en": "GRATED APPLE is the main ingredient, not a topping: as much apple as oats." },
+    { "fr": "Faire tremper l'avoine dans le lait UNE NUIT : c'est ce trempage qui fait toute la texture.", "en": "Soak the oats in the milk OVERNIGHT: that soak makes the whole texture." },
+    { "fr": "Râper les pommes AVEC LEUR PEAU, au dernier moment, et les citronner aussitôt.", "en": "Grate the apples WITH THEIR SKIN, at the last moment, and lemon them at once." },
+    { "fr": "Sans citron, elles brunissent en dix minutes et le müesli devient gris.", "en": "Without lemon they brown within ten minutes and the muesli turns grey." },
+    { "fr": "Mêler yaourt, miel et noisettes juste avant de servir : le müesli se mange FRAIS.", "en": "Fold in the yoghurt, honey and hazelnuts just before serving: muesli is eaten FRESH." }
+  ]
+}

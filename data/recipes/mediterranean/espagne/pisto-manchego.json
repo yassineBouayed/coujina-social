@@ -1,0 +1,39 @@
+{
+  "slug": "pisto-manchego",
+  "cuisine": "mediterranean",
+  "country": "espagne",
+  "origin": "Espagne",
+  "native_name": "Pisto manchego",
+  "title": {
+    "fr": "Pisto de la Manche",
+    "en": "Pisto from La Mancha"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 50 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["manche", "legumes", "vegetarien", "ete"],
+  "ingredients": [
+    { "raw": "2 courgettes, en dés", "qty": 2, "unit": "piece", "item": "courgette", "prep": "en dés" },
+    { "raw": "2 poivrons rouges, en dés", "qty": 2, "unit": "piece", "item": "poivron rouge", "prep": "en dés" },
+    { "raw": "1 poivron vert, en dés", "qty": 1, "unit": "piece", "item": "poivron vert", "prep": "en dés" },
+    { "raw": "1 aubergine, en dés", "qty": 1, "unit": "piece", "item": "aubergine", "prep": "en dés" },
+    { "raw": "800 g de tomates, râpées", "qty": 800, "unit": "g", "item": "tomate", "prep": "râpée" },
+    { "raw": "2 oignons, en dés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "en dés" },
+    { "raw": "12 cl d'huile d'olive", "qty": 12, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "5 œufs", "qty": 5, "unit": "piece", "item": "oeuf", "optional": true },
+    { "raw": "1 c. à c. de sucre", "qty": 1, "unit": "tsp", "item": "sucre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Contrairement à la ratatouille, le pisto se cuit TOUT ENSEMBLE : les légumes doivent fondre l'un dans l'autre.", "en": "Unlike ratatouille, pisto is cooked ALL TOGETHER: the vegetables should melt into one another." },
+    { "fr": "Faire fondre les oignons quinze minutes à l'huile d'olive, à feu très doux.", "en": "Melt the onions for fifteen minutes in olive oil, over very low heat." },
+    { "fr": "Ajouter poivrons et aubergine, cuire vingt minutes, puis les courgettes.", "en": "Add the peppers and aubergine, cook for twenty minutes, then the courgettes." },
+    { "fr": "Ajouter la tomate râpée et une pincée de sucre pour couper l'acidité.", "en": "Add the grated tomato and a pinch of sugar to cut the acidity." },
+    { "fr": "Laisser réduire à découvert vingt minutes : il ne doit rester aucune eau au fond.", "en": "Reduce uncovered for twenty minutes: no water should remain at the bottom." },
+    { "fr": "Casser les œufs dessus et couvrir cinq minutes, pour en faire un plat complet.", "en": "Crack the eggs on top and cover for five minutes, to make it a complete dish." }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "mast-o-khiar",
+  "cuisine": "middle-eastern",
+  "country": "iran",
+  "origin": "Iran",
+  "native_name": "Mast-o khiar",
+  "title": {
+    "fr": "Mast-o khiar, yaourt au concombre, noix et raisins",
+    "en": "Mast-o khiar, yoghurt with cucumber, walnuts and raisins"
+  },
+  "meal_type": "starter",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["yaourt", "ete", "noix", "frais"],
+  "ingredients": [
+    { "raw": "60 cl de yaourt grec", "qty": 60, "unit": "cl", "item": "yaourt grec" },
+    { "raw": "3 concombres, en petits dés", "qty": 3, "unit": "piece", "item": "concombre", "prep": "en petits dés" },
+    { "raw": "80 g de noix, concassées", "qty": 80, "unit": "g", "item": "noix", "prep": "concassée" },
+    { "raw": "50 g de raisins secs", "qty": 50, "unit": "g", "item": "raisin sec" },
+    { "raw": "2 c. à s. de menthe séchée", "qty": 2, "unit": "tbsp", "item": "menthe séchée" },
+    { "raw": "1/2 bouquet d'aneth, ciselé", "qty": 0.5, "unit": "bunch", "item": "aneth", "prep": "ciselé" },
+    { "raw": "1 c. à s. de pétales de rose séchés", "qty": 1, "unit": "tbsp", "item": "eau de rose", "optional": true },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Tremper les raisins secs dix minutes à l'eau tiède, puis les égoutter.", "en": "Soak the raisins for ten minutes in warm water, then drain." },
+    { "fr": "Couper les concombres en dés plutôt que de les râper : la texture fait partie du plat.", "en": "Dice the cucumbers rather than grating them: the texture is part of the dish." },
+    { "fr": "Mélanger le yaourt avec la menthe séchée, l'aneth, le sel et le poivre.", "en": "Mix the yoghurt with the dried mint, dill, salt and pepper." },
+    { "fr": "Incorporer concombre, noix et raisins.", "en": "Fold in the cucumber, walnuts and raisins." },
+    { "fr": "Laisser reposer une heure au frais : la menthe séchée a besoin de ce temps pour s'ouvrir.", "en": "Rest for an hour in the fridge: dried mint needs that time to open up." },
+    { "fr": "Servir bien froid, en entrée ou à côté d'un riz.", "en": "Serve well chilled, as a starter or alongside rice." }
+  ]
+}

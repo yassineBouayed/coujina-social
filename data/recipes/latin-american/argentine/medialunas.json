@@ -1,0 +1,39 @@
+{
+  "slug": "medialunas",
+  "cuisine": "latin-american",
+  "country": "argentine",
+  "origin": "Argentine",
+  "native_name": "Medialunas de manteca",
+  "title": {
+    "fr": "Medialunas au beurre",
+    "en": "Buttery medialunas"
+  },
+  "meal_type": "dessert",
+  "servings": 12,
+  "times": { "prep_min": 80, "cook_min": 20 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["petit-dejeuner", "viennoiserie", "cafe", "sirop"],
+  "ingredients": [
+    { "raw": "600 g de farine T45", "qty": 600, "unit": "g", "item": "farine T45" },
+    { "raw": "25 cl de lait entier, tiède", "qty": 25, "unit": "cl", "item": "lait entier", "prep": "tiède" },
+    { "raw": "14 g de levure boulangère sèche", "qty": 14, "unit": "g", "item": "levure boulangère" },
+    { "raw": "250 g de beurre, froid", "qty": 250, "unit": "g", "item": "beurre", "prep": "froid" },
+    { "raw": "100 g de sucre", "qty": 100, "unit": "g", "item": "sucre" },
+    { "raw": "3 jaunes d'œufs", "qty": 3, "unit": "piece", "item": "oeuf" },
+    { "raw": "1 citron, son zeste", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "200 g de sucre", "qty": 200, "unit": "g", "item": "sucre", "group": "sirop" },
+    { "raw": "12 cl d'eau", "qty": 12, "unit": "cl", "item": "eau", "group": "sirop" },
+    { "raw": "1 œuf, pour dorer", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "La medialuna est plus PETITE, plus SUCRÉE et plus SERRÉE que le croissant français.", "en": "The medialuna is SMALLER, SWEETER and TIGHTER than a French croissant." },
+    { "fr": "Elle se termine par un SIROP qui la rend brillante et collante : c'est sa signature.", "en": "It finishes with a SYRUP that makes it glossy and sticky: its signature." },
+    { "fr": "Le beurre de tourage doit être à la MÊME consistance que la pâte : sinon il perce ou casse.", "en": "The laminating butter must be at the SAME consistency as the dough: otherwise it tears or shatters." },
+    { "fr": "Faire TROIS tours simples, avec trente minutes de repos au froid entre chacun.", "en": "Do THREE single turns, with thirty minutes of cold rest between each." },
+    { "fr": "Découper des triangles COURTS et LARGES, et rouler SERRÉ, sans étirer la pointe.", "en": "Cut SHORT, WIDE triangles, and roll them TIGHT, without stretching the tip." },
+    { "fr": "Badigeonner de sirop DÈS LA SORTIE du four, pendant qu'elles sont brûlantes.", "en": "Brush with syrup AS THEY COME OUT of the oven, while scalding." }
+  ]
+}

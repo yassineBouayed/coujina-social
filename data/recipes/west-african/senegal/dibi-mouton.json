@@ -1,0 +1,39 @@
+{
+  "slug": "dibi-mouton",
+  "cuisine": "west-african",
+  "country": "senegal",
+  "origin": "Sénégal",
+  "native_name": "Dibi",
+  "title": {
+    "fr": "Dibi, mouton grillé aux oignons",
+    "en": "Dibi, grilled mutton with onions"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["grillade", "rue", "dakar", "soiree"],
+  "ingredients": [
+    { "raw": "1 kg de côtelettes d'agneau", "qty": 1000, "unit": "g", "item": "côtelette d'agneau" },
+    { "raw": "3 oignons, en fines rondelles", "qty": 3, "unit": "piece", "item": "oignon", "prep": "en fines rondelles" },
+    { "raw": "2 citrons verts, leur jus", "qty": 2, "unit": "piece", "item": "citron vert" },
+    { "raw": "1 c. à s. de moutarde", "qty": 1, "unit": "tbsp", "item": "moutarde" },
+    { "raw": "1 c. à c. de poivre de Selim, moulu", "qty": 1, "unit": "tsp", "item": "poivre de Selim", "prep": "moulu" },
+    { "raw": "1 cube de bouillon", "qty": 1, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "1 piment oiseau, émincé", "qty": 1, "unit": "piece", "item": "piment oiseau", "prep": "émincé" },
+    { "raw": "3 c. à s. d'huile d'arachide", "qty": 3, "unit": "tbsp", "item": "huile d'arachide" },
+    { "raw": "1 c. à s. de vinaigre blanc", "qty": 1, "unit": "tbsp", "item": "vinaigre blanc", "group": "oignons" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Frotter la viande d'huile, de poivre de Selim, de cube émietté, de sel et de poivre, et la laisser une heure.", "en": "Rub the meat with oil, Selim pepper, crumbled stock cube, salt and pepper, and leave it for an hour." },
+    { "fr": "Faire dégorger les oignons crus dans l'eau froide vingt minutes, puis les assaisonner de citron, vinaigre, moutarde et piment.", "en": "Soak the raw onions in cold water for twenty minutes, then dress them with lime, vinegar, mustard and chilli." },
+    { "fr": "Griller la viande sur braises vives, six à huit minutes par face, sans la piquer.", "en": "Grill the meat over hot coals, six to eight minutes a side, without piercing it." },
+    { "fr": "La laisser reposer cinq minutes hors du feu avant de la découper.", "en": "Rest it for five minutes off the heat before cutting." },
+    { "fr": "Servir sur papier kraft, la viande coupée en morceaux, les oignons crus par-dessus.", "en": "Serve on butcher's paper, the meat cut into pieces, raw onions piled on top." },
+    { "fr": "Les oignons doivent rester croquants et acides : c'est le contrepoint du gras de la viande.", "en": "The onions must stay crunchy and sharp: they are the counterpoint to the fatty meat." }
+  ]
+}

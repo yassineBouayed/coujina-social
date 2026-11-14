@@ -1,0 +1,44 @@
+{
+  "slug": "egusi",
+  "cuisine": "west-african",
+  "origin": "Nigeria",
+  "native_name": "Egusi soup",
+  "title": {
+    "fr": "Egusi, sauce aux graines de courge et aux épinards",
+    "en": "Egusi soup with melon seed and greens"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 60 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j5-catalogue-v1", "date": "2026-08-29" },
+  "tags": ["egusi", "huile-de-palme", "sauce", "feuilles"],
+  "ingredients": [
+    { "raw": "250 g d'egusi moulu", "qty": 250, "unit": "g", "item": "egusi", "prep": "moulu", "substitutes": [{ "item": "graine de courge", "note": "la graine de courge moulue épaissit pareil mais reste plus douce ; l'egusi a un fond plus gras et plus torréfié" }] },
+    { "raw": "600 g de bœuf à mijoter, en cubes", "qty": 600, "unit": "g", "item": "bœuf à mijoter", "prep": "en cubes" },
+    { "raw": "100 g de poisson fumé, effeuillé", "qty": 100, "unit": "g", "item": "poisson fumé", "prep": "effeuillé" },
+    { "raw": "40 g de crevettes séchées", "qty": 40, "unit": "g", "item": "crevette séchée", "optional": true },
+    { "raw": "12 cl d'huile de palme rouge", "qty": 12, "unit": "cl", "item": "huile de palme rouge" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "3 tomates, mixées", "qty": 3, "unit": "piece", "item": "tomate", "prep": "mixée" },
+    { "raw": "2 piments antillais", "qty": 2, "unit": "piece", "item": "habanero", "prep": "mixé" },
+    { "raw": "2 cubes de bouillon", "qty": 2, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "1 c. à s. de nététou", "qty": 1, "unit": "tbsp", "item": "néré", "optional": true },
+    { "raw": "300 g d'épinards, grossièrement hachés", "qty": 300, "unit": "g", "item": "épinard", "prep": "grossièrement haché" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire le bœuf 40 minutes dans 1 litre d'eau avec un oignon, un cube et le poisson fumé. Garder le bouillon.", "en": "Simmer the beef for 40 minutes in 1 litre of water with one onion, a stock cube and the smoked fish. Keep the broth." },
+    { "fr": "Délayer l'egusi moulu avec un peu d'eau jusqu'à obtenir une pâte épaisse, comme une pâte à crêpes très serrée.", "en": "Slacken the ground egusi with a little water to a thick paste, like a very stiff pancake batter." },
+    { "fr": "Chauffer l'huile de palme et y faire fondre le second oignon, puis ajouter les tomates et les piments mixés. Cuire 10 minutes.", "en": "Heat the palm oil and soften the second onion in it, then add the blended tomatoes and chillies. Cook for 10 minutes." },
+    { "fr": "Déposer la pâte d'egusi par cuillerées dans la sauce, sans mélanger, et laisser prendre 10 minutes : elle doit former des grumeaux fermes.", "en": "Drop the egusi paste into the sauce in spoonfuls, without stirring, and let it set for 10 minutes: it should form firm curds." },
+    { "fr": "Verser alors le bouillon de viande, ajouter le nététou et les crevettes séchées, et laisser mijoter 15 minutes. L'huile doit remonter en surface.", "en": "Now pour in the meat broth, add the locust bean and dried shrimp, and simmer for 15 minutes. The oil should rise to the top." },
+    { "fr": "Remettre la viande, ajouter les épinards et cuire 5 minutes de plus, pas davantage.", "en": "Return the meat, add the greens and cook for 5 minutes more, no longer." },
+    { "fr": "Servir avec de l'igname pilée, du fufu ou du riz.", "en": "Serve with pounded yam, fufu or rice." }
+  ],
+  "notes": [
+    { "fr": "Les grumeaux d'egusi sont voulus. Mélanger la pâte dès qu'elle touche la sauce donne une bouillie homogène — c'est la version « caking » contre la version lisse, et les deux camps existent, mais il faut choisir.", "en": "The egusi curds are deliberate. Stirring the paste the moment it hits the sauce gives a uniform porridge — the caking method against the smooth one; both camps exist, but you have to pick." },
+    { "fr": "Les feuilles traditionnelles sont l'ugu ou le bitterleaf. L'épinard est la transposition la plus fidèle en Europe pour l'ugu ; il est plus doux et plus aqueux.", "en": "The traditional greens are ugu or bitterleaf. Spinach is the closest European stand-in for ugu; it is milder and wetter." }
+  ]
+}

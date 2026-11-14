@@ -1,0 +1,41 @@
+{
+  "slug": "papa-a-la-huancaina",
+  "cuisine": "latin-american",
+  "country": "perou",
+  "origin": "Pérou",
+  "native_name": "Papa a la huancaína",
+  "title": {
+    "fr": "Pommes de terre sauce huancaína",
+    "en": "Potatoes in huancaína sauce"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["classique", "froid", "aji-amarillo", "fromage"],
+  "ingredients": [
+    { "raw": "1 kg de pommes de terre", "qty": 1000, "unit": "g", "item": "pomme de terre" },
+    { "raw": "5 piments ají amarillo", "qty": 5, "unit": "piece", "item": "ají amarillo" },
+    { "raw": "400 g de queso fresco", "qty": 400, "unit": "g", "item": "queso fresco" },
+    { "raw": "25 cl de lait évaporé", "qty": 25, "unit": "cl", "item": "lait évaporé" },
+    { "raw": "200 g de biscuits secs salés", "qty": 200, "unit": "g", "item": "biscuit sec", "prep": "salés" },
+    { "raw": "1 oignon, haché", "qty": 1, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "3 gousses d'ail", "qty": 3, "unit": "piece", "item": "ail" },
+    { "raw": "8 c. à s. d'huile neutre", "qty": 8, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "4 œufs durs, en quartiers", "qty": 4, "unit": "piece", "item": "oeuf", "prep": "dur, en quartiers", "group": "service" },
+    { "raw": "100 g d'olives noires", "qty": 100, "unit": "g", "item": "olive noire", "group": "service" },
+    { "raw": "6 feuilles de laitue", "qty": 6, "unit": "piece", "item": "laitue", "group": "service" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Les BISCUITS SALÉS sont le liant traditionnel : ils épaississent la sauce sans la farine.", "en": "The CRACKERS are the traditional thickener: they thicken the sauce without flour." },
+    { "fr": "FRIRE les ají et l'oignon dans l'huile avant de mixer : c'est ce qui donne la profondeur.", "en": "FRY the ají and onion in oil before blending: that is what gives the depth." },
+    { "fr": "Mixée à cru, la sauce a un goût vert et âpre de piment non cuit.", "en": "Blended raw, the sauce has the green, harsh taste of uncooked chilli." },
+    { "fr": "Mixer TRÈS longuement, trois minutes : la sauce doit être parfaitement lisse et nappante.", "en": "Blend for a VERY long time, three minutes: the sauce must be perfectly smooth and coating." },
+    { "fr": "Cuire les pommes de terre EN ROBE et les laisser refroidir : le plat se sert FROID.", "en": "Boil the potatoes IN THEIR SKINS and cool them: the dish is served COLD." },
+    { "fr": "Napper au dernier moment : posée à l'avance, la sauce fige et perd son brillant.", "en": "Coat them at the last moment: spooned on early, the sauce sets and loses its gloss." }
+  ]
+}

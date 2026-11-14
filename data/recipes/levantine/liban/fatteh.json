@@ -1,0 +1,42 @@
+{
+  "slug": "fatteh",
+  "cuisine": "levantine",
+  "country": "liban",
+  "origin": "Liban",
+  "native_name": "Fatteh",
+  "title": {
+    "fr": "Fatteh aux pois chiches, yaourt et pain grillé",
+    "en": "Chickpea fatteh with yoghurt and toasted bread"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 90 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["couches", "yaourt", "pois-chiche", "petit-dejeuner"],
+  "ingredients": [
+    { "raw": "400 g de pois chiches secs, trempés la veille", "qty": 400, "unit": "g", "item": "pois chiche sec", "prep": "trempé la veille" },
+    { "raw": "2 pains pita", "qty": 2, "unit": "piece", "item": "pain pita" },
+    { "raw": "60 cl de yaourt grec", "qty": 60, "unit": "cl", "item": "yaourt grec", "group": "sauce" },
+    { "raw": "4 c. à s. de tahini", "qty": 4, "unit": "tbsp", "item": "tahini", "group": "sauce" },
+    { "raw": "3 gousses d'ail, écrasées", "qty": 3, "unit": "piece", "item": "ail", "prep": "écrasé", "group": "sauce" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron", "group": "sauce" },
+    { "raw": "80 g de pignons de pin", "qty": 80, "unit": "g", "item": "pignon de pin", "group": "garniture" },
+    { "raw": "60 g de beurre", "qty": 60, "unit": "g", "item": "beurre", "group": "garniture" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé", "group": "garniture" },
+    { "raw": "1 c. à c. de paprika", "qty": 1, "unit": "tsp", "item": "paprika", "group": "garniture" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire les pois chiches une heure et demie et garder un peu de leur eau de cuisson.", "en": "Cook the chickpeas for an hour and a half and keep some of their cooking water." },
+    { "fr": "Couper les pitas en carrés et les faire dorer au four jusqu'à ce qu'ils soient secs et cassants.", "en": "Cut the pitas into squares and toast them in the oven until dry and brittle." },
+    { "fr": "Fouetter yaourt, tahini, ail et citron en une sauce fluide, salée.", "en": "Whisk the yoghurt, tahini, garlic and lemon into a pourable, salted sauce." },
+    { "fr": "Faire dorer les pignons dans le beurre jusqu'à ce qu'ils soient noisette, et réserver le beurre.", "en": "Brown the pine nuts in the butter until hazelnut-coloured, and keep the butter." },
+    { "fr": "Monter dans le plat : pain grillé, pois chiches tièdes arrosés d'un peu d'eau de cuisson, puis la sauce.", "en": "Layer in the dish: toasted bread, warm chickpeas moistened with a little cooking water, then the sauce." },
+    { "fr": "Verser le beurre aux pignons, parsemer de persil et de paprika, et servir DANS LA MINUTE.", "en": "Pour over the pine nut butter, scatter with parsley and paprika, and serve WITHIN THE MINUTE." }
+  ],
+  "notes": [
+    { "fr": "Les trois couches doivent rester distinctes en bouche : croustillant, tiède, froid. Cinq minutes d'attente et il n'en reste qu'une.", "en": "The three layers must stay distinct on the palate: crisp, warm, cold. Five minutes' wait and only one remains." }
+  ]
+}

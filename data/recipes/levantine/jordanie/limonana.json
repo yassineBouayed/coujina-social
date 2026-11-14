@@ -1,0 +1,33 @@
+{
+  "slug": "limonana",
+  "cuisine": "levantine",
+  "country": "jordanie",
+  "origin": "Jordanie",
+  "native_name": "Limonana",
+  "title": {
+    "fr": "Limonana, citronnade glacée à la menthe",
+    "en": "Limonana, frozen mint lemonade"
+  },
+  "meal_type": "drink",
+  "servings": 4,
+  "times": { "prep_min": 10, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ete", "menthe", "citron", "glace"],
+  "ingredients": [
+    { "raw": "6 citrons, leur jus", "qty": 6, "unit": "piece", "item": "citron" },
+    { "raw": "1 gros bouquet de menthe fraîche", "qty": 1, "unit": "bunch", "item": "menthe fraîche" },
+    { "raw": "120 g de sucre", "qty": 120, "unit": "g", "item": "sucre" },
+    { "raw": "50 cl d'eau", "qty": 50, "unit": "cl", "item": "eau" },
+    { "raw": "500 g de glaçons", "qty": 500, "unit": "g", "item": "eau", "prep": "en glaçons" }
+  ],
+  "steps": [
+    { "fr": "Dissoudre le sucre dans l'eau froide en fouettant, avant d'ajouter quoi que ce soit d'autre.", "en": "Dissolve the sugar in the cold water, whisking, before adding anything else." },
+    { "fr": "Effeuiller la menthe : les tiges donnent une amertume herbacée au mixage.", "en": "Pick the mint leaves off: the stems give a grassy bitterness when blended." },
+    { "fr": "Mixer les glaçons, la menthe, le jus de citron et l'eau sucrée, à pleine puissance.", "en": "Blend the ice, mint, lemon juice and sweetened water, at full power." },
+    { "fr": "Mixer brièvement, quinze secondes : trop longtemps, la menthe noircit et le goût tourne.", "en": "Blend briefly, fifteen seconds: any longer and the mint blackens and the taste turns." },
+    { "fr": "Goûter et rectifier : la limonana doit être franchement acide, pas sirupeuse.", "en": "Taste and adjust: limonana should be frankly sharp, not syrupy." },
+    { "fr": "Servir immédiatement, en granité, avant que la glace ne fonde.", "en": "Serve at once, as a slush, before the ice melts." }
+  ]
+}

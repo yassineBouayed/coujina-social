@@ -1,0 +1,36 @@
+{
+  "slug": "sel-roti",
+  "cuisine": "south-asian",
+  "country": "nepal",
+  "origin": "Népal",
+  "native_name": "Sel roti",
+  "title": {
+    "fr": "Sel roti, anneaux frits de pâte de riz",
+    "en": "Sel roti, fried rice batter rings"
+  },
+  "meal_type": "bread",
+  "servings": 8,
+  "times": { "prep_min": 30, "cook_min": 30 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["tihar", "fete", "riz", "friture"],
+  "ingredients": [
+    { "raw": "600 g de riz long grain, trempé la veille", "qty": 600, "unit": "g", "item": "riz long grain", "prep": "trempé la veille" },
+    { "raw": "150 g de sucre", "qty": 150, "unit": "g", "item": "sucre" },
+    { "raw": "60 g de beurre, fondu", "qty": 60, "unit": "g", "item": "beurre", "prep": "fondu" },
+    { "raw": "20 cl de lait", "qty": 20, "unit": "cl", "item": "lait" },
+    { "raw": "1 banane bien mûre", "qty": 1, "unit": "piece", "item": "banane", "optional": true },
+    { "raw": "1 c. à c. de cardamome moulue", "qty": 1, "unit": "tsp", "item": "cardamome", "prep": "moulue" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" },
+    { "raw": "1 l d'huile neutre pour la friture", "qty": 1, "unit": "l", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Tremper le riz UNE NUIT, l'égoutter, et le mixer avec le sucre, le lait et la banane.", "en": "Soak the rice OVERNIGHT, drain it, and blend it with the sugar, milk and banana." },
+    { "fr": "La pâte doit être lisse et de la consistance d'une pâte à crêpes épaisse : ni granuleuse ni coulante.", "en": "The batter must be smooth and the consistency of a thick pancake batter: neither grainy nor runny." },
+    { "fr": "Battre à la main dix minutes pour l'aérer, puis laisser reposer deux heures.", "en": "Beat it by hand for ten minutes to aerate it, then rest for two hours." },
+    { "fr": "Verser la pâte en cercle dans l'huile à 170 °C, d'un geste continu, en commençant par le centre.", "en": "Pour the batter into 170°C oil in a circle, in one continuous motion, starting from the centre." },
+    { "fr": "Le geste du versement fait tout : hésitant, l'anneau se referme ou se casse.", "en": "The pouring gesture is everything: hesitant, the ring closes up or breaks." },
+    { "fr": "Retourner à la baguette dès que le dessous est doré, et égoutter sur grille.", "en": "Turn it with a chopstick as soon as the underside is golden, and drain on a rack." }
+  ]
+}

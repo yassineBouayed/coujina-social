@@ -1,0 +1,43 @@
+{
+  "slug": "francesinha",
+  "cuisine": "mediterranean",
+  "country": "portugal",
+  "origin": "Portugal",
+  "native_name": "Francesinha",
+  "title": {
+    "fr": "Francesinha, croque de Porto en sauce",
+    "en": "Francesinha, Porto's sauced sandwich"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 30, "cook_min": 40 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["porto", "sandwich", "biere", "copieux"],
+  "ingredients": [
+    { "raw": "8 tranches de pain de mie", "qty": 8, "unit": "piece", "item": "pain de mie" },
+    { "raw": "4 steaks hachés", "qty": 4, "unit": "piece", "item": "boeuf haché", "prep": "en steaks" },
+    { "raw": "4 saucisses fraîches", "qty": 4, "unit": "piece", "item": "saucisse de Toulouse" },
+    { "raw": "8 tranches de jambon blanc", "qty": 8, "unit": "piece", "item": "jambon blanc" },
+    { "raw": "250 g d'emmental, en tranches", "qty": 250, "unit": "g", "item": "emmental", "prep": "en tranches" },
+    { "raw": "33 cl de bière blonde", "qty": 33, "unit": "cl", "item": "bière", "group": "sauce" },
+    { "raw": "400 g de tomate pelée en conserve", "qty": 400, "unit": "g", "item": "tomate pelée en conserve", "group": "sauce" },
+    { "raw": "25 cl de bouillon de bœuf", "qty": 25, "unit": "cl", "item": "bouillon boeuf", "group": "sauce" },
+    { "raw": "1 oignon, haché", "qty": 1, "unit": "piece", "item": "oignon", "prep": "haché", "group": "sauce" },
+    { "raw": "1 c. à s. de farine de blé", "qty": 1, "unit": "tbsp", "item": "farine de blé", "group": "sauce" },
+    { "raw": "1 c. à c. de piment en poudre", "qty": 1, "unit": "tsp", "item": "piment en poudre", "group": "sauce" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier", "group": "sauce" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf", "optional": true },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Tout le plat tient dans la SAUCE : le sandwich n'est qu'un support.", "en": "The whole dish rests on the SAUCE: the sandwich is only a vehicle." },
+    { "fr": "Faire revenir l'oignon, singer à la farine, et mouiller à la bière et au bouillon.", "en": "Fry the onion, dust with flour, and moisten with beer and stock." },
+    { "fr": "Ajouter tomate, laurier et piment, et laisser réduire trente minutes, puis mixer et filtrer.", "en": "Add the tomato, bay and chilli, reduce for thirty minutes, then blend and strain." },
+    { "fr": "Empiler dans l'ordre : pain, jambon, steak, saucisse, jambon, pain.", "en": "Stack in order: bread, ham, steak, sausage, ham, bread." },
+    { "fr": "Couvrir ENTIÈREMENT de fromage, côtés compris, et passer sous le gril jusqu'à ce qu'il coule.", "en": "Cover ENTIRELY with cheese, sides included, and grill until it runs." },
+    { "fr": "Verser la sauce BRÛLANTE sur l'assiette, autour et dessus, et servir avec des frites.", "en": "Pour the SCALDING sauce onto the plate, around and over, and serve with chips." }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "caesar-salad",
+  "cuisine": "north-american",
+  "country": "etats-unis",
+  "origin": "États-Unis",
+  "native_name": "Caesar salad",
+  "title": {
+    "fr": "Salade César au parmesan",
+    "en": "Caesar salad with parmesan"
+  },
+  "meal_type": "salad",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 10 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["classique", "laitue", "anchois", "rapide"],
+  "ingredients": [
+    { "raw": "2 laitues romaines", "qty": 2, "unit": "piece", "item": "laitue" },
+    { "raw": "120 g de parmesan, râpé", "qty": 120, "unit": "g", "item": "parmesan", "prep": "râpé" },
+    { "raw": "6 filets d'anchois", "qty": 6, "unit": "piece", "item": "anchois" },
+    { "raw": "2 jaunes d'œufs", "qty": 2, "unit": "piece", "item": "oeuf" },
+    { "raw": "2 gousses d'ail", "qty": 2, "unit": "piece", "item": "ail" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "2 c. à c. de moutarde", "qty": 2, "unit": "tsp", "item": "moutarde" },
+    { "raw": "1 c. à c. de sauce Worcestershire", "qty": 1, "unit": "tsp", "item": "sauce Worcestershire" },
+    { "raw": "15 cl d'huile d'olive", "qty": 15, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "250 g de pain de campagne, en gros dés", "qty": 250, "unit": "g", "item": "pain", "prep": "en gros dés" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La sauce est une MAYONNAISE, montée au jaune d'œuf : ni crème ni yaourt n'y ont leur place.", "en": "The dressing is a MAYONNAISE, built on egg yolk: neither cream nor yoghurt belongs in it." },
+    { "fr": "Écraser ail et anchois EN PÂTE au mortier : hachés, ils restent en morceaux dans la sauce.", "en": "Crush the garlic and anchovies TO A PASTE in a mortar: chopped, they stay in lumps." },
+    { "fr": "Monter l'huile EN FILET sur les jaunes, très lentement au début, comme une mayonnaise.", "en": "Whisk the oil in a THREAD onto the yolks, very slowly at first, as for a mayonnaise." },
+    { "fr": "Ne garder que le CŒUR de la romaine : les feuilles extérieures sont molles et amères.", "en": "Keep only the HEART of the romaine: the outer leaves are limp and bitter." },
+    { "fr": "Sécher les feuilles ENTIÈREMENT : mouillées, la sauce glisse et tombe au fond du saladier.", "en": "Dry the leaves COMPLETELY: wet, the dressing slides off to the bottom of the bowl." },
+    { "fr": "Assaisonner AU DERNIER MOMENT et servir dans les cinq minutes.", "en": "Dress it AT THE LAST MOMENT and serve within five minutes." }
+  ],
+  "notes": [
+    { "fr": "Cette sauce contient des œufs crus : à éviter pour les personnes enceintes, âgées ou immunodéprimées.", "en": "This dressing contains raw egg: not for pregnant, elderly or immunocompromised eaters." }
+  ]
+}

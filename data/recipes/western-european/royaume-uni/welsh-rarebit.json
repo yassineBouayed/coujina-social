@@ -1,0 +1,37 @@
+{
+  "slug": "welsh-rarebit",
+  "cuisine": "western-european",
+  "country": "royaume-uni",
+  "origin": "Royaume-Uni",
+  "native_name": "Welsh rarebit",
+  "title": {
+    "fr": "Welsh rarebit, toast au cheddar et à la bière",
+    "en": "Welsh rarebit, cheddar and beer toast"
+  },
+  "meal_type": "starter",
+  "servings": 4,
+  "times": { "prep_min": 10, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["pays-de-galles", "fromage", "rapide", "biere"],
+  "ingredients": [
+    { "raw": "300 g de cheddar, râpé", "qty": 300, "unit": "g", "item": "cheddar", "prep": "râpé" },
+    { "raw": "12 cl de bière brune", "qty": 12, "unit": "cl", "item": "bière" },
+    { "raw": "2 c. à s. de moutarde", "qty": 2, "unit": "tbsp", "item": "moutarde" },
+    { "raw": "2 c. à c. de sauce Worcestershire", "qty": 2, "unit": "tsp", "item": "sauce Worcestershire" },
+    { "raw": "30 g de beurre", "qty": 30, "unit": "g", "item": "beurre" },
+    { "raw": "2 c. à s. de farine de blé", "qty": 2, "unit": "tbsp", "item": "farine de blé" },
+    { "raw": "1 jaune d'œuf", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "4 tranches épaisses de pain de campagne", "qty": 4, "unit": "piece", "item": "pain", "prep": "en tranches épaisses" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Ce n'est pas un simple toast au fromage : le cheddar est lié en une SAUCE, ce qui change tout.", "en": "This is not a plain cheese toast: the cheddar is bound into a SAUCE, which changes everything." },
+    { "fr": "Faire un roux au beurre et à la farine, et le mouiller à la bière, pas au lait.", "en": "Make a roux with butter and flour, and moisten it with beer, not milk." },
+    { "fr": "Ajouter le cheddar HORS DU FEU, en trois fois : au-dessus de 70 °C, il tranche en fils.", "en": "Add the cheddar OFF THE HEAT, in three additions: above 70°C, it splits into strings." },
+    { "fr": "Incorporer moutarde, Worcestershire et jaune d'œuf, et laisser la sauce TIÉDIR et épaissir.", "en": "Work in the mustard, Worcestershire and yolk, and let the sauce COOL and thicken." },
+    { "fr": "Griller le pain d'UN SEUL côté, et tartiner la sauce sur le côté NON grillé.", "en": "Toast the bread on ONE side only, and spread the sauce on the UNtoasted side." },
+    { "fr": "Passer sous le gril jusqu'à ce que la surface boursoufle et brunisse par plaques.", "en": "Grill until the surface blisters and browns in patches." }
+  ]
+}

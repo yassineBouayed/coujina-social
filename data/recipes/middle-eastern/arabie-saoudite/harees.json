@@ -1,0 +1,35 @@
+{
+  "slug": "harees",
+  "cuisine": "middle-eastern",
+  "country": "arabie-saoudite",
+  "origin": "Arabie saoudite",
+  "native_name": "Harees",
+  "title": {
+    "fr": "Harees, blé et viande pilés en crème",
+    "en": "Harees, wheat and meat pounded to a cream"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 240 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ramadan", "ble", "cuisson-lente", "reconfort"],
+  "ingredients": [
+    { "raw": "500 g de blé tendre, trempé la veille", "qty": 500, "unit": "g", "item": "blé tendre", "prep": "trempé la veille" },
+    { "raw": "800 g d'épaule d'agneau avec os", "qty": 800, "unit": "g", "item": "épaule d'agneau", "prep": "avec os" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "4 gousses de cardamome", "qty": 4, "unit": "piece", "item": "cardamome" },
+    { "raw": "100 g de ghee", "qty": 100, "unit": "g", "item": "ghee" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle", "group": "service" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Tremper le blé une nuit entière : sans cela, il ne se défera jamais, même après quatre heures.", "en": "Soak the wheat overnight: without that, it will never break down, even after four hours." },
+    { "fr": "Mettre blé, viande, cannelle et cardamome dans une grande casserole avec beaucoup d'eau.", "en": "Put the wheat, meat, cinnamon and cardamom in a large pot with plenty of water." },
+    { "fr": "Cuire quatre heures à petits bouillons, en écumant et en rajoutant de l'eau chaude.", "en": "Cook for four hours at a bare simmer, skimming and topping up with hot water." },
+    { "fr": "Retirer les os et les épices entières, puis battre au fouet ou au pilon jusqu'à obtenir une crème lisse.", "en": "Remove the bones and whole spices, then beat with a whisk or pestle to a smooth cream." },
+    { "fr": "Le harees ne doit plus laisser distinguer ni grain ni fibre : c'est le battage qui le décide.", "en": "Harees must show neither grain nor fibre: the beating is what decides it." },
+    { "fr": "Saler, dresser, creuser un puits et y verser le ghee fondu brûlant, avec de la cannelle.", "en": "Salt it, plate it, hollow a well and pour scalding melted ghee into it, with cinnamon." }
+  ]
+}

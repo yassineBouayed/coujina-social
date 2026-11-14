@@ -1,0 +1,44 @@
+{
+  "slug": "cazuela-de-mariscos",
+  "cuisine": "latin-american",
+  "country": "colombie",
+  "origin": "Colombie",
+  "native_name": "Cazuela de mariscos",
+  "title": {
+    "fr": "Cassolette de fruits de mer au coco",
+    "en": "Seafood casserole in coconut milk"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 35, "cook_min": 40 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["caraibe", "fruits-de-mer", "coco", "fete"],
+  "ingredients": [
+    { "raw": "500 g de crevettes crues, décortiquées", "qty": 500, "unit": "g", "item": "crevette", "prep": "décortiquée" },
+    { "raw": "400 g de calamars, en anneaux", "qty": 400, "unit": "g", "item": "calamar", "prep": "en anneaux" },
+    { "raw": "600 g de moules", "qty": 600, "unit": "g", "item": "moule" },
+    { "raw": "400 g de filet de cabillaud, en cubes", "qty": 400, "unit": "g", "item": "cabillaud", "prep": "en cubes" },
+    { "raw": "60 cl de lait de coco", "qty": 60, "unit": "cl", "item": "lait de coco" },
+    { "raw": "25 cl de crème liquide", "qty": 25, "unit": "cl", "item": "crème liquide" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "2 poivrons rouges, en dés", "qty": 2, "unit": "piece", "item": "poivron rouge", "prep": "en dés" },
+    { "raw": "4 tomates, en dés", "qty": 4, "unit": "piece", "item": "tomate", "prep": "en dés" },
+    { "raw": "6 gousses d'ail, hachées", "qty": 6, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "2 c. à s. de farine de blé", "qty": 2, "unit": "tbsp", "item": "farine de blé" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "1 bouquet de coriandre, ciselée", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "2 citrons verts", "qty": 2, "unit": "piece", "item": "citron vert" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Chaque fruit de mer a son temps : calamar huit minutes, poisson cinq, crevettes trois.", "en": "Each seafood has its own time: squid eight minutes, fish five, prawns three." },
+    { "fr": "Les cuire SÉPARÉMENT et les réunir à la fin : ensemble, la moitié est immangeable.", "en": "Cook them SEPARATELY and combine at the end: together, half of them are ruined." },
+    { "fr": "Le CALAMAR a deux points de cuisson : deux minutes, ou quarante. Entre les deux, il est dur.", "en": "SQUID has two cooking points: two minutes, or forty. In between, it is rubbery." },
+    { "fr": "Ouvrir les moules à part et FILTRER leur jus : il vaut mieux que n'importe quel bouillon.", "en": "Open the mussels separately and STRAIN their liquor: it beats any stock." },
+    { "fr": "Faire un hogao, singer à la farine, et mouiller au lait de coco et au jus de moules.", "en": "Make a hogao, dust with flour, and moisten with coconut milk and mussel liquor." },
+    { "fr": "Réunir les fruits de mer HORS DU FEU, ajouter crème et coriandre, et servir aussitôt.", "en": "Combine the seafood OFF THE HEAT, add the cream and coriander, and serve at once." }
+  ]
+}

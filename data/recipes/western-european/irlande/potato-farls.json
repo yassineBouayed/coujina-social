@@ -1,0 +1,33 @@
+{
+  "slug": "potato-farls",
+  "cuisine": "western-european",
+  "country": "irlande",
+  "origin": "Irlande",
+  "native_name": "Potato farls",
+  "title": {
+    "fr": "Farls, galettes de purée poêlées",
+    "en": "Potato farls, griddled mash cakes"
+  },
+  "meal_type": "bread",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ulster", "restes", "petit-dejeuner", "poele"],
+  "ingredients": [
+    { "raw": "800 g de pommes de terre", "qty": 800, "unit": "g", "item": "pomme de terre" },
+    { "raw": "120 g de farine de blé", "qty": 120, "unit": "g", "item": "farine de blé" },
+    { "raw": "60 g de beurre", "qty": 60, "unit": "g", "item": "beurre" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Les farls se font avec la purée de la veille : c'est un plat de restes, assumé comme tel.", "en": "Farls are made with yesterday's mash: a leftovers dish, and proudly so." },
+    { "fr": "La purée doit être TIÈDE quand on ajoute la farine : froide, elle refuse de se lier.", "en": "The mash must be WARM when the flour goes in: cold, it refuses to bind." },
+    { "fr": "Ajouter la farine PETIT À PETIT : trop de farine et les farls deviennent secs et cassants.", "en": "Add the flour LITTLE BY LITTLE: too much and the farls turn dry and brittle." },
+    { "fr": "Abaisser un disque d'un centimètre et le couper EN QUATRE : farl vient du gaélique fardel, quart.", "en": "Roll a one-centimetre disc and cut it IN FOUR: farl comes from the Gaelic fardel, a quarter." },
+    { "fr": "Cuire À SEC sur une poêle chaude, quatre minutes par face, jusqu'à des taches brunes.", "en": "Cook them DRY on a hot pan, four minutes a side, until brown-spotted." },
+    { "fr": "Les beurrer généreusement en sortant de la poêle, et les servir brûlants.", "en": "Butter them generously as they leave the pan, and serve them scalding." }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "bhuna-khichuri",
+  "cuisine": "south-asian",
+  "country": "bangladesh",
+  "origin": "Bangladesh",
+  "native_name": "Bhuna khichuri",
+  "title": {
+    "fr": "Bhuna khichuri, riz et lentilles rissolés",
+    "en": "Bhuna khichuri, fried rice and lentil pilaf"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 50 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["mousson", "riz", "lentille", "famille"],
+  "ingredients": [
+    { "raw": "500 g de riz basmati", "qty": 500, "unit": "g", "item": "riz basmati" },
+    { "raw": "250 g de lentilles corail", "qty": 250, "unit": "g", "item": "lentille corail" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "2 c. à s. de pâte gingembre-ail", "qty": 2, "unit": "tbsp", "item": "pâte gingembre-ail" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin" },
+    { "raw": "6 gousses de cardamome", "qty": 6, "unit": "piece", "item": "cardamome" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "4 feuilles de laurier", "qty": 4, "unit": "piece", "item": "laurier" },
+    { "raw": "6 piments verts, fendus", "qty": 6, "unit": "piece", "item": "piment frais", "prep": "fendu" },
+    { "raw": "120 g de ghee", "qty": 120, "unit": "g", "item": "ghee" },
+    { "raw": "1 c. à c. de garam masala", "qty": 1, "unit": "tsp", "item": "garam masala" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Bhuna khichuri veut dire khichuri RISSOLÉE : contrairement au khichdi indien, elle est sèche et en grains.", "en": "Bhuna khichuri means FRIED khichuri: unlike Indian khichdi, it is dry and grainy." },
+    { "fr": "Griller les lentilles corail à sec cinq minutes, jusqu'à ce qu'elles embaument, puis les rincer.", "en": "Toast the red lentils dry for five minutes, until fragrant, then rinse them." },
+    { "fr": "Ce grillage préalable est ce qui les empêche de se défaire : sans lui, la khichuri devient une bouillie.", "en": "That prior toasting is what stops them collapsing: without it, the khichuri turns to porridge." },
+    { "fr": "Faire brunir les oignons dans le ghee avec les épices entières, quinze minutes.", "en": "Brown the onions in the ghee with the whole spices, fifteen minutes." },
+    { "fr": "Ajouter riz et lentilles égouttés et les remuer cinq minutes dans le gras, jusqu'à ce qu'ils crépitent.", "en": "Add the drained rice and lentils and stir them in the fat for five minutes, until they crackle." },
+    { "fr": "Mouiller d'une fois et demie leur volume d'eau chaude, couvrir, et cuire vingt minutes sans ouvrir.", "en": "Add one and a half times their volume of hot water, cover, and cook for twenty minutes without opening." }
+  ],
+  "notes": [
+    { "fr": "On la mange en saison des pluies, avec du bœuf bhuna ou une omelette. La règle est de servir quelque chose de gras à côté.", "en": "It is eaten in the rainy season, with beef bhuna or an omelette. The rule is to serve something rich alongside." }
+  ]
+}

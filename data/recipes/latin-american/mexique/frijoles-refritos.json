@@ -1,0 +1,37 @@
+{
+  "slug": "frijoles-refritos",
+  "cuisine": "latin-american",
+  "country": "mexique",
+  "origin": "Mexique",
+  "native_name": "Frijoles refritos",
+  "title": {
+    "fr": "Haricots noirs écrasés à la poêle",
+    "en": "Refried black beans"
+  },
+  "meal_type": "side",
+  "servings": 6,
+  "times": { "prep_min": 15, "cook_min": 120 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["quotidien", "haricot", "accompagnement", "economique"],
+  "ingredients": [
+    { "raw": "500 g de haricots noirs secs, trempés la veille", "qty": 500, "unit": "g", "item": "haricot noir", "prep": "trempé la veille" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "6 gousses d'ail", "qty": 6, "unit": "piece", "item": "ail" },
+    { "raw": "120 g de saindoux", "qty": 120, "unit": "g", "item": "saindoux" },
+    { "raw": "2 piments frais", "qty": 2, "unit": "piece", "item": "piment frais" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin" },
+    { "raw": "1 bouquet d'épazote", "qty": 1, "unit": "bunch", "item": "origan séché", "prep": "ou épazote", "optional": true },
+    { "raw": "200 g de queso fresco, émietté", "qty": 200, "unit": "g", "item": "queso fresco", "prep": "émietté", "group": "service" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "« Refritos » ne veut pas dire refrits : c'est un faux ami, cela signifie « bien frits ».", "en": "\"Refritos\" does not mean re-fried: it is a false friend, it means \"well fried\"." },
+    { "fr": "Cuire les haricots DEUX HEURES sans sel, avec oignon et ail : salés tôt, ils gardent la peau dure.", "en": "Cook the beans for TWO HOURS without salt, with onion and garlic: salted early, they keep tough skins." },
+    { "fr": "GARDER leur eau de cuisson : c'est elle qui donne la texture crémeuse à l'écrasement.", "en": "KEEP their cooking water: it gives the creamy texture when crushed." },
+    { "fr": "Faire chauffer le saindoux À FOND et y jeter les haricots égouttés : ils doivent grésiller.", "en": "Heat the lard THOROUGHLY and tip in the drained beans: they must sizzle." },
+    { "fr": "Écraser AU PILON dans la poêle, en ajoutant l'eau de cuisson petit à petit.", "en": "Crush them WITH A MASHER in the pan, adding cooking water little by little." },
+    { "fr": "Continuer jusqu'à ce que la purée se décolle des bords : c'est le signe qu'ils sont prêts.", "en": "Keep going until the purée pulls away from the sides: the sign they are ready." }
+  ]
+}

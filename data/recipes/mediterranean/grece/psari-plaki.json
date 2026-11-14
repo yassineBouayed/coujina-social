@@ -1,0 +1,40 @@
+{
+  "slug": "psari-plaki",
+  "cuisine": "mediterranean",
+  "country": "grece",
+  "origin": "Grèce",
+  "native_name": "Ψάρι πλακί",
+  "title": {
+    "fr": "Poisson au four à la tomate",
+    "en": "Baked fish with tomato"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["poisson", "four", "citron", "simple"],
+  "ingredients": [
+    { "raw": "1,2 kg de dorade, entière ou en filets", "qty": 1200, "unit": "g", "item": "dorade" },
+    { "raw": "600 g de tomates, en tranches", "qty": 600, "unit": "g", "item": "tomate", "prep": "en tranches" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "600 g de pommes de terre, en fines tranches", "qty": 600, "unit": "g", "item": "pomme de terre", "prep": "en fines tranches" },
+    { "raw": "5 gousses d'ail, en lamelles", "qty": 5, "unit": "piece", "item": "ail", "prep": "en lamelles" },
+    { "raw": "2 citrons, en rondelles", "qty": 2, "unit": "piece", "item": "citron", "prep": "en rondelles" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "15 cl d'huile d'olive", "qty": 15, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "2 c. à c. d'origan séché", "qty": 2, "unit": "tsp", "item": "origan" },
+    { "raw": "10 cl de vin blanc sec", "qty": 10, "unit": "cl", "item": "vin blanc" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Cuire les pommes de terre à l'eau QUINZE MINUTES avant de monter le plat.", "en": "Boil the potatoes for FIFTEEN MINUTES before assembling the dish." },
+    { "fr": "Sans cette précuisson, le poisson est sec depuis longtemps quand les pommes de terre sont prêtes.", "en": "Without that head start, the fish is long overcooked by the time the potatoes are done." },
+    { "fr": "Faire fondre les oignons et l'ail vingt minutes à l'huile d'olive, sans les colorer.", "en": "Melt the onions and garlic for twenty minutes in olive oil, without colouring them." },
+    { "fr": "Monter le plat : pommes de terre, oignons, tomates, puis le poisson par-dessus.", "en": "Assemble: potatoes, onions, tomatoes, then the fish on top." },
+    { "fr": "Mouiller de vin blanc, arroser d'huile d'olive, et couvrir de rondelles de citron.", "en": "Add the white wine, drizzle with olive oil, and cover with lemon slices." },
+    { "fr": "Cuire 35 minutes à 190 °C : la chair doit se détacher à peine de l'arête.", "en": "Bake for 35 minutes at 190°C: the flesh should just come away from the bone." }
+  ]
+}

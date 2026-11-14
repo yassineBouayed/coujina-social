@@ -1,0 +1,40 @@
+{
+  "slug": "cornish-pasty",
+  "cuisine": "western-european",
+  "country": "royaume-uni",
+  "origin": "Royaume-Uni",
+  "native_name": "Cornish pasty",
+  "title": {
+    "fr": "Chausson des Cornouailles",
+    "en": "Cornish pasty"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 45, "cook_min": 55 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["cornouailles", "chausson", "mineur", "emporter"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "120 g de saindoux, froid", "qty": 120, "unit": "g", "item": "saindoux", "prep": "froid", "group": "pâte" },
+    { "raw": "120 g de beurre, froid", "qty": 120, "unit": "g", "item": "beurre", "prep": "froid", "group": "pâte" },
+    { "raw": "15 cl d'eau glacée", "qty": 15, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "500 g de bœuf à mijoter, en petits dés", "qty": 500, "unit": "g", "item": "boeuf à mijoter", "prep": "en petits dés", "group": "garniture" },
+    { "raw": "400 g de pommes de terre, en fines lamelles", "qty": 400, "unit": "g", "item": "pomme de terre", "prep": "en fines lamelles", "group": "garniture" },
+    { "raw": "200 g de rutabaga, en fines lamelles", "qty": 200, "unit": "g", "item": "navet", "prep": "en fines lamelles", "group": "garniture" },
+    { "raw": "1 oignon, émincé", "qty": 1, "unit": "piece", "item": "oignon", "prep": "émincé", "group": "garniture" },
+    { "raw": "40 g de beurre", "qty": 40, "unit": "g", "item": "beurre", "group": "garniture" },
+    { "raw": "1 œuf, pour dorer", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La garniture est mise CRUE : elle cuit dans son propre jus, enfermée dans la pâte.", "en": "The filling goes in RAW: it cooks in its own juices, sealed inside the pastry." },
+    { "fr": "Couper la viande AU COUTEAU, en petits dés : hachée, elle rend son eau et détrempe le fond.", "en": "Cut the meat WITH A KNIFE, into small dice: minced, it weeps and soaks the base." },
+    { "fr": "Empiler les couches dans l'ordre : pomme de terre, rutabaga, oignon, viande, beurre dessus.", "en": "Stack the layers in order: potato, swede, onion, meat, butter on top." },
+    { "fr": "Le pli caractéristique est SUR LE CÔTÉ, pas sur le dessus : c'était la poignée du mineur.", "en": "The characteristic crimp runs ALONG THE SIDE, not on top: it was the miner's handle." },
+    { "fr": "Il jetait cette bordure épaissie, souillée par ses mains d'étain, et mangeait le reste.", "en": "He would throw away that thick edge, soiled by his tin-stained hands, and eat the rest." },
+    { "fr": "Cuire 20 minutes à 210 °C, puis 35 minutes à 170 °C.", "en": "Bake for 20 minutes at 210°C, then 35 minutes at 170°C." }
+  ]
+}

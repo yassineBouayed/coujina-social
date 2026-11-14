@@ -1,0 +1,45 @@
+{
+  "slug": "boudin-creole",
+  "cuisine": "caribbean",
+  "country": "guadeloupe",
+  "origin": "Guadeloupe",
+  "native_name": "Boudin créole",
+  "title": {
+    "fr": "Boudin créole épicé",
+    "en": "Spiced creole blood sausage"
+  },
+  "meal_type": "starter",
+  "servings": 8,
+  "times": { "prep_min": 45, "cook_min": 30 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["embleme", "noel", "apero", "epice"],
+  "ingredients": [
+    { "raw": "1 l de sang de porc", "qty": 1, "unit": "l", "item": "sang de porc" },
+    { "raw": "400 g de mie de pain", "qty": 400, "unit": "g", "item": "pain", "prep": "en mie" },
+    { "raw": "40 cl de lait entier", "qty": 40, "unit": "cl", "item": "lait entier" },
+    { "raw": "6 oignons, hachés très finement", "qty": 6, "unit": "piece", "item": "oignon", "prep": "haché très finement" },
+    { "raw": "1 bouquet d'oignons nouveaux, émincés", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "émincé" },
+    { "raw": "12 gousses d'ail, écrasées", "qty": 12, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "2 piments végétariens, hachés", "qty": 2, "unit": "piece", "item": "piment végétarien", "prep": "haché" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "1/2 bouquet de thym frais", "qty": 0.5, "unit": "bunch", "item": "thym" },
+    { "raw": "6 feuilles de bois d'Inde, moulues", "qty": 6, "unit": "piece", "item": "bois d'Inde", "prep": "moulues" },
+    { "raw": "2 c. à c. de clou de girofle moulu", "qty": 2, "unit": "tsp", "item": "clou de girofle", "prep": "moulu" },
+    { "raw": "3 m de boyau naturel", "qty": 3, "unit": "piece", "item": "boyau naturel" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le boudin créole est le plat des FÊTES : il se sert à l'apéritif, coupé en tronçons, en Guadeloupe.", "en": "Creole blood sausage is a FESTIVE dish: served as an aperitif, cut into lengths, in Guadeloupe." },
+    { "fr": "Il est BEAUCOUP plus épicé que le boudin métropolitain : le piment y est franc, pas discret.", "en": "It is FAR spicier than mainland French boudin: the chilli is forthright, not discreet." },
+    { "fr": "Faire tremper la mie dans le lait et l'essorer avant de la mêler au sang.", "en": "Soak the crumb in milk and squeeze it before mixing it into the blood." },
+    { "fr": "Faire fondre les oignons LONGUEMENT, trente minutes : crus, ils restent croquants dans le boudin.", "en": "Melt the onions at LENGTH, thirty minutes: raw, they stay crunchy in the sausage." },
+    { "fr": "Remplir les boyaux AUX DEUX TIERS seulement : trop pleins, ils éclatent au pochage.", "en": "Fill the casings only TWO-THIRDS full: overfilled, they burst while poaching." },
+    { "fr": "Pocher à 80 °C, JAMAIS bouillir : à l'ébullition, tous les boudins se fendent.", "en": "Poach at 80°C, NEVER boil: at a boil, every sausage splits." }
+  ],
+  "notes": [
+    { "fr": "Le sang de porc se commande chez le boucher et s'emploie le jour même.", "en": "Pig's blood is ordered from the butcher and used the same day." }
+  ]
+}

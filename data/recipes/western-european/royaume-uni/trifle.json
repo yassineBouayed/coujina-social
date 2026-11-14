@@ -1,0 +1,40 @@
+{
+  "slug": "trifle",
+  "cuisine": "western-european",
+  "country": "royaume-uni",
+  "origin": "Royaume-Uni",
+  "native_name": "Trifle",
+  "title": {
+    "fr": "Trifle aux fruits rouges",
+    "en": "Berry trifle"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 45, "cook_min": 15 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["noel", "couches", "creme", "froid"],
+  "ingredients": [
+    { "raw": "300 g de biscuits à la cuillère", "qty": 300, "unit": "g", "item": "biscuit à la cuillère" },
+    { "raw": "600 g de fraises, en morceaux", "qty": 600, "unit": "g", "item": "fraise", "prep": "en morceaux" },
+    { "raw": "300 g de framboises", "qty": 300, "unit": "g", "item": "framboise" },
+    { "raw": "200 g de confiture de framboise", "qty": 200, "unit": "g", "item": "confiture" },
+    { "raw": "60 cl de lait entier", "qty": 60, "unit": "cl", "item": "lait entier", "group": "crème" },
+    { "raw": "6 jaunes d'œufs", "qty": 6, "unit": "piece", "item": "oeuf", "group": "crème" },
+    { "raw": "120 g de sucre", "qty": 120, "unit": "g", "item": "sucre", "group": "crème" },
+    { "raw": "40 g de maïzena", "qty": 40, "unit": "g", "item": "maïzena", "group": "crème" },
+    { "raw": "1 gousse de vanille, fendue", "qty": 1, "unit": "piece", "item": "gousse de vanille", "prep": "fendue", "group": "crème" },
+    { "raw": "50 cl de crème liquide entière, très froide", "qty": 50, "unit": "cl", "item": "crème liquide", "prep": "très froide", "group": "chantilly" },
+    { "raw": "40 g de sucre glace", "qty": 40, "unit": "g", "item": "sucre glace", "group": "chantilly" },
+    { "raw": "60 g d'amandes effilées, grillées", "qty": 60, "unit": "g", "item": "amande effilée", "prep": "grillée", "group": "décor" }
+  ],
+  "steps": [
+    { "fr": "Le trifle se monte dans un saladier EN VERRE : les couches sont l'essentiel du dessert.", "en": "A trifle is built in a GLASS bowl: the layers are the point of the dessert." },
+    { "fr": "Faire une crème pâtissière et la couvrir AU CONTACT d'un film : sinon une peau se forme.", "en": "Make a pastry cream and cover it with film TOUCHING THE SURFACE: otherwise a skin forms." },
+    { "fr": "La laisser refroidir COMPLÈTEMENT : tiède, elle fait fondre la chantilly qui viendra dessus.", "en": "Cool it COMPLETELY: warm, it melts the whipped cream that goes on top." },
+    { "fr": "Tapisser le fond de biscuits tartinés de confiture, puis les fruits, puis la crème.", "en": "Line the base with jam-spread biscuits, then the fruit, then the custard." },
+    { "fr": "Réfrigérer SIX HEURES avant d'ajouter la chantilly : les couches doivent se raffermir.", "en": "Chill for SIX HOURS before adding the whipped cream: the layers need to firm up." },
+    { "fr": "Ajouter chantilly et amandes juste avant de servir, pour qu'elles restent nettes.", "en": "Add the cream and almonds just before serving, so they stay crisp." }
+  ]
+}

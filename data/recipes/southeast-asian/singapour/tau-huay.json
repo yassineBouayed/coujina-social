@@ -1,0 +1,35 @@
+{
+  "slug": "tau-huay",
+  "cuisine": "southeast-asian",
+  "country": "singapour",
+  "origin": "Singapour",
+  "native_name": "豆花",
+  "title": {
+    "fr": "Tau huay, crème de soja au sirop de gingembre",
+    "en": "Tau huay, silken soy pudding in ginger syrup"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 40 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["soja", "gingembre", "doux", "hawker"],
+  "ingredients": [
+    { "raw": "300 g de haricot de soja jaune, trempé la veille", "qty": 300, "unit": "g", "item": "tofu soyeux", "prep": "en graines trempées" },
+    { "raw": "2 l d'eau", "qty": 2, "unit": "l", "item": "eau" },
+    { "raw": "10 g de nigari", "qty": 10, "unit": "g", "item": "nigari" },
+    { "raw": "200 g de sucre", "qty": 200, "unit": "g", "item": "sucre", "group": "sirop" },
+    { "raw": "1 gros morceau de gingembre, écrasé", "qty": 1, "unit": "piece", "item": "gingembre", "prep": "écrasé", "group": "sirop" },
+    { "raw": "2 feuilles de pandan, nouées", "qty": 2, "unit": "piece", "item": "feuille de pandan", "prep": "nouée", "group": "sirop" },
+    { "raw": "25 cl d'eau", "qty": 25, "unit": "cl", "item": "eau", "group": "sirop" }
+  ],
+  "steps": [
+    { "fr": "Mixer les graines de soja trempées avec l'eau, puis FILTRER à travers un linge en pressant fort.", "en": "Blend the soaked soybeans with the water, then STRAIN through cloth, pressing hard." },
+    { "fr": "Porter le lait de soja à ébullition et le laisser bouillir DIX MINUTES en écumant.", "en": "Bring the soy milk to a boil and let it boil for TEN MINUTES, skimming." },
+    { "fr": "Le lait de soja cru est indigeste : cette ébullition longue n'est pas facultative.", "en": "Raw soy milk is indigestible: that long boil is not optional." },
+    { "fr": "Le laisser tiédir à 80 °C exactement, et délayer le nigari dans un peu d'eau.", "en": "Cool it to exactly 80°C, and slake the nigari in a little water." },
+    { "fr": "Verser le lait D'UN COUP sur le nigari, de haut, puis NE PLUS BOUGER pendant vingt minutes.", "en": "Pour the milk onto the nigari ALL AT ONCE, from a height, then DO NOT MOVE IT for twenty minutes." },
+    { "fr": "Le moindre mouvement casse le caillé en morceaux : la prise doit se faire dans l'immobilité totale.", "en": "The slightest movement breaks the curd: it must set in complete stillness." }
+  ]
+}

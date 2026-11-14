@@ -1,0 +1,42 @@
+{
+  "slug": "stifado",
+  "cuisine": "mediterranean",
+  "country": "grece",
+  "origin": "Grèce",
+  "native_name": "Στιφάδο",
+  "title": {
+    "fr": "Stifado, ragoût de bœuf aux oignons",
+    "en": "Stifado, beef and onion stew"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 180 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hiver", "mijote", "oignon", "cannelle"],
+  "ingredients": [
+    { "raw": "1,2 kg de bœuf à mijoter, en gros cubes", "qty": 1200, "unit": "g", "item": "boeuf à mijoter", "prep": "en gros cubes" },
+    { "raw": "1 kg de petits oignons grelots", "qty": 1000, "unit": "g", "item": "oignon nouveau" },
+    { "raw": "400 g de tomate pelée en conserve", "qty": 400, "unit": "g", "item": "tomate pelée en conserve" },
+    { "raw": "20 cl de vin rouge", "qty": 20, "unit": "cl", "item": "vin rouge" },
+    { "raw": "5 cl de vinaigre de vin", "qty": 5, "unit": "cl", "item": "vinaigre de vin" },
+    { "raw": "2 bâtons de cannelle", "qty": 2, "unit": "piece", "item": "cannelle", "prep": "en bâton" },
+    { "raw": "5 clous de girofle", "qty": 5, "unit": "piece", "item": "clou de girofle" },
+    { "raw": "1 c. à c. de piment de la Jamaïque", "qty": 1, "unit": "tsp", "item": "piment de la Jamaïque" },
+    { "raw": "3 feuilles de laurier", "qty": 3, "unit": "piece", "item": "laurier" },
+    { "raw": "6 gousses d'ail", "qty": 6, "unit": "piece", "item": "ail" },
+    { "raw": "12 cl d'huile d'olive", "qty": 12, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "1 c. à s. de miel", "qty": 1, "unit": "tbsp", "item": "miel" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le stifado comporte AUTANT d'oignons que de viande : ce n'est pas une garniture, c'est un ingrédient principal.", "en": "Stifado has AS MANY onions as meat: they are not a garnish, they are a main ingredient." },
+    { "fr": "Ébouillanter les grelots deux minutes avant de les peler : la peau part alors toute seule.", "en": "Blanch the small onions for two minutes before peeling: the skin then slips off." },
+    { "fr": "Les laisser ENTIERS : coupés, ils se défont et disparaissent dans la sauce.", "en": "Leave them WHOLE: cut, they collapse and vanish into the sauce." },
+    { "fr": "Saisir la viande, ajouter les épices, déglacer au vin et au vinaigre.", "en": "Sear the meat, add the spices, deglaze with wine and vinegar." },
+    { "fr": "Poser les oignons SUR la viande sans mélanger, et cuire trois heures à couvert.", "en": "Lay the onions ON TOP of the meat without stirring, and cook for three hours, covered." },
+    { "fr": "Ne jamais remuer à la cuillère : secouer la cocotte, sinon les oignons se réduisent en purée.", "en": "Never stir with a spoon: shake the pot, or the onions turn to purée." }
+  ]
+}

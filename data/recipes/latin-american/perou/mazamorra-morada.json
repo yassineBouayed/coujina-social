@@ -1,0 +1,40 @@
+{
+  "slug": "mazamorra-morada",
+  "cuisine": "latin-american",
+  "country": "perou",
+  "origin": "Pérou",
+  "native_name": "Mazamorra morada",
+  "title": {
+    "fr": "Mazamorra violette aux fruits",
+    "en": "Purple corn pudding with fruit"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 25, "cook_min": 50 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["octobre", "mais-violet", "fruits", "tradition"],
+  "ingredients": [
+    { "raw": "500 g de maïs violet séché", "qty": 500, "unit": "g", "item": "maïs violet" },
+    { "raw": "2 l d'eau", "qty": 2, "unit": "l", "item": "eau" },
+    { "raw": "200 g de fruits secs mélangés", "qty": 200, "unit": "g", "item": "abricot sec" },
+    { "raw": "150 g de pruneaux", "qty": 150, "unit": "g", "item": "pruneau" },
+    { "raw": "200 g de griottes", "qty": 200, "unit": "g", "item": "griotte" },
+    { "raw": "1 ananas, en dés", "qty": 1, "unit": "piece", "item": "ananas", "prep": "en dés" },
+    { "raw": "300 g de sucre", "qty": 300, "unit": "g", "item": "sucre" },
+    { "raw": "120 g de fécule de pomme de terre", "qty": 120, "unit": "g", "item": "maïzena", "prep": "ou fécule de pomme de terre" },
+    { "raw": "2 bâtons de cannelle", "qty": 2, "unit": "piece", "item": "cannelle", "prep": "en bâton" },
+    { "raw": "8 clous de girofle", "qty": 8, "unit": "piece", "item": "clou de girofle" },
+    { "raw": "3 citrons verts, leur jus", "qty": 3, "unit": "piece", "item": "citron vert" },
+    { "raw": "2 c. à s. de cannelle moulue", "qty": 2, "unit": "tbsp", "item": "cannelle", "group": "finition" }
+  ],
+  "steps": [
+    { "fr": "Le MAÏS VIOLET n'est pas coloré : c'est une variété andine, dont l'épi entier est violet foncé.", "en": "PURPLE CORN is not dyed: it is an Andean variety whose whole cob is deep purple." },
+    { "fr": "Faire bouillir les épis ENTIERS, rafles comprises, quarante minutes : la rafle donne la couleur.", "en": "Boil the cobs WHOLE, cores included, for forty minutes: the core gives the colour." },
+    { "fr": "Filtrer et GARDER cette eau violette : c'est la base du dessert, il n'y a rien d'autre.", "en": "Strain and KEEP that purple water: it is the dessert's base, there is nothing else." },
+    { "fr": "Cuire les fruits secs dedans, puis ajouter les fruits frais les dix dernières minutes.", "en": "Cook the dried fruit in it, then add the fresh fruit in the last ten minutes." },
+    { "fr": "Délayer la fécule à l'eau FROIDE et la verser en filet dans le liquide BOUILLANT.", "en": "Slake the starch in COLD water and pour it in a thread into the BOILING liquid." },
+    { "fr": "Le CITRON VERT en fin de cuisson n'est pas facultatif : il ravive le violet et coupe le sucre.", "en": "The LIME at the end is not optional: it revives the purple and cuts the sweetness." }
+  ]
+}

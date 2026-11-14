@@ -1,0 +1,43 @@
+{
+  "slug": "beef-wellington",
+  "cuisine": "western-european",
+  "country": "royaume-uni",
+  "origin": "Royaume-Uni",
+  "native_name": "Beef Wellington",
+  "title": {
+    "fr": "Bœuf Wellington en croûte",
+    "en": "Beef Wellington in pastry"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 75, "cook_min": 45 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "feuillete", "boeuf", "technique"],
+  "ingredients": [
+    { "raw": "1,2 kg de filet de bœuf, en un morceau", "qty": 1200, "unit": "g", "item": "filet de boeuf" },
+    { "raw": "600 g de champignons de Paris", "qty": 600, "unit": "g", "item": "champignon de Paris" },
+    { "raw": "12 tranches de jambon cru", "qty": 12, "unit": "piece", "item": "jambon cru" },
+    { "raw": "1 pâte feuilletée", "qty": 1, "unit": "piece", "item": "pâte feuilletée" },
+    { "raw": "4 c. à s. de moutarde", "qty": 4, "unit": "tbsp", "item": "moutarde" },
+    { "raw": "3 échalotes, hachées", "qty": 3, "unit": "piece", "item": "échalote", "prep": "hachée" },
+    { "raw": "10 cl de vin blanc sec", "qty": 10, "unit": "cl", "item": "vin blanc" },
+    { "raw": "2 c. à c. de thym séché", "qty": 2, "unit": "tsp", "item": "thym" },
+    { "raw": "60 g de beurre", "qty": 60, "unit": "g", "item": "beurre" },
+    { "raw": "2 œufs, pour dorer", "qty": 2, "unit": "piece", "item": "oeuf" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Tout l'enjeu du Wellington est l'HUMIDITÉ : chaque étape sert à empêcher la pâte de détremper.", "en": "The whole battle in a Wellington is MOISTURE: every step exists to keep the pastry from going soggy." },
+    { "fr": "Saisir le filet une minute par face à feu très vif, le badigeonner de moutarde, et le refroidir.", "en": "Sear the fillet one minute a side over fierce heat, brush it with mustard, and chill it." },
+    { "fr": "Faire une duxelles : champignons hachés cuits À SEC jusqu'à ce qu'ils ne rendent plus une goutte.", "en": "Make a duxelles: chopped mushrooms cooked DRY until they release not one more drop." },
+    { "fr": "Étaler le jambon cru sur un film, la duxelles dessus, et rouler le filet dedans TRÈS serré.", "en": "Lay the cured ham on cling film, the duxelles on top, and roll the fillet in it VERY tightly." },
+    { "fr": "Réfrigérer ce rouleau UNE HEURE avant d'enrober de feuilletage : froid, il tient sa forme.", "en": "Chill that roll for AN HOUR before wrapping in pastry: cold, it holds its shape." },
+    { "fr": "Dorer à l'œuf, quadriller au couteau, et cuire 40 minutes à 200 °C pour un cœur rosé.", "en": "Egg-wash it, score it, and bake for 40 minutes at 200°C for a pink centre." }
+  ],
+  "notes": [
+    { "fr": "Laisser reposer QUINZE MINUTES avant de trancher : coupé chaud, le jus inonde l'assiette.", "en": "Rest it for FIFTEEN MINUTES before slicing: cut hot, the juices flood the plate." }
+  ]
+}

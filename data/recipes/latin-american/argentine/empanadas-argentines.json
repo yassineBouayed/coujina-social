@@ -1,0 +1,44 @@
+{
+  "slug": "empanadas-argentines",
+  "cuisine": "latin-american",
+  "country": "argentine",
+  "origin": "Argentine",
+  "native_name": "Empanadas salteñas",
+  "title": {
+    "fr": "Empanadas de bœuf à la salteña",
+    "en": "Salta-style beef empanadas"
+  },
+  "meal_type": "main",
+  "servings": 8,
+  "times": { "prep_min": 60, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["salta", "chausson", "boeuf", "embleme"],
+  "ingredients": [
+    { "raw": "600 g de farine de blé", "qty": 600, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "150 g de saindoux", "qty": 150, "unit": "g", "item": "saindoux", "group": "pâte" },
+    { "raw": "25 cl d'eau tiède", "qty": 25, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "2 c. à c. de sel", "qty": 2, "unit": "tsp", "item": "sel", "group": "pâte" },
+    { "raw": "800 g de bœuf, haché au couteau", "qty": 800, "unit": "g", "item": "boeuf à mijoter", "prep": "haché au couteau", "group": "farce" },
+    { "raw": "4 oignons, hachés", "qty": 4, "unit": "piece", "item": "oignon", "prep": "haché", "group": "farce" },
+    { "raw": "1 botte d'oignons nouveaux, émincés", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "émincé", "group": "farce" },
+    { "raw": "3 c. à s. de paprika", "qty": 3, "unit": "tbsp", "item": "paprika", "group": "farce" },
+    { "raw": "2 c. à c. de cumin moulu", "qty": 2, "unit": "tsp", "item": "cumin", "group": "farce" },
+    { "raw": "1 c. à c. de piment en flocons", "qty": 1, "unit": "tsp", "item": "piment en flocons", "group": "farce" },
+    { "raw": "4 œufs durs, hachés", "qty": 4, "unit": "piece", "item": "oeuf", "prep": "dur, haché", "group": "farce" },
+    { "raw": "100 g d'olives vertes, hachées", "qty": 100, "unit": "g", "item": "olive verte", "prep": "hachée", "group": "farce" },
+    { "raw": "300 g de pommes de terre, en petits dés", "qty": 300, "unit": "g", "item": "pomme de terre", "prep": "en petits dés", "group": "farce" },
+    { "raw": "1 œuf, pour dorer", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La farce doit REFROIDIR UNE NUIT au réfrigérateur : c'est la règle des empanadas juteuses.", "en": "The filling must CHILL OVERNIGHT in the fridge: the rule for juicy empanadas." },
+    { "fr": "Le gras figé fond à la cuisson et fait le jus : chaude, la farce détrempe la pâte.", "en": "The set fat melts as it bakes and makes the juice: warm, the filling soaks the pastry." },
+    { "fr": "Hacher la viande AU COUTEAU, jamais au hachoir : c'est la texture des empanadas de Salta.", "en": "Chop the meat WITH A KNIFE, never in a mincer: the Salta empanada texture." },
+    { "fr": "Le SAINDOUX dans la pâte n'est pas remplaçable par du beurre : la texture est différente.", "en": "The LARD in the dough is not replaceable by butter: the texture is different." },
+    { "fr": "Le REPULGUE — le bord tressé — n'est pas décoratif : c'est la soudure, elle doit être serrée.", "en": "The REPULGUE — the braided edge — is not decorative: it is the seal, and it must be tight." },
+    { "fr": "Cuire 25 minutes à 220 °C : le four doit être TRÈS chaud pour que la pâte cuise vite.", "en": "Bake for 25 minutes at 220°C: the oven must be VERY hot so the pastry cooks fast." }
+  ]
+}

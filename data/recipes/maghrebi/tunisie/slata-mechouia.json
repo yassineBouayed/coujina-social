@@ -1,0 +1,40 @@
+{
+  "slug": "slata-mechouia",
+  "cuisine": "maghrebi",
+  "country": "tunisie",
+  "origin": "Tunisie",
+  "native_name": "Slata mechouia",
+  "title": {
+    "fr": "Slata mechouia, salade de légumes grillés",
+    "en": "Slata mechouia, grilled vegetable salad"
+  },
+  "meal_type": "salad",
+  "servings": 4,
+  "times": { "prep_min": 30, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["grille", "entree", "ete", "thon"],
+  "ingredients": [
+    { "raw": "6 poivrons verts", "qty": 6, "unit": "piece", "item": "poivron vert" },
+    { "raw": "4 tomates", "qty": 4, "unit": "piece", "item": "tomate" },
+    { "raw": "1 oignon", "qty": 1, "unit": "piece", "item": "oignon" },
+    { "raw": "4 gousses d'ail", "qty": 4, "unit": "piece", "item": "ail" },
+    { "raw": "1 c. à c. de carvi moulu", "qty": 1, "unit": "tsp", "item": "carvi" },
+    { "raw": "1 c. à c. de coriandre en graines, moulue", "qty": 1, "unit": "tsp", "item": "coriandre graines", "prep": "moulue" },
+    { "raw": "5 c. à s. d'huile d'olive", "qty": 5, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "100 g de thon en conserve, égoutté", "qty": 100, "unit": "g", "item": "thon en conserve", "prep": "égoutté", "group": "garniture" },
+    { "raw": "2 œufs durs, en quartiers", "qty": 2, "unit": "piece", "item": "oeuf", "prep": "dur", "group": "garniture" },
+    { "raw": "8 olives noires", "qty": 8, "unit": "piece", "item": "olive noire", "group": "garniture" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Griller poivrons, tomates, oignon et ail entiers, sur la flamme, jusqu'à ce que la peau noircisse.", "en": "Char the peppers, tomatoes, onion and garlic whole over a flame, until the skins blacken." },
+    { "fr": "Les laisser suer sous un couvercle dix minutes, puis les peler et les épépiner.", "en": "Sweat them under a lid for ten minutes, then peel and seed them." },
+    { "fr": "Hacher au couteau, jamais au mixeur : la mechouia se reconnaît à ce qu'on distingue encore les morceaux.", "en": "Chop with a knife, never a blender: mechouia is recognised by the pieces still being visible." },
+    { "fr": "Écraser l'ail grillé avec le carvi, la coriandre et le sel, et l'incorporer.", "en": "Crush the roasted garlic with the caraway, coriander and salt, and stir it in." },
+    { "fr": "Laisser égoutter dans une passoire une demi-heure : sans cela, la salade nage.", "en": "Drain in a sieve for half an hour: without it, the salad swims." },
+    { "fr": "Assaisonner d'huile et de citron, et garnir de thon, d'œufs durs et d'olives.", "en": "Dress with oil and lemon, and top with tuna, hard-boiled eggs and olives." }
+  ]
+}

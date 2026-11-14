@@ -1,0 +1,35 @@
+{
+  "slug": "pulpo-a-la-gallega",
+  "cuisine": "mediterranean",
+  "country": "espagne",
+  "origin": "Espagne",
+  "native_name": "Pulpo a la gallega",
+  "title": {
+    "fr": "Poulpe à la galicienne",
+    "en": "Galician-style octopus"
+  },
+  "meal_type": "starter",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 60 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["galice", "poulpe", "paprika", "tapas"],
+  "ingredients": [
+    { "raw": "1 poulpe de 1,5 kg", "qty": 1500, "unit": "g", "item": "poulpe" },
+    { "raw": "800 g de pommes de terre", "qty": 800, "unit": "g", "item": "pomme de terre" },
+    { "raw": "3 c. à s. de paprika fumé", "qty": 3, "unit": "tbsp", "item": "paprika fumé" },
+    { "raw": "12 cl d'huile d'olive", "qty": 12, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "1 oignon", "qty": 1, "unit": "piece", "item": "oignon" },
+    { "raw": "3 c. à s. de gros sel", "qty": 3, "unit": "tbsp", "item": "gros sel" },
+    { "raw": "1 feuille de laurier", "qty": 1, "unit": "piece", "item": "laurier" }
+  ],
+  "steps": [
+    { "fr": "Congeler le poulpe 48 heures et le décongeler : le gel casse les fibres et l'attendrit.", "en": "Freeze the octopus for 48 hours and thaw it: freezing breaks the fibres and tenderises it." },
+    { "fr": "C'est le seul vrai secret galicien, avec l'effrayage : le reste de la recette est très simple.", "en": "That, with the scaring, is the only real Galician secret: the rest of the recipe is very simple." },
+    { "fr": "EFFRAYER le poulpe : le plonger trois fois dans l'eau bouillante, cinq secondes, avant de l'y laisser.", "en": "SCARE the octopus: dip it into boiling water three times, five seconds each, before leaving it in." },
+    { "fr": "Ce choc thermique répété fait rétracter la peau, qui reste attachée au lieu de se détacher en lambeaux.", "en": "That repeated thermal shock tightens the skin, which stays attached instead of shredding off." },
+    { "fr": "Cuire 45 minutes avec l'oignon et le laurier, puis LAISSER REPOSER dans l'eau vingt minutes.", "en": "Cook for 45 minutes with the onion and bay, then REST it in the water for twenty minutes." },
+    { "fr": "Trancher aux ciseaux, dresser sur les pommes de terre, et couvrir de gros sel, paprika et huile.", "en": "Cut it with scissors, lay it over the potatoes, and cover with coarse salt, paprika and oil." }
+  ]
+}

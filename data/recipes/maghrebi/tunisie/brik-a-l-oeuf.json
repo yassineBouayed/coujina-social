@@ -1,0 +1,42 @@
+{
+  "slug": "brik-a-l-oeuf",
+  "cuisine": "maghrebi",
+  "country": "tunisie",
+  "origin": "Tunisie",
+  "native_name": "Brik à l'œuf",
+  "title": {
+    "fr": "Brik à l'œuf et au thon",
+    "en": "Brik with egg and tuna"
+  },
+  "meal_type": "starter",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 10 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ramadan", "friture", "oeuf", "embleme"],
+  "ingredients": [
+    { "raw": "4 feuilles de brick", "qty": 4, "unit": "piece", "item": "feuille de brick" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf" },
+    { "raw": "200 g de thon en conserve, égoutté", "qty": 200, "unit": "g", "item": "thon en conserve", "prep": "égoutté" },
+    { "raw": "2 pommes de terre, cuites et écrasées", "qty": 2, "unit": "piece", "item": "pomme de terre", "prep": "cuite et écrasée" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "1 c. à s. de câpres", "qty": 1, "unit": "tbsp", "item": "câpre", "optional": true },
+    { "raw": "1 c. à c. de harissa", "qty": 1, "unit": "tsp", "item": "harissa" },
+    { "raw": "1 oignon, haché finement", "qty": 1, "unit": "piece", "item": "oignon", "prep": "haché finement" },
+    { "raw": "1 l d'huile de tournesol pour la friture", "qty": 1, "unit": "l", "item": "huile de tournesol" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Mélanger le thon, la pomme de terre écrasée, l'oignon, le persil, les câpres et la harissa.", "en": "Mix the tuna, crushed potato, onion, parsley, capers and harissa." },
+    { "fr": "Poser une feuille de brick à plat, déposer la farce en couronne, et creuser un puits au centre.", "en": "Lay a brick sheet flat, spoon the filling in a ring, and hollow a well in the middle." },
+    { "fr": "Casser l'œuf dans le puits, sans crever le jaune. C'est le seul enjeu de la recette.", "en": "Crack the egg into the well without breaking the yolk. That is the whole point of the recipe." },
+    { "fr": "Replier en demi-lune et souder les bords en pressant, sans étirer la feuille.", "en": "Fold into a half-moon and press the edges shut, without stretching the sheet." },
+    { "fr": "Glisser dans l'huile à 180 °C, en arrosant le dessus à la cuillère, deux minutes en tout.", "en": "Slide into 180°C oil, spooning oil over the top, two minutes in all." },
+    { "fr": "Servir immédiatement : un brik qui attend est un brik dont le jaune a cuit.", "en": "Serve at once: a brik that waits is a brik whose yolk has set." }
+  ],
+  "notes": [
+    { "fr": "Le brik se mange à la main, en commençant par le coin, pour boire le jaune avant qu'il coule.", "en": "Brik is eaten by hand, starting at a corner, to drink the yolk before it runs." }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "gu-lao-rou",
+  "cuisine": "east-asian",
+  "country": "chine",
+  "origin": "Chine",
+  "native_name": "咕噜肉",
+  "title": {
+    "fr": "Porc aigre-doux à l'ananas",
+    "en": "Sweet and sour pork with pineapple"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 30, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["canton", "friture", "aigre-doux", "populaire"],
+  "ingredients": [
+    { "raw": "700 g d'échine de porc, en cubes", "qty": 700, "unit": "g", "item": "échine de porc", "prep": "en cubes" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf", "group": "panure" },
+    { "raw": "100 g de maïzena", "qty": 100, "unit": "g", "item": "maïzena", "group": "panure" },
+    { "raw": "1 poivron rouge, en gros dés", "qty": 1, "unit": "piece", "item": "poivron rouge", "prep": "en gros dés" },
+    { "raw": "1 poivron vert, en gros dés", "qty": 1, "unit": "piece", "item": "poivron vert", "prep": "en gros dés" },
+    { "raw": "1 oignon, en gros dés", "qty": 1, "unit": "piece", "item": "oignon", "prep": "en gros dés" },
+    { "raw": "200 g d'ananas, en morceaux", "qty": 200, "unit": "g", "item": "ananas", "prep": "en morceaux" },
+    { "raw": "5 c. à s. de vinaigre de riz", "qty": 5, "unit": "tbsp", "item": "vinaigre de riz", "group": "sauce" },
+    { "raw": "4 c. à s. de sucre", "qty": 4, "unit": "tbsp", "item": "sucre", "group": "sauce" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate", "group": "sauce" },
+    { "raw": "2 c. à s. de sauce soja", "qty": 2, "unit": "tbsp", "item": "sauce soja", "group": "sauce" },
+    { "raw": "1 l d'huile neutre pour la friture", "qty": 1, "unit": "l", "item": "huile neutre" },
+    { "raw": "sel et poivre blanc", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre blanc", "qty": null, "unit": null, "item": "poivre blanc" }
+  ],
+  "steps": [
+    { "fr": "Mariner le porc trente minutes dans l'œuf, le sel et le poivre blanc.", "en": "Marinate the pork for thirty minutes in the egg, salt and white pepper." },
+    { "fr": "L'enrober de maïzena SEULE, sans farine : c'est elle qui donne le croustillant qui tient sous la sauce.", "en": "Coat it in cornflour ALONE, no wheat flour: it is what gives a crispness that survives the sauce." },
+    { "fr": "Frire une première fois à 160 °C pour cuire, puis égoutter cinq minutes.", "en": "Fry once at 160°C to cook it through, then drain for five minutes." },
+    { "fr": "Frire une SECONDE fois à 190 °C, une minute : c'est cette double friture qui fait tout.", "en": "Fry a SECOND time at 190°C for a minute: that double fry is what makes it." },
+    { "fr": "Faire sauter les légumes et l'ananas à feu vif, puis verser la sauce et la laisser épaissir.", "en": "Stir-fry the vegetables and pineapple over high heat, then pour in the sauce and let it thicken." },
+    { "fr": "Ajouter le porc HORS DU FEU et servir dans la minute : il ramollit en trois minutes.", "en": "Add the pork OFF THE HEAT and serve within the minute: it softens within three." }
+  ]
+}

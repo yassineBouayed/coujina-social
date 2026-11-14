@@ -1,0 +1,39 @@
+{
+  "slug": "chtitha-djedj",
+  "cuisine": "maghrebi",
+  "country": "algerie",
+  "origin": "Algérie",
+  "native_name": "Chtitha djedj",
+  "title": {
+    "fr": "Chtitha de poulet à la sauce rouge",
+    "en": "Chtitha, chicken in red sauce"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 55 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["quotidien", "poulet", "sauce-rouge", "pois-chiche"],
+  "ingredients": [
+    { "raw": "1,2 kg de cuisses de poulet", "qty": 1200, "unit": "g", "item": "cuisse de poulet" },
+    { "raw": "2 oignons, râpés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "râpé" },
+    { "raw": "6 gousses d'ail, écrasées", "qty": 6, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "2 c. à c. de paprika", "qty": 2, "unit": "tsp", "item": "paprika" },
+    { "raw": "1 c. à c. de piment en poudre", "qty": 1, "unit": "tsp", "item": "piment en poudre" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin" },
+    { "raw": "200 g de pois chiches en conserve, égouttés", "qty": 200, "unit": "g", "item": "pois chiche en conserve", "prep": "égoutté" },
+    { "raw": "5 c. à s. d'huile d'olive", "qty": 5, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Faire dorer le poulet dans l'huile sur toutes ses faces, puis le réserver.", "en": "Brown the chicken all over in the oil, then set aside." },
+    { "fr": "Faire revenir l'oignon et l'ail dans la même huile jusqu'à ce qu'ils fondent.", "en": "Soften the onion and garlic in the same oil until they melt." },
+    { "fr": "Ajouter le concentré de tomate et le laisser cuire deux minutes à sec : c'est ce qui enlève son goût de conserve.", "en": "Add the tomato purée and let it fry dry for two minutes: that is what removes its tinned taste." },
+    { "fr": "Ajouter paprika, piment et cumin hors du feu quelques secondes, pour qu'ils ne brûlent pas.", "en": "Add paprika, chilli and cumin off the heat for a few seconds, so they do not scorch." },
+    { "fr": "Remettre le poulet, mouiller à hauteur, et laisser mijoter quarante minutes à couvert.", "en": "Return the chicken, cover with water, and simmer for forty minutes, covered." },
+    { "fr": "Ajouter les pois chiches, découvrir et réduire jusqu'à ce que l'huile remonte en surface : c'est le signe que la sauce est prête.", "en": "Add the chickpeas, uncover and reduce until the oil rises to the surface: the sign that the sauce is ready." }
+  ]
+}

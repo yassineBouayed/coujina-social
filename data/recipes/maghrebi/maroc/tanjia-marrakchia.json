@@ -1,0 +1,43 @@
+{
+  "slug": "tanjia-marrakchia",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Tanjia marrakchia",
+  "title": {
+    "fr": "Tanjia marrakchia, jarret de veau confit à la jarre",
+    "en": "Tanjia marrakchia, veal shank confit in a clay urn"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 240 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["marrakech", "veau", "cuisson-lente", "plat-d-homme"],
+  "ingredients": [
+    { "raw": "1,2 kg de jarret de veau en gros morceaux", "qty": 1200, "unit": "g", "item": "veau à mijoter", "prep": "en gros morceaux" },
+    { "raw": "1 citron confit, coupé en quartiers", "qty": 1, "unit": "piece", "item": "citron confit", "prep": "en quartiers" },
+    { "raw": "8 gousses d'ail, écrasées", "qty": 8, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "2 c. à s. de smen", "qty": 2, "unit": "tbsp", "item": "smen", "substitutes": [{ "item": "beurre", "note": "la tanjia perd son goût rance et fermenté, qui est sa signature" }] },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin" },
+    { "raw": "1 grosse pincée de safran en filaments", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "1 c. à c. de ras el-hanout", "qty": 1, "unit": "tsp", "item": "ras el-hanout" },
+    { "raw": "1 c. à c. de gingembre moulu", "qty": 1, "unit": "tsp", "item": "gingembre moulu" },
+    { "raw": "1/2 c. à c. de curcuma", "qty": 0.5, "unit": "tsp", "item": "curcuma" },
+    { "raw": "3 c. à s. d'huile d'olive", "qty": 3, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "20 cl d'eau", "qty": 20, "unit": "cl", "item": "eau" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Tout mettre dans la jarre en une seule fois : viande, ail, citron confit, épices, smen, huile et eau. La tanjia ne se fait pas revenir, jamais.", "en": "Put everything in the urn at once: meat, garlic, preserved lemon, spices, smen, oil and water. Tanjia is never browned first." },
+    { "fr": "Mélanger à la main pour enrober chaque morceau, puis fermer avec du papier sulfurisé maintenu par une ficelle.", "en": "Mix by hand to coat every piece, then seal with parchment held down by string." },
+    { "fr": "Enfourner à 140 °C pendant quatre heures. La chaleur douce et longue est le seul geste technique du plat.", "en": "Bake at 140°C for four hours. Long, gentle heat is the only technique this dish has." },
+    { "fr": "Ne pas ouvrir avant trois heures : chaque ouverture laisse partir la vapeur qui cuit la viande.", "en": "Do not open before three hours: every opening lets out the steam that is doing the cooking." },
+    { "fr": "La viande est prête quand elle se détache de l'os sans résistance et que le jus est court et gras.", "en": "It is ready when the meat falls off the bone with no resistance and the juices are short and fatty." },
+    { "fr": "Servir directement dans la jarre, avec du pain, sans accompagnement : la tanjia se mange à la main.", "en": "Serve straight from the urn with bread and nothing else: tanjia is eaten with the hands." }
+  ],
+  "notes": [
+    { "fr": "Sans jarre en terre, une cocotte en fonte fermée donne un résultat proche. Le nom reste abusif, et il vaut mieux le dire que le cacher.", "en": "With no clay urn, a sealed cast-iron pot comes close. The name is then a stretch, and it is better said than hidden." }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "crabes-farcis",
+  "cuisine": "caribbean",
+  "country": "guadeloupe",
+  "origin": "Guadeloupe",
+  "native_name": "Crabes farcis",
+  "title": {
+    "fr": "Crabes farcis à la créole",
+    "en": "Creole stuffed crabs"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 45, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["paques", "crabe", "farci", "fete"],
+  "ingredients": [
+    { "raw": "600 g de chair de crabe", "qty": 600, "unit": "g", "item": "crabe" },
+    { "raw": "6 carapaces de crabe", "qty": 6, "unit": "piece", "item": "crabe", "prep": "carapaces vidées" },
+    { "raw": "250 g de mie de pain", "qty": 250, "unit": "g", "item": "pain", "prep": "en mie" },
+    { "raw": "25 cl de lait entier", "qty": 25, "unit": "cl", "item": "lait entier" },
+    { "raw": "3 oignons, hachés très finement", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché très finement" },
+    { "raw": "1 bouquet d'oignons nouveaux, émincés", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "émincé" },
+    { "raw": "8 gousses d'ail, écrasées", "qty": 8, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 piment végétarien, haché", "qty": 1, "unit": "piece", "item": "piment végétarien", "prep": "haché" },
+    { "raw": "3 citrons verts, leur jus", "qty": 3, "unit": "piece", "item": "citron vert" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "1/2 bouquet de thym frais", "qty": 0.5, "unit": "bunch", "item": "thym" },
+    { "raw": "100 g de chapelure", "qty": 100, "unit": "g", "item": "panko" },
+    { "raw": "8 c. à s. d'huile neutre", "qty": 8, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Les crabes farcis sont le plat de PÂQUES en Guadeloupe : on les prépare la veille du lundi de Pâques.", "en": "Stuffed crabs are the EASTER dish in Guadeloupe: prepared the day before Easter Monday." },
+    { "fr": "TRIER la chair de crabe à la main, morceau par morceau : un fragment de carapace gâche la bouchée.", "en": "PICK OVER the crab meat by hand, piece by piece: one shell fragment ruins the mouthful." },
+    { "fr": "Faire tremper la mie dans le lait et l'essorer : c'est elle qui donne le moelleux de la farce.", "en": "Soak the crumb in milk and squeeze it: it gives the filling its softness." },
+    { "fr": "Faire fondre les oignons vingt minutes et les laisser REFROIDIR avant de mêler le crabe.", "en": "Melt the onions for twenty minutes and COOL them before folding in the crab." },
+    { "fr": "Le crabe ne se cuit PAS deux fois : il est déjà cuit, il ne fait que chauffer au four.", "en": "The crab is NOT cooked twice: it is already cooked, it only warms in the oven." },
+    { "fr": "Garnir les carapaces, couvrir de chapelure, et gratiner quinze minutes à 200 °C.", "en": "Fill the shells, cover with breadcrumbs, and bake for fifteen minutes at 200°C." }
+  ]
+}

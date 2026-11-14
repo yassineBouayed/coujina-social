@@ -1,0 +1,36 @@
+{
+  "slug": "buko-pandan",
+  "cuisine": "southeast-asian",
+  "country": "philippines",
+  "origin": "Philippines",
+  "native_name": "Buko pandan",
+  "title": {
+    "fr": "Buko pandan, salade de coco et gelée verte",
+    "en": "Buko pandan, young coconut and green jelly salad"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "coco", "pandan", "froid"],
+  "ingredients": [
+    { "raw": "400 g de chair de coco jeune, en lanières", "qty": 400, "unit": "g", "item": "noix de coco", "prep": "en lanières" },
+    { "raw": "20 g de gélatine", "qty": 20, "unit": "g", "item": "gelatine" },
+    { "raw": "75 cl d'eau", "qty": 75, "unit": "cl", "item": "eau" },
+    { "raw": "2 c. à c. d'extrait de pandan", "qty": 2, "unit": "tsp", "item": "feuille de pandan", "prep": "en extrait" },
+    { "raw": "40 cl de crème liquide", "qty": 40, "unit": "cl", "item": "crème liquide" },
+    { "raw": "20 cl de lait concentré sucré", "qty": 20, "unit": "cl", "item": "lait concentré sucré" },
+    { "raw": "100 g de perles de tapioca", "qty": 100, "unit": "g", "item": "maïzena", "prep": "en perles", "optional": true },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Préparer la gelée au pandan et la laisser prendre au frais QUATRE HEURES avant de la couper.", "en": "Make the pandan jelly and set it in the fridge for FOUR HOURS before cutting it." },
+    { "fr": "La couper en cubes réguliers d'un centimètre : trop gros, ils déséquilibrent chaque cuillerée.", "en": "Cut it into even one-centimetre cubes: too large, and each spoonful is unbalanced." },
+    { "fr": "Fouetter la crème liquide très froide jusqu'à ce qu'elle soit ferme mais pas granuleuse.", "en": "Whip the very cold cream until firm but not grainy." },
+    { "fr": "Incorporer le lait concentré et une PINCÉE DE SEL : sans sel, le dessert est écœurant.", "en": "Fold in the condensed milk and a PINCH OF SALT: without salt, the dessert is cloying." },
+    { "fr": "Ajouter la coco et la gelée délicatement, à la spatule, sans écraser la crème.", "en": "Fold in the coconut and jelly gently, with a spatula, without knocking the air out." },
+    { "fr": "Laisser reposer TROIS HEURES au frais avant de servir : le buko pandan a besoin de se lier.", "en": "Rest it for THREE HOURS in the fridge before serving: buko pandan needs time to come together." }
+  ]
+}

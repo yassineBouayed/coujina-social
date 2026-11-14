@@ -1,0 +1,39 @@
+{
+  "slug": "gimbap",
+  "cuisine": "east-asian",
+  "country": "coree-du-sud",
+  "origin": "Corée du Sud",
+  "native_name": "김밥",
+  "title": {
+    "fr": "Gimbap, rouleaux de riz aux légumes",
+    "en": "Gimbap, seaweed rice rolls"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 50, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["pique-nique", "riz", "nori", "bento"],
+  "ingredients": [
+    { "raw": "500 g de riz rond", "qty": 500, "unit": "g", "item": "riz rond" },
+    { "raw": "6 feuilles de nori", "qty": 6, "unit": "piece", "item": "nori" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf" },
+    { "raw": "2 carottes, en julienne", "qty": 2, "unit": "piece", "item": "carotte", "prep": "en julienne" },
+    { "raw": "200 g d'épinards", "qty": 200, "unit": "g", "item": "épinard" },
+    { "raw": "1 concombre, en bâtonnets", "qty": 1, "unit": "piece", "item": "concombre", "prep": "en bâtonnets" },
+    { "raw": "200 g de bœuf en lanières", "qty": 200, "unit": "g", "item": "steak de bœuf", "prep": "en lanières" },
+    { "raw": "4 c. à s. d'huile de sésame", "qty": 4, "unit": "tbsp", "item": "huile de sésame" },
+    { "raw": "2 c. à s. de graines de sésame", "qty": 2, "unit": "tbsp", "item": "sésame" },
+    { "raw": "3 c. à s. de sauce soja", "qty": 3, "unit": "tbsp", "item": "sauce soja" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le riz du gimbap est assaisonné à l'HUILE DE SÉSAME et au sel, jamais au vinaigre : ce n'est pas un sushi.", "en": "Gimbap rice is seasoned with SESAME OIL and salt, never vinegar: this is not sushi." },
+    { "fr": "Préparer chaque garniture séparément : épinards blanchis et pressés, carottes sautées, œufs en omelette.", "en": "Prepare each filling separately: spinach blanched and squeezed, carrots stir-fried, eggs as an omelette." },
+    { "fr": "Étaler une couche FINE de riz sur la feuille de nori, en laissant trois centimètres libres en haut.", "en": "Spread a THIN layer of rice on the nori, leaving three centimetres bare at the top." },
+    { "fr": "Trop de riz est la première cause d'échec : le rouleau ne se ferme plus et éclate.", "en": "Too much rice is the main cause of failure: the roll will not close and bursts." },
+    { "fr": "Ranger les garnitures en bandes serrées au tiers inférieur, et rouler fermement au tapis de bambou.", "en": "Lay the fillings in tight strips across the lower third, and roll firmly with a bamboo mat." },
+    { "fr": "Huiler le rouleau au sésame, puis couper avec un couteau MOUILLÉ entre chaque tranche.", "en": "Oil the roll with sesame, then cut with a WET knife, wiping between each slice." }
+  ]
+}

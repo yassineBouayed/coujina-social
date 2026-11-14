@@ -1,0 +1,42 @@
+{
+  "slug": "gratin-christophine",
+  "cuisine": "caribbean",
+  "country": "guadeloupe",
+  "origin": "Guadeloupe",
+  "native_name": "Gratin de christophine",
+  "title": {
+    "fr": "Gratin de christophine",
+    "en": "Chayote gratin"
+  },
+  "meal_type": "side",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 50 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["embleme", "christophine", "gratin", "accompagnement"],
+  "ingredients": [
+    { "raw": "5 christophines", "qty": 5, "unit": "piece", "item": "christophine" },
+    { "raw": "200 g de poitrine de porc fumée, en dés", "qty": 200, "unit": "g", "item": "poitrine de porc", "prep": "fumée, en dés" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "6 gousses d'ail, écrasées", "qty": 6, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "50 g de beurre", "qty": 50, "unit": "g", "item": "beurre", "group": "béchamel" },
+    { "raw": "50 g de farine de blé", "qty": 50, "unit": "g", "item": "farine de blé", "group": "béchamel" },
+    { "raw": "40 cl de lait entier", "qty": 40, "unit": "cl", "item": "lait entier", "group": "béchamel" },
+    { "raw": "150 g d'emmental, râpé", "qty": 150, "unit": "g", "item": "emmental", "prep": "râpé" },
+    { "raw": "120 g de chapelure", "qty": 120, "unit": "g", "item": "panko" },
+    { "raw": "1 piment végétarien, haché", "qty": 1, "unit": "piece", "item": "piment végétarien", "prep": "haché" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La christophine est faite de 93 % d'eau : lui faire perdre cette eau est TOUT le travail.", "en": "Chayote is 93% water: making it give that water up is the WHOLE job." },
+    { "fr": "La cuire à l'eau salée trente minutes, puis l'ÉCRASER et la PRESSER dans un torchon.", "en": "Boil it in salted water for thirty minutes, then CRUSH it and SQUEEZE it in a cloth." },
+    { "fr": "Sans ce pressage, le gratin baigne dans un jus fade et ne prend jamais.", "en": "Without that squeeze, the gratin swims in a bland liquid and never sets." },
+    { "fr": "La peler EN LA CUISANT ENTIÈRE : crue, elle rend une sève collante sur les mains.", "en": "Peel it AFTER boiling it whole: raw, it exudes a sticky sap onto the hands." },
+    { "fr": "Faire une béchamel ÉPAISSE, plus serrée que d'ordinaire : la christophine la détendra encore.", "en": "Make a THICK béchamel, tighter than usual: the chayote will loosen it further." },
+    { "fr": "Couvrir de chapelure et de fromage, et gratiner vingt minutes à 200 °C.", "en": "Cover with breadcrumbs and cheese, and bake for twenty minutes at 200°C." }
+  ]
+}

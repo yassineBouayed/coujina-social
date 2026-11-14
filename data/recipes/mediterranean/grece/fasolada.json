@@ -1,0 +1,39 @@
+{
+  "slug": "fasolada",
+  "cuisine": "mediterranean",
+  "country": "grece",
+  "origin": "Grèce",
+  "native_name": "Φασολάδα",
+  "title": {
+    "fr": "Fasolada, soupe de haricots blancs",
+    "en": "Fasolada, white bean soup"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 100 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hiver", "haricot", "vegetarien", "carême"],
+  "ingredients": [
+    { "raw": "500 g de haricots blancs secs, trempés la veille", "qty": 500, "unit": "g", "item": "haricot blanc", "prep": "trempé la veille" },
+    { "raw": "3 carottes, en rondelles", "qty": 3, "unit": "piece", "item": "carotte", "prep": "en rondelles" },
+    { "raw": "3 branches de céleri, en tronçons", "qty": 3, "unit": "piece", "item": "céleri branche", "prep": "en tronçons" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "20 cl d'huile d'olive", "qty": 20, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "1 c. à c. de piment doux en flocons", "qty": 1, "unit": "tsp", "item": "piment en flocons" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La fasolada est souvent appelée le plat national grec : elle n'a pourtant ni viande ni fromage.", "en": "Fasolada is often called the Greek national dish: yet it has neither meat nor cheese." },
+    { "fr": "Faire bouillir les haricots trempés dix minutes et JETER cette première eau.", "en": "Boil the soaked beans for ten minutes and DISCARD that first water." },
+    { "fr": "Cette eau porte les sucres qui fermentent : la jeter rend le plat beaucoup plus digeste.", "en": "That water carries the sugars that ferment: discarding it makes the dish far easier to digest." },
+    { "fr": "Repartir à l'eau claire avec les légumes et cuire une heure et demie.", "en": "Restart in fresh water with the vegetables and cook for an hour and a half." },
+    { "fr": "Saler SEULEMENT quand les haricots sont tendres : salés tôt, ils gardent la peau dure.", "en": "Salt ONLY when the beans are tender: salted early, they keep tough skins." },
+    { "fr": "Ajouter la moitié de l'huile d'olive CRUE en fin de cuisson : c'est là toute la richesse du plat.", "en": "Add half the olive oil RAW at the end: that is where the dish's richness comes from." }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "thiou-poisson",
+  "cuisine": "west-african",
+  "country": "senegal",
+  "origin": "Sénégal",
+  "native_name": "Thiou",
+  "title": {
+    "fr": "Thiou de poisson à la tomate",
+    "en": "Thiou, fish stew with tomato"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 50 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["tomate", "quotidien", "poisson", "legumes"],
+  "ingredients": [
+    { "raw": "1 kg de thiof, en tronçons", "qty": 1000, "unit": "g", "item": "thiof", "prep": "en tronçons" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "5 c. à s. de concentré de tomate", "qty": 5, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "2 carottes, en tronçons", "qty": 2, "unit": "piece", "item": "carotte", "prep": "en tronçons" },
+    { "raw": "1 aubergine, en gros cubes", "qty": 1, "unit": "piece", "item": "aubergine", "prep": "en gros cubes" },
+    { "raw": "2 pommes de terre, en quartiers", "qty": 2, "unit": "piece", "item": "pomme de terre", "prep": "en quartiers" },
+    { "raw": "4 gousses d'ail", "qty": 4, "unit": "piece", "item": "ail" },
+    { "raw": "1 piment oiseau", "qty": 1, "unit": "piece", "item": "piment oiseau" },
+    { "raw": "1 cube de bouillon", "qty": 1, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "8 c. à s. d'huile d'arachide", "qty": 8, "unit": "tbsp", "item": "huile d'arachide" },
+    { "raw": "400 g de riz brisé", "qty": 400, "unit": "g", "item": "riz brisé", "group": "service" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire fondre les oignons dans l'huile jusqu'à ce qu'ils soient translucides.", "en": "Melt the onions in the oil until translucent." },
+    { "fr": "Ajouter le concentré de tomate et le faire cuire cinq minutes à feu doux : il doit foncer et perdre son acidité.", "en": "Add the tomato purée and cook it for five minutes over low heat: it should darken and lose its acidity." },
+    { "fr": "Mouiller, ajouter l'ail, le cube et le piment entier, puis les légumes du plus dur au plus tendre.", "en": "Add water, garlic, stock cube and whole chilli, then the vegetables from firmest to softest." },
+    { "fr": "Quand les légumes sont presque cuits, déposer le poisson et pocher dix minutes.", "en": "When the vegetables are nearly done, lay in the fish and poach for ten minutes." },
+    { "fr": "Servir la sauce et les légumes sur du riz blanc, le poisson entier posé dessus.", "en": "Serve the sauce and vegetables over white rice, with the whole fish on top." }
+  ]
+}

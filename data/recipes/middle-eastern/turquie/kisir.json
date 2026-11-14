@@ -1,0 +1,40 @@
+{
+  "slug": "kisir",
+  "cuisine": "middle-eastern",
+  "country": "turquie",
+  "origin": "Turquie",
+  "native_name": "Kısır",
+  "title": {
+    "fr": "Kısır, salade de boulgour au concentré de poivron",
+    "en": "Kisir, bulgur salad with pepper paste"
+  },
+  "meal_type": "salad",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["boulgour", "the", "cru", "grenade"],
+  "ingredients": [
+    { "raw": "300 g de boulgour fin", "qty": 300, "unit": "g", "item": "boulgour fin" },
+    { "raw": "3 c. à s. de concentré de poivron", "qty": 3, "unit": "tbsp", "item": "concentré de poivron" },
+    { "raw": "1 c. à s. de concentré de tomate", "qty": 1, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "4 oignons nouveaux, ciselés", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé" },
+    { "raw": "1 concombre, en petits dés", "qty": 1, "unit": "piece", "item": "concombre", "prep": "en petits dés" },
+    { "raw": "3 c. à s. de mélasse de grenade", "qty": 3, "unit": "tbsp", "item": "mélasse de grenade" },
+    { "raw": "2 citrons, leur jus", "qty": 2, "unit": "piece", "item": "citron" },
+    { "raw": "10 cl d'huile d'olive", "qty": 10, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "1 c. à s. de piment d'Alep", "qty": 1, "unit": "tbsp", "item": "piment d'Alep" },
+    { "raw": "1 c. à s. de menthe séchée", "qty": 1, "unit": "tbsp", "item": "menthe séchée" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Verser sur le boulgour fin de l'eau bouillante à hauteur, couvrir, et laisser gonfler vingt minutes.", "en": "Pour boiling water over the fine bulgur to cover, put a lid on, and let it swell for twenty minutes." },
+    { "fr": "L'égrener à la fourchette quand il a tiédi, sans le presser.", "en": "Rake it apart with a fork once it has cooled, without pressing it." },
+    { "fr": "Malaxer À LA MAIN avec les concentrés et l'huile, plusieurs minutes, jusqu'à ce que chaque grain soit rouge.", "en": "Work it BY HAND with the pastes and oil for several minutes, until every grain is red." },
+    { "fr": "C'est ce malaxage manuel qui fait le kısır : à la cuillère, la couleur reste inégale.", "en": "That hand-working is what makes kisir: with a spoon, the colour stays patchy." },
+    { "fr": "Ajouter herbes, légumes, mélasse, citron, piment et menthe séchée.", "en": "Add the herbs, vegetables, molasses, lemon, chilli and dried mint." },
+    { "fr": "Laisser reposer une heure au frais et servir avec des feuilles de laitue, en cuillères.", "en": "Rest for an hour in the fridge and serve with lettuce leaves, as scoops." }
+  ]
+}

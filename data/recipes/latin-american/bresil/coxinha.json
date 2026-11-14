@@ -1,0 +1,42 @@
+{
+  "slug": "coxinha",
+  "cuisine": "latin-american",
+  "country": "bresil",
+  "origin": "Brésil",
+  "native_name": "Coxinha",
+  "title": {
+    "fr": "Coxinha, croquettes de poulet en goutte",
+    "en": "Coxinha, teardrop chicken croquettes"
+  },
+  "meal_type": "starter",
+  "servings": 10,
+  "times": { "prep_min": 70, "cook_min": 40 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "poulet", "friture", "fete"],
+  "ingredients": [
+    { "raw": "800 g de blanc de poulet", "qty": 800, "unit": "g", "item": "blanc de poulet" },
+    { "raw": "1 l de bouillon de volaille", "qty": 1, "unit": "l", "item": "bouillon volaille" },
+    { "raw": "600 g de farine de blé", "qty": 600, "unit": "g", "item": "farine de blé" },
+    { "raw": "80 g de beurre", "qty": 80, "unit": "g", "item": "beurre" },
+    { "raw": "200 g de fromage frais", "qty": 200, "unit": "g", "item": "fromage frais", "group": "farce" },
+    { "raw": "2 oignons, hachés très finement", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché très finement", "group": "farce" },
+    { "raw": "4 gousses d'ail, hachées", "qty": 4, "unit": "piece", "item": "ail", "prep": "haché", "group": "farce" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate", "group": "farce" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé", "group": "farce" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf", "group": "panure" },
+    { "raw": "300 g de chapelure", "qty": 300, "unit": "g", "item": "panko", "group": "panure" },
+    { "raw": "2 l d'huile neutre pour la friture", "qty": 2, "unit": "l", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Coxinha veut dire « petite cuisse » : la forme en goutte imite une cuisse de poulet.", "en": "Coxinha means \"little thigh\": the teardrop shape mimics a chicken leg." },
+    { "fr": "La pâte se fait AU BOUILLON DE POCHAGE du poulet, jamais à l'eau : c'est tout son goût.", "en": "The dough is made with the chicken's POACHING BROTH, never water: that is its whole flavour." },
+    { "fr": "Verser la farine D'UN COUP dans le bouillon bouillant et remuer vigoureusement à la cuillère.", "en": "Tip the flour in ALL AT ONCE into the boiling broth and stir vigorously with a spoon." },
+    { "fr": "Pétrir la pâte CHAUDE, à la main, jusqu'à ce qu'elle soit lisse et ne colle plus.", "en": "Knead the dough HOT, by hand, until smooth and no longer sticky." },
+    { "fr": "Former une coupelle dans la paume, garnir, et refermer en pointe : la goutte doit être PARFAITE.", "en": "Cup it in your palm, fill it, and close it to a point: the teardrop must be PERFECT." },
+    { "fr": "Une fissure et la coxinha s'ouvre dans l'huile : vérifier chaque pièce avant de paner.", "en": "One crack and the coxinha opens in the oil: check every piece before breading." }
+  ]
+}

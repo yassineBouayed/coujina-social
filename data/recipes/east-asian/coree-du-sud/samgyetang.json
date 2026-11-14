@@ -1,0 +1,37 @@
+{
+  "slug": "samgyetang",
+  "cuisine": "east-asian",
+  "country": "coree-du-sud",
+  "origin": "Corée du Sud",
+  "native_name": "삼계탕",
+  "title": {
+    "fr": "Samgyetang, poulet farci au ginseng",
+    "en": "Samgyetang, ginseng-stuffed chicken soup"
+  },
+  "meal_type": "soup",
+  "servings": 4,
+  "times": { "prep_min": 30, "cook_min": 90 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ete", "ginseng", "reconfort", "tonique"],
+  "ingredients": [
+    { "raw": "4 petits poulets entiers", "qty": 4, "unit": "piece", "item": "poulet entier" },
+    { "raw": "200 g de riz gluant, trempé", "qty": 200, "unit": "g", "item": "riz gluant", "prep": "trempé" },
+    { "raw": "4 racines de ginseng", "qty": 4, "unit": "piece", "item": "ginseng" },
+    { "raw": "12 jujubes", "qty": 12, "unit": "piece", "item": "jujube" },
+    { "raw": "2 têtes d'ail", "qty": 24, "unit": "piece", "item": "ail" },
+    { "raw": "8 oignons nouveaux, en tronçons", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "en tronçons" },
+    { "raw": "3 l d'eau", "qty": 3, "unit": "l", "item": "eau" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le samgyetang se mange les jours les plus CHAUDS de l'été : en Corée, on soigne la chaleur par la chaleur.", "en": "Samgyetang is eaten on the HOTTEST days of summer: in Korea, heat is treated with heat." },
+    { "fr": "Tremper le riz gluant deux heures, puis en farcir les poulets aux DEUX TIERS seulement.", "en": "Soak the glutinous rice for two hours, then stuff the chickens only TWO-THIRDS full." },
+    { "fr": "Glisser une racine de ginseng, des jujubes et de l'ail dans chaque cavité.", "en": "Slip a ginseng root, some jujubes and garlic into each cavity." },
+    { "fr": "Croiser les pattes et les glisser l'une dans l'autre pour fermer : le riz ne doit pas sortir.", "en": "Cross the legs and tuck one through the other to close: the rice must not escape." },
+    { "fr": "Cuire une heure et demie à petits bouillons, en écumant : le bouillon doit rester laiteux mais clair.", "en": "Cook for an hour and a half at a bare simmer, skimming: the broth should stay milky but clean." },
+    { "fr": "Servir SANS SALER : chacun sale son bol lui-même, avec du sel et du poivre posés à table.", "en": "Serve UNSALTED: each person salts their own bowl, with salt and pepper set on the table." }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "frango-piri-piri",
+  "cuisine": "mediterranean",
+  "country": "portugal",
+  "origin": "Portugal",
+  "native_name": "Frango piri-piri",
+  "title": {
+    "fr": "Poulet piri-piri",
+    "en": "Piri-piri chicken"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 50 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["grill", "piment", "poulet", "ete"],
+  "ingredients": [
+    { "raw": "1 poulet entier, ouvert en crapaudine", "qty": 1, "unit": "piece", "item": "poulet entier", "prep": "ouvert en crapaudine" },
+    { "raw": "8 piments frais", "qty": 8, "unit": "piece", "item": "piment frais" },
+    { "raw": "8 gousses d'ail", "qty": 8, "unit": "piece", "item": "ail" },
+    { "raw": "12 cl d'huile d'olive", "qty": 12, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "2 citrons, leur jus", "qty": 2, "unit": "piece", "item": "citron" },
+    { "raw": "3 c. à s. de vinaigre de vin", "qty": 3, "unit": "tbsp", "item": "vinaigre de vin" },
+    { "raw": "2 c. à c. de paprika fumé", "qty": 2, "unit": "tsp", "item": "paprika fumé" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "1 c. à s. de gros sel", "qty": 1, "unit": "tbsp", "item": "gros sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le piri-piri est un piment africain rapporté par les navigateurs portugais : le plat est né de ce va-et-vient.", "en": "Piri-piri is an African chilli brought back by Portuguese navigators: the dish was born of that traffic." },
+    { "fr": "Ouvrir le poulet EN CRAPAUDINE : à plat, il cuit deux fois plus vite et bien plus régulièrement.", "en": "SPATCHCOCK the chicken: laid flat, it cooks twice as fast and far more evenly." },
+    { "fr": "Mixer piments, ail, citron, vinaigre et paprika en une marinade lisse.", "en": "Blend the chillies, garlic, lemon, vinegar and paprika into a smooth marinade." },
+    { "fr": "Garder LA MOITIÉ de la marinade à part, pour badigeonner pendant la cuisson.", "en": "Keep HALF the marinade aside, to baste with during cooking." },
+    { "fr": "La marinade qui a touché le poulet cru ne se sert jamais telle quelle en fin de cuisson.", "en": "Marinade that has touched raw chicken is never served as it is at the end." },
+    { "fr": "Mariner quatre heures, puis griller 45 minutes, peau vers le bas d'abord, en badigeonnant.", "en": "Marinate for four hours, then grill for 45 minutes, skin side down first, basting." }
+  ]
+}

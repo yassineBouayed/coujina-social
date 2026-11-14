@@ -1,0 +1,33 @@
+{
+  "slug": "sharab-el-ward",
+  "cuisine": "levantine",
+  "country": "syrie",
+  "origin": "Syrie",
+  "native_name": "Sharab el ward",
+  "title": {
+    "fr": "Sirop de rose de Damas",
+    "en": "Damascus rose syrup drink"
+  },
+  "meal_type": "drink",
+  "servings": 10,
+  "times": { "prep_min": 15, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rose", "ete", "sirop", "damas"],
+  "ingredients": [
+    { "raw": "600 g de sucre", "qty": 600, "unit": "g", "item": "sucre" },
+    { "raw": "40 cl d'eau", "qty": 40, "unit": "cl", "item": "eau" },
+    { "raw": "10 cl d'eau de rose", "qty": 10, "unit": "cl", "item": "eau de rose" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "1,5 l d'eau glacée, pour servir", "qty": 1.5, "unit": "l", "item": "eau", "group": "service" }
+  ],
+  "steps": [
+    { "fr": "Porter le sucre et l'eau à ébullition et laisser cuire quinze minutes, jusqu'à obtenir un sirop nappant.", "en": "Bring the sugar and water to a boil and cook for fifteen minutes, to a coating syrup." },
+    { "fr": "Ajouter le jus de citron : sans acide, le sirop cristallise en refroidissant.", "en": "Add the lemon juice: without acid, the syrup crystallises as it cools." },
+    { "fr": "Laisser refroidir COMPLÈTEMENT avant d'ajouter l'eau de rose.", "en": "Cool it COMPLETELY before adding the rose water." },
+    { "fr": "Chauffée, l'eau de rose perd son parfum en quelques secondes : c'est l'erreur constante.", "en": "Heated, rose water loses its scent in seconds: the constant mistake." },
+    { "fr": "Mettre en bouteille : le sirop se garde deux mois au réfrigérateur.", "en": "Bottle it: the syrup keeps two months in the fridge." },
+    { "fr": "Servir dilué à une part de sirop pour six parts d'eau glacée.", "en": "Serve diluted, one part syrup to six parts iced water." }
+  ]
+}

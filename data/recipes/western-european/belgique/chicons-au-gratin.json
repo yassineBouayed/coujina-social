@@ -1,0 +1,39 @@
+{
+  "slug": "chicons-au-gratin",
+  "cuisine": "western-european",
+  "country": "belgique",
+  "origin": "Belgique",
+  "native_name": "Witloof in het oven",
+  "title": {
+    "fr": "Endives au jambon gratinées",
+    "en": "Gratinated endives with ham"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 50 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hiver", "endive", "gratin", "famille"],
+  "ingredients": [
+    { "raw": "10 endives", "qty": 10, "unit": "piece", "item": "endive" },
+    { "raw": "10 tranches de jambon blanc", "qty": 10, "unit": "piece", "item": "jambon blanc" },
+    { "raw": "80 g de beurre", "qty": 80, "unit": "g", "item": "beurre", "group": "béchamel" },
+    { "raw": "80 g de farine de blé", "qty": 80, "unit": "g", "item": "farine de blé", "group": "béchamel" },
+    { "raw": "80 cl de lait entier", "qty": 80, "unit": "cl", "item": "lait entier", "group": "béchamel" },
+    { "raw": "200 g d'emmental, râpé", "qty": 200, "unit": "g", "item": "emmental", "prep": "râpé" },
+    { "raw": "1 c. à s. de sucre", "qty": 1, "unit": "tbsp", "item": "sucre" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "CREUSER LE TRONC des endives au couteau, en cône : c'est là qu'est concentrée toute l'amertume.", "en": "HOLLOW OUT the endive core with a knife, in a cone: that is where all the bitterness sits." },
+    { "fr": "Les braiser au beurre avec du sucre et du citron, vingt minutes : le sucre contrebalance l'amertume.", "en": "Braise them in butter with sugar and lemon for twenty minutes: the sugar offsets the bitterness." },
+    { "fr": "Les PRESSER ensuite entre deux assiettes : une endive contient énormément d'eau.", "en": "Then PRESS them between two plates: an endive holds a great deal of water." },
+    { "fr": "Sans ce pressage, le gratin baigne dans un jus amer et la béchamel se délie.", "en": "Without that pressing, the gratin swims in a bitter liquid and the béchamel splits." },
+    { "fr": "Rouler chaque endive dans une tranche de jambon et les ranger serrées dans le plat.", "en": "Roll each endive in a slice of ham and pack them tightly in the dish." },
+    { "fr": "Napper de béchamel épaisse, couvrir de fromage, et gratiner trente minutes à 200 °C.", "en": "Coat with thick béchamel, cover with cheese, and bake for thirty minutes at 200°C." }
+  ]
+}

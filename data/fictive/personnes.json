@@ -1,0 +1,94 @@
+{
+  "_lisezmoi": "Personnes FICTIVES pour tester. Aucune n'existe. `login: true` = un compte de connexion est créé par `npm run seed:accounts` (mot de passe dans comptes-de-test.json). `onboarded: false` = la personne n'a pas encore répondu aux deux questions du premier lancement. `copies` = combien de recettes du livre elle a enregistrées (réparties sur 30 jours).",
+  "personnes": [
+    {
+      "key": "amina", "username": "amina_cuisine", "display_name": "Amina Benali",
+      "bio": "Marseillaise, cuisine de ma mère et de mes voyages. Le msemen du dimanche, c'est sacré.",
+      "cuisines": ["maghrebi", "levantine", "middle-eastern"], "exclusions": ["pork", "alcohol"],
+      "onboarded": true, "login": true, "copies": 22
+    },
+    {
+      "key": "lucas", "username": "lucas.bouffe", "display_name": "Lucas Martin",
+      "bio": "Cuisinier amateur à Lyon. Je teste tout, je modifie tout.",
+      "cuisines": ["french", "mediterranean", "western-european"], "exclusions": [],
+      "onboarded": true, "login": false, "copies": 18
+    },
+    {
+      "key": "priya", "username": "priya_spice", "display_name": "Priya Raman",
+      "bio": "Végétarienne depuis toujours. Dal, curry et chaï.",
+      "cuisines": ["south-asian", "southeast-asian"], "exclusions": ["meat", "fish", "shellfish"],
+      "onboarded": true, "login": false, "copies": 15
+    },
+    {
+      "key": "kenji", "username": "kenji.ramen", "display_name": "Kenji Watanabe",
+      "bio": "Ramen, gyoza, et tout ce qui se mange avec des baguettes.",
+      "cuisines": ["east-asian", "southeast-asian"], "exclusions": [],
+      "onboarded": true, "login": false, "copies": 20
+    },
+    {
+      "key": "fatou", "username": "fatou_dakar", "display_name": "Fatou Diop",
+      "bio": "Dakar - Paris. Le thiéboudienne n'a pas de recette, il a des familles.",
+      "cuisines": ["west-african", "caribbean", "east-african"], "exclusions": ["pork"],
+      "onboarded": true, "login": false, "copies": 16
+    },
+    {
+      "key": "sofia", "username": "sofia.nonna", "display_name": "Sofia Russo",
+      "bio": "Cœliaque et gourmande : je réécris les classiques sans gluten.",
+      "cuisines": ["mediterranean", "western-european"], "exclusions": ["gluten"],
+      "onboarded": true, "login": false, "copies": 14
+    },
+    {
+      "key": "diego", "username": "diego_tacos", "display_name": "Diego Hernández",
+      "bio": "Mexico, Buenos Aires, Lima. Allergique aux cacahuètes, pas aux piments.",
+      "cuisines": ["latin-american", "north-american"], "exclusions": ["peanut"],
+      "onboarded": true, "login": false, "copies": 19
+    },
+    {
+      "key": "lea", "username": "lea.vegan", "display_name": "Léa Dubois",
+      "bio": "Végane, je transforme les recettes de tout le monde.",
+      "cuisines": ["south-asian", "mediterranean", "southeast-asian", "levantine"],
+      "exclusions": ["meat", "fish", "shellfish", "dairy", "egg"],
+      "onboarded": true, "login": false, "copies": 12
+    },
+    {
+      "key": "omar", "username": "omar.grill", "display_name": "Omar Haddad",
+      "bio": "Beyrouth dans le cœur, le barbecue dans le jardin.",
+      "cuisines": ["levantine", "middle-eastern"], "exclusions": ["pork", "alcohol"],
+      "onboarded": true, "login": false, "copies": 17
+    },
+    {
+      "key": "nadia", "username": "nadia_patisse", "display_name": "Nadia Kowalski",
+      "bio": "Pâtisserie polonaise et française. Allergie aux fruits à coque.",
+      "cuisines": ["eastern-european", "french"], "exclusions": ["tree_nut"],
+      "onboarded": true, "login": false, "copies": 13
+    },
+    {
+      "key": "tom", "username": "tom.newbie", "display_name": "Tom Petit",
+      "bio": "",
+      "cuisines": [], "exclusions": [],
+      "onboarded": false, "login": true, "copies": 0
+    },
+    {
+      "key": "marie", "username": "marie_prive", "display_name": "Marie Laurent",
+      "bio": "Je garde mes recettes de famille pour mes proches.",
+      "cuisines": ["french", "eastern-european"], "exclusions": [],
+      "onboarded": true, "login": true, "copies": 8
+    }
+  ],
+  "abonnements": [
+    ["amina", "omar"], ["amina", "fatou"], ["amina", "lucas"], ["amina", "coujina"],
+    ["lucas", "amina"], ["lucas", "sofia"], ["lucas", "nadia"], ["lucas", "coujina"],
+    ["priya", "lea"], ["priya", "kenji"],
+    ["kenji", "priya"], ["kenji", "diego"],
+    ["fatou", "amina"], ["fatou", "diego"],
+    ["sofia", "lucas"], ["sofia", "nadia"],
+    ["diego", "kenji"], ["diego", "fatou"],
+    ["lea", "priya"], ["lea", "amina"], ["lea", "sofia"],
+    ["omar", "amina"],
+    ["nadia", "marie"], ["nadia", "lucas"],
+    ["marie", "nadia"]
+  ],
+  "blocages": [
+    ["sofia", "diego"]
+  ]
+}

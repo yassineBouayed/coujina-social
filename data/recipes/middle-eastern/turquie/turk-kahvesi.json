@@ -1,0 +1,32 @@
+{
+  "slug": "turk-kahvesi",
+  "cuisine": "middle-eastern",
+  "country": "turquie",
+  "origin": "Turquie",
+  "native_name": "Türk kahvesi",
+  "title": {
+    "fr": "Café turc en cezve",
+    "en": "Turkish coffee in a cezve"
+  },
+  "meal_type": "drink",
+  "servings": 2,
+  "times": { "prep_min": 5, "cook_min": 8 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["cafe", "rituel", "mousse", "accueil"],
+  "ingredients": [
+    { "raw": "2 c. à s. de café moulu très fin", "qty": 2, "unit": "tbsp", "item": "café", "prep": "moulu très fin" },
+    { "raw": "15 cl d'eau froide", "qty": 15, "unit": "cl", "item": "eau" },
+    { "raw": "2 c. à c. de sucre", "qty": 2, "unit": "tsp", "item": "sucre", "optional": true },
+    { "raw": "1 gousse de cardamome, écrasée", "qty": 1, "unit": "piece", "item": "cardamome", "prep": "écrasée", "optional": true }
+  ],
+  "steps": [
+    { "fr": "La mouture doit être plus fine que pour un espresso, presque une poudre : c'est la condition de la mousse.", "en": "The grind must be finer than espresso, almost a powder: the condition for the foam." },
+    { "fr": "Mettre café, sucre et eau FROIDE ensemble dans le cezve, et remuer une seule fois.", "en": "Put the coffee, sugar and COLD water into the cezve together, and stir once." },
+    { "fr": "Le sucre se décide maintenant : on ne sucre jamais un café turc dans la tasse.", "en": "The sugar is decided now: Turkish coffee is never sweetened in the cup." },
+    { "fr": "Chauffer à feu TRÈS doux, sans remuer, en surveillant la mousse qui monte lentement.", "en": "Heat over VERY low heat, without stirring, watching the foam rise slowly." },
+    { "fr": "Retirer du feu dès que la mousse arrive au bord, répartir la mousse dans les tasses, et remettre à chauffer.", "en": "Pull it off the heat the moment the foam reaches the rim, share the foam into the cups, and return it to the heat." },
+    { "fr": "Ne jamais laisser bouillir : le café bouilli perd sa mousse, et un café turc sans mousse est un café raté.", "en": "Never let it boil: boiled coffee loses its foam, and Turkish coffee without foam is a failed coffee." }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "imam-bayildi",
+  "cuisine": "middle-eastern",
+  "country": "turquie",
+  "origin": "Turquie",
+  "native_name": "İmam bayıldı",
+  "title": {
+    "fr": "İmam bayıldı, aubergines confites à l'huile d'olive",
+    "en": "Imam bayildi, aubergines confited in olive oil"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 35, "cook_min": 70 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["froid", "vegetarien", "huile-d-olive", "ete"],
+  "ingredients": [
+    { "raw": "6 aubergines longues", "qty": 6, "unit": "piece", "item": "aubergine" },
+    { "raw": "5 oignons, émincés finement", "qty": 5, "unit": "piece", "item": "oignon", "prep": "émincé finement" },
+    { "raw": "1 tête d'ail, en lamelles", "qty": 10, "unit": "piece", "item": "ail", "prep": "en lamelles" },
+    { "raw": "5 tomates, en dés", "qty": 5, "unit": "piece", "item": "tomate", "prep": "en dés" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "25 cl d'huile d'olive", "qty": 25, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "1 c. à c. de sucre", "qty": 1, "unit": "tsp", "item": "sucre" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le nom veut dire « l'imam s'évanouit », et la légende dit que c'est en apprenant la quantité d'huile.", "en": "The name means \"the imam fainted\", and the story says it was on learning how much oil went in." },
+    { "fr": "La quantité d'huile n'est donc pas une erreur : c'est un plat confit, servi froid, et l'huile en fait partie.", "en": "So the quantity of oil is not a mistake: this is a confit dish, served cold, and the oil is part of it." },
+    { "fr": "Peler les aubergines par bandes, les faire dégorger, puis les frire brièvement et les ouvrir en barque.", "en": "Peel the aubergines in stripes, salt them, then fry them briefly and open them into boats." },
+    { "fr": "Faire fondre les oignons et l'ail dans l'huile d'olive, très longuement, jusqu'à ce qu'ils soient translucides.", "en": "Melt the onions and garlic in the olive oil, at length, until translucent." },
+    { "fr": "Ajouter tomates, persil, sucre et sel, et garnir les aubergines de ce mélange.", "en": "Add the tomatoes, parsley, sugar and salt, and fill the aubergines with the mixture." },
+    { "fr": "Cuire une heure à 170 °C avec un fond d'eau citronnée, et servir FROID le lendemain.", "en": "Bake for an hour at 170°C with a little lemony water, and serve COLD the next day." }
+  ]
+}

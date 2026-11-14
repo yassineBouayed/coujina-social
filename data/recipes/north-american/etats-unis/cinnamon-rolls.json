@@ -1,0 +1,40 @@
+{
+  "slug": "cinnamon-rolls",
+  "cuisine": "north-american",
+  "country": "etats-unis",
+  "origin": "États-Unis",
+  "native_name": "Cinnamon rolls",
+  "title": {
+    "fr": "Roulés à la cannelle glacés",
+    "en": "Iced cinnamon rolls"
+  },
+  "meal_type": "dessert",
+  "servings": 12,
+  "times": { "prep_min": 50, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["petit-dejeuner", "cannelle", "brioche", "gouter"],
+  "ingredients": [
+    { "raw": "600 g de farine T45", "qty": 600, "unit": "g", "item": "farine T45", "group": "pâte" },
+    { "raw": "30 cl de lait entier, tiède", "qty": 30, "unit": "cl", "item": "lait entier", "prep": "tiède", "group": "pâte" },
+    { "raw": "14 g de levure boulangère sèche", "qty": 14, "unit": "g", "item": "levure boulangère", "group": "pâte" },
+    { "raw": "100 g de beurre, mou", "qty": 100, "unit": "g", "item": "beurre", "prep": "mou", "group": "pâte" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf", "group": "pâte" },
+    { "raw": "60 g de sucre", "qty": 60, "unit": "g", "item": "sucre", "group": "pâte" },
+    { "raw": "200 g de sucre roux", "qty": 200, "unit": "g", "item": "sucre roux", "group": "garniture" },
+    { "raw": "4 c. à s. de cannelle moulue", "qty": 4, "unit": "tbsp", "item": "cannelle", "group": "garniture" },
+    { "raw": "120 g de beurre, mou", "qty": 120, "unit": "g", "item": "beurre", "prep": "mou", "group": "garniture" },
+    { "raw": "200 g de fromage frais", "qty": 200, "unit": "g", "item": "fromage frais", "group": "glaçage" },
+    { "raw": "150 g de sucre glace", "qty": 150, "unit": "g", "item": "sucre glace", "group": "glaçage" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Étaler la pâte en un rectangle LONG et étroit : c'est ce qui donne beaucoup de tours de spirale.", "en": "Roll the dough into a LONG, narrow rectangle: that gives many turns of spiral." },
+    { "fr": "Étaler le beurre POMMADE jusqu'aux bords, sauf un centimètre sur le grand côté opposé.", "en": "Spread the SOFT butter to the edges, except a centimetre on the far long side." },
+    { "fr": "Découper les rouleaux AU FIL DENTAIRE plutôt qu'au couteau : le couteau les écrase.", "en": "Cut the rolls WITH DENTAL FLOSS rather than a knife: a knife squashes them." },
+    { "fr": "Glisser le fil sous le boudin, croiser les extrémités et serrer : la coupe est parfaitement ronde.", "en": "Slide the floss under the log, cross the ends and pull: the cut is perfectly round." },
+    { "fr": "Les ranger ESPACÉS dans le plat : ils vont doubler et se souder en levant.", "en": "Space them out in the dish: they will double and fuse as they prove." },
+    { "fr": "Glacer quand ils sont TIÈDES, pas brûlants : sur du brûlant, le glaçage fond et coule.", "en": "Ice them when WARM, not scalding: on scalding rolls, the icing melts and runs off." }
+  ]
+}

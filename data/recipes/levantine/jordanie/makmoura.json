@@ -1,0 +1,39 @@
+{
+  "slug": "makmoura",
+  "cuisine": "levantine",
+  "country": "jordanie",
+  "origin": "Jordanie",
+  "native_name": "Makmoura",
+  "title": {
+    "fr": "Makmoura, tourte de pâte aux oignons et au poulet",
+    "en": "Makmoura, layered onion and chicken pie"
+  },
+  "meal_type": "main",
+  "servings": 8,
+  "times": { "prep_min": 50, "cook_min": 60 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["tourte", "oignon", "sumac", "fete"],
+  "ingredients": [
+    { "raw": "600 g de farine de blé", "qty": 600, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "1 c. à s. de levure boulangère sèche", "qty": 1, "unit": "tbsp", "item": "levure boulangère", "group": "pâte" },
+    { "raw": "1,5 c. à c. de sel", "qty": 1.5, "unit": "tsp", "item": "sel", "group": "pâte" },
+    { "raw": "35 cl d'eau tiède", "qty": 35, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "1 poulet entier, cuit et effiloché", "qty": 1, "unit": "piece", "item": "poulet entier", "prep": "cuit et effiloché", "group": "garniture" },
+    { "raw": "1,5 kg d'oignons, émincés", "qty": 1500, "unit": "g", "item": "oignon", "prep": "émincé", "group": "garniture" },
+    { "raw": "5 c. à s. de sumac", "qty": 5, "unit": "tbsp", "item": "sumac", "group": "garniture" },
+    { "raw": "1 c. à c. de quatre-épices", "qty": 1, "unit": "tsp", "item": "quatre-épices", "group": "garniture" },
+    { "raw": "25 cl d'huile d'olive", "qty": 25, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "80 g de pignons de pin", "qty": 80, "unit": "g", "item": "pignon de pin", "group": "garniture" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Pétrir la pâte et la laisser lever une heure et demie.", "en": "Knead the dough and prove it for an hour and a half." },
+    { "fr": "Faire fondre les oignons dans l'huile d'olive quarante minutes, à couvert, jusqu'à ce qu'ils soient confits.", "en": "Melt the onions in the olive oil for forty minutes, covered, until confited." },
+    { "fr": "Ajouter le sumac, les épices et le poulet effiloché, et laisser refroidir.", "en": "Add the sumac, spices and shredded chicken, and let it cool." },
+    { "fr": "Étaler la pâte en disques très fins et les huiler généreusement l'un après l'autre.", "en": "Roll the dough into very thin discs and oil them generously, one after another." },
+    { "fr": "Alterner les couches de pâte et de garniture dans un moule profond, en finissant par la pâte.", "en": "Alternate layers of dough and filling in a deep tin, finishing with dough." },
+    { "fr": "Cuire une heure à 180 °C et retourner sur un plat de service, comme une tarte tatin.", "en": "Bake for an hour at 180°C and turn it out onto a serving dish, like a tarte tatin." }
+  ]
+}

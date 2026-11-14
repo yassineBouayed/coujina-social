@@ -1,0 +1,41 @@
+{
+  "slug": "seffa-chaariya",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Seffa chaariya",
+  "title": {
+    "fr": "Seffa de cheveux d'ange au lait d'amande",
+    "en": "Vermicelli seffa with almond milk"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 40 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["vapeur", "sucre", "amande", "fete"],
+  "ingredients": [
+    { "raw": "500 g de vermicelles fins", "qty": 500, "unit": "g", "item": "vermicelle" },
+    { "raw": "80 g de beurre", "qty": 80, "unit": "g", "item": "beurre" },
+    { "raw": "120 g de sucre glace", "qty": 120, "unit": "g", "item": "sucre glace" },
+    { "raw": "150 g d'amandes, mondées et frites", "qty": 150, "unit": "g", "item": "amande", "prep": "mondée" },
+    { "raw": "2 c. à c. de cannelle moulue", "qty": 2, "unit": "tsp", "item": "cannelle" },
+    { "raw": "2 c. à s. d'eau de fleur d'oranger", "qty": 2, "unit": "tbsp", "item": "eau de fleur d'oranger" },
+    { "raw": "50 cl de lait", "qty": 50, "unit": "cl", "item": "lait", "group": "service" },
+    { "raw": "2 c. à s. de sucre", "qty": 2, "unit": "tbsp", "item": "sucre", "group": "service" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "2 c. à s. d'huile neutre", "qty": 2, "unit": "tbsp", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Huiler légèrement les vermicelles crus à la main, pour qu'ils ne collent pas entre eux à la vapeur.", "en": "Lightly oil the raw vermicelli by hand, so they do not stick together in the steam." },
+    { "fr": "Cuire au couscoussier vingt minutes à la vapeur, sans couvercle hermétique.", "en": "Steam in a couscoussier for twenty minutes, without a tight lid." },
+    { "fr": "Sortir, asperger d'eau salée tiède, égrener à la fourchette et laisser gonfler dix minutes.", "en": "Turn out, sprinkle with warm salted water, separate with a fork and let swell for ten minutes." },
+    { "fr": "Recommencer deux fois. Trois passages à la vapeur, c'est la règle, et c'est ce qui distingue la seffa des pâtes bouillies.", "en": "Repeat twice. Three steamings is the rule, and it is what separates seffa from boiled pasta." },
+    { "fr": "Au dernier passage, incorporer le beurre et l'eau de fleur d'oranger.", "en": "On the last steaming, work in the butter and orange blossom water." },
+    { "fr": "Monter en dôme, décorer de bandes de cannelle et de sucre glace, planter les amandes, et servir le lait sucré à part.", "en": "Mound into a dome, decorate with stripes of cinnamon and icing sugar, stud with almonds, and serve the sweetened milk alongside." }
+  ],
+  "notes": [
+    { "fr": "Le sucre se pose au dernier moment : incorporé avant la vapeur, il fait coller les vermicelles en bloc.", "en": "The sugar goes on at the last moment: mixed in before steaming, it glues the vermicelli into a block." }
+  ]
+}

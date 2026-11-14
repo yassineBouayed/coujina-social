@@ -1,0 +1,41 @@
+{
+  "slug": "momo",
+  "cuisine": "south-asian",
+  "country": "nepal",
+  "origin": "Népal",
+  "native_name": "Momo",
+  "title": {
+    "fr": "Momo, raviolis vapeur à la sauce tomate",
+    "en": "Momo, steamed dumplings with tomato sauce"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 70, "cook_min": 20 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["national", "vapeur", "ravioli", "katmandou"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "25 cl d'eau", "qty": 25, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "600 g d'agneau haché", "qty": 600, "unit": "g", "item": "agneau haché", "group": "farce" },
+    { "raw": "3 oignons, hachés très finement", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché très finement", "group": "farce" },
+    { "raw": "1 c. à s. de pâte gingembre-ail", "qty": 1, "unit": "tbsp", "item": "pâte gingembre-ail", "group": "farce" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée", "group": "farce" },
+    { "raw": "1 c. à c. de timur, moulu", "qty": 1, "unit": "tsp", "item": "timur", "prep": "moulu", "group": "farce" },
+    { "raw": "1 c. à c. de garam masala", "qty": 1, "unit": "tsp", "item": "garam masala", "group": "farce" },
+    { "raw": "4 c. à s. d'huile de moutarde", "qty": 4, "unit": "tbsp", "item": "huile de moutarde", "group": "farce" },
+    { "raw": "6 tomates", "qty": 6, "unit": "piece", "item": "tomate", "group": "achar" },
+    { "raw": "4 piments séchés", "qty": 4, "unit": "piece", "item": "piment séché", "group": "achar" },
+    { "raw": "60 g de graines de sésame, grillées", "qty": 60, "unit": "g", "item": "sésame", "prep": "grillé", "group": "achar" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Pétrir une pâte ferme et la laisser reposer trente minutes sous un linge humide.", "en": "Knead a firm dough and rest it for thirty minutes under a damp cloth." },
+    { "fr": "Mélanger la farce à CRU : le momo se farcit avec de la viande crue, qui cuit à la vapeur.", "en": "Mix the filling RAW: momo are filled with raw meat, which cooks in the steam." },
+    { "fr": "Le timur — poivre du Népal — engourdit légèrement la langue : c'est la signature du momo népalais.", "en": "Timur — Nepali pepper — slightly numbs the tongue: it is the signature of a Nepali momo." },
+    { "fr": "Étaler des disques FINS aux bords et plus épais au centre, pour qu'ils ne percent pas.", "en": "Roll discs THIN at the edges and thicker in the middle, so they do not tear." },
+    { "fr": "Plisser les bords en tournant, en une vingtaine de plis, et pincer au sommet.", "en": "Pleat the edges as you turn, about twenty pleats, and pinch at the top." },
+    { "fr": "Cuire dix minutes à la vapeur sur un panier huilé, et servir avec l'achar de tomate grillée.", "en": "Steam for ten minutes on an oiled basket, and serve with the roasted tomato achar." }
+  ]
+}

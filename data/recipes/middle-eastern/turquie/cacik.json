@@ -1,0 +1,36 @@
+{
+  "slug": "cacik",
+  "cuisine": "middle-eastern",
+  "country": "turquie",
+  "origin": "Turquie",
+  "native_name": "Cacık",
+  "title": {
+    "fr": "Cacık, yaourt au concombre et à la menthe",
+    "en": "Cacik, yoghurt with cucumber and mint"
+  },
+  "meal_type": "starter",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ete", "yaourt", "frais", "meze"],
+  "ingredients": [
+    { "raw": "50 cl de yaourt", "qty": 50, "unit": "cl", "item": "yaourt" },
+    { "raw": "2 concombres, râpés", "qty": 2, "unit": "piece", "item": "concombre", "prep": "râpé" },
+    { "raw": "3 gousses d'ail, écrasées", "qty": 3, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 c. à s. de menthe séchée", "qty": 1, "unit": "tbsp", "item": "menthe séchée" },
+    { "raw": "1/2 bouquet d'aneth, ciselé", "qty": 0.5, "unit": "bunch", "item": "aneth", "prep": "ciselé" },
+    { "raw": "10 cl d'eau glacée", "qty": 10, "unit": "cl", "item": "eau" },
+    { "raw": "3 c. à s. d'huile d'olive", "qty": 3, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Râper les concombres, les saler et les laisser dégorger quinze minutes.", "en": "Grate the cucumbers, salt them and let them drain for fifteen minutes." },
+    { "fr": "Les presser à la main : sans cela, le cacık devient de l'eau en une heure.", "en": "Squeeze them by hand: without that, cacik turns to water within the hour." },
+    { "fr": "Fouetter le yaourt seul jusqu'à ce qu'il soit lisse, puis l'allonger à l'eau glacée.", "en": "Whisk the yoghurt alone until smooth, then let it down with iced water." },
+    { "fr": "Le cacık turc est plus liquide qu'un tzatziki : c'est presque une soupe froide.", "en": "Turkish cacik is looser than tzatziki: it is almost a cold soup." },
+    { "fr": "Ajouter concombre pressé, ail, menthe séchée, aneth et sel.", "en": "Add the squeezed cucumber, garlic, dried mint, dill and salt." },
+    { "fr": "Servir très froid, arrosé d'huile d'olive, avec les grillades.", "en": "Serve very cold, drizzled with olive oil, alongside grilled meats." }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "kleeja",
+  "cuisine": "middle-eastern",
+  "country": "arabie-saoudite",
+  "origin": "Arabie saoudite",
+  "native_name": "Kleeja",
+  "title": {
+    "fr": "Kleeja, biscuits à la datte et à la cardamome",
+    "en": "Kleeja, date and cardamom biscuits"
+  },
+  "meal_type": "dessert",
+  "servings": 12,
+  "times": { "prep_min": 50, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["qassim", "datte", "cafe", "conserve"],
+  "ingredients": [
+    { "raw": "600 g de farine de blé", "qty": 600, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "200 g de ghee", "qty": 200, "unit": "g", "item": "ghee", "group": "pâte" },
+    { "raw": "80 g de sucre", "qty": 80, "unit": "g", "item": "sucre", "group": "pâte" },
+    { "raw": "1 c. à s. de levure boulangère sèche", "qty": 1, "unit": "tbsp", "item": "levure boulangère", "group": "pâte" },
+    { "raw": "15 cl de lait tiède", "qty": 15, "unit": "cl", "item": "lait", "group": "pâte" },
+    { "raw": "400 g de pâte de dattes", "qty": 400, "unit": "g", "item": "datte", "prep": "dénoyautée et mixée", "group": "farce" },
+    { "raw": "2 c. à c. de cardamome moulue", "qty": 2, "unit": "tsp", "item": "cardamome", "prep": "moulue", "group": "farce" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle", "group": "farce" },
+    { "raw": "1 c. à c. de gingembre moulu", "qty": 1, "unit": "tsp", "item": "gingembre moulu", "group": "farce" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran", "group": "farce" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Pétrir la pâte et la laisser lever une heure.", "en": "Knead the dough and prove it for an hour." },
+    { "fr": "Travailler la pâte de dattes avec toutes les épices : la kleeja se juge à son parfum, pas à son sucre.", "en": "Work the date paste with all the spices: kleeja is judged on its perfume, not its sweetness." },
+    { "fr": "Étaler la pâte en un grand rectangle très fin.", "en": "Roll the dough into a large, very thin rectangle." },
+    { "fr": "Étaler la pâte de dattes dessus, en couche régulière, jusqu'aux bords.", "en": "Spread the date paste over it, in an even layer, right to the edges." },
+    { "fr": "Rouler serré, couper des tronçons, et les aplatir légèrement à la paume.", "en": "Roll it tight, cut into lengths, and flatten them slightly with your palm." },
+    { "fr": "Cuire 20 minutes à 180 °C. Se gardent trois semaines en boîte hermétique.", "en": "Bake for 20 minutes at 180°C. They keep three weeks in an airtight tin." }
+  ]
+}

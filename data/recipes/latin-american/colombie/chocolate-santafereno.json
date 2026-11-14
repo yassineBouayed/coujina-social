@@ -1,0 +1,36 @@
+{
+  "slug": "chocolate-santafereno",
+  "cuisine": "latin-american",
+  "country": "colombie",
+  "origin": "Colombie",
+  "native_name": "Chocolate santafereño",
+  "title": {
+    "fr": "Chocolat chaud au fromage de Bogota",
+    "en": "Bogotá hot chocolate with cheese"
+  },
+  "meal_type": "drink",
+  "servings": 4,
+  "times": { "prep_min": 10, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["bogota", "chocolat", "fromage", "petit-dejeuner"],
+  "ingredients": [
+    { "raw": "80 cl de lait entier", "qty": 80, "unit": "cl", "item": "lait entier" },
+    { "raw": "200 g de chocolat noir", "qty": 200, "unit": "g", "item": "chocolat noir" },
+    { "raw": "2 bâtons de cannelle", "qty": 2, "unit": "piece", "item": "cannelle", "prep": "en bâton" },
+    { "raw": "4 clous de girofle", "qty": 4, "unit": "piece", "item": "clou de girofle" },
+    { "raw": "60 g de sucre roux", "qty": 60, "unit": "g", "item": "sucre roux" },
+    { "raw": "200 g de queso fresco, en gros dés", "qty": 200, "unit": "g", "item": "queso fresco", "prep": "en gros dés" },
+    { "raw": "4 tranches de pain de campagne", "qty": 4, "unit": "piece", "item": "pain", "prep": "en tranches", "group": "service" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le chocolat santafereño se boit AVEC DU FROMAGE dedans : c'est déroutant, et c'est la tradition.", "en": "Chocolate santafereño is drunk WITH CHEESE in it: it is disconcerting, and it is the tradition." },
+    { "fr": "Poser les dés de queso fresco AU FOND de la tasse, avant de verser le chocolat.", "en": "Put the cubes of fresh cheese AT THE BOTTOM of the cup, before pouring the chocolate." },
+    { "fr": "Le fromage fond lentement et file : on le mange à la cuillère à la fin de la tasse.", "en": "The cheese melts slowly and stretches: you eat it with a spoon at the end of the cup." },
+    { "fr": "Infuser cannelle et girofle dans le lait chaud vingt minutes, puis filtrer.", "en": "Steep the cinnamon and clove in the hot milk for twenty minutes, then strain." },
+    { "fr": "Faire une ganache avec un peu de lait chaud sur le chocolat haché, avant d'allonger.", "en": "Make a ganache with a little hot milk on the chopped chocolate, before lengthening it." },
+    { "fr": "FOUETTER énergiquement pour faire mousser : au molinillo traditionnel, ou au fouet.", "en": "WHISK vigorously to raise a foam: with a traditional molinillo, or a whisk." }
+  ]
+}

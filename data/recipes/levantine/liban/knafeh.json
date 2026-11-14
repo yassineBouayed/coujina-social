@@ -1,0 +1,41 @@
+{
+  "slug": "knafeh",
+  "cuisine": "levantine",
+  "country": "liban",
+  "origin": "Liban",
+  "native_name": "Knafeh bil jibn",
+  "title": {
+    "fr": "Knafeh au fromage et au sirop",
+    "en": "Cheese knafeh in syrup"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 35, "cook_min": 35 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fromage", "sirop", "petit-dejeuner", "fete"],
+  "ingredients": [
+    { "raw": "500 g de pâte kataifi", "qty": 500, "unit": "g", "item": "pâte kataifi" },
+    { "raw": "600 g de fromage akkawi, dessalé et râpé", "qty": 600, "unit": "g", "item": "fromage akkawi", "prep": "dessalé et râpé" },
+    { "raw": "200 g de mozzarella, râpée", "qty": 200, "unit": "g", "item": "mozzarella", "prep": "râpée" },
+    { "raw": "200 g de beurre, fondu", "qty": 200, "unit": "g", "item": "beurre", "prep": "fondu" },
+    { "raw": "400 g de sucre", "qty": 400, "unit": "g", "item": "sucre", "group": "sirop" },
+    { "raw": "20 cl d'eau", "qty": 20, "unit": "cl", "item": "eau", "group": "sirop" },
+    { "raw": "1 c. à s. d'eau de fleur d'oranger", "qty": 1, "unit": "tbsp", "item": "eau de fleur d'oranger", "group": "sirop" },
+    { "raw": "1 c. à s. d'eau de rose", "qty": 1, "unit": "tbsp", "item": "eau de rose", "group": "sirop" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron", "group": "sirop" },
+    { "raw": "60 g de pistaches, concassées", "qty": 60, "unit": "g", "item": "pistache", "prep": "concassée", "group": "décor" }
+  ],
+  "steps": [
+    { "fr": "Dessaler l'akkawi en le laissant tremper six heures dans plusieurs eaux froides, changées régulièrement.", "en": "De-salt the akkawi by soaking it for six hours in several changes of cold water." },
+    { "fr": "Un fromage mal dessalé rend la knafeh immangeable, et c'est l'erreur numéro un.", "en": "Under-soaked cheese makes knafeh inedible, and it is the number one mistake." },
+    { "fr": "Hacher la pâte kataifi au couteau et la travailler à la main avec le beurre fondu, brin par brin.", "en": "Chop the kataifi with a knife and work it by hand with the melted butter, strand by strand." },
+    { "fr": "Tasser la moitié au fond d'un moule, étaler les fromages, couvrir du reste et presser fermement.", "en": "Press half into the base of a tin, spread the cheeses, cover with the rest and press down firmly." },
+    { "fr": "Cuire 35 minutes à 200 °C, jusqu'à ce que le dessous soit franchement doré.", "en": "Bake for 35 minutes at 200°C, until the underside is decidedly golden." },
+    { "fr": "Démouler à l'envers sur un plat et verser le sirop FROID sur la knafeh brûlante, puis servir immédiatement.", "en": "Turn out upside down and pour the COLD syrup over the scalding knafeh, then serve at once." }
+  ],
+  "notes": [
+    { "fr": "La knafeh se mange dans les cinq minutes : refroidie, le fromage ne file plus et le plat est perdu.", "en": "Knafeh is eaten within five minutes: cooled, the cheese stops stretching and the dish is lost." }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "sambal-udang",
+  "cuisine": "southeast-asian",
+  "country": "malaisie",
+  "origin": "Malaisie",
+  "native_name": "Sambal udang",
+  "title": {
+    "fr": "Crevettes au sambal et au tamarin",
+    "en": "Prawns in tamarind sambal"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["sambal", "crevette", "tamarin", "rapide"],
+  "ingredients": [
+    { "raw": "800 g de grosses crevettes, décortiquées", "qty": 800, "unit": "g", "item": "crevette", "prep": "décortiquée" },
+    { "raw": "15 piments séchés, trempés", "qty": 15, "unit": "piece", "item": "piment séché", "prep": "trempé", "group": "sambal" },
+    { "raw": "12 échalotes", "qty": 12, "unit": "piece", "item": "échalote", "group": "sambal" },
+    { "raw": "5 gousses d'ail", "qty": 5, "unit": "piece", "item": "ail", "group": "sambal" },
+    { "raw": "1 c. à s. de pâte de crevette", "qty": 1, "unit": "tbsp", "item": "pâte de crevette", "group": "sambal" },
+    { "raw": "4 c. à s. de pâte de tamarin", "qty": 4, "unit": "tbsp", "item": "pâte de tamarin" },
+    { "raw": "4 c. à s. de sucre de palme", "qty": 4, "unit": "tbsp", "item": "sucre de palme" },
+    { "raw": "1 oignon, en anneaux", "qty": 1, "unit": "piece", "item": "oignon", "prep": "en anneaux" },
+    { "raw": "12 cl d'huile neutre", "qty": 12, "unit": "cl", "item": "huile neutre" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Mixer piments, échalotes, ail et pâte de crevette en une pâte lisse.", "en": "Blend the chillies, shallots, garlic and shrimp paste into a smooth paste." },
+    { "fr": "La frire à feu doux VINGT MINUTES, en remuant : le sambal se fait par patience, pas par chaleur.", "en": "Fry it over low heat for TWENTY MINUTES, stirring: sambal is made by patience, not by heat." },
+    { "fr": "Il est prêt quand la pâte a foncé et qu'une nappe d'huile rouge s'en sépare nettement.", "en": "It is ready when the paste has darkened and a layer of red oil separates cleanly from it." },
+    { "fr": "Ajouter tamarin et sucre de palme, et cuire cinq minutes de plus.", "en": "Add the tamarind and palm sugar, and cook for five minutes more." },
+    { "fr": "Ajouter les crevettes et les anneaux d'oignon, et cuire TROIS MINUTES seulement.", "en": "Add the prawns and onion rings, and cook for THREE MINUTES only." },
+    { "fr": "Recuites, les crevettes deviennent caoutchouteuses : elles finissent dans la chaleur du plat.", "en": "Overcooked, prawns turn rubbery: they finish in the residual heat of the dish." }
+  ]
+}

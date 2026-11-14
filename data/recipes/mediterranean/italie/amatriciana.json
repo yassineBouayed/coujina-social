@@ -1,0 +1,36 @@
+{
+  "slug": "amatriciana",
+  "cuisine": "mediterranean",
+  "country": "italie",
+  "origin": "Italie",
+  "native_name": "Bucatini all'amatriciana",
+  "title": {
+    "fr": "Amatriciana au guanciale et à la tomate",
+    "en": "Amatriciana with guanciale and tomato"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["amatrice", "pates", "tomate", "pecorino"],
+  "ingredients": [
+    { "raw": "400 g de bucatini", "qty": 400, "unit": "g", "item": "spaghetti" },
+    { "raw": "200 g de guanciale, en lardons", "qty": 200, "unit": "g", "item": "guanciale", "prep": "en lardons" },
+    { "raw": "600 g de tomate pelée en conserve", "qty": 600, "unit": "g", "item": "tomate pelée en conserve" },
+    { "raw": "120 g de pecorino romano, râpé", "qty": 120, "unit": "g", "item": "pecorino", "prep": "râpé" },
+    { "raw": "1 piment séché", "qty": 1, "unit": "piece", "item": "piment séché" },
+    { "raw": "5 cl de vin blanc", "qty": 5, "unit": "cl", "item": "vin blanc" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "L'amatriciana ne contient PAS d'ail ni d'oignon : c'est le guanciale qui porte le plat.", "en": "Amatriciana contains NO garlic and NO onion: the guanciale carries the dish." },
+    { "fr": "Faire fondre le guanciale à froid jusqu'à ce qu'il soit doré et croustillant, puis le RÉSERVER.", "en": "Render the guanciale from cold until golden and crisp, then SET IT ASIDE." },
+    { "fr": "Le laisser dans la sauce le ramollirait : il revient à la fin, croustillant.", "en": "Left in the sauce it would soften: it goes back in at the end, still crisp." },
+    { "fr": "Déglacer le gras au vin blanc, ajouter le piment, puis les tomates écrasées à la main.", "en": "Deglaze the fat with white wine, add the chilli, then the tomatoes crushed by hand." },
+    { "fr": "Laisser réduire vingt minutes : la sauce doit être courte et brillante de gras.", "en": "Reduce for twenty minutes: the sauce should be short and glossy with fat." },
+    { "fr": "Remettre le guanciale, mélanger aux pâtes, et finir au pecorino hors du feu.", "en": "Return the guanciale, toss with the pasta, and finish with pecorino off the heat." }
+  ]
+}

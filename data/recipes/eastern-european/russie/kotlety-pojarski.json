@@ -1,0 +1,40 @@
+{
+  "slug": "kotlety-pojarski",
+  "cuisine": "eastern-european",
+  "country": "russie",
+  "origin": "Russie",
+  "native_name": "Пожарские котлеты",
+  "title": {
+    "fr": "Croquettes Pojarski au poulet",
+    "en": "Pozharsky chicken cutlets"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 35, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["classique", "poulet", "panure", "tsar"],
+  "ingredients": [
+    { "raw": "800 g de blanc de poulet, haché au couteau", "qty": 800, "unit": "g", "item": "blanc de poulet", "prep": "haché au couteau" },
+    { "raw": "200 g de mie de pain", "qty": 200, "unit": "g", "item": "pain", "prep": "en mie" },
+    { "raw": "25 cl de crème liquide", "qty": 25, "unit": "cl", "item": "crème liquide" },
+    { "raw": "150 g de beurre, TRÈS froid, en petits dés", "qty": 150, "unit": "g", "item": "beurre", "prep": "très froid, en petits dés" },
+    { "raw": "1 oignon, haché très finement", "qty": 1, "unit": "piece", "item": "oignon", "prep": "haché très finement" },
+    { "raw": "250 g de pain de mie, en tout petits dés", "qty": 250, "unit": "g", "item": "pain de mie", "prep": "en tout petits dés", "group": "panure" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf", "group": "panure" },
+    { "raw": "100 g de farine de blé", "qty": 100, "unit": "g", "item": "farine de blé", "group": "panure" },
+    { "raw": "200 g de beurre clarifié", "qty": 200, "unit": "g", "item": "beurre" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "sel et poivre blanc", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre blanc", "qty": null, "unit": null, "item": "poivre blanc" }
+  ],
+  "steps": [
+    { "fr": "La panure n'est PAS de la chapelure : ce sont de TOUT PETITS DÉS de mie de pain, taillés au couteau.", "en": "The coating is NOT breadcrumbs: it is TINY CUBES of bread crumb, cut with a knife." },
+    { "fr": "Ils forment un hérisson doré et croustillant : c'est la signature visuelle de la kotleta Pojarski.", "en": "They form a golden, crisp hedgehog: the visual signature of the Pozharsky cutlet." },
+    { "fr": "Les DÉS DE BEURRE FROID dans la farce fondent en cuisant et arrosent la viande de l'intérieur.", "en": "The COLD BUTTER CUBES in the filling melt as it cooks and baste the meat from within." },
+    { "fr": "Hacher le poulet AU COUTEAU : au hachoir, la chair devient une pâte élastique.", "en": "Chop the chicken WITH A KNIFE: in a mincer, the flesh turns into an elastic paste." },
+    { "fr": "Réfrigérer les croquettes formées TRENTE MINUTES avant de les cuire.", "en": "Chill the shaped cutlets for THIRTY MINUTES before cooking." },
+    { "fr": "Les saisir au beurre clarifié puis finir DIX MINUTES au four à 180 °C.", "en": "Sear them in clarified butter then finish TEN MINUTES in a 180°C oven." }
+  ]
+}

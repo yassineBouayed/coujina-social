@@ -1,0 +1,38 @@
+{
+  "slug": "roti-kluay",
+  "cuisine": "southeast-asian",
+  "country": "thailande",
+  "origin": "Thaïlande",
+  "native_name": "โรตีกล้วย",
+  "title": {
+    "fr": "Roti à la banane et au lait concentré",
+    "en": "Banana roti with condensed milk"
+  },
+  "meal_type": "dessert",
+  "servings": 4,
+  "times": { "prep_min": 40, "cook_min": 20 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "banane", "friture", "gouter"],
+  "ingredients": [
+    { "raw": "400 g de farine de blé", "qty": 400, "unit": "g", "item": "farine de blé" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "20 cl de lait", "qty": 20, "unit": "cl", "item": "lait" },
+    { "raw": "3 c. à s. de lait concentré sucré", "qty": 3, "unit": "tbsp", "item": "lait concentré sucré" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "10 cl d'huile neutre", "qty": 10, "unit": "cl", "item": "huile neutre" },
+    { "raw": "4 bananes, en rondelles", "qty": 4, "unit": "piece", "item": "banane", "prep": "en rondelles" },
+    { "raw": "80 g de beurre", "qty": 80, "unit": "g", "item": "beurre" },
+    { "raw": "4 c. à s. de lait concentré sucré", "qty": 4, "unit": "tbsp", "item": "lait concentré sucré", "group": "service" },
+    { "raw": "2 c. à s. de sucre", "qty": 2, "unit": "tbsp", "item": "sucre", "group": "service" }
+  ],
+  "steps": [
+    { "fr": "Pétrir la pâte dix minutes, la diviser en boules, et les IMMERGER dans l'huile TROIS HEURES.", "en": "Knead the dough for ten minutes, divide it into balls, and SUBMERGE them in oil for THREE HOURS." },
+    { "fr": "Ce bain d'huile est ce qui permet d'étirer la pâte jusqu'à la transparence sans la déchirer.", "en": "That oil bath is what lets the dough be stretched translucent without tearing." },
+    { "fr": "Étirer une boule sur un plan huilé, en la claquant, jusqu'à voir la table au travers.", "en": "Stretch a ball on an oiled surface, slapping it, until you can see the table through it." },
+    { "fr": "Poser les rondelles de banane au centre et replier les quatre côtés en carré.", "en": "Lay the banana slices in the centre and fold the four sides into a square." },
+    { "fr": "Cuire dans beaucoup de beurre, à la plancha, trois minutes par face, en pressant.", "en": "Cook in plenty of butter on a griddle, three minutes a side, pressing down." },
+    { "fr": "Découper en carrés aux ciseaux et arroser de lait concentré et de sucre.", "en": "Cut into squares with scissors and drizzle with condensed milk and sugar." }
+  ]
+}

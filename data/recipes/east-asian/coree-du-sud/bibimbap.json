@@ -1,0 +1,44 @@
+{
+  "slug": "bibimbap",
+  "cuisine": "east-asian",
+  "country": "coree-du-sud",
+  "origin": "Corée du Sud",
+  "native_name": "비빔밥",
+  "title": {
+    "fr": "Bibimbap, bol de riz aux légumes assaisonnés",
+    "en": "Bibimbap, rice bowl with seasoned vegetables"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 50, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["national", "legumes", "gochujang", "oeuf"],
+  "ingredients": [
+    { "raw": "500 g de riz rond", "qty": 500, "unit": "g", "item": "riz rond" },
+    { "raw": "300 g de bœuf haché", "qty": 300, "unit": "g", "item": "boeuf haché" },
+    { "raw": "200 g d'épinards", "qty": 200, "unit": "g", "item": "épinard", "group": "namul" },
+    { "raw": "200 g de germes de soja", "qty": 200, "unit": "g", "item": "germes de soja", "group": "namul" },
+    { "raw": "2 carottes, en julienne", "qty": 2, "unit": "piece", "item": "carotte", "prep": "en julienne", "group": "namul" },
+    { "raw": "200 g de shiitakes, en lamelles", "qty": 200, "unit": "g", "item": "shiitake", "prep": "en lamelles", "group": "namul" },
+    { "raw": "1 courgette, en julienne", "qty": 1, "unit": "piece", "item": "courgette", "prep": "en julienne", "group": "namul" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf" },
+    { "raw": "4 c. à s. de gochujang", "qty": 4, "unit": "tbsp", "item": "gochujang", "group": "sauce" },
+    { "raw": "2 c. à s. d'huile de sésame", "qty": 2, "unit": "tbsp", "item": "huile de sésame", "group": "sauce" },
+    { "raw": "1 c. à s. de vinaigre de riz", "qty": 1, "unit": "tbsp", "item": "vinaigre de riz", "group": "sauce" },
+    { "raw": "1 c. à s. de sucre", "qty": 1, "unit": "tbsp", "item": "sucre", "group": "sauce" },
+    { "raw": "4 c. à s. de sauce soja", "qty": 4, "unit": "tbsp", "item": "sauce soja" },
+    { "raw": "3 c. à s. de graines de sésame", "qty": 3, "unit": "tbsp", "item": "sésame" },
+    { "raw": "6 c. à s. d'huile de sésame", "qty": 6, "unit": "tbsp", "item": "huile de sésame" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Chaque légume est cuit et assaisonné SÉPARÉMENT : c'est le principe du namul, et il ne se raccourcit pas.", "en": "Each vegetable is cooked and seasoned SEPARATELY: that is the principle of namul, and there is no shortcut." },
+    { "fr": "Blanchir épinards et germes de soja, les presser, et les assaisonner à l'huile de sésame, à l'ail et au sel.", "en": "Blanch the spinach and bean sprouts, squeeze them, and season with sesame oil, garlic and salt." },
+    { "fr": "Sauter carottes, courgette et shiitakes séparément, deux minutes chacun, à feu vif.", "en": "Stir-fry the carrots, courgette and shiitake separately, two minutes each, over high heat." },
+    { "fr": "Faire revenir le bœuf avec la sauce soja et le sucre jusqu'à ce qu'il soit sec.", "en": "Fry the beef with soy and sugar until dry." },
+    { "fr": "Disposer le riz dans les bols et ranger les légumes en secteurs, par couleurs, sans les mélanger.", "en": "Divide the rice into bowls and arrange the vegetables in wedges, by colour, without mixing them." },
+    { "fr": "Poser un œuf au plat au centre et servir la sauce à part : le mélange se fait à table, énergiquement.", "en": "Set a fried egg in the middle and serve the sauce alongside: the mixing happens at the table, vigorously." }
+  ]
+}

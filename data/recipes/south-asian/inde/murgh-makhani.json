@@ -1,0 +1,41 @@
+{
+  "slug": "murgh-makhani",
+  "cuisine": "south-asian",
+  "country": "inde",
+  "origin": "Inde",
+  "native_name": "Murgh makhani",
+  "title": {
+    "fr": "Poulet au beurre à la tomate et à la crème",
+    "en": "Butter chicken in tomato and cream"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 50 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["delhi", "creme", "tomate", "populaire"],
+  "ingredients": [
+    { "raw": "900 g de cuisses de poulet désossées, en cubes", "qty": 900, "unit": "g", "item": "cuisse de poulet", "prep": "désossée, en cubes" },
+    { "raw": "25 cl de yaourt", "qty": 25, "unit": "cl", "item": "yaourt", "group": "marinade" },
+    { "raw": "2 c. à s. de pâte gingembre-ail", "qty": 2, "unit": "tbsp", "item": "pâte gingembre-ail", "group": "marinade" },
+    { "raw": "2 c. à c. de piment kashmiri", "qty": 2, "unit": "tsp", "item": "piment kashmiri", "group": "marinade" },
+    { "raw": "1 c. à c. de garam masala", "qty": 1, "unit": "tsp", "item": "garam masala", "group": "marinade" },
+    { "raw": "800 g de tomates concassées", "qty": 800, "unit": "g", "item": "tomate concassée", "group": "sauce" },
+    { "raw": "80 g de noix de cajou", "qty": 80, "unit": "g", "item": "noix de cajou", "group": "sauce" },
+    { "raw": "120 g de beurre", "qty": 120, "unit": "g", "item": "beurre", "group": "sauce" },
+    { "raw": "20 cl de crème liquide", "qty": 20, "unit": "cl", "item": "crème liquide", "group": "sauce" },
+    { "raw": "2 c. à s. de feuilles de fenugrec séchées", "qty": 2, "unit": "tbsp", "item": "feuille de fenugrec", "group": "sauce" },
+    { "raw": "1 c. à c. de sucre", "qty": 1, "unit": "tsp", "item": "sucre", "group": "sauce" },
+    { "raw": "4 gousses de cardamome", "qty": 4, "unit": "piece", "item": "cardamome", "group": "sauce" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire mariner le poulet dans le yaourt et les épices six heures, puis le griller au four à 240 °C jusqu'à ce qu'il colore.", "en": "Marinate the chicken in the yoghurt and spices for six hours, then roast at 240°C until it takes colour." },
+    { "fr": "Le poulet doit être GRILLÉ avant d'entrer en sauce : poché, il n'a aucun goût de tandoor.", "en": "The chicken must be ROASTED before it goes into the sauce: poached, it has no tandoor flavour at all." },
+    { "fr": "Cuire tomates, noix de cajou et cardamome vingt minutes, puis mixer et PASSER AU TAMIS.", "en": "Cook the tomatoes, cashews and cardamom for twenty minutes, then blend and PASS THROUGH A SIEVE." },
+    { "fr": "Le tamisage est ce qui rend la sauce soyeuse : sans lui, elle reste granuleuse quel que soit le mixeur.", "en": "The sieving is what makes the sauce silky: without it, it stays grainy whatever the blender." },
+    { "fr": "Monter la sauce au beurre froid, morceau par morceau, hors du feu vif.", "en": "Finish the sauce with cold butter, piece by piece, off high heat." },
+    { "fr": "Ajouter le poulet, la crème, le sucre, et le fenugrec froissé entre les paumes en dernier.", "en": "Add the chicken, cream, sugar, and the fenugreek crushed between your palms last." }
+  ]
+}

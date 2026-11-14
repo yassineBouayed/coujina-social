@@ -1,0 +1,37 @@
+{
+  "slug": "caldo-verde",
+  "cuisine": "mediterranean",
+  "country": "portugal",
+  "origin": "Portugal",
+  "native_name": "Caldo verde",
+  "title": {
+    "fr": "Caldo verde, soupe de chou et chorizo",
+    "en": "Caldo verde, kale and chorizo soup"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 40 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["minho", "soupe", "chou", "hiver"],
+  "ingredients": [
+    { "raw": "800 g de pommes de terre, en morceaux", "qty": 800, "unit": "g", "item": "pomme de terre", "prep": "en morceaux" },
+    { "raw": "400 g de chou frisé, en lanières très fines", "qty": 400, "unit": "g", "item": "chou frisé", "prep": "en lanières très fines" },
+    { "raw": "2 chorizos, en rondelles", "qty": 2, "unit": "piece", "item": "chorizo", "prep": "en rondelles" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "4 gousses d'ail", "qty": 4, "unit": "piece", "item": "ail" },
+    { "raw": "1,5 l d'eau", "qty": 1.5, "unit": "l", "item": "eau" },
+    { "raw": "12 cl d'huile d'olive", "qty": 12, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le chou se coupe en lanières de DEUX MILLIMÈTRES : c'est ce qui donne son nom au caldo verde.", "en": "The kale is cut into TWO-MILLIMETRE ribbons: that is what gives caldo verde its name." },
+    { "fr": "Rouler les feuilles en cigare bien serré et trancher très fin, comme pour une chiffonnade.", "en": "Roll the leaves into a tight cigar and slice very finely, as for a chiffonade." },
+    { "fr": "Cuire pommes de terre, oignons et ail trente minutes, puis MIXER le tout en velouté.", "en": "Cook the potatoes, onions and garlic for thirty minutes, then BLEND it all smooth." },
+    { "fr": "Faire dorer le chorizo à part et garder son gras coloré : il finira sur la soupe.", "en": "Brown the chorizo separately and keep its coloured fat: it goes on the soup at the end." },
+    { "fr": "Jeter le chou dans le velouté bouillant et cuire CINQ MINUTES seulement.", "en": "Drop the kale into the boiling soup and cook for FIVE MINUTES only." },
+    { "fr": "Plus longtemps, il vire au vert olive : il doit rester vert vif et légèrement croquant.", "en": "Any longer and it turns olive-drab: it must stay bright green and slightly crisp." }
+  ]
+}

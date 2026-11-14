@@ -1,0 +1,43 @@
+{
+  "slug": "bunny-chow",
+  "cuisine": "southern-african",
+  "country": "afrique-du-sud",
+  "origin": "Afrique du Sud",
+  "native_name": "Bunny chow",
+  "title": {
+    "fr": "Bunny chow, curry servi dans un pain creusé",
+    "en": "Bunny chow, curry served in a hollowed loaf"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 80 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["durban", "rue", "curry", "pain"],
+  "ingredients": [
+    { "raw": "2 pains de mie carrés non tranchés", "qty": 2, "unit": "piece", "item": "pain de mie" },
+    { "raw": "800 g d'épaule d'agneau, en cubes", "qty": 800, "unit": "g", "item": "épaule d'agneau", "prep": "en cubes" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "3 c. à s. de poudre de curry", "qty": 3, "unit": "tbsp", "item": "poudre de curry" },
+    { "raw": "1 c. à s. de pâte gingembre-ail", "qty": 1, "unit": "tbsp", "item": "pâte gingembre-ail" },
+    { "raw": "4 tomates, râpées", "qty": 4, "unit": "piece", "item": "tomate", "prep": "râpée" },
+    { "raw": "3 pommes de terre, en gros cubes", "qty": 3, "unit": "piece", "item": "pomme de terre", "prep": "en gros cubes" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "4 gousses de cardamome", "qty": 4, "unit": "piece", "item": "cardamome" },
+    { "raw": "6 c. à s. d'huile neutre", "qty": 6, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire revenir cannelle et cardamome dans l'huile chaude, trente secondes, jusqu'à ce qu'elles crépitent.", "en": "Fry the cinnamon and cardamom in hot oil for thirty seconds, until they crackle." },
+    { "fr": "Ajouter les oignons et les cuire quinze minutes, jusqu'à ce qu'ils dorent franchement.", "en": "Add the onions and cook them for fifteen minutes, until decidedly golden." },
+    { "fr": "Ajouter la pâte gingembre-ail puis le curry, et cuire deux minutes sans les brûler.", "en": "Add the ginger-garlic paste then the curry powder, and cook for two minutes without scorching." },
+    { "fr": "Ajouter la viande, les tomates râpées et le sel, et laisser mijoter une heure à couvert.", "en": "Add the meat, grated tomatoes and salt, and simmer covered for an hour." },
+    { "fr": "Ajouter les pommes de terre et poursuivre vingt minutes : elles doivent épaissir la sauce en se défaisant un peu.", "en": "Add the potatoes and continue for twenty minutes: they should thicken the sauce as they break down slightly." },
+    { "fr": "Couper les pains en deux, les creuser en gardant le chapeau de mie, et les remplir de curry brûlant.", "en": "Halve the loaves, hollow them out keeping the crumb lid, and fill with scalding curry." }
+  ],
+  "notes": [
+    { "fr": "La mie retirée se pose sur le dessus et sert de cuillère. Rien ne se jette, et le bunny chow se mange sans couverts.", "en": "The removed crumb sits on top and serves as the spoon. Nothing is thrown away, and bunny chow is eaten with no cutlery." }
+  ]
+}

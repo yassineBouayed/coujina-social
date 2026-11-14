@@ -1,0 +1,40 @@
+{
+  "slug": "sangria-branca",
+  "cuisine": "mediterranean",
+  "country": "portugal",
+  "origin": "Portugal",
+  "native_name": "Sangria de vinho verde",
+  "title": {
+    "fr": "Sangria blanche au vinho verde",
+    "en": "White sangria with vinho verde"
+  },
+  "meal_type": "drink",
+  "servings": 6,
+  "times": { "prep_min": 15, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ete", "fruits", "froid", "fete"],
+  "ingredients": [
+    { "raw": "75 cl de vin blanc sec", "qty": 75, "unit": "cl", "item": "vin blanc" },
+    { "raw": "2 oranges, en rondelles", "qty": 2, "unit": "piece", "item": "orange", "prep": "en rondelles" },
+    { "raw": "1 citron, en rondelles", "qty": 1, "unit": "piece", "item": "citron", "prep": "en rondelles" },
+    { "raw": "2 pommes, en dés", "qty": 2, "unit": "piece", "item": "pomme", "prep": "en dés" },
+    { "raw": "200 g de pêches, en quartiers", "qty": 200, "unit": "g", "item": "pêche", "prep": "en quartiers" },
+    { "raw": "80 g de sucre", "qty": 80, "unit": "g", "item": "sucre" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle", "prep": "en bâton" },
+    { "raw": "1/2 bouquet de menthe", "qty": 0.5, "unit": "bunch", "item": "menthe" },
+    { "raw": "50 cl d'eau gazeuse", "qty": 50, "unit": "cl", "item": "eau gazeuse" }
+  ],
+  "steps": [
+    { "fr": "La sangria blanche se fait au vinho verde : léger, acidulé et à peine pétillant.", "en": "White sangria is made with vinho verde: light, tart and barely sparkling." },
+    { "fr": "Macérer les fruits dans le vin et le sucre QUATRE HEURES minimum, au frais.", "en": "Steep the fruit in the wine and sugar for FOUR HOURS minimum, in the fridge." },
+    { "fr": "Les fruits doivent perdre leur jus dans le vin : c'est ce qui fait la sangria, pas l'inverse.", "en": "The fruit must give its juice to the wine: that is what makes sangria, not the reverse." },
+    { "fr": "Ajouter la cannelle en bâton dès le départ, et la menthe en toute fin seulement.", "en": "Add the cinnamon stick from the start, and the mint only right at the end." },
+    { "fr": "Verser l'eau gazeuse AU MOMENT DE SERVIR : ajoutée avant, elle est plate en une heure.", "en": "Add the sparkling water AT THE MOMENT OF SERVING: added earlier, it goes flat within an hour." },
+    { "fr": "Servir très frais, avec les fruits dans le verre.", "en": "Serve very cold, with the fruit in the glass." }
+  ],
+  "notes": [
+    { "fr": "Recette alcoolisée : à réserver aux adultes, et à ne pas servir aux enfants du foyer.", "en": "An alcoholic recipe: for adults only, and not to be served to children in the household." }
+  ]
+}

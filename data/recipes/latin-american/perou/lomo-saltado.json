@@ -1,0 +1,41 @@
+{
+  "slug": "lomo-saltado",
+  "cuisine": "latin-american",
+  "country": "perou",
+  "origin": "Pérou",
+  "native_name": "Lomo saltado",
+  "title": {
+    "fr": "Lomo saltado, bœuf sauté aux frites",
+    "en": "Lomo saltado, stir-fried beef with chips"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["chifa", "boeuf", "wok", "embleme"],
+  "ingredients": [
+    { "raw": "800 g de filet de bœuf, en lanières", "qty": 800, "unit": "g", "item": "filet de boeuf", "prep": "en lanières" },
+    { "raw": "800 g de pommes de terre, en frites", "qty": 800, "unit": "g", "item": "pomme de terre", "prep": "en frites" },
+    { "raw": "3 oignons rouges, en gros quartiers", "qty": 3, "unit": "piece", "item": "oignon rouge", "prep": "en gros quartiers" },
+    { "raw": "4 tomates, en gros quartiers", "qty": 4, "unit": "piece", "item": "tomate", "prep": "en gros quartiers" },
+    { "raw": "2 piments ají amarillo, en lanières", "qty": 2, "unit": "piece", "item": "ají amarillo", "prep": "en lanières" },
+    { "raw": "6 c. à s. de sauce soja", "qty": 6, "unit": "tbsp", "item": "sauce soja" },
+    { "raw": "5 cl de vinaigre de vin", "qty": 5, "unit": "cl", "item": "vinaigre de vin" },
+    { "raw": "6 gousses d'ail, hachées", "qty": 6, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "1 bouquet de coriandre, ciselée", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "1 l d'huile neutre pour la friture", "qty": 1, "unit": "l", "item": "huile neutre" },
+    { "raw": "400 g de riz long grain, cuit", "qty": 400, "unit": "g", "item": "riz long grain", "prep": "cuit", "group": "service" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le lomo saltado est né de la cuisine « chifa », la rencontre entre immigrés chinois et cuisine péruvienne.", "en": "Lomo saltado was born from \"chifa\" cooking, where Chinese immigrants met Peruvian food." },
+    { "fr": "La sauce soja et le wok viennent de Chine ; les frites, les ají et la coriandre du Pérou.", "en": "Soy sauce and the wok come from China; the chips, the ají and the coriander from Peru." },
+    { "fr": "Le wok doit être BRÛLANT, presque fumant : tout se cuit en trois minutes, à feu maximum.", "en": "The wok must be SCALDING, almost smoking: everything cooks in three minutes, at maximum heat." },
+    { "fr": "Saisir la viande par PETITES QUANTITÉS et la réserver : entassée, elle bout et rend son eau.", "en": "Sear the meat in SMALL BATCHES and set it aside: crowded, it boils and weeps." },
+    { "fr": "Les frites sont mélangées AU DERNIER MOMENT, hors du feu : dans le wok, elles ramollissent.", "en": "The chips are folded in AT THE LAST MOMENT, off the heat: in the wok, they go soft." },
+    { "fr": "Les tomates ne doivent PAS se défaire : trente secondes, juste pour qu'elles chauffent.", "en": "The tomatoes must NOT collapse: thirty seconds, just to warm them through." }
+  ]
+}

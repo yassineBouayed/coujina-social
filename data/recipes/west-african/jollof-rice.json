@@ -1,0 +1,47 @@
+{
+  "slug": "jollof-rice",
+  "cuisine": "west-african",
+  "origin": "Nigeria / Ghana",
+  "native_name": "Jollof rice",
+  "title": {
+    "fr": "Jollof rice, riz rouge aux poivrons et au piment",
+    "en": "Jollof rice, red rice with peppers and chilli"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 55 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j5-catalogue-v1", "date": "2026-08-29" },
+  "tags": ["riz", "poivron", "fete", "sans-viande"],
+  "ingredients": [
+    { "raw": "600 g de riz long grain", "qty": 600, "unit": "g", "item": "riz long grain", "prep": "rincé" },
+    { "raw": "4 poivrons rouges, épépinés", "qty": 4, "unit": "piece", "item": "poivron rouge", "prep": "épépiné", "group": "base de poivrons" },
+    { "raw": "4 tomates bien mûres", "qty": 4, "unit": "piece", "item": "tomate", "group": "base de poivrons" },
+    { "raw": "1 piment antillais", "qty": 1, "unit": "piece", "item": "habanero", "group": "base de poivrons" },
+    { "raw": "1 oignon", "qty": 1, "unit": "piece", "item": "oignon", "group": "base de poivrons" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "12 cl d'huile neutre", "qty": 12, "unit": "cl", "item": "huile neutre" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "2 gousses d'ail", "qty": 2, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 c. à s. de gingembre frais râpé", "qty": 15, "unit": "g", "item": "gingembre", "prep": "râpé" },
+    { "raw": "1 c. à c. de poudre de curry", "qty": 1, "unit": "tsp", "item": "poudre de curry" },
+    { "raw": "1 c. à c. de thym séché", "qty": 1, "unit": "tsp", "item": "thym séché" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "2 cubes de bouillon", "qty": 2, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Mixer les poivrons, les tomates, le piment et l'oignon entier jusqu'à obtenir une purée lisse.", "en": "Blend the peppers, tomatoes, chilli and whole onion to a smooth purée." },
+    { "fr": "Verser cette purée dans une casserole et la faire réduire à découvert 15 à 20 minutes, jusqu'à ce qu'elle perde son eau et son goût cru.", "en": "Pour the purée into a saucepan and reduce it uncovered for 15 to 20 minutes, until it loses its water and its raw taste." },
+    { "fr": "Pendant ce temps, faire fondre les oignons émincés dans l'huile, ajouter l'ail, le gingembre et le concentré de tomate, et cuire trois minutes.", "en": "Meanwhile, soften the sliced onions in the oil, add the garlic, ginger and tomato paste, and cook for three minutes." },
+    { "fr": "Réunir la purée réduite et le fond d'oignons, ajouter le curry, le thym, le laurier et les cubes. Cuire encore 10 minutes : l'huile doit se séparer et remonter.", "en": "Combine the reduced purée with the onion base, add the curry powder, thyme, bay leaves and stock cubes. Cook another 10 minutes: the oil should separate and rise." },
+    { "fr": "Verser le riz rincé, mélanger pour l'enrober entièrement, puis ajouter juste assez d'eau pour affleurer — pas davantage.", "en": "Tip in the rinsed rice, stir until every grain is coated, then add just enough water to come level with it — no more." },
+    { "fr": "Couvrir d'une feuille d'aluminium puis du couvercle, et cuire à feu très doux 25 minutes sans jamais soulever ni remuer.", "en": "Cover with foil and then the lid, and cook over very low heat for 25 minutes without lifting or stirring." },
+    { "fr": "Couper le feu, laisser reposer 10 minutes couvert, puis aérer le riz à la fourchette de bas en haut.", "en": "Turn off the heat, rest covered for 10 minutes, then lift and separate the grains with a fork from the bottom up." }
+  ],
+  "notes": [
+    { "fr": "Le fond légèrement brûlé qui reste dans la marmite est recherché, pas subi : c'est lui qui donne le goût de fumé du jollof de fête, et il se sert avec le reste.", "en": "The lightly burnt layer left in the pot is sought after, not tolerated: it gives party jollof its smoky taste, and it is served with the rest." },
+    { "fr": "Le riz cuit à la vapeur du seul liquide de la sauce. Ajouter de l'eau en cours de cuisson donne une bouillie rouge — l'erreur la plus commune hors d'Afrique de l'Ouest.", "en": "The rice steams in the sauce's own liquid. Topping it up with water midway gives red porridge — the most common mistake made outside West Africa." }
+  ]
+}

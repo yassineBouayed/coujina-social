@@ -1,0 +1,24 @@
+node_modules/
+.env
+.env.local
+supabase/.temp/
+supabase/seed/*.generated.sql
+# Images du catalogue : fabriquées par `npm run catalog:images`, déposées dans
+# le bucket Storage. Le dépôt décrit la chaîne, il ne transporte pas les octets.
+supabase/storage/
+data/recipes/images/
+*.log
+.DS_Store
+
+# Python caches from local skill tooling
+__pycache__/
+*.pyc
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Les données fictives restent lisibles dans le dépôt.
+!supabase/seed/fictive.generated.sql

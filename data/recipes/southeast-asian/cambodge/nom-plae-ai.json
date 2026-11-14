@@ -1,0 +1,34 @@
+{
+  "slug": "nom-plae-ai",
+  "cuisine": "southeast-asian",
+  "country": "cambodge",
+  "origin": "Cambodge",
+  "native_name": "នំផ្លែអាយ",
+  "title": {
+    "fr": "Nom plae ai, boules de riz gluant au sucre de palme",
+    "en": "Nom plae ai, palm sugar rice balls"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 15 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["nouvel-an", "coco", "sucre-de-palme", "vapeur"],
+  "ingredients": [
+    { "raw": "350 g de riz gluant, en farine", "qty": 350, "unit": "g", "item": "riz gluant", "prep": "en farine" },
+    { "raw": "22 cl d'eau tiède", "qty": 22, "unit": "cl", "item": "eau" },
+    { "raw": "150 g de sucre de palme, en petits morceaux", "qty": 150, "unit": "g", "item": "sucre de palme", "prep": "en petits morceaux", "group": "farce" },
+    { "raw": "200 g de coco râpé", "qty": 200, "unit": "g", "item": "coco râpé", "group": "enrobage" },
+    { "raw": "2 c. à c. d'extrait de pandan", "qty": 2, "unit": "tsp", "item": "feuille de pandan", "prep": "en extrait", "optional": true },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire le coco râpé à la vapeur cinq minutes avec du sel : cela le stabilise et l'assaisonne.", "en": "Steam the grated coconut for five minutes with salt: this stabilises and seasons it." },
+    { "fr": "Pétrir la farine de riz gluant, l'eau tiède et le pandan en une pâte souple et non collante.", "en": "Knead the glutinous rice flour, warm water and pandan into a soft, non-sticky dough." },
+    { "fr": "Creuser chaque boule et y loger un morceau de sucre de palme entier.", "en": "Hollow each ball and tuck a whole piece of palm sugar inside." },
+    { "fr": "Refermer SANS la moindre fissure : une fissure et le sucre fond dans l'eau de cuisson.", "en": "Seal it with NO crack at all: one crack and the sugar melts into the cooking water." },
+    { "fr": "Pocher dans l'eau frémissante jusqu'à ce qu'elles REMONTENT, puis deux minutes de plus.", "en": "Poach in simmering water until they FLOAT, then two minutes more." },
+    { "fr": "Les rouler IMMÉDIATEMENT dans le coco râpé, tant qu'elles sont humides et collantes.", "en": "Roll them IMMEDIATELY in the grated coconut, while still moist and tacky." }
+  ]
+}

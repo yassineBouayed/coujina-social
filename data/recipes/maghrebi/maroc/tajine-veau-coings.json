@@ -1,0 +1,44 @@
+{
+  "slug": "tajine-veau-coings",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Tajine safarjel",
+  "title": {
+    "fr": "Tajine de veau aux coings",
+    "en": "Veal tagine with quince"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 110 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["tajine", "automne", "sucre-sale", "coing"],
+  "ingredients": [
+    { "raw": "1,2 kg de veau à mijoter, en morceaux", "qty": 1200, "unit": "g", "item": "veau à mijoter", "prep": "en morceaux" },
+    { "raw": "4 coings, en quartiers, non pelés", "qty": 4, "unit": "piece", "item": "coing", "prep": "en quartiers" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "1 c. à c. de gingembre moulu", "qty": 1, "unit": "tsp", "item": "gingembre moulu" },
+    { "raw": "3 c. à s. de miel", "qty": 3, "unit": "tbsp", "item": "miel" },
+    { "raw": "4 c. à s. d'huile d'olive", "qty": 4, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "50 g de beurre", "qty": 50, "unit": "g", "item": "beurre" },
+    { "raw": "1 c. à s. de sucre", "qty": 1, "unit": "tbsp", "item": "sucre", "group": "coings" },
+    { "raw": "1/2 c. à c. de cannelle moulue", "qty": 0.5, "unit": "tsp", "item": "cannelle", "group": "coings" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Faire revenir la viande avec l'oignon, l'huile, le safran, le gingembre et la cannelle, puis mouiller à hauteur et cuire une heure et demie.", "en": "Brown the meat with onion, oil, saffron, ginger and cinnamon, then cover with water and cook for an hour and a half." },
+    { "fr": "Pendant ce temps, ne pas peler les coings : la peau tient les quartiers entiers, et c'est elle qui parfume.", "en": "Meanwhile, do not peel the quince: the skin holds the wedges together, and it is where the perfume is." },
+    { "fr": "Faire dorer les coings au beurre avec le sucre et la cannelle, à feu doux, jusqu'à ce qu'ils prennent une couleur ambrée.", "en": "Colour the quince in butter with the sugar and cinnamon over low heat, until they turn amber." },
+    { "fr": "Les ajouter à la viande pour les vingt dernières minutes seulement : plus tôt, ils se défont en compote.", "en": "Add them to the meat for the last twenty minutes only: any earlier and they collapse into a purée." },
+    { "fr": "Ajouter le miel, découvrir, et laisser réduire jusqu'à ce que la sauce brille et enrobe.", "en": "Add the honey, uncover, and reduce until the sauce is glossy and coating." },
+    { "fr": "Servir les coings posés sur la viande, jamais mélangés.", "en": "Serve the quince set on top of the meat, never stirred in." }
+  ],
+  "notes": [
+    { "fr": "Hors saison, la pomme ne remplace pas le coing : elle n'a ni son acidité ni sa tenue, et le plat devient un tajine sucré banal.", "en": "Out of season, apple does not stand in for quince: it lacks both the acidity and the structure, and the dish becomes an ordinary sweet tagine." }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "tinola",
+  "cuisine": "southeast-asian",
+  "country": "philippines",
+  "origin": "Philippines",
+  "native_name": "Tinola",
+  "title": {
+    "fr": "Tinola, bouillon de poulet au gingembre",
+    "en": "Tinola, ginger chicken broth"
+  },
+  "meal_type": "soup",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["quotidien", "gingembre", "reconfort", "leger"],
+  "ingredients": [
+    { "raw": "1,2 kg de poulet, en morceaux", "qty": 1200, "unit": "g", "item": "poulet entier", "prep": "en morceaux" },
+    { "raw": "1 gros morceau de gingembre, en fines lamelles", "qty": 1, "unit": "piece", "item": "gingembre", "prep": "en fines lamelles" },
+    { "raw": "1 chayotte, en gros cubes", "qty": 1, "unit": "piece", "item": "chayotte", "prep": "en gros cubes" },
+    { "raw": "300 g d'épinards", "qty": 300, "unit": "g", "item": "épinard" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "6 gousses d'ail, écrasées", "qty": 6, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "5 c. à s. de sauce poisson", "qty": 5, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "1,5 l d'eau", "qty": 1.5, "unit": "l", "item": "eau" },
+    { "raw": "3 c. à s. d'huile neutre", "qty": 3, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le gingembre est mis EN QUANTITÉ et en lamelles : il porte le plat, il n'est pas un aromate de fond.", "en": "Ginger goes in IN QUANTITY, sliced: it carries the dish rather than sitting in the background." },
+    { "fr": "Le faire revenir dans l'huile avec l'ail et l'oignon jusqu'à ce qu'il embaume franchement.", "en": "Fry it in the oil with the garlic and onion until it smells frankly of ginger." },
+    { "fr": "Ajouter le poulet et le SAISIR avant de mouiller : cela donne un bouillon plus profond.", "en": "Add the chicken and SEAR it before adding water: this gives a deeper broth." },
+    { "fr": "Mouiller, ajouter la sauce poisson, et laisser mijoter trente minutes en écumant.", "en": "Add the water and fish sauce, and simmer for thirty minutes, skimming." },
+    { "fr": "Ajouter la chayotte pour les quinze dernières minutes.", "en": "Add the chayote for the last fifteen minutes." },
+    { "fr": "Ajouter les épinards hors du feu, et servir brûlant. Le bouillon doit rester CLAIR.", "en": "Add the spinach off the heat, and serve scalding. The broth should stay CLEAR." }
+  ]
+}

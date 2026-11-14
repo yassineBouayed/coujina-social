@@ -1,0 +1,30 @@
+{
+  "slug": "matcha",
+  "cuisine": "east-asian",
+  "country": "japon",
+  "origin": "Japon",
+  "native_name": "抹茶",
+  "title": {
+    "fr": "Matcha battu au chasen",
+    "en": "Matcha whisked with a chasen"
+  },
+  "meal_type": "drink",
+  "servings": 2,
+  "times": { "prep_min": 10, "cook_min": 0 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ceremonie", "the", "amer", "rituel"],
+  "ingredients": [
+    { "raw": "4 g de matcha", "qty": 4, "unit": "g", "item": "matcha" },
+    { "raw": "14 cl d'eau à 75 °C", "qty": 14, "unit": "cl", "item": "eau" }
+  ],
+  "steps": [
+    { "fr": "Tamiser le matcha avant de le battre : les grumeaux ne se défont plus une fois l'eau versée.", "en": "Sift the matcha before whisking: lumps never break up once the water is in." },
+    { "fr": "Chauffer l'eau à 75 °C, jamais plus : à l'eau bouillante, le matcha devient franchement amer.", "en": "Heat the water to 75°C, never more: with boiling water, matcha turns frankly bitter." },
+    { "fr": "Verser un peu d'eau et faire une pâte lisse avec le fouet, avant d'ajouter le reste.", "en": "Pour in a little water and make a smooth paste with the whisk, before adding the rest." },
+    { "fr": "Battre en W rapides, du poignet, JAMAIS en tournant : le mouvement circulaire ne fait pas mousser.", "en": "Whisk in quick W strokes, from the wrist, NEVER in circles: a circular motion raises no foam." },
+    { "fr": "Compter une quinzaine de secondes, jusqu'à une mousse fine et uniforme couvrant toute la surface.", "en": "Allow about fifteen seconds, until a fine, even foam covers the whole surface." },
+    { "fr": "Finir en soulevant doucement le fouet au centre, et boire dans les trois minutes.", "en": "Finish by lifting the whisk gently from the centre, and drink within three minutes." }
+  ]
+}

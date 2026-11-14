@@ -1,0 +1,36 @@
+{
+  "slug": "kaya-toast",
+  "cuisine": "southeast-asian",
+  "country": "malaisie",
+  "origin": "Malaisie",
+  "native_name": "Roti bakar kaya",
+  "title": {
+    "fr": "Toast au kaya, confiture de coco",
+    "en": "Kaya toast with coconut jam"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 50 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["petit-dejeuner", "coco", "pandan", "kopitiam"],
+  "ingredients": [
+    { "raw": "6 œufs", "qty": 6, "unit": "piece", "item": "oeuf", "group": "kaya" },
+    { "raw": "40 cl de lait de coco", "qty": 40, "unit": "cl", "item": "lait de coco", "group": "kaya" },
+    { "raw": "250 g de sucre", "qty": 250, "unit": "g", "item": "sucre", "group": "kaya" },
+    { "raw": "2 feuilles de pandan, nouées", "qty": 2, "unit": "piece", "item": "feuille de pandan", "prep": "nouée", "group": "kaya" },
+    { "raw": "12 tranches de pain de mie", "qty": 12, "unit": "piece", "item": "pain de mie", "group": "service" },
+    { "raw": "120 g de beurre demi-sel, en fines tranches", "qty": 120, "unit": "g", "item": "beurre demi-sel", "prep": "en fines tranches", "group": "service" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf", "group": "service" },
+    { "raw": "2 c. à s. de sauce soja foncée", "qty": 2, "unit": "tbsp", "item": "sauce soja foncée", "group": "service" }
+  ],
+  "steps": [
+    { "fr": "Le kaya est une crème d'œufs au lait de coco : elle se fait AU BAIN-MARIE, jamais sur le feu direct.", "en": "Kaya is an egg and coconut custard: it is made IN A WATER BATH, never over direct heat." },
+    { "fr": "Battre œufs et sucre, ajouter le lait de coco et le pandan, et cuire au bain-marie.", "en": "Beat the eggs and sugar, add the coconut milk and pandan, and cook over a water bath." },
+    { "fr": "Remuer SANS ARRÊT pendant quarante-cinq minutes : c'est long, et cela ne se raccourcit pas.", "en": "Stir CONSTANTLY for forty-five minutes: it is long, and there is no shortening it." },
+    { "fr": "Le kaya est prêt quand il nappe le dos d'une cuillère et laisse une trace nette au doigt.", "en": "Kaya is ready when it coats the back of a spoon and a finger leaves a clean line." },
+    { "fr": "Griller le pain, tartiner de kaya, et glisser une TRANCHE de beurre froid, pas du beurre fondu.", "en": "Toast the bread, spread the kaya, and slide in a SLICE of cold butter, not melted butter." },
+    { "fr": "Servir avec deux œufs mollets à la sauce soja, à casser dans une soucoupe.", "en": "Serve with two soft-boiled eggs in dark soy, cracked into a saucer." }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "kotlet-schabowy",
+  "cuisine": "eastern-european",
+  "country": "pologne",
+  "origin": "Pologne",
+  "native_name": "Kotlet schabowy",
+  "title": {
+    "fr": "Côtelette de porc panée à la polonaise",
+    "en": "Polish breaded pork cutlet"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["dimanche", "porc", "friture", "famille"],
+  "ingredients": [
+    { "raw": "4 côtelettes de porc", "qty": 800, "unit": "g", "item": "échine de porc", "prep": "en côtelettes" },
+    { "raw": "150 g de farine de blé", "qty": 150, "unit": "g", "item": "farine de blé" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf" },
+    { "raw": "250 g de chapelure", "qty": 250, "unit": "g", "item": "panko" },
+    { "raw": "200 g de saindoux", "qty": 200, "unit": "g", "item": "saindoux" },
+    { "raw": "1,2 kg de pommes de terre", "qty": 1200, "unit": "g", "item": "pomme de terre", "group": "service" },
+    { "raw": "1/2 chou blanc, en lanières fines", "qty": 0.5, "unit": "piece", "item": "chou vert", "prep": "en lanières fines", "group": "service" },
+    { "raw": "1/2 bouquet d'aneth, ciselé", "qty": 0.5, "unit": "bunch", "item": "aneth", "prep": "ciselé", "group": "service" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le schabowy est LE plat du dimanche polonais : chaque famille en fait tous les week-ends.", "en": "The schabowy is THE Polish Sunday dish: every family makes it each weekend." },
+    { "fr": "Aplatir les côtelettes à UN CENTIMÈTRE, plus épaisses que la schnitzel viennoise.", "en": "Flatten the cutlets to ONE CENTIMETRE, thicker than a Viennese schnitzel." },
+    { "fr": "Les saler UNE HEURE avant et les éponger : le sel assaisonne à cœur et raffermit la chair.", "en": "Salt them AN HOUR ahead and blot them: the salt seasons through and firms the meat." },
+    { "fr": "Frire au SAINDOUX, pas à l'huile : c'est lui qui donne le goût polonais du plat.", "en": "Fry in LARD, not oil: it is what gives the dish its Polish taste." },
+    { "fr": "Cinq minutes par face à feu moyen : le porc doit être cuit à cœur, sans être sec.", "en": "Five minutes a side over medium heat: the pork must cook through without drying." },
+    { "fr": "Servir avec des pommes de terre à l'aneth et une salade de chou blanc râpé.", "en": "Serve with dill potatoes and a shredded white cabbage salad." }
+  ]
+}

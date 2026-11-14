@@ -1,0 +1,36 @@
+{
+  "slug": "pannenkoeken",
+  "cuisine": "western-european",
+  "country": "pays-bas",
+  "origin": "Pays-Bas",
+  "native_name": "Pannenkoeken",
+  "title": {
+    "fr": "Pannenkoeken, grandes crêpes néerlandaises",
+    "en": "Pannenkoeken, large Dutch pancakes"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 15, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["famille", "enfants", "sucre-sale", "poele"],
+  "ingredients": [
+    { "raw": "400 g de farine de blé", "qty": 400, "unit": "g", "item": "farine de blé" },
+    { "raw": "75 cl de lait entier", "qty": 75, "unit": "cl", "item": "lait entier" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf" },
+    { "raw": "100 g de beurre", "qty": 100, "unit": "g", "item": "beurre" },
+    { "raw": "200 g de lardons", "qty": 200, "unit": "g", "item": "lardon", "optional": true },
+    { "raw": "3 pommes, en fines tranches", "qty": 3, "unit": "piece", "item": "pomme", "prep": "en fines tranches", "optional": true },
+    { "raw": "200 g de sirop de sucre candi", "qty": 200, "unit": "g", "item": "mélasse", "group": "service" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Les pannenkoeken sont plus ÉPAISSES et plus larges que les crêpes françaises : une par assiette.", "en": "Pannenkoeken are THICKER and wider than French crêpes: one fills a plate." },
+    { "fr": "La pâte est plus dense et ne se laisse pas reposer : elle se cuit tout de suite.", "en": "The batter is denser and is not rested: it is cooked straight away." },
+    { "fr": "On les garnit PENDANT la cuisson, pas après : lardons ou pommes posés sur la pâte crue.", "en": "They are topped DURING cooking, not after: bacon or apple laid on the raw batter." },
+    { "fr": "Verser la pâte PAR-DESSUS la garniture déjà chaude dans la poêle.", "en": "Pour the batter OVER the topping already warming in the pan." },
+    { "fr": "Cuire trois minutes de chaque côté, à feu moyen : plus vif, l'extérieur brûle et le cœur reste cru.", "en": "Cook three minutes a side over medium heat: hotter, the outside burns and the centre stays raw." },
+    { "fr": "Servir avec le stroop, ce sirop de sucre candi épais et brun, versé généreusement.", "en": "Serve with stroop, that thick brown candy syrup, poured generously." }
+  ]
+}

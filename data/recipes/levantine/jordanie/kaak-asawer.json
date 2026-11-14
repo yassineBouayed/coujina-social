@@ -1,0 +1,39 @@
+{
+  "slug": "kaak-asawer",
+  "cuisine": "levantine",
+  "country": "jordanie",
+  "origin": "Jordanie",
+  "native_name": "Kaak asawer",
+  "title": {
+    "fr": "Kaak, couronnes salées à l'anis et au sésame",
+    "en": "Kaak, savoury anise and sesame rings"
+  },
+  "meal_type": "bread",
+  "servings": 10,
+  "times": { "prep_min": 40, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["gouter", "anis", "sesame", "conserve"],
+  "ingredients": [
+    { "raw": "600 g de farine de blé", "qty": 600, "unit": "g", "item": "farine de blé" },
+    { "raw": "1 c. à s. de levure boulangère sèche", "qty": 1, "unit": "tbsp", "item": "levure boulangère" },
+    { "raw": "1,5 c. à c. de sel", "qty": 1.5, "unit": "tsp", "item": "sel" },
+    { "raw": "1 c. à s. de sucre", "qty": 1, "unit": "tbsp", "item": "sucre" },
+    { "raw": "1 c. à s. de graines d'anis, moulues", "qty": 1, "unit": "tbsp", "item": "anis vert", "prep": "moulu" },
+    { "raw": "1 c. à c. de graines de fenouil, moulues", "qty": 1, "unit": "tsp", "item": "graine de fenouil", "prep": "moulue" },
+    { "raw": "1 c. à c. de graines de nigelle", "qty": 1, "unit": "tsp", "item": "graine de nigelle" },
+    { "raw": "10 cl d'huile d'olive", "qty": 10, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "30 cl d'eau tiède", "qty": 30, "unit": "cl", "item": "eau" },
+    { "raw": "100 g de graines de sésame", "qty": 100, "unit": "g", "item": "sésame", "group": "finition" },
+    { "raw": "1 œuf, battu", "qty": 1, "unit": "piece", "item": "oeuf", "prep": "battu", "group": "finition" }
+  ],
+  "steps": [
+    { "fr": "Moudre l'anis et le fenouil au dernier moment : moulus d'avance, ils perdent tout leur parfum.", "en": "Grind the anise and fennel at the last moment: ground in advance, they lose all their scent." },
+    { "fr": "Mélanger farine, levure, sel, sucre et graines, puis pétrir avec l'eau et l'huile dix minutes.", "en": "Mix the flour, yeast, salt, sugar and seeds, then knead with the water and oil for ten minutes." },
+    { "fr": "Laisser lever une heure et demie, jusqu'à ce que la pâte double.", "en": "Prove for an hour and a half, until doubled." },
+    { "fr": "Rouler des boudins fins et joindre les extrémités en anneaux, en soudant bien.", "en": "Roll thin ropes and join the ends into rings, sealing them well." },
+    { "fr": "Badigeonner d'œuf, rouler dans le sésame, et laisser lever encore trente minutes.", "en": "Brush with egg, roll in sesame, and prove for another thirty minutes." },
+    { "fr": "Cuire 25 minutes à 180 °C jusqu'à ce qu'ils soient dorés et secs : ils se gardent deux semaines.", "en": "Bake for 25 minutes at 180°C until golden and dry: they keep for two weeks." }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "sago-gulaman",
+  "cuisine": "southeast-asian",
+  "country": "philippines",
+  "origin": "Philippines",
+  "native_name": "Sago't gulaman",
+  "title": {
+    "fr": "Sago't gulaman, boisson glacée aux perles",
+    "en": "Sago't gulaman, iced pearl and jelly drink"
+  },
+  "meal_type": "drink",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "ete", "perles", "caramel"],
+  "ingredients": [
+    { "raw": "150 g de perles de tapioca", "qty": 150, "unit": "g", "item": "maïzena", "prep": "en perles" },
+    { "raw": "15 g de gélatine", "qty": 15, "unit": "g", "item": "gelatine" },
+    { "raw": "250 g de sucre roux", "qty": 250, "unit": "g", "item": "sucre roux" },
+    { "raw": "1,5 l d'eau", "qty": 1.5, "unit": "l", "item": "eau" },
+    { "raw": "2 c. à c. d'extrait de vanille", "qty": 2, "unit": "tsp", "item": "extrait de vanille" },
+    { "raw": "800 g de glaçons", "qty": 800, "unit": "g", "item": "eau", "prep": "en glaçons" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire les perles de tapioca dans BEAUCOUP d'eau : elles gonflent de cinq fois leur volume.", "en": "Cook the tapioca pearls in PLENTY of water: they swell to five times their volume." },
+    { "fr": "Elles sont cuites quand elles sont entièrement translucides, sans point blanc au centre.", "en": "They are done when fully translucent, with no white speck in the middle." },
+    { "fr": "Les rincer à l'eau froide et les garder dans un peu de sirop, sinon elles se collent en bloc.", "en": "Rinse them in cold water and keep them in a little syrup, or they set into a block." },
+    { "fr": "Préparer la gelée et la laisser prendre, puis la couper en petits cubes.", "en": "Make the jelly and let it set, then cut it into small cubes." },
+    { "fr": "Faire un sirop de sucre roux avec la vanille et le sel, et le laisser refroidir complètement.", "en": "Make a brown sugar syrup with the vanilla and salt, and cool it completely." },
+    { "fr": "Répartir perles et gelée dans les verres, verser le sirop, et remplir de glace et d'eau.", "en": "Divide the pearls and jelly into glasses, pour over the syrup, and fill with ice and water." }
+  ]
+}

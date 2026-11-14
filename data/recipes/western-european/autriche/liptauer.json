@@ -1,0 +1,39 @@
+{
+  "slug": "liptauer",
+  "cuisine": "western-european",
+  "country": "autriche",
+  "origin": "Autriche",
+  "native_name": "Liptauer",
+  "title": {
+    "fr": "Liptauer, tartinade au paprika",
+    "en": "Liptauer, paprika cheese spread"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 15, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["apero", "paprika", "fromage", "rapide"],
+  "ingredients": [
+    { "raw": "400 g de fromage blanc, bien égoutté", "qty": 400, "unit": "g", "item": "fromage blanc", "prep": "bien égoutté" },
+    { "raw": "120 g de beurre, mou", "qty": 120, "unit": "g", "item": "beurre", "prep": "mou" },
+    { "raw": "3 c. à s. de paprika doux", "qty": 3, "unit": "tbsp", "item": "paprika" },
+    { "raw": "2 c. à s. de câpres, hachées", "qty": 2, "unit": "tbsp", "item": "câpre", "prep": "hachée" },
+    { "raw": "4 filets d'anchois, hachés", "qty": 4, "unit": "piece", "item": "anchois", "prep": "haché" },
+    { "raw": "1 oignon, haché très finement", "qty": 1, "unit": "piece", "item": "oignon", "prep": "haché très finement" },
+    { "raw": "2 c. à c. de moutarde", "qty": 2, "unit": "tsp", "item": "moutarde" },
+    { "raw": "1 c. à c. de carvi, moulu", "qty": 1, "unit": "tsp", "item": "carvi", "prep": "moulu" },
+    { "raw": "1/2 bouquet de ciboulette, ciselée", "qty": 0.5, "unit": "bunch", "item": "ciboulette", "prep": "ciselée" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le beurre et le fromage blanc doivent être à la MÊME température : sinon le mélange tranche.", "en": "The butter and fromage blanc must be at the SAME temperature: otherwise the mix splits." },
+    { "fr": "Les sortir tous deux une heure avant, et battre le beurre SEUL en pommade d'abord.", "en": "Take both out an hour ahead, and beat the butter ALONE to a paste first." },
+    { "fr": "Ajouter le paprika au beurre avant le fromage : il se dissout mieux dans le gras.", "en": "Add the paprika to the butter before the cheese: it dissolves better in fat." },
+    { "fr": "C'est ce qui donne la couleur orange uniforme, sans grains rouges dans la tartinade.", "en": "That gives the even orange colour, with no red specks in the spread." },
+    { "fr": "Incorporer anchois, câpres, oignon et carvi, et goûter avant de saler.", "en": "Work in the anchovies, capers, onion and caraway, and taste before salting." },
+    { "fr": "Réfrigérer DEUX HEURES : le paprika et le carvi ont besoin de ce temps pour infuser.", "en": "Chill for TWO HOURS: the paprika and caraway need that time to infuse." }
+  ]
+}

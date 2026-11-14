@@ -1,0 +1,38 @@
+{
+  "slug": "izgara-kofte",
+  "cuisine": "middle-eastern",
+  "country": "turquie",
+  "origin": "Turquie",
+  "native_name": "Izgara köfte",
+  "title": {
+    "fr": "Köfte grillées au cumin",
+    "en": "Grilled kofte with cumin"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["grillade", "quotidien", "cumin", "famille"],
+  "ingredients": [
+    { "raw": "800 g de bœuf haché", "qty": 800, "unit": "g", "item": "boeuf haché" },
+    { "raw": "2 oignons, râpés et pressés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "râpé et pressé" },
+    { "raw": "2 tranches de pain de mie, trempées et pressées", "qty": 2, "unit": "piece", "item": "pain de mie", "prep": "trempée et pressée" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "2 c. à c. de cumin moulu", "qty": 2, "unit": "tsp", "item": "cumin" },
+    { "raw": "1 c. à c. d'origan séché", "qty": 1, "unit": "tsp", "item": "origan séché" },
+    { "raw": "1 c. à c. de piment d'Alep", "qty": 1, "unit": "tsp", "item": "piment d'Alep" },
+    { "raw": "3 gousses d'ail, écrasées", "qty": 3, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le pain trempé et pressé est ce qui rend la köfte moelleuse : sans lui, elle est sèche et compacte.", "en": "Soaked and squeezed bread is what keeps kofte tender: without it, they are dry and dense." },
+    { "fr": "Pétrir tous les ingrédients dix minutes, jusqu'à ce que la masse soit homogène et collante.", "en": "Knead all the ingredients for ten minutes, until the mass is even and tacky." },
+    { "fr": "Laisser reposer au frais au moins deux heures, une nuit si possible : le goût se développe au repos.", "en": "Rest in the fridge for at least two hours, overnight if possible: the flavour develops as it rests." },
+    { "fr": "Former des galettes ovales et aplaties d'un centimètre et demi.", "en": "Shape flattened oval patties a centimetre and a half thick." },
+    { "fr": "Griller sur braises vives, six minutes en tout, en ne retournant qu'une fois.", "en": "Grill over hot coals for six minutes in all, turning only once." },
+    { "fr": "Servir avec de l'oignon au sumac, du pain et des poivrons grillés.", "en": "Serve with sumac onions, bread and grilled peppers." }
+  ]
+}

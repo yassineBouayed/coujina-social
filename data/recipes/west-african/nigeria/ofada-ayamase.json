@@ -1,0 +1,42 @@
+{
+  "slug": "ofada-ayamase",
+  "cuisine": "west-african",
+  "country": "nigeria",
+  "origin": "Nigeria",
+  "native_name": "Ayamase",
+  "title": {
+    "fr": "Ayamase, sauce verte au riz ofada",
+    "en": "Ayamase, green pepper stew with ofada rice"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 90 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["yoruba", "piment-vert", "huile-de-palme", "fete"],
+  "ingredients": [
+    { "raw": "500 g de riz ofada", "qty": 500, "unit": "g", "item": "riz ofada" },
+    { "raw": "8 poivrons verts", "qty": 8, "unit": "piece", "item": "poivron vert", "group": "sauce" },
+    { "raw": "6 piments verts", "qty": 6, "unit": "piece", "item": "piment frais", "group": "sauce" },
+    { "raw": "2 oignons", "qty": 2, "unit": "piece", "item": "oignon", "group": "sauce" },
+    { "raw": "25 cl d'huile de palme rouge", "qty": 25, "unit": "cl", "item": "huile de palme rouge" },
+    { "raw": "400 g de bœuf à mijoter, en cubes", "qty": 400, "unit": "g", "item": "boeuf à mijoter", "prep": "en cubes" },
+    { "raw": "3 œufs durs", "qty": 3, "unit": "piece", "item": "oeuf", "prep": "dur" },
+    { "raw": "1 c. à s. de graines de néré", "qty": 1, "unit": "tbsp", "item": "néré" },
+    { "raw": "3 c. à s. de crevettes séchées, moulues", "qty": 3, "unit": "tbsp", "item": "crevette séchée", "prep": "moulue" },
+    { "raw": "2 cubes de bouillon", "qty": 2, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Mixer poivrons verts, piments et un oignon, et faire réduire à sec vingt minutes.", "en": "Blend the green peppers, chillies and one onion, and reduce dry for twenty minutes." },
+    { "fr": "Chauffer l'huile de palme jusqu'à ce qu'elle blanchisse et devienne translucide : c'est le bleaching, et il fume — ouvrir la fenêtre.", "en": "Heat the palm oil until it pales and turns translucent: this is bleaching, and it smokes — open a window." },
+    { "fr": "Le bleaching enlève à l'huile son goût brut et sa couleur rouge : sans lui, ce n'est plus de l'ayamase.", "en": "Bleaching strips the oil of its raw taste and red colour: without it, this is not ayamase." },
+    { "fr": "Laisser refroidir l'huile, y faire revenir le second oignon et le néré, puis verser la purée réduite.", "en": "Cool the oil, fry the second onion and the néré in it, then add the reduced purée." },
+    { "fr": "Ajouter la viande cuite, les crevettes séchées et les cubes, et laisser confire quarante minutes à feu doux.", "en": "Add the cooked meat, dried prawns and stock cubes, and let it confit for forty minutes over low heat." },
+    { "fr": "Servir sur du riz ofada, les œufs durs coupés en deux posés dessus.", "en": "Serve over ofada rice, with halved hard-boiled eggs on top." }
+  ],
+  "notes": [
+    { "fr": "Le bleaching de l'huile de palme dégage beaucoup de fumée. Sans hotte puissante, il vaut mieux le faire dehors.", "en": "Bleaching palm oil throws off a lot of smoke. Without a strong extractor, do it outside." }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "anguilles-au-vert",
+  "cuisine": "western-european",
+  "country": "belgique",
+  "origin": "Belgique",
+  "native_name": "Paling in 't groen",
+  "title": {
+    "fr": "Anguilles au vert",
+    "en": "Eels in green sauce"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["escaut", "herbes", "printemps", "poisson"],
+  "ingredients": [
+    { "raw": "1,2 kg d'anguille, en tronçons", "qty": 1200, "unit": "g", "item": "anguille", "prep": "en tronçons" },
+    { "raw": "400 g d'épinards", "qty": 400, "unit": "g", "item": "épinard", "group": "herbes" },
+    { "raw": "1 bouquet d'oseille", "qty": 1, "unit": "bunch", "item": "oseille", "group": "herbes" },
+    { "raw": "1 bouquet de persil plat", "qty": 1, "unit": "bunch", "item": "persil plat", "group": "herbes" },
+    { "raw": "1/2 bouquet de cerfeuil", "qty": 0.5, "unit": "bunch", "item": "cerfeuil", "group": "herbes" },
+    { "raw": "1/2 bouquet d'estragon", "qty": 0.5, "unit": "bunch", "item": "estragon", "group": "herbes" },
+    { "raw": "1/2 bouquet de menthe", "qty": 0.5, "unit": "bunch", "item": "menthe", "group": "herbes" },
+    { "raw": "30 cl de vin blanc sec", "qty": 30, "unit": "cl", "item": "vin blanc" },
+    { "raw": "3 échalotes, ciselées", "qty": 3, "unit": "piece", "item": "échalote", "prep": "ciselée" },
+    { "raw": "4 jaunes d'œufs", "qty": 4, "unit": "piece", "item": "oeuf" },
+    { "raw": "80 g de beurre", "qty": 80, "unit": "g", "item": "beurre" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Ce plat se mange FROID, en gelée, aussi souvent que chaud : c'est un plat de printemps.", "en": "This dish is eaten COLD, set to a jelly, as often as hot: it is a spring dish." },
+    { "fr": "Faire suer les échalotes au beurre, mouiller au vin blanc, et pocher l'anguille dix minutes.", "en": "Sweat the shallots in butter, add the white wine, and poach the eel for ten minutes." },
+    { "fr": "Jeter TOUTES les herbes d'un coup dans le bouillon et les laisser tomber DEUX MINUTES.", "en": "Tip ALL the herbs in at once and let them wilt for TWO MINUTES." },
+    { "fr": "Plus longtemps, elles virent au vert olive et la sauce perd son nom.", "en": "Any longer and they turn olive-drab, and the sauce loses its name." },
+    { "fr": "Lier aux jaunes d'œufs HORS DU FEU, en fouettant, sans jamais laisser bouillir.", "en": "Bind with the egg yolks OFF THE HEAT, whisking, never letting it boil." },
+    { "fr": "Acidifier au citron et servir aussitôt, ou réfrigérer une nuit pour la version froide.", "en": "Sharpen with lemon and serve at once, or chill overnight for the cold version." }
+  ]
+}

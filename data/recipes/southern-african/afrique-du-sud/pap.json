@@ -1,0 +1,32 @@
+{
+  "slug": "pap",
+  "cuisine": "southern-african",
+  "country": "afrique-du-sud",
+  "origin": "Afrique du Sud",
+  "native_name": "Pap",
+  "title": {
+    "fr": "Pap, semoule de maïs blanche",
+    "en": "Pap, white maize porridge"
+  },
+  "meal_type": "side",
+  "servings": 6,
+  "times": { "prep_min": 5, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["base", "mais", "quotidien", "braai"],
+  "ingredients": [
+    { "raw": "400 g de farine de maïs blanche", "qty": 400, "unit": "g", "item": "farine de maïs blanche" },
+    { "raw": "1,5 l d'eau", "qty": 1.5, "unit": "l", "item": "eau" },
+    { "raw": "1,5 c. à c. de sel", "qty": 1.5, "unit": "tsp", "item": "sel" },
+    { "raw": "30 g de beurre", "qty": 30, "unit": "g", "item": "beurre", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Porter l'eau salée à ébullition franche.", "en": "Bring the salted water to a rolling boil." },
+    { "fr": "Verser la farine de maïs d'un seul coup au centre, SANS remuer, et laisser former un monticule.", "en": "Tip the maize meal into the centre all at once, WITHOUT stirring, and let it form a mound." },
+    { "fr": "Couvrir et laisser dix minutes : la farine s'hydrate seule, et c'est ce qui évite les grumeaux.", "en": "Cover and leave it ten minutes: the meal hydrates on its own, and that is what avoids lumps." },
+    { "fr": "Fouetter alors énergiquement jusqu'à obtenir une masse homogène.", "en": "Then whisk vigorously to a smooth mass." },
+    { "fr": "Couvrir et laisser cuire trente minutes à feu très doux, en remuant toutes les dix minutes.", "en": "Cover and cook for thirty minutes over very low heat, stirring every ten minutes." },
+    { "fr": "Pour un pap ferme, à couper au couteau, réduire l'eau d'un quart.", "en": "For a firm pap you can cut with a knife, use a quarter less water." }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "samgyeopsal",
+  "cuisine": "east-asian",
+  "country": "coree-du-sud",
+  "origin": "Corée du Sud",
+  "native_name": "삼겹살",
+  "title": {
+    "fr": "Samgyeopsal, poitrine de porc grillée à table",
+    "en": "Samgyeopsal, table-grilled pork belly"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["barbecue", "convivial", "ssam", "soiree"],
+  "ingredients": [
+    { "raw": "1,2 kg de poitrine de porc, en tranches épaisses", "qty": 1200, "unit": "g", "item": "poitrine de porc", "prep": "en tranches épaisses" },
+    { "raw": "1 laitue, en feuilles", "qty": 1, "unit": "piece", "item": "laitue", "group": "ssam" },
+    { "raw": "400 g de kimchi", "qty": 400, "unit": "g", "item": "kimchi", "group": "ssam" },
+    { "raw": "1 tête d'ail, en lamelles", "qty": 12, "unit": "piece", "item": "ail", "prep": "en lamelles", "group": "ssam" },
+    { "raw": "4 c. à s. de doenjang", "qty": 4, "unit": "tbsp", "item": "doenjang", "group": "ssamjang" },
+    { "raw": "2 c. à s. de gochujang", "qty": 2, "unit": "tbsp", "item": "gochujang", "group": "ssamjang" },
+    { "raw": "1 c. à s. d'huile de sésame", "qty": 1, "unit": "tbsp", "item": "huile de sésame", "group": "ssamjang" },
+    { "raw": "1 c. à s. de sucre", "qty": 1, "unit": "tbsp", "item": "sucre", "group": "ssamjang" },
+    { "raw": "2 oignons nouveaux, ciselés", "qty": 2, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé", "group": "ssamjang" },
+    { "raw": "2 c. à s. d'huile de sésame", "qty": 2, "unit": "tbsp", "item": "huile de sésame", "group": "trempette" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le samgyeopsal ne se marine PAS : c'est du porc nature, et c'est tout l'intérêt.", "en": "Samgyeopsal is NOT marinated: it is plain pork, and that is the whole point." },
+    { "fr": "Griller les tranches épaisses sur plaque, sans matière grasse : le porc rend le sien.", "en": "Grill the thick slices on a griddle, with no added fat: the pork renders its own." },
+    { "fr": "Griller le kimchi et l'ail dans le gras rendu, sur le bord de la plaque : c'est là qu'ils sont les meilleurs.", "en": "Grill the kimchi and garlic in the rendered fat, at the edge of the griddle: they are best there." },
+    { "fr": "Couper la viande aux ciseaux quand elle est bien dorée, directement sur la plaque.", "en": "Cut the meat with scissors once well browned, directly on the griddle." },
+    { "fr": "Mélanger le ssamjang : doenjang, gochujang, huile de sésame, sucre et oignons nouveaux.", "en": "Mix the ssamjang: doenjang, gochujang, sesame oil, sugar and spring onions." },
+    { "fr": "Chaque convive monte son ssam : feuille de laitue, viande, ssamjang, ail grillé, et une bouchée entière.", "en": "Each person builds their own ssam: lettuce leaf, meat, ssamjang, grilled garlic, and one whole mouthful." }
+  ]
+}

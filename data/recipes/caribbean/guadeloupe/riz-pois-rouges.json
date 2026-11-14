@@ -1,0 +1,40 @@
+{
+  "slug": "riz-pois-rouges",
+  "cuisine": "caribbean",
+  "country": "guadeloupe",
+  "origin": "Guadeloupe",
+  "native_name": "Riz aux pois rouges",
+  "title": {
+    "fr": "Riz aux pois rouges",
+    "en": "Rice and red beans"
+  },
+  "meal_type": "side",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 90 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["embleme", "accompagnement", "haricot", "quotidien"],
+  "ingredients": [
+    { "raw": "300 g de haricots rouges secs, trempés la veille", "qty": 300, "unit": "g", "item": "haricot rouge", "prep": "trempé la veille" },
+    { "raw": "500 g de riz long grain", "qty": 500, "unit": "g", "item": "riz long grain" },
+    { "raw": "200 g de poitrine de porc fumée, en dés", "qty": 200, "unit": "g", "item": "poitrine de porc", "prep": "fumée, en dés" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "6 gousses d'ail, écrasées", "qty": 6, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 bouquet d'oignons nouveaux, émincés", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "émincé" },
+    { "raw": "4 feuilles de bois d'Inde", "qty": 4, "unit": "piece", "item": "bois d'Inde" },
+    { "raw": "1 piment végétarien", "qty": 1, "unit": "piece", "item": "piment végétarien" },
+    { "raw": "1/2 bouquet de thym frais", "qty": 0.5, "unit": "bunch", "item": "thym" },
+    { "raw": "8 c. à s. d'huile neutre", "qty": 8, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le riz cuit DANS L'EAU DES POIS, jamais à l'eau claire : c'est elle qui lui donne sa couleur rosée.", "en": "The rice cooks IN THE BEAN WATER, never in fresh water: that gives it the pink tinge." },
+    { "fr": "Cuire les pois trempés une heure SANS SEL, avec le lard fumé, le thym et le bois d'Inde.", "en": "Cook the soaked beans for an hour WITHOUT SALT, with the smoked pork, thyme and bay-rum leaves." },
+    { "fr": "Mesurer l'eau de cuisson APRÈS : il en faut une fois et demie le volume de riz.", "en": "Measure the cooking water AFTERWARDS: you need one and a half times the rice's volume." },
+    { "fr": "Nacrer le riz dans l'huile avec l'oignon et l'ail, deux minutes, avant de mouiller.", "en": "Toast the rice in oil with the onion and garlic, two minutes, before adding liquid." },
+    { "fr": "Ajouter pois et eau de cuisson, couvrir, et NE PLUS SOULEVER LE COUVERCLE vingt minutes.", "en": "Add the beans and their water, cover, and DO NOT LIFT THE LID for twenty minutes." },
+    { "fr": "Laisser reposer dix minutes hors du feu avant d'aérer à la fourchette.", "en": "Rest for ten minutes off the heat before fluffing with a fork." }
+  ]
+}

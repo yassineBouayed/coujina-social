@@ -1,0 +1,39 @@
+{
+  "slug": "galbi",
+  "cuisine": "east-asian",
+  "country": "coree-du-sud",
+  "origin": "Corée du Sud",
+  "native_name": "갈비",
+  "title": {
+    "fr": "Galbi, travers de bœuf marinés au barbecue",
+    "en": "Galbi, marinated grilled beef short ribs"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["barbecue", "fete", "marinade", "boeuf"],
+  "ingredients": [
+    { "raw": "1,5 kg de travers de bœuf, en tranches fines", "qty": 1500, "unit": "g", "item": "boeuf à mijoter", "prep": "en tranches fines" },
+    { "raw": "1 poire, râpée", "qty": 1, "unit": "piece", "item": "pomme", "prep": "râpée", "group": "marinade" },
+    { "raw": "12 cl de sauce soja", "qty": 12, "unit": "cl", "item": "sauce soja", "group": "marinade" },
+    { "raw": "5 c. à s. de sucre roux", "qty": 5, "unit": "tbsp", "item": "sucre roux", "group": "marinade" },
+    { "raw": "4 c. à s. d'huile de sésame", "qty": 4, "unit": "tbsp", "item": "huile de sésame", "group": "marinade" },
+    { "raw": "8 gousses d'ail, râpées", "qty": 8, "unit": "piece", "item": "ail", "prep": "râpé", "group": "marinade" },
+    { "raw": "1 oignon, râpé", "qty": 1, "unit": "piece", "item": "oignon", "prep": "râpé", "group": "marinade" },
+    { "raw": "5 cl de saké", "qty": 5, "unit": "cl", "item": "saké", "group": "marinade" },
+    { "raw": "1 laitue, en feuilles", "qty": 1, "unit": "piece", "item": "laitue", "group": "service" },
+    { "raw": "4 c. à s. de gochujang", "qty": 4, "unit": "tbsp", "item": "gochujang", "group": "service" },
+    { "raw": "2 c. à s. de graines de sésame", "qty": 2, "unit": "tbsp", "item": "sésame" }
+  ],
+  "steps": [
+    { "fr": "Faire dessaler les travers UNE HEURE à l'eau froide, en changeant l'eau : cela retire le sang et l'odeur.", "en": "Soak the ribs for AN HOUR in cold water, changing it: this draws out blood and off-smells." },
+    { "fr": "Les sécher soigneusement, puis les faire mariner SIX HEURES, une nuit de préférence.", "en": "Dry them thoroughly, then marinate for SIX HOURS, ideally overnight." },
+    { "fr": "Griller sur braises TRÈS vives : la marinade sucrée doit caraméliser avant que la viande sèche.", "en": "Grill over VERY hot coals: the sweet marinade must caramelise before the meat dries." },
+    { "fr": "Trois minutes par face suffisent pour des tranches fines : au-delà, le sucre brûle.", "en": "Three minutes a side is enough for thin slices: beyond that, the sugar burns." },
+    { "fr": "Découper aux ciseaux directement sur le gril, comme au restaurant coréen.", "en": "Cut them with scissors directly on the grill, as in a Korean restaurant." },
+    { "fr": "Servir en ssam : une feuille de laitue, un morceau de viande, une pointe de gochujang, et refermer.", "en": "Serve as ssam: a lettuce leaf, a piece of meat, a dab of gochujang, and fold it up." }
+  ]
+}

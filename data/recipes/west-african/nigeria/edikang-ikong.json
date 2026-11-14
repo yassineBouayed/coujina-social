@@ -1,0 +1,40 @@
+{
+  "slug": "edikang-ikong",
+  "cuisine": "west-african",
+  "country": "nigeria",
+  "origin": "Nigeria",
+  "native_name": "Edikang ikong",
+  "title": {
+    "fr": "Edikang ikong, soupe de feuilles à la viande",
+    "en": "Edikang ikong, vegetable and meat soup"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 50 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["calabar", "riche", "feuilles", "fete"],
+  "ingredients": [
+    { "raw": "500 g de feuilles d'ugu, ciselées", "qty": 500, "unit": "g", "item": "feuille d'ugu", "prep": "ciselée" },
+    { "raw": "300 g d'épinards, ciselés", "qty": 300, "unit": "g", "item": "épinard", "prep": "ciselé" },
+    { "raw": "400 g de bœuf à mijoter, en cubes", "qty": 400, "unit": "g", "item": "boeuf à mijoter", "prep": "en cubes" },
+    { "raw": "200 g de stockfish, trempé", "qty": 200, "unit": "g", "item": "stockfish", "prep": "trempé" },
+    { "raw": "150 g de poisson fumé, émietté", "qty": 150, "unit": "g", "item": "poisson fumé", "prep": "émietté" },
+    { "raw": "200 g de crevettes fraîches, décortiquées", "qty": 200, "unit": "g", "item": "crevette", "prep": "décortiquée" },
+    { "raw": "4 c. à s. de crevettes séchées, moulues", "qty": 4, "unit": "tbsp", "item": "crevette séchée", "prep": "moulue" },
+    { "raw": "20 cl d'huile de palme rouge", "qty": 20, "unit": "cl", "item": "huile de palme rouge" },
+    { "raw": "1 oignon, haché", "qty": 1, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "3 piments habanero, mixés", "qty": 3, "unit": "piece", "item": "habanero", "prep": "mixé" },
+    { "raw": "2 cubes de bouillon", "qty": 2, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire viande et stockfish avec très peu d'eau : cette soupe ne se mouille presque pas, les feuilles fournissent le liquide.", "en": "Cook the meat and stockfish in very little water: this soup is barely wetted, the greens provide the liquid." },
+    { "fr": "Ajouter l'huile de palme, le poisson fumé, les crevettes séchées, le piment et les cubes.", "en": "Add the palm oil, smoked fish, dried prawns, chilli and stock cubes." },
+    { "fr": "Ajouter les épinards d'abord et laisser leur eau s'évaporer complètement.", "en": "Add the spinach first and let its water evaporate entirely." },
+    { "fr": "Ajouter les feuilles d'ugu et les crevettes fraîches, et couper le feu au bout de cinq minutes.", "en": "Add the ugu leaves and fresh prawns, and cut the heat after five minutes." },
+    { "fr": "Ne jamais couvrir après l'ajout des feuilles : la condensation les fait griser.", "en": "Never cover after the greens go in: condensation greys them." },
+    { "fr": "Servir immédiatement, très épais, avec de l'igname pilée.", "en": "Serve immediately, very thick, with pounded yam." }
+  ]
+}

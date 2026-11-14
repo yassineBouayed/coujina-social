@@ -1,0 +1,40 @@
+{
+  "slug": "pierogi-z-miesem",
+  "cuisine": "eastern-european",
+  "country": "pologne",
+  "origin": "Pologne",
+  "native_name": "Pierogi z mięsem",
+  "title": {
+    "fr": "Pierogi à la viande",
+    "en": "Meat pierogi"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 60, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ravioli", "restes", "famille", "fete"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "25 cl d'eau bouillante", "qty": 25, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "3 c. à s. d'huile neutre", "qty": 3, "unit": "tbsp", "item": "huile neutre", "group": "pâte" },
+    { "raw": "600 g de bœuf à mijoter, cuit et effiloché", "qty": 600, "unit": "g", "item": "boeuf à mijoter", "prep": "cuit et effiloché", "group": "farce" },
+    { "raw": "300 g de porc haché", "qty": 300, "unit": "g", "item": "porc haché", "group": "farce" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché", "group": "farce" },
+    { "raw": "60 g de chapelure", "qty": 60, "unit": "g", "item": "panko", "group": "farce" },
+    { "raw": "2 c. à c. de marjolaine séchée", "qty": 2, "unit": "tsp", "item": "marjolaine", "group": "farce" },
+    { "raw": "100 g de beurre", "qty": 100, "unit": "g", "item": "beurre" },
+    { "raw": "150 g de lardons", "qty": 150, "unit": "g", "item": "lardon", "group": "service" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Ces pierogi se font avec la viande du rosół : c'est le plat du lundi, tiré du dimanche.", "en": "These pierogi use the meat from the rosół: the Monday dish, built from Sunday." },
+    { "fr": "EFFILOCHER la viande à la fourchette plutôt que de la hacher : la texture reste bien meilleure.", "en": "SHRED the meat with a fork rather than mincing it: the texture stays far better." },
+    { "fr": "Faire dorer les oignons longuement et les mêler à la viande avec la chapelure.", "en": "Fry the onions at length and mix them into the meat with the breadcrumbs." },
+    { "fr": "La chapelure absorbe le jus de la viande : sans elle, la farce mouille la pâte de l'intérieur.", "en": "The breadcrumbs absorb the meat juices: without them, the filling wets the dough from within." },
+    { "fr": "Découper des ronds de neuf centimètres, garnir, et souder en pinçant sans laisser d'air.", "en": "Cut nine-centimetre rounds, fill them, and pinch shut without trapping air." },
+    { "fr": "Pocher deux minutes après qu'ils remontent, puis poêler au beurre avec les lardons.", "en": "Poach two minutes after they float, then pan-fry in butter with the bacon." }
+  ]
+}

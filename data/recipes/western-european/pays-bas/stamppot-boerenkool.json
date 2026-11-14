@@ -1,0 +1,38 @@
+{
+  "slug": "stamppot-boerenkool",
+  "cuisine": "western-european",
+  "country": "pays-bas",
+  "origin": "Pays-Bas",
+  "native_name": "Boerenkoolstamppot",
+  "title": {
+    "fr": "Stamppot au chou frisé et à la saucisse",
+    "en": "Kale stamppot with smoked sausage"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 40 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hiver", "embleme", "chou", "famille"],
+  "ingredients": [
+    { "raw": "1,5 kg de pommes de terre, en morceaux", "qty": 1500, "unit": "g", "item": "pomme de terre", "prep": "en morceaux" },
+    { "raw": "800 g de chou frisé, en lanières fines", "qty": 800, "unit": "g", "item": "chou frisé", "prep": "en lanières fines" },
+    { "raw": "4 saucisses fumées", "qty": 4, "unit": "piece", "item": "saucisse fumée" },
+    { "raw": "200 g de lardons", "qty": 200, "unit": "g", "item": "lardon" },
+    { "raw": "25 cl de lait entier", "qty": 25, "unit": "cl", "item": "lait entier" },
+    { "raw": "120 g de beurre", "qty": 120, "unit": "g", "item": "beurre" },
+    { "raw": "3 c. à s. de moutarde", "qty": 3, "unit": "tbsp", "item": "moutarde" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Stamppot veut dire « pot pilé » : tout se cuit ensemble et s'écrase dans la même casserole.", "en": "Stamppot means \"mashed pot\": everything cooks together and is crushed in the same pan." },
+    { "fr": "Poser le chou SUR les pommes de terre, sans le mélanger, et couvrir : il cuit à la vapeur.", "en": "Lay the kale ON TOP of the potatoes, without mixing, and cover: it steams." },
+    { "fr": "Poser la saucisse fumée ENTIÈRE sur le chou : elle réchauffe et parfume le tout.", "en": "Set the smoked sausage WHOLE on the kale: it warms through and flavours everything." },
+    { "fr": "Ne jamais la piquer : elle perdrait son gras et le stamppot resterait sec.", "en": "Never prick it: it would lose its fat and the stamppot would stay dry." },
+    { "fr": "Égoutter en gardant un peu d'eau, écraser au pilon, et incorporer lait chaud et beurre.", "en": "Drain, keeping a little water, crush with a masher, and work in hot milk and butter." },
+    { "fr": "Creuser un puits et y verser le jus des lardons : c'est le geste néerlandais.", "en": "Hollow a well and pour in the bacon juices: that is the Dutch touch." }
+  ]
+}

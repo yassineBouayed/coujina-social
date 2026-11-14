@@ -1,0 +1,39 @@
+{
+  "slug": "bredie-tomate",
+  "cuisine": "southern-african",
+  "country": "afrique-du-sud",
+  "origin": "Afrique du Sud",
+  "native_name": "Tamatiebredie",
+  "title": {
+    "fr": "Bredie de tomates à l'agneau",
+    "en": "Tomato bredie with lamb"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 150 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["cap", "tomate", "cuisson-lente", "hiver"],
+  "ingredients": [
+    { "raw": "1,2 kg d'épaule d'agneau, en morceaux", "qty": 1200, "unit": "g", "item": "épaule d'agneau", "prep": "en morceaux" },
+    { "raw": "1,2 kg de tomates, pelées et concassées", "qty": 1200, "unit": "g", "item": "tomate", "prep": "pelée et concassée" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "4 pommes de terre, en quartiers", "qty": 4, "unit": "piece", "item": "pomme de terre", "prep": "en quartiers" },
+    { "raw": "1 c. à s. de sucre", "qty": 1, "unit": "tbsp", "item": "sucre" },
+    { "raw": "1 c. à c. de piment en poudre", "qty": 1, "unit": "tsp", "item": "piment en poudre" },
+    { "raw": "3 clous de girofle", "qty": 3, "unit": "piece", "item": "clou de girofle" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "5 c. à s. d'huile neutre", "qty": 5, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Faire dorer la viande dans l'huile bien chaude, par petites quantités, et la réserver.", "en": "Brown the meat in hot oil, in small batches, and set aside." },
+    { "fr": "Faire fondre les oignons dans le même gras, quinze minutes.", "en": "Melt the onions in the same fat, fifteen minutes." },
+    { "fr": "Remettre la viande, ajouter les tomates, le sucre, le piment, le girofle et la cannelle.", "en": "Return the meat, add the tomatoes, sugar, chilli, cloves and cinnamon." },
+    { "fr": "Le sucre n'est pas là pour sucrer : il corrige l'acidité de la tomate longuement cuite.", "en": "The sugar is not there to sweeten: it corrects the acidity of long-cooked tomato." },
+    { "fr": "Laisser mijoter deux heures à couvert, sans ajouter d'eau : les tomates suffisent.", "en": "Simmer covered for two hours, adding no water: the tomatoes are enough." },
+    { "fr": "Ajouter les pommes de terre pour les trente dernières minutes, et servir avec du riz.", "en": "Add the potatoes for the last thirty minutes, and serve with rice." }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "lechon-kawali",
+  "cuisine": "southeast-asian",
+  "country": "philippines",
+  "origin": "Philippines",
+  "native_name": "Lechon kawali",
+  "title": {
+    "fr": "Lechon kawali, poitrine de porc frite croustillante",
+    "en": "Lechon kawali, crisp fried pork belly"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 110 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "friture", "porc", "croustillant"],
+  "ingredients": [
+    { "raw": "1,2 kg de poitrine de porc en un morceau", "qty": 1200, "unit": "g", "item": "poitrine de porc" },
+    { "raw": "6 feuilles de laurier", "qty": 6, "unit": "piece", "item": "laurier" },
+    { "raw": "2 c. à s. de poivre noir en grains", "qty": 2, "unit": "tbsp", "item": "poivre noir" },
+    { "raw": "1 tête d'ail", "qty": 10, "unit": "piece", "item": "ail" },
+    { "raw": "3 c. à s. de gros sel", "qty": 3, "unit": "tbsp", "item": "gros sel" },
+    { "raw": "1,5 l d'huile neutre pour la friture", "qty": 1.5, "unit": "l", "item": "huile neutre" },
+    { "raw": "10 cl de vinaigre de canne", "qty": 10, "unit": "cl", "item": "vinaigre de canne", "group": "sauce" },
+    { "raw": "4 gousses d'ail, hachées", "qty": 4, "unit": "piece", "item": "ail", "prep": "haché", "group": "sauce" },
+    { "raw": "2 piments oiseau, hachés", "qty": 2, "unit": "piece", "item": "piment oiseau", "prep": "haché", "group": "sauce" }
+  ],
+  "steps": [
+    { "fr": "Pocher la poitrine une heure dans l'eau salée avec laurier, ail et poivre, jusqu'à ce qu'elle soit tendre.", "en": "Poach the belly for an hour in salted water with bay, garlic and pepper, until tender." },
+    { "fr": "L'égoutter et la SÉCHER AU RÉFRIGÉRATEUR, à découvert, DOUZE HEURES minimum.", "en": "Drain it and DRY IT IN THE FRIDGE, uncovered, for at LEAST twelve hours." },
+    { "fr": "Ce séchage est toute la recette : une couenne humide ne boursoufle jamais et rejette l'huile.", "en": "That drying is the whole recipe: a damp rind never blisters and spits the oil back at you." },
+    { "fr": "Piquer la couenne partout à la fourchette, sans atteindre la chair.", "en": "Prick the rind all over with a fork, without reaching the meat." },
+    { "fr": "Frire à 180 °C, couenne vers le bas d'abord, en couvrant à demi : cela projette violemment.", "en": "Fry at 180°C, rind side down first, half-covered: it spits violently." },
+    { "fr": "Laisser reposer dix minutes, puis hacher au couperet et servir avec la sauce au vinaigre.", "en": "Rest it for ten minutes, then chop it with a cleaver and serve with the vinegar sauce." }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "vitello-tonnato",
+  "cuisine": "mediterranean",
+  "country": "italie",
+  "origin": "Italie",
+  "native_name": "Vitello tonnato",
+  "title": {
+    "fr": "Vitello tonnato, veau froid sauce au thon",
+    "en": "Vitello tonnato, cold veal in tuna sauce"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 90 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["piemont", "froid", "ete", "thon"],
+  "ingredients": [
+    { "raw": "1 kg de rôti de veau", "qty": 1000, "unit": "g", "item": "veau à mijoter", "prep": "en rôti" },
+    { "raw": "2 carottes", "qty": 2, "unit": "piece", "item": "carotte", "group": "pochage" },
+    { "raw": "1 branche de céleri", "qty": 1, "unit": "piece", "item": "céleri branche", "group": "pochage" },
+    { "raw": "1 oignon", "qty": 1, "unit": "piece", "item": "oignon", "group": "pochage" },
+    { "raw": "25 cl de vin blanc sec", "qty": 25, "unit": "cl", "item": "vin blanc", "group": "pochage" },
+    { "raw": "200 g de thon en conserve, égoutté", "qty": 200, "unit": "g", "item": "thon en conserve", "prep": "égoutté", "group": "sauce" },
+    { "raw": "6 filets d'anchois", "qty": 6, "unit": "piece", "item": "anchois", "group": "sauce" },
+    { "raw": "3 c. à s. de câpres", "qty": 3, "unit": "tbsp", "item": "câpre", "group": "sauce" },
+    { "raw": "20 cl de mayonnaise", "qty": 20, "unit": "cl", "item": "mayonnaise", "group": "sauce" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron", "group": "sauce" },
+    { "raw": "1 bouquet garni", "qty": 1, "unit": "piece", "item": "bouquet garni" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Pocher le veau une heure et demie à FRÉMISSEMENT, jamais à ébullition.", "en": "Poach the veal for an hour and a half at a SIMMER, never at a boil." },
+    { "fr": "Le laisser refroidir COMPLÈTEMENT dans son bouillon : sorti chaud, il sèche et durcit.", "en": "Cool it COMPLETELY in its broth: lifted out hot, it dries and toughens." },
+    { "fr": "Le mettre au réfrigérateur une nuit : froid et ferme, il se tranche en lamelles très fines.", "en": "Refrigerate it overnight: cold and firm, it slices paper thin." },
+    { "fr": "Mixer thon, anchois, câpres et citron avec deux louches de bouillon FILTRÉ.", "en": "Blend the tuna, anchovies, capers and lemon with two ladles of STRAINED broth." },
+    { "fr": "Incorporer la mayonnaise à la spatule, sans mixer : mixée, la sauce devient élastique.", "en": "Fold in the mayonnaise with a spatula, without blending: blended, the sauce turns elastic." },
+    { "fr": "Napper les tranches et laisser au frais TROIS HEURES avant de servir.", "en": "Coat the slices and chill for THREE HOURS before serving." }
+  ]
+}

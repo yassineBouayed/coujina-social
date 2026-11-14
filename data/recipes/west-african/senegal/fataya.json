@@ -1,0 +1,39 @@
+{
+  "slug": "fataya",
+  "cuisine": "west-african",
+  "country": "senegal",
+  "origin": "Sénégal",
+  "native_name": "Fataya",
+  "title": {
+    "fr": "Fataya, chaussons frits au poisson",
+    "en": "Fataya, fried fish turnovers"
+  },
+  "meal_type": "starter",
+  "servings": 8,
+  "times": { "prep_min": 50, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "friture", "poisson", "gouter"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf", "group": "pâte" },
+    { "raw": "50 g de beurre, ramolli", "qty": 50, "unit": "g", "item": "beurre", "prep": "ramolli", "group": "pâte" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel", "group": "pâte" },
+    { "raw": "400 g de thiof, cuit et émietté", "qty": 400, "unit": "g", "item": "thiof", "prep": "cuit et émietté", "group": "farce" },
+    { "raw": "2 oignons, hachés finement", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché finement", "group": "farce" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé", "group": "farce" },
+    { "raw": "1 citron vert, son jus", "qty": 1, "unit": "piece", "item": "citron vert", "group": "farce" },
+    { "raw": "1 piment oiseau, émincé", "qty": 1, "unit": "piece", "item": "piment oiseau", "prep": "émincé", "group": "farce" },
+    { "raw": "1 cube de bouillon", "qty": 1, "unit": "piece", "item": "bouillon cube", "group": "farce" },
+    { "raw": "1 l d'huile d'arachide pour la friture", "qty": 1, "unit": "l", "item": "huile d'arachide", "group": "friture" }
+  ],
+  "steps": [
+    { "fr": "Pétrir la farine, l'œuf, le beurre, le sel et de l'eau en une pâte ferme, et la laisser reposer trente minutes.", "en": "Knead the flour, egg, butter, salt and water into a firm dough, and rest for thirty minutes." },
+    { "fr": "Mélanger le poisson émietté avec l'oignon, le persil, le citron, le piment et le cube.", "en": "Mix the flaked fish with the onion, parsley, lime, chilli and stock cube." },
+    { "fr": "La farce doit être sèche : humide, elle fait éclater le chausson dans l'huile.", "en": "The filling must be dry: wet, it bursts the turnover in the oil." },
+    { "fr": "Découper des disques, garnir, replier en demi-lune et souder les bords à la fourchette.", "en": "Cut discs, fill, fold into half-moons and seal the edges with a fork." },
+    { "fr": "Frire à 175 °C, deux minutes par face, jusqu'à ce qu'ils soient dorés et boursouflés.", "en": "Fry at 175°C, two minutes a side, until golden and blistered." },
+    { "fr": "Servir chaud avec du kani ou une sauce piment.", "en": "Serve hot with kani or a chilli sauce." }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "horiatiki",
+  "cuisine": "mediterranean",
+  "country": "grece",
+  "origin": "Grèce",
+  "native_name": "Χωριάτικη σαλάτα",
+  "title": {
+    "fr": "Salade grecque villageoise",
+    "en": "Greek village salad"
+  },
+  "meal_type": "salad",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ete", "feta", "cru", "rapide"],
+  "ingredients": [
+    { "raw": "6 tomates mûres, en gros quartiers", "qty": 6, "unit": "piece", "item": "tomate", "prep": "en gros quartiers" },
+    { "raw": "1 concombre, en gros tronçons", "qty": 1, "unit": "piece", "item": "concombre", "prep": "en gros tronçons" },
+    { "raw": "1 oignon rouge, en rondelles", "qty": 1, "unit": "piece", "item": "oignon rouge", "prep": "en rondelles" },
+    { "raw": "1 poivron vert, en anneaux", "qty": 1, "unit": "piece", "item": "poivron vert", "prep": "en anneaux" },
+    { "raw": "250 g de feta, en un seul bloc", "qty": 250, "unit": "g", "item": "feta", "prep": "en un seul bloc" },
+    { "raw": "100 g d'olives de Kalamata", "qty": 100, "unit": "g", "item": "olive noire" },
+    { "raw": "2 c. à s. d'origan séché", "qty": 2, "unit": "tbsp", "item": "origan" },
+    { "raw": "10 cl d'huile d'olive", "qty": 10, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "2 c. à s. de câpres", "qty": 2, "unit": "tbsp", "item": "câpre", "optional": true },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "La horiatiki ne contient PAS de salade verte : le mot « grecque » avec de la laitue est une invention d'ailleurs.", "en": "Horiatiki contains NO lettuce: \"Greek salad\" with lettuce is an invention from elsewhere." },
+    { "fr": "Couper GROS : c'est une salade de villageois, pas une assiette de restaurant.", "en": "Cut LARGE: this is a villagers' salad, not a restaurant plate." },
+    { "fr": "La feta se pose en BLOC ENTIER sur le dessus, jamais émiettée.", "en": "The feta goes on in a WHOLE BLOCK on top, never crumbled." },
+    { "fr": "Saler les tomates en premier et les laisser cinq minutes : leur jus fait la moitié de la sauce.", "en": "Salt the tomatoes first and leave them five minutes: their juice makes half the dressing." },
+    { "fr": "Il n'y a PAS de vinaigre : huile d'olive, origan, et le jus des tomates.", "en": "There is NO vinegar: olive oil, oregano, and the tomatoes' own juice." },
+    { "fr": "Servir aussitôt, avec du pain pour saucer le fond du plat.", "en": "Serve at once, with bread to mop the bottom of the dish." }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "doogh",
+  "cuisine": "middle-eastern",
+  "country": "iran",
+  "origin": "Iran",
+  "native_name": "Doogh",
+  "title": {
+    "fr": "Doogh, yaourt salé pétillant à la menthe",
+    "en": "Doogh, sparkling salted yoghurt with mint"
+  },
+  "meal_type": "drink",
+  "servings": 4,
+  "times": { "prep_min": 10, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["yaourt", "sale", "kabab", "ete"],
+  "ingredients": [
+    { "raw": "40 cl de yaourt", "qty": 40, "unit": "cl", "item": "yaourt" },
+    { "raw": "60 cl d'eau gazeuse", "qty": 60, "unit": "cl", "item": "eau", "prep": "gazeuse" },
+    { "raw": "2 c. à c. de menthe séchée", "qty": 2, "unit": "tsp", "item": "menthe séchée" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "1 pincée de pétales de rose séchés", "qty": 1, "unit": "pinch", "item": "eau de rose", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Fouetter le yaourt seul jusqu'à ce qu'il soit parfaitement lisse.", "en": "Whisk the yoghurt alone until perfectly smooth." },
+    { "fr": "Ajouter le sel et la menthe séchée, et laisser reposer dix minutes pour que la menthe s'ouvre.", "en": "Add the salt and dried mint, and rest for ten minutes so the mint opens up." },
+    { "fr": "Verser l'eau gazeuse EN DERNIER, doucement, en remuant à peine.", "en": "Add the sparkling water LAST, gently, barely stirring." },
+    { "fr": "Fouetter après avoir versé le gaz le fait retomber : le doogh doit garder ses bulles.", "en": "Whisking after the fizz goes in flattens it: doogh must keep its bubbles." },
+    { "fr": "Goûter : le doogh est franchement salé, jamais sucré. C'est ce qui déroute au premier verre.", "en": "Taste: doogh is frankly salty, never sweet. That is what surprises at the first glass." },
+    { "fr": "Servir glacé, avec les kababs.", "en": "Serve ice-cold, with kebabs." }
+  ]
+}

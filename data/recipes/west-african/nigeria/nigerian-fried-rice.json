@@ -1,0 +1,40 @@
+{
+  "slug": "nigerian-fried-rice",
+  "cuisine": "west-african",
+  "country": "nigeria",
+  "origin": "Nigeria",
+  "native_name": "Nigerian fried rice",
+  "title": {
+    "fr": "Riz sauté nigérian au curry",
+    "en": "Nigerian curried fried rice"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 35 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "curry", "legumes", "riz"],
+  "ingredients": [
+    { "raw": "500 g de riz long grain", "qty": 500, "unit": "g", "item": "riz long grain" },
+    { "raw": "2 c. à c. de poudre de curry", "qty": 2, "unit": "tsp", "item": "poudre de curry" },
+    { "raw": "1 c. à c. de thym séché", "qty": 1, "unit": "tsp", "item": "thym séché" },
+    { "raw": "300 g de foie de bœuf, en petits dés", "qty": 300, "unit": "g", "item": "foie de bœuf", "prep": "en petits dés" },
+    { "raw": "200 g de petits pois surgelés", "qty": 200, "unit": "g", "item": "petits pois surgelés" },
+    { "raw": "2 carottes, en petits dés", "qty": 2, "unit": "piece", "item": "carotte", "prep": "en petits dés" },
+    { "raw": "200 g de haricots verts, en tronçons", "qty": 200, "unit": "g", "item": "haricot vert", "prep": "en tronçons" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "2 cubes de bouillon", "qty": 2, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "8 c. à s. d'huile neutre", "qty": 8, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "1 c. à c. de poivre noir", "qty": 1, "unit": "tsp", "item": "poivre noir" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire le riz au bouillon avec le curry et le thym, en le laissant légèrement ferme.", "en": "Cook the rice in stock with the curry and thyme, leaving it slightly firm." },
+    { "fr": "L'étaler sur une plaque et le laisser refroidir complètement : chaud, il se casse au wok.", "en": "Spread it on a tray and cool it completely: hot, it breaks in the wok." },
+    { "fr": "Saisir le foie en dés à feu vif, deux minutes, et le réserver.", "en": "Sear the diced liver over high heat for two minutes, and set aside." },
+    { "fr": "Faire sauter les légumes à feu très vif, cinq minutes : ils doivent rester croquants et colorés.", "en": "Stir-fry the vegetables over very high heat for five minutes: they must stay crunchy and bright." },
+    { "fr": "Ajouter le riz froid et sauter en le soulevant, sans écraser.", "en": "Add the cold rice and toss it by lifting, without crushing." },
+    { "fr": "Remettre le foie, rectifier le sel et le poivre, et servir chaud.", "en": "Return the liver, adjust salt and pepper, and serve hot." }
+  ]
+}

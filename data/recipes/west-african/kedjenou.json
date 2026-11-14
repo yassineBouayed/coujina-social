@@ -1,0 +1,43 @@
+{
+  "slug": "kedjenou",
+  "cuisine": "west-african",
+  "origin": "Côte d'Ivoire",
+  "native_name": "Kèdjènou",
+  "title": {
+    "fr": "Kedjenou de poulet, étouffée sans eau ajoutée",
+    "en": "Chicken kedjenou, sealed and cooked in its own juices"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 60 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j5-catalogue-v1", "date": "2026-08-29" },
+  "tags": ["poulet", "etouffee", "attieke", "sans-eau"],
+  "ingredients": [
+    { "raw": "1 poulet d'environ 1,3 kg, en morceaux", "qty": 1.3, "unit": "kg", "item": "poulet", "prep": "en morceaux" },
+    { "raw": "3 tomates, en quartiers", "qty": 3, "unit": "piece", "item": "tomate", "prep": "en quartiers" },
+    { "raw": "2 oignons, en gros morceaux", "qty": 2, "unit": "piece", "item": "oignon", "prep": "en gros morceaux" },
+    { "raw": "1 aubergine, en dés", "qty": 1, "unit": "piece", "item": "aubergine", "prep": "en dés" },
+    { "raw": "3 gousses d'ail", "qty": 3, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "20 g de gingembre frais", "qty": 20, "unit": "g", "item": "gingembre", "prep": "râpé" },
+    { "raw": "1 piment antillais entier", "qty": 1, "unit": "piece", "item": "habanero" },
+    { "raw": "1 feuille de laurier", "qty": 1, "unit": "piece", "item": "laurier" },
+    { "raw": "1 cube de bouillon", "qty": 1, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "2 c. à s. d'huile neutre", "qty": 2, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "400 g d'attiéké", "qty": 400, "unit": "g", "item": "attiéké" },
+    { "raw": "sel, poivre", "qty": null, "unit": null, "item": "poivre noir" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Mettre tous les ingrédients sauf l'attiéké dans une cocotte à fond épais : poulet, tomates, oignons, aubergine, ail, gingembre, piment entier, laurier, cube, huile, sel et poivre.", "en": "Put everything except the attiéké into a heavy pot: chicken, tomatoes, onions, aubergine, garlic, ginger, whole chilli, bay leaf, stock cube, oil, salt and pepper." },
+    { "fr": "Fermer hermétiquement — traditionnellement une canari scellée à la pâte, ici un couvercle lourd — et cuire à feu doux 1 heure.", "en": "Seal it tightly — traditionally a clay pot closed with dough, here a heavy lid — and cook over low heat for 1 hour." },
+    { "fr": "N'ouvrir sous aucun prétexte. Toutes les dix minutes, secouer la cocotte fermée d'un mouvement sec pour retourner les morceaux.", "en": "Do not open it for any reason. Every ten minutes, shake the closed pot sharply to turn the pieces over." },
+    { "fr": "Au bout d'une heure, ouvrir : les légumes ont rendu assez d'eau pour faire une sauce courte et très concentrée. Retirer le piment sans le crever.", "en": "After an hour, open up: the vegetables will have given out enough liquid for a short, very concentrated sauce. Lift out the chilli without bursting it." },
+    { "fr": "Réchauffer l'attiéké à la vapeur 10 minutes et servir le kedjenou dessus.", "en": "Steam the attiéké for 10 minutes and serve the kedjenou over it." }
+  ],
+  "notes": [
+    { "fr": "Le nom veut dire « secouer » : c'est le geste qui remplace la cuillère, et c'est pour ça qu'on n'ouvre pas. Ajouter de l'eau, même un fond, est le seul vrai moyen de rater ce plat.", "en": "The name means \"to shake\": that gesture replaces the spoon, and it is why the pot stays shut. Adding water, even a splash, is the one sure way to ruin the dish." },
+    { "fr": "L'attiéké est du manioc fermenté : son acidité légère répond à la sauce concentrée. Le couscous de blé, souvent proposé à la place, ne fait pas ce travail-là.", "en": "Attiéké is fermented cassava: its faint sourness answers the concentrated sauce. Wheat couscous, often offered instead, does not do that job." }
+  ]
+}

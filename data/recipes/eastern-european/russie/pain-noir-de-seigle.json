@@ -1,0 +1,36 @@
+{
+  "slug": "pain-noir-de-seigle",
+  "cuisine": "eastern-european",
+  "country": "russie",
+  "origin": "Russie",
+  "native_name": "Бородинский хлеб",
+  "title": {
+    "fr": "Pain noir Borodinski à la coriandre",
+    "en": "Borodinsky dark rye bread"
+  },
+  "meal_type": "bread",
+  "servings": 10,
+  "times": { "prep_min": 45, "cook_min": 60 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["seigle", "levain", "coriandre", "quotidien"],
+  "ingredients": [
+    { "raw": "500 g de farine de seigle", "qty": 500, "unit": "g", "item": "farine de seigle" },
+    { "raw": "200 g de farine T55", "qty": 200, "unit": "g", "item": "farine T55" },
+    { "raw": "200 g de levain", "qty": 200, "unit": "g", "item": "levain" },
+    { "raw": "45 cl d'eau tiède", "qty": 45, "unit": "cl", "item": "eau" },
+    { "raw": "60 g de mélasse", "qty": 60, "unit": "g", "item": "mélasse" },
+    { "raw": "40 g de malt d'orge", "qty": 40, "unit": "g", "item": "malt d'orge" },
+    { "raw": "3 c. à s. de graines de coriandre", "qty": 3, "unit": "tbsp", "item": "graine de coriandre" },
+    { "raw": "14 g de sel", "qty": 14, "unit": "g", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le Borodinski se reconnaît à ses GRAINES DE CORIANDRE entières sur la croûte : c'est sa signature.", "en": "Borodinsky is known by the whole CORIANDER SEEDS on its crust: its signature." },
+    { "fr": "Le MALT D'ORGE donne la couleur presque noire et le goût légèrement sucré du pain.", "en": "BARLEY MALT gives the almost-black colour and the bread's faintly sweet taste." },
+    { "fr": "Ébouillanter le malt et une partie de la farine de seigle : c'est le zavarka, l'échaudage russe.", "en": "Scald the malt with part of the rye flour: the zavarka, the Russian scalding." },
+    { "fr": "Le laisser saccharifier DEUX HEURES à 65 °C : les enzymes transforment l'amidon en sucre.", "en": "Let it saccharify for TWO HOURS at 65°C: enzymes turn the starch into sugar." },
+    { "fr": "La pâte de seigle est COLLANTE et ne se pétrit pas : elle se mélange à la corne mouillée.", "en": "Rye dough is STICKY and cannot be kneaded: it is mixed with a wet scraper." },
+    { "fr": "Cuire une heure et ATTENDRE VINGT-QUATRE HEURES avant de trancher.", "en": "Bake for an hour and WAIT TWENTY-FOUR HOURS before slicing." }
+  ]
+}

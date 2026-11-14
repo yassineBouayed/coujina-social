@@ -1,0 +1,45 @@
+{
+  "slug": "rawon",
+  "cuisine": "southeast-asian",
+  "country": "indonesie",
+  "origin": "Indonésie",
+  "native_name": "Rawon",
+  "title": {
+    "fr": "Rawon, soupe noire de bœuf",
+    "en": "Rawon, black beef soup"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 150 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["java-est", "keluak", "noir", "surabaya"],
+  "ingredients": [
+    { "raw": "1,2 kg de bœuf à mijoter, en cubes", "qty": 1200, "unit": "g", "item": "boeuf à mijoter", "prep": "en cubes" },
+    { "raw": "6 noix de keluak", "qty": 6, "unit": "piece", "item": "noix de keluak" },
+    { "raw": "10 échalotes", "qty": 10, "unit": "piece", "item": "échalote", "group": "pâte" },
+    { "raw": "6 gousses d'ail", "qty": 6, "unit": "piece", "item": "ail", "group": "pâte" },
+    { "raw": "6 noix de bancoul", "qty": 6, "unit": "piece", "item": "noix de bancoul", "group": "pâte" },
+    { "raw": "1 morceau de curcuma frais", "qty": 1, "unit": "piece", "item": "curcuma frais", "group": "pâte" },
+    { "raw": "1 morceau de galanga", "qty": 1, "unit": "piece", "item": "galanga", "group": "pâte" },
+    { "raw": "1 c. à s. de coriandre en graines", "qty": 1, "unit": "tbsp", "item": "coriandre graines", "group": "pâte" },
+    { "raw": "3 tiges de citronnelle, écrasées", "qty": 3, "unit": "piece", "item": "citronnelle", "prep": "écrasée" },
+    { "raw": "6 feuilles de combava", "qty": 6, "unit": "piece", "item": "feuille de combava" },
+    { "raw": "200 g de germes de soja courts", "qty": 200, "unit": "g", "item": "germes de soja", "group": "garniture" },
+    { "raw": "4 œufs salés", "qty": 4, "unit": "piece", "item": "oeuf", "prep": "salé", "group": "garniture" },
+    { "raw": "8 c. à s. d'huile neutre", "qty": 8, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "La noix de keluak donne au rawon sa couleur NOIRE et son goût de terre : rien ne la remplace.", "en": "The keluak nut gives rawon its BLACK colour and earthy taste: nothing replaces it." },
+    { "fr": "Casser les noix, en extraire la pâte noire, et la faire tremper vingt minutes dans l'eau tiède.", "en": "Crack the nuts, scoop out the black paste, and soak it for twenty minutes in warm water." },
+    { "fr": "N'utiliser que des noix de keluak DÉJÀ FERMENTÉES, vendues comme telles : crues, elles sont toxiques.", "en": "Use only keluak nuts ALREADY FERMENTED and sold as such: raw, they are toxic." },
+    { "fr": "Mixer tous les aromates avec la pâte de keluak et frire quinze minutes.", "en": "Blend all the aromatics with the keluak paste and fry for fifteen minutes." },
+    { "fr": "Ajouter le bœuf, mouiller largement, et laisser mijoter deux heures et demie.", "en": "Add the beef, cover generously with water, and simmer for two and a half hours." },
+    { "fr": "Servir sur du riz blanc avec les germes de soja CRUS et un œuf salé.", "en": "Serve over white rice with RAW bean sprouts and a salted egg." }
+  ],
+  "notes": [
+    { "fr": "La noix de keluak crue contient du cyanure : elle ne se consomme QUE fermentée, telle qu'elle est vendue en épicerie asiatique.", "en": "Raw keluak contains cyanide: it is eaten ONLY fermented, as sold in Asian grocers." }
+  ]
+}

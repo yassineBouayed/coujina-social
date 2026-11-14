@@ -1,0 +1,41 @@
+{
+  "slug": "frijoles-antioquenos",
+  "cuisine": "latin-american",
+  "country": "colombie",
+  "origin": "Colombie",
+  "native_name": "Frijoles antioqueños",
+  "title": {
+    "fr": "Haricots rouges au plantain",
+    "en": "Red beans with plantain"
+  },
+  "meal_type": "main",
+  "servings": 8,
+  "times": { "prep_min": 25, "cook_min": 180 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["antioquia", "haricot", "quotidien", "economique"],
+  "ingredients": [
+    { "raw": "700 g de haricots rouges secs, trempés la veille", "qty": 700, "unit": "g", "item": "haricot rouge", "prep": "trempé la veille" },
+    { "raw": "400 g de poitrine de porc, en dés", "qty": 400, "unit": "g", "item": "poitrine de porc", "prep": "en dés" },
+    { "raw": "2 bananes plantains vertes, râpées", "qty": 2, "unit": "piece", "item": "plantain", "prep": "vertes, râpées" },
+    { "raw": "3 carottes, râpées", "qty": 3, "unit": "piece", "item": "carotte", "prep": "râpée" },
+    { "raw": "4 tomates, en dés", "qty": 4, "unit": "piece", "item": "tomate", "prep": "en dés", "group": "hogao" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché", "group": "hogao" },
+    { "raw": "1 botte d'oignons nouveaux, émincés", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "émincé", "group": "hogao" },
+    { "raw": "6 gousses d'ail, hachées", "qty": 6, "unit": "piece", "item": "ail", "prep": "haché", "group": "hogao" },
+    { "raw": "2 c. à c. de cumin moulu", "qty": 2, "unit": "tsp", "item": "cumin", "group": "hogao" },
+    { "raw": "1 bouquet de coriandre, ciselée", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "3 l d'eau", "qty": 3, "unit": "l", "item": "eau" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le PLANTAIN VERT RÂPÉ est le liant : son amidon épaissit les haricots sans farine.", "en": "GRATED GREEN PLANTAIN is the thickener: its starch thickens the beans without flour." },
+    { "fr": "C'est ce qui donne aux frijoles antioqueños leur texture épaisse et brillante.", "en": "That gives frijoles antioqueños their thick, glossy texture." },
+    { "fr": "Cuire les haricots avec la poitrine de porc, à l'eau, TROIS HEURES et SANS SEL.", "en": "Cook the beans with the pork belly, in water, for THREE HOURS and WITHOUT SALT." },
+    { "fr": "Ajouter le plantain râpé et les carottes à MI-CUISSON, après une heure et demie.", "en": "Add the grated plantain and carrots HALFWAY, after an hour and a half." },
+    { "fr": "Le hogao se fait À PART et s'ajoute la dernière demi-heure : cuit trop tôt, il s'efface.", "en": "The hogao is made SEPARATELY and added in the last half hour: cooked too early, it fades." },
+    { "fr": "Saler seulement quand les haricots sont TENDRES, jamais avant.", "en": "Salt only once the beans are TENDER, never before." }
+  ]
+}

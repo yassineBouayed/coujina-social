@@ -1,0 +1,41 @@
+{
+  "slug": "chana-masala",
+  "cuisine": "south-asian",
+  "country": "inde",
+  "origin": "Inde",
+  "native_name": "Chana masala",
+  "title": {
+    "fr": "Chana masala, pois chiches à l'amchoor",
+    "en": "Chana masala, chickpeas with amchoor"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 60 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["punjab", "pois-chiche", "vegetarien", "acidule"],
+  "ingredients": [
+    { "raw": "400 g de pois chiches secs, trempés la veille", "qty": 400, "unit": "g", "item": "pois chiche sec", "prep": "trempé la veille" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "4 tomates, râpées", "qty": 4, "unit": "piece", "item": "tomate", "prep": "râpée" },
+    { "raw": "2 c. à s. de pâte gingembre-ail", "qty": 2, "unit": "tbsp", "item": "pâte gingembre-ail" },
+    { "raw": "2 c. à c. de coriandre en graines, moulue", "qty": 2, "unit": "tsp", "item": "coriandre graines", "prep": "moulue" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "1 c. à s. de chaat masala", "qty": 1, "unit": "tbsp", "item": "chaat masala" },
+    { "raw": "2 c. à c. d'amchoor", "qty": 2, "unit": "tsp", "item": "amchoor" },
+    { "raw": "1 c. à c. de garam masala", "qty": 1, "unit": "tsp", "item": "garam masala" },
+    { "raw": "2 sachets de thé noir", "qty": 2, "unit": "piece", "item": "thé vert", "optional": true },
+    { "raw": "6 c. à s. d'huile neutre", "qty": 6, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire les pois chiches avec deux sachets de thé noir : le tanin les colore en brun foncé, comme à Delhi.", "en": "Cook the chickpeas with two black tea bags: the tannin turns them deep brown, as in Delhi." },
+    { "fr": "Faire dorer les oignons longuement, quinze minutes, jusqu'à ce qu'ils soient franchement bruns.", "en": "Brown the onions at length, fifteen minutes, until decidedly brown." },
+    { "fr": "Ajouter la pâte gingembre-ail et cuire jusqu'à ce que l'odeur crue disparaisse.", "en": "Add the ginger-garlic paste and cook until the raw smell goes." },
+    { "fr": "Ajouter les épices moulues et les tomates, et cuire jusqu'à ce que l'huile se sépare — le bhuna.", "en": "Add the ground spices and tomatoes, and cook until the oil separates — the bhuna." },
+    { "fr": "Cette séparation de l'huile est le point de bascule de tous les currys : avant, la sauce a un goût cru.", "en": "That separation of oil is the turning point of every curry: before it, the sauce tastes raw." },
+    { "fr": "Ajouter les pois chiches et un peu de leur eau, puis l'amchoor et le garam masala en fin de cuisson.", "en": "Add the chickpeas and some of their water, then the amchoor and garam masala at the end." }
+  ]
+}

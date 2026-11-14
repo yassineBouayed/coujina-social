@@ -1,0 +1,36 @@
+{
+  "slug": "pizza-margherita",
+  "cuisine": "mediterranean",
+  "country": "italie",
+  "origin": "Italie",
+  "native_name": "Pizza margherita",
+  "title": {
+    "fr": "Pizza margherita",
+    "en": "Pizza margherita"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 40, "cook_min": 10 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["naples", "fermentation", "four", "embleme"],
+  "ingredients": [
+    { "raw": "500 g de farine T45", "qty": 500, "unit": "g", "item": "farine T45" },
+    { "raw": "32 cl d'eau", "qty": 32, "unit": "cl", "item": "eau" },
+    { "raw": "2 g de levure boulangère sèche", "qty": 2, "unit": "g", "item": "levure boulangère" },
+    { "raw": "12 g de sel", "qty": 12, "unit": "g", "item": "sel" },
+    { "raw": "400 g de tomate pelée en conserve", "qty": 400, "unit": "g", "item": "tomate pelée en conserve" },
+    { "raw": "300 g de mozzarella", "qty": 300, "unit": "g", "item": "mozzarella" },
+    { "raw": "1 bouquet de basilic", "qty": 1, "unit": "bunch", "item": "basilic" },
+    { "raw": "6 c. à s. d'huile d'olive", "qty": 6, "unit": "tbsp", "item": "huile d'olive" }
+  ],
+  "steps": [
+    { "fr": "Utiliser TRÈS PEU de levure et laisser lever VINGT-QUATRE HEURES au frais : le goût vient du temps.", "en": "Use VERY LITTLE yeast and prove for TWENTY-FOUR HOURS in the fridge: the flavour comes from time." },
+    { "fr": "La sauce ne se cuit PAS : tomates pelées écrasées à la main, sel, et rien d'autre.", "en": "The sauce is NOT cooked: peeled tomatoes crushed by hand, salt, and nothing else." },
+    { "fr": "Égoutter la mozzarella une heure et la déchirer à la main : entière, elle noie la pizza.", "en": "Drain the mozzarella for an hour and tear it by hand: whole, it floods the pizza." },
+    { "fr": "Étaler la pâte À LA MAIN, du centre vers l'extérieur, en laissant le bourrelet intact.", "en": "Stretch the dough BY HAND, from the centre outwards, leaving the rim untouched." },
+    { "fr": "Chauffer le four et la pierre au MAXIMUM, pendant une heure : 250 °C au minimum.", "en": "Heat the oven and stone at MAXIMUM for an hour: 250°C at the very least." },
+    { "fr": "Cuire six à huit minutes, et ajouter le basilic à la SORTIE : cuit, il noircit et devient amer.", "en": "Bake for six to eight minutes, and add the basil AS IT COMES OUT: baked, it blackens and turns bitter." }
+  ]
+}

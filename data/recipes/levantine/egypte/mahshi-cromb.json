@@ -1,0 +1,41 @@
+{
+  "slug": "mahshi-cromb",
+  "cuisine": "levantine",
+  "country": "egypte",
+  "origin": "Égypte",
+  "native_name": "Mahshi cromb",
+  "title": {
+    "fr": "Feuilles de chou farcies au riz et aux herbes",
+    "en": "Cabbage leaves stuffed with rice and herbs"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 60, "cook_min": 60 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["farci", "chou", "hiver", "famille"],
+  "ingredients": [
+    { "raw": "1 gros chou blanc", "qty": 1, "unit": "piece", "item": "chou blanc" },
+    { "raw": "400 g de riz rond", "qty": 400, "unit": "g", "item": "riz rond", "group": "farce" },
+    { "raw": "4 tomates, râpées", "qty": 4, "unit": "piece", "item": "tomate", "prep": "râpée", "group": "farce" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé", "group": "farce" },
+    { "raw": "1/2 bouquet d'aneth, ciselé", "qty": 0.5, "unit": "bunch", "item": "aneth", "prep": "ciselé", "group": "farce" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée", "group": "farce" },
+    { "raw": "2 oignons, hachés finement", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché finement", "group": "farce" },
+    { "raw": "2 c. à s. de concentré de tomate", "qty": 2, "unit": "tbsp", "item": "concentré de tomate", "group": "farce" },
+    { "raw": "12 cl d'huile de tournesol", "qty": 12, "unit": "cl", "item": "huile de tournesol" },
+    { "raw": "6 gousses d'ail", "qty": 6, "unit": "piece", "item": "ail" },
+    { "raw": "2 citrons, leur jus", "qty": 2, "unit": "piece", "item": "citron" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Évider le trognon du chou et plonger la tête entière dans l'eau bouillante, cinq minutes.", "en": "Core the cabbage and lower the whole head into boiling water for five minutes." },
+    { "fr": "Détacher les feuilles au fur et à mesure qu'elles se ramollissent, et retirer la grosse nervure.", "en": "Peel off the leaves as they soften, and cut out the thick rib." },
+    { "fr": "Mélanger le riz CRU avec les tomates râpées, les herbes, l'oignon, le concentré et l'huile.", "en": "Mix the RAW rice with the grated tomatoes, herbs, onion, purée and oil." },
+    { "fr": "Rouler en petits cigares FINS : les mahshi égyptiens sont beaucoup plus fins que les dolmas.", "en": "Roll into small, THIN cigars: Egyptian mahshi are much thinner than dolmas." },
+    { "fr": "Ranger serré en couches, couvrir d'eau citronnée à l'ail et au cumin, et poser une assiette.", "en": "Pack them tightly in layers, cover with lemony garlic-cumin water, and set a plate on top." },
+    { "fr": "Cuire une heure à feu doux, et laisser reposer avant de servir.", "en": "Cook for an hour over low heat, and rest before serving." }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "lakh",
+  "cuisine": "west-african",
+  "country": "senegal",
+  "origin": "Sénégal",
+  "native_name": "Laax",
+  "title": {
+    "fr": "Lakh, bouillie de mil au lait caillé",
+    "en": "Lakh, millet porridge with soured milk"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 15, "cook_min": 40 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["mil", "petit-dejeuner", "lait-caille", "populaire"],
+  "ingredients": [
+    { "raw": "500 g de petit mil", "qty": 500, "unit": "g", "item": "petit mil" },
+    { "raw": "1 l de lait caillé", "qty": 1, "unit": "l", "item": "lait caillé" },
+    { "raw": "120 g de sucre", "qty": 120, "unit": "g", "item": "sucre" },
+    { "raw": "100 g de pâte d'arachide", "qty": 100, "unit": "g", "item": "pâte d'arachide", "optional": true },
+    { "raw": "1 c. à c. de muscade râpée", "qty": 1, "unit": "tsp", "item": "muscade", "prep": "râpée", "optional": true },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" },
+    { "raw": "75 cl d'eau", "qty": 75, "unit": "cl", "item": "eau" }
+  ],
+  "steps": [
+    { "fr": "Humidifier le mil et le rouler à la main pour former de petits grains, en le passant au tamis.", "en": "Dampen the millet and roll it by hand into small pellets, sieving as you go." },
+    { "fr": "Le cuire à la vapeur vingt minutes, puis l'égrener et le laisser gonfler.", "en": "Steam it for twenty minutes, then rake it apart and let it swell." },
+    { "fr": "Le faire cuire dans l'eau bouillante salée quinze minutes, en remuant, jusqu'à obtenir une bouillie épaisse.", "en": "Cook it in boiling salted water for fifteen minutes, stirring, to a thick porridge." },
+    { "fr": "Ajouter la pâte d'arachide délayée si l'on veut, et la muscade.", "en": "Stir in the slaked groundnut paste if you like, and the nutmeg." },
+    { "fr": "Laisser complètement refroidir avant d'ajouter le lait caillé : versé chaud, il tranche.", "en": "Cool completely before adding the soured milk: poured hot, it splits." },
+    { "fr": "Sucrer, mélanger et servir frais, en bol.", "en": "Sweeten, stir and serve cold, in bowls." }
+  ]
+}

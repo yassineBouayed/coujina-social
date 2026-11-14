@@ -1,0 +1,42 @@
+{
+  "slug": "stollen",
+  "cuisine": "western-european",
+  "country": "allemagne",
+  "origin": "Allemagne",
+  "native_name": "Christstollen",
+  "title": {
+    "fr": "Stollen de Noël aux fruits confits",
+    "en": "Christmas stollen with candied fruit"
+  },
+  "meal_type": "dessert",
+  "servings": 12,
+  "times": { "prep_min": 50, "cook_min": 60 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["noel", "dresde", "fruits-secs", "brioche"],
+  "ingredients": [
+    { "raw": "600 g de farine T45", "qty": 600, "unit": "g", "item": "farine T45" },
+    { "raw": "25 cl de lait entier, tiède", "qty": 25, "unit": "cl", "item": "lait entier", "prep": "tiède" },
+    { "raw": "14 g de levure boulangère sèche", "qty": 14, "unit": "g", "item": "levure boulangère" },
+    { "raw": "250 g de beurre, mou", "qty": 250, "unit": "g", "item": "beurre", "prep": "mou" },
+    { "raw": "120 g de sucre", "qty": 120, "unit": "g", "item": "sucre" },
+    { "raw": "300 g de raisins secs", "qty": 300, "unit": "g", "item": "raisin sec" },
+    { "raw": "150 g de fruits confits", "qty": 150, "unit": "g", "item": "fruit confit" },
+    { "raw": "100 g d'amandes, concassées", "qty": 100, "unit": "g", "item": "amande", "prep": "concassée" },
+    { "raw": "1 orange, son zeste", "qty": 1, "unit": "piece", "item": "orange" },
+    { "raw": "2 c. à c. de cannelle moulue", "qty": 2, "unit": "tsp", "item": "cannelle" },
+    { "raw": "1/2 c. à c. de cardamome moulue", "qty": 0.5, "unit": "tsp", "item": "cardamome", "prep": "moulue" },
+    { "raw": "150 g de beurre, fondu", "qty": 150, "unit": "g", "item": "beurre", "prep": "fondu", "group": "finition" },
+    { "raw": "200 g de sucre glace", "qty": 200, "unit": "g", "item": "sucre glace", "group": "finition" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le stollen se fait TROIS À QUATRE SEMAINES avant Noël : il a besoin de ce temps pour être bon.", "en": "Stollen is made THREE TO FOUR WEEKS before Christmas: it needs that time to be good." },
+    { "fr": "Faire macérer raisins et fruits confits dans le jus d'orange UNE NUIT avant de commencer.", "en": "Steep the raisins and candied fruit in orange juice OVERNIGHT before starting." },
+    { "fr": "Une pâte aussi riche en beurre lève lentement : compter deux heures pour la première pousse.", "en": "A dough this rich in butter proves slowly: allow two hours for the first rise." },
+    { "fr": "Façonner la forme caractéristique : replier la pâte sur elle-même, décalée, en un pli épais.", "en": "Shape the characteristic form: fold the dough over itself, offset, into a thick fold." },
+    { "fr": "Cuire une heure à 160 °C, et badigeonner de beurre fondu DÈS la sortie, en trois couches.", "en": "Bake for an hour at 160°C, and brush with melted butter AS SOON as it comes out, in three coats." },
+    { "fr": "Poudrer épais de sucre glace, emballer, et laisser mûrir trois semaines au frais.", "en": "Dust thickly with icing sugar, wrap, and let it mature for three weeks in a cool place." }
+  ]
+}

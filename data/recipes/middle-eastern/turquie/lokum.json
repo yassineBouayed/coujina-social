@@ -1,0 +1,36 @@
+{
+  "slug": "lokum",
+  "cuisine": "middle-eastern",
+  "country": "turquie",
+  "origin": "Turquie",
+  "native_name": "Lokum",
+  "title": {
+    "fr": "Loukoum à la rose et aux pistaches",
+    "en": "Turkish delight with rose and pistachio"
+  },
+  "meal_type": "dessert",
+  "servings": 12,
+  "times": { "prep_min": 30, "cook_min": 90 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["confiserie", "rose", "pistache", "patience"],
+  "ingredients": [
+    { "raw": "800 g de sucre", "qty": 800, "unit": "g", "item": "sucre" },
+    { "raw": "120 g de maïzena", "qty": 120, "unit": "g", "item": "maïzena" },
+    { "raw": "1 l d'eau", "qty": 1, "unit": "l", "item": "eau" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "3 c. à s. d'eau de rose", "qty": 3, "unit": "tbsp", "item": "eau de rose" },
+    { "raw": "120 g de pistaches, concassées", "qty": 120, "unit": "g", "item": "pistache", "prep": "concassée" },
+    { "raw": "60 g de sucre glace", "qty": 60, "unit": "g", "item": "sucre glace", "group": "enrobage" },
+    { "raw": "40 g de maïzena", "qty": 40, "unit": "g", "item": "maïzena", "group": "enrobage" }
+  ],
+  "steps": [
+    { "fr": "Cuire le sucre, la moitié de l'eau et le citron jusqu'à 115 °C, au thermomètre.", "en": "Cook the sugar, half the water and the lemon to 115°C, on a thermometer." },
+    { "fr": "Délayer la maïzena dans le reste d'eau froide et la porter à ébullition en fouettant, jusqu'à obtenir une colle épaisse.", "en": "Slake the cornflour in the remaining cold water and boil it, whisking, to a thick glue." },
+    { "fr": "Verser le sirop chaud dans la colle en filet, sans cesser de fouetter.", "en": "Pour the hot syrup into the glue in a stream, whisking throughout." },
+    { "fr": "Cuire à feu très doux UNE HEURE ET DEMIE, en remuant régulièrement, jusqu'à ce que le mélange devienne ambré et translucide.", "en": "Cook over very low heat for AN HOUR AND A HALF, stirring regularly, until the mixture turns amber and translucent." },
+    { "fr": "Cette cuisson longue est ce qui fait le loukoum : écourtée, il reste collant et ne prend jamais.", "en": "That long cook is what makes lokum: cut short, it stays sticky and never sets." },
+    { "fr": "Ajouter rose et pistaches, couler dans un moule huilé, laisser prendre une nuit, et rouler dans le sucre-maïzena.", "en": "Add the rose and pistachios, pour into an oiled tin, set overnight, and roll in the sugar-cornflour mix." }
+  ]
+}

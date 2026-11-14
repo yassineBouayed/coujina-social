@@ -1,0 +1,42 @@
+{
+  "slug": "escabeche-de-pescado",
+  "cuisine": "latin-american",
+  "country": "perou",
+  "origin": "Pérou",
+  "native_name": "Escabeche de pescado",
+  "title": {
+    "fr": "Poisson en escabèche à l'oignon",
+    "en": "Fish escabeche with onions"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["froid", "poisson", "vinaigre", "cote"],
+  "ingredients": [
+    { "raw": "1 kg de filet de bar", "qty": 1000, "unit": "g", "item": "bar", "prep": "en filets" },
+    { "raw": "5 oignons rouges, en quartiers", "qty": 5, "unit": "piece", "item": "oignon rouge", "prep": "en quartiers" },
+    { "raw": "4 piments ají amarillo, en lanières", "qty": 4, "unit": "piece", "item": "ají amarillo", "prep": "en lanières" },
+    { "raw": "15 cl de vinaigre de vin", "qty": 15, "unit": "cl", "item": "vinaigre de vin" },
+    { "raw": "6 gousses d'ail, hachées", "qty": 6, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "2 c. à s. de cumin moulu", "qty": 2, "unit": "tbsp", "item": "cumin" },
+    { "raw": "2 c. à s. d'origan séché", "qty": 2, "unit": "tbsp", "item": "origan séché" },
+    { "raw": "120 g de farine de blé", "qty": 120, "unit": "g", "item": "farine de blé" },
+    { "raw": "4 œufs durs, en quartiers", "qty": 4, "unit": "piece", "item": "oeuf", "prep": "dur, en quartiers", "group": "service" },
+    { "raw": "100 g d'olives noires", "qty": 100, "unit": "g", "item": "olive noire", "group": "service" },
+    { "raw": "400 g de patate douce", "qty": 400, "unit": "g", "item": "patate douce", "group": "service" },
+    { "raw": "15 cl d'huile neutre", "qty": 15, "unit": "cl", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "L'escabèche se sert FROIDE ou tiède, jamais chaude : c'est un plat de conservation devenu classique.", "en": "Escabeche is served COLD or warm, never hot: a preserving dish turned classic." },
+    { "fr": "Fariner le poisson et le frire, PUIS le réserver : il ne cuit jamais dans le vinaigre.", "en": "Flour the fish and fry it, THEN set it aside: it never cooks in the vinegar." },
+    { "fr": "Les oignons doivent rester CROQUANTS : deux minutes à feu vif, pas une de plus.", "en": "The onions must stay CRISP: two minutes over high heat, not one more." },
+    { "fr": "Cuits, ils deviennent mous et l'escabèche perd tout son intérêt de texture.", "en": "Cooked through, they go limp and the escabeche loses all its textural point." },
+    { "fr": "Verser la marinade CHAUDE sur le poisson froid, et laisser refroidir ensemble.", "en": "Pour the HOT marinade over the cold fish, and let them cool together." },
+    { "fr": "Réfrigérer QUATRE HEURES minimum : le plat est meilleur le lendemain.", "en": "Chill for FOUR HOURS minimum: the dish is better the next day." }
+  ]
+}

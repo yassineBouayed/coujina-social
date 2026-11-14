@@ -1,0 +1,35 @@
+{
+  "slug": "lassi-mangue",
+  "cuisine": "south-asian",
+  "country": "inde",
+  "origin": "Inde",
+  "native_name": "Aam lassi",
+  "title": {
+    "fr": "Lassi à la mangue et à la cardamome",
+    "en": "Mango lassi with cardamom"
+  },
+  "meal_type": "drink",
+  "servings": 4,
+  "times": { "prep_min": 10, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ete", "mangue", "yaourt", "rapide"],
+  "ingredients": [
+    { "raw": "3 mangues bien mûres", "qty": 3, "unit": "piece", "item": "mangue" },
+    { "raw": "50 cl de yaourt", "qty": 50, "unit": "cl", "item": "yaourt" },
+    { "raw": "15 cl de lait", "qty": 15, "unit": "cl", "item": "lait" },
+    { "raw": "3 c. à s. de sucre", "qty": 3, "unit": "tbsp", "item": "sucre" },
+    { "raw": "1/2 c. à c. de cardamome moulue", "qty": 0.5, "unit": "tsp", "item": "cardamome", "prep": "moulue" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran", "optional": true },
+    { "raw": "20 g de pistaches, concassées", "qty": 20, "unit": "g", "item": "pistache", "prep": "concassée", "group": "décor" }
+  ],
+  "steps": [
+    { "fr": "Choisir des mangues très mûres, parfumées et molles sous le doigt : fermes, elles n'ont aucun goût.", "en": "Choose very ripe mangoes, fragrant and soft under a finger: firm ones have no flavour at all." },
+    { "fr": "Les peler et prélever la chair autour du noyau, en récupérant tout le jus.", "en": "Peel them and cut the flesh from the stone, catching all the juice." },
+    { "fr": "Mixer avec le yaourt, le lait et le sucre, trente secondes seulement.", "en": "Blend with the yoghurt, milk and sugar, for thirty seconds only." },
+    { "fr": "Mixer trop longtemps chauffe le yaourt et le rend liquide : un lassi doit rester épais.", "en": "Over-blending warms the yoghurt and thins it: a lassi must stay thick." },
+    { "fr": "Ajouter la cardamome et le safran infusé, et goûter avant de resucrer.", "en": "Add the cardamom and steeped saffron, and taste before adding more sugar." },
+    { "fr": "Servir très froid, sans glaçons, décoré de pistaches.", "en": "Serve very cold, without ice cubes, topped with pistachios." }
+  ]
+}

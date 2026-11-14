@@ -1,0 +1,37 @@
+{
+  "slug": "ensalada-rusa",
+  "cuisine": "latin-american",
+  "country": "argentine",
+  "origin": "Argentine",
+  "native_name": "Ensalada rusa",
+  "title": {
+    "fr": "Salade russe argentine",
+    "en": "Argentine Russian salad"
+  },
+  "meal_type": "salad",
+  "servings": 8,
+  "times": { "prep_min": 25, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["asado", "froid", "accompagnement", "fete"],
+  "ingredients": [
+    { "raw": "1 kg de pommes de terre", "qty": 1000, "unit": "g", "item": "pomme de terre" },
+    { "raw": "5 carottes", "qty": 5, "unit": "piece", "item": "carotte" },
+    { "raw": "300 g de petits pois surgelés", "qty": 300, "unit": "g", "item": "petits pois surgelés" },
+    { "raw": "30 cl de mayonnaise", "qty": 30, "unit": "cl", "item": "mayonnaise" },
+    { "raw": "2 c. à s. de moutarde", "qty": 2, "unit": "tbsp", "item": "moutarde" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La version argentine est MINIMALE : pommes de terre, carottes, petits pois, mayonnaise. Rien d'autre.", "en": "The Argentine version is MINIMAL: potato, carrot, peas, mayonnaise. Nothing else." },
+    { "fr": "Cuire pommes de terre et carottes EN ROBE, séparément : elles n'ont pas le même temps.", "en": "Boil the potatoes and carrots IN THEIR SKINS, separately: they do not take the same time." },
+    { "fr": "Les couper en dés d'UN CENTIMÈTRE : plus gros, la salade n'a pas la bonne texture.", "en": "Dice them at ONE CENTIMETRE: larger, the salad loses its texture." },
+    { "fr": "Les laisser refroidir COMPLÈTEMENT : tièdes, elles boivent la mayonnaise et la salade sèche.", "en": "Cool them COMPLETELY: warm, they drink the mayonnaise and the salad goes dry." },
+    { "fr": "Ajouter les petits pois DÉCONGELÉS, jamais cuits : cuits, ils s'écrasent au mélange.", "en": "Add the peas THAWED, never cooked: cooked, they crush when mixed." },
+    { "fr": "Réfrigérer trois heures et rectifier le sel froid avant de servir.", "en": "Chill for three hours and adjust the salt cold before serving." }
+  ]
+}

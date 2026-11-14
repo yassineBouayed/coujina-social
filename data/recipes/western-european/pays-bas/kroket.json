@@ -1,0 +1,42 @@
+{
+  "slug": "kroket",
+  "cuisine": "western-european",
+  "country": "pays-bas",
+  "origin": "Pays-Bas",
+  "native_name": "Kroket",
+  "title": {
+    "fr": "Kroket, croquette néerlandaise au ragoût",
+    "en": "Kroket, Dutch ragout croquette"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 30 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "friture", "sandwich", "quotidien"],
+  "ingredients": [
+    { "raw": "500 g de rôti de veau ou de bœuf, cuit et effiloché", "qty": 500, "unit": "g", "item": "boeuf à mijoter", "prep": "cuit et effiloché" },
+    { "raw": "110 g de beurre", "qty": 110, "unit": "g", "item": "beurre", "group": "panade" },
+    { "raw": "130 g de farine de blé", "qty": 130, "unit": "g", "item": "farine de blé", "group": "panade" },
+    { "raw": "70 cl de bouillon de bœuf", "qty": 70, "unit": "cl", "item": "bouillon boeuf", "group": "panade" },
+    { "raw": "4 g de gélatine", "qty": 4, "unit": "g", "item": "gelatine", "group": "panade" },
+    { "raw": "2 oignons, hachés très finement", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché très finement", "group": "panade" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf", "group": "panure" },
+    { "raw": "250 g de chapelure", "qty": 250, "unit": "g", "item": "panko", "group": "panure" },
+    { "raw": "100 g de farine de blé", "qty": 100, "unit": "g", "item": "farine de blé", "group": "panure" },
+    { "raw": "1,5 l d'huile neutre pour la friture", "qty": 1.5, "unit": "l", "item": "huile neutre" },
+    { "raw": "6 petits pains", "qty": 6, "unit": "piece", "item": "pain", "prep": "en petits pains", "group": "service" },
+    { "raw": "4 c. à s. de moutarde", "qty": 4, "unit": "tbsp", "item": "moutarde", "group": "service" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le kroket est le cousin ALLONGÉ de la bitterbal : même panade, forme de cylindre.", "en": "The kroket is the bitterbal's ELONGATED cousin: same panade, cylinder shape." },
+    { "fr": "La GÉLATINE donne le cœur coulant qui définit le kroket néerlandais.", "en": "GELATINE gives the molten centre that defines a Dutch kroket." },
+    { "fr": "Elle fond à la friture et rend le ragoût liquide au moment exact où on le mange.", "en": "It melts in the fryer and turns the ragout liquid at the exact moment you eat it." },
+    { "fr": "Réfrigérer la panade SIX HEURES, puis former des cylindres à la main mouillée.", "en": "Chill the panade for SIX HOURS, then shape cylinders with a wet hand." },
+    { "fr": "Double panure obligatoire, et une SECONDE réfrigération de trente minutes avant de frire.", "en": "Double breading is compulsory, plus a SECOND thirty-minute chill before frying." },
+    { "fr": "Servir dans un petit pain moelleux avec de la moutarde : c'est le broodje kroket.", "en": "Serve in a soft roll with mustard: that is the broodje kroket." }
+  ]
+}

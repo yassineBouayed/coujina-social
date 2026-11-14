@@ -1,0 +1,42 @@
+{
+  "slug": "mee-siam",
+  "cuisine": "southeast-asian",
+  "country": "singapour",
+  "origin": "Singapour",
+  "native_name": "Mee siam",
+  "title": {
+    "fr": "Mee siam, vermicelles au bouillon aigre-doux",
+    "en": "Mee siam, vermicelli in sweet-sour gravy"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 35, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["peranakan", "tamarin", "vermicelle", "acide"],
+  "ingredients": [
+    { "raw": "400 g de vermicelles de riz", "qty": 400, "unit": "g", "item": "nouilles de riz" },
+    { "raw": "300 g de crevettes, décortiquées", "qty": 300, "unit": "g", "item": "crevette", "prep": "décortiquée" },
+    { "raw": "200 g de tofu ferme frit, en dés", "qty": 200, "unit": "g", "item": "tofu ferme", "prep": "frit" },
+    { "raw": "10 piments séchés, trempés", "qty": 10, "unit": "piece", "item": "piment séché", "prep": "trempé", "group": "rempah" },
+    { "raw": "10 échalotes", "qty": 10, "unit": "piece", "item": "échalote", "group": "rempah" },
+    { "raw": "4 gousses d'ail", "qty": 4, "unit": "piece", "item": "ail", "group": "rempah" },
+    { "raw": "2 c. à s. de pâte de crevette", "qty": 2, "unit": "tbsp", "item": "pâte de crevette", "group": "rempah" },
+    { "raw": "6 c. à s. de pâte de tamarin", "qty": 6, "unit": "tbsp", "item": "pâte de tamarin" },
+    { "raw": "5 c. à s. de sucre de palme", "qty": 5, "unit": "tbsp", "item": "sucre de palme" },
+    { "raw": "200 g de germes de soja", "qty": 200, "unit": "g", "item": "germes de soja", "group": "garniture" },
+    { "raw": "4 œufs durs, coupés en deux", "qty": 4, "unit": "piece", "item": "oeuf", "prep": "dur", "group": "garniture" },
+    { "raw": "1 bouquet de ciboulette chinoise", "qty": 1, "unit": "bunch", "item": "ciboulette", "group": "garniture" },
+    { "raw": "3 citrons verts, en quartiers", "qty": 3, "unit": "piece", "item": "citron vert", "group": "garniture" },
+    { "raw": "10 cl d'huile neutre", "qty": 10, "unit": "cl", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Le mee siam n'a rien de siamois : c'est un plat peranakan, et le bouillon aigre-doux est sa signature.", "en": "Mee siam is not Siamese at all: it is a Peranakan dish, and the sweet-sour gravy is its signature." },
+    { "fr": "Mixer le rempah et le frire quinze minutes, jusqu'à séparation de l'huile.", "en": "Blend the rempah and fry it for fifteen minutes, until the oil separates." },
+    { "fr": "En réserver un tiers pour sauter les vermicelles, et allonger le reste en bouillon.", "en": "Keep a third back to fry the noodles, and let the rest down into a gravy." },
+    { "fr": "Ajouter tamarin et sucre de palme au bouillon, et goûter : il doit être FRANCHEMENT acide.", "en": "Add the tamarind and palm sugar to the gravy, and taste: it must be DECIDEDLY sour." },
+    { "fr": "Sauter les vermicelles trempés dans le rempah réservé, avec les germes de soja.", "en": "Fry the soaked vermicelli in the reserved rempah, with the bean sprouts." },
+    { "fr": "Servir les vermicelles dans le bol et verser le bouillon TIÈDE dessus, avec les garnitures.", "en": "Serve the noodles in bowls and pour the WARM gravy over, with the garnishes." }
+  ]
+}

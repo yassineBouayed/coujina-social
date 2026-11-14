@@ -1,0 +1,42 @@
+{
+  "slug": "feijoada-a-transmontana",
+  "cuisine": "mediterranean",
+  "country": "portugal",
+  "origin": "Portugal",
+  "native_name": "Feijoada à transmontana",
+  "title": {
+    "fr": "Feijoada du Trás-os-Montes",
+    "en": "Trás-os-Montes feijoada"
+  },
+  "meal_type": "main",
+  "servings": 8,
+  "times": { "prep_min": 30, "cook_min": 180 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["nord", "haricot", "hiver", "porc"],
+  "ingredients": [
+    { "raw": "600 g de haricots rouges secs, trempés la veille", "qty": 600, "unit": "g", "item": "haricot rouge", "prep": "trempé la veille" },
+    { "raw": "500 g d'échine de porc, en cubes", "qty": 500, "unit": "g", "item": "échine de porc", "prep": "en cubes" },
+    { "raw": "300 g de poitrine de porc fumée", "qty": 300, "unit": "g", "item": "poitrine de porc", "prep": "fumée" },
+    { "raw": "3 chorizos", "qty": 3, "unit": "piece", "item": "chorizo" },
+    { "raw": "2 boudins noirs", "qty": 2, "unit": "piece", "item": "boudin noir" },
+    { "raw": "1/2 chou vert, en lanières", "qty": 0.5, "unit": "piece", "item": "chou vert", "prep": "en lanières" },
+    { "raw": "3 carottes, en rondelles", "qty": 3, "unit": "piece", "item": "carotte", "prep": "en rondelles" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "6 gousses d'ail, hachées", "qty": 6, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "2 c. à c. de paprika fumé", "qty": 2, "unit": "tsp", "item": "paprika fumé" },
+    { "raw": "300 g de riz rond", "qty": 300, "unit": "g", "item": "riz rond" },
+    { "raw": "10 cl d'huile d'olive", "qty": 10, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La feijoada portugaise est aux haricots ROUGES : la brésilienne, elle, va aux haricots noirs.", "en": "The Portuguese feijoada uses RED beans: the Brazilian one uses black beans." },
+    { "fr": "Cuire les haricots trempés une heure et demie, avec les viandes salées, à l'eau claire.", "en": "Cook the soaked beans for an hour and a half, with the salted meats, in fresh water." },
+    { "fr": "Faire un refogado — oignon, ail et paprika à l'huile d'olive — vingt minutes à part.", "en": "Make a refogado — onion, garlic and paprika in olive oil — twenty minutes separately." },
+    { "fr": "Ajouter le paprika HORS DU FEU : dans l'huile brûlante, il devient amer en dix secondes.", "en": "Add the paprika OFF THE HEAT: in scalding oil, it turns bitter within ten seconds." },
+    { "fr": "Réunir refogado, haricots, chorizo et légumes, et cuire une heure de plus.", "en": "Combine the refogado, beans, chorizo and vegetables, and cook for an hour more." },
+    { "fr": "Ajouter le chou les vingt dernières minutes, et servir avec du riz blanc.", "en": "Add the cabbage in the last twenty minutes, and serve with plain rice." }
+  ]
+}

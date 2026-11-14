@@ -1,0 +1,41 @@
+{
+  "slug": "kalb-el-louz",
+  "cuisine": "maghrebi",
+  "country": "algerie",
+  "origin": "Algérie",
+  "native_name": "Kalb el louz",
+  "title": {
+    "fr": "Kalb el louz, gâteau de semoule au sirop",
+    "en": "Kalb el louz, semolina cake in syrup"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 25, "cook_min": 45 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ramadan", "semoule", "sirop", "amande"],
+  "ingredients": [
+    { "raw": "600 g de semoule moyenne", "qty": 600, "unit": "g", "item": "semoule moyenne" },
+    { "raw": "200 g de sucre", "qty": 200, "unit": "g", "item": "sucre" },
+    { "raw": "150 g de beurre fondu", "qty": 150, "unit": "g", "item": "beurre", "prep": "fondu" },
+    { "raw": "200 g de poudre d'amande", "qty": 200, "unit": "g", "item": "poudre d'amande", "group": "farce" },
+    { "raw": "80 g de sucre glace", "qty": 80, "unit": "g", "item": "sucre glace", "group": "farce" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle", "group": "farce" },
+    { "raw": "3 c. à s. d'eau de fleur d'oranger", "qty": 3, "unit": "tbsp", "item": "eau de fleur d'oranger" },
+    { "raw": "500 g de sucre", "qty": 500, "unit": "g", "item": "sucre", "group": "sirop" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron", "group": "sirop" },
+    { "raw": "50 g d'amandes entières, pour le décor", "qty": 50, "unit": "g", "item": "amande", "group": "décor" }
+  ],
+  "steps": [
+    { "fr": "Mélanger la semoule, le sucre et le beurre fondu, et laisser reposer une heure.", "en": "Mix the semolina, sugar and melted butter, and rest for an hour." },
+    { "fr": "Ajouter juste assez d'eau de fleur d'oranger et d'eau pour humidifier : la pâte reste sableuse, elle ne se pétrit pas.", "en": "Add just enough orange blossom water and water to moisten: the mixture stays sandy, it is never kneaded." },
+    { "fr": "Tasser la moitié dans un plat beurré, étaler la farce d'amande, puis couvrir du reste.", "en": "Press half into a buttered dish, spread the almond filling, then cover with the rest." },
+    { "fr": "Découper en losanges, poser une amande sur chacun, et laisser reposer une heure avant d'enfourner.", "en": "Cut into diamonds, set an almond on each, and rest for an hour before baking." },
+    { "fr": "Cuire 45 minutes à 180 °C, jusqu'à ce que la surface soit franchement dorée.", "en": "Bake for 45 minutes at 180°C, until the surface is decidedly golden." },
+    { "fr": "Arroser de sirop froid dès la sortie du four, et laisser boire quatre heures avant de découper.", "en": "Douse with cold syrup straight from the oven, and let it drink for four hours before cutting." }
+  ],
+  "notes": [
+    { "fr": "Le kalb el louz se sert le lendemain : le jour même, le sirop n'a pas atteint le centre et le gâteau est sec au cœur.", "en": "Kalb el louz is served the next day: on the day itself the syrup has not reached the middle and the centre is dry." }
+  ]
+}

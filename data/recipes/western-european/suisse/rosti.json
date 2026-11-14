@@ -1,0 +1,34 @@
+{
+  "slug": "rosti",
+  "cuisine": "western-european",
+  "country": "suisse",
+  "origin": "Suisse",
+  "native_name": "Rösti",
+  "title": {
+    "fr": "Rösti bernois",
+    "en": "Bernese rösti"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 35 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["berne", "pomme-de-terre", "poele", "embleme"],
+  "ingredients": [
+    { "raw": "1,2 kg de pommes de terre à chair ferme", "qty": 1200, "unit": "g", "item": "pomme de terre" },
+    { "raw": "100 g de beurre", "qty": 100, "unit": "g", "item": "beurre" },
+    { "raw": "150 g de lardons", "qty": 150, "unit": "g", "item": "lardon", "optional": true },
+    { "raw": "1 oignon, émincé", "qty": 1, "unit": "piece", "item": "oignon", "prep": "émincé", "optional": true },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le vrai rösti se fait avec des pommes de terre cuites LA VEILLE, en robe, puis refroidies.", "en": "A true rösti uses potatoes boiled THE DAY BEFORE, in their skins, then chilled." },
+    { "fr": "Refroidies, elles se râpent en filaments nets ; chaudes, elles s'écrasent en purée.", "en": "Chilled, they grate into clean strands; warm, they crush into mash." },
+    { "fr": "Les râper GROS, au gros trou de la râpe, et ne surtout pas les rincer.", "en": "Grate them COARSELY, on the large holes, and never rinse them." },
+    { "fr": "Les tasser en galette dans le beurre chaud, sans jamais remuer, et cuire quinze minutes.", "en": "Press them into a cake in hot butter, without ever stirring, and cook for fifteen minutes." },
+    { "fr": "Retourner d'un coup, à l'aide d'une assiette, et cuire quinze minutes de l'autre côté.", "en": "Flip it in one movement, using a plate, and cook fifteen minutes on the other side." },
+    { "fr": "La croûte doit être BRUN DORÉ et sonner creux : le cœur reste moelleux.", "en": "The crust should be GOLDEN BROWN and sound hollow: the centre stays soft." }
+  ]
+}

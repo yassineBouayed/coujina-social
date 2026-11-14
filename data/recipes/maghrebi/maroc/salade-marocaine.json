@@ -1,0 +1,35 @@
+{
+  "slug": "salade-marocaine",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Chlada marokia",
+  "title": {
+    "fr": "Salade marocaine, tomate, concombre et oignon",
+    "en": "Moroccan salad with tomato, cucumber and onion"
+  },
+  "meal_type": "salad",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["cru", "ete", "accompagnement", "rapide"],
+  "ingredients": [
+    { "raw": "4 tomates fermes, en petits dés", "qty": 4, "unit": "piece", "item": "tomate", "prep": "en petits dés" },
+    { "raw": "1 concombre, en petits dés", "qty": 1, "unit": "piece", "item": "concombre", "prep": "en petits dés" },
+    { "raw": "1 oignon rouge, en petits dés", "qty": 1, "unit": "piece", "item": "oignon rouge", "prep": "en petits dés" },
+    { "raw": "1/2 poivron vert, en petits dés", "qty": 0.5, "unit": "piece", "item": "poivron vert", "prep": "en petits dés" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "3 c. à s. d'huile d'olive", "qty": 3, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Tailler tous les légumes en dés de la même taille, petits : c'est le seul critère de réussite de cette salade.", "en": "Dice all the vegetables to the same small size: it is the only measure of success this salad has." },
+    { "fr": "Saler les tomates à part dix minutes et jeter l'eau rendue, sinon la salade baigne.", "en": "Salt the tomatoes separately for ten minutes and discard the water they give up, or the salad will swim." },
+    { "fr": "Mélanger les légumes, le persil, le jus de citron, l'huile et le cumin.", "en": "Combine the vegetables, parsley, lemon juice, oil and cumin." },
+    { "fr": "Assaisonner au dernier moment et servir bien frais.", "en": "Dress at the last moment and serve well chilled." }
+  ]
+}

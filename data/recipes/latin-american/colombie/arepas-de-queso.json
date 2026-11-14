@@ -1,0 +1,33 @@
+{
+  "slug": "arepas-de-queso",
+  "cuisine": "latin-american",
+  "country": "colombie",
+  "origin": "Colombie",
+  "native_name": "Arepas de queso",
+  "title": {
+    "fr": "Arepas au fromage",
+    "en": "Cheese arepas"
+  },
+  "meal_type": "bread",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["quotidien", "mais", "fromage", "embleme"],
+  "ingredients": [
+    { "raw": "400 g de farine de maïs précuite", "qty": 400, "unit": "g", "item": "masa harina" },
+    { "raw": "50 cl d'eau tiède", "qty": 50, "unit": "cl", "item": "eau" },
+    { "raw": "300 g de queso fresco, râpé", "qty": 300, "unit": "g", "item": "queso fresco", "prep": "râpé" },
+    { "raw": "60 g de beurre", "qty": 60, "unit": "g", "item": "beurre" },
+    { "raw": "2 c. à c. de sel", "qty": 2, "unit": "tsp", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "La farine doit être PRÉCUITE, dite masarepa : la farine de maïs ordinaire ne fonctionne pas.", "en": "The flour must be PRECOOKED, called masarepa: ordinary corn flour does not work." },
+    { "fr": "Verser la farine DANS l'eau, jamais l'inverse : l'inverse fait des grumeaux secs au cœur.", "en": "Pour the flour INTO the water, never the reverse: the reverse gives dry lumps inside." },
+    { "fr": "Laisser reposer la pâte CINQ MINUTES : elle absorbe l'eau et devient malléable.", "en": "Rest the dough for FIVE MINUTES: it takes up the water and becomes pliable." },
+    { "fr": "Pétrir jusqu'à ce que la pâte ne CRAQUELLE plus sur les bords quand on l'aplatit.", "en": "Knead until the dough no longer CRACKS at the edges when you flatten it." },
+    { "fr": "Des craquelures signifient qu'il manque de l'eau : en ajouter cuillère par cuillère.", "en": "Cracks mean it needs more water: add it spoon by spoon." },
+    { "fr": "Cuire sur une poêle SÈCHE et brûlante, sept minutes par face : elles doivent être tachées de brun.", "en": "Cook on a DRY, scalding pan, seven minutes a side: they should be brown-spotted." }
+  ]
+}

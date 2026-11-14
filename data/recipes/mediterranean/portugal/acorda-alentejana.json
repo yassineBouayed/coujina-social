@@ -1,0 +1,36 @@
+{
+  "slug": "acorda-alentejana",
+  "cuisine": "mediterranean",
+  "country": "portugal",
+  "origin": "Portugal",
+  "native_name": "Açorda alentejana",
+  "title": {
+    "fr": "Açorda de l'Alentejo, soupe de pain à la coriandre",
+    "en": "Alentejo bread soup with coriander"
+  },
+  "meal_type": "soup",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["alentejo", "pain-rassis", "coriandre", "pauvre"],
+  "ingredients": [
+    { "raw": "500 g de pain de campagne rassis", "qty": 500, "unit": "g", "item": "pain", "prep": "rassis" },
+    { "raw": "1 gros bouquet de coriandre", "qty": 1, "unit": "bunch", "item": "coriandre fraîche" },
+    { "raw": "8 gousses d'ail", "qty": 8, "unit": "piece", "item": "ail" },
+    { "raw": "5 œufs", "qty": 5, "unit": "piece", "item": "oeuf" },
+    { "raw": "15 cl d'huile d'olive", "qty": 15, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "1,2 l d'eau", "qty": 1.2, "unit": "l", "item": "eau" },
+    { "raw": "1 c. à s. de gros sel", "qty": 1, "unit": "tbsp", "item": "gros sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Cinq ingrédients et pas de cuisson du bouillon : c'est une soupe de pauvres devenue un classique.", "en": "Five ingredients and no stock to cook: a poor man's soup that became a classic." },
+    { "fr": "Piler ail, coriandre et gros sel AU MORTIER, en une pâte verte très parfumée.", "en": "Pound the garlic, coriander and coarse salt IN A MORTAR, into a fragrant green paste." },
+    { "fr": "Mixée au robot, la coriandre chauffe et noircit : le mortier est ici irremplaçable.", "en": "Blitzed in a processor, coriander heats and blackens: the mortar is irreplaceable here." },
+    { "fr": "Délayer la pâte à l'huile d'olive dans la soupière, et verser l'eau BOUILLANTE dessus.", "en": "Slacken the paste with olive oil in the tureen, and pour BOILING water over it." },
+    { "fr": "Ajouter le pain rassis en gros morceaux et laisser gonfler cinq minutes sans remuer.", "en": "Add the stale bread in large pieces and let it swell for five minutes without stirring." },
+    { "fr": "Pocher les œufs à part et les poser dessus : l'açorda est aussi épaisse qu'une bouillie.", "en": "Poach the eggs separately and set them on top: açorda is as thick as porridge." }
+  ]
+}

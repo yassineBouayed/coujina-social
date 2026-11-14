@@ -1,0 +1,36 @@
+{
+  "slug": "num-ansom",
+  "cuisine": "southeast-asian",
+  "country": "cambodge",
+  "origin": "Cambodge",
+  "native_name": "នំអន្សម",
+  "title": {
+    "fr": "Num ansom, gâteau de riz gluant en feuille",
+    "en": "Num ansom, sticky rice log in banana leaf"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 45, "cook_min": 300 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["nouvel-an", "riz-gluant", "banane", "fete"],
+  "ingredients": [
+    { "raw": "800 g de riz gluant, trempé la veille", "qty": 800, "unit": "g", "item": "riz gluant", "prep": "trempé la veille" },
+    { "raw": "200 g de haricot mungo décortiqué, trempé", "qty": 200, "unit": "g", "item": "haricot mungo", "prep": "trempé" },
+    { "raw": "4 bananes plantain mûres", "qty": 4, "unit": "piece", "item": "banane plantain" },
+    { "raw": "25 cl de lait de coco", "qty": 25, "unit": "cl", "item": "lait de coco" },
+    { "raw": "100 g de sucre de palme", "qty": 100, "unit": "g", "item": "sucre de palme" },
+    { "raw": "300 g de poitrine de porc, en lanières", "qty": 300, "unit": "g", "item": "poitrine de porc", "prep": "en lanières", "optional": true },
+    { "raw": "1 c. à c. de poivre noir concassé", "qty": 1, "unit": "tsp", "item": "poivre noir", "prep": "concassé" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le num ansom se fait pour le nouvel an khmer, en famille : chacun roule les siens.", "en": "Num ansom is made for Khmer New Year, as a family: everyone rolls their own." },
+    { "fr": "Tremper le riz gluant UNE NUIT, puis l'égoutter et le mélanger au lait de coco et au sel.", "en": "Soak the glutinous rice OVERNIGHT, then drain it and mix it with coconut milk and salt." },
+    { "fr": "Étaler le riz sur la feuille de bananier, poser la garniture au centre, et recouvrir de riz.", "en": "Spread the rice on the banana leaf, lay the filling in the centre, and cover with more rice." },
+    { "fr": "Rouler en boudin serré et FICELER FERMEMENT tous les trois centimètres.", "en": "Roll into a tight log and TIE IT FIRMLY every three centimetres." },
+    { "fr": "Une ficelle lâche laisse entrer l'eau et le riz devient une bouillie : c'est l'unique cause d'échec.", "en": "Loose string lets water in and the rice turns to porridge: the one cause of failure." },
+    { "fr": "Faire bouillir CINQ HEURES, entièrement immergé, en rajoutant de l'eau bouillante.", "en": "Boil for FIVE HOURS, fully submerged, topping up with boiling water." }
+  ]
+}

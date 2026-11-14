@@ -1,0 +1,39 @@
+{
+  "slug": "patishapta",
+  "cuisine": "south-asian",
+  "country": "bangladesh",
+  "origin": "Bangladesh",
+  "native_name": "Patishapta",
+  "title": {
+    "fr": "Patishapta, crêpes roulées à la noix de coco",
+    "en": "Patishapta, rolled crepes with coconut filling"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 40 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hiver", "coco", "crepe", "pitha"],
+  "ingredients": [
+    { "raw": "150 g de farine de riz", "qty": 150, "unit": "g", "item": "farine de riz", "group": "pâte" },
+    { "raw": "100 g de semoule fine", "qty": 100, "unit": "g", "item": "semoule fine", "group": "pâte" },
+    { "raw": "50 g de farine de blé", "qty": 50, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "60 cl de lait", "qty": 60, "unit": "cl", "item": "lait", "group": "pâte" },
+    { "raw": "3 c. à s. de sucre", "qty": 3, "unit": "tbsp", "item": "sucre", "group": "pâte" },
+    { "raw": "300 g de coco râpé", "qty": 300, "unit": "g", "item": "coco râpé", "group": "farce" },
+    { "raw": "200 g de panela", "qty": 200, "unit": "g", "item": "panela", "group": "farce" },
+    { "raw": "20 cl de lait concentré sucré", "qty": 20, "unit": "cl", "item": "lait concentré sucré", "group": "farce" },
+    { "raw": "1 c. à c. de cardamome moulue", "qty": 1, "unit": "tsp", "item": "cardamome", "prep": "moulue", "group": "farce" },
+    { "raw": "4 c. à s. de ghee", "qty": 4, "unit": "tbsp", "item": "ghee" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire le coco râpé avec la panela dix minutes, jusqu'à ce que le mélange devienne collant.", "en": "Cook the grated coconut with the panela for ten minutes, until the mixture turns sticky." },
+    { "fr": "Ajouter le lait concentré et la cardamome, et cuire jusqu'à ce que la farce se détache de la casserole.", "en": "Add the condensed milk and cardamom, and cook until the filling pulls away from the pan." },
+    { "fr": "Fouetter les farines, la semoule fine, le lait et le sucre en une pâte fluide, et laisser reposer trente minutes.", "en": "Whisk the flours, fine semolina, milk and sugar into a thin batter, and rest for thirty minutes." },
+    { "fr": "La farine de riz est ce qui rend la crêpe souple à froid : à la farine de blé seule, elle durcit.", "en": "Rice flour is what keeps the crepe pliable when cold: with wheat flour alone, it stiffens." },
+    { "fr": "Cuire des crêpes fines d'UN SEUL côté, sur poêle beurrée.", "en": "Cook thin crepes on ONE side only, in a buttered pan." },
+    { "fr": "Déposer un boudin de farce sur un bord et rouler serré, encore chaud.", "en": "Lay a rope of filling along one edge and roll it up tightly, while still warm." }
+  ]
+}

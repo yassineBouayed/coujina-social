@@ -1,0 +1,38 @@
+{
+  "slug": "maakouda",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Maâkouda",
+  "title": {
+    "fr": "Maâkouda, galettes de pomme de terre frites",
+    "en": "Maakouda, fried potato patties"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["friture", "rue", "ramadan", "pomme-de-terre"],
+  "ingredients": [
+    { "raw": "1 kg de pommes de terre", "qty": 1000, "unit": "g", "item": "pomme de terre" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf" },
+    { "raw": "4 gousses d'ail, écrasées", "qty": 4, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin" },
+    { "raw": "1 c. à c. de paprika", "qty": 1, "unit": "tsp", "item": "paprika" },
+    { "raw": "1/2 c. à c. de curcuma", "qty": 0.5, "unit": "tsp", "item": "curcuma" },
+    { "raw": "3 c. à s. de farine de blé", "qty": 3, "unit": "tbsp", "item": "farine de blé" },
+    { "raw": "1 l d'huile de tournesol pour la friture", "qty": 1, "unit": "l", "item": "huile de tournesol" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire les pommes de terre à l'eau salée avec la peau, puis les peler chaudes et les écraser à la fourchette.", "en": "Boil the potatoes in their skins in salted water, then peel them hot and crush with a fork." },
+    { "fr": "Les laisser tiédir et sécher à l'air : une purée humide donne des galettes qui éclatent dans l'huile.", "en": "Let them cool and dry in the air: a wet mash gives patties that burst in the oil." },
+    { "fr": "Mélanger avec l'ail, le persil, les épices, deux œufs et la farine, puis saler franchement.", "en": "Mix with garlic, parsley, spices, two eggs and the flour, then salt firmly." },
+    { "fr": "Former des galettes épaisses d'un centimètre et les passer dans le troisième œuf battu.", "en": "Shape patties a centimetre thick and dip them in the third egg, beaten." },
+    { "fr": "Frire à 170 °C, en deux fois, jusqu'à ce qu'elles soient dorées des deux côtés.", "en": "Fry at 170°C, in two batches, until golden on both sides." },
+    { "fr": "Égoutter sur papier absorbant et servir chaud, dans du pain ou tel quel.", "en": "Drain on paper and serve hot, in bread or as they are." }
+  ]
+}

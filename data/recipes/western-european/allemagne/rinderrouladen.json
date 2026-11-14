@@ -1,0 +1,41 @@
+{
+  "slug": "rinderrouladen",
+  "cuisine": "western-european",
+  "country": "allemagne",
+  "origin": "Allemagne",
+  "native_name": "Rinderrouladen",
+  "title": {
+    "fr": "Paupiettes de bœuf au cornichon",
+    "en": "Beef roulades with pickle"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 35, "cook_min": 120 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["dimanche", "paupiette", "moutarde", "mijote"],
+  "ingredients": [
+    { "raw": "5 tranches fines de bœuf à braiser", "qty": 800, "unit": "g", "item": "boeuf à mijoter", "prep": "en tranches fines" },
+    { "raw": "5 c. à s. de moutarde", "qty": 5, "unit": "tbsp", "item": "moutarde" },
+    { "raw": "10 tranches de lard fumé", "qty": 10, "unit": "piece", "item": "lardon", "prep": "en tranches" },
+    { "raw": "5 cornichons, en bâtonnets", "qty": 5, "unit": "piece", "item": "cornichon", "prep": "en bâtonnets" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "2 carottes, en dés", "qty": 2, "unit": "piece", "item": "carotte", "prep": "en dés" },
+    { "raw": "50 cl de bouillon de bœuf", "qty": 50, "unit": "cl", "item": "bouillon boeuf" },
+    { "raw": "15 cl de vin rouge", "qty": 15, "unit": "cl", "item": "vin rouge" },
+    { "raw": "2 c. à s. de farine de blé", "qty": 2, "unit": "tbsp", "item": "farine de blé" },
+    { "raw": "3 c. à s. de saindoux", "qty": 3, "unit": "tbsp", "item": "saindoux" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Aplatir les tranches jusqu'à un demi-centimètre : plus épaisses, elles ne s'enroulent pas.", "en": "Flatten the slices to half a centimetre: thicker, they will not roll." },
+    { "fr": "Tartiner de moutarde, poser lard, cornichon et oignon, et laisser DEUX CENTIMÈTRES libres au bout.", "en": "Spread with mustard, lay on bacon, pickle and onion, and leave TWO CENTIMETRES free at the end." },
+    { "fr": "Rabattre les CÔTÉS avant d'enrouler : sinon la garniture s'échappe pendant la cuisson.", "en": "Fold in the SIDES before rolling: otherwise the filling escapes while cooking." },
+    { "fr": "Fixer avec de la ficelle ou des cure-dents, et saisir les rouleaux au saindoux.", "en": "Tie with string or pin with toothpicks, and sear the rolls in lard." },
+    { "fr": "Déglacer au vin rouge, mouiller au bouillon, et braiser deux heures à couvert.", "en": "Deglaze with red wine, add the stock, and braise for two hours, covered." },
+    { "fr": "Retirer les paupiettes, lier la sauce à la farine délayée, et remettre à peine chauffer.", "en": "Lift out the roulades, thicken the sauce with slaked flour, and barely reheat." }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "fish-and-chips",
+  "cuisine": "western-european",
+  "country": "royaume-uni",
+  "origin": "Royaume-Uni",
+  "native_name": "Fish and chips",
+  "title": {
+    "fr": "Fish and chips à la bière",
+    "en": "Beer-battered fish and chips"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 30, "cook_min": 35 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["embleme", "friture", "poisson", "pub"],
+  "ingredients": [
+    { "raw": "4 filets de cabillaud", "qty": 800, "unit": "g", "item": "cabillaud", "prep": "en filets" },
+    { "raw": "1,2 kg de pommes de terre, en gros bâtonnets", "qty": 1200, "unit": "g", "item": "pomme de terre", "prep": "en gros bâtonnets" },
+    { "raw": "250 g de farine de blé", "qty": 250, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "33 cl de bière blonde, très froide", "qty": 33, "unit": "cl", "item": "bière", "prep": "très froide", "group": "pâte" },
+    { "raw": "50 g de maïzena", "qty": 50, "unit": "g", "item": "maïzena", "group": "pâte" },
+    { "raw": "1 c. à c. de levure chimique", "qty": 1, "unit": "tsp", "item": "levure chimique", "group": "pâte" },
+    { "raw": "2 l d'huile neutre pour la friture", "qty": 2, "unit": "l", "item": "huile neutre" },
+    { "raw": "4 c. à s. de vinaigre de malt", "qty": 4, "unit": "tbsp", "item": "vinaigre de malt", "group": "service" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La pâte se fait à la bière TRÈS FROIDE et juste avant de frire : c'est le choc thermique qui la fait gonfler.", "en": "The batter uses VERY COLD beer and is made just before frying: thermal shock is what puffs it." },
+    { "fr": "Ne pas la lisser : quelques grumeaux valent mieux qu'une pâte travaillée, qui devient élastique.", "en": "Do not smooth it out: a few lumps beat an overworked batter, which turns elastic." },
+    { "fr": "Frire les frites DEUX FOIS : une première à 140 °C pour les cuire, puis les laisser refroidir.", "en": "Fry the chips TWICE: first at 140°C to cook them through, then let them cool." },
+    { "fr": "Fariner le poisson AVANT de le tremper dans la pâte : sinon elle glisse et se détache à la friture.", "en": "Flour the fish BEFORE dipping it in the batter: otherwise it slides off in the fryer." },
+    { "fr": "Frire le poisson à 180 °C, six minutes, en le tenant vingt secondes avant de le lâcher.", "en": "Fry the fish at 180°C for six minutes, holding it twenty seconds before letting go." },
+    { "fr": "Frire les frites une seconde fois à 190 °C, saler, et servir avec du vinaigre de malt.", "en": "Fry the chips a second time at 190°C, salt them, and serve with malt vinegar." }
+  ]
+}

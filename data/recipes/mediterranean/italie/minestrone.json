@@ -1,0 +1,42 @@
+{
+  "slug": "minestrone",
+  "cuisine": "mediterranean",
+  "country": "italie",
+  "origin": "Italie",
+  "native_name": "Minestrone",
+  "title": {
+    "fr": "Minestrone de légumes",
+    "en": "Vegetable minestrone"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 75 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["legumes", "hiver", "haricot", "famille"],
+  "ingredients": [
+    { "raw": "300 g de haricots blancs secs, trempés la veille", "qty": 300, "unit": "g", "item": "haricot blanc", "prep": "trempé la veille" },
+    { "raw": "3 carottes, en dés", "qty": 3, "unit": "piece", "item": "carotte", "prep": "en dés" },
+    { "raw": "3 branches de céleri, en dés", "qty": 3, "unit": "piece", "item": "céleri branche", "prep": "en dés" },
+    { "raw": "2 courgettes, en dés", "qty": 2, "unit": "piece", "item": "courgette", "prep": "en dés" },
+    { "raw": "2 pommes de terre, en dés", "qty": 2, "unit": "piece", "item": "pomme de terre", "prep": "en dés" },
+    { "raw": "1/4 de chou vert, en lanières", "qty": 0.25, "unit": "piece", "item": "chou vert", "prep": "en lanières" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "400 g de tomate pelée en conserve", "qty": 400, "unit": "g", "item": "tomate pelée en conserve" },
+    { "raw": "150 g de pâtes courtes", "qty": 150, "unit": "g", "item": "pâtes courtes" },
+    { "raw": "1 croûte de parmesan", "qty": 1, "unit": "piece", "item": "parmesan", "prep": "en croûte" },
+    { "raw": "12 cl d'huile d'olive", "qty": 12, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "1 bouquet de basilic", "qty": 1, "unit": "bunch", "item": "basilic" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Jeter une CROÛTE DE PARMESAN dans le bouillon : elle fond lentement et donne une profondeur inimitable.", "en": "Drop a PARMESAN RIND into the broth: it melts slowly and gives an inimitable depth." },
+    { "fr": "Cuire les haricots trempés une heure, séparément, et garder leur eau de cuisson.", "en": "Cook the soaked beans for an hour, separately, and keep their cooking water." },
+    { "fr": "Faire un soffritto d'oignon, carotte et céleri, vingt minutes à l'huile d'olive.", "en": "Make a soffritto of onion, carrot and celery, twenty minutes in olive oil." },
+    { "fr": "Ajouter les légumes du plus dur au plus tendre, et les tomates, et cuire quarante minutes.", "en": "Add the vegetables from firmest to softest, and the tomatoes, and cook for forty minutes." },
+    { "fr": "Ajouter les pâtes les dix dernières minutes seulement : cuites avant, elles se défont.", "en": "Add the pasta in the last ten minutes only: cooked earlier, it falls apart." },
+    { "fr": "Le minestrone se sert TIÈDE, jamais brûlant, avec un filet d'huile d'olive crue.", "en": "Minestrone is served WARM, never scalding, with a thread of raw olive oil." }
+  ]
+}

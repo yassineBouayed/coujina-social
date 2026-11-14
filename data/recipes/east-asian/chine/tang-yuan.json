@@ -1,0 +1,36 @@
+{
+  "slug": "tang-yuan",
+  "cuisine": "east-asian",
+  "country": "chine",
+  "origin": "Chine",
+  "native_name": "汤圆",
+  "title": {
+    "fr": "Tang yuan, boules de riz gluant au sésame noir",
+    "en": "Tang yuan, glutinous rice balls with black sesame"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 15 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["nouvel-an", "sesame-noir", "vapeur", "fete"],
+  "ingredients": [
+    { "raw": "300 g de farine de riz gluant", "qty": 300, "unit": "g", "item": "riz gluant", "prep": "en farine" },
+    { "raw": "24 cl d'eau tiède", "qty": 24, "unit": "cl", "item": "eau" },
+    { "raw": "150 g de sésame noir, grillé et moulu", "qty": 150, "unit": "g", "item": "sésame noir", "prep": "grillé et moulu", "group": "farce" },
+    { "raw": "100 g de sucre glace", "qty": 100, "unit": "g", "item": "sucre glace", "group": "farce" },
+    { "raw": "80 g de saindoux", "qty": 80, "unit": "g", "item": "saindoux", "group": "farce" },
+    { "raw": "1 morceau de gingembre frais, en rondelles", "qty": 1, "unit": "piece", "item": "gingembre", "prep": "en rondelles", "group": "sirop" },
+    { "raw": "60 g de sucre roux", "qty": 60, "unit": "g", "item": "sucre roux", "group": "sirop" },
+    { "raw": "1 l d'eau", "qty": 1, "unit": "l", "item": "eau", "group": "sirop" }
+  ],
+  "steps": [
+    { "fr": "Griller le sésame noir à sec et le moudre FINEMENT, jusqu'à ce qu'il rende son huile.", "en": "Toast the black sesame dry and grind it FINE, until it releases its oil." },
+    { "fr": "Le mélanger au sucre glace et au saindoux, puis rouler des billes de farce et les CONGELER.", "en": "Mix it with the icing sugar and lard, then roll balls of filling and FREEZE them." },
+    { "fr": "La farce congelée est ce qui permet de la loger dans la pâte sans qu'elle s'échappe.", "en": "Frozen filling is what lets you enclose it in the dough without it escaping." },
+    { "fr": "Pétrir la farine de riz gluant et l'eau tiède en une pâte souple, comme de la pâte à modeler.", "en": "Knead the glutinous rice flour and warm water into a soft dough, like modelling clay." },
+    { "fr": "Creuser une boule, y loger une bille de farce, et refermer PARFAITEMENT, sans la moindre fissure.", "en": "Hollow a ball, tuck in a bead of filling, and close it PERFECTLY, with no crack at all." },
+    { "fr": "Pocher dans le sirop au gingembre jusqu'à ce qu'elles remontent, puis deux minutes de plus.", "en": "Poach in the ginger syrup until they float, then two minutes more." }
+  ]
+}

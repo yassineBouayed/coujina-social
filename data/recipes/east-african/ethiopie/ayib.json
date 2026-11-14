@@ -1,0 +1,31 @@
+{
+  "slug": "ayib",
+  "cuisine": "east-african",
+  "country": "ethiopie",
+  "origin": "Éthiopie",
+  "native_name": "Ayib",
+  "title": {
+    "fr": "Ayib, fromage frais éthiopien",
+    "en": "Ayib, Ethiopian fresh cheese"
+  },
+  "meal_type": "side",
+  "servings": 6,
+  "times": { "prep_min": 15, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fromage", "frais", "accompagnement", "doux"],
+  "ingredients": [
+    { "raw": "2 l de lait caillé", "qty": 2, "unit": "l", "item": "lait caillé" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Chauffer le lait caillé très doucement, sans jamais dépasser le frémissement.", "en": "Heat the soured milk very gently, never letting it come past a shiver." },
+    { "fr": "Ne pas remuer : le caillé se forme tout seul en flocons qui remontent.", "en": "Do not stir: the curd forms on its own in flakes that rise." },
+    { "fr": "Trop chaud, le caillé se resserre et devient caoutchouteux : l'ayib doit rester friable.", "en": "Too hot and the curd tightens into rubber: ayib must stay crumbly." },
+    { "fr": "Quand le petit-lait est clair et vert pâle, couper le feu et laisser reposer dix minutes.", "en": "When the whey runs clear and pale green, cut the heat and rest for ten minutes." },
+    { "fr": "Verser dans une étamine et laisser égoutter une heure, sans presser.", "en": "Tip into muslin and drain for an hour, without pressing." },
+    { "fr": "Saler légèrement et servir frais, à côté d'un plat très pimenté.", "en": "Salt lightly and serve cold, beside a very spicy dish." }
+  ]
+}

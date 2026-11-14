@@ -1,0 +1,38 @@
+{
+  "slug": "trofie-al-pesto",
+  "cuisine": "mediterranean",
+  "country": "italie",
+  "origin": "Italie",
+  "native_name": "Trofie al pesto",
+  "title": {
+    "fr": "Trofie au pesto génois",
+    "en": "Trofie with Genoese pesto"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ligurie", "basilic", "mortier", "ete"],
+  "ingredients": [
+    { "raw": "400 g de trofie", "qty": 400, "unit": "g", "item": "pâtes courtes" },
+    { "raw": "2 gros bouquets de basilic", "qty": 2, "unit": "bunch", "item": "basilic" },
+    { "raw": "60 g de pignons de pin", "qty": 60, "unit": "g", "item": "pignon de pin" },
+    { "raw": "80 g de parmesan, râpé", "qty": 80, "unit": "g", "item": "parmesan", "prep": "râpé" },
+    { "raw": "40 g de pecorino, râpé", "qty": 40, "unit": "g", "item": "pecorino", "prep": "râpé" },
+    { "raw": "2 gousses d'ail", "qty": 2, "unit": "piece", "item": "ail" },
+    { "raw": "15 cl d'huile d'olive", "qty": 15, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "200 g de pommes de terre, en dés", "qty": 200, "unit": "g", "item": "pomme de terre", "prep": "en dés" },
+    { "raw": "150 g de haricots verts, en tronçons", "qty": 150, "unit": "g", "item": "haricot vert", "prep": "en tronçons" },
+    { "raw": "1 c. à c. de gros sel", "qty": 1, "unit": "tsp", "item": "gros sel" }
+  ],
+  "steps": [
+    { "fr": "Le pesto se fait AU MORTIER : le robot chauffe le basilic et le fait noircir en trente secondes.", "en": "Pesto is made IN A MORTAR: a processor heats the basil and blackens it within thirty seconds." },
+    { "fr": "Commencer par piler l'ail et le gros sel, puis les pignons, puis le basilic PAR PETITES POIGNÉES.", "en": "Start by pounding the garlic and coarse salt, then the pine nuts, then the basil IN SMALL HANDFULS." },
+    { "fr": "Piler en tournant le pilon contre la paroi, jamais en frappant : on écrase, on ne broie pas.", "en": "Pound by turning the pestle against the wall, never striking: you crush, you do not grind." },
+    { "fr": "Ajouter les fromages, puis l'huile d'olive EN FILET, sans cesser de tourner.", "en": "Add the cheeses, then the olive oil IN A STREAM, still turning." },
+    { "fr": "Cuire pommes de terre, haricots verts et pâtes DANS LA MÊME EAU, en décalé.", "en": "Cook the potatoes, green beans and pasta IN THE SAME WATER, staggered." },
+    { "fr": "Mélanger le pesto HORS DU FEU, avec une louche d'eau de cuisson : chauffé, il perd sa couleur.", "en": "Toss the pesto in OFF THE HEAT, with a ladle of cooking water: heated, it loses its colour." }
+  ]
+}

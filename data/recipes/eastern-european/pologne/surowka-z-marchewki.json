@@ -1,0 +1,37 @@
+{
+  "slug": "surowka-z-marchewki",
+  "cuisine": "eastern-european",
+  "country": "pologne",
+  "origin": "Pologne",
+  "native_name": "Surówka z marchewki",
+  "title": {
+    "fr": "Salade de carottes râpées à la pomme",
+    "en": "Grated carrot and apple salad"
+  },
+  "meal_type": "salad",
+  "servings": 6,
+  "times": { "prep_min": 15, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["accompagnement", "cru", "rapide", "enfants"],
+  "ingredients": [
+    { "raw": "600 g de carottes, râpées", "qty": 600, "unit": "g", "item": "carotte", "prep": "râpée" },
+    { "raw": "3 pommes, râpées", "qty": 3, "unit": "piece", "item": "pomme", "prep": "râpée" },
+    { "raw": "20 cl de crème fraîche", "qty": 20, "unit": "cl", "item": "crème fraîche" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "2 c. à s. de miel", "qty": 2, "unit": "tbsp", "item": "miel" },
+    { "raw": "60 g de raisins secs", "qty": 60, "unit": "g", "item": "raisin sec", "optional": true },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La surówka accompagne TOUS les plats polonais : elle est l'équivalent de la salade verte française.", "en": "Surówka accompanies EVERY Polish dish: it is the equivalent of a French green salad." },
+    { "fr": "Râper les carottes AU GROS TROU : trop fines, elles rendent leur eau et la salade devient molle.", "en": "Grate the carrots on the LARGE HOLES: too fine, they weep and the salad goes limp." },
+    { "fr": "Citronner les pommes râpées IMMÉDIATEMENT, dès la sortie de la râpe.", "en": "Lemon the grated apple IMMEDIATELY, straight off the grater." },
+    { "fr": "Mêler crème, miel et citron À PART, puis verser sur les légumes.", "en": "Combine the cream, honey and lemon SEPARATELY, then pour over the vegetables." },
+    { "fr": "Assaisonner au DERNIER MOMENT : montée à l'avance, la salade rend beaucoup d'eau.", "en": "Dress it at the LAST MOMENT: made ahead, the salad releases a lot of water." },
+    { "fr": "Servir bien frais, dans les vingt minutes.", "en": "Serve it well chilled, within twenty minutes." }
+  ]
+}

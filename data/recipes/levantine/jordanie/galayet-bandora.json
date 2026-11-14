@@ -1,0 +1,35 @@
+{
+  "slug": "galayet-bandora",
+  "cuisine": "levantine",
+  "country": "jordanie",
+  "origin": "Jordanie",
+  "native_name": "Galayet bandora",
+  "title": {
+    "fr": "Galayet bandora, tomates sautées à l'ail",
+    "en": "Galayet bandora, tomatoes fried with garlic"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 10, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rapide", "tomate", "vegetarien", "quotidien"],
+  "ingredients": [
+    { "raw": "1 kg de tomates mûres, en quartiers", "qty": 1000, "unit": "g", "item": "tomate", "prep": "en quartiers" },
+    { "raw": "8 gousses d'ail, écrasées", "qty": 8, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "2 piments verts, fendus", "qty": 2, "unit": "piece", "item": "piment frais", "prep": "fendu" },
+    { "raw": "10 cl d'huile d'olive", "qty": 10, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "1 c. à c. de piment en poudre", "qty": 1, "unit": "tsp", "item": "piment en poudre", "optional": true },
+    { "raw": "4 pains pita", "qty": 4, "unit": "piece", "item": "pain pita", "group": "service" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Chauffer l'huile d'olive à feu vif et y jeter l'ail et les piments, trente secondes.", "en": "Heat the olive oil over high heat and drop in the garlic and chillies, thirty seconds." },
+    { "fr": "Ajouter les tomates d'un coup et les laisser sans y toucher deux minutes, pour qu'elles saisissent.", "en": "Add the tomatoes all at once and leave them untouched for two minutes, so they sear." },
+    { "fr": "Le galayet est une friture, pas un mijoté : feu vif du début à la fin.", "en": "Galayet is a fry, not a stew: high heat from start to finish." },
+    { "fr": "Écraser grossièrement à la cuillère et laisser réduire quinze minutes, jusqu'à ce que l'huile se sépare.", "en": "Crush roughly with a spoon and reduce for fifteen minutes, until the oil separates." },
+    { "fr": "Saler en fin de cuisson : salées tôt, les tomates rendent leur eau et bouillent.", "en": "Salt at the end: salted early, the tomatoes weep and boil." },
+    { "fr": "Servir dans la poêle, brûlant, avec du pain pour saucer.", "en": "Serve in the pan, scalding, with bread to mop up." }
+  ]
+}

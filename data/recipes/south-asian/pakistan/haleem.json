@@ -1,0 +1,42 @@
+{
+  "slug": "haleem",
+  "cuisine": "south-asian",
+  "country": "pakistan",
+  "origin": "Pakistan",
+  "native_name": "Haleem",
+  "title": {
+    "fr": "Haleem, blé et lentilles pilés à la viande",
+    "en": "Haleem, pounded wheat, lentils and meat"
+  },
+  "meal_type": "main",
+  "servings": 8,
+  "times": { "prep_min": 40, "cook_min": 300 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ramadan", "cuisson-lente", "ble", "partage"],
+  "ingredients": [
+    { "raw": "300 g de blé tendre, trempé la veille", "qty": 300, "unit": "g", "item": "blé tendre", "prep": "trempé la veille" },
+    { "raw": "150 g de boulgour gros", "qty": 150, "unit": "g", "item": "boulgour gros" },
+    { "raw": "200 g de lentilles noires décortiquées", "qty": 200, "unit": "g", "item": "lentille noire" },
+    { "raw": "150 g de pois cassés", "qty": 150, "unit": "g", "item": "pois cassé" },
+    { "raw": "1 kg de gigot d'agneau, en cubes", "qty": 1000, "unit": "g", "item": "gigot d'agneau", "prep": "en cubes" },
+    { "raw": "4 oignons, émincés", "qty": 4, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "3 c. à s. de pâte gingembre-ail", "qty": 3, "unit": "tbsp", "item": "pâte gingembre-ail" },
+    { "raw": "2 c. à s. de garam masala", "qty": 2, "unit": "tbsp", "item": "garam masala" },
+    { "raw": "2 c. à c. de piment kashmiri", "qty": 2, "unit": "tsp", "item": "piment kashmiri" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "200 g de ghee", "qty": 200, "unit": "g", "item": "ghee" },
+    { "raw": "1 c. à s. de gingembre frais, en julienne", "qty": 1, "unit": "tbsp", "item": "gingembre", "prep": "en julienne", "group": "service" },
+    { "raw": "2 citrons, en quartiers", "qty": 2, "unit": "piece", "item": "citron", "group": "service" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Tremper le blé une nuit et cuire séparément céréales, légumineuses et viande : chacune a son temps.", "en": "Soak the wheat overnight and cook the grains, pulses and meat separately: each has its own timing." },
+    { "fr": "Cuire la viande avec l'oignon, la pâte gingembre-ail et les épices trois heures, jusqu'à ce qu'elle s'effiloche.", "en": "Cook the meat with the onion, ginger-garlic paste and spices for three hours, until it shreds." },
+    { "fr": "Cuire blé, boulgour et légumineuses deux heures dans beaucoup d'eau, jusqu'à ce que tout se défasse.", "en": "Cook the wheat, bulgur and pulses for two hours in plenty of water, until everything collapses." },
+    { "fr": "Tout réunir et BATTRE au fouet ou au pilon pendant une heure, à feu très doux, sans s'arrêter longtemps.", "en": "Combine everything and BEAT with a whisk or pestle for an hour, over very low heat, without long pauses." },
+    { "fr": "Le haleem est prêt quand on ne distingue plus ni grain ni fibre de viande : c'est le battage qui décide.", "en": "Haleem is ready when neither grain nor meat fibre can be told apart: the beating decides it." },
+    { "fr": "Servir couvert de ghee brûlant, d'oignons frits, de gingembre cru et de citron.", "en": "Serve topped with scalding ghee, fried onions, raw ginger and lemon." }
+  ]
+}

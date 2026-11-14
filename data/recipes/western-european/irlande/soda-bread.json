@@ -1,0 +1,33 @@
+{
+  "slug": "soda-bread",
+  "cuisine": "western-european",
+  "country": "irlande",
+  "origin": "Irlande",
+  "native_name": "Soda bread",
+  "title": {
+    "fr": "Pain irlandais au bicarbonate",
+    "en": "Irish soda bread"
+  },
+  "meal_type": "bread",
+  "servings": 8,
+  "times": { "prep_min": 15, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["pain", "rapide", "sans-levure", "quotidien"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé" },
+    { "raw": "40 cl de lait fermenté", "qty": 40, "unit": "cl", "item": "lait fermenté" },
+    { "raw": "1 c. à s. de bicarbonate de soude", "qty": 1, "unit": "tbsp", "item": "bicarbonate de soude" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "80 g de flocons d'avoine", "qty": 80, "unit": "g", "item": "flocon d'avoine", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Ce pain n'a NI LEVURE NI PÉTRISSAGE : il est prêt à cuire cinq minutes après le premier geste.", "en": "This bread has NO YEAST and NO KNEADING: it is ready to bake five minutes after you start." },
+    { "fr": "L'acide du lait fermenté réagit avec le bicarbonate et dégage du gaz : voilà toute la levée.", "en": "The buttermilk's acid reacts with the bicarbonate and releases gas: that is the whole rise." },
+    { "fr": "Cette réaction commence IMMÉDIATEMENT : il faut enfourner sans attendre, sinon elle s'épuise.", "en": "That reaction starts IMMEDIATELY: bake at once, or it exhausts itself." },
+    { "fr": "Mélanger du bout des doigts, dix secondes : trop travaillée, la pâte devient dure et compacte.", "en": "Mix with your fingertips, ten seconds: overworked, the dough turns hard and dense." },
+    { "fr": "Former une miche ronde et INCISER UNE CROIX PROFONDE, jusqu'au milieu du pain.", "en": "Shape a round loaf and CUT A DEEP CROSS, down to the middle of the loaf." },
+    { "fr": "Cette croix n'est pas décorative : elle laisse la chaleur atteindre le cœur d'une miche dense.", "en": "That cross is not decorative: it lets heat reach the centre of a dense loaf." }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "anticuchos",
+  "cuisine": "latin-american",
+  "country": "perou",
+  "origin": "Pérou",
+  "native_name": "Anticuchos",
+  "title": {
+    "fr": "Brochettes marinées au panca",
+    "en": "Skewers marinated in panca chilli"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "brochette", "grill", "piment"],
+  "ingredients": [
+    { "raw": "1,2 kg de cœur de bœuf, en cubes", "qty": 1200, "unit": "g", "item": "boeuf à mijoter", "prep": "en cubes" },
+    { "raw": "6 piments ají panca", "qty": 6, "unit": "piece", "item": "ají panca" },
+    { "raw": "10 gousses d'ail", "qty": 10, "unit": "piece", "item": "ail" },
+    { "raw": "15 cl de vinaigre de vin", "qty": 15, "unit": "cl", "item": "vinaigre de vin" },
+    { "raw": "3 c. à s. de cumin moulu", "qty": 3, "unit": "tbsp", "item": "cumin" },
+    { "raw": "2 c. à s. d'origan séché", "qty": 2, "unit": "tbsp", "item": "origan séché" },
+    { "raw": "12 cl d'huile neutre", "qty": 12, "unit": "cl", "item": "huile neutre" },
+    { "raw": "800 g de pommes de terre", "qty": 800, "unit": "g", "item": "pomme de terre", "group": "service" },
+    { "raw": "300 g de maïs à pozole", "qty": 300, "unit": "g", "item": "hominy", "group": "service" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "L'AJÍ PANCA est un piment séché brun foncé, fumé et doux : il ne pique presque pas.", "en": "AJÍ PANCA is a dark brown dried chilli, smoky and mild: it barely stings." },
+    { "fr": "Le réhydrater vingt minutes dans l'eau chaude et le mixer avec l'ail et le vinaigre.", "en": "Rehydrate it for twenty minutes in hot water and blend it with the garlic and vinegar." },
+    { "fr": "Mariner la viande DOUZE HEURES minimum : le vinaigre attendrit ce muscle très ferme.", "en": "Marinate the meat for TWELVE HOURS minimum: the vinegar tenderises this very firm muscle." },
+    { "fr": "Enfiler les cubes SANS les serrer : serrés, les faces en contact cuisent à la vapeur.", "en": "Thread the cubes LOOSELY: packed tight, the touching faces steam." },
+    { "fr": "Griller à feu TRÈS vif, deux minutes par face : cuit longtemps, le cœur devient dur comme du bois.", "en": "Grill over VERY high heat, two minutes a side: cooked long, heart turns wood-hard." },
+    { "fr": "Badigeonner de marinade RÉSERVÉE pendant la cuisson, jamais de celle qui a touché la viande crue.", "en": "Baste with RESERVED marinade during cooking, never with what touched the raw meat." }
+  ]
+}

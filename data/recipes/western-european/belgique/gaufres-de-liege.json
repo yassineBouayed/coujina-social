@@ -1,0 +1,36 @@
+{
+  "slug": "gaufres-de-liege",
+  "cuisine": "western-european",
+  "country": "belgique",
+  "origin": "Belgique",
+  "native_name": "Luikse wafels",
+  "title": {
+    "fr": "Gaufres de Liège au sucre perlé",
+    "en": "Liège waffles with pearl sugar"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 40, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["liege", "gaufre", "levee", "rue"],
+  "ingredients": [
+    { "raw": "500 g de farine T45", "qty": 500, "unit": "g", "item": "farine T45" },
+    { "raw": "20 cl de lait entier, tiède", "qty": 20, "unit": "cl", "item": "lait entier", "prep": "tiède" },
+    { "raw": "14 g de levure boulangère sèche", "qty": 14, "unit": "g", "item": "levure boulangère" },
+    { "raw": "250 g de beurre, mou", "qty": 250, "unit": "g", "item": "beurre", "prep": "mou" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf" },
+    { "raw": "250 g de sucre perlé", "qty": 250, "unit": "g", "item": "sucre perlé" },
+    { "raw": "1 c. à s. d'extrait de vanille", "qty": 1, "unit": "tbsp", "item": "extrait de vanille" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "La gaufre de Liège est une PÂTE LEVÉE, pas une pâte à gaufre liquide : elle se pétrit comme une brioche.", "en": "A Liège waffle is a RISEN DOUGH, not a pourable batter: it is kneaded like a brioche." },
+    { "fr": "Le SUCRE PERLÉ ne se remplace pas : il fond en cuisant et forme la croûte caramélisée.", "en": "PEARL SUGAR cannot be replaced: it melts as it cooks and forms the caramelised crust." },
+    { "fr": "Du sucre ordinaire fondrait entièrement dans la pâte et il n'y aurait aucun croquant.", "en": "Ordinary sugar would dissolve entirely into the dough and there would be no crunch." },
+    { "fr": "Pétrir la pâte au beurre et la laisser lever DEUX HEURES : elle est très riche et lève lentement.", "en": "Knead the buttery dough and prove it for TWO HOURS: it is very rich and rises slowly." },
+    { "fr": "Incorporer le sucre perlé EN DERNIER, juste avant de cuire, sans trop mélanger.", "en": "Fold in the pearl sugar LAST, just before cooking, without overmixing." },
+    { "fr": "Cuire trois à quatre minutes au gaufrier, et NETTOYER les plaques entre chaque : le sucre brûle.", "en": "Cook for three to four minutes in the iron, and CLEAN the plates between each: the sugar burns." }
+  ]
+}

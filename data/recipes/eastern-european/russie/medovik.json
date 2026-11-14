@@ -1,0 +1,38 @@
+{
+  "slug": "medovik",
+  "cuisine": "eastern-european",
+  "country": "russie",
+  "origin": "Russie",
+  "native_name": "Медовик",
+  "title": {
+    "fr": "Medovik, gâteau au miel à la crème",
+    "en": "Medovik, honey layer cake"
+  },
+  "meal_type": "dessert",
+  "servings": 12,
+  "times": { "prep_min": 90, "cook_min": 40 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "miel", "couches", "classique"],
+  "ingredients": [
+    { "raw": "200 g de miel", "qty": 200, "unit": "g", "item": "miel", "group": "disques" },
+    { "raw": "150 g de beurre", "qty": 150, "unit": "g", "item": "beurre", "group": "disques" },
+    { "raw": "180 g de sucre", "qty": 180, "unit": "g", "item": "sucre", "group": "disques" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf", "group": "disques" },
+    { "raw": "550 g de farine de blé", "qty": 550, "unit": "g", "item": "farine de blé", "group": "disques" },
+    { "raw": "2 c. à c. de bicarbonate de soude", "qty": 2, "unit": "tsp", "item": "bicarbonate de soude", "group": "disques" },
+    { "raw": "800 g de crème fraîche", "qty": 800, "unit": "g", "item": "crème fraîche", "group": "crème" },
+    { "raw": "40 cl de crème liquide entière, très froide", "qty": 40, "unit": "cl", "item": "crème liquide", "prep": "très froide", "group": "crème" },
+    { "raw": "200 g de sucre glace", "qty": 200, "unit": "g", "item": "sucre glace", "group": "crème" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le medovik est fait de HUIT disques très fins, montés avec de la smetana entre chacun.", "en": "Medovik is built from EIGHT very thin discs, layered with smetana between each." },
+    { "fr": "Cuire miel, beurre, sucre et bicarbonate au bain-marie : le mélange MOUSSE et double de volume.", "en": "Cook the honey, butter, sugar and bicarbonate over a water bath: the mixture FOAMS and doubles." },
+    { "fr": "Cette réaction est ce qui donne au medovik sa couleur brun-doré et son goût de caramel.", "en": "That reaction gives medovik its golden-brown colour and caramel taste." },
+    { "fr": "Abaisser chaque disque à DEUX MILLIMÈTRES et le cuire quatre minutes à 180 °C.", "en": "Roll each disc to TWO MILLIMETRES and bake it for four minutes at 180°C." },
+    { "fr": "Découper les disques CHAUDS, à l'assiette : refroidis, ils cassent net.", "en": "Trim the discs HOT, around a plate: once cool, they snap." },
+    { "fr": "Monter le gâteau et le laisser DOUZE HEURES au frais : les disques ramollissent et deviennent moelleux.", "en": "Assemble the cake and leave it TWELVE HOURS in the fridge: the discs soften and turn tender." }
+  ]
+}

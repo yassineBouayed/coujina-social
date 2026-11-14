@@ -1,0 +1,42 @@
+{
+  "slug": "arancini",
+  "cuisine": "mediterranean",
+  "country": "italie",
+  "origin": "Italie",
+  "native_name": "Arancini",
+  "title": {
+    "fr": "Arancini, boulettes de risotto frites",
+    "en": "Arancini, fried risotto balls"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 50, "cook_min": 40 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["sicile", "friture", "restes", "rue"],
+  "ingredients": [
+    { "raw": "400 g de riz arborio", "qty": 400, "unit": "g", "item": "riz arborio" },
+    { "raw": "1 l de bouillon de volaille", "qty": 1, "unit": "l", "item": "bouillon volaille" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "100 g de parmesan, râpé", "qty": 100, "unit": "g", "item": "parmesan", "prep": "râpé" },
+    { "raw": "300 g de bœuf haché", "qty": 300, "unit": "g", "item": "boeuf haché", "group": "farce" },
+    { "raw": "150 g de petits pois surgelés", "qty": 150, "unit": "g", "item": "petits pois surgelés", "group": "farce" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate", "group": "farce" },
+    { "raw": "150 g de mozzarella, en dés", "qty": 150, "unit": "g", "item": "mozzarella", "prep": "en dés", "group": "farce" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf", "group": "panure" },
+    { "raw": "200 g de chapelure", "qty": 200, "unit": "g", "item": "panko", "group": "panure" },
+    { "raw": "100 g de farine de blé", "qty": 100, "unit": "g", "item": "farine de blé", "group": "panure" },
+    { "raw": "1,5 l d'huile neutre pour la friture", "qty": 1.5, "unit": "l", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le risotto doit être cuit LA VEILLE et refroidi : chaud, il est impossible à mouler.", "en": "The risotto must be cooked THE DAY BEFORE and chilled: warm, it cannot be shaped." },
+    { "fr": "Le cuire plus SERRÉ qu'un risotto ordinaire : il doit tenir seul en boule.", "en": "Cook it TIGHTER than an ordinary risotto: it must hold its shape unaided." },
+    { "fr": "Creuser une boule de riz dans la paume, y loger la farce et un dé de mozzarella.", "en": "Hollow a ball of rice in your palm, tuck in the filling and a cube of mozzarella." },
+    { "fr": "Refermer PARFAITEMENT : une fissure et la mozzarella s'échappe dans l'huile.", "en": "Seal it PERFECTLY: one crack and the mozzarella escapes into the oil." },
+    { "fr": "Passer farine, œuf, chapelure — et une SECONDE fois œuf et chapelure pour les gros arancini.", "en": "Coat in flour, egg, breadcrumbs — and a SECOND round of egg and crumbs for large arancini." },
+    { "fr": "Frire à 175 °C, six minutes, en les retournant : dorés uniformément, brûlants au cœur.", "en": "Fry at 175°C for six minutes, turning them: evenly golden, scalding in the middle." }
+  ]
+}

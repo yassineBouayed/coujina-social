@@ -1,0 +1,42 @@
+{
+  "slug": "arroz-con-pollo-peruvien",
+  "cuisine": "latin-american",
+  "country": "perou",
+  "origin": "Pérou",
+  "native_name": "Arroz con pollo",
+  "title": {
+    "fr": "Riz vert au poulet et à la coriandre",
+    "en": "Green rice with chicken and coriander"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["famille", "riz", "coriandre", "dimanche"],
+  "ingredients": [
+    { "raw": "1 poulet entier, découpé", "qty": 1, "unit": "piece", "item": "poulet entier", "prep": "découpé" },
+    { "raw": "500 g de riz long grain", "qty": 500, "unit": "g", "item": "riz long grain" },
+    { "raw": "2 gros bouquets de coriandre", "qty": 2, "unit": "bunch", "item": "coriandre fraîche" },
+    { "raw": "1 bouquet d'épinards", "qty": 200, "unit": "g", "item": "épinard" },
+    { "raw": "3 piments ají amarillo", "qty": 3, "unit": "piece", "item": "ají amarillo" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "6 gousses d'ail, hachées", "qty": 6, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "1 poivron rouge, en lanières", "qty": 1, "unit": "piece", "item": "poivron rouge", "prep": "en lanières" },
+    { "raw": "200 g de petits pois surgelés", "qty": 200, "unit": "g", "item": "petits pois surgelés" },
+    { "raw": "20 cl de bière blonde", "qty": 20, "unit": "cl", "item": "bière" },
+    { "raw": "80 cl de bouillon de volaille", "qty": 80, "unit": "cl", "item": "bouillon volaille" },
+    { "raw": "10 cl d'huile neutre", "qty": 10, "unit": "cl", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le riz est VERT : c'est la coriandre mixée qui le colore, pas un colorant ni un légume.", "en": "The rice is GREEN: blended coriander colours it, not a dye or a vegetable." },
+    { "fr": "Mixer la coriandre AVEC des épinards : ils fixent le vert et l'empêchent de virer au brun.", "en": "Blend the coriander WITH spinach: it fixes the green and stops it turning brown." },
+    { "fr": "Faire dorer le poulet, le réserver, et faire le sofrito d'oignon, ail et ají dans le même gras.", "en": "Brown the chicken, set it aside, and make the sofrito of onion, garlic and ají in the same fat." },
+    { "fr": "Nacrer le riz deux minutes, déglacer à la BIÈRE, puis ajouter la purée verte et le bouillon.", "en": "Toast the rice for two minutes, deglaze with BEER, then add the green purée and stock." },
+    { "fr": "Remettre le poulet, couvrir, et NE PLUS SOULEVER LE COUVERCLE pendant vingt-cinq minutes.", "en": "Return the chicken, cover, and DO NOT LIFT THE LID for twenty-five minutes." },
+    { "fr": "Laisser reposer dix minutes hors du feu avant d'aérer le riz à la fourchette.", "en": "Rest for ten minutes off the heat before fluffing the rice with a fork." }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "cafe-touba",
+  "cuisine": "west-african",
+  "country": "senegal",
+  "origin": "Sénégal",
+  "native_name": "Café Touba",
+  "title": {
+    "fr": "Café Touba au poivre de Selim",
+    "en": "Cafe Touba with Selim pepper"
+  },
+  "meal_type": "drink",
+  "servings": 6,
+  "times": { "prep_min": 10, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["cafe", "rue", "epice", "matin"],
+  "ingredients": [
+    { "raw": "100 g de café en grains", "qty": 100, "unit": "g", "item": "café" },
+    { "raw": "2 c. à s. de poivre de Selim", "qty": 2, "unit": "tbsp", "item": "poivre de Selim" },
+    { "raw": "4 clous de girofle", "qty": 4, "unit": "piece", "item": "clou de girofle", "optional": true },
+    { "raw": "120 g de sucre", "qty": 120, "unit": "g", "item": "sucre" },
+    { "raw": "1,2 l d'eau", "qty": 1.2, "unit": "l", "item": "eau" }
+  ],
+  "steps": [
+    { "fr": "Torréfier ensemble le café et le poivre de Selim à la poêle, dix minutes, jusqu'à ce qu'ils fument légèrement.", "en": "Roast the coffee and Selim pepper together in a pan for ten minutes, until they just begin to smoke." },
+    { "fr": "Les moudre finement ensemble : c'est ce mélange, et non un café aromatisé après coup, qui fait le Touba.", "en": "Grind them finely together: it is this blend, not coffee flavoured afterwards, that makes Touba." },
+    { "fr": "Verser l'eau bouillante sur la mouture et laisser infuser cinq minutes.", "en": "Pour boiling water over the grounds and steep for five minutes." },
+    { "fr": "Filtrer à travers un tissu fin, deux fois si nécessaire.", "en": "Strain through fine cloth, twice if needed." },
+    { "fr": "Sucrer généreusement : le café Touba se boit très sucré, la sucrosité équilibrant le poivre.", "en": "Sweeten generously: Touba coffee is drunk very sweet, the sugar balancing the pepper." },
+    { "fr": "Servir brûlant, en petits verres.", "en": "Serve scalding, in small glasses." }
+  ]
+}

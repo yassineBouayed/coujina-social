@@ -1,0 +1,37 @@
+{
+  "slug": "pisang-goreng",
+  "cuisine": "southeast-asian",
+  "country": "indonesie",
+  "origin": "Indonésie",
+  "native_name": "Pisang goreng",
+  "title": {
+    "fr": "Pisang goreng, bananes frites croustillantes",
+    "en": "Pisang goreng, crisp fried bananas"
+  },
+  "meal_type": "dessert",
+  "servings": 5,
+  "times": { "prep_min": 15, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "friture", "banane", "gouter"],
+  "ingredients": [
+    { "raw": "8 bananes plantain mûres", "qty": 8, "unit": "piece", "item": "banane plantain" },
+    { "raw": "150 g de farine de blé", "qty": 150, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "80 g de farine de riz", "qty": 80, "unit": "g", "item": "farine de riz", "group": "pâte" },
+    { "raw": "1 c. à c. de levure chimique", "qty": 1, "unit": "tsp", "item": "levure chimique", "group": "pâte" },
+    { "raw": "25 cl d'eau glacée", "qty": 25, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "2 c. à s. de sucre", "qty": 2, "unit": "tbsp", "item": "sucre", "group": "pâte" },
+    { "raw": "1 l d'huile neutre pour la friture", "qty": 1, "unit": "l", "item": "huile neutre" },
+    { "raw": "4 c. à s. de lait concentré sucré", "qty": 4, "unit": "tbsp", "item": "lait concentré sucré", "optional": true, "group": "service" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "La farine de riz est ce qui rend la pâte croustillante : à la farine de blé seule, elle ramollit.", "en": "Rice flour is what makes the batter crisp: with wheat flour alone, it goes soft." },
+    { "fr": "Fouetter la pâte à l'eau GLACÉE, sans trop travailler : les grumeaux ne gênent pas.", "en": "Whisk the batter with ICED water, without overworking it: lumps do not matter." },
+    { "fr": "Choisir des plantains bien mûrs, tachetés de noir : verts, ils restent farineux et fades.", "en": "Choose very ripe plantains, spotted black: green, they stay starchy and bland." },
+    { "fr": "Les fendre en éventail sans les traverser, pour qu'ils s'ouvrent en friture.", "en": "Split them into a fan without cutting through, so they open out as they fry." },
+    { "fr": "Frire à 175 °C, trois minutes par face, jusqu'à une couleur dorée soutenue.", "en": "Fry at 175°C, three minutes a side, to a deep gold." },
+    { "fr": "Égoutter debout et manger dans les cinq minutes, arrosés de lait concentré si l'on veut.", "en": "Drain them upright and eat within five minutes, drizzled with condensed milk if you like." }
+  ]
+}

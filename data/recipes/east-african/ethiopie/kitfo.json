@@ -1,0 +1,38 @@
+{
+  "slug": "kitfo",
+  "cuisine": "east-african",
+  "country": "ethiopie",
+  "origin": "Éthiopie",
+  "native_name": "Kitfo",
+  "title": {
+    "fr": "Kitfo, bœuf haché cru au mitmita",
+    "en": "Kitfo, raw minced beef with mitmita"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 5 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["cru", "gurage", "fete", "mitmita"],
+  "ingredients": [
+    { "raw": "600 g de steak de bœuf, haché au couteau", "qty": 600, "unit": "g", "item": "steak de bœuf", "prep": "haché au couteau" },
+    { "raw": "120 g de niter kibbeh", "qty": 120, "unit": "g", "item": "beurre", "prep": "clarifié aux épices" },
+    { "raw": "2 c. à s. de mitmita", "qty": 2, "unit": "tbsp", "item": "mitmita" },
+    { "raw": "1/2 c. à c. de cardamome moulue", "qty": 0.5, "unit": "tsp", "item": "cardamome", "prep": "moulue" },
+    { "raw": "200 g d'ayib", "qty": 200, "unit": "g", "item": "ricotta", "group": "service" },
+    { "raw": "400 g de chou frisé, cuit", "qty": 400, "unit": "g", "item": "chou frisé", "prep": "cuit", "group": "service" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Choisir une pièce de bœuf entière et très fraîche, achetée le jour même chez un boucher prévenu de l'usage cru.", "en": "Choose a whole, very fresh cut of beef, bought the same day from a butcher told it will be eaten raw." },
+    { "fr": "La hacher au couteau, finement, en retirant tout le gras et les nerfs.", "en": "Chop it finely with a knife, removing all fat and sinew." },
+    { "fr": "Faire fondre le niter kibbeh et le laisser tiédir : brûlant, il cuirait la viande.", "en": "Melt the niter kibbeh and let it cool: scalding, it would cook the meat." },
+    { "fr": "Mélanger la viande, le beurre tiède, le mitmita, la cardamome et le sel, à la main.", "en": "Mix the meat, warm butter, mitmita, cardamom and salt by hand." },
+    { "fr": "Servir aussitôt, tiède, avec l'ayib et le gomen à côté.", "en": "Serve at once, warm, with ayib and gomen alongside." },
+    { "fr": "Pour un kitfo leb leb, saisir trente secondes à la poêle : la surface blanchit, le cœur reste rouge.", "en": "For kitfo leb leb, sear it for thirty seconds: the surface pales, the centre stays red." }
+  ],
+  "notes": [
+    { "fr": "Plat de viande crue : à éviter pour les personnes enceintes, âgées ou immunodéprimées. La version leb leb est le compromis courant.", "en": "A raw meat dish: not for pregnant, elderly or immunocompromised eaters. The leb leb version is the usual compromise." }
+  ]
+}

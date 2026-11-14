@@ -1,0 +1,48 @@
+{
+  "slug": "rfissa",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Rfissa",
+  "title": {
+    "fr": "Rfissa au poulet, lentilles et fenugrec",
+    "en": "Rfissa, chicken with lentils and fenugreek"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 80 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j2-sonde-v1", "date": "2026-08-28" },
+  "tags": ["poulet", "msemen", "fenugrec", "emblematique"],
+  "ingredients": [
+    { "raw": "1 poulet de 1,4 kg, coupé en quatre", "qty": 1.4, "unit": "kg", "item": "poulet", "prep": "coupé en quatre" },
+    { "raw": "6 msemen rassis, déchirés à la main", "qty": 6, "unit": "piece", "item": "msemen", "prep": "déchiré à la main", "substitutes": [{ "item": "pain rassis", "note": "il boit moins bien la sauce et ne fond pas de la même façon" }] },
+    { "raw": "200 g de lentilles vertes", "qty": 200, "unit": "g", "item": "lentille verte" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "2 c. à s. de graines de fenugrec", "qty": 2, "unit": "tbsp", "item": "fenugrec", "prep": "trempées à l'eau tiède" },
+    { "raw": "1 c. à s. de ras el-hanout", "qty": 1, "unit": "tbsp", "item": "ras el-hanout" },
+    { "raw": "1 c. à c. de gingembre moulu", "qty": 1, "unit": "tsp", "item": "gingembre moulu" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "1/2 c. à c. de poivre noir", "qty": 0.5, "unit": "tsp", "item": "poivre noir" },
+    { "raw": "4 c. à s. d'huile d'olive", "qty": 4, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "1 c. à s. de smen", "qty": 1, "unit": "tbsp", "item": "smen", "optional": true },
+    { "raw": "1 bouquet de coriandre fraîche", "qty": 1, "unit": "bunch", "item": "coriandre fraîche" },
+    { "raw": "1 bouquet de persil plat", "qty": 1, "unit": "bunch", "item": "persil plat" },
+    { "raw": "1,2 l d'eau", "qty": 1.2, "unit": "l", "item": "eau" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire tremper le fenugrec dans de l'eau tiède une heure, puis l'égoutter : c'est ce qui enlève une partie de son amertume.", "en": "Soak the fenugreek in warm water for an hour, then drain: this is what takes some of its bitterness away." },
+    { "fr": "Faire revenir le poulet avec les oignons, toutes les épices et l'huile jusqu'à coloration.", "en": "Brown the chicken with the onions, all the spices and the oil." },
+    { "fr": "Mouiller à l'eau, ajouter les lentilles, le fenugrec et les herbes ficelées. Couvrir et cuire 50 minutes.", "en": "Add the water, the lentils, the fenugreek and the tied herbs. Cover and cook for 50 minutes." },
+    { "fr": "Retirer le poulet quand il est cuit, le tenir au chaud, et laisser la sauce réduire jusqu'à ce qu'elle soit courte et parfumée.", "en": "Lift out the chicken when it is done, keep it warm, and reduce the sauce until it is short and fragrant." },
+    { "fr": "Déchirer les msemen à la main et les passer dix minutes à la vapeur, au-dessus du bouillon.", "en": "Tear the msemen by hand and steam them for ten minutes over the broth." },
+    { "fr": "Dresser les msemen en couche épaisse dans un grand plat, les imbiber de bouillon jusqu'à ce qu'ils soient souples sans être noyés.", "en": "Spread the msemen in a thick layer on a large dish and soak them with broth until supple but not drowned." },
+    { "fr": "Poser le poulet au centre, verser les lentilles et le fenugrec autour, terminer par le smen fondu.", "en": "Set the chicken in the middle, pour the lentils and fenugreek around it and finish with the melted smen." }
+  ],
+  "notes": [
+    { "fr": "La rfissa se mange à la main, à même le plat, dans l'heure : imbibée trop tôt, elle tourne à la panade.", "en": "Rfissa is eaten by hand, straight from the dish, within the hour: soaked too early it turns to mush." }
+  ]
+}

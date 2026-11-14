@@ -1,0 +1,40 @@
+{
+  "slug": "beef-bhuna",
+  "cuisine": "south-asian",
+  "country": "bangladesh",
+  "origin": "Bangladesh",
+  "native_name": "Beef bhuna",
+  "title": {
+    "fr": "Bœuf bhuna, ragoût réduit à sec",
+    "en": "Beef bhuna, stew reduced to a dry sauce"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 120 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["aid", "boeuf", "sec", "fete"],
+  "ingredients": [
+    { "raw": "1,2 kg de bœuf à mijoter, en cubes", "qty": 1200, "unit": "g", "item": "boeuf à mijoter", "prep": "en cubes" },
+    { "raw": "4 oignons, émincés", "qty": 4, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "3 c. à s. de pâte gingembre-ail", "qty": 3, "unit": "tbsp", "item": "pâte gingembre-ail" },
+    { "raw": "2 c. à c. de curcuma", "qty": 2, "unit": "tsp", "item": "curcuma" },
+    { "raw": "2 c. à s. de piment kashmiri", "qty": 2, "unit": "tbsp", "item": "piment kashmiri" },
+    { "raw": "1 c. à s. de coriandre en graines, moulue", "qty": 1, "unit": "tbsp", "item": "coriandre graines", "prep": "moulue" },
+    { "raw": "1 c. à s. de garam masala", "qty": 1, "unit": "tbsp", "item": "garam masala" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "4 gousses de cardamome", "qty": 4, "unit": "piece", "item": "cardamome" },
+    { "raw": "12 cl d'huile de moutarde", "qty": 12, "unit": "cl", "item": "huile de moutarde" },
+    { "raw": "4 piments verts, fendus", "qty": 4, "unit": "piece", "item": "piment frais", "prep": "fendu" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Bhuna désigne la technique : faire revenir longuement jusqu'à ce que la sauce disparaisse et enrobe.", "en": "Bhuna names the technique: frying at length until the sauce vanishes and clings to the meat." },
+    { "fr": "Faire brunir les oignons dans l'huile de moutarde chauffée puis refroidie, vingt minutes.", "en": "Brown the onions in the mustard oil, heated then cooled, for twenty minutes." },
+    { "fr": "Ajouter pâte gingembre-ail, épices délayées et viande, et cuire à couvert une heure.", "en": "Add the ginger-garlic paste, slaked spices and meat, and cook covered for an hour." },
+    { "fr": "Découvrir et poursuivre quarante minutes à feu moyen, en remuant régulièrement.", "en": "Uncover and continue for forty minutes over medium heat, stirring regularly." },
+    { "fr": "L'eau doit s'évaporer TOTALEMENT : le bhuna se sert sans une goutte de sauce libre.", "en": "The water must evaporate COMPLETELY: bhuna is served with not a drop of free sauce." },
+    { "fr": "Finir aux piments verts fendus et au garam masala, hors du feu.", "en": "Finish with split green chillies and garam masala, off the heat." }
+  ]
+}

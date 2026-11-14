@@ -1,0 +1,40 @@
+{
+  "slug": "shui-zhu-yu",
+  "cuisine": "east-asian",
+  "country": "chine",
+  "origin": "Chine",
+  "native_name": "水煮鱼",
+  "title": {
+    "fr": "Poisson bouilli à l'huile pimentée",
+    "en": "Boiled fish in chilli oil"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 20 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["sichuan", "poisson", "mala", "fete"],
+  "ingredients": [
+    { "raw": "800 g de filets de cabillaud, en larges tranches", "qty": 800, "unit": "g", "item": "cabillaud", "prep": "en larges tranches" },
+    { "raw": "1 blanc d'œuf", "qty": 1, "unit": "piece", "item": "oeuf", "group": "marinade" },
+    { "raw": "2 c. à s. de maïzena", "qty": 2, "unit": "tbsp", "item": "maïzena", "group": "marinade" },
+    { "raw": "2 c. à s. de vin de riz", "qty": 2, "unit": "tbsp", "item": "vin de riz", "group": "marinade" },
+    { "raw": "300 g de germes de soja", "qty": 300, "unit": "g", "item": "germes de soja" },
+    { "raw": "3 c. à s. de doubanjiang", "qty": 3, "unit": "tbsp", "item": "doubanjiang" },
+    { "raw": "30 piments séchés", "qty": 30, "unit": "piece", "item": "piment séché" },
+    { "raw": "3 c. à s. de poivre de Sichuan", "qty": 3, "unit": "tbsp", "item": "poivre de Sichuan" },
+    { "raw": "8 gousses d'ail, hachées", "qty": 8, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "20 cl d'huile neutre", "qty": 20, "unit": "cl", "item": "huile neutre" },
+    { "raw": "75 cl de bouillon de volaille", "qty": 75, "unit": "cl", "item": "bouillon volaille" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Mariner les tranches de poisson dans le blanc d'œuf, la maïzena et le vin de riz, vingt minutes.", "en": "Marinate the fish slices in the egg white, cornflour and rice wine for twenty minutes." },
+    { "fr": "Blanchir les germes de soja une minute et les disposer au fond d'un grand bol.", "en": "Blanch the bean sprouts for a minute and lay them in the base of a large bowl." },
+    { "fr": "Cuire le doubanjiang dans un peu d'huile, ajouter le bouillon, et POCHER le poisson trois minutes.", "en": "Cook the doubanjiang in a little oil, add the stock, and POACH the fish for three minutes." },
+    { "fr": "Le poisson est POCHÉ, jamais bouilli : à gros bouillons, les tranches se défont en charpie.", "en": "The fish is POACHED, never boiled: at a rolling boil, the slices fall apart." },
+    { "fr": "Verser poisson et bouillon sur les germes, et couvrir de piments et de poivre de Sichuan.", "en": "Pour the fish and broth over the sprouts, and cover with chillies and Sichuan pepper." },
+    { "fr": "Chauffer l'huile jusqu'à ce qu'elle fume et la verser d'un coup sur les épices : cela doit grésiller fort.", "en": "Heat the oil until it smokes and pour it over the spices all at once: it should hiss loudly." }
+  ]
+}

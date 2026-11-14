@@ -1,0 +1,33 @@
+{
+  "slug": "idiyappam",
+  "cuisine": "south-asian",
+  "country": "sri-lanka",
+  "origin": "Sri Lanka",
+  "native_name": "Idiyappam",
+  "title": {
+    "fr": "Idiyappam, nids de vermicelles de riz vapeur",
+    "en": "Idiyappam, steamed rice noodle nests"
+  },
+  "meal_type": "bread",
+  "servings": 6,
+  "times": { "prep_min": 35, "cook_min": 20 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["petit-dejeuner", "vapeur", "riz", "coco"],
+  "ingredients": [
+    { "raw": "500 g de farine de riz", "qty": 500, "unit": "g", "item": "farine de riz" },
+    { "raw": "45 cl d'eau bouillante", "qty": 45, "unit": "cl", "item": "eau" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "100 g de coco râpé", "qty": 100, "unit": "g", "item": "coco râpé", "optional": true },
+    { "raw": "2 c. à s. d'huile de coco", "qty": 2, "unit": "tbsp", "item": "huile de coco" }
+  ],
+  "steps": [
+    { "fr": "Griller la farine de riz à sec cinq minutes, en remuant : cela empêche les nids de coller.", "en": "Toast the rice flour dry for five minutes, stirring: this stops the nests sticking." },
+    { "fr": "Verser l'eau BOUILLANTE d'un coup sur la farine et mélanger à la cuillère.", "en": "Pour the BOILING water onto the flour all at once and mix with a spoon." },
+    { "fr": "L'eau doit être bouillante, pas tiède : c'est elle qui gélatinise l'amidon et rend la pâte extrudable.", "en": "The water must be boiling, not warm: it gelatinises the starch and makes the dough extrudable." },
+    { "fr": "Pétrir dès que la pâte est manipulable, jusqu'à ce qu'elle soit lisse et souple.", "en": "Knead as soon as the dough can be handled, until smooth and pliable." },
+    { "fr": "Extruder en spirales serrées sur des petits paniers vapeur huilés, en formant des nids.", "en": "Extrude in tight spirals onto oiled steamer trays, forming nests." },
+    { "fr": "Cuire dix minutes à la vapeur, et parsemer de coco râpé. Servir avec un curry liquide.", "en": "Steam for ten minutes, and scatter with grated coconut. Serve with a loose curry." }
+  ]
+}

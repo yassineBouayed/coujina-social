@@ -1,0 +1,38 @@
+{
+  "slug": "risotto-milanese",
+  "cuisine": "mediterranean",
+  "country": "italie",
+  "origin": "Italie",
+  "native_name": "Risotto alla milanese",
+  "title": {
+    "fr": "Risotto milanais au safran",
+    "en": "Saffron risotto alla milanese"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["milan", "safran", "riz", "technique"],
+  "ingredients": [
+    { "raw": "350 g de riz arborio", "qty": 350, "unit": "g", "item": "riz arborio" },
+    { "raw": "1,2 l de bouillon de volaille", "qty": 1.2, "unit": "l", "item": "bouillon volaille" },
+    { "raw": "1 grosse pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "1 oignon, haché très finement", "qty": 1, "unit": "piece", "item": "oignon", "prep": "haché très finement" },
+    { "raw": "12 cl de vin blanc sec", "qty": 12, "unit": "cl", "item": "vin blanc" },
+    { "raw": "120 g de beurre", "qty": 120, "unit": "g", "item": "beurre" },
+    { "raw": "120 g de parmesan, râpé", "qty": 120, "unit": "g", "item": "parmesan", "prep": "râpé" },
+    { "raw": "50 g de moelle de bœuf", "qty": 50, "unit": "g", "item": "os à moelle", "prep": "moelle prélevée", "optional": true },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le bouillon doit être BOUILLANT tout du long : versé froid, il stoppe la cuisson et le riz durcit.", "en": "The stock must be BOILING throughout: added cold, it halts the cooking and the rice toughens." },
+    { "fr": "Faire nacrer le riz À SEC deux minutes dans le beurre : les grains doivent devenir translucides aux bords.", "en": "Toast the rice DRY for two minutes in butter: the grains should turn translucent at the edges." },
+    { "fr": "Déglacer au vin blanc et le laisser s'évaporer complètement avant la première louche.", "en": "Deglaze with white wine and let it evaporate entirely before the first ladle." },
+    { "fr": "Ajouter le bouillon LOUCHE PAR LOUCHE, en remuant, et attendre l'absorption entre chaque.", "en": "Add the stock LADLE BY LADLE, stirring, waiting for absorption between each." },
+    { "fr": "Ajouter le safran infusé aux DEUX TIERS de la cuisson : trop tôt, il perd son parfum.", "en": "Add the steeped saffron TWO-THIRDS of the way through: added earlier, it loses its scent." },
+    { "fr": "Faire la mantecatura hors du feu : beurre FROID et parmesan, battus vigoureusement.", "en": "Do the mantecatura off the heat: COLD butter and parmesan, beaten in vigorously." }
+  ]
+}

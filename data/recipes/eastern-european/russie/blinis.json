@@ -1,0 +1,38 @@
+{
+  "slug": "blinis",
+  "cuisine": "eastern-european",
+  "country": "russie",
+  "origin": "Russie",
+  "native_name": "Блины",
+  "title": {
+    "fr": "Blinis au sarrasin",
+    "en": "Buckwheat blini"
+  },
+  "meal_type": "starter",
+  "servings": 8,
+  "times": { "prep_min": 30, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["maslenitsa", "sarrasin", "fete", "crepe"],
+  "ingredients": [
+    { "raw": "200 g de farine de sarrasin", "qty": 200, "unit": "g", "item": "farine de sarrasin" },
+    { "raw": "200 g de farine de blé", "qty": 200, "unit": "g", "item": "farine de blé" },
+    { "raw": "60 cl de lait entier, tiède", "qty": 60, "unit": "cl", "item": "lait entier", "prep": "tiède" },
+    { "raw": "10 g de levure boulangère sèche", "qty": 10, "unit": "g", "item": "levure boulangère" },
+    { "raw": "3 œufs, blancs et jaunes séparés", "qty": 3, "unit": "piece", "item": "oeuf", "prep": "séparés" },
+    { "raw": "80 g de beurre, fondu", "qty": 80, "unit": "g", "item": "beurre", "prep": "fondu" },
+    { "raw": "25 cl de crème fraîche", "qty": 25, "unit": "cl", "item": "crème fraîche", "group": "service" },
+    { "raw": "200 g de saumon fumé", "qty": 200, "unit": "g", "item": "saumon fumé", "group": "service" },
+    { "raw": "1/2 bouquet d'aneth, ciselé", "qty": 0.5, "unit": "bunch", "item": "aneth", "prep": "ciselé", "group": "service" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Les vrais blinis sont LEVÉS à la levure de boulanger : ce sont des petits pains, pas des crêpes.", "en": "Real blini are RAISED with baker's yeast: they are small breads, not pancakes." },
+    { "fr": "Faire une première pâte au sarrasin seul et la laisser lever DEUX HEURES.", "en": "Make a first batter with buckwheat alone and let it prove for TWO HOURS." },
+    { "fr": "Ajouter la farine de blé et laisser lever encore une heure : c'est la méthode en deux temps.", "en": "Add the wheat flour and prove for another hour: the two-stage method." },
+    { "fr": "Le sarrasin n'a pas de gluten : sans blé, les blinis se déchirent en les retournant.", "en": "Buckwheat has no gluten: without wheat, blini tear when turned." },
+    { "fr": "Monter les blancs et les incorporer JUSTE avant de cuire, à la maryse.", "en": "Whip the whites and fold them in JUST before cooking, with a spatula." },
+    { "fr": "Cuire des blinis de huit centimètres, deux minutes par face, sur une poêle bien beurrée.", "en": "Cook eight-centimetre blini, two minutes a side, on a well-buttered pan." }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "buchteln",
+  "cuisine": "western-european",
+  "country": "autriche",
+  "origin": "Autriche",
+  "native_name": "Buchteln",
+  "title": {
+    "fr": "Buchteln, brioches fourrées à la confiture",
+    "en": "Buchteln, jam-filled sweet buns"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 45, "cook_min": 35 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["vienne", "brioche", "confiture", "gouter"],
+  "ingredients": [
+    { "raw": "500 g de farine T45", "qty": 500, "unit": "g", "item": "farine T45" },
+    { "raw": "25 cl de lait entier, tiède", "qty": 25, "unit": "cl", "item": "lait entier", "prep": "tiède" },
+    { "raw": "14 g de levure boulangère sèche", "qty": 14, "unit": "g", "item": "levure boulangère" },
+    { "raw": "100 g de beurre, mou", "qty": 100, "unit": "g", "item": "beurre", "prep": "mou" },
+    { "raw": "80 g de sucre", "qty": 80, "unit": "g", "item": "sucre" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf" },
+    { "raw": "300 g de confiture de prune", "qty": 300, "unit": "g", "item": "confiture" },
+    { "raw": "100 g de beurre, fondu", "qty": 100, "unit": "g", "item": "beurre", "prep": "fondu" },
+    { "raw": "1 citron, son zeste", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "80 g de sucre glace", "qty": 80, "unit": "g", "item": "sucre glace", "group": "finition" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Les buchteln se cuisent SERRÉS dans le plat : ils se soudent en levant et restent moelleux.", "en": "Buchteln are baked PACKED TIGHT in the dish: they fuse as they rise and stay soft." },
+    { "fr": "Chaque boule est TREMPÉE dans le beurre fondu avant d'être posée dans le plat.", "en": "Each ball is DIPPED in melted butter before it goes into the dish." },
+    { "fr": "C'est ce beurre entre les boules qui permet de les détacher à la main, en fin de cuisson.", "en": "That butter between the balls is what lets you pull them apart by hand afterwards." },
+    { "fr": "Ne mettre qu'une PETITE cuillère de confiture : trop, elle s'échappe et brûle au fond.", "en": "Use only a SMALL spoon of jam: too much and it escapes and burns on the base." },
+    { "fr": "Souder les boules soigneusement et les poser SOUDURE VERS LE BAS.", "en": "Seal each ball carefully and set them SEAM DOWN." },
+    { "fr": "Laisser lever une heure dans le plat, puis cuire 35 minutes à 180 °C.", "en": "Prove for an hour in the dish, then bake for 35 minutes at 180°C." }
+  ]
+}

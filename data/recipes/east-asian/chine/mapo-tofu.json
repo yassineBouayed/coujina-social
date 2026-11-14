@@ -1,0 +1,43 @@
+{
+  "slug": "mapo-tofu",
+  "cuisine": "east-asian",
+  "country": "chine",
+  "origin": "Chine",
+  "native_name": "麻婆豆腐",
+  "title": {
+    "fr": "Mapo tofu, tofu au bœuf et à la pâte de fève",
+    "en": "Mapo tofu, tofu with beef and fermented bean paste"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["sichuan", "tofu", "mala", "rapide"],
+  "ingredients": [
+    { "raw": "600 g de tofu soyeux, en cubes", "qty": 600, "unit": "g", "item": "tofu soyeux", "prep": "en cubes" },
+    { "raw": "200 g de bœuf haché", "qty": 200, "unit": "g", "item": "boeuf haché" },
+    { "raw": "2 c. à s. de doubanjiang", "qty": 2, "unit": "tbsp", "item": "doubanjiang" },
+    { "raw": "1 c. à s. de poivre de Sichuan, moulu", "qty": 1, "unit": "tbsp", "item": "poivre de Sichuan", "prep": "moulu" },
+    { "raw": "1 c. à s. de piment en poudre", "qty": 1, "unit": "tbsp", "item": "piment en poudre" },
+    { "raw": "4 gousses d'ail, hachées", "qty": 4, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "1 c. à s. de gingembre frais, haché", "qty": 1, "unit": "tbsp", "item": "gingembre", "prep": "haché" },
+    { "raw": "4 oignons nouveaux, ciselés", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé" },
+    { "raw": "2 c. à s. de sauce soja", "qty": 2, "unit": "tbsp", "item": "sauce soja" },
+    { "raw": "25 cl de bouillon de volaille", "qty": 25, "unit": "cl", "item": "bouillon volaille" },
+    { "raw": "2 c. à s. de maïzena", "qty": 2, "unit": "tbsp", "item": "maïzena" },
+    { "raw": "6 c. à s. d'huile neutre", "qty": 6, "unit": "tbsp", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Faire tremper les cubes de tofu dix minutes dans de l'eau salée frémissante : ils tiennent alors bien mieux.", "en": "Soak the tofu cubes for ten minutes in simmering salted water: they hold together far better afterwards." },
+    { "fr": "Faire revenir la viande à feu vif jusqu'à ce qu'elle soit sèche et croustillante.", "en": "Fry the meat over high heat until dry and crisp." },
+    { "fr": "Ajouter le doubanjiang et le cuire UNE MINUTE dans l'huile, jusqu'à ce qu'elle rougisse.", "en": "Add the doubanjiang and cook it for ONE MINUTE in the oil, until the oil turns red." },
+    { "fr": "Cette huile rouge est le plat : le doubanjiang cru reste plat et salé.", "en": "That red oil is the dish: raw doubanjiang stays flat and salty." },
+    { "fr": "Ajouter ail, gingembre, bouillon et sauce soja, puis le tofu, en le poussant à la spatule sans remuer.", "en": "Add the garlic, ginger, stock and soy, then the tofu, pushing it with a spatula rather than stirring." },
+    { "fr": "Lier à la maïzena en trois fois, et finir au poivre de Sichuan moulu HORS DU FEU.", "en": "Thicken with the cornflour in three additions, and finish with ground Sichuan pepper OFF THE HEAT." }
+  ],
+  "notes": [
+    { "fr": "Le poivre de Sichuan engourdit la bouche : c'est le « ma » de mala, et il disparaît s'il cuit.", "en": "Sichuan pepper numbs the mouth: it is the \"ma\" of mala, and it vanishes if cooked." }
+  ]
+}

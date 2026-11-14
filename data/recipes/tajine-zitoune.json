@@ -1,0 +1,47 @@
+{
+  "slug": "tajine-zitoune",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Tajine zitoune",
+  "title": {
+    "fr": "Tajine de poulet aux olives et au citron confit",
+    "en": "Chicken tagine with olives and preserved lemon"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 65 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j2-sonde-v1", "date": "2026-08-28" },
+  "tags": ["tajine", "poulet", "citron-confit", "plat-unique"],
+  "ingredients": [
+    { "raw": "1 poulet fermier d'environ 1,2 kg, coupé en morceaux", "qty": 1.2, "unit": "kg", "item": "poulet", "prep": "coupé en morceaux" },
+    { "raw": "2 gros oignons, émincés finement", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé finement" },
+    { "raw": "4 gousses d'ail, écrasées", "qty": 4, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 c. à c. de gingembre moulu", "qty": 1, "unit": "tsp", "item": "gingembre moulu" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "1 belle pincée de pistils de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "1/2 c. à c. de poivre noir fraîchement moulu", "qty": 0.5, "unit": "tsp", "item": "poivre noir", "prep": "fraîchement moulu" },
+    { "raw": "4 c. à s. d'huile d'olive", "qty": 4, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "1 c. à s. de smen", "qty": 1, "unit": "tbsp", "item": "smen", "optional": true, "substitutes": [{ "item": "beurre", "note": "on perd le fond fermenté qui fait le goût du tajine ancien" }] },
+    { "raw": "1 bouquet de coriandre fraîche", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ficelé en bouquet" },
+    { "raw": "1/2 bouquet de persil plat", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ficelé en bouquet" },
+    { "raw": "200 g d'olives vertes, dénoyautées", "qty": 200, "unit": "g", "item": "olive verte", "prep": "dénoyautée" },
+    { "raw": "1 citron confit, coupé en quartiers", "qty": 1, "unit": "piece", "item": "citron confit", "prep": "coupé en quartiers" },
+    { "raw": "25 cl d'eau", "qty": 25, "unit": "cl", "item": "eau" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Mélanger le poulet avec l'ail, le gingembre, le curcuma, le poivre, le safran écrasé entre les doigts, l'huile d'olive et une bonne pincée de sel. Laisser prendre 20 minutes.", "en": "Toss the chicken with the garlic, ginger, turmeric, pepper, saffron crushed between your fingers, olive oil and a good pinch of salt. Let it sit for 20 minutes." },
+    { "fr": "Étaler les oignons au fond du tajine ou d'une cocotte, poser le poulet dessus avec toute sa marinade.", "en": "Spread the onions over the base of the tagine or a heavy pot and lay the chicken on top with all its marinade." },
+    { "fr": "Ajouter l'eau et les bouquets de coriandre et de persil ficelés ensemble. Couvrir et laisser mijoter 45 minutes à feu doux, en retournant le poulet à mi-cuisson.", "en": "Add the water and the coriander and parsley tied together in a bundle. Cover and simmer gently for 45 minutes, turning the chicken halfway." },
+    { "fr": "Ébouillanter les olives une minute pour retirer leur amertume, les égoutter.", "en": "Blanch the olives for a minute to take off their bitterness, then drain." },
+    { "fr": "Retirer les bouquets d'herbes. Ajouter les olives, les quartiers de citron confit et le smen. Poursuivre 15 minutes à découvert pour réduire la sauce.", "en": "Remove the herb bundles. Add the olives, the preserved lemon quarters and the smen. Cook uncovered for a further 15 minutes to reduce the sauce." },
+    { "fr": "Goûter et saler seulement maintenant : le citron confit et les olives ont déjà beaucoup salé.", "en": "Taste and season only now: the preserved lemon and olives have already salted the dish considerably." },
+    { "fr": "Servir dans le plat de cuisson, avec du pain pour la sauce.", "en": "Serve in the cooking dish, with bread for the sauce." }
+  ],
+  "notes": [
+    { "fr": "La sauce doit napper, jamais bouillir fort : un tajine se conduit à feu doux du début à la fin.", "en": "The sauce should coat, never boil hard: a tagine is run on low heat from start to finish." }
+  ]
+}

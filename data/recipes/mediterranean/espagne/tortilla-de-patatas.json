@@ -1,0 +1,34 @@
+{
+  "slug": "tortilla-de-patatas",
+  "cuisine": "mediterranean",
+  "country": "espagne",
+  "origin": "Espagne",
+  "native_name": "Tortilla de patatas",
+  "title": {
+    "fr": "Tortilla de pommes de terre",
+    "en": "Spanish potato tortilla"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 40 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["tapas", "oeuf", "pomme-de-terre", "quotidien"],
+  "ingredients": [
+    { "raw": "1 kg de pommes de terre, en fines tranches", "qty": 1000, "unit": "g", "item": "pomme de terre", "prep": "en fines tranches" },
+    { "raw": "8 œufs", "qty": 8, "unit": "piece", "item": "oeuf" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "50 cl d'huile d'olive", "qty": 50, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Les pommes de terre sont CONFITES dans l'huile, pas frites : à 130 °C, elles fondent sans dorer.", "en": "The potatoes are CONFIT in oil, not fried: at 130°C, they melt without browning." },
+    { "fr": "Les cuire vingt-cinq minutes à petit feu, jusqu'à ce qu'elles se coupent à la cuillère.", "en": "Cook them for twenty-five minutes over low heat, until a spoon cuts through them." },
+    { "fr": "Les ÉGOUTTER longuement, puis les mêler aux œufs battus et laisser reposer DIX MINUTES.", "en": "DRAIN them well, mix into the beaten eggs, and rest for TEN MINUTES." },
+    { "fr": "Ce repos laisse la pomme de terre s'imprégner d'œuf : sautée, la tortilla se délite au retournement.", "en": "That rest lets the potato soak up egg: skipped, the tortilla falls apart when flipped." },
+    { "fr": "Cuire quatre minutes à feu moyen, retourner sur une assiette, et cuire trois minutes de l'autre côté.", "en": "Cook for four minutes over medium heat, flip onto a plate, and cook three minutes on the other side." },
+    { "fr": "Le cœur doit rester BAVEUX : c'est la version qu'on défend en Espagne, et le débat n'y est pas clos.", "en": "The centre should stay RUNNY: that is the version defended in Spain, and the argument is not settled there." }
+  ]
+}

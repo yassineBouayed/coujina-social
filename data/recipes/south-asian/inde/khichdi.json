@@ -1,0 +1,38 @@
+{
+  "slug": "khichdi",
+  "cuisine": "south-asian",
+  "country": "inde",
+  "origin": "Inde",
+  "native_name": "Khichdi",
+  "title": {
+    "fr": "Khichdi, riz et lentilles au ghee",
+    "en": "Khichdi, rice and lentils with ghee"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 10, "cook_min": 35 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["convalescence", "doux", "quotidien", "reconfort"],
+  "ingredients": [
+    { "raw": "200 g de riz basmati", "qty": 200, "unit": "g", "item": "riz basmati" },
+    { "raw": "200 g de lentilles corail", "qty": 200, "unit": "g", "item": "lentille corail" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "1 c. à c. de graines de cumin", "qty": 1, "unit": "tsp", "item": "cumin" },
+    { "raw": "1 pincée d'asafoetida", "qty": 1, "unit": "pinch", "item": "asafoetida" },
+    { "raw": "1 c. à s. de gingembre frais, râpé", "qty": 1, "unit": "tbsp", "item": "gingembre", "prep": "râpé" },
+    { "raw": "80 g de ghee", "qty": 80, "unit": "g", "item": "ghee" },
+    { "raw": "1 carotte, en petits dés", "qty": 1, "unit": "piece", "item": "carotte", "prep": "en petits dés", "optional": true },
+    { "raw": "1 citron, en quartiers", "qty": 1, "unit": "piece", "item": "citron", "group": "service" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le khichdi est le plat qu'on mange quand on est malade : il est volontairement doux et peu épicé.", "en": "Khichdi is the dish eaten when you are unwell: it is deliberately mild and lightly spiced." },
+    { "fr": "Rincer riz et lentilles ensemble jusqu'à ce que l'eau soit claire.", "en": "Rinse the rice and lentils together until the water runs clear." },
+    { "fr": "Faire éclater le cumin dans la moitié du ghee avec l'asafoetida et le gingembre.", "en": "Pop the cumin in half the ghee with the asafoetida and ginger." },
+    { "fr": "Ajouter riz, lentilles, curcuma, carotte et quatre fois leur volume d'eau.", "en": "Add the rice, lentils, turmeric, carrot and four times their volume of water." },
+    { "fr": "Cuire vingt-cinq minutes à couvert : le khichdi doit être franchement mou, presque une bouillie.", "en": "Cook for twenty-five minutes covered: khichdi should be frankly soft, almost a porridge." },
+    { "fr": "Saler en fin de cuisson, verser le reste de ghee sur chaque assiette, et servir avec du citron.", "en": "Salt at the end, pour the remaining ghee over each plate, and serve with lemon." }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "pasteis-de-nata",
+  "cuisine": "mediterranean",
+  "country": "portugal",
+  "origin": "Portugal",
+  "native_name": "Pastéis de nata",
+  "title": {
+    "fr": "Pastéis de nata, flans pâtissiers portugais",
+    "en": "Pastéis de nata, Portuguese custard tarts"
+  },
+  "meal_type": "dessert",
+  "servings": 12,
+  "times": { "prep_min": 45, "cook_min": 15 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["lisbonne", "feuillete", "creme", "embleme"],
+  "ingredients": [
+    { "raw": "1 pâte feuilletée", "qty": 1, "unit": "piece", "item": "pâte feuilletée" },
+    { "raw": "50 cl de lait entier", "qty": 50, "unit": "cl", "item": "lait entier" },
+    { "raw": "250 g de sucre", "qty": 250, "unit": "g", "item": "sucre" },
+    { "raw": "12 cl d'eau", "qty": 12, "unit": "cl", "item": "eau" },
+    { "raw": "45 g de farine de blé", "qty": 45, "unit": "g", "item": "farine de blé" },
+    { "raw": "6 jaunes d'œufs", "qty": 6, "unit": "piece", "item": "oeuf" },
+    { "raw": "1 citron, son zeste en larges bandes", "qty": 1, "unit": "piece", "item": "citron", "prep": "zesté en larges bandes" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle", "prep": "en bâton" },
+    { "raw": "2 c. à s. de cannelle moulue", "qty": 2, "unit": "tbsp", "item": "cannelle", "group": "finition" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le sucre arrive en SIROP cuit à 100 °C, pas en poudre : c'est ce qui donne la texture du nata.", "en": "The sugar arrives as a SYRUP boiled to 100°C, not as a powder: that gives the nata its texture." },
+    { "fr": "Faire une bouillie épaisse de lait, farine, zeste et cannelle, et la laisser tiédir.", "en": "Make a thick paste of milk, flour, zest and cinnamon, and let it cool a little." },
+    { "fr": "Verser le sirop chaud EN FILET dans la bouillie tiède, en fouettant, puis filtrer.", "en": "Pour the hot syrup into the warm paste IN A THREAD, whisking, then strain." },
+    { "fr": "Ajouter les jaunes hors du feu et laisser la crème refroidir COMPLÈTEMENT.", "en": "Add the yolks off the heat and let the custard cool COMPLETELY." },
+    { "fr": "Rouler la pâte en boudin, couper des rondelles, et les FONCER AU POUCE dans les moules.", "en": "Roll the pastry into a log, cut discs, and PRESS THEM IN WITH YOUR THUMB." },
+    { "fr": "Cuire au four le PLUS CHAUD possible, 280 °C, douze minutes : le dessus doit être TACHÉ DE NOIR.", "en": "Bake in the HOTTEST oven you have, 280°C, twelve minutes: the top must be BLACK-SPOTTED." }
+  ],
+  "notes": [
+    { "fr": "Un pastel sans taches noires est un pastel pas assez cuit : c'est la caramélisation qui fait le goût.", "en": "A pastel without black spots is underbaked: caramelisation is where the flavour comes from." }
+  ]
+}

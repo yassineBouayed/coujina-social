@@ -1,0 +1,33 @@
+{
+  "slug": "teh-tarik",
+  "cuisine": "southeast-asian",
+  "country": "malaisie",
+  "origin": "Malaisie",
+  "native_name": "Teh tarik",
+  "title": {
+    "fr": "Teh tarik, thé au lait « tiré »",
+    "en": "Teh tarik, pulled milk tea"
+  },
+  "meal_type": "drink",
+  "servings": 4,
+  "times": { "prep_min": 5, "cook_min": 15 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["mamak", "the", "mousse", "quotidien"],
+  "ingredients": [
+    { "raw": "6 c. à s. de thé noir en vrac", "qty": 6, "unit": "tbsp", "item": "thé vert" },
+    { "raw": "75 cl d'eau", "qty": 75, "unit": "cl", "item": "eau" },
+    { "raw": "20 cl de lait concentré sucré", "qty": 20, "unit": "cl", "item": "lait concentré sucré" },
+    { "raw": "10 cl de lait concentré non sucré", "qty": 10, "unit": "cl", "item": "lait entier" },
+    { "raw": "2 c. à s. de sucre", "qty": 2, "unit": "tbsp", "item": "sucre", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Faire bouillir le thé cinq minutes, puis le laisser infuser cinq de plus : il doit être TRÈS fort.", "en": "Boil the tea for five minutes, then steep it for five more: it must be VERY strong." },
+    { "fr": "Le filtrer à travers une chaussette à thé, deux fois, pour qu'il soit parfaitement limpide.", "en": "Strain it through a tea sock, twice, so it is perfectly clear." },
+    { "fr": "Ajouter les deux laits et le sucre, et remuer jusqu'à dissolution complète.", "en": "Add both milks and the sugar, and stir until fully dissolved." },
+    { "fr": "« Tirer » le thé : le verser d'un pichet à l'autre en écartant les bras au maximum.", "en": "\"Pull\" the tea: pour it from one jug to another, stretching your arms as far apart as you can." },
+    { "fr": "Ce n'est pas du spectacle : la chute aère le thé, le refroidit et crée la mousse épaisse.", "en": "This is not showmanship: the fall aerates the tea, cools it and creates the thick foam." },
+    { "fr": "Répéter au moins six fois, jusqu'à obtenir un col de mousse d'un bon centimètre.", "en": "Repeat at least six times, until you have a good centimetre of foam on top." }
+  ]
+}

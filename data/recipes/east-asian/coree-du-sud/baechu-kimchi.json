@@ -1,0 +1,42 @@
+{
+  "slug": "baechu-kimchi",
+  "cuisine": "east-asian",
+  "country": "coree-du-sud",
+  "origin": "Corée du Sud",
+  "native_name": "배추김치",
+  "title": {
+    "fr": "Kimchi de chou nappa",
+    "en": "Napa cabbage kimchi"
+  },
+  "meal_type": "side",
+  "servings": 12,
+  "times": { "prep_min": 90, "cook_min": 10 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fermentation", "base", "conserve", "gochugaru"],
+  "ingredients": [
+    { "raw": "2 choux chinois", "qty": 2, "unit": "piece", "item": "chou chinois" },
+    { "raw": "200 g de gros sel", "qty": 200, "unit": "g", "item": "gros sel" },
+    { "raw": "100 g de gochugaru", "qty": 100, "unit": "g", "item": "gochugaru" },
+    { "raw": "1 daikon, en julienne", "qty": 1, "unit": "piece", "item": "daikon", "prep": "en julienne" },
+    { "raw": "8 oignons nouveaux, en tronçons", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "en tronçons" },
+    { "raw": "1 tête d'ail, râpée", "qty": 12, "unit": "piece", "item": "ail", "prep": "râpé" },
+    { "raw": "3 c. à s. de gingembre frais, râpé", "qty": 3, "unit": "tbsp", "item": "gingembre", "prep": "râpé" },
+    { "raw": "8 c. à s. de sauce poisson", "qty": 8, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "3 c. à s. de farine de riz", "qty": 3, "unit": "tbsp", "item": "farine de riz", "group": "colle" },
+    { "raw": "2 c. à s. de sucre", "qty": 2, "unit": "tbsp", "item": "sucre", "group": "colle" },
+    { "raw": "1 pomme, râpée", "qty": 1, "unit": "piece", "item": "pomme", "prep": "râpée" }
+  ],
+  "steps": [
+    { "fr": "Fendre les choux en quatre et les saler entre chaque feuille, puis les laisser DEUX HEURES en les retournant.", "en": "Quarter the cabbages and salt between every leaf, then leave them TWO HOURS, turning them over." },
+    { "fr": "Le chou est prêt quand une feuille de la base se plie sans casser. C'est le seul test qui vaille.", "en": "The cabbage is ready when a leaf from the base bends without snapping. That is the only test that counts." },
+    { "fr": "Rincer TROIS FOIS à grande eau et laisser égoutter une heure, tête en bas.", "en": "Rinse THREE TIMES in plenty of water and drain for an hour, cut side down." },
+    { "fr": "Cuire la farine de riz et le sucre dans de l'eau jusqu'à obtenir une colle claire, et la laisser refroidir.", "en": "Cook the rice flour and sugar in water into a clear paste, and let it cool." },
+    { "fr": "Mélanger la colle froide avec gochugaru, ail, gingembre, sauce poisson, pomme, daikon et oignons.", "en": "Mix the cooled paste with gochugaru, garlic, ginger, fish sauce, apple, daikon and spring onions." },
+    { "fr": "Enduire chaque feuille de pâte, tasser en bocal, et laisser fermenter DEUX JOURS à température ambiante avant le froid.", "en": "Coat every leaf with the paste, pack into a jar, and ferment TWO DAYS at room temperature before refrigerating." }
+  ],
+  "notes": [
+    { "fr": "Le bocal doit être rempli aux trois quarts : le kimchi déborde en fermentant. Ouvrir chaque jour pour dégazer.", "en": "Fill the jar three-quarters full: kimchi overflows as it ferments. Open it daily to release the gas." }
+  ]
+}

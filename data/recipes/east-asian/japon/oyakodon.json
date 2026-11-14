@@ -1,0 +1,38 @@
+{
+  "slug": "oyakodon",
+  "cuisine": "east-asian",
+  "country": "japon",
+  "origin": "Japon",
+  "native_name": "親子丼",
+  "title": {
+    "fr": "Oyakodon, bol de poulet et d'œuf",
+    "en": "Oyakodon, chicken and egg rice bowl"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["donburi", "oeuf", "rapide", "quotidien"],
+  "ingredients": [
+    { "raw": "500 g de cuisses de poulet désossées, en morceaux", "qty": 500, "unit": "g", "item": "cuisse de poulet", "prep": "désossée, en morceaux" },
+    { "raw": "6 œufs", "qty": 6, "unit": "piece", "item": "oeuf" },
+    { "raw": "400 g de riz rond", "qty": 400, "unit": "g", "item": "riz rond" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "30 cl de dashi", "qty": 30, "unit": "cl", "item": "kombu", "prep": "en bouillon dashi" },
+    { "raw": "6 c. à s. de sauce soja", "qty": 6, "unit": "tbsp", "item": "sauce soja" },
+    { "raw": "6 c. à s. de mirin", "qty": 6, "unit": "tbsp", "item": "mirin" },
+    { "raw": "1 c. à s. de sucre", "qty": 1, "unit": "tbsp", "item": "sucre" },
+    { "raw": "4 oignons nouveaux, ciselés", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé", "group": "garniture" },
+    { "raw": "1 feuille de nori, en lanières", "qty": 1, "unit": "piece", "item": "nori", "prep": "en lanières", "optional": true, "group": "garniture" }
+  ],
+  "steps": [
+    { "fr": "Oyako veut dire « parent et enfant » : le poulet et l'œuf, dans le même bol.", "en": "Oyako means \"parent and child\": the chicken and the egg, in the same bowl." },
+    { "fr": "Cuire une portion à la fois, dans une petite poêle : à quatre portions, l'œuf cuit mal.", "en": "Cook one portion at a time, in a small pan: with four portions at once, the egg sets badly." },
+    { "fr": "Faire frémir dashi, sauce soja, mirin et sucre avec les oignons, puis ajouter le poulet.", "en": "Simmer the dashi, soy, mirin and sugar with the onions, then add the chicken." },
+    { "fr": "Battre les œufs À PEINE, en laissant des traînées de blanc et de jaune distinctes.", "en": "Beat the eggs BARELY, leaving streaks of white and yolk visible." },
+    { "fr": "Verser les deux tiers des œufs en spirale, couvrir trente secondes, puis verser le reste.", "en": "Pour in two-thirds of the egg in a spiral, cover for thirty seconds, then pour in the rest." },
+    { "fr": "Couper le feu quand l'œuf est encore BAVEUX et faire glisser sur le riz : il finit de prendre dans le bol.", "en": "Cut the heat while the egg is still RUNNY and slide it onto the rice: it finishes setting in the bowl." }
+  ]
+}

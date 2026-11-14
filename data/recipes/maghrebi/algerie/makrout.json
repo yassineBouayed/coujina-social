@@ -1,0 +1,37 @@
+{
+  "slug": "makrout",
+  "cuisine": "maghrebi",
+  "country": "algerie",
+  "origin": "Algérie",
+  "native_name": "Makroud",
+  "title": {
+    "fr": "Makroud aux dattes",
+    "en": "Makroud, date-filled semolina diamonds"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 50, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["datte", "semoule", "friture", "the"],
+  "ingredients": [
+    { "raw": "500 g de semoule moyenne", "qty": 500, "unit": "g", "item": "semoule moyenne", "group": "pâte" },
+    { "raw": "150 g de beurre fondu", "qty": 150, "unit": "g", "item": "beurre", "prep": "fondu", "group": "pâte" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel", "group": "pâte" },
+    { "raw": "2 c. à s. d'eau de fleur d'oranger", "qty": 2, "unit": "tbsp", "item": "eau de fleur d'oranger", "group": "pâte" },
+    { "raw": "400 g de pâte de dattes", "qty": 400, "unit": "g", "item": "datte", "prep": "dénoyautée et mixée", "group": "farce" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle", "group": "farce" },
+    { "raw": "1 c. à s. d'huile neutre", "qty": 1, "unit": "tbsp", "item": "huile neutre", "group": "farce" },
+    { "raw": "500 g de miel", "qty": 500, "unit": "g", "item": "miel", "group": "trempage" },
+    { "raw": "1 l d'huile de tournesol pour la friture", "qty": 1, "unit": "l", "item": "huile de tournesol", "group": "friture" }
+  ],
+  "steps": [
+    { "fr": "Sabler la semoule avec le beurre fondu et le sel, et laisser reposer une heure : la semoule doit boire le gras.", "en": "Rub the melted butter and salt into the semolina, and rest for an hour: the semolina must drink the fat." },
+    { "fr": "Rassembler avec l'eau de fleur d'oranger et un peu d'eau, sans pétrir : la pâte doit rester friable.", "en": "Bring together with orange blossom water and a little water, without kneading: the dough must stay crumbly." },
+    { "fr": "Travailler la pâte de dattes avec la cannelle et l'huile jusqu'à ce qu'elle soit malléable.", "en": "Work the date paste with cinnamon and oil until pliable." },
+    { "fr": "Former un boudin de pâte, creuser une rigole, y loger les dattes, refermer et aplatir.", "en": "Shape a rope of dough, hollow a channel, lay the dates in, close and flatten." },
+    { "fr": "Marquer au moule ou à la fourchette, puis découper en losanges en biais.", "en": "Mark with a mould or fork, then cut diagonally into diamonds." },
+    { "fr": "Frire à 160 °C jusqu'à coloration blonde, puis tremper trois minutes dans le miel chaud.", "en": "Fry at 160°C to a pale gold, then dip for three minutes in warm honey." }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "banh-xeo",
+  "cuisine": "southeast-asian",
+  "country": "vietnam",
+  "origin": "Viêt Nam",
+  "native_name": "Bánh xèo",
+  "title": {
+    "fr": "Bánh xèo, crêpe croustillante au curcuma",
+    "en": "Banh xeo, crisp turmeric crepe"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 30, "cook_min": 30 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["sud", "croustillant", "curcuma", "herbes"],
+  "ingredients": [
+    { "raw": "250 g de farine de riz", "qty": 250, "unit": "g", "item": "farine de riz", "group": "pâte" },
+    { "raw": "2 c. à s. de maïzena", "qty": 2, "unit": "tbsp", "item": "maïzena", "group": "pâte" },
+    { "raw": "2 c. à c. de curcuma", "qty": 2, "unit": "tsp", "item": "curcuma", "group": "pâte" },
+    { "raw": "40 cl de lait de coco", "qty": 40, "unit": "cl", "item": "lait de coco", "group": "pâte" },
+    { "raw": "25 cl d'eau glacée", "qty": 25, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "4 oignons nouveaux, ciselés", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé", "group": "pâte" },
+    { "raw": "300 g de poitrine de porc, en fines tranches", "qty": 300, "unit": "g", "item": "poitrine de porc", "prep": "en fines tranches", "group": "garniture" },
+    { "raw": "300 g de crevettes, décortiquées", "qty": 300, "unit": "g", "item": "crevette", "prep": "décortiquée", "group": "garniture" },
+    { "raw": "300 g de germes de soja", "qty": 300, "unit": "g", "item": "germes de soja", "group": "garniture" },
+    { "raw": "1 laitue, en feuilles", "qty": 1, "unit": "piece", "item": "laitue", "group": "service" },
+    { "raw": "1 bouquet de menthe fraîche", "qty": 1, "unit": "bunch", "item": "menthe fraîche", "group": "service" },
+    { "raw": "10 cl d'huile neutre", "qty": 10, "unit": "cl", "item": "huile neutre" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le nom vient du BRUIT — xèo — que fait la pâte en touchant la poêle brûlante. Si ça ne siffle pas, c'est raté.", "en": "The name comes from the SOUND — xeo — the batter makes hitting the scorching pan. No hiss, no banh xeo." },
+    { "fr": "Fouetter la pâte et la laisser reposer une heure : elle doit être TRÈS liquide, comme de l'eau colorée.", "en": "Whisk the batter and rest it for an hour: it must be VERY thin, like coloured water." },
+    { "fr": "Chauffer la poêle très fort, huiler généreusement, saisir porc et crevettes.", "en": "Heat the pan very hot, oil it generously, and sear the pork and prawns." },
+    { "fr": "Verser une louche de pâte en faisant TOURNER la poêle, pour tapisser en couche ultra fine.", "en": "Pour in a ladle of batter while SWIRLING the pan, to coat it in an ultra-thin layer." },
+    { "fr": "Une pâte épaisse donne une crêpe molle : la finesse est la seule condition du croustillant.", "en": "Thick batter gives a soft crepe: thinness is the only condition for crispness." },
+    { "fr": "Ajouter les germes, couvrir trois minutes, découvrir pour croustiller, et plier en deux.", "en": "Add the bean sprouts, cover for three minutes, uncover to crisp, and fold in half." }
+  ]
+}

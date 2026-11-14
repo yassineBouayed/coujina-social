@@ -1,0 +1,43 @@
+{
+  "slug": "yassa-poisson",
+  "cuisine": "west-african",
+  "country": "senegal",
+  "origin": "Sénégal",
+  "native_name": "Yassa jën",
+  "title": {
+    "fr": "Yassa au poisson, oignons confits et citron",
+    "en": "Fish yassa with confit onions and lime"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 70 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["casamance", "oignon", "citron", "poisson"],
+  "ingredients": [
+    { "raw": "1,2 kg de dorade, en tronçons", "qty": 1200, "unit": "g", "item": "dorade", "prep": "en tronçons" },
+    { "raw": "1,5 kg d'oignons, émincés", "qty": 1500, "unit": "g", "item": "oignon", "prep": "émincé" },
+    { "raw": "5 citrons verts, leur jus", "qty": 5, "unit": "piece", "item": "citron vert" },
+    { "raw": "3 c. à s. de moutarde", "qty": 3, "unit": "tbsp", "item": "moutarde" },
+    { "raw": "2 piments oiseau", "qty": 2, "unit": "piece", "item": "piment oiseau" },
+    { "raw": "1 cube de bouillon", "qty": 1, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "4 gousses d'ail", "qty": 4, "unit": "piece", "item": "ail" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "10 c. à s. d'huile d'arachide", "qty": 10, "unit": "tbsp", "item": "huile d'arachide" },
+    { "raw": "500 g de riz brisé", "qty": 500, "unit": "g", "item": "riz brisé", "group": "service" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Faire mariner poisson et oignons ensemble dans le jus de citron, la moutarde, l'ail et le sel, au moins trois heures.", "en": "Marinate the fish and onions together in lime juice, mustard, garlic and salt, for at least three hours." },
+    { "fr": "Sortir le poisson, l'égoutter et le griller ou le poêler jusqu'à ce qu'il colore. Réserver.", "en": "Lift out the fish, drain it and grill or pan-sear it until coloured. Set aside." },
+    { "fr": "Faire tomber les oignons égouttés dans l'huile, à feu doux, quarante minutes : ils doivent fondre et blondir, jamais brûler.", "en": "Melt the drained onions in the oil over low heat for forty minutes: they should collapse and turn golden, never scorch." },
+    { "fr": "Ajouter la marinade filtrée, le laurier, le piment entier et le cube, et laisser réduire vingt minutes.", "en": "Add the strained marinade, bay, whole chilli and stock cube, and reduce for twenty minutes." },
+    { "fr": "Remettre le poisson cinq minutes, juste pour le réchauffer : recuit, il se défait.", "en": "Return the fish for five minutes, just to warm through: cooked twice, it falls apart." },
+    { "fr": "Servir sur du riz brisé blanc, la sauce d'oignons par-dessus.", "en": "Serve over plain broken rice, with the onion sauce over the top." }
+  ],
+  "notes": [
+    { "fr": "Le piment se met entier et se retire : percé, il rend le plat immangeable pour les enfants.", "en": "The chilli goes in whole and comes back out: pierced, it makes the dish inedible for children." }
+  ]
+}

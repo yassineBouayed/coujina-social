@@ -1,0 +1,39 @@
+{
+  "slug": "nan-e-barbari",
+  "cuisine": "middle-eastern",
+  "country": "iran",
+  "origin": "Iran",
+  "native_name": "Nan-e barbari",
+  "title": {
+    "fr": "Nan-e barbari, pain plat rayé au sésame",
+    "en": "Nan-e barbari, ridged sesame flatbread"
+  },
+  "meal_type": "bread",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["pain", "petit-dejeuner", "sesame", "four"],
+  "ingredients": [
+    { "raw": "600 g de farine de blé", "qty": 600, "unit": "g", "item": "farine de blé" },
+    { "raw": "1 c. à s. de levure boulangère sèche", "qty": 1, "unit": "tbsp", "item": "levure boulangère" },
+    { "raw": "1,5 c. à c. de sel", "qty": 1.5, "unit": "tsp", "item": "sel" },
+    { "raw": "1 c. à c. de sucre", "qty": 1, "unit": "tsp", "item": "sucre" },
+    { "raw": "40 cl d'eau tiède", "qty": 40, "unit": "cl", "item": "eau" },
+    { "raw": "3 c. à s. d'huile neutre", "qty": 3, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "1 c. à s. de farine de blé", "qty": 1, "unit": "tbsp", "item": "farine de blé", "group": "roomal" },
+    { "raw": "15 cl d'eau", "qty": 15, "unit": "cl", "item": "eau", "group": "roomal" },
+    { "raw": "1/2 c. à c. de bicarbonate", "qty": 0.5, "unit": "tsp", "item": "bicarbonate", "group": "roomal" },
+    { "raw": "3 c. à s. de graines de sésame", "qty": 3, "unit": "tbsp", "item": "sésame", "group": "finition" },
+    { "raw": "1 c. à s. de graines de nigelle", "qty": 1, "unit": "tbsp", "item": "graine de nigelle", "group": "finition" }
+  ],
+  "steps": [
+    { "fr": "Pétrir une pâte très hydratée, presque collante, et la laisser lever deux heures.", "en": "Knead a very wet, almost sticky dough, and prove it for two hours." },
+    { "fr": "Préparer le roomal : cuire farine, eau et bicarbonate jusqu'à obtenir une colle claire, et la laisser refroidir.", "en": "Make the roomal: cook the flour, water and bicarbonate into a clear glue, and cool it." },
+    { "fr": "Ce glaçage est ce qui donne au barbari sa couleur acajou et sa croûte brillante.", "en": "That glaze is what gives barbari its mahogany colour and glossy crust." },
+    { "fr": "Étirer la pâte en un long rectangle sur une plaque, et la badigeonner de roomal.", "en": "Stretch the dough into a long rectangle on a tray, and brush it with roomal." },
+    { "fr": "Creuser des sillons profonds dans la longueur, avec les doigts mouillés, du haut vers le bas.", "en": "Draw deep grooves lengthways with wet fingers, from top to bottom." },
+    { "fr": "Parsemer de sésame et de nigelle, et cuire 18 minutes à 250 °C.", "en": "Scatter with sesame and nigella, and bake for 18 minutes at 250°C." }
+  ]
+}

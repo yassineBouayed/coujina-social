@@ -1,0 +1,41 @@
+{
+  "slug": "papa-rellena",
+  "cuisine": "latin-american",
+  "country": "perou",
+  "origin": "Pérou",
+  "native_name": "Papa rellena",
+  "title": {
+    "fr": "Pomme de terre farcie frite",
+    "en": "Fried stuffed potato"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 45, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "friture", "boeuf", "famille"],
+  "ingredients": [
+    { "raw": "1,2 kg de pommes de terre à chair farineuse", "qty": 1200, "unit": "g", "item": "pomme de terre" },
+    { "raw": "600 g de bœuf haché", "qty": 600, "unit": "g", "item": "boeuf haché", "group": "farce" },
+    { "raw": "3 oignons rouges, hachés", "qty": 3, "unit": "piece", "item": "oignon rouge", "prep": "haché", "group": "farce" },
+    { "raw": "3 piments ají panca", "qty": 3, "unit": "piece", "item": "ají panca", "group": "farce" },
+    { "raw": "3 œufs durs, hachés", "qty": 3, "unit": "piece", "item": "oeuf", "prep": "dur, haché", "group": "farce" },
+    { "raw": "80 g d'olives noires, hachées", "qty": 80, "unit": "g", "item": "olive noire", "prep": "hachée", "group": "farce" },
+    { "raw": "60 g de raisins secs", "qty": 60, "unit": "g", "item": "raisin sec", "group": "farce" },
+    { "raw": "2 c. à c. de cumin moulu", "qty": 2, "unit": "tsp", "item": "cumin", "group": "farce" },
+    { "raw": "120 g de farine de blé", "qty": 120, "unit": "g", "item": "farine de blé" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf" },
+    { "raw": "1,5 l d'huile neutre pour la friture", "qty": 1.5, "unit": "l", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La purée doit être TRÈS SÈCHE : cuire les pommes de terre en robe et les laisser sécher à l'air.", "en": "The mash must be VERY DRY: boil the potatoes in their skins and let them air-dry." },
+    { "fr": "Ne mettre NI lait NI beurre : ils rendraient la purée trop molle pour être façonnée.", "en": "Add NO milk and NO butter: they would make the mash too soft to shape." },
+    { "fr": "La farce doit être FROIDE et sèche : chaude, elle ramollit la purée et la papa s'ouvre.", "en": "The filling must be COLD and dry: warm, it softens the mash and the papa splits open." },
+    { "fr": "Former une coupelle dans la paume MOUILLÉE, garnir, et refermer en ovale allongé.", "en": "Cup it in a WET palm, fill, and close it into an elongated oval." },
+    { "fr": "RÉFRIGÉRER une heure avant de frire : froide, la papa tient bien mieux dans l'huile.", "en": "CHILL for an hour before frying: cold, the papa holds together far better." },
+    { "fr": "Fariner, passer à l'œuf, et frire à 180 °C jusqu'à une croûte dorée et sonore.", "en": "Flour, egg-wash, and fry at 180°C to a golden, audible crust." }
+  ]
+}

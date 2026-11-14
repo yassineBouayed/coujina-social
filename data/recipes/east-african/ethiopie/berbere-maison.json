@@ -1,0 +1,39 @@
+{
+  "slug": "berbere-maison",
+  "cuisine": "east-african",
+  "country": "ethiopie",
+  "origin": "Éthiopie",
+  "native_name": "Berbere",
+  "title": {
+    "fr": "Berbéré, mélange d'épices éthiopien",
+    "en": "Berbere, Ethiopian spice blend"
+  },
+  "meal_type": "side",
+  "servings": 20,
+  "times": { "prep_min": 25, "cook_min": 10 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["epices", "base", "conserve", "piment"],
+  "ingredients": [
+    { "raw": "100 g de piment séché doux", "qty": 100, "unit": "g", "item": "piment séché" },
+    { "raw": "2 c. à s. de coriandre en graines", "qty": 2, "unit": "tbsp", "item": "coriandre graines" },
+    { "raw": "1 c. à s. de fenugrec", "qty": 1, "unit": "tbsp", "item": "fenugrec" },
+    { "raw": "1 c. à s. de graines de nigelle", "qty": 1, "unit": "tbsp", "item": "graine de nigelle" },
+    { "raw": "1 c. à s. de cardamome", "qty": 1, "unit": "tbsp", "item": "cardamome" },
+    { "raw": "1 c. à c. de clous de girofle", "qty": 1, "unit": "tsp", "item": "clou de girofle" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle" },
+    { "raw": "1 c. à c. de gingembre moulu", "qty": 1, "unit": "tsp", "item": "gingembre moulu" },
+    { "raw": "1 c. à c. de muscade râpée", "qty": 1, "unit": "tsp", "item": "muscade", "prep": "râpée" },
+    { "raw": "2 c. à s. de paprika", "qty": 2, "unit": "tbsp", "item": "paprika" },
+    { "raw": "1 c. à s. de sel", "qty": 1, "unit": "tbsp", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Équeuter et épépiner les piments séchés, puis les faire griller à sec deux minutes.", "en": "Stem and seed the dried chillies, then toast them dry for two minutes." },
+    { "fr": "Griller séparément coriandre, fenugrec, nigelle, cardamome et girofle, une minute chacun.", "en": "Toast the coriander, fenugreek, nigella, cardamom and cloves separately, a minute each." },
+    { "fr": "Le fenugrec brûle très vite et devient amer : le sortir dès qu'il change de couleur.", "en": "Fenugreek burns fast and turns bitter: pull it the moment it changes colour." },
+    { "fr": "Laisser tout refroidir complètement avant de moudre, sinon la poudre s'agglomère.", "en": "Cool everything completely before grinding, or the powder cakes." },
+    { "fr": "Moudre finement, puis ajouter paprika, cannelle, gingembre, muscade et sel.", "en": "Grind fine, then add the paprika, cinnamon, ginger, nutmeg and salt." },
+    { "fr": "Conserver en bocal hermétique, à l'abri de la lumière, six mois.", "en": "Keep in an airtight jar, away from light, for six months." }
+  ]
+}

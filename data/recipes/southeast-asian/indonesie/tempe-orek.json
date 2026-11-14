@@ -1,0 +1,38 @@
+{
+  "slug": "tempe-orek",
+  "cuisine": "southeast-asian",
+  "country": "indonesie",
+  "origin": "Indonésie",
+  "native_name": "Tempe orek",
+  "title": {
+    "fr": "Tempe orek, tempeh caramélisé au kecap",
+    "en": "Tempe orek, caramelised sweet soy tempeh"
+  },
+  "meal_type": "side",
+  "servings": 5,
+  "times": { "prep_min": 15, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["vegetarien", "tempeh", "kecap", "accompagnement"],
+  "ingredients": [
+    { "raw": "400 g de tempeh, en allumettes", "qty": 400, "unit": "g", "item": "tempeh", "prep": "en allumettes" },
+    { "raw": "6 échalotes, émincées", "qty": 6, "unit": "piece", "item": "échalote", "prep": "émincée" },
+    { "raw": "4 gousses d'ail, émincées", "qty": 4, "unit": "piece", "item": "ail", "prep": "émincé" },
+    { "raw": "6 piments oiseau, en rondelles", "qty": 6, "unit": "piece", "item": "piment oiseau", "prep": "en rondelles" },
+    { "raw": "5 c. à s. de kecap manis", "qty": 5, "unit": "tbsp", "item": "kecap manis" },
+    { "raw": "2 c. à s. de sucre de palme", "qty": 2, "unit": "tbsp", "item": "sucre de palme" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "1 morceau de galanga", "qty": 1, "unit": "piece", "item": "galanga" },
+    { "raw": "40 cl d'huile neutre pour la friture", "qty": 40, "unit": "cl", "item": "huile neutre" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le tempeh est du soja FERMENTÉ en bloc compact : rien à voir avec le tofu, qui est caillé.", "en": "Tempeh is soybeans FERMENTED into a compact cake: nothing like tofu, which is curdled." },
+    { "fr": "Le couper en allumettes fines et le frire jusqu'à ce qu'il soit BRUN et croustillant.", "en": "Cut it into fine matchsticks and fry it until BROWN and crisp." },
+    { "fr": "Il doit être vraiment croustillant : mou, il boira le kecap et deviendra pâteux.", "en": "It must be genuinely crisp: soft, it will drink the kecap and turn pasty." },
+    { "fr": "Vider l'huile, en garder deux cuillères, et y frire échalotes, ail et piments.", "en": "Pour off the oil, keep two spoonfuls, and fry the shallots, garlic and chillies in it." },
+    { "fr": "Ajouter kecap manis, sucre de palme, laurier et galanga, et laisser caraméliser deux minutes.", "en": "Add the kecap manis, palm sugar, bay and galangal, and let it caramelise for two minutes." },
+    { "fr": "Remettre le tempeh, enrober TRENTE SECONDES, et servir : il ramollit en dix minutes.", "en": "Return the tempeh, coat it for THIRTY SECONDS, and serve: it softens within ten minutes." }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "tallarines-verdes",
+  "cuisine": "latin-american",
+  "country": "perou",
+  "origin": "Pérou",
+  "native_name": "Tallarines verdes",
+  "title": {
+    "fr": "Pâtes au pesto péruvien",
+    "en": "Pasta in Peruvian green sauce"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["famille", "basilic", "pates", "enfants"],
+  "ingredients": [
+    { "raw": "500 g de spaghetti", "qty": 500, "unit": "g", "item": "spaghetti" },
+    { "raw": "3 gros bouquets de basilic", "qty": 3, "unit": "bunch", "item": "basilic" },
+    { "raw": "200 g d'épinards", "qty": 200, "unit": "g", "item": "épinard" },
+    { "raw": "250 g de queso fresco", "qty": 250, "unit": "g", "item": "queso fresco" },
+    { "raw": "120 g de parmesan, râpé", "qty": 120, "unit": "g", "item": "parmesan", "prep": "râpé" },
+    { "raw": "100 g de noix", "qty": 100, "unit": "g", "item": "noix" },
+    { "raw": "30 cl de lait évaporé", "qty": 30, "unit": "cl", "item": "lait évaporé" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "6 gousses d'ail", "qty": 6, "unit": "piece", "item": "ail" },
+    { "raw": "8 c. à s. d'huile neutre", "qty": 8, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le pesto péruvien n'a ni pignons ni huile d'olive : il est au LAIT ÉVAPORÉ et au fromage frais.", "en": "The Peruvian pesto has no pine nuts and no olive oil: it uses EVAPORATED MILK and fresh cheese." },
+    { "fr": "Il est BEAUCOUP plus crémeux que le génois, et beaucoup plus vert.", "en": "It is FAR creamier than the Genoese one, and far greener." },
+    { "fr": "Les ÉPINARDS ne sont pas là pour le goût : ils fixent le vert et l'empêchent de brunir.", "en": "The SPINACH is not there for flavour: it fixes the green and stops it browning." },
+    { "fr": "Faire dorer oignons et ail AVANT de mixer : c'est ce qui donne la profondeur.", "en": "Fry the onions and garlic BEFORE blending: that is what gives the depth." },
+    { "fr": "Mixer avec le basilic CRU et les laisser tiédir : chaud, le basilic noircit.", "en": "Blend with the basil RAW and let it cool: hot, basil blackens." },
+    { "fr": "Mélanger les pâtes HORS DU FEU : chauffée, la sauce tranche et devient granuleuse.", "en": "Toss the pasta OFF THE HEAT: heated, the sauce splits and turns grainy." }
+  ]
+}

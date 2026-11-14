@@ -1,0 +1,41 @@
+{
+  "slug": "golabki",
+  "cuisine": "eastern-european",
+  "country": "pologne",
+  "origin": "Pologne",
+  "native_name": "Gołąbki",
+  "title": {
+    "fr": "Choux farcis à la viande et au riz",
+    "en": "Cabbage rolls with meat and rice"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 50, "cook_min": 90 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["famille", "chou", "farci", "dimanche"],
+  "ingredients": [
+    { "raw": "1 gros chou vert", "qty": 1, "unit": "piece", "item": "chou vert" },
+    { "raw": "600 g de porc haché", "qty": 600, "unit": "g", "item": "porc haché" },
+    { "raw": "300 g de bœuf haché", "qty": 300, "unit": "g", "item": "boeuf haché" },
+    { "raw": "200 g de riz rond", "qty": 200, "unit": "g", "item": "riz rond" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "800 g de coulis de tomate", "qty": 800, "unit": "g", "item": "coulis de tomate", "group": "sauce" },
+    { "raw": "40 cl de bouillon de bœuf", "qty": 40, "unit": "cl", "item": "bouillon boeuf", "group": "sauce" },
+    { "raw": "2 c. à s. de concentré de tomate", "qty": 2, "unit": "tbsp", "item": "concentré de tomate", "group": "sauce" },
+    { "raw": "2 c. à c. de marjolaine séchée", "qty": 2, "unit": "tsp", "item": "marjolaine" },
+    { "raw": "60 g de beurre", "qty": 60, "unit": "g", "item": "beurre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "CONGELER le chou entier deux jours et le décongeler : les feuilles se détachent alors toutes seules.", "en": "FREEZE the whole cabbage for two days and thaw it: the leaves then peel off by themselves." },
+    { "fr": "C'est le raccourci polonais, bien plus simple que de blanchir le chou feuille par feuille.", "en": "That is the Polish shortcut, far simpler than blanching the cabbage leaf by leaf." },
+    { "fr": "Le riz est mis À MOITIÉ CUIT : cru il reste dur, cuit il devient pâteux à la cuisson longue.", "en": "The rice goes in HALF-COOKED: raw it stays hard, fully cooked it goes pasty over the long bake." },
+    { "fr": "APLATIR la nervure centrale de chaque feuille au couteau : sinon elle empêche de rouler.", "en": "FLATTEN the central rib of each leaf with a knife: otherwise it stops the roll." },
+    { "fr": "Rabattre les côtés et rouler serré, puis ranger les gołąbki SOUDURE VERS LE BAS.", "en": "Fold in the sides and roll tightly, then pack the gołąbki SEAM DOWN." },
+    { "fr": "Couvrir de feuilles de chou et cuire 90 minutes à 160 °C, à couvert.", "en": "Cover with cabbage leaves and bake for 90 minutes at 160°C, covered." }
+  ]
+}

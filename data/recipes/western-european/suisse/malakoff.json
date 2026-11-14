@@ -1,0 +1,38 @@
+{
+  "slug": "malakoff",
+  "cuisine": "western-european",
+  "country": "suisse",
+  "origin": "Suisse",
+  "native_name": "Malakoff",
+  "title": {
+    "fr": "Malakoff, beignets de fromage vaudois",
+    "en": "Malakoff, Vaud cheese fritters"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["vaud", "fromage", "friture", "tradition"],
+  "ingredients": [
+    { "raw": "500 g de gruyère, râpé", "qty": 500, "unit": "g", "item": "gruyère", "prep": "râpé" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf" },
+    { "raw": "10 cl de vin blanc sec", "qty": 10, "unit": "cl", "item": "vin blanc" },
+    { "raw": "3 c. à s. de farine de blé", "qty": 3, "unit": "tbsp", "item": "farine de blé" },
+    { "raw": "12 tranches rondes de pain de mie", "qty": 12, "unit": "piece", "item": "pain de mie", "prep": "en tranches rondes" },
+    { "raw": "2 gousses d'ail", "qty": 2, "unit": "piece", "item": "ail" },
+    { "raw": "1,5 l d'huile neutre pour la friture", "qty": 1.5, "unit": "l", "item": "huile neutre" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le malakoff est né chez les mercenaires suisses de Crimée : le nom vient de la tour de Malakoff.", "en": "The malakoff was born among Swiss mercenaries in Crimea: the name comes from the Malakoff tower." },
+    { "fr": "Mêler fromage, œufs, vin blanc et farine, et laisser reposer DEUX HEURES au frais.", "en": "Combine the cheese, eggs, white wine and flour, and rest for TWO HOURS in the fridge." },
+    { "fr": "Frotter les rondelles de pain à l'ail et les laisser SÉCHER une heure à l'air.", "en": "Rub the bread rounds with garlic and let them DRY for an hour in the open." },
+    { "fr": "Un pain frais absorbe l'huile et le malakoff devient une éponge grasse.", "en": "Fresh bread absorbs oil and the malakoff turns into a greasy sponge." },
+    { "fr": "Modeler un DÔME épais de fromage sur chaque rondelle, en débordant à peine.", "en": "Mound a thick DOME of cheese on each round, barely overhanging." },
+    { "fr": "Frire CÔTÉ FROMAGE VERS LE BAS, à 170 °C, trois minutes, en les tenant à la fourchette.", "en": "Fry CHEESE SIDE DOWN at 170°C for three minutes, holding them with a fork." }
+  ]
+}

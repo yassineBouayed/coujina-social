@@ -1,0 +1,34 @@
+{
+  "slug": "doodh-cha",
+  "cuisine": "south-asian",
+  "country": "bangladesh",
+  "origin": "Bangladesh",
+  "native_name": "Doodh cha",
+  "title": {
+    "fr": "Doodh cha, thé au lait bouilli",
+    "en": "Doodh cha, boiled milk tea"
+  },
+  "meal_type": "drink",
+  "servings": 4,
+  "times": { "prep_min": 5, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["quotidien", "the", "lait", "rue"],
+  "ingredients": [
+    { "raw": "4 c. à c. de thé noir en vrac", "qty": 4, "unit": "tsp", "item": "thé vert" },
+    { "raw": "50 cl d'eau", "qty": 50, "unit": "cl", "item": "eau" },
+    { "raw": "30 cl de lait entier", "qty": 30, "unit": "cl", "item": "lait entier" },
+    { "raw": "5 c. à c. de sucre", "qty": 5, "unit": "tsp", "item": "sucre" },
+    { "raw": "4 gousses de cardamome, écrasées", "qty": 4, "unit": "piece", "item": "cardamome", "prep": "écrasée", "optional": true },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Porter l'eau à ébullition avec les épices écrasées et laisser deux minutes.", "en": "Bring the water to a boil with the crushed spices and leave it for two minutes." },
+    { "fr": "Ajouter le thé et le faire BOUILLIR cinq minutes : contrairement au thé anglais, on le fait vraiment bouillir.", "en": "Add the tea and BOIL it for five minutes: unlike English tea, this is genuinely boiled." },
+    { "fr": "Ajouter le lait et le sucre, et porter à ébullition en surveillant : il monte d'un coup.", "en": "Add the milk and sugar, and bring to the boil watching closely: it rises all at once." },
+    { "fr": "Le laisser monter et retomber TROIS FOIS, en écartant la casserole du feu à chaque fois.", "en": "Let it rise and fall THREE TIMES, pulling the pan off the heat each time." },
+    { "fr": "Filtrer et verser de haut, d'un récipient à l'autre, pour faire mousser.", "en": "Strain and pour from a height, from one vessel to another, to raise a foam." },
+    { "fr": "Servir brûlant, dans de petits verres.", "en": "Serve scalding, in small glasses." }
+  ]
+}

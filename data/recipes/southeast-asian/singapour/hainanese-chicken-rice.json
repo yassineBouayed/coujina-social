@@ -1,0 +1,46 @@
+{
+  "slug": "hainanese-chicken-rice",
+  "cuisine": "southeast-asian",
+  "country": "singapour",
+  "origin": "Singapour",
+  "native_name": "海南鸡饭",
+  "title": {
+    "fr": "Riz au poulet hainanais",
+    "en": "Hainanese chicken rice"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 40, "cook_min": 60 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["national", "poche", "gingembre", "riz"],
+  "ingredients": [
+    { "raw": "1 poulet entier", "qty": 1, "unit": "piece", "item": "poulet entier" },
+    { "raw": "500 g de riz long grain", "qty": 500, "unit": "g", "item": "riz long grain" },
+    { "raw": "1 gros morceau de gingembre", "qty": 1, "unit": "piece", "item": "gingembre" },
+    { "raw": "1 tête d'ail", "qty": 10, "unit": "piece", "item": "ail" },
+    { "raw": "6 oignons nouveaux", "qty": 6, "unit": "piece", "item": "oignon nouveau" },
+    { "raw": "2 feuilles de pandan, nouées", "qty": 2, "unit": "piece", "item": "feuille de pandan", "prep": "nouée" },
+    { "raw": "3 c. à s. d'huile de sésame", "qty": 3, "unit": "tbsp", "item": "huile de sésame" },
+    { "raw": "6 piments oiseau", "qty": 6, "unit": "piece", "item": "piment oiseau", "group": "sauce-piment" },
+    { "raw": "1 morceau de gingembre, râpé", "qty": 1, "unit": "piece", "item": "gingembre", "prep": "râpé", "group": "sauce-piment" },
+    { "raw": "3 citrons verts, leur jus", "qty": 3, "unit": "piece", "item": "citron vert", "group": "sauce-piment" },
+    { "raw": "4 c. à s. de gingembre frais, râpé", "qty": 4, "unit": "tbsp", "item": "gingembre", "prep": "râpé", "group": "sauce-gingembre" },
+    { "raw": "8 cl d'huile neutre", "qty": 8, "unit": "cl", "item": "huile neutre", "group": "sauce-gingembre" },
+    { "raw": "3 c. à s. de sauce soja foncée", "qty": 3, "unit": "tbsp", "item": "sauce soja foncée", "group": "service" },
+    { "raw": "1 concombre, en rondelles", "qty": 1, "unit": "piece", "item": "concombre", "prep": "en rondelles", "group": "service" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le poulet est POCHÉ, jamais bouilli : l'eau doit à peine frémir, sinon la peau se déchire.", "en": "The chicken is POACHED, never boiled: the water must barely shiver, or the skin tears." },
+    { "fr": "Le plonger dans l'eau frémissante avec gingembre et ciboule, et couper le feu au premier frémissement.", "en": "Lower it into simmering water with ginger and spring onion, and cut the heat at the first shiver." },
+    { "fr": "Le laisser CUIRE DANS L'EAU QUI REFROIDIT, quarante-cinq minutes, à couvert.", "en": "Let it COOK IN THE COOLING WATER for forty-five minutes, covered." },
+    { "fr": "Le plonger ensuite dans l'eau GLACÉE dix minutes : ce choc rend la peau gélatineuse et ferme.", "en": "Then plunge it into ICED water for ten minutes: this shock makes the skin gelatinous and firm." },
+    { "fr": "Cuire le riz DANS LE BOUILLON de pochage, avec l'ail et le gingembre revenus à l'huile de sésame.", "en": "Cook the rice IN THE POACHING BROTH, with garlic and ginger fried in sesame oil." },
+    { "fr": "Servir tiède avec les deux sauces, un bol de bouillon clair et du concombre.", "en": "Serve warm with both sauces, a bowl of clear broth and cucumber." }
+  ],
+  "notes": [
+    { "fr": "Le riz est la moitié du plat : cuit à l'eau, il n'a aucun goût et le plat entier s'effondre.", "en": "The rice is half the dish: cooked in water, it tastes of nothing and the whole thing collapses." }
+  ]
+}

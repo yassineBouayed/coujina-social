@@ -1,0 +1,37 @@
+{
+  "slug": "pancakes-americains",
+  "cuisine": "north-american",
+  "country": "etats-unis",
+  "origin": "États-Unis",
+  "native_name": "Buttermilk pancakes",
+  "title": {
+    "fr": "Pancakes au lait fermenté",
+    "en": "Buttermilk pancakes"
+  },
+  "meal_type": "dessert",
+  "servings": 5,
+  "times": { "prep_min": 15, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["petit-dejeuner", "enfants", "sirop", "rapide"],
+  "ingredients": [
+    { "raw": "400 g de farine de blé", "qty": 400, "unit": "g", "item": "farine de blé" },
+    { "raw": "50 cl de lait fermenté", "qty": 50, "unit": "cl", "item": "lait fermenté" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf" },
+    { "raw": "80 g de beurre, fondu", "qty": 80, "unit": "g", "item": "beurre", "prep": "fondu" },
+    { "raw": "2 c. à s. de sucre", "qty": 2, "unit": "tbsp", "item": "sucre" },
+    { "raw": "2 c. à c. de levure chimique", "qty": 2, "unit": "tsp", "item": "levure chimique" },
+    { "raw": "1 c. à c. de bicarbonate de soude", "qty": 1, "unit": "tsp", "item": "bicarbonate de soude" },
+    { "raw": "200 g de sirop d'érable", "qty": 200, "unit": "g", "item": "sirop d'érable", "group": "service" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le LAIT FERMENTÉ et le BICARBONATE réagissent ensemble : c'est ce qui donne les pancakes épais.", "en": "BUTTERMILK and BICARBONATE react together: that is what gives thick pancakes." },
+    { "fr": "Mélanger le MOINS possible : la pâte doit rester GRUMELEUSE, avec des poches de farine sèche.", "en": "Mix AS LITTLE as possible: the batter must stay LUMPY, with pockets of dry flour." },
+    { "fr": "Une pâte lisse développe le gluten et donne des pancakes plats et caoutchouteux.", "en": "A smooth batter develops gluten and gives flat, rubbery pancakes." },
+    { "fr": "Laisser reposer DIX MINUTES : la farine s'hydrate et le bicarbonate commence à agir.", "en": "Rest for TEN MINUTES: the flour hydrates and the bicarbonate starts working." },
+    { "fr": "Cuire à feu MOYEN et retourner dès que des BULLES apparaissent et éclatent en surface.", "en": "Cook over MEDIUM heat and turn as soon as BUBBLES appear and burst on the surface." },
+    { "fr": "Ne retourner QU'UNE FOIS : à la seconde, le pancake s'affaisse et ne remonte plus.", "en": "Turn ONLY ONCE: on a second turn, the pancake collapses and never rises again." }
+  ]
+}

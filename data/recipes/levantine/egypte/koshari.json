@@ -1,0 +1,44 @@
+{
+  "slug": "koshari",
+  "cuisine": "levantine",
+  "country": "egypte",
+  "origin": "Égypte",
+  "native_name": "Koshari",
+  "title": {
+    "fr": "Koshari, riz, lentilles et pâtes à la sauce tomate",
+    "en": "Koshari, rice, lentils and pasta in tomato sauce"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 70 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "national", "vegetarien", "economique"],
+  "ingredients": [
+    { "raw": "300 g de riz long grain", "qty": 300, "unit": "g", "item": "riz long grain" },
+    { "raw": "250 g de lentilles vertes", "qty": 250, "unit": "g", "item": "lentille verte" },
+    { "raw": "200 g de pâtes courtes", "qty": 200, "unit": "g", "item": "pâtes courtes" },
+    { "raw": "250 g de pois chiches en conserve, égouttés", "qty": 250, "unit": "g", "item": "pois chiche en conserve", "prep": "égoutté" },
+    { "raw": "4 gros oignons, émincés finement", "qty": 4, "unit": "piece", "item": "oignon", "prep": "émincé finement", "group": "oignons frits" },
+    { "raw": "3 c. à s. de farine de blé", "qty": 3, "unit": "tbsp", "item": "farine de blé", "group": "oignons frits" },
+    { "raw": "800 g de tomates concassées", "qty": 800, "unit": "g", "item": "tomate concassée", "group": "sauce" },
+    { "raw": "6 gousses d'ail, écrasées", "qty": 6, "unit": "piece", "item": "ail", "prep": "écrasé", "group": "sauce" },
+    { "raw": "2 c. à s. de vinaigre blanc", "qty": 2, "unit": "tbsp", "item": "vinaigre blanc", "group": "sauce" },
+    { "raw": "2 c. à c. de cumin moulu", "qty": 2, "unit": "tsp", "item": "cumin", "group": "sauce" },
+    { "raw": "1 c. à c. de piment en poudre", "qty": 1, "unit": "tsp", "item": "piment en poudre", "group": "sauce" },
+    { "raw": "50 cl d'huile de tournesol pour la friture", "qty": 50, "unit": "cl", "item": "huile de tournesol" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Émincer les oignons très finement, les fariner et les frire à 160 °C jusqu'à ce qu'ils soient bruns et cassants.", "en": "Slice the onions very thin, flour them and fry at 160°C until brown and brittle." },
+    { "fr": "Ces oignons frits ne sont pas une garniture : sans eux, le koshari n'a ni goût ni texture.", "en": "Those fried onions are not a garnish: without them, koshari has neither taste nor texture." },
+    { "fr": "Cuire séparément le riz, les lentilles et les pâtes : chacun a son temps, tout mélanger les rate tous les trois.", "en": "Cook the rice, lentils and pasta separately: each has its own timing, and cooking them together ruins all three." },
+    { "fr": "Faire la sauce : ail dans l'huile, tomates, cumin, piment, vinaigre, vingt-cinq minutes à découvert.", "en": "Make the sauce: garlic in oil, tomatoes, cumin, chilli, vinegar, twenty-five minutes uncovered." },
+    { "fr": "Le vinaigre est ce qui distingue la sauce du koshari d'une sauce tomate ordinaire : ne pas l'omettre.", "en": "The vinegar is what separates koshari sauce from an ordinary tomato sauce: do not leave it out." },
+    { "fr": "Dresser en couches : lentilles, riz, pâtes, pois chiches, sauce brûlante, oignons frits.", "en": "Layer it up: lentils, rice, pasta, chickpeas, scalding sauce, fried onions." }
+  ],
+  "notes": [
+    { "fr": "On sert à part une sauce à l'ail et au vinaigre — le dakka — et de la sauce piquante. Chacun ajuste son assiette.", "en": "A garlic and vinegar sauce — dakka — and hot sauce are served alongside. Each diner adjusts their own plate." }
+  ]
+}

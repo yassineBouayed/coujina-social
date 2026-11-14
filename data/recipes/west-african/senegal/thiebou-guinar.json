@@ -1,0 +1,43 @@
+{
+  "slug": "thiebou-guinar",
+  "cuisine": "west-african",
+  "country": "senegal",
+  "origin": "Sénégal",
+  "native_name": "Ceebu ginaar",
+  "title": {
+    "fr": "Thiébou guinar, riz au poulet",
+    "en": "Thiebou guinar, rice with chicken"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 75 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["riz", "poulet", "legumes", "dimanche"],
+  "ingredients": [
+    { "raw": "1 poulet entier, découpé", "qty": 1, "unit": "piece", "item": "poulet entier", "prep": "découpé" },
+    { "raw": "600 g de riz brisé", "qty": 600, "unit": "g", "item": "riz brisé" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "4 c. à s. de concentré de tomate", "qty": 4, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "1 chou blanc, en quartiers", "qty": 1, "unit": "piece", "item": "chou blanc", "prep": "en quartiers" },
+    { "raw": "3 carottes, en tronçons", "qty": 3, "unit": "piece", "item": "carotte", "prep": "en tronçons" },
+    { "raw": "1 aubergine, en quartiers", "qty": 1, "unit": "piece", "item": "aubergine", "prep": "en quartiers" },
+    { "raw": "1 manioc, en tronçons", "qty": 1, "unit": "piece", "item": "manioc", "prep": "en tronçons" },
+    { "raw": "1 piment oiseau", "qty": 1, "unit": "piece", "item": "piment oiseau" },
+    { "raw": "2 cubes de bouillon", "qty": 2, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "10 c. à s. d'huile d'arachide", "qty": 10, "unit": "tbsp", "item": "huile d'arachide" },
+    { "raw": "1 bouquet de persil plat", "qty": 1, "unit": "bunch", "item": "persil plat", "group": "farce" },
+    { "raw": "4 gousses d'ail", "qty": 4, "unit": "piece", "item": "ail", "group": "farce" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Piler ail, persil, sel et poivre, et en farcir les morceaux de poulet par des entailles.", "en": "Pound the garlic, parsley, salt and pepper, and stuff it into slits cut in the chicken pieces." },
+    { "fr": "Faire dorer le poulet dans l'huile et le réserver.", "en": "Brown the chicken in the oil and set aside." },
+    { "fr": "Faire tomber les oignons, ajouter le concentré de tomate et le laisser roussir deux minutes.", "en": "Melt the onions, add the tomato purée and let it darken for two minutes." },
+    { "fr": "Mouiller largement, ajouter cubes, piment entier et légumes durs, puis le poulet, et cuire quarante minutes.", "en": "Add plenty of water, the stock cubes, whole chilli and firm vegetables, then the chicken, and cook for forty minutes." },
+    { "fr": "Retirer poulet et légumes, mesurer le bouillon, et y cuire le riz à couvert.", "en": "Remove the chicken and vegetables, measure the broth, and cook the rice in it, covered." },
+    { "fr": "Le riz doit rester en grains détachés et fortement coloré : c'est la marque du thiéboudienne réussi.", "en": "The rice must stay in separate, deeply coloured grains: the mark of a successful thieboudienne." }
+  ]
+}

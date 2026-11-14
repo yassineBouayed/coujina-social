@@ -1,0 +1,36 @@
+{
+  "slug": "ilish-bhapa",
+  "cuisine": "south-asian",
+  "country": "bangladesh",
+  "origin": "Bangladesh",
+  "native_name": "Ilish bhapa",
+  "title": {
+    "fr": "Ilish à la vapeur en papillote",
+    "en": "Steamed hilsa in a sealed pot"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["vapeur", "moutarde", "poisson", "fete"],
+  "ingredients": [
+    { "raw": "800 g d'ilish, en darnes", "qty": 800, "unit": "g", "item": "hilsa", "prep": "en darnes" },
+    { "raw": "3 c. à s. de graines de moutarde", "qty": 3, "unit": "tbsp", "item": "graine de moutarde" },
+    { "raw": "4 c. à s. de coco râpé", "qty": 4, "unit": "tbsp", "item": "coco râpé" },
+    { "raw": "4 c. à s. de yaourt", "qty": 4, "unit": "tbsp", "item": "yaourt" },
+    { "raw": "6 piments verts, fendus", "qty": 6, "unit": "piece", "item": "piment frais", "prep": "fendu" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "8 c. à s. d'huile de moutarde", "qty": 8, "unit": "tbsp", "item": "huile de moutarde" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Broyer les graines de moutarde trempées avec le coco râpé, les piments et le sel.", "en": "Grind the soaked mustard seeds with the grated coconut, chillies and salt." },
+    { "fr": "Mélanger avec le yaourt, le curcuma et l'huile de moutarde crue.", "en": "Mix with the yoghurt, turmeric and raw mustard oil." },
+    { "fr": "Enrober le poisson et le disposer en une seule couche dans un plat métallique.", "en": "Coat the fish and lay it in a single layer in a metal dish." },
+    { "fr": "Fermer HERMÉTIQUEMENT et poser le plat dans une casserole d'eau frémissante, à mi-hauteur.", "en": "Seal it AIRTIGHT and set the dish in a pan of simmering water, halfway up its side." },
+    { "fr": "Cuire vingt-cinq minutes à la vapeur : l'huile de moutarde reste crue et garde toute sa force.", "en": "Steam for twenty-five minutes: the mustard oil stays raw and keeps all its bite." },
+    { "fr": "Laisser reposer cinq minutes avant d'ouvrir, et servir avec du riz blanc.", "en": "Rest for five minutes before opening, and serve with white rice." }
+  ]
+}

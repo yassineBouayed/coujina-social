@@ -1,0 +1,38 @@
+{
+  "slug": "tteokbokki",
+  "cuisine": "east-asian",
+  "country": "coree-du-sud",
+  "origin": "Corée du Sud",
+  "native_name": "떡볶이",
+  "title": {
+    "fr": "Tteokbokki, gnocchis de riz à la sauce gochujang",
+    "en": "Tteokbokki, rice cakes in gochujang sauce"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "gochujang", "rapide", "populaire"],
+  "ingredients": [
+    { "raw": "600 g de tteok", "qty": 600, "unit": "g", "item": "tteok" },
+    { "raw": "4 c. à s. de gochujang", "qty": 4, "unit": "tbsp", "item": "gochujang" },
+    { "raw": "2 c. à s. de gochugaru", "qty": 2, "unit": "tbsp", "item": "gochugaru" },
+    { "raw": "3 c. à s. de sucre", "qty": 3, "unit": "tbsp", "item": "sucre" },
+    { "raw": "2 c. à s. de sauce soja", "qty": 2, "unit": "tbsp", "item": "sauce soja" },
+    { "raw": "70 cl de bouillon d'anchois", "qty": 70, "unit": "cl", "item": "anchois", "prep": "en bouillon" },
+    { "raw": "6 oignons nouveaux, en tronçons", "qty": 6, "unit": "piece", "item": "oignon nouveau", "prep": "en tronçons" },
+    { "raw": "2 œufs durs", "qty": 2, "unit": "piece", "item": "oeuf", "prep": "dur", "optional": true },
+    { "raw": "2 feuilles de nori, en lanières", "qty": 2, "unit": "piece", "item": "nori", "prep": "en lanières", "optional": true },
+    { "raw": "1 c. à s. d'huile de sésame", "qty": 1, "unit": "tbsp", "item": "huile de sésame" }
+  ],
+  "steps": [
+    { "fr": "Tremper les tteok trente minutes à l'eau tiède s'ils sont durs ou congelés.", "en": "Soak the rice cakes for thirty minutes in warm water if they are hard or frozen." },
+    { "fr": "Faire un bouillon d'anchois séchés et de kombu : c'est lui, et non l'eau, qui donne le fond du plat.", "en": "Make a broth of dried anchovies and kombu: it, not water, gives the dish its base." },
+    { "fr": "Délayer gochujang, gochugaru, sucre et sauce soja dans le bouillon froid, avant de chauffer.", "en": "Slake the gochujang, gochugaru, sugar and soy in the cold broth, before heating." },
+    { "fr": "Porter à ébullition et ajouter les tteok, en remuant souvent : ils accrochent dès que la sauce épaissit.", "en": "Bring to a boil and add the rice cakes, stirring often: they catch as soon as the sauce thickens." },
+    { "fr": "Cuire dix minutes : les tteok doivent être moelleux au centre, jamais durs ni fondus.", "en": "Cook for ten minutes: the rice cakes should be chewy in the middle, neither hard nor collapsed." },
+    { "fr": "Finir aux oignons nouveaux et à l'huile de sésame, et servir dans la poêle.", "en": "Finish with spring onions and sesame oil, and serve in the pan." }
+  ]
+}

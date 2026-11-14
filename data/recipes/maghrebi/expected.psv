@@ -1,0 +1,605 @@
+# Vérité du catalogue, cuisine « maghrebi ».
+#
+# Pour chaque ligne d'ingrédient, celui du référentiel qu'un relecteur
+# choisit, ou `-` quand le référentiel n'a rien à offrir.
+#
+# PASSE MODÈLE, pas humaine, et la circularité est ici maximale : les
+# recettes ont été écrites AVEC le référentiel sous les yeux, et les
+# ingrédients qui manquaient y ont été ajoutés dans la foulée. Le taux de
+# rattachement du champ `item` ne mesure donc presque rien sur ces cuisines.
+# Ce qui mesure quelque chose, c'est le témoin `raw`, que `catalog:gate`
+# donne en regard.
+#
+# Une ligne annotée ici n'a pas été relue par quelqu'un qui cuisine ces
+# plats. Le critère de sortie de J5 reste entier.
+recipe|line|item|expected_slug|note
+baklawa-algerienne|0|pâte filo|pate-filo|
+baklawa-algerienne|1|poudre d'amande|poudre-d-amande|
+baklawa-algerienne|2|sucre glace|sucre-glace|
+baklawa-algerienne|3|cannelle|cannelle|
+baklawa-algerienne|4|eau de fleur d'oranger|eau-de-fleur-d-oranger|
+baklawa-algerienne|5|beurre|beurre|
+baklawa-algerienne|6|miel|miel|
+baklawa-algerienne|7|citron|citron|
+baklawa-algerienne|8|amande|amande|
+berkoukes-legumes|0|berkoukes|berkoukes|
+berkoukes-legumes|1|épaule d'agneau|epaule-d-agneau|
+berkoukes-legumes|2|carotte|carotte|
+berkoukes-legumes|3|courgette|courgette|
+berkoukes-legumes|4|navet|navet|
+berkoukes-legumes|5|pois chiche sec|pois-chiche-sec|
+berkoukes-legumes|6|oignon|oignon|
+berkoukes-legumes|7|concentré de tomate|concentre-de-tomate|
+berkoukes-legumes|8|paprika|paprika|
+berkoukes-legumes|9|piment en poudre|piment-en-poudre|
+berkoukes-legumes|10|huile d'olive|huile-d-olive|
+berkoukes-legumes|11|sel|sel|
+bourek-viande|0|feuille de brick|feuille-de-brick|
+bourek-viande|1|boeuf haché|boeuf-hache|
+bourek-viande|2|oignon|oignon|
+bourek-viande|3|persil plat|persil-plat|
+bourek-viande|4|cannelle|cannelle|
+bourek-viande|5|oeuf|oeuf|
+bourek-viande|6|emmental|emmental|
+bourek-viande|7|farine de blé|farine-de-ble|
+bourek-viande|8|huile de tournesol|huile-de-tournesol|
+bourek-viande|9|huile d'olive|huile-d-olive|
+bourek-viande|10|sel|sel|
+bourek-viande|11|poivre noir|poivre-noir|
+chakhchoukha|0|semoule fine|semoule-fine|
+chakhchoukha|1|huile neutre|huile-neutre|
+chakhchoukha|2|sel|sel|
+chakhchoukha|3|épaule d'agneau|epaule-d-agneau|
+chakhchoukha|4|pois chiche sec|pois-chiche-sec|
+chakhchoukha|5|oignon|oignon|
+chakhchoukha|6|concentré de tomate|concentre-de-tomate|
+chakhchoukha|7|paprika|paprika|
+chakhchoukha|8|piment en poudre|piment-en-poudre|
+chakhchoukha|9|cannelle|cannelle|
+chakhchoukha|10|huile d'olive|huile-d-olive|
+chakhchoukha|11|sel|sel|
+chakhchoukha|12|poivre noir|poivre-noir|
+chorba-beida|0|blanc de poulet|blanc-de-poulet|
+chorba-beida|1|langue d'oiseau|langue-d-oiseau|
+chorba-beida|2|pois chiche sec|pois-chiche-sec|
+chorba-beida|3|oignon|oignon|
+chorba-beida|4|cannelle|cannelle|
+chorba-beida|5|poivre blanc|poivre-blanc|
+chorba-beida|6|oeuf|oeuf|
+chorba-beida|7|citron|citron|
+chorba-beida|8|beurre|beurre|
+chorba-beida|9|coriandre fraîche|coriandre-fraiche|
+chorba-beida|10|sel|sel|
+chtitha-djedj|0|cuisse de poulet|cuisse-de-poulet|
+chtitha-djedj|1|oignon|oignon|
+chtitha-djedj|2|ail|ail|
+chtitha-djedj|3|concentré de tomate|concentre-de-tomate|
+chtitha-djedj|4|paprika|paprika|
+chtitha-djedj|5|piment en poudre|piment-en-poudre|
+chtitha-djedj|6|cumin|cumin|
+chtitha-djedj|7|pois chiche en conserve|pois-chiche-en-conserve|
+chtitha-djedj|8|huile d'olive|huile-d-olive|
+chtitha-djedj|9|sel|sel|
+chtitha-djedj|10|poivre noir|poivre-noir|
+dolma-algeroise|0|courgette|courgette|
+dolma-algeroise|1|pomme de terre|pomme-de-terre|
+dolma-algeroise|2|poivron vert|poivron-vert|
+dolma-algeroise|3|agneau haché|agneau-hache|
+dolma-algeroise|4|riz rond|riz-rond|
+dolma-algeroise|5|oignon|oignon|
+dolma-algeroise|6|persil plat|persil-plat|
+dolma-algeroise|7|cannelle|cannelle|
+dolma-algeroise|8|pois chiche sec|pois-chiche-sec|
+dolma-algeroise|9|poivre blanc|poivre-blanc|
+dolma-algeroise|10|citron|citron|
+dolma-algeroise|11|huile neutre|huile-neutre|
+dolma-algeroise|12|sel|sel|
+griwech|0|farine de blé|farine-de-ble|
+griwech|1|oeuf|oeuf|
+griwech|2|beurre|beurre|
+griwech|3|sésame|sesame|
+griwech|4|vinaigre blanc|vinaigre-blanc|
+griwech|5|safran|safran|
+griwech|6|levure chimique|levure-chimique|
+griwech|7|miel|miel|
+griwech|8|eau de fleur d'oranger|eau-de-fleur-d-oranger|
+griwech|9|huile de tournesol|huile-de-tournesol|
+griwech|10|sésame|sesame|
+griwech|11|sel|sel|
+hmiss|0|poivron vert|poivron-vert|
+hmiss|1|tomate|tomate|
+hmiss|2|ail|ail|
+hmiss|3|huile d'olive|huile-d-olive|
+hmiss|4|cumin|cumin|
+hmiss|5|vinaigre de vin|vinaigre-de-vin|
+hmiss|6|piment frais|piment-frais|
+hmiss|7|sel|sel|
+kalb-el-louz|0|semoule moyenne|semoule-moyenne|
+kalb-el-louz|1|sucre|sucre|
+kalb-el-louz|2|beurre|beurre|
+kalb-el-louz|3|poudre d'amande|poudre-d-amande|
+kalb-el-louz|4|sucre glace|sucre-glace|
+kalb-el-louz|5|cannelle|cannelle|
+kalb-el-louz|6|eau de fleur d'oranger|eau-de-fleur-d-oranger|
+kalb-el-louz|7|sucre|sucre|
+kalb-el-louz|8|citron|citron|
+kalb-el-louz|9|amande|amande|
+karantika|0|farine de pois chiche|farine-de-pois-chiche|
+karantika|1|eau|eau|
+karantika|2|oeuf|oeuf|
+karantika|3|huile neutre|huile-neutre|
+karantika|4|sel|sel|
+karantika|5|cumin|cumin|
+karantika|6|harissa|harissa|
+kesra-rakhsis|0|semoule moyenne|semoule-moyenne|
+kesra-rakhsis|1|sel|sel|
+kesra-rakhsis|2|levure chimique|levure-chimique|
+kesra-rakhsis|3|huile neutre|huile-neutre|
+kesra-rakhsis|4|eau|eau|
+kesra-rakhsis|5|semoule fine|semoule-fine|
+makrout|0|semoule moyenne|semoule-moyenne|
+makrout|1|beurre|beurre|
+makrout|2|sel|sel|
+makrout|3|eau de fleur d'oranger|eau-de-fleur-d-oranger|
+makrout|4|datte|datte|
+makrout|5|cannelle|cannelle|
+makrout|6|huile neutre|huile-neutre|
+makrout|7|miel|miel|
+makrout|8|huile de tournesol|huile-de-tournesol|
+matlouh|0|semoule fine|semoule-fine|
+matlouh|1|farine de blé|farine-de-ble|
+matlouh|2|levure boulangère|levure-boulangere|
+matlouh|3|sel|sel|
+matlouh|4|sucre|sucre|
+matlouh|5|eau|eau|
+matlouh|6|huile neutre|huile-neutre|
+mderbel-courgettes|0|courgette|courgette|
+mderbel-courgettes|1|ail|ail|
+mderbel-courgettes|2|vinaigre de vin|vinaigre-de-vin|
+mderbel-courgettes|3|menthe séchée|menthe-sechee|
+mderbel-courgettes|4|paprika|paprika|
+mderbel-courgettes|5|cumin|cumin|
+mderbel-courgettes|6|concentré de tomate|concentre-de-tomate|
+mderbel-courgettes|7|huile d'olive|huile-d-olive|
+mderbel-courgettes|8|sel|sel|
+mhadjeb|0|semoule fine|semoule-fine|
+mhadjeb|1|sel|sel|
+mhadjeb|2|huile neutre|huile-neutre|
+mhadjeb|3|tomate|tomate|
+mhadjeb|4|oignon|oignon|
+mhadjeb|5|poivron rouge|poivron-rouge|
+mhadjeb|6|concentré de tomate|concentre-de-tomate|
+mhadjeb|7|paprika|paprika|
+mhadjeb|8|harissa|harissa|
+mhadjeb|9|huile d'olive|huile-d-olive|
+rechta-algeroise|0|rechta|rechta|
+rechta-algeroise|1|poulet entier|poulet-entier|
+rechta-algeroise|2|navet|navet|
+rechta-algeroise|3|courgette|courgette|
+rechta-algeroise|4|pois chiche sec|pois-chiche-sec|
+rechta-algeroise|5|oignon|oignon|
+rechta-algeroise|6|cannelle|cannelle|
+rechta-algeroise|7|poivre blanc|poivre-blanc|
+rechta-algeroise|8|huile neutre|huile-neutre|
+rechta-algeroise|9|coriandre fraîche|coriandre-fraiche|
+rechta-algeroise|10|sel|sel|
+tajine-hlou|0|épaule d'agneau|epaule-d-agneau|
+tajine-hlou|1|pruneau|pruneau|
+tajine-hlou|2|abricot sec|abricot-sec|
+tajine-hlou|3|raisin sec|raisin-sec|
+tajine-hlou|4|amande|amande|
+tajine-hlou|5|cannelle|cannelle|
+tajine-hlou|6|sucre|sucre|
+tajine-hlou|7|eau de fleur d'oranger|eau-de-fleur-d-oranger|
+tajine-hlou|8|beurre|beurre|
+tajine-hlou|9|sel|sel|
+tlitli|0|langue d'oiseau|langue-d-oiseau|
+tlitli|1|agneau haché|agneau-hache|
+tlitli|2|oeuf|oeuf|
+tlitli|3|cannelle|cannelle|
+tlitli|4|blanc de poulet|blanc-de-poulet|
+tlitli|5|pois chiche sec|pois-chiche-sec|
+tlitli|6|oignon|oignon|
+tlitli|7|safran|safran|
+tlitli|8|cannelle|cannelle|
+tlitli|9|poivre blanc|poivre-blanc|
+tlitli|10|beurre|beurre|
+tlitli|11|sel|sel|
+zlabia|0|farine de blé|farine-de-ble|
+zlabia|1|maïzena|maizena|
+zlabia|2|levure boulangère|levure-boulangere|
+zlabia|3|yaourt|yaourt|
+zlabia|4|safran|safran|
+zlabia|5|eau|eau|
+zlabia|6|sucre|sucre|
+zlabia|7|citron|citron|
+zlabia|8|eau de fleur d'oranger|eau-de-fleur-d-oranger|
+zlabia|9|huile de tournesol|huile-de-tournesol|
+amlou|0|amande|amande|
+amlou|1|huile d'argan|huile-d-argan|
+amlou|2|miel|miel|
+amlou|3|sel|sel|
+atay-naanaa|0|thé vert|the-vert|
+atay-naanaa|1|menthe fraîche|menthe-fraiche|
+atay-naanaa|2|sucre|sucre|
+atay-naanaa|3|eau|eau|
+batbout|0|farine de blé|farine-de-ble|
+batbout|1|semoule fine|semoule-fine|
+batbout|2|levure boulangère|levure-boulangere|
+batbout|3|sel|sel|
+batbout|4|sucre|sucre|
+batbout|5|eau|eau|
+batbout|6|huile d'olive|huile-d-olive|
+boulettes-sardines-tomate|0|sardine|sardine|
+boulettes-sardines-tomate|1|coriandre fraîche|coriandre-fraiche|
+boulettes-sardines-tomate|2|persil plat|persil-plat|
+boulettes-sardines-tomate|3|ail|ail|
+boulettes-sardines-tomate|4|cumin|cumin|
+boulettes-sardines-tomate|5|paprika|paprika|
+boulettes-sardines-tomate|6|semoule fine|semoule-fine|
+boulettes-sardines-tomate|7|tomate|tomate|
+boulettes-sardines-tomate|8|oignon|oignon|
+boulettes-sardines-tomate|9|concentré de tomate|concentre-de-tomate|
+boulettes-sardines-tomate|10|paprika|paprika|
+boulettes-sardines-tomate|11|huile d'olive|huile-d-olive|
+boulettes-sardines-tomate|12|sel|sel|
+briouates-amandes|0|feuille de brick|feuille-de-brick|
+briouates-amandes|1|poudre d'amande|poudre-d-amande|
+briouates-amandes|2|sucre glace|sucre-glace|
+briouates-amandes|3|eau de fleur d'oranger|eau-de-fleur-d-oranger|
+briouates-amandes|4|cannelle|cannelle|
+briouates-amandes|5|beurre|beurre|
+briouates-amandes|6|farine de blé|farine-de-ble|
+briouates-amandes|7|miel|miel|
+briouates-amandes|8|huile de tournesol|huile-de-tournesol|
+briouates-amandes|9|sésame|sesame|
+chebakia|0|farine de blé|farine-de-ble|
+chebakia|1|sésame|sesame|
+chebakia|2|amande|amande|
+chebakia|3|anis vert|anis-vert|
+chebakia|4|cannelle|cannelle|
+chebakia|5|safran|safran|
+chebakia|6|levure boulangère|levure-boulangere|
+chebakia|7|beurre|beurre|
+chebakia|8|eau de fleur d'oranger|eau-de-fleur-d-oranger|
+chebakia|9|vinaigre blanc|vinaigre-blanc|
+chebakia|10|miel|miel|
+chebakia|11|huile de tournesol|huile-de-tournesol|
+chebakia|12|sésame|sesame|
+chebakia|13|sel|sel|
+ghriba-bahla|0|farine de blé|farine-de-ble|
+ghriba-bahla|1|sucre glace|sucre-glace|
+ghriba-bahla|2|beurre|beurre|
+ghriba-bahla|3|huile de tournesol|huile-de-tournesol|
+ghriba-bahla|4|sésame|sesame|
+ghriba-bahla|5|amande|amande|
+ghriba-bahla|6|levure chimique|levure-chimique|
+ghriba-bahla|7|cannelle|cannelle|
+ghriba-bahla|8|sel|sel|
+harcha|0|semoule moyenne|semoule-moyenne|
+harcha|1|beurre|beurre|
+harcha|2|sucre|sucre|
+harcha|3|levure chimique|levure-chimique|
+harcha|4|sel|sel|
+harcha|5|lait|lait|
+harcha|6|semoule fine|semoule-fine|
+hergma|0|pied de veau|pied-de-veau|re-annotee : le referentiel a gagne l entree precise
+hergma|1|pois chiche sec|pois-chiche-sec|
+hergma|2|blé tendre|ble-tendre|
+hergma|3|oignon|oignon|
+hergma|4|ail|ail|
+hergma|5|curcuma|curcuma|
+hergma|6|gingembre moulu|gingembre-moulu|
+hergma|7|safran|safran|
+hergma|8|cumin|cumin|
+hergma|9|huile d'olive|huile-d-olive|
+hergma|10|sel|sel|
+hergma|11|poivre noir|poivre-noir|
+kaab-el-ghazal|0|poudre d'amande|poudre-d-amande|
+kaab-el-ghazal|1|sucre glace|sucre-glace|
+kaab-el-ghazal|2|beurre|beurre|
+kaab-el-ghazal|3|eau de fleur d'oranger|eau-de-fleur-d-oranger|
+kaab-el-ghazal|4|cannelle|cannelle|
+kaab-el-ghazal|5|farine de blé|farine-de-ble|
+kaab-el-ghazal|6|beurre|beurre|
+kaab-el-ghazal|7|oeuf|oeuf|
+kaab-el-ghazal|8|eau de fleur d'oranger|eau-de-fleur-d-oranger|
+kaab-el-ghazal|9|sel|sel|
+khobz-dar|0|farine de blé|farine-de-ble|
+khobz-dar|1|semoule fine|semoule-fine|
+khobz-dar|2|levure boulangère|levure-boulangere|
+khobz-dar|3|sel|sel|
+khobz-dar|4|sucre|sucre|
+khobz-dar|5|anis vert|anis-vert|
+khobz-dar|6|sésame|sesame|
+khobz-dar|7|eau|eau|
+khobz-dar|8|huile d'olive|huile-d-olive|
+maakouda|0|pomme de terre|pomme-de-terre|
+maakouda|1|oeuf|oeuf|
+maakouda|2|ail|ail|
+maakouda|3|persil plat|persil-plat|
+maakouda|4|cumin|cumin|
+maakouda|5|paprika|paprika|
+maakouda|6|curcuma|curcuma|
+maakouda|7|farine de blé|farine-de-ble|
+maakouda|8|huile de tournesol|huile-de-tournesol|
+maakouda|9|sel|sel|
+mrouzia|0|épaule d'agneau|epaule-d-agneau|
+mrouzia|1|ras el-hanout|ras-el-hanout|
+mrouzia|2|raisin sec|raisin-sec|
+mrouzia|3|amande|amande|
+mrouzia|4|miel|miel|
+mrouzia|5|smen|smen|
+mrouzia|6|oignon|oignon|
+mrouzia|7|cannelle|cannelle|
+mrouzia|8|safran|safran|
+mrouzia|9|gingembre moulu|gingembre-moulu|
+mrouzia|10|sésame|sesame|
+mrouzia|11|sel|sel|
+pastilla-poisson|0|feuille de brick|feuille-de-brick|
+pastilla-poisson|1|cabillaud|cabillaud|
+pastilla-poisson|2|crevette|crevette|
+pastilla-poisson|3|calamar|calamar|
+pastilla-poisson|4|vermicelle de soja|vermicelle-de-soja|
+pastilla-poisson|5|ail|ail|
+pastilla-poisson|6|coriandre fraîche|coriandre-fraiche|
+pastilla-poisson|7|persil plat|persil-plat|
+pastilla-poisson|8|cumin|cumin|
+pastilla-poisson|9|paprika|paprika|
+pastilla-poisson|10|citron|citron|
+pastilla-poisson|11|huile d'olive|huile-d-olive|
+pastilla-poisson|12|tomate|tomate|
+pastilla-poisson|13|harissa|harissa|
+pastilla-poisson|14|beurre|beurre|
+pastilla-poisson|15|sel|sel|
+salade-marocaine|0|tomate|tomate|
+salade-marocaine|1|concombre|concombre|
+salade-marocaine|2|oignon rouge|oignon-rouge|
+salade-marocaine|3|poivron vert|poivron-vert|
+salade-marocaine|4|persil plat|persil-plat|
+salade-marocaine|5|citron|citron|
+salade-marocaine|6|huile d'olive|huile-d-olive|
+salade-marocaine|7|cumin|cumin|
+salade-marocaine|8|sel|sel|
+salade-orange-cannelle|0|orange|orange|
+salade-orange-cannelle|1|cannelle|cannelle|
+salade-orange-cannelle|2|sucre glace|sucre-glace|
+salade-orange-cannelle|3|eau de fleur d'oranger|eau-de-fleur-d-oranger|
+salade-orange-cannelle|4|datte|datte|
+salade-orange-cannelle|5|amande effilée|amande-effilee|
+seffa-chaariya|0|vermicelle|vermicelle|
+seffa-chaariya|1|beurre|beurre|
+seffa-chaariya|2|sucre glace|sucre-glace|
+seffa-chaariya|3|amande|amande|
+seffa-chaariya|4|cannelle|cannelle|
+seffa-chaariya|5|eau de fleur d'oranger|eau-de-fleur-d-oranger|
+seffa-chaariya|6|lait|lait|
+seffa-chaariya|7|sucre|sucre|
+seffa-chaariya|8|sel|sel|
+seffa-chaariya|9|huile neutre|huile-neutre|
+sellou|0|farine de blé|farine-de-ble|
+sellou|1|sésame|sesame|
+sellou|2|amande|amande|
+sellou|3|sucre glace|sucre-glace|
+sellou|4|beurre|beurre|
+sellou|5|miel|miel|
+sellou|6|anis vert|anis-vert|
+sellou|7|cannelle|cannelle|
+sellou|8|gomme arabique|gomme-arabique|
+sellou|9|sel|sel|
+tajine-veau-coings|0|veau à mijoter|veau-a-mijoter|
+tajine-veau-coings|1|coing|coing|
+tajine-veau-coings|2|oignon|oignon|
+tajine-veau-coings|3|cannelle|cannelle|
+tajine-veau-coings|4|safran|safran|
+tajine-veau-coings|5|gingembre moulu|gingembre-moulu|
+tajine-veau-coings|6|miel|miel|
+tajine-veau-coings|7|huile d'olive|huile-d-olive|
+tajine-veau-coings|8|beurre|beurre|
+tajine-veau-coings|9|sucre|sucre|
+tajine-veau-coings|10|cannelle|cannelle|
+tajine-veau-coings|11|sel|sel|
+tajine-veau-coings|12|poivre noir|poivre-noir|
+tanjia-marrakchia|0|veau à mijoter|veau-a-mijoter|
+tanjia-marrakchia|1|citron confit|citron-confit|
+tanjia-marrakchia|2|ail|ail|
+tanjia-marrakchia|3|smen|smen|
+tanjia-marrakchia|4|cumin|cumin|
+tanjia-marrakchia|5|safran|safran|
+tanjia-marrakchia|6|ras el-hanout|ras-el-hanout|
+tanjia-marrakchia|7|gingembre moulu|gingembre-moulu|
+tanjia-marrakchia|8|curcuma|curcuma|
+tanjia-marrakchia|9|huile d'olive|huile-d-olive|
+tanjia-marrakchia|10|eau|eau|
+tanjia-marrakchia|11|sel|sel|
+assidat-zgougou|0|zgougou|zgougou|
+assidat-zgougou|1|eau|eau|
+assidat-zgougou|2|maïzena|maizena|
+assidat-zgougou|3|sucre|sucre|
+assidat-zgougou|4|lait|lait|
+assidat-zgougou|5|maïzena|maizena|
+assidat-zgougou|6|sucre|sucre|
+assidat-zgougou|7|pistache|pistache|
+assidat-zgougou|8|amande effilée|amande-effilee|
+assidat-zgougou|9|eau de rose|eau-de-rose|
+bambalouni|0|farine de blé|farine-de-ble|
+bambalouni|1|levure boulangère|levure-boulangere|
+bambalouni|2|sel|sel|
+bambalouni|3|sucre|sucre|
+bambalouni|4|eau|eau|
+bambalouni|5|huile de tournesol|huile-de-tournesol|
+bambalouni|6|sucre|sucre|
+brik-a-l-oeuf|0|feuille de brick|feuille-de-brick|
+brik-a-l-oeuf|1|oeuf|oeuf|
+brik-a-l-oeuf|2|thon en conserve|thon-en-conserve|
+brik-a-l-oeuf|3|pomme de terre|pomme-de-terre|
+brik-a-l-oeuf|4|persil plat|persil-plat|
+brik-a-l-oeuf|5|câpre|capre|
+brik-a-l-oeuf|6|harissa|harissa|
+brik-a-l-oeuf|7|oignon|oignon|
+brik-a-l-oeuf|8|huile de tournesol|huile-de-tournesol|
+brik-a-l-oeuf|9|sel|sel|
+brik-a-l-oeuf|10|poivre noir|poivre-noir|
+couscous-poisson|0|couscous moyen|couscous-moyen|
+couscous-poisson|1|dorade|dorade|
+couscous-poisson|2|oignon|oignon|
+couscous-poisson|3|concentré de tomate|concentre-de-tomate|
+couscous-poisson|4|harissa|harissa|
+couscous-poisson|5|tabil|tabil|
+couscous-poisson|6|carvi|carvi|
+couscous-poisson|7|pois chiche sec|pois-chiche-sec|
+couscous-poisson|8|pomme de terre|pomme-de-terre|
+couscous-poisson|9|carotte|carotte|
+couscous-poisson|10|poivron vert|poivron-vert|
+couscous-poisson|11|huile d'olive|huile-d-olive|
+couscous-poisson|12|sel|sel|
+ghribia-pois-chiche|0|farine de pois chiche|farine-de-pois-chiche|
+ghribia-pois-chiche|1|sucre glace|sucre-glace|
+ghribia-pois-chiche|2|beurre|beurre|
+ghribia-pois-chiche|3|cannelle|cannelle|
+ghribia-pois-chiche|4|pistache|pistache|
+ghribia-pois-chiche|5|sel|sel|
+harissa-maison|0|piment séché|piment-seche|
+harissa-maison|1|ail|ail|
+harissa-maison|2|coriandre graines|coriandre-graines|
+harissa-maison|3|carvi|carvi|
+harissa-maison|4|cumin|cumin|
+harissa-maison|5|huile d'olive|huile-d-olive|
+harissa-maison|6|gros sel|gros-sel|
+kafteji|0|poivron vert|poivron-vert|
+kafteji|1|tomate|tomate|
+kafteji|2|courgette|courgette|
+kafteji|3|aubergine|aubergine|
+kafteji|4|pomme de terre|pomme-de-terre|
+kafteji|5|piment frais|piment-frais|
+kafteji|6|oeuf|oeuf|
+kafteji|7|harissa|harissa|
+kafteji|8|carvi|carvi|
+kafteji|9|huile de tournesol|huile-de-tournesol|
+kafteji|10|sel|sel|
+kamounia|0|foie de veau|foie-de-veau|
+kamounia|1|cumin|cumin|
+kamounia|2|ail|ail|
+kamounia|3|harissa|harissa|
+kamounia|4|concentré de tomate|concentre-de-tomate|
+kamounia|5|paprika|paprika|
+kamounia|6|laurier|laurier|
+kamounia|7|huile d'olive|huile-d-olive|
+kamounia|8|sel|sel|
+khobz-tabouna|0|semoule moyenne|semoule-moyenne|
+khobz-tabouna|1|semoule fine|semoule-fine|
+khobz-tabouna|2|levure boulangère|levure-boulangere|
+khobz-tabouna|3|sel|sel|
+khobz-tabouna|4|sucre|sucre|
+khobz-tabouna|5|eau|eau|
+khobz-tabouna|6|huile d'olive|huile-d-olive|
+khobz-tabouna|7|sésame|sesame|
+koucha-allouch|0|épaule d'agneau|epaule-d-agneau|
+koucha-allouch|1|pomme de terre|pomme-de-terre|
+koucha-allouch|2|ail|ail|
+koucha-allouch|3|tabil|tabil|
+koucha-allouch|4|harissa|harissa|
+koucha-allouch|5|curcuma|curcuma|
+koucha-allouch|6|huile d'olive|huile-d-olive|
+koucha-allouch|7|citron|citron|
+koucha-allouch|8|sel|sel|
+koucha-allouch|9|poivre noir|poivre-noir|
+lablabi|0|pois chiche sec|pois-chiche-sec|
+lablabi|1|ail|ail|
+lablabi|2|harissa|harissa|
+lablabi|3|cumin|cumin|
+lablabi|4|citron|citron|
+lablabi|5|huile d'olive|huile-d-olive|
+lablabi|6|pain|pain|
+lablabi|7|oeuf|oeuf|
+lablabi|8|thon en conserve|thon-en-conserve|
+lablabi|9|câpre|capre|
+lablabi|10|olive noire|olive-noire|
+lablabi|11|sel|sel|
+marqet-jelbana|0|épaule d'agneau|epaule-d-agneau|
+marqet-jelbana|1|petits pois|petits-pois|
+marqet-jelbana|2|oignon|oignon|
+marqet-jelbana|3|concentré de tomate|concentre-de-tomate|
+marqet-jelbana|4|harissa|harissa|
+marqet-jelbana|5|tabil|tabil|
+marqet-jelbana|6|pomme de terre|pomme-de-terre|
+marqet-jelbana|7|huile d'olive|huile-d-olive|
+marqet-jelbana|8|oeuf|oeuf|
+marqet-jelbana|9|sel|sel|
+mloukhia|0|molokhia|molokhia|
+mloukhia|1|boeuf à mijoter|boeuf-a-mijoter|
+mloukhia|2|huile d'olive|huile-d-olive|
+mloukhia|3|ail|ail|
+mloukhia|4|laurier|laurier|
+mloukhia|5|coriandre graines|coriandre-graines|
+mloukhia|6|piment en poudre|piment-en-poudre|
+mloukhia|7|sel|sel|
+mtabga|0|semoule fine|semoule-fine|
+mtabga|1|farine de blé|farine-de-ble|
+mtabga|2|levure boulangère|levure-boulangere|
+mtabga|3|sel|sel|
+mtabga|4|agneau haché|agneau-hache|
+mtabga|5|oignon|oignon|
+mtabga|6|tomate|tomate|
+mtabga|7|harissa|harissa|
+mtabga|8|tabil|tabil|
+mtabga|9|huile d'olive|huile-d-olive|
+mtabga|10|sel|sel|
+ojja-merguez|0|merguez|merguez|
+ojja-merguez|1|oeuf|oeuf|
+ojja-merguez|2|tomate|tomate|
+ojja-merguez|3|poivron vert|poivron-vert|
+ojja-merguez|4|ail|ail|
+ojja-merguez|5|harissa|harissa|
+ojja-merguez|6|concentré de tomate|concentre-de-tomate|
+ojja-merguez|7|tabil|tabil|
+ojja-merguez|8|huile d'olive|huile-d-olive|
+ojja-merguez|9|sel|sel|
+samsa-tunisienne|0|feuille de brick|feuille-de-brick|
+samsa-tunisienne|1|poudre d'amande|poudre-d-amande|
+samsa-tunisienne|2|sésame|sesame|
+samsa-tunisienne|3|sucre glace|sucre-glace|
+samsa-tunisienne|4|cannelle|cannelle|
+samsa-tunisienne|5|eau de rose|eau-de-rose|
+samsa-tunisienne|6|sucre|sucre|
+samsa-tunisienne|7|citron|citron|
+samsa-tunisienne|8|huile de tournesol|huile-de-tournesol|
+samsa-tunisienne|9|farine de blé|farine-de-ble|
+slata-mechouia|0|poivron vert|poivron-vert|
+slata-mechouia|1|tomate|tomate|
+slata-mechouia|2|oignon|oignon|
+slata-mechouia|3|ail|ail|
+slata-mechouia|4|carvi|carvi|
+slata-mechouia|5|coriandre graines|coriandre-graines|
+slata-mechouia|6|huile d'olive|huile-d-olive|
+slata-mechouia|7|thon en conserve|thon-en-conserve|
+slata-mechouia|8|oeuf|oeuf|
+slata-mechouia|9|olive noire|olive-noire|
+slata-mechouia|10|citron|citron|
+slata-mechouia|11|sel|sel|
+slata-tounsia|0|tomate|tomate|
+slata-tounsia|1|concombre|concombre|
+slata-tounsia|2|poivron vert|poivron-vert|
+slata-tounsia|3|oignon|oignon|
+slata-tounsia|4|menthe fraîche|menthe-fraiche|
+slata-tounsia|5|thon en conserve|thon-en-conserve|
+slata-tounsia|6|oeuf|oeuf|
+slata-tounsia|7|olive noire|olive-noire|
+slata-tounsia|8|citron|citron|
+slata-tounsia|9|huile d'olive|huile-d-olive|
+slata-tounsia|10|sel|sel|
+tajine-malsouka|0|feuille de brick|feuille-de-brick|
+tajine-malsouka|1|oeuf|oeuf|
+tajine-malsouka|2|blanc de poulet|blanc-de-poulet|
+tajine-malsouka|3|emmental|emmental|
+tajine-malsouka|4|oignon|oignon|
+tajine-malsouka|5|persil plat|persil-plat|
+tajine-malsouka|6|curcuma|curcuma|
+tajine-malsouka|7|huile d'olive|huile-d-olive|
+tajine-malsouka|8|sel|sel|
+tajine-malsouka|9|poivre noir|poivre-noir|
+the-aux-pignons|0|thé vert|the-vert|
+the-aux-pignons|1|sucre|sucre|
+the-aux-pignons|2|pignon de pin|pignon-de-pin|
+the-aux-pignons|3|menthe fraîche|menthe-fraiche|
+the-aux-pignons|4|eau|eau|

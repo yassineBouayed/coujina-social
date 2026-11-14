@@ -1,0 +1,42 @@
+{
+  "slug": "hunkar-begendi",
+  "cuisine": "middle-eastern",
+  "country": "turquie",
+  "origin": "Turquie",
+  "native_name": "Hünkâr beğendi",
+  "title": {
+    "fr": "Hünkâr beğendi, agneau sur purée d'aubergine au fromage",
+    "en": "Hunkar begendi, lamb on cheesy aubergine purée"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 110 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ottoman", "aubergine", "fete", "fume"],
+  "ingredients": [
+    { "raw": "1 kg d'épaule d'agneau, en cubes", "qty": 1000, "unit": "g", "item": "épaule d'agneau", "prep": "en cubes", "group": "ragoût" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché", "group": "ragoût" },
+    { "raw": "3 tomates, en dés", "qty": 3, "unit": "piece", "item": "tomate", "prep": "en dés", "group": "ragoût" },
+    { "raw": "1 c. à s. de concentré de tomate", "qty": 1, "unit": "tbsp", "item": "concentré de tomate", "group": "ragoût" },
+    { "raw": "5 grosses aubergines", "qty": 5, "unit": "piece", "item": "aubergine", "group": "béchamel" },
+    { "raw": "60 g de beurre", "qty": 60, "unit": "g", "item": "beurre", "group": "béchamel" },
+    { "raw": "60 g de farine de blé", "qty": 60, "unit": "g", "item": "farine de blé", "group": "béchamel" },
+    { "raw": "50 cl de lait", "qty": 50, "unit": "cl", "item": "lait", "group": "béchamel" },
+    { "raw": "120 g de kasar, râpé", "qty": 120, "unit": "g", "item": "kasar", "prep": "râpé", "group": "béchamel" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron", "group": "béchamel" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée", "group": "béchamel" },
+    { "raw": "4 c. à s. d'huile d'olive", "qty": 4, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Brûler les aubergines entières sur la flamme jusqu'à ce que la peau soit noire : le fumé est la moitié du plat.", "en": "Char the whole aubergines over a flame until the skin is black: the smoke is half the dish." },
+    { "fr": "Récupérer la chair, l'arroser de citron pour qu'elle ne noircisse pas, et la hacher.", "en": "Scoop out the flesh, squeeze lemon over so it does not darken, and chop it." },
+    { "fr": "Faire un roux au beurre et à la farine, mouiller au lait, et incorporer la chair d'aubergine.", "en": "Make a roux with the butter and flour, add the milk, and work in the aubergine flesh." },
+    { "fr": "Cuire dix minutes en fouettant, puis ajouter le kasar et la muscade hors du feu.", "en": "Cook for ten minutes, whisking, then add the kasar and nutmeg off the heat." },
+    { "fr": "Faire mijoter l'agneau avec oignons, tomates et concentré une heure et demie, jusqu'à ce qu'il soit tendre.", "en": "Simmer the lamb with onions, tomatoes and purée for an hour and a half, until tender." },
+    { "fr": "Dresser la purée en couronne et verser le ragoût brûlant au centre.", "en": "Spread the purée in a ring and spoon the scalding stew into the middle." }
+  ]
+}

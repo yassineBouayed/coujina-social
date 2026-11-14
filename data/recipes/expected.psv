@@ -1,0 +1,303 @@
+# Verite de la sonde J2 : l ingredient du referentiel qu un relecteur choisit
+# pour chaque ligne. C est ce fichier qui permet de distinguer un bon
+# rattachement d un mauvais ; sans lui, le taux ne voudrait rien dire.
+#
+# expected_slug = `-` quand le referentiel n a rien a offrir pour cette ligne.
+#
+# Produit en brouillon par `npm run probe:match -- --brouillon`, puis repris
+# libelle distinct par libelle distinct. La relecture est une passe MODELE, pas
+# humaine : elle est faite par ce qui a ecrit les recettes, et le rapport de
+# jalon (docs/j2-sonde.md) en tire les consequences sur ce que le chiffre vaut.
+#
+# Quatre lignes ont ete re-annotees APRES coup : `eau`, `chou vert`,
+# `menthe sechee` et `poivre blanc` valaient `-`, la sonde a fait ajouter ces
+# quatre ingredients au referentiel, et elles pointent desormais vers eux.
+# Le rapport donne les deux mesures, avant et apres.
+#
+# Une cinquieme l a ete au meme titre, plus tard : `fève sèche décortiquée`
+# valait `feve-seche`, faute de mieux. L extension du catalogue aux cinquante
+# pays a fait ajouter `feve-seche-decortiquee` au referentiel, et la ligne
+# pointe desormais vers lui. Le rattachement est plus precis qu avant, pas
+# different : c est la meme feve, decortiquee, que le referentiel ne savait
+# pas encore nommer.
+recipe|line|item|expected_slug|note
+baghrir|0|semoule de blé fine|semoule-fine|la variante existe : semoule-de-ble est le canonique, moins précis
+baghrir|1|farine de blé|farine-de-ble|
+baghrir|2|levure boulangère sèche|levure-boulangere|
+baghrir|3|levure chimique|levure-chimique|
+baghrir|4|sel|sel|
+baghrir|5|sucre|sucre|
+baghrir|6|eau|eau|ajouté au référentiel par la sonde : fond de placard, jamais acheté
+baghrir|7|beurre|beurre|
+baghrir|8|miel|miel|
+bissara|0|fève sèche décortiquée|feve-seche-decortiquee|re-annotee : le referentiel a gagne l entree precise
+bissara|1|ail|ail|
+bissara|2|cumin moulu|cumin|
+bissara|3|paprika|paprika|
+bissara|4|huile d'olive|huile-d-olive|
+bissara|5|eau|eau|ajouté au référentiel par la sonde : fond de placard, jamais acheté
+bissara|6|piment de Cayenne|piment-de-cayenne|
+bissara|7|sel|sel|
+briouates-viande|0|feuille de brick|feuille-de-brick|
+briouates-viande|1|viande hachée de bœuf|boeuf-hache|
+briouates-viande|2|oignon|oignon|
+briouates-viande|3|cumin moulu|cumin|
+briouates-viande|4|paprika|paprika|
+briouates-viande|5|cannelle moulue|cannelle|
+briouates-viande|6|gingembre moulu|gingembre-moulu|
+briouates-viande|7|persil plat|persil-plat|
+briouates-viande|8|coriandre fraîche|coriandre-fraiche|
+briouates-viande|9|huile d'olive|huile-d-olive|
+briouates-viande|10|oeuf|oeuf|
+briouates-viande|11|farine de blé|farine-de-ble|
+briouates-viande|12|huile de tournesol|huile-de-tournesol|
+briouates-viande|13|sel|sel|
+briouates-viande|14|poivre noir|poivre-noir|
+chorba-frik|0|épaule d'agneau|epaule-d-agneau|
+chorba-frik|1|frik|frik|
+chorba-frik|2|oignon|oignon|
+chorba-frik|3|tomate|tomate|
+chorba-frik|4|concentré de tomate|concentre-de-tomate|
+chorba-frik|5|pois chiche sec|pois-chiche-sec|
+chorba-frik|6|céleri branche|celeri-branche|
+chorba-frik|7|cannelle moulue|cannelle|
+chorba-frik|8|poivre noir|poivre-noir|
+chorba-frik|9|paprika|paprika|
+chorba-frik|10|huile d'olive|huile-d-olive|
+chorba-frik|11|coriandre fraîche|coriandre-fraiche|
+chorba-frik|12|menthe séchée|menthe-sechee|ajouté par la sonde, sur le modèle de thym-seche et origan-seche
+chorba-frik|13|eau|eau|ajouté au référentiel par la sonde : fond de placard, jamais acheté
+chorba-frik|14|citron|citron|
+chorba-frik|15|sel|sel|
+couscous-sept-legumes|0|collier d'agneau|agneau|
+couscous-sept-legumes|1|semoule de couscous|couscous-moyen|le grain de couscous, pas la semoule de blé du msemen
+couscous-sept-legumes|2|oignon|oignon|
+couscous-sept-legumes|3|carotte|carotte|
+couscous-sept-legumes|4|navet|navet|
+couscous-sept-legumes|5|courgette|courgette|
+couscous-sept-legumes|6|potiron|potiron|
+couscous-sept-legumes|7|chou vert|chou-vert|ajouté par la sonde : le référentiel n avait que blanc, rouge, frisé, chinois
+couscous-sept-legumes|8|tomate|tomate|
+couscous-sept-legumes|9|pois chiche sec|pois-chiche-sec|
+couscous-sept-legumes|10|gingembre moulu|gingembre-moulu|
+couscous-sept-legumes|11|curcuma|curcuma|
+couscous-sept-legumes|12|safran|safran|
+couscous-sept-legumes|13|poivre noir|poivre-noir|
+couscous-sept-legumes|14|coriandre fraîche|coriandre-fraiche|
+couscous-sept-legumes|15|persil plat|persil-plat|
+couscous-sept-legumes|16|huile d'olive|huile-d-olive|
+couscous-sept-legumes|17|beurre|beurre|
+couscous-sept-legumes|18|harissa|harissa|
+couscous-sept-legumes|19|sel|sel|
+couscous-tfaya|0|épaule d'agneau|epaule-d-agneau|
+couscous-tfaya|1|semoule de couscous|couscous-moyen|le grain de couscous, pas la semoule de blé du msemen
+couscous-tfaya|2|oignon|oignon|
+couscous-tfaya|3|gingembre moulu|gingembre-moulu|
+couscous-tfaya|4|safran|safran|
+couscous-tfaya|5|poivre noir|poivre-noir|
+couscous-tfaya|6|huile d'olive|huile-d-olive|
+couscous-tfaya|7|coriandre fraîche|coriandre-fraiche|
+couscous-tfaya|8|pois chiche sec|pois-chiche-sec|
+couscous-tfaya|9|eau|eau|ajouté au référentiel par la sonde : fond de placard, jamais acheté
+couscous-tfaya|10|oignon|oignon|
+couscous-tfaya|11|raisin sec|raisin-sec|
+couscous-tfaya|12|miel|miel|
+couscous-tfaya|13|cannelle|cannelle|
+couscous-tfaya|14|cannelle moulue|cannelle|
+couscous-tfaya|15|beurre|beurre|
+couscous-tfaya|16|amande|amande|
+couscous-tfaya|17|huile de tournesol|huile-de-tournesol|
+couscous-tfaya|18|sel|sel|
+harira|0|collier d'agneau|agneau|
+harira|1|pois chiche sec|pois-chiche-sec|
+harira|2|lentille verte|lentille-verte|
+harira|3|tomate|tomate|
+harira|4|concentré de tomate|concentre-de-tomate|
+harira|5|oignon|oignon|
+harira|6|céleri branche|celeri-branche|
+harira|7|coriandre fraîche|coriandre-fraiche|
+harira|8|persil plat|persil-plat|
+harira|9|gingembre moulu|gingembre-moulu|
+harira|10|curcuma|curcuma|
+harira|11|poivre noir|poivre-noir|
+harira|12|safran|safran|
+harira|13|cannelle moulue|cannelle|
+harira|14|huile d'olive|huile-d-olive|
+harira|15|farine de blé|farine-de-ble|
+harira|16|vermicelle|vermicelle|
+harira|17|eau|eau|ajouté au référentiel par la sonde : fond de placard, jamais acheté
+harira|18|citron|citron|
+harira|19|sel|sel|
+kefta-mkaouara|0|viande hachée de bœuf|boeuf-hache|
+kefta-mkaouara|1|oignon|oignon|
+kefta-mkaouara|2|persil plat|persil-plat|
+kefta-mkaouara|3|coriandre fraîche|coriandre-fraiche|
+kefta-mkaouara|4|cumin moulu|cumin|
+kefta-mkaouara|5|paprika|paprika|
+kefta-mkaouara|6|cannelle moulue|cannelle|
+kefta-mkaouara|7|tomate concassée en conserve|tomate-concassee|
+kefta-mkaouara|8|concentré de tomate|concentre-de-tomate|
+kefta-mkaouara|9|ail|ail|
+kefta-mkaouara|10|paprika|paprika|
+kefta-mkaouara|11|cumin moulu|cumin|
+kefta-mkaouara|12|huile d'olive|huile-d-olive|
+kefta-mkaouara|13|oeuf|oeuf|
+kefta-mkaouara|14|sel|sel|
+kefta-mkaouara|15|poivre noir|poivre-noir|
+loubia|0|haricot blanc sec|haricot-blanc|
+loubia|1|oignon|oignon|
+loubia|2|ail|ail|
+loubia|3|tomate|tomate|
+loubia|4|concentré de tomate|concentre-de-tomate|
+loubia|5|cumin moulu|cumin|
+loubia|6|paprika|paprika|
+loubia|7|gingembre moulu|gingembre-moulu|
+loubia|8|huile d'olive|huile-d-olive|
+loubia|9|coriandre fraîche|coriandre-fraiche|
+loubia|10|harissa|harissa|
+loubia|11|eau|eau|ajouté au référentiel par la sonde : fond de placard, jamais acheté
+loubia|12|sel|sel|
+mechoui-epaule|0|épaule d'agneau|epaule-d-agneau|
+mechoui-epaule|1|beurre|beurre|
+mechoui-epaule|2|smen|smen|
+mechoui-epaule|3|ail|ail|
+mechoui-epaule|4|cumin moulu|cumin|
+mechoui-epaule|5|paprika|paprika|
+mechoui-epaule|6|coriandre moulue|coriandre-graines|
+mechoui-epaule|7|safran|safran|
+mechoui-epaule|8|gros sel|gros-sel|
+mechoui-epaule|9|poivre noir|poivre-noir|
+mechoui-epaule|10|eau|eau|ajouté au référentiel par la sonde : fond de placard, jamais acheté
+mechoui-epaule|11|cumin moulu|cumin|
+msemen|0|farine de blé|farine-de-ble|
+msemen|1|semoule de blé fine|semoule-fine|la variante existe : semoule-de-ble est le canonique, moins précis
+msemen|2|sel|sel|
+msemen|3|sucre|sucre|
+msemen|4|levure boulangère sèche|levure-boulangere|
+msemen|5|eau|eau|ajouté au référentiel par la sonde : fond de placard, jamais acheté
+msemen|6|beurre|beurre|
+msemen|7|huile de tournesol|huile-de-tournesol|
+msemen|8|semoule de blé fine|semoule-fine|la variante existe : semoule-de-ble est le canonique, moins précis
+pastilla-poulet|0|poulet|poulet|
+pastilla-poulet|1|feuille de brick|feuille-de-brick|
+pastilla-poulet|2|oignon|oignon|
+pastilla-poulet|3|oeuf|oeuf|
+pastilla-poulet|4|amande|amande|
+pastilla-poulet|5|sucre glace|sucre-glace|
+pastilla-poulet|6|cannelle moulue|cannelle|
+pastilla-poulet|7|gingembre moulu|gingembre-moulu|
+pastilla-poulet|8|safran|safran|
+pastilla-poulet|9|poivre blanc|poivre-blanc|ajouté par la sonde : il n y avait que le poivre noir
+pastilla-poulet|10|eau de fleur d'oranger|eau-de-fleur-d-oranger|
+pastilla-poulet|11|coriandre fraîche|coriandre-fraiche|
+pastilla-poulet|12|persil plat|persil-plat|
+pastilla-poulet|13|beurre|beurre|
+pastilla-poulet|14|huile de tournesol|huile-de-tournesol|
+pastilla-poulet|15|sel|sel|
+rfissa|0|poulet|poulet|
+rfissa|1|msemen|msemen|
+rfissa|2|lentille verte|lentille-verte|
+rfissa|3|oignon|oignon|
+rfissa|4|fenugrec|fenugrec|
+rfissa|5|ras el-hanout|ras-el-hanout|
+rfissa|6|gingembre moulu|gingembre-moulu|
+rfissa|7|safran|safran|
+rfissa|8|curcuma|curcuma|
+rfissa|9|poivre noir|poivre-noir|
+rfissa|10|huile d'olive|huile-d-olive|
+rfissa|11|smen|smen|
+rfissa|12|coriandre fraîche|coriandre-fraiche|
+rfissa|13|persil plat|persil-plat|
+rfissa|14|eau|eau|ajouté au référentiel par la sonde : fond de placard, jamais acheté
+rfissa|15|sel|sel|
+salade-carottes-cumin|0|carotte|carotte|
+salade-carottes-cumin|1|ail|ail|
+salade-carottes-cumin|2|cumin moulu|cumin|
+salade-carottes-cumin|3|paprika|paprika|
+salade-carottes-cumin|4|huile d'olive|huile-d-olive|
+salade-carottes-cumin|5|citron|citron|
+salade-carottes-cumin|6|vinaigre de vin|vinaigre-de-vin|
+salade-carottes-cumin|7|persil plat|persil-plat|
+salade-carottes-cumin|8|piment de Cayenne|piment-de-cayenne|
+salade-carottes-cumin|9|sel|sel|
+sardines-chermoula|0|sardine|sardine|
+sardines-chermoula|1|coriandre fraîche|coriandre-fraiche|
+sardines-chermoula|2|persil plat|persil-plat|
+sardines-chermoula|3|ail|ail|
+sardines-chermoula|4|cumin moulu|cumin|
+sardines-chermoula|5|paprika|paprika|
+sardines-chermoula|6|piment de Cayenne|piment-de-cayenne|
+sardines-chermoula|7|citron|citron|
+sardines-chermoula|8|huile d'olive|huile-d-olive|
+sardines-chermoula|9|sel|sel|
+sardines-chermoula|10|semoule de blé fine|semoule-fine|la variante existe : semoule-de-ble est le canonique, moins précis
+sardines-chermoula|11|huile de tournesol|huile-de-tournesol|
+sardines-chermoula|12|citron|citron|
+seffa-medfouna|0|vermicelle|vermicelle|
+seffa-medfouna|1|poulet|poulet|
+seffa-medfouna|2|oignon|oignon|
+seffa-medfouna|3|gingembre moulu|gingembre-moulu|
+seffa-medfouna|4|safran|safran|
+seffa-medfouna|5|poivre blanc|poivre-blanc|ajouté par la sonde : il n y avait que le poivre noir
+seffa-medfouna|6|cannelle|cannelle|
+seffa-medfouna|7|huile d'olive|huile-d-olive|
+seffa-medfouna|8|beurre|beurre|
+seffa-medfouna|9|sucre glace|sucre-glace|
+seffa-medfouna|10|cannelle moulue|cannelle|
+seffa-medfouna|11|amande|amande|
+seffa-medfouna|12|raisin sec|raisin-sec|
+seffa-medfouna|13|eau de fleur d'oranger|eau-de-fleur-d-oranger|
+seffa-medfouna|14|huile de tournesol|huile-de-tournesol|
+seffa-medfouna|15|sel|sel|
+tajine-agneau-pruneaux|0|épaule d'agneau|epaule-d-agneau|
+tajine-agneau-pruneaux|1|oignon|oignon|
+tajine-agneau-pruneaux|2|ail|ail|
+tajine-agneau-pruneaux|3|gingembre moulu|gingembre-moulu|
+tajine-agneau-pruneaux|4|cannelle moulue|cannelle|
+tajine-agneau-pruneaux|5|cannelle|cannelle|
+tajine-agneau-pruneaux|6|safran|safran|
+tajine-agneau-pruneaux|7|poivre noir|poivre-noir|
+tajine-agneau-pruneaux|8|huile d'olive|huile-d-olive|
+tajine-agneau-pruneaux|9|beurre|beurre|
+tajine-agneau-pruneaux|10|pruneau|pruneau|
+tajine-agneau-pruneaux|11|miel|miel|
+tajine-agneau-pruneaux|12|eau de fleur d'oranger|eau-de-fleur-d-oranger|
+tajine-agneau-pruneaux|13|amande|amande|
+tajine-agneau-pruneaux|14|graine de sésame|sesame|
+tajine-agneau-pruneaux|15|coriandre fraîche|coriandre-fraiche|
+tajine-agneau-pruneaux|16|eau|eau|ajouté au référentiel par la sonde : fond de placard, jamais acheté
+tajine-agneau-pruneaux|17|sel|sel|
+tajine-zitoune|0|poulet|poulet|
+tajine-zitoune|1|oignon|oignon|
+tajine-zitoune|2|ail|ail|
+tajine-zitoune|3|gingembre moulu|gingembre-moulu|
+tajine-zitoune|4|curcuma|curcuma|
+tajine-zitoune|5|safran|safran|
+tajine-zitoune|6|poivre noir|poivre-noir|
+tajine-zitoune|7|huile d'olive|huile-d-olive|
+tajine-zitoune|8|smen|smen|
+tajine-zitoune|9|coriandre fraîche|coriandre-fraiche|
+tajine-zitoune|10|persil plat|persil-plat|
+tajine-zitoune|11|olive verte|olive-verte|
+tajine-zitoune|12|citron confit|citron-confit|
+tajine-zitoune|13|eau|eau|ajouté au référentiel par la sonde : fond de placard, jamais acheté
+tajine-zitoune|14|sel|sel|
+taktouka|0|poivron vert|poivron-vert|
+taktouka|1|tomate|tomate|
+taktouka|2|ail|ail|
+taktouka|3|paprika|paprika|
+taktouka|4|cumin moulu|cumin|
+taktouka|5|huile d'olive|huile-d-olive|
+taktouka|6|persil plat|persil-plat|
+taktouka|7|sel|sel|
+zaalouk|0|aubergine|aubergine|
+zaalouk|1|tomate|tomate|
+zaalouk|2|ail|ail|
+zaalouk|3|paprika|paprika|
+zaalouk|4|cumin moulu|cumin|
+zaalouk|5|coriandre fraîche|coriandre-fraiche|
+zaalouk|6|persil plat|persil-plat|
+zaalouk|7|huile d'olive|huile-d-olive|
+zaalouk|8|citron|citron|
+zaalouk|9|piment de Cayenne|piment-de-cayenne|
+zaalouk|10|sel|sel|

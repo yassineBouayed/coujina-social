@@ -1,0 +1,38 @@
+{
+  "slug": "kare-raisu",
+  "cuisine": "east-asian",
+  "country": "japon",
+  "origin": "Japon",
+  "native_name": "カレーライス",
+  "title": {
+    "fr": "Curry japonais au bœuf et aux légumes",
+    "en": "Japanese beef and vegetable curry"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 75 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["famille", "doux", "enfants", "riz"],
+  "ingredients": [
+    { "raw": "700 g de bœuf à mijoter, en cubes", "qty": 700, "unit": "g", "item": "boeuf à mijoter", "prep": "en cubes" },
+    { "raw": "200 g de roux de curry japonais", "qty": 200, "unit": "g", "item": "curry japonais" },
+    { "raw": "3 pommes de terre, en gros cubes", "qty": 3, "unit": "piece", "item": "pomme de terre", "prep": "en gros cubes" },
+    { "raw": "3 carottes, en gros tronçons", "qty": 3, "unit": "piece", "item": "carotte", "prep": "en gros tronçons" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "1 pomme, râpée", "qty": 1, "unit": "piece", "item": "pomme", "prep": "râpée" },
+    { "raw": "1 c. à s. de miel", "qty": 1, "unit": "tbsp", "item": "miel" },
+    { "raw": "1,2 l d'eau", "qty": 1.2, "unit": "l", "item": "eau" },
+    { "raw": "500 g de riz rond", "qty": 500, "unit": "g", "item": "riz rond", "group": "service" },
+    { "raw": "3 c. à s. d'huile neutre", "qty": 3, "unit": "tbsp", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Le curry japonais est DOUX et épais : il n'a rien à voir avec un curry indien, et c'est voulu.", "en": "Japanese curry is MILD and thick: it has nothing to do with an Indian curry, and that is intentional." },
+    { "fr": "Faire dorer les oignons quinze minutes, jusqu'à ce qu'ils soient bruns et sucrés.", "en": "Brown the onions for fifteen minutes, until brown and sweet." },
+    { "fr": "Ajouter la viande, la saisir, puis l'eau, la pomme râpée et le miel, et cuire une heure.", "en": "Add the meat, sear it, then the water, grated apple and honey, and cook for an hour." },
+    { "fr": "Ajouter les légumes et poursuivre vingt minutes, jusqu'à ce qu'ils soient tendres.", "en": "Add the vegetables and continue for twenty minutes, until tender." },
+    { "fr": "COUPER LE FEU avant d'ajouter le roux : jeté dans un bouillon bouillant, il fait des grumeaux.", "en": "CUT THE HEAT before adding the roux: dropped into boiling broth, it goes lumpy." },
+    { "fr": "Le délayer dans une louche de bouillon, le reverser, et laisser épaissir dix minutes à feu doux.", "en": "Slake it in a ladle of broth, stir it back in, and thicken for ten minutes over low heat." }
+  ]
+}

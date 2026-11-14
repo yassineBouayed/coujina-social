@@ -1,0 +1,40 @@
+{
+  "slug": "kabab-karaz",
+  "cuisine": "levantine",
+  "country": "syrie",
+  "origin": "Syrie",
+  "native_name": "Kabab karaz",
+  "title": {
+    "fr": "Kabab karaz, boulettes d'agneau aux griottes d'Alep",
+    "en": "Kabab karaz, lamb meatballs in sour cherry sauce"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 35, "cook_min": 50 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["alep", "griotte", "aigre-doux", "fete"],
+  "ingredients": [
+    { "raw": "800 g d'agneau haché", "qty": 800, "unit": "g", "item": "agneau haché", "group": "boulettes" },
+    { "raw": "1 c. à c. de baharat", "qty": 1, "unit": "tsp", "item": "baharat", "group": "boulettes" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle", "group": "boulettes" },
+    { "raw": "800 g de griottes, dénoyautées", "qty": 800, "unit": "g", "item": "griotte", "prep": "dénoyautée", "group": "sauce" },
+    { "raw": "120 g de sucre", "qty": 120, "unit": "g", "item": "sucre", "group": "sauce" },
+    { "raw": "2 c. à s. de mélasse de grenade", "qty": 2, "unit": "tbsp", "item": "mélasse de grenade", "group": "sauce" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron", "group": "sauce" },
+    { "raw": "4 pains pita", "qty": 4, "unit": "piece", "item": "pain pita", "group": "service" },
+    { "raw": "60 g de pignons de pin", "qty": 60, "unit": "g", "item": "pignon de pin", "group": "service" },
+    { "raw": "4 c. à s. de beurre", "qty": 4, "unit": "tbsp", "item": "beurre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Pétrir la viande avec les épices et le sel, et former des boulettes de la taille d'une noix.", "en": "Knead the meat with the spices and salt, and shape walnut-sized balls." },
+    { "fr": "Les faire dorer au beurre sur toutes les faces, et les réserver.", "en": "Brown them in butter on all sides, and set aside." },
+    { "fr": "Cuire les griottes avec le sucre trente minutes, jusqu'à ce qu'elles se défassent en sauce épaisse.", "en": "Cook the sour cherries with the sugar for thirty minutes, until they collapse into a thick sauce." },
+    { "fr": "Le sucre est indispensable : la griotte seule est trop acide, et une cerise douce donnerait un plat écœurant.", "en": "The sugar is essential: sour cherries alone are too sharp, and sweet cherries would make the dish cloying." },
+    { "fr": "Ajouter la mélasse de grenade et le citron, puis les boulettes, et laisser vingt minutes.", "en": "Add the pomegranate molasses and lemon, then the meatballs, and cook for twenty minutes." },
+    { "fr": "Servir sur du pain pita coupé, couvert de pignons dorés, la sauce brûlante par-dessus.", "en": "Serve over cut pita, covered with toasted pine nuts, the scalding sauce poured over." }
+  ]
+}

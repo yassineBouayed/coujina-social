@@ -1,0 +1,38 @@
+{
+  "slug": "sledz-w-smietanie",
+  "cuisine": "eastern-european",
+  "country": "pologne",
+  "origin": "Pologne",
+  "native_name": "Śledź w śmietanie",
+  "title": {
+    "fr": "Hareng à la crème et à la pomme",
+    "en": "Herring in soured cream with apple"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["noel", "hareng", "froid", "vodka"],
+  "ingredients": [
+    { "raw": "600 g de filets de hareng salés", "qty": 600, "unit": "g", "item": "hareng", "prep": "salés" },
+    { "raw": "50 cl de lait entier", "qty": 50, "unit": "cl", "item": "lait entier" },
+    { "raw": "40 cl de crème fraîche", "qty": 40, "unit": "cl", "item": "crème fraîche" },
+    { "raw": "3 pommes, râpées", "qty": 3, "unit": "piece", "item": "pomme", "prep": "râpée" },
+    { "raw": "2 oignons rouges, émincés finement", "qty": 2, "unit": "piece", "item": "oignon rouge", "prep": "émincé finement" },
+    { "raw": "6 cornichons, en dés", "qty": 6, "unit": "piece", "item": "cornichon", "prep": "en dés" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "1/2 bouquet d'aneth, ciselé", "qty": 0.5, "unit": "bunch", "item": "aneth", "prep": "ciselé" },
+    { "raw": "1 c. à c. de sucre", "qty": 1, "unit": "tsp", "item": "sucre" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Faire dessaler les harengs DOUZE HEURES DANS DU LAIT, pas dans l'eau.", "en": "Desalt the herrings for TWELVE HOURS IN MILK, not in water." },
+    { "fr": "Le lait ôte le sel ET l'excès de goût de poisson : c'est la méthode polonaise.", "en": "Milk removes the salt AND the excess fishiness: the Polish method." },
+    { "fr": "Les rincer, les sécher, et les couper en tronçons de trois centimètres.", "en": "Rinse them, dry them, and cut them into three-centimetre pieces." },
+    { "fr": "Râper les pommes et les citronner AUSSITÔT : sinon elles brunissent en dix minutes.", "en": "Grate the apples and lemon them AT ONCE: otherwise they brown within ten minutes." },
+    { "fr": "Mêler crème, pommes, oignon et cornichons, et goûter avant de saler.", "en": "Combine the cream, apples, onion and pickles, and taste before salting." },
+    { "fr": "Laisser mariner VINGT-QUATRE HEURES au frais : c'est ce repos qui fait le plat.", "en": "Marinate for TWENTY-FOUR HOURS in the fridge: that rest makes the dish." }
+  ]
+}

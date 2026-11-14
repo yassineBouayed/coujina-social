@@ -1,0 +1,43 @@
+{
+  "slug": "poulet-boucane",
+  "cuisine": "caribbean",
+  "country": "guadeloupe",
+  "origin": "Guadeloupe",
+  "native_name": "Poulet boucané",
+  "title": {
+    "fr": "Poulet boucané à la canne",
+    "en": "Cane-smoked chicken"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 75 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["embleme", "fume", "poulet", "grill"],
+  "ingredients": [
+    { "raw": "1 poulet entier, ouvert en crapaudine", "qty": 1, "unit": "piece", "item": "poulet entier", "prep": "ouvert en crapaudine" },
+    { "raw": "6 citrons verts, leur jus", "qty": 6, "unit": "piece", "item": "citron vert" },
+    { "raw": "10 gousses d'ail, écrasées", "qty": 10, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 bouquet d'oignons nouveaux, émincés", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "émincé" },
+    { "raw": "2 c. à s. de gingembre frais, râpé", "qty": 2, "unit": "tbsp", "item": "gingembre frais", "prep": "râpé" },
+    { "raw": "1 piment végétarien, haché", "qty": 1, "unit": "piece", "item": "piment végétarien", "prep": "haché" },
+    { "raw": "6 feuilles de bois d'Inde", "qty": 6, "unit": "piece", "item": "bois d'Inde" },
+    { "raw": "3 c. à s. de sirop de canne", "qty": 3, "unit": "tbsp", "item": "sirop de canne" },
+    { "raw": "500 g de canne à sucre, en copeaux", "qty": 500, "unit": "g", "item": "canne à sucre", "prep": "en copeaux" },
+    { "raw": "8 c. à s. d'huile neutre", "qty": 8, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "« Boucané » veut dire FUMÉ : sans fumée de canne à sucre, ce n'est plus un poulet boucané.", "en": "\"Boucané\" means SMOKED: without sugar-cane smoke, it is no longer poulet boucané." },
+    { "fr": "Faire TREMPER les copeaux de canne une heure : secs, ils s'enflamment au lieu de fumer.", "en": "SOAK the cane chips for an hour: dry, they catch fire instead of smoking." },
+    { "fr": "Mariner le poulet en crapaudine DOUZE HEURES, la marinade glissée sous la peau.", "en": "Marinate the spatchcocked chicken for TWELVE HOURS, working it under the skin." },
+    { "fr": "Cuire à couvercle FERMÉ, à chaleur indirecte : le poulet ne touche jamais la braise.", "en": "Cook with the lid CLOSED, over indirect heat: the chicken never sits above the coals." },
+    { "fr": "Jeter les copeaux mouillés sur la braise et compter UNE HEURE de fumage, à 130 °C.", "en": "Throw the wet chips onto the coals and allow ONE HOUR of smoking, at 130°C." },
+    { "fr": "Le badigeonner de sirop de canne les DIX dernières minutes : plus tôt, le sucre brûle.", "en": "Brush it with cane syrup in the LAST TEN minutes: earlier, the sugar burns." }
+  ],
+  "notes": [
+    { "fr": "À défaut de canne, des copeaux de bois fruitier fument correctement, mais le goût sucré manque.", "en": "Failing cane, fruitwood chips smoke well enough, but the sweetness is missing." }
+  ]
+}

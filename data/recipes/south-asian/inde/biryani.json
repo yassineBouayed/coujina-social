@@ -1,0 +1,48 @@
+{
+  "slug": "biryani",
+  "cuisine": "south-asian",
+  "country": "inde",
+  "origin": "Inde",
+  "native_name": "Biryani",
+  "title": {
+    "fr": "Biryani d'agneau en couches au safran",
+    "en": "Layered lamb biryani with saffron"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 60, "cook_min": 90 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "riz", "safran", "hyderabad"],
+  "ingredients": [
+    { "raw": "1 kg d'épaule d'agneau, en cubes", "qty": 1000, "unit": "g", "item": "épaule d'agneau", "prep": "en cubes" },
+    { "raw": "700 g de riz basmati", "qty": 700, "unit": "g", "item": "riz basmati" },
+    { "raw": "40 cl de yaourt", "qty": 40, "unit": "cl", "item": "yaourt", "group": "marinade" },
+    { "raw": "2 c. à s. de pâte gingembre-ail", "qty": 2, "unit": "tbsp", "item": "pâte gingembre-ail", "group": "marinade" },
+    { "raw": "2 c. à c. de piment kashmiri", "qty": 2, "unit": "tsp", "item": "piment kashmiri", "group": "marinade" },
+    { "raw": "1 c. à s. de garam masala", "qty": 1, "unit": "tbsp", "item": "garam masala", "group": "marinade" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron", "group": "marinade" },
+    { "raw": "5 oignons, émincés finement", "qty": 5, "unit": "piece", "item": "oignon", "prep": "émincé finement" },
+    { "raw": "1 grosse pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "10 cl de lait", "qty": 10, "unit": "cl", "item": "lait" },
+    { "raw": "1 bouquet de coriandre fraîche, ciselée", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "1/2 bouquet de menthe fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "menthe fraîche", "prep": "ciselée" },
+    { "raw": "6 gousses de cardamome", "qty": 6, "unit": "piece", "item": "cardamome" },
+    { "raw": "2 cardamomes noires", "qty": 2, "unit": "piece", "item": "cardamome noire" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "120 g de ghee", "qty": 120, "unit": "g", "item": "ghee" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire mariner l'agneau dans le yaourt, la pâte gingembre-ail, les épices et le citron, quatre heures minimum.", "en": "Marinate the lamb in the yoghurt, ginger-garlic paste, spices and lemon, four hours minimum." },
+    { "fr": "Frire les oignons dans le ghee jusqu'à ce qu'ils soient bruns et croustillants — le birista — et en réserver la moitié.", "en": "Fry the onions in ghee until brown and crisp — the birista — and keep half back." },
+    { "fr": "Cuire la viande marinée à couvert une heure, jusqu'à ce qu'elle soit tendre et la sauce courte.", "en": "Cook the marinated meat covered for an hour, until tender and the sauce short." },
+    { "fr": "Précuire le riz trempé SEPT MINUTES seulement, dans une eau très salée avec les épices entières : il doit rester ferme au cœur.", "en": "Parboil the soaked rice for SEVEN MINUTES only, in heavily salted water with the whole spices: it must stay firm at the core." },
+    { "fr": "Monter en couches : viande, riz, birista, herbes, riz, et arroser du safran infusé dans le lait tiède.", "en": "Layer it: meat, rice, birista, herbs, rice, and pour over the saffron steeped in warm milk." },
+    { "fr": "Sceller le couvercle avec de la pâte ou de l'aluminium et cuire trente minutes à feu très doux — le dum.", "en": "Seal the lid with dough or foil and cook for thirty minutes over very low heat — the dum." }
+  ],
+  "notes": [
+    { "fr": "Ce qui distingue le biryani du pulao : le riz et la viande cuisent séparément, puis finissent ensemble en couches distinctes.", "en": "What separates biryani from pulao: the rice and meat cook separately, then finish together in distinct layers." }
+  ]
+}

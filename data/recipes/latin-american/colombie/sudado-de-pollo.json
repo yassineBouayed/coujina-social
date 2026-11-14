@@ -1,0 +1,42 @@
+{
+  "slug": "sudado-de-pollo",
+  "cuisine": "latin-american",
+  "country": "colombie",
+  "origin": "Colombie",
+  "native_name": "Sudado de pollo",
+  "title": {
+    "fr": "Poulet mijoté à l'étouffée",
+    "en": "Smothered stewed chicken"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 50 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["quotidien", "poulet", "mijote", "famille"],
+  "ingredients": [
+    { "raw": "1 poulet entier, découpé", "qty": 1, "unit": "piece", "item": "poulet entier", "prep": "découpé" },
+    { "raw": "800 g de pommes de terre, en gros morceaux", "qty": 800, "unit": "g", "item": "pomme de terre", "prep": "en gros morceaux" },
+    { "raw": "400 g de manioc, en gros morceaux", "qty": 400, "unit": "g", "item": "manioc", "prep": "en gros morceaux" },
+    { "raw": "5 tomates, en dés", "qty": 5, "unit": "piece", "item": "tomate", "prep": "en dés" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "1 botte d'oignons nouveaux, émincés", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "émincé" },
+    { "raw": "6 gousses d'ail, hachées", "qty": 6, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "2 c. à c. de cumin moulu", "qty": 2, "unit": "tsp", "item": "cumin" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "1 bouquet de coriandre, ciselée", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "40 cl de bouillon de volaille", "qty": 40, "unit": "cl", "item": "bouillon volaille" },
+    { "raw": "8 c. à s. d'huile neutre", "qty": 8, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "« Sudado » veut dire « en sueur » : le plat cuit À COUVERT, dans sa propre vapeur.", "en": "\"Sudado\" means \"sweated\": the dish cooks COVERED, in its own steam." },
+    { "fr": "Mouiller PEU : quarante centilitres pour tout le plat, les légumes rendent le reste.", "en": "Add LITTLE liquid: forty centilitres for the whole dish, the vegetables give the rest." },
+    { "fr": "Le HOGAO — tomate, oignon, ail, oignons nouveaux — est la base de presque toute la cuisine colombienne.", "en": "The HOGAO — tomato, onion, garlic, spring onion — is the base of almost all Colombian cooking." },
+    { "fr": "Le cuire VINGT MINUTES avant d'ajouter le poulet : il doit être confit, presque en confiture.", "en": "Cook it for TWENTY MINUTES before adding the chicken: it must be jammy, almost a compote." },
+    { "fr": "Ajouter le manioc dix minutes avant les pommes de terre : il cuit plus longtemps.", "en": "Add the cassava ten minutes before the potatoes: it takes longer." },
+    { "fr": "Ne pas remuer : SECOUER la cocotte, sinon les tubercules se réduisent en purée.", "en": "Do not stir: SHAKE the pot, or the roots turn to mush." }
+  ]
+}

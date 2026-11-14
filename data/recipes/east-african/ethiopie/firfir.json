@@ -1,0 +1,36 @@
+{
+  "slug": "firfir",
+  "cuisine": "east-african",
+  "country": "ethiopie",
+  "origin": "Éthiopie",
+  "native_name": "Firfir",
+  "title": {
+    "fr": "Firfir, injera émiettée en sauce",
+    "en": "Firfir, torn injera in sauce"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["petit-dejeuner", "restes", "berbere", "rapide"],
+  "ingredients": [
+    { "raw": "4 injeras de la veille, déchirées", "qty": 4, "unit": "piece", "item": "injera", "prep": "déchirée" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "3 c. à s. de berbéré", "qty": 3, "unit": "tbsp", "item": "berbéré" },
+    { "raw": "80 g de niter kibbeh", "qty": 80, "unit": "g", "item": "beurre", "prep": "clarifié aux épices" },
+    { "raw": "2 tomates, en dés", "qty": 2, "unit": "piece", "item": "tomate", "prep": "en dés" },
+    { "raw": "3 gousses d'ail, écrasées", "qty": 3, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 piment vert, fendu", "qty": 1, "unit": "piece", "item": "piment frais", "prep": "fendu", "optional": true },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Déchirer les injeras de la veille à la main, en morceaux de la taille d'une bouchée.", "en": "Tear yesterday's injera by hand, into bite-sized pieces." },
+    { "fr": "Une injera fraîche ne convient pas : elle se dissout au lieu de boire la sauce.", "en": "Fresh injera will not do: it dissolves instead of drinking the sauce." },
+    { "fr": "Faire fondre les oignons dans le niter kibbeh, ajouter l'ail puis le berbéré, dix minutes.", "en": "Melt the onions in the niter kibbeh, add the garlic then the berbere, for ten minutes." },
+    { "fr": "Ajouter les tomates et un peu d'eau, et laisser réduire en sauce épaisse.", "en": "Add the tomatoes and a little water, and reduce to a thick sauce." },
+    { "fr": "Verser les morceaux d'injera et les retourner dans la sauce jusqu'à ce qu'ils soient enrobés.", "en": "Add the injera pieces and turn them in the sauce until coated." },
+    { "fr": "Servir immédiatement : le firfir qui attend devient une pâte.", "en": "Serve at once: firfir that waits turns to paste." }
+  ]
+}

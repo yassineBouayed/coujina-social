@@ -1,0 +1,42 @@
+{
+  "slug": "fesenjan",
+  "cuisine": "middle-eastern",
+  "country": "iran",
+  "origin": "Iran",
+  "native_name": "Fesenjan",
+  "title": {
+    "fr": "Fesenjan, canard aux noix et à la grenade",
+    "en": "Fesenjan, duck in walnut and pomegranate sauce"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 150 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "noix", "grenade", "aigre-doux"],
+  "ingredients": [
+    { "raw": "1,2 kg de cuisses de canard", "qty": 1200, "unit": "g", "item": "canard" },
+    { "raw": "500 g de noix", "qty": 500, "unit": "g", "item": "noix" },
+    { "raw": "25 cl de mélasse de grenade", "qty": 25, "unit": "cl", "item": "mélasse de grenade" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "3 c. à s. de sucre", "qty": 3, "unit": "tbsp", "item": "sucre" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "1/2 c. à c. de cannelle moulue", "qty": 0.5, "unit": "tsp", "item": "cannelle" },
+    { "raw": "4 c. à s. d'huile neutre", "qty": 4, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "1 grenade, égrenée", "qty": 1, "unit": "piece", "item": "grenade", "prep": "égrenée", "group": "décor" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Griller les noix à sec puis les moudre TRÈS finement, jusqu'à ce qu'elles rendent leur huile.", "en": "Toast the walnuts dry then grind them VERY fine, until they release their oil." },
+    { "fr": "Les cuire seules dans une casserole avec de l'eau, à feu doux, une heure, en remuant souvent.", "en": "Cook them alone in a pan with water, over low heat, for an hour, stirring often." },
+    { "fr": "La sauce passe du beige au brun foncé et l'huile de noix remonte : c'est le signe qu'elle est prête.", "en": "The sauce goes from beige to deep brown and the walnut oil rises: the sign that it is ready." },
+    { "fr": "Faire dorer le canard avec l'oignon et l'ajouter à la sauce, avec la mélasse, le sucre et les épices.", "en": "Brown the duck with the onion and add it to the sauce, with the molasses, sugar and spices." },
+    { "fr": "Laisser mijoter une heure et goûter souvent : l'équilibre acide-sucré s'ajuste jusqu'au dernier moment.", "en": "Simmer for an hour and taste often: the sweet-sour balance is adjusted right to the end." },
+    { "fr": "Servir sur du riz basmati, couvert de grains de grenade frais.", "en": "Serve over basmati rice, topped with fresh pomegranate seeds." }
+  ],
+  "notes": [
+    { "fr": "Le fesenjan doit être presque noir. Une sauce beige signale des noix insuffisamment cuites, et il reste alors un goût de farine.", "en": "Fesenjan should be almost black. A beige sauce means the walnuts were undercooked, and a floury taste remains." }
+  ]
+}

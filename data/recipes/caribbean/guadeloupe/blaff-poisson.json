@@ -1,0 +1,41 @@
+{
+  "slug": "blaff-poisson",
+  "cuisine": "caribbean",
+  "country": "guadeloupe",
+  "origin": "Guadeloupe",
+  "native_name": "Blaff de poisson",
+  "title": {
+    "fr": "Blaff de poisson au citron vert",
+    "en": "Fish blaff with lime"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["embleme", "poisson", "poche", "leger"],
+  "ingredients": [
+    { "raw": "1,2 kg de poisson blanc, en tronçons", "qty": 1200, "unit": "g", "item": "dorade", "prep": "en tronçons" },
+    { "raw": "8 citrons verts, leur jus", "qty": 8, "unit": "piece", "item": "citron vert" },
+    { "raw": "10 gousses d'ail, écrasées", "qty": 10, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "1 bouquet d'oignons nouveaux, émincés", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "émincé" },
+    { "raw": "1 piment végétarien", "qty": 1, "unit": "piece", "item": "piment végétarien" },
+    { "raw": "6 feuilles de bois d'Inde", "qty": 6, "unit": "piece", "item": "bois d'Inde" },
+    { "raw": "1/2 bouquet de thym frais", "qty": 0.5, "unit": "bunch", "item": "thym" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "1,2 l d'eau", "qty": 1.2, "unit": "l", "item": "eau" },
+    { "raw": "3 clous de girofle", "qty": 3, "unit": "piece", "item": "clou de girofle" },
+    { "raw": "gros sel", "qty": null, "unit": null, "item": "gros sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le blaff ne contient AUCUNE matière grasse : ni huile, ni beurre. C'est un pochage, rien d'autre.", "en": "A blaff contains NO fat at all: no oil, no butter. It is a poaching, nothing more." },
+    { "fr": "Le nom vient du bruit du poisson qu'on lâche dans le bouillon bouillant.", "en": "The name comes from the sound of the fish dropped into the boiling broth." },
+    { "fr": "Faire mariner le poisson au citron vert et à l'ail DEUX HEURES, puis GARDER la marinade.", "en": "Marinate the fish in lime and garlic for TWO HOURS, then KEEP the marinade." },
+    { "fr": "Faire bouillir l'eau avec tous les aromates DIX MINUTES avant d'y mettre le poisson.", "en": "Boil the water with all the aromatics for TEN MINUTES before the fish goes in." },
+    { "fr": "Le poisson cuit CINQ MINUTES, pas une de plus : au-delà, la chair se défait en charpie.", "en": "The fish cooks FIVE MINUTES, not one more: beyond that, the flesh shreds." },
+    { "fr": "Ajouter la marinade citronnée HORS DU FEU : c'est elle qui donne l'acidité vive du blaff.", "en": "Add the lime marinade OFF THE HEAT: it gives the blaff its sharp acidity." }
+  ]
+}

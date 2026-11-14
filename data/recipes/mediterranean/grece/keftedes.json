@@ -1,0 +1,41 @@
+{
+  "slug": "keftedes",
+  "cuisine": "mediterranean",
+  "country": "grece",
+  "origin": "Grèce",
+  "native_name": "Κεφτέδες",
+  "title": {
+    "fr": "Keftedes, boulettes grecques à la menthe",
+    "en": "Keftedes, Greek mint meatballs"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["meze", "boulettes", "menthe", "famille"],
+  "ingredients": [
+    { "raw": "600 g de bœuf haché", "qty": 600, "unit": "g", "item": "boeuf haché" },
+    { "raw": "200 g d'agneau haché", "qty": 200, "unit": "g", "item": "agneau haché" },
+    { "raw": "120 g de mie de pain", "qty": 120, "unit": "g", "item": "pain", "prep": "en mie" },
+    { "raw": "1 oignon, râpé", "qty": 1, "unit": "piece", "item": "oignon", "prep": "râpé" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "1/2 bouquet de menthe, ciselée", "qty": 0.5, "unit": "bunch", "item": "menthe", "prep": "ciselée" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "2 c. à s. de vinaigre de vin", "qty": 2, "unit": "tbsp", "item": "vinaigre de vin" },
+    { "raw": "1 c. à c. d'origan séché", "qty": 1, "unit": "tsp", "item": "origan" },
+    { "raw": "100 g de farine de blé", "qty": 100, "unit": "g", "item": "farine de blé" },
+    { "raw": "20 cl d'huile d'olive", "qty": 20, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La MENTHE est la signature des keftedes : sans elle, ce sont des boulettes comme partout ailleurs.", "en": "MINT is the signature of keftedes: without it, they are meatballs like anywhere else." },
+    { "fr": "Tremper la mie dans le vinaigre allongé d'eau, et l'essorer avant de la mêler à la viande.", "en": "Soak the crumb in vinegar let down with water, and squeeze it out before mixing it in." },
+    { "fr": "Râper l'oignon plutôt que le hacher : son jus parfume toute la masse.", "en": "Grate the onion rather than chopping it: its juice flavours the whole mixture." },
+    { "fr": "Laisser reposer la farce UNE HEURE au frais : les boulettes se tiendront mieux à la cuisson.", "en": "Rest the mixture for AN HOUR in the fridge: the balls hold together better when cooked." },
+    { "fr": "Fariner légèrement et frire à l'huile d'olive, à feu moyen, huit minutes en les roulant.", "en": "Flour them lightly and fry in olive oil, over medium heat, eight minutes, rolling them." },
+    { "fr": "Servir tièdes, avec du citron et du tzatziki : ce sont des keftedes de meze, pas de plat en sauce.", "en": "Serve warm, with lemon and tzatziki: these are meze keftedes, not stewed ones." }
+  ]
+}

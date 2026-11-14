@@ -1,0 +1,37 @@
+{
+  "slug": "umngqusho",
+  "cuisine": "southern-african",
+  "country": "afrique-du-sud",
+  "origin": "Afrique du Sud",
+  "native_name": "Umngqusho",
+  "title": {
+    "fr": "Umngqusho, maïs concassé aux haricots",
+    "en": "Umngqusho, samp and beans"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 15, "cook_min": 180 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["xhosa", "mais", "haricot", "cuisson-lente"],
+  "ingredients": [
+    { "raw": "400 g de maïs concassé, trempé la veille", "qty": 400, "unit": "g", "item": "maïs concassé", "prep": "trempé la veille" },
+    { "raw": "250 g de haricots blancs, trempés la veille", "qty": 250, "unit": "g", "item": "haricot blanc", "prep": "trempé la veille" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "2 pommes de terre, en cubes", "qty": 2, "unit": "piece", "item": "pomme de terre", "prep": "en cubes" },
+    { "raw": "1 cube de bouillon", "qty": 1, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "60 g de beurre", "qty": 60, "unit": "g", "item": "beurre" },
+    { "raw": "2 c. à s. d'huile neutre", "qty": 2, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Tremper maïs et haricots séparément une nuit entière : le maïs concassé ne cuit pas en moins de deux heures.", "en": "Soak the samp and beans separately overnight: samp will not cook in under two hours." },
+    { "fr": "Cuire le maïs seul pendant une heure et demie dans une grande eau non salée.", "en": "Cook the samp alone for an hour and a half in plenty of unsalted water." },
+    { "fr": "Ajouter les haricots et poursuivre une heure : ajoutés plus tôt, ils se réduisent en purée.", "en": "Add the beans and continue for an hour: added earlier, they collapse into purée." },
+    { "fr": "Faire revenir les oignons dans l'huile et les ajouter avec les pommes de terre et le cube.", "en": "Fry the onions in the oil and add them with the potatoes and stock cube." },
+    { "fr": "Saler seulement maintenant, et laisser trente minutes de plus.", "en": "Salt only now, and cook for another thirty minutes." },
+    { "fr": "Incorporer le beurre hors du feu, et servir très chaud.", "en": "Stir in the butter off the heat, and serve very hot." }
+  ]
+}

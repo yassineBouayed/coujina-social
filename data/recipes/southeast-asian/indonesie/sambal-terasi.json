@@ -1,0 +1,37 @@
+{
+  "slug": "sambal-terasi",
+  "cuisine": "southeast-asian",
+  "country": "indonesie",
+  "origin": "Indonésie",
+  "native_name": "Sambal terasi",
+  "title": {
+    "fr": "Sambal terasi, condiment pimenté à la pâte de crevette",
+    "en": "Sambal terasi, chilli and shrimp paste relish"
+  },
+  "meal_type": "side",
+  "servings": 10,
+  "times": { "prep_min": 15, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["base", "condiment", "piment", "umami"],
+  "ingredients": [
+    { "raw": "20 piments rouges frais", "qty": 20, "unit": "piece", "item": "piment frais" },
+    { "raw": "8 échalotes", "qty": 8, "unit": "piece", "item": "échalote" },
+    { "raw": "6 gousses d'ail", "qty": 6, "unit": "piece", "item": "ail" },
+    { "raw": "2 c. à s. de pâte de crevette", "qty": 2, "unit": "tbsp", "item": "pâte de crevette" },
+    { "raw": "3 tomates", "qty": 3, "unit": "piece", "item": "tomate" },
+    { "raw": "2 c. à s. de sucre de palme", "qty": 2, "unit": "tbsp", "item": "sucre de palme" },
+    { "raw": "2 c. à s. de pâte de tamarin", "qty": 2, "unit": "tbsp", "item": "pâte de tamarin" },
+    { "raw": "8 c. à s. d'huile neutre", "qty": 8, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "GRILLER la pâte de crevette enveloppée d'aluminium, deux minutes par face : crue, elle est agressive.", "en": "TOAST the shrimp paste wrapped in foil, two minutes a side: raw, it is aggressive." },
+    { "fr": "Ce grillage transforme une odeur violente en un umami profond : c'est l'étape qu'on ne saute pas.", "en": "That toasting turns a violent smell into deep umami: the step you do not skip." },
+    { "fr": "Frire piments, échalotes, ail et tomates dans l'huile jusqu'à ce qu'ils ramollissent.", "en": "Fry the chillies, shallots, garlic and tomatoes in the oil until softened." },
+    { "fr": "Les piler au mortier avec la pâte de crevette grillée : le sambal reste GRUMELEUX, jamais lisse.", "en": "Pound them in a mortar with the toasted shrimp paste: sambal stays LUMPY, never smooth." },
+    { "fr": "Remettre à la poêle avec sucre de palme, tamarin et sel, et cuire dix minutes.", "en": "Return it to the pan with palm sugar, tamarind and salt, and cook for ten minutes." },
+    { "fr": "Se garde deux semaines au frais sous une couche d'huile. Il accompagne absolument tout.", "en": "Keeps two weeks in the fridge under a film of oil. It accompanies absolutely everything." }
+  ]
+}

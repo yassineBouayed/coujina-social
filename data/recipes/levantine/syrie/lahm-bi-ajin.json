@@ -1,0 +1,41 @@
+{
+  "slug": "lahm-bi-ajin",
+  "cuisine": "levantine",
+  "country": "syrie",
+  "origin": "Syrie",
+  "native_name": "Lahm bi ajin",
+  "title": {
+    "fr": "Lahm bi ajin, galettes fines à la viande d'Alep",
+    "en": "Lahm bi ajin, thin Aleppo meat flatbreads"
+  },
+  "meal_type": "starter",
+  "servings": 8,
+  "times": { "prep_min": 50, "cook_min": 15 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["alep", "four", "viande", "grenade"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "1 c. à s. de levure boulangère sèche", "qty": 1, "unit": "tbsp", "item": "levure boulangère", "group": "pâte" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel", "group": "pâte" },
+    { "raw": "28 cl d'eau tiède", "qty": 28, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "4 c. à s. d'huile d'olive", "qty": 4, "unit": "tbsp", "item": "huile d'olive", "group": "pâte" },
+    { "raw": "400 g d'agneau haché", "qty": 400, "unit": "g", "item": "agneau haché", "group": "garniture" },
+    { "raw": "3 tomates, en tout petits dés et égouttées", "qty": 3, "unit": "piece", "item": "tomate", "prep": "en tout petits dés", "group": "garniture" },
+    { "raw": "1 poivron rouge, en tout petits dés", "qty": 1, "unit": "piece", "item": "poivron rouge", "prep": "en tout petits dés", "group": "garniture" },
+    { "raw": "1 oignon, haché très finement", "qty": 1, "unit": "piece", "item": "oignon", "prep": "haché très finement", "group": "garniture" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé", "group": "garniture" },
+    { "raw": "3 c. à s. de mélasse de grenade", "qty": 3, "unit": "tbsp", "item": "mélasse de grenade", "group": "garniture" },
+    { "raw": "1 c. à c. de piment en poudre", "qty": 1, "unit": "tsp", "item": "piment en poudre", "group": "garniture" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Préparer la pâte et la laisser lever une heure et demie.", "en": "Make the dough and prove it for an hour and a half." },
+    { "fr": "Mélanger toute la garniture à cru et l'égoutter une demi-heure dans une passoire.", "en": "Mix all the topping raw and drain it in a sieve for half an hour." },
+    { "fr": "Étaler des disques TRÈS fins, presque translucides : le lahm bi ajin est plus fin qu'une sfiha.", "en": "Roll VERY thin discs, almost translucent: lahm bi ajin is thinner than a sfiha." },
+    { "fr": "Étaler la garniture en couche mince jusqu'aux bords, en pressant du plat de la main.", "en": "Spread the topping in a thin layer right to the edges, pressing it flat with your palm." },
+    { "fr": "Cuire 8 minutes à 260 °C, four à fond, sur une pierre ou une plaque très chaude.", "en": "Bake for 8 minutes at 260°C, oven at full blast, on a stone or a scorching tray." },
+    { "fr": "Arroser de mélasse de grenade et rouler pour manger, encore brûlant.", "en": "Drizzle with pomegranate molasses and roll them up to eat, still scalding." }
+  ]
+}

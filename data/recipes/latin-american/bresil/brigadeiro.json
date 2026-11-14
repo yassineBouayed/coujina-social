@@ -1,0 +1,33 @@
+{
+  "slug": "brigadeiro",
+  "cuisine": "latin-american",
+  "country": "bresil",
+  "origin": "Brésil",
+  "native_name": "Brigadeiro",
+  "title": {
+    "fr": "Brigadeiros au chocolat",
+    "en": "Brigadeiro chocolate truffles"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 20, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["anniversaire", "chocolat", "enfants", "embleme"],
+  "ingredients": [
+    { "raw": "400 g de lait concentré sucré", "qty": 400, "unit": "g", "item": "lait concentré sucré" },
+    { "raw": "60 g de cacao en poudre", "qty": 60, "unit": "g", "item": "cacao en poudre" },
+    { "raw": "40 g de beurre", "qty": 40, "unit": "g", "item": "beurre" },
+    { "raw": "150 g de vermicelles de chocolat", "qty": 150, "unit": "g", "item": "chocolat noir", "prep": "en vermicelles" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le brigadeiro est présent à CHAQUE anniversaire brésilien : il n'y a pas d'exception.", "en": "Brigadeiro appears at EVERY Brazilian birthday: there is no exception." },
+    { "fr": "Trois ingrédients seulement, et pourtant la cuisson décide de tout.", "en": "Only three ingredients, and yet the cooking decides everything." },
+    { "fr": "Remuer SANS ARRÊT à feu doux : le lait concentré attache en trente secondes d'inattention.", "en": "Stir WITHOUT STOPPING over low heat: condensed milk catches within thirty seconds." },
+    { "fr": "Le point de cuisson : en inclinant la casserole, le fond doit se DÉCOUVRIR nettement.", "en": "The cooking point: tilting the pan, the base must UNCOVER cleanly." },
+    { "fr": "Trop cuit, il devient dur ; pas assez, il coule et ne se roule pas.", "en": "Overcooked it turns hard; undercooked it runs and cannot be rolled." },
+    { "fr": "Verser sur une assiette BEURRÉE et laisser refroidir DEUX HEURES avant de rouler.", "en": "Pour it onto a BUTTERED plate and cool for TWO HOURS before rolling." }
+  ]
+}

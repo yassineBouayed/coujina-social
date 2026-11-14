@@ -1,0 +1,36 @@
+{
+  "slug": "masoub",
+  "cuisine": "middle-eastern",
+  "country": "arabie-saoudite",
+  "origin": "Arabie saoudite",
+  "native_name": "Masoub",
+  "title": {
+    "fr": "Masoub, pain écrasé à la banane et à la crème",
+    "en": "Masoub, mashed bread with banana and cream"
+  },
+  "meal_type": "dessert",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hedjaz", "banane", "petit-dejeuner", "rapide"],
+  "ingredients": [
+    { "raw": "4 pains arabes fins", "qty": 4, "unit": "piece", "item": "khobz" },
+    { "raw": "6 bananes bien mûres", "qty": 6, "unit": "piece", "item": "banane" },
+    { "raw": "25 cl de crème liquide", "qty": 25, "unit": "cl", "item": "crème liquide" },
+    { "raw": "5 c. à s. de miel", "qty": 5, "unit": "tbsp", "item": "miel" },
+    { "raw": "60 g de ghee, fondu", "qty": 60, "unit": "g", "item": "ghee", "prep": "fondu" },
+    { "raw": "60 g de pistaches, concassées", "qty": 60, "unit": "g", "item": "pistache", "prep": "concassée", "group": "décor" },
+    { "raw": "40 g d'amandes effilées", "qty": 40, "unit": "g", "item": "amande effilée", "group": "décor" },
+    { "raw": "40 g de coco râpé", "qty": 40, "unit": "g", "item": "coco râpé", "optional": true, "group": "décor" }
+  ],
+  "steps": [
+    { "fr": "Déchirer le pain en petits morceaux et l'écraser à la main avec les bananes très mûres.", "en": "Tear the bread into small pieces and mash it by hand with the very ripe bananas." },
+    { "fr": "Les bananes doivent être tachetées de noir : fermes, elles ne se lient pas au pain.", "en": "The bananas must be spotted black: firm ones will not bind with the bread." },
+    { "fr": "Travailler jusqu'à obtenir une pâte homogène, sans morceau de pain sec.", "en": "Work it to an even paste, with no dry bread left." },
+    { "fr": "Incorporer le ghee fondu et la moitié du miel.", "en": "Work in the melted ghee and half the honey." },
+    { "fr": "Dresser en dôme, napper de crème et du reste de miel.", "en": "Mound it up, cover with cream and the remaining honey." },
+    { "fr": "Couvrir de pistaches, d'amandes et de coco, et servir aussitôt.", "en": "Top with pistachios, almonds and coconut, and serve at once." }
+  ]
+}

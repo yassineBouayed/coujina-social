@@ -1,0 +1,35 @@
+{
+  "slug": "kongnamul-muchim",
+  "cuisine": "east-asian",
+  "country": "coree-du-sud",
+  "origin": "Corée du Sud",
+  "native_name": "콩나물무침",
+  "title": {
+    "fr": "Kongnamul, germes de soja assaisonnés",
+    "en": "Kongnamul, seasoned soybean sprouts"
+  },
+  "meal_type": "side",
+  "servings": 5,
+  "times": { "prep_min": 10, "cook_min": 10 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["banchan", "rapide", "sesame", "vegetarien"],
+  "ingredients": [
+    { "raw": "500 g de germes de soja", "qty": 500, "unit": "g", "item": "germes de soja" },
+    { "raw": "3 c. à s. d'huile de sésame", "qty": 3, "unit": "tbsp", "item": "huile de sésame" },
+    { "raw": "3 gousses d'ail, râpées", "qty": 3, "unit": "piece", "item": "ail", "prep": "râpé" },
+    { "raw": "3 oignons nouveaux, ciselés", "qty": 3, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé" },
+    { "raw": "2 c. à s. de graines de sésame", "qty": 2, "unit": "tbsp", "item": "sésame" },
+    { "raw": "1 c. à c. de gochugaru", "qty": 1, "unit": "tsp", "item": "gochugaru", "optional": true },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le banchan est l'ensemble des petits plats qui accompagnent tout repas coréen : celui-ci en est le plus courant.", "en": "Banchan are the small dishes that accompany every Korean meal: this is the most common of them." },
+    { "fr": "Porter l'eau salée à ébullition et y jeter les germes, COUVERCLE FERMÉ.", "en": "Bring salted water to a boil and drop in the sprouts, LID ON." },
+    { "fr": "Ne PAS ouvrir pendant les cinq minutes de cuisson : ouvrir libère une odeur de haricot cru tenace.", "en": "Do NOT open during the five minutes of cooking: opening releases a stubborn raw-bean smell." },
+    { "fr": "Égoutter et rafraîchir immédiatement à l'eau glacée pour garder le croquant.", "en": "Drain and refresh at once in iced water to keep the crunch." },
+    { "fr": "Presser fermement, puis assaisonner à l'huile de sésame, à l'ail, au sel et au sésame.", "en": "Squeeze them firmly, then season with sesame oil, garlic, salt and sesame seeds." },
+    { "fr": "Mélanger À LA MAIN et laisser reposer une demi-heure avant de servir, à température ambiante.", "en": "Toss BY HAND and rest for half an hour before serving, at room temperature." }
+  ]
+}

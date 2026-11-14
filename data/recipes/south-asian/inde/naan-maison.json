@@ -1,0 +1,38 @@
+{
+  "slug": "naan-maison",
+  "cuisine": "south-asian",
+  "country": "inde",
+  "origin": "Inde",
+  "native_name": "Naan",
+  "title": {
+    "fr": "Naan à la poêle au yaourt",
+    "en": "Pan-cooked yoghurt naan"
+  },
+  "meal_type": "bread",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["pain", "yaourt", "poele", "restaurant"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé" },
+    { "raw": "20 cl de yaourt", "qty": 20, "unit": "cl", "item": "yaourt" },
+    { "raw": "1 c. à s. de levure boulangère sèche", "qty": 1, "unit": "tbsp", "item": "levure boulangère" },
+    { "raw": "1 c. à c. de sucre", "qty": 1, "unit": "tsp", "item": "sucre" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "1/2 c. à c. de levure chimique", "qty": 0.5, "unit": "tsp", "item": "levure chimique" },
+    { "raw": "12 cl de lait tiède", "qty": 12, "unit": "cl", "item": "lait" },
+    { "raw": "60 g de ghee, fondu", "qty": 60, "unit": "g", "item": "ghee", "prep": "fondu" },
+    { "raw": "1 c. à s. de graines de nigelle", "qty": 1, "unit": "tbsp", "item": "graine de nigelle", "optional": true },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Le yaourt est ce qui distingue le naan du chapati : son acidité donne le moelleux et le goût.", "en": "The yoghurt is what separates naan from chapati: its acidity gives the softness and the flavour." },
+    { "fr": "Pétrir farine, levures, sucre, sel, yaourt et lait dix minutes en une pâte souple et collante.", "en": "Knead the flour, yeast, baking powder, sugar, salt, yoghurt and milk for ten minutes into a soft, tacky dough." },
+    { "fr": "Laisser lever deux heures, jusqu'à ce que la pâte double de volume.", "en": "Prove for two hours, until the dough doubles." },
+    { "fr": "Étaler des ovales irréguliers, en tirant d'un côté : le naan n'est jamais rond.", "en": "Roll irregular ovals, pulling on one side: naan is never round." },
+    { "fr": "Mouiller LÉGÈREMENT une face à l'eau et poser ce côté sur une poêle en fonte brûlante : il colle et gonfle.", "en": "Wet one side LIGHTLY with water and lay that side on a scorching cast-iron pan: it sticks and puffs." },
+    { "fr": "Retourner la poêle vers la flamme pour brûler le dessus, puis badigeonner de ghee et de coriandre.", "en": "Turn the pan towards the flame to char the top, then brush with ghee and coriander." }
+  ]
+}

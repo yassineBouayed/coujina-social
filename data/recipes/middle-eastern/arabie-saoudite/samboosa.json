@@ -1,0 +1,39 @@
+{
+  "slug": "samboosa",
+  "cuisine": "middle-eastern",
+  "country": "arabie-saoudite",
+  "origin": "Arabie saoudite",
+  "native_name": "Samboosa",
+  "title": {
+    "fr": "Samboosa, triangles frits à la viande",
+    "en": "Samboosa, fried meat triangles"
+  },
+  "meal_type": "starter",
+  "servings": 8,
+  "times": { "prep_min": 45, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ramadan", "friture", "brick", "entree"],
+  "ingredients": [
+    { "raw": "20 feuilles de brick", "qty": 20, "unit": "piece", "item": "feuille de brick" },
+    { "raw": "500 g d'agneau haché", "qty": 500, "unit": "g", "item": "agneau haché", "group": "farce" },
+    { "raw": "2 oignons, hachés finement", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché finement", "group": "farce" },
+    { "raw": "1 c. à s. de baharat", "qty": 1, "unit": "tbsp", "item": "baharat", "group": "farce" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma", "group": "farce" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée", "group": "farce" },
+    { "raw": "2 piments verts, hachés", "qty": 2, "unit": "piece", "item": "piment frais", "prep": "haché", "optional": true, "group": "farce" },
+    { "raw": "1 c. à s. de farine délayée dans un peu d'eau", "qty": 1, "unit": "tbsp", "item": "farine de blé", "prep": "délayée", "group": "montage" },
+    { "raw": "1 l d'huile de tournesol pour la friture", "qty": 1, "unit": "l", "item": "huile de tournesol", "group": "friture" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Cuire la viande avec l'oignon et les épices jusqu'à ce que toute l'eau soit partie.", "en": "Cook the meat with the onion and spices until all the water has gone." },
+    { "fr": "Laisser refroidir complètement avant de garnir : chaude, la farce détrempe la feuille.", "en": "Cool it completely before filling: hot, it soaks the pastry." },
+    { "fr": "Ajouter la coriandre et les piments à froid, pour qu'ils restent vifs.", "en": "Add the coriander and chillies cold, so they stay bright." },
+    { "fr": "Couper les feuilles en bandes et plier en triangles en repliant en biais, comme un drapeau.", "en": "Cut the sheets into strips and fold into triangles, turning on the diagonal like a flag." },
+    { "fr": "Sceller la dernière pointe à la farine délayée, en pressant bien.", "en": "Seal the last flap with the flour paste, pressing firmly." },
+    { "fr": "Frire à 175 °C, deux minutes par face, et égoutter debout sur papier absorbant.", "en": "Fry at 175°C, two minutes a side, and drain them standing on paper." }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "chilli-crab",
+  "cuisine": "southeast-asian",
+  "country": "singapour",
+  "origin": "Singapour",
+  "native_name": "辣椒螃蟹",
+  "title": {
+    "fr": "Crabe au piment et à l'œuf",
+    "en": "Chilli crab with egg ribbons"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 35, "cook_min": 25 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["national", "crabe", "tomate", "fete"],
+  "ingredients": [
+    { "raw": "2 crabes entiers de 800 g", "qty": 2, "unit": "piece", "item": "crabe" },
+    { "raw": "6 piments rouges frais", "qty": 6, "unit": "piece", "item": "piment frais", "group": "pâte" },
+    { "raw": "8 échalotes", "qty": 8, "unit": "piece", "item": "échalote", "group": "pâte" },
+    { "raw": "8 gousses d'ail", "qty": 8, "unit": "piece", "item": "ail", "group": "pâte" },
+    { "raw": "1 morceau de gingembre", "qty": 1, "unit": "piece", "item": "gingembre", "group": "pâte" },
+    { "raw": "1 c. à s. de pâte de crevette", "qty": 1, "unit": "tbsp", "item": "pâte de crevette", "group": "pâte" },
+    { "raw": "6 c. à s. de concentré de tomate", "qty": 6, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "4 c. à s. de sambal oelek", "qty": 4, "unit": "tbsp", "item": "sambal oelek" },
+    { "raw": "3 c. à s. de sucre", "qty": 3, "unit": "tbsp", "item": "sucre" },
+    { "raw": "3 c. à s. de vinaigre de riz", "qty": 3, "unit": "tbsp", "item": "vinaigre de riz" },
+    { "raw": "2 œufs, battus", "qty": 2, "unit": "piece", "item": "oeuf", "prep": "battu" },
+    { "raw": "2 c. à s. de maïzena", "qty": 2, "unit": "tbsp", "item": "maïzena" },
+    { "raw": "50 cl de bouillon de volaille", "qty": 50, "unit": "cl", "item": "bouillon volaille" },
+    { "raw": "8 petits pains blancs", "qty": 8, "unit": "piece", "item": "pain de mie", "group": "service" },
+    { "raw": "10 cl d'huile neutre", "qty": 10, "unit": "cl", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Le chilli crab n'est PAS très piquant : c'est un plat sucré-acide-tomaté, où le piment est un fond.", "en": "Chilli crab is NOT very hot: it is a sweet-sour-tomato dish, with chilli in the background." },
+    { "fr": "Découper les crabes en quartiers et CONCASSER les pinces au dos du couteau, pour que la sauce entre.", "en": "Cut the crabs into quarters and CRACK the claws with the back of the knife, so the sauce gets in." },
+    { "fr": "Mixer la pâte d'aromates et la frire huit minutes, jusqu'à ce que l'huile se sépare.", "en": "Blend the aromatic paste and fry it for eight minutes, until the oil separates." },
+    { "fr": "Ajouter concentré, sambal, sucre, vinaigre et bouillon, et laisser réduire cinq minutes.", "en": "Add the purée, sambal, sugar, vinegar and stock, and reduce for five minutes." },
+    { "fr": "Ajouter le crabe, couvrir, et cuire dix minutes en le retournant à mi-parcours.", "en": "Add the crab, cover, and cook for ten minutes, turning it halfway." },
+    { "fr": "Lier à la maïzena, puis verser les œufs battus EN FILET sans remuer : ils forment des rubans.", "en": "Thicken with cornflour, then pour the beaten eggs in a STREAM without stirring: they form ribbons." }
+  ]
+}

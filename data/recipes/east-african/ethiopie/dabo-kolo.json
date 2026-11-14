@@ -1,0 +1,34 @@
+{
+  "slug": "dabo-kolo",
+  "cuisine": "east-african",
+  "country": "ethiopie",
+  "origin": "Éthiopie",
+  "native_name": "Dabo kolo",
+  "title": {
+    "fr": "Dabo kolo, petits dés de pâte grillés",
+    "en": "Dabo kolo, small roasted dough bites"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 30, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["gouter", "conserve", "voyage", "enfance"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé" },
+    { "raw": "3 c. à s. de sucre", "qty": 3, "unit": "tbsp", "item": "sucre" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "1 c. à c. de berbéré", "qty": 1, "unit": "tsp", "item": "berbéré", "optional": true },
+    { "raw": "60 g de niter kibbeh, fondu", "qty": 60, "unit": "g", "item": "beurre", "prep": "clarifié aux épices, fondu" },
+    { "raw": "20 cl d'eau", "qty": 20, "unit": "cl", "item": "eau" }
+  ],
+  "steps": [
+    { "fr": "Pétrir farine, sucre, sel, berbéré, beurre et eau en une pâte ferme, presque dure.", "en": "Knead the flour, sugar, salt, berbere, butter and water into a firm, almost hard dough." },
+    { "fr": "Laisser reposer trente minutes sous un linge.", "en": "Rest for thirty minutes under a cloth." },
+    { "fr": "Rouler des boudins fins comme un crayon, et les couper en petits dés d'un demi-centimètre.", "en": "Roll ropes as thin as a pencil, and cut them into half-centimetre pieces." },
+    { "fr": "Les faire griller à sec dans une poêle épaisse, à feu doux, en remuant sans arrêt.", "en": "Toast them dry in a heavy pan over low heat, stirring constantly." },
+    { "fr": "Compter vingt-cinq minutes : ils doivent dorer et durcir jusqu'au cœur, sans brûler.", "en": "Allow twenty-five minutes: they must brown and harden through, without burning." },
+    { "fr": "Laisser refroidir complètement avant de mettre en boîte. Se gardent un mois.", "en": "Cool completely before boxing. They keep for a month." }
+  ]
+}

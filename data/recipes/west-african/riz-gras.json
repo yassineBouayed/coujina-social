@@ -1,0 +1,46 @@
+{
+  "slug": "riz-gras",
+  "cuisine": "west-african",
+  "origin": "Burkina Faso / Bénin",
+  "native_name": "Riz gras",
+  "title": {
+    "fr": "Riz gras au bœuf et aux légumes",
+    "en": "Riz gras, one-pot rice with beef and vegetables"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 80 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j5-catalogue-v1", "date": "2026-08-29" },
+  "tags": ["riz", "boeuf", "plat-unique", "grande-tablee"],
+  "ingredients": [
+    { "raw": "800 g de bœuf à mijoter, en morceaux", "qty": 800, "unit": "g", "item": "bœuf à mijoter", "prep": "en morceaux" },
+    { "raw": "600 g de riz long grain", "qty": 600, "unit": "g", "item": "riz long grain", "prep": "rincé" },
+    { "raw": "10 cl d'huile d'arachide", "qty": 10, "unit": "cl", "item": "huile d'arachide" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "4 c. à s. de concentré de tomate", "qty": 4, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "4 tomates, concassées", "qty": 4, "unit": "piece", "item": "tomate", "prep": "concassée" },
+    { "raw": "4 gousses d'ail", "qty": 4, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "2 carottes, en rondelles épaisses", "qty": 2, "unit": "piece", "item": "carotte", "prep": "en rondelles épaisses" },
+    { "raw": "1/4 de chou blanc, émincé", "qty": 0.25, "unit": "piece", "item": "chou blanc", "prep": "émincé" },
+    { "raw": "1 aubergine, en dés", "qty": 1, "unit": "piece", "item": "aubergine", "prep": "en dés" },
+    { "raw": "2 cubes de bouillon", "qty": 2, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "1 piment frais", "qty": 1, "unit": "piece", "item": "piment frais", "optional": true },
+    { "raw": "1 feuille de laurier", "qty": 1, "unit": "piece", "item": "laurier" },
+    { "raw": "sel, poivre", "qty": null, "unit": null, "item": "poivre noir" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Saisir la viande dans l'huile chaude jusqu'à ce qu'elle prenne couleur sur toutes ses faces.", "en": "Sear the meat in the hot oil until it takes colour on all sides." },
+    { "fr": "Ajouter les oignons et l'ail, laisser fondre, puis le concentré de tomate : le cuire trois minutes en raclant le fond.", "en": "Add the onions and garlic, let them soften, then the tomato paste: fry it for three minutes, scraping the bottom." },
+    { "fr": "Ajouter les tomates concassées, le laurier, les cubes, le piment entier et 1,2 litre d'eau. Couvrir et cuire 45 minutes, jusqu'à ce que la viande cède.", "en": "Add the crushed tomatoes, bay leaf, stock cubes, whole chilli and 1.2 litres of water. Cover and cook for 45 minutes, until the meat gives." },
+    { "fr": "Retirer la viande et le piment. Plonger les carottes, le chou et l'aubergine dans le bouillon et les cuire 10 minutes, puis les sortir à l'écumoire.", "en": "Lift out the meat and chilli. Drop the carrots, cabbage and aubergine into the broth for 10 minutes, then remove them with a slotted spoon." },
+    { "fr": "Goûter le bouillon et le saler franchement : c'est lui, et lui seul, qui assaisonnera le riz.", "en": "Taste the broth and season it firmly: it alone will season the rice." },
+    { "fr": "Verser le riz et ajuster le liquide pour qu'il dépasse d'un centimètre. Couvrir et cuire 20 minutes à feu doux sans remuer.", "en": "Add the rice and adjust the liquid so it sits a centimetre above. Cover and cook for 20 minutes over low heat without stirring." },
+    { "fr": "Remettre la viande et les légumes sur le riz, couvrir de nouveau et laisser cinq minutes hors du feu avant de servir.", "en": "Set the meat and vegetables back on the rice, cover again and leave off the heat for five minutes before serving." }
+  ],
+  "notes": [
+    { "fr": "Le riz gras et le jollof sont cousins mais pas identiques : ici le riz cuit dans un bouillon de viande, là dans une base de poivrons mixés. C'est la marmite qui change, pas la région.", "en": "Riz gras and jollof are cousins, not twins: here the rice cooks in a meat broth, there in a blended pepper base. What changes is the pot, not the region." }
+  ]
+}

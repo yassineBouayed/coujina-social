@@ -1,0 +1,48 @@
+{
+  "slug": "kefta-mkaouara",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Kefta mkaouara",
+  "title": {
+    "fr": "Tajine de boulettes de kefta aux œufs",
+    "en": "Kefta meatball tagine with eggs"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 35 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j2-sonde-v1", "date": "2026-08-28" },
+  "tags": ["tajine", "boeuf", "oeuf", "rapide"],
+  "ingredients": [
+    { "raw": "600 g de viande de bœuf hachée", "qty": 600, "unit": "g", "item": "viande hachée de bœuf", "group": "kefta" },
+    { "raw": "1 oignon, haché très finement", "qty": 1, "unit": "piece", "item": "oignon", "prep": "haché très finement", "group": "kefta" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé", "group": "kefta" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselé", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée", "group": "kefta" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin moulu", "group": "kefta" },
+    { "raw": "1 c. à c. de paprika", "qty": 1, "unit": "tsp", "item": "paprika", "group": "kefta" },
+    { "raw": "1/2 c. à c. de cannelle moulue", "qty": 0.5, "unit": "tsp", "item": "cannelle moulue", "group": "kefta" },
+    { "raw": "800 g de tomates concassées", "qty": 800, "unit": "g", "item": "tomate concassée en conserve", "group": "sauce" },
+    { "raw": "1 c. à s. de concentré de tomate", "qty": 1, "unit": "tbsp", "item": "concentré de tomate", "group": "sauce" },
+    { "raw": "3 gousses d'ail, écrasées", "qty": 3, "unit": "piece", "item": "ail", "prep": "écrasé", "group": "sauce" },
+    { "raw": "1 c. à c. de paprika", "qty": 1, "unit": "tsp", "item": "paprika", "group": "sauce" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin moulu", "group": "sauce" },
+    { "raw": "3 c. à s. d'huile d'olive", "qty": 3, "unit": "tbsp", "item": "huile d'olive", "group": "sauce" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Pétrir la viande hachée avec l'oignon, les herbes et les épices de la kefta, saler et poivrer.", "en": "Knead the minced meat with the onion, herbs and kefta spices, then season with salt and pepper." },
+    { "fr": "Rouler des boulettes de la taille d'une grosse noix, les réserver au frais.", "en": "Roll walnut-sized meatballs and keep them cold." },
+    { "fr": "Faire chauffer l'huile, ajouter l'ail, le paprika et le cumin, puis les tomates concassées et le concentré.", "en": "Heat the oil, add the garlic, paprika and cumin, then the chopped tomatoes and the tomato paste." },
+    { "fr": "Laisser la sauce réduire quinze minutes à découvert, jusqu'à ce que l'huile remonte en surface.", "en": "Reduce the sauce uncovered for fifteen minutes, until the oil rises to the surface." },
+    { "fr": "Déposer les boulettes dans la sauce sans les empiler, couvrir et cuire quinze minutes à feu moyen.", "en": "Lay the meatballs into the sauce in a single layer, cover and cook for fifteen minutes over medium heat." },
+    { "fr": "Casser les œufs entre les boulettes, couvrir et laisser prendre trois à quatre minutes : le blanc pris, le jaune encore coulant.", "en": "Crack the eggs between the meatballs, cover and let them set for three to four minutes: whites firm, yolks still runny." },
+    { "fr": "Parsemer d'herbes et servir dans le plat de cuisson avec du pain.", "en": "Scatter with herbs and serve in the cooking dish with bread." }
+  ],
+  "notes": [
+    { "fr": "Une sauce trop liquide au moment des œufs et le tajine devient une soupe : elle doit déjà être courte.", "en": "If the sauce is still thin when the eggs go in, the tagine becomes a soup: it should already be reduced." }
+  ]
+}

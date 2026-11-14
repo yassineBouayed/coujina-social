@@ -1,0 +1,39 @@
+{
+  "slug": "chich-taouk",
+  "cuisine": "levantine",
+  "country": "liban",
+  "origin": "Liban",
+  "native_name": "Shish taouk",
+  "title": {
+    "fr": "Chich taouk, poulet mariné au yaourt et à l'ail",
+    "en": "Shish taouk, chicken marinated in yoghurt and garlic"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["grillade", "poulet", "yaourt", "populaire"],
+  "ingredients": [
+    { "raw": "1 kg de blanc de poulet, en cubes", "qty": 1000, "unit": "g", "item": "blanc de poulet", "prep": "en cubes" },
+    { "raw": "25 cl de yaourt grec", "qty": 25, "unit": "cl", "item": "yaourt grec", "group": "marinade" },
+    { "raw": "8 gousses d'ail, écrasées", "qty": 8, "unit": "piece", "item": "ail", "prep": "écrasé", "group": "marinade" },
+    { "raw": "2 citrons, leur jus", "qty": 2, "unit": "piece", "item": "citron", "group": "marinade" },
+    { "raw": "2 c. à s. de concentré de tomate", "qty": 2, "unit": "tbsp", "item": "concentré de tomate", "group": "marinade" },
+    { "raw": "1 c. à c. de paprika", "qty": 1, "unit": "tsp", "item": "paprika", "group": "marinade" },
+    { "raw": "1 c. à c. de baharat", "qty": 1, "unit": "tsp", "item": "baharat", "group": "marinade" },
+    { "raw": "6 c. à s. d'huile d'olive", "qty": 6, "unit": "tbsp", "item": "huile d'olive", "group": "marinade" },
+    { "raw": "1 c. à s. de vinaigre blanc", "qty": 1, "unit": "tbsp", "item": "vinaigre blanc", "group": "marinade" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Mélanger tous les éléments de la marinade jusqu'à obtenir une pâte homogène et rose pâle.", "en": "Mix all the marinade ingredients into a smooth, pale pink paste." },
+    { "fr": "Le yaourt n'est pas là pour le goût : son acidité lactique attendrit sans rendre la chair farineuse, contrairement au citron seul.", "en": "The yoghurt is not there for taste: its lactic acidity tenderises without making the flesh mealy, as lemon alone would." },
+    { "fr": "Faire mariner le poulet six heures au minimum, douze de préférence.", "en": "Marinate the chicken for at least six hours, ideally twelve." },
+    { "fr": "Ne pas dépasser vingt-quatre heures : au-delà, la chair devient cotonneuse.", "en": "Do not exceed twenty-four hours: beyond that, the flesh turns cottony." },
+    { "fr": "Enfiler serré sur les brochettes, sans légumes entre les morceaux, pour qu'ils cuisent ensemble.", "en": "Thread tightly on skewers, with no vegetables between the pieces, so they cook at the same rate." },
+    { "fr": "Griller sur braises vives huit minutes, en tournant souvent. Servir avec de l'ail toum et du pain.", "en": "Grill over hot coals for eight minutes, turning often. Serve with toum garlic sauce and bread." }
+  ]
+}

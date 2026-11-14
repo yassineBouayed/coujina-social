@@ -1,0 +1,42 @@
+{
+  "slug": "nasi-goreng-hollandais",
+  "cuisine": "western-european",
+  "country": "pays-bas",
+  "origin": "Pays-Bas",
+  "native_name": "Nasi goreng",
+  "title": {
+    "fr": "Nasi goreng à la néerlandaise",
+    "en": "Dutch-style nasi goreng"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["indonesie", "riz", "saute", "quotidien"],
+  "ingredients": [
+    { "raw": "500 g de riz basmati, cuit la veille", "qty": 500, "unit": "g", "item": "riz basmati", "prep": "cuit la veille" },
+    { "raw": "500 g de blanc de poulet, en lanières", "qty": 500, "unit": "g", "item": "blanc de poulet", "prep": "en lanières" },
+    { "raw": "200 g de crevettes crues, décortiquées", "qty": 200, "unit": "g", "item": "crevette", "prep": "décortiquée" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "5 gousses d'ail, hachées", "qty": 5, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "3 c. à s. de pâte de sambal", "qty": 3, "unit": "tbsp", "item": "sambal oelek" },
+    { "raw": "4 c. à s. de kecap manis", "qty": 4, "unit": "tbsp", "item": "kecap manis" },
+    { "raw": "2 c. à s. de gingembre frais, râpé", "qty": 2, "unit": "tbsp", "item": "gingembre frais", "prep": "râpé" },
+    { "raw": "200 g de chou vert, en lanières", "qty": 200, "unit": "g", "item": "chou vert", "prep": "en lanières" },
+    { "raw": "2 poireaux, en rondelles", "qty": 2, "unit": "piece", "item": "poireau", "prep": "en rondelles" },
+    { "raw": "6 c. à s. d'huile neutre", "qty": 6, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Ce plat vient d'Indonésie et est devenu néerlandais : il est aujourd'hui au menu de tous les foyers.", "en": "This dish came from Indonesia and became Dutch: it is now on every household's menu." },
+    { "fr": "Le riz doit être cuit LA VEILLE et bien froid : chaud, il colle et devient une bouillie.", "en": "The rice must be cooked THE DAY BEFORE and thoroughly cold: warm, it clumps into mush." },
+    { "fr": "Le KECAP MANIS, sauce soja sucrée et sirupeuse, est ce qui donne sa couleur brune au plat.", "en": "KECAP MANIS, a sweet syrupy soy sauce, is what gives the dish its brown colour." },
+    { "fr": "Cuire chaque élément SÉPARÉMENT dans le wok très chaud, et réserver au fur et à mesure.", "en": "Cook each element SEPARATELY in a very hot wok, setting each aside as you go." },
+    { "fr": "Faire une omelette fine à part, la rouler et la trancher en lanières pour le dessus.", "en": "Make a thin omelette separately, roll it and slice it into ribbons for the top." },
+    { "fr": "Réunir tout et sauter DEUX MINUTES à feu maximum, en remuant sans arrêt.", "en": "Bring everything together and stir-fry for TWO MINUTES at maximum heat, stirring constantly." }
+  ]
+}

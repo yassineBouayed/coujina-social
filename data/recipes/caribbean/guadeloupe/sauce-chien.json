@@ -1,0 +1,39 @@
+{
+  "slug": "sauce-chien",
+  "cuisine": "caribbean",
+  "country": "guadeloupe",
+  "origin": "Guadeloupe",
+  "native_name": "Sauce chien",
+  "title": {
+    "fr": "Sauce chien créole",
+    "en": "Creole sauce chien"
+  },
+  "meal_type": "starter",
+  "servings": 8,
+  "times": { "prep_min": 15, "cook_min": 5 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["embleme", "sauce", "cru", "base"],
+  "ingredients": [
+    { "raw": "1 bouquet d'oignons nouveaux, hachés très finement", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "haché très finement" },
+    { "raw": "2 oignons, hachés très finement", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché très finement" },
+    { "raw": "8 gousses d'ail, écrasées", "qty": 8, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "1 piment végétarien, haché", "qty": 1, "unit": "piece", "item": "piment végétarien", "prep": "haché" },
+    { "raw": "4 citrons verts, leur jus", "qty": 4, "unit": "piece", "item": "citron vert" },
+    { "raw": "15 cl d'huile neutre", "qty": 15, "unit": "cl", "item": "huile neutre" },
+    { "raw": "10 cl d'eau bouillante", "qty": 10, "unit": "cl", "item": "eau" },
+    { "raw": "1/2 bouquet de thym frais", "qty": 0.5, "unit": "bunch", "item": "thym" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La sauce chien accompagne TOUT aux Antilles : poisson, viande, légumes. C'est une base, pas un extra.", "en": "Sauce chien accompanies EVERYTHING in the Antilles: fish, meat, vegetables. A staple, not an extra." },
+    { "fr": "Le nom ne vient pas de l'animal mais du couteau « Chien », la marque qui servait à la hacher.", "en": "The name comes not from the animal but from the \"Chien\" brand of knife used to chop it." },
+    { "fr": "Tout se hache AU COUTEAU, TRÈS finement : mixée, la sauce devient une purée verte sans intérêt.", "en": "Everything is chopped BY KNIFE, VERY finely: blended, it becomes a dull green purée." },
+    { "fr": "L'EAU BOUILLANTE versée sur les aromates est le geste de la recette : elle les fait juste ouvrir.", "en": "The BOILING WATER poured over the aromatics is the recipe's key move: it just opens them up." },
+    { "fr": "Elle adoucit l'oignon cru sans le cuire, et libère le parfum de l'ail et du persil.", "en": "It mellows the raw onion without cooking it, and releases the garlic and parsley." },
+    { "fr": "Ajouter huile et citron vert APRÈS refroidissement, et laisser reposer une heure.", "en": "Add the oil and lime AFTER it cools, and let it rest for an hour." }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "sangkhya-lapov",
+  "cuisine": "southeast-asian",
+  "country": "cambodge",
+  "origin": "Cambodge",
+  "native_name": "សង់ខ្យាល្ពៅ",
+  "title": {
+    "fr": "Sangkhya lapov, flan de coco dans une courge",
+    "en": "Sangkhya lapov, coconut custard in a pumpkin"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 60 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["courge", "coco", "vapeur", "fete"],
+  "ingredients": [
+    { "raw": "1 petit potiron rond", "qty": 1, "unit": "piece", "item": "potiron" },
+    { "raw": "5 œufs", "qty": 5, "unit": "piece", "item": "oeuf" },
+    { "raw": "40 cl de lait de coco", "qty": 40, "unit": "cl", "item": "lait de coco" },
+    { "raw": "200 g de sucre de palme", "qty": 200, "unit": "g", "item": "sucre de palme" },
+    { "raw": "2 feuilles de pandan, nouées", "qty": 2, "unit": "piece", "item": "feuille de pandan", "prep": "nouée" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Choisir une courge RONDE et pas trop grosse : elle doit tenir debout dans le panier vapeur.", "en": "Choose a ROUND squash that is not too large: it must stand upright in the steamer." },
+    { "fr": "Découper un chapeau et évider les graines, sans entamer la chair.", "en": "Cut a lid and scoop out the seeds, without cutting into the flesh." },
+    { "fr": "Faire fondre le sucre de palme dans le lait de coco avec le pandan, et laisser TIÉDIR.", "en": "Melt the palm sugar in the coconut milk with the pandan, and let it COOL to lukewarm." },
+    { "fr": "Battre les œufs SANS mousser et les mélanger au lait tiède, puis FILTRER deux fois.", "en": "Beat the eggs WITHOUT frothing and mix them into the warm milk, then STRAIN twice." },
+    { "fr": "Remplir la courge aux trois quarts et remettre le chapeau.", "en": "Fill the squash three-quarters full and replace the lid." },
+    { "fr": "Cuire une heure à la vapeur, à feu doux, puis laisser refroidir avant de couper en tranches.", "en": "Steam for an hour over low heat, then cool it before cutting into wedges." }
+  ]
+}

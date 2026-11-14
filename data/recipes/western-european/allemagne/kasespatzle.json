@@ -1,0 +1,38 @@
+{
+  "slug": "kasespatzle",
+  "cuisine": "western-european",
+  "country": "allemagne",
+  "origin": "Allemagne",
+  "native_name": "Käsespätzle",
+  "title": {
+    "fr": "Spätzle au fromage et oignons frits",
+    "en": "Cheese spätzle with fried onions"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 35, "cook_min": 35 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["souabe", "fromage", "pates", "vegetarien"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé" },
+    { "raw": "5 œufs", "qty": 5, "unit": "piece", "item": "oeuf" },
+    { "raw": "18 cl d'eau", "qty": 18, "unit": "cl", "item": "eau" },
+    { "raw": "300 g d'emmental, râpé", "qty": 300, "unit": "g", "item": "emmental", "prep": "râpé" },
+    { "raw": "4 oignons, émincés", "qty": 4, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "100 g de beurre", "qty": 100, "unit": "g", "item": "beurre" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "1/2 bouquet de ciboulette, ciselée", "qty": 0.5, "unit": "bunch", "item": "ciboulette", "prep": "ciselée" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "BATTRE la pâte à la cuillère en bois jusqu'à ce qu'elle FASSE DES BULLES : c'est le geste souabe.", "en": "BEAT the batter with a wooden spoon until it BUBBLES: that is the Swabian move." },
+    { "fr": "Cette pâte battue développe le gluten et donne des Spätzle qui tiennent au lieu de se déliter.", "en": "That beating develops the gluten and gives Spätzle that hold instead of falling apart." },
+    { "fr": "La laisser reposer trente minutes, puis la racler dans l'eau bouillante à la planche ou au presse-Spätzle.", "en": "Rest it for thirty minutes, then scrape it into boiling water off a board or through a Spätzle press." },
+    { "fr": "Ils sont cuits dès qu'ils REMONTENT : les repêcher aussitôt à l'écumoire.", "en": "They are done as soon as they FLOAT: lift them out at once with a slotted spoon." },
+    { "fr": "Faire dorer les oignons vingt minutes au beurre, jusqu'au brun foncé.", "en": "Fry the onions for twenty minutes in butter, to a deep brown." },
+    { "fr": "Alterner Spätzle et fromage en couches, gratiner dix minutes, et couvrir d'oignons frits.", "en": "Layer the Spätzle and cheese, grill for ten minutes, and top with the fried onions." }
+  ]
+}

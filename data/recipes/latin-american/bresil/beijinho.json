@@ -1,0 +1,37 @@
+{
+  "slug": "beijinho",
+  "cuisine": "latin-american",
+  "country": "bresil",
+  "origin": "Brésil",
+  "native_name": "Beijinho de coco",
+  "title": {
+    "fr": "Beijinho, truffes à la noix de coco",
+    "en": "Beijinho coconut truffles"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 20, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["anniversaire", "coco", "enfants", "rapide"],
+  "ingredients": [
+    { "raw": "400 g de lait concentré sucré", "qty": 400, "unit": "g", "item": "lait concentré sucré" },
+    { "raw": "120 g de noix de coco râpée", "qty": 120, "unit": "g", "item": "noix de coco râpée" },
+    { "raw": "40 g de beurre", "qty": 40, "unit": "g", "item": "beurre" },
+    { "raw": "100 g de noix de coco râpée", "qty": 100, "unit": "g", "item": "noix de coco râpée", "group": "finition" },
+    { "raw": "30 clous de girofle", "qty": 30, "unit": "piece", "item": "clou de girofle", "group": "décor" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le beijinho est le jumeau blanc du brigadeiro : même méthode, coco à la place du cacao.", "en": "Beijinho is brigadeiro's white twin: same method, coconut instead of cocoa." },
+    { "fr": "Beijinho veut dire « petit baiser » : le clou de girofle planté dessus figure le point du baiser.", "en": "Beijinho means \"little kiss\": the clove stuck on top marks the kiss." },
+    { "fr": "Remuer SANS ARRÊT à feu doux, quinze à vingt minutes : la coco brûle encore plus vite.", "en": "Stir WITHOUT STOPPING over low heat for fifteen to twenty minutes: coconut burns even faster." },
+    { "fr": "Le point de cuisson : le fond de la casserole doit se découvrir quand on l'incline.", "en": "The cooking point: the pan's base must uncover when you tilt it." },
+    { "fr": "Laisser refroidir DEUX HEURES sur une assiette beurrée avant de rouler.", "en": "Cool for TWO HOURS on a buttered plate before rolling." },
+    { "fr": "Rouler à la main légèrement BEURRÉE : la pâte colle beaucoup moins.", "en": "Roll with a lightly BUTTERED hand: the mixture sticks far less." }
+  ],
+  "notes": [
+    { "fr": "Le clou de girofle est un décor : prévenir les convives, il ne se mange pas.", "en": "The clove is decoration: warn your guests, it is not to be eaten." }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "tourment-d-amour",
+  "cuisine": "caribbean",
+  "country": "guadeloupe",
+  "origin": "Guadeloupe",
+  "native_name": "Tourment d'amour",
+  "title": {
+    "fr": "Tourment d'amour à la noix de coco",
+    "en": "Tourment d'amour, coconut tartlets"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 50, "cook_min": 35 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["les-saintes", "coco", "tartelette", "tradition"],
+  "ingredients": [
+    { "raw": "250 g de farine de blé", "qty": 250, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "125 g de beurre, froid", "qty": 125, "unit": "g", "item": "beurre", "prep": "froid", "group": "pâte" },
+    { "raw": "5 cl d'eau glacée", "qty": 5, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "300 g de noix de coco râpée", "qty": 300, "unit": "g", "item": "noix de coco râpée", "group": "confiture" },
+    { "raw": "250 g de sucre", "qty": 250, "unit": "g", "item": "sucre", "group": "confiture" },
+    { "raw": "20 cl d'eau", "qty": 20, "unit": "cl", "item": "eau", "group": "confiture" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle", "prep": "en bâton", "group": "confiture" },
+    { "raw": "1 citron vert, son zeste", "qty": 1, "unit": "piece", "item": "citron vert", "group": "confiture" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf", "group": "génoise" },
+    { "raw": "120 g de sucre", "qty": 120, "unit": "g", "item": "sucre", "group": "génoise" },
+    { "raw": "120 g de farine de blé", "qty": 120, "unit": "g", "item": "farine de blé", "group": "génoise" },
+    { "raw": "80 g de beurre, fondu", "qty": 80, "unit": "g", "item": "beurre", "prep": "fondu", "group": "génoise" },
+    { "raw": "1 c. à c. d'extrait de vanille", "qty": 1, "unit": "tsp", "item": "extrait de vanille" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le tourment d'amour vient des Saintes : les femmes le faisaient en attendant le retour des pêcheurs.", "en": "Tourment d'amour comes from Les Saintes: women made it waiting for the fishermen to return." },
+    { "fr": "Il a TROIS COUCHES, et c'est ce qui le rend difficile : pâte brisée, confiture de coco, génoise.", "en": "It has THREE LAYERS, and that is what makes it hard: shortcrust, coconut jam, sponge." },
+    { "fr": "Cuire la confiture de coco jusqu'à ce qu'elle se DÉCOLLE du fond de la casserole.", "en": "Cook the coconut jam until it PULLS AWAY from the base of the pan." },
+    { "fr": "Trop liquide, elle traverse la pâte ; trop cuite, elle devient dure et sableuse.", "en": "Too runny, it soaks through the pastry; overcooked, it turns hard and sandy." },
+    { "fr": "La laisser REFROIDIR complètement avant de la poser sur la pâte crue.", "en": "COOL it completely before spooning it onto the raw pastry." },
+    { "fr": "Verser la génoise PAR-DESSUS et cuire 35 minutes à 175 °C : les trois couches cuisent ensemble.", "en": "Pour the sponge batter OVER it and bake 35 minutes at 175°C: the three layers bake together." }
+  ]
+}

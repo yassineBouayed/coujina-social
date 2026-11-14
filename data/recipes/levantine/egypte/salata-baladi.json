@@ -1,0 +1,37 @@
+{
+  "slug": "salata-baladi",
+  "cuisine": "levantine",
+  "country": "egypte",
+  "origin": "Égypte",
+  "native_name": "Salata baladi",
+  "title": {
+    "fr": "Salade baladi, crudités au citron et au cumin",
+    "en": "Salata baladi, chopped salad with lemon and cumin"
+  },
+  "meal_type": "salad",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["cru", "quotidien", "rapide", "accompagnement"],
+  "ingredients": [
+    { "raw": "4 tomates, en dés", "qty": 4, "unit": "piece", "item": "tomate", "prep": "en dés" },
+    { "raw": "2 concombres, en dés", "qty": 2, "unit": "piece", "item": "concombre", "prep": "en dés" },
+    { "raw": "1 poivron vert, en dés", "qty": 1, "unit": "piece", "item": "poivron vert", "prep": "en dés" },
+    { "raw": "1 oignon, en dés", "qty": 1, "unit": "piece", "item": "oignon", "prep": "en dés" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "1/2 bouquet d'aneth, ciselé", "qty": 0.5, "unit": "bunch", "item": "aneth", "prep": "ciselé" },
+    { "raw": "2 citrons, leur jus", "qty": 2, "unit": "piece", "item": "citron" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin" },
+    { "raw": "4 c. à s. d'huile d'olive", "qty": 4, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Tailler tous les légumes en dés de taille égale, un peu plus gros que pour un taboulé.", "en": "Dice all the vegetables to an even size, slightly larger than for tabbouleh." },
+    { "fr": "L'aneth est ce qui distingue la salade égyptienne des autres salades de crudités du Levant.", "en": "Dill is what sets the Egyptian salad apart from other Levantine chopped salads." },
+    { "fr": "Mélanger les légumes et les herbes.", "en": "Combine the vegetables and herbs." },
+    { "fr": "Fouetter citron, cumin, sel et huile d'olive.", "en": "Whisk the lemon, cumin, salt and olive oil." },
+    { "fr": "Assaisonner au dernier moment et servir frais.", "en": "Dress at the last moment and serve cold." }
+  ]
+}

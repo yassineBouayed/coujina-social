@@ -1,0 +1,38 @@
+{
+  "slug": "debyazah",
+  "cuisine": "middle-eastern",
+  "country": "arabie-saoudite",
+  "origin": "Arabie saoudite",
+  "native_name": "Debyazah",
+  "title": {
+    "fr": "Debyazah, confiture d'abricots secs aux fruits secs",
+    "en": "Debyazah, dried apricot jam with nuts"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 20, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["aid", "abricot", "conserve", "hedjaz"],
+  "ingredients": [
+    { "raw": "500 g d'abricots secs", "qty": 500, "unit": "g", "item": "abricot sec" },
+    { "raw": "200 g de sucre", "qty": 200, "unit": "g", "item": "sucre" },
+    { "raw": "100 g de raisins secs", "qty": 100, "unit": "g", "item": "raisin sec" },
+    { "raw": "80 g d'amandes, mondées", "qty": 80, "unit": "g", "item": "amande", "prep": "mondée" },
+    { "raw": "80 g de pistaches", "qty": 80, "unit": "g", "item": "pistache" },
+    { "raw": "60 g de noix de cajou", "qty": 60, "unit": "g", "item": "noix de cajou" },
+    { "raw": "1 c. à c. de cardamome moulue", "qty": 1, "unit": "tsp", "item": "cardamome", "prep": "moulue" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "2 c. à s. d'eau de rose", "qty": 2, "unit": "tbsp", "item": "eau de rose" },
+    { "raw": "60 g de ghee", "qty": 60, "unit": "g", "item": "ghee" }
+  ],
+  "steps": [
+    { "fr": "Faire tremper les abricots secs une nuit dans l'eau froide.", "en": "Soak the dried apricots overnight in cold water." },
+    { "fr": "Les cuire dans leur eau de trempage trente minutes, jusqu'à ce qu'ils se défassent.", "en": "Cook them in their soaking water for thirty minutes, until they collapse." },
+    { "fr": "Les écraser grossièrement : la debyazah garde des morceaux, ce n'est pas une purée lisse.", "en": "Crush them roughly: debyazah keeps some texture, it is not a smooth purée." },
+    { "fr": "Ajouter le sucre, le ghee et le safran, et laisser réduire quinze minutes en remuant.", "en": "Add the sugar, ghee and saffron, and reduce for fifteen minutes, stirring." },
+    { "fr": "Incorporer les fruits secs, la cardamome et l'eau de rose hors du feu.", "en": "Fold in the nuts, cardamom and rose water off the heat." },
+    { "fr": "Mettre en bocal : se garde un mois au frais, et se sert à l'Aïd avec du pain.", "en": "Jar it: keeps a month in the fridge, and is served at Eid with bread." }
+  ]
+}

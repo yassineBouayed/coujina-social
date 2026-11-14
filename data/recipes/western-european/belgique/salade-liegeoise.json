@@ -1,0 +1,37 @@
+{
+  "slug": "salade-liegeoise",
+  "cuisine": "western-european",
+  "country": "belgique",
+  "origin": "Belgique",
+  "native_name": "Salade liégeoise",
+  "title": {
+    "fr": "Salade liégeoise aux haricots verts",
+    "en": "Liège salad with green beans"
+  },
+  "meal_type": "salad",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["liege", "tiede", "haricot", "lardon"],
+  "ingredients": [
+    { "raw": "600 g de haricots verts", "qty": 600, "unit": "g", "item": "haricot vert" },
+    { "raw": "800 g de pommes de terre, en morceaux", "qty": 800, "unit": "g", "item": "pomme de terre", "prep": "en morceaux" },
+    { "raw": "250 g de lardons", "qty": 250, "unit": "g", "item": "lardon" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "6 c. à s. de vinaigre de vin", "qty": 6, "unit": "tbsp", "item": "vinaigre de vin" },
+    { "raw": "3 gousses d'ail, hachées", "qty": 3, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Cette salade se mange TIÈDE : c'est ce qui la distingue d'une salade de pommes de terre froide.", "en": "This salad is eaten WARM: that is what sets it apart from a cold potato salad." },
+    { "fr": "Cuire les haricots verts à l'eau bouillante SALÉE et les rafraîchir aussitôt à l'eau glacée.", "en": "Cook the green beans in SALTED boiling water and refresh them at once in iced water." },
+    { "fr": "Ce refroidissement fixe leur vert : sans lui, ils virent au kaki en dix minutes.", "en": "That chilling fixes their green: without it, they turn khaki within ten minutes." },
+    { "fr": "Faire rissoler les lardons et les oignons dans la même poêle, jusqu'au doré.", "en": "Fry the bacon and onions in the same pan, until golden." },
+    { "fr": "DÉGLACER AU VINAIGRE dans la poêle brûlante : c'est ce déglaçage qui fait la vinaigrette.", "en": "DEGLAZE WITH VINEGAR in the scalding pan: that deglazing makes the dressing." },
+    { "fr": "Verser le tout, brûlant, sur les légumes tièdes, et mélanger juste avant de servir.", "en": "Pour it all, scalding, over the warm vegetables, and toss just before serving." }
+  ]
+}

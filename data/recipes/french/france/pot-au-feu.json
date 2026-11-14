@@ -1,0 +1,41 @@
+{
+  "slug": "pot-au-feu",
+  "cuisine": "french",
+  "country": "france",
+  "origin": "France",
+  "native_name": "Pot-au-feu",
+  "title": {
+    "fr": "Pot-au-feu et son bouillon",
+    "en": "Pot-au-feu with its broth"
+  },
+  "meal_type": "main",
+  "servings": 8,
+  "times": { "prep_min": 30, "cook_min": 210 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hiver", "bouillon", "famille", "classique"],
+  "ingredients": [
+    { "raw": "800 g de paleron de bœuf", "qty": 800, "unit": "g", "item": "boeuf à mijoter" },
+    { "raw": "800 g de plat de côtes", "qty": 800, "unit": "g", "item": "boeuf à mijoter" },
+    { "raw": "2 os à moelle", "qty": 2, "unit": "piece", "item": "os à moelle" },
+    { "raw": "6 carottes, en gros tronçons", "qty": 6, "unit": "piece", "item": "carotte", "prep": "en gros tronçons" },
+    { "raw": "4 navets, en quartiers", "qty": 4, "unit": "piece", "item": "navet", "prep": "en quartiers" },
+    { "raw": "4 poireaux, ficelés", "qty": 4, "unit": "piece", "item": "poireau", "prep": "ficelés" },
+    { "raw": "4 branches de céleri", "qty": 4, "unit": "piece", "item": "céleri branche" },
+    { "raw": "2 oignons piqués de clous de girofle", "qty": 2, "unit": "piece", "item": "oignon", "prep": "piqué de girofle" },
+    { "raw": "1 bouquet garni", "qty": 1, "unit": "piece", "item": "bouquet garni" },
+    { "raw": "6 pommes de terre", "qty": 6, "unit": "piece", "item": "pomme de terre" },
+    { "raw": "4 c. à s. de gros sel", "qty": 4, "unit": "tbsp", "item": "gros sel" },
+    { "raw": "4 c. à s. de moutarde", "qty": 4, "unit": "tbsp", "item": "moutarde", "group": "service" },
+    { "raw": "8 cornichons", "qty": 8, "unit": "piece", "item": "cornichon", "group": "service" }
+  ],
+  "steps": [
+    { "fr": "Départ à l'EAU FROIDE : c'est ce qui fait sortir les sucs dans le bouillon.", "en": "Start in COLD water: this is what draws the juices out into the broth." },
+    { "fr": "Pour une viande savoureuse plutôt qu'un bouillon savoureux, on ferait l'inverse : départ à l'eau bouillante.", "en": "For tasty meat rather than tasty broth, you would do the opposite: start in boiling water." },
+    { "fr": "Écumer TOUTES les cinq minutes pendant la première demi-heure, sans jamais laisser bouillir.", "en": "Skim EVERY five minutes for the first half hour, never letting it boil." },
+    { "fr": "Ajouter la garniture aromatique et cuire trois heures à frémissement à peine visible.", "en": "Add the aromatics and cook for three hours at a barely visible simmer." },
+    { "fr": "Cuire les pommes de terre À PART, dans une louche de bouillon : sinon elles le troublent.", "en": "Cook the potatoes SEPARATELY, in a ladle of broth: otherwise they cloud it." },
+    { "fr": "Servir le bouillon en premier, puis la viande et les légumes, avec moutarde et cornichons.", "en": "Serve the broth first, then the meat and vegetables, with mustard and pickles." }
+  ]
+}

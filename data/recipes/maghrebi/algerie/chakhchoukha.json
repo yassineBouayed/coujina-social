@@ -1,0 +1,44 @@
+{
+  "slug": "chakhchoukha",
+  "cuisine": "maghrebi",
+  "country": "algerie",
+  "origin": "Algérie",
+  "native_name": "Chakhchoukha",
+  "title": {
+    "fr": "Chakhchoukha, galettes émiettées en sauce rouge",
+    "en": "Chakhchoukha, torn flatbread in red sauce"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 60, "cook_min": 90 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["biskra", "aures", "fete", "semoule"],
+  "ingredients": [
+    { "raw": "500 g de semoule fine", "qty": 500, "unit": "g", "item": "semoule fine", "group": "rougag" },
+    { "raw": "2 c. à s. d'huile neutre", "qty": 2, "unit": "tbsp", "item": "huile neutre", "group": "rougag" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel", "group": "rougag" },
+    { "raw": "800 g d'épaule d'agneau en morceaux", "qty": 800, "unit": "g", "item": "épaule d'agneau", "prep": "en morceaux", "group": "marqa" },
+    { "raw": "200 g de pois chiches secs, trempés la veille", "qty": 200, "unit": "g", "item": "pois chiche sec", "prep": "trempé la veille", "group": "marqa" },
+    { "raw": "2 oignons, râpés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "râpé", "group": "marqa" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate", "group": "marqa" },
+    { "raw": "2 c. à c. de paprika", "qty": 2, "unit": "tsp", "item": "paprika", "group": "marqa" },
+    { "raw": "1 c. à c. de piment en poudre", "qty": 1, "unit": "tsp", "item": "piment en poudre", "group": "marqa" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle", "group": "marqa" },
+    { "raw": "5 c. à s. d'huile d'olive", "qty": 5, "unit": "tbsp", "item": "huile d'olive", "group": "marqa" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Pétrir la semoule fine avec l'eau, le sel et l'huile en une pâte souple, et la laisser reposer trente minutes.", "en": "Knead the fine semolina with water, salt and oil into a supple dough, and rest for thirty minutes." },
+    { "fr": "Étaler des galettes très fines à la main et les cuire sur une plaque brûlante, dix secondes par face : elles doivent rester souples, jamais croustillantes.", "en": "Hand-stretch very thin flatbreads and cook them on a scorching griddle, ten seconds a side: they must stay pliable, never crisp." },
+    { "fr": "Faire la marqa : agneau, oignon, épices et huile, puis concentré de tomate délayé, pois chiches et eau, et laisser une heure et demie.", "en": "Make the marqa: lamb, onion, spices and oil, then diluted tomato purée, chickpeas and water, and cook for an hour and a half." },
+    { "fr": "Émietter les galettes à la main en morceaux de la taille d'un ongle. C'est ce geste, et pas la sauce, qui donne son nom au plat.", "en": "Tear the flatbreads by hand into thumbnail-sized pieces. That gesture, not the sauce, is what gives the dish its name." },
+    { "fr": "Passer les miettes à la vapeur dix minutes, puis les arroser d'une louche de sauce et laisser boire cinq minutes.", "en": "Steam the crumbs for ten minutes, then moisten with a ladle of sauce and let them drink for five." },
+    { "fr": "Dresser en dôme, verser la sauce chaude au centre et poser la viande dessus. Servir immédiatement.", "en": "Mound into a dome, pour the hot sauce into the centre and lay the meat on top. Serve at once." }
+  ],
+  "notes": [
+    { "fr": "Trop de sauce d'un coup et la chakhchoukha devient une soupe. On arrose par louches, en goûtant la texture entre chacune.", "en": "Too much sauce at once and chakhchoukha becomes soup. Ladle it on, checking the texture between each." }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "soupe-au-chalet",
+  "cuisine": "western-european",
+  "country": "suisse",
+  "origin": "Suisse",
+  "native_name": "Soupe du chalet",
+  "title": {
+    "fr": "Soupe du chalet aux légumes et au fromage",
+    "en": "Chalet vegetable and cheese soup"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 50 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["montagne", "fromage", "legumes", "hiver"],
+  "ingredients": [
+    { "raw": "600 g de pommes de terre, en dés", "qty": 600, "unit": "g", "item": "pomme de terre", "prep": "en dés" },
+    { "raw": "3 poireaux, en rondelles", "qty": 3, "unit": "piece", "item": "poireau", "prep": "en rondelles" },
+    { "raw": "3 carottes, en dés", "qty": 3, "unit": "piece", "item": "carotte", "prep": "en dés" },
+    { "raw": "1/2 chou vert, en lanières", "qty": 0.5, "unit": "piece", "item": "chou vert", "prep": "en lanières" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "150 g de pâtes courtes", "qty": 150, "unit": "g", "item": "pâtes courtes" },
+    { "raw": "200 g de gruyère, râpé", "qty": 200, "unit": "g", "item": "gruyère", "prep": "râpé" },
+    { "raw": "1,5 l de bouillon de volaille", "qty": 1.5, "unit": "l", "item": "bouillon volaille" },
+    { "raw": "25 cl de lait entier", "qty": 25, "unit": "cl", "item": "lait entier" },
+    { "raw": "80 g de beurre", "qty": 80, "unit": "g", "item": "beurre" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La soupe du chalet se faisait avec le petit-lait de la fabrication du fromage d'alpage.", "en": "Chalet soup was made with the whey left over from making mountain cheese." },
+    { "fr": "Le lait la remplace aujourd'hui : il apporte la même douceur laiteuse.", "en": "Milk stands in today: it brings the same milky softness." },
+    { "fr": "Faire fondre les légumes au beurre vingt minutes avant de mouiller.", "en": "Melt the vegetables in butter for twenty minutes before adding liquid." },
+    { "fr": "Ajouter le bouillon et cuire trente minutes, puis les pâtes les dix dernières.", "en": "Add the stock and cook for thirty minutes, then the pasta for the last ten." },
+    { "fr": "Ajouter le lait et le fromage HORS DU FEU, par poignées, en remuant.", "en": "Add the milk and cheese OFF THE HEAT, in handfuls, stirring." },
+    { "fr": "Sur le feu, le gruyère file en longs fils et la soupe devient élastique.", "en": "Over heat, gruyère strings into long threads and the soup turns elastic." }
+  ]
+}

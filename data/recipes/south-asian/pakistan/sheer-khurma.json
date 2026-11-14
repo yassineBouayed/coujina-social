@@ -1,0 +1,39 @@
+{
+  "slug": "sheer-khurma",
+  "cuisine": "south-asian",
+  "country": "pakistan",
+  "origin": "Pakistan",
+  "native_name": "Sheer khurma",
+  "title": {
+    "fr": "Sheer khurma, vermicelles au lait et aux dattes",
+    "en": "Sheer khurma, vermicelli in milk with dates"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 15, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["aid", "lait", "datte", "fete"],
+  "ingredients": [
+    { "raw": "150 g de vermicelles fins", "qty": 150, "unit": "g", "item": "vermicelle" },
+    { "raw": "1,5 l de lait entier", "qty": 1.5, "unit": "l", "item": "lait entier" },
+    { "raw": "150 g de sucre", "qty": 150, "unit": "g", "item": "sucre" },
+    { "raw": "150 g de dattes, en lamelles", "qty": 150, "unit": "g", "item": "datte", "prep": "en lamelles" },
+    { "raw": "60 g d'amandes effilées", "qty": 60, "unit": "g", "item": "amande effilée" },
+    { "raw": "60 g de pistaches, concassées", "qty": 60, "unit": "g", "item": "pistache", "prep": "concassée" },
+    { "raw": "40 g de raisins secs", "qty": 40, "unit": "g", "item": "raisin sec" },
+    { "raw": "1 c. à c. de cardamome moulue", "qty": 1, "unit": "tsp", "item": "cardamome", "prep": "moulue" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "60 g de ghee", "qty": 60, "unit": "g", "item": "ghee" },
+    { "raw": "2 c. à s. d'eau de rose", "qty": 2, "unit": "tbsp", "item": "eau de rose" }
+  ],
+  "steps": [
+    { "fr": "Faire dorer les vermicelles dans le ghee jusqu'à ce qu'ils soient BRUN NOISETTE, en remuant sans arrêt.", "en": "Toast the vermicelli in the ghee until NUT BROWN, stirring constantly." },
+    { "fr": "Ils brûlent en dix secondes une fois colorés : ne pas quitter la casserole des yeux.", "en": "They burn within ten seconds once coloured: do not take your eyes off the pan." },
+    { "fr": "Faire revenir amandes, pistaches et raisins dans le même ghee et les réserver.", "en": "Fry the almonds, pistachios and raisins in the same ghee and set them aside." },
+    { "fr": "Porter le lait à frémissement et le laisser réduire vingt minutes.", "en": "Bring the milk to a simmer and reduce it for twenty minutes." },
+    { "fr": "Ajouter les vermicelles, le sucre et les dattes, et cuire dix minutes seulement.", "en": "Add the vermicelli, sugar and dates, and cook for ten minutes only." },
+    { "fr": "Parfumer au safran, à la cardamome et à l'eau de rose hors du feu, et servir chaud ou glacé.", "en": "Scent with saffron, cardamom and rose water off the heat, and serve hot or chilled." }
+  ]
+}

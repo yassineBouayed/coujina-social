@@ -1,0 +1,40 @@
+{
+  "slug": "murtabak",
+  "cuisine": "southeast-asian",
+  "country": "malaisie",
+  "origin": "Malaisie",
+  "native_name": "Murtabak",
+  "title": {
+    "fr": "Murtabak, crêpe farcie à la viande et à l'œuf",
+    "en": "Murtabak, folded pancake stuffed with meat and egg"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 50, "cook_min": 25 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["mamak", "farci", "curry", "ramadan"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "28 cl d'eau tiède", "qty": 28, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "1,5 c. à c. de sel", "qty": 1.5, "unit": "tsp", "item": "sel", "group": "pâte" },
+    { "raw": "15 cl d'huile neutre", "qty": 15, "unit": "cl", "item": "huile neutre", "group": "pâte" },
+    { "raw": "500 g de bœuf haché", "qty": 500, "unit": "g", "item": "boeuf haché", "group": "farce" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché", "group": "farce" },
+    { "raw": "2 c. à s. de poudre de curry", "qty": 2, "unit": "tbsp", "item": "poudre de curry", "group": "farce" },
+    { "raw": "1 c. à c. de garam masala", "qty": 1, "unit": "tsp", "item": "garam masala", "group": "farce" },
+    { "raw": "4 œufs, battus", "qty": 4, "unit": "piece", "item": "oeuf", "prep": "battu", "group": "farce" },
+    { "raw": "4 oignons nouveaux, ciselés", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé", "group": "farce" },
+    { "raw": "80 g de ghee", "qty": 80, "unit": "g", "item": "ghee" },
+    { "raw": "1 oignon, en anneaux au vinaigre", "qty": 1, "unit": "piece", "item": "oignon", "prep": "en anneaux", "group": "service" }
+  ],
+  "steps": [
+    { "fr": "Préparer la pâte comme celle du roti canai et la laisser reposer quatre heures dans l'huile.", "en": "Make the dough as for roti canai and rest it for four hours in oil." },
+    { "fr": "Cuire la viande avec les oignons et le curry jusqu'à ce qu'elle soit SÈCHE, et la laisser refroidir.", "en": "Cook the meat with the onions and curry until DRY, and let it cool." },
+    { "fr": "Ajouter les œufs battus et la ciboule à la farce FROIDE, juste avant de garnir.", "en": "Add the beaten eggs and spring onions to the COLD filling, just before assembling." },
+    { "fr": "Étirer la pâte jusqu'à la transparence sur un plan huilé, sans la déchirer.", "en": "Stretch the dough translucent on an oiled surface, without tearing it." },
+    { "fr": "Verser la farce au centre et replier les quatre côtés en carré, en soudant bien.", "en": "Spoon the filling into the centre and fold the four sides into a square, sealing well." },
+    { "fr": "Cuire au ghee sur plaque, cinq minutes par face, en pressant, et servir avec l'oignon au vinaigre.", "en": "Cook in ghee on a griddle, five minutes a side, pressing down, and serve with pickled onion." }
+  ]
+}

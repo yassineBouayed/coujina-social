@@ -1,0 +1,39 @@
+{
+  "slug": "samak-singari",
+  "cuisine": "levantine",
+  "country": "egypte",
+  "origin": "Égypte",
+  "native_name": "Samak singari",
+  "title": {
+    "fr": "Poisson singari, au four à la tomate et au cumin",
+    "en": "Singari fish, baked with tomato and cumin"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["alexandrie", "poisson", "four", "cumin"],
+  "ingredients": [
+    { "raw": "1,5 kg de dorade entière, vidée", "qty": 1500, "unit": "g", "item": "dorade", "prep": "vidée" },
+    { "raw": "4 tomates, en rondelles", "qty": 4, "unit": "piece", "item": "tomate", "prep": "en rondelles" },
+    { "raw": "2 oignons, en rondelles", "qty": 2, "unit": "piece", "item": "oignon", "prep": "en rondelles" },
+    { "raw": "2 poivrons verts, en lanières", "qty": 2, "unit": "piece", "item": "poivron vert", "prep": "en lanières" },
+    { "raw": "8 gousses d'ail, écrasées", "qty": 8, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "2 c. à s. de cumin moulu", "qty": 2, "unit": "tbsp", "item": "cumin" },
+    { "raw": "1 c. à c. de coriandre en graines, moulue", "qty": 1, "unit": "tsp", "item": "coriandre graines", "prep": "moulue" },
+    { "raw": "1 c. à c. de piment en poudre", "qty": 1, "unit": "tsp", "item": "piment en poudre" },
+    { "raw": "3 citrons, leur jus", "qty": 3, "unit": "piece", "item": "citron" },
+    { "raw": "10 cl d'huile d'olive", "qty": 10, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Inciser le poisson de trois entailles profondes de chaque côté.", "en": "Cut three deep slashes on each side of the fish." },
+    { "fr": "Mélanger ail, cumin, coriandre, piment, citron, huile et sel en une pâte, et l'enfoncer dans les entailles.", "en": "Mix the garlic, cumin, coriander, chilli, lemon, oil and salt into a paste, and push it into the slashes." },
+    { "fr": "Le cumin domine franchement : c'est la signature du singari, on n'en met jamais assez pour un palais français.", "en": "Cumin frankly dominates: it is the singari signature, and a French palate never adds enough." },
+    { "fr": "Laisser mariner une heure au frais.", "en": "Marinate for an hour in the fridge." },
+    { "fr": "Tapisser un plat d'oignons, poivrons et tomates, poser le poisson dessus et couvrir d'aluminium.", "en": "Line a dish with onions, peppers and tomatoes, set the fish on top and cover with foil." },
+    { "fr": "Cuire 35 minutes à 200 °C couvert, puis dix minutes à découvert pour colorer.", "en": "Bake for 35 minutes at 200°C covered, then ten minutes uncovered to colour." }
+  ]
+}

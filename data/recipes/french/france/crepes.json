@@ -1,0 +1,35 @@
+{
+  "slug": "crepes",
+  "cuisine": "french",
+  "country": "france",
+  "origin": "France",
+  "native_name": "Crêpes",
+  "title": {
+    "fr": "Crêpes de froment",
+    "en": "Wheat crêpes"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 15, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["bretagne", "chandeleur", "gouter", "enfants"],
+  "ingredients": [
+    { "raw": "250 g de farine de blé", "qty": 250, "unit": "g", "item": "farine de blé" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf" },
+    { "raw": "50 cl de lait entier", "qty": 50, "unit": "cl", "item": "lait entier" },
+    { "raw": "50 g de beurre, fondu", "qty": 50, "unit": "g", "item": "beurre", "prep": "fondu" },
+    { "raw": "2 c. à s. de sucre", "qty": 2, "unit": "tbsp", "item": "sucre" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" },
+    { "raw": "2 c. à s. d'eau de fleur d'oranger", "qty": 2, "unit": "tbsp", "item": "eau de fleur d'oranger", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Faire un puits dans la farine et incorporer les œufs au centre, en ramenant la farine des bords.", "en": "Make a well in the flour and work the eggs in at the centre, drawing the flour in from the sides." },
+    { "fr": "Ajouter le lait TIÈDE petit à petit : versé d'un coup, il fait des grumeaux qu'on ne rattrape plus.", "en": "Add the WARM milk little by little: poured in at once, it makes lumps you cannot fix." },
+    { "fr": "Laisser reposer la pâte UNE HEURE : le gluten se détend et les crêpes ne se rétractent plus.", "en": "Rest the batter for AN HOUR: the gluten relaxes and the crêpes stop shrinking." },
+    { "fr": "Ajouter le beurre fondu à la fin, juste avant de cuire.", "en": "Add the melted butter at the end, just before cooking." },
+    { "fr": "Graisser la poêle une seule fois, au début : ensuite, le beurre de la pâte suffit.", "en": "Grease the pan once, at the start: after that, the butter in the batter is enough." },
+    { "fr": "La première crêpe est toujours ratée. C'est normal, et c'est la crêpe du cuisinier.", "en": "The first crêpe always fails. That is normal, and it is the cook's crêpe." }
+  ]
+}

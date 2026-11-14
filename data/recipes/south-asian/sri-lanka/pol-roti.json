@@ -1,0 +1,35 @@
+{
+  "slug": "pol-roti",
+  "cuisine": "south-asian",
+  "country": "sri-lanka",
+  "origin": "Sri Lanka",
+  "native_name": "Pol roti",
+  "title": {
+    "fr": "Pol roti, galettes à la noix de coco",
+    "en": "Pol roti, coconut flatbreads"
+  },
+  "meal_type": "bread",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["petit-dejeuner", "coco", "poele", "quotidien"],
+  "ingredients": [
+    { "raw": "400 g de farine de blé", "qty": 400, "unit": "g", "item": "farine de blé" },
+    { "raw": "250 g de coco râpé frais", "qty": 250, "unit": "g", "item": "coco râpé" },
+    { "raw": "1 oignon, haché très finement", "qty": 1, "unit": "piece", "item": "oignon", "prep": "haché très finement" },
+    { "raw": "3 piments verts, hachés", "qty": 3, "unit": "piece", "item": "piment frais", "prep": "haché", "optional": true },
+    { "raw": "20 cl d'eau tiède", "qty": 20, "unit": "cl", "item": "eau" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "3 c. à s. d'huile de coco", "qty": 3, "unit": "tbsp", "item": "huile de coco" }
+  ],
+  "steps": [
+    { "fr": "Mélanger la farine, le coco râpé, l'oignon, les piments et le sel du bout des doigts.", "en": "Mix the flour, grated coconut, onion, chillies and salt with your fingertips." },
+    { "fr": "Ajouter l'eau petit à petit : la quantité dépend de l'humidité du coco, il faut y aller au jugé.", "en": "Add the water little by little: the amount depends on how wet the coconut is, so judge by feel." },
+    { "fr": "Rassembler en pâte souple SANS pétrir : pétrie, la pâte devient élastique et le roti se rétracte.", "en": "Bring it together into a soft dough WITHOUT kneading: kneaded, it turns elastic and the roti shrinks back." },
+    { "fr": "Aplatir des boules à la main, sur un plan huilé, à un demi-centimètre.", "en": "Flatten balls by hand on an oiled surface, to half a centimetre." },
+    { "fr": "Cuire à la poêle sèche, quatre minutes par face, jusqu'à ce que des taches brunes apparaissent.", "en": "Cook in a dry pan, four minutes a side, until brown spots appear." },
+    { "fr": "Servir chaud avec un lunu miris ou un curry.", "en": "Serve hot with a lunu miris or a curry." }
+  ]
+}

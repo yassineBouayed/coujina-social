@@ -1,0 +1,42 @@
+{
+  "slug": "golubtsy",
+  "cuisine": "eastern-european",
+  "country": "russie",
+  "origin": "Russie",
+  "native_name": "Голубцы",
+  "title": {
+    "fr": "Golubtsy, choux farcis russes",
+    "en": "Golubtsy, Russian stuffed cabbage"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 50, "cook_min": 90 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["famille", "chou", "farci", "hiver"],
+  "ingredients": [
+    { "raw": "1 gros chou vert", "qty": 1, "unit": "piece", "item": "chou vert" },
+    { "raw": "500 g de bœuf haché", "qty": 500, "unit": "g", "item": "boeuf haché" },
+    { "raw": "400 g de porc haché", "qty": 400, "unit": "g", "item": "porc haché" },
+    { "raw": "200 g de riz rond", "qty": 200, "unit": "g", "item": "riz rond" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "3 carottes, râpées", "qty": 3, "unit": "piece", "item": "carotte", "prep": "râpée" },
+    { "raw": "4 c. à s. de concentré de tomate", "qty": 4, "unit": "tbsp", "item": "concentré de tomate", "group": "sauce" },
+    { "raw": "30 cl de crème fraîche", "qty": 30, "unit": "cl", "item": "crème fraîche", "group": "sauce" },
+    { "raw": "50 cl de bouillon de bœuf", "qty": 50, "unit": "cl", "item": "bouillon boeuf", "group": "sauce" },
+    { "raw": "1 bouquet d'aneth, ciselé", "qty": 1, "unit": "bunch", "item": "aneth", "prep": "ciselé" },
+    { "raw": "3 feuilles de laurier", "qty": 3, "unit": "piece", "item": "laurier" },
+    { "raw": "80 g de beurre", "qty": 80, "unit": "g", "item": "beurre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Golubtsy veut dire « petits pigeons » : les rouleaux ronds ressemblaient à des oiseaux au four.", "en": "Golubtsy means \"little pigeons\": the round rolls resembled birds in the oven." },
+    { "fr": "Blanchir le chou entier, tronc vers le bas, et prélever les feuilles UNE À UNE au fur et à mesure.", "en": "Blanch the whole cabbage, core down, and peel off the leaves ONE BY ONE as they soften." },
+    { "fr": "La sauce russe se distingue de la polonaise par la SMETANA : crème et tomate ensemble.", "en": "The Russian sauce differs from the Polish by its SMETANA: cream and tomato together." },
+    { "fr": "Le riz est mis à MOITIÉ cuit : cru il reste dur, cuit il devient pâteux.", "en": "The rice goes in HALF-cooked: raw it stays hard, fully cooked it turns pasty." },
+    { "fr": "Rouler serré, souder vers le bas, et ranger les golubtsy SERRÉS dans la cocotte.", "en": "Roll tightly, seam down, and pack the golubtsy TIGHTLY in the pot." },
+    { "fr": "Cuire 90 minutes à 160 °C, à couvert, et ajouter la crème les vingt dernières minutes.", "en": "Bake for 90 minutes at 160°C, covered, and add the cream in the last twenty minutes." }
+  ]
+}

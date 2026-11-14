@@ -1,0 +1,39 @@
+{
+  "slug": "currywurst",
+  "cuisine": "western-european",
+  "country": "allemagne",
+  "origin": "Allemagne",
+  "native_name": "Currywurst",
+  "title": {
+    "fr": "Currywurst, saucisse sauce curry",
+    "en": "Currywurst, sausage in curry sauce"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["berlin", "rue", "rapide", "saucisse"],
+  "ingredients": [
+    { "raw": "8 saucisses fraîches", "qty": 8, "unit": "piece", "item": "saucisse de Toulouse" },
+    { "raw": "400 g de coulis de tomate", "qty": 400, "unit": "g", "item": "coulis de tomate", "group": "sauce" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate", "group": "sauce" },
+    { "raw": "1 oignon, haché", "qty": 1, "unit": "piece", "item": "oignon", "prep": "haché", "group": "sauce" },
+    { "raw": "3 c. à s. de poudre de curry", "qty": 3, "unit": "tbsp", "item": "poudre de curry", "group": "sauce" },
+    { "raw": "2 c. à s. de paprika", "qty": 2, "unit": "tbsp", "item": "paprika", "group": "sauce" },
+    { "raw": "3 c. à s. de vinaigre de vin", "qty": 3, "unit": "tbsp", "item": "vinaigre de vin", "group": "sauce" },
+    { "raw": "3 c. à s. de sucre roux", "qty": 3, "unit": "tbsp", "item": "sucre roux", "group": "sauce" },
+    { "raw": "4 c. à s. d'huile neutre", "qty": 4, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La currywurst est née à Berlin en 1949 : c'est un plat de rue d'après-guerre, pas une recette ancienne.", "en": "Currywurst was invented in Berlin in 1949: a post-war street dish, not an old recipe." },
+    { "fr": "La sauce est aigre-douce : vinaigre et sucre en quantités égales, c'est l'équilibre à tenir.", "en": "The sauce is sweet-and-sour: vinegar and sugar in equal parts, that is the balance to hold." },
+    { "fr": "Faire revenir l'oignon et le concentré de tomate deux minutes, pour ôter son goût de conserve.", "en": "Fry the onion and tomato purée for two minutes, to cook out its tinned taste." },
+    { "fr": "Ajouter coulis, vinaigre, sucre et paprika, et laisser réduire vingt minutes.", "en": "Add the passata, vinegar, sugar and paprika, and reduce for twenty minutes." },
+    { "fr": "La moitié du curry va DANS la sauce, l'autre moitié se saupoudre CRUE à la fin.", "en": "Half the curry powder goes INTO the sauce, the other half is dusted on RAW at the end." },
+    { "fr": "Griller les saucisses, les couper en rondelles, napper de sauce et poudrer de curry.", "en": "Grill the sausages, slice them, spoon over the sauce and dust with curry powder." }
+  ]
+}

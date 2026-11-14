@@ -1,0 +1,36 @@
+{
+  "slug": "firni",
+  "cuisine": "south-asian",
+  "country": "bangladesh",
+  "origin": "Bangladesh",
+  "native_name": "Firni",
+  "title": {
+    "fr": "Firni, crème de riz moulu à la cardamome",
+    "en": "Firni, ground rice cream with cardamom"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 15, "cook_min": 40 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["aid", "riz", "lait", "froid"],
+  "ingredients": [
+    { "raw": "100 g de riz basmati", "qty": 100, "unit": "g", "item": "riz basmati" },
+    { "raw": "1,2 l de lait entier", "qty": 1.2, "unit": "l", "item": "lait entier" },
+    { "raw": "150 g de sucre", "qty": 150, "unit": "g", "item": "sucre" },
+    { "raw": "1 c. à c. de cardamome moulue", "qty": 1, "unit": "tsp", "item": "cardamome", "prep": "moulue" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "40 g de pistaches, concassées", "qty": 40, "unit": "g", "item": "pistache", "prep": "concassée" },
+    { "raw": "40 g d'amandes effilées", "qty": 40, "unit": "g", "item": "amande effilée" },
+    { "raw": "1 c. à s. d'eau de rose", "qty": 1, "unit": "tbsp", "item": "eau de rose" }
+  ],
+  "steps": [
+    { "fr": "La différence avec le kheer tient au riz : ici, il est TREMPÉ PUIS MOULU, pas cuit en grains.", "en": "The difference from kheer is the rice: here it is SOAKED THEN GROUND, not cooked whole." },
+    { "fr": "Tremper le riz une heure, l'égoutter, et le moudre grossièrement au mixeur.", "en": "Soak the rice for an hour, drain it, and grind it coarsely in a blender." },
+    { "fr": "Porter le lait à frémissement et y verser le riz moulu en pluie, en fouettant sans arrêt.", "en": "Bring the milk to a simmer and rain in the ground rice, whisking constantly." },
+    { "fr": "Cuire trente minutes à feu doux, en remuant : la firni doit napper la cuillère.", "en": "Cook for thirty minutes over low heat, stirring: firni should coat a spoon." },
+    { "fr": "Ajouter le sucre en fin de cuisson, puis le safran, la cardamome et l'eau de rose hors du feu.", "en": "Add the sugar at the end, then the saffron, cardamom and rose water off the heat." },
+    { "fr": "Verser dans des coupes et laisser prendre quatre heures au frais, décoré de fruits secs.", "en": "Pour into bowls and set for four hours in the fridge, topped with nuts." }
+  ]
+}

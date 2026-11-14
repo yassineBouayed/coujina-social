@@ -1,0 +1,9 @@
+{
+  "_lisezmoi": "Comptes de connexion FICTIFS, pour un projet Supabase de test uniquement (jamais la production). Créés par `npm run seed:accounts` avec la clé service_role. Le mot de passe est le même pour les trois.",
+  "password": "Coujina-Test-2026!",
+  "comptes": [
+    { "key": "amina", "email": "amina.test@coujina.test", "pourquoi": "compte complet : préférences, abonnements, recettes, copies modifiées" },
+    { "key": "tom", "email": "tom.test@coujina.test", "pourquoi": "compte neuf : passe par les deux écrans du premier lancement" },
+    { "key": "marie", "email": "marie.test@coujina.test", "pourquoi": "confidentialité : recettes privées et réservées aux abonnés" }
+  ]
+}

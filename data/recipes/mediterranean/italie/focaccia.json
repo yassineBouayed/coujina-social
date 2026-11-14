@@ -1,0 +1,36 @@
+{
+  "slug": "focaccia",
+  "cuisine": "mediterranean",
+  "country": "italie",
+  "origin": "Italie",
+  "native_name": "Focaccia genovese",
+  "title": {
+    "fr": "Focaccia génoise à l'huile d'olive",
+    "en": "Genoese focaccia with olive oil"
+  },
+  "meal_type": "bread",
+  "servings": 8,
+  "times": { "prep_min": 30, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ligurie", "huile-d-olive", "pain", "romarin"],
+  "ingredients": [
+    { "raw": "600 g de farine T55", "qty": 600, "unit": "g", "item": "farine T55" },
+    { "raw": "42 cl d'eau tiède", "qty": 42, "unit": "cl", "item": "eau" },
+    { "raw": "5 g de levure boulangère sèche", "qty": 5, "unit": "g", "item": "levure boulangère" },
+    { "raw": "14 g de sel", "qty": 14, "unit": "g", "item": "sel" },
+    { "raw": "20 cl d'huile d'olive", "qty": 20, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "2 c. à s. de romarin frais", "qty": 2, "unit": "tbsp", "item": "romarin" },
+    { "raw": "2 c. à s. de gros sel", "qty": 2, "unit": "tbsp", "item": "gros sel" },
+    { "raw": "10 cl d'eau tiède", "qty": 10, "unit": "cl", "item": "eau", "group": "salamoia" }
+  ],
+  "steps": [
+    { "fr": "La focaccia est TRÈS hydratée — 70 % — et généreusement huilée : c'est là toute sa texture.", "en": "Focaccia is VERY wet — 70% hydration — and generously oiled: that is its whole texture." },
+    { "fr": "Pétrir dix minutes, puis rabattre trois fois pendant la première heure de pousse.", "en": "Knead for ten minutes, then fold it three times during the first hour of proving." },
+    { "fr": "Huiler la plaque GÉNÉREUSEMENT et y étaler la pâte, sans forcer, en la laissant se détendre.", "en": "Oil the tray GENEROUSLY and spread the dough on it, without forcing, letting it relax." },
+    { "fr": "Faire des trous PROFONDS du bout des doigts, jusqu'au fond de la plaque.", "en": "Make DEEP dimples with your fingertips, right down to the tray." },
+    { "fr": "Verser la salamoia — eau tiède et huile d'olive émulsionnées — dans les trous.", "en": "Pour the salamoia — warm water and olive oil emulsified — into the dimples." },
+    { "fr": "Cuire 25 minutes à 220 °C : les creux gardent l'huile et donnent les alvéoles caractéristiques.", "en": "Bake for 25 minutes at 220°C: the dimples hold the oil and give the characteristic pockets." }
+  ]
+}

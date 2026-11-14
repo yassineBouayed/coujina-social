@@ -1,0 +1,36 @@
+{
+  "slug": "salsa-roja",
+  "cuisine": "latin-american",
+  "country": "mexique",
+  "origin": "Mexique",
+  "native_name": "Salsa roja",
+  "title": {
+    "fr": "Salsa rouge grillée",
+    "en": "Charred red salsa"
+  },
+  "meal_type": "starter",
+  "servings": 8,
+  "times": { "prep_min": 15, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["sauce", "piment", "rapide", "base"],
+  "ingredients": [
+    { "raw": "800 g de tomates", "qty": 800, "unit": "g", "item": "tomate" },
+    { "raw": "4 piments frais", "qty": 4, "unit": "piece", "item": "piment frais" },
+    { "raw": "2 piments séchés", "qty": 2, "unit": "piece", "item": "piment séché" },
+    { "raw": "1 oignon", "qty": 1, "unit": "piece", "item": "oignon" },
+    { "raw": "6 gousses d'ail", "qty": 6, "unit": "piece", "item": "ail" },
+    { "raw": "1/2 bouquet de coriandre", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche" },
+    { "raw": "1 citron vert, son jus", "qty": 1, "unit": "piece", "item": "citron vert" },
+    { "raw": "1 c. à c. de gros sel", "qty": 1, "unit": "tsp", "item": "gros sel" }
+  ],
+  "steps": [
+    { "fr": "Griller les légumes ENTIERS, à sec, sur une poêle en fonte brûlante : c'est le comal mexicain.", "en": "Char the vegetables WHOLE and dry on a scalding cast-iron pan: the Mexican comal." },
+    { "fr": "L'ail se grille EN CHEMISE : sa peau le protège et l'empêche de brûler.", "en": "The garlic chars UNPEELED: its skin protects it from burning." },
+    { "fr": "Les tomates doivent être noires par plaques et molles au toucher : compter quinze minutes.", "en": "The tomatoes should be blackened in patches and soft to the touch: allow fifteen minutes." },
+    { "fr": "Écraser AU MORTIER plutôt que de mixer : la salsa doit garder du grain et des morceaux.", "en": "Crush IN A MORTAR rather than blending: salsa must keep texture and pieces." },
+    { "fr": "Mixée, elle devient une purée lisse et mousseuse, qui n'accroche plus la tortilla.", "en": "Blended, it becomes a smooth, frothy purée that no longer clings to the tortilla." },
+    { "fr": "Ajouter la coriandre et le citron vert HORS DU MORTIER, à la fin.", "en": "Add the coriander and lime OUTSIDE the mortar, at the end." }
+  ]
+}

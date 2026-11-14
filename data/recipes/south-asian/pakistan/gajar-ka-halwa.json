@@ -1,0 +1,37 @@
+{
+  "slug": "gajar-ka-halwa",
+  "cuisine": "south-asian",
+  "country": "pakistan",
+  "origin": "Pakistan",
+  "native_name": "Gajar ka halwa",
+  "title": {
+    "fr": "Gajar ka halwa, carottes confites au lait",
+    "en": "Gajar ka halwa, carrots confited in milk"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 30, "cook_min": 90 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hiver", "carotte", "lait", "fete"],
+  "ingredients": [
+    { "raw": "1,5 kg de carottes, râpées", "qty": 1500, "unit": "g", "item": "carotte", "prep": "râpée" },
+    { "raw": "1,5 l de lait entier", "qty": 1.5, "unit": "l", "item": "lait entier" },
+    { "raw": "250 g de sucre", "qty": 250, "unit": "g", "item": "sucre" },
+    { "raw": "120 g de ghee", "qty": 120, "unit": "g", "item": "ghee" },
+    { "raw": "100 g de lait en poudre", "qty": 100, "unit": "g", "item": "lait en poudre" },
+    { "raw": "1 c. à c. de cardamome moulue", "qty": 1, "unit": "tsp", "item": "cardamome", "prep": "moulue" },
+    { "raw": "60 g d'amandes effilées", "qty": 60, "unit": "g", "item": "amande effilée" },
+    { "raw": "60 g de pistaches, concassées", "qty": 60, "unit": "g", "item": "pistache", "prep": "concassée" },
+    { "raw": "40 g de raisins secs", "qty": 40, "unit": "g", "item": "raisin sec" }
+  ],
+  "steps": [
+    { "fr": "Râper les carottes FIN : râpées gros, elles ne fondent jamais complètement dans le lait.", "en": "Grate the carrots FINE: grated coarse, they never melt fully into the milk." },
+    { "fr": "Les cuire dans le lait, à découvert, une heure, jusqu'à absorption complète du liquide.", "en": "Cook them in the milk, uncovered, for an hour, until all the liquid is absorbed." },
+    { "fr": "Remuer toutes les cinq minutes : le lait sucré accroche au fond dès qu'il épaissit.", "en": "Stir every five minutes: sweetened milk catches on the base as soon as it thickens." },
+    { "fr": "Ajouter le sucre seulement quand le lait a disparu : plus tôt, les carottes rendent leur eau.", "en": "Add the sugar only once the milk has gone: earlier, the carrots weep." },
+    { "fr": "Ajouter le ghee et le lait en poudre et cuire vingt minutes de plus, jusqu'à ce que le halwa se détache de la casserole.", "en": "Add the ghee and milk powder and cook for twenty more minutes, until the halwa pulls away from the pan." },
+    { "fr": "Finir à la cardamome et aux fruits secs, et servir chaud.", "en": "Finish with cardamom and nuts, and serve hot." }
+  ]
+}

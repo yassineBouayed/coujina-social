@@ -1,0 +1,44 @@
+{
+  "slug": "feijoada-bresilienne",
+  "cuisine": "latin-american",
+  "country": "bresil",
+  "origin": "Brésil",
+  "native_name": "Feijoada completa",
+  "title": {
+    "fr": "Feijoada aux haricots noirs",
+    "en": "Feijoada with black beans"
+  },
+  "meal_type": "main",
+  "servings": 10,
+  "times": { "prep_min": 45, "cook_min": 240 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["embleme", "haricot-noir", "samedi", "partage"],
+  "ingredients": [
+    { "raw": "800 g de haricots noirs secs, trempés la veille", "qty": 800, "unit": "g", "item": "haricot noir", "prep": "trempé la veille" },
+    { "raw": "600 g d'échine de porc, en cubes", "qty": 600, "unit": "g", "item": "échine de porc", "prep": "en cubes" },
+    { "raw": "400 g de poitrine de porc fumée", "qty": 400, "unit": "g", "item": "poitrine de porc", "prep": "fumée" },
+    { "raw": "3 saucisses fumées", "qty": 3, "unit": "piece", "item": "saucisse fumée" },
+    { "raw": "2 chorizos", "qty": 2, "unit": "piece", "item": "chorizo" },
+    { "raw": "400 g de bœuf séché, dessalé", "qty": 400, "unit": "g", "item": "viande séchée", "prep": "dessalée" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "10 gousses d'ail, écrasées", "qty": 10, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "4 feuilles de laurier", "qty": 4, "unit": "piece", "item": "laurier" },
+    { "raw": "2 oranges", "qty": 2, "unit": "piece", "item": "orange" },
+    { "raw": "400 g de riz long grain", "qty": 400, "unit": "g", "item": "riz long grain", "group": "service" },
+    { "raw": "300 g de chou vert, en lanières très fines", "qty": 300, "unit": "g", "item": "chou vert", "prep": "en lanières très fines", "group": "service" },
+    { "raw": "200 g de farine de manioc", "qty": 200, "unit": "g", "item": "farine de manioc", "group": "service" },
+    { "raw": "12 cl d'huile neutre", "qty": 12, "unit": "cl", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La feijoada se mange le SAMEDI, jamais en semaine : c'est un déjeuner qui dure l'après-midi.", "en": "Feijoada is eaten on SATURDAY, never on a weekday: a lunch that lasts the afternoon." },
+    { "fr": "Dessaler la viande séchée VINGT-QUATRE HEURES, en changeant l'eau quatre fois.", "en": "Desalt the dried beef for TWENTY-FOUR HOURS, changing the water four times." },
+    { "fr": "Cuire les haricots seuls DEUX HEURES d'abord, puis ajouter les viandes de la plus dure à la plus tendre.", "en": "Cook the beans alone for TWO HOURS first, then add the meats from toughest to most tender." },
+    { "fr": "Faire un refogado d'ail et d'oignon À PART, et y écraser UNE LOUCHE de haricots.", "en": "Make a garlic and onion refogado SEPARATELY, and crush A LADLE of beans into it." },
+    { "fr": "Reverser cette purée dans la marmite : c'est ce qui épaissit la feijoada, pas la farine.", "en": "Return that purée to the pot: it is what thickens feijoada, not flour." },
+    { "fr": "Les QUARTIERS D'ORANGE ne sont pas un dessert : leur acidité coupe le gras du plat.", "en": "The ORANGE SEGMENTS are not a dessert: their acidity cuts the dish's fat." }
+  ]
+}

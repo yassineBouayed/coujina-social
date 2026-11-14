@@ -1,0 +1,169 @@
+# Vérité du catalogue, cuisine « east-african ».
+#
+# Pour chaque ligne d'ingrédient, celui du référentiel qu'un relecteur
+# choisit, ou `-` quand le référentiel n'a rien à offrir.
+#
+# PASSE MODÈLE, pas humaine, et la circularité est ici maximale : les
+# recettes ont été écrites AVEC le référentiel sous les yeux, et les
+# ingrédients qui manquaient y ont été ajoutés dans la foulée. Le taux de
+# rattachement du champ `item` ne mesure donc presque rien sur ces cuisines.
+# Ce qui mesure quelque chose, c'est le témoin `raw`, que `catalog:gate`
+# donne en regard.
+#
+# Une ligne annotée ici n'a pas été relue par quelqu'un qui cuisine ces
+# plats. Le critère de sortie de J5 reste entier.
+recipe|line|item|expected_slug|note
+alicha-wat|0|épaule d'agneau|epaule-d-agneau|
+alicha-wat|1|oignon|oignon|
+alicha-wat|2|beurre|beurre|
+alicha-wat|3|curcuma|curcuma|
+alicha-wat|4|ail|ail|
+alicha-wat|5|gingembre|gingembre|
+alicha-wat|6|pomme de terre|pomme-de-terre|
+alicha-wat|7|piment frais|piment-frais|
+alicha-wat|8|sel|sel|
+ambasha|0|farine de blé|farine-de-ble|
+ambasha|1|levure boulangère|levure-boulangere|
+ambasha|2|sucre|sucre|
+ambasha|3|sel|sel|
+ambasha|4|graine de nigelle|graine-de-nigelle|
+ambasha|5|cardamome|cardamome|
+ambasha|6|fenugrec|fenugrec|
+ambasha|7|beurre|beurre|
+ambasha|8|eau|eau|
+atkilt-wat|0|chou blanc|chou-blanc|
+atkilt-wat|1|carotte|carotte|
+atkilt-wat|2|pomme de terre|pomme-de-terre|
+atkilt-wat|3|oignon|oignon|
+atkilt-wat|4|curcuma|curcuma|
+atkilt-wat|5|gingembre|gingembre|
+atkilt-wat|6|ail|ail|
+atkilt-wat|7|huile neutre|huile-neutre|
+atkilt-wat|8|sel|sel|
+atmet|0|farine d'orge|farine-d-orge|
+atmet|1|eau|eau|
+atmet|2|beurre|beurre|
+atmet|3|miel|miel|
+atmet|4|graine de lin|graine-de-lin|
+atmet|5|sel|sel|
+ayib|0|lait caillé|lait-caille|
+ayib|1|sel|sel|
+ayib|2|citron|citron|
+azifa|0|lentille verte|lentille-verte|
+azifa|1|oignon rouge|oignon-rouge|
+azifa|2|piment frais|piment-frais|
+azifa|3|moutarde|moutarde|
+azifa|4|citron|citron|
+azifa|5|huile d'olive|huile-d-olive|
+azifa|6|persil plat|persil-plat|
+azifa|7|sel|sel|
+berbere-maison|0|piment séché|piment-seche|
+berbere-maison|1|coriandre graines|coriandre-graines|
+berbere-maison|2|fenugrec|fenugrec|
+berbere-maison|3|graine de nigelle|graine-de-nigelle|
+berbere-maison|4|cardamome|cardamome|
+berbere-maison|5|clou de girofle|clou-de-girofle|
+berbere-maison|6|cannelle|cannelle|
+berbere-maison|7|gingembre moulu|gingembre-moulu|
+berbere-maison|8|muscade|muscade|
+berbere-maison|9|paprika|paprika|
+berbere-maison|10|sel|sel|
+buna|0|café|cafe|
+buna|1|eau|eau|
+buna|2|cardamome|cardamome|
+buna|3|sucre|sucre|
+dabo-kolo|0|farine de blé|farine-de-ble|
+dabo-kolo|1|sucre|sucre|
+dabo-kolo|2|sel|sel|
+dabo-kolo|3|berbéré|berbere|
+dabo-kolo|4|beurre|beurre|
+dabo-kolo|5|eau|eau|
+doro-wat|0|poulet entier|poulet-entier|
+doro-wat|1|oignon|oignon|
+doro-wat|2|berbéré|berbere|
+doro-wat|3|beurre|beurre|
+doro-wat|4|oeuf|oeuf|
+doro-wat|5|gingembre|gingembre|
+doro-wat|6|ail|ail|
+doro-wat|7|citron|citron|
+doro-wat|8|cardamome|cardamome|
+doro-wat|9|sel|sel|
+firfir|0|injera|injera|
+firfir|1|oignon|oignon|
+firfir|2|berbéré|berbere|
+firfir|3|beurre|beurre|
+firfir|4|tomate|tomate|
+firfir|5|ail|ail|
+firfir|6|piment frais|piment-frais|
+firfir|7|sel|sel|
+fosolia|0|haricot vert|haricot-vert|
+fosolia|1|carotte|carotte|
+fosolia|2|oignon|oignon|
+fosolia|3|ail|ail|
+fosolia|4|tomate|tomate|
+fosolia|5|huile neutre|huile-neutre|
+fosolia|6|curcuma|curcuma|
+fosolia|7|sel|sel|
+gomen|0|chou frisé|chou-frise|
+gomen|1|oignon|oignon|
+gomen|2|ail|ail|
+gomen|3|gingembre|gingembre|
+gomen|4|beurre|beurre|
+gomen|5|piment frais|piment-frais|
+gomen|6|curcuma|curcuma|
+gomen|7|sel|sel|
+injera|0|farine de teff|farine-de-teff|
+injera|1|eau|eau|
+injera|2|sel|sel|
+key-wat|0|boeuf à mijoter|boeuf-a-mijoter|
+key-wat|1|oignon|oignon|
+key-wat|2|berbéré|berbere|
+key-wat|3|beurre|beurre|
+key-wat|4|ail|ail|
+key-wat|5|gingembre|gingembre|
+key-wat|6|cardamome|cardamome|
+key-wat|7|sel|sel|
+kitfo|0|steak de bœuf|steak-de-boeuf|
+kitfo|1|beurre|beurre|
+kitfo|2|mitmita|mitmita|
+kitfo|3|cardamome|cardamome|
+kitfo|4|ricotta|ricotta|
+kitfo|5|chou frisé|chou-frise|
+kitfo|6|sel|sel|
+misir-wat|0|lentille corail|lentille-corail|
+misir-wat|1|oignon|oignon|
+misir-wat|2|berbéré|berbere|
+misir-wat|3|huile neutre|huile-neutre|
+misir-wat|4|ail|ail|
+misir-wat|5|gingembre|gingembre|
+misir-wat|6|concentré de tomate|concentre-de-tomate|
+misir-wat|7|sel|sel|
+niter-kibbeh|0|beurre|beurre|
+niter-kibbeh|1|oignon|oignon|
+niter-kibbeh|2|ail|ail|
+niter-kibbeh|3|gingembre|gingembre|
+niter-kibbeh|4|fenugrec|fenugrec|
+niter-kibbeh|5|graine de nigelle|graine-de-nigelle|
+niter-kibbeh|6|cardamome|cardamome|
+niter-kibbeh|7|cannelle|cannelle|
+niter-kibbeh|8|curcuma|curcuma|
+shiro-wat|0|farine de pois chiche|farine-de-pois-chiche|
+shiro-wat|1|berbéré|berbere|
+shiro-wat|2|oignon|oignon|
+shiro-wat|3|ail|ail|
+shiro-wat|4|gingembre|gingembre|
+shiro-wat|5|huile neutre|huile-neutre|
+shiro-wat|6|tomate|tomate|
+shiro-wat|7|eau|eau|
+shiro-wat|8|sel|sel|
+tibs|0|gigot d'agneau|gigot-d-agneau|
+tibs|1|beurre|beurre|
+tibs|2|oignon|oignon|
+tibs|3|poivron vert|poivron-vert|
+tibs|4|piment frais|piment-frais|
+tibs|5|gingembre|gingembre|
+tibs|6|ail|ail|
+tibs|7|romarin|romarin|
+tibs|8|berbéré|berbere|
+tibs|9|sel|sel|
+tibs|10|poivre noir|poivre-noir|

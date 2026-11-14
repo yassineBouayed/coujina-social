@@ -1,0 +1,104 @@
+# Les pays du catalogue.
+#
+# La cuisine (data/cuisines.psv) est la REGION, le pays en est le detail.
+# L'onboarding demande d'abord une region — « quelles cuisines sont les
+# votres ? » (SPEC §1) — puis laisse affiner : un utilisateur marocain coche
+# « Maghrebine » et, s'il le veut, « Maroc » seul. Sans ce fichier, le choix
+# s'arreterait a la region, et « Maghrebine » melangerait le tajine marocain et
+# la chorba algerienne sans qu'on puisse les separer.
+#
+# Un pays appartient a UNE region et une seule. Le decoupage est culinaire, pas
+# geopolitique : l'Egypte est rangee en levantine parce que le foul, la molokheya
+# et le mahchi la rapprochent de Beyrouth plus que de Marrakech.
+#
+# `cuisine`    -> slug de data/cuisines.psv. Les recettes du pays vivent dans
+#                 data/recipes/<cuisine>/<slug>/.
+# `sort_order` -> ordre d'affichage DANS la region.
+# `flag`       -> le drapeau, pour la liste de selection. Rien de plus : le
+#                 degrade qui tient lieu de photo appartient a la region.
+# `continent`  -> slug de data/continents.psv. Le decoupage est GEOGRAPHIQUE,
+#                 celui d'un atlas, et c'est la difference avec `cuisine` :
+#                 l'Egypte est rangee en cuisine levantine et en continent
+#                 africain, et les deux sont vrais. Sert a l'ecran « mes
+#                 recettes hors ligne », qui range par continent puis par pays
+#                 plutot que de derouler cinquante pays a plat.
+#
+#                 Les deux pays a cheval sont ranges la ou vit la quasi-totalite
+#                 de leur population, donc de leur cuisine : la Turquie en Asie,
+#                 la Russie en Europe. La Guadeloupe est en Amerique du Nord,
+#                 avec les Caraibes.
+#
+# lat / lng (ajout couJina social) : le point ou le globe du Tour du monde plante
+# l'epingle du pays. Centre approximatif du pays, pas de la capitale.
+slug|name_fr|name_en|cuisine|sort_order|flag|continent|lat|lng
+# ------------------------------------------------------------------ maghrebi
+maroc|Maroc|Morocco|maghrebi|10|🇲🇦|afrique|31.8|-7.1
+algerie|Algérie|Algeria|maghrebi|20|🇩🇿|afrique|28|2.6
+tunisie|Tunisie|Tunisia|maghrebi|30|🇹🇳|afrique|34|9.5
+# -------------------------------------------------------------- west-african
+senegal|Sénégal|Senegal|west-african|10|🇸🇳|afrique|14.5|-14.5
+nigeria|Nigeria|Nigeria|west-african|20|🇳🇬|afrique|9.1|8.7
+# -------------------------------------------------------------- east-african
+ethiopie|Éthiopie|Ethiopia|east-african|10|🇪🇹|afrique|9.1|40.5
+# ------------------------------------------------------------ southern-african
+afrique-du-sud|Afrique du Sud|South Africa|southern-african|10|🇿🇦|afrique|-30.6|22.9
+# ----------------------------------------------------------------- levantine
+liban|Liban|Lebanon|levantine|10|🇱🇧|asie|33.9|35.9
+syrie|Syrie|Syria|levantine|20|🇸🇾|asie|34.8|38.9
+jordanie|Jordanie|Jordan|levantine|30|🇯🇴|asie|30.6|36.2
+egypte|Égypte|Egypt|levantine|40|🇪🇬|afrique|26.8|30.8
+# ------------------------------------------------------------ middle-eastern
+turquie|Turquie|Türkiye|middle-eastern|10|🇹🇷|asie|39|35.2
+iran|Iran|Iran|middle-eastern|20|🇮🇷|asie|32.4|53.7
+arabie-saoudite|Arabie saoudite|Saudi Arabia|middle-eastern|30|🇸🇦|asie|23.9|45.1
+# --------------------------------------------------------------- south-asian
+inde|Inde|India|south-asian|10|🇮🇳|asie|20.6|78.9
+pakistan|Pakistan|Pakistan|south-asian|20|🇵🇰|asie|30.4|69.3
+bangladesh|Bangladesh|Bangladesh|south-asian|30|🇧🇩|asie|23.7|90.4
+sri-lanka|Sri Lanka|Sri Lanka|south-asian|40|🇱🇰|asie|7.9|80.8
+nepal|Népal|Nepal|south-asian|50|🇳🇵|asie|28.4|84.1
+# ---------------------------------------------------------------- east-asian
+chine|Chine|China|east-asian|10|🇨🇳|asie|35.9|104.2
+japon|Japon|Japan|east-asian|20|🇯🇵|asie|36.2|138.3
+coree-du-sud|Corée du Sud|South Korea|east-asian|30|🇰🇷|asie|35.9|127.8
+# ----------------------------------------------------------- southeast-asian
+thailande|Thaïlande|Thailand|southeast-asian|10|🇹🇭|asie|15.9|100.9
+vietnam|Viêt Nam|Vietnam|southeast-asian|20|🇻🇳|asie|14.1|108.3
+indonesie|Indonésie|Indonesia|southeast-asian|30|🇮🇩|asie|-0.8|113.9
+malaisie|Malaisie|Malaysia|southeast-asian|40|🇲🇾|asie|4.2|101.9
+philippines|Philippines|Philippines|southeast-asian|50|🇵🇭|asie|12.9|121.8
+singapour|Singapour|Singapore|southeast-asian|60|🇸🇬|asie|1.35|103.8
+cambodge|Cambodge|Cambodia|southeast-asian|70|🇰🇭|asie|12.6|104.9
+# -------------------------------------------------------------------- french
+france|France|France|french|10|🇫🇷|europe|46.6|2.2
+# ------------------------------------------------------------- mediterranean
+italie|Italie|Italy|mediterranean|10|🇮🇹|europe|41.9|12.6
+espagne|Espagne|Spain|mediterranean|20|🇪🇸|europe|40.5|-3.7
+grece|Grèce|Greece|mediterranean|30|🇬🇷|europe|39.1|21.8
+portugal|Portugal|Portugal|mediterranean|40|🇵🇹|europe|39.4|-8.2
+# ---------------------------------------------------------- western-european
+allemagne|Allemagne|Germany|western-european|10|🇩🇪|europe|51.2|10.5
+royaume-uni|Royaume-Uni|United Kingdom|western-european|20|🇬🇧|europe|54|-2
+irlande|Irlande|Ireland|western-european|30|🇮🇪|europe|53.4|-8.2
+belgique|Belgique|Belgium|western-european|40|🇧🇪|europe|50.5|4.5
+pays-bas|Pays-Bas|Netherlands|western-european|50|🇳🇱|europe|52.1|5.3
+suisse|Suisse|Switzerland|western-european|60|🇨🇭|europe|46.8|8.2
+autriche|Autriche|Austria|western-european|70|🇦🇹|europe|47.5|14.6
+# ---------------------------------------------------------- eastern-european
+pologne|Pologne|Poland|eastern-european|10|🇵🇱|europe|51.9|19.1
+russie|Russie|Russia|eastern-european|20|🇷🇺|europe|55.8|37.6
+# ------------------------------------------------------------- north-american
+etats-unis|États-Unis|United States|north-american|10|🇺🇸|amerique-du-nord|39.8|-98.6
+# ------------------------------------------------------------- latin-american
+mexique|Mexique|Mexico|latin-american|10|🇲🇽|amerique-du-nord|23.6|-102.6
+bresil|Brésil|Brazil|latin-american|20|🇧🇷|amerique-du-sud|-14.2|-51.9
+argentine|Argentine|Argentina|latin-american|30|🇦🇷|amerique-du-sud|-38.4|-63.6
+perou|Pérou|Peru|latin-american|40|🇵🇪|amerique-du-sud|-9.2|-75
+colombie|Colombie|Colombia|latin-american|50|🇨🇴|amerique-du-sud|4.6|-74.3
+
+# ------------------------------------------------------------------ antillaise
+# La Guadeloupe est un departement francais, pas un Etat souverain. Elle figure
+# ici parce que le decoupage de ce fichier est CULINAIRE : les seize plats
+# emblematiques declares pour la cuisine antillaise (data/recipes/signature.psv)
+# sont antillais francais, et aucun Etat des Caraibes ne les porte.
+guadeloupe|Guadeloupe|Guadeloupe|caribbean|10|🇬🇵|amerique-du-nord|16.25|-61.55

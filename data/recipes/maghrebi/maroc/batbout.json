@@ -1,0 +1,35 @@
+{
+  "slug": "batbout",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Batbout",
+  "title": {
+    "fr": "Batbout, petits pains marocains à la poêle",
+    "en": "Batbout, Moroccan pan-cooked flatbreads"
+  },
+  "meal_type": "bread",
+  "servings": 8,
+  "times": { "prep_min": 25, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["pain", "poele", "sandwich", "levure"],
+  "ingredients": [
+    { "raw": "300 g de farine de blé", "qty": 300, "unit": "g", "item": "farine de blé" },
+    { "raw": "200 g de semoule fine", "qty": 200, "unit": "g", "item": "semoule fine" },
+    { "raw": "1 c. à s. de levure boulangère sèche", "qty": 1, "unit": "tbsp", "item": "levure boulangère" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "1 c. à c. de sucre", "qty": 1, "unit": "tsp", "item": "sucre" },
+    { "raw": "30 cl d'eau tiède", "qty": 30, "unit": "cl", "item": "eau" },
+    { "raw": "2 c. à s. d'huile d'olive", "qty": 2, "unit": "tbsp", "item": "huile d'olive" }
+  ],
+  "steps": [
+    { "fr": "Mélanger farine, semoule fine, levure, sel et sucre, puis pétrir dix minutes avec l'eau tiède et l'huile.", "en": "Mix flour, fine semolina, yeast, salt and sugar, then knead for ten minutes with the warm water and oil." },
+    { "fr": "La pâte doit rester souple et légèrement collante : sèche, le batbout ne gonflera pas.", "en": "The dough must stay soft and slightly tacky: dry, batbout will not puff." },
+    { "fr": "Laisser lever une heure, puis diviser en boules et les étaler à un demi-centimètre.", "en": "Prove for an hour, then divide into balls and roll them out to half a centimetre." },
+    { "fr": "Les poser sur un linge fariné et laisser lever encore trente minutes.", "en": "Set them on a floured cloth and prove for another thirty minutes." },
+    { "fr": "Cuire à la poêle sèche, à feu moyen : ils gonflent en poche au bout d'une minute.", "en": "Cook in a dry pan over medium heat: they balloon after about a minute." },
+    { "fr": "Retourner dès que le dessous est marbré, et empiler sous un linge pour les garder souples.", "en": "Turn as soon as the underside is mottled, and stack under a cloth to keep them soft." }
+  ]
+}

@@ -1,0 +1,1112 @@
+# Vérité du catalogue, cuisine « latin-american ».
+#
+# Pour chaque ligne d'ingrédient, celui du référentiel qu'un relecteur
+# choisit, ou `-` quand le référentiel n'a rien à offrir.
+#
+# PASSE MODÈLE, pas humaine, et la circularité est ici maximale : les
+# recettes ont été écrites AVEC le référentiel sous les yeux, et les
+# ingrédients qui manquaient y ont été ajoutés dans la foulée. Le taux de
+# rattachement du champ `item` ne mesure donc presque rien sur ces cuisines.
+# Ce qui mesure quelque chose, c'est le témoin `raw`, que `catalog:gate`
+# donne en regard.
+#
+# Une ligne annotée ici n'a pas été relue par quelqu'un qui cuisine ces
+# plats. Le critère de sortie de J5 reste entier.
+recipe|line|item|expected_slug|note
+alfajores-de-maicena|0|maïzena|maizena|
+alfajores-de-maicena|1|farine de blé|farine-de-ble|
+alfajores-de-maicena|2|beurre|beurre|
+alfajores-de-maicena|3|sucre|sucre|
+alfajores-de-maicena|4|oeuf|oeuf|
+alfajores-de-maicena|5|levure chimique|levure-chimique|
+alfajores-de-maicena|6|citron|citron|
+alfajores-de-maicena|7|dulce de leche|dulce-de-leche|
+alfajores-de-maicena|8|noix de coco râpée|coco-rape|
+alfajores-de-maicena|9|sel|sel|
+asado-argentin|0|boeuf|boeuf|
+asado-argentin|1|boeuf à mijoter|boeuf-a-mijoter|
+asado-argentin|2|chorizo|chorizo|
+asado-argentin|3|boudin noir|boudin-noir|
+asado-argentin|4|gros sel|gros-sel|
+asado-argentin|5|persil plat|persil-plat|
+asado-argentin|6|ail|ail|
+asado-argentin|7|huile d'olive|huile-d-olive|
+asado-argentin|8|vinaigre de vin|vinaigre-de-vin|
+asado-argentin|9|origan séché|origan-seche|
+asado-argentin|10|piment en flocons|piment-en-flocons|
+asado-argentin|11|poivre noir|poivre-noir|
+chocotorta|0|biscuit sec|biscuit-sec|
+chocotorta|1|dulce de leche|dulce-de-leche|
+chocotorta|2|fromage frais|fromage-frais|
+chocotorta|3|café|cafe|
+chocotorta|4|cacao en poudre|cacao-en-poudre|
+chocotorta|5|sel|sel|
+choripan|0|chorizo|chorizo|
+choripan|1|pain|pain|
+choripan|2|persil plat|persil-plat|
+choripan|3|ail|ail|
+choripan|4|huile d'olive|huile-d-olive|
+choripan|5|vinaigre de vin|vinaigre-de-vin|
+choripan|6|origan séché|origan-seche|
+choripan|7|piment en flocons|piment-en-flocons|
+choripan|8|gros sel|gros-sel|
+choripan|9|poivre noir|poivre-noir|
+dulce-de-leche|0|lait entier|lait-entier|
+dulce-de-leche|1|sucre|sucre|
+dulce-de-leche|2|bicarbonate de soude|bicarbonate|
+dulce-de-leche|3|gousse de vanille|gousse-de-vanille|
+dulce-de-leche|4|sel|sel|
+empanadas-argentines|0|farine de blé|farine-de-ble|
+empanadas-argentines|1|saindoux|saindoux|
+empanadas-argentines|2|eau|eau|
+empanadas-argentines|3|sel|sel|
+empanadas-argentines|4|boeuf à mijoter|boeuf-a-mijoter|
+empanadas-argentines|5|oignon|oignon|
+empanadas-argentines|6|oignon nouveau|oignon-nouveau|
+empanadas-argentines|7|paprika|paprika|
+empanadas-argentines|8|cumin|cumin|
+empanadas-argentines|9|piment en flocons|piment-en-flocons|
+empanadas-argentines|10|oeuf|oeuf|
+empanadas-argentines|11|olive verte|olive-verte|
+empanadas-argentines|12|pomme de terre|pomme-de-terre|
+empanadas-argentines|13|oeuf|oeuf|
+empanadas-argentines|14|sel|sel|
+empanadas-argentines|15|poivre noir|poivre-noir|
+ensalada-rusa|0|pomme de terre|pomme-de-terre|
+ensalada-rusa|1|carotte|carotte|
+ensalada-rusa|2|petits pois surgelés|petits-pois-surgeles|
+ensalada-rusa|3|mayonnaise|mayonnaise|
+ensalada-rusa|4|moutarde|moutarde|
+ensalada-rusa|5|citron|citron|
+ensalada-rusa|6|persil plat|persil-plat|
+ensalada-rusa|7|sel|sel|
+ensalada-rusa|8|poivre noir|poivre-noir|
+flan-con-dulce|0|lait entier|lait-entier|
+flan-con-dulce|1|oeuf|oeuf|
+flan-con-dulce|2|sucre|sucre|
+flan-con-dulce|3|gousse de vanille|gousse-de-vanille|
+flan-con-dulce|4|sucre|sucre|
+flan-con-dulce|5|eau|eau|
+flan-con-dulce|6|dulce de leche|dulce-de-leche|
+flan-con-dulce|7|crème liquide|creme-liquide|
+flan-con-dulce|8|sel|sel|
+guiso-de-lentejas|0|lentille verte|lentille-verte|
+guiso-de-lentejas|1|chorizo|chorizo|
+guiso-de-lentejas|2|poitrine de porc|poitrine-de-porc|
+guiso-de-lentejas|3|carotte|carotte|
+guiso-de-lentejas|4|courge butternut|butternut|
+guiso-de-lentejas|5|patate douce|patate-douce|
+guiso-de-lentejas|6|oignon|oignon|
+guiso-de-lentejas|7|poivron rouge|poivron-rouge|
+guiso-de-lentejas|8|paprika|paprika|
+guiso-de-lentejas|9|cumin|cumin|
+guiso-de-lentejas|10|coulis de tomate|coulis-de-tomate|
+guiso-de-lentejas|11|bouillon boeuf|bouillon-boeuf|
+guiso-de-lentejas|12|sel|sel|
+guiso-de-lentejas|13|poivre noir|poivre-noir|
+humita-en-chala|0|maïs doux|mais-doux|
+humita-en-chala|1|oignon|oignon|
+humita-en-chala|2|poivron rouge|poivron-rouge|
+humita-en-chala|3|lait entier|lait-entier|
+humita-en-chala|4|queso fresco|queso-fresco|
+humita-en-chala|5|paprika|paprika|
+humita-en-chala|6|cumin|cumin|
+humita-en-chala|7|basilic|basilic|
+humita-en-chala|8|beurre|beurre|
+humita-en-chala|9|sel|sel|
+humita-en-chala|10|poivre noir|poivre-noir|
+locro|0|hominy|hominy|
+locro|1|haricot blanc|haricot-blanc|
+locro|2|échine de porc|echine-de-porc|
+locro|3|poitrine de porc|poitrine-de-porc|
+locro|4|chorizo|chorizo|
+locro|5|courge butternut|butternut|
+locro|6|patate douce|patate-douce|
+locro|7|oignon|oignon|
+locro|8|eau|eau|
+locro|9|paprika|paprika|
+locro|10|piment en flocons|piment-en-flocons|
+locro|11|huile neutre|huile-neutre|
+locro|12|oignon nouveau|oignon-nouveau|
+locro|13|sel|sel|
+locro|14|poivre noir|poivre-noir|
+matambre-arrollado|0|boeuf à mijoter|boeuf-a-mijoter|
+matambre-arrollado|1|carotte|carotte|
+matambre-arrollado|2|oeuf|oeuf|
+matambre-arrollado|3|épinard|epinard|
+matambre-arrollado|4|poivron rouge|poivron-rouge|
+matambre-arrollado|5|ail|ail|
+matambre-arrollado|6|persil plat|persil-plat|
+matambre-arrollado|7|origan séché|origan-seche|
+matambre-arrollado|8|vinaigre de vin|vinaigre-de-vin|
+matambre-arrollado|9|bouillon boeuf|bouillon-boeuf|
+matambre-arrollado|10|sel|sel|
+matambre-arrollado|11|poivre noir|poivre-noir|
+mate-cocido|0|yerba maté|yerba-mate|
+mate-cocido|1|eau|eau|
+mate-cocido|2|lait entier|lait-entier|
+mate-cocido|3|sucre|sucre|
+medialunas|0|farine T45|farine-t45|
+medialunas|1|lait entier|lait-entier|
+medialunas|2|levure boulangère|levure-boulangere|
+medialunas|3|beurre|beurre|
+medialunas|4|sucre|sucre|
+medialunas|5|oeuf|oeuf|
+medialunas|6|citron|citron|
+medialunas|7|sucre|sucre|
+medialunas|8|eau|eau|
+medialunas|9|oeuf|oeuf|
+medialunas|10|sel|sel|
+milanesa-napolitana|0|boeuf|boeuf|
+milanesa-napolitana|1|oeuf|oeuf|
+milanesa-napolitana|2|panko|panko|
+milanesa-napolitana|3|ail|ail|
+milanesa-napolitana|4|persil plat|persil-plat|
+milanesa-napolitana|5|jambon blanc|jambon-blanc|
+milanesa-napolitana|6|mozzarella|mozzarella|
+milanesa-napolitana|7|coulis de tomate|coulis-de-tomate|
+milanesa-napolitana|8|origan séché|origan-seche|
+milanesa-napolitana|9|huile neutre|huile-neutre|
+milanesa-napolitana|10|sel|sel|
+milanesa-napolitana|11|poivre noir|poivre-noir|
+pastel-de-papas|0|pomme de terre|pomme-de-terre|
+pastel-de-papas|1|boeuf haché|boeuf-hache|
+pastel-de-papas|2|oignon|oignon|
+pastel-de-papas|3|poivron rouge|poivron-rouge|
+pastel-de-papas|4|oeuf|oeuf|
+pastel-de-papas|5|olive verte|olive-verte|
+pastel-de-papas|6|raisin sec|raisin-sec|
+pastel-de-papas|7|paprika|paprika|
+pastel-de-papas|8|cumin|cumin|
+pastel-de-papas|9|beurre|beurre|
+pastel-de-papas|10|lait entier|lait-entier|
+pastel-de-papas|11|muscade|muscade|
+pastel-de-papas|12|sel|sel|
+pastel-de-papas|13|poivre noir|poivre-noir|
+pastelitos-criollos|0|farine de blé|farine-de-ble|
+pastelitos-criollos|1|eau|eau|
+pastelitos-criollos|2|saindoux|saindoux|
+pastelitos-criollos|3|sel|sel|
+pastelitos-criollos|4|coing|coing|
+pastelitos-criollos|5|huile neutre|huile-neutre|
+pastelitos-criollos|6|sucre|sucre|
+pastelitos-criollos|7|eau|eau|
+pastelitos-criollos|8|sucre|sucre|
+provoleta|0|provolone|provolone|
+provoleta|1|origan séché|origan-seche|
+provoleta|2|piment en flocons|piment-en-flocons|
+provoleta|3|huile d'olive|huile-d-olive|
+provoleta|4|baguette|baguette|
+provoleta|5|poivre noir|poivre-noir|
+submarino|0|lait entier|lait-entier|
+submarino|1|chocolat noir|chocolat-noir|
+submarino|2|sucre|sucre|
+submarino|3|sel|sel|
+tarta-de-jamon-y-queso|0|pâte brisée|pate-brisee|
+tarta-de-jamon-y-queso|1|jambon blanc|jambon-blanc|
+tarta-de-jamon-y-queso|2|mozzarella|mozzarella|
+tarta-de-jamon-y-queso|3|oeuf|oeuf|
+tarta-de-jamon-y-queso|4|crème fraîche|creme-fraiche|
+tarta-de-jamon-y-queso|5|oignon|oignon|
+tarta-de-jamon-y-queso|6|origan séché|origan-seche|
+tarta-de-jamon-y-queso|7|muscade|muscade|
+tarta-de-jamon-y-queso|8|oeuf|oeuf|
+tarta-de-jamon-y-queso|9|sel|sel|
+tarta-de-jamon-y-queso|10|poivre noir|poivre-noir|
+acaraje|0|niébé|niebe|
+acaraje|1|oignon|oignon|
+acaraje|2|huile de palme|huile-de-palme-rouge|
+acaraje|3|crevette séchée|crevette-sechee|
+acaraje|4|cacahuète|arachide|
+acaraje|5|lait de coco|lait-de-coco|
+acaraje|6|tomate|tomate|
+acaraje|7|poivron vert|poivron-vert|
+acaraje|8|coriandre fraîche|coriandre-fraiche|
+acaraje|9|piment frais|piment-frais|
+acaraje|10|sel|sel|
+beijinho|0|lait concentré sucré|lait-concentre-sucre|
+beijinho|1|noix de coco râpée|coco-rape|
+beijinho|2|beurre|beurre|
+beijinho|3|noix de coco râpée|coco-rape|
+beijinho|4|clou de girofle|clou-de-girofle|
+beijinho|5|sel|sel|
+bobo-de-camarao|0|crevette|crevette|
+bobo-de-camarao|1|manioc|manioc|
+bobo-de-camarao|2|lait de coco|lait-de-coco|
+bobo-de-camarao|3|huile de palme|huile-de-palme-rouge|
+bobo-de-camarao|4|oignon|oignon|
+bobo-de-camarao|5|poivron rouge|poivron-rouge|
+bobo-de-camarao|6|tomate|tomate|
+bobo-de-camarao|7|ail|ail|
+bobo-de-camarao|8|coriandre fraîche|coriandre-fraiche|
+bobo-de-camarao|9|citron vert|citron-vert|
+bobo-de-camarao|10|piment frais|piment-frais|
+bobo-de-camarao|11|huile d'olive|huile-d-olive|
+bobo-de-camarao|12|sel|sel|
+bobo-de-camarao|13|poivre noir|poivre-noir|
+bolo-de-cenoura|0|carotte|carotte|
+bolo-de-cenoura|1|huile neutre|huile-neutre|
+bolo-de-cenoura|2|oeuf|oeuf|
+bolo-de-cenoura|3|sucre|sucre|
+bolo-de-cenoura|4|farine de blé|farine-de-ble|
+bolo-de-cenoura|5|levure chimique|levure-chimique|
+bolo-de-cenoura|6|lait concentré sucré|lait-concentre-sucre|
+bolo-de-cenoura|7|cacao en poudre|cacao-en-poudre|
+bolo-de-cenoura|8|beurre|beurre|
+bolo-de-cenoura|9|sel|sel|
+brigadeiro|0|lait concentré sucré|lait-concentre-sucre|
+brigadeiro|1|cacao en poudre|cacao-en-poudre|
+brigadeiro|2|beurre|beurre|
+brigadeiro|3|chocolat noir|chocolat-noir|
+brigadeiro|4|sel|sel|
+caldo-verde-bresilien|0|pomme de terre|pomme-de-terre|
+caldo-verde-bresilien|1|chou frisé|chou-frise|
+caldo-verde-bresilien|2|chorizo|chorizo|
+caldo-verde-bresilien|3|lardon|lardon|
+caldo-verde-bresilien|4|oignon|oignon|
+caldo-verde-bresilien|5|ail|ail|
+caldo-verde-bresilien|6|bouillon volaille|bouillon-volaille|
+caldo-verde-bresilien|7|huile d'olive|huile-d-olive|
+caldo-verde-bresilien|8|sel|sel|
+caldo-verde-bresilien|9|poivre noir|poivre-noir|
+coxinha|0|blanc de poulet|blanc-de-poulet|
+coxinha|1|bouillon volaille|bouillon-volaille|
+coxinha|2|farine de blé|farine-de-ble|
+coxinha|3|beurre|beurre|
+coxinha|4|fromage frais|fromage-frais|
+coxinha|5|oignon|oignon|
+coxinha|6|ail|ail|
+coxinha|7|concentré de tomate|concentre-de-tomate|
+coxinha|8|persil plat|persil-plat|
+coxinha|9|oeuf|oeuf|
+coxinha|10|panko|panko|
+coxinha|11|huile neutre|huile-neutre|
+coxinha|12|sel|sel|
+coxinha|13|poivre noir|poivre-noir|
+escondidinho|0|manioc|manioc|
+escondidinho|1|viande séchée|viande-sechee|
+escondidinho|2|oignon|oignon|
+escondidinho|3|ail|ail|
+escondidinho|4|tomate|tomate|
+escondidinho|5|lait entier|lait-entier|
+escondidinho|6|beurre|beurre|
+escondidinho|7|crème liquide|creme-liquide|
+escondidinho|8|queso fresco|queso-fresco|
+escondidinho|9|coriandre fraîche|coriandre-fraiche|
+escondidinho|10|sel|sel|
+escondidinho|11|poivre noir|poivre-noir|
+farofa|0|farine de manioc|gari|
+farofa|1|lardon|lardon|
+farofa|2|oignon|oignon|
+farofa|3|beurre|beurre|
+farofa|4|oeuf|oeuf|
+farofa|5|raisin sec|raisin-sec|
+farofa|6|persil plat|persil-plat|
+farofa|7|sel|sel|
+farofa|8|poivre noir|poivre-noir|
+feijoada-bresilienne|0|haricot noir|haricot-noir|
+feijoada-bresilienne|1|échine de porc|echine-de-porc|
+feijoada-bresilienne|2|poitrine de porc|poitrine-de-porc|
+feijoada-bresilienne|3|saucisse fumée|saucisse-fumee|
+feijoada-bresilienne|4|chorizo|chorizo|
+feijoada-bresilienne|5|viande séchée|viande-sechee|
+feijoada-bresilienne|6|oignon|oignon|
+feijoada-bresilienne|7|ail|ail|
+feijoada-bresilienne|8|laurier|laurier|
+feijoada-bresilienne|9|orange|orange|
+feijoada-bresilienne|10|riz long grain|riz-long-grain|
+feijoada-bresilienne|11|chou vert|chou-vert|
+feijoada-bresilienne|12|farine de manioc|gari|
+feijoada-bresilienne|13|huile neutre|huile-neutre|
+feijoada-bresilienne|14|sel|sel|
+feijoada-bresilienne|15|poivre noir|poivre-noir|
+limonada-suica|0|citron vert|citron-vert|
+limonada-suica|1|eau|eau|
+limonada-suica|2|lait concentré sucré|lait-concentre-sucre|
+limonada-suica|3|sucre|sucre|
+limonada-suica|4|sel|sel|
+moqueca-baiana|0|cabillaud|cabillaud|
+moqueca-baiana|1|crevette|crevette|
+moqueca-baiana|2|lait de coco|lait-de-coco|
+moqueca-baiana|3|huile de palme|huile-de-palme-rouge|
+moqueca-baiana|4|poivron rouge|poivron-rouge|
+moqueca-baiana|5|oignon|oignon|
+moqueca-baiana|6|tomate|tomate|
+moqueca-baiana|7|ail|ail|
+moqueca-baiana|8|coriandre fraîche|coriandre-fraiche|
+moqueca-baiana|9|citron vert|citron-vert|
+moqueca-baiana|10|piment frais|piment-frais|
+moqueca-baiana|11|sel|sel|
+moqueca-baiana|12|poivre noir|poivre-noir|
+pao-de-alho|0|baguette|baguette|
+pao-de-alho|1|ail|ail|
+pao-de-alho|2|beurre|beurre|
+pao-de-alho|3|crème fraîche|creme-fraiche|
+pao-de-alho|4|parmesan|parmesan|
+pao-de-alho|5|persil plat|persil-plat|
+pao-de-alho|6|ciboulette|ciboulette|
+pao-de-alho|7|sel|sel|
+pao-de-alho|8|poivre noir|poivre-noir|
+pao-de-queijo|0|fécule de tapioca|fecule-de-tapioca|
+pao-de-queijo|1|lait entier|lait-entier|
+pao-de-queijo|2|huile neutre|huile-neutre|
+pao-de-queijo|3|oeuf|oeuf|
+pao-de-queijo|4|parmesan|parmesan|
+pao-de-queijo|5|queso fresco|queso-fresco|
+pao-de-queijo|6|sel|sel|
+pastel-de-feira|0|farine de blé|farine-de-ble|
+pastel-de-feira|1|eau|eau|
+pastel-de-feira|2|vinaigre blanc|vinaigre-blanc|
+pastel-de-feira|3|huile neutre|huile-neutre|
+pastel-de-feira|4|vinaigre blanc|vinaigre-blanc|
+pastel-de-feira|5|boeuf haché|boeuf-hache|
+pastel-de-feira|6|oignon|oignon|
+pastel-de-feira|7|ail|ail|
+pastel-de-feira|8|olive noire|olive-noire|
+pastel-de-feira|9|oeuf|oeuf|
+pastel-de-feira|10|persil plat|persil-plat|
+pastel-de-feira|11|huile neutre|huile-neutre|
+pastel-de-feira|12|sel|sel|
+pastel-de-feira|13|poivre noir|poivre-noir|
+picanha-grillee|0|boeuf|boeuf|
+picanha-grillee|1|gros sel|gros-sel|
+picanha-grillee|2|farine de manioc|gari|
+picanha-grillee|3|lardon|lardon|
+picanha-grillee|4|oignon|oignon|
+picanha-grillee|5|beurre|beurre|
+picanha-grillee|6|tomate|tomate|
+picanha-grillee|7|oignon|oignon|
+picanha-grillee|8|vinaigre de vin|vinaigre-de-vin|
+picanha-grillee|9|huile d'olive|huile-d-olive|
+picanha-grillee|10|poivre noir|poivre-noir|
+pudim-de-leite|0|lait concentré sucré|lait-concentre-sucre|
+pudim-de-leite|1|lait entier|lait-entier|
+pudim-de-leite|2|oeuf|oeuf|
+pudim-de-leite|3|sucre|sucre|
+pudim-de-leite|4|eau|eau|
+pudim-de-leite|5|sel|sel|
+salada-de-maionese|0|pomme de terre|pomme-de-terre|
+salada-de-maionese|1|carotte|carotte|
+salada-de-maionese|2|petits pois surgelés|petits-pois-surgeles|
+salada-de-maionese|3|maïs doux|mais-doux|
+salada-de-maionese|4|jambon blanc|jambon-blanc|
+salada-de-maionese|5|oeuf|oeuf|
+salada-de-maionese|6|mayonnaise|mayonnaise|
+salada-de-maionese|7|crème fraîche|creme-fraiche|
+salada-de-maionese|8|oignon|oignon|
+salada-de-maionese|9|persil plat|persil-plat|
+salada-de-maionese|10|citron vert|citron-vert|
+salada-de-maionese|11|sel|sel|
+salada-de-maionese|12|poivre noir|poivre-noir|
+vatapa|0|crevette|crevette|
+vatapa|1|crevette séchée|crevette-sechee|
+vatapa|2|pain de mie|pain-de-mie|
+vatapa|3|cacahuète|arachide|
+vatapa|4|noix de cajou|noix-de-cajou|
+vatapa|5|lait de coco|lait-de-coco|
+vatapa|6|huile de palme|huile-de-palme-rouge|
+vatapa|7|oignon|oignon|
+vatapa|8|ail|ail|
+vatapa|9|gingembre frais|gingembre|
+vatapa|10|coriandre fraîche|coriandre-fraiche|
+vatapa|11|citron vert|citron-vert|
+vatapa|12|sel|sel|
+vatapa|13|poivre noir|poivre-noir|
+vitamina-de-abacate|0|avocat|avocat|
+vitamina-de-abacate|1|lait entier|lait-entier|
+vitamina-de-abacate|2|sucre|sucre|
+vitamina-de-abacate|3|citron vert|citron-vert|
+vitamina-de-abacate|4|sel|sel|
+aguapanela-con-limon|0|sucre de canne complet|panela|
+aguapanela-con-limon|1|eau|eau|
+aguapanela-con-limon|2|citron vert|citron-vert|
+aguapanela-con-limon|3|cannelle|cannelle|
+aguapanela-con-limon|4|queso fresco|queso-fresco|
+ajiaco-santafereno|0|poulet entier|poulet-entier|
+ajiaco-santafereno|1|pomme de terre|pomme-de-terre|
+ajiaco-santafereno|2|pomme de terre|pomme-de-terre|
+ajiaco-santafereno|3|pomme de terre|pomme-de-terre|
+ajiaco-santafereno|4|maïs doux|mais-doux|
+ajiaco-santafereno|5|guascas|guascas|
+ajiaco-santafereno|6|oignon|oignon|
+ajiaco-santafereno|7|ail|ail|
+ajiaco-santafereno|8|crème fraîche|creme-fraiche|
+ajiaco-santafereno|9|câpre|capre|
+ajiaco-santafereno|10|avocat|avocat|
+ajiaco-santafereno|11|coriandre fraîche|coriandre-fraiche|
+ajiaco-santafereno|12|sel|sel|
+ajiaco-santafereno|13|poivre noir|poivre-noir|
+arepa-de-huevo|0|masa harina|masa-harina|
+arepa-de-huevo|1|eau|eau|
+arepa-de-huevo|2|oeuf|oeuf|
+arepa-de-huevo|3|huile neutre|huile-neutre|
+arepa-de-huevo|4|boeuf haché|boeuf-hache|
+arepa-de-huevo|5|sel|sel|
+arepa-de-huevo|6|poivre noir|poivre-noir|
+arepas-de-queso|0|masa harina|masa-harina|
+arepas-de-queso|1|eau|eau|
+arepas-de-queso|2|queso fresco|queso-fresco|
+arepas-de-queso|3|beurre|beurre|
+arepas-de-queso|4|sel|sel|
+arroz-con-coco|0|riz long grain|riz-long-grain|
+arroz-con-coco|1|lait de coco|lait-de-coco|
+arroz-con-coco|2|raisin sec|raisin-sec|
+arroz-con-coco|3|sucre|sucre|
+arroz-con-coco|4|eau|eau|
+arroz-con-coco|5|sel|sel|
+bandeja-paisa|0|haricot rouge|haricot-rouge|
+bandeja-paisa|1|poitrine de porc|poitrine-de-porc|
+bandeja-paisa|2|boeuf haché|boeuf-hache|
+bandeja-paisa|3|chorizo|chorizo|
+bandeja-paisa|4|poitrine de porc|poitrine-de-porc|
+bandeja-paisa|5|riz long grain|riz-long-grain|
+bandeja-paisa|6|oeuf|oeuf|
+bandeja-paisa|7|plantain|banane-plantain|
+bandeja-paisa|8|avocat|avocat|
+bandeja-paisa|9|tomate|tomate|
+bandeja-paisa|10|masa harina|masa-harina|
+bandeja-paisa|11|oignon|oignon|
+bandeja-paisa|12|huile neutre|huile-neutre|
+bandeja-paisa|13|sel|sel|
+bandeja-paisa|14|poivre noir|poivre-noir|
+bunuelos-colombiens|0|queso fresco|queso-fresco|
+bunuelos-colombiens|1|maïzena|maizena|
+bunuelos-colombiens|2|fécule de tapioca|fecule-de-tapioca|
+bunuelos-colombiens|3|oeuf|oeuf|
+bunuelos-colombiens|4|sucre|sucre|
+bunuelos-colombiens|5|levure chimique|levure-chimique|
+bunuelos-colombiens|6|huile neutre|huile-neutre|
+bunuelos-colombiens|7|sel|sel|
+cazuela-de-mariscos|0|crevette|crevette|
+cazuela-de-mariscos|1|calamar|calamar|
+cazuela-de-mariscos|2|moule|moule|
+cazuela-de-mariscos|3|cabillaud|cabillaud|
+cazuela-de-mariscos|4|lait de coco|lait-de-coco|
+cazuela-de-mariscos|5|crème liquide|creme-liquide|
+cazuela-de-mariscos|6|oignon|oignon|
+cazuela-de-mariscos|7|poivron rouge|poivron-rouge|
+cazuela-de-mariscos|8|tomate|tomate|
+cazuela-de-mariscos|9|ail|ail|
+cazuela-de-mariscos|10|farine de blé|farine-de-ble|
+cazuela-de-mariscos|11|curcuma|curcuma|
+cazuela-de-mariscos|12|coriandre fraîche|coriandre-fraiche|
+cazuela-de-mariscos|13|citron vert|citron-vert|
+cazuela-de-mariscos|14|sel|sel|
+cazuela-de-mariscos|15|poivre noir|poivre-noir|
+changua|0|lait entier|lait-entier|
+changua|1|eau|eau|
+changua|2|oeuf|oeuf|
+changua|3|oignon nouveau|oignon-nouveau|
+changua|4|coriandre fraîche|coriandre-fraiche|
+changua|5|pain|pain|
+changua|6|queso fresco|queso-fresco|
+changua|7|sel|sel|
+changua|8|poivre noir|poivre-noir|
+chocolate-santafereno|0|lait entier|lait-entier|
+chocolate-santafereno|1|chocolat noir|chocolat-noir|
+chocolate-santafereno|2|cannelle|cannelle|
+chocolate-santafereno|3|clou de girofle|clou-de-girofle|
+chocolate-santafereno|4|sucre roux|sucre-roux|
+chocolate-santafereno|5|queso fresco|queso-fresco|
+chocolate-santafereno|6|pain|pain|
+chocolate-santafereno|7|sel|sel|
+empanadas-colombiennes|0|masa harina|masa-harina|
+empanadas-colombiennes|1|eau|eau|
+empanadas-colombiennes|2|curcuma|curcuma|
+empanadas-colombiennes|3|huile neutre|huile-neutre|
+empanadas-colombiennes|4|pomme de terre|pomme-de-terre|
+empanadas-colombiennes|5|boeuf haché|boeuf-hache|
+empanadas-colombiennes|6|oignon|oignon|
+empanadas-colombiennes|7|tomate|tomate|
+empanadas-colombiennes|8|cumin|cumin|
+empanadas-colombiennes|9|coriandre fraîche|coriandre-fraiche|
+empanadas-colombiennes|10|huile neutre|huile-neutre|
+empanadas-colombiennes|11|sel|sel|
+empanadas-colombiennes|12|poivre noir|poivre-noir|
+frijoles-antioquenos|0|haricot rouge|haricot-rouge|
+frijoles-antioquenos|1|poitrine de porc|poitrine-de-porc|
+frijoles-antioquenos|2|plantain|banane-plantain|
+frijoles-antioquenos|3|carotte|carotte|
+frijoles-antioquenos|4|tomate|tomate|
+frijoles-antioquenos|5|oignon|oignon|
+frijoles-antioquenos|6|oignon nouveau|oignon-nouveau|
+frijoles-antioquenos|7|ail|ail|
+frijoles-antioquenos|8|cumin|cumin|
+frijoles-antioquenos|9|coriandre fraîche|coriandre-fraiche|
+frijoles-antioquenos|10|eau|eau|
+frijoles-antioquenos|11|sel|sel|
+frijoles-antioquenos|12|poivre noir|poivre-noir|
+hogao|0|tomate|tomate|
+hogao|1|oignon nouveau|oignon-nouveau|
+hogao|2|oignon|oignon|
+hogao|3|ail|ail|
+hogao|4|cumin|cumin|
+hogao|5|curcuma|curcuma|
+hogao|6|huile neutre|huile-neutre|
+hogao|7|coriandre fraîche|coriandre-fraiche|
+hogao|8|sel|sel|
+hogao|9|poivre noir|poivre-noir|
+lechona|0|échine de porc|echine-de-porc|
+lechona|1|pois cassé|pois-casse|
+lechona|2|riz long grain|riz-long-grain|
+lechona|3|oignon|oignon|
+lechona|4|oignon nouveau|oignon-nouveau|
+lechona|5|ail|ail|
+lechona|6|cumin|cumin|
+lechona|7|curcuma|curcuma|
+lechona|8|gros sel|gros-sel|
+lechona|9|coriandre fraîche|coriandre-fraiche|
+lechona|10|masa harina|masa-harina|
+lechona|11|poivre noir|poivre-noir|
+natilla-colombienne|0|lait entier|lait-entier|
+natilla-colombienne|1|maïzena|maizena|
+natilla-colombienne|2|sucre roux|sucre-roux|
+natilla-colombienne|3|cannelle|cannelle|
+natilla-colombienne|4|clou de girofle|clou-de-girofle|
+natilla-colombienne|5|beurre|beurre|
+natilla-colombienne|6|noix de coco râpée|coco-rape|
+natilla-colombienne|7|cannelle|cannelle|
+natilla-colombienne|8|sel|sel|
+obleas|0|biscuit sec|biscuit-sec|
+obleas|1|dulce de leche|dulce-de-leche|
+obleas|2|confiture|confiture|
+obleas|3|fromage frais|fromage-frais|
+obleas|4|noix de coco râpée|coco-rape|
+obleas|5|queso fresco|queso-fresco|
+patacones|0|plantain|banane-plantain|
+patacones|1|huile neutre|huile-neutre|
+patacones|2|ail|ail|
+patacones|3|eau|eau|
+patacones|4|gros sel|gros-sel|
+patacones|5|tomate|tomate|
+patacones|6|oignon nouveau|oignon-nouveau|
+patacones|7|cumin|cumin|
+patacones|8|coriandre fraîche|coriandre-fraiche|
+posta-negra|0|boeuf à mijoter|boeuf-a-mijoter|
+posta-negra|1|sucre roux|sucre-roux|
+posta-negra|2|sauce soja|sauce-soja|
+posta-negra|3|coulis de tomate|coulis-de-tomate|
+posta-negra|4|oignon|oignon|
+posta-negra|5|ail|ail|
+posta-negra|6|cumin|cumin|
+posta-negra|7|vinaigre de vin|vinaigre-de-vin|
+posta-negra|8|laurier|laurier|
+posta-negra|9|bouillon boeuf|bouillon-boeuf|
+posta-negra|10|huile neutre|huile-neutre|
+posta-negra|11|sel|sel|
+posta-negra|12|poivre noir|poivre-noir|
+sancocho-de-gallina|0|poulet entier|poulet-entier|
+sancocho-de-gallina|1|manioc|manioc|
+sancocho-de-gallina|2|pomme de terre|pomme-de-terre|
+sancocho-de-gallina|3|plantain|banane-plantain|
+sancocho-de-gallina|4|maïs doux|mais-doux|
+sancocho-de-gallina|5|oignon|oignon|
+sancocho-de-gallina|6|oignon nouveau|oignon-nouveau|
+sancocho-de-gallina|7|tomate|tomate|
+sancocho-de-gallina|8|ail|ail|
+sancocho-de-gallina|9|coriandre fraîche|coriandre-fraiche|
+sancocho-de-gallina|10|cumin|cumin|
+sancocho-de-gallina|11|curcuma|curcuma|
+sancocho-de-gallina|12|eau|eau|
+sancocho-de-gallina|13|sel|sel|
+sancocho-de-gallina|14|poivre noir|poivre-noir|
+sudado-de-pollo|0|poulet entier|poulet-entier|
+sudado-de-pollo|1|pomme de terre|pomme-de-terre|
+sudado-de-pollo|2|manioc|manioc|
+sudado-de-pollo|3|tomate|tomate|
+sudado-de-pollo|4|oignon|oignon|
+sudado-de-pollo|5|oignon nouveau|oignon-nouveau|
+sudado-de-pollo|6|ail|ail|
+sudado-de-pollo|7|cumin|cumin|
+sudado-de-pollo|8|curcuma|curcuma|
+sudado-de-pollo|9|coriandre fraîche|coriandre-fraiche|
+sudado-de-pollo|10|bouillon volaille|bouillon-volaille|
+sudado-de-pollo|11|huile neutre|huile-neutre|
+sudado-de-pollo|12|sel|sel|
+sudado-de-pollo|13|poivre noir|poivre-noir|
+tamales-tolimenses|0|masa harina|masa-harina|
+tamales-tolimenses|1|pois cassé|pois-casse|
+tamales-tolimenses|2|riz long grain|riz-long-grain|
+tamales-tolimenses|3|échine de porc|echine-de-porc|
+tamales-tolimenses|4|poulet entier|poulet-entier|
+tamales-tolimenses|5|pomme de terre|pomme-de-terre|
+tamales-tolimenses|6|oeuf|oeuf|
+tamales-tolimenses|7|carotte|carotte|
+tamales-tolimenses|8|feuille de bananier|feuille-de-bananier|
+tamales-tolimenses|9|oignon|oignon|
+tamales-tolimenses|10|ail|ail|
+tamales-tolimenses|11|cumin|cumin|
+tamales-tolimenses|12|curcuma|curcuma|
+tamales-tolimenses|13|sel|sel|
+tamales-tolimenses|14|poivre noir|poivre-noir|
+agua-de-jamaica|0|hibiscus séché|hibiscus-seche|
+agua-de-jamaica|1|eau|eau|
+agua-de-jamaica|2|sucre|sucre|
+agua-de-jamaica|3|citron vert|citron-vert|
+agua-de-jamaica|4|cannelle|cannelle|
+agua-de-jamaica|5|sel|sel|
+arroz-a-la-mexicana|0|riz long grain|riz-long-grain|
+arroz-a-la-mexicana|1|tomate|tomate|
+arroz-a-la-mexicana|2|oignon|oignon|
+arroz-a-la-mexicana|3|ail|ail|
+arroz-a-la-mexicana|4|petits pois surgelés|petits-pois-surgeles|
+arroz-a-la-mexicana|5|carotte|carotte|
+arroz-a-la-mexicana|6|bouillon volaille|bouillon-volaille|
+arroz-a-la-mexicana|7|huile neutre|huile-neutre|
+arroz-a-la-mexicana|8|piment frais|piment-frais|
+arroz-a-la-mexicana|9|sel|sel|
+arroz-a-la-mexicana|10|poivre noir|poivre-noir|
+ceviche-mexicain|0|dorade|dorade|
+ceviche-mexicain|1|citron vert|citron-vert|
+ceviche-mexicain|2|oignon rouge|oignon-rouge|
+ceviche-mexicain|3|tomate|tomate|
+ceviche-mexicain|4|concombre|concombre|
+ceviche-mexicain|5|piment frais|piment-frais|
+ceviche-mexicain|6|coriandre fraîche|coriandre-fraiche|
+ceviche-mexicain|7|avocat|avocat|
+ceviche-mexicain|8|huile d'olive|huile-d-olive|
+ceviche-mexicain|9|tortilla de maïs|tortilla-de-mais|
+ceviche-mexicain|10|sel|sel|
+ceviche-mexicain|11|poivre noir|poivre-noir|
+chiles-rellenos|0|poivron vert|poivron-vert|
+chiles-rellenos|1|queso fresco|queso-fresco|
+chiles-rellenos|2|oeuf|oeuf|
+chiles-rellenos|3|farine de blé|farine-de-ble|
+chiles-rellenos|4|huile neutre|huile-neutre|
+chiles-rellenos|5|tomate pelée en conserve|tomate-pelee|
+chiles-rellenos|6|oignon|oignon|
+chiles-rellenos|7|ail|ail|
+chiles-rellenos|8|origan séché|origan-seche|
+chiles-rellenos|9|sel|sel|
+chiles-rellenos|10|poivre noir|poivre-noir|
+churros-mexicains|0|farine de blé|farine-de-ble|
+churros-mexicains|1|eau|eau|
+churros-mexicains|2|beurre|beurre|
+churros-mexicains|3|sel|sel|
+churros-mexicains|4|oeuf|oeuf|
+churros-mexicains|5|huile neutre|huile-neutre|
+churros-mexicains|6|sucre|sucre|
+churros-mexicains|7|cannelle|cannelle|
+churros-mexicains|8|lait concentré sucré|lait-concentre-sucre|
+cochinita-pibil|0|échine de porc|echine-de-porc|
+cochinita-pibil|1|rocou|rocou|
+cochinita-pibil|2|orange|orange|
+cochinita-pibil|3|citron vert|citron-vert|
+cochinita-pibil|4|ail|ail|
+cochinita-pibil|5|cumin|cumin|
+cochinita-pibil|6|origan séché|origan-seche|
+cochinita-pibil|7|clou de girofle|clou-de-girofle|
+cochinita-pibil|8|poivre noir|poivre-noir|
+cochinita-pibil|9|oignon rouge|oignon-rouge|
+cochinita-pibil|10|vinaigre blanc|vinaigre-blanc|
+cochinita-pibil|11|habanero|habanero|
+cochinita-pibil|12|tortilla de maïs|tortilla-de-mais|
+cochinita-pibil|13|sel|sel|
+elote|0|maïs doux|mais-doux|
+elote|1|mayonnaise|mayonnaise|
+elote|2|crème fraîche|creme-fraiche|
+elote|3|queso fresco|queso-fresco|
+elote|4|piment en poudre|piment-en-poudre|
+elote|5|citron vert|citron-vert|
+elote|6|coriandre fraîche|coriandre-fraiche|
+elote|7|sel|sel|
+enchiladas-verdes|0|tomatille|tomatille|
+enchiladas-verdes|1|blanc de poulet|blanc-de-poulet|
+enchiladas-verdes|2|tortilla de maïs|tortilla-de-mais|
+enchiladas-verdes|3|piment frais|piment-frais|
+enchiladas-verdes|4|oignon|oignon|
+enchiladas-verdes|5|ail|ail|
+enchiladas-verdes|6|coriandre fraîche|coriandre-fraiche|
+enchiladas-verdes|7|queso fresco|queso-fresco|
+enchiladas-verdes|8|crème fraîche|creme-fraiche|
+enchiladas-verdes|9|bouillon volaille|bouillon-volaille|
+enchiladas-verdes|10|huile neutre|huile-neutre|
+enchiladas-verdes|11|sel|sel|
+enchiladas-verdes|12|poivre noir|poivre-noir|
+flan-mexicain|0|lait concentré sucré|lait-concentre-sucre|
+flan-mexicain|1|lait évaporé|lait-evapore|
+flan-mexicain|2|fromage frais|fromage-frais|
+flan-mexicain|3|oeuf|oeuf|
+flan-mexicain|4|sucre|sucre|
+flan-mexicain|5|eau|eau|
+flan-mexicain|6|extrait de vanille|extrait-de-vanille|
+flan-mexicain|7|sel|sel|
+frijoles-refritos|0|haricot noir|haricot-noir|
+frijoles-refritos|1|oignon|oignon|
+frijoles-refritos|2|ail|ail|
+frijoles-refritos|3|saindoux|saindoux|
+frijoles-refritos|4|piment frais|piment-frais|
+frijoles-refritos|5|cumin|cumin|
+frijoles-refritos|6|origan séché|origan-seche|
+frijoles-refritos|7|queso fresco|queso-fresco|
+frijoles-refritos|8|sel|sel|
+guacamole|0|avocat|avocat|
+guacamole|1|citron vert|citron-vert|
+guacamole|2|oignon rouge|oignon-rouge|
+guacamole|3|tomate|tomate|
+guacamole|4|piment frais|piment-frais|
+guacamole|5|coriandre fraîche|coriandre-fraiche|
+guacamole|6|gros sel|gros-sel|
+guacamole|7|tortilla de maïs|tortilla-de-mais|
+horchata-mexicaine|0|riz long grain|riz-long-grain|
+horchata-mexicaine|1|eau|eau|
+horchata-mexicaine|2|cannelle|cannelle|
+horchata-mexicaine|3|lait concentré sucré|lait-concentre-sucre|
+horchata-mexicaine|4|lait entier|lait-entier|
+horchata-mexicaine|5|amande|amande|
+horchata-mexicaine|6|extrait de vanille|extrait-de-vanille|
+horchata-mexicaine|7|sel|sel|
+mole-poblano|0|poulet entier|poulet-entier|
+mole-poblano|1|piment séché|piment-seche|
+mole-poblano|2|piment séché|piment-seche|
+mole-poblano|3|chipotle en adobo|chipotle-en-adobo|
+mole-poblano|4|amande|amande|
+mole-poblano|5|graine de sésame|sesame|
+mole-poblano|6|raisin sec|raisin-sec|
+mole-poblano|7|chocolat noir|chocolat-noir|
+mole-poblano|8|tomate|tomate|
+mole-poblano|9|oignon|oignon|
+mole-poblano|10|ail|ail|
+mole-poblano|11|tortilla de maïs|tortilla-de-mais|
+mole-poblano|12|cannelle|cannelle|
+mole-poblano|13|clou de girofle|clou-de-girofle|
+mole-poblano|14|bouillon volaille|bouillon-volaille|
+mole-poblano|15|huile neutre|huile-neutre|
+mole-poblano|16|sel|sel|
+mole-poblano|17|poivre noir|poivre-noir|
+pozole-rojo|0|échine de porc|echine-de-porc|
+pozole-rojo|1|hominy|hominy|
+pozole-rojo|2|piment séché|piment-seche|
+pozole-rojo|3|piment séché|piment-seche|
+pozole-rojo|4|oignon|oignon|
+pozole-rojo|5|ail|ail|
+pozole-rojo|6|origan séché|origan-seche|
+pozole-rojo|7|eau|eau|
+pozole-rojo|8|chou vert|chou-vert|
+pozole-rojo|9|radis|radis|
+pozole-rojo|10|citron vert|citron-vert|
+pozole-rojo|11|avocat|avocat|
+pozole-rojo|12|sel|sel|
+pozole-rojo|13|poivre noir|poivre-noir|
+quesadillas|0|tortilla de maïs|tortilla-de-mais|
+quesadillas|1|queso fresco|queso-fresco|
+quesadillas|2|champignon de Paris|champignon-de-paris|
+quesadillas|3|oignon|oignon|
+quesadillas|4|piment frais|piment-frais|
+quesadillas|5|coriandre fraîche|coriandre-fraiche|
+quesadillas|6|ail|ail|
+quesadillas|7|huile neutre|huile-neutre|
+quesadillas|8|citron vert|citron-vert|
+quesadillas|9|sel|sel|
+quesadillas|10|poivre noir|poivre-noir|
+salsa-roja|0|tomate|tomate|
+salsa-roja|1|piment frais|piment-frais|
+salsa-roja|2|piment séché|piment-seche|
+salsa-roja|3|oignon|oignon|
+salsa-roja|4|ail|ail|
+salsa-roja|5|coriandre fraîche|coriandre-fraiche|
+salsa-roja|6|citron vert|citron-vert|
+salsa-roja|7|gros sel|gros-sel|
+sopa-de-tortilla|0|tortilla de maïs|tortilla-de-mais|
+sopa-de-tortilla|1|tomate|tomate|
+sopa-de-tortilla|2|piment séché|piment-seche|
+sopa-de-tortilla|3|oignon|oignon|
+sopa-de-tortilla|4|ail|ail|
+sopa-de-tortilla|5|bouillon volaille|bouillon-volaille|
+sopa-de-tortilla|6|avocat|avocat|
+sopa-de-tortilla|7|queso fresco|queso-fresco|
+sopa-de-tortilla|8|crème fraîche|creme-fraiche|
+sopa-de-tortilla|9|coriandre fraîche|coriandre-fraiche|
+sopa-de-tortilla|10|citron vert|citron-vert|
+sopa-de-tortilla|11|huile neutre|huile-neutre|
+sopa-de-tortilla|12|sel|sel|
+sopa-de-tortilla|13|poivre noir|poivre-noir|
+tacos-al-pastor|0|échine de porc|echine-de-porc|
+tacos-al-pastor|1|piment séché|piment-seche|
+tacos-al-pastor|2|chipotle en adobo|chipotle-en-adobo|
+tacos-al-pastor|3|ananas|ananas|
+tacos-al-pastor|4|rocou|rocou|
+tacos-al-pastor|5|ail|ail|
+tacos-al-pastor|6|cumin|cumin|
+tacos-al-pastor|7|origan séché|origan-seche|
+tacos-al-pastor|8|vinaigre blanc|vinaigre-blanc|
+tacos-al-pastor|9|tortilla de maïs|tortilla-de-mais|
+tacos-al-pastor|10|oignon|oignon|
+tacos-al-pastor|11|coriandre fraîche|coriandre-fraiche|
+tacos-al-pastor|12|citron vert|citron-vert|
+tacos-al-pastor|13|sel|sel|
+tacos-al-pastor|14|poivre noir|poivre-noir|
+tamales|0|masa harina|masa-harina|
+tamales|1|saindoux|saindoux|
+tamales|2|bouillon volaille|bouillon-volaille|
+tamales|3|levure chimique|levure-chimique|
+tamales|4|feuille de maïs séchée|feuille-de-mais-sechee|
+tamales|5|blanc de poulet|blanc-de-poulet|
+tamales|6|piment séché|piment-seche|
+tamales|7|oignon|oignon|
+tamales|8|ail|ail|
+tamales|9|cumin|cumin|
+tamales|10|sel|sel|
+tamales|11|poivre noir|poivre-noir|
+tinga-de-pollo|0|blanc de poulet|blanc-de-poulet|
+tinga-de-pollo|1|tomate|tomate|
+tinga-de-pollo|2|chipotle en adobo|chipotle-en-adobo|
+tinga-de-pollo|3|oignon|oignon|
+tinga-de-pollo|4|ail|ail|
+tinga-de-pollo|5|origan séché|origan-seche|
+tinga-de-pollo|6|laurier|laurier|
+tinga-de-pollo|7|tortilla de maïs|tortilla-de-mais|
+tinga-de-pollo|8|avocat|avocat|
+tinga-de-pollo|9|queso fresco|queso-fresco|
+tinga-de-pollo|10|crème fraîche|creme-fraiche|
+tinga-de-pollo|11|huile neutre|huile-neutre|
+tinga-de-pollo|12|sel|sel|
+tinga-de-pollo|13|poivre noir|poivre-noir|
+aji-de-gallina|0|blanc de poulet|blanc-de-poulet|
+aji-de-gallina|1|ají amarillo|aji-amarillo|
+aji-de-gallina|2|pain de mie|pain-de-mie|
+aji-de-gallina|3|lait entier|lait-entier|
+aji-de-gallina|4|noix|noix|
+aji-de-gallina|5|parmesan|parmesan|
+aji-de-gallina|6|oignon|oignon|
+aji-de-gallina|7|ail|ail|
+aji-de-gallina|8|pomme de terre|pomme-de-terre|
+aji-de-gallina|9|oeuf|oeuf|
+aji-de-gallina|10|olive noire|olive-noire|
+aji-de-gallina|11|huile neutre|huile-neutre|
+aji-de-gallina|12|sel|sel|
+aji-de-gallina|13|poivre noir|poivre-noir|
+anticuchos|0|boeuf à mijoter|boeuf-a-mijoter|
+anticuchos|1|ají panca|aji-panca|
+anticuchos|2|ail|ail|
+anticuchos|3|vinaigre de vin|vinaigre-de-vin|
+anticuchos|4|cumin|cumin|
+anticuchos|5|origan séché|origan-seche|
+anticuchos|6|huile neutre|huile-neutre|
+anticuchos|7|pomme de terre|pomme-de-terre|
+anticuchos|8|hominy|hominy|
+anticuchos|9|sel|sel|
+anticuchos|10|poivre noir|poivre-noir|
+arroz-con-leche-peruvien|0|riz rond|riz-rond|
+arroz-con-leche-peruvien|1|eau|eau|
+arroz-con-leche-peruvien|2|lait entier|lait-entier|
+arroz-con-leche-peruvien|3|lait concentré sucré|lait-concentre-sucre|
+arroz-con-leche-peruvien|4|lait évaporé|lait-evapore|
+arroz-con-leche-peruvien|5|raisin sec|raisin-sec|
+arroz-con-leche-peruvien|6|cannelle|cannelle|
+arroz-con-leche-peruvien|7|clou de girofle|clou-de-girofle|
+arroz-con-leche-peruvien|8|orange|orange|
+arroz-con-leche-peruvien|9|cannelle|cannelle|
+arroz-con-leche-peruvien|10|sel|sel|
+arroz-con-pollo-peruvien|0|poulet entier|poulet-entier|
+arroz-con-pollo-peruvien|1|riz long grain|riz-long-grain|
+arroz-con-pollo-peruvien|2|coriandre fraîche|coriandre-fraiche|
+arroz-con-pollo-peruvien|3|épinard|epinard|
+arroz-con-pollo-peruvien|4|ají amarillo|aji-amarillo|
+arroz-con-pollo-peruvien|5|oignon|oignon|
+arroz-con-pollo-peruvien|6|ail|ail|
+arroz-con-pollo-peruvien|7|poivron rouge|poivron-rouge|
+arroz-con-pollo-peruvien|8|petits pois surgelés|petits-pois-surgeles|
+arroz-con-pollo-peruvien|9|bière|biere|
+arroz-con-pollo-peruvien|10|bouillon volaille|bouillon-volaille|
+arroz-con-pollo-peruvien|11|huile neutre|huile-neutre|
+arroz-con-pollo-peruvien|12|sel|sel|
+arroz-con-pollo-peruvien|13|poivre noir|poivre-noir|
+causa-limena|0|pomme de terre|pomme-de-terre|
+causa-limena|1|ají amarillo|aji-amarillo|
+causa-limena|2|citron vert|citron-vert|
+causa-limena|3|huile neutre|huile-neutre|
+causa-limena|4|thon en conserve|thon-en-conserve|
+causa-limena|5|mayonnaise|mayonnaise|
+causa-limena|6|oignon rouge|oignon-rouge|
+causa-limena|7|avocat|avocat|
+causa-limena|8|oeuf|oeuf|
+causa-limena|9|olive noire|olive-noire|
+causa-limena|10|sel|sel|
+causa-limena|11|poivre noir|poivre-noir|
+ceviche-peruvien|0|bar|bar|
+ceviche-peruvien|1|citron vert|citron-vert|
+ceviche-peruvien|2|oignon rouge|oignon-rouge|
+ceviche-peruvien|3|ají amarillo|aji-amarillo|
+ceviche-peruvien|4|coriandre fraîche|coriandre-fraiche|
+ceviche-peruvien|5|patate douce|patate-douce|
+ceviche-peruvien|6|hominy|hominy|
+ceviche-peruvien|7|ail|ail|
+ceviche-peruvien|8|gingembre frais|gingembre|
+ceviche-peruvien|9|gros sel|gros-sel|
+ceviche-peruvien|10|poivre noir|poivre-noir|
+chicha-morada|0|maïs violet|mais-violet|
+chicha-morada|1|eau|eau|
+chicha-morada|2|ananas|ananas|
+chicha-morada|3|pomme|pomme|
+chicha-morada|4|cannelle|cannelle|
+chicha-morada|5|clou de girofle|clou-de-girofle|
+chicha-morada|6|sucre|sucre|
+chicha-morada|7|citron vert|citron-vert|
+chupe-de-camarones|0|crevette|crevette|
+chupe-de-camarones|1|riz long grain|riz-long-grain|
+chupe-de-camarones|2|pomme de terre|pomme-de-terre|
+chupe-de-camarones|3|butternut|butternut|
+chupe-de-camarones|4|maïs doux|mais-doux|
+chupe-de-camarones|5|petits pois surgelés|petits-pois-surgeles|
+chupe-de-camarones|6|ají panca|aji-panca|
+chupe-de-camarones|7|oignon|oignon|
+chupe-de-camarones|8|ail|ail|
+chupe-de-camarones|9|lait évaporé|lait-evapore|
+chupe-de-camarones|10|queso fresco|queso-fresco|
+chupe-de-camarones|11|oeuf|oeuf|
+chupe-de-camarones|12|origan séché|origan-seche|
+chupe-de-camarones|13|sel|sel|
+chupe-de-camarones|14|poivre noir|poivre-noir|
+escabeche-de-pescado|0|bar|bar|
+escabeche-de-pescado|1|oignon rouge|oignon-rouge|
+escabeche-de-pescado|2|ají amarillo|aji-amarillo|
+escabeche-de-pescado|3|vinaigre de vin|vinaigre-de-vin|
+escabeche-de-pescado|4|ail|ail|
+escabeche-de-pescado|5|cumin|cumin|
+escabeche-de-pescado|6|origan séché|origan-seche|
+escabeche-de-pescado|7|farine de blé|farine-de-ble|
+escabeche-de-pescado|8|oeuf|oeuf|
+escabeche-de-pescado|9|olive noire|olive-noire|
+escabeche-de-pescado|10|patate douce|patate-douce|
+escabeche-de-pescado|11|huile neutre|huile-neutre|
+escabeche-de-pescado|12|sel|sel|
+escabeche-de-pescado|13|poivre noir|poivre-noir|
+lomo-saltado|0|filet de boeuf|filet-de-boeuf|
+lomo-saltado|1|pomme de terre|pomme-de-terre|
+lomo-saltado|2|oignon rouge|oignon-rouge|
+lomo-saltado|3|tomate|tomate|
+lomo-saltado|4|ají amarillo|aji-amarillo|
+lomo-saltado|5|sauce soja|sauce-soja|
+lomo-saltado|6|vinaigre de vin|vinaigre-de-vin|
+lomo-saltado|7|ail|ail|
+lomo-saltado|8|coriandre fraîche|coriandre-fraiche|
+lomo-saltado|9|huile neutre|huile-neutre|
+lomo-saltado|10|riz long grain|riz-long-grain|
+lomo-saltado|11|sel|sel|
+lomo-saltado|12|poivre noir|poivre-noir|
+mazamorra-morada|0|maïs violet|mais-violet|
+mazamorra-morada|1|eau|eau|
+mazamorra-morada|2|abricot sec|abricot-sec|
+mazamorra-morada|3|pruneau|pruneau|
+mazamorra-morada|4|griotte|griotte|
+mazamorra-morada|5|ananas|ananas|
+mazamorra-morada|6|sucre|sucre|
+mazamorra-morada|7|maïzena|maizena|
+mazamorra-morada|8|cannelle|cannelle|
+mazamorra-morada|9|clou de girofle|clou-de-girofle|
+mazamorra-morada|10|citron vert|citron-vert|
+mazamorra-morada|11|cannelle|cannelle|
+papa-a-la-huancaina|0|pomme de terre|pomme-de-terre|
+papa-a-la-huancaina|1|ají amarillo|aji-amarillo|
+papa-a-la-huancaina|2|queso fresco|queso-fresco|
+papa-a-la-huancaina|3|lait évaporé|lait-evapore|
+papa-a-la-huancaina|4|biscuit sec|biscuit-sec|
+papa-a-la-huancaina|5|oignon|oignon|
+papa-a-la-huancaina|6|ail|ail|
+papa-a-la-huancaina|7|huile neutre|huile-neutre|
+papa-a-la-huancaina|8|oeuf|oeuf|
+papa-a-la-huancaina|9|olive noire|olive-noire|
+papa-a-la-huancaina|10|laitue|laitue|
+papa-a-la-huancaina|11|sel|sel|
+papa-a-la-huancaina|12|poivre noir|poivre-noir|
+papa-rellena|0|pomme de terre|pomme-de-terre|
+papa-rellena|1|boeuf haché|boeuf-hache|
+papa-rellena|2|oignon rouge|oignon-rouge|
+papa-rellena|3|ají panca|aji-panca|
+papa-rellena|4|oeuf|oeuf|
+papa-rellena|5|olive noire|olive-noire|
+papa-rellena|6|raisin sec|raisin-sec|
+papa-rellena|7|cumin|cumin|
+papa-rellena|8|farine de blé|farine-de-ble|
+papa-rellena|9|oeuf|oeuf|
+papa-rellena|10|huile neutre|huile-neutre|
+papa-rellena|11|sel|sel|
+papa-rellena|12|poivre noir|poivre-noir|
+picarones|0|butternut|butternut|
+picarones|1|patate douce|patate-douce|
+picarones|2|farine de blé|farine-de-ble|
+picarones|3|levure boulangère|levure-boulangere|
+picarones|4|anis vert|anis-vert|
+picarones|5|huile neutre|huile-neutre|
+picarones|6|sucre roux|sucre-roux|
+picarones|7|eau|eau|
+picarones|8|cannelle|cannelle|
+picarones|9|clou de girofle|clou-de-girofle|
+picarones|10|orange|orange|
+picarones|11|sel|sel|
+pollo-a-la-brasa|0|poulet entier|poulet-entier|
+pollo-a-la-brasa|1|sauce soja|sauce-soja|
+pollo-a-la-brasa|2|ají panca|aji-panca|
+pollo-a-la-brasa|3|ail|ail|
+pollo-a-la-brasa|4|cumin|cumin|
+pollo-a-la-brasa|5|origan séché|origan-seche|
+pollo-a-la-brasa|6|paprika fumé|paprika-fume|
+pollo-a-la-brasa|7|vinaigre de vin|vinaigre-de-vin|
+pollo-a-la-brasa|8|bière|biere|
+pollo-a-la-brasa|9|mayonnaise|mayonnaise|
+pollo-a-la-brasa|10|coriandre fraîche|coriandre-fraiche|
+pollo-a-la-brasa|11|ají amarillo|aji-amarillo|
+pollo-a-la-brasa|12|citron vert|citron-vert|
+pollo-a-la-brasa|13|sel|sel|
+pollo-a-la-brasa|14|poivre noir|poivre-noir|
+rocoto-relleno|0|piment frais|piment-frais|
+rocoto-relleno|1|boeuf haché|boeuf-hache|
+rocoto-relleno|2|oignon rouge|oignon-rouge|
+rocoto-relleno|3|raisin sec|raisin-sec|
+rocoto-relleno|4|cacahuète|arachide|
+rocoto-relleno|5|oeuf|oeuf|
+rocoto-relleno|6|olive noire|olive-noire|
+rocoto-relleno|7|cumin|cumin|
+rocoto-relleno|8|queso fresco|queso-fresco|
+rocoto-relleno|9|lait évaporé|lait-evapore|
+rocoto-relleno|10|oeuf|oeuf|
+rocoto-relleno|11|pomme de terre|pomme-de-terre|
+rocoto-relleno|12|vinaigre blanc|vinaigre-blanc|
+rocoto-relleno|13|sel|sel|
+rocoto-relleno|14|poivre noir|poivre-noir|
+seco-de-cordero|0|épaule d'agneau|epaule-d-agneau|
+seco-de-cordero|1|coriandre fraîche|coriandre-fraiche|
+seco-de-cordero|2|épinard|epinard|
+seco-de-cordero|3|ají amarillo|aji-amarillo|
+seco-de-cordero|4|oignon rouge|oignon-rouge|
+seco-de-cordero|5|ail|ail|
+seco-de-cordero|6|bière|biere|
+seco-de-cordero|7|cumin|cumin|
+seco-de-cordero|8|pomme de terre|pomme-de-terre|
+seco-de-cordero|9|butternut|butternut|
+seco-de-cordero|10|huile neutre|huile-neutre|
+seco-de-cordero|11|sel|sel|
+seco-de-cordero|12|poivre noir|poivre-noir|
+suspiro-limeno|0|lait concentré sucré|lait-concentre-sucre|
+suspiro-limeno|1|lait évaporé|lait-evapore|
+suspiro-limeno|2|oeuf|oeuf|
+suspiro-limeno|3|gousse de vanille|gousse-de-vanille|
+suspiro-limeno|4|oeuf|oeuf|
+suspiro-limeno|5|sucre|sucre|
+suspiro-limeno|6|eau|eau|
+suspiro-limeno|7|cannelle|cannelle|
+suspiro-limeno|8|sel|sel|
+tacu-tacu|0|haricot rouge|haricot-rouge|
+tacu-tacu|1|riz long grain|riz-long-grain|
+tacu-tacu|2|oignon rouge|oignon-rouge|
+tacu-tacu|3|ají amarillo|aji-amarillo|
+tacu-tacu|4|ail|ail|
+tacu-tacu|5|huile neutre|huile-neutre|
+tacu-tacu|6|oeuf|oeuf|
+tacu-tacu|7|plantain|banane-plantain|
+tacu-tacu|8|cumin|cumin|
+tacu-tacu|9|sel|sel|
+tacu-tacu|10|poivre noir|poivre-noir|
+tallarines-verdes|0|spaghetti|spaghetti|
+tallarines-verdes|1|basilic|basilic|
+tallarines-verdes|2|épinard|epinard|
+tallarines-verdes|3|queso fresco|queso-fresco|
+tallarines-verdes|4|parmesan|parmesan|
+tallarines-verdes|5|noix|noix|
+tallarines-verdes|6|lait évaporé|lait-evapore|
+tallarines-verdes|7|oignon|oignon|
+tallarines-verdes|8|ail|ail|
+tallarines-verdes|9|huile neutre|huile-neutre|
+tallarines-verdes|10|sel|sel|
+tallarines-verdes|11|poivre noir|poivre-noir|

@@ -1,0 +1,38 @@
+{
+  "slug": "speculoos",
+  "cuisine": "western-european",
+  "country": "belgique",
+  "origin": "Belgique",
+  "native_name": "Speculoos",
+  "title": {
+    "fr": "Spéculoos à la cassonade",
+    "en": "Speculoos spice biscuits"
+  },
+  "meal_type": "dessert",
+  "servings": 12,
+  "times": { "prep_min": 30, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["saint-nicolas", "biscuit", "epices", "noel"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé" },
+    { "raw": "300 g de cassonade brune", "qty": 300, "unit": "g", "item": "sucre roux" },
+    { "raw": "250 g de beurre, mou", "qty": 250, "unit": "g", "item": "beurre", "prep": "mou" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "3 c. à c. de cannelle moulue", "qty": 3, "unit": "tsp", "item": "cannelle" },
+    { "raw": "1 c. à c. de gingembre moulu", "qty": 1, "unit": "tsp", "item": "gingembre moulu" },
+    { "raw": "1/2 c. à c. de clou de girofle moulu", "qty": 0.5, "unit": "tsp", "item": "clou de girofle", "prep": "moulu" },
+    { "raw": "1/2 c. à c. de cardamome moulue", "qty": 0.5, "unit": "tsp", "item": "cardamome", "prep": "moulue" },
+    { "raw": "1 c. à c. de bicarbonate de soude", "qty": 1, "unit": "tsp", "item": "bicarbonate de soude" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "La CASSONADE BRUNE est indispensable : c'est elle qui donne la couleur et le goût de caramel.", "en": "BROWN SUGAR is essential: it gives the colour and the caramel taste." },
+    { "fr": "Avec du sucre blanc, on obtient un sablé aux épices, pas un spéculoos.", "en": "With white sugar, you get a spiced shortbread, not a speculoos." },
+    { "fr": "Faire reposer la pâte VINGT-QUATRE HEURES au frais : les épices ont besoin de ce temps.", "en": "Rest the dough for TWENTY-FOUR HOURS in the fridge: the spices need that time." },
+    { "fr": "Ce repos est aussi ce qui permet de l'abaisser très fin sans qu'elle se déchire.", "en": "That rest is also what lets you roll it very thin without tearing." },
+    { "fr": "L'abaisser à TROIS MILLIMÈTRES : plus épais, le biscuit reste mou au centre.", "en": "Roll it THREE MILLIMETRES thick: any thicker and the biscuit stays soft in the middle." },
+    { "fr": "Cuire quinze minutes à 160 °C et laisser refroidir SUR LA PLAQUE : ils durcissent en refroidissant.", "en": "Bake for fifteen minutes at 160°C and cool them ON THE TRAY: they harden as they cool." }
+  ]
+}

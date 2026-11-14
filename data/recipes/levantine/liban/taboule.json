@@ -1,0 +1,37 @@
+{
+  "slug": "taboule",
+  "cuisine": "levantine",
+  "country": "liban",
+  "origin": "Liban",
+  "native_name": "Tabbouleh",
+  "title": {
+    "fr": "Taboulé libanais au persil",
+    "en": "Lebanese tabbouleh with parsley"
+  },
+  "meal_type": "salad",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["mezze", "persil", "ete", "cru"],
+  "ingredients": [
+    { "raw": "4 gros bouquets de persil plat", "qty": 4, "unit": "bunch", "item": "persil plat" },
+    { "raw": "1 bouquet de menthe fraîche", "qty": 1, "unit": "bunch", "item": "menthe fraîche" },
+    { "raw": "60 g de boulgour fin", "qty": 60, "unit": "g", "item": "boulgour fin" },
+    { "raw": "4 tomates fermes, en tout petits dés", "qty": 4, "unit": "piece", "item": "tomate", "prep": "en tout petits dés" },
+    { "raw": "4 oignons nouveaux, ciselés", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé" },
+    { "raw": "3 citrons, leur jus", "qty": 3, "unit": "piece", "item": "citron" },
+    { "raw": "8 c. à s. d'huile d'olive", "qty": 8, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le taboulé libanais est une salade de PERSIL : le boulgour y est minoritaire, quelques cuillères pour six personnes.", "en": "Lebanese tabbouleh is a PARSLEY salad: the bulgur is a minority, a few spoonfuls for six people." },
+    { "fr": "Rincer le boulgour fin et le laisser gonfler vingt minutes dans le jus des tomates, pas dans l'eau.", "en": "Rinse the fine bulgur and let it swell for twenty minutes in the tomato juices, not in water." },
+    { "fr": "Laver le persil, le sécher parfaitement, et le ciseler très finement au couteau, jamais au robot.", "en": "Wash the parsley, dry it thoroughly, and chop it very finely with a knife, never a processor." },
+    { "fr": "Un persil mouillé rend de l'eau et un persil mixé rend une bouillie verte : les deux ruinent le plat.", "en": "Wet parsley weeps and processed parsley turns to green mush: either ruins the dish." },
+    { "fr": "Mélanger persil, menthe, tomates, oignons nouveaux et boulgour gonflé.", "en": "Combine the parsley, mint, tomatoes, spring onions and swollen bulgur." },
+    { "fr": "Assaisonner de citron, d'huile et de sel juste avant de servir, jamais à l'avance.", "en": "Dress with lemon, oil and salt just before serving, never in advance." }
+  ]
+}

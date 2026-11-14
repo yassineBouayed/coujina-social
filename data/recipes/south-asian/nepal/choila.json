@@ -1,0 +1,39 @@
+{
+  "slug": "choila",
+  "cuisine": "south-asian",
+  "country": "nepal",
+  "origin": "Népal",
+  "native_name": "Choila",
+  "title": {
+    "fr": "Choila, viande grillée pimentée au timur",
+    "en": "Choila, charred spiced meat with timur"
+  },
+  "meal_type": "starter",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["newar", "grille", "timur", "fete"],
+  "ingredients": [
+    { "raw": "800 g de gigot d'agneau, en un morceau", "qty": 800, "unit": "g", "item": "gigot d'agneau" },
+    { "raw": "3 c. à s. de piment en poudre", "qty": 3, "unit": "tbsp", "item": "piment en poudre" },
+    { "raw": "2 c. à c. de timur, moulu", "qty": 2, "unit": "tsp", "item": "timur", "prep": "moulu" },
+    { "raw": "1 c. à s. de pâte gingembre-ail", "qty": 1, "unit": "tbsp", "item": "pâte gingembre-ail" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "1 c. à c. de fenugrec", "qty": 1, "unit": "tsp", "item": "fenugrec" },
+    { "raw": "2 oignons rouges, émincés", "qty": 2, "unit": "piece", "item": "oignon rouge", "prep": "émincé" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "2 citrons verts, leur jus", "qty": 2, "unit": "piece", "item": "citron vert" },
+    { "raw": "10 cl d'huile de moutarde", "qty": 10, "unit": "cl", "item": "huile de moutarde" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire la viande à l'eau salée vingt minutes, puis la griller sur braises jusqu'à ce qu'elle NOIRCISSE par endroits.", "en": "Boil the meat in salted water for twenty minutes, then grill it over coals until it CHARS in places." },
+    { "fr": "Ce brûlé est le plat : sans lui, on obtient une salade de viande bouillie.", "en": "That char is the dish: without it, you get a salad of boiled meat." },
+    { "fr": "La couper en cubes irréguliers, à la main autant qu'au couteau.", "en": "Cut it into irregular cubes, by hand as much as by knife." },
+    { "fr": "Chauffer l'huile de moutarde jusqu'à ce qu'elle fume, y jeter le fenugrec dix secondes, et le retirer.", "en": "Heat the mustard oil until it smokes, drop in the fenugreek for ten seconds, and remove it." },
+    { "fr": "Verser cette huile brûlante sur le piment et le timur, puis mélanger à la viande.", "en": "Pour that scalding oil over the chilli and timur, then toss it with the meat." },
+    { "fr": "Ajouter oignon cru, coriandre et citron vert, et servir tiède avec du riz battu.", "en": "Add raw onion, coriander and lime, and serve warm with beaten rice." }
+  ]
+}

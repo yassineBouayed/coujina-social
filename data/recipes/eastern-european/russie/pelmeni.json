@@ -1,0 +1,41 @@
+{
+  "slug": "pelmeni",
+  "cuisine": "eastern-european",
+  "country": "russie",
+  "origin": "Russie",
+  "native_name": "Пельмени",
+  "title": {
+    "fr": "Pelmeni, raviolis sibériens à la viande",
+    "en": "Pelmeni, Siberian meat dumplings"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 70, "cook_min": 15 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["siberie", "ravioli", "embleme", "hiver"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "20 cl d'eau glacée", "qty": 20, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf", "group": "pâte" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel", "group": "pâte" },
+    { "raw": "400 g de bœuf haché", "qty": 400, "unit": "g", "item": "boeuf haché", "group": "farce" },
+    { "raw": "400 g de porc haché", "qty": 400, "unit": "g", "item": "porc haché", "group": "farce" },
+    { "raw": "3 oignons, hachés très finement", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché très finement", "group": "farce" },
+    { "raw": "12 cl d'eau glacée", "qty": 12, "unit": "cl", "item": "eau", "group": "farce" },
+    { "raw": "25 cl de crème fraîche", "qty": 25, "unit": "cl", "item": "crème fraîche", "group": "service" },
+    { "raw": "80 g de beurre", "qty": 80, "unit": "g", "item": "beurre", "group": "service" },
+    { "raw": "3 feuilles de laurier", "qty": 3, "unit": "piece", "item": "laurier" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Ajouter de l'EAU GLACÉE à la farce, cuillère par cuillère : c'est ce qui la rend juteuse.", "en": "Add ICED WATER to the filling, spoon by spoon: that is what makes it juicy." },
+    { "fr": "L'eau se transforme en jus à la cuisson, enfermé dans la pâte : c'est tout le principe du pelmen.", "en": "The water turns into juice as it cooks, sealed in the dough: the whole point of a pelmen." },
+    { "fr": "La pâte doit être TRÈS FINE, un millimètre : épaisse, elle domine tout et devient pâteuse.", "en": "The dough must be VERY THIN, one millimetre: thick, it dominates and turns doughy." },
+    { "fr": "Souder en demi-lune, puis RAMENER les deux pointes l'une contre l'autre : c'est la forme d'oreille.", "en": "Seal into a half-moon, then BRING the two tips together: the ear shape." },
+    { "fr": "CONGELER les pelmeni crus avant de les pocher : ils tiennent mieux et se gardent des mois.", "en": "FREEZE the raw pelmeni before poaching: they hold better and keep for months." },
+    { "fr": "Pocher dans l'eau bouillante salée, trois minutes après qu'ils remontent.", "en": "Poach in boiling salted water, three minutes after they float." }
+  ]
+}

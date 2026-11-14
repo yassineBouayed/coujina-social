@@ -1,0 +1,39 @@
+{
+  "slug": "bissara",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Bissara",
+  "title": {
+    "fr": "Bissara, velouté de fèves sèches à l'huile d'olive",
+    "en": "Bissara, dried broad bean soup with olive oil"
+  },
+  "meal_type": "soup",
+  "servings": 4,
+  "times": { "prep_min": 10, "cook_min": 70 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j2-sonde-v1", "date": "2026-08-28" },
+  "tags": ["soupe", "feves", "vegetarien", "hiver", "petit-dejeuner"],
+  "ingredients": [
+    { "raw": "400 g de fèves sèches décortiquées, trempées la veille", "qty": 400, "unit": "g", "item": "fève sèche décortiquée", "prep": "trempée la veille" },
+    { "raw": "6 gousses d'ail", "qty": 6, "unit": "piece", "item": "ail" },
+    { "raw": "1 c. à c. de cumin moulu, plus un peu pour servir", "qty": 1, "unit": "tsp", "item": "cumin moulu" },
+    { "raw": "1 c. à c. de paprika", "qty": 1, "unit": "tsp", "item": "paprika" },
+    { "raw": "8 c. à s. d'huile d'olive", "qty": 8, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "1,2 l d'eau", "qty": 1.2, "unit": "l", "item": "eau" },
+    { "raw": "1 pincée de piment de Cayenne", "qty": 1, "unit": "pinch", "item": "piment de Cayenne", "optional": true },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Rincer les fèves trempées et les mettre à cuire dans l'eau froide avec l'ail, sans sel.", "en": "Rinse the soaked beans and start them in cold water with the garlic, unsalted." },
+    { "fr": "Écumer, couvrir à demi et laisser cuire une heure, jusqu'à ce que les fèves se défassent d'elles-mêmes.", "en": "Skim, half-cover and cook for an hour, until the beans fall apart on their own." },
+    { "fr": "Saler seulement maintenant : salées trop tôt, les fèves restent dures.", "en": "Salt only now: salted too early, the beans stay hard." },
+    { "fr": "Mixer avec le cumin, le paprika et la moitié de l'huile d'olive jusqu'à obtenir un velouté lisse.", "en": "Blend with the cumin, paprika and half the olive oil until perfectly smooth." },
+    { "fr": "Détendre à l'eau chaude si besoin : la bissara doit napper la cuillère sans la coller.", "en": "Loosen with hot water if needed: bissara should coat the spoon without gluing to it." },
+    { "fr": "Servir brûlant, avec un large filet d'huile d'olive, du cumin et du piment saupoudrés en surface.", "en": "Serve scalding hot with a generous thread of olive oil, cumin and chilli dusted over the top." }
+  ],
+  "notes": [
+    { "fr": "Elle fige en refroidissant : c'est normal, on la détend à l'eau chaude et on la refouette.", "en": "It sets as it cools: that is normal, loosen it with hot water and whisk again." }
+  ]
+}

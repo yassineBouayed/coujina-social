@@ -1,0 +1,242 @@
+# Vérité du catalogue, cuisine « north-american ».
+#
+# Pour chaque ligne d'ingrédient, celui du référentiel qu'un relecteur
+# choisit, ou `-` quand le référentiel n'a rien à offrir.
+#
+# PASSE MODÈLE, pas humaine, et la circularité est ici maximale : les
+# recettes ont été écrites AVEC le référentiel sous les yeux, et les
+# ingrédients qui manquaient y ont été ajoutés dans la foulée. Le taux de
+# rattachement du champ `item` ne mesure donc presque rien sur ces cuisines.
+# Ce qui mesure quelque chose, c'est le témoin `raw`, que `catalog:gate`
+# donne en regard.
+#
+# Une ligne annotée ici n'a pas été relue par quelqu'un qui cuisine ces
+# plats. Le critère de sortie de J5 reste entier.
+recipe|line|item|expected_slug|note
+apple-pie|0|farine de blé|farine-de-ble|
+apple-pie|1|beurre|beurre|
+apple-pie|2|eau|eau|
+apple-pie|3|vinaigre de cidre|vinaigre-de-cidre|
+apple-pie|4|pomme|pomme|
+apple-pie|5|sucre roux|sucre-roux|
+apple-pie|6|maïzena|maizena|
+apple-pie|7|cannelle|cannelle|
+apple-pie|8|muscade|muscade|
+apple-pie|9|citron|citron|
+apple-pie|10|oeuf|oeuf|
+apple-pie|11|sel|sel|
+biscuits-and-gravy|0|farine de blé|farine-de-ble|
+biscuits-and-gravy|1|beurre|beurre|
+biscuits-and-gravy|2|lait fermenté|lait-fermente|
+biscuits-and-gravy|3|levure chimique|levure-chimique|
+biscuits-and-gravy|4|bicarbonate de soude|bicarbonate|
+biscuits-and-gravy|5|porc haché|porc-hache|
+biscuits-and-gravy|6|farine de blé|farine-de-ble|
+biscuits-and-gravy|7|lait entier|lait-entier|
+biscuits-and-gravy|8|thym|thym-seche|
+biscuits-and-gravy|9|sel|sel|
+biscuits-and-gravy|10|poivre noir|poivre-noir|
+brownies|0|chocolat noir|chocolat-noir|
+brownies|1|beurre|beurre|
+brownies|2|sucre|sucre|
+brownies|3|oeuf|oeuf|
+brownies|4|farine de blé|farine-de-ble|
+brownies|5|cacao en poudre|cacao-en-poudre|
+brownies|6|noix|noix|
+brownies|7|extrait de vanille|extrait-de-vanille|
+brownies|8|sel|sel|
+buffalo-wings|0|aile de poulet|aile-de-poulet|
+buffalo-wings|1|levure chimique|levure-chimique|
+buffalo-wings|2|sauce piquante|sauce-piquante|
+buffalo-wings|3|beurre|beurre|
+buffalo-wings|4|vinaigre de cidre|vinaigre-de-cidre|
+buffalo-wings|5|miel|miel|
+buffalo-wings|6|crème fraîche|creme-fraiche|
+buffalo-wings|7|roquefort|roquefort|
+buffalo-wings|8|céleri branche|celeri-branche|
+buffalo-wings|9|sel|sel|
+buffalo-wings|10|poivre noir|poivre-noir|
+burger-maison|0|boeuf haché|boeuf-hache|
+burger-maison|1|pain|pain|
+burger-maison|2|cheddar|cheddar|
+burger-maison|3|tomate|tomate|
+burger-maison|4|oignon rouge|oignon-rouge|
+burger-maison|5|laitue|laitue|
+burger-maison|6|cornichon|cornichon|
+burger-maison|7|mayonnaise|mayonnaise|
+burger-maison|8|ketchup|ketchup|
+burger-maison|9|moutarde|moutarde|
+burger-maison|10|beurre|beurre|
+burger-maison|11|sel|sel|
+burger-maison|12|poivre noir|poivre-noir|
+caesar-salad|0|laitue|laitue|
+caesar-salad|1|parmesan|parmesan|
+caesar-salad|2|anchois|anchois|
+caesar-salad|3|oeuf|oeuf|
+caesar-salad|4|ail|ail|
+caesar-salad|5|citron|citron|
+caesar-salad|6|moutarde|moutarde|
+caesar-salad|7|sauce Worcestershire|sauce-worcestershire|
+caesar-salad|8|huile d'olive|huile-d-olive|
+caesar-salad|9|pain|pain|
+caesar-salad|10|sel|sel|
+caesar-salad|11|poivre noir|poivre-noir|
+cheesecake-new-york|0|biscuit sec|biscuit-sec|
+cheesecake-new-york|1|beurre|beurre|
+cheesecake-new-york|2|fromage frais|fromage-frais|
+cheesecake-new-york|3|sucre|sucre|
+cheesecake-new-york|4|oeuf|oeuf|
+cheesecake-new-york|5|crème fraîche|creme-fraiche|
+cheesecake-new-york|6|maïzena|maizena|
+cheesecake-new-york|7|citron|citron|
+cheesecake-new-york|8|extrait de vanille|extrait-de-vanille|
+cheesecake-new-york|9|sel|sel|
+chili-con-carne|0|boeuf à mijoter|boeuf-a-mijoter|
+chili-con-carne|1|haricot rouge|haricot-rouge|
+chili-con-carne|2|tomate pelée en conserve|tomate-pelee|
+chili-con-carne|3|oignon|oignon|
+chili-con-carne|4|ail|ail|
+chili-con-carne|5|piment séché|piment-seche|
+chili-con-carne|6|chili powder mexicain|chili-powder-mexicain|
+chili-con-carne|7|cumin|cumin|
+chili-con-carne|8|origan séché|origan-seche|
+chili-con-carne|9|chocolat noir|chocolat-noir|
+chili-con-carne|10|bouillon boeuf|bouillon-boeuf|
+chili-con-carne|11|vinaigre de cidre|vinaigre-de-cidre|
+chili-con-carne|12|sel|sel|
+chili-con-carne|13|poivre noir|poivre-noir|
+cinnamon-rolls|0|farine T45|farine-t45|
+cinnamon-rolls|1|lait entier|lait-entier|
+cinnamon-rolls|2|levure boulangère|levure-boulangere|
+cinnamon-rolls|3|beurre|beurre|
+cinnamon-rolls|4|oeuf|oeuf|
+cinnamon-rolls|5|sucre|sucre|
+cinnamon-rolls|6|sucre roux|sucre-roux|
+cinnamon-rolls|7|cannelle|cannelle|
+cinnamon-rolls|8|beurre|beurre|
+cinnamon-rolls|9|fromage frais|fromage-frais|
+cinnamon-rolls|10|sucre glace|sucre-glace|
+cinnamon-rolls|11|sel|sel|
+clam-chowder|0|palourde|palourde|
+clam-chowder|1|lardon|lardon|
+clam-chowder|2|pomme de terre|pomme-de-terre|
+clam-chowder|3|oignon|oignon|
+clam-chowder|4|céleri branche|celeri-branche|
+clam-chowder|5|crème liquide|creme-liquide|
+clam-chowder|6|lait entier|lait-entier|
+clam-chowder|7|beurre|beurre|
+clam-chowder|8|farine de blé|farine-de-ble|
+clam-chowder|9|thym|thym-seche|
+clam-chowder|10|laurier|laurier|
+clam-chowder|11|persil plat|persil-plat|
+clam-chowder|12|poivre noir|poivre-noir|
+coleslaw|0|chou vert|chou-vert|
+coleslaw|1|chou rouge|chou-rouge|
+coleslaw|2|carotte|carotte|
+coleslaw|3|oignon|oignon|
+coleslaw|4|mayonnaise|mayonnaise|
+coleslaw|5|vinaigre de cidre|vinaigre-de-cidre|
+coleslaw|6|moutarde|moutarde|
+coleslaw|7|sucre|sucre|
+coleslaw|8|gros sel|gros-sel|
+coleslaw|9|céleri branche|celeri-branche|
+coleslaw|10|sel|sel|
+coleslaw|11|poivre noir|poivre-noir|
+cookies-aux-pepites|0|farine de blé|farine-de-ble|
+cookies-aux-pepites|1|beurre|beurre|
+cookies-aux-pepites|2|sucre roux|sucre-roux|
+cookies-aux-pepites|3|sucre|sucre|
+cookies-aux-pepites|4|oeuf|oeuf|
+cookies-aux-pepites|5|chocolat noir|chocolat-noir|
+cookies-aux-pepites|6|bicarbonate de soude|bicarbonate|
+cookies-aux-pepites|7|extrait de vanille|extrait-de-vanille|
+cookies-aux-pepites|8|gros sel|gros-sel|
+cornbread|0|farine de maïs|farine-de-mais|
+cornbread|1|farine de blé|farine-de-ble|
+cornbread|2|lait fermenté|lait-fermente|
+cornbread|3|oeuf|oeuf|
+cornbread|4|beurre|beurre|
+cornbread|5|bicarbonate de soude|bicarbonate|
+cornbread|6|levure chimique|levure-chimique|
+cornbread|7|sucre|sucre|
+cornbread|8|sel|sel|
+fried-chicken|0|poulet entier|poulet-entier|
+fried-chicken|1|lait fermenté|lait-fermente|
+fried-chicken|2|farine de blé|farine-de-ble|
+fried-chicken|3|paprika fumé|paprika-fume|
+fried-chicken|4|ail en poudre|ail-en-poudre|
+fried-chicken|5|piment de Cayenne|piment-de-cayenne|
+fried-chicken|6|gros sel|gros-sel|
+fried-chicken|7|huile neutre|huile-neutre|
+fried-chicken|8|poivre noir|poivre-noir|
+gumbo|0|blanc de poulet|blanc-de-poulet|
+gumbo|1|saucisse fumée|saucisse-fumee|
+gumbo|2|crevette|crevette|
+gumbo|3|gombo|gombo|
+gumbo|4|huile neutre|huile-neutre|
+gumbo|5|farine de blé|farine-de-ble|
+gumbo|6|oignon|oignon|
+gumbo|7|poivron vert|poivron-vert|
+gumbo|8|céleri branche|celeri-branche|
+gumbo|9|bouillon volaille|bouillon-volaille|
+gumbo|10|paprika fumé|paprika-fume|
+gumbo|11|piment de Cayenne|piment-de-cayenne|
+gumbo|12|riz long|riz-long-grain|re-annotee : le referentiel a gagne l entree precise
+gumbo|13|sel|sel|
+gumbo|14|poivre noir|poivre-noir|
+jambalaya|0|riz long|riz-long-grain|re-annotee : le referentiel a gagne l entree precise
+jambalaya|1|blanc de poulet|blanc-de-poulet|
+jambalaya|2|saucisse fumée|saucisse-fumee|
+jambalaya|3|crevette|crevette|
+jambalaya|4|oignon|oignon|
+jambalaya|5|poivron vert|poivron-vert|
+jambalaya|6|céleri branche|celeri-branche|
+jambalaya|7|tomate pelée en conserve|tomate-pelee|
+jambalaya|8|bouillon volaille|bouillon-volaille|
+jambalaya|9|paprika fumé|paprika-fume|
+jambalaya|10|thym|thym-seche|
+jambalaya|11|piment de Cayenne|piment-de-cayenne|
+jambalaya|12|laurier|laurier|
+jambalaya|13|huile neutre|huile-neutre|
+jambalaya|14|sel|sel|
+jambalaya|15|poivre noir|poivre-noir|
+limonade-maison|0|citron|citron|
+limonade-maison|1|sucre|sucre|
+limonade-maison|2|eau|eau|
+limonade-maison|3|eau|eau|
+limonade-maison|4|menthe|menthe-fraiche|
+limonade-maison|5|sel|sel|
+mac-and-cheese|0|pâtes courtes|pates-courtes|
+mac-and-cheese|1|cheddar|cheddar|
+mac-and-cheese|2|beurre|beurre|
+mac-and-cheese|3|farine de blé|farine-de-ble|
+mac-and-cheese|4|lait entier|lait-entier|
+mac-and-cheese|5|moutarde|moutarde|
+mac-and-cheese|6|paprika fumé|paprika-fume|
+mac-and-cheese|7|panko|panko|
+mac-and-cheese|8|beurre|beurre|
+mac-and-cheese|9|muscade|muscade|
+mac-and-cheese|10|sel|sel|
+mac-and-cheese|11|poivre noir|poivre-noir|
+pancakes-americains|0|farine de blé|farine-de-ble|
+pancakes-americains|1|lait fermenté|lait-fermente|
+pancakes-americains|2|oeuf|oeuf|
+pancakes-americains|3|beurre|beurre|
+pancakes-americains|4|sucre|sucre|
+pancakes-americains|5|levure chimique|levure-chimique|
+pancakes-americains|6|bicarbonate de soude|bicarbonate|
+pancakes-americains|7|sirop d'érable|sirop-d-erable|
+pancakes-americains|8|sel|sel|
+pulled-pork|0|échine de porc|echine-de-porc|
+pulled-pork|1|paprika fumé|paprika-fume|
+pulled-pork|2|sucre roux|sucre-roux|
+pulled-pork|3|gros sel|gros-sel|
+pulled-pork|4|cumin|cumin|
+pulled-pork|5|ail en poudre|ail-en-poudre|
+pulled-pork|6|piment de Cayenne|piment-de-cayenne|
+pulled-pork|7|vinaigre de cidre|vinaigre-de-cidre|
+pulled-pork|8|ketchup|ketchup|
+pulled-pork|9|mélasse|melasse|
+pulled-pork|10|moutarde|moutarde|
+pulled-pork|11|pain|pain|
+pulled-pork|12|poivre noir|poivre-noir|

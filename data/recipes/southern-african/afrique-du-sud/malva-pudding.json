@@ -1,0 +1,43 @@
+{
+  "slug": "malva-pudding",
+  "cuisine": "southern-african",
+  "country": "afrique-du-sud",
+  "origin": "Afrique du Sud",
+  "native_name": "Malva pudding",
+  "title": {
+    "fr": "Malva pudding, gâteau à l'abricot et à la crème chaude",
+    "en": "Malva pudding, apricot sponge in hot cream"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 20, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["four", "abricot", "hiver", "reconfort"],
+  "ingredients": [
+    { "raw": "200 g de farine de blé", "qty": 200, "unit": "g", "item": "farine de blé" },
+    { "raw": "200 g de sucre", "qty": 200, "unit": "g", "item": "sucre" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf" },
+    { "raw": "3 c. à s. de confiture d'abricot", "qty": 3, "unit": "tbsp", "item": "confiture d'abricot" },
+    { "raw": "1 c. à c. de bicarbonate", "qty": 1, "unit": "tsp", "item": "bicarbonate" },
+    { "raw": "20 cl de lait", "qty": 20, "unit": "cl", "item": "lait" },
+    { "raw": "1 c. à s. de vinaigre de vin", "qty": 1, "unit": "tbsp", "item": "vinaigre de vin" },
+    { "raw": "30 g de beurre, fondu", "qty": 30, "unit": "g", "item": "beurre", "prep": "fondu" },
+    { "raw": "25 cl de crème liquide", "qty": 25, "unit": "cl", "item": "crème liquide", "group": "sauce" },
+    { "raw": "120 g de beurre", "qty": 120, "unit": "g", "item": "beurre", "group": "sauce" },
+    { "raw": "120 g de sucre", "qty": 120, "unit": "g", "item": "sucre", "group": "sauce" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Battre les œufs et le sucre jusqu'à ce que le mélange blanchisse et double.", "en": "Beat the eggs and sugar until pale and doubled." },
+    { "fr": "Ajouter la confiture d'abricot, le beurre fondu et le vinaigre.", "en": "Add the apricot jam, melted butter and vinegar." },
+    { "fr": "Le vinaigre réagit avec le bicarbonate : c'est ce qui donne la mie serrée et humide du malva.", "en": "The vinegar reacts with the bicarbonate: that is what gives malva its tight, moist crumb." },
+    { "fr": "Incorporer alternativement la farine et le lait, puis verser dans un plat beurré.", "en": "Fold in the flour and milk alternately, then pour into a buttered dish." },
+    { "fr": "Cuire 40 minutes à 180 °C, couvert d'aluminium les vingt premières minutes.", "en": "Bake for 40 minutes at 180°C, covered with foil for the first twenty." },
+    { "fr": "Faire chauffer crème, beurre, sucre et sel, et verser sur le gâteau BRÛLANT dès la sortie du four.", "en": "Heat the cream, butter, sugar and salt, and pour it over the SCALDING cake straight from the oven." }
+  ],
+  "notes": [
+    { "fr": "Le gâteau doit boire toute la sauce. S'il l'a bue en dix minutes, c'est réussi ; s'il flotte, il était trop cuit.", "en": "The cake must drink all the sauce. If it has soaked it up within ten minutes, it worked; if it floats, it was overbaked." }
+  ]
+}

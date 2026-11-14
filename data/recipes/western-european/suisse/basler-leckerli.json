@@ -1,0 +1,41 @@
+{
+  "slug": "basler-leckerli",
+  "cuisine": "western-european",
+  "country": "suisse",
+  "origin": "Suisse",
+  "native_name": "Basler Läckerli",
+  "title": {
+    "fr": "Läckerli de Bâle au miel",
+    "en": "Basel honey spice biscuits"
+  },
+  "meal_type": "dessert",
+  "servings": 12,
+  "times": { "prep_min": 40, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["bale", "miel", "noel", "epices"],
+  "ingredients": [
+    { "raw": "350 g de miel", "qty": 350, "unit": "g", "item": "miel" },
+    { "raw": "200 g de sucre", "qty": 200, "unit": "g", "item": "sucre" },
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé" },
+    { "raw": "200 g d'amandes, concassées", "qty": 200, "unit": "g", "item": "amande", "prep": "concassée" },
+    { "raw": "150 g de fruits confits", "qty": 150, "unit": "g", "item": "fruit confit" },
+    { "raw": "1 orange, son zeste", "qty": 1, "unit": "piece", "item": "orange" },
+    { "raw": "1 citron, son zeste", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "2 c. à c. de cannelle moulue", "qty": 2, "unit": "tsp", "item": "cannelle" },
+    { "raw": "1 c. à c. de clou de girofle moulu", "qty": 1, "unit": "tsp", "item": "clou de girofle", "prep": "moulu" },
+    { "raw": "1 c. à c. de muscade râpée", "qty": 1, "unit": "tsp", "item": "muscade", "prep": "râpée" },
+    { "raw": "1 c. à c. de bicarbonate de soude", "qty": 1, "unit": "tsp", "item": "bicarbonate de soude" },
+    { "raw": "200 g de sucre glace", "qty": 200, "unit": "g", "item": "sucre glace", "group": "glaçage" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Chauffer le miel et le sucre à 60 °C, pas davantage : plus chaud, le miel perd son parfum.", "en": "Heat the honey and sugar to 60°C, no more: hotter, the honey loses its scent." },
+    { "fr": "Les Läckerli se cuisent en une PLAQUE ENTIÈRE, puis se découpent : jamais biscuit par biscuit.", "en": "Läckerli are baked as ONE WHOLE SHEET, then cut: never biscuit by biscuit." },
+    { "fr": "Étaler la pâte à un centimètre d'épaisseur, uniformément, sur la plaque entière.", "en": "Spread the dough one centimetre thick, evenly, across the whole tray." },
+    { "fr": "Cuire 25 minutes à 180 °C : le dessus doit être ferme mais pas dur.", "en": "Bake for 25 minutes at 180°C: the top should be firm but not hard." },
+    { "fr": "Glacer et DÉCOUPER en rectangles pendant que la plaque est encore CHAUDE.", "en": "Glaze and CUT into rectangles while the sheet is still HOT." },
+    { "fr": "Refroidis, les Läckerli sont impossibles à couper proprement : ils s'émiettent.", "en": "Once cool, Läckerli cannot be cut cleanly: they crumble." }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "suya",
+  "cuisine": "west-african",
+  "origin": "Nigeria",
+  "native_name": "Suya",
+  "title": {
+    "fr": "Suya, brochettes de bœuf au yaji",
+    "en": "Suya, beef skewers in yaji spice"
+  },
+  "meal_type": "starter",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 12 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j5-catalogue-v1", "date": "2026-08-29" },
+  "tags": ["brochette", "arachide", "grill", "rue"],
+  "ingredients": [
+    { "raw": "700 g de steak de bœuf, en fines lanières", "qty": 700, "unit": "g", "item": "steak de bœuf", "prep": "en fines lanières" },
+    { "raw": "80 g d'arachides grillées, moulues", "qty": 80, "unit": "g", "item": "arachide grillée", "prep": "moulue", "group": "yaji" },
+    { "raw": "1 c. à s. de gingembre moulu", "qty": 1, "unit": "tbsp", "item": "gingembre moulu", "group": "yaji" },
+    { "raw": "1 c. à s. de piment en poudre", "qty": 1, "unit": "tbsp", "item": "piment en poudre", "group": "yaji" },
+    { "raw": "1 c. à c. d'ail en poudre", "qty": 1, "unit": "tsp", "item": "ail en poudre", "group": "yaji" },
+    { "raw": "1 c. à c. de paprika", "qty": 1, "unit": "tsp", "item": "paprika", "group": "yaji" },
+    { "raw": "1 cube de bouillon, émietté", "qty": 1, "unit": "piece", "item": "bouillon cube", "prep": "émietté", "group": "yaji" },
+    { "raw": "4 c. à s. d'huile d'arachide", "qty": 4, "unit": "tbsp", "item": "huile d'arachide" },
+    { "raw": "1 oignon rouge, en fines rondelles", "qty": 1, "unit": "piece", "item": "oignon rouge", "prep": "en fines rondelles" },
+    { "raw": "1 tomate, en rondelles", "qty": 1, "unit": "piece", "item": "tomate", "prep": "en rondelles" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Mélanger tous les éléments du yaji : arachides moulues, gingembre, piment, ail en poudre, paprika, cube émietté et une pincée de sel.", "en": "Mix everything for the yaji: ground peanuts, ginger, chilli, garlic powder, paprika, crumbled stock cube and a pinch of salt." },
+    { "fr": "Badigeonner les lanières de viande d'huile, puis les rouler dans les deux tiers du yaji. Laisser reposer 30 minutes.", "en": "Brush the strips of beef with oil, then roll them in two thirds of the yaji. Rest for 30 minutes." },
+    { "fr": "Enfiler la viande sur des brochettes en accordéon, sans serrer.", "en": "Thread the meat onto skewers in loose folds." },
+    { "fr": "Griller à feu vif — braises ou gril du four à pleine puissance — 4 à 6 minutes par face. La viande doit être marquée, presque sèche sur les bords.", "en": "Grill over high heat — coals, or the oven grill at full power — for 4 to 6 minutes a side. The meat should be marked, almost dry at the edges." },
+    { "fr": "Saupoudrer du yaji restant à la sortie du gril, et servir aussitôt avec les rondelles d'oignon rouge et de tomate.", "en": "Dust with the remaining yaji straight off the grill and serve at once with the red onion and tomato slices." }
+  ],
+  "notes": [
+    { "fr": "Le yaji se met deux fois : avant la cuisson pour parfumer, après pour le goût cru d'arachide et de piment. La seconde couche est celle qu'on sent en premier.", "en": "The yaji goes on twice: before cooking for perfume, after for the raw taste of peanut and chilli. The second layer is the one you taste first." },
+    { "fr": "L'arachide moulue brûle. C'est pour cela que la viande est coupée fine et cuite très vite : une brochette épaisse noircit avant d'être cuite.", "en": "Ground peanut burns. That is why the meat is cut thin and cooked fast: a thick skewer blackens before it is done." }
+  ]
+}

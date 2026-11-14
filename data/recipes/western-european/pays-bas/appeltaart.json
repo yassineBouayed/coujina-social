@@ -1,0 +1,40 @@
+{
+  "slug": "appeltaart",
+  "cuisine": "western-european",
+  "country": "pays-bas",
+  "origin": "Pays-Bas",
+  "native_name": "Appeltaart",
+  "title": {
+    "fr": "Appeltaart, tarte aux pommes néerlandaise",
+    "en": "Appeltaart, Dutch apple tart"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 45, "cook_min": 70 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["cafe", "pomme", "haute", "embleme"],
+  "ingredients": [
+    { "raw": "400 g de farine de blé", "qty": 400, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "250 g de beurre, froid", "qty": 250, "unit": "g", "item": "beurre", "prep": "froid", "group": "pâte" },
+    { "raw": "200 g de cassonade", "qty": 200, "unit": "g", "item": "sucre roux", "group": "pâte" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf", "group": "pâte" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel", "group": "pâte" },
+    { "raw": "1,5 kg de pommes à cuire, en tranches épaisses", "qty": 1500, "unit": "g", "item": "pomme", "prep": "en tranches épaisses", "group": "garniture" },
+    { "raw": "150 g de raisins secs", "qty": 150, "unit": "g", "item": "raisin sec", "group": "garniture" },
+    { "raw": "3 c. à c. de cannelle moulue", "qty": 3, "unit": "tsp", "item": "cannelle", "group": "garniture" },
+    { "raw": "80 g de sucre", "qty": 80, "unit": "g", "item": "sucre", "group": "garniture" },
+    { "raw": "3 c. à s. de chapelure", "qty": 3, "unit": "tbsp", "item": "panko", "group": "garniture" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron", "group": "garniture" },
+    { "raw": "1 œuf, pour dorer", "qty": 1, "unit": "piece", "item": "oeuf" }
+  ],
+  "steps": [
+    { "fr": "L'appeltaart néerlandaise est HAUTE : un moule à charnière de vingt-quatre centimètres, rempli à ras bord.", "en": "A Dutch appeltaart is TALL: a twenty-four-centimetre springform tin, filled to the brim." },
+    { "fr": "La pâte est un SABLÉ à la cassonade, épais, qui monte tout le long des parois.", "en": "The pastry is a thick brown-sugar SHORTBREAD, pressed all the way up the sides." },
+    { "fr": "Saupoudrer de CHAPELURE le fond avant de garnir : elle absorbe le jus des pommes.", "en": "Dust the base with BREADCRUMBS before filling: they absorb the apple juices." },
+    { "fr": "Sans cette chapelure, le fond de tarte est détrempé et ne tient pas à la découpe.", "en": "Without those crumbs, the base is soggy and will not hold when cut." },
+    { "fr": "Tasser les pommes FERMEMENT : elles réduisent beaucoup et la tarte s'affaisserait.", "en": "Pack the apples FIRMLY: they shrink a great deal and the tart would collapse." },
+    { "fr": "Poser un croisillon de bandes de pâte et cuire 70 minutes à 175 °C.", "en": "Lay a lattice of pastry strips and bake for 70 minutes at 175°C." }
+  ]
+}

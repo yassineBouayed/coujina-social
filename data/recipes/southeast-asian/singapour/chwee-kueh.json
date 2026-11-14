@@ -1,0 +1,37 @@
+{
+  "slug": "chwee-kueh",
+  "cuisine": "southeast-asian",
+  "country": "singapour",
+  "origin": "Singapour",
+  "native_name": "水粿",
+  "title": {
+    "fr": "Chwee kueh, coupelles de riz au radis conservé",
+    "en": "Chwee kueh, steamed rice cups with preserved radish"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["petit-dejeuner", "vapeur", "radis", "hawker"],
+  "ingredients": [
+    { "raw": "250 g de farine de riz", "qty": 250, "unit": "g", "item": "farine de riz" },
+    { "raw": "3 c. à s. de maïzena", "qty": 3, "unit": "tbsp", "item": "maïzena" },
+    { "raw": "75 cl d'eau", "qty": 75, "unit": "cl", "item": "eau" },
+    { "raw": "200 g de radis conservé", "qty": 200, "unit": "g", "item": "radis conservé" },
+    { "raw": "6 gousses d'ail, hachées", "qty": 6, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "2 c. à s. de sucre", "qty": 2, "unit": "tbsp", "item": "sucre" },
+    { "raw": "8 c. à s. d'huile neutre", "qty": 8, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "4 c. à s. de sauce piquante", "qty": 4, "unit": "tbsp", "item": "sauce piquante", "group": "service" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le chwee kueh se juge à sa texture : molle au centre, avec un creux qui retient la garniture.", "en": "Chwee kueh is judged on texture: soft in the middle, with a dip that holds the topping." },
+    { "fr": "Délayer farine de riz, maïzena et sel dans l'eau froide, en fouettant, sans grumeau.", "en": "Slake the rice flour, cornflour and salt in cold water, whisking, with no lumps." },
+    { "fr": "Chauffer un tiers de l'appareil jusqu'à ce qu'il épaississe, puis le reverser dans le reste.", "en": "Heat a third of the batter until it thickens, then stir it back into the rest." },
+    { "fr": "Ce mélange cuit-cru est ce qui crée le creux au centre à la cuisson : sans lui, la coupelle est plate.", "en": "That cooked-raw mixture is what creates the dip as it steams: without it, the cup is flat." },
+    { "fr": "Verser dans des petits ramequins chauds et cuire vingt minutes à la vapeur.", "en": "Pour into small warmed ramekins and steam for twenty minutes." },
+    { "fr": "Rincer le radis conservé, le frire avec l'ail et le sucre, et en garnir chaque coupelle.", "en": "Rinse the preserved radish, fry it with the garlic and sugar, and top each cup with it." }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "menemen",
+  "cuisine": "middle-eastern",
+  "country": "turquie",
+  "origin": "Turquie",
+  "native_name": "Menemen",
+  "title": {
+    "fr": "Menemen, œufs brouillés aux poivrons et tomates",
+    "en": "Menemen, eggs scrambled with peppers and tomatoes"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["petit-dejeuner", "oeuf", "rapide", "poele"],
+  "ingredients": [
+    { "raw": "6 œufs", "qty": 6, "unit": "piece", "item": "oeuf" },
+    { "raw": "6 tomates mûres, pelées et concassées", "qty": 6, "unit": "piece", "item": "tomate", "prep": "pelée et concassée" },
+    { "raw": "4 poivrons verts longs, en lanières", "qty": 4, "unit": "piece", "item": "poivron vert", "prep": "en lanières" },
+    { "raw": "1 oignon, émincé", "qty": 1, "unit": "piece", "item": "oignon", "prep": "émincé", "optional": true },
+    { "raw": "1 c. à c. de piment d'Alep", "qty": 1, "unit": "tsp", "item": "piment d'Alep" },
+    { "raw": "50 g de beurre", "qty": 50, "unit": "g", "item": "beurre" },
+    { "raw": "2 c. à s. d'huile d'olive", "qty": 2, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Faire fondre les poivrons dans le beurre et l'huile, à feu doux, dix minutes.", "en": "Soften the peppers in the butter and oil over low heat, ten minutes." },
+    { "fr": "Ajouter les tomates et le piment d'Alep, et laisser réduire jusqu'à ce que l'eau soit partie.", "en": "Add the tomatoes and Aleppo pepper, and reduce until the water has gone." },
+    { "fr": "Un menemen liquide est un menemen dont on n'a pas attendu la réduction : compter dix bonnes minutes.", "en": "A runny menemen is one where the reduction was cut short: allow a good ten minutes." },
+    { "fr": "Baisser le feu au minimum et casser les œufs directement dans la poêle.", "en": "Turn the heat to its lowest and crack the eggs straight into the pan." },
+    { "fr": "Remuer LENTEMENT à la spatule, en ramenant du bord vers le centre, jusqu'à ce que les œufs prennent à peine.", "en": "Stir SLOWLY with a spatula, pulling from the edge to the centre, until the eggs are barely set." },
+    { "fr": "Couper le feu quand les œufs sont encore baveux : ils finissent de cuire dans la poêle chaude.", "en": "Cut the heat while the eggs are still loose: they finish cooking in the hot pan." }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "trey-chien-chuon",
+  "cuisine": "southeast-asian",
+  "country": "cambodge",
+  "origin": "Cambodge",
+  "native_name": "ត្រីចៀនជូន",
+  "title": {
+    "fr": "Poisson frit à la sauce aigre-douce khmère",
+    "en": "Fried fish in Khmer sweet-sour sauce"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["friture", "aigre-doux", "poisson", "fete"],
+  "ingredients": [
+    { "raw": "1 dorade entière de 1 kg, vidée", "qty": 1000, "unit": "g", "item": "dorade", "prep": "vidée" },
+    { "raw": "4 c. à s. de maïzena", "qty": 4, "unit": "tbsp", "item": "maïzena" },
+    { "raw": "1 morceau de gingembre, en julienne", "qty": 1, "unit": "piece", "item": "gingembre", "prep": "en julienne", "group": "sauce" },
+    { "raw": "6 gousses d'ail, hachées", "qty": 6, "unit": "piece", "item": "ail", "prep": "haché", "group": "sauce" },
+    { "raw": "1 poivron rouge, en lanières", "qty": 1, "unit": "piece", "item": "poivron rouge", "prep": "en lanières", "group": "sauce" },
+    { "raw": "3 c. à s. de vinaigre de riz", "qty": 3, "unit": "tbsp", "item": "vinaigre de riz", "group": "sauce" },
+    { "raw": "3 c. à s. de sucre de palme", "qty": 3, "unit": "tbsp", "item": "sucre de palme", "group": "sauce" },
+    { "raw": "3 c. à s. de sauce poisson", "qty": 3, "unit": "tbsp", "item": "sauce poisson", "group": "sauce" },
+    { "raw": "2 c. à s. de concentré de tomate", "qty": 2, "unit": "tbsp", "item": "concentré de tomate", "group": "sauce" },
+    { "raw": "4 oignons nouveaux, en tronçons", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "en tronçons" },
+    { "raw": "1 l d'huile neutre pour la friture", "qty": 1, "unit": "l", "item": "huile neutre" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Inciser le poisson de trois entailles profondes de chaque côté : il cuit plus vite et prend la sauce.", "en": "Cut three deep slashes on each side of the fish: it cooks faster and takes the sauce." },
+    { "fr": "Le sécher soigneusement et le fariner à la maïzena, en tapotant l'excédent.", "en": "Dry it thoroughly and dust it with cornflour, tapping off the excess." },
+    { "fr": "Le frire à 180 °C, huit minutes par face, en l'arrosant à la louche.", "en": "Fry at 180°C, eight minutes a side, spooning oil over it." },
+    { "fr": "L'égoutter DEBOUT sur une grille : posé à plat, il ramollit d'un côté.", "en": "Drain it UPRIGHT on a rack: laid flat, it goes soft on one side." },
+    { "fr": "Faire la sauce à part et la verser sur le poisson AU MOMENT DE SERVIR, jamais avant.", "en": "Make the sauce separately and pour it over the fish AT THE MOMENT OF SERVING, never before." },
+    { "fr": "Nappé à l'avance, le poisson perd son croustillant en trois minutes.", "en": "Sauced in advance, the fish loses its crispness within three minutes." }
+  ]
+}

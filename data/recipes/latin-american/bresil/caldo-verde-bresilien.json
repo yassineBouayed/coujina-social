@@ -1,0 +1,38 @@
+{
+  "slug": "caldo-verde-bresilien",
+  "cuisine": "latin-american",
+  "country": "bresil",
+  "origin": "Brésil",
+  "native_name": "Caldo verde",
+  "title": {
+    "fr": "Soupe verte au chou et à la saucisse",
+    "en": "Green soup with kale and sausage"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 40 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hiver", "chou", "soupe", "famille"],
+  "ingredients": [
+    { "raw": "800 g de pommes de terre, en morceaux", "qty": 800, "unit": "g", "item": "pomme de terre", "prep": "en morceaux" },
+    { "raw": "400 g de chou frisé, en lanières très fines", "qty": 400, "unit": "g", "item": "chou frisé", "prep": "en lanières très fines" },
+    { "raw": "2 chorizos, en rondelles", "qty": 2, "unit": "piece", "item": "chorizo", "prep": "en rondelles" },
+    { "raw": "200 g de lardons", "qty": 200, "unit": "g", "item": "lardon" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "6 gousses d'ail", "qty": 6, "unit": "piece", "item": "ail" },
+    { "raw": "1,5 l de bouillon de volaille", "qty": 1.5, "unit": "l", "item": "bouillon volaille" },
+    { "raw": "12 cl d'huile d'olive", "qty": 12, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La version brésilienne est plus riche que la portugaise : elle ajoute des lardons au chorizo.", "en": "The Brazilian version is richer than the Portuguese: it adds bacon to the chorizo." },
+    { "fr": "Rouler les feuilles de chou en cigare serré et trancher à DEUX MILLIMÈTRES.", "en": "Roll the kale leaves into a tight cigar and slice at TWO MILLIMETRES." },
+    { "fr": "Cuire pommes de terre, oignons et ail, puis MIXER le tout en velouté lisse.", "en": "Cook the potatoes, onions and garlic, then BLEND it all to a smooth soup." },
+    { "fr": "Faire dorer chorizo et lardons À PART, et garder leur gras coloré.", "en": "Brown the chorizo and bacon SEPARATELY, and keep their coloured fat." },
+    { "fr": "Jeter le chou dans le velouté bouillant et cuire CINQ MINUTES seulement.", "en": "Drop the kale into the boiling soup and cook for FIVE MINUTES only." },
+    { "fr": "Servir avec le gras du chorizo versé dessus, en filet, et un tour d'huile d'olive.", "en": "Serve with the chorizo fat drizzled over, and a thread of olive oil." }
+  ]
+}

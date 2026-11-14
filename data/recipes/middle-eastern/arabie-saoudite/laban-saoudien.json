@@ -1,0 +1,32 @@
+{
+  "slug": "laban-saoudien",
+  "cuisine": "middle-eastern",
+  "country": "arabie-saoudite",
+  "origin": "Arabie saoudite",
+  "native_name": "Laban",
+  "title": {
+    "fr": "Laban, lait fermenté salé",
+    "en": "Laban, salted fermented milk"
+  },
+  "meal_type": "drink",
+  "servings": 6,
+  "times": { "prep_min": 10, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["repas", "sale", "frais", "quotidien"],
+  "ingredients": [
+    { "raw": "1 l de lait caillé", "qty": 1, "unit": "l", "item": "lait caillé" },
+    { "raw": "30 cl d'eau glacée", "qty": 30, "unit": "cl", "item": "eau" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "1 c. à c. de menthe séchée", "qty": 1, "unit": "tsp", "item": "menthe séchée", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Fouetter le lait caillé jusqu'à ce qu'il soit parfaitement lisse et mousseux.", "en": "Whisk the soured milk until perfectly smooth and frothy." },
+    { "fr": "Ajouter l'eau glacée petit à petit, en fouettant, jusqu'à la consistance voulue.", "en": "Add the iced water little by little, whisking, to the consistency you want." },
+    { "fr": "Le laban saoudien est plus épais qu'un ayran : il se boit presque à la cuillère.", "en": "Saudi laban is thicker than ayran: it is almost spooned." },
+    { "fr": "Saler et goûter : le laban n'est jamais sucré, il accompagne les plats de riz.", "en": "Salt and taste: laban is never sweetened; it accompanies rice dishes." },
+    { "fr": "Ajouter la menthe séchée froissée entre les doigts, si l'on veut.", "en": "Add the dried mint, crumbled between your fingers, if you like." },
+    { "fr": "Servir glacé, en pichet, à côté d'un kabsa ou d'un mandi.", "en": "Serve ice-cold, in a jug, beside a kabsa or mandi." }
+  ]
+}

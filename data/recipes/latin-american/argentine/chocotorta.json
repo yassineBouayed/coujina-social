@@ -1,0 +1,34 @@
+{
+  "slug": "chocotorta",
+  "cuisine": "latin-american",
+  "country": "argentine",
+  "origin": "Argentine",
+  "native_name": "Chocotorta",
+  "title": {
+    "fr": "Chocotorta au dulce de leche",
+    "en": "Chocotorta with dulce de leche"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 30, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["anniversaire", "sans-cuisson", "chocolat", "enfants"],
+  "ingredients": [
+    { "raw": "500 g de biscuits secs au chocolat", "qty": 500, "unit": "g", "item": "biscuit sec", "prep": "au chocolat" },
+    { "raw": "600 g de dulce de leche", "qty": 600, "unit": "g", "item": "dulce de leche" },
+    { "raw": "600 g de fromage frais", "qty": 600, "unit": "g", "item": "fromage frais" },
+    { "raw": "50 cl de café fort, froid", "qty": 50, "unit": "cl", "item": "café", "prep": "fort et froid" },
+    { "raw": "3 c. à s. de cacao en poudre", "qty": 3, "unit": "tbsp", "item": "cacao en poudre" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "La chocotorta a été inventée en 1982 par une publicitaire argentine : c'est un dessert récent.", "en": "The chocotorta was invented in 1982 by an Argentine advertiser: a recent dessert." },
+    { "fr": "Elle est aujourd'hui à tous les anniversaires du pays : trois ingrédients, aucune cuisson.", "en": "It is now at every birthday in the country: three ingredients, no cooking." },
+    { "fr": "Battre dulce de leche et fromage frais ENSEMBLE, à température ambiante, dix minutes.", "en": "Beat the dulce de leche and cream cheese TOGETHER, at room temperature, for ten minutes." },
+    { "fr": "Froids, ils ne se mélangent pas et la crème reste granuleuse.", "en": "Cold, they do not combine and the cream stays grainy." },
+    { "fr": "Tremper chaque biscuit UNE SECONDE dans le café : détrempés, ils s'effondrent.", "en": "Dip each biscuit for ONE SECOND in the coffee: soaked, they collapse." },
+    { "fr": "Alterner biscuits et crème, et réfrigérer DOUZE HEURES : c'est le froid qui fait tenir le gâteau.", "en": "Alternate biscuits and cream, and chill for TWELVE HOURS: the cold is what holds the cake." }
+  ]
+}

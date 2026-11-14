@@ -1,0 +1,42 @@
+{
+  "slug": "banh-cuon",
+  "cuisine": "southeast-asian",
+  "country": "vietnam",
+  "origin": "Viêt Nam",
+  "native_name": "Bánh cuốn",
+  "title": {
+    "fr": "Bánh cuốn, crêpes de riz vapeur farcies",
+    "en": "Banh cuon, steamed rice rolls"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 50, "cook_min": 35 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hanoi", "vapeur", "petit-dejeuner", "technique"],
+  "ingredients": [
+    { "raw": "250 g de farine de riz", "qty": 250, "unit": "g", "item": "farine de riz", "group": "pâte" },
+    { "raw": "80 g de maïzena", "qty": 80, "unit": "g", "item": "maïzena", "group": "pâte" },
+    { "raw": "75 cl d'eau", "qty": 75, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "3 c. à s. d'huile neutre", "qty": 3, "unit": "tbsp", "item": "huile neutre", "group": "pâte" },
+    { "raw": "400 g de porc haché", "qty": 400, "unit": "g", "item": "porc haché", "group": "farce" },
+    { "raw": "40 g de champignons noirs, réhydratés et hachés", "qty": 40, "unit": "g", "item": "champignon noir", "prep": "réhydraté et haché", "group": "farce" },
+    { "raw": "4 échalotes, hachées", "qty": 4, "unit": "piece", "item": "échalote", "prep": "hachée", "group": "farce" },
+    { "raw": "3 c. à s. de sauce poisson", "qty": 3, "unit": "tbsp", "item": "sauce poisson", "group": "farce" },
+    { "raw": "4 échalotes, frites", "qty": 4, "unit": "piece", "item": "échalote", "prep": "frite", "group": "garniture" },
+    { "raw": "1 bouquet de coriandre fraîche", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "group": "garniture" },
+    { "raw": "1 concombre, en julienne", "qty": 1, "unit": "piece", "item": "concombre", "prep": "en julienne", "group": "garniture" },
+    { "raw": "6 c. à s. de sauce poisson", "qty": 6, "unit": "tbsp", "item": "sauce poisson", "group": "nuoc-cham" },
+    { "raw": "6 c. à s. de sucre", "qty": 6, "unit": "tbsp", "item": "sucre", "group": "nuoc-cham" },
+    { "raw": "3 citrons verts, leur jus", "qty": 3, "unit": "piece", "item": "citron vert", "group": "nuoc-cham" }
+  ],
+  "steps": [
+    { "fr": "Laisser reposer la pâte QUATRE HEURES : sans repos, la crêpe se déchire au décollage.", "en": "Rest the batter for FOUR HOURS: without it, the crepe tears when lifted." },
+    { "fr": "Tendre un linge fin sur une casserole d'eau bouillante et le fixer : c'est le cuiseur traditionnel.", "en": "Stretch a fine cloth over a pan of boiling water and secure it: this is the traditional steamer." },
+    { "fr": "Verser une louche de pâte TRÈS fine sur le linge, couvrir, et compter trente secondes.", "en": "Pour a VERY thin ladle of batter onto the cloth, cover, and count thirty seconds." },
+    { "fr": "Décoller avec une spatule fine et large, d'un geste continu : hésiter, c'est déchirer.", "en": "Lift it with a thin, wide spatula in one continuous motion: hesitate and it tears." },
+    { "fr": "Garnir de farce et rouler serré, sur un plan huilé, pendant que la crêpe est chaude.", "en": "Fill and roll it tightly, on an oiled surface, while the crepe is hot." },
+    { "fr": "Servir couvert d'échalotes frites, avec le nuoc cham tiède et le concombre.", "en": "Serve topped with fried shallots, with warm nuoc cham and cucumber." }
+  ]
+}

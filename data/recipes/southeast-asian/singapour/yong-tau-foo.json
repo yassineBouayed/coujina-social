@@ -1,0 +1,42 @@
+{
+  "slug": "yong-tau-foo",
+  "cuisine": "southeast-asian",
+  "country": "singapour",
+  "origin": "Singapour",
+  "native_name": "酿豆腐",
+  "title": {
+    "fr": "Yong tau foo, tofu et légumes farcis au poisson",
+    "en": "Yong tau foo, tofu and vegetables stuffed with fish paste"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 45, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hakka", "farci", "bouillon", "leger"],
+  "ingredients": [
+    { "raw": "500 g de filets de cabillaud", "qty": 500, "unit": "g", "item": "cabillaud", "group": "farce" },
+    { "raw": "150 g de porc haché", "qty": 150, "unit": "g", "item": "porc haché", "group": "farce" },
+    { "raw": "2 c. à s. de maïzena", "qty": 2, "unit": "tbsp", "item": "maïzena", "group": "farce" },
+    { "raw": "4 oignons nouveaux, ciselés", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé", "group": "farce" },
+    { "raw": "400 g de tofu ferme, en cubes", "qty": 400, "unit": "g", "item": "tofu ferme", "prep": "en cubes" },
+    { "raw": "4 piments verts longs", "qty": 4, "unit": "piece", "item": "piment frais" },
+    { "raw": "2 aubergines, en tronçons", "qty": 2, "unit": "piece", "item": "aubergine", "prep": "en tronçons" },
+    { "raw": "200 g de gombos", "qty": 200, "unit": "g", "item": "gombo" },
+    { "raw": "6 champignons shiitake", "qty": 6, "unit": "piece", "item": "shiitake" },
+    { "raw": "1,5 l de bouillon de volaille", "qty": 1.5, "unit": "l", "item": "bouillon volaille" },
+    { "raw": "200 g de nouilles de riz", "qty": 200, "unit": "g", "item": "nouilles de riz", "group": "service" },
+    { "raw": "4 c. à s. de sauce hoisin", "qty": 4, "unit": "tbsp", "item": "sauce hoisin", "group": "service" },
+    { "raw": "sel et poivre blanc", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre blanc", "qty": null, "unit": null, "item": "poivre blanc" }
+  ],
+  "steps": [
+    { "fr": "Mixer le poisson avec le porc, la maïzena et l'assaisonnement, puis BATTRE la pâte contre le bol.", "en": "Blend the fish with the pork, cornflour and seasoning, then SLAP the paste against the bowl." },
+    { "fr": "Une trentaine de coups : c'est ce battage qui donne le rebond caractéristique de la farce.", "en": "About thirty slaps: that beating is what gives the filling its characteristic bounce." },
+    { "fr": "Fendre chaque légume et l'ouvrir en poche, sans le traverser.", "en": "Slit each vegetable and open it into a pocket, without cutting through." },
+    { "fr": "Farcir généreusement, en bombant : la farce se rétracte légèrement à la cuisson.", "en": "Fill them generously, mounding: the filling shrinks a little as it cooks." },
+    { "fr": "Faire dorer le côté farci à la poêle avant de pocher : cela le scelle et empêche la farce de sortir.", "en": "Brown the filled side in a pan before poaching: this seals it and stops the filling escaping." },
+    { "fr": "Pocher dix minutes dans le bouillon clair, et servir avec des nouilles et de la sauce hoisin.", "en": "Poach for ten minutes in the clear broth, and serve with noodles and hoisin sauce." }
+  ]
+}

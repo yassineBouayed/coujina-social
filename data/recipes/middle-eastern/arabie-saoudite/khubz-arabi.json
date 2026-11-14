@@ -1,0 +1,34 @@
+{
+  "slug": "khubz-arabi",
+  "cuisine": "middle-eastern",
+  "country": "arabie-saoudite",
+  "origin": "Arabie saoudite",
+  "native_name": "Khubz arabi",
+  "title": {
+    "fr": "Khubz arabi, pain plat à poche",
+    "en": "Khubz arabi, pocket flatbread"
+  },
+  "meal_type": "bread",
+  "servings": 8,
+  "times": { "prep_min": 35, "cook_min": 15 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["pain", "base", "quotidien", "four"],
+  "ingredients": [
+    { "raw": "600 g de farine de blé", "qty": 600, "unit": "g", "item": "farine de blé" },
+    { "raw": "1 c. à s. de levure boulangère sèche", "qty": 1, "unit": "tbsp", "item": "levure boulangère" },
+    { "raw": "1,5 c. à c. de sel", "qty": 1.5, "unit": "tsp", "item": "sel" },
+    { "raw": "1 c. à c. de sucre", "qty": 1, "unit": "tsp", "item": "sucre" },
+    { "raw": "36 cl d'eau tiède", "qty": 36, "unit": "cl", "item": "eau" },
+    { "raw": "3 c. à s. d'huile d'olive", "qty": 3, "unit": "tbsp", "item": "huile d'olive" }
+  ],
+  "steps": [
+    { "fr": "Pétrir dix minutes en une pâte souple et laisser lever une heure et demie.", "en": "Knead for ten minutes into a soft dough and prove for an hour and a half." },
+    { "fr": "Diviser en boules, les laisser détendre vingt minutes, puis les étaler à un demi-centimètre.", "en": "Divide into balls, let them relax for twenty minutes, then roll them to half a centimetre." },
+    { "fr": "Préchauffer une plaque ou une pierre à 280 °C pendant trente minutes : la chaleur du support fait tout.", "en": "Preheat a tray or stone at 280°C for thirty minutes: the heat of the surface does all the work." },
+    { "fr": "Poser le disque directement dessus : il doit gonfler en ballon en moins de deux minutes.", "en": "Lay the disc straight onto it: it should balloon within two minutes." },
+    { "fr": "Un four pas assez chaud donne une galette plate sans poche, et il n'y a pas de rattrapage.", "en": "An oven that is not hot enough gives a flat bread with no pocket, and there is no fixing it." },
+    { "fr": "Empiler sous un linge dès la sortie pour que les pains restent souples.", "en": "Stack them under a cloth as they come out so they stay soft." }
+  ]
+}

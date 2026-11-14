@@ -1,0 +1,37 @@
+{
+  "slug": "arroz-doce",
+  "cuisine": "mediterranean",
+  "country": "portugal",
+  "origin": "Portugal",
+  "native_name": "Arroz doce",
+  "title": {
+    "fr": "Riz au lait à la portugaise",
+    "en": "Portuguese rice pudding"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 15, "cook_min": 50 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "riz", "cannelle", "citron"],
+  "ingredients": [
+    { "raw": "300 g de riz rond", "qty": 300, "unit": "g", "item": "riz rond" },
+    { "raw": "1,2 l de lait entier", "qty": 1.2, "unit": "l", "item": "lait entier" },
+    { "raw": "200 g de sucre", "qty": 200, "unit": "g", "item": "sucre" },
+    { "raw": "4 jaunes d'œufs", "qty": 4, "unit": "piece", "item": "oeuf" },
+    { "raw": "1 citron, son zeste en larges bandes", "qty": 1, "unit": "piece", "item": "citron", "prep": "zesté en larges bandes" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle", "prep": "en bâton" },
+    { "raw": "40 g de beurre", "qty": 40, "unit": "g", "item": "beurre" },
+    { "raw": "3 c. à s. de cannelle moulue", "qty": 3, "unit": "tbsp", "item": "cannelle", "group": "décor" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire le riz D'ABORD à l'eau, dix minutes : dans le lait seul, il resterait ferme au cœur.", "en": "Cook the rice FIRST in water, ten minutes: in milk alone, it would stay firm inside." },
+    { "fr": "Ajouter le lait CHAUD avec le zeste et le bâton de cannelle, et cuire trente minutes.", "en": "Add HOT milk with the zest and cinnamon stick, and cook for thirty minutes." },
+    { "fr": "Remuer souvent : le riz au lait attache au fond en quelques minutes d'inattention.", "en": "Stir often: rice pudding catches on the base within a few inattentive minutes." },
+    { "fr": "Ajouter le sucre SEULEMENT quand le riz est tendre : sucré tôt, il durcit.", "en": "Add the sugar ONLY when the rice is tender: sweetened early, it toughens." },
+    { "fr": "Incorporer les jaunes HORS DU FEU, en fouettant, puis remettre une minute à feu doux.", "en": "Work in the yolks OFF THE HEAT, whisking, then return it to low heat for a minute." },
+    { "fr": "Verser dans des assiettes creuses et dessiner des motifs à la cannelle au pochoir.", "en": "Pour into shallow dishes and stencil patterns with ground cinnamon." }
+  ]
+}

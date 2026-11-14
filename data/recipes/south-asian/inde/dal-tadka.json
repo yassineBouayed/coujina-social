@@ -1,0 +1,42 @@
+{
+  "slug": "dal-tadka",
+  "cuisine": "south-asian",
+  "country": "inde",
+  "origin": "Inde",
+  "native_name": "Dal tadka",
+  "title": {
+    "fr": "Dal tadka, lentilles au tempérage d'épices",
+    "en": "Dal tadka, lentils with a spice tempering"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 15, "cook_min": 40 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["quotidien", "lentille", "vegetarien", "tadka"],
+  "ingredients": [
+    { "raw": "300 g de pois cassés", "qty": 300, "unit": "g", "item": "pois cassé" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "2 tomates, en dés", "qty": 2, "unit": "piece", "item": "tomate", "prep": "en dés" },
+    { "raw": "60 g de ghee", "qty": 60, "unit": "g", "item": "ghee", "group": "tadka" },
+    { "raw": "1 c. à c. de graines de cumin", "qty": 1, "unit": "tsp", "item": "cumin", "group": "tadka" },
+    { "raw": "1 c. à c. de graines de moutarde", "qty": 1, "unit": "tsp", "item": "graine de moutarde", "group": "tadka" },
+    { "raw": "1 pincée d'asafoetida", "qty": 1, "unit": "pinch", "item": "asafoetida", "group": "tadka" },
+    { "raw": "6 gousses d'ail, en lamelles", "qty": 6, "unit": "piece", "item": "ail", "prep": "en lamelles", "group": "tadka" },
+    { "raw": "2 piments séchés", "qty": 2, "unit": "piece", "item": "piment séché", "group": "tadka" },
+    { "raw": "10 feuilles de curry", "qty": 10, "unit": "piece", "item": "feuille de curry", "group": "tadka" },
+    { "raw": "1 c. à c. de piment kashmiri", "qty": 1, "unit": "tsp", "item": "piment kashmiri", "group": "tadka" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire les pois cassés avec le curcuma trente minutes, jusqu'à ce qu'ils se défassent.", "en": "Cook the split peas with the turmeric for thirty minutes, until they collapse." },
+    { "fr": "Ajouter les tomates et le sel, et laisser dix minutes de plus.", "en": "Add the tomatoes and salt, and cook for ten minutes more." },
+    { "fr": "Faire le tadka : chauffer le ghee jusqu'à ce qu'il fume légèrement, puis y jeter le cumin et la moutarde.", "en": "Make the tadka: heat the ghee until it barely smokes, then drop in the cumin and mustard." },
+    { "fr": "Attendre que les graines de moutarde ÉCLATENT : c'est le signal, et il ne dure que quelques secondes.", "en": "Wait for the mustard seeds to POP: that is the signal, and it lasts only seconds." },
+    { "fr": "Ajouter asafoetida, ail, piments et feuilles de curry, dix secondes, puis le piment kashmiri hors du feu.", "en": "Add the asafoetida, garlic, chillies and curry leaves for ten seconds, then the Kashmiri chilli off the heat." },
+    { "fr": "Verser le tadka brûlant sur le dal et couvrir aussitôt : c'est cette étape, et pas la cuisson, qui fait le plat.", "en": "Pour the scalding tadka over the dal and cover at once: that step, not the cooking, is what makes the dish." }
+  ]
+}

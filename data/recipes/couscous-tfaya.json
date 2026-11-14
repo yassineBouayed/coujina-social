@@ -1,0 +1,53 @@
+{
+  "slug": "couscous-tfaya",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Couscous tfaya",
+  "title": {
+    "fr": "Couscous à la tfaya, oignons caramélisés et raisins secs",
+    "en": "Couscous with tfaya, caramelised onions and raisins"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 120 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j2-sonde-v1", "date": "2026-08-28" },
+  "tags": ["couscous", "agneau", "vendredi", "sucre-sale"],
+  "ingredients": [
+    { "raw": "1 kg d'épaule d'agneau, en gros morceaux", "qty": 1, "unit": "kg", "item": "épaule d'agneau", "prep": "en gros morceaux" },
+    { "raw": "500 g de semoule de couscous moyenne", "qty": 500, "unit": "g", "item": "semoule de couscous" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé", "group": "bouillon" },
+    { "raw": "1 c. à c. de gingembre moulu", "qty": 1, "unit": "tsp", "item": "gingembre moulu", "group": "bouillon" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran", "group": "bouillon" },
+    { "raw": "1 c. à c. de poivre noir", "qty": 1, "unit": "tsp", "item": "poivre noir", "group": "bouillon" },
+    { "raw": "3 c. à s. d'huile d'olive", "qty": 3, "unit": "tbsp", "item": "huile d'olive", "group": "bouillon" },
+    { "raw": "1 bouquet de coriandre fraîche", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "group": "bouillon" },
+    { "raw": "200 g de pois chiches trempés la veille", "qty": 200, "unit": "g", "item": "pois chiche sec", "prep": "trempé la veille", "group": "bouillon" },
+    { "raw": "1,5 l d'eau", "qty": 1.5, "unit": "l", "item": "eau", "group": "bouillon" },
+    { "raw": "1 kg d'oignons, émincés très finement", "qty": 1, "unit": "kg", "item": "oignon", "prep": "émincé très finement", "group": "tfaya" },
+    { "raw": "150 g de raisins secs, trempés 20 minutes", "qty": 150, "unit": "g", "item": "raisin sec", "prep": "trempé 20 minutes", "group": "tfaya" },
+    { "raw": "2 c. à s. de miel", "qty": 2, "unit": "tbsp", "item": "miel", "group": "tfaya" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle", "group": "tfaya" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle moulue", "group": "tfaya" },
+    { "raw": "50 g de beurre", "qty": 50, "unit": "g", "item": "beurre", "group": "tfaya" },
+    { "raw": "100 g d'amandes émondées", "qty": 100, "unit": "g", "item": "amande", "prep": "émondée", "group": "garniture" },
+    { "raw": "3 c. à s. d'huile de tournesol pour rouler la semoule", "qty": 3, "unit": "tbsp", "item": "huile de tournesol" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire revenir l'agneau avec les oignons émincés, les épices et l'huile dans le bas du couscoussier, cinq minutes, jusqu'à ce que la viande prenne couleur.", "en": "Brown the lamb with the sliced onions, the spices and the oil in the bottom of the couscoussier for five minutes, until the meat takes colour." },
+    { "fr": "Mouiller à l'eau, ajouter les pois chiches et le bouquet de coriandre. Porter à frémissement.", "en": "Add the water, the chickpeas and the coriander bundle. Bring to a bare simmer." },
+    { "fr": "Humecter la semoule, la rouler à la main avec un filet d'huile, la passer une première fois au couscoussier vingt minutes à la vapeur.", "en": "Moisten the couscous, work it through your hands with a little oil, and steam it in the couscoussier for a first twenty minutes." },
+    { "fr": "Verser la semoule dans un grand plat, l'asperger d'eau salée, la rouler de nouveau, laisser gonfler dix minutes, puis passer une deuxième fois à la vapeur.", "en": "Turn the couscous into a wide dish, sprinkle with salted water, work it again, let it swell for ten minutes, then steam a second time." },
+    { "fr": "Pour la tfaya, cuire le kilo d'oignons à couvert avec le beurre, la cannelle et un peu de bouillon, très doucement, quarante minutes, jusqu'à ce qu'ils fondent et blondissent.", "en": "For the tfaya, cook the kilo of onions covered with the butter, cinnamon and a little broth, very gently, for forty minutes, until they collapse and turn golden." },
+    { "fr": "Ajouter le miel et les raisins secs égouttés, laisser confire à découvert dix minutes : la tfaya doit être brillante et à peine coulante.", "en": "Add the honey and the drained raisins and let it candy uncovered for ten minutes: the tfaya should be glossy and barely runny." },
+    { "fr": "Faire dorer les amandes à la poêle dans un peu d'huile, les égoutter sur papier absorbant.", "en": "Fry the almonds in a little oil until golden and drain on kitchen paper." },
+    { "fr": "Passer la semoule une troisième et dernière fois à la vapeur, la beurrer et la dresser en dôme.", "en": "Steam the couscous a third and final time, butter it and mound it into a dome." },
+    { "fr": "Creuser le dôme, y coucher la viande et les pois chiches, napper de tfaya, parsemer d'amandes, servir le bouillon à part.", "en": "Hollow the dome, lay in the meat and chickpeas, spoon over the tfaya, scatter the almonds and serve the broth alongside." }
+  ],
+  "notes": [
+    { "fr": "Les trois passages à la vapeur ne sont pas une coquetterie : c'est ce qui donne des grains séparés plutôt qu'une bouillie.", "en": "The three steamings are not fussiness: they are what gives separate grains rather than porridge." }
+  ]
+}

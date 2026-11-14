@@ -1,0 +1,39 @@
+{
+  "slug": "parippu",
+  "cuisine": "south-asian",
+  "country": "sri-lanka",
+  "origin": "Sri Lanka",
+  "native_name": "Parippu",
+  "title": {
+    "fr": "Parippu, dal au lait de coco",
+    "en": "Parippu, dal in coconut milk"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 10, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["quotidien", "coco", "lentille", "vegetarien"],
+  "ingredients": [
+    { "raw": "300 g de lentilles corail", "qty": 300, "unit": "g", "item": "lentille corail" },
+    { "raw": "40 cl de lait de coco", "qty": 40, "unit": "cl", "item": "lait de coco" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "1 oignon, émincé", "qty": 1, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "20 feuilles de curry", "qty": 20, "unit": "piece", "item": "feuille de curry" },
+    { "raw": "1 feuille de pandan", "qty": 1, "unit": "piece", "item": "feuille de pandan" },
+    { "raw": "2 piments séchés", "qty": 2, "unit": "piece", "item": "piment séché" },
+    { "raw": "1 c. à c. de graines de moutarde", "qty": 1, "unit": "tsp", "item": "graine de moutarde" },
+    { "raw": "1/2 c. à c. de fenugrec", "qty": 0.5, "unit": "tsp", "item": "fenugrec" },
+    { "raw": "4 c. à s. d'huile de coco", "qty": 4, "unit": "tbsp", "item": "huile de coco" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire les lentilles avec le curcuma, le fenugrec et le pandan vingt minutes.", "en": "Cook the lentils with the turmeric, fenugreek and pandan for twenty minutes." },
+    { "fr": "Ajouter le lait de coco et laisser dix minutes à FRÉMISSEMENT, jamais à ébullition.", "en": "Add the coconut milk and cook for ten minutes at a SIMMER, never a boil." },
+    { "fr": "Le lait de coco tranche à gros bouillons : c'est la seule difficulté de ce plat.", "en": "Coconut milk splits at a rolling boil: the only difficulty in this dish." },
+    { "fr": "Faire éclater la moutarde dans l'huile de coco avec l'oignon, les piments et les feuilles de curry.", "en": "Pop the mustard seeds in the coconut oil with the onion, chillies and curry leaves." },
+    { "fr": "Verser ce tempérage sur le parippu et couvrir immédiatement.", "en": "Pour that tempering over the parippu and cover at once." },
+    { "fr": "Servir avec du riz, un pol sambol et un légume.", "en": "Serve with rice, a pol sambol and a vegetable." }
+  ]
+}

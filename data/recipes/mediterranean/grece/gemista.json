@@ -1,0 +1,43 @@
+{
+  "slug": "gemista",
+  "cuisine": "mediterranean",
+  "country": "grece",
+  "origin": "Grèce",
+  "native_name": "Γεμιστά",
+  "title": {
+    "fr": "Gemista, légumes farcis au riz",
+    "en": "Gemista, rice-stuffed vegetables"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 45, "cook_min": 80 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ete", "farci", "vegetarien", "four"],
+  "ingredients": [
+    { "raw": "6 grosses tomates", "qty": 6, "unit": "piece", "item": "tomate" },
+    { "raw": "4 poivrons verts", "qty": 4, "unit": "piece", "item": "poivron vert" },
+    { "raw": "300 g de riz rond", "qty": 300, "unit": "g", "item": "riz rond" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "1/2 bouquet de menthe, ciselée", "qty": 0.5, "unit": "bunch", "item": "menthe", "prep": "ciselée" },
+    { "raw": "600 g de pommes de terre, en quartiers", "qty": 600, "unit": "g", "item": "pomme de terre", "prep": "en quartiers" },
+    { "raw": "20 cl d'huile d'olive", "qty": 20, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "2 c. à s. de concentré de tomate", "qty": 2, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "2 c. à c. de sucre", "qty": 2, "unit": "tsp", "item": "sucre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Évider les tomates en gardant la chair : elle sera mixée et fera tout le liquide de cuisson.", "en": "Hollow the tomatoes keeping the flesh: it gets blended and makes all the cooking liquid." },
+    { "fr": "Garder les CHAPEAUX : ils se remettent avant d'enfourner et empêchent la farce de sécher.", "en": "Keep the LIDS: they go back on before baking and keep the filling from drying out." },
+    { "fr": "Le riz est mis CRU, à moitié seulement : il gonfle du double en cuisant.", "en": "The rice goes in RAW, and only half full: it doubles as it cooks." },
+    { "fr": "Saler l'intérieur des légumes et les retourner dix minutes : ils rendent leur eau amère.", "en": "Salt the insides of the vegetables and invert them for ten minutes: they release bitter water." },
+    { "fr": "Caler les pommes de terre entre les légumes : elles les empêchent de basculer.", "en": "Wedge the potatoes between the vegetables: they stop them tipping over." },
+    { "fr": "Arroser généreusement d'huile d'olive et cuire 80 minutes à 180 °C, à couvert puis à découvert.", "en": "Douse generously with olive oil and bake for 80 minutes at 180°C, covered then uncovered." }
+  ],
+  "notes": [
+    { "fr": "Les gemista se mangent TIÈDES ou froids, jamais brûlants : c'est un plat d'été.", "en": "Gemista are eaten WARM or cold, never scalding: it is a summer dish." }
+  ]
+}

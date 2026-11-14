@@ -1,0 +1,31 @@
+{
+  "slug": "tuwo-shinkafa",
+  "cuisine": "west-african",
+  "country": "nigeria",
+  "origin": "Nigeria",
+  "native_name": "Tuwo shinkafa",
+  "title": {
+    "fr": "Tuwo shinkafa, pâte de riz du Nord",
+    "en": "Tuwo shinkafa, northern rice swallow"
+  },
+  "meal_type": "side",
+  "servings": 5,
+  "times": { "prep_min": 10, "cook_min": 40 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hausa", "riz", "swallow", "quotidien"],
+  "ingredients": [
+    { "raw": "500 g de riz rond", "qty": 500, "unit": "g", "item": "riz rond" },
+    { "raw": "1,2 l d'eau", "qty": 1.2, "unit": "l", "item": "eau" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Choisir un riz rond, qui libère beaucoup d'amidon : un riz long ne collera jamais assez.", "en": "Choose a short-grain rice, which releases plenty of starch: long grain will never bind enough." },
+    { "fr": "Le cuire dans une grande quantité d'eau salée, trente minutes, jusqu'à ce qu'il éclate complètement.", "en": "Boil it in plenty of salted water for thirty minutes, until the grains burst completely." },
+    { "fr": "Égoutter une partie de l'eau, en en gardant assez pour que le riz baigne encore un peu.", "en": "Drain off some of the water, keeping enough for the rice to still sit in liquid." },
+    { "fr": "Écraser au pilon dans la casserole, à feu doux, jusqu'à obtenir une pâte lisse et collante.", "en": "Mash with a pestle in the pot, over low heat, to a smooth, sticky paste." },
+    { "fr": "Battre énergiquement deux minutes : c'est le battage qui donne l'élasticité.", "en": "Beat hard for two minutes: the beating is what gives the elasticity." },
+    { "fr": "Former des boules à la louche mouillée et servir avec du miyan kuka.", "en": "Shape balls with a wet ladle and serve with miyan kuka." }
+  ]
+}

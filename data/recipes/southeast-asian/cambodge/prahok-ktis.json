@@ -1,0 +1,38 @@
+{
+  "slug": "prahok-ktis",
+  "cuisine": "southeast-asian",
+  "country": "cambodge",
+  "origin": "Cambodge",
+  "native_name": "ប្រហុកខ្ទិះ",
+  "title": {
+    "fr": "Prahok ktis, dip de porc au poisson fermenté",
+    "en": "Prahok ktis, pork and fermented fish dip"
+  },
+  "meal_type": "starter",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["prahok", "coco", "legumes-crus", "fort"],
+  "ingredients": [
+    { "raw": "400 g de porc haché", "qty": 400, "unit": "g", "item": "porc haché" },
+    { "raw": "4 c. à s. de prahok", "qty": 4, "unit": "tbsp", "item": "prahok" },
+    { "raw": "4 c. à s. de kroeung", "qty": 4, "unit": "tbsp", "item": "citronnelle", "prep": "en pâte kroeung" },
+    { "raw": "40 cl de lait de coco", "qty": 40, "unit": "cl", "item": "lait de coco" },
+    { "raw": "3 c. à s. de sucre de palme", "qty": 3, "unit": "tbsp", "item": "sucre de palme" },
+    { "raw": "4 piments oiseau, hachés", "qty": 4, "unit": "piece", "item": "piment oiseau", "prep": "haché" },
+    { "raw": "1 concombre, en bâtonnets", "qty": 1, "unit": "piece", "item": "concombre", "prep": "en bâtonnets", "group": "service" },
+    { "raw": "200 g de haricots verts, crus", "qty": 200, "unit": "g", "item": "haricot vert", "group": "service" },
+    { "raw": "1 chou blanc, en feuilles", "qty": 1, "unit": "piece", "item": "chou blanc", "prep": "en feuilles", "group": "service" },
+    { "raw": "4 c. à s. d'huile neutre", "qty": 4, "unit": "tbsp", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Le prahok est du poisson fermenté à l'odeur très puissante : c'est un ingrédient qui divise, et il faut le savoir.", "en": "Prahok is fermented fish with a very powerful smell: an ingredient that divides opinion, and it is fair to say so." },
+    { "fr": "Le rincer et le FILTRER dans un peu d'eau chaude avant usage, pour retirer les arêtes.", "en": "Rinse it and STRAIN it in a little hot water before use, to remove the bones." },
+    { "fr": "Frire le kroeung dix minutes, ajouter le porc, et le cuire jusqu'à ce qu'il soit sec.", "en": "Fry the kroeung for ten minutes, add the pork, and cook it until dry." },
+    { "fr": "Ajouter le prahok filtré et cuire cinq minutes : la cuisson adoucit franchement son odeur.", "en": "Add the strained prahok and cook for five minutes: cooking softens the smell considerably." },
+    { "fr": "Verser le lait de coco et le sucre de palme, et laisser RÉDUIRE vingt minutes.", "en": "Add the coconut milk and palm sugar, and REDUCE for twenty minutes." },
+    { "fr": "Le prahok ktis se sert épais, presque en pâte, avec des légumes crus pour tremper.", "en": "Prahok ktis is served thick, almost a paste, with raw vegetables for dipping." }
+  ]
+}

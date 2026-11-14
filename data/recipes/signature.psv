@@ -1,0 +1,106 @@
+# Les plats emblématiques — la file de relecture du jalon J5.
+#
+# « Les 15-20 plats emblématiques de chaque cuisine sont relus en priorité :
+#   ce sont eux qui déterminent la crédibilité » (SPEC.md §4), et le critère de
+#   sortie de J5 porte exactement sur eux : « les plats emblématiques sont relus
+#   et marqués vérifiés » (SPEC.md §13).
+#
+# CE FICHIER EST ÉCRIT AVANT LES RECETTES, PAS APRÈS. C'est ce qui en fait une
+# dette lisible : un plat listé ici sans fichier dans data/recipes/ est un trou
+# du catalogue, et `npm run catalog:gate` le nomme. Déduire la liste depuis les
+# recettes existantes reviendrait à se décerner une couverture complète en
+# n'écrivant que ce qu'on sait écrire.
+#
+# `slug` = celui du fichier de recette, écrit ou non.
+# `why`  = pourquoi ce plat-là décide de la crédibilité. Un plat qu'on ne sait
+#          pas justifier en une ligne n'est probablement pas emblématique.
+cuisine|slug|native_name|why
+# ------------------------------------------------------------------ maghrébine
+maghrebi|couscous-sept-legumes|Couscous aux sept légumes|Le plat du vendredi ; se tromper dessus disqualifie tout le reste
+maghrebi|couscous-tfaya|Couscous tfaya|Le sucré-salé qui sépare le couscous marocain des autres
+maghrebi|tajine-zitoune|Tajine zitoune|Le tajine que tout le monde connaît, et donc juge
+maghrebi|tajine-agneau-pruneaux|Tajine d'agneau aux pruneaux|Le tajine de fête, celui qu'on sert aux invités
+maghrebi|harira|Harira|La soupe du ramadan : chaque famille a la sienne et la défend
+maghrebi|chorba-frik|Chorba frik|L'équivalent algérien, et le frik en est la signature
+maghrebi|pastilla-poulet|Pastilla au poulet|Le plat de mariage ; la warqa et le sucre glace sont des tests
+maghrebi|rfissa|Rfissa|Plat des relevailles, chargé de fenugrec et de sens
+maghrebi|mechoui-epaule|Méchoui d'épaule|Le nom promet un agneau entier : la transposition doit être assumée
+maghrebi|kefta-mkaouara|Kefta mkaouara|Le tajine de boulettes aux œufs, du quotidien et des gargotes
+maghrebi|zaalouk|Zaalouk|La salade cuite qui ouvre la moitié des repas marocains
+maghrebi|bissara|Bissara|Le petit-déjeuner d'hiver, à l'huile d'olive et au cumin
+maghrebi|loubia|Loubia|Le plat de semaine populaire par excellence
+maghrebi|msemen|Msemen|Le feuilletage se rate ou se réussit, il n'y a pas d'entre-deux
+maghrebi|baghrir|Baghrir|Les mille trous sont un critère visuel que personne ne pardonne
+maghrebi|briouates-viande|Briouates à la viande|Le salé des fêtes, jugé au pliage autant qu'au goût
+maghrebi|seffa-medfouna|Seffa medfouna|La semoule sucrée sur poulet caché : rare, et donc mal connue
+maghrebi|sardines-chermoula|Sardines à la chermoula|Le plat de rue atlantique ; la chermoula est la base de tout
+# ------------------------------------------------------------- ouest-africaine
+west-african|thieboudienne|Thiéboudienne|Plat national sénégalais inscrit à l'UNESCO : la référence absolue
+west-african|mafe|Mafé|La sauce arachide que toute la sous-région revendique
+west-african|yassa-poulet|Yassa poulet|L'oignon et le citron : deux ingrédients, aucune marge d'erreur
+west-african|jollof-rice|Jollof rice|Le plat que le Nigeria et le Ghana se disputent publiquement
+west-african|riz-gras|Riz gras|Le riz au gras des grandes tablées, du Burkina au Bénin
+west-african|soupe-kandia|Soupe kandia|Le gombo filant : la texture EST le plat
+west-african|egusi|Egusi|La soupe de graines de courge, base des tables nigérianes
+west-african|suya|Suya|La brochette de rue au yaji ; le mélange d'épices est la recette
+west-african|akara|Akara|Le beignet de niébé du petit-déjeuner, de Lagos à Dakar
+west-african|poulet-dg|Poulet DG|Le plat camerounais des occasions, plantain et poulet
+west-african|ndole|Ndolé|Plat national camerounais ; l'amertume maîtrisée est tout l'exercice
+west-african|kedjenou|Kedjenou|Le poulet étouffé ivoirien, cuit sans eau ajoutée
+west-african|attieke-poisson-braise|Attiéké poisson braisé|Le plat de maquis ivoirien, et l'attiéké ne se remplace pas
+west-african|alloco|Alloco|La banane plantain frite : l'accompagnement le plus partagé de la région
+west-african|bissap|Bissap|La boisson d'hibiscus servie partout, et jamais dosée pareil
+west-african|thiakry|Thiakry|Le dessert au mil et au lait fermenté qui clôt les grandes tablées
+west-african|fufu-sauce-graine|Fufu sauce graine|La sauce de noix de palme et sa pâte : le duo le plus courant de Côte d'Ivoire
+west-african|waakye|Waakye|Le riz-niébé ghanéen du matin, coloré aux feuilles de sorgho
+# ---------------------------------------------------------------------- levantine
+levantine|hummus|Hummus|Jugé à la texture, pas à la liste d'ingrédients
+levantine|moutabal|Moutabal|L'aubergine brûlée : sans le feu, ce n'est plus le plat
+levantine|taboule|Tabbouleh|Le persil domine, le boulgour est minoritaire : l'erreur est constante en France
+levantine|fattouche|Fattouche|Le sumac et le pain rassis, pas une salade verte de plus
+levantine|moujadara|Mujaddara|Lentilles et riz aux oignons frits : le plat du carême et des pauvres
+levantine|kibbe|Kibbeh|La croûte de boulgour est un métier à elle seule
+levantine|chawarma-poulet|Shawarma poulet|Universellement connu, donc universellement comparé
+levantine|mansaf|Mansaf|Plat national jordanien, au jameed : le yaourt séché n'est pas remplaçable
+levantine|maqlouba|Maqluba|Le renversement du plat est le moment de vérité
+levantine|fatteh|Fatteh|Trois couches, servies avant que le pain ramollisse
+levantine|warak-enab|Warak enab|Le roulage des feuilles de vigne se juge à l'œil
+levantine|kafta|Kafta|La brochette du quotidien ; le gras du hachis décide de tout
+levantine|chich-taouk|Shish taouk|La marinade au yaourt et à l'ail, pas une brochette de poulet ordinaire
+levantine|manakiche-zaatar|Manakish zaatar|Le petit-déjeuner de boulangerie ; le zaatar est régional
+levantine|knafeh|Knafeh|Le fromage filant et le sirop chaud : raté tiède
+levantine|labneh-maison|Labneh maison|Un égouttage, pas une recette — et c'est pour ça qu'on la rate
+# ------------------------------------------------------------------ sud-asiatique
+south-asian|biryani|Biryani|Le plat de fête ; le riz en couches distingue le biryani du pulao
+south-asian|murgh-makhani|Murgh makhani|Le plat le plus commandé hors d'Inde, donc le plus mal fait
+south-asian|dal-tadka|Dal tadka|Le tempérage final : sans lui, c'est une soupe de lentilles
+south-asian|chana-masala|Chana masala|Le pois chiche du quotidien, à l'amchoor ou au tamarin
+south-asian|rogan-josh|Rogan josh|La couleur vient du piment du Cachemire, jamais du paprika
+south-asian|palak-paneer|Palak paneer|L'épinard doit rester vert : c'est une question de cuisson courte
+south-asian|korma-agneau|Korma d'agneau|Le braisé moghol aux noix, doux mais pas fade
+south-asian|samosa|Samosa|Le pliage et la friture ; garniture pomme de terre, pas viande, en Inde du Nord
+south-asian|keema-matar|Keema matar|Le hachis aux petits pois, plat de semaine domestique
+south-asian|aloo-gobi|Aloo gobi|Sec, pas en sauce : l'erreur la plus fréquente
+south-asian|khichdi|Khichdi|Le plat de convalescence, celui qu'on ne trouve pas au restaurant
+south-asian|nihari|Nihari|Le ragoût du petit matin, cuit toute la nuit
+south-asian|tandoori-poulet|Poulet tandoori|Sans tandoor, la transposition au four doit être dite
+south-asian|raita|Raita|L'accompagnement qui éteint le piment ; jamais sucré
+south-asian|chapati|Chapati|Le pain quotidien : deux ingrédients, un tour de main
+south-asian|kheer|Kheer|Le riz au lait cardamomé des fêtes et des temples
+# -------------------------------------------------------------------- antillaise
+caribbean|colombo-poulet|Colombo de poulet|Le colombo est un mélange créole, pas un curry indien
+caribbean|court-bouillon-poisson|Court-bouillon de poisson|Le plat du dimanche ; rien à voir avec le court-bouillon français
+caribbean|accras-morue|Accras de morue|Le dessalage de la morue décide du plat entier
+caribbean|blaff-poisson|Blaff de poisson|Pochage au citron vert et au piment, sans matière grasse
+caribbean|riz-pois-rouges|Riz aux pois rouges|L'accompagnement de toutes les tables antillaises
+caribbean|poulet-boucane|Poulet boucané|Le fumage à la canne : sans fumée, ce n'est plus boucané
+caribbean|jerk-poulet|Jerk chicken|Le piment antillais et le piment de la Jamaïque sont deux choses différentes
+caribbean|feroce-d-avocat|Féroce d'avocat|Avocat, morue et farine de manioc : introuvable ailleurs
+caribbean|dombres-crevettes|Dombrés aux crevettes|Les boulettes de farine cuites dans la sauce elle-même
+caribbean|calalou|Calalou|Les feuilles font le plat ; le gombo n'en est que l'épaississant
+caribbean|migan-fruit-a-pain|Migan de fruit à pain|Le fruit à pain écrasé : mémoire d'un aliment de nécessité
+caribbean|boudin-creole|Boudin créole|Le boudin des fêtes, très épicé, servi à l'apéritif
+caribbean|sauce-chien|Sauce chien|Une sauce crue qui accompagne tout : la base, pas un extra
+caribbean|bokit|Bokit|Le pain frit guadeloupéen ; la pâte est l'exercice
+caribbean|gratin-christophine|Gratin de christophine|La christophine rend de l'eau, et il faut la lui faire perdre
+caribbean|flan-coco|Flan coco|Le dessert de communion, au lait de coco et au caramel

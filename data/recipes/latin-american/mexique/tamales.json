@@ -1,0 +1,40 @@
+{
+  "slug": "tamales",
+  "cuisine": "latin-american",
+  "country": "mexique",
+  "origin": "Mexique",
+  "native_name": "Tamales",
+  "title": {
+    "fr": "Tamales à la vapeur",
+    "en": "Steamed tamales"
+  },
+  "meal_type": "main",
+  "servings": 8,
+  "times": { "prep_min": 70, "cook_min": 90 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "mais", "vapeur", "embleme"],
+  "ingredients": [
+    { "raw": "600 g de masa harina", "qty": 600, "unit": "g", "item": "masa harina" },
+    { "raw": "300 g de saindoux", "qty": 300, "unit": "g", "item": "saindoux" },
+    { "raw": "70 cl de bouillon de volaille, tiède", "qty": 70, "unit": "cl", "item": "bouillon volaille", "prep": "tiède" },
+    { "raw": "2 c. à c. de levure chimique", "qty": 2, "unit": "tsp", "item": "levure chimique" },
+    { "raw": "30 feuilles de maïs séchées", "qty": 30, "unit": "piece", "item": "feuille de maïs séchée" },
+    { "raw": "600 g de blanc de poulet, cuit et effiloché", "qty": 600, "unit": "g", "item": "blanc de poulet", "prep": "cuit et effiloché", "group": "farce" },
+    { "raw": "5 piments guajillo séchés", "qty": 5, "unit": "piece", "item": "piment séché", "group": "farce" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché", "group": "farce" },
+    { "raw": "4 gousses d'ail", "qty": 4, "unit": "piece", "item": "ail", "group": "farce" },
+    { "raw": "2 c. à c. de cumin moulu", "qty": 2, "unit": "tsp", "item": "cumin", "group": "farce" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Battre le saindoux SEUL, dix minutes, jusqu'à ce qu'il double de volume et devienne blanc.", "en": "Beat the lard ALONE for ten minutes, until it doubles in volume and turns white." },
+    { "fr": "C'est cet air battu dans le gras qui rend la masa légère : sans lui, le tamal est compact.", "en": "That air beaten into the fat is what makes the masa light: without it, the tamal is dense." },
+    { "fr": "Le test : une CUILLERÉE de masa doit FLOTTER dans un verre d'eau froide. Sinon, battre encore.", "en": "The test: a SPOONFUL of masa must FLOAT in a glass of cold water. If not, beat more." },
+    { "fr": "Tremper les feuilles de maïs UNE HEURE dans l'eau chaude pour les assouplir.", "en": "Soak the corn husks for AN HOUR in hot water to soften them." },
+    { "fr": "Étaler la masa en couche FINE, garnir, replier les côtés puis le bas : le haut reste ouvert.", "en": "Spread the masa in a THIN layer, fill, fold the sides then the bottom: the top stays open." },
+    { "fr": "Cuire DEBOUT à la vapeur, 90 minutes : ils sont prêts quand la feuille se décolle nettement.", "en": "Steam them UPRIGHT for 90 minutes: they are ready when the husk peels away cleanly." }
+  ]
+}

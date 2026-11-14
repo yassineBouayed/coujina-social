@@ -1,0 +1,40 @@
+{
+  "slug": "polos-curry",
+  "cuisine": "south-asian",
+  "country": "sri-lanka",
+  "origin": "Sri Lanka",
+  "native_name": "Polos maluwa",
+  "title": {
+    "fr": "Curry de jacquier vert",
+    "en": "Green jackfruit curry"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 60 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["vegetarien", "jacquier", "coco", "village"],
+  "ingredients": [
+    { "raw": "800 g de jacquier vert en conserve, égoutté", "qty": 800, "unit": "g", "item": "jacquier", "prep": "égoutté" },
+    { "raw": "40 cl de lait de coco", "qty": 40, "unit": "cl", "item": "lait de coco" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "2 c. à s. de poudre de curry", "qty": 2, "unit": "tbsp", "item": "poudre de curry" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "2 c. à c. de piment en poudre", "qty": 2, "unit": "tsp", "item": "piment en poudre" },
+    { "raw": "2 morceaux de goraka", "qty": 2, "unit": "piece", "item": "goraka" },
+    { "raw": "20 feuilles de curry", "qty": 20, "unit": "piece", "item": "feuille de curry" },
+    { "raw": "1 feuille de pandan", "qty": 1, "unit": "piece", "item": "feuille de pandan" },
+    { "raw": "1 tige de citronnelle, écrasée", "qty": 1, "unit": "piece", "item": "citronnelle", "prep": "écrasée" },
+    { "raw": "6 c. à s. d'huile de coco", "qty": 6, "unit": "tbsp", "item": "huile de coco" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Prendre du jacquier VERT, non mûr : le jacquier mûr est un fruit sucré et n'a rien à faire ici.", "en": "Use GREEN, unripe jackfruit: ripe jackfruit is a sweet fruit and has no place here." },
+    { "fr": "Rincer le jacquier en conserve à grande eau et le couper en gros morceaux.", "en": "Rinse the tinned jackfruit well and cut it into large pieces." },
+    { "fr": "Le faire bouillir vingt minutes avec le curcuma et le sel, puis l'égoutter.", "en": "Boil it for twenty minutes with the turmeric and salt, then drain." },
+    { "fr": "Faire revenir oignons, citronnelle, pandan et feuilles de curry dans l'huile de coco.", "en": "Fry the onions, lemongrass, pandan and curry leaves in the coconut oil." },
+    { "fr": "Ajouter le jacquier, les épices et le goraka, et laisser prendre le goût dix minutes.", "en": "Add the jackfruit, spices and goraka, and let them take on flavour for ten minutes." },
+    { "fr": "Verser le lait de coco et laisser frémir vingt-cinq minutes : le jacquier doit s'effilocher.", "en": "Add the coconut milk and simmer for twenty-five minutes: the jackfruit should shred." }
+  ]
+}

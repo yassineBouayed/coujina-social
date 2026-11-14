@@ -1,0 +1,41 @@
+{
+  "slug": "beef-stroganoff",
+  "cuisine": "eastern-european",
+  "country": "russie",
+  "origin": "Russie",
+  "native_name": "Бефстроганов",
+  "title": {
+    "fr": "Bœuf Stroganoff à la crème",
+    "en": "Beef Stroganoff in cream"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["embleme", "boeuf", "creme", "rapide"],
+  "ingredients": [
+    { "raw": "800 g de filet de bœuf, en fines lanières", "qty": 800, "unit": "g", "item": "filet de boeuf", "prep": "en fines lanières" },
+    { "raw": "400 g de champignons de Paris, émincés", "qty": 400, "unit": "g", "item": "champignon de Paris", "prep": "émincé" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "30 cl de crème fraîche", "qty": 30, "unit": "cl", "item": "crème fraîche" },
+    { "raw": "3 c. à s. de moutarde", "qty": 3, "unit": "tbsp", "item": "moutarde" },
+    { "raw": "3 c. à s. de farine de blé", "qty": 3, "unit": "tbsp", "item": "farine de blé" },
+    { "raw": "25 cl de bouillon de bœuf", "qty": 25, "unit": "cl", "item": "bouillon boeuf" },
+    { "raw": "100 g de beurre", "qty": 100, "unit": "g", "item": "beurre" },
+    { "raw": "1 c. à s. de paprika", "qty": 1, "unit": "tbsp", "item": "paprika" },
+    { "raw": "1/2 bouquet d'aneth, ciselé", "qty": 0.5, "unit": "bunch", "item": "aneth", "prep": "ciselé" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Ce plat a été créé pour le comte Stroganov au XIXe siècle : la viande doit être TENDRE et coupée fine.", "en": "This dish was created for Count Stroganov in the 19th century: the meat must be TENDER and finely cut." },
+    { "fr": "Trancher CONTRE le sens des fibres, en lanières de cinq millimètres, et les SÉCHER.", "en": "Slice AGAINST the grain, into five-millimetre strips, and DRY them." },
+    { "fr": "Les saisir par PETITES QUANTITÉS, à feu maximum, une minute par côté, et réserver.", "en": "Sear them in SMALL BATCHES at maximum heat, one minute a side, and set aside." },
+    { "fr": "Cuire les champignons à feu VIF jusqu'à ce qu'ils aient rendu toute leur eau.", "en": "Cook the mushrooms over HIGH heat until they have released all their water." },
+    { "fr": "Singer, mouiller au bouillon, ajouter moutarde et crème, et laisser épaissir cinq minutes.", "en": "Dust with flour, add the stock, the mustard and cream, and let it thicken for five minutes." },
+    { "fr": "Remettre la viande DEUX MINUTES seulement : recuite, elle devient grise et dure.", "en": "Return the meat for TWO MINUTES only: overcooked, it turns grey and tough." }
+  ]
+}

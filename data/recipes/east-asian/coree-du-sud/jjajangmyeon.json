@@ -1,0 +1,39 @@
+{
+  "slug": "jjajangmyeon",
+  "cuisine": "east-asian",
+  "country": "coree-du-sud",
+  "origin": "Corée du Sud",
+  "native_name": "짜장면",
+  "title": {
+    "fr": "Jjajangmyeon, nouilles à la sauce de soja noir",
+    "en": "Jjajangmyeon, noodles in black bean sauce"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["livraison", "nouilles", "chunjang", "populaire"],
+  "ingredients": [
+    { "raw": "500 g de nouilles de blé épaisses", "qty": 500, "unit": "g", "item": "nouilles de blé" },
+    { "raw": "6 c. à s. de chunjang", "qty": 6, "unit": "tbsp", "item": "chunjang" },
+    { "raw": "400 g d'échine de porc, en dés", "qty": 400, "unit": "g", "item": "échine de porc", "prep": "en dés" },
+    { "raw": "3 oignons, en dés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "en dés" },
+    { "raw": "1 courgette, en dés", "qty": 1, "unit": "piece", "item": "courgette", "prep": "en dés" },
+    { "raw": "200 g de chou blanc, en dés", "qty": 200, "unit": "g", "item": "chou blanc", "prep": "en dés" },
+    { "raw": "2 c. à s. de sucre", "qty": 2, "unit": "tbsp", "item": "sucre" },
+    { "raw": "3 c. à s. de maïzena", "qty": 3, "unit": "tbsp", "item": "maïzena" },
+    { "raw": "40 cl d'eau", "qty": 40, "unit": "cl", "item": "eau" },
+    { "raw": "1 concombre, en julienne", "qty": 1, "unit": "piece", "item": "concombre", "prep": "en julienne", "group": "garniture" },
+    { "raw": "10 cl d'huile neutre", "qty": 10, "unit": "cl", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Le chunjang cru est AMER : il doit être frit dans l'huile, à part, avant tout le reste.", "en": "Raw chunjang is BITTER: it must be fried in oil, separately, before anything else." },
+    { "fr": "Le faire cuire quatre minutes dans l'huile chaude, en remuant, jusqu'à ce qu'il brille et sente le grillé.", "en": "Cook it for four minutes in hot oil, stirring, until it glistens and smells toasted." },
+    { "fr": "Faire revenir le porc et les oignons à feu vif jusqu'à ce que les oignons soient translucides.", "en": "Fry the pork and onions over high heat until the onions turn translucent." },
+    { "fr": "Ajouter courgette et chou, puis le chunjang frit et l'eau, et laisser mijoter dix minutes.", "en": "Add the courgette and cabbage, then the fried chunjang and the water, and simmer for ten minutes." },
+    { "fr": "Lier à la maïzena délayée : la sauce doit napper les nouilles, pas les baigner.", "en": "Thicken with slaked cornflour: the sauce should coat the noodles, not swim around them." },
+    { "fr": "Servir sur les nouilles fraîchement cuites, avec le concombre cru dessus, et mélanger à table.", "en": "Serve over freshly cooked noodles, with raw cucumber on top, and mix at the table." }
+  ]
+}

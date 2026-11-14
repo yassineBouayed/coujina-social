@@ -1,0 +1,39 @@
+{
+  "slug": "bangers-and-mash",
+  "cuisine": "western-european",
+  "country": "royaume-uni",
+  "origin": "Royaume-Uni",
+  "native_name": "Bangers and mash",
+  "title": {
+    "fr": "Saucisses purée et sauce à l'oignon",
+    "en": "Bangers and mash with onion gravy"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 40 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["pub", "saucisse", "quotidien", "reconfort"],
+  "ingredients": [
+    { "raw": "8 saucisses fraîches", "qty": 8, "unit": "piece", "item": "saucisse de Toulouse" },
+    { "raw": "1,2 kg de pommes de terre", "qty": 1200, "unit": "g", "item": "pomme de terre" },
+    { "raw": "120 g de beurre", "qty": 120, "unit": "g", "item": "beurre" },
+    { "raw": "20 cl de lait entier", "qty": 20, "unit": "cl", "item": "lait entier" },
+    { "raw": "4 oignons, émincés", "qty": 4, "unit": "piece", "item": "oignon", "prep": "émincé", "group": "gravy" },
+    { "raw": "50 cl de bouillon de bœuf", "qty": 50, "unit": "cl", "item": "bouillon boeuf", "group": "gravy" },
+    { "raw": "2 c. à s. de farine de blé", "qty": 2, "unit": "tbsp", "item": "farine de blé", "group": "gravy" },
+    { "raw": "1 c. à s. de sauce Worcestershire", "qty": 1, "unit": "tbsp", "item": "sauce Worcestershire", "group": "gravy" },
+    { "raw": "1 c. à c. de moutarde", "qty": 1, "unit": "tsp", "item": "moutarde", "group": "gravy" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "« Bangers » vient du bruit des saucisses qui ÉCLATAIENT à la poêle pendant la guerre, gorgées d'eau.", "en": "\"Bangers\" comes from the noise of wartime sausages BURSTING in the pan, packed with water." },
+    { "fr": "Ne pas les piquer : une bonne saucisse n'éclate pas si on la cuit à feu MOYEN et lentement.", "en": "Do not prick them: a good sausage will not burst if cooked SLOWLY over medium heat." },
+    { "fr": "Compter vingt minutes en les retournant souvent, pour une coloration régulière.", "en": "Allow twenty minutes, turning often, for even colour." },
+    { "fr": "Faire fondre les oignons TRENTE MINUTES dans le gras des saucisses, jusqu'au brun foncé.", "en": "Melt the onions for THIRTY MINUTES in the sausage fat, to a deep brown." },
+    { "fr": "C'est cette longue caramélisation qui fait la gravy : pressée, elle reste pâle et fade.", "en": "That long caramelisation makes the gravy: rushed, it stays pale and dull." },
+    { "fr": "Singer, mouiller au bouillon, ajouter moutarde et Worcestershire, et réduire dix minutes.", "en": "Dust with flour, add the stock, the mustard and Worcestershire, and reduce for ten minutes." }
+  ]
+}

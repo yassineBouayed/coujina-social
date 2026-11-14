@@ -1,0 +1,40 @@
+{
+  "slug": "sosaties",
+  "cuisine": "southern-african",
+  "country": "afrique-du-sud",
+  "origin": "Afrique du Sud",
+  "native_name": "Sosaties",
+  "title": {
+    "fr": "Sosaties, brochettes d'agneau au curry et abricots",
+    "en": "Sosaties, curried lamb and apricot skewers"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["braai", "cap-malais", "brochette", "abricot"],
+  "ingredients": [
+    { "raw": "1 kg de gigot d'agneau, en cubes", "qty": 1000, "unit": "g", "item": "gigot d'agneau", "prep": "en cubes" },
+    { "raw": "150 g d'abricots secs", "qty": 150, "unit": "g", "item": "abricot sec" },
+    { "raw": "3 oignons, en gros quartiers", "qty": 3, "unit": "piece", "item": "oignon", "prep": "en gros quartiers" },
+    { "raw": "2 c. à s. de poudre de curry", "qty": 2, "unit": "tbsp", "item": "poudre de curry", "group": "marinade" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma", "group": "marinade" },
+    { "raw": "12 cl de vinaigre de vin", "qty": 12, "unit": "cl", "item": "vinaigre de vin", "group": "marinade" },
+    { "raw": "3 c. à s. de confiture d'abricot", "qty": 3, "unit": "tbsp", "item": "confiture d'abricot", "group": "marinade" },
+    { "raw": "6 feuilles de laurier", "qty": 6, "unit": "piece", "item": "laurier", "group": "marinade" },
+    { "raw": "4 gousses d'ail, écrasées", "qty": 4, "unit": "piece", "item": "ail", "prep": "écrasé", "group": "marinade" },
+    { "raw": "4 c. à s. d'huile neutre", "qty": 4, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Faire revenir un oignon haché avec le curry et le curcuma, puis ajouter vinaigre et confiture.", "en": "Fry one chopped onion with the curry and turmeric, then add the vinegar and jam." },
+    { "fr": "Laisser refroidir complètement cette marinade avant d'y mettre la viande.", "en": "Cool the marinade completely before putting the meat in." },
+    { "fr": "Faire mariner l'agneau vingt-quatre heures au frais, avec le laurier et l'ail.", "en": "Marinate the lamb for twenty-four hours in the fridge, with the bay and garlic." },
+    { "fr": "Tremper les abricots secs dans la marinade la dernière heure, pour qu'ils gonflent.", "en": "Steep the dried apricots in the marinade for the last hour, so they plump up." },
+    { "fr": "Enfiler en alternant viande, abricot, oignon et feuille de laurier.", "en": "Thread alternating meat, apricot, onion and bay leaf." },
+    { "fr": "Griller sur braises moyennes douze minutes, en badigeonnant de marinade réduite.", "en": "Grill over medium coals for twelve minutes, basting with the reduced marinade." }
+  ]
+}

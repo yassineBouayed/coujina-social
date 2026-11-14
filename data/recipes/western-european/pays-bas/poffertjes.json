@@ -1,0 +1,36 @@
+{
+  "slug": "poffertjes",
+  "cuisine": "western-european",
+  "country": "pays-bas",
+  "origin": "Pays-Bas",
+  "native_name": "Poffertjes",
+  "title": {
+    "fr": "Poffertjes, petites crêpes soufflées",
+    "en": "Poffertjes, small puffed pancakes"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["marche", "enfants", "sarrasin", "gouter"],
+  "ingredients": [
+    { "raw": "150 g de farine de sarrasin", "qty": 150, "unit": "g", "item": "farine de sarrasin" },
+    { "raw": "150 g de farine de blé", "qty": 150, "unit": "g", "item": "farine de blé" },
+    { "raw": "40 cl de lait entier, tiède", "qty": 40, "unit": "cl", "item": "lait entier", "prep": "tiède" },
+    { "raw": "10 g de levure boulangère sèche", "qty": 10, "unit": "g", "item": "levure boulangère" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf" },
+    { "raw": "120 g de beurre", "qty": 120, "unit": "g", "item": "beurre" },
+    { "raw": "100 g de sucre glace", "qty": 100, "unit": "g", "item": "sucre glace", "group": "finition" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le SARRASIN est essentiel : c'est lui qui donne aux poffertjes leur goût de noisette.", "en": "BUCKWHEAT is essential: it gives poffertjes their nutty taste." },
+    { "fr": "La pâte est LEVÉE à la levure de boulanger, pas à la levure chimique : c'est ce qui les fait gonfler.", "en": "The batter is raised with baker's yeast, not baking powder: that is what puffs them." },
+    { "fr": "La laisser lever une heure, jusqu'à ce que des bulles apparaissent en surface.", "en": "Prove it for an hour, until bubbles show on the surface." },
+    { "fr": "Beurrer généreusement chaque alvéole de la plaque et la chauffer À FOND avant de verser.", "en": "Butter every dimple of the pan generously and heat it THOROUGHLY before pouring." },
+    { "fr": "Les retourner À LA FOURCHETTE quand le dessus est encore humide : ils gonflent alors en boule.", "en": "Turn them WITH A FORK while the top is still wet: they then puff into balls." },
+    { "fr": "Servir brûlants, avec une noix de beurre et beaucoup de sucre glace.", "en": "Serve them scalding, with a knob of butter and plenty of icing sugar." }
+  ]
+}

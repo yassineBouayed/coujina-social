@@ -1,0 +1,52 @@
+{
+  "slug": "harira",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Harira",
+  "title": {
+    "fr": "Harira, soupe de tomate, lentilles et pois chiches",
+    "en": "Harira, tomato, lentil and chickpea soup"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 90 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j2-sonde-v1", "date": "2026-08-28" },
+  "tags": ["soupe", "ramadan", "legumineuses", "emblematique"],
+  "ingredients": [
+    { "raw": "300 g de collier d'agneau, en petits dés", "qty": 300, "unit": "g", "item": "collier d'agneau", "prep": "en petits dés" },
+    { "raw": "150 g de pois chiches trempés la veille", "qty": 150, "unit": "g", "item": "pois chiche sec", "prep": "trempé la veille" },
+    { "raw": "100 g de lentilles vertes", "qty": 100, "unit": "g", "item": "lentille verte" },
+    { "raw": "1 kg de tomates bien mûres, pelées et mixées", "qty": 1, "unit": "kg", "item": "tomate", "prep": "pelée et mixée" },
+    { "raw": "2 c. à s. de concentré de tomate", "qty": 2, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "2 oignons, hachés finement", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché finement" },
+    { "raw": "2 branches de céleri, avec leurs feuilles", "qty": 2, "unit": "piece", "item": "céleri branche", "prep": "émincé avec ses feuilles" },
+    { "raw": "1 gros bouquet de coriandre fraîche, ciselé", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "1 c. à c. de gingembre moulu", "qty": 1, "unit": "tsp", "item": "gingembre moulu" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "1 c. à c. de poivre noir", "qty": 1, "unit": "tsp", "item": "poivre noir" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle moulue" },
+    { "raw": "3 c. à s. d'huile d'olive", "qty": 3, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "60 g de farine délayée dans 25 cl d'eau (tedouira)", "qty": 60, "unit": "g", "item": "farine de blé", "prep": "délayée dans de l'eau", "group": "tedouira" },
+    { "raw": "100 g de vermicelles", "qty": 100, "unit": "g", "item": "vermicelle", "optional": true, "substitutes": [{ "item": "riz", "note": "version d'hiver, plus nourrissante et moins fine" }] },
+    { "raw": "2 l d'eau", "qty": 2, "unit": "l", "item": "eau" },
+    { "raw": "1 citron, en quartiers, pour servir", "qty": 1, "unit": "piece", "item": "citron", "prep": "en quartiers" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire suer la viande avec les oignons, le céleri et toutes les épices dans l'huile d'olive, une dizaine de minutes.", "en": "Sweat the meat with the onions, celery and all the spices in the olive oil for about ten minutes." },
+    { "fr": "Ajouter les pois chiches égouttés et l'eau, couvrir et laisser cuire 45 minutes.", "en": "Add the drained chickpeas and the water, cover and cook for 45 minutes." },
+    { "fr": "Ajouter les tomates mixées, le concentré, les lentilles et la moitié des herbes. Poursuivre 30 minutes.", "en": "Add the blended tomatoes, the tomato paste, the lentils and half the herbs. Continue for 30 minutes." },
+    { "fr": "Délayer la farine dans l'eau froide sans un seul grumeau : la tedouira se verse en filet, en remuant sans arrêt, sinon elle prend en masse.", "en": "Whisk the flour into cold water with not a single lump: the tedouira goes in as a thin stream, stirring constantly, or it seizes." },
+    { "fr": "Laisser épaissir dix minutes à petit bouillon, en remuant régulièrement le fond.", "en": "Let it thicken for ten minutes at a low boil, stirring the bottom regularly." },
+    { "fr": "Ajouter les vermicelles et cuire cinq minutes de plus.", "en": "Add the vermicelli and cook five minutes more." },
+    { "fr": "Rectifier le sel, jeter le reste des herbes, servir très chaud avec des quartiers de citron.", "en": "Adjust the salt, throw in the rest of the herbs and serve piping hot with lemon wedges." }
+  ],
+  "notes": [
+    { "fr": "La harira se rattrape mal : trop liquide, on la laisse réduire ; trop épaisse, elle ne redevient jamais soyeuse.", "en": "Harira is hard to correct: too thin and you reduce it, too thick and it never recovers its silkiness." }
+  ]
+}

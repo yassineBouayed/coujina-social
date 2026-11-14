@@ -1,0 +1,37 @@
+{
+  "slug": "mallung",
+  "cuisine": "south-asian",
+  "country": "sri-lanka",
+  "origin": "Sri Lanka",
+  "native_name": "Mallung",
+  "title": {
+    "fr": "Mallung, feuilles vertes sautées au coco",
+    "en": "Mallung, greens tossed with coconut"
+  },
+  "meal_type": "side",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 10 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["vert", "coco", "rapide", "accompagnement"],
+  "ingredients": [
+    { "raw": "400 g d'épinards, ciselés très finement", "qty": 400, "unit": "g", "item": "épinard", "prep": "ciselé très finement" },
+    { "raw": "120 g de coco râpé frais", "qty": 120, "unit": "g", "item": "coco râpé" },
+    { "raw": "1 oignon, haché finement", "qty": 1, "unit": "piece", "item": "oignon", "prep": "haché finement" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "2 piments verts, hachés", "qty": 2, "unit": "piece", "item": "piment frais", "prep": "haché" },
+    { "raw": "1 c. à c. de graines de moutarde", "qty": 1, "unit": "tsp", "item": "graine de moutarde" },
+    { "raw": "1 citron vert, son jus", "qty": 1, "unit": "piece", "item": "citron vert" },
+    { "raw": "3 c. à s. d'huile de coco", "qty": 3, "unit": "tbsp", "item": "huile de coco" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Ciseler les feuilles TRÈS finement : le mallung se reconnaît à cette coupe, presque un hachis.", "en": "Shred the leaves VERY finely: mallung is recognised by that cut, almost a mince." },
+    { "fr": "Faire éclater la moutarde dans l'huile de coco avec l'oignon et les piments.", "en": "Pop the mustard seeds in the coconut oil with the onion and chillies." },
+    { "fr": "Ajouter le curcuma, puis les feuilles ciselées, à feu vif.", "en": "Add the turmeric, then the shredded leaves, over high heat." },
+    { "fr": "Cuire TROIS MINUTES au maximum : le mallung doit rester vert vif et croquant.", "en": "Cook for THREE MINUTES at most: mallung must stay bright green and crunchy." },
+    { "fr": "Ajouter le coco râpé hors du feu et mélanger : cuit, il devient sec et farineux.", "en": "Add the grated coconut off the heat and toss: cooked, it turns dry and floury." },
+    { "fr": "Finir au citron vert et au sel, et servir tiède.", "en": "Finish with lime and salt, and serve warm." }
+  ]
+}

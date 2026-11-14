@@ -1,0 +1,39 @@
+{
+  "slug": "luqaimat",
+  "cuisine": "middle-eastern",
+  "country": "arabie-saoudite",
+  "origin": "Arabie saoudite",
+  "native_name": "Luqaimat",
+  "title": {
+    "fr": "Luqaimat, beignets croustillants au sirop de datte",
+    "en": "Luqaimat, crisp dumplings in date syrup"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 25, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ramadan", "friture", "datte", "cardamome"],
+  "ingredients": [
+    { "raw": "400 g de farine de blé", "qty": 400, "unit": "g", "item": "farine de blé" },
+    { "raw": "3 c. à s. de maïzena", "qty": 3, "unit": "tbsp", "item": "maïzena" },
+    { "raw": "1 c. à s. de levure boulangère sèche", "qty": 1, "unit": "tbsp", "item": "levure boulangère" },
+    { "raw": "1 c. à s. de sucre", "qty": 1, "unit": "tbsp", "item": "sucre" },
+    { "raw": "1 c. à c. de cardamome moulue", "qty": 1, "unit": "tsp", "item": "cardamome", "prep": "moulue" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "35 cl d'eau tiède", "qty": 35, "unit": "cl", "item": "eau" },
+    { "raw": "25 cl de sirop de datte", "qty": 25, "unit": "cl", "item": "sirop de datte", "group": "service" },
+    { "raw": "3 c. à s. de graines de sésame", "qty": 3, "unit": "tbsp", "item": "sésame", "group": "service" },
+    { "raw": "1 l d'huile de tournesol pour la friture", "qty": 1, "unit": "l", "item": "huile de tournesol" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "La maïzena n'est pas un détail : c'est elle qui rend les luqaimat croustillantes plutôt que molles.", "en": "The cornflour is not a detail: it is what makes luqaimat crisp rather than soft." },
+    { "fr": "Fouetter tous les secs avec l'eau tiède en une pâte très fluide, presque coulante.", "en": "Whisk all the dry ingredients with the warm water into a very loose, almost pourable batter." },
+    { "fr": "Laisser lever une heure et demie, jusqu'à ce que la surface se couvre de bulles.", "en": "Prove for an hour and a half, until the surface fills with bubbles." },
+    { "fr": "Prélever à la cuillère mouillée ou entre pouce et index, en petites boules.", "en": "Scoop with a wet spoon or between thumb and forefinger, in small balls." },
+    { "fr": "Frire à 170 °C en remuant l'huile : le mouvement les fait tourner et dorer uniformément.", "en": "Fry at 170°C, swirling the oil: the motion turns them and browns them evenly." },
+    { "fr": "Égoutter, arroser de sirop de datte tiède et parsemer de sésame. Manger dans les dix minutes.", "en": "Drain, drizzle with warm date syrup and scatter with sesame. Eat within ten minutes." }
+  ]
+}

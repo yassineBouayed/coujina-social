@@ -1,0 +1,41 @@
+{
+  "slug": "khao-pad",
+  "cuisine": "southeast-asian",
+  "country": "thailande",
+  "origin": "Thaïlande",
+  "native_name": "ข้าวผัด",
+  "title": {
+    "fr": "Khao pad, riz sauté thaï",
+    "en": "Khao pad, Thai fried rice"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rapide", "restes", "wok", "quotidien"],
+  "ingredients": [
+    { "raw": "600 g de riz long grain, cuit la veille", "qty": 600, "unit": "g", "item": "riz long grain", "prep": "cuit la veille" },
+    { "raw": "300 g de crevettes, décortiquées", "qty": 300, "unit": "g", "item": "crevette", "prep": "décortiquée" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf" },
+    { "raw": "1 oignon, émincé", "qty": 1, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "4 gousses d'ail, hachées", "qty": 4, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "2 tomates, en quartiers", "qty": 2, "unit": "piece", "item": "tomate", "prep": "en quartiers" },
+    { "raw": "4 oignons nouveaux, en tronçons", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "en tronçons" },
+    { "raw": "3 c. à s. de sauce poisson", "qty": 3, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "1 c. à s. de sauce soja", "qty": 1, "unit": "tbsp", "item": "sauce soja" },
+    { "raw": "1 c. à c. de sucre", "qty": 1, "unit": "tsp", "item": "sucre" },
+    { "raw": "2 citrons verts, en quartiers", "qty": 2, "unit": "piece", "item": "citron vert", "group": "service" },
+    { "raw": "1 concombre, en rondelles", "qty": 1, "unit": "piece", "item": "concombre", "prep": "en rondelles", "group": "service" },
+    { "raw": "5 c. à s. d'huile neutre", "qty": 5, "unit": "tbsp", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Le riz doit être froid, de la veille, et bien égrené à la main avant de commencer.", "en": "The rice must be cold, from the day before, and well separated by hand before you start." },
+    { "fr": "Chauffer le wok à blanc, saisir l'ail cinq secondes, puis les crevettes une minute.", "en": "Heat the wok until smoking, sear the garlic for five seconds, then the prawns for a minute." },
+    { "fr": "Pousser sur le côté, casser les œufs, les laisser prendre à moitié, puis les briser.", "en": "Push everything aside, crack in the eggs, let them half-set, then break them up." },
+    { "fr": "Ajouter le riz et sauter en le SOULEVANT, jamais en l'écrasant contre le wok.", "en": "Add the rice and toss by LIFTING it, never crushing it against the wok." },
+    { "fr": "Assaisonner par les BORDS du wok, sur le métal brûlant : les sauces caramélisent au lieu de mouiller le riz.", "en": "Season around the EDGE of the wok, on the scalding metal: the sauces caramelise instead of wetting the rice." },
+    { "fr": "Servir avec citron vert, concombre cru et une sauce de piments au vinaigre.", "en": "Serve with lime, raw cucumber and a chilli-vinegar sauce." }
+  ]
+}

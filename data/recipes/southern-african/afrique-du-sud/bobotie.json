@@ -1,0 +1,47 @@
+{
+  "slug": "bobotie",
+  "cuisine": "southern-african",
+  "country": "afrique-du-sud",
+  "origin": "Afrique du Sud",
+  "native_name": "Bobotie",
+  "title": {
+    "fr": "Bobotie, hachis au curry et crème d'œufs",
+    "en": "Bobotie, curried mince with egg custard"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 60 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["cap-malais", "four", "curry", "national"],
+  "ingredients": [
+    { "raw": "900 g de viande hachée d'agneau", "qty": 900, "unit": "g", "item": "agneau haché" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "2 c. à s. de poudre de curry", "qty": 2, "unit": "tbsp", "item": "poudre de curry" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "2 tranches de pain de mie", "qty": 2, "unit": "piece", "item": "pain de mie" },
+    { "raw": "40 cl de lait", "qty": 40, "unit": "cl", "item": "lait" },
+    { "raw": "80 g d'abricots secs, hachés", "qty": 80, "unit": "g", "item": "abricot sec", "prep": "haché" },
+    { "raw": "60 g de raisins secs", "qty": 60, "unit": "g", "item": "raisin sec" },
+    { "raw": "50 g d'amandes effilées", "qty": 50, "unit": "g", "item": "amande effilée" },
+    { "raw": "2 c. à s. de chutney d'abricot", "qty": 2, "unit": "tbsp", "item": "confiture d'abricot" },
+    { "raw": "2 c. à s. de vinaigre de vin", "qty": 2, "unit": "tbsp", "item": "vinaigre de vin" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf", "group": "crème" },
+    { "raw": "6 feuilles de laurier", "qty": 6, "unit": "piece", "item": "laurier", "group": "crème" },
+    { "raw": "3 c. à s. d'huile neutre", "qty": 3, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Faire tremper le pain de mie dans la moitié du lait, puis le presser et garder le lait.", "en": "Soak the bread in half the milk, then squeeze it out and keep the milk." },
+    { "fr": "Faire revenir les oignons, ajouter curry et curcuma et les cuire deux minutes dans le gras.", "en": "Soften the onions, add the curry and turmeric and cook them for two minutes in the fat." },
+    { "fr": "Ajouter la viande, l'écraser à la cuillère, et la cuire jusqu'à ce qu'elle perde son eau.", "en": "Add the meat, break it up with a spoon, and cook until the water has gone." },
+    { "fr": "Incorporer pain pressé, abricots, raisins, chutney et vinaigre, et rectifier l'assaisonnement.", "en": "Fold in the squeezed bread, apricots, raisins, chutney and vinegar, and adjust the seasoning." },
+    { "fr": "Tasser dans un plat, planter les feuilles de laurier debout, et verser le mélange œufs-lait.", "en": "Press into a dish, stand the bay leaves upright in it, and pour over the egg and milk mixture." },
+    { "fr": "Cuire 40 minutes à 180 °C au bain-marie : sans bain-marie, la crème granule au lieu de prendre.", "en": "Bake for 40 minutes at 180°C in a water bath: without it, the custard curdles instead of setting." }
+  ],
+  "notes": [
+    { "fr": "L'équilibre sucré-acide-épicé est le point de la recette. Sans chutney ni vinaigre, le bobotie n'est qu'un hachis au curry.", "en": "The sweet-sour-spiced balance is the whole point. Without chutney and vinegar, bobotie is just curried mince." }
+  ]
+}

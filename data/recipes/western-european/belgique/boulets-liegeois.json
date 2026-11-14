@@ -1,0 +1,42 @@
+{
+  "slug": "boulets-liegeois",
+  "cuisine": "western-european",
+  "country": "belgique",
+  "origin": "Belgique",
+  "native_name": "Boulets à la liégeoise",
+  "title": {
+    "fr": "Boulets liégeois au sirop",
+    "en": "Liège meatballs in syrup sauce"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 35, "cook_min": 50 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["liege", "boulettes", "aigre-doux", "famille"],
+  "ingredients": [
+    { "raw": "500 g de bœuf haché", "qty": 500, "unit": "g", "item": "boeuf haché" },
+    { "raw": "500 g de porc haché", "qty": 500, "unit": "g", "item": "porc haché" },
+    { "raw": "120 g de mie de pain", "qty": 120, "unit": "g", "item": "pain", "prep": "en mie" },
+    { "raw": "12 cl de lait entier", "qty": 12, "unit": "cl", "item": "lait entier" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "4 c. à s. de sirop de Liège", "qty": 4, "unit": "tbsp", "item": "sirop de Liège", "group": "sauce" },
+    { "raw": "3 c. à s. de vinaigre de vin", "qty": 3, "unit": "tbsp", "item": "vinaigre de vin", "group": "sauce" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé", "group": "sauce" },
+    { "raw": "50 cl de bouillon de bœuf", "qty": 50, "unit": "cl", "item": "bouillon boeuf", "group": "sauce" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier", "group": "sauce" },
+    { "raw": "80 g de beurre", "qty": 80, "unit": "g", "item": "beurre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le SIROP DE LIÈGE est un concentré de poires et de pommes, très foncé et à peine sucré.", "en": "SIROP DE LIÈGE is a concentrate of pears and apples, very dark and barely sweet." },
+    { "fr": "C'est lui qui fait tout le plat : sans lui, ce sont des boulettes en sauce ordinaire.", "en": "It makes the whole dish: without it, these are ordinary meatballs in gravy." },
+    { "fr": "Tremper la mie dans le lait et mêler les viandes DU BOUT DES DOIGTS, sans écraser.", "en": "Soak the crumb in milk and mix the meats WITH YOUR FINGERTIPS, without compacting." },
+    { "fr": "Former de GROSSES boulettes, de la taille d'un poing, et les faire dorer au beurre.", "en": "Shape LARGE meatballs, the size of a fist, and brown them in butter." },
+    { "fr": "Faire fondre les oignons vingt minutes, ajouter sirop, vinaigre et bouillon.", "en": "Melt the onions for twenty minutes, add the syrup, vinegar and stock." },
+    { "fr": "Remettre les boulets et mijoter quarante minutes : la sauce doit napper la cuillère.", "en": "Return the meatballs and simmer for forty minutes: the sauce should coat a spoon." }
+  ]
+}

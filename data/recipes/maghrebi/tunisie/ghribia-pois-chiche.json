@@ -1,0 +1,34 @@
+{
+  "slug": "ghribia-pois-chiche",
+  "cuisine": "maghrebi",
+  "country": "tunisie",
+  "origin": "Tunisie",
+  "native_name": "Ghribia",
+  "title": {
+    "fr": "Ghribia à la farine de pois chiche",
+    "en": "Ghribia with chickpea flour"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 20, "cook_min": 18 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["biscuit", "fete", "the", "fondant"],
+  "ingredients": [
+    { "raw": "300 g de farine de pois chiche, grillée", "qty": 300, "unit": "g", "item": "farine de pois chiche", "prep": "grillée" },
+    { "raw": "150 g de sucre glace", "qty": 150, "unit": "g", "item": "sucre glace" },
+    { "raw": "180 g de beurre fondu", "qty": 180, "unit": "g", "item": "beurre", "prep": "fondu" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle" },
+    { "raw": "30 pistaches entières, pour le décor", "qty": 30, "unit": "piece", "item": "pistache", "group": "décor" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Griller la farine de pois chiche à la poêle dix minutes, en remuant, jusqu'à ce qu'elle sente la noisette.", "en": "Toast the chickpea flour in a pan for ten minutes, stirring, until it smells nutty." },
+    { "fr": "La laisser refroidir complètement avant de la mélanger au beurre : chaude, elle boit tout le gras.", "en": "Cool it completely before mixing with the butter: hot, it drinks up all the fat." },
+    { "fr": "Travailler avec le sucre glace, la cannelle et le sel jusqu'à obtenir une pâte qui tient à la pression.", "en": "Work with the icing sugar, cinnamon and salt until the mixture holds under pressure." },
+    { "fr": "Former des boules, les aplatir légèrement et planter une pistache au centre.", "en": "Shape balls, flatten them slightly and press a pistachio into the centre." },
+    { "fr": "Cuire 18 minutes à 150 °C : elles doivent rester pâles, la coloration les rendrait sèches.", "en": "Bake for 18 minutes at 150°C: they must stay pale; colour would dry them out." },
+    { "fr": "Ne pas les toucher avant complet refroidissement : chaudes, elles s'effondrent.", "en": "Do not touch them until fully cool: warm, they collapse." }
+  ]
+}

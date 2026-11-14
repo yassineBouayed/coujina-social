@@ -1,0 +1,40 @@
+{
+  "slug": "ribollita",
+  "cuisine": "mediterranean",
+  "country": "italie",
+  "origin": "Italie",
+  "native_name": "Ribollita",
+  "title": {
+    "fr": "Ribollita, soupe toscane au pain",
+    "en": "Ribollita, Tuscan bread soup"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 120 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["toscane", "pain-rassis", "hiver", "chou"],
+  "ingredients": [
+    { "raw": "400 g de haricots blancs secs, trempés la veille", "qty": 400, "unit": "g", "item": "haricot blanc", "prep": "trempé la veille" },
+    { "raw": "400 g de chou noir toscan, en lanières", "qty": 400, "unit": "g", "item": "chou frisé", "prep": "en lanières" },
+    { "raw": "1/4 de chou vert, en lanières", "qty": 0.25, "unit": "piece", "item": "chou vert", "prep": "en lanières" },
+    { "raw": "400 g de pain de campagne rassis", "qty": 400, "unit": "g", "item": "pain", "prep": "rassis" },
+    { "raw": "2 carottes, en dés", "qty": 2, "unit": "piece", "item": "carotte", "prep": "en dés" },
+    { "raw": "2 branches de céleri, en dés", "qty": 2, "unit": "piece", "item": "céleri branche", "prep": "en dés" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "400 g de tomate pelée en conserve", "qty": 400, "unit": "g", "item": "tomate pelée en conserve" },
+    { "raw": "3 gousses d'ail, écrasées", "qty": 3, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "15 cl d'huile d'olive", "qty": 15, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Ribollita veut dire « rebouillie » : c'est une soupe de la veille, réchauffée. C'est le plat, pas un accommodement.", "en": "Ribollita means \"reboiled\": it is yesterday's soup, warmed again. That is the dish, not a way of using it up." },
+    { "fr": "Cuire les haricots, en mixer la moitié : c'est cette purée qui donne le corps de la soupe.", "en": "Cook the beans and blend half of them: that purée gives the soup its body." },
+    { "fr": "Faire un soffritto généreux et ajouter les légumes, puis les choux en dernier.", "en": "Make a generous soffritto and add the vegetables, then the cabbages last." },
+    { "fr": "Cuire une heure : le chou noir doit être TRÈS cuit, presque défait.", "en": "Cook for an hour: the cavolo nero must be VERY well cooked, almost collapsed." },
+    { "fr": "Ajouter le pain rassis en morceaux et laisser reposer UNE NUIT au frais.", "en": "Add the stale bread in pieces and rest it OVERNIGHT in the fridge." },
+    { "fr": "Le lendemain, réchauffer au four et servir avec un généreux filet d'huile d'olive crue.", "en": "The next day, reheat it in the oven and serve with a generous thread of raw olive oil." }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "sikarni",
+  "cuisine": "south-asian",
+  "country": "nepal",
+  "origin": "Népal",
+  "native_name": "Sikarni",
+  "title": {
+    "fr": "Sikarni, yaourt égoutté aux fruits secs",
+    "en": "Sikarni, strained yoghurt with nuts"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "yaourt", "safran", "froid"],
+  "ingredients": [
+    { "raw": "1 kg de yaourt grec", "qty": 1000, "unit": "g", "item": "yaourt grec" },
+    { "raw": "150 g de sucre glace", "qty": 150, "unit": "g", "item": "sucre glace" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "1 c. à c. de cardamome moulue", "qty": 1, "unit": "tsp", "item": "cardamome", "prep": "moulue" },
+    { "raw": "1/2 c. à c. de muscade râpée", "qty": 0.5, "unit": "tsp", "item": "muscade", "prep": "râpée" },
+    { "raw": "60 g de pistaches, concassées", "qty": 60, "unit": "g", "item": "pistache", "prep": "concassée" },
+    { "raw": "60 g d'amandes effilées", "qty": 60, "unit": "g", "item": "amande effilée" },
+    { "raw": "1 pincée de poivre noir", "qty": 1, "unit": "pinch", "item": "poivre noir", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Égoutter le yaourt dans une étamine SIX HEURES au réfrigérateur, sans jamais presser.", "en": "Strain the yoghurt in muslin for SIX HOURS in the fridge, never pressing it." },
+    { "fr": "Il doit perdre la moitié de son volume : c'est cette densité qui distingue le sikarni d'un yaourt sucré.", "en": "It should lose half its volume: that density is what separates sikarni from sweetened yoghurt." },
+    { "fr": "Infuser le safran dans une cuillère de lait tiède un quart d'heure.", "en": "Steep the saffron in a spoonful of warm milk for a quarter of an hour." },
+    { "fr": "Fouetter le yaourt égoutté avec le sucre glace jusqu'à ce qu'il soit parfaitement lisse.", "en": "Whisk the strained yoghurt with the icing sugar until perfectly smooth." },
+    { "fr": "Incorporer le safran, la cardamome, la muscade et une pointe de poivre noir.", "en": "Fold in the saffron, cardamom, nutmeg and a touch of black pepper." },
+    { "fr": "Laisser reposer deux heures au frais, et servir couvert de fruits secs.", "en": "Rest for two hours in the fridge, and serve topped with nuts." }
+  ]
+}

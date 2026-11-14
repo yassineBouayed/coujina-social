@@ -1,0 +1,40 @@
+{
+  "slug": "rosol",
+  "cuisine": "eastern-european",
+  "country": "pologne",
+  "origin": "Pologne",
+  "native_name": "Rosół",
+  "title": {
+    "fr": "Rosół, bouillon de poule du dimanche",
+    "en": "Rosół, Sunday chicken broth"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 180 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["dimanche", "bouillon", "poule", "famille"],
+  "ingredients": [
+    { "raw": "1 poule entière", "qty": 1, "unit": "piece", "item": "poulet entier" },
+    { "raw": "500 g de bœuf à mijoter", "qty": 500, "unit": "g", "item": "boeuf à mijoter" },
+    { "raw": "4 carottes", "qty": 4, "unit": "piece", "item": "carotte" },
+    { "raw": "1/2 céleri-rave", "qty": 0.5, "unit": "piece", "item": "céleri-rave" },
+    { "raw": "3 poireaux", "qty": 3, "unit": "piece", "item": "poireau" },
+    { "raw": "2 panais", "qty": 2, "unit": "piece", "item": "panais" },
+    { "raw": "2 oignons, coupés en deux et grillés à sec", "qty": 2, "unit": "piece", "item": "oignon", "prep": "grillés à sec" },
+    { "raw": "300 g de vermicelles", "qty": 300, "unit": "g", "item": "vermicelle" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "10 grains de poivre noir", "qty": 10, "unit": "piece", "item": "poivre noir" },
+    { "raw": "3 feuilles de laurier", "qty": 3, "unit": "piece", "item": "laurier" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le rosół est le dimanche polonais : il mijote toute la matinée et se sert avant le schabowy.", "en": "Rosół is the Polish Sunday: it simmers all morning and is served before the schabowy." },
+    { "fr": "Départ à l'eau FROIDE, et écumer sans relâche pendant la première demi-heure.", "en": "Start in COLD water, and skim relentlessly for the first half hour." },
+    { "fr": "Le bouillon doit rester TRANSPARENT : une seule ébullition le rend définitivement trouble.", "en": "The broth must stay TRANSPARENT: one single boil clouds it for good." },
+    { "fr": "GRILLER À SEC les moitiés d'oignon jusqu'à ce qu'elles noircissent : c'est la couleur dorée du rosół.", "en": "DRY-CHAR the onion halves until they blacken: that is where rosół's golden colour comes from." },
+    { "fr": "Cuire trois heures à frémissement à peine visible, sans jamais couvrir entièrement.", "en": "Cook for three hours at a barely visible simmer, never fully covered." },
+    { "fr": "Cuire les vermicelles À PART et les mettre dans l'assiette : cuits dedans, ils troublent tout.", "en": "Cook the vermicelli SEPARATELY and put them in the bowl: cooked in the pot, they cloud everything." }
+  ]
+}

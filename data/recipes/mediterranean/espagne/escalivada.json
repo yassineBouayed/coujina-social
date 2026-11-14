@@ -1,0 +1,37 @@
+{
+  "slug": "escalivada",
+  "cuisine": "mediterranean",
+  "country": "espagne",
+  "origin": "Espagne",
+  "native_name": "Escalivada",
+  "title": {
+    "fr": "Escalivada, légumes braisés à la catalane",
+    "en": "Escalivada, Catalan roasted vegetables"
+  },
+  "meal_type": "salad",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 60 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["catalogne", "legumes", "froid", "vegetarien"],
+  "ingredients": [
+    { "raw": "3 aubergines", "qty": 3, "unit": "piece", "item": "aubergine" },
+    { "raw": "4 poivrons rouges", "qty": 4, "unit": "piece", "item": "poivron rouge" },
+    { "raw": "3 oignons", "qty": 3, "unit": "piece", "item": "oignon" },
+    { "raw": "4 tomates", "qty": 4, "unit": "piece", "item": "tomate" },
+    { "raw": "12 cl d'huile d'olive", "qty": 12, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "2 gousses d'ail", "qty": 2, "unit": "piece", "item": "ail" },
+    { "raw": "2 c. à s. de vinaigre de xérès", "qty": 2, "unit": "tbsp", "item": "vinaigre de xérès" },
+    { "raw": "8 filets d'anchois", "qty": 8, "unit": "piece", "item": "anchois", "optional": true },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Escalivar veut dire « cuire sous la braise » : les légumes rôtissent ENTIERS, sans être coupés.", "en": "Escalivar means \"to cook in embers\": the vegetables roast WHOLE, uncut." },
+    { "fr": "Les frotter d'huile, les poser sur une plaque, et cuire une heure à 200 °C.", "en": "Rub them with oil, lay them on a tray, and roast for an hour at 200°C." },
+    { "fr": "Ils doivent NOIRCIR : c'est la peau brûlée qui donne le goût de fumée du plat.", "en": "They must BLACKEN: the charred skin is what gives the dish its smoky taste." },
+    { "fr": "Les enfermer dans un saladier couvert vingt minutes : la vapeur décolle la peau toute seule.", "en": "Seal them in a covered bowl for twenty minutes: the steam loosens the skin by itself." },
+    { "fr": "Les peler À LA MAIN, jamais sous l'eau : rincés, ils perdent tout leur jus parfumé.", "en": "Peel them BY HAND, never under water: rinsed, they lose all their fragrant juices." },
+    { "fr": "Déchirer en lanières, assaisonner d'huile, d'ail et de vinaigre, et servir à température ambiante.", "en": "Tear into strips, dress with oil, garlic and vinegar, and serve at room temperature." }
+  ]
+}

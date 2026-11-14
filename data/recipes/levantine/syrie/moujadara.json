@@ -1,0 +1,36 @@
+{
+  "slug": "moujadara",
+  "cuisine": "levantine",
+  "country": "syrie",
+  "origin": "Syrie",
+  "native_name": "Mujaddara",
+  "title": {
+    "fr": "Moujadara, lentilles et riz aux oignons frits",
+    "en": "Mujaddara, lentils and rice with fried onions"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 60 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["careme", "economique", "lentille", "oignon"],
+  "ingredients": [
+    { "raw": "300 g de lentilles vertes", "qty": 300, "unit": "g", "item": "lentille verte" },
+    { "raw": "250 g de riz long grain", "qty": 250, "unit": "g", "item": "riz long grain" },
+    { "raw": "5 gros oignons, émincés finement", "qty": 5, "unit": "piece", "item": "oignon", "prep": "émincé finement" },
+    { "raw": "20 cl d'huile d'olive", "qty": 20, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin" },
+    { "raw": "1/2 c. à c. de cannelle moulue", "qty": 0.5, "unit": "tsp", "item": "cannelle", "optional": true },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Frire les oignons dans l'huile à feu moyen, vingt-cinq minutes, jusqu'à ce qu'ils soient BRUN FONCÉ.", "en": "Fry the onions in the oil over medium heat for twenty-five minutes, until DEEP BROWN." },
+    { "fr": "C'est cette caramélisation poussée, à la limite du brûlé, qui donne au plat son goût et sa couleur. Des oignons blonds ne suffisent pas.", "en": "That deep caramelisation, right at the edge of burnt, is what gives the dish its taste and colour. Golden onions will not do." },
+    { "fr": "En réserver la moitié sur du papier pour qu'ils croustillent, et garder l'huile parfumée.", "en": "Set half aside on paper so they crisp, and keep the scented oil." },
+    { "fr": "Cuire les lentilles vingt minutes à l'eau non salée, jusqu'à ce qu'elles soient tendres sans éclater.", "en": "Cook the lentils for twenty minutes in unsalted water, until tender without bursting." },
+    { "fr": "Ajouter le riz, la moitié des oignons, le cumin, la cannelle, l'huile et l'eau, et cuire vingt minutes à couvert.", "en": "Add the rice, half the onions, cumin, cinnamon, oil and water, and cook covered for twenty minutes." },
+    { "fr": "Saler en fin de cuisson, laisser reposer dix minutes, et couvrir des oignons croustillants.", "en": "Salt at the end, rest for ten minutes, and top with the crisp onions." }
+  ]
+}

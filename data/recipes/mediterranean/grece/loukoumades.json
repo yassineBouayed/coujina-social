@@ -1,0 +1,37 @@
+{
+  "slug": "loukoumades",
+  "cuisine": "mediterranean",
+  "country": "grece",
+  "origin": "Grèce",
+  "native_name": "Λουκουμάδες",
+  "title": {
+    "fr": "Loukoumades, beignets au miel",
+    "en": "Loukoumades, honey doughnuts"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 25, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["friture", "miel", "rue", "fete"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé" },
+    { "raw": "40 cl d'eau tiède", "qty": 40, "unit": "cl", "item": "eau" },
+    { "raw": "7 g de levure boulangère sèche", "qty": 7, "unit": "g", "item": "levure boulangère" },
+    { "raw": "1 c. à s. de sucre", "qty": 1, "unit": "tbsp", "item": "sucre" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "1,5 l d'huile neutre pour la friture", "qty": 1.5, "unit": "l", "item": "huile neutre" },
+    { "raw": "300 g de miel", "qty": 300, "unit": "g", "item": "miel", "group": "finition" },
+    { "raw": "2 c. à c. de cannelle moulue", "qty": 2, "unit": "tsp", "item": "cannelle", "group": "finition" },
+    { "raw": "100 g de cerneaux de noix, concassés", "qty": 100, "unit": "g", "item": "noix", "prep": "concassée", "group": "finition" }
+  ],
+  "steps": [
+    { "fr": "La pâte à loukoumades est LIQUIDE, presque une pâte à crêpes épaisse : elle ne se pétrit pas.", "en": "Loukoumades batter is LIQUID, almost a thick pancake batter: it is never kneaded." },
+    { "fr": "La laisser lever une heure et demie, jusqu'à ce qu'elle bulle en surface.", "en": "Let it prove for an hour and a half, until it bubbles on the surface." },
+    { "fr": "La façonner à la main MOUILLÉE : la pâte glisse alors sans coller.", "en": "Shape it with a WET hand: the batter then slides off without sticking." },
+    { "fr": "Serrer le poing et laisser sortir une boule entre pouce et index, prélevée à la cuillère mouillée.", "en": "Close your fist and let a ball emerge between thumb and forefinger, scooped off with a wet spoon." },
+    { "fr": "Frire à 170 °C en les faisant tourner : ils doivent gonfler et devenir creux à l'intérieur.", "en": "Fry at 170°C, keeping them turning: they should puff and go hollow inside." },
+    { "fr": "Arroser de miel CHAUD dès la sortie, et poudrer de cannelle et de noix : à manger dans les cinq minutes.", "en": "Pour on WARM honey straight away, and dust with cinnamon and walnuts: eat within five minutes." }
+  ]
+}

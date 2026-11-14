@@ -1,0 +1,41 @@
+{
+  "slug": "empanadas-colombiennes",
+  "cuisine": "latin-american",
+  "country": "colombie",
+  "origin": "Colombie",
+  "native_name": "Empanadas colombianas",
+  "title": {
+    "fr": "Empanadas de maïs frites",
+    "en": "Fried corn empanadas"
+  },
+  "meal_type": "starter",
+  "servings": 10,
+  "times": { "prep_min": 50, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "mais", "friture", "sans-gluten"],
+  "ingredients": [
+    { "raw": "500 g de farine de maïs précuite", "qty": 500, "unit": "g", "item": "masa harina", "group": "pâte" },
+    { "raw": "60 cl d'eau tiède", "qty": 60, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "2 c. à c. de curcuma", "qty": 2, "unit": "tsp", "item": "curcuma", "group": "pâte" },
+    { "raw": "3 c. à s. d'huile neutre", "qty": 3, "unit": "tbsp", "item": "huile neutre", "group": "pâte" },
+    { "raw": "500 g de pommes de terre, en purée", "qty": 500, "unit": "g", "item": "pomme de terre", "prep": "en purée", "group": "farce" },
+    { "raw": "500 g de bœuf haché", "qty": 500, "unit": "g", "item": "boeuf haché", "group": "farce" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché", "group": "farce" },
+    { "raw": "3 tomates, en dés", "qty": 3, "unit": "piece", "item": "tomate", "prep": "en dés", "group": "farce" },
+    { "raw": "2 c. à c. de cumin moulu", "qty": 2, "unit": "tsp", "item": "cumin", "group": "farce" },
+    { "raw": "1 bouquet de coriandre, ciselée", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée", "group": "farce" },
+    { "raw": "1,5 l d'huile neutre pour la friture", "qty": 1.5, "unit": "l", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "L'empanada colombienne est à la FARINE DE MAÏS, pas de blé : elle est naturellement sans gluten.", "en": "The Colombian empanada uses CORN FLOUR, not wheat: it is naturally gluten-free." },
+    { "fr": "Le CURCUMA dans la pâte donne la couleur jaune vif caractéristique.", "en": "The TURMERIC in the dough gives the characteristic bright yellow." },
+    { "fr": "Étaler la pâte ENTRE DEUX FEUILLES de plastique : sans gluten, elle se déchire à tout coup.", "en": "Roll the dough BETWEEN TWO SHEETS of plastic: gluten-free, it tears every time." },
+    { "fr": "Refermer en repliant le plastique lui-même, puis presser les bords À LA MAIN.", "en": "Close it by folding the plastic itself over, then press the edges BY HAND." },
+    { "fr": "Lisser la soudure du bout du doigt MOUILLÉ : une fissure et l'empanada s'ouvre dans l'huile.", "en": "Smooth the seam with a WET fingertip: one crack and the empanada opens in the oil." },
+    { "fr": "Frire à 180 °C, cinq minutes, en ne mettant que quatre pièces à la fois.", "en": "Fry at 180°C for five minutes, only four pieces at a time." }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "vitamina-de-abacate",
+  "cuisine": "latin-american",
+  "country": "bresil",
+  "origin": "Brésil",
+  "native_name": "Vitamina de abacate",
+  "title": {
+    "fr": "Smoothie à l'avocat et au lait",
+    "en": "Avocado and milk smoothie"
+  },
+  "meal_type": "drink",
+  "servings": 4,
+  "times": { "prep_min": 10, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["petit-dejeuner", "avocat", "sucre", "rapide"],
+  "ingredients": [
+    { "raw": "2 avocats mûrs", "qty": 2, "unit": "piece", "item": "avocat" },
+    { "raw": "70 cl de lait entier, très froid", "qty": 70, "unit": "cl", "item": "lait entier", "prep": "très froid" },
+    { "raw": "100 g de sucre", "qty": 100, "unit": "g", "item": "sucre" },
+    { "raw": "2 citrons verts, leur jus", "qty": 2, "unit": "piece", "item": "citron vert" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Au Brésil, l'avocat est un fruit SUCRÉ : on le mange en dessert et en boisson, jamais en salade.", "en": "In Brazil, avocado is a SWEET fruit: eaten as dessert and drink, never in a salad." },
+    { "fr": "Cela déroute les Européens, mais c'est l'usage majoritaire dans le pays.", "en": "It disconcerts Europeans, but it is the majority use in the country." },
+    { "fr": "Choisir des avocats TRÈS mûrs : fermes, ils donnent une boisson granuleuse et fade.", "en": "Choose VERY ripe avocados: firm ones give a grainy, bland drink." },
+    { "fr": "Le lait doit être TRÈS FROID : tiède, la vitamina brunit en quelques minutes.", "en": "The milk must be VERY COLD: lukewarm, the vitamina browns within minutes." },
+    { "fr": "Mixer TRENTE SECONDES, pas plus : trop mixée, elle chauffe et perd son goût.", "en": "Blend for THIRTY SECONDS, no more: over-blended, it warms and loses its taste." },
+    { "fr": "Le citron vert n'est pas facultatif : il empêche l'oxydation et réveille l'avocat.", "en": "The lime is not optional: it prevents oxidation and wakes the avocado up." }
+  ]
+}

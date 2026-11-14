@@ -1,0 +1,36 @@
+{
+  "slug": "key-wat",
+  "cuisine": "east-african",
+  "country": "ethiopie",
+  "origin": "Éthiopie",
+  "native_name": "Key wat",
+  "title": {
+    "fr": "Key wat, ragoût de bœuf au berbéré",
+    "en": "Key wat, beef stew with berbere"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 150 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["berbere", "boeuf", "fete", "rouge"],
+  "ingredients": [
+    { "raw": "1 kg de bœuf à mijoter, en cubes", "qty": 1000, "unit": "g", "item": "boeuf à mijoter", "prep": "en cubes" },
+    { "raw": "1 kg d'oignons, hachés très finement", "qty": 1000, "unit": "g", "item": "oignon", "prep": "haché très finement" },
+    { "raw": "5 c. à s. de berbéré", "qty": 5, "unit": "tbsp", "item": "berbéré" },
+    { "raw": "120 g de niter kibbeh", "qty": 120, "unit": "g", "item": "beurre", "prep": "clarifié aux épices" },
+    { "raw": "5 gousses d'ail, écrasées", "qty": 5, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "2 c. à s. de gingembre frais, râpé", "qty": 2, "unit": "tbsp", "item": "gingembre", "prep": "râpé" },
+    { "raw": "1 c. à c. de cardamome moulue", "qty": 1, "unit": "tsp", "item": "cardamome", "prep": "moulue" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire les oignons à sec quarante minutes, jusqu'à ce qu'ils forment une pâte brune.", "en": "Cook the onions dry for forty minutes, until they form a brown paste." },
+    { "fr": "Ajouter le niter kibbeh, l'ail et le gingembre, et laisser cinq minutes.", "en": "Add the niter kibbeh, garlic and ginger, and cook for five minutes." },
+    { "fr": "Ajouter le berbéré et le faire cuire quinze minutes dans le gras : cru, il reste poussiéreux en bouche.", "en": "Add the berbere and cook it for fifteen minutes in the fat: raw, it stays dusty on the palate." },
+    { "fr": "Ajouter la viande, saler, et mouiller à peine : le wat est une sauce épaisse, pas un bouillon.", "en": "Add the meat, salt, and barely wet it: a wat is a thick sauce, not a broth." },
+    { "fr": "Laisser mijoter une heure et demie à couvert, en ajoutant de l'eau chaude par petites quantités.", "en": "Simmer covered for an hour and a half, adding hot water in small amounts." },
+    { "fr": "Le plat est prêt quand une couche d'huile rouge se sépare en surface.", "en": "It is ready when a layer of red oil separates on the surface." }
+  ]
+}

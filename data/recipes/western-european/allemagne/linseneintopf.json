@@ -1,0 +1,41 @@
+{
+  "slug": "linseneintopf",
+  "cuisine": "western-european",
+  "country": "allemagne",
+  "origin": "Allemagne",
+  "native_name": "Linseneintopf",
+  "title": {
+    "fr": "Potée de lentilles aux saucisses",
+    "en": "Lentil stew with sausage"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 70 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hiver", "lentille", "quotidien", "famille"],
+  "ingredients": [
+    { "raw": "500 g de lentilles vertes", "qty": 500, "unit": "g", "item": "lentille verte" },
+    { "raw": "4 saucisses fumées", "qty": 4, "unit": "piece", "item": "saucisse fumée" },
+    { "raw": "200 g de lardons", "qty": 200, "unit": "g", "item": "lardon" },
+    { "raw": "3 carottes, en dés", "qty": 3, "unit": "piece", "item": "carotte", "prep": "en dés" },
+    { "raw": "3 branches de céleri, en dés", "qty": 3, "unit": "piece", "item": "céleri branche", "prep": "en dés" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "400 g de pommes de terre, en dés", "qty": 400, "unit": "g", "item": "pomme de terre", "prep": "en dés" },
+    { "raw": "1,5 l de bouillon de bœuf", "qty": 1.5, "unit": "l", "item": "bouillon boeuf" },
+    { "raw": "4 c. à s. de vinaigre de vin", "qty": 4, "unit": "tbsp", "item": "vinaigre de vin" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "1 c. à s. de moutarde", "qty": 1, "unit": "tbsp", "item": "moutarde" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le VINAIGRE en fin de cuisson est indispensable : sans lui, la potée est plate et lourde.", "en": "The VINEGAR at the end is essential: without it, the stew is flat and heavy." },
+    { "fr": "Faire fondre les lardons, puis les légumes, quinze minutes à feu doux.", "en": "Render the bacon, then the vegetables, for fifteen minutes over low heat." },
+    { "fr": "Ajouter les lentilles NON TREMPÉES : elles n'ont pas besoin de trempage, contrairement aux haricots.", "en": "Add the lentils UNSOAKED: unlike beans, they need no soaking." },
+    { "fr": "Mouiller au bouillon et cuire quarante minutes, sans sel ni acide.", "en": "Add the stock and cook for forty minutes, without salt or acid." },
+    { "fr": "Ajouter pommes de terre et saucisses les vingt dernières minutes.", "en": "Add the potatoes and sausages in the last twenty minutes." },
+    { "fr": "Saler, ajouter vinaigre et moutarde HORS DU FEU, et goûter avant de resservir.", "en": "Salt, add the vinegar and mustard OFF THE HEAT, and taste before serving." }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "slug": "afritada",
+  "cuisine": "southeast-asian",
+  "country": "philippines",
+  "origin": "Philippines",
+  "native_name": "Afritada",
+  "title": {
+    "fr": "Afritada, poulet mijoté à la tomate",
+    "en": "Afritada, chicken stewed in tomato"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 50 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["colonial", "tomate", "famille", "dimanche"],
+  "ingredients": [
+    { "raw": "1,2 kg de poulet, en morceaux", "qty": 1200, "unit": "g", "item": "poulet entier", "prep": "en morceaux" },
+    { "raw": "600 g de tomates concassée", "qty": 600, "unit": "g", "item": "tomate concassée" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "3 pommes de terre, en gros cubes", "qty": 3, "unit": "piece", "item": "pomme de terre", "prep": "en gros cubes" },
+    { "raw": "2 carottes, en tronçons", "qty": 2, "unit": "piece", "item": "carotte", "prep": "en tronçons" },
+    { "raw": "1 poivron rouge, en lanières", "qty": 1, "unit": "piece", "item": "poivron rouge", "prep": "en lanières" },
+    { "raw": "1 poivron vert, en lanières", "qty": 1, "unit": "piece", "item": "poivron vert", "prep": "en lanières" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "6 gousses d'ail, écrasées", "qty": 6, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "3 feuilles de laurier", "qty": 3, "unit": "piece", "item": "laurier" },
+    { "raw": "4 c. à s. de sauce poisson", "qty": 4, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "5 c. à s. d'huile neutre", "qty": 5, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Faire dorer le poulet de tous côtés dans l'huile, et le réserver.", "en": "Brown the chicken all over in the oil, and set it aside." },
+    { "fr": "Frire les pommes de terre et les carottes séparément avant de les mettre en sauce.", "en": "Fry the potatoes and carrots separately before they go into the sauce." },
+    { "fr": "Cette friture préalable les empêche de se défaire pendant le mijotage : c'est le geste philippin.", "en": "That prior frying stops them collapsing during the simmer: the Filipino habit." },
+    { "fr": "Faire revenir ail et oignons, ajouter le concentré et le cuire deux minutes.", "en": "Fry the garlic and onions, add the purée and cook it for two minutes." },
+    { "fr": "Remettre le poulet, ajouter les tomates, le laurier et la sauce poisson, et cuire trente minutes.", "en": "Return the chicken, add the tomatoes, bay and fish sauce, and cook for thirty minutes." },
+    { "fr": "Ajouter légumes et poivrons pour les dix dernières minutes, et servir avec du riz.", "en": "Add the vegetables and peppers for the last ten minutes, and serve with rice." }
+  ]
+}

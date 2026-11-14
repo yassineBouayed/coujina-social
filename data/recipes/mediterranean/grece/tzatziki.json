@@ -1,0 +1,36 @@
+{
+  "slug": "tzatziki",
+  "cuisine": "mediterranean",
+  "country": "grece",
+  "origin": "Grèce",
+  "native_name": "Τζατζίκι",
+  "title": {
+    "fr": "Tzatziki au concombre et à l'ail",
+    "en": "Cucumber and garlic tzatziki"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["meze", "yaourt", "froid", "rapide"],
+  "ingredients": [
+    { "raw": "500 g de yaourt grec", "qty": 500, "unit": "g", "item": "yaourt grec" },
+    { "raw": "2 concombres, râpés", "qty": 2, "unit": "piece", "item": "concombre", "prep": "râpé" },
+    { "raw": "4 gousses d'ail, écrasées", "qty": 4, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "4 c. à s. d'huile d'olive", "qty": 4, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "2 c. à s. de vinaigre de vin", "qty": 2, "unit": "tbsp", "item": "vinaigre de vin" },
+    { "raw": "2 c. à s. d'aneth, ciselé", "qty": 2, "unit": "tbsp", "item": "aneth", "prep": "ciselé" },
+    { "raw": "1 c. à s. de gros sel", "qty": 1, "unit": "tbsp", "item": "gros sel" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Râper les concombres, les saler au gros sel, et les laisser dégorger UNE HEURE dans une passoire.", "en": "Grate the cucumbers, salt them with coarse salt, and drain for AN HOUR in a colander." },
+    { "fr": "Les PRESSER ensuite à pleines mains, très fort : un concombre est fait de 96 % d'eau.", "en": "Then SQUEEZE them hard with both hands: a cucumber is 96% water." },
+    { "fr": "Sans ce pressage, le tzatziki devient une soupe en deux heures au réfrigérateur.", "en": "Without that squeeze, tzatziki turns to soup within two hours in the fridge." },
+    { "fr": "Écraser l'ail en pâte avec un peu de sel : haché, il pique par endroits et manque ailleurs.", "en": "Crush the garlic to a paste with a little salt: chopped, it stings in places and vanishes elsewhere." },
+    { "fr": "Mélanger yaourt, concombre, ail, huile, vinaigre et aneth sans fouetter.", "en": "Mix the yoghurt, cucumber, garlic, oil, vinegar and dill without whisking." },
+    { "fr": "Réfrigérer DEUX HEURES : l'ail a besoin de ce temps pour se fondre dans le yaourt.", "en": "Chill for TWO HOURS: the garlic needs that time to mellow into the yoghurt." }
+  ]
+}

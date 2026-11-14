@@ -1,0 +1,38 @@
+{
+  "slug": "hutspot",
+  "cuisine": "western-european",
+  "country": "pays-bas",
+  "origin": "Pays-Bas",
+  "native_name": "Hutspot",
+  "title": {
+    "fr": "Hutspot, purée carottes-oignons au bœuf",
+    "en": "Hutspot, carrot and onion mash with beef"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 180 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["leyde", "hiver", "boeuf", "histoire"],
+  "ingredients": [
+    { "raw": "1,2 kg de bœuf à mijoter, en gros cubes", "qty": 1200, "unit": "g", "item": "boeuf à mijoter", "prep": "en gros cubes" },
+    { "raw": "1 kg de pommes de terre, en morceaux", "qty": 1000, "unit": "g", "item": "pomme de terre", "prep": "en morceaux" },
+    { "raw": "800 g de carottes, en rondelles", "qty": 800, "unit": "g", "item": "carotte", "prep": "en rondelles" },
+    { "raw": "600 g d'oignons, émincés", "qty": 600, "unit": "g", "item": "oignon", "prep": "émincé" },
+    { "raw": "80 g de beurre", "qty": 80, "unit": "g", "item": "beurre" },
+    { "raw": "3 feuilles de laurier", "qty": 3, "unit": "piece", "item": "laurier" },
+    { "raw": "5 clous de girofle", "qty": 5, "unit": "piece", "item": "clou de girofle" },
+    { "raw": "2 c. à s. de vinaigre de vin", "qty": 2, "unit": "tbsp", "item": "vinaigre de vin" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le hutspot commémore la levée du siège de Leyde en 1574 : on le mange chaque 3 octobre.", "en": "Hutspot commemorates the lifting of the Siege of Leiden in 1574: it is eaten every 3 October." },
+    { "fr": "Braiser le bœuf trois heures à part, avec laurier, girofle et vinaigre.", "en": "Braise the beef for three hours separately, with bay, cloves and vinegar." },
+    { "fr": "Cuire pommes de terre, carottes et oignons ENSEMBLE, dans la même eau salée.", "en": "Cook the potatoes, carrots and onions TOGETHER, in the same salted water." },
+    { "fr": "Les proportions sont classiques : une part d'oignon, deux de carotte, trois de pomme de terre.", "en": "The proportions are classic: one part onion, two carrot, three potato." },
+    { "fr": "Écraser AU PILON, sans mixer : le hutspot doit garder de la texture, pas devenir une crème.", "en": "Crush WITH A MASHER, never blend: hutspot must keep texture, not turn into a cream." },
+    { "fr": "Servir avec le bœuf et son jus de braisage versé dans un puits au centre.", "en": "Serve with the beef and its braising juices poured into a well in the centre." }
+  ]
+}

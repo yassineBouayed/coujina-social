@@ -1,0 +1,37 @@
+{
+  "slug": "haring-met-uitjes",
+  "cuisine": "western-european",
+  "country": "pays-bas",
+  "origin": "Pays-Bas",
+  "native_name": "Hollandse nieuwe",
+  "title": {
+    "fr": "Hareng cru aux oignons",
+    "en": "Raw herring with onions"
+  },
+  "meal_type": "starter",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "hareng", "cru", "embleme"],
+  "ingredients": [
+    { "raw": "8 filets de hareng saur doux", "qty": 8, "unit": "piece", "item": "hareng" },
+    { "raw": "3 oignons, hachés très finement", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché très finement" },
+    { "raw": "8 cornichons, en rondelles", "qty": 8, "unit": "piece", "item": "cornichon", "prep": "en rondelles" },
+    { "raw": "4 petits pains", "qty": 4, "unit": "piece", "item": "pain", "prep": "en petits pains", "optional": true },
+    { "raw": "1 citron, en quartiers", "qty": 1, "unit": "piece", "item": "citron", "prep": "en quartiers" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le hareng « nouveau » n'est pas cru à proprement parler : il est maturé en saumure légère.", "en": "\"New\" herring is not strictly raw: it is matured in a light brine." },
+    { "fr": "Ce sont ses propres enzymes qui l'attendrissent, pendant cinq jours, pas la cuisson.", "en": "Its own enzymes tenderise it, over five days, not any cooking." },
+    { "fr": "Il doit avoir été CONGELÉ 24 heures avant maturation : c'est une obligation sanitaire européenne.", "en": "It must have been FROZEN for 24 hours before curing: a European food-safety requirement." },
+    { "fr": "Le hacher les oignons TRÈS fin : en gros morceaux, ils écrasent le goût délicat du poisson.", "en": "Chop the onions VERY fine: in large pieces, they overwhelm the delicate fish." },
+    { "fr": "Se mange à la main, tenu par la queue, tête renversée : c'est le geste de rue à Amsterdam.", "en": "It is eaten by hand, held by the tail, head tipped back: the Amsterdam street ritual." },
+    { "fr": "En version assise, le poser dans un petit pain avec oignons et cornichons.", "en": "For a seated version, lay it in a soft roll with onions and pickles." }
+  ],
+  "notes": [
+    { "fr": "Poisson maturé, non cuit : à éviter pour les personnes enceintes, les jeunes enfants et les personnes immunodéprimées.", "en": "Cured, uncooked fish: not for pregnant people, young children or the immunocompromised." }
+  ]
+}

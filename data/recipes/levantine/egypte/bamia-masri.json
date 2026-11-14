@@ -1,0 +1,39 @@
+{
+  "slug": "bamia-masri",
+  "cuisine": "levantine",
+  "country": "egypte",
+  "origin": "Égypte",
+  "native_name": "Bamia",
+  "title": {
+    "fr": "Bamia égyptienne, gombos à la viande",
+    "en": "Egyptian bamia, okra with meat"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 80 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["gombo", "tomate", "quotidien", "riz"],
+  "ingredients": [
+    { "raw": "600 g de gombos surgelés", "qty": 600, "unit": "g", "item": "gombo surgelé" },
+    { "raw": "600 g de bœuf à mijoter, en cubes", "qty": 600, "unit": "g", "item": "boeuf à mijoter", "prep": "en cubes" },
+    { "raw": "600 g de tomates concassées", "qty": 600, "unit": "g", "item": "tomate concassée" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "8 gousses d'ail, écrasées", "qty": 8, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "2 c. à s. de concentré de tomate", "qty": 2, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "1 c. à c. de coriandre en graines, moulue", "qty": 1, "unit": "tsp", "item": "coriandre graines", "prep": "moulue" },
+    { "raw": "6 c. à s. de ghee", "qty": 6, "unit": "tbsp", "item": "ghee" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Utiliser les gombos SURGELÉS sans les décongeler : décongelés, ils rendent leur mucilage et filent.", "en": "Use the okra FROZEN, without thawing: thawed, they release mucilage and turn ropy." },
+    { "fr": "Faire dorer la viande dans le ghee, ajouter l'oignon, puis les tomates et le concentré.", "en": "Brown the meat in ghee, add the onion, then the tomatoes and purée." },
+    { "fr": "Laisser mijoter une heure, jusqu'à ce que la viande soit tendre.", "en": "Simmer for an hour, until the meat is tender." },
+    { "fr": "Ajouter les gombos encore gelés et cuire vingt minutes, sans remuer à la cuillère.", "en": "Add the still-frozen okra and cook for twenty minutes, without stirring with a spoon." },
+    { "fr": "Faire revenir l'ail et la coriandre dans le ghee et verser cette tesha sur le plat.", "en": "Fry the garlic and coriander in ghee and pour this tesha over the dish." },
+    { "fr": "Ajouter le jus de citron hors du feu et servir avec du riz blanc.", "en": "Add the lemon juice off the heat and serve with white rice." }
+  ]
+}

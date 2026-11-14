@@ -1,0 +1,34 @@
+{
+  "slug": "juju-dhau",
+  "cuisine": "south-asian",
+  "country": "nepal",
+  "origin": "Népal",
+  "native_name": "Juju dhau",
+  "title": {
+    "fr": "Juju dhau, yaourt sucré de Bhaktapur",
+    "en": "Juju dhau, sweet Bhaktapur yoghurt"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 40 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["bhaktapur", "yaourt", "fete", "terre-cuite"],
+  "ingredients": [
+    { "raw": "2 l de lait entier", "qty": 2, "unit": "l", "item": "lait entier" },
+    { "raw": "150 g de sucre", "qty": 150, "unit": "g", "item": "sucre" },
+    { "raw": "4 c. à s. de yaourt", "qty": 4, "unit": "tbsp", "item": "yaourt" },
+    { "raw": "1/2 c. à c. de cardamome moulue", "qty": 0.5, "unit": "tsp", "item": "cardamome", "prep": "moulue" },
+    { "raw": "4 clous de girofle", "qty": 4, "unit": "piece", "item": "clou de girofle", "optional": true },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Juju dhau veut dire « le roi des yaourts » : sa densité, presque solide, est sa signature.", "en": "Juju dhau means \"the king of yoghurts\": its density, almost solid, is its signature." },
+    { "fr": "Faire réduire le lait d'un tiers, à découvert, trente minutes, en remuant régulièrement.", "en": "Reduce the milk by a third, uncovered, for thirty minutes, stirring regularly." },
+    { "fr": "Ajouter le sucre et les épices, et laisser fondre complètement.", "en": "Add the sugar and spices, and let them dissolve completely." },
+    { "fr": "Laisser tiédir jusqu'à 42 °C : c'est la seule température qui convient aux ferments.", "en": "Cool it to 42°C: the only temperature that suits the cultures." },
+    { "fr": "Incorporer le yaourt, verser dans des pots en terre cuite, et NE PLUS BOUGER les pots.", "en": "Stir in the yoghurt, pour into earthenware pots, and DO NOT MOVE the pots again." },
+    { "fr": "Couvrir d'un linge épais et laisser fermenter dix heures dans un endroit tiède.", "en": "Cover with a thick cloth and ferment for ten hours somewhere warm." }
+  ]
+}

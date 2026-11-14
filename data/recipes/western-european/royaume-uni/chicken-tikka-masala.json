@@ -1,0 +1,42 @@
+{
+  "slug": "chicken-tikka-masala",
+  "cuisine": "western-european",
+  "country": "royaume-uni",
+  "origin": "Royaume-Uni",
+  "native_name": "Chicken tikka masala",
+  "title": {
+    "fr": "Poulet tikka masala",
+    "en": "Chicken tikka masala"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 45 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["curry", "yaourt", "tomate", "populaire"],
+  "ingredients": [
+    { "raw": "1 kg de blanc de poulet, en cubes", "qty": 1000, "unit": "g", "item": "blanc de poulet", "prep": "en cubes" },
+    { "raw": "300 g de yaourt nature", "qty": 300, "unit": "g", "item": "yaourt nature", "group": "marinade" },
+    { "raw": "3 c. à s. de garam masala", "qty": 3, "unit": "tbsp", "item": "garam masala" },
+    { "raw": "2 c. à s. de gingembre frais, râpé", "qty": 2, "unit": "tbsp", "item": "gingembre frais", "prep": "râpé" },
+    { "raw": "6 gousses d'ail, écrasées", "qty": 6, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "2 c. à c. de curcuma", "qty": 2, "unit": "tsp", "item": "curcuma" },
+    { "raw": "2 c. à c. de piment du Cachemire", "qty": 2, "unit": "tsp", "item": "piment du Cachemire" },
+    { "raw": "800 g de tomate pelée en conserve", "qty": 800, "unit": "g", "item": "tomate pelée en conserve" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "25 cl de crème liquide", "qty": 25, "unit": "cl", "item": "crème liquide" },
+    { "raw": "60 g de beurre", "qty": 60, "unit": "g", "item": "beurre" },
+    { "raw": "1 bouquet de coriandre, ciselée", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Ce plat est né dans les restaurants indiens de Grande-Bretagne : il n'existe pas en Inde sous ce nom.", "en": "This dish was born in Britain's Indian restaurants: it does not exist in India under that name." },
+    { "fr": "Mariner le poulet au yaourt et aux épices QUATRE HEURES : l'acide du yaourt l'attendrit.", "en": "Marinate the chicken in yoghurt and spices for FOUR HOURS: the yoghurt's acid tenderises it." },
+    { "fr": "GRILLER les morceaux au four très chaud, jusqu'à ce qu'ils NOIRCISSENT par endroits.", "en": "GRILL the pieces in a very hot oven, until they CHAR in places." },
+    { "fr": "Ce goût de brûlé remplace le tandoor : sans lui, le tikka masala est un curry ordinaire.", "en": "That charred taste stands in for the tandoor: without it, tikka masala is an ordinary curry." },
+    { "fr": "Faire la sauce à part : oignon, épices, tomates, et laisser réduire trente minutes.", "en": "Make the sauce separately: onion, spices, tomatoes, reduced for thirty minutes." },
+    { "fr": "Réunir poulet et sauce dix minutes, ajouter la crème hors du feu et la coriandre.", "en": "Combine the chicken and sauce for ten minutes, add the cream off the heat and the coriander." }
+  ]
+}

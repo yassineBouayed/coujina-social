@@ -1,0 +1,40 @@
+{
+  "slug": "cocido-madrileno",
+  "cuisine": "mediterranean",
+  "country": "espagne",
+  "origin": "Espagne",
+  "native_name": "Cocido madrileño",
+  "title": {
+    "fr": "Cocido madrilène",
+    "en": "Madrid cocido"
+  },
+  "meal_type": "main",
+  "servings": 8,
+  "times": { "prep_min": 30, "cook_min": 210 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["madrid", "pois-chiche", "hiver", "famille"],
+  "ingredients": [
+    { "raw": "600 g de pois chiches secs, trempés la veille", "qty": 600, "unit": "g", "item": "pois chiche", "prep": "trempé la veille" },
+    { "raw": "800 g de jarret de bœuf", "qty": 800, "unit": "g", "item": "boeuf à mijoter" },
+    { "raw": "1/2 poulet", "qty": 0.5, "unit": "piece", "item": "poulet entier" },
+    { "raw": "250 g de poitrine de porc", "qty": 250, "unit": "g", "item": "poitrine de porc" },
+    { "raw": "2 chorizos", "qty": 2, "unit": "piece", "item": "chorizo" },
+    { "raw": "1 boudin noir", "qty": 1, "unit": "piece", "item": "boudin noir" },
+    { "raw": "1 os à moelle", "qty": 1, "unit": "piece", "item": "os à moelle" },
+    { "raw": "4 carottes", "qty": 4, "unit": "piece", "item": "carotte" },
+    { "raw": "6 pommes de terre", "qty": 6, "unit": "piece", "item": "pomme de terre" },
+    { "raw": "1/2 chou vert", "qty": 0.5, "unit": "piece", "item": "chou vert" },
+    { "raw": "150 g de vermicelles", "qty": 150, "unit": "g", "item": "vermicelle" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le cocido se sert en TROIS SERVICES : la soupe aux vermicelles, puis les pois chiches et légumes, puis les viandes.", "en": "Cocido is served in THREE COURSES: the vermicelli soup, then the chickpeas and vegetables, then the meats." },
+    { "fr": "Mettre les pois chiches dans un filet : ils resteront ensemble et se sortiront d'un geste.", "en": "Put the chickpeas in a net bag: they stay together and lift out in one movement." },
+    { "fr": "Les pois chiches partent à l'eau CHAUDE, contrairement aux haricots : à froid, ils durcissent.", "en": "Chickpeas start in HOT water, unlike beans: started cold, they toughen." },
+    { "fr": "Cuire viandes et pois chiches trois heures, en écumant, à frémissement constant.", "en": "Cook the meats and chickpeas for three hours, skimming, at a steady simmer." },
+    { "fr": "Cuire le chou À PART, dans un peu de bouillon : cuit dedans, il parfume tout le pot.", "en": "Cook the cabbage SEPARATELY, in a little broth: cooked in the pot, it flavours everything." },
+    { "fr": "Filtrer un litre de bouillon, y cuire les vermicelles, et servir cette soupe en premier.", "en": "Strain off a litre of broth, cook the vermicelli in it, and serve that soup first." }
+  ]
+}

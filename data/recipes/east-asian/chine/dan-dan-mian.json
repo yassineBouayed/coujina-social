@@ -1,0 +1,40 @@
+{
+  "slug": "dan-dan-mian",
+  "cuisine": "east-asian",
+  "country": "chine",
+  "origin": "Chine",
+  "native_name": "担担面",
+  "title": {
+    "fr": "Dan dan mian, nouilles sichuanaises au sésame",
+    "en": "Dan dan noodles with sesame and chilli"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["sichuan", "nouilles", "sesame", "mala"],
+  "ingredients": [
+    { "raw": "400 g de nouilles de blé fines", "qty": 400, "unit": "g", "item": "nouilles de blé" },
+    { "raw": "300 g de porc haché", "qty": 300, "unit": "g", "item": "porc haché" },
+    { "raw": "4 c. à s. de tahini", "qty": 4, "unit": "tbsp", "item": "tahini", "group": "sauce" },
+    { "raw": "4 c. à s. de sauce soja", "qty": 4, "unit": "tbsp", "item": "sauce soja", "group": "sauce" },
+    { "raw": "4 c. à s. d'huile pimentée", "qty": 4, "unit": "tbsp", "item": "huile pimentée", "group": "sauce" },
+    { "raw": "2 c. à s. de vinaigre de riz", "qty": 2, "unit": "tbsp", "item": "vinaigre de riz", "group": "sauce" },
+    { "raw": "1 c. à s. de poivre de Sichuan, moulu", "qty": 1, "unit": "tbsp", "item": "poivre de Sichuan", "prep": "moulu", "group": "sauce" },
+    { "raw": "1 c. à c. de sucre", "qty": 1, "unit": "tsp", "item": "sucre", "group": "sauce" },
+    { "raw": "4 gousses d'ail, écrasées", "qty": 4, "unit": "piece", "item": "ail", "prep": "écrasé", "group": "sauce" },
+    { "raw": "6 oignons nouveaux, ciselés", "qty": 6, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé" },
+    { "raw": "2 c. à s. de vin de riz", "qty": 2, "unit": "tbsp", "item": "vin de riz" },
+    { "raw": "3 c. à s. d'huile neutre", "qty": 3, "unit": "tbsp", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Le dan dan mian n'est PAS une soupe : la sauce attend au fond du bol et se mélange à table.", "en": "Dan dan mian is NOT a soup: the sauce waits at the bottom of the bowl and is mixed at the table." },
+    { "fr": "Faire revenir le porc à feu vif avec le vin de riz jusqu'à ce qu'il soit sec et croustillant.", "en": "Fry the pork over high heat with the rice wine until dry and crisp." },
+    { "fr": "Fouetter tous les éléments de la sauce, en la détendant avec quelques cuillères d'eau de cuisson.", "en": "Whisk all the sauce ingredients, loosening them with a few spoonfuls of noodle water." },
+    { "fr": "Répartir la sauce au FOND de chaque bol, avant les nouilles.", "en": "Divide the sauce into the BOTTOM of each bowl, before the noodles." },
+    { "fr": "Poser les nouilles égouttées dessus, puis le porc croustillant et les oignons nouveaux.", "en": "Lay the drained noodles on top, then the crisp pork and spring onions." },
+    { "fr": "Mélanger énergiquement au moment de manger, jamais avant : la sauce doit être encore séparée à l'arrivée.", "en": "Toss vigorously when eating, never before: the sauce should still be separate when the bowl arrives." }
+  ]
+}

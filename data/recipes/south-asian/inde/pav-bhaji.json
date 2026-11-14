@@ -1,0 +1,42 @@
+{
+  "slug": "pav-bhaji",
+  "cuisine": "south-asian",
+  "country": "inde",
+  "origin": "Inde",
+  "native_name": "Pav bhaji",
+  "title": {
+    "fr": "Pav bhaji, purée de légumes épicée et petits pains",
+    "en": "Pav bhaji, spiced vegetable mash with buttered rolls"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["mumbai", "rue", "beurre", "vegetarien"],
+  "ingredients": [
+    { "raw": "5 pommes de terre, cuites", "qty": 5, "unit": "piece", "item": "pomme de terre", "prep": "cuite" },
+    { "raw": "1 chou-fleur, en bouquets", "qty": 1, "unit": "piece", "item": "chou-fleur", "prep": "en bouquets" },
+    { "raw": "200 g de petits pois surgelés", "qty": 200, "unit": "g", "item": "petits pois surgelés" },
+    { "raw": "2 poivrons verts, en dés", "qty": 2, "unit": "piece", "item": "poivron vert", "prep": "en dés" },
+    { "raw": "5 tomates, râpées", "qty": 5, "unit": "piece", "item": "tomate", "prep": "râpée" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "2 c. à s. de pâte gingembre-ail", "qty": 2, "unit": "tbsp", "item": "pâte gingembre-ail" },
+    { "raw": "3 c. à s. de garam masala", "qty": 3, "unit": "tbsp", "item": "garam masala" },
+    { "raw": "2 c. à c. de piment kashmiri", "qty": 2, "unit": "tsp", "item": "piment kashmiri" },
+    { "raw": "200 g de beurre", "qty": 200, "unit": "g", "item": "beurre" },
+    { "raw": "12 petits pains au lait", "qty": 12, "unit": "piece", "item": "pain de mie", "group": "service" },
+    { "raw": "2 citrons, en quartiers", "qty": 2, "unit": "piece", "item": "citron", "group": "service" },
+    { "raw": "1 oignon rouge, en dés", "qty": 1, "unit": "piece", "item": "oignon rouge", "prep": "en dés", "group": "service" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire chou-fleur et petits pois à l'eau, les égoutter, et les écraser avec les pommes de terre.", "en": "Boil the cauliflower and peas, drain them, and mash them with the potatoes." },
+    { "fr": "Faire revenir oignons, pâte gingembre-ail et poivrons dans une bonne moitié du beurre.", "en": "Fry the onions, ginger-garlic paste and peppers in a good half of the butter." },
+    { "fr": "Ajouter les tomates râpées et les épices, et cuire jusqu'à ce que le beurre se sépare.", "en": "Add the grated tomatoes and spices, and cook until the butter separates." },
+    { "fr": "Ajouter la purée de légumes et l'écraser encore dans la poêle, à la spatule, en cuisant.", "en": "Add the mashed vegetables and crush them further in the pan, with a spatula, as they cook." },
+    { "fr": "Le pav bhaji se veut GRAS : la quantité de beurre n'est pas une erreur, c'est le plat.", "en": "Pav bhaji is meant to be RICH: the amount of butter is not a mistake, it is the dish." },
+    { "fr": "Fendre les pains, les dorer au beurre à la poêle, et servir avec l'oignon cru et le citron.", "en": "Split the rolls, toast them in butter in a pan, and serve with raw onion and lemon." }
+  ]
+}

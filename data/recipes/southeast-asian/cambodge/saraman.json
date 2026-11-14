@@ -1,0 +1,40 @@
+{
+  "slug": "saraman",
+  "cuisine": "southeast-asian",
+  "country": "cambodge",
+  "origin": "Cambodge",
+  "native_name": "សាម្លរសារ៉ាម៉ាន់",
+  "title": {
+    "fr": "Saraman, curry khmer de bœuf aux arachides",
+    "en": "Saraman, Khmer beef and peanut curry"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 150 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "arachide", "coco", "cuisson-lente"],
+  "ingredients": [
+    { "raw": "1,2 kg de bœuf à mijoter, en gros cubes", "qty": 1200, "unit": "g", "item": "boeuf à mijoter", "prep": "en gros cubes" },
+    { "raw": "6 c. à s. de kroeung", "qty": 6, "unit": "tbsp", "item": "citronnelle", "prep": "en pâte kroeung" },
+    { "raw": "80 cl de lait de coco", "qty": 80, "unit": "cl", "item": "lait de coco" },
+    { "raw": "150 g d'arachides grillées, moulues", "qty": 150, "unit": "g", "item": "arachide grillée", "prep": "moulue" },
+    { "raw": "3 c. à s. de pâte de tamarin", "qty": 3, "unit": "tbsp", "item": "pâte de tamarin" },
+    { "raw": "4 c. à s. de sucre de palme", "qty": 4, "unit": "tbsp", "item": "sucre de palme" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "3 badianes", "qty": 3, "unit": "piece", "item": "badiane" },
+    { "raw": "4 gousses de cardamome", "qty": 4, "unit": "piece", "item": "cardamome" },
+    { "raw": "3 pommes de terre, en gros cubes", "qty": 3, "unit": "piece", "item": "pomme de terre", "prep": "en gros cubes" },
+    { "raw": "3 c. à s. de sauce poisson", "qty": 3, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "6 c. à s. d'huile neutre", "qty": 6, "unit": "tbsp", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Le saraman est le cousin khmer du massaman : mêmes épices, mais bâti sur un kroeung.", "en": "Saraman is the Khmer cousin of massaman: the same spices, but built on a kroeung." },
+    { "fr": "Casser la crème de coco et y frire le kroeung avec les épices entières, dix minutes.", "en": "Crack the coconut cream and fry the kroeung in it with the whole spices, ten minutes." },
+    { "fr": "Ajouter la viande et l'enrober, puis le reste du lait de coco.", "en": "Add the meat and coat it, then the remaining coconut milk." },
+    { "fr": "Laisser mijoter DEUX HEURES à feu très doux, sans jamais faire bouillir fort.", "en": "Simmer for TWO HOURS over very low heat, never at a rolling boil." },
+    { "fr": "Ajouter arachides moulues, tamarin, sucre de palme et pommes de terre.", "en": "Add the ground peanuts, tamarind, palm sugar and potatoes." },
+    { "fr": "Poursuivre trente minutes : la sauce doit être épaisse et l'huile de coco remonter.", "en": "Continue for thirty minutes: the sauce should be thick and the coconut oil should rise." }
+  ]
+}

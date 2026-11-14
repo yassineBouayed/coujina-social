@@ -1,0 +1,39 @@
+{
+  "slug": "dolmadakia",
+  "cuisine": "mediterranean",
+  "country": "grece",
+  "origin": "Grèce",
+  "native_name": "Ντολμαδάκια",
+  "title": {
+    "fr": "Feuilles de vigne farcies au riz",
+    "en": "Rice-stuffed vine leaves"
+  },
+  "meal_type": "starter",
+  "servings": 8,
+  "times": { "prep_min": 60, "cook_min": 50 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["meze", "vigne", "citron", "vegetarien"],
+  "ingredients": [
+    { "raw": "400 g de feuilles de vigne en saumure", "qty": 400, "unit": "g", "item": "feuille de vigne" },
+    { "raw": "350 g de riz rond", "qty": 350, "unit": "g", "item": "riz rond" },
+    { "raw": "3 oignons, hachés très finement", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché très finement" },
+    { "raw": "1 bouquet d'aneth, ciselé", "qty": 1, "unit": "bunch", "item": "aneth", "prep": "ciselé" },
+    { "raw": "1/2 bouquet de menthe, ciselée", "qty": 0.5, "unit": "bunch", "item": "menthe", "prep": "ciselée" },
+    { "raw": "1 botte d'oignons nouveaux, émincés", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "émincé" },
+    { "raw": "3 citrons, leur jus", "qty": 3, "unit": "piece", "item": "citron" },
+    { "raw": "20 cl d'huile d'olive", "qty": 20, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "60 g de pignons de pin", "qty": 60, "unit": "g", "item": "pignon de pin", "optional": true },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Rincer les feuilles en saumure et les ébouillanter deux minutes : elles seront souples et moins salées.", "en": "Rinse the brined leaves and blanch them for two minutes: they become supple and less salty." },
+    { "fr": "Poser la feuille NERVURES VERS LE HAUT : côté lisse dehors, le rouleau sera net.", "en": "Lay the leaf VEINS UP: smooth side out, the roll comes out neat." },
+    { "fr": "Le riz est mis CRU et en très petite quantité : une cuillère à café par feuille, pas plus.", "en": "The rice goes in RAW and in tiny amounts: a teaspoon per leaf, no more." },
+    { "fr": "Rouler SANS SERRER : le riz double de volume et fait éclater les rouleaux trop tendus.", "en": "Roll them LOOSELY: the rice doubles in size and bursts overtight rolls." },
+    { "fr": "Tapisser la casserole de feuilles déchirées et ranger les dolmades SERRÉS, en cercles.", "en": "Line the pot with torn leaves and pack the dolmades TIGHTLY, in circles." },
+    { "fr": "Poser une ASSIETTE dessus pour les maintenir, mouiller d'eau citronnée, et cuire 50 minutes.", "en": "Set a PLATE on top to hold them down, add lemon water, and cook for 50 minutes." }
+  ]
+}

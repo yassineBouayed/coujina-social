@@ -1,0 +1,41 @@
+{
+  "slug": "pulao-yakhni",
+  "cuisine": "south-asian",
+  "country": "pakistan",
+  "origin": "Pakistan",
+  "native_name": "Yakhni pulao",
+  "title": {
+    "fr": "Pulao au bouillon d'agneau parfumé",
+    "en": "Pulao in aromatic lamb broth"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 80 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["riz", "bouillon", "doux", "fete"],
+  "ingredients": [
+    { "raw": "600 g de riz basmati", "qty": 600, "unit": "g", "item": "riz basmati" },
+    { "raw": "1 kg d'épaule d'agneau, en morceaux", "qty": 1000, "unit": "g", "item": "épaule d'agneau", "prep": "en morceaux" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "2 c. à s. de pâte gingembre-ail", "qty": 2, "unit": "tbsp", "item": "pâte gingembre-ail" },
+    { "raw": "2 c. à s. de coriandre en graines", "qty": 2, "unit": "tbsp", "item": "coriandre graines", "group": "yakhni" },
+    { "raw": "1 c. à s. de graines de fenouil", "qty": 1, "unit": "tbsp", "item": "graine de fenouil", "group": "yakhni" },
+    { "raw": "1 c. à s. de cumin", "qty": 1, "unit": "tbsp", "item": "cumin", "group": "yakhni" },
+    { "raw": "6 gousses de cardamome", "qty": 6, "unit": "piece", "item": "cardamome", "group": "yakhni" },
+    { "raw": "2 cardamomes noires", "qty": 2, "unit": "piece", "item": "cardamome noire", "group": "yakhni" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle", "group": "yakhni" },
+    { "raw": "20 cl de yaourt", "qty": 20, "unit": "cl", "item": "yaourt" },
+    { "raw": "120 g de ghee", "qty": 120, "unit": "g", "item": "ghee" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le pulao se distingue du biryani par ceci : le riz cuit DANS le bouillon, pas en couches séparées.", "en": "Pulao differs from biryani in this: the rice cooks IN the broth, not in separate layers." },
+    { "fr": "Enfermer les épices du yakhni dans une mousseline et les faire bouillir avec la viande, une heure.", "en": "Tie the yakhni spices in muslin and boil them with the meat for an hour." },
+    { "fr": "Filtrer et MESURER le bouillon : c'est ce volume, et non l'à-peu-près, qui décide de la cuisson du riz.", "en": "Strain and MEASURE the broth: that volume, not guesswork, decides how the rice cooks." },
+    { "fr": "Frire les oignons dans le ghee jusqu'à ce qu'ils brunissent, ajouter la viande et le yaourt.", "en": "Fry the onions in ghee until brown, add the meat and the yoghurt." },
+    { "fr": "Ajouter le riz trempé et une fois et demie son volume de bouillon, et porter à ébullition.", "en": "Add the soaked rice and one and a half times its volume of broth, and bring to the boil." },
+    { "fr": "Couvrir et cuire quinze minutes à feu doux, puis laisser reposer dix minutes hors du feu.", "en": "Cover and cook for fifteen minutes over low heat, then rest for ten minutes off the heat." }
+  ]
+}

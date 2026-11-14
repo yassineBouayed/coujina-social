@@ -1,0 +1,35 @@
+{
+  "slug": "sikhye",
+  "cuisine": "east-asian",
+  "country": "coree-du-sud",
+  "origin": "Corée du Sud",
+  "native_name": "식혜",
+  "title": {
+    "fr": "Sikhye, boisson de riz au malt",
+    "en": "Sikhye, sweet malted rice drink"
+  },
+  "meal_type": "drink",
+  "servings": 8,
+  "times": { "prep_min": 30, "cook_min": 300 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "riz", "malt", "froid"],
+  "ingredients": [
+    { "raw": "200 g de malt d'orge en poudre", "qty": 200, "unit": "g", "item": "malt d'orge" },
+    { "raw": "300 g de riz rond, cuit", "qty": 300, "unit": "g", "item": "riz rond", "prep": "cuit" },
+    { "raw": "3 l d'eau", "qty": 3, "unit": "l", "item": "eau" },
+    { "raw": "200 g de sucre", "qty": 200, "unit": "g", "item": "sucre" },
+    { "raw": "1 morceau de gingembre frais", "qty": 1, "unit": "piece", "item": "gingembre", "optional": true },
+    { "raw": "12 jujubes", "qty": 12, "unit": "piece", "item": "jujube", "optional": true, "group": "décor" },
+    { "raw": "2 c. à s. de pignons de pin", "qty": 2, "unit": "tbsp", "item": "pignon de pin", "optional": true, "group": "décor" }
+  ],
+  "steps": [
+    { "fr": "Faire tremper le malt dans l'eau tiède une heure, puis le malaxer et le FILTRER : on garde l'eau trouble.", "en": "Soak the malt in warm water for an hour, then work it and STRAIN it: keep the cloudy water." },
+    { "fr": "Laisser décanter deux heures et ne garder que le liquide clair du dessus : le dépôt rendrait la boisson amère.", "en": "Let it settle for two hours and keep only the clear liquid on top: the sediment would make the drink bitter." },
+    { "fr": "Mélanger ce liquide au riz cuit et maintenir à 55-60 °C pendant QUATRE À CINQ HEURES.", "en": "Mix that liquid with the cooked rice and hold it at 55-60°C for FOUR TO FIVE HOURS." },
+    { "fr": "C'est l'enzyme du malt qui transforme l'amidon en sucre : au-dessus de 65 °C, elle meurt et rien ne se passe.", "en": "It is the malt enzyme that turns starch into sugar: above 65°C it dies and nothing happens." },
+    { "fr": "Le sikhye est prêt quand les grains de riz REMONTENT à la surface.", "en": "Sikhye is ready when the rice grains RISE to the surface." },
+    { "fr": "Retirer les grains, ajouter le sucre, faire bouillir dix minutes, et servir glacé avec quelques grains.", "en": "Remove the grains, add the sugar, boil for ten minutes, and serve ice-cold with a few grains floated on top." }
+  ]
+}

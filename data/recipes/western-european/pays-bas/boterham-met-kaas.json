@@ -1,0 +1,34 @@
+{
+  "slug": "boterham-met-kaas",
+  "cuisine": "western-european",
+  "country": "pays-bas",
+  "origin": "Pays-Bas",
+  "native_name": "Boterham met kaas",
+  "title": {
+    "fr": "Tartine au gouda et au beurre",
+    "en": "Buttered gouda sandwich"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 10, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["dejeuner", "fromage", "rapide", "quotidien"],
+  "ingredients": [
+    { "raw": "8 tranches de pain de campagne", "qty": 8, "unit": "piece", "item": "pain", "prep": "en tranches" },
+    { "raw": "300 g de gouda, en tranches fines", "qty": 300, "unit": "g", "item": "gouda", "prep": "en tranches fines" },
+    { "raw": "100 g de beurre", "qty": 100, "unit": "g", "item": "beurre" },
+    { "raw": "4 c. à c. de moutarde", "qty": 4, "unit": "tsp", "item": "moutarde", "optional": true },
+    { "raw": "1 concombre, en rondelles", "qty": 1, "unit": "piece", "item": "concombre", "prep": "en rondelles", "optional": true },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le déjeuner néerlandais est une TARTINE, pas un plat chaud : c'est la norme du midi.", "en": "Dutch lunch is an open SANDWICH, not a hot dish: that is the midday norm." },
+    { "fr": "Trancher le gouda AU RABOT À FROMAGE, en lamelles de deux millimètres.", "en": "Slice the gouda with a CHEESE SLICER, in two-millimetre sheets." },
+    { "fr": "Cette épaisseur n'est pas un détail : plus épais, le fromage domine et écrase le pain.", "en": "That thickness is not a detail: thicker, the cheese dominates and buries the bread." },
+    { "fr": "Beurrer le pain JUSQU'AUX BORDS : c'est le beurre qui fait tenir le fromage.", "en": "Butter the bread RIGHT TO THE EDGES: the butter is what holds the cheese." },
+    { "fr": "Choisir un gouda vieux plutôt que jeune : il a le goût de noisette et les cristaux de sel.", "en": "Choose aged gouda over young: it has the nutty taste and the salt crystals." },
+    { "fr": "Un tour de poivre, et la tartine se mange ouverte, à la main.", "en": "A turn of pepper, and the sandwich is eaten open, by hand." }
+  ]
+}

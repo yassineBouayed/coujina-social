@@ -1,0 +1,40 @@
+{
+  "slug": "escondidinho",
+  "cuisine": "latin-american",
+  "country": "bresil",
+  "origin": "Brésil",
+  "native_name": "Escondidinho de carne seca",
+  "title": {
+    "fr": "Gratin de manioc à la viande séchée",
+    "en": "Cassava gratin with dried beef"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 60 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["nordeste", "manioc", "gratin", "famille"],
+  "ingredients": [
+    { "raw": "1,2 kg de manioc", "qty": 1200, "unit": "g", "item": "manioc" },
+    { "raw": "700 g de viande séchée, dessalée", "qty": 700, "unit": "g", "item": "viande séchée", "prep": "dessalée" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "6 gousses d'ail, hachées", "qty": 6, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "3 tomates, en dés", "qty": 3, "unit": "piece", "item": "tomate", "prep": "en dés" },
+    { "raw": "30 cl de lait entier", "qty": 30, "unit": "cl", "item": "lait entier" },
+    { "raw": "120 g de beurre", "qty": 120, "unit": "g", "item": "beurre" },
+    { "raw": "25 cl de crème liquide", "qty": 25, "unit": "cl", "item": "crème liquide" },
+    { "raw": "250 g de queso fresco, râpé", "qty": 250, "unit": "g", "item": "queso fresco", "prep": "râpé" },
+    { "raw": "1 bouquet de coriandre, ciselée", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Escondidinho veut dire « le petit caché » : la viande est cachée sous la purée de manioc.", "en": "Escondidinho means \"the little hidden one\": the meat hides under the cassava mash." },
+    { "fr": "RETIRER LA FIBRE CENTRALE du manioc : elle est dure comme du bois et ne cuit jamais.", "en": "REMOVE the cassava's CENTRAL FIBRE: it is hard as wood and never cooks." },
+    { "fr": "Le manioc doit être cuit à l'eau salée jusqu'à ce qu'il ÉCLATE : compter quarante minutes.", "en": "The cassava must be boiled in salted water until it BURSTS: allow forty minutes." },
+    { "fr": "Dessaler la viande séchée vingt-quatre heures, en changeant l'eau quatre fois, puis l'effilocher.", "en": "Desalt the dried beef for twenty-four hours, changing the water four times, then shred it." },
+    { "fr": "Monter en deux couches, viande dessous, purée dessus, et couvrir de fromage.", "en": "Build two layers, meat below, mash on top, and cover with cheese." },
+    { "fr": "Gratiner trente minutes à 200 °C, jusqu'à ce que le dessus soit bien doré.", "en": "Bake for thirty minutes at 200°C, until the top is well browned." }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "slug": "the-russe-au-samovar",
+  "cuisine": "eastern-european",
+  "country": "russie",
+  "origin": "Russie",
+  "native_name": "Чай",
+  "title": {
+    "fr": "Thé russe au citron et à la confiture",
+    "en": "Russian tea with lemon and jam"
+  },
+  "meal_type": "drink",
+  "servings": 6,
+  "times": { "prep_min": 10, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["the", "hiver", "tradition", "citron"],
+  "ingredients": [
+    { "raw": "6 c. à s. de thé noir", "qty": 6, "unit": "tbsp", "item": "thé noir" },
+    { "raw": "1,5 l d'eau", "qty": 1.5, "unit": "l", "item": "eau" },
+    { "raw": "1 citron, en rondelles", "qty": 1, "unit": "piece", "item": "citron", "prep": "en rondelles" },
+    { "raw": "200 g de confiture", "qty": 200, "unit": "g", "item": "confiture" },
+    { "raw": "6 c. à c. de miel", "qty": 6, "unit": "tsp", "item": "miel", "optional": true }
+  ],
+  "steps": [
+    { "fr": "La méthode du samovar repose sur DEUX récipients : un concentré très fort, et de l'eau bouillante.", "en": "The samovar method rests on TWO vessels: a very strong concentrate, and boiling water." },
+    { "fr": "Le concentré, ou zavarka, se fait avec quatre fois plus de thé que d'ordinaire.", "en": "The concentrate, or zavarka, uses four times as much tea as usual." },
+    { "fr": "Chacun verse un fond de zavarka dans sa tasse et l'allonge à l'eau bouillante, à son goût.", "en": "Each person pours a little zavarka into their cup and lengthens it with boiling water, to taste." },
+    { "fr": "C'est ce qui permet à toute une tablée de boire son thé à sa force, pendant des heures.", "en": "That lets a whole table drink tea at their own strength, for hours." },
+    { "fr": "La confiture ne se met PAS dans le thé : on en prend une cuillerée EN BOUCHE, puis on boit.", "en": "The jam does NOT go in the tea: you take a spoonful IN THE MOUTH, then drink." },
+    { "fr": "C'est la façon russe, dite « v prikousku », et elle change entièrement le goût du thé.", "en": "That is the Russian way, called \"v prikusku\", and it changes the taste of the tea entirely." }
+  ]
+}

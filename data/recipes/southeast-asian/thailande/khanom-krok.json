@@ -1,0 +1,37 @@
+{
+  "slug": "khanom-krok",
+  "cuisine": "southeast-asian",
+  "country": "thailande",
+  "origin": "Thaïlande",
+  "native_name": "ขนมครก",
+  "title": {
+    "fr": "Khanom krok, petites crêpes de coco",
+    "en": "Khanom krok, coconut rice pancakes"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "coco", "gouter", "poele"],
+  "ingredients": [
+    { "raw": "200 g de farine de riz", "qty": 200, "unit": "g", "item": "farine de riz", "group": "base" },
+    { "raw": "50 g de riz gluant, en farine", "qty": 50, "unit": "g", "item": "riz gluant", "prep": "en farine", "group": "base" },
+    { "raw": "40 cl de lait de coco", "qty": 40, "unit": "cl", "item": "lait de coco", "group": "base" },
+    { "raw": "60 g de sucre", "qty": 60, "unit": "g", "item": "sucre", "group": "base" },
+    { "raw": "25 cl de crème de coco", "qty": 25, "unit": "cl", "item": "crème de coco", "group": "garniture" },
+    { "raw": "2 c. à s. de sucre", "qty": 2, "unit": "tbsp", "item": "sucre", "group": "garniture" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel", "group": "garniture" },
+    { "raw": "4 oignons nouveaux, ciselés", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé", "optional": true, "group": "garniture" },
+    { "raw": "4 c. à s. d'huile de coco", "qty": 4, "unit": "tbsp", "item": "huile de coco" }
+  ],
+  "steps": [
+    { "fr": "Le khanom krok a DEUX appareils : une base légèrement sucrée et une garniture SALÉE de crème de coco.", "en": "Khanom krok has TWO batters: a lightly sweetened base and a SALTED coconut cream topping." },
+    { "fr": "Ce contraste sucré-salé est tout le plat : sucrer la garniture le rend écœurant.", "en": "That sweet-salt contrast is the whole dish: sweetening the topping makes it cloying." },
+    { "fr": "Fouetter la base et la laisser reposer une heure, pour que la farine s'hydrate.", "en": "Whisk the base and rest it for an hour, so the flour hydrates." },
+    { "fr": "Chauffer une poêle à empreintes hémisphériques et l'huiler généreusement à l'huile de coco.", "en": "Heat a pan with hemispherical wells and oil it generously with coconut oil." },
+    { "fr": "Remplir aux deux tiers de base, cuire deux minutes, puis compléter de garniture salée.", "en": "Fill two-thirds with the base, cook for two minutes, then top up with the salted cream." },
+    { "fr": "Couvrir trois minutes : les bords doivent croustiller et le centre rester coulant.", "en": "Cover for three minutes: the edges should crisp and the centre stay runny." }
+  ]
+}

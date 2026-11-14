@@ -1,0 +1,32 @@
+{
+  "slug": "lait-russe",
+  "cuisine": "western-european",
+  "country": "belgique",
+  "origin": "Belgique",
+  "native_name": "Lait russe",
+  "title": {
+    "fr": "Lait russe, café au lait mousseux",
+    "en": "Lait russe, frothy milk coffee"
+  },
+  "meal_type": "drink",
+  "servings": 4,
+  "times": { "prep_min": 10, "cook_min": 5 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["cafe", "brasserie", "rapide", "gouter"],
+  "ingredients": [
+    { "raw": "40 cl de café fort", "qty": 40, "unit": "cl", "item": "café", "prep": "fort" },
+    { "raw": "50 cl de lait entier", "qty": 50, "unit": "cl", "item": "lait entier" },
+    { "raw": "4 c. à c. de sucre", "qty": 4, "unit": "tsp", "item": "sucre", "optional": true },
+    { "raw": "8 spéculoos", "qty": 8, "unit": "piece", "item": "biscuit sec", "group": "service" }
+  ],
+  "steps": [
+    { "fr": "Le lait russe n'a rien de russe : c'est le nom belge d'un café très allongé de lait chaud mousseux.", "en": "Lait russe has nothing Russian about it: it is the Belgian name for coffee lengthened with hot frothy milk." },
+    { "fr": "Le rapport est d'environ un tiers de café pour deux tiers de lait : c'est très doux.", "en": "The ratio is about one third coffee to two thirds milk: it is very mild." },
+    { "fr": "Chauffer le lait à 65 °C, sans le faire bouillir : bouilli, il prend un goût de cuit.", "en": "Heat the milk to 65°C, without boiling: boiled, it takes on a cooked taste." },
+    { "fr": "Le faire mousser au fouet ou au mousseur, jusqu'à doubler de volume.", "en": "Froth it with a whisk or a frother, until doubled in volume." },
+    { "fr": "Verser le café dans un grand verre, puis le lait, en retenant la mousse à la cuillère.", "en": "Pour the coffee into a tall glass, then the milk, holding back the foam with a spoon." },
+    { "fr": "Laisser glisser la mousse en dernier, et servir avec un spéculoos posé sur la soucoupe.", "en": "Slide the foam on last, and serve with a speculoos on the saucer." }
+  ]
+}

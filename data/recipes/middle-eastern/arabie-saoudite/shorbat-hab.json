@@ -1,0 +1,40 @@
+{
+  "slug": "shorbat-hab",
+  "cuisine": "middle-eastern",
+  "country": "arabie-saoudite",
+  "origin": "Arabie saoudite",
+  "native_name": "Shorbat hab",
+  "title": {
+    "fr": "Shorbat hab, soupe de blé du ramadan",
+    "en": "Shorbat hab, Ramadan wheat soup"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 15, "cook_min": 90 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ramadan", "ble", "iftar", "hiver"],
+  "ingredients": [
+    { "raw": "250 g de jareesh", "qty": 250, "unit": "g", "item": "jareesh" },
+    { "raw": "500 g d'agneau à mijoter, en petits cubes", "qty": 500, "unit": "g", "item": "épaule d'agneau", "prep": "en petits cubes" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "3 tomates, râpées", "qty": 3, "unit": "piece", "item": "tomate", "prep": "râpée" },
+    { "raw": "2 c. à s. de concentré de tomate", "qty": 2, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "1 c. à s. de baharat", "qty": 1, "unit": "tbsp", "item": "baharat" },
+    { "raw": "2 citrons séchés d'Oman", "qty": 2, "unit": "piece", "item": "citron séché d'Oman" },
+    { "raw": "1 carotte, en petits dés", "qty": 1, "unit": "piece", "item": "carotte", "prep": "en petits dés" },
+    { "raw": "4 c. à s. de ghee", "qty": 4, "unit": "tbsp", "item": "ghee" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée", "group": "service" },
+    { "raw": "1 citron, en quartiers", "qty": 1, "unit": "piece", "item": "citron", "group": "service" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Rincer le blé concassé plusieurs fois jusqu'à ce que l'eau soit claire.", "en": "Rinse the cracked wheat several times until the water runs clear." },
+    { "fr": "Faire revenir l'oignon et la viande dans le ghee, ajouter le concentré et le baharat.", "en": "Fry the onion and meat in the ghee, add the purée and baharat." },
+    { "fr": "Ajouter les tomates râpées, le blé, la carotte, les citrons séchés percés et 2 l d'eau.", "en": "Add the grated tomatoes, wheat, carrot, pierced dried limes and 2 litres of water." },
+    { "fr": "Cuire une heure et quart à petits bouillons, en remuant : le blé accroche facilement au fond.", "en": "Cook for an hour and a quarter at a bare simmer, stirring: the wheat catches easily on the base." },
+    { "fr": "La soupe doit rester coulante : elle épaissit beaucoup en refroidissant, prévoir plus d'eau.", "en": "The soup must stay pourable: it thickens a great deal on cooling, so allow extra water." },
+    { "fr": "Servir avec de la coriandre ciselée et un quartier de citron.", "en": "Serve with chopped coriander and a lemon wedge." }
+  ]
+}

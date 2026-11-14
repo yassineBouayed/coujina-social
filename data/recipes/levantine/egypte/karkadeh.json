@@ -1,0 +1,33 @@
+{
+  "slug": "karkadeh",
+  "cuisine": "levantine",
+  "country": "egypte",
+  "origin": "Égypte",
+  "native_name": "Karkadeh",
+  "title": {
+    "fr": "Karkadeh, infusion d'hibiscus",
+    "en": "Karkadeh, hibiscus infusion"
+  },
+  "meal_type": "drink",
+  "servings": 6,
+  "times": { "prep_min": 5, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hibiscus", "ramadan", "froid", "nubie"],
+  "ingredients": [
+    { "raw": "80 g d'hibiscus séché", "qty": 80, "unit": "g", "item": "hibiscus séché" },
+    { "raw": "1,5 l d'eau", "qty": 1.5, "unit": "l", "item": "eau" },
+    { "raw": "180 g de sucre", "qty": 180, "unit": "g", "item": "sucre" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle", "optional": true },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Rincer les fleurs d'hibiscus à l'eau froide.", "en": "Rinse the hibiscus flowers in cold water." },
+    { "fr": "Pour le karkadeh CHAUD : les faire bouillir cinq minutes, puis filtrer.", "en": "For HOT karkadeh: boil them for five minutes, then strain." },
+    { "fr": "Pour le karkadeh FROID : les laisser infuser une nuit à l'eau froide, sans jamais chauffer.", "en": "For COLD karkadeh: steep them overnight in cold water, never heating them." },
+    { "fr": "L'infusion à froid donne une couleur plus vive et beaucoup moins d'astringence.", "en": "The cold infusion gives a brighter colour and far less astringency." },
+    { "fr": "Sucrer généreusement : le karkadeh est franchement acide et supporte beaucoup de sucre.", "en": "Sweeten generously: karkadeh is frankly tart and takes a lot of sugar." },
+    { "fr": "Servir glacé, avec un trait de citron, ou brûlant en hiver.", "en": "Serve ice-cold with a squeeze of lemon, or scalding in winter." }
+  ]
+}

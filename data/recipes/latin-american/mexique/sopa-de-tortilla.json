@@ -1,0 +1,42 @@
+{
+  "slug": "sopa-de-tortilla",
+  "cuisine": "latin-american",
+  "country": "mexique",
+  "origin": "Mexique",
+  "native_name": "Sopa de tortilla",
+  "title": {
+    "fr": "Soupe de tortilla à l'ancho",
+    "en": "Tortilla soup with ancho chilli"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 40 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["soupe", "tortilla", "piment", "famille"],
+  "ingredients": [
+    { "raw": "12 tortillas de maïs, en lanières", "qty": 12, "unit": "piece", "item": "tortilla de maïs", "prep": "en lanières" },
+    { "raw": "800 g de tomates", "qty": 800, "unit": "g", "item": "tomate" },
+    { "raw": "4 piments ancho séchés", "qty": 4, "unit": "piece", "item": "piment séché" },
+    { "raw": "2 oignons", "qty": 2, "unit": "piece", "item": "oignon" },
+    { "raw": "6 gousses d'ail", "qty": 6, "unit": "piece", "item": "ail" },
+    { "raw": "1,5 l de bouillon de volaille", "qty": 1.5, "unit": "l", "item": "bouillon volaille" },
+    { "raw": "2 avocats, en dés", "qty": 2, "unit": "piece", "item": "avocat", "prep": "en dés", "group": "service" },
+    { "raw": "250 g de queso fresco, émietté", "qty": 250, "unit": "g", "item": "queso fresco", "prep": "émietté", "group": "service" },
+    { "raw": "20 cl de crème fraîche", "qty": 20, "unit": "cl", "item": "crème fraîche", "group": "service" },
+    { "raw": "1 bouquet de coriandre, ciselée", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée", "group": "service" },
+    { "raw": "2 citrons verts", "qty": 2, "unit": "piece", "item": "citron vert", "group": "service" },
+    { "raw": "50 cl d'huile neutre", "qty": 50, "unit": "cl", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "GRILLER tomates, oignons et ail ENTIERS, à sec sur la poêle, jusqu'à ce qu'ils noircissent par plaques.", "en": "CHAR the tomatoes, onions and garlic WHOLE, dry on a pan, until they blacken in patches." },
+    { "fr": "Ce brûlé est le goût de fond de la soupe : sans lui, elle n'est qu'un potage de tomate.", "en": "That charring is the soup's base flavour: without it, it is just tomato soup." },
+    { "fr": "Frire les lanières de tortilla et les ÉGOUTTER : elles doivent être sèches et cassantes.", "en": "Fry the tortilla strips and DRAIN them: they must be dry and brittle." },
+    { "fr": "Mixer les légumes grillés avec les piments réhydratés, et FRIRE la purée cinq minutes.", "en": "Blend the charred vegetables with the rehydrated chillies, and FRY the purée for five minutes." },
+    { "fr": "Frire la purée avant de la mouiller change tout : c'est ce qui concentre le goût.", "en": "Frying the purée before adding liquid changes everything: it concentrates the flavour." },
+    { "fr": "Mettre les tortillas dans le bol AU DERNIER MOMENT : dans la soupe, elles ramollissent en trois minutes.", "en": "Put the tortillas in the bowl AT THE LAST MOMENT: in the soup, they soften within three minutes." }
+  ]
+}

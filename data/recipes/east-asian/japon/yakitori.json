@@ -1,0 +1,37 @@
+{
+  "slug": "yakitori",
+  "cuisine": "east-asian",
+  "country": "japon",
+  "origin": "Japon",
+  "native_name": "焼き鳥",
+  "title": {
+    "fr": "Yakitori, brochettes de poulet à la sauce tare",
+    "en": "Yakitori, chicken skewers in tare sauce"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 30, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["izakaya", "grillade", "tare", "soiree"],
+  "ingredients": [
+    { "raw": "800 g de cuisses de poulet désossées, en cubes", "qty": 800, "unit": "g", "item": "cuisse de poulet", "prep": "désossée, en cubes" },
+    { "raw": "8 oignons nouveaux, en tronçons", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "en tronçons" },
+    { "raw": "20 cl de sauce soja", "qty": 20, "unit": "cl", "item": "sauce soja", "group": "tare" },
+    { "raw": "20 cl de mirin", "qty": 20, "unit": "cl", "item": "mirin", "group": "tare" },
+    { "raw": "10 cl de saké", "qty": 10, "unit": "cl", "item": "saké", "group": "tare" },
+    { "raw": "4 c. à s. de sucre", "qty": 4, "unit": "tbsp", "item": "sucre", "group": "tare" },
+    { "raw": "1 morceau de gingembre frais", "qty": 1, "unit": "piece", "item": "gingembre", "group": "tare" },
+    { "raw": "2 gousses d'ail", "qty": 2, "unit": "piece", "item": "ail", "group": "tare" },
+    { "raw": "1 c. à s. de shichimi", "qty": 1, "unit": "tbsp", "item": "piment en poudre", "optional": true, "group": "service" }
+  ],
+  "steps": [
+    { "fr": "Faire réduire la tare de moitié, vingt minutes, jusqu'à ce qu'elle nappe le dos d'une cuillère.", "en": "Reduce the tare by half, twenty minutes, until it coats the back of a spoon." },
+    { "fr": "Une tare trop liquide ne laque pas : elle coule sur les braises et brûle au lieu de coller.", "en": "A thin tare will not glaze: it drips onto the coals and burns instead of clinging." },
+    { "fr": "Enfiler poulet et oignons nouveaux en alternance, serrés, sur des brochettes courtes.", "en": "Thread chicken and spring onion alternately, tightly, on short skewers." },
+    { "fr": "Griller D'ABORD À SEC sur braises vives, jusqu'à ce que la peau colore.", "en": "Grill them DRY FIRST over hot coals, until the skin takes colour." },
+    { "fr": "Ne badigeonner de tare que dans les DERNIÈRES minutes, en trois passages successifs.", "en": "Brush with tare only in the LAST few minutes, in three successive coats." },
+    { "fr": "Le sucre de la tare brûle en trente secondes : badigeonner trop tôt noircit tout.", "en": "The sugar in tare burns within thirty seconds: brushing too early blackens everything." }
+  ]
+}

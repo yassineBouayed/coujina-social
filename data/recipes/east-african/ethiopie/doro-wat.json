@@ -1,0 +1,41 @@
+{
+  "slug": "doro-wat",
+  "cuisine": "east-african",
+  "country": "ethiopie",
+  "origin": "Éthiopie",
+  "native_name": "Doro wat",
+  "title": {
+    "fr": "Doro wat, poulet au berbéré et aux œufs",
+    "en": "Doro wat, chicken stew with berbere and eggs"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 180 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "berbere", "poulet", "national"],
+  "ingredients": [
+    { "raw": "1 poulet entier, découpé en 12 morceaux", "qty": 1, "unit": "piece", "item": "poulet entier", "prep": "découpé" },
+    { "raw": "1,5 kg d'oignons, hachés très finement", "qty": 1500, "unit": "g", "item": "oignon", "prep": "haché très finement" },
+    { "raw": "6 c. à s. de berbéré", "qty": 6, "unit": "tbsp", "item": "berbéré" },
+    { "raw": "150 g de niter kibbeh", "qty": 150, "unit": "g", "item": "beurre", "prep": "clarifié aux épices" },
+    { "raw": "6 œufs durs, écalés", "qty": 6, "unit": "piece", "item": "oeuf", "prep": "dur et écalé" },
+    { "raw": "2 c. à s. de gingembre frais, râpé", "qty": 2, "unit": "tbsp", "item": "gingembre", "prep": "râpé" },
+    { "raw": "6 gousses d'ail, écrasées", "qty": 6, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "3 citrons, leur jus", "qty": 3, "unit": "piece", "item": "citron" },
+    { "raw": "1 c. à c. de cardamome moulue", "qty": 1, "unit": "tsp", "item": "cardamome", "prep": "moulue" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Frotter le poulet au citron et au sel, et le laisser une heure au frais.", "en": "Rub the chicken with lemon and salt, and leave it for an hour in the fridge." },
+    { "fr": "Faire cuire les oignons À SEC dans une cocotte, sans matière grasse, quarante-cinq minutes, en remuant.", "en": "Cook the onions DRY in a pot, with no fat, for forty-five minutes, stirring." },
+    { "fr": "Cette cuisson à sec est le cœur du doro wat : les oignons rendent leur eau, se défont, et deviennent la sauce elle-même.", "en": "That dry cooking is the heart of doro wat: the onions give up their water, collapse, and become the sauce itself." },
+    { "fr": "Ajouter le niter kibbeh, l'ail, le gingembre, puis le berbéré, et laisser cuire vingt minutes à feu doux.", "en": "Add the niter kibbeh, garlic and ginger, then the berbere, and cook for twenty minutes over low heat." },
+    { "fr": "Ajouter le poulet et un peu d'eau, et laisser mijoter une heure et demie, jusqu'à ce que l'huile rouge remonte.", "en": "Add the chicken and a little water, and simmer for an hour and a half, until the red oil rises." },
+    { "fr": "Piquer les œufs durs à la fourchette et les ajouter vingt minutes avant la fin, pour qu'ils prennent la sauce.", "en": "Prick the hard-boiled eggs with a fork and add them twenty minutes before the end, so they take up the sauce." }
+  ],
+  "notes": [
+    { "fr": "Un doro wat pressé est un doro wat raté : sans les trois heures, on obtient un poulet au piment, pas un wat.", "en": "A rushed doro wat is a failed one: without the three hours, you get chilli chicken, not a wat." }
+  ]
+}

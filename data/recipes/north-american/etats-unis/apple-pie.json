@@ -1,0 +1,40 @@
+{
+  "slug": "apple-pie",
+  "cuisine": "north-american",
+  "country": "etats-unis",
+  "origin": "États-Unis",
+  "native_name": "Apple pie",
+  "title": {
+    "fr": "Tarte aux pommes américaine",
+    "en": "American apple pie"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 50, "cook_min": 60 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["thanksgiving", "pomme", "embleme", "four"],
+  "ingredients": [
+    { "raw": "400 g de farine de blé", "qty": 400, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "250 g de beurre, TRÈS froid, en dés", "qty": 250, "unit": "g", "item": "beurre", "prep": "très froid, en dés", "group": "pâte" },
+    { "raw": "10 cl d'eau glacée", "qty": 10, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "1 c. à s. de vinaigre de cidre", "qty": 1, "unit": "tbsp", "item": "vinaigre de cidre", "group": "pâte" },
+    { "raw": "1,5 kg de pommes à cuire, en tranches", "qty": 1500, "unit": "g", "item": "pomme", "prep": "en tranches", "group": "garniture" },
+    { "raw": "180 g de sucre roux", "qty": 180, "unit": "g", "item": "sucre roux", "group": "garniture" },
+    { "raw": "3 c. à s. de maïzena", "qty": 3, "unit": "tbsp", "item": "maïzena", "group": "garniture" },
+    { "raw": "3 c. à c. de cannelle moulue", "qty": 3, "unit": "tsp", "item": "cannelle", "group": "garniture" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée", "group": "garniture" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron", "group": "garniture" },
+    { "raw": "1 œuf, pour dorer", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le beurre doit rester en MORCEAUX VISIBLES dans la pâte : ce sont eux qui font le feuilletage.", "en": "The butter must stay in VISIBLE PIECES in the dough: they are what makes it flaky." },
+    { "fr": "Ils fondent au four en laissant des poches de vapeur qui soulèvent la pâte en couches.", "en": "They melt in the oven leaving steam pockets that lift the pastry into layers." },
+    { "fr": "Macérer les pommes tranchées avec le sucre UNE HEURE, puis GARDER leur jus.", "en": "Macerate the sliced apples with the sugar for AN HOUR, then KEEP their juice." },
+    { "fr": "Faire RÉDUIRE ce jus en sirop et le reverser : c'est ce qui évite le vide sous la croûte.", "en": "REDUCE that juice to a syrup and pour it back: that is what prevents the gap under the crust." },
+    { "fr": "Sans cette étape, les pommes s'affaissent et la croûte reste suspendue au-dessus du vide.", "en": "Without that step, the apples collapse and the crust hangs over empty space." },
+    { "fr": "Cuire 20 minutes à 220 °C puis 40 minutes à 180 °C, et laisser refroidir QUATRE HEURES.", "en": "Bake 20 minutes at 220°C then 40 at 180°C, and cool for FOUR HOURS." }
+  ]
+}

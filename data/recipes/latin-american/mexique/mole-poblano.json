@@ -1,0 +1,46 @@
+{
+  "slug": "mole-poblano",
+  "cuisine": "latin-american",
+  "country": "mexique",
+  "origin": "Mexique",
+  "native_name": "Mole poblano",
+  "title": {
+    "fr": "Mole poblano au chocolat",
+    "en": "Mole poblano with chocolate"
+  },
+  "meal_type": "main",
+  "servings": 8,
+  "times": { "prep_min": 75, "cook_min": 150 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["puebla", "fete", "chocolat", "embleme"],
+  "ingredients": [
+    { "raw": "1 poulet entier, découpé", "qty": 1, "unit": "piece", "item": "poulet entier", "prep": "découpé" },
+    { "raw": "6 piments ancho séchés", "qty": 6, "unit": "piece", "item": "piment séché" },
+    { "raw": "4 piments guajillo séchés", "qty": 4, "unit": "piece", "item": "piment séché" },
+    { "raw": "3 chipotles en adobo", "qty": 3, "unit": "piece", "item": "chipotle en adobo" },
+    { "raw": "100 g d'amandes", "qty": 100, "unit": "g", "item": "amande" },
+    { "raw": "80 g de graines de sésame", "qty": 80, "unit": "g", "item": "graine de sésame" },
+    { "raw": "60 g de raisins secs", "qty": 60, "unit": "g", "item": "raisin sec" },
+    { "raw": "100 g de chocolat noir", "qty": 100, "unit": "g", "item": "chocolat noir" },
+    { "raw": "3 tomates", "qty": 3, "unit": "piece", "item": "tomate" },
+    { "raw": "2 oignons", "qty": 2, "unit": "piece", "item": "oignon" },
+    { "raw": "6 gousses d'ail", "qty": 6, "unit": "piece", "item": "ail" },
+    { "raw": "2 tortillas de maïs", "qty": 2, "unit": "piece", "item": "tortilla de maïs" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle", "prep": "en bâton" },
+    { "raw": "5 clous de girofle", "qty": 5, "unit": "piece", "item": "clou de girofle" },
+    { "raw": "1,5 l de bouillon de volaille", "qty": 1.5, "unit": "l", "item": "bouillon volaille" },
+    { "raw": "15 cl d'huile neutre", "qty": 15, "unit": "cl", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le mole n'est PAS un plat au chocolat : le chocolat y est une épice amère parmi vingt autres.", "en": "Mole is NOT a chocolate dish: chocolate there is one bitter spice among twenty others." },
+    { "fr": "TORRÉFIER chaque élément SÉPARÉMENT : piments, noix, graines, épices, tortillas.", "en": "TOAST each element SEPARATELY: chillies, nuts, seeds, spices, tortillas." },
+    { "fr": "Chacun a son point de torréfaction ; ensemble, certains brûlent quand d'autres sont crus.", "en": "Each has its own toasting point; together, some burn while others stay raw." },
+    { "fr": "Un piment brûlé rend TOUT le mole amer : le retirer dès qu'il embaume, jamais plus tard.", "en": "One burnt chilli makes the WHOLE mole bitter: pull it the moment it becomes fragrant, never later." },
+    { "fr": "Mixer par petites quantités et PASSER la sauce au tamis fin, deux fois.", "en": "Blend in small batches and SIEVE the sauce twice, through a fine strainer." },
+    { "fr": "Cuire la sauce DEUX HEURES à feu doux, en remuant souvent : elle doit foncer et épaissir.", "en": "Cook the sauce for TWO HOURS over low heat, stirring often: it must darken and thicken." }
+  ]
+}

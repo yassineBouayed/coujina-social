@@ -1,0 +1,37 @@
+{
+  "slug": "natilla-colombienne",
+  "cuisine": "latin-american",
+  "country": "colombie",
+  "origin": "Colombie",
+  "native_name": "Natilla",
+  "title": {
+    "fr": "Natilla de Noël à la cannelle",
+    "en": "Christmas natilla with cinnamon"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 15, "cook_min": 40 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["noel", "cannelle", "froid", "tradition"],
+  "ingredients": [
+    { "raw": "1,5 l de lait entier", "qty": 1.5, "unit": "l", "item": "lait entier" },
+    { "raw": "250 g de fécule de maïs", "qty": 250, "unit": "g", "item": "maïzena" },
+    { "raw": "300 g de sucre roux", "qty": 300, "unit": "g", "item": "sucre roux" },
+    { "raw": "3 bâtons de cannelle", "qty": 3, "unit": "piece", "item": "cannelle", "prep": "en bâton" },
+    { "raw": "6 clous de girofle", "qty": 6, "unit": "piece", "item": "clou de girofle" },
+    { "raw": "80 g de beurre", "qty": 80, "unit": "g", "item": "beurre" },
+    { "raw": "120 g de noix de coco râpée", "qty": 120, "unit": "g", "item": "noix de coco râpée", "optional": true },
+    { "raw": "3 c. à s. de cannelle moulue", "qty": 3, "unit": "tbsp", "item": "cannelle", "group": "finition" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "La natilla est le dessert de Noël colombien : elle se sert avec des buñuelos, jamais seule.", "en": "Natilla is Colombia's Christmas dessert: served with buñuelos, never alone." },
+    { "fr": "Délayer la fécule dans un TIERS du lait FROID : versée sèche, elle fait des grumeaux irréparables.", "en": "Slake the starch in a THIRD of the milk, COLD: added dry, it makes lumps you cannot fix." },
+    { "fr": "Infuser cannelle et girofle dans le reste du lait chaud vingt minutes, puis filtrer.", "en": "Steep the cinnamon and clove in the remaining hot milk for twenty minutes, then strain." },
+    { "fr": "Verser la fécule délayée EN FILET dans le lait chaud, en fouettant SANS ARRÊT.", "en": "Pour the slaked starch IN A THREAD into the hot milk, whisking WITHOUT STOPPING." },
+    { "fr": "Continuer à remuer VINGT MINUTES : la natilla doit se décoller des parois de la casserole.", "en": "Keep stirring for TWENTY MINUTES: the natilla must pull away from the pan's sides." },
+    { "fr": "Verser dans un plat et laisser prendre QUATRE HEURES : elle se coupe au couteau, comme un flan ferme.", "en": "Pour into a dish and set for FOUR HOURS: it cuts with a knife, like a firm flan." }
+  ]
+}

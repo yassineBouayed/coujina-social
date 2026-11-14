@@ -1,0 +1,39 @@
+{
+  "slug": "pad-see-ew",
+  "cuisine": "southeast-asian",
+  "country": "thailande",
+  "origin": "Thaïlande",
+  "native_name": "ผัดซีอิ๊ว",
+  "title": {
+    "fr": "Pad see ew, nouilles larges à la sauce soja",
+    "en": "Pad see ew, wide noodles in dark soy"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 15 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "wok", "nouilles", "rapide"],
+  "ingredients": [
+    { "raw": "500 g de nouilles de riz larges", "qty": 500, "unit": "g", "item": "nouilles de riz" },
+    { "raw": "400 g de blanc de poulet, en lanières", "qty": 400, "unit": "g", "item": "blanc de poulet", "prep": "en lanières" },
+    { "raw": "300 g de chou frisé, en gros morceaux", "qty": 300, "unit": "g", "item": "chou frisé", "prep": "en gros morceaux" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf" },
+    { "raw": "4 gousses d'ail, hachées", "qty": 4, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "3 c. à s. de sauce soja foncée", "qty": 3, "unit": "tbsp", "item": "sauce soja foncée" },
+    { "raw": "2 c. à s. de sauce huître", "qty": 2, "unit": "tbsp", "item": "sauce huître" },
+    { "raw": "1 c. à s. de sauce poisson", "qty": 1, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "1 c. à s. de sucre de palme", "qty": 1, "unit": "tbsp", "item": "sucre de palme" },
+    { "raw": "6 c. à s. d'huile neutre", "qty": 6, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "2 c. à s. de vinaigre blanc", "qty": 2, "unit": "tbsp", "item": "vinaigre blanc", "group": "service" }
+  ],
+  "steps": [
+    { "fr": "Le pad see ew se juge au « wok hei » : ce goût de brûlé léger qui vient d'un wok extrêmement chaud.", "en": "Pad see ew is judged on \"wok hei\": that faint charred taste that comes from an extremely hot wok." },
+    { "fr": "Séparer les nouilles fraîches à la main et les huiler légèrement.", "en": "Separate the fresh noodles by hand and oil them lightly." },
+    { "fr": "Chauffer le wok jusqu'à ce qu'il fume, saisir l'ail et le poulet, et réserver.", "en": "Heat the wok until it smokes, sear the garlic and chicken, and set aside." },
+    { "fr": "Brouiller les œufs, ajouter le chou, puis les nouilles, et LES LAISSER SANS Y TOUCHER une minute.", "en": "Scramble the eggs, add the greens, then the noodles, and LEAVE THEM UNTOUCHED for a minute." },
+    { "fr": "C'est ce contact immobile avec le métal brûlant qui donne les marques de brûlé caractéristiques.", "en": "That still contact with the scorching metal is what gives the characteristic charred marks." },
+    { "fr": "Assaisonner par les bords, mélanger, et servir avec du vinaigre pimenté à côté.", "en": "Season around the edges, toss, and serve with chilli vinegar alongside." }
+  ]
+}

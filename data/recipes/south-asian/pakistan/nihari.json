@@ -1,0 +1,45 @@
+{
+  "slug": "nihari",
+  "cuisine": "south-asian",
+  "country": "pakistan",
+  "origin": "Pakistan",
+  "native_name": "Nihari",
+  "title": {
+    "fr": "Nihari, ragoût de jarret cuit toute la nuit",
+    "en": "Nihari, overnight-cooked shank stew"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 360 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["petit-matin", "cuisson-lente", "boeuf", "lahore"],
+  "ingredients": [
+    { "raw": "1,5 kg de jarret de bœuf, en gros morceaux", "qty": 1500, "unit": "g", "item": "boeuf à mijoter", "prep": "en gros morceaux" },
+    { "raw": "2 os à moelle", "qty": 2, "unit": "piece", "item": "os à moelle" },
+    { "raw": "4 oignons, émincés", "qty": 4, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "3 c. à s. de pâte gingembre-ail", "qty": 3, "unit": "tbsp", "item": "pâte gingembre-ail" },
+    { "raw": "3 c. à s. de piment kashmiri", "qty": 3, "unit": "tbsp", "item": "piment kashmiri" },
+    { "raw": "2 c. à s. de coriandre en graines, moulue", "qty": 2, "unit": "tbsp", "item": "coriandre graines", "prep": "moulue" },
+    { "raw": "1 c. à s. de fenouil en poudre", "qty": 1, "unit": "tbsp", "item": "graine de fenouil", "prep": "moulue" },
+    { "raw": "4 cardamomes noires", "qty": 4, "unit": "piece", "item": "cardamome noire" },
+    { "raw": "1 c. à c. de macis moulu", "qty": 1, "unit": "tsp", "item": "muscade", "prep": "moulue" },
+    { "raw": "80 g de farine de blé", "qty": 80, "unit": "g", "item": "farine de blé", "group": "liaison" },
+    { "raw": "200 g de ghee", "qty": 200, "unit": "g", "item": "ghee" },
+    { "raw": "1 c. à s. de gingembre frais, en julienne", "qty": 1, "unit": "tbsp", "item": "gingembre", "prep": "en julienne", "group": "service" },
+    { "raw": "2 citrons, en quartiers", "qty": 2, "unit": "piece", "item": "citron", "group": "service" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le nihari se mangeait à l'aube, après une nuit entière de cuisson : le temps est l'ingrédient principal.", "en": "Nihari was eaten at dawn, after cooking all night: time is the main ingredient." },
+    { "fr": "Faire dorer la viande et les os dans le ghee avec la pâte gingembre-ail et toutes les épices moulues.", "en": "Brown the meat and bones in the ghee with the ginger-garlic paste and all the ground spices." },
+    { "fr": "Mouiller largement et laisser mijoter SIX HEURES à feu très doux, en écumant.", "en": "Cover generously with water and simmer for SIX HOURS over very low heat, skimming." },
+    { "fr": "Délayer la farine dans de l'eau froide et la verser en filet dans le bouillon, en fouettant.", "en": "Slake the flour in cold water and pour it into the broth in a stream, whisking." },
+    { "fr": "Cette liaison à la farine est ce qui donne au nihari sa texture nappante et brillante.", "en": "That flour thickening is what gives nihari its glossy, coating texture." },
+    { "fr": "Laisser réduire trente minutes de plus, jusqu'à ce qu'une nappe d'huile rouge se sépare en surface.", "en": "Reduce for thirty more minutes, until a layer of red oil separates on the surface." }
+  ],
+  "notes": [
+    { "fr": "On le sert avec du gingembre cru en julienne, du citron et de la coriandre, que chacun ajoute lui-même.", "en": "It is served with raw julienned ginger, lemon and coriander, which each person adds themselves." }
+  ]
+}

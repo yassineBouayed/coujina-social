@@ -1,0 +1,38 @@
+{
+  "slug": "patatas-bravas",
+  "cuisine": "mediterranean",
+  "country": "espagne",
+  "origin": "Espagne",
+  "native_name": "Patatas bravas",
+  "title": {
+    "fr": "Patatas bravas, pommes de terre sauce piquante",
+    "en": "Patatas bravas with spicy sauce"
+  },
+  "meal_type": "starter",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 35 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["madrid", "tapas", "friture", "piquant"],
+  "ingredients": [
+    { "raw": "1 kg de pommes de terre, en gros cubes", "qty": 1000, "unit": "g", "item": "pomme de terre", "prep": "en gros cubes" },
+    { "raw": "1 l d'huile neutre pour la friture", "qty": 1, "unit": "l", "item": "huile neutre" },
+    { "raw": "400 g de tomate pelée en conserve", "qty": 400, "unit": "g", "item": "tomate pelée en conserve", "group": "brava" },
+    { "raw": "2 c. à s. de paprika fumé", "qty": 2, "unit": "tbsp", "item": "paprika fumé", "group": "brava" },
+    { "raw": "1 c. à c. de piment de Cayenne", "qty": 1, "unit": "tsp", "item": "piment de Cayenne", "group": "brava" },
+    { "raw": "1 c. à s. de vinaigre de xérès", "qty": 1, "unit": "tbsp", "item": "vinaigre de xérès", "group": "brava" },
+    { "raw": "3 gousses d'ail", "qty": 3, "unit": "piece", "item": "ail", "group": "brava" },
+    { "raw": "1 c. à s. de farine de blé", "qty": 1, "unit": "tbsp", "item": "farine de blé", "group": "brava" },
+    { "raw": "15 cl de mayonnaise", "qty": 15, "unit": "cl", "item": "mayonnaise", "optional": true, "group": "alioli" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Frire les pommes de terre DEUX FOIS : une première à 140 °C pour les cuire à cœur.", "en": "Fry the potatoes TWICE: first at 140°C to cook them through." },
+    { "fr": "Les laisser refroidir complètement entre les deux bains : c'est le refroidissement qui fait la croûte.", "en": "Cool them completely between the two baths: the cooling is what makes the crust." },
+    { "fr": "Seconde friture à 190 °C, trois minutes, jusqu'à une croûte dorée et sonore.", "en": "Second fry at 190°C for three minutes, to a golden, audible crust." },
+    { "fr": "Pour la sauce brava, faire revenir l'ail, ajouter paprika et farine HORS DU FEU.", "en": "For the brava sauce, fry the garlic, then add the paprika and flour OFF THE HEAT." },
+    { "fr": "Ajouter tomate, piment et vinaigre, et laisser réduire vingt minutes, puis mixer et filtrer.", "en": "Add the tomato, chilli and vinegar, reduce for twenty minutes, then blend and strain." },
+    { "fr": "Servir les pommes de terre BRÛLANTES, sauce par-dessus, sinon la croûte ramollit en deux minutes.", "en": "Serve the potatoes SCALDING with the sauce over them, or the crust softens within two minutes." }
+  ]
+}

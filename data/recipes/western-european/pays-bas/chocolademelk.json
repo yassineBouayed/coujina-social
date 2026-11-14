@@ -1,0 +1,35 @@
+{
+  "slug": "chocolademelk",
+  "cuisine": "western-european",
+  "country": "pays-bas",
+  "origin": "Pays-Bas",
+  "native_name": "Warme chocolademelk",
+  "title": {
+    "fr": "Lait chocolaté chaud à la chantilly",
+    "en": "Hot chocolate milk with whipped cream"
+  },
+  "meal_type": "drink",
+  "servings": 4,
+  "times": { "prep_min": 10, "cook_min": 10 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hiver", "chocolat", "enfants", "gouter"],
+  "ingredients": [
+    { "raw": "80 cl de lait entier", "qty": 80, "unit": "cl", "item": "lait entier" },
+    { "raw": "60 g de cacao en poudre", "qty": 60, "unit": "g", "item": "cacao en poudre" },
+    { "raw": "80 g de chocolat noir", "qty": 80, "unit": "g", "item": "chocolat noir" },
+    { "raw": "60 g de sucre", "qty": 60, "unit": "g", "item": "sucre" },
+    { "raw": "25 cl de crème liquide entière, très froide", "qty": 25, "unit": "cl", "item": "crème liquide", "prep": "très froide" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Le cacao néerlandais est ALCALINISÉ : plus doux, plus foncé, il se dissout beaucoup mieux.", "en": "Dutch cocoa is ALKALISED: milder, darker, and it dissolves far better." },
+    { "fr": "C'est ce procédé, inventé à Amsterdam en 1828, qui a rendu le chocolat chaud possible.", "en": "That process, invented in Amsterdam in 1828, is what made hot chocolate possible." },
+    { "fr": "Faire une PÂTE avec le cacao, le sucre et deux cuillères de lait froid, avant tout le reste.", "en": "Make a PASTE with the cocoa, sugar and two spoons of cold milk, before anything else." },
+    { "fr": "Sans cette pâte, le cacao flotte en grumeaux et ne se dissout jamais.", "en": "Without that paste, the cocoa floats in lumps and never dissolves." },
+    { "fr": "Ajouter le lait progressivement en fouettant, puis le chocolat noir haché.", "en": "Add the milk gradually while whisking, then the chopped dark chocolate." },
+    { "fr": "Chauffer sans bouillir, et couvrir d'une bonne cuillerée de chantilly à peine sucrée.", "en": "Heat without boiling, and top with a good spoonful of barely sweetened whipped cream." }
+  ]
+}

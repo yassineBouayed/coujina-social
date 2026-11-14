@@ -1,0 +1,39 @@
+{
+  "slug": "pad-krapow",
+  "cuisine": "southeast-asian",
+  "country": "thailande",
+  "origin": "Thaïlande",
+  "native_name": "ผัดกะเพรา",
+  "title": {
+    "fr": "Pad krapow, porc sauté au basilic sacré",
+    "en": "Pad krapow, pork stir-fried with holy basil"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 10 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "rapide", "basilic", "oeuf"],
+  "ingredients": [
+    { "raw": "600 g de porc haché", "qty": 600, "unit": "g", "item": "porc haché" },
+    { "raw": "1 gros bouquet de basilic thaï", "qty": 1, "unit": "bunch", "item": "basilic" },
+    { "raw": "8 piments oiseau", "qty": 8, "unit": "piece", "item": "piment oiseau" },
+    { "raw": "8 gousses d'ail", "qty": 8, "unit": "piece", "item": "ail" },
+    { "raw": "3 c. à s. de sauce poisson", "qty": 3, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "2 c. à s. de sauce huître", "qty": 2, "unit": "tbsp", "item": "sauce huître" },
+    { "raw": "1 c. à s. de sauce soja foncée", "qty": 1, "unit": "tbsp", "item": "sauce soja foncée" },
+    { "raw": "1 c. à s. de sucre de palme", "qty": 1, "unit": "tbsp", "item": "sucre de palme" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf", "group": "service" },
+    { "raw": "400 g de riz long grain", "qty": 400, "unit": "g", "item": "riz long grain", "group": "service" },
+    { "raw": "8 c. à s. d'huile neutre", "qty": 8, "unit": "tbsp", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Piler ail et piments au mortier, grossièrement : hachés au couteau, ils ne libèrent pas leurs huiles.", "en": "Pound the garlic and chillies coarsely in a mortar: knife-chopped, they do not release their oils." },
+    { "fr": "Chauffer le wok à blanc et y jeter la pâte d'ail-piment dix secondes seulement.", "en": "Heat the wok until smoking and drop in the garlic-chilli paste for ten seconds only." },
+    { "fr": "Ajouter le porc et le SAISIR sans le remuer une minute, pour qu'il colore avant de rendre son eau.", "en": "Add the pork and SEAR it without stirring for a minute, so it colours before it weeps." },
+    { "fr": "Assaisonner des trois sauces et du sucre, et laisser réduire deux minutes.", "en": "Season with the three sauces and the sugar, and reduce for two minutes." },
+    { "fr": "Ajouter le basilic par grosses poignées et couper le feu IMMÉDIATEMENT : il flétrit en dix secondes.", "en": "Add the basil in large handfuls and cut the heat IMMEDIATELY: it wilts within ten seconds." },
+    { "fr": "Servir sur du riz avec un œuf au plat aux bords dentelés, frit dans beaucoup d'huile.", "en": "Serve over rice with a fried egg with frilly edges, cooked in plenty of oil." }
+  ]
+}

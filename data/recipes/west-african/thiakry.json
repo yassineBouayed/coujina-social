@@ -1,0 +1,39 @@
+{
+  "slug": "thiakry",
+  "cuisine": "west-african",
+  "origin": "Sénégal / Mali",
+  "native_name": "Thiakry",
+  "title": {
+    "fr": "Thiakry, semoule de mil au lait fermenté",
+    "en": "Thiakry, millet couscous in soured milk"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 15, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j5-catalogue-v1", "date": "2026-08-29" },
+  "tags": ["mil", "dessert", "lait-fermente", "sans-cuisson-finale"],
+  "ingredients": [
+    { "raw": "300 g de petit mil en semoule", "qty": 300, "unit": "g", "item": "petit mil", "substitutes": [{ "item": "couscous fin", "note": "le couscous de blé donne la même texture mais pas le goût de céréale grillée du mil, et il n'est plus sans gluten" }] },
+    { "raw": "50 cl de lait fermenté", "qty": 50, "unit": "cl", "item": "yaourt", "prep": "battu" },
+    { "raw": "25 cl de lait", "qty": 25, "unit": "cl", "item": "lait" },
+    { "raw": "150 g de lait concentré sucré", "qty": 150, "unit": "g", "item": "lait concentré sucré" },
+    { "raw": "60 g de sucre", "qty": 60, "unit": "g", "item": "sucre" },
+    { "raw": "1 gousse de vanille", "qty": 1, "unit": "piece", "item": "vanille", "prep": "grattée" },
+    { "raw": "1 pincée de muscade", "qty": 1, "unit": "pinch", "item": "muscade", "optional": true },
+    { "raw": "50 g de raisins secs", "qty": 50, "unit": "g", "item": "raisin sec", "optional": true },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Humecter la semoule de mil avec un peu d'eau salée et la rouler entre les paumes pour séparer les grains.", "en": "Dampen the millet with a little salted water and roll it between your palms to separate the grains." },
+    { "fr": "La cuire à la vapeur 20 minutes, en trois passages de dix, cinq et cinq minutes, en l'aérant à la fourchette entre chaque.", "en": "Steam it for 20 minutes in three passes of ten, five and five minutes, fluffing it with a fork between each." },
+    { "fr": "Laisser refroidir complètement : verser du lait sur une semoule tiède la rend collante.", "en": "Let it cool completely: pouring milk over warm grain makes it claggy." },
+    { "fr": "Battre le lait fermenté avec le lait, le lait concentré, le sucre, la vanille et la muscade.", "en": "Whisk the soured milk with the milk, condensed milk, sugar, vanilla and nutmeg." },
+    { "fr": "Mélanger la semoule froide à ce lait, ajouter les raisins et mettre au frais au moins 2 heures.", "en": "Fold the cold grain into the milk, add the raisins and chill for at least 2 hours." },
+    { "fr": "Servir très frais, dans des verres ou des bols.", "en": "Serve well chilled, in glasses or bowls." }
+  ],
+  "notes": [
+    { "fr": "La semoule boit encore au réfrigérateur. Le mélange doit être franchement liquide au moment de le ranger, sinon il devient compact au bout de deux heures.", "en": "The grain keeps drinking in the fridge. The mixture should look distinctly loose when it goes in, or it turns solid within two hours." }
+  ]
+}

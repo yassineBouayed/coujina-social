@@ -1,0 +1,39 @@
+{
+  "slug": "bulgogi",
+  "cuisine": "east-asian",
+  "country": "coree-du-sud",
+  "origin": "Corée du Sud",
+  "native_name": "불고기",
+  "title": {
+    "fr": "Bulgogi, bœuf mariné à la poire",
+    "en": "Bulgogi, pear-marinated beef"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["grillade", "populaire", "sucre-sale", "boeuf"],
+  "ingredients": [
+    { "raw": "800 g de bœuf en tranches très fines", "qty": 800, "unit": "g", "item": "steak de bœuf", "prep": "en tranches très fines" },
+    { "raw": "1 poire, râpée", "qty": 1, "unit": "piece", "item": "pomme", "prep": "râpée", "group": "marinade" },
+    { "raw": "8 c. à s. de sauce soja", "qty": 8, "unit": "tbsp", "item": "sauce soja", "group": "marinade" },
+    { "raw": "4 c. à s. de sucre roux", "qty": 4, "unit": "tbsp", "item": "sucre roux", "group": "marinade" },
+    { "raw": "3 c. à s. d'huile de sésame", "qty": 3, "unit": "tbsp", "item": "huile de sésame", "group": "marinade" },
+    { "raw": "6 gousses d'ail, râpées", "qty": 6, "unit": "piece", "item": "ail", "prep": "râpé", "group": "marinade" },
+    { "raw": "1 c. à s. de gingembre frais, râpé", "qty": 1, "unit": "tbsp", "item": "gingembre", "prep": "râpé", "group": "marinade" },
+    { "raw": "1 oignon, râpé", "qty": 1, "unit": "piece", "item": "oignon", "prep": "râpé", "group": "marinade" },
+    { "raw": "6 oignons nouveaux, en tronçons", "qty": 6, "unit": "piece", "item": "oignon nouveau", "prep": "en tronçons" },
+    { "raw": "2 c. à s. de graines de sésame", "qty": 2, "unit": "tbsp", "item": "sésame" },
+    { "raw": "1 poivre noir moulu", "qty": 1, "unit": "tsp", "item": "poivre noir", "prep": "moulu" }
+  ],
+  "steps": [
+    { "fr": "La poire râpée n'est pas décorative : son enzyme attendrit la viande, comme la papaye ailleurs.", "en": "The grated pear is not decorative: its enzyme tenderises the meat, like papaya elsewhere." },
+    { "fr": "Ne pas dépasser QUATRE HEURES de marinade : au-delà, la chair devient molle et farineuse.", "en": "Do not exceed FOUR HOURS of marinating: beyond that, the flesh turns soft and mealy." },
+    { "fr": "Congeler le bœuf une heure avant de le trancher permet d'obtenir des tranches vraiment fines.", "en": "Freezing the beef for an hour before slicing lets you cut genuinely thin slices." },
+    { "fr": "Faire chauffer la poêle À BLANC et cuire en une seule couche, sans jamais entasser.", "en": "Heat the pan until smoking and cook in a single layer, never crowding it." },
+    { "fr": "Entassé, le bulgogi rend son jus et BOUT dans la marinade au lieu de caraméliser.", "en": "Crowded, bulgogi weeps and BOILS in its marinade instead of caramelising." },
+    { "fr": "Deux minutes suffisent. Ajouter les oignons nouveaux et le sésame hors du feu.", "en": "Two minutes is enough. Add the spring onions and sesame off the heat." }
+  ]
+}

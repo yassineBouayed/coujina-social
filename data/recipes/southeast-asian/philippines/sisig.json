@@ -1,0 +1,41 @@
+{
+  "slug": "sisig",
+  "cuisine": "southeast-asian",
+  "country": "philippines",
+  "origin": "Philippines",
+  "native_name": "Sisig",
+  "title": {
+    "fr": "Sisig, porc croustillant servi grésillant",
+    "en": "Sisig, crisp chopped pork served sizzling"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 90 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["pampanga", "soiree", "citron-vert", "grille"],
+  "ingredients": [
+    { "raw": "800 g de joue de porc", "qty": 800, "unit": "g", "item": "échine de porc" },
+    { "raw": "300 g de poitrine de porc", "qty": 300, "unit": "g", "item": "poitrine de porc" },
+    { "raw": "3 oignons, hachés finement", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché finement" },
+    { "raw": "6 piments oiseau, hachés", "qty": 6, "unit": "piece", "item": "piment oiseau", "prep": "haché" },
+    { "raw": "6 gousses d'ail, hachées", "qty": 6, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "6 citrons verts, leur jus", "qty": 6, "unit": "piece", "item": "citron vert" },
+    { "raw": "6 c. à s. de mayonnaise", "qty": 6, "unit": "tbsp", "item": "mayonnaise" },
+    { "raw": "3 c. à s. de sauce soja", "qty": 3, "unit": "tbsp", "item": "sauce soja" },
+    { "raw": "6 feuilles de laurier", "qty": 6, "unit": "piece", "item": "laurier" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf", "group": "service" },
+    { "raw": "60 g de beurre", "qty": 60, "unit": "g", "item": "beurre", "group": "service" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le sisig passe par TROIS cuissons : pochage, grillade, puis plaque brûlante. Aucune ne se saute.", "en": "Sisig goes through THREE cookings: poaching, grilling, then a scalding plate. None is skipped." },
+    { "fr": "Pocher les viandes une heure avec laurier et poivre, jusqu'à ce qu'elles soient tendres.", "en": "Poach the meats for an hour with bay and pepper, until tender." },
+    { "fr": "Les griller sur braises ou au four très chaud jusqu'à ce que les bords NOIRCISSENT.", "en": "Grill them over coals or in a very hot oven until the edges CHAR." },
+    { "fr": "Les hacher au couteau en petits dés, en gardant le gras et le croustillant.", "en": "Chop them into small dice with a knife, keeping the fat and the crunch." },
+    { "fr": "Mélanger avec oignon cru, ail, piments, citron vert, sauce soja et mayonnaise.", "en": "Mix with raw onion, garlic, chillies, lime, soy and mayonnaise." },
+    { "fr": "Servir sur une plaque en fonte BRÛLANTE avec du beurre, et casser les œufs dessus à table.", "en": "Serve on a SCALDING cast-iron plate with butter, and crack the eggs onto it at the table." }
+  ]
+}

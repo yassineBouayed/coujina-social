@@ -1,0 +1,42 @@
+{
+  "slug": "com-tam",
+  "cuisine": "southeast-asian",
+  "country": "vietnam",
+  "origin": "Viêt Nam",
+  "native_name": "Cơm tấm",
+  "title": {
+    "fr": "Cơm tấm, riz brisé au porc grillé",
+    "en": "Com tam, broken rice with grilled pork"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 35, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["saigon", "riz-brise", "grillade", "quotidien"],
+  "ingredients": [
+    { "raw": "400 g de riz brisé", "qty": 400, "unit": "g", "item": "riz brisé" },
+    { "raw": "4 côtes de porc", "qty": 4, "unit": "piece", "item": "échine de porc" },
+    { "raw": "4 c. à s. de sauce poisson", "qty": 4, "unit": "tbsp", "item": "sauce poisson", "group": "marinade" },
+    { "raw": "3 c. à s. de sucre de palme", "qty": 3, "unit": "tbsp", "item": "sucre de palme", "group": "marinade" },
+    { "raw": "3 c. à s. de lait de coco", "qty": 3, "unit": "tbsp", "item": "lait de coco", "group": "marinade" },
+    { "raw": "1 tige de citronnelle, hachée", "qty": 1, "unit": "piece", "item": "citronnelle", "prep": "hachée", "group": "marinade" },
+    { "raw": "4 gousses d'ail, écrasées", "qty": 4, "unit": "piece", "item": "ail", "prep": "écrasé", "group": "marinade" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf", "group": "garniture" },
+    { "raw": "1 concombre, en rondelles", "qty": 1, "unit": "piece", "item": "concombre", "prep": "en rondelles", "group": "garniture" },
+    { "raw": "2 tomates, en rondelles", "qty": 2, "unit": "piece", "item": "tomate", "prep": "en rondelles", "group": "garniture" },
+    { "raw": "6 c. à s. de sauce poisson", "qty": 6, "unit": "tbsp", "item": "sauce poisson", "group": "nuoc-cham" },
+    { "raw": "6 c. à s. de sucre", "qty": 6, "unit": "tbsp", "item": "sucre", "group": "nuoc-cham" },
+    { "raw": "3 citrons verts, leur jus", "qty": 3, "unit": "piece", "item": "citron vert", "group": "nuoc-cham" },
+    { "raw": "4 oignons nouveaux, ciselés", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé", "group": "garniture" }
+  ],
+  "steps": [
+    { "fr": "Le riz brisé n'est pas un riz de second choix : sa texture cassée est CHOISIE, et c'est le nom du plat.", "en": "Broken rice is not second-rate rice: its broken texture is CHOSEN, and it names the dish." },
+    { "fr": "Le rincer trois fois et le cuire avec un peu moins d'eau qu'un riz entier.", "en": "Rinse it three times and cook it with slightly less water than whole-grain rice." },
+    { "fr": "Faire mariner les côtes de porc quatre heures : le lait de coco aide à la caramélisation.", "en": "Marinate the pork chops for four hours: the coconut milk helps them caramelise." },
+    { "fr": "Griller sur braises vives, en badigeonnant de marinade, jusqu'à ce que les bords noircissent.", "en": "Grill over hot coals, basting with the marinade, until the edges char." },
+    { "fr": "Faire l'huile d'oignons nouveaux : les ébouillanter à l'huile chaude, trente secondes.", "en": "Make the spring onion oil: scald them with hot oil, thirty seconds." },
+    { "fr": "Dresser riz, côte, œuf au plat et crudités, avec un bol de nuoc cham à verser dessus.", "en": "Plate the rice, chop, fried egg and raw vegetables, with a bowl of nuoc cham to pour over." }
+  ]
+}

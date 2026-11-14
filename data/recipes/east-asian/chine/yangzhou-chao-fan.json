@@ -1,0 +1,39 @@
+{
+  "slug": "yangzhou-chao-fan",
+  "cuisine": "east-asian",
+  "country": "chine",
+  "origin": "Chine",
+  "native_name": "扬州炒饭",
+  "title": {
+    "fr": "Riz sauté de Yangzhou",
+    "en": "Yangzhou fried rice"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 15 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["wok", "restes", "rapide", "riz"],
+  "ingredients": [
+    { "raw": "600 g de riz long grain, cuit la veille", "qty": 600, "unit": "g", "item": "riz long grain", "prep": "cuit la veille" },
+    { "raw": "3 œufs, battus", "qty": 3, "unit": "piece", "item": "oeuf", "prep": "battu" },
+    { "raw": "150 g de crevettes, décortiquées", "qty": 150, "unit": "g", "item": "crevette", "prep": "décortiquée" },
+    { "raw": "150 g de jambon blanc, en dés", "qty": 150, "unit": "g", "item": "jambon blanc", "prep": "en dés" },
+    { "raw": "150 g de petits pois surgelés", "qty": 150, "unit": "g", "item": "petits pois surgelés" },
+    { "raw": "6 oignons nouveaux, ciselés", "qty": 6, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé" },
+    { "raw": "2 c. à s. de sauce soja claire", "qty": 2, "unit": "tbsp", "item": "sauce soja claire" },
+    { "raw": "1 c. à s. de vin de riz", "qty": 1, "unit": "tbsp", "item": "vin de riz" },
+    { "raw": "6 c. à s. d'huile neutre", "qty": 6, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel et poivre blanc", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre blanc", "qty": null, "unit": null, "item": "poivre blanc" }
+  ],
+  "steps": [
+    { "fr": "Le riz DOIT être froid et de la veille : chaud, il colle et le wok fait de la bouillie.", "en": "The rice MUST be cold and from the day before: warm, it clumps and the wok makes porridge." },
+    { "fr": "L'égrener à la main avant de commencer, pour qu'aucun grain ne colle à un autre.", "en": "Separate it by hand before starting, so no grain sticks to another." },
+    { "fr": "Chauffer le wok à blanc, brouiller les œufs en dix secondes et les réserver.", "en": "Heat the wok until smoking, scramble the eggs in ten seconds and set them aside." },
+    { "fr": "Saisir crevettes et jambon, ajouter les petits pois, puis le riz froid.", "en": "Sear the prawns and ham, add the peas, then the cold rice." },
+    { "fr": "Sauter en SOULEVANT le riz, jamais en écrasant : chaque grain doit rester entier et sec.", "en": "Toss by LIFTING the rice, never crushing: every grain must stay whole and dry." },
+    { "fr": "Remettre les œufs, assaisonner, ajouter les oignons nouveaux hors du feu et servir aussitôt.", "en": "Return the eggs, season, add the spring onions off the heat and serve at once." }
+  ]
+}

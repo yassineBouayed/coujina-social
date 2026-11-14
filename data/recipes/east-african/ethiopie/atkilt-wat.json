@@ -1,0 +1,37 @@
+{
+  "slug": "atkilt-wat",
+  "cuisine": "east-african",
+  "country": "ethiopie",
+  "origin": "Éthiopie",
+  "native_name": "Atkilt wat",
+  "title": {
+    "fr": "Atkilt wat, chou, carottes et pommes de terre",
+    "en": "Atkilt wat, cabbage, carrot and potato"
+  },
+  "meal_type": "side",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 40 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["jeune", "vegetarien", "doux", "accompagnement"],
+  "ingredients": [
+    { "raw": "1 chou blanc, en lanières", "qty": 1, "unit": "piece", "item": "chou blanc", "prep": "en lanières" },
+    { "raw": "4 carottes, en bâtonnets", "qty": 4, "unit": "piece", "item": "carotte", "prep": "en bâtonnets" },
+    { "raw": "4 pommes de terre, en quartiers", "qty": 4, "unit": "piece", "item": "pomme de terre", "prep": "en quartiers" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "1 c. à s. de curcuma", "qty": 1, "unit": "tbsp", "item": "curcuma" },
+    { "raw": "1 c. à s. de gingembre frais, râpé", "qty": 1, "unit": "tbsp", "item": "gingembre", "prep": "râpé" },
+    { "raw": "4 gousses d'ail, écrasées", "qty": 4, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "8 c. à s. d'huile neutre", "qty": 8, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire revenir les oignons dans l'huile jusqu'à ce qu'ils soient translucides.", "en": "Soften the onions in the oil until translucent." },
+    { "fr": "Ajouter le curcuma, l'ail et le gingembre, et cuire deux minutes.", "en": "Add the turmeric, garlic and ginger, and cook for two minutes." },
+    { "fr": "Ajouter les carottes et les pommes de terre, et laisser dix minutes à couvert sans eau.", "en": "Add the carrots and potatoes, and cook covered for ten minutes with no water." },
+    { "fr": "Ajouter le chou en dernier : il rend de l'eau et cuit les autres légumes à la vapeur.", "en": "Add the cabbage last: it releases water and steams the rest." },
+    { "fr": "Couvrir et laisser vingt-cinq minutes à feu doux, sans jamais ajouter d'eau.", "en": "Cover and cook for twenty-five minutes over low heat, never adding water." },
+    { "fr": "Saler à la fin. Les légumes doivent rester en morceaux distincts, pas en purée.", "en": "Salt at the end. The vegetables should stay in distinct pieces, not purée." }
+  ]
+}

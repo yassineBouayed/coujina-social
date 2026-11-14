@@ -1,0 +1,40 @@
+{
+  "slug": "apfelstrudel",
+  "cuisine": "western-european",
+  "country": "autriche",
+  "origin": "Autriche",
+  "native_name": "Apfelstrudel",
+  "title": {
+    "fr": "Strudel aux pommes",
+    "en": "Apple strudel"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 60, "cook_min": 45 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["vienne", "pomme", "embleme", "cafe"],
+  "ingredients": [
+    { "raw": "300 g de farine de blé", "qty": 300, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "15 cl d'eau tiède", "qty": 15, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "5 cl d'huile neutre", "qty": 5, "unit": "cl", "item": "huile neutre", "group": "pâte" },
+    { "raw": "1 c. à s. de vinaigre de vin", "qty": 1, "unit": "tbsp", "item": "vinaigre de vin", "group": "pâte" },
+    { "raw": "1,2 kg de pommes à cuire, en fines tranches", "qty": 1200, "unit": "g", "item": "pomme", "prep": "en fines tranches", "group": "garniture" },
+    { "raw": "120 g de sucre", "qty": 120, "unit": "g", "item": "sucre", "group": "garniture" },
+    { "raw": "120 g de raisins secs", "qty": 120, "unit": "g", "item": "raisin sec", "group": "garniture" },
+    { "raw": "100 g de chapelure", "qty": 100, "unit": "g", "item": "panko", "group": "garniture" },
+    { "raw": "3 c. à c. de cannelle moulue", "qty": 3, "unit": "tsp", "item": "cannelle", "group": "garniture" },
+    { "raw": "1 citron, son jus et son zeste", "qty": 1, "unit": "piece", "item": "citron", "group": "garniture" },
+    { "raw": "150 g de beurre, fondu", "qty": 150, "unit": "g", "item": "beurre", "prep": "fondu" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "La pâte à strudel s'étire À LA MAIN jusqu'à devenir TRANSPARENTE : on doit lire un journal à travers.", "en": "Strudel dough is stretched BY HAND until TRANSPARENT: you should read a newspaper through it." },
+    { "fr": "Le VINAIGRE dans la pâte détend le gluten : sans lui, elle se rétracte et se déchire.", "en": "The VINEGAR in the dough relaxes the gluten: without it, it springs back and tears." },
+    { "fr": "La laisser reposer UNE HEURE sous un bol chaud, huilée : le repos est ce qui la rend extensible.", "en": "Rest it for AN HOUR under a warm bowl, oiled: resting is what makes it stretchable." },
+    { "fr": "Faire dorer la chapelure au beurre et l'étaler sur la pâte AVANT les pommes.", "en": "Fry the breadcrumbs in butter and spread them on the dough BEFORE the apples." },
+    { "fr": "Cette chapelure absorbe le jus des pommes : sans elle, le fond du strudel est détrempé.", "en": "Those crumbs absorb the apple juices: without them, the strudel base is soggy." },
+    { "fr": "Rouler EN S'AIDANT DU TORCHON, badigeonner de beurre, et cuire 45 minutes à 180 °C.", "en": "Roll it USING THE CLOTH, brush with butter, and bake for 45 minutes at 180°C." }
+  ]
+}

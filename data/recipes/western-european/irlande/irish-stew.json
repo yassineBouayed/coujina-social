@@ -1,0 +1,39 @@
+{
+  "slug": "irish-stew",
+  "cuisine": "western-european",
+  "country": "irlande",
+  "origin": "Irlande",
+  "native_name": "Irish stew",
+  "title": {
+    "fr": "Ragoût irlandais à l'agneau",
+    "en": "Irish lamb stew"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 150 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["embleme", "agneau", "mijote", "hiver"],
+  "ingredients": [
+    { "raw": "1,3 kg de collier d'agneau, en morceaux", "qty": 1300, "unit": "g", "item": "agneau", "prep": "en morceaux à mijoter" },
+    { "raw": "1,2 kg de pommes de terre, en gros morceaux", "qty": 1200, "unit": "g", "item": "pomme de terre", "prep": "en gros morceaux" },
+    { "raw": "4 oignons, en quartiers", "qty": 4, "unit": "piece", "item": "oignon", "prep": "en quartiers" },
+    { "raw": "4 carottes, en gros tronçons", "qty": 4, "unit": "piece", "item": "carotte", "prep": "en gros tronçons" },
+    { "raw": "3 poireaux, en tronçons", "qty": 3, "unit": "piece", "item": "poireau", "prep": "en tronçons" },
+    { "raw": "1,2 l de bouillon d'agneau", "qty": 1.2, "unit": "l", "item": "bouillon boeuf" },
+    { "raw": "3 c. à c. de thym séché", "qty": 3, "unit": "tsp", "item": "thym" },
+    { "raw": "3 feuilles de laurier", "qty": 3, "unit": "piece", "item": "laurier" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "L'Irish stew traditionnel ne se saisit PAS : la viande part crue, dans le bouillon froid.", "en": "A traditional Irish stew is NOT seared: the meat goes in raw, into cold stock." },
+    { "fr": "C'est ce qui donne le bouillon pâle et laiteux qui le caractérise, sans sauce brune.", "en": "That is what gives it the pale, milky broth that defines it, with no brown gravy." },
+    { "fr": "Choisir un morceau à OS : le collier ou l'épaule, jamais du gigot, qui sèche en deux heures.", "en": "Choose a cut ON THE BONE: neck or shoulder, never leg, which dries out in two hours." },
+    { "fr": "Monter en couches : viande, oignons, carottes, puis les pommes de terre par-dessus.", "en": "Layer it up: meat, onions, carrots, then the potatoes on top." },
+    { "fr": "Utiliser DEUX SORTES de pommes de terre : les farineuses fondent et lient, les fermes tiennent.", "en": "Use TWO kinds of potato: floury ones melt and thicken, waxy ones hold their shape." },
+    { "fr": "Cuire deux heures et demie à couvert, à feu très doux, sans jamais faire bouillir.", "en": "Cook for two and a half hours covered, over very low heat, never at a boil." }
+  ]
+}

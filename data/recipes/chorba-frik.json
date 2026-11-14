@@ -1,0 +1,48 @@
+{
+  "slug": "chorba-frik",
+  "cuisine": "maghrebi",
+  "country": "algerie",
+  "origin": "Algérie",
+  "native_name": "Chorba frik",
+  "title": {
+    "fr": "Chorba frik, soupe d'agneau au blé vert concassé",
+    "en": "Chorba frik, lamb soup with cracked green wheat"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 60 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j2-sonde-v1", "date": "2026-08-28" },
+  "tags": ["soupe", "ramadan", "agneau", "emblematique"],
+  "ingredients": [
+    { "raw": "400 g d'épaule d'agneau, en petits dés", "qty": 400, "unit": "g", "item": "épaule d'agneau", "prep": "en petits dés" },
+    { "raw": "120 g de frik (blé vert concassé), rincé", "qty": 120, "unit": "g", "item": "frik", "prep": "rincé", "substitutes": [{ "item": "boulgour", "note": "il manque le goût fumé du blé vert grillé, qui est toute la chorba" }] },
+    { "raw": "1 oignon, haché finement", "qty": 1, "unit": "piece", "item": "oignon", "prep": "haché finement" },
+    { "raw": "3 tomates, pelées et concassées", "qty": 3, "unit": "piece", "item": "tomate", "prep": "pelée et concassée" },
+    { "raw": "1 c. à s. de concentré de tomate", "qty": 1, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "100 g de pois chiches trempés la veille", "qty": 100, "unit": "g", "item": "pois chiche sec", "prep": "trempé la veille" },
+    { "raw": "1 branche de céleri", "qty": 1, "unit": "piece", "item": "céleri branche", "prep": "émincé" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle moulue" },
+    { "raw": "1/2 c. à c. de poivre noir", "qty": 0.5, "unit": "tsp", "item": "poivre noir" },
+    { "raw": "1 c. à c. de paprika", "qty": 1, "unit": "tsp", "item": "paprika" },
+    { "raw": "3 c. à s. d'huile d'olive", "qty": 3, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "1 bouquet de coriandre fraîche, ciselé", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "1 c. à s. de menthe séchée", "qty": 1, "unit": "tbsp", "item": "menthe séchée" },
+    { "raw": "1,5 l d'eau", "qty": 1.5, "unit": "l", "item": "eau" },
+    { "raw": "1 citron, en quartiers, pour servir", "qty": 1, "unit": "piece", "item": "citron", "prep": "en quartiers" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire revenir la viande, l'oignon et le céleri dans l'huile avec la cannelle, le paprika et le poivre, cinq minutes.", "en": "Fry the meat, onion and celery in the oil with the cinnamon, paprika and pepper for five minutes." },
+    { "fr": "Ajouter les tomates et le concentré, laisser compoter cinq minutes de plus.", "en": "Add the tomatoes and the tomato paste and let them cook down for another five minutes." },
+    { "fr": "Mouiller avec l'eau, ajouter les pois chiches, couvrir et laisser cuire 35 minutes.", "en": "Pour in the water, add the chickpeas, cover and cook for 35 minutes." },
+    { "fr": "Verser le frik rincé en pluie, en remuant : il attache très vite au fond.", "en": "Rain in the rinsed frik while stirring: it catches on the bottom very quickly." },
+    { "fr": "Cuire 20 minutes à découvert, en remuant souvent, jusqu'à ce que les grains soient tendres et la soupe crémeuse.", "en": "Cook uncovered for 20 minutes, stirring often, until the grains are tender and the soup creamy." },
+    { "fr": "Hors du feu, ajouter la coriandre et la menthe séchée écrasée entre les paumes.", "en": "Off the heat, add the coriander and the dried mint crushed between your palms." },
+    { "fr": "Servir avec un quartier de citron par bol.", "en": "Serve with a lemon wedge per bowl." }
+  ],
+  "notes": [
+    { "fr": "Elle épaissit en refroidissant : prévoir un peu d'eau chaude au réchauffage.", "en": "It thickens as it cools: keep a little hot water back for reheating." }
+  ]
+}

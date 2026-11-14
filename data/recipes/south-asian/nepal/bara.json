@@ -1,0 +1,37 @@
+{
+  "slug": "bara",
+  "cuisine": "south-asian",
+  "country": "nepal",
+  "origin": "Népal",
+  "native_name": "Bara",
+  "title": {
+    "fr": "Bara, galettes de lentilles noires à l'œuf",
+    "en": "Bara, black lentil patties with egg"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["newar", "lentille", "poele", "fete"],
+  "ingredients": [
+    { "raw": "400 g de lentilles noires décortiquées, trempées la veille", "qty": 400, "unit": "g", "item": "lentille noire", "prep": "trempée la veille" },
+    { "raw": "1 c. à s. de gingembre frais, râpé", "qty": 1, "unit": "tbsp", "item": "gingembre", "prep": "râpé" },
+    { "raw": "1 c. à c. de timur, moulu", "qty": 1, "unit": "tsp", "item": "timur", "prep": "moulu" },
+    { "raw": "1 pincée d'asafoetida", "qty": 1, "unit": "pinch", "item": "asafoetida" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "3 piments verts, hachés", "qty": 3, "unit": "piece", "item": "piment frais", "prep": "haché" },
+    { "raw": "10 cl d'huile de moutarde", "qty": 10, "unit": "cl", "item": "huile de moutarde" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Tremper les lentilles noires une nuit, puis les frotter pour retirer les peaux restantes.", "en": "Soak the black lentils overnight, then rub them to remove any remaining skins." },
+    { "fr": "Les mixer avec le MINIMUM d'eau, en une pâte épaisse : trop liquide, la bara ne tient pas.", "en": "Blend them with the MINIMUM of water, into a thick paste: too loose and the bara will not hold." },
+    { "fr": "Battre la pâte à la main cinq minutes pour l'aérer : elle doit flotter dans un verre d'eau.", "en": "Beat the batter by hand for five minutes to aerate it: it should float in a glass of water." },
+    { "fr": "Ce test du verre d'eau est le seul moyen de savoir si la pâte est prête.", "en": "That glass-of-water test is the only way to know whether the batter is ready." },
+    { "fr": "Ajouter gingembre, timur, asafoetida, piments et sel, et verser des galettes épaisses à la poêle.", "en": "Add the ginger, timur, asafoetida, chillies and salt, and pour thick patties into the pan." },
+    { "fr": "Casser un œuf sur chacune, l'étaler, et retourner après cinq minutes.", "en": "Crack an egg onto each, spread it, and turn after five minutes." }
+  ]
+}

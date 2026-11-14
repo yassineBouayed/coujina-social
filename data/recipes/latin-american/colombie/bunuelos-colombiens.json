@@ -1,0 +1,36 @@
+{
+  "slug": "bunuelos-colombiens",
+  "cuisine": "latin-american",
+  "country": "colombie",
+  "origin": "Colombie",
+  "native_name": "Buñuelos",
+  "title": {
+    "fr": "Buñuelos colombiens au fromage",
+    "en": "Colombian cheese buñuelos"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 25, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["noel", "fromage", "friture", "sans-gluten"],
+  "ingredients": [
+    { "raw": "600 g de queso fresco, râpé très fin", "qty": 600, "unit": "g", "item": "queso fresco", "prep": "râpé très fin" },
+    { "raw": "200 g de fécule de maïs", "qty": 200, "unit": "g", "item": "maïzena" },
+    { "raw": "120 g de fécule de tapioca", "qty": 120, "unit": "g", "item": "fécule de tapioca" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf" },
+    { "raw": "3 c. à s. de sucre", "qty": 3, "unit": "tbsp", "item": "sucre" },
+    { "raw": "1 c. à c. de levure chimique", "qty": 1, "unit": "tsp", "item": "levure chimique" },
+    { "raw": "2 l d'huile neutre pour la friture", "qty": 2, "unit": "l", "item": "huile neutre" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le buñuelo colombien est SALÉ-SUCRÉ et surtout FROMAGER : ce n'est pas un beignet sucré.", "en": "The Colombian buñuelo is sweet-savoury and above all CHEESY: it is not a sweet doughnut." },
+    { "fr": "Il ne contient AUCUNE farine de blé : uniquement des fécules, il est donc sans gluten.", "en": "It contains NO wheat flour: only starches, so it is gluten-free." },
+    { "fr": "Râper le fromage TRÈS fin, presque en poudre : en gros morceaux, il fond et perce la boule.", "en": "Grate the cheese VERY fine, almost to a powder: in chunks, it melts and pierces the ball." },
+    { "fr": "Frire à 150 °C seulement : c'est la basse température qui fait tourner et gonfler le buñuelo.", "en": "Fry at 150°C only: the low temperature is what makes a buñuelo turn and swell." },
+    { "fr": "Il doit TOURNER SEUL dans l'huile : c'est le signe qu'il gonfle correctement, et il tourne longtemps.", "en": "It must TURN BY ITSELF in the oil: the sign it is puffing correctly, and it turns for a long time." },
+    { "fr": "À 180 °C, il dore en deux minutes mais reste cru et compact au centre.", "en": "At 180°C, it browns within two minutes but stays raw and dense inside." }
+  ]
+}

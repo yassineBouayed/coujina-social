@@ -1,0 +1,41 @@
+{
+  "slug": "seco-de-cordero",
+  "cuisine": "latin-american",
+  "country": "perou",
+  "origin": "Pérou",
+  "native_name": "Seco de cordero",
+  "title": {
+    "fr": "Seco d'agneau à la coriandre",
+    "en": "Lamb seco with coriander"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 120 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["nord", "agneau", "coriandre", "mijote"],
+  "ingredients": [
+    { "raw": "1,3 kg d'épaule d'agneau, en gros cubes", "qty": 1300, "unit": "g", "item": "épaule d'agneau", "prep": "en gros cubes" },
+    { "raw": "3 gros bouquets de coriandre", "qty": 3, "unit": "bunch", "item": "coriandre fraîche" },
+    { "raw": "200 g d'épinards", "qty": 200, "unit": "g", "item": "épinard" },
+    { "raw": "4 piments ají amarillo", "qty": 4, "unit": "piece", "item": "ají amarillo" },
+    { "raw": "3 oignons rouges, hachés", "qty": 3, "unit": "piece", "item": "oignon rouge", "prep": "haché" },
+    { "raw": "8 gousses d'ail, hachées", "qty": 8, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "33 cl de bière brune", "qty": 33, "unit": "cl", "item": "bière" },
+    { "raw": "3 c. à s. de cumin moulu", "qty": 3, "unit": "tbsp", "item": "cumin" },
+    { "raw": "600 g de pommes de terre, en morceaux", "qty": 600, "unit": "g", "item": "pomme de terre", "prep": "en morceaux" },
+    { "raw": "300 g de courge butternut, en dés", "qty": 300, "unit": "g", "item": "butternut", "prep": "en dés" },
+    { "raw": "10 cl d'huile neutre", "qty": 10, "unit": "cl", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "« Seco » veut dire sec, mais le plat est en sauce : le nom vient de l'arabe, par l'Espagne.", "en": "\"Seco\" means dry, yet the dish is saucy: the name comes from Arabic, via Spain." },
+    { "fr": "Il faut TROIS bouquets de coriandre pour six personnes : ce n'est pas une herbe d'appoint ici.", "en": "THREE bunches of coriander for six people: it is not a finishing herb here." },
+    { "fr": "Mixer la coriandre AVEC les épinards et un peu d'eau : le vert tient bien mieux.", "en": "Blend the coriander WITH spinach and a little water: the green holds far better." },
+    { "fr": "Saisir l'agneau par petites quantités, puis faire le sofrito dans le même gras.", "en": "Sear the lamb in small batches, then make the sofrito in the same fat." },
+    { "fr": "Déglacer à la BIÈRE, remettre la viande, et mijoter une heure et demie à couvert.", "en": "Deglaze with BEER, return the meat, and simmer for an hour and a half, covered." },
+    { "fr": "Ajouter la purée verte les VINGT dernières minutes : cuite longtemps, elle brunit.", "en": "Add the green purée in the LAST TWENTY minutes: cooked long, it turns brown." }
+  ]
+}

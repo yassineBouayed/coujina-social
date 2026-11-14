@@ -1,0 +1,35 @@
+{
+  "slug": "roshogolla",
+  "cuisine": "south-asian",
+  "country": "bangladesh",
+  "origin": "Bangladesh",
+  "native_name": "Roshogolla",
+  "title": {
+    "fr": "Roshogolla, boules de fromage frais au sirop",
+    "en": "Roshogolla, fresh cheese balls in syrup"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 50, "cook_min": 30 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["bengale", "fromage", "sirop", "fete"],
+  "ingredients": [
+    { "raw": "2 l de lait entier", "qty": 2, "unit": "l", "item": "lait entier" },
+    { "raw": "4 c. à s. de vinaigre blanc", "qty": 4, "unit": "tbsp", "item": "vinaigre blanc" },
+    { "raw": "2 c. à s. de semoule fine", "qty": 2, "unit": "tbsp", "item": "semoule fine" },
+    { "raw": "500 g de sucre", "qty": 500, "unit": "g", "item": "sucre", "group": "sirop" },
+    { "raw": "1,5 l d'eau", "qty": 1.5, "unit": "l", "item": "eau", "group": "sirop" },
+    { "raw": "4 gousses de cardamome, écrasées", "qty": 4, "unit": "piece", "item": "cardamome", "prep": "écrasée", "group": "sirop" },
+    { "raw": "1 c. à s. d'eau de rose", "qty": 1, "unit": "tbsp", "item": "eau de rose", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Porter le lait à ébullition, couper le feu, et ajouter le vinaigre pour le faire cailler.", "en": "Bring the milk to a boil, cut the heat, and add the vinegar to curdle it." },
+    { "fr": "Filtrer le caillé et le RINCER ABONDAMMENT à l'eau froide : sans cela, le roshogolla goûte le vinaigre.", "en": "Strain the curd and RINSE IT THOROUGHLY in cold water: without that, roshogolla tastes of vinegar." },
+    { "fr": "Presser une demi-heure, puis PÉTRIR le caillé à la paume dix minutes, jusqu'à ce qu'il devienne lisse et gras.", "en": "Press it for half an hour, then KNEAD the curd with your palm for ten minutes, until it turns smooth and buttery." },
+    { "fr": "Ce pétrissage est le geste décisif : mal pétri, le caillé se fend en cuisson et se désintègre.", "en": "That kneading is the decisive step: badly kneaded, the curd cracks while cooking and falls apart." },
+    { "fr": "Rouler des boules parfaitement lisses, sans fissure, et les plonger dans le sirop en ÉBULLITION.", "en": "Roll perfectly smooth, crack-free balls and drop them into BOILING syrup." },
+    { "fr": "Cuire quinze minutes à couvert : elles doivent doubler de volume. Laisser refroidir dans le sirop.", "en": "Cook for fifteen minutes covered: they should double in size. Cool them in the syrup." }
+  ]
+}

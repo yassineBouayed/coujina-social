@@ -1,0 +1,48 @@
+{
+  "slug": "mafe",
+  "cuisine": "west-african",
+  "origin": "Mali / Sénégal",
+  "native_name": "Maafe",
+  "title": {
+    "fr": "Mafé de bœuf à la pâte d'arachide",
+    "en": "Beef maafe in peanut sauce"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 90 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j5-catalogue-v1", "date": "2026-08-29" },
+  "tags": ["arachide", "mijote", "boeuf", "plat-unique"],
+  "ingredients": [
+    { "raw": "1 kg de bœuf à mijoter, en gros cubes", "qty": 1, "unit": "kg", "item": "bœuf à mijoter", "prep": "en gros cubes", "substitutes": [{ "item": "agneau", "note": "l'agneau donne un mafé plus gras et plus court en cuisson ; le goût d'arachide passe moins au premier plan" }] },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "4 gousses d'ail, écrasées", "qty": 4, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "5 cl d'huile d'arachide", "qty": 5, "unit": "cl", "item": "huile d'arachide" },
+    { "raw": "2 c. à s. de concentré de tomate", "qty": 2, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "250 g de pâte d'arachide", "qty": 250, "unit": "g", "item": "pâte d'arachide" },
+    { "raw": "2 tomates, concassées", "qty": 2, "unit": "piece", "item": "tomate", "prep": "concassée" },
+    { "raw": "1 cube de bouillon", "qty": 1, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "1 piment antillais entier", "qty": 1, "unit": "piece", "item": "habanero", "optional": true },
+    { "raw": "2 carottes, en tronçons", "qty": 2, "unit": "piece", "item": "carotte", "prep": "en tronçons" },
+    { "raw": "300 g de patate douce, en gros morceaux", "qty": 300, "unit": "g", "item": "patate douce", "prep": "en gros morceaux" },
+    { "raw": "1/2 chou blanc, en quartiers", "qty": 0.5, "unit": "piece", "item": "chou blanc", "prep": "en quartiers" },
+    { "raw": "1 aubergine, en gros dés", "qty": 1, "unit": "piece", "item": "aubergine", "prep": "en gros dés" },
+    { "raw": "400 g de riz long grain", "qty": 400, "unit": "g", "item": "riz long grain" },
+    { "raw": "sel, poivre", "qty": null, "unit": null, "item": "poivre noir" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Saisir la viande dans l'huile chaude, en plusieurs fois pour qu'elle colore au lieu de bouillir. Réserver.", "en": "Sear the meat in the hot oil, in batches so it browns instead of stewing. Set aside." },
+    { "fr": "Faire fondre les oignons et l'ail dans la même huile, ajouter le concentré de tomate et le cuire deux à trois minutes jusqu'à ce qu'il fonce.", "en": "Soften the onions and garlic in the same oil, add the tomato paste and fry it for two or three minutes until it darkens." },
+    { "fr": "Délayer la pâte d'arachide dans 50 cl d'eau tiède, en écrasant les grumeaux, et la verser dans la marmite avec les tomates et le cube.", "en": "Slacken the peanut paste in 500 ml of warm water, crushing the lumps, and pour it into the pot with the tomatoes and the stock cube." },
+    { "fr": "Remettre la viande, ajouter 50 cl d'eau et le piment entier. Cuire à découvert 1 heure à petits bouillons, en remuant le fond régulièrement : la pâte d'arachide attache vite.", "en": "Return the meat, add another 500 ml of water and the whole chilli. Cook uncovered for an hour at a gentle simmer, scraping the bottom regularly: peanut paste catches easily." },
+    { "fr": "Ajouter les carottes et la patate douce, puis vingt minutes plus tard le chou et l'aubergine. Poursuivre jusqu'à ce que tout soit tendre.", "en": "Add the carrots and sweet potato, then twenty minutes later the cabbage and aubergine. Continue until everything is tender." },
+    { "fr": "La sauce est prête quand l'huile d'arachide remonte en surface et forme une pellicule rouge-orangé. Saler alors seulement, retirer le piment sans le crever.", "en": "The sauce is ready when the peanut oil rises and forms an orange-red film on top. Season only then, and lift out the chilli without bursting it." },
+    { "fr": "Servir sur du riz long grain cuit à l'eau salée.", "en": "Serve over long-grain rice boiled in salted water." }
+  ],
+  "notes": [
+    { "fr": "Le piment cuit entier parfume sans piquer. Ceux qui veulent du feu l'écrasent dans leur assiette : c'est la manière habituelle de servir un plat que mangent aussi des enfants.", "en": "The whole chilli perfumes without heat. Those who want fire crush it on their own plate: that is the usual way to serve a dish children eat too." },
+    { "fr": "La pâte d'arachide du commerce est souvent sucrée. Prendre celle des épiceries africaines, non sucrée : un mafé sucré n'est pas un mafé.", "en": "Supermarket peanut butter is usually sweetened. Use the unsweetened paste from African grocers: a sweet maafe is not a maafe." }
+  ]
+}

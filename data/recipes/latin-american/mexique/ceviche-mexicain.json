@@ -1,0 +1,43 @@
+{
+  "slug": "ceviche-mexicain",
+  "cuisine": "latin-american",
+  "country": "mexique",
+  "origin": "Mexique",
+  "native_name": "Ceviche",
+  "title": {
+    "fr": "Ceviche de poisson au citron vert",
+    "en": "Fish ceviche with lime"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 0 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["cote", "cru", "citron-vert", "ete"],
+  "ingredients": [
+    { "raw": "800 g de filet de dorade, en dés", "qty": 800, "unit": "g", "item": "dorade", "prep": "en dés" },
+    { "raw": "10 citrons verts, leur jus", "qty": 10, "unit": "piece", "item": "citron vert" },
+    { "raw": "1 oignon rouge, émincé finement", "qty": 1, "unit": "piece", "item": "oignon rouge", "prep": "émincé finement" },
+    { "raw": "3 tomates, épépinées et en dés", "qty": 3, "unit": "piece", "item": "tomate", "prep": "épépinée, en dés" },
+    { "raw": "1 concombre, en dés", "qty": 1, "unit": "piece", "item": "concombre", "prep": "en dés" },
+    { "raw": "3 piments frais, hachés", "qty": 3, "unit": "piece", "item": "piment frais", "prep": "haché" },
+    { "raw": "1 bouquet de coriandre, ciselée", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "2 avocats, en dés", "qty": 2, "unit": "piece", "item": "avocat", "prep": "en dés" },
+    { "raw": "6 c. à s. d'huile d'olive", "qty": 6, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "200 g de tortillas de maïs, en chips", "qty": 200, "unit": "g", "item": "tortilla de maïs", "prep": "en chips", "group": "service" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le poisson doit être D'UNE FRAÎCHEUR ABSOLUE et avoir été congelé 24 heures : c'est une règle sanitaire.", "en": "The fish must be ABSOLUTELY fresh and have been frozen for 24 hours: a food-safety rule." },
+    { "fr": "L'acide du citron DÉNATURE les protéines : il ne tue pas les parasites, contrairement à la cuisson.", "en": "Lime acid DENATURES the proteins: it does not kill parasites, unlike cooking." },
+    { "fr": "Couper le poisson en dés RÉGULIERS d'un centimètre : irréguliers, ils ne « cuisent » pas ensemble.", "en": "Cut the fish into EVEN one-centimetre dice: uneven, they do not \"cook\" together." },
+    { "fr": "Le laisser dans le citron QUINZE À VINGT MINUTES seulement : au-delà, la chair devient farineuse.", "en": "Leave it in the lime for FIFTEEN TO TWENTY MINUTES only: beyond that, the flesh turns mealy." },
+    { "fr": "Ajouter les légumes et l'huile APRÈS avoir égoutté une partie du jus.", "en": "Add the vegetables and oil AFTER draining off some of the juice." },
+    { "fr": "Ajouter l'avocat EN DERNIER, juste avant de servir : mêlé plus tôt, il se défait.", "en": "Add the avocado LAST, just before serving: mixed in earlier, it breaks up." }
+  ],
+  "notes": [
+    { "fr": "Poisson cru : à éviter pour les personnes enceintes, les jeunes enfants et les personnes immunodéprimées.", "en": "Raw fish: not for pregnant people, young children or the immunocompromised." }
+  ]
+}

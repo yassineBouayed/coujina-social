@@ -1,0 +1,42 @@
+{
+  "slug": "bo-kho",
+  "cuisine": "southeast-asian",
+  "country": "vietnam",
+  "origin": "Viêt Nam",
+  "native_name": "Bò kho",
+  "title": {
+    "fr": "Bò kho, bœuf mijoté à la citronnelle",
+    "en": "Bo kho, lemongrass beef stew"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 120 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["mijote", "citronnelle", "baguette", "hiver"],
+  "ingredients": [
+    { "raw": "1,2 kg de bœuf à mijoter, en gros cubes", "qty": 1200, "unit": "g", "item": "boeuf à mijoter", "prep": "en gros cubes" },
+    { "raw": "4 carottes, en gros tronçons", "qty": 4, "unit": "piece", "item": "carotte", "prep": "en gros tronçons" },
+    { "raw": "4 tiges de citronnelle, écrasées", "qty": 4, "unit": "piece", "item": "citronnelle", "prep": "écrasée" },
+    { "raw": "3 badianes", "qty": 3, "unit": "piece", "item": "badiane" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "4 c. à s. de sauce poisson", "qty": 4, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "2 c. à s. de sucre de palme", "qty": 2, "unit": "tbsp", "item": "sucre de palme" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "6 gousses d'ail, écrasées", "qty": 6, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 c. à s. de gingembre frais, râpé", "qty": 1, "unit": "tbsp", "item": "gingembre", "prep": "râpé" },
+    { "raw": "4 baguettes courtes", "qty": 4, "unit": "piece", "item": "baguette", "group": "service" },
+    { "raw": "1 bouquet de basilic thaï", "qty": 1, "unit": "bunch", "item": "basilic", "group": "service" },
+    { "raw": "5 c. à s. d'huile neutre", "qty": 5, "unit": "tbsp", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Faire mariner le bœuf une heure avec citronnelle, ail, gingembre et sauce poisson.", "en": "Marinate the beef for an hour with lemongrass, garlic, ginger and fish sauce." },
+    { "fr": "Le saisir par petites quantités : entassé, il rend son jus et ne colore jamais.", "en": "Sear it in small batches: crowded, it weeps and never browns." },
+    { "fr": "Ajouter le concentré de tomate et le cuire deux minutes avant de mouiller.", "en": "Add the tomato purée and cook it for two minutes before adding liquid." },
+    { "fr": "Mouiller à hauteur avec les épices entières et laisser mijoter une heure et demie.", "en": "Cover with water along with the whole spices and simmer for an hour and a half." },
+    { "fr": "Ajouter les carottes pour la dernière demi-heure, en gros morceaux pour qu'elles tiennent.", "en": "Add the carrots for the last half hour, in large pieces so they hold their shape." },
+    { "fr": "Servir avec une baguette pour saucer : c'est l'héritage colonial assumé de ce plat.", "en": "Serve with a baguette to mop up: the colonial inheritance this dish wears openly." }
+  ]
+}

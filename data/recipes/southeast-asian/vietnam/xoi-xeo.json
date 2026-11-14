@@ -1,0 +1,35 @@
+{
+  "slug": "xoi-xeo",
+  "cuisine": "southeast-asian",
+  "country": "vietnam",
+  "origin": "Viêt Nam",
+  "native_name": "Xôi xéo",
+  "title": {
+    "fr": "Xôi xéo, riz gluant au haricot mungo",
+    "en": "Xoi xeo, sticky rice with mung bean"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 45 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hanoi", "petit-dejeuner", "riz-gluant", "curcuma"],
+  "ingredients": [
+    { "raw": "500 g de riz gluant, trempé la veille", "qty": 500, "unit": "g", "item": "riz gluant", "prep": "trempé la veille" },
+    { "raw": "250 g de haricot mungo décortiqué, trempé", "qty": 250, "unit": "g", "item": "haricot mungo", "prep": "trempé" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "6 échalotes, émincées", "qty": 6, "unit": "piece", "item": "échalote", "prep": "émincée" },
+    { "raw": "10 cl d'huile neutre", "qty": 10, "unit": "cl", "item": "huile neutre" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "2 c. à s. de sucre", "qty": 2, "unit": "tbsp", "item": "sucre", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Tremper le riz gluant UNE NUIT avec le curcuma : c'est le trempage, pas la cuisson, qui le colore.", "en": "Soak the glutinous rice OVERNIGHT with the turmeric: the soaking, not the cooking, is what colours it." },
+    { "fr": "Le cuire trente minutes à la vapeur, dans un linge, sans jamais le mouiller directement.", "en": "Steam it for thirty minutes in a cloth, never wetting it directly." },
+    { "fr": "Cuire le haricot mungo à la vapeur à part, puis l'écraser en purée FERME, presque sèche.", "en": "Steam the mung beans separately, then mash them into a FIRM, almost dry purée." },
+    { "fr": "Former une boule avec cette purée et la laisser refroidir : elle doit se tenir à la main.", "en": "Shape the purée into a ball and let it cool: it must hold together in the hand." },
+    { "fr": "Frire les échalotes jusqu'à ce qu'elles soient brunes et croustillantes, et garder l'huile.", "en": "Fry the shallots until brown and crisp, and keep the oil." },
+    { "fr": "Servir le riz arrosé d'huile d'échalote, avec la purée RÂPÉE dessus en copeaux fins.", "en": "Serve the rice drizzled with shallot oil, with the bean purée SHAVED over it in fine curls." }
+  ]
+}

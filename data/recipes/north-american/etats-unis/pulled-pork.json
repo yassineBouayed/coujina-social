@@ -1,0 +1,41 @@
+{
+  "slug": "pulled-pork",
+  "cuisine": "north-american",
+  "country": "etats-unis",
+  "origin": "États-Unis",
+  "native_name": "Pulled pork",
+  "title": {
+    "fr": "Effiloché de porc au barbecue",
+    "en": "Barbecue pulled pork"
+  },
+  "meal_type": "main",
+  "servings": 8,
+  "times": { "prep_min": 30, "cook_min": 420 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["sud", "barbecue", "porc", "partage"],
+  "ingredients": [
+    { "raw": "2,5 kg d'épaule de porc, avec l'os", "qty": 2500, "unit": "g", "item": "échine de porc", "prep": "avec l'os" },
+    { "raw": "4 c. à s. de paprika fumé", "qty": 4, "unit": "tbsp", "item": "paprika fumé", "group": "rub" },
+    { "raw": "4 c. à s. de sucre roux", "qty": 4, "unit": "tbsp", "item": "sucre roux", "group": "rub" },
+    { "raw": "2 c. à s. de gros sel", "qty": 2, "unit": "tbsp", "item": "gros sel", "group": "rub" },
+    { "raw": "2 c. à s. de cumin moulu", "qty": 2, "unit": "tbsp", "item": "cumin", "group": "rub" },
+    { "raw": "2 c. à s. d'ail en poudre", "qty": 2, "unit": "tbsp", "item": "ail en poudre", "group": "rub" },
+    { "raw": "1 c. à s. de piment de Cayenne", "qty": 1, "unit": "tbsp", "item": "piment de Cayenne", "group": "rub" },
+    { "raw": "30 cl de vinaigre de cidre", "qty": 30, "unit": "cl", "item": "vinaigre de cidre", "group": "sauce" },
+    { "raw": "25 cl de ketchup", "qty": 25, "unit": "cl", "item": "ketchup", "group": "sauce" },
+    { "raw": "4 c. à s. de mélasse", "qty": 4, "unit": "tbsp", "item": "mélasse", "group": "sauce" },
+    { "raw": "2 c. à s. de moutarde", "qty": 2, "unit": "tbsp", "item": "moutarde", "group": "sauce" },
+    { "raw": "8 pains à burger", "qty": 8, "unit": "piece", "item": "pain", "prep": "en pains à burger" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Frotter le rub la VEILLE et laisser reposer une nuit à découvert au réfrigérateur.", "en": "Rub the spice mix on the DAY BEFORE and rest it overnight uncovered in the fridge." },
+    { "fr": "Cuire SEPT HEURES à 110 °C : c'est la basse température qui fond le collagène en gélatine.", "en": "Cook for SEVEN HOURS at 110°C: low heat is what melts the collagen into gelatine." },
+    { "fr": "Vers 70 °C à cœur, la température ARRÊTE de monter pendant deux heures : c'est le « stall ».", "en": "Around 70°C internal, the temperature STOPS rising for two hours: the \"stall\"." },
+    { "fr": "C'est normal, c'est l'évaporation qui refroidit la viande : ne pas monter le four.", "en": "That is normal — evaporation cooling the meat: do not turn up the oven." },
+    { "fr": "La viande est prête à 95 °C à cœur : l'os doit sortir tout seul, sans aucune résistance.", "en": "It is ready at 95°C internal: the bone should pull out on its own, with no resistance." },
+    { "fr": "Laisser reposer UNE HEURE avant d'effilocher, sinon tout le jus s'échappe.", "en": "Rest for AN HOUR before shredding, or all the juices escape." }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "scotch-eggs",
+  "cuisine": "western-european",
+  "country": "royaume-uni",
+  "origin": "Royaume-Uni",
+  "native_name": "Scotch eggs",
+  "title": {
+    "fr": "Œufs écossais panés",
+    "en": "Scotch eggs"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["pique-nique", "friture", "oeuf", "pub"],
+  "ingredients": [
+    { "raw": "6 œufs, pour le cœur", "qty": 6, "unit": "piece", "item": "oeuf" },
+    { "raw": "700 g de chair à saucisse", "qty": 700, "unit": "g", "item": "porc haché" },
+    { "raw": "1 c. à s. de moutarde", "qty": 1, "unit": "tbsp", "item": "moutarde" },
+    { "raw": "2 c. à c. de thym séché", "qty": 2, "unit": "tsp", "item": "thym" },
+    { "raw": "1 c. à c. de muscade râpée", "qty": 1, "unit": "tsp", "item": "muscade", "prep": "râpée" },
+    { "raw": "2 œufs, pour la panure", "qty": 2, "unit": "piece", "item": "oeuf", "group": "panure" },
+    { "raw": "100 g de farine de blé", "qty": 100, "unit": "g", "item": "farine de blé", "group": "panure" },
+    { "raw": "200 g de chapelure", "qty": 200, "unit": "g", "item": "panko", "group": "panure" },
+    { "raw": "1,5 l d'huile neutre pour la friture", "qty": 1.5, "unit": "l", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Cuire les œufs SIX MINUTES exactement, puis les plonger dans l'eau glacée : le jaune doit rester coulant.", "en": "Boil the eggs for SIX MINUTES exactly, then plunge them into iced water: the yolk must stay runny." },
+    { "fr": "Ils recuiront à la friture : partir d'un œuf dur donne un jaune gris et crayeux.", "en": "They cook again in the fryer: starting from a hard-boiled egg gives a grey, chalky yolk." },
+    { "fr": "Les écaler avec précaution sous un filet d'eau froide : à six minutes, ils sont fragiles.", "en": "Peel them carefully under running cold water: at six minutes, they are fragile." },
+    { "fr": "Étaler la chair à saucisse sur un film et emballer chaque œuf, en couche RÉGULIÈRE.", "en": "Spread the sausage meat on cling film and wrap each egg in an EVEN layer." },
+    { "fr": "Passer farine, œuf, chapelure, et RÉFRIGÉRER trente minutes avant de frire.", "en": "Coat in flour, egg and crumbs, and CHILL for thirty minutes before frying." },
+    { "fr": "Frire à 170 °C, sept minutes : plus chaud, la panure brûle avant que la viande soit cuite.", "en": "Fry at 170°C for seven minutes: hotter, the crumb burns before the meat is cooked." }
+  ]
+}

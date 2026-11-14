@@ -1,0 +1,40 @@
+{
+  "slug": "hummus",
+  "cuisine": "levantine",
+  "country": "liban",
+  "origin": "Liban",
+  "native_name": "Hummus bi tahini",
+  "title": {
+    "fr": "Hummus, purée de pois chiches au tahini",
+    "en": "Hummus with tahini"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 90 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["mezze", "pois-chiche", "tahini", "embleme"],
+  "ingredients": [
+    { "raw": "400 g de pois chiches secs, trempés la veille", "qty": 400, "unit": "g", "item": "pois chiche sec", "prep": "trempé la veille" },
+    { "raw": "1 c. à c. de bicarbonate", "qty": 1, "unit": "tsp", "item": "bicarbonate" },
+    { "raw": "200 g de tahini", "qty": 200, "unit": "g", "item": "tahini" },
+    { "raw": "3 citrons, leur jus", "qty": 3, "unit": "piece", "item": "citron" },
+    { "raw": "2 gousses d'ail", "qty": 2, "unit": "piece", "item": "ail" },
+    { "raw": "10 cl d'eau glacée", "qty": 10, "unit": "cl", "item": "eau" },
+    { "raw": "4 c. à s. d'huile d'olive", "qty": 4, "unit": "tbsp", "item": "huile d'olive", "group": "service" },
+    { "raw": "1 c. à c. de paprika", "qty": 1, "unit": "tsp", "item": "paprika", "group": "service" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire les pois chiches avec le bicarbonate une heure et demie, jusqu'à ce qu'ils s'écrasent entre deux doigts sans résistance.", "en": "Cook the chickpeas with the bicarbonate for an hour and a half, until they crush between two fingers with no resistance." },
+    { "fr": "Trop fermes, ils donneront toujours un hummus granuleux, quel que soit le mixeur.", "en": "Too firm, they will always give a grainy hummus, whatever the blender." },
+    { "fr": "Les mixer brûlants, en trois minutes minimum, jusqu'à ce que la purée soit parfaitement lisse.", "en": "Blend them scalding, for at least three minutes, until perfectly smooth." },
+    { "fr": "Fouetter à part le tahini avec le jus de citron et l'ail : le mélange blanchit et durcit, c'est normal.", "en": "Whisk the tahini separately with the lemon juice and garlic: it pales and seizes, which is normal." },
+    { "fr": "Le détendre à l'eau glacée jusqu'à ce qu'il redevienne crémeux, puis l'incorporer aux pois chiches.", "en": "Loosen it with iced water until creamy again, then work it into the chickpeas." },
+    { "fr": "Servir en creusant un puits, arrosé d'huile d'olive et saupoudré de paprika.", "en": "Serve with a well hollowed in the middle, pooled with olive oil and dusted with paprika." }
+  ],
+  "notes": [
+    { "fr": "Le bicarbonate attaque la peau des pois chiches et raccourcit la cuisson. Sans lui, il faut les peler un à un.", "en": "Bicarbonate attacks the chickpea skins and shortens the cooking. Without it, you must peel them one by one." }
+  ]
+}

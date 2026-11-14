@@ -1,0 +1,37 @@
+{
+  "slug": "kuih-seri-muka",
+  "cuisine": "southeast-asian",
+  "country": "malaisie",
+  "origin": "Malaisie",
+  "native_name": "Kuih seri muka",
+  "title": {
+    "fr": "Kuih seri muka, riz gluant et crème de pandan",
+    "en": "Kuih seri muka, sticky rice with pandan custard"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 30, "cook_min": 60 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["kuih", "pandan", "vapeur", "deux-couches"],
+  "ingredients": [
+    { "raw": "400 g de riz gluant, trempé la veille", "qty": 400, "unit": "g", "item": "riz gluant", "prep": "trempé la veille", "group": "base" },
+    { "raw": "25 cl de lait de coco", "qty": 25, "unit": "cl", "item": "lait de coco", "group": "base" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf", "group": "crème" },
+    { "raw": "40 cl de lait de coco", "qty": 40, "unit": "cl", "item": "lait de coco", "group": "crème" },
+    { "raw": "150 g de sucre", "qty": 150, "unit": "g", "item": "sucre", "group": "crème" },
+    { "raw": "60 g de farine de blé", "qty": 60, "unit": "g", "item": "farine de blé", "group": "crème" },
+    { "raw": "2 c. à s. de maïzena", "qty": 2, "unit": "tbsp", "item": "maïzena", "group": "crème" },
+    { "raw": "2 c. à c. d'extrait de pandan", "qty": 2, "unit": "tsp", "item": "feuille de pandan", "prep": "en extrait", "group": "crème" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire le riz gluant trempé à la vapeur trente minutes, puis l'arroser de lait de coco salé.", "en": "Steam the soaked glutinous rice for thirty minutes, then moisten it with salted coconut milk." },
+    { "fr": "Le TASSER FERMEMENT dans le moule, à la main mouillée : mal tassé, les deux couches se séparent.", "en": "PACK IT FIRMLY into the tin with a wet hand: loosely packed, the two layers separate." },
+    { "fr": "Le repasser dix minutes à la vapeur pour qu'il soit compact avant de verser la crème.", "en": "Steam it for ten more minutes so it is compact before the custard goes on." },
+    { "fr": "Fouetter la crème et la CUIRE À MOITIÉ à la casserole avant de la verser : versée crue, elle traverse le riz.", "en": "Whisk the custard and HALF-COOK it in a pan before pouring: added raw, it seeps through the rice." },
+    { "fr": "La verser à travers un tamis sur le riz tassé, et cuire quarante minutes à la vapeur.", "en": "Pour it through a sieve onto the packed rice, and steam for forty minutes." },
+    { "fr": "Laisser refroidir COMPLÈTEMENT avant de découper : chaud, le kuih s'effondre.", "en": "Cool it COMPLETELY before cutting: warm, the kuih collapses." }
+  ]
+}

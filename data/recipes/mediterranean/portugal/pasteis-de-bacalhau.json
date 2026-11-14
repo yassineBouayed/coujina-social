@@ -1,0 +1,37 @@
+{
+  "slug": "pasteis-de-bacalhau",
+  "cuisine": "mediterranean",
+  "country": "portugal",
+  "origin": "Portugal",
+  "native_name": "Pastéis de bacalhau",
+  "title": {
+    "fr": "Croquettes de morue",
+    "en": "Cod fritters"
+  },
+  "meal_type": "starter",
+  "servings": 8,
+  "times": { "prep_min": 40, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["morue", "friture", "meze", "classique"],
+  "ingredients": [
+    { "raw": "500 g de morue salée, dessalée 36 h", "qty": 500, "unit": "g", "item": "morue salée", "prep": "dessalée 36 h" },
+    { "raw": "700 g de pommes de terre", "qty": 700, "unit": "g", "item": "pomme de terre" },
+    { "raw": "3 œufs", "qty": 3, "unit": "piece", "item": "oeuf" },
+    { "raw": "1 oignon, haché très finement", "qty": 1, "unit": "piece", "item": "oignon", "prep": "haché très finement" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "1,5 l d'huile neutre pour la friture", "qty": 1.5, "unit": "l", "item": "huile neutre" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Pocher la morue dessalée dix minutes, l'égoutter, et l'effeuiller EN ÔTANT toutes les arêtes.", "en": "Poach the desalted cod for ten minutes, drain, and flake it REMOVING every bone." },
+    { "fr": "Cuire les pommes de terre EN ROBE et les passer au presse-purée, jamais au mixeur.", "en": "Boil the potatoes IN THEIR SKINS and pass them through a ricer, never a blender." },
+    { "fr": "La purée doit être SÈCHE : humide, les croquettes se défont dans l'huile.", "en": "The mash must be DRY: wet, the fritters fall apart in the oil." },
+    { "fr": "Mêler morue, purée, œufs, oignon et persil, et goûter avant de saler.", "en": "Combine the cod, mash, eggs, onion and parsley, and taste before salting." },
+    { "fr": "Former des quenelles à DEUX CUILLÈRES : c'est la forme traditionnelle, en olive allongée.", "en": "Shape quenelles with TWO SPOONS: that is the traditional shape, an elongated olive." },
+    { "fr": "Frire à 180 °C, quatre minutes, sans surcharger la friteuse.", "en": "Fry at 180°C for four minutes, without crowding the pan." }
+  ]
+}

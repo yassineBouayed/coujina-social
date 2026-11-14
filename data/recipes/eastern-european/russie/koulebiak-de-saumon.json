@@ -1,0 +1,40 @@
+{
+  "slug": "koulebiak-de-saumon",
+  "cuisine": "eastern-european",
+  "country": "russie",
+  "origin": "Russie",
+  "native_name": "Кулебяка",
+  "title": {
+    "fr": "Koulibiac de saumon en croûte",
+    "en": "Salmon koulibiac in pastry"
+  },
+  "meal_type": "main",
+  "servings": 8,
+  "times": { "prep_min": 70, "cook_min": 50 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "saumon", "feuillete", "technique"],
+  "ingredients": [
+    { "raw": "800 g de filet de saumon, sans peau", "qty": 800, "unit": "g", "item": "saumon", "prep": "sans peau" },
+    { "raw": "2 pâtes feuilletées", "qty": 2, "unit": "piece", "item": "pâte feuilletée" },
+    { "raw": "250 g de riz rond, cuit", "qty": 250, "unit": "g", "item": "riz rond", "prep": "cuit" },
+    { "raw": "400 g de champignons de Paris, hachés", "qty": 400, "unit": "g", "item": "champignon de Paris", "prep": "haché" },
+    { "raw": "4 œufs durs, hachés", "qty": 4, "unit": "piece", "item": "oeuf", "prep": "dur, haché" },
+    { "raw": "3 échalotes, ciselées", "qty": 3, "unit": "piece", "item": "échalote", "prep": "ciselée" },
+    { "raw": "1 bouquet d'aneth, ciselé", "qty": 1, "unit": "bunch", "item": "aneth", "prep": "ciselé" },
+    { "raw": "120 g de beurre", "qty": 120, "unit": "g", "item": "beurre" },
+    { "raw": "1 citron, son jus et son zeste", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "1 œuf, pour dorer", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Tout le problème du koulibiac est l'HUMIDITÉ : chaque couche doit être SÈCHE avant d'être posée.", "en": "The koulibiac's whole problem is MOISTURE: every layer must be DRY before it goes on." },
+    { "fr": "Cuire les champignons hachés À SEC jusqu'à ce qu'ils ne rendent plus une goutte d'eau.", "en": "Cook the chopped mushrooms DRY until they release not one more drop of water." },
+    { "fr": "Le RIZ n'est pas un remplissage : c'est lui qui absorbe le jus du saumon pendant la cuisson.", "en": "The RICE is not filler: it absorbs the salmon's juices while it bakes." },
+    { "fr": "Monter en couches : riz, champignons, saumon, œufs, riz — le saumon toujours AU CENTRE.", "en": "Layer it: rice, mushrooms, salmon, egg, rice — the salmon always AT THE CENTRE." },
+    { "fr": "Refermer le feuilletage, dorer, et percer DEUX cheminées pour laisser sortir la vapeur.", "en": "Close the pastry, egg-wash, and pierce TWO chimneys to let the steam out." },
+    { "fr": "Cuire 50 minutes à 190 °C, et laisser reposer vingt minutes avant de trancher.", "en": "Bake for 50 minutes at 190°C, and rest for twenty minutes before slicing." }
+  ]
+}

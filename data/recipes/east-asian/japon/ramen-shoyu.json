@@ -1,0 +1,45 @@
+{
+  "slug": "ramen-shoyu",
+  "cuisine": "east-asian",
+  "country": "japon",
+  "origin": "Japon",
+  "native_name": "醤油ラーメン",
+  "title": {
+    "fr": "Ramen shoyu au porc braisé",
+    "en": "Shoyu ramen with braised pork"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 60, "cook_min": 240 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["tokyo", "bouillon", "nouilles", "fete"],
+  "ingredients": [
+    { "raw": "400 g de nouilles ramen", "qty": 400, "unit": "g", "item": "ramen" },
+    { "raw": "1 kg d'os de porc", "qty": 1000, "unit": "g", "item": "os à moelle", "group": "bouillon" },
+    { "raw": "1 carcasse de poulet", "qty": 1, "unit": "piece", "item": "poulet entier", "prep": "en carcasse", "group": "bouillon" },
+    { "raw": "20 g de kombu", "qty": 20, "unit": "g", "item": "kombu", "group": "bouillon" },
+    { "raw": "6 shiitakes séchés", "qty": 6, "unit": "piece", "item": "shiitake", "group": "bouillon" },
+    { "raw": "1 morceau de gingembre frais", "qty": 1, "unit": "piece", "item": "gingembre", "group": "bouillon" },
+    { "raw": "600 g de poitrine de porc roulée", "qty": 600, "unit": "g", "item": "poitrine de porc", "group": "chashu" },
+    { "raw": "15 cl de sauce soja", "qty": 15, "unit": "cl", "item": "sauce soja", "group": "chashu" },
+    { "raw": "10 cl de mirin", "qty": 10, "unit": "cl", "item": "mirin", "group": "chashu" },
+    { "raw": "10 cl de saké", "qty": 10, "unit": "cl", "item": "saké", "group": "chashu" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf", "group": "garniture" },
+    { "raw": "4 oignons nouveaux, ciselés", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé", "group": "garniture" },
+    { "raw": "4 feuilles de nori", "qty": 4, "unit": "piece", "item": "nori", "group": "garniture" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Blanchir les os dix minutes et JETER cette eau : c'est ce qui donne un bouillon clair et non trouble.", "en": "Blanch the bones for ten minutes and DISCARD that water: this is what gives a clear, untroubled broth." },
+    { "fr": "Recommencer à l'eau froide avec le poulet, le gingembre et les shiitakes, et laisser quatre heures.", "en": "Start again in cold water with the chicken, ginger and shiitake, and cook for four hours." },
+    { "fr": "Ajouter le kombu la dernière demi-heure seulement, et le retirer avant ébullition.", "en": "Add the kombu only in the last half hour, and remove it before it boils." },
+    { "fr": "Braiser le porc roulé deux heures dans la sauce soja, le mirin et le saké : c'est le tare ET le chashu.", "en": "Braise the rolled pork for two hours in the soy, mirin and sake: this is both the tare and the chashu." },
+    { "fr": "Cuire les œufs six minutes et demie exactement, les refroidir, et les mariner une nuit dans le jus de braisage.", "en": "Boil the eggs for exactly six and a half minutes, chill them, and marinate them overnight in the braising liquid." },
+    { "fr": "Monter le bol : tare au fond, bouillon brûlant, nouilles cuites à la minute, puis les garnitures.", "en": "Build the bowl: tare at the bottom, scalding broth, noodles cooked to order, then the toppings." }
+  ],
+  "notes": [
+    { "fr": "Les nouilles se cuisent AU DERNIER MOMENT et se servent en moins d'une minute : elles gonflent dans le bouillon.", "en": "The noodles are cooked AT THE LAST MOMENT and served within a minute: they swell in the broth." }
+  ]
+}

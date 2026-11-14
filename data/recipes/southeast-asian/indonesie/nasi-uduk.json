@@ -1,0 +1,38 @@
+{
+  "slug": "nasi-uduk",
+  "cuisine": "southeast-asian",
+  "country": "indonesie",
+  "origin": "Indonésie",
+  "native_name": "Nasi uduk",
+  "title": {
+    "fr": "Nasi uduk, riz au lait de coco et aux aromates",
+    "en": "Nasi uduk, coconut and aromatic rice"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 15, "cook_min": 35 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["jakarta", "petit-dejeuner", "coco", "parfume"],
+  "ingredients": [
+    { "raw": "500 g de riz long grain", "qty": 500, "unit": "g", "item": "riz long grain" },
+    { "raw": "40 cl de lait de coco", "qty": 40, "unit": "cl", "item": "lait de coco" },
+    { "raw": "30 cl d'eau", "qty": 30, "unit": "cl", "item": "eau" },
+    { "raw": "2 tiges de citronnelle, écrasées", "qty": 2, "unit": "piece", "item": "citronnelle", "prep": "écrasée" },
+    { "raw": "4 feuilles de combava", "qty": 4, "unit": "piece", "item": "feuille de combava" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "1 feuille de pandan", "qty": 1, "unit": "piece", "item": "feuille de pandan" },
+    { "raw": "1 morceau de galanga", "qty": 1, "unit": "piece", "item": "galanga" },
+    { "raw": "6 échalotes, frites", "qty": 6, "unit": "piece", "item": "échalote", "prep": "frite", "group": "garniture" },
+    { "raw": "2 c. à c. de sel", "qty": 2, "unit": "tsp", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Rincer le riz jusqu'à ce que l'eau soit claire, puis l'égoutter vingt minutes.", "en": "Rinse the rice until the water runs clear, then drain it for twenty minutes." },
+    { "fr": "Le rapport est de MOITIÉ lait de coco, moitié eau : tout au lait de coco, le riz brûle et devient lourd.", "en": "The ratio is HALF coconut milk, half water: all coconut milk and the rice scorches and turns heavy." },
+    { "fr": "Écraser tous les aromates au couteau avant de les ajouter, pour libérer leurs huiles.", "en": "Bruise all the aromatics with a knife before adding them, to release their oils." },
+    { "fr": "Porter à ébullition, remuer UNE FOIS, puis couvrir et cuire vingt minutes à feu doux.", "en": "Bring to a boil, stir ONCE, then cover and cook for twenty minutes over low heat." },
+    { "fr": "Ne plus ouvrir : le lait de coco accroche au fond dès qu'on remue.", "en": "Do not open again: coconut milk catches on the base as soon as it is stirred." },
+    { "fr": "Laisser reposer dix minutes hors du feu, égrener à la fourchette, et couvrir d'échalotes frites.", "en": "Rest for ten minutes off the heat, fluff with a fork, and cover with fried shallots." }
+  ]
+}

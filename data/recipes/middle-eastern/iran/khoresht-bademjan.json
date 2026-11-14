@@ -1,0 +1,40 @@
+{
+  "slug": "khoresht-bademjan",
+  "cuisine": "middle-eastern",
+  "country": "iran",
+  "origin": "Iran",
+  "native_name": "Khoresht-e bademjan",
+  "title": {
+    "fr": "Khoresht d'aubergines à l'agneau",
+    "en": "Aubergine khoresht with lamb"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 35, "cook_min": 110 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["aubergine", "citron-seche", "riz", "famille"],
+  "ingredients": [
+    { "raw": "800 g d'épaule d'agneau, en cubes", "qty": 800, "unit": "g", "item": "épaule d'agneau", "prep": "en cubes" },
+    { "raw": "5 aubergines longues", "qty": 5, "unit": "piece", "item": "aubergine" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "4 tomates, en quartiers", "qty": 4, "unit": "piece", "item": "tomate", "prep": "en quartiers" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "3 citrons séchés d'Oman", "qty": 3, "unit": "piece", "item": "citron séché d'Oman" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "1 c. à s. de verjus", "qty": 1, "unit": "tbsp", "item": "vinaigre de vin", "optional": true },
+    { "raw": "50 cl d'huile de tournesol pour la friture", "qty": 50, "unit": "cl", "item": "huile de tournesol" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Peler les aubergines par bandes, les faire dégorger au sel une demi-heure, puis les sécher.", "en": "Peel the aubergines in stripes, salt them for half an hour to drain, then dry them." },
+    { "fr": "Les frire séparément jusqu'à ce qu'elles soient dorées et les réserver sur du papier.", "en": "Fry them separately until golden and set them aside on paper." },
+    { "fr": "Faire revenir l'oignon et le curcuma, ajouter la viande, la dorer, puis le concentré de tomate.", "en": "Fry the onion and turmeric, add the meat, brown it, then the tomato purée." },
+    { "fr": "Mouiller, ajouter les citrons séchés percés, et laisser mijoter une heure et demie.", "en": "Add water and the pierced dried limes, and simmer for an hour and a half." },
+    { "fr": "Poser les aubergines frites SUR le ragoût pour les vingt dernières minutes, sans les mélanger.", "en": "Lay the fried aubergines ON TOP of the stew for the last twenty minutes, without stirring them in." },
+    { "fr": "Mélangées, elles se défont en purée. Servir avec du riz basmati.", "en": "Stirred in, they collapse into purée. Serve with basmati rice." }
+  ]
+}

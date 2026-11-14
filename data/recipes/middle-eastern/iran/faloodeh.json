@@ -1,0 +1,34 @@
+{
+  "slug": "faloodeh",
+  "cuisine": "middle-eastern",
+  "country": "iran",
+  "origin": "Iran",
+  "native_name": "Faloodeh",
+  "title": {
+    "fr": "Faloodeh, granité de vermicelles à la rose",
+    "en": "Faloodeh, rose water noodle sorbet"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 10 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["shiraz", "glace", "rose", "ete"],
+  "ingredients": [
+    { "raw": "150 g de nouilles de riz fines", "qty": 150, "unit": "g", "item": "nouilles de riz" },
+    { "raw": "300 g de sucre", "qty": 300, "unit": "g", "item": "sucre" },
+    { "raw": "75 cl d'eau", "qty": 75, "unit": "cl", "item": "eau" },
+    { "raw": "4 c. à s. d'eau de rose", "qty": 4, "unit": "tbsp", "item": "eau de rose" },
+    { "raw": "3 citrons verts, leur jus", "qty": 3, "unit": "piece", "item": "citron vert", "group": "service" },
+    { "raw": "3 c. à s. de sirop de datte", "qty": 3, "unit": "tbsp", "item": "sirop de datte", "optional": true, "group": "service" }
+  ],
+  "steps": [
+    { "fr": "Cuire les nouilles de riz, les rincer à l'eau glacée, et les couper en tronçons de trois centimètres.", "en": "Cook the rice noodles, rinse them in iced water, and cut them into three-centimetre lengths." },
+    { "fr": "Faire un sirop léger avec le sucre et l'eau, dix minutes, et le laisser refroidir complètement.", "en": "Make a light syrup with the sugar and water, ten minutes, and cool it completely." },
+    { "fr": "Ajouter l'eau de rose au sirop FROID : chauffée, elle s'évapore.", "en": "Add the rose water to the COLD syrup: heated, it evaporates." },
+    { "fr": "Verser le sirop dans un plat large et le mettre au congélateur.", "en": "Pour the syrup into a wide dish and put it in the freezer." },
+    { "fr": "Gratter à la fourchette toutes les vingt minutes, quatre fois : c'est ce grattage qui fait le granité.", "en": "Scrape it with a fork every twenty minutes, four times: that scraping is what makes the granita." },
+    { "fr": "Incorporer les nouilles au dernier grattage, et servir avec du jus de citron vert par-dessus.", "en": "Fold in the noodles at the last scrape, and serve with lime juice poured over." }
+  ]
+}

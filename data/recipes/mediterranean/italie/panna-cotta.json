@@ -1,0 +1,37 @@
+{
+  "slug": "panna-cotta",
+  "cuisine": "mediterranean",
+  "country": "italie",
+  "origin": "Italie",
+  "native_name": "Panna cotta",
+  "title": {
+    "fr": "Panna cotta au coulis de fruits rouges",
+    "en": "Panna cotta with red fruit coulis"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 15, "cook_min": 10 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["piemont", "creme", "froid", "simple"],
+  "ingredients": [
+    { "raw": "60 cl de crème liquide", "qty": 60, "unit": "cl", "item": "crème liquide" },
+    { "raw": "10 cl de lait entier", "qty": 10, "unit": "cl", "item": "lait entier" },
+    { "raw": "80 g de sucre", "qty": 80, "unit": "g", "item": "sucre" },
+    { "raw": "6 g de gélatine", "qty": 6, "unit": "g", "item": "gelatine" },
+    { "raw": "1 gousse de vanille, fendue", "qty": 1, "unit": "piece", "item": "gousse de vanille", "prep": "fendue" },
+    { "raw": "300 g de griottes", "qty": 300, "unit": "g", "item": "griotte", "group": "coulis" },
+    { "raw": "60 g de sucre", "qty": 60, "unit": "g", "item": "sucre", "group": "coulis" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron", "group": "coulis" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le dosage de gélatine décide de tout : SIX GRAMMES par litre, pas plus.", "en": "The gelatine dose decides everything: SIX GRAMS per litre, no more." },
+    { "fr": "Une panna cotta réussie TREMBLE : ferme, c'est une gelée, et ce n'est plus le même dessert.", "en": "A good panna cotta WOBBLES: firm, it is a jelly, and no longer the same dessert." },
+    { "fr": "Ramollir la gélatine à l'eau FROIDE dix minutes, et l'essorer.", "en": "Soften the gelatine in COLD water for ten minutes, and squeeze it out." },
+    { "fr": "Chauffer crème, lait, sucre et vanille SANS faire bouillir : bouillie, la crème perd sa finesse.", "en": "Heat the cream, milk, sugar and vanilla WITHOUT boiling: boiled, the cream loses its delicacy." },
+    { "fr": "Dissoudre la gélatine hors du feu, filtrer, et verser dans les moules.", "en": "Dissolve the gelatine off the heat, strain, and pour into the moulds." },
+    { "fr": "Réfrigérer QUATRE HEURES, et servir avec le coulis de griottes juste tiède.", "en": "Chill for FOUR HOURS, and serve with the cherry coulis barely warm." }
+  ]
+}

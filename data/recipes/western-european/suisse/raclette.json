@@ -1,0 +1,36 @@
+{
+  "slug": "raclette",
+  "cuisine": "western-european",
+  "country": "suisse",
+  "origin": "Suisse",
+  "native_name": "Raclette",
+  "title": {
+    "fr": "Raclette valaisanne",
+    "en": "Valais raclette"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["valais", "fromage", "hiver", "partage"],
+  "ingredients": [
+    { "raw": "1,2 kg de fromage à raclette, en tranches", "qty": 1200, "unit": "g", "item": "fromage à raclette", "prep": "en tranches" },
+    { "raw": "1,5 kg de pommes de terre à chair ferme", "qty": 1500, "unit": "g", "item": "pomme de terre" },
+    { "raw": "300 g de jambon cru", "qty": 300, "unit": "g", "item": "jambon cru" },
+    { "raw": "200 g de viande séchée", "qty": 200, "unit": "g", "item": "viande séchée" },
+    { "raw": "30 cornichons", "qty": 30, "unit": "piece", "item": "cornichon" },
+    { "raw": "200 g d'oignons au vinaigre", "qty": 200, "unit": "g", "item": "oignon", "prep": "au vinaigre" },
+    { "raw": "2 c. à s. de paprika", "qty": 2, "unit": "tbsp", "item": "paprika" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Les pommes de terre se cuisent EN ROBE et se mangent AVEC LA PEAU : c'est la tradition valaisanne.", "en": "The potatoes are boiled IN THEIR SKINS and eaten WITH THE SKIN: the Valais tradition." },
+    { "fr": "Choisir des pommes de terre à chair FERME : farineuses, elles s'effondrent sous le fromage.", "en": "Choose WAXY potatoes: floury ones collapse under the cheese." },
+    { "fr": "Les garder AU CHAUD dans un torchon : froides, elles figent le fromage instantanément.", "en": "Keep them WARM in a cloth: cold, they set the cheese instantly." },
+    { "fr": "Sortir le fromage UNE HEURE avant : trop froid, il fond mal et reste caoutchouteux.", "en": "Take the cheese out AN HOUR ahead: too cold, it melts badly and stays rubbery." },
+    { "fr": "Le fromage doit couler, pas brunir : il est prêt dès qu'il bouillonne aux bords.", "en": "The cheese should flow, not brown: it is ready as soon as it bubbles at the edges." },
+    { "fr": "Le racler sur la pomme de terre et manger IMMÉDIATEMENT, avant qu'il ne fige.", "en": "Scrape it onto the potato and eat IMMEDIATELY, before it sets." }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "canh-chua",
+  "cuisine": "southeast-asian",
+  "country": "vietnam",
+  "origin": "Viêt Nam",
+  "native_name": "Canh chua",
+  "title": {
+    "fr": "Canh chua, soupe aigre au tamarin et à l'ananas",
+    "en": "Canh chua, sour tamarind and pineapple soup"
+  },
+  "meal_type": "soup",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["mekong", "acide", "ananas", "poisson"],
+  "ingredients": [
+    { "raw": "700 g de poisson-chat, en darnes", "qty": 700, "unit": "g", "item": "poisson-chat", "prep": "en darnes" },
+    { "raw": "4 c. à s. de pâte de tamarin", "qty": 4, "unit": "tbsp", "item": "pâte de tamarin" },
+    { "raw": "200 g d'ananas, en morceaux", "qty": 200, "unit": "g", "item": "ananas", "prep": "en morceaux" },
+    { "raw": "3 tomates, en quartiers", "qty": 3, "unit": "piece", "item": "tomate", "prep": "en quartiers" },
+    { "raw": "200 g de germes de soja", "qty": 200, "unit": "g", "item": "germes de soja" },
+    { "raw": "3 branches de céleri, en tronçons", "qty": 3, "unit": "piece", "item": "céleri branche", "prep": "en tronçons" },
+    { "raw": "200 g de gombos, en tronçons", "qty": 200, "unit": "g", "item": "gombo", "prep": "en tronçons" },
+    { "raw": "5 c. à s. de sauce poisson", "qty": 5, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "3 c. à s. de sucre de palme", "qty": 3, "unit": "tbsp", "item": "sucre de palme" },
+    { "raw": "1 bouquet de coriandre fraîche", "qty": 1, "unit": "bunch", "item": "coriandre fraîche" },
+    { "raw": "4 gousses d'ail, en lamelles", "qty": 4, "unit": "piece", "item": "ail", "prep": "en lamelles" },
+    { "raw": "1,5 l d'eau", "qty": 1.5, "unit": "l", "item": "eau" },
+    { "raw": "4 c. à s. d'huile neutre", "qty": 4, "unit": "tbsp", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Le canh chua joue sur QUATRE acidités : tamarin, ananas, tomate, et parfois citron. Elles ne se remplacent pas.", "en": "Canh chua plays on FOUR acidities: tamarind, pineapple, tomato and sometimes lime. They do not substitute for each other." },
+    { "fr": "Porter l'eau à ébullition avec le tamarin délayé et l'ananas, et laisser dix minutes.", "en": "Bring the water to a boil with the slaked tamarind and the pineapple, and cook for ten minutes." },
+    { "fr": "Ajouter le poisson et le POCHER huit minutes, sans remuer, pour qu'il reste entier.", "en": "Add the fish and POACH it for eight minutes, without stirring, so it stays whole." },
+    { "fr": "Ajouter tomates, céleri et gombos, et cuire cinq minutes : ils doivent rester fermes.", "en": "Add the tomatoes, celery and okra, and cook for five minutes: they must stay firm." },
+    { "fr": "Ajouter les germes de soja HORS DU FEU : ils cuisent dans la chaleur résiduelle en trente secondes.", "en": "Add the bean sprouts OFF THE HEAT: they cook in the residual heat within thirty seconds." },
+    { "fr": "Verser l'ail frit dans l'huile chaude sur la soupe, et couvrir de coriandre.", "en": "Pour the garlic fried in hot oil over the soup, and cover with coriander." }
+  ]
+}

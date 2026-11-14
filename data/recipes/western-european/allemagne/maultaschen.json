@@ -1,0 +1,41 @@
+{
+  "slug": "maultaschen",
+  "cuisine": "western-european",
+  "country": "allemagne",
+  "origin": "Allemagne",
+  "native_name": "Maultaschen",
+  "title": {
+    "fr": "Maultaschen, raviolis souabes",
+    "en": "Maultaschen, Swabian dumplings"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 60, "cook_min": 25 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["souabe", "ravioli", "careme", "farci"],
+  "ingredients": [
+    { "raw": "400 g de farine de blé", "qty": 400, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf", "group": "pâte" },
+    { "raw": "2 c. à s. d'huile neutre", "qty": 2, "unit": "tbsp", "item": "huile neutre", "group": "pâte" },
+    { "raw": "400 g d'épinards", "qty": 400, "unit": "g", "item": "épinard", "group": "farce" },
+    { "raw": "300 g de porc haché", "qty": 300, "unit": "g", "item": "porc haché", "group": "farce" },
+    { "raw": "200 g de veau haché", "qty": 200, "unit": "g", "item": "veau haché", "group": "farce" },
+    { "raw": "120 g de mie de pain", "qty": 120, "unit": "g", "item": "pain", "prep": "en mie", "group": "farce" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché", "group": "farce" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé", "group": "farce" },
+    { "raw": "1,5 l de bouillon de bœuf", "qty": 1.5, "unit": "l", "item": "bouillon boeuf" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "On les appelle « Herrgottsbscheißerle » — petits trompeurs du Bon Dieu — car ils cachent la viande le vendredi.", "en": "They are called \"Herrgottsbscheißerle\" — little God-cheaters — because they hide the meat on Fridays." },
+    { "fr": "Pétrir une pâte à nouilles ferme et la laisser reposer UNE HEURE sous un linge.", "en": "Knead a firm noodle dough and rest it for AN HOUR under a cloth." },
+    { "fr": "Blanchir les épinards et les PRESSER à fond : humides, ils détrempent la pâte de l'intérieur.", "en": "Blanch the spinach and SQUEEZE it dry: wet, it soaks the dough from within." },
+    { "fr": "Étaler la pâte TRÈS fin — on doit voir la main à travers — en longues bandes.", "en": "Roll the dough VERY thin — you should see your hand through it — in long strips." },
+    { "fr": "Déposer la farce en cordon, replier, et souder en pressant du tranchant de la main.", "en": "Pipe the filling in a line, fold over, and seal by pressing with the edge of your hand." },
+    { "fr": "Pocher dix minutes dans le bouillon FRÉMISSANT, et servir dans ce bouillon.", "en": "Poach for ten minutes in SIMMERING broth, and serve them in that broth." }
+  ]
+}

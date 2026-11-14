@@ -1,0 +1,36 @@
+{
+  "slug": "vlaflip",
+  "cuisine": "western-european",
+  "country": "pays-bas",
+  "origin": "Pays-Bas",
+  "native_name": "Vlaflip",
+  "title": {
+    "fr": "Vlaflip, crème à la vanille et au yaourt",
+    "en": "Vlaflip, vanilla custard with yoghurt"
+  },
+  "meal_type": "dessert",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["enfants", "froid", "rapide", "famille"],
+  "ingredients": [
+    { "raw": "1 l de lait entier", "qty": 1, "unit": "l", "item": "lait entier" },
+    { "raw": "60 g de maïzena", "qty": 60, "unit": "g", "item": "maïzena" },
+    { "raw": "120 g de sucre", "qty": 120, "unit": "g", "item": "sucre" },
+    { "raw": "3 jaunes d'œufs", "qty": 3, "unit": "piece", "item": "oeuf" },
+    { "raw": "1 gousse de vanille, fendue", "qty": 1, "unit": "piece", "item": "gousse de vanille", "prep": "fendue" },
+    { "raw": "400 g de yaourt nature", "qty": 400, "unit": "g", "item": "yaourt nature" },
+    { "raw": "200 g de confiture de framboise", "qty": 200, "unit": "g", "item": "confiture" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "La vla est une crème anglaise LIQUIDE, plus fluide qu'une crème pâtissière : elle se boit presque.", "en": "Vla is a POURABLE custard, thinner than a pastry cream: it is almost drunk." },
+    { "fr": "Infuser la vanille dans le lait chaud vingt minutes, puis filtrer.", "en": "Steep the vanilla in the hot milk for twenty minutes, then strain." },
+    { "fr": "Délayer maïzena et jaunes dans un peu de lait FROID, sans grumeau.", "en": "Slake the cornflour and yolks in a little COLD milk, lump-free." },
+    { "fr": "Cuire en remuant jusqu'à épaississement, puis refroidir en filmant AU CONTACT.", "en": "Cook, stirring, until it thickens, then cool with film TOUCHING THE SURFACE." },
+    { "fr": "Le flip est le montage : vla, confiture, yaourt, dans un verre, EN COUCHES.", "en": "The flip is the assembly: vla, jam, yoghurt, in a glass, IN LAYERS." },
+    { "fr": "Ne pas mélanger : c'est le convive qui plonge sa cuillère et fait ses propres marbrures.", "en": "Do not stir: the eater dips their spoon and makes their own marbling." }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "gaufres-de-bruxelles",
+  "cuisine": "western-european",
+  "country": "belgique",
+  "origin": "Belgique",
+  "native_name": "Brusselse wafels",
+  "title": {
+    "fr": "Gaufres de Bruxelles",
+    "en": "Brussels waffles"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 30, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["bruxelles", "gaufre", "leger", "gouter"],
+  "ingredients": [
+    { "raw": "350 g de farine de blé", "qty": 350, "unit": "g", "item": "farine de blé" },
+    { "raw": "50 cl de lait entier, tiède", "qty": 50, "unit": "cl", "item": "lait entier", "prep": "tiède" },
+    { "raw": "4 œufs, blancs et jaunes séparés", "qty": 4, "unit": "piece", "item": "oeuf", "prep": "séparés" },
+    { "raw": "150 g de beurre, fondu", "qty": 150, "unit": "g", "item": "beurre", "prep": "fondu" },
+    { "raw": "10 g de levure boulangère sèche", "qty": 10, "unit": "g", "item": "levure boulangère" },
+    { "raw": "2 c. à s. de sucre", "qty": 2, "unit": "tbsp", "item": "sucre" },
+    { "raw": "1 c. à s. d'extrait de vanille", "qty": 1, "unit": "tbsp", "item": "extrait de vanille" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" },
+    { "raw": "4 c. à s. de sucre glace", "qty": 4, "unit": "tbsp", "item": "sucre glace", "group": "finition" }
+  ],
+  "steps": [
+    { "fr": "La gaufre de Bruxelles est RECTANGULAIRE, légère et creuse : c'est l'inverse de la liégeoise.", "en": "A Brussels waffle is RECTANGULAR, light and hollow: the opposite of a Liège one." },
+    { "fr": "Sa pâte est LIQUIDE et se verse : elle contient très peu de sucre, qui vient au moment de servir.", "en": "Its batter is LIQUID and pourable: it holds very little sugar, which comes at serving." },
+    { "fr": "Faire lever la pâte une heure, puis monter les blancs en neige TRÈS ferme.", "en": "Prove the batter for an hour, then whip the whites to a VERY firm snow." },
+    { "fr": "Les incorporer À LA MARYSE juste avant de cuire : ce sont eux qui font la légèreté.", "en": "Fold them in WITH A SPATULA just before cooking: they are what make it light." },
+    { "fr": "Une pâte montée qui attend retombe : elle se cuit dans les vingt minutes.", "en": "A folded batter left waiting collapses: cook it within twenty minutes." },
+    { "fr": "Cuire quatre minutes au gaufrier bien chaud, et poudrer de sucre glace en sortant.", "en": "Cook for four minutes in a hot iron, and dust with icing sugar as they come out." }
+  ]
+}

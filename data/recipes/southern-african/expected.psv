@@ -1,0 +1,215 @@
+# Vérité du catalogue, cuisine « southern-african ».
+#
+# Pour chaque ligne d'ingrédient, celui du référentiel qu'un relecteur
+# choisit, ou `-` quand le référentiel n'a rien à offrir.
+#
+# PASSE MODÈLE, pas humaine, et la circularité est ici maximale : les
+# recettes ont été écrites AVEC le référentiel sous les yeux, et les
+# ingrédients qui manquaient y ont été ajoutés dans la foulée. Le taux de
+# rattachement du champ `item` ne mesure donc presque rien sur ces cuisines.
+# Ce qui mesure quelque chose, c'est le témoin `raw`, que `catalog:gate`
+# donne en regard.
+#
+# Une ligne annotée ici n'a pas été relue par quelqu'un qui cuisine ces
+# plats. Le critère de sortie de J5 reste entier.
+recipe|line|item|expected_slug|note
+biltong|0|steak de bœuf|steak-de-boeuf|
+biltong|1|coriandre graines|coriandre-graines|
+biltong|2|gros sel|gros-sel|
+biltong|3|poivre noir|poivre-noir|
+biltong|4|sucre roux|sucre-roux|
+biltong|5|vinaigre de cidre|vinaigre-de-cidre|
+biltong|6|bicarbonate|bicarbonate|
+bobotie|0|agneau haché|agneau-hache|
+bobotie|1|oignon|oignon|
+bobotie|2|poudre de curry|poudre-de-curry|
+bobotie|3|curcuma|curcuma|
+bobotie|4|pain de mie|pain-de-mie|
+bobotie|5|lait|lait|
+bobotie|6|abricot sec|abricot-sec|
+bobotie|7|raisin sec|raisin-sec|
+bobotie|8|amande effilée|amande-effilee|
+bobotie|9|confiture d'abricot|confiture-d-abricot|
+bobotie|10|vinaigre de vin|vinaigre-de-vin|
+bobotie|11|oeuf|oeuf|
+bobotie|12|laurier|laurier|
+bobotie|13|huile neutre|huile-neutre|
+bobotie|14|sel|sel|
+bobotie|15|poivre noir|poivre-noir|
+boerewors|0|boeuf à mijoter|boeuf-a-mijoter|
+boerewors|1|échine de porc|echine-de-porc|
+boerewors|2|boyau naturel|boyau-naturel|
+boerewors|3|coriandre graines|coriandre-graines|
+boerewors|4|clou de girofle|clou-de-girofle|
+boerewors|5|muscade|muscade|
+boerewors|6|poivre noir|poivre-noir|
+boerewors|7|vinaigre de vin|vinaigre-de-vin|
+boerewors|8|gros sel|gros-sel|
+bredie-tomate|0|épaule d'agneau|epaule-d-agneau|
+bredie-tomate|1|tomate|tomate|
+bredie-tomate|2|oignon|oignon|
+bredie-tomate|3|pomme de terre|pomme-de-terre|
+bredie-tomate|4|sucre|sucre|
+bredie-tomate|5|piment en poudre|piment-en-poudre|
+bredie-tomate|6|clou de girofle|clou-de-girofle|
+bredie-tomate|7|cannelle|cannelle|
+bredie-tomate|8|huile neutre|huile-neutre|
+bredie-tomate|9|sel|sel|
+bredie-tomate|10|poivre noir|poivre-noir|
+bunny-chow|0|pain de mie|pain-de-mie|
+bunny-chow|1|épaule d'agneau|epaule-d-agneau|
+bunny-chow|2|oignon|oignon|
+bunny-chow|3|poudre de curry|poudre-de-curry|
+bunny-chow|4|pâte gingembre-ail|pate-gingembre-ail|
+bunny-chow|5|tomate|tomate|
+bunny-chow|6|pomme de terre|pomme-de-terre|
+bunny-chow|7|cannelle|cannelle|
+bunny-chow|8|cardamome|cardamome|
+bunny-chow|9|huile neutre|huile-neutre|
+bunny-chow|10|coriandre fraîche|coriandre-fraiche|
+bunny-chow|11|sel|sel|
+chakalaka|0|carotte|carotte|
+chakalaka|1|oignon|oignon|
+chakalaka|2|poivron rouge|poivron-rouge|
+chakalaka|3|poivron vert|poivron-vert|
+chakalaka|4|haricot blanc|haricot-blanc|
+chakalaka|5|tomate|tomate|
+chakalaka|6|poudre de curry|poudre-de-curry|
+chakalaka|7|piment oiseau|piment-oiseau|
+chakalaka|8|ail|ail|
+chakalaka|9|huile neutre|huile-neutre|
+chakalaka|10|sel|sel|
+denningvleis|0|épaule d'agneau|epaule-d-agneau|
+denningvleis|1|oignon|oignon|
+denningvleis|2|pâte de tamarin|pate-de-tamarin|
+denningvleis|3|quatre-épices|quatre-epices|
+denningvleis|4|clou de girofle|clou-de-girofle|
+denningvleis|5|laurier|laurier|
+denningvleis|6|sucre roux|sucre-roux|
+denningvleis|7|huile neutre|huile-neutre|
+denningvleis|8|sel|sel|
+denningvleis|9|poivre noir|poivre-noir|
+ginger-beer|0|gingembre|gingembre|
+ginger-beer|1|sucre|sucre|
+ginger-beer|2|eau|eau|
+ginger-beer|3|citron|citron|
+ginger-beer|4|levure boulangère|levure-boulangere|
+ginger-beer|5|raisin sec|raisin-sec|
+ginger-beer|6|sel|sel|
+koeksisters|0|farine de blé|farine-de-ble|
+koeksisters|1|levure chimique|levure-chimique|
+koeksisters|2|sel|sel|
+koeksisters|3|beurre|beurre|
+koeksisters|4|oeuf|oeuf|
+koeksisters|5|lait|lait|
+koeksisters|6|sucre|sucre|
+koeksisters|7|eau|eau|
+koeksisters|8|gingembre|gingembre|
+koeksisters|9|citron|citron|
+koeksisters|10|cannelle|cannelle|
+koeksisters|11|huile neutre|huile-neutre|
+malva-pudding|0|farine de blé|farine-de-ble|
+malva-pudding|1|sucre|sucre|
+malva-pudding|2|oeuf|oeuf|
+malva-pudding|3|confiture d'abricot|confiture-d-abricot|
+malva-pudding|4|bicarbonate|bicarbonate|
+malva-pudding|5|lait|lait|
+malva-pudding|6|vinaigre de vin|vinaigre-de-vin|
+malva-pudding|7|beurre|beurre|
+malva-pudding|8|crème liquide|creme-liquide|
+malva-pudding|9|beurre|beurre|
+malva-pudding|10|sucre|sucre|
+malva-pudding|11|sel|sel|
+melktert|0|pâte feuilletée|pate-feuilletee|
+melktert|1|lait entier|lait-entier|
+melktert|2|cannelle|cannelle|
+melktert|3|sucre|sucre|
+melktert|4|farine de blé|farine-de-ble|
+melktert|5|maïzena|maizena|
+melktert|6|oeuf|oeuf|
+melktert|7|beurre|beurre|
+melktert|8|extrait de vanille|extrait-de-vanille|
+melktert|9|cannelle|cannelle|
+melktert|10|sel|sel|
+morogo|0|épinard|epinard|
+morogo|1|oignon|oignon|
+morogo|2|tomate|tomate|
+morogo|3|ail|ail|
+morogo|4|piment oiseau|piment-oiseau|
+morogo|5|huile neutre|huile-neutre|
+morogo|6|bouillon cube|bouillon-cube|
+morogo|7|sel|sel|
+pap|0|farine de maïs blanche|farine-de-mais-blanche|
+pap|1|eau|eau|
+pap|2|sel|sel|
+pap|3|beurre|beurre|
+peri-peri-poulet|0|poulet entier|poulet-entier|
+peri-peri-poulet|1|piment oiseau|piment-oiseau|
+peri-peri-poulet|2|poivron rouge|poivron-rouge|
+peri-peri-poulet|3|ail|ail|
+peri-peri-poulet|4|citron|citron|
+peri-peri-poulet|5|huile d'olive|huile-d-olive|
+peri-peri-poulet|6|vinaigre de vin|vinaigre-de-vin|
+peri-peri-poulet|7|paprika fumé|paprika-fume|
+peri-peri-poulet|8|origan séché|origan-seche|
+peri-peri-poulet|9|sel|sel|
+potjiekos|0|boeuf à mijoter|boeuf-a-mijoter|
+potjiekos|1|oignon|oignon|
+potjiekos|2|carotte|carotte|
+potjiekos|3|pomme de terre|pomme-de-terre|
+potjiekos|4|chou blanc|chou-blanc|
+potjiekos|5|champignon de Paris|champignon-de-paris|
+potjiekos|6|bière|biere|
+potjiekos|7|laurier|laurier|
+potjiekos|8|thym séché|thym-seche|
+potjiekos|9|huile neutre|huile-neutre|
+potjiekos|10|sel|sel|
+potjiekos|11|poivre noir|poivre-noir|
+rooibos-latte|0|rooibos|rooibos|
+rooibos-latte|1|eau|eau|
+rooibos-latte|2|lait|lait|
+rooibos-latte|3|miel|miel|
+rooibos-latte|4|cannelle|cannelle|
+smoorsnoek|0|maquereau|maquereau|
+smoorsnoek|1|pomme de terre|pomme-de-terre|
+smoorsnoek|2|oignon|oignon|
+smoorsnoek|3|tomate|tomate|
+smoorsnoek|4|piment frais|piment-frais|
+smoorsnoek|5|huile neutre|huile-neutre|
+smoorsnoek|6|sucre|sucre|
+smoorsnoek|7|sel|sel|
+smoorsnoek|8|poivre noir|poivre-noir|
+sosaties|0|gigot d'agneau|gigot-d-agneau|
+sosaties|1|abricot sec|abricot-sec|
+sosaties|2|oignon|oignon|
+sosaties|3|poudre de curry|poudre-de-curry|
+sosaties|4|curcuma|curcuma|
+sosaties|5|vinaigre de vin|vinaigre-de-vin|
+sosaties|6|confiture d'abricot|confiture-d-abricot|
+sosaties|7|laurier|laurier|
+sosaties|8|ail|ail|
+sosaties|9|huile neutre|huile-neutre|
+sosaties|10|sel|sel|
+sosaties|11|poivre noir|poivre-noir|
+umngqusho|0|maïs concassé|mais-concasse|
+umngqusho|1|haricot blanc|haricot-blanc|
+umngqusho|2|oignon|oignon|
+umngqusho|3|pomme de terre|pomme-de-terre|
+umngqusho|4|bouillon cube|bouillon-cube|
+umngqusho|5|beurre|beurre|
+umngqusho|6|huile neutre|huile-neutre|
+umngqusho|7|sel|sel|
+umngqusho|8|poivre noir|poivre-noir|
+vetkoek|0|farine de blé|farine-de-ble|
+vetkoek|1|levure boulangère|levure-boulangere|
+vetkoek|2|sucre|sucre|
+vetkoek|3|sel|sel|
+vetkoek|4|eau|eau|
+vetkoek|5|boeuf haché|boeuf-hache|
+vetkoek|6|oignon|oignon|
+vetkoek|7|poudre de curry|poudre-de-curry|
+vetkoek|8|tomate|tomate|
+vetkoek|9|confiture d'abricot|confiture-d-abricot|
+vetkoek|10|huile neutre|huile-neutre|
+vetkoek|11|sel|sel|
+vetkoek|12|poivre noir|poivre-noir|

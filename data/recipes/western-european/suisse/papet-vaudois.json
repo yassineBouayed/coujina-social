@@ -1,0 +1,39 @@
+{
+  "slug": "papet-vaudois",
+  "cuisine": "western-european",
+  "country": "suisse",
+  "origin": "Suisse",
+  "native_name": "Papet vaudois",
+  "title": {
+    "fr": "Papet vaudois aux poireaux",
+    "en": "Vaud leek and potato stew"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 75 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["vaud", "poireau", "saucisse", "hiver"],
+  "ingredients": [
+    { "raw": "1,5 kg de poireaux, en tronçons", "qty": 1500, "unit": "g", "item": "poireau", "prep": "en tronçons" },
+    { "raw": "800 g de pommes de terre, en morceaux", "qty": 800, "unit": "g", "item": "pomme de terre", "prep": "en morceaux" },
+    { "raw": "4 saucisses fumées", "qty": 4, "unit": "piece", "item": "saucisse fumée" },
+    { "raw": "20 cl de vin blanc sec", "qty": 20, "unit": "cl", "item": "vin blanc" },
+    { "raw": "20 cl de crème liquide", "qty": 20, "unit": "cl", "item": "crème liquide" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "80 g de beurre", "qty": 80, "unit": "g", "item": "beurre" },
+    { "raw": "30 cl de bouillon de volaille", "qty": 30, "unit": "cl", "item": "bouillon volaille" },
+    { "raw": "2 feuilles de laurier", "qty": 2, "unit": "piece", "item": "laurier" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le papet est un plat de POIREAUX : deux fois plus de poireaux que de pommes de terre.", "en": "Papet is a LEEK dish: twice as many leeks as potatoes." },
+    { "fr": "Les faire fondre au beurre VINGT MINUTES à couvert, sans les colorer.", "en": "Melt them in butter for TWENTY MINUTES, covered, without colouring them." },
+    { "fr": "Déglacer au vin blanc, ajouter les pommes de terre et le bouillon, à peine à hauteur.", "en": "Deglaze with white wine, add the potatoes and stock, barely to the top." },
+    { "fr": "Poser la saucisse ENTIÈRE dessus et cuire une heure à petit feu, sans la piquer.", "en": "Set the sausage WHOLE on top and cook for an hour over low heat, without pricking it." },
+    { "fr": "Piquée, elle rendrait son gras dans le papet et perdrait tout son moelleux.", "en": "Pricked, it would give its fat to the papet and lose all its succulence." },
+    { "fr": "Ajouter la crème en fin de cuisson et écraser grossièrement, en gardant des morceaux.", "en": "Add the cream at the end and crush roughly, keeping some texture." }
+  ]
+}

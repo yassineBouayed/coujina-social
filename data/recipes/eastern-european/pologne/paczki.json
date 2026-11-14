@@ -1,0 +1,39 @@
+{
+  "slug": "paczki",
+  "cuisine": "eastern-european",
+  "country": "pologne",
+  "origin": "Pologne",
+  "native_name": "Pączki",
+  "title": {
+    "fr": "Pączki, beignets polonais à la confiture",
+    "en": "Pączki, Polish jam doughnuts"
+  },
+  "meal_type": "dessert",
+  "servings": 12,
+  "times": { "prep_min": 50, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["mardi-gras", "friture", "confiture", "fete"],
+  "ingredients": [
+    { "raw": "600 g de farine T45", "qty": 600, "unit": "g", "item": "farine T45" },
+    { "raw": "25 cl de lait entier, tiède", "qty": 25, "unit": "cl", "item": "lait entier", "prep": "tiède" },
+    { "raw": "20 g de levure boulangère sèche", "qty": 20, "unit": "g", "item": "levure boulangère" },
+    { "raw": "6 jaunes d'œufs", "qty": 6, "unit": "piece", "item": "oeuf" },
+    { "raw": "100 g de beurre, mou", "qty": 100, "unit": "g", "item": "beurre", "prep": "mou" },
+    { "raw": "100 g de sucre", "qty": 100, "unit": "g", "item": "sucre" },
+    { "raw": "300 g de confiture de prune", "qty": 300, "unit": "g", "item": "confiture" },
+    { "raw": "2 l d'huile neutre pour la friture", "qty": 2, "unit": "l", "item": "huile neutre" },
+    { "raw": "200 g de sucre glace", "qty": 200, "unit": "g", "item": "sucre glace", "group": "finition" },
+    { "raw": "1 orange, son zeste", "qty": 1, "unit": "piece", "item": "orange" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Les pączki se mangent le JEUDI GRAS : les Polonais en engloutissent des millions ce jour-là.", "en": "Pączki are eaten on FAT THURSDAY: Poles get through millions of them that day." },
+    { "fr": "La pâte n'utilise que des JAUNES, pas d'œufs entiers : elle est plus riche et plus jaune.", "en": "The dough uses only YOLKS, no whole eggs: it is richer and more golden." },
+    { "fr": "Deux levées d'une heure : cette pâte est très riche et lève lentement.", "en": "Two proves of an hour: this dough is very rich and rises slowly." },
+    { "fr": "Frire à 175 °C, en couvrant la friteuse la première minute : c'est ce qui fait l'anneau blanc.", "en": "Fry at 175°C, covering the pan for the first minute: that is what makes the pale ring." },
+    { "fr": "Cet anneau clair sur le pourtour est la marque du pączek réussi : la pâte a flotté sans s'enfoncer.", "en": "That pale ring around the middle is the sign of a good pączek: the dough floated without sinking." },
+    { "fr": "Les fourrer À LA POCHE une fois REFROIDIS, jamais chauds : chaude, la confiture les détrempe.", "en": "Fill them WITH A PIPING BAG once COOL, never hot: warm, the jam soaks them." }
+  ]
+}

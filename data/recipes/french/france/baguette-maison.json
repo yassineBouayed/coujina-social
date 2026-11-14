@@ -1,0 +1,32 @@
+{
+  "slug": "baguette-maison",
+  "cuisine": "french",
+  "country": "france",
+  "origin": "France",
+  "native_name": "Baguette",
+  "title": {
+    "fr": "Baguette de tradition",
+    "en": "Traditional baguette"
+  },
+  "meal_type": "bread",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 25 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["pain", "fermentation", "quotidien", "four"],
+  "ingredients": [
+    { "raw": "500 g de farine T65", "qty": 500, "unit": "g", "item": "farine T55" },
+    { "raw": "35 cl d'eau", "qty": 35, "unit": "cl", "item": "eau" },
+    { "raw": "10 g de sel", "qty": 10, "unit": "g", "item": "sel" },
+    { "raw": "3 g de levure boulangère sèche", "qty": 3, "unit": "g", "item": "levure boulangère" }
+  ],
+  "steps": [
+    { "fr": "Quatre ingrédients, et pourtant la baguette est l'un des pains les plus difficiles à réussir chez soi.", "en": "Four ingredients, and yet the baguette is one of the hardest breads to get right at home." },
+    { "fr": "Mélanger farine et eau SEULES et laisser reposer une heure — l'autolyse — avant sel et levure.", "en": "Mix the flour and water ALONE and rest for an hour — the autolyse — before salt and yeast." },
+    { "fr": "Utiliser TRÈS PEU de levure et laisser lever au frais DOUZE HEURES : le goût vient du temps.", "en": "Use VERY LITTLE yeast and prove in the fridge for TWELVE HOURS: the flavour comes from time." },
+    { "fr": "Rabattre la pâte trois fois pendant la première heure, à vingt minutes d'intervalle.", "en": "Fold the dough three times during the first hour, at twenty-minute intervals." },
+    { "fr": "Façonner sans dégazer, laisser lever une heure, et GRIGNER en biais, d'un geste franc.", "en": "Shape without knocking out the gas, prove for an hour, and SLASH on the diagonal, decisively." },
+    { "fr": "Cuire à 250 °C AVEC BEAUCOUP DE VAPEUR : sans vapeur, la croûte se forme trop tôt et le pain ne pousse pas.", "en": "Bake at 250°C WITH PLENTY OF STEAM: without it, the crust sets too early and the loaf cannot rise." }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "bread-and-butter-pudding",
+  "cuisine": "western-european",
+  "country": "royaume-uni",
+  "origin": "Royaume-Uni",
+  "native_name": "Bread and butter pudding",
+  "title": {
+    "fr": "Pudding de pain au beurre",
+    "en": "Bread and butter pudding"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["restes", "pain-rassis", "creme", "hiver"],
+  "ingredients": [
+    { "raw": "10 tranches de pain de mie rassis", "qty": 10, "unit": "piece", "item": "pain de mie", "prep": "rassis" },
+    { "raw": "100 g de beurre, mou", "qty": 100, "unit": "g", "item": "beurre", "prep": "mou" },
+    { "raw": "120 g de raisins secs", "qty": 120, "unit": "g", "item": "raisin sec" },
+    { "raw": "50 cl de lait entier", "qty": 50, "unit": "cl", "item": "lait entier" },
+    { "raw": "25 cl de crème liquide", "qty": 25, "unit": "cl", "item": "crème liquide" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf" },
+    { "raw": "120 g de sucre", "qty": 120, "unit": "g", "item": "sucre" },
+    { "raw": "1 gousse de vanille, fendue", "qty": 1, "unit": "piece", "item": "gousse de vanille", "prep": "fendue" },
+    { "raw": "1 citron, son zeste", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "3 c. à s. de sucre roux", "qty": 3, "unit": "tbsp", "item": "sucre roux", "group": "finition" }
+  ],
+  "steps": [
+    { "fr": "Le pain doit être RASSIS : frais, il se réduit en bouillie dès qu'il touche la crème.", "en": "The bread must be STALE: fresh, it dissolves to mush the moment it meets the custard." },
+    { "fr": "Beurrer chaque tranche généreusement d'un seul côté, et les couper en triangles.", "en": "Butter each slice generously on one side only, and cut them into triangles." },
+    { "fr": "Les ranger EN ÉCAILLES, dressés, côté beurré vers le haut : les pointes vont dorer.", "en": "Arrange them OVERLAPPING, standing up, buttered side up: the tips will brown." },
+    { "fr": "Verser l'appareil et laisser TREMPER trente minutes avant d'enfourner.", "en": "Pour on the custard and let it SOAK for thirty minutes before baking." },
+    { "fr": "Sans ce trempage, le pain reste sec au centre et la crème cuit toute seule autour.", "en": "Without that soak, the bread stays dry inside while the custard sets around it." },
+    { "fr": "Poudrer de sucre roux et cuire 45 minutes à 170 °C, au bain-marie.", "en": "Sprinkle with brown sugar and bake for 45 minutes at 170°C, in a water bath." }
+  ]
+}

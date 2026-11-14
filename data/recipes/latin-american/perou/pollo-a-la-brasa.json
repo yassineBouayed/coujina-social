@@ -1,0 +1,43 @@
+{
+  "slug": "pollo-a-la-brasa",
+  "cuisine": "latin-american",
+  "country": "perou",
+  "origin": "Pérou",
+  "native_name": "Pollo a la brasa",
+  "title": {
+    "fr": "Poulet rôti à la péruvienne",
+    "en": "Peruvian rotisserie chicken"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 75 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["embleme", "poulet", "four", "famille"],
+  "ingredients": [
+    { "raw": "1 poulet entier", "qty": 1, "unit": "piece", "item": "poulet entier" },
+    { "raw": "6 c. à s. de sauce soja", "qty": 6, "unit": "tbsp", "item": "sauce soja" },
+    { "raw": "3 c. à s. d'ají panca en pâte", "qty": 3, "unit": "tbsp", "item": "ají panca", "prep": "en pâte" },
+    { "raw": "10 gousses d'ail, écrasées", "qty": 10, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "3 c. à s. de cumin moulu", "qty": 3, "unit": "tbsp", "item": "cumin" },
+    { "raw": "2 c. à s. d'origan séché", "qty": 2, "unit": "tbsp", "item": "origan séché" },
+    { "raw": "2 c. à s. de paprika fumé", "qty": 2, "unit": "tbsp", "item": "paprika fumé" },
+    { "raw": "5 cl de vinaigre de vin", "qty": 5, "unit": "cl", "item": "vinaigre de vin" },
+    { "raw": "33 cl de bière blonde", "qty": 33, "unit": "cl", "item": "bière" },
+    { "raw": "20 cl de mayonnaise", "qty": 20, "unit": "cl", "item": "mayonnaise", "group": "sauce verte" },
+    { "raw": "1 bouquet de coriandre", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "group": "sauce verte" },
+    { "raw": "3 piments ají amarillo", "qty": 3, "unit": "piece", "item": "ají amarillo", "group": "sauce verte" },
+    { "raw": "1 citron vert, son jus", "qty": 1, "unit": "piece", "item": "citron vert", "group": "sauce verte" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La SAUCE SOJA dans la marinade est l'héritage chifa : elle sale et brunit la peau.", "en": "The SOY SAUCE in the marinade is the chifa inheritance: it salts and browns the skin." },
+    { "fr": "Mariner VINGT-QUATRE HEURES au réfrigérateur, en glissant la marinade SOUS LA PEAU.", "en": "Marinate for TWENTY-FOUR HOURS in the fridge, working the marinade UNDER THE SKIN." },
+    { "fr": "Sortir le poulet une heure avant de cuire, et le SÉCHER : mouillée, la peau ne croustille pas.", "en": "Take the chicken out an hour before roasting, and DRY it: wet skin will not crisp." },
+    { "fr": "Cuire 45 minutes à 180 °C, POITRINE VERS LE BAS : le jus descend et garde le blanc moelleux.", "en": "Roast 45 minutes at 180°C, BREAST DOWN: the juices run down and keep the breast moist." },
+    { "fr": "Retourner et finir trente minutes à 220 °C pour dorer la peau.", "en": "Turn it over and finish thirty minutes at 220°C to brown the skin." },
+    { "fr": "La sauce verte se fait AU MIXEUR, contrairement au chimichurri : elle doit être lisse.", "en": "The green sauce IS blended, unlike chimichurri: it must be smooth." }
+  ]
+}

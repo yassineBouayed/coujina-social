@@ -1,0 +1,39 @@
+{
+  "slug": "gnocchi-sorrentina",
+  "cuisine": "mediterranean",
+  "country": "italie",
+  "origin": "Italie",
+  "native_name": "Gnocchi alla sorrentina",
+  "title": {
+    "fr": "Gnocchi à la sorrentina",
+    "en": "Gnocchi alla sorrentina"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 50, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["sorrente", "gratin", "mozzarella", "famille"],
+  "ingredients": [
+    { "raw": "1,2 kg de pommes de terre à chair farineuse", "qty": 1200, "unit": "g", "item": "pomme de terre" },
+    { "raw": "300 g de farine T45", "qty": 300, "unit": "g", "item": "farine T45" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf" },
+    { "raw": "800 g de tomate pelée en conserve", "qty": 800, "unit": "g", "item": "tomate pelée en conserve" },
+    { "raw": "300 g de mozzarella, en dés", "qty": 300, "unit": "g", "item": "mozzarella", "prep": "en dés" },
+    { "raw": "100 g de parmesan, râpé", "qty": 100, "unit": "g", "item": "parmesan", "prep": "râpé" },
+    { "raw": "3 gousses d'ail", "qty": 3, "unit": "piece", "item": "ail" },
+    { "raw": "1 bouquet de basilic", "qty": 1, "unit": "bunch", "item": "basilic" },
+    { "raw": "8 c. à s. d'huile d'olive", "qty": 8, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Cuire les pommes de terre EN ROBE : pelées, elles boivent l'eau et il faudra ajouter de la farine.", "en": "Boil the potatoes IN THEIR SKINS: peeled, they drink water and you will need more flour." },
+    { "fr": "Les peler brûlantes et les passer au presse-purée, puis les laisser refroidir en tas aéré.", "en": "Peel them scalding and pass them through a ricer, then let them cool in a loose heap." },
+    { "fr": "Ajouter la farine PETIT À PETIT : moins il y en a, plus les gnocchi sont légers.", "en": "Add the flour LITTLE BY LITTLE: the less there is, the lighter the gnocchi." },
+    { "fr": "Travailler la pâte LE MOINS POSSIBLE : trop pétrie, elle devient élastique et les gnocchi sont durs.", "en": "Work the dough AS LITTLE AS POSSIBLE: overworked, it turns elastic and the gnocchi are tough." },
+    { "fr": "Pocher jusqu'à ce qu'ils remontent, les égoutter, et les mélanger à la sauce tomate.", "en": "Poach them until they float, drain them, and toss them in the tomato sauce." },
+    { "fr": "Ajouter la mozzarella, gratiner dix minutes au four, et servir dans le plat de cuisson.", "en": "Add the mozzarella, grill for ten minutes, and serve in the baking dish." }
+  ]
+}

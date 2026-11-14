@@ -1,0 +1,39 @@
+{
+  "slug": "quesadillas",
+  "cuisine": "latin-american",
+  "country": "mexique",
+  "origin": "Mexique",
+  "native_name": "Quesadillas",
+  "title": {
+    "fr": "Quesadillas au fromage et aux champignons",
+    "en": "Cheese and mushroom quesadillas"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rapide", "fromage", "enfants", "poele"],
+  "ingredients": [
+    { "raw": "12 tortillas de maïs", "qty": 12, "unit": "piece", "item": "tortilla de maïs" },
+    { "raw": "400 g de queso fresco, râpé", "qty": 400, "unit": "g", "item": "queso fresco", "prep": "râpé" },
+    { "raw": "400 g de champignons de Paris, émincés", "qty": 400, "unit": "g", "item": "champignon de Paris", "prep": "émincé" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "3 piments frais, hachés", "qty": 3, "unit": "piece", "item": "piment frais", "prep": "haché" },
+    { "raw": "1 bouquet de coriandre, ciselée", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "3 gousses d'ail, hachées", "qty": 3, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "6 c. à s. d'huile neutre", "qty": 6, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "2 citrons verts", "qty": 2, "unit": "piece", "item": "citron vert" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "À Mexico, une quesadilla peut ne PAS contenir de fromage : le débat divise le pays entier.", "en": "In Mexico City, a quesadilla may contain NO cheese: the argument divides the whole country." },
+    { "fr": "Cuire les champignons à feu VIF jusqu'à ce qu'ils aient rendu toute leur eau.", "en": "Cook the mushrooms over HIGH heat until they have released all their water." },
+    { "fr": "Une garniture humide fait de la vapeur dans la tortilla, qui devient molle et se déchire.", "en": "A wet filling steams inside the tortilla, which turns limp and tears." },
+    { "fr": "Cuire la quesadilla À SEC sur la poêle chaude, sans huile, deux minutes par face.", "en": "Cook the quesadilla DRY on a hot pan, without oil, two minutes a side." },
+    { "fr": "Ne garnir que la MOITIÉ et replier : garnie sur toute la surface, elle ne se retourne pas.", "en": "Fill only HALF and fold over: filled edge to edge, it cannot be turned." },
+    { "fr": "Attendre que le fromage ait fondu avant de retourner : sinon la quesadilla s'ouvre.", "en": "Wait until the cheese has melted before turning: otherwise the quesadilla opens up." }
+  ]
+}

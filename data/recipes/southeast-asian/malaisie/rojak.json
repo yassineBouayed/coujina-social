@@ -1,0 +1,40 @@
+{
+  "slug": "rojak",
+  "cuisine": "southeast-asian",
+  "country": "malaisie",
+  "origin": "Malaisie",
+  "native_name": "Rojak",
+  "title": {
+    "fr": "Rojak, salade de fruits et légumes à la pâte de crevette",
+    "en": "Rojak, fruit and vegetable salad with shrimp paste"
+  },
+  "meal_type": "salad",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 10 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "fruits", "aigre-doux", "arachide"],
+  "ingredients": [
+    { "raw": "1 concombre, en gros morceaux", "qty": 1, "unit": "piece", "item": "concombre", "prep": "en gros morceaux" },
+    { "raw": "1 ananas, en gros morceaux", "qty": 1, "unit": "piece", "item": "ananas", "prep": "en gros morceaux" },
+    { "raw": "1 mangue verte, en bâtonnets", "qty": 1, "unit": "piece", "item": "mangue", "prep": "en bâtonnets" },
+    { "raw": "1 pomme verte, en quartiers", "qty": 1, "unit": "piece", "item": "pomme", "prep": "en quartiers" },
+    { "raw": "200 g de germes de soja", "qty": 200, "unit": "g", "item": "germes de soja" },
+    { "raw": "200 g de tofu ferme frit, en dés", "qty": 200, "unit": "g", "item": "tofu ferme", "prep": "frit" },
+    { "raw": "3 c. à s. de pâte de crevette", "qty": 3, "unit": "tbsp", "item": "pâte de crevette", "group": "sauce" },
+    { "raw": "5 c. à s. de sucre de palme", "qty": 5, "unit": "tbsp", "item": "sucre de palme", "group": "sauce" },
+    { "raw": "3 c. à s. de pâte de tamarin", "qty": 3, "unit": "tbsp", "item": "pâte de tamarin", "group": "sauce" },
+    { "raw": "2 c. à s. de sambal oelek", "qty": 2, "unit": "tbsp", "item": "sambal oelek", "group": "sauce" },
+    { "raw": "120 g d'arachides grillées, concassées", "qty": 120, "unit": "g", "item": "arachide grillée", "prep": "concassée" },
+    { "raw": "2 citrons verts, leur jus", "qty": 2, "unit": "piece", "item": "citron vert" }
+  ],
+  "steps": [
+    { "fr": "Le rojak mélange fruits et légumes CRUS dans une sauce salée-sucrée à la pâte de crevette.", "en": "Rojak mixes RAW fruit and vegetables in a sweet-salty shrimp paste dressing." },
+    { "fr": "Griller la pâte de crevette enveloppée d'aluminium, deux minutes : crue, elle domine tout.", "en": "Toast the shrimp paste wrapped in foil for two minutes: raw, it overwhelms everything." },
+    { "fr": "La délayer avec le sucre de palme fondu, le tamarin et le sambal, en une sauce ÉPAISSE et noire.", "en": "Slake it with melted palm sugar, tamarind and sambal into a THICK, black dressing." },
+    { "fr": "Elle doit napper comme du miel : trop liquide, elle glisse et le rojak reste fade.", "en": "It should coat like honey: too thin, it slides off and the rojak stays bland." },
+    { "fr": "Choisir des fruits FERMES et plutôt acides : mûrs et sucrés, ils déséquilibrent tout.", "en": "Choose FIRM, rather sour fruit: ripe and sweet, it throws the balance off." },
+    { "fr": "Mélanger au dernier moment et couvrir généreusement d'arachides concassées.", "en": "Toss at the last moment and cover generously with crushed peanuts." }
+  ]
+}

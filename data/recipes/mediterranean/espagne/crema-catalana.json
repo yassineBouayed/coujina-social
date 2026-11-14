@@ -1,0 +1,37 @@
+{
+  "slug": "crema-catalana",
+  "cuisine": "mediterranean",
+  "country": "espagne",
+  "origin": "Espagne",
+  "native_name": "Crema catalana",
+  "title": {
+    "fr": "Crème catalane",
+    "en": "Crema catalana"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["catalogne", "cannelle", "citron", "caramel"],
+  "ingredients": [
+    { "raw": "1 l de lait entier", "qty": 1, "unit": "l", "item": "lait entier" },
+    { "raw": "8 jaunes d'œufs", "qty": 8, "unit": "piece", "item": "oeuf" },
+    { "raw": "180 g de sucre", "qty": 180, "unit": "g", "item": "sucre" },
+    { "raw": "40 g de maïzena", "qty": 40, "unit": "g", "item": "maïzena" },
+    { "raw": "1 citron, son zeste", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "1 orange, son zeste", "qty": 1, "unit": "piece", "item": "orange" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle", "prep": "en bâton" },
+    { "raw": "6 c. à s. de sucre", "qty": 6, "unit": "tbsp", "item": "sucre", "group": "caramel" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "La crème catalane se fait AU LAIT et se lie à la MAÏZENA : ce n'est pas une crème brûlée.", "en": "Crema catalana is made with MILK and thickened with CORNFLOUR: it is not a crème brûlée." },
+    { "fr": "Elle ne passe jamais au four : elle cuit à la casserole, en quelques minutes.", "en": "It never goes into the oven: it cooks in a saucepan, in a few minutes." },
+    { "fr": "Infuser zestes et cannelle dans le lait chaud vingt minutes, puis filtrer.", "en": "Steep the zests and cinnamon in the hot milk for twenty minutes, then strain." },
+    { "fr": "Délayer maïzena et jaunes avec un peu de lait froid, sans grumeau.", "en": "Slake the cornflour and yolks with a little cold milk, lump-free." },
+    { "fr": "Verser le lait chaud, remettre sur le feu, et remuer SANS ARRÊT jusqu'à épaississement.", "en": "Add the hot milk, return to the heat, and stir WITHOUT STOPPING until it thickens." },
+    { "fr": "Réfrigérer quatre heures, sucrer et caraméliser au fer ou au chalumeau juste avant de servir.", "en": "Chill for four hours, sugar and caramelise with an iron or torch just before serving." }
+  ]
+}

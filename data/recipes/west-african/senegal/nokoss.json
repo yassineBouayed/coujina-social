@@ -1,0 +1,40 @@
+{
+  "slug": "nokoss",
+  "cuisine": "west-african",
+  "country": "senegal",
+  "origin": "Sénégal",
+  "native_name": "Nokoss",
+  "title": {
+    "fr": "Nokoss, base aromatique sénégalaise",
+    "en": "Nokoss, Senegalese aromatic base"
+  },
+  "meal_type": "side",
+  "servings": 10,
+  "times": { "prep_min": 20, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["base", "condiment", "conserve", "marinade"],
+  "ingredients": [
+    { "raw": "3 oignons", "qty": 3, "unit": "piece", "item": "oignon" },
+    { "raw": "1 tête d'ail", "qty": 12, "unit": "piece", "item": "ail" },
+    { "raw": "1 bouquet de persil plat", "qty": 1, "unit": "bunch", "item": "persil plat" },
+    { "raw": "3 piments oiseau", "qty": 3, "unit": "piece", "item": "piment oiseau" },
+    { "raw": "1 poivron rouge", "qty": 1, "unit": "piece", "item": "poivron rouge" },
+    { "raw": "2 cubes de bouillon", "qty": 2, "unit": "piece", "item": "bouillon cube" },
+    { "raw": "1 c. à c. de poivre noir", "qty": 1, "unit": "tsp", "item": "poivre noir" },
+    { "raw": "4 c. à s. d'huile d'arachide", "qty": 4, "unit": "tbsp", "item": "huile d'arachide" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Piler ail, persil, piment et poivron au mortier, en commençant par les plus durs.", "en": "Pound the garlic, parsley, chilli and pepper in a mortar, starting with the firmest." },
+    { "fr": "Ajouter l'oignon en dernier : mixé trop tôt, il rend son eau et délave le reste.", "en": "Add the onion last: pounded too early, it weeps and waters everything down." },
+    { "fr": "Incorporer les cubes émiettés, le poivre, le sel et l'huile.", "en": "Work in the crumbled stock cubes, pepper, salt and oil." },
+    { "fr": "Le nokoss doit rester une pâte épaisse, pas une purée liquide.", "en": "Nokoss must stay a thick paste, not a runny purée." },
+    { "fr": "Se conserve une semaine au frais dans un bocal, couvert d'un filet d'huile.", "en": "Keeps a week in the fridge in a jar, under a film of oil." },
+    { "fr": "S'utilise pour farcir le poisson, marquer une sauce, ou faire mariner une viande.", "en": "Use it to stuff fish, season a sauce, or marinate meat." }
+  ],
+  "notes": [
+    { "fr": "Chaque maison a son nokoss. Celui-ci est la version courante de Dakar ; en Casamance on y met du nététou.", "en": "Every household has its own nokoss. This is the common Dakar version; in Casamance, néré goes in too." }
+  ]
+}

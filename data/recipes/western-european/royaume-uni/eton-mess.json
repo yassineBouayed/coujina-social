@@ -1,0 +1,39 @@
+{
+  "slug": "eton-mess",
+  "cuisine": "western-european",
+  "country": "royaume-uni",
+  "origin": "Royaume-Uni",
+  "native_name": "Eton mess",
+  "title": {
+    "fr": "Eton mess aux fraises et meringue",
+    "en": "Eton mess with strawberries and meringue"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 90 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ete", "fraise", "meringue", "rapide"],
+  "ingredients": [
+    { "raw": "4 blancs d'œufs", "qty": 4, "unit": "piece", "item": "oeuf", "group": "meringue" },
+    { "raw": "220 g de sucre", "qty": 220, "unit": "g", "item": "sucre", "group": "meringue" },
+    { "raw": "1 c. à c. de vinaigre blanc", "qty": 1, "unit": "tsp", "item": "vinaigre blanc", "group": "meringue" },
+    { "raw": "800 g de fraises", "qty": 800, "unit": "g", "item": "fraise" },
+    { "raw": "50 cl de crème liquide entière, très froide", "qty": 50, "unit": "cl", "item": "crème liquide", "prep": "très froide" },
+    { "raw": "40 g de sucre glace", "qty": 40, "unit": "g", "item": "sucre glace" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "« Mess » veut dire désordre : ce dessert doit être BRISÉ et irrégulier, jamais dressé.", "en": "\"Mess\" means mess: this dessert must be BROKEN and irregular, never plated neatly." },
+    { "fr": "Monter les blancs avec le sel, serrer au sucre EN TROIS FOIS, et ajouter le vinaigre à la fin.", "en": "Whip the whites with salt, add the sugar IN THREE ADDITIONS, and the vinegar at the end." },
+    { "fr": "Le vinaigre stabilise la meringue : elle reste croustillante dehors et guimauve dedans.", "en": "The vinegar stabilises the meringue: crisp outside, marshmallow within." },
+    { "fr": "Cuire 90 minutes à 110 °C — on la SÈCHE, on ne la cuit pas — puis refroidir dans le four éteint.", "en": "Bake for 90 minutes at 110°C — you DRY it, you do not bake it — then cool in the switched-off oven." },
+    { "fr": "Écraser un tiers des fraises au sucre et au citron, en garder deux tiers en morceaux.", "en": "Crush a third of the strawberries with sugar and lemon, keep two thirds in pieces." },
+    { "fr": "Mêler grossièrement crème, meringue brisée et fraises, et servir DANS LES CINQ MINUTES.", "en": "Fold the cream, broken meringue and strawberries roughly together, and serve WITHIN FIVE MINUTES." }
+  ],
+  "notes": [
+    { "fr": "Monté à l'avance, l'Eton mess devient une soupe : la meringue fond dans la crème en un quart d'heure.", "en": "Assembled ahead, Eton mess turns to soup: the meringue dissolves into the cream within fifteen minutes." }
+  ]
+}

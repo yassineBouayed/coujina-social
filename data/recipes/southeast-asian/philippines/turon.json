@@ -1,0 +1,34 @@
+{
+  "slug": "turon",
+  "cuisine": "southeast-asian",
+  "country": "philippines",
+  "origin": "Philippines",
+  "native_name": "Turon",
+  "title": {
+    "fr": "Turon, bananes caramélisées en rouleau frit",
+    "en": "Turon, caramelised banana spring rolls"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "friture", "banane", "gouter"],
+  "ingredients": [
+    { "raw": "12 galettes de lumpia", "qty": 12, "unit": "piece", "item": "pâte à wonton" },
+    { "raw": "6 bananes plantain mûres, en deux dans la longueur", "qty": 6, "unit": "piece", "item": "banane plantain", "prep": "en deux dans la longueur" },
+    { "raw": "200 g de jacquier en conserve, en lanières", "qty": 200, "unit": "g", "item": "jacquier", "prep": "en lanières", "optional": true },
+    { "raw": "200 g de sucre roux", "qty": 200, "unit": "g", "item": "sucre roux" },
+    { "raw": "1 l d'huile neutre pour la friture", "qty": 1, "unit": "l", "item": "huile neutre" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Rouler les demi-bananes DANS LE SUCRE ROUX avant de les emballer : le sucre caramélise à la friture.", "en": "Roll the banana halves IN BROWN SUGAR before wrapping: the sugar caramelises as they fry." },
+    { "fr": "Poser une lanière de jacquier à côté de la banane, sans en mettre trop.", "en": "Lay a strip of jackfruit beside the banana, without overfilling." },
+    { "fr": "Rouler serré et sceller à l'eau : un rouleau lâche s'ouvre dans l'huile.", "en": "Roll tight and seal with water: a loose roll opens in the oil." },
+    { "fr": "Frire à 175 °C jusqu'à ce que le sucre forme une croûte ambrée et craquante.", "en": "Fry at 175°C until the sugar forms an amber, crackling crust." },
+    { "fr": "Égoutter sur grille, JAMAIS sur papier : le caramel colle au papier et arrache la croûte.", "en": "Drain on a rack, NEVER on paper: the caramel sticks to paper and tears off the crust." },
+    { "fr": "Laisser tiédir cinq minutes : le sucre fondu est brûlant et colle à la langue.", "en": "Let them cool for five minutes: molten sugar is scalding and sticks to the tongue." }
+  ]
+}

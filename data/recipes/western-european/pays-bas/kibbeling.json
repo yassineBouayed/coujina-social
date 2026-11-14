@@ -1,0 +1,41 @@
+{
+  "slug": "kibbeling",
+  "cuisine": "western-european",
+  "country": "pays-bas",
+  "origin": "Pays-Bas",
+  "native_name": "Kibbeling",
+  "title": {
+    "fr": "Kibbeling, beignets de cabillaud",
+    "en": "Kibbeling, battered cod bites"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["marche", "friture", "poisson", "rue"],
+  "ingredients": [
+    { "raw": "1 kg de filet de cabillaud, en gros cubes", "qty": 1000, "unit": "g", "item": "cabillaud", "prep": "en gros cubes" },
+    { "raw": "250 g de farine de blé", "qty": 250, "unit": "g", "item": "farine de blé" },
+    { "raw": "33 cl de bière blonde, très froide", "qty": 33, "unit": "cl", "item": "bière", "prep": "très froide" },
+    { "raw": "2 c. à c. de levure chimique", "qty": 2, "unit": "tsp", "item": "levure chimique" },
+    { "raw": "2 c. à c. de paprika", "qty": 2, "unit": "tsp", "item": "paprika" },
+    { "raw": "2 c. à c. de poudre de curry", "qty": 2, "unit": "tsp", "item": "poudre de curry" },
+    { "raw": "1,5 l d'huile neutre pour la friture", "qty": 1.5, "unit": "l", "item": "huile neutre" },
+    { "raw": "20 cl de mayonnaise", "qty": 20, "unit": "cl", "item": "mayonnaise", "group": "sauce" },
+    { "raw": "4 cornichons, hachés", "qty": 4, "unit": "piece", "item": "cornichon", "prep": "haché", "group": "sauce" },
+    { "raw": "2 c. à s. de câpres, hachées", "qty": 2, "unit": "tbsp", "item": "câpre", "prep": "hachée", "group": "sauce" },
+    { "raw": "1 citron, en quartiers", "qty": 1, "unit": "piece", "item": "citron", "prep": "en quartiers" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Saler les cubes de cabillaud vingt minutes avant : cela raffermit la chair et l'empêche de se défaire.", "en": "Salt the cod cubes twenty minutes ahead: this firms the flesh and keeps it from breaking up." },
+    { "fr": "Les ÉPONGER soigneusement : une chair humide fait glisser la pâte à la friture.", "en": "BLOT them carefully: wet flesh makes the batter slide off in the fryer." },
+    { "fr": "Faire la pâte à la bière glacée JUSTE avant de frire, sans chercher à la lisser.", "en": "Make the batter with ice-cold beer JUST before frying, without trying to smooth it." },
+    { "fr": "Les épices vont DANS la pâte, pas sur le poisson : c'est la signature du kibbeling.", "en": "The spices go INTO the batter, not onto the fish: that is kibbeling's signature." },
+    { "fr": "Frire à 180 °C, quatre minutes, six morceaux à la fois pour ne pas faire chuter l'huile.", "en": "Fry at 180°C for four minutes, six pieces at a time so the oil does not drop." },
+    { "fr": "Servir dans un cornet avec la sauce tartare et un quartier de citron.", "en": "Serve in a paper cone with the tartare sauce and a lemon wedge." }
+  ]
+}

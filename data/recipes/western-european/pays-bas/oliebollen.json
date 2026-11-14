@@ -1,0 +1,37 @@
+{
+  "slug": "oliebollen",
+  "cuisine": "western-european",
+  "country": "pays-bas",
+  "origin": "Pays-Bas",
+  "native_name": "Oliebollen",
+  "title": {
+    "fr": "Oliebollen, beignets du Nouvel An",
+    "en": "Oliebollen, New Year's doughnuts"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 30, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["nouvel-an", "friture", "raisin", "fete"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé" },
+    { "raw": "35 cl de lait entier, tiède", "qty": 35, "unit": "cl", "item": "lait entier", "prep": "tiède" },
+    { "raw": "10 g de levure boulangère sèche", "qty": 10, "unit": "g", "item": "levure boulangère" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf" },
+    { "raw": "200 g de raisins secs", "qty": 200, "unit": "g", "item": "raisin sec" },
+    { "raw": "2 pommes, en petits dés", "qty": 2, "unit": "piece", "item": "pomme", "prep": "en petits dés" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "2 l d'huile neutre pour la friture", "qty": 2, "unit": "l", "item": "huile neutre" },
+    { "raw": "150 g de sucre glace", "qty": 150, "unit": "g", "item": "sucre glace", "group": "finition" }
+  ],
+  "steps": [
+    { "fr": "Les oliebollen se mangent le 31 décembre : c'est une tradition tenue dans chaque foyer.", "en": "Oliebollen are eaten on 31 December: a tradition kept in every household." },
+    { "fr": "La pâte est LIQUIDE, comme une pâte à crêpes épaisse : elle ne se pétrit jamais.", "en": "The batter is LIQUID, like a thick pancake batter: it is never kneaded." },
+    { "fr": "Faire tremper les raisins une heure dans l'eau tiède et les SÉCHER avant de les ajouter.", "en": "Soak the raisins for an hour in warm water and DRY them before adding." },
+    { "fr": "Mouillés, ils font éclater l'huile violemment à la friture.", "en": "Wet, they make the oil spit violently in the fryer." },
+    { "fr": "Laisser lever une heure, puis prélever à DEUX CUILLÈRES MOUILLÉES et laisser tomber dans l'huile.", "en": "Prove for an hour, then scoop with TWO WET SPOONS and drop into the oil." },
+    { "fr": "Frire à 175 °C, huit minutes en les retournant : elles doivent être cuites à cœur.", "en": "Fry at 175°C for eight minutes, turning: they must be cooked right through." }
+  ]
+}

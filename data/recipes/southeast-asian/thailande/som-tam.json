@@ -1,0 +1,38 @@
+{
+  "slug": "som-tam",
+  "cuisine": "southeast-asian",
+  "country": "thailande",
+  "origin": "Thaïlande",
+  "native_name": "ส้มตำ",
+  "title": {
+    "fr": "Som tam, salade de papaye verte pilée",
+    "en": "Som tam, pounded green papaya salad"
+  },
+  "meal_type": "salad",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["isan", "cru", "mortier", "pimente"],
+  "ingredients": [
+    { "raw": "1 papaye verte, en julienne", "qty": 1, "unit": "piece", "item": "papaye", "prep": "en julienne" },
+    { "raw": "6 piments oiseau", "qty": 6, "unit": "piece", "item": "piment oiseau" },
+    { "raw": "4 gousses d'ail", "qty": 4, "unit": "piece", "item": "ail" },
+    { "raw": "3 c. à s. de crevettes séchées", "qty": 3, "unit": "tbsp", "item": "crevette séchée" },
+    { "raw": "100 g de haricots verts, en tronçons", "qty": 100, "unit": "g", "item": "haricot vert", "prep": "en tronçons" },
+    { "raw": "2 tomates, en quartiers", "qty": 2, "unit": "piece", "item": "tomate", "prep": "en quartiers" },
+    { "raw": "4 c. à s. de sauce poisson", "qty": 4, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "3 citrons verts, leur jus", "qty": 3, "unit": "piece", "item": "citron vert" },
+    { "raw": "4 c. à s. de sucre de palme", "qty": 4, "unit": "tbsp", "item": "sucre de palme" },
+    { "raw": "60 g d'arachides grillées", "qty": 60, "unit": "g", "item": "arachide grillée" }
+  ],
+  "steps": [
+    { "fr": "Som tam se pile au mortier, il ne se mélange pas : le pilon MEURTRIT la papaye pour qu'elle boive la sauce.", "en": "Som tam is pounded in a mortar, not tossed: the pestle BRUISES the papaya so it drinks the dressing." },
+    { "fr": "Piler d'abord ail et piments en pâte grossière, puis les crevettes séchées.", "en": "Pound the garlic and chillies into a coarse paste first, then the dried prawns." },
+    { "fr": "Ajouter les haricots verts et les meurtrir en quelques coups seulement.", "en": "Add the green beans and bruise them in just a few strokes." },
+    { "fr": "Ajouter la papaye et piler DOUCEMENT en soulevant à la cuillère : elle doit rester croquante.", "en": "Add the papaya and pound GENTLY while lifting with a spoon: it must stay crunchy." },
+    { "fr": "Verser sauce poisson, citron vert et sucre de palme, et écraser les tomates en dernier.", "en": "Add the fish sauce, lime and palm sugar, and crush the tomatoes last." },
+    { "fr": "Goûter et ajuster : le som tam doit être acide, salé, sucré et brûlant, tout en même temps.", "en": "Taste and adjust: som tam must be sour, salty, sweet and burning, all at once." }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "coq-au-vin",
+  "cuisine": "french",
+  "country": "france",
+  "origin": "France",
+  "native_name": "Coq au vin",
+  "title": {
+    "fr": "Coq au vin",
+    "en": "Coq au vin"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 120 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["vin-rouge", "volaille", "dimanche", "mijote"],
+  "ingredients": [
+    { "raw": "1 coq ou gros poulet, découpé", "qty": 1, "unit": "piece", "item": "poulet entier", "prep": "découpé" },
+    { "raw": "75 cl de vin rouge", "qty": 75, "unit": "cl", "item": "vin rouge" },
+    { "raw": "200 g de lardons", "qty": 200, "unit": "g", "item": "lardon" },
+    { "raw": "250 g de champignons de Paris", "qty": 250, "unit": "g", "item": "champignon de Paris" },
+    { "raw": "250 g de petits oignons grelots", "qty": 250, "unit": "g", "item": "oignon nouveau" },
+    { "raw": "3 gousses d'ail, écrasées", "qty": 3, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "2 c. à s. de farine de blé", "qty": 2, "unit": "tbsp", "item": "farine de blé" },
+    { "raw": "1 bouquet garni", "qty": 1, "unit": "piece", "item": "bouquet garni" },
+    { "raw": "5 cl de cognac", "qty": 5, "unit": "cl", "item": "vin rouge", "prep": "ou cognac" },
+    { "raw": "80 g de beurre", "qty": 80, "unit": "g", "item": "beurre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Faire mariner le coq découpé dans le vin, une nuit, avec l'ail et le bouquet garni.", "en": "Marinate the jointed bird in the wine overnight, with the garlic and bouquet garni." },
+    { "fr": "L'égoutter, le sécher, et le faire dorer au beurre sur toutes ses faces.", "en": "Drain it, dry it, and brown it in butter on all sides." },
+    { "fr": "Flamber au cognac, puis singer à la farine et laisser cuire deux minutes.", "en": "Flame it with cognac, then dust with flour and cook for two minutes." },
+    { "fr": "Verser la marinade, porter à ébullition, et cuire deux heures à petits frémissements.", "en": "Add the marinade, bring to a boil, and cook for two hours at a bare simmer." },
+    { "fr": "Retirer la viande et faire RÉDUIRE la sauce de moitié : c'est ce qui lui donne du corps.", "en": "Lift out the meat and REDUCE the sauce by half: this is what gives it body." },
+    { "fr": "Monter la sauce au beurre froid hors du feu, et remettre la viande et la garniture.", "en": "Finish the sauce with cold butter off the heat, and return the meat and garnish." }
+  ],
+  "notes": [
+    { "fr": "Un vrai coq demande quatre heures. Un poulet fermier en demande deux, et c'est ce que fait cette recette.", "en": "A real cockerel needs four hours. A free-range chicken needs two, which is what this recipe assumes." }
+  ]
+}

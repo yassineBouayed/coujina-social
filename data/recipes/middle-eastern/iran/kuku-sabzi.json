@@ -1,0 +1,40 @@
+{
+  "slug": "kuku-sabzi",
+  "cuisine": "middle-eastern",
+  "country": "iran",
+  "origin": "Iran",
+  "native_name": "Kuku sabzi",
+  "title": {
+    "fr": "Kuku sabzi, galette d'herbes aux œufs",
+    "en": "Kuku sabzi, herb and egg cake"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 35 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["norouz", "herbes", "oeuf", "vegetarien"],
+  "ingredients": [
+    { "raw": "8 œufs", "qty": 8, "unit": "piece", "item": "oeuf" },
+    { "raw": "2 bouquets de persil plat, ciselés", "qty": 2, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "1 bouquet de coriandre fraîche, ciselée", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "1 bouquet d'aneth, ciselé", "qty": 1, "unit": "bunch", "item": "aneth", "prep": "ciselé" },
+    { "raw": "6 oignons nouveaux, ciselés", "qty": 6, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé" },
+    { "raw": "50 g de zereshk", "qty": 50, "unit": "g", "item": "zereshk", "optional": true },
+    { "raw": "50 g de noix, concassées", "qty": 50, "unit": "g", "item": "noix", "prep": "concassée", "optional": true },
+    { "raw": "1 c. à c. de levure chimique", "qty": 1, "unit": "tsp", "item": "levure chimique" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "8 c. à s. d'huile neutre", "qty": 8, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le kuku est fait d'herbes tenues par l'œuf, pas d'une omelette aux herbes : il doit être VERT SOMBRE.", "en": "Kuku is herbs held together by egg, not a herb omelette: it must be DARK GREEN." },
+    { "fr": "Ciseler les herbes très finement et les sécher soigneusement : humides, le kuku ne prend pas.", "en": "Chop the herbs very fine and dry them thoroughly: wet, the kuku will not set." },
+    { "fr": "Battre les œufs avec la levure, le safran, le sel et le poivre, sans les faire mousser.", "en": "Beat the eggs with the baking powder, saffron, salt and pepper, without frothing them." },
+    { "fr": "Incorporer herbes, oignons nouveaux, zereshk et noix.", "en": "Fold in the herbs, spring onions, barberries and walnuts." },
+    { "fr": "Cuire à la poêle huilée à feu TRÈS doux, vingt minutes à couvert, jusqu'à ce que le centre soit ferme.", "en": "Cook in an oiled pan over VERY low heat, twenty minutes covered, until the centre is firm." },
+    { "fr": "Retourner à l'aide d'une assiette et cuire dix minutes de l'autre côté. Se mange chaud ou froid.", "en": "Flip it with a plate and cook for ten minutes on the other side. Eaten hot or cold." }
+  ]
+}

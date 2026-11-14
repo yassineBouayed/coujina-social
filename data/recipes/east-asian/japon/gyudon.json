@@ -1,0 +1,38 @@
+{
+  "slug": "gyudon",
+  "cuisine": "east-asian",
+  "country": "japon",
+  "origin": "Japon",
+  "native_name": "牛丼",
+  "title": {
+    "fr": "Gyudon, bol de riz au bœuf mijoté",
+    "en": "Gyudon, beef bowl over rice"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rapide", "donburi", "boeuf", "quotidien"],
+  "ingredients": [
+    { "raw": "600 g de bœuf en tranches très fines", "qty": 600, "unit": "g", "item": "steak de bœuf", "prep": "en tranches très fines" },
+    { "raw": "400 g de riz rond", "qty": 400, "unit": "g", "item": "riz rond" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "30 cl de dashi", "qty": 30, "unit": "cl", "item": "kombu", "prep": "en bouillon dashi" },
+    { "raw": "8 c. à s. de sauce soja", "qty": 8, "unit": "tbsp", "item": "sauce soja" },
+    { "raw": "6 c. à s. de mirin", "qty": 6, "unit": "tbsp", "item": "mirin" },
+    { "raw": "3 c. à s. de saké", "qty": 3, "unit": "tbsp", "item": "saké" },
+    { "raw": "2 c. à s. de sucre", "qty": 2, "unit": "tbsp", "item": "sucre" },
+    { "raw": "1 c. à s. de gingembre frais, râpé", "qty": 1, "unit": "tbsp", "item": "gingembre", "prep": "râpé" },
+    { "raw": "4 oignons nouveaux, ciselés", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé", "group": "garniture" }
+  ],
+  "steps": [
+    { "fr": "Faire trancher le bœuf par le boucher, ou le congeler une heure pour le couper soi-même très fin.", "en": "Have the butcher slice the beef, or freeze it for an hour to cut it very thin yourself." },
+    { "fr": "Porter dashi, sauce soja, mirin, saké et sucre à frémissement avec les oignons.", "en": "Bring the dashi, soy, mirin, sake and sugar to a simmer with the onions." },
+    { "fr": "Cuire les oignons dix minutes, jusqu'à ce qu'ils soient translucides et sucrés.", "en": "Cook the onions for ten minutes, until translucent and sweet." },
+    { "fr": "Ajouter le bœuf en le SÉPARANT à la baguette, et le pocher DEUX MINUTES seulement.", "en": "Add the beef, SEPARATING the slices with chopsticks, and poach it for TWO MINUTES only." },
+    { "fr": "Au-delà de deux minutes, ces tranches fines deviennent grises et coriaces : c'est irréversible.", "en": "Beyond two minutes those thin slices turn grey and tough: there is no going back." },
+    { "fr": "Servir sur du riz brûlant, en arrosant d'un peu de bouillon, avec les oignons nouveaux.", "en": "Serve over scalding rice, moistened with a little of the broth, with the spring onions." }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "brownies",
+  "cuisine": "north-american",
+  "country": "etats-unis",
+  "origin": "États-Unis",
+  "native_name": "Fudgy brownies",
+  "title": {
+    "fr": "Brownies fondants au chocolat",
+    "en": "Fudgy chocolate brownies"
+  },
+  "meal_type": "dessert",
+  "servings": 12,
+  "times": { "prep_min": 20, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["chocolat", "gouter", "enfants", "rapide"],
+  "ingredients": [
+    { "raw": "250 g de chocolat noir", "qty": 250, "unit": "g", "item": "chocolat noir" },
+    { "raw": "220 g de beurre", "qty": 220, "unit": "g", "item": "beurre" },
+    { "raw": "300 g de sucre", "qty": 300, "unit": "g", "item": "sucre" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf" },
+    { "raw": "120 g de farine de blé", "qty": 120, "unit": "g", "item": "farine de blé" },
+    { "raw": "40 g de cacao en poudre", "qty": 40, "unit": "g", "item": "cacao en poudre" },
+    { "raw": "150 g de noix, concassées", "qty": 150, "unit": "g", "item": "noix", "prep": "concassée", "optional": true },
+    { "raw": "1 c. à c. d'extrait de vanille", "qty": 1, "unit": "tsp", "item": "extrait de vanille" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Un brownie fondant contient PEU de farine : cent vingt grammes pour quatre œufs, pas davantage.", "en": "A fudgy brownie has LITTLE flour: a hundred and twenty grams for four eggs, no more." },
+    { "fr": "Battre œufs et sucre CINQ MINUTES : c'est ce qui donne la fine croûte craquelée sur le dessus.", "en": "Beat the eggs and sugar for FIVE MINUTES: that is what makes the thin crackled top." },
+    { "fr": "Cette croûte est du sucre dissous qui remonte et cristallise : sans battage, elle n'apparaît pas.", "en": "That crust is dissolved sugar rising and crystallising: without beating, it does not form." },
+    { "fr": "Ajouter le chocolat fondu TIÈDE, jamais chaud : chaud, il cuit les œufs.", "en": "Add the melted chocolate WARM, never hot: hot, it cooks the eggs." },
+    { "fr": "Incorporer la farine en DOUZE mouvements maximum, à la maryse.", "en": "Fold in the flour in TWELVE movements at most, with a spatula." },
+    { "fr": "Cuire 25 minutes à 175 °C : le centre doit encore TREMBLER à la sortie du four.", "en": "Bake for 25 minutes at 175°C: the centre must still WOBBLE when it comes out." }
+  ]
+}

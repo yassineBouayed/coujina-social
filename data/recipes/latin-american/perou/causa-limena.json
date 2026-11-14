@@ -1,0 +1,40 @@
+{
+  "slug": "causa-limena",
+  "cuisine": "latin-american",
+  "country": "perou",
+  "origin": "Pérou",
+  "native_name": "Causa limeña",
+  "title": {
+    "fr": "Causa, terrine froide de pomme de terre",
+    "en": "Causa, chilled potato terrine"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 45, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["lima", "froid", "thon", "couches"],
+  "ingredients": [
+    { "raw": "1,2 kg de pommes de terre à chair jaune", "qty": 1200, "unit": "g", "item": "pomme de terre" },
+    { "raw": "4 piments ají amarillo", "qty": 4, "unit": "piece", "item": "ají amarillo" },
+    { "raw": "6 citrons verts, leur jus", "qty": 6, "unit": "piece", "item": "citron vert" },
+    { "raw": "12 cl d'huile neutre", "qty": 12, "unit": "cl", "item": "huile neutre" },
+    { "raw": "400 g de thon en conserve, égoutté", "qty": 400, "unit": "g", "item": "thon en conserve", "prep": "égoutté", "group": "farce" },
+    { "raw": "20 cl de mayonnaise", "qty": 20, "unit": "cl", "item": "mayonnaise", "group": "farce" },
+    { "raw": "1 oignon rouge, haché très finement", "qty": 1, "unit": "piece", "item": "oignon rouge", "prep": "haché très finement", "group": "farce" },
+    { "raw": "2 avocats, en tranches", "qty": 2, "unit": "piece", "item": "avocat", "prep": "en tranches" },
+    { "raw": "3 œufs durs, en rondelles", "qty": 3, "unit": "piece", "item": "oeuf", "prep": "dur, en rondelles", "group": "décor" },
+    { "raw": "100 g d'olives noires", "qty": 100, "unit": "g", "item": "olive noire", "group": "décor" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La purée est assaisonnée FROIDE à l'huile, au citron vert et à l'ají : c'est une purée de salade.", "en": "The mash is dressed COLD with oil, lime and ají: it is a salad mash." },
+    { "fr": "Cuire les pommes de terre EN ROBE et les presser CHAUDES, puis les laisser refroidir.", "en": "Boil the potatoes IN THEIR SKINS and rice them HOT, then let them cool." },
+    { "fr": "Ne PAS ajouter de lait ni de beurre : la causa n'est pas une purée de plat chaud.", "en": "Do NOT add milk or butter: causa is not a hot-dish mash." },
+    { "fr": "Monter en trois couches dans un cercle : purée, farce, purée, tassées à chaque fois.", "en": "Build three layers in a ring mould: mash, filling, mash, pressed at each stage." },
+    { "fr": "L'AVOCAT va entre les couches, jamais sur le dessus : à l'air, il brunit en dix minutes.", "en": "The AVOCADO goes between the layers, never on top: exposed, it browns within ten minutes." },
+    { "fr": "Réfrigérer QUATRE HEURES avant de démouler : c'est le froid qui la fait tenir.", "en": "Chill for FOUR HOURS before unmoulding: cold is what holds it together." }
+  ]
+}

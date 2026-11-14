@@ -1,0 +1,41 @@
+{
+  "slug": "samosa",
+  "cuisine": "south-asian",
+  "country": "inde",
+  "origin": "Inde",
+  "native_name": "Samosa",
+  "title": {
+    "fr": "Samosas à la pomme de terre et aux petits pois",
+    "en": "Potato and pea samosas"
+  },
+  "meal_type": "starter",
+  "servings": 8,
+  "times": { "prep_min": 60, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "friture", "vegetarien", "gouter"],
+  "ingredients": [
+    { "raw": "400 g de farine de blé", "qty": 400, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "6 c. à s. de ghee", "qty": 6, "unit": "tbsp", "item": "ghee", "group": "pâte" },
+    { "raw": "1 c. à c. de graines d'ajowan", "qty": 1, "unit": "tsp", "item": "graine de nigelle", "group": "pâte" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel", "group": "pâte" },
+    { "raw": "800 g de pommes de terre, cuites et écrasées", "qty": 800, "unit": "g", "item": "pomme de terre", "prep": "cuite et écrasée", "group": "farce" },
+    { "raw": "200 g de petits pois surgelés", "qty": 200, "unit": "g", "item": "petits pois surgelés", "group": "farce" },
+    { "raw": "1 c. à c. de graines de cumin", "qty": 1, "unit": "tsp", "item": "cumin", "group": "farce" },
+    { "raw": "1 c. à c. de coriandre en graines, concassée", "qty": 1, "unit": "tsp", "item": "coriandre graines", "prep": "concassée", "group": "farce" },
+    { "raw": "2 c. à c. d'amchoor", "qty": 2, "unit": "tsp", "item": "amchoor", "group": "farce" },
+    { "raw": "1 c. à c. de garam masala", "qty": 1, "unit": "tsp", "item": "garam masala", "group": "farce" },
+    { "raw": "2 piments verts, hachés", "qty": 2, "unit": "piece", "item": "piment frais", "prep": "haché", "group": "farce" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée", "group": "farce" },
+    { "raw": "1 l d'huile neutre pour la friture", "qty": 1, "unit": "l", "item": "huile neutre", "group": "friture" }
+  ],
+  "steps": [
+    { "fr": "Sabler la farine avec le ghee jusqu'à ce que le mélange tienne quand on le presse : c'est le moyen d'obtenir une croûte à bulles.", "en": "Rub the ghee into the flour until it holds when squeezed: this is how you get the blistered crust." },
+    { "fr": "Lier avec le MINIMUM d'eau en une pâte dure, et laisser reposer trente minutes.", "en": "Bind with the MINIMUM of water into a hard dough, and rest for thirty minutes." },
+    { "fr": "En Inde du Nord, la farce est à la pomme de terre, pas à la viande : c'est l'erreur la plus fréquente hors d'Inde.", "en": "In North India the filling is potato, not meat: the most common mistake made outside India." },
+    { "fr": "Écraser les pommes de terre GROSSIÈREMENT et mélanger aux épices et aux petits pois.", "en": "Crush the potatoes ROUGHLY and mix them with the spices and peas." },
+    { "fr": "Découper des demi-disques, former des cônes, garnir et sceller en pinçant fermement.", "en": "Cut half-discs, form cones, fill them and seal by pinching firmly." },
+    { "fr": "Frire à 150 °C — feu doux — pendant douze minutes : c'est la friture lente qui fait la croûte bullée.", "en": "Fry at 150°C — low heat — for twelve minutes: the slow fry is what makes the blistered crust." }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "arepa-de-huevo",
+  "cuisine": "latin-american",
+  "country": "colombie",
+  "origin": "Colombie",
+  "native_name": "Arepa de huevo",
+  "title": {
+    "fr": "Arepa frite à l'œuf de la côte",
+    "en": "Coastal egg-filled fried arepa"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 25 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["caraibe", "oeuf", "friture", "rue"],
+  "ingredients": [
+    { "raw": "500 g de farine de maïs précuite", "qty": 500, "unit": "g", "item": "masa harina" },
+    { "raw": "60 cl d'eau tiède", "qty": 60, "unit": "cl", "item": "eau" },
+    { "raw": "6 œufs", "qty": 6, "unit": "piece", "item": "oeuf" },
+    { "raw": "1,5 l d'huile neutre pour la friture", "qty": 1.5, "unit": "l", "item": "huile neutre" },
+    { "raw": "300 g de bœuf haché", "qty": 300, "unit": "g", "item": "boeuf haché", "optional": true },
+    { "raw": "2 c. à c. de sel", "qty": 2, "unit": "tsp", "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "L'arepa de huevo est frite DEUX FOIS, avec l'œuf glissé entre les deux : c'est là toute la technique.", "en": "The arepa de huevo is fried TWICE, with the egg slipped in between: that is the whole technique." },
+    { "fr": "Frire l'arepa crue à 180 °C : elle GONFLE et se sépare en deux comme un pita.", "en": "Fry the raw arepa at 180°C: it PUFFS and separates into two like a pita." },
+    { "fr": "La sortir, l'ouvrir DÉLICATEMENT sur un bord, et y glisser un œuf entier CRU.", "en": "Take it out, open one edge CAREFULLY, and slip in a whole RAW egg." },
+    { "fr": "Refermer en pinçant le bord et la remettre dans l'huile AUSSITÔT : l'œuf cuit à l'intérieur.", "en": "Pinch the edge shut and return it to the oil AT ONCE: the egg cooks inside." },
+    { "fr": "Elle doit être TIÈDE, pas brûlante, pour être ouverte : trop chaude, on se brûle et elle se déchire.", "en": "It must be WARM, not scalding, to open: too hot, you burn yourself and it tears." },
+    { "fr": "Seconde friture de trois minutes : l'œuf doit être pris mais le jaune encore coulant.", "en": "Second fry of three minutes: the egg set but the yolk still running." }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "toad-in-the-hole",
+  "cuisine": "western-european",
+  "country": "royaume-uni",
+  "origin": "Royaume-Uni",
+  "native_name": "Toad in the hole",
+  "title": {
+    "fr": "Saucisses en pâte à Yorkshire",
+    "en": "Sausages in Yorkshire batter"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 45 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["four", "saucisse", "famille", "enfants"],
+  "ingredients": [
+    { "raw": "8 saucisses fraîches", "qty": 8, "unit": "piece", "item": "saucisse de Toulouse" },
+    { "raw": "200 g de farine de blé", "qty": 200, "unit": "g", "item": "farine de blé" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf" },
+    { "raw": "30 cl de lait entier", "qty": 30, "unit": "cl", "item": "lait entier" },
+    { "raw": "6 c. à s. d'huile neutre", "qty": 6, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé", "group": "gravy" },
+    { "raw": "40 cl de bouillon de bœuf", "qty": 40, "unit": "cl", "item": "bouillon boeuf", "group": "gravy" },
+    { "raw": "2 c. à c. de thym séché", "qty": 2, "unit": "tsp", "item": "thym" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La pâte doit reposer UNE HEURE au minimum : reposée, elle monte deux fois plus haut.", "en": "The batter must rest AN HOUR minimum: rested, it rises twice as high." },
+    { "fr": "Le plat et l'huile doivent être BRÛLANTS : chauffer le plat vide à 230 °C, dix minutes.", "en": "The dish and the oil must be SCALDING: heat the empty dish at 230°C for ten minutes." },
+    { "fr": "Faire dorer les saucisses dans ce plat brûlant, puis verser la pâte D'UN SEUL COUP.", "en": "Brown the sausages in that scalding dish, then pour in the batter ALL AT ONCE." },
+    { "fr": "NE PAS OUVRIR LE FOUR pendant les vingt-cinq premières minutes : le courant d'air fait retomber la pâte.", "en": "DO NOT OPEN THE OVEN for the first twenty-five minutes: the draught collapses the batter." },
+    { "fr": "C'est de la vapeur qui fait monter cette pâte, pas de la levure : elle est fragile jusqu'à ce qu'elle prenne.", "en": "Steam raises this batter, not yeast: it stays fragile until it sets." },
+    { "fr": "Cuire 45 minutes en tout, jusqu'à ce que les bords soient hauts et bruns.", "en": "Bake for 45 minutes in all, until the edges are tall and brown." }
+  ]
+}

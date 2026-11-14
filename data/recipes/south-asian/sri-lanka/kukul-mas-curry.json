@@ -1,0 +1,42 @@
+{
+  "slug": "kukul-mas-curry",
+  "cuisine": "south-asian",
+  "country": "sri-lanka",
+  "origin": "Sri Lanka",
+  "native_name": "Kukul mas curry",
+  "title": {
+    "fr": "Curry de poulet sri-lankais au curry noir",
+    "en": "Sri Lankan chicken curry with roasted curry powder"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 50 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["national", "coco", "curry-noir", "famille"],
+  "ingredients": [
+    { "raw": "1,2 kg de cuisses de poulet, en morceaux", "qty": 1200, "unit": "g", "item": "cuisse de poulet", "prep": "en morceaux" },
+    { "raw": "3 c. à s. de poudre de curry", "qty": 3, "unit": "tbsp", "item": "poudre de curry" },
+    { "raw": "2 c. à c. de piment en poudre", "qty": 2, "unit": "tsp", "item": "piment en poudre" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "1 tige de citronnelle, écrasée", "qty": 1, "unit": "piece", "item": "citronnelle", "prep": "écrasée" },
+    { "raw": "1 feuille de pandan", "qty": 1, "unit": "piece", "item": "feuille de pandan" },
+    { "raw": "20 feuilles de curry", "qty": 20, "unit": "piece", "item": "feuille de curry" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "40 cl de lait de coco", "qty": 40, "unit": "cl", "item": "lait de coco" },
+    { "raw": "2 c. à s. de pâte gingembre-ail", "qty": 2, "unit": "tbsp", "item": "pâte gingembre-ail" },
+    { "raw": "6 c. à s. d'huile de coco", "qty": 6, "unit": "tbsp", "item": "huile de coco" },
+    { "raw": "1 citron vert, son jus", "qty": 1, "unit": "piece", "item": "citron vert" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le curry sri-lankais se fait à la poudre de curry NOIRE — les épices y sont torréfiées jusqu'au brun foncé.", "en": "Sri Lankan curry uses BLACK curry powder — the spices are roasted to a dark brown." },
+    { "fr": "Frotter le poulet avec la poudre de curry, le piment, le curcuma et le sel, et le laisser une heure.", "en": "Rub the chicken with the curry powder, chilli, turmeric and salt, and leave it for an hour." },
+    { "fr": "Faire revenir oignons, citronnelle, pandan, feuilles de curry et cannelle dans l'huile de coco.", "en": "Fry the onions, lemongrass, pandan, curry leaves and cinnamon in the coconut oil." },
+    { "fr": "Ajouter la pâte gingembre-ail puis le poulet mariné, et le saisir de tous côtés.", "en": "Add the ginger-garlic paste then the marinated chicken, and sear it all over." },
+    { "fr": "Ajouter le lait de coco et laisser mijoter trente minutes SANS faire bouillir : bouilli, il tranche.", "en": "Add the coconut milk and simmer for thirty minutes WITHOUT boiling: boiled, it splits." },
+    { "fr": "Finir au jus de citron vert hors du feu, et servir avec du riz et des sambols.", "en": "Finish with lime juice off the heat, and serve with rice and sambols." }
+  ]
+}

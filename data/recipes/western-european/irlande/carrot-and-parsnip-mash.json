@@ -1,0 +1,36 @@
+{
+  "slug": "carrot-and-parsnip-mash",
+  "cuisine": "western-european",
+  "country": "irlande",
+  "origin": "Irlande",
+  "native_name": "Carrot and parsnip mash",
+  "title": {
+    "fr": "Purée de carottes et panais",
+    "en": "Carrot and parsnip mash"
+  },
+  "meal_type": "side",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["noel", "racine", "accompagnement", "vegetarien"],
+  "ingredients": [
+    { "raw": "700 g de carottes, en tronçons", "qty": 700, "unit": "g", "item": "carotte", "prep": "en tronçons" },
+    { "raw": "700 g de panais, en tronçons", "qty": 700, "unit": "g", "item": "panais", "prep": "en tronçons" },
+    { "raw": "120 g de beurre", "qty": 120, "unit": "g", "item": "beurre" },
+    { "raw": "12 cl de crème liquide", "qty": 12, "unit": "cl", "item": "crème liquide" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "2 c. à s. de miel", "qty": 2, "unit": "tbsp", "item": "miel" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Carotte et panais ne cuisent pas au même rythme : le panais est plus tendre et va plus vite.", "en": "Carrot and parsnip do not cook at the same rate: parsnip is softer and cooks faster." },
+    { "fr": "Mettre les carottes dix minutes avant les panais, ou couper les panais plus gros.", "en": "Start the carrots ten minutes before the parsnips, or cut the parsnips larger." },
+    { "fr": "Retirer le CŒUR FIBREUX des gros panais : il reste dur quel que soit le temps de cuisson.", "en": "Remove the WOODY CORE from large parsnips: it stays hard however long you cook it." },
+    { "fr": "Cuire à l'eau salée, égoutter, et laisser SÉCHER cinq minutes dans la casserole chaude.", "en": "Boil in salted water, drain, and let them DRY for five minutes in the hot pan." },
+    { "fr": "Cette évaporation est indispensable : ces légumes sont bien plus aqueux que la pomme de terre.", "en": "That evaporation is essential: these vegetables hold far more water than potato." },
+    { "fr": "Écraser au presse-purée avec beurre, crème, miel et muscade.", "en": "Mash them through a ricer with butter, cream, honey and nutmeg." }
+  ]
+}

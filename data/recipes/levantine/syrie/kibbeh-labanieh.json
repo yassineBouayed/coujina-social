@@ -1,0 +1,42 @@
+{
+  "slug": "kibbeh-labanieh",
+  "cuisine": "levantine",
+  "country": "syrie",
+  "origin": "Syrie",
+  "native_name": "Kibbeh labanieh",
+  "title": {
+    "fr": "Kibbé au yaourt cuit",
+    "en": "Kibbeh in cooked yoghurt"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 70, "cook_min": 40 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["yaourt", "boulgour", "hiver", "fete"],
+  "ingredients": [
+    { "raw": "250 g de boulgour fin", "qty": 250, "unit": "g", "item": "boulgour fin", "group": "croûte" },
+    { "raw": "350 g d'agneau haché maigre", "qty": 350, "unit": "g", "item": "agneau haché", "group": "croûte" },
+    { "raw": "1 oignon, râpé", "qty": 1, "unit": "piece", "item": "oignon", "prep": "râpé", "group": "croûte" },
+    { "raw": "250 g d'agneau haché", "qty": 250, "unit": "g", "item": "agneau haché", "group": "farce" },
+    { "raw": "1 oignon, haché finement", "qty": 1, "unit": "piece", "item": "oignon", "prep": "haché finement", "group": "farce" },
+    { "raw": "50 g de pignons de pin", "qty": 50, "unit": "g", "item": "pignon de pin", "group": "farce" },
+    { "raw": "1 c. à c. de baharat", "qty": 1, "unit": "tsp", "item": "baharat", "group": "farce" },
+    { "raw": "1,5 l de yaourt", "qty": 1.5, "unit": "l", "item": "yaourt", "group": "sauce" },
+    { "raw": "2 c. à s. de maïzena", "qty": 2, "unit": "tbsp", "item": "maïzena", "group": "sauce" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf", "group": "sauce" },
+    { "raw": "5 gousses d'ail, écrasées", "qty": 5, "unit": "piece", "item": "ail", "prep": "écrasé", "group": "sauce" },
+    { "raw": "2 c. à s. de menthe séchée", "qty": 2, "unit": "tbsp", "item": "menthe séchée", "group": "sauce" },
+    { "raw": "40 g de beurre", "qty": 40, "unit": "g", "item": "beurre" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Préparer les boulettes de kibbé comme pour le kibbé frit, mais les laisser crues.", "en": "Shape the kibbeh balls as for fried kibbeh, but leave them raw." },
+    { "fr": "Fouetter le yaourt froid avec l'œuf, la maïzena et le sel avant toute chauffe.", "en": "Whisk the cold yoghurt with the egg, cornflour and salt before any heat." },
+    { "fr": "Porter à ébullition en remuant dans un seul sens, sans jamais s'arrêter, jusqu'à épaississement.", "en": "Bring to a boil stirring in one direction only, without ever stopping, until thickened." },
+    { "fr": "Baisser le feu, plonger les boulettes crues, et laisser pocher vingt minutes sans couvrir.", "en": "Lower the heat, drop in the raw kibbeh, and poach for twenty minutes uncovered." },
+    { "fr": "Ne jamais couvrir : la condensation retombe dans le yaourt et le fait trancher.", "en": "Never cover: condensation falls back into the yoghurt and splits it." },
+    { "fr": "Faire revenir l'ail et la menthe séchée dans le beurre et verser en surface au moment de servir.", "en": "Fry the garlic and dried mint in butter and pour it over just before serving." }
+  ]
+}

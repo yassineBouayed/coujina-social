@@ -1,0 +1,44 @@
+{
+  "slug": "solianka",
+  "cuisine": "eastern-european",
+  "country": "russie",
+  "origin": "Russie",
+  "native_name": "Солянка",
+  "title": {
+    "fr": "Solianka, soupe aigre aux charcuteries",
+    "en": "Solyanka, sour meat soup"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 90 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["aigre", "charcuterie", "citron", "hiver"],
+  "ingredients": [
+    { "raw": "500 g de bœuf à mijoter", "qty": 500, "unit": "g", "item": "boeuf à mijoter" },
+    { "raw": "200 g de saucisse fumée, en rondelles", "qty": 200, "unit": "g", "item": "saucisse fumée", "prep": "en rondelles" },
+    { "raw": "200 g de jambon cru, en lanières", "qty": 200, "unit": "g", "item": "jambon cru", "prep": "en lanières" },
+    { "raw": "150 g de lardons", "qty": 150, "unit": "g", "item": "lardon" },
+    { "raw": "8 cornichons, en julienne", "qty": 8, "unit": "piece", "item": "cornichon", "prep": "en julienne" },
+    { "raw": "15 cl de saumure de cornichons", "qty": 15, "unit": "cl", "item": "cornichon", "prep": "leur saumure" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "100 g d'olives noires", "qty": 100, "unit": "g", "item": "olive noire" },
+    { "raw": "3 c. à s. de câpres", "qty": 3, "unit": "tbsp", "item": "câpre" },
+    { "raw": "1 citron, en rondelles", "qty": 1, "unit": "piece", "item": "citron", "prep": "en rondelles" },
+    { "raw": "1,5 l d'eau", "qty": 1.5, "unit": "l", "item": "eau" },
+    { "raw": "25 cl de crème fraîche", "qty": 25, "unit": "cl", "item": "crème fraîche", "group": "service" },
+    { "raw": "1 bouquet d'aneth, ciselé", "qty": 1, "unit": "bunch", "item": "aneth", "prep": "ciselé" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La solianka est la soupe des restes de charcuterie : plus il y a de viandes différentes, meilleure elle est.", "en": "Solyanka is the leftover charcuterie soup: the more different meats, the better it is." },
+    { "fr": "La SAUMURE DE CORNICHONS est l'ingrédient central : c'est elle qui donne l'acidité, pas le citron.", "en": "PICKLE BRINE is the central ingredient: it gives the sourness, not the lemon." },
+    { "fr": "Faire un bouillon de bœuf d'une heure, en écumant, puis le filtrer.", "en": "Make an hour-long beef broth, skimming, then strain it." },
+    { "fr": "Faire revenir oignons et concentré de tomate à part, jusqu'à ce qu'ils foncent.", "en": "Fry the onions and tomato purée separately, until they darken." },
+    { "fr": "Ajouter toutes les charcuteries et les cornichons, et cuire vingt minutes.", "en": "Add all the cured meats and pickles, and cook for twenty minutes." },
+    { "fr": "Ajouter la saumure, les olives et les câpres HORS DU FEU, et goûter avant de saler.", "en": "Add the brine, olives and capers OFF THE HEAT, and taste before salting." }
+  ]
+}

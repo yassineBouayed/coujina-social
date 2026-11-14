@@ -1,0 +1,42 @@
+{
+  "slug": "fattouche",
+  "cuisine": "levantine",
+  "country": "liban",
+  "origin": "Liban",
+  "native_name": "Fattoush",
+  "title": {
+    "fr": "Fattouche, salade au pain grillé et au sumac",
+    "en": "Fattoush, toasted bread salad with sumac"
+  },
+  "meal_type": "salad",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 10 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["mezze", "sumac", "pain", "ete"],
+  "ingredients": [
+    { "raw": "2 pains pita rassis", "qty": 2, "unit": "piece", "item": "pain pita", "prep": "rassis" },
+    { "raw": "1 laitue romaine, en lanières", "qty": 1, "unit": "piece", "item": "laitue", "prep": "en lanières" },
+    { "raw": "4 tomates, en quartiers", "qty": 4, "unit": "piece", "item": "tomate", "prep": "en quartiers" },
+    { "raw": "2 concombres, en demi-rondelles", "qty": 2, "unit": "piece", "item": "concombre", "prep": "en demi-rondelles" },
+    { "raw": "6 radis, en rondelles", "qty": 6, "unit": "piece", "item": "radis", "prep": "en rondelles" },
+    { "raw": "4 oignons nouveaux, ciselés", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé" },
+    { "raw": "1 bouquet de persil plat, ciselé", "qty": 1, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "1/2 bouquet de menthe fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "menthe fraîche", "prep": "ciselée" },
+    { "raw": "2 c. à s. de sumac", "qty": 2, "unit": "tbsp", "item": "sumac", "group": "sauce" },
+    { "raw": "2 c. à s. de mélasse de grenade", "qty": 2, "unit": "tbsp", "item": "mélasse de grenade", "group": "sauce" },
+    { "raw": "2 citrons, leur jus", "qty": 2, "unit": "piece", "item": "citron", "group": "sauce" },
+    { "raw": "8 c. à s. d'huile d'olive", "qty": 8, "unit": "tbsp", "item": "huile d'olive", "group": "sauce" },
+    { "raw": "1 gousse d'ail, écrasée", "qty": 1, "unit": "piece", "item": "ail", "prep": "écrasée", "group": "sauce" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Ouvrir les pitas en deux et les faire dorer au four ou à la poêle, sans huile, jusqu'à ce qu'ils croquent.", "en": "Split the pitas and toast them in the oven or a dry pan, until they crack." },
+    { "fr": "Le sumac est l'épice du fattouche : il apporte l'acidité fruitée que le citron seul ne donne pas.", "en": "Sumac is the fattoush spice: it brings a fruity acidity that lemon alone cannot." },
+    { "fr": "Fouetter sumac, mélasse de grenade, citron, ail, sel et huile d'olive en une vinaigrette épaisse.", "en": "Whisk the sumac, pomegranate molasses, lemon, garlic, salt and olive oil into a thick dressing." },
+    { "fr": "Mélanger tous les légumes et les herbes dans un grand saladier.", "en": "Combine all the vegetables and herbs in a large bowl." },
+    { "fr": "Ajouter le pain grillé et la vinaigrette AU DERNIER MOMENT, à table.", "en": "Add the toasted bread and the dressing AT THE LAST MOMENT, at the table." },
+    { "fr": "Le pain doit rester croustillant : mélangé à l'avance, le fattouche devient une panade.", "en": "The bread must stay crisp: dressed in advance, fattoush turns to mush." }
+  ]
+}

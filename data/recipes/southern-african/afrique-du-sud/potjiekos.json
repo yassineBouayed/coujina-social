@@ -1,0 +1,40 @@
+{
+  "slug": "potjiekos",
+  "cuisine": "southern-african",
+  "country": "afrique-du-sud",
+  "origin": "Afrique du Sud",
+  "native_name": "Potjiekos",
+  "title": {
+    "fr": "Potjiekos, ragoût en cocotte sur le feu",
+    "en": "Potjiekos, layered pot stew over fire"
+  },
+  "meal_type": "main",
+  "servings": 8,
+  "times": { "prep_min": 30, "cook_min": 210 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["feu-de-bois", "tablee", "cuisson-lente", "boeuf"],
+  "ingredients": [
+    { "raw": "1,5 kg de bœuf à mijoter, en gros cubes", "qty": 1500, "unit": "g", "item": "boeuf à mijoter", "prep": "en gros cubes" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "4 carottes, en tronçons", "qty": 4, "unit": "piece", "item": "carotte", "prep": "en tronçons" },
+    { "raw": "6 pommes de terre, en quartiers", "qty": 6, "unit": "piece", "item": "pomme de terre", "prep": "en quartiers" },
+    { "raw": "1 chou blanc, en quartiers", "qty": 1, "unit": "piece", "item": "chou blanc", "prep": "en quartiers" },
+    { "raw": "200 g de champignons de Paris", "qty": 200, "unit": "g", "item": "champignon de Paris" },
+    { "raw": "33 cl de bière brune", "qty": 33, "unit": "cl", "item": "bière" },
+    { "raw": "3 feuilles de laurier", "qty": 3, "unit": "piece", "item": "laurier" },
+    { "raw": "1 c. à s. de thym séché", "qty": 1, "unit": "tbsp", "item": "thym séché" },
+    { "raw": "5 c. à s. d'huile neutre", "qty": 5, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Saisir la viande dans la cocotte en fonte posée sur les braises, jusqu'à ce qu'elle soit bien colorée.", "en": "Sear the meat in the cast-iron pot set over the coals, until well browned." },
+    { "fr": "Ajouter les oignons, la bière, le laurier et le thym, et couvrir.", "en": "Add the onions, beer, bay and thyme, and cover." },
+    { "fr": "Disposer les légumes EN COUCHES par-dessus, du plus long au plus rapide à cuire, sans jamais mélanger.", "en": "Arrange the vegetables in LAYERS on top, slowest-cooking first, never stirring them in." },
+    { "fr": "C'est la règle du potjie : on ne remue pas. Chaque couche cuit dans la vapeur de celle du dessous.", "en": "That is the potjie rule: no stirring. Each layer cooks in the steam of the one beneath." },
+    { "fr": "Laisser trois heures sur braises douces, en ajoutant quelques charbons de temps en temps.", "en": "Leave it three hours over gentle coals, feeding a few in from time to time." },
+    { "fr": "Rectifier le sel au moment de servir, et mélanger seulement dans l'assiette.", "en": "Adjust the salt at the table, and stir only on the plate." }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "ca-kho-to",
+  "cuisine": "southeast-asian",
+  "country": "vietnam",
+  "origin": "Viêt Nam",
+  "native_name": "Cá kho tộ",
+  "title": {
+    "fr": "Poisson caramélisé en pot de terre",
+    "en": "Caramelised fish in a clay pot"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 45 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["mekong", "caramel", "poisson", "quotidien"],
+  "ingredients": [
+    { "raw": "800 g de poisson-chat, en darnes épaisses", "qty": 800, "unit": "g", "item": "poisson-chat", "prep": "en darnes épaisses" },
+    { "raw": "120 g de sucre", "qty": 120, "unit": "g", "item": "sucre", "group": "caramel" },
+    { "raw": "6 c. à s. de sauce poisson", "qty": 6, "unit": "tbsp", "item": "sauce poisson" },
+    { "raw": "4 échalotes, émincées", "qty": 4, "unit": "piece", "item": "échalote", "prep": "émincée" },
+    { "raw": "6 gousses d'ail, écrasées", "qty": 6, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 c. à s. de gingembre frais, en julienne", "qty": 1, "unit": "tbsp", "item": "gingembre", "prep": "en julienne" },
+    { "raw": "4 piments oiseau", "qty": 4, "unit": "piece", "item": "piment oiseau" },
+    { "raw": "1 c. à c. de poivre noir concassé", "qty": 1, "unit": "tsp", "item": "poivre noir", "prep": "concassé" },
+    { "raw": "4 oignons nouveaux, en tronçons", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "en tronçons" },
+    { "raw": "3 c. à s. d'huile neutre", "qty": 3, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "400 g de riz long grain", "qty": 400, "unit": "g", "item": "riz long grain", "group": "service" }
+  ],
+  "steps": [
+    { "fr": "Faire un caramel à sec et le pousser jusqu'à une couleur ACAJOU FONCÉ, presque amère.", "en": "Make a dry caramel and take it to a DEEP MAHOGANY colour, almost bitter." },
+    { "fr": "Ce caramel foncé est ce qui donne au kho sa couleur et son amertume de fond : blond, il sucre seulement.", "en": "That dark caramel gives kho its colour and background bitterness: pale, it merely sweetens." },
+    { "fr": "Le décuire prudemment avec un peu d'eau chaude, en reculant : il projette violemment.", "en": "Stop it carefully with a little hot water, standing back: it spits violently." },
+    { "fr": "Ajouter échalotes, ail, gingembre, sauce poisson et poivre, puis déposer le poisson.", "en": "Add the shallots, garlic, ginger, fish sauce and pepper, then lay in the fish." },
+    { "fr": "Cuire quarante minutes à découvert, à feu doux, en arrosant SANS jamais retourner le poisson.", "en": "Cook for forty minutes uncovered, over low heat, basting WITHOUT ever turning the fish." },
+    { "fr": "La sauce doit réduire jusqu'à laquer : elle nappe et brille, il n'en reste presque plus.", "en": "The sauce must reduce to a lacquer: glossy and coating, with almost none left." }
+  ]
+}

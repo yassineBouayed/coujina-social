@@ -1,0 +1,43 @@
+{
+  "slug": "konigsberger-klopse",
+  "cuisine": "western-european",
+  "country": "allemagne",
+  "origin": "Allemagne",
+  "native_name": "Königsberger Klopse",
+  "title": {
+    "fr": "Boulettes de Königsberg aux câpres",
+    "en": "Königsberg meatballs with capers"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 35 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["prusse", "capre", "creme", "classique"],
+  "ingredients": [
+    { "raw": "500 g de veau haché", "qty": 500, "unit": "g", "item": "veau haché" },
+    { "raw": "300 g de porc haché", "qty": 300, "unit": "g", "item": "porc haché" },
+    { "raw": "6 filets d'anchois, hachés", "qty": 6, "unit": "piece", "item": "anchois", "prep": "haché" },
+    { "raw": "120 g de mie de pain", "qty": 120, "unit": "g", "item": "pain", "prep": "en mie" },
+    { "raw": "12 cl de lait entier", "qty": 12, "unit": "cl", "item": "lait entier" },
+    { "raw": "1 oignon, haché très finement", "qty": 1, "unit": "piece", "item": "oignon", "prep": "haché très finement" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf" },
+    { "raw": "1 l de bouillon de volaille", "qty": 1, "unit": "l", "item": "bouillon volaille" },
+    { "raw": "4 c. à s. de câpres", "qty": 4, "unit": "tbsp", "item": "câpre", "group": "sauce" },
+    { "raw": "50 g de beurre", "qty": 50, "unit": "g", "item": "beurre", "group": "sauce" },
+    { "raw": "50 g de farine de blé", "qty": 50, "unit": "g", "item": "farine de blé", "group": "sauce" },
+    { "raw": "15 cl de crème liquide", "qty": 15, "unit": "cl", "item": "crème liquide", "group": "sauce" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron", "group": "sauce" },
+    { "raw": "sel et poivre blanc", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre blanc", "qty": null, "unit": null, "item": "poivre blanc" }
+  ],
+  "steps": [
+    { "fr": "Les ANCHOIS dans la farce sont la signature du plat : ils ne se sentent pas, mais ils portent tout le goût.", "en": "The ANCHOVIES in the mixture are the dish's signature: you do not taste them, but they carry the flavour." },
+    { "fr": "Tremper la mie dans le lait, l'essorer, et mêler viandes, anchois, oignon et œufs.", "en": "Soak the crumb in milk, squeeze it out, and combine the meats, anchovies, onion and eggs." },
+    { "fr": "Pocher les boulettes dans le bouillon FRÉMISSANT, jamais bouillant : elles se défont sinon.", "en": "Poach the balls in SIMMERING stock, never boiling: otherwise they fall apart." },
+    { "fr": "Les retirer dès qu'elles remontent, et FILTRER le bouillon de pochage.", "en": "Lift them out as soon as they float, and STRAIN the poaching broth." },
+    { "fr": "Faire un roux blanc et le mouiller de ce bouillon : c'est lui qui donne son goût à la sauce.", "en": "Make a white roux and moisten it with that broth: it is what gives the sauce its flavour." },
+    { "fr": "Ajouter câpres, crème et citron hors du feu, et remettre les boulettes à peine chauffer.", "en": "Add the capers, cream and lemon off the heat, and barely reheat the meatballs." }
+  ]
+}

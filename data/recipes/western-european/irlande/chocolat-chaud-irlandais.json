@@ -1,0 +1,35 @@
+{
+  "slug": "chocolat-chaud-irlandais",
+  "cuisine": "western-european",
+  "country": "irlande",
+  "origin": "Irlande",
+  "native_name": "Irish hot chocolate",
+  "title": {
+    "fr": "Chocolat chaud irlandais à la crème",
+    "en": "Irish hot chocolate with cream"
+  },
+  "meal_type": "drink",
+  "servings": 4,
+  "times": { "prep_min": 10, "cook_min": 10 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hiver", "chocolat", "gouter", "enfants"],
+  "ingredients": [
+    { "raw": "200 g de chocolat noir", "qty": 200, "unit": "g", "item": "chocolat noir" },
+    { "raw": "70 cl de lait entier", "qty": 70, "unit": "cl", "item": "lait entier" },
+    { "raw": "20 cl de crème liquide entière", "qty": 20, "unit": "cl", "item": "crème liquide" },
+    { "raw": "2 c. à s. de cacao en poudre", "qty": 2, "unit": "tbsp", "item": "cacao en poudre" },
+    { "raw": "2 c. à s. de sucre roux", "qty": 2, "unit": "tbsp", "item": "sucre roux" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Hacher le chocolat FIN : en gros morceaux, il fond mal et laisse des grumeaux.", "en": "Chop the chocolate FINE: in large pieces, it melts badly and leaves lumps." },
+    { "fr": "Chauffer le lait avec le sel et le sucre, sans le laisser bouillir.", "en": "Heat the milk with the salt and sugar, without letting it boil." },
+    { "fr": "Verser un peu de lait chaud sur le chocolat et remuer jusqu'à une ganache LISSE.", "en": "Pour a little hot milk onto the chocolate and stir into a SMOOTH ganache." },
+    { "fr": "Cette étape est la seule qui compte : le chocolat versé d'un coup dans tout le lait tranche.", "en": "That step is the only one that matters: chocolate tipped into all the milk at once splits." },
+    { "fr": "Ajouter le reste du lait progressivement, en fouettant, puis le cacao tamisé.", "en": "Add the rest of the milk gradually, whisking, then the sifted cocoa." },
+    { "fr": "Monter la crème à peine et la faire FLOTTER dessus à la cuillère, sans la mélanger.", "en": "Barely whip the cream and FLOAT it on top with a spoon, without stirring it in." }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "sekuwa",
+  "cuisine": "south-asian",
+  "country": "nepal",
+  "origin": "Népal",
+  "native_name": "Sekuwa",
+  "title": {
+    "fr": "Sekuwa, brochettes grillées au feu de bois",
+    "en": "Sekuwa, wood-fire grilled skewers"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 30, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["grillade", "rue", "timur", "soiree"],
+  "ingredients": [
+    { "raw": "1 kg de gigot d'agneau, en cubes", "qty": 1000, "unit": "g", "item": "gigot d'agneau", "prep": "en cubes" },
+    { "raw": "20 cl de yaourt", "qty": 20, "unit": "cl", "item": "yaourt", "group": "marinade" },
+    { "raw": "2 c. à s. de pâte gingembre-ail", "qty": 2, "unit": "tbsp", "item": "pâte gingembre-ail", "group": "marinade" },
+    { "raw": "2 c. à s. de piment en poudre", "qty": 2, "unit": "tbsp", "item": "piment en poudre", "group": "marinade" },
+    { "raw": "2 c. à c. de timur, moulu", "qty": 2, "unit": "tsp", "item": "timur", "prep": "moulu", "group": "marinade" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin", "group": "marinade" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma", "group": "marinade" },
+    { "raw": "1 c. à c. de garam masala", "qty": 1, "unit": "tsp", "item": "garam masala", "group": "marinade" },
+    { "raw": "8 c. à s. d'huile de moutarde", "qty": 8, "unit": "tbsp", "item": "huile de moutarde", "group": "marinade" },
+    { "raw": "2 citrons verts, leur jus", "qty": 2, "unit": "piece", "item": "citron vert" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Chauffer l'huile de moutarde jusqu'à ce qu'elle fume, puis la laisser refroidir : cela ôte son âcreté.", "en": "Heat the mustard oil until it smokes, then let it cool: this removes its harshness." },
+    { "fr": "Mélanger tous les éléments de la marinade et y faire mariner la viande SIX HEURES au moins.", "en": "Mix all the marinade ingredients and marinate the meat for at LEAST six hours." },
+    { "fr": "Enfiler serré sur des brochettes, sans légumes entre les morceaux.", "en": "Thread tightly on skewers, with no vegetables between the pieces." },
+    { "fr": "Griller sur braises de bois, pas de charbon : la fumée de bois est ce que cherche le sekuwa.", "en": "Grill over wood embers, not charcoal: wood smoke is what sekuwa is after." },
+    { "fr": "Compter dix minutes en tournant souvent, et badigeonner de marinade deux fois.", "en": "Allow ten minutes, turning often, and baste with the marinade twice." },
+    { "fr": "Arroser de citron vert et servir avec du riz battu et de l'oignon cru.", "en": "Squeeze lime over and serve with beaten rice and raw onion." }
+  ]
+}

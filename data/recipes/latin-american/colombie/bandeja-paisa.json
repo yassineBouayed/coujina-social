@@ -1,0 +1,43 @@
+{
+  "slug": "bandeja-paisa",
+  "cuisine": "latin-american",
+  "country": "colombie",
+  "origin": "Colombie",
+  "native_name": "Bandeja paisa",
+  "title": {
+    "fr": "Bandeja paisa, plateau d'Antioquia",
+    "en": "Bandeja paisa, Antioquia platter"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 45, "cook_min": 180 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["embleme", "antioquia", "haricot", "copieux"],
+  "ingredients": [
+    { "raw": "600 g de haricots rouges secs, trempés la veille", "qty": 600, "unit": "g", "item": "haricot rouge", "prep": "trempé la veille" },
+    { "raw": "300 g de poitrine de porc", "qty": 300, "unit": "g", "item": "poitrine de porc" },
+    { "raw": "600 g de bœuf haché", "qty": 600, "unit": "g", "item": "boeuf haché" },
+    { "raw": "6 chorizos", "qty": 6, "unit": "piece", "item": "chorizo" },
+    { "raw": "400 g de couenne de porc", "qty": 400, "unit": "g", "item": "poitrine de porc", "prep": "en couenne" },
+    { "raw": "400 g de riz long grain", "qty": 400, "unit": "g", "item": "riz long grain" },
+    { "raw": "6 œufs", "qty": 6, "unit": "piece", "item": "oeuf" },
+    { "raw": "3 bananes plantains mûres", "qty": 3, "unit": "piece", "item": "plantain", "prep": "mûres" },
+    { "raw": "3 avocats", "qty": 3, "unit": "piece", "item": "avocat" },
+    { "raw": "3 tomates", "qty": 3, "unit": "piece", "item": "tomate" },
+    { "raw": "400 g de farine de maïs précuite", "qty": 400, "unit": "g", "item": "masa harina" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "1 l d'huile neutre pour la friture", "qty": 1, "unit": "l", "item": "huile neutre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La bandeja paisa n'est pas une recette mais un ASSEMBLAGE : dix éléments, tous sur la même assiette.", "en": "Bandeja paisa is not a recipe but an ASSEMBLY: ten elements, all on one plate." },
+    { "fr": "Les haricots cuisent avec la poitrine de porc et un morceau de PLANTAIN VERT râpé, qui les épaissit.", "en": "The beans cook with the pork belly and a grated piece of GREEN PLANTAIN, which thickens them." },
+    { "fr": "Compter TROIS HEURES pour les haricots, sans sel : salés tôt, ils gardent la peau dure.", "en": "Allow THREE HOURS for the beans, without salt: salted early, they keep tough skins." },
+    { "fr": "Le CHICHARRÓN : cuire la couenne à l'eau une heure, la sécher, puis la frire jusqu'à ce qu'elle éclate.", "en": "The CHICHARRÓN: boil the pork rind for an hour, dry it, then fry it until it puffs." },
+    { "fr": "C'est le séchage qui décide : humide, la couenne ne gonfle jamais et reste caoutchouteuse.", "en": "The drying decides it: damp rind never puffs and stays rubbery." },
+    { "fr": "Tout doit arriver CHAUD en même temps : préparer les éléments longs la veille.", "en": "Everything must arrive HOT together: prepare the slow elements the day before." }
+  ]
+}

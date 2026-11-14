@@ -1,0 +1,41 @@
+{
+  "slug": "bakso",
+  "cuisine": "southeast-asian",
+  "country": "indonesie",
+  "origin": "Indonésie",
+  "native_name": "Bakso",
+  "title": {
+    "fr": "Bakso, boulettes de bœuf en bouillon",
+    "en": "Bakso, beef meatballs in broth"
+  },
+  "meal_type": "soup",
+  "servings": 5,
+  "times": { "prep_min": 40, "cook_min": 40 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["rue", "boulettes", "bouillon", "populaire"],
+  "ingredients": [
+    { "raw": "700 g de bœuf haché maigre, très froid", "qty": 700, "unit": "g", "item": "boeuf haché", "prep": "très froid", "group": "boulettes" },
+    { "raw": "100 g de maïzena", "qty": 100, "unit": "g", "item": "maïzena", "group": "boulettes" },
+    { "raw": "1 blanc d'œuf", "qty": 1, "unit": "piece", "item": "oeuf", "group": "boulettes" },
+    { "raw": "6 gousses d'ail, écrasées", "qty": 6, "unit": "piece", "item": "ail", "prep": "écrasé", "group": "boulettes" },
+    { "raw": "10 cl d'eau glacée", "qty": 10, "unit": "cl", "item": "eau", "group": "boulettes" },
+    { "raw": "1,5 l de bouillon de bœuf", "qty": 1.5, "unit": "l", "item": "bouillon boeuf" },
+    { "raw": "200 g de vermicelles de soja", "qty": 200, "unit": "g", "item": "vermicelle de soja" },
+    { "raw": "200 g de chou chinois, en lanières", "qty": 200, "unit": "g", "item": "chou chinois", "prep": "en lanières" },
+    { "raw": "4 oignons nouveaux, ciselés", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé", "group": "garniture" },
+    { "raw": "6 échalotes, frites", "qty": 6, "unit": "piece", "item": "échalote", "prep": "frite", "group": "garniture" },
+    { "raw": "4 c. à s. de sauce piquante", "qty": 4, "unit": "tbsp", "item": "sauce piquante", "group": "service" },
+    { "raw": "sel et poivre blanc", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre blanc", "qty": null, "unit": null, "item": "poivre blanc" }
+  ],
+  "steps": [
+    { "fr": "Tout doit être GLACÉ : viande, bol, lame du robot. Une viande tiède ne prend jamais le rebond.", "en": "Everything must be ICE COLD: meat, bowl, blade. Warm meat never develops the bounce." },
+    { "fr": "Mixer la viande avec l'eau glacée, l'ail et le blanc d'œuf jusqu'à obtenir une pâte lisse et collante.", "en": "Blend the meat with iced water, garlic and egg white into a smooth, tacky paste." },
+    { "fr": "Ajouter la maïzena en dernier et mixer trente secondes : c'est elle qui donne le rebond du bakso.", "en": "Add the cornflour last and blend for thirty seconds: it gives bakso its bounce." },
+    { "fr": "Former les boulettes à la cuillère et les POCHER dans l'eau frémissante, jamais bouillante.", "en": "Shape the balls with a spoon and POACH them in simmering water, never at a boil." },
+    { "fr": "Elles sont cuites quand elles REMONTENT à la surface, puis deux minutes de plus.", "en": "They are cooked when they FLOAT to the surface, then two minutes more." },
+    { "fr": "Servir dans le bouillon avec vermicelles, chou, échalotes frites et sauce piquante.", "en": "Serve in the broth with noodles, cabbage, fried shallots and hot sauce." }
+  ]
+}

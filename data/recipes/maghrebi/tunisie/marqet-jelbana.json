@@ -1,0 +1,38 @@
+{
+  "slug": "marqet-jelbana",
+  "cuisine": "maghrebi",
+  "country": "tunisie",
+  "origin": "Tunisie",
+  "native_name": "Marqet jelbana",
+  "title": {
+    "fr": "Marqa de petits pois à l'agneau",
+    "en": "Marqa of peas with lamb"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 75 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["printemps", "quotidien", "petits-pois", "agneau"],
+  "ingredients": [
+    { "raw": "800 g d'épaule d'agneau, en morceaux", "qty": 800, "unit": "g", "item": "épaule d'agneau", "prep": "en morceaux" },
+    { "raw": "800 g de petits pois écossés", "qty": 800, "unit": "g", "item": "petits pois", "prep": "écossé" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "1 c. à s. de harissa", "qty": 1, "unit": "tbsp", "item": "harissa" },
+    { "raw": "1 c. à c. de tabil", "qty": 1, "unit": "tsp", "item": "tabil" },
+    { "raw": "2 pommes de terre, en quartiers", "qty": 2, "unit": "piece", "item": "pomme de terre", "prep": "en quartiers" },
+    { "raw": "5 c. à s. d'huile d'olive", "qty": 5, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "2 œufs durs, en quartiers", "qty": 2, "unit": "piece", "item": "oeuf", "prep": "dur", "optional": true, "group": "garniture" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire revenir la viande et l'oignon dans l'huile jusqu'à coloration.", "en": "Brown the meat and onion in the oil." },
+    { "fr": "Ajouter le concentré de tomate et la harissa et les faire frire deux minutes : c'est ce qui donne la couleur rouge profond.", "en": "Add the tomato purée and harissa and fry them for two minutes: this is what gives the deep red colour." },
+    { "fr": "Mouiller, ajouter le tabil, et laisser mijoter quarante-cinq minutes.", "en": "Add water and the tabil, and simmer for forty-five minutes." },
+    { "fr": "Ajouter les pommes de terre, puis les petits pois quinze minutes plus tard.", "en": "Add the potatoes, then the peas fifteen minutes later." },
+    { "fr": "Ne pas trop cuire les petits pois : ils doivent rester verts et entiers, pas gris.", "en": "Do not overcook the peas: they must stay green and whole, not grey." },
+    { "fr": "Servir avec les quartiers d'œuf dur posés dessus, et beaucoup de pain.", "en": "Serve with the hard-boiled egg wedges on top, and plenty of bread." }
+  ]
+}

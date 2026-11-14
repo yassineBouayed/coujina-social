@@ -1,0 +1,42 @@
+{
+  "slug": "seafood-chowder",
+  "cuisine": "western-european",
+  "country": "irlande",
+  "origin": "Irlande",
+  "native_name": "Seafood chowder",
+  "title": {
+    "fr": "Chaudrée de fruits de mer irlandaise",
+    "en": "Irish seafood chowder"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 35 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["cote", "poisson", "creme", "hiver"],
+  "ingredients": [
+    { "raw": "400 g de filet de cabillaud, en cubes", "qty": 400, "unit": "g", "item": "cabillaud", "prep": "en cubes" },
+    { "raw": "300 g de haddock fumé, en cubes", "qty": 300, "unit": "g", "item": "haddock fumé", "prep": "en cubes" },
+    { "raw": "400 g de moules", "qty": 400, "unit": "g", "item": "moule" },
+    { "raw": "250 g de crevettes crues, décortiquées", "qty": 250, "unit": "g", "item": "crevette", "prep": "décortiquée" },
+    { "raw": "700 g de pommes de terre, en dés", "qty": 700, "unit": "g", "item": "pomme de terre", "prep": "en dés" },
+    { "raw": "2 poireaux, en rondelles", "qty": 2, "unit": "piece", "item": "poireau", "prep": "en rondelles" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "150 g de lardons", "qty": 150, "unit": "g", "item": "lardon" },
+    { "raw": "50 cl de lait entier", "qty": 50, "unit": "cl", "item": "lait entier" },
+    { "raw": "25 cl de crème liquide", "qty": 25, "unit": "cl", "item": "crème liquide" },
+    { "raw": "15 cl de vin blanc sec", "qty": 15, "unit": "cl", "item": "vin blanc" },
+    { "raw": "1/2 bouquet d'aneth, ciselé", "qty": 0.5, "unit": "bunch", "item": "aneth", "prep": "ciselé" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Ouvrir les moules à part au vin blanc, et FILTRER leur jus : c'est le meilleur du bouillon.", "en": "Open the mussels separately in white wine, and STRAIN their liquor: it is the best of the broth." },
+    { "fr": "Filtrer soigneusement : le sable des moules gâche une chaudrée entière.", "en": "Strain carefully: sand from the mussels ruins an entire chowder." },
+    { "fr": "Faire fondre lardons, oignons et poireaux quinze minutes, sans les colorer.", "en": "Render the bacon and melt the onions and leeks for fifteen minutes, without colouring them." },
+    { "fr": "Ajouter pommes de terre, lait et jus de moules, et cuire vingt minutes.", "en": "Add the potatoes, milk and mussel liquor, and cook for twenty minutes." },
+    { "fr": "Les poissons vont EN DERNIER et cuisent QUATRE MINUTES : au-delà, ils se défont en charpie.", "en": "The fish goes in LAST and cooks FOUR MINUTES: any longer and it shreds." },
+    { "fr": "Ajouter crème et aneth hors du feu, et ne plus jamais faire bouillir.", "en": "Add the cream and dill off the heat, and never boil again." }
+  ]
+}

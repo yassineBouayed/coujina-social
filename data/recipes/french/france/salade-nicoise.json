@@ -1,0 +1,41 @@
+{
+  "slug": "salade-nicoise",
+  "cuisine": "french",
+  "country": "france",
+  "origin": "France",
+  "native_name": "Salade niçoise",
+  "title": {
+    "fr": "Salade niçoise",
+    "en": "Salade niçoise"
+  },
+  "meal_type": "salad",
+  "servings": 4,
+  "times": { "prep_min": 30, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["nice", "ete", "cru", "thon"],
+  "ingredients": [
+    { "raw": "6 tomates mûres, en quartiers", "qty": 6, "unit": "piece", "item": "tomate", "prep": "en quartiers" },
+    { "raw": "1 poivron vert, en fines lanières", "qty": 1, "unit": "piece", "item": "poivron vert", "prep": "en fines lanières" },
+    { "raw": "1 concombre, en rondelles", "qty": 1, "unit": "piece", "item": "concombre", "prep": "en rondelles" },
+    { "raw": "4 oignons nouveaux, émincés", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "émincé" },
+    { "raw": "200 g de thon en conserve, à l'huile", "qty": 200, "unit": "g", "item": "thon en conserve" },
+    { "raw": "8 filets d'anchois", "qty": 8, "unit": "piece", "item": "anchois" },
+    { "raw": "4 œufs durs, en quartiers", "qty": 4, "unit": "piece", "item": "oeuf", "prep": "dur" },
+    { "raw": "100 g d'olives noires de Nice", "qty": 100, "unit": "g", "item": "olive noire" },
+    { "raw": "1 bouquet de basilic", "qty": 1, "unit": "bunch", "item": "basilic" },
+    { "raw": "10 cl d'huile d'olive", "qty": 10, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "1 gousse d'ail", "qty": 1, "unit": "piece", "item": "ail" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La vraie salade niçoise ne contient NI POMME DE TERRE NI HARICOT VERT : uniquement des légumes CRUS.", "en": "A true salade niçoise contains NEITHER POTATO NOR GREEN BEAN: only RAW vegetables." },
+    { "fr": "Frotter le saladier à l'ail : c'est le seul ail du plat, et il ne se hache pas.", "en": "Rub the bowl with garlic: it is the only garlic in the dish, and it is never chopped." },
+    { "fr": "Saler les tomates en quartiers et les laisser dégorger dix minutes, puis jeter l'eau.", "en": "Salt the tomato wedges and let them drain for ten minutes, then discard the water." },
+    { "fr": "Disposer les légumes sans les mélanger, en les gardant reconnaissables.", "en": "Arrange the vegetables without tossing them, keeping each recognisable." },
+    { "fr": "Assaisonner à l'huile d'olive SEULE : pas de vinaigre, les tomates apportent l'acidité.", "en": "Dress with olive oil ALONE: no vinegar, the tomatoes provide the acidity." },
+    { "fr": "Ajouter thon, anchois, œufs et olives par-dessus, et le basilic déchiré à la main.", "en": "Add the tuna, anchovies, eggs and olives on top, and the basil torn by hand." }
+  ]
+}

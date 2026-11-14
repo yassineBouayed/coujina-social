@@ -1,0 +1,39 @@
+{
+  "slug": "buffalo-wings",
+  "cuisine": "north-american",
+  "country": "etats-unis",
+  "origin": "États-Unis",
+  "native_name": "Buffalo wings",
+  "title": {
+    "fr": "Ailes de poulet sauce Buffalo",
+    "en": "Buffalo chicken wings"
+  },
+  "meal_type": "starter",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 50 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["buffalo", "poulet", "piquant", "apero"],
+  "ingredients": [
+    { "raw": "1,5 kg d'ailes de poulet", "qty": 1500, "unit": "g", "item": "aile de poulet" },
+    { "raw": "3 c. à s. de levure chimique", "qty": 3, "unit": "tbsp", "item": "levure chimique" },
+    { "raw": "12 cl de sauce piquante", "qty": 12, "unit": "cl", "item": "sauce piquante" },
+    { "raw": "120 g de beurre", "qty": 120, "unit": "g", "item": "beurre" },
+    { "raw": "2 c. à s. de vinaigre de cidre", "qty": 2, "unit": "tbsp", "item": "vinaigre de cidre" },
+    { "raw": "1 c. à s. de miel", "qty": 1, "unit": "tbsp", "item": "miel" },
+    { "raw": "20 cl de crème fraîche", "qty": 20, "unit": "cl", "item": "crème fraîche", "group": "sauce bleu" },
+    { "raw": "120 g de roquefort, émietté", "qty": 120, "unit": "g", "item": "roquefort", "prep": "émietté", "group": "sauce bleu" },
+    { "raw": "4 branches de céleri, en bâtonnets", "qty": 4, "unit": "piece", "item": "céleri branche", "prep": "en bâtonnets", "group": "service" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La LEVURE CHIMIQUE mélangée au sel est le secret des ailes croustillantes AU FOUR, sans friture.", "en": "BAKING POWDER mixed with salt is the secret of crisp OVEN wings, without frying." },
+    { "fr": "Elle élève le pH de la peau, qui brunit plus vite et se dessèche en croûte.", "en": "It raises the skin's pH, so it browns faster and dries into a crust." },
+    { "fr": "SÉCHER les ailes au papier absorbant et les laisser une nuit à découvert au réfrigérateur.", "en": "DRY the wings on paper and leave them uncovered overnight in the fridge." },
+    { "fr": "Cuire 30 minutes à 120 °C, puis 25 minutes à 220 °C, sur une grille pour que l'air circule.", "en": "Bake for 30 minutes at 120°C, then 25 at 220°C, on a rack so air circulates." },
+    { "fr": "La sauce est une ÉMULSION : sauce piquante et beurre FONDU battus ensemble, hors du feu.", "en": "The sauce is an EMULSION: hot sauce and MELTED butter beaten together, off the heat." },
+    { "fr": "Enrober les ailes JUSTE avant de servir : sauce trop tôt, elles ramollissent en cinq minutes.", "en": "Coat the wings JUST before serving: sauced early, they soften within five minutes." }
+  ]
+}

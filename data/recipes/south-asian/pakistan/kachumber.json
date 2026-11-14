@@ -1,0 +1,37 @@
+{
+  "slug": "kachumber",
+  "cuisine": "south-asian",
+  "country": "pakistan",
+  "origin": "Pakistan",
+  "native_name": "Kachumber",
+  "title": {
+    "fr": "Kachumber, salade de crudités au citron",
+    "en": "Kachumber, chopped salad with lemon"
+  },
+  "meal_type": "salad",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["cru", "accompagnement", "rapide", "ete"],
+  "ingredients": [
+    { "raw": "4 tomates, en petits dés", "qty": 4, "unit": "piece", "item": "tomate", "prep": "en petits dés" },
+    { "raw": "1 concombre, en petits dés", "qty": 1, "unit": "piece", "item": "concombre", "prep": "en petits dés" },
+    { "raw": "1 oignon rouge, en petits dés", "qty": 1, "unit": "piece", "item": "oignon rouge", "prep": "en petits dés" },
+    { "raw": "2 piments verts, hachés", "qty": 2, "unit": "piece", "item": "piment frais", "prep": "haché" },
+    { "raw": "1/2 bouquet de coriandre fraîche, ciselée", "qty": 0.5, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "2 citrons, leur jus", "qty": 2, "unit": "piece", "item": "citron" },
+    { "raw": "1 c. à c. de cumin moulu, grillé", "qty": 1, "unit": "tsp", "item": "cumin", "prep": "grillé" },
+    { "raw": "1/2 c. à c. de chaat masala", "qty": 0.5, "unit": "tsp", "item": "chaat masala" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le kachumber ne contient PAS d'huile : c'est une salade citron-sel, sèche et vive.", "en": "Kachumber contains NO oil: it is a lemon-and-salt salad, dry and sharp." },
+    { "fr": "Tailler tous les légumes en dés de la même taille.", "en": "Dice all the vegetables to the same size." },
+    { "fr": "Faire dégorger l'oignon rouge dix minutes dans l'eau froide pour ôter son mordant.", "en": "Soak the red onion for ten minutes in cold water to take off its bite." },
+    { "fr": "Mélanger avec la coriandre, les piments, le citron et les épices.", "en": "Combine with the coriander, chillies, lemon and spices." },
+    { "fr": "Saler AU DERNIER MOMENT : salé à l'avance, le kachumber rend son eau et devient une soupe.", "en": "Salt AT THE LAST MOMENT: salted in advance, kachumber weeps and turns into soup." },
+    { "fr": "Servir aussitôt, à côté d'un biryani ou d'un karahi.", "en": "Serve at once, beside a biryani or a karahi." }
+  ]
+}

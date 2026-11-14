@@ -1,0 +1,43 @@
+{
+  "slug": "attieke-poisson-braise",
+  "cuisine": "west-african",
+  "origin": "Côte d'Ivoire",
+  "native_name": "Attiéké poisson braisé",
+  "title": {
+    "fr": "Attiéké et poisson braisé, sauce claire aux oignons",
+    "en": "Attiéké with grilled fish and raw onion sauce"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 25, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j5-catalogue-v1", "date": "2026-08-29" },
+  "tags": ["poisson", "attieke", "grill", "maquis"],
+  "ingredients": [
+    { "raw": "2 dorades entières d'environ 500 g", "qty": 2, "unit": "piece", "item": "dorade", "prep": "vidée et incisée", "substitutes": [{ "item": "maquereau", "note": "plus gras, il supporte mieux la braise mais couvre davantage la marinade" }] },
+    { "raw": "3 gousses d'ail", "qty": 3, "unit": "piece", "item": "ail", "prep": "écrasé", "group": "marinade" },
+    { "raw": "20 g de gingembre frais", "qty": 20, "unit": "g", "item": "gingembre", "prep": "râpé", "group": "marinade" },
+    { "raw": "1 cube de bouillon", "qty": 1, "unit": "piece", "item": "bouillon cube", "prep": "émietté", "group": "marinade" },
+    { "raw": "le jus d'1 citron", "qty": 1, "unit": "piece", "item": "citron", "prep": "pressé", "group": "marinade" },
+    { "raw": "3 c. à s. d'huile neutre", "qty": 3, "unit": "tbsp", "item": "huile neutre", "group": "marinade" },
+    { "raw": "500 g d'attiéké", "qty": 500, "unit": "g", "item": "attiéké" },
+    { "raw": "2 oignons, en fines rondelles", "qty": 2, "unit": "piece", "item": "oignon", "prep": "en fines rondelles", "group": "sauce claire" },
+    { "raw": "2 tomates, en dés", "qty": 2, "unit": "piece", "item": "tomate", "prep": "en dés", "group": "sauce claire" },
+    { "raw": "1 piment antillais", "qty": 1, "unit": "piece", "item": "habanero", "prep": "haché", "group": "sauce claire" },
+    { "raw": "1 c. à s. de vinaigre blanc", "qty": 1, "unit": "tbsp", "item": "vinaigre blanc", "group": "sauce claire" },
+    { "raw": "1 c. à s. d'huile neutre", "qty": 1, "unit": "tbsp", "item": "huile neutre", "group": "sauce claire" },
+    { "raw": "1 citron vert, en quartiers", "qty": 1, "unit": "piece", "item": "citron vert", "prep": "en quartiers" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Mélanger l'ail, le gingembre, le cube émietté, le jus de citron et l'huile. En badigeonner les poissons dedans et dehors, et laisser 30 minutes.", "en": "Mix the garlic, ginger, crumbled stock cube, lemon juice and oil. Brush it over and inside the fish, and leave for 30 minutes." },
+    { "fr": "Griller les poissons sur des braises ou au gril du four, 12 à 15 minutes par face, en les badigeonnant du reste de marinade.", "en": "Grill the fish over coals or under the oven grill, 12 to 15 minutes a side, basting with the rest of the marinade." },
+    { "fr": "Pendant ce temps, mélanger les oignons, les tomates et le piment avec le vinaigre, l'huile et du sel. Laisser reposer : c'est la sauce claire, et elle ne cuit pas.", "en": "Meanwhile, mix the onions, tomatoes and chilli with the vinegar, oil and salt. Let it stand: this is the raw sauce, and it is never cooked." },
+    { "fr": "Réchauffer l'attiéké à la vapeur pendant 10 minutes, en le décompactant à la fourchette.", "en": "Steam the attiéké for 10 minutes, breaking it up with a fork." },
+    { "fr": "Servir le poisson sur l'attiéké, la sauce claire à côté, avec les quartiers de citron vert.", "en": "Serve the fish on the attiéké, the raw sauce alongside, with the lime wedges." }
+  ],
+  "notes": [
+    { "fr": "C'est le plat des maquis ivoiriens, et il se mange avec les doigts. La sauce claire n'est pas un condiment optionnel : c'est elle qui apporte l'acidité et le piquant que le poisson grillé n'a pas.", "en": "This is the dish of Ivorian maquis, and it is eaten with the fingers. The raw sauce is not an optional condiment: it brings the acidity and heat the grilled fish does not have." }
+  ]
+}

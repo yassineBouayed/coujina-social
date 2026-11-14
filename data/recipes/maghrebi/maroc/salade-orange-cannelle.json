@@ -1,0 +1,33 @@
+{
+  "slug": "salade-orange-cannelle",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Chlada limoun",
+  "title": {
+    "fr": "Salade d'oranges à la cannelle",
+    "en": "Orange salad with cinnamon"
+  },
+  "meal_type": "dessert",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["orange", "hiver", "sans-cuisson", "fin-de-repas"],
+  "ingredients": [
+    { "raw": "6 oranges", "qty": 6, "unit": "piece", "item": "orange" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle" },
+    { "raw": "2 c. à s. de sucre glace", "qty": 2, "unit": "tbsp", "item": "sucre glace" },
+    { "raw": "1 c. à s. d'eau de fleur d'oranger", "qty": 1, "unit": "tbsp", "item": "eau de fleur d'oranger" },
+    { "raw": "8 dattes, dénoyautées et coupées", "qty": 8, "unit": "piece", "item": "datte", "prep": "dénoyautée", "optional": true },
+    { "raw": "1 c. à s. d'amandes effilées, grillées", "qty": 1, "unit": "tbsp", "item": "amande effilée", "prep": "grillée", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Peler les oranges à vif, en retirant toute la peau blanche : elle est amère et gâche le plat.", "en": "Peel the oranges to the flesh, removing all the white pith: it is bitter and ruins the dish." },
+    { "fr": "Les couper en rondelles régulières et les disposer à plat dans un plat creux.", "en": "Slice into even rounds and lay them flat in a shallow dish." },
+    { "fr": "Arroser de l'eau de fleur d'oranger et du jus recueilli pendant la découpe.", "en": "Sprinkle with the orange blossom water and any juice caught while slicing." },
+    { "fr": "Saupoudrer de sucre glace puis de cannelle, en bandes, juste avant de servir.", "en": "Dust with icing sugar then cinnamon, in stripes, just before serving." },
+    { "fr": "Ajouter dattes et amandes si l'on veut, et servir très frais.", "en": "Add dates and almonds if you like, and serve very cold." }
+  ]
+}

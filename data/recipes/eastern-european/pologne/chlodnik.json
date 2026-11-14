@@ -1,0 +1,39 @@
+{
+  "slug": "chlodnik",
+  "cuisine": "eastern-european",
+  "country": "pologne",
+  "origin": "Pologne",
+  "native_name": "Chłodnik litewski",
+  "title": {
+    "fr": "Chłodnik, soupe froide de betterave",
+    "en": "Chłodnik, chilled beetroot soup"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ete", "betterave", "froid", "rose"],
+  "ingredients": [
+    { "raw": "600 g de betteraves cuites, râpées", "qty": 600, "unit": "g", "item": "betterave", "prep": "cuites, râpées" },
+    { "raw": "1 l de lait fermenté", "qty": 1, "unit": "l", "item": "lait fermenté" },
+    { "raw": "25 cl de crème fraîche", "qty": 25, "unit": "cl", "item": "crème fraîche" },
+    { "raw": "2 concombres, en petits dés", "qty": 2, "unit": "piece", "item": "concombre", "prep": "en petits dés" },
+    { "raw": "1 botte de radis, en rondelles", "qty": 10, "unit": "piece", "item": "radis", "prep": "en rondelles" },
+    { "raw": "1 botte d'oignons nouveaux, émincés", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "émincé" },
+    { "raw": "1 bouquet d'aneth, ciselé", "qty": 1, "unit": "bunch", "item": "aneth", "prep": "ciselé" },
+    { "raw": "6 œufs durs, en deux", "qty": 6, "unit": "piece", "item": "oeuf", "prep": "dur" },
+    { "raw": "1 citron, son jus", "qty": 1, "unit": "piece", "item": "citron" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le chłodnik se sert GLACÉ : c'est la soupe de canicule polonaise, jamais réchauffée.", "en": "Chłodnik is served ICE COLD: the Polish heatwave soup, never reheated." },
+    { "fr": "Sa couleur rose fuchsia vient de la rencontre entre betterave et lait fermenté acide.", "en": "Its fuchsia colour comes from beetroot meeting sour buttermilk." },
+    { "fr": "Râper les betteraves déjà CUITES : crues, elles restent croquantes et terreuses.", "en": "Grate ALREADY COOKED beetroot: raw, it stays crunchy and earthy." },
+    { "fr": "Saler les dés de concombre et les laisser dégorger dix minutes, puis les presser.", "en": "Salt the diced cucumber and let it drain for ten minutes, then squeeze it." },
+    { "fr": "Mêler tous les éléments et réfrigérer QUATRE HEURES avant de servir.", "en": "Combine everything and chill for FOUR HOURS before serving." },
+    { "fr": "Rectifier le sel FROID : le froid éteint l'assaisonnement de moitié.", "en": "Adjust the salt COLD: cold halves the seasoning you perceive." }
+  ]
+}

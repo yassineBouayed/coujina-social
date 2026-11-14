@@ -1,0 +1,40 @@
+{
+  "slug": "cassoulet",
+  "cuisine": "french",
+  "country": "france",
+  "origin": "France",
+  "native_name": "Cassoulet",
+  "title": {
+    "fr": "Cassoulet de Castelnaudary",
+    "en": "Cassoulet from Castelnaudary"
+  },
+  "meal_type": "main",
+  "servings": 8,
+  "times": { "prep_min": 45, "cook_min": 240 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["sud-ouest", "haricot", "confit", "hiver"],
+  "ingredients": [
+    { "raw": "800 g de haricots blancs secs, trempés la veille", "qty": 800, "unit": "g", "item": "haricot blanc", "prep": "trempé la veille" },
+    { "raw": "4 cuisses de confit de canard", "qty": 4, "unit": "piece", "item": "confit de canard" },
+    { "raw": "600 g d'échine de porc, en gros cubes", "qty": 600, "unit": "g", "item": "échine de porc", "prep": "en gros cubes" },
+    { "raw": "6 saucisses de Toulouse", "qty": 6, "unit": "piece", "item": "saucisse de Toulouse" },
+    { "raw": "200 g de couenne de porc", "qty": 200, "unit": "g", "item": "poitrine de porc", "prep": "en couenne" },
+    { "raw": "2 oignons, piqués de girofle", "qty": 2, "unit": "piece", "item": "oignon", "prep": "piqué de girofle" },
+    { "raw": "1 tête d'ail", "qty": 10, "unit": "piece", "item": "ail" },
+    { "raw": "2 carottes", "qty": 2, "unit": "piece", "item": "carotte" },
+    { "raw": "1 bouquet garni", "qty": 1, "unit": "piece", "item": "bouquet garni" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Cuire les haricots trempés une heure avec la couenne, les oignons et le bouquet garni.", "en": "Cook the soaked beans for an hour with the pork rind, onions and bouquet garni." },
+    { "fr": "Saler seulement en fin de cuisson : salés tôt, les haricots gardent la peau dure.", "en": "Salt only at the end: salted early, the beans keep tough skins." },
+    { "fr": "Faire dorer porc et saucisses à part, dans la graisse de canard, et réserver.", "en": "Brown the pork and sausages separately, in duck fat, and set aside." },
+    { "fr": "Monter la cassole : couenne au fond, haricots, viandes, haricots, confit sur le dessus.", "en": "Build the cassole: rind at the bottom, beans, meats, beans, confit on top." },
+    { "fr": "Cuire QUATRE HEURES à 150 °C, et CASSER LA CROÛTE à la cuillère sept fois pendant la cuisson.", "en": "Bake for FOUR HOURS at 150°C, and BREAK THE CRUST with a spoon seven times during cooking." },
+    { "fr": "C'est ce brisage répété qui épaissit le jus et donne au cassoulet sa texture crémeuse.", "en": "That repeated breaking is what thickens the juices and gives cassoulet its creamy texture." }
+  ]
+}

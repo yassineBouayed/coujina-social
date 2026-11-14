@@ -1,0 +1,36 @@
+{
+  "slug": "cha-houy-teuk",
+  "cuisine": "southeast-asian",
+  "country": "cambodge",
+  "origin": "Cambodge",
+  "native_name": "ចាហួយទឹក",
+  "title": {
+    "fr": "Cha houy teuk, gelée au lait de coco",
+    "en": "Cha houy teuk, agar jelly in coconut milk"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ete", "gelee", "coco", "glace"],
+  "ingredients": [
+    { "raw": "20 g de gélatine", "qty": 20, "unit": "g", "item": "gelatine" },
+    { "raw": "1 l d'eau", "qty": 1, "unit": "l", "item": "eau" },
+    { "raw": "150 g de sucre", "qty": 150, "unit": "g", "item": "sucre" },
+    { "raw": "2 c. à c. d'extrait de pandan", "qty": 2, "unit": "tsp", "item": "feuille de pandan", "prep": "en extrait" },
+    { "raw": "50 cl de lait de coco", "qty": 50, "unit": "cl", "item": "lait de coco" },
+    { "raw": "100 g de sucre de palme", "qty": 100, "unit": "g", "item": "sucre de palme" },
+    { "raw": "800 g de glaçons", "qty": 800, "unit": "g", "item": "eau", "prep": "en glaçons" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Préparer la gelée au pandan et la laisser prendre QUATRE HEURES au frais.", "en": "Make the pandan jelly and set it in the fridge for FOUR HOURS." },
+    { "fr": "La couper en cubes réguliers d'un centimètre : trop gros, ils déséquilibrent la cuillerée.", "en": "Cut it into even one-centimetre cubes: too large, and they unbalance the spoonful." },
+    { "fr": "Chauffer le lait de coco avec le sucre de palme et le SEL, sans faire bouillir.", "en": "Heat the coconut milk with the palm sugar and SALT, without boiling." },
+    { "fr": "Le sel est ce qui fait ressortir la douceur : sans lui, le dessert est plat et écœurant.", "en": "The salt is what brings out the sweetness: without it, the dessert is flat and cloying." },
+    { "fr": "Laisser refroidir complètement avant de réunir : versé chaud, il fait fondre la gelée.", "en": "Cool it completely before combining: poured hot, it melts the jelly." },
+    { "fr": "Servir dans un verre avec beaucoup de glace pilée, la gelée au fond.", "en": "Serve in a glass with plenty of crushed ice, the jelly at the bottom." }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "horchata-mexicaine",
+  "cuisine": "latin-american",
+  "country": "mexique",
+  "origin": "Mexique",
+  "native_name": "Horchata de arroz",
+  "title": {
+    "fr": "Horchata de riz à la cannelle",
+    "en": "Rice horchata with cinnamon"
+  },
+  "meal_type": "drink",
+  "servings": 8,
+  "times": { "prep_min": 20, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ete", "riz", "cannelle", "enfants"],
+  "ingredients": [
+    { "raw": "300 g de riz long grain", "qty": 300, "unit": "g", "item": "riz long grain" },
+    { "raw": "1,5 l d'eau", "qty": 1.5, "unit": "l", "item": "eau" },
+    { "raw": "2 bâtons de cannelle", "qty": 2, "unit": "piece", "item": "cannelle", "prep": "en bâton" },
+    { "raw": "200 g de lait concentré sucré", "qty": 200, "unit": "g", "item": "lait concentré sucré" },
+    { "raw": "40 cl de lait entier", "qty": 40, "unit": "cl", "item": "lait entier" },
+    { "raw": "100 g d'amandes", "qty": 100, "unit": "g", "item": "amande", "optional": true },
+    { "raw": "2 c. à c. d'extrait de vanille", "qty": 2, "unit": "tsp", "item": "extrait de vanille" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "L'horchata mexicaine est au RIZ ; l'espagnole est au souchet. Ce sont deux boissons différentes.", "en": "Mexican horchata is RICE-based; the Spanish one uses tiger nuts. Two different drinks." },
+    { "fr": "Le riz est mis CRU et ne cuit jamais : il trempe, puis se mixe.", "en": "The rice goes in RAW and is never cooked: it soaks, then gets blended." },
+    { "fr": "Le faire tremper avec la cannelle DOUZE HEURES à température ambiante.", "en": "Soak it with the cinnamon for TWELVE HOURS at room temperature." },
+    { "fr": "Mixer TRÈS longuement, cinq minutes, jusqu'à ce que le riz soit réduit en poudre.", "en": "Blend for a VERY long time, five minutes, until the rice is reduced to powder." },
+    { "fr": "Filtrer à l'étamine DEUX FOIS : la première fois retient les gros grains, la seconde le sable.", "en": "Strain through muslin TWICE: the first catches the coarse grains, the second the grit." },
+    { "fr": "Ajouter le lait et le lait concentré, et servir TRÈS FROID, en remuant avant chaque verre.", "en": "Add the milk and condensed milk, and serve VERY cold, stirring before each glass." }
+  ]
+}

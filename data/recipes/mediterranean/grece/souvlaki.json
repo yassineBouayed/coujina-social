@@ -1,0 +1,39 @@
+{
+  "slug": "souvlaki",
+  "cuisine": "mediterranean",
+  "country": "grece",
+  "origin": "Grèce",
+  "native_name": "Σουβλάκι",
+  "title": {
+    "fr": "Souvlaki de porc en brochettes",
+    "en": "Pork souvlaki skewers"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 25, "cook_min": 15 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["brochette", "grill", "rue", "citron"],
+  "ingredients": [
+    { "raw": "1 kg d'échine de porc, en cubes", "qty": 1000, "unit": "g", "item": "échine de porc", "prep": "en cubes" },
+    { "raw": "10 cl d'huile d'olive", "qty": 10, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "2 citrons, leur jus", "qty": 2, "unit": "piece", "item": "citron" },
+    { "raw": "4 gousses d'ail, écrasées", "qty": 4, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "2 c. à s. d'origan séché", "qty": 2, "unit": "tbsp", "item": "origan" },
+    { "raw": "1 c. à c. de paprika", "qty": 1, "unit": "tsp", "item": "paprika" },
+    { "raw": "5 pains pita", "qty": 5, "unit": "piece", "item": "pain pita", "group": "service" },
+    { "raw": "2 tomates, en tranches", "qty": 2, "unit": "piece", "item": "tomate", "prep": "en tranches", "group": "service" },
+    { "raw": "1 oignon rouge, émincé", "qty": 1, "unit": "piece", "item": "oignon rouge", "prep": "émincé", "group": "service" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Choisir de l'échine, JAMAIS du filet : le gras est ce qui garde la brochette moelleuse sur le gril.", "en": "Choose neck or shoulder, NEVER loin: fat is what keeps a skewer juicy over fire." },
+    { "fr": "Mariner deux à quatre heures, pas davantage : le citron « cuit » la viande et la rend farineuse.", "en": "Marinate for two to four hours, no longer: lemon \"cooks\" the meat and turns it mealy." },
+    { "fr": "Ne pas saler la marinade : saler juste avant de griller, sinon la viande rend son eau.", "en": "Do not salt the marinade: salt just before grilling, or the meat weeps." },
+    { "fr": "Enfiler les cubes SANS les serrer : serrés, les faces en contact cuisent à la vapeur.", "en": "Thread the cubes LOOSELY: packed tight, the touching faces steam instead of searing." },
+    { "fr": "Griller à feu vif, dix minutes, en tournant tous les deux à trois minutes.", "en": "Grill over high heat for ten minutes, turning every two to three minutes." },
+    { "fr": "Servir en pita avec tomate, oignon rouge, tzatziki et un tour de poivre.", "en": "Serve in pita with tomato, red onion, tzatziki and a turn of pepper." }
+  ]
+}

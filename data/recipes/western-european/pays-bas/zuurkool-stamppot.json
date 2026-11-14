@@ -1,0 +1,38 @@
+{
+  "slug": "zuurkool-stamppot",
+  "cuisine": "western-european",
+  "country": "pays-bas",
+  "origin": "Pays-Bas",
+  "native_name": "Zuurkoolstamppot",
+  "title": {
+    "fr": "Stamppot à la choucroute",
+    "en": "Sauerkraut stamppot"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 35 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hiver", "choucroute", "famille", "quotidien"],
+  "ingredients": [
+    { "raw": "1,5 kg de pommes de terre, en morceaux", "qty": 1500, "unit": "g", "item": "pomme de terre", "prep": "en morceaux" },
+    { "raw": "800 g de choucroute crue", "qty": 800, "unit": "g", "item": "choucroute" },
+    { "raw": "4 saucisses fumées", "qty": 4, "unit": "piece", "item": "saucisse fumée" },
+    { "raw": "250 g de lardons", "qty": 250, "unit": "g", "item": "lardon" },
+    { "raw": "25 cl de lait entier", "qty": 25, "unit": "cl", "item": "lait entier" },
+    { "raw": "100 g de beurre", "qty": 100, "unit": "g", "item": "beurre" },
+    { "raw": "2 pommes, en dés", "qty": 2, "unit": "piece", "item": "pomme", "prep": "en dés", "optional": true },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "RINCER la choucroute et la presser : crue et non rincée, elle rend le plat immangeablement acide.", "en": "RINSE the sauerkraut and squeeze it: raw and unrinsed, it makes the dish unbearably sour." },
+    { "fr": "Goûter après rinçage : selon les marques, il faut rincer une ou trois fois.", "en": "Taste after rinsing: depending on the brand, one or three rinses may be needed." },
+    { "fr": "Elle est mise CRUE dans le stamppot, contrairement à la choucroute alsacienne qui mijote une heure.", "en": "It goes into the stamppot RAW, unlike Alsatian sauerkraut which simmers for an hour." },
+    { "fr": "Cuire les pommes de terre à l'eau salée et les écraser au pilon avec lait chaud et beurre.", "en": "Boil the potatoes in salted water and crush them with hot milk and butter." },
+    { "fr": "Incorporer la choucroute rincée HORS DU FEU : cuite, elle perd tout son croquant.", "en": "Fold in the rinsed sauerkraut OFF THE HEAT: cooked, it loses all its crunch." },
+    { "fr": "Les dés de pomme adoucissent l'acidité : c'est la version des enfants.", "en": "The diced apple softens the acidity: that is the children's version." }
+  ]
+}

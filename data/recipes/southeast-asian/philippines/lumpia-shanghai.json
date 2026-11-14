@@ -1,0 +1,41 @@
+{
+  "slug": "lumpia-shanghai",
+  "cuisine": "southeast-asian",
+  "country": "philippines",
+  "origin": "Philippines",
+  "native_name": "Lumpiang shanghai",
+  "title": {
+    "fr": "Lumpia shanghai, petits rouleaux frits au porc",
+    "en": "Lumpia shanghai, thin fried pork rolls"
+  },
+  "meal_type": "starter",
+  "servings": 8,
+  "times": { "prep_min": 50, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "friture", "porc", "apero"],
+  "ingredients": [
+    { "raw": "30 galettes de lumpia", "qty": 30, "unit": "piece", "item": "pâte à wonton" },
+    { "raw": "600 g de porc haché", "qty": 600, "unit": "g", "item": "porc haché", "group": "farce" },
+    { "raw": "2 carottes, râpées finement", "qty": 2, "unit": "piece", "item": "carotte", "prep": "râpée finement", "group": "farce" },
+    { "raw": "1 oignon, haché très finement", "qty": 1, "unit": "piece", "item": "oignon", "prep": "haché très finement", "group": "farce" },
+    { "raw": "6 gousses d'ail, écrasées", "qty": 6, "unit": "piece", "item": "ail", "prep": "écrasé", "group": "farce" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf", "group": "farce" },
+    { "raw": "3 c. à s. de sauce soja", "qty": 3, "unit": "tbsp", "item": "sauce soja", "group": "farce" },
+    { "raw": "4 oignons nouveaux, ciselés", "qty": 4, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé", "group": "farce" },
+    { "raw": "1 l d'huile neutre pour la friture", "qty": 1, "unit": "l", "item": "huile neutre" },
+    { "raw": "10 cl de vinaigre de canne", "qty": 10, "unit": "cl", "item": "vinaigre de canne", "group": "sauce" },
+    { "raw": "4 c. à s. de sucre", "qty": 4, "unit": "tbsp", "item": "sucre", "group": "sauce" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le lumpia shanghai est FIN, de l'épaisseur d'un doigt : c'est ce qui le distingue du nem ou du rouleau chinois.", "en": "Lumpia shanghai is THIN, a finger's width: that is what sets it apart from a nem or a Chinese spring roll." },
+    { "fr": "Râper les carottes TRÈS finement : en gros morceaux, elles percent la galette.", "en": "Grate the carrots VERY finely: in large pieces, they pierce the wrapper." },
+    { "fr": "Mélanger la farce et la laisser reposer une heure au frais pour que les goûts se lient.", "en": "Mix the filling and rest it for an hour in the fridge so the flavours bind." },
+    { "fr": "Déposer un boudin FIN au bord de la galette, replier les côtés, et rouler très serré.", "en": "Lay a THIN log along the edge of the wrapper, fold in the sides, and roll very tight." },
+    { "fr": "Sceller à l'eau et laisser sécher vingt minutes avant de frire.", "en": "Seal with water and let them dry for twenty minutes before frying." },
+    { "fr": "Frire à 175 °C quatre minutes, couper en trois, et servir avec la sauce au vinaigre sucré.", "en": "Fry at 175°C for four minutes, cut each into three, and serve with the sweet vinegar sauce." }
+  ]
+}

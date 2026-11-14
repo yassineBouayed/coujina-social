@@ -1,0 +1,44 @@
+{
+  "slug": "beef-and-guinness-stew",
+  "cuisine": "western-european",
+  "country": "irlande",
+  "origin": "Irlande",
+  "native_name": "Beef and Guinness stew",
+  "title": {
+    "fr": "Ragoût de bœuf à la bière brune",
+    "en": "Beef and stout stew"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 180 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["biere", "boeuf", "hiver", "pub"],
+  "ingredients": [
+    { "raw": "1,3 kg de bœuf à mijoter, en gros cubes", "qty": 1300, "unit": "g", "item": "boeuf à mijoter", "prep": "en gros cubes" },
+    { "raw": "50 cl de bière brune", "qty": 50, "unit": "cl", "item": "bière" },
+    { "raw": "4 carottes, en tronçons", "qty": 4, "unit": "piece", "item": "carotte", "prep": "en tronçons" },
+    { "raw": "3 oignons, émincés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "600 g de pommes de terre, en morceaux", "qty": 600, "unit": "g", "item": "pomme de terre", "prep": "en morceaux" },
+    { "raw": "3 c. à s. de concentré de tomate", "qty": 3, "unit": "tbsp", "item": "concentré de tomate" },
+    { "raw": "3 c. à s. de farine de blé", "qty": 3, "unit": "tbsp", "item": "farine de blé" },
+    { "raw": "50 cl de bouillon de bœuf", "qty": 50, "unit": "cl", "item": "bouillon boeuf" },
+    { "raw": "2 c. à s. de sucre roux", "qty": 2, "unit": "tbsp", "item": "sucre roux" },
+    { "raw": "3 c. à c. de thym séché", "qty": 3, "unit": "tsp", "item": "thym" },
+    { "raw": "3 feuilles de laurier", "qty": 3, "unit": "piece", "item": "laurier" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "La bière brune est AMÈRE : le sucre roux n'est pas un caprice, il équilibre cette amertume.", "en": "Stout is BITTER: the brown sugar is not a whim, it balances that bitterness." },
+    { "fr": "Sécher la viande et la saisir par petites quantités, jusqu'à une croûte brun foncé.", "en": "Dry the meat and sear it in small batches, to a deep brown crust." },
+    { "fr": "Singer à la farine, cuire deux minutes, puis déglacer À LA BIÈRE en grattant le fond.", "en": "Dust with flour, cook two minutes, then deglaze WITH THE STOUT, scraping the base." },
+    { "fr": "Ajouter concentré, bouillon, sucre et herbes, et braiser trois heures à 150 °C.", "en": "Add the purée, stock, sugar and herbs, and braise for three hours at 150°C." },
+    { "fr": "Ajouter les pommes de terre la dernière heure seulement : plus tôt, elles se défont.", "en": "Add the potatoes in the last hour only: earlier, they disintegrate." },
+    { "fr": "Goûter avant de servir : si c'est encore amer, une cuillère de sucre de plus, et pas de sel.", "en": "Taste before serving: if it is still bitter, one more spoon of sugar, and no salt." }
+  ],
+  "notes": [
+    { "fr": "L'alcool s'évapore en trois heures de cuisson, mais l'amertume et le goût de malt restent.", "en": "The alcohol cooks off over three hours, but the bitterness and malt flavour remain." }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "slug": "zereshk-polo",
+  "cuisine": "middle-eastern",
+  "country": "iran",
+  "origin": "Iran",
+  "native_name": "Zereshk polo",
+  "title": {
+    "fr": "Zereshk polo, riz aux épine-vinettes",
+    "en": "Zereshk polo, rice with barberries"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 70 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "safran", "zereshk", "poulet"],
+  "ingredients": [
+    { "raw": "600 g de riz basmati", "qty": 600, "unit": "g", "item": "riz basmati" },
+    { "raw": "1 poulet entier, découpé", "qty": 1, "unit": "piece", "item": "poulet entier", "prep": "découpé" },
+    { "raw": "100 g de zereshk", "qty": 100, "unit": "g", "item": "zereshk" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "1 grosse pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "120 g de beurre", "qty": 120, "unit": "g", "item": "beurre" },
+    { "raw": "3 c. à s. de sucre", "qty": 3, "unit": "tbsp", "item": "sucre" },
+    { "raw": "1/2 c. à c. de curcuma", "qty": 0.5, "unit": "tsp", "item": "curcuma" },
+    { "raw": "40 g de pistaches, effilées", "qty": 40, "unit": "g", "item": "pistache", "prep": "effilée", "optional": true },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Rincer le zereshk à l'eau froide plusieurs fois : il arrive plein de poussière et de petits cailloux.", "en": "Rinse the barberries in cold water several times: they arrive full of dust and small stones." },
+    { "fr": "Les faire revenir au beurre avec le sucre TRENTE SECONDES, pas plus : au-delà, ils brûlent et deviennent amers.", "en": "Fry them in butter with the sugar for THIRTY SECONDS, no more: beyond that they burn and turn bitter." },
+    { "fr": "Cuire le poulet avec l'oignon, le curcuma et le safran, quarante minutes.", "en": "Cook the chicken with the onion, turmeric and saffron for forty minutes." },
+    { "fr": "Précuire le riz trempé sept minutes, l'égoutter, et le remettre en dôme sur du beurre.", "en": "Parboil the soaked rice for seven minutes, drain it, and return it in a dome over butter." },
+    { "fr": "Couvrir d'un linge sous le couvercle et cuire quarante minutes à feu doux : le linge absorbe la vapeur.", "en": "Cover with a cloth under the lid and cook for forty minutes over low heat: the cloth absorbs the steam." },
+    { "fr": "Dresser le riz, colorer une partie au safran, et couvrir de zereshk et de pistaches.", "en": "Plate the rice, colour some of it with saffron, and cover with barberries and pistachios." }
+  ]
+}

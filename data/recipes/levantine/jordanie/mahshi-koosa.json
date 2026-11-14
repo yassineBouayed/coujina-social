@@ -1,0 +1,40 @@
+{
+  "slug": "mahshi-koosa",
+  "cuisine": "levantine",
+  "country": "jordanie",
+  "origin": "Jordanie",
+  "native_name": "Mahshi koosa",
+  "title": {
+    "fr": "Courgettes farcies au riz et à la viande",
+    "en": "Courgettes stuffed with rice and meat"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 50, "cook_min": 60 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["farci", "courgette", "famille", "yaourt"],
+  "ingredients": [
+    { "raw": "12 petites courgettes", "qty": 12, "unit": "piece", "item": "courgette" },
+    { "raw": "300 g de riz rond", "qty": 300, "unit": "g", "item": "riz rond", "group": "farce" },
+    { "raw": "400 g d'agneau haché", "qty": 400, "unit": "g", "item": "agneau haché", "group": "farce" },
+    { "raw": "1 c. à c. de baharat", "qty": 1, "unit": "tsp", "item": "baharat", "group": "farce" },
+    { "raw": "1/2 c. à c. de cannelle moulue", "qty": 0.5, "unit": "tsp", "item": "cannelle", "group": "farce" },
+    { "raw": "4 c. à s. de beurre, fondu", "qty": 4, "unit": "tbsp", "item": "beurre", "prep": "fondu", "group": "farce" },
+    { "raw": "1 l de yaourt", "qty": 1, "unit": "l", "item": "yaourt", "group": "sauce" },
+    { "raw": "2 c. à s. de maïzena", "qty": 2, "unit": "tbsp", "item": "maïzena", "group": "sauce" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf", "group": "sauce" },
+    { "raw": "5 gousses d'ail, écrasées", "qty": 5, "unit": "piece", "item": "ail", "prep": "écrasé", "group": "sauce" },
+    { "raw": "2 c. à s. de menthe séchée", "qty": 2, "unit": "tbsp", "item": "menthe séchée", "group": "sauce" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Évider les courgettes au vide-pomme, en laissant une paroi de trois millimètres.", "en": "Hollow the courgettes with a corer, leaving a three-millimetre wall." },
+    { "fr": "Une paroi trop fine éclate à la cuisson, trop épaisse elle reste crue : c'est tout le savoir-faire.", "en": "Too thin and the wall bursts, too thick and it stays raw: that is the whole knack." },
+    { "fr": "Mélanger le riz CRU, la viande, les épices, le beurre et le sel, sans le cuire.", "en": "Mix the RAW rice, meat, spices, butter and salt, without cooking any of it." },
+    { "fr": "Farcir aux deux tiers seulement, pour laisser au riz la place de gonfler.", "en": "Fill only two-thirds full, leaving room for the rice to swell." },
+    { "fr": "Ranger debout et serré dans la casserole, couvrir d'eau salée, et cuire trente minutes.", "en": "Pack them upright and tight in the pot, cover with salted water, and cook for thirty minutes." },
+    { "fr": "Préparer la sauce au yaourt lié à l'œuf et à la maïzena, y finir les courgettes, et verser l'ail à la menthe.", "en": "Make the yoghurt sauce bound with egg and cornflour, finish the courgettes in it, and pour over the minted garlic." }
+  ]
+}

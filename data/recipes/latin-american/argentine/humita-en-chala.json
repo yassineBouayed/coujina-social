@@ -1,0 +1,39 @@
+{
+  "slug": "humita-en-chala",
+  "cuisine": "latin-american",
+  "country": "argentine",
+  "origin": "Argentine",
+  "native_name": "Humita en chala",
+  "title": {
+    "fr": "Humita, papillote de maïs frais",
+    "en": "Humita, fresh corn parcel"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 45, "cook_min": 50 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["nord", "mais", "vapeur", "vegetarien"],
+  "ingredients": [
+    { "raw": "12 épis de maïs frais, avec leurs feuilles", "qty": 12, "unit": "piece", "item": "maïs doux", "prep": "frais, avec leurs feuilles" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "2 poivrons rouges, en dés", "qty": 2, "unit": "piece", "item": "poivron rouge", "prep": "en dés" },
+    { "raw": "30 cl de lait entier", "qty": 30, "unit": "cl", "item": "lait entier" },
+    { "raw": "250 g de queso fresco, en dés", "qty": 250, "unit": "g", "item": "queso fresco", "prep": "en dés" },
+    { "raw": "3 c. à s. de paprika", "qty": 3, "unit": "tbsp", "item": "paprika" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin" },
+    { "raw": "1/2 bouquet de basilic, ciselé", "qty": 0.5, "unit": "bunch", "item": "basilic", "prep": "ciselé" },
+    { "raw": "80 g de beurre", "qty": 80, "unit": "g", "item": "beurre" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Retirer les feuilles des épis EN ENTIER, sans les déchirer : ce sont elles qui feront les papillotes.", "en": "Strip the husks from the cobs WHOLE, without tearing: they will be the wrappers." },
+    { "fr": "RÂPER les épis plutôt que d'égrainer au couteau : la râpe libère le lait du maïs.", "en": "GRATE the cobs rather than cutting the kernels off: grating releases the corn's milk." },
+    { "fr": "Ce lait est ce qui lie la humita : sans lui, la farce reste en grains séparés.", "en": "That milk binds the humita: without it, the filling stays as separate kernels." },
+    { "fr": "Cuire la purée de maïs avec le lait vingt minutes, en remuant : elle doit épaissir nettement.", "en": "Cook the corn purée with the milk for twenty minutes, stirring: it must thicken clearly." },
+    { "fr": "Croiser deux feuilles, garnir, replier les quatre côtés et FICELER avec une lanière de feuille.", "en": "Cross two husks, fill, fold the four sides and TIE with a strip of husk." },
+    { "fr": "Cuire à la vapeur QUARANTE MINUTES, debout, les papillotes serrées les unes contre les autres.", "en": "Steam for FORTY MINUTES, upright, the parcels packed tightly together." }
+  ]
+}

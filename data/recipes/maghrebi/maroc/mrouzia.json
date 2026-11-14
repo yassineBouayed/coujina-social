@@ -1,0 +1,43 @@
+{
+  "slug": "mrouzia",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Mrouzia",
+  "title": {
+    "fr": "Mrouzia, agneau au miel, raisins secs et amandes",
+    "en": "Mrouzia, lamb with honey, raisins and almonds"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 150 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["aid", "agneau", "sucre-sale", "fete"],
+  "ingredients": [
+    { "raw": "1,5 kg d'épaule d'agneau en morceaux", "qty": 1500, "unit": "g", "item": "épaule d'agneau", "prep": "en morceaux" },
+    { "raw": "2 c. à s. de ras el-hanout", "qty": 2, "unit": "tbsp", "item": "ras el-hanout" },
+    { "raw": "250 g de raisins secs", "qty": 250, "unit": "g", "item": "raisin sec" },
+    { "raw": "150 g d'amandes émondées", "qty": 150, "unit": "g", "item": "amande" },
+    { "raw": "200 g de miel", "qty": 200, "unit": "g", "item": "miel" },
+    { "raw": "3 c. à s. de smen", "qty": 3, "unit": "tbsp", "item": "smen" },
+    { "raw": "2 oignons, râpés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "râpé" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "1 c. à c. de gingembre moulu", "qty": 1, "unit": "tsp", "item": "gingembre moulu" },
+    { "raw": "1 c. à s. de graines de sésame, grillées", "qty": 1, "unit": "tbsp", "item": "sésame", "prep": "grillé" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Frotter la viande avec le ras el-hanout et le sel, et la laisser prendre les épices une heure au frais.", "en": "Rub the meat with ras el-hanout and salt, and let it take up the spices for an hour in the fridge." },
+    { "fr": "Faire fondre le smen dans la cocotte, ajouter la viande, l'oignon râpé, le safran, le gingembre et la cannelle, et mouiller à hauteur.", "en": "Melt the smen in the pot, add the meat, grated onion, saffron, ginger and cinnamon, and cover with water." },
+    { "fr": "Laisser mijoter deux heures à couvert, jusqu'à ce que la viande cède sous le doigt.", "en": "Simmer covered for two hours, until the meat gives under a finger." },
+    { "fr": "Tremper les raisins secs vingt minutes à l'eau tiède, et faire dorer les amandes à sec ou à l'huile.", "en": "Soak the raisins in warm water for twenty minutes, and toast the almonds dry or in oil." },
+    { "fr": "Retirer la viande, ajouter le miel et les raisins au jus, et laisser réduire à découvert jusqu'à ce que la sauce nappe.", "en": "Lift out the meat, add honey and raisins to the juices, and reduce uncovered until the sauce coats a spoon." },
+    { "fr": "Remettre la viande à réchauffer dans le sirop, et servir couvert d'amandes et de sésame.", "en": "Return the meat to warm through in the syrup, and serve covered with almonds and sesame." }
+  ],
+  "notes": [
+    { "fr": "La mrouzia se garde plusieurs jours : c'est un plat de l'Aïd, conçu pour conserver la viande dans le miel et le beurre salé.", "en": "Mrouzia keeps for days: it is an Eid dish, designed to preserve meat in honey and salted butter." }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "slug": "yorkshire-pudding",
+  "cuisine": "western-european",
+  "country": "royaume-uni",
+  "origin": "Royaume-Uni",
+  "native_name": "Yorkshire pudding",
+  "title": {
+    "fr": "Yorkshire puddings",
+    "en": "Yorkshire puddings"
+  },
+  "meal_type": "side",
+  "servings": 6,
+  "times": { "prep_min": 15, "cook_min": 25 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["dimanche", "accompagnement", "four", "classique"],
+  "ingredients": [
+    { "raw": "150 g de farine de blé", "qty": 150, "unit": "g", "item": "farine de blé" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf" },
+    { "raw": "25 cl de lait entier", "qty": 25, "unit": "cl", "item": "lait entier" },
+    { "raw": "8 c. à s. d'huile neutre", "qty": 8, "unit": "tbsp", "item": "huile neutre" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Trois ingrédients à parts égales EN VOLUME : œuf, farine et lait. C'est toute la recette.", "en": "Three ingredients in equal parts BY VOLUME: egg, flour and milk. That is the whole recipe." },
+    { "fr": "Laisser reposer la pâte DEUX HEURES à température ambiante : reposée, elle monte bien plus haut.", "en": "Rest the batter for TWO HOURS at room temperature: rested, it rises far higher." },
+    { "fr": "Chauffer les moules avec l'huile à 230 °C jusqu'à ce qu'elle FUME : c'est non négociable.", "en": "Heat the tins with the oil at 230°C until it SMOKES: that is non-negotiable." },
+    { "fr": "Verser la pâte dans l'huile fumante : elle doit grésiller violemment au contact.", "en": "Pour the batter into the smoking oil: it must hiss violently on contact." },
+    { "fr": "NE PAS OUVRIR LE FOUR pendant vingt minutes : le moindre courant d'air les fait retomber.", "en": "DO NOT OPEN THE OVEN for twenty minutes: the slightest draught makes them collapse." },
+    { "fr": "Ils sont prêts quand ils sont hauts, creux et brun doré : servir DANS LA MINUTE.", "en": "They are ready when tall, hollow and golden brown: serve WITHIN THE MINUTE." }
+  ]
+}

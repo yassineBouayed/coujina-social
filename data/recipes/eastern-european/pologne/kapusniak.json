@@ -1,0 +1,41 @@
+{
+  "slug": "kapusniak",
+  "cuisine": "eastern-european",
+  "country": "pologne",
+  "origin": "Pologne",
+  "native_name": "Kapuśniak",
+  "title": {
+    "fr": "Soupe de choucroute aux côtes fumées",
+    "en": "Sauerkraut soup with smoked ribs"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 100 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hiver", "choucroute", "fume", "famille"],
+  "ingredients": [
+    { "raw": "800 g de choucroute, rincée", "qty": 800, "unit": "g", "item": "choucroute", "prep": "rincée" },
+    { "raw": "600 g de travers de porc fumé", "qty": 600, "unit": "g", "item": "poitrine de porc", "prep": "fumée" },
+    { "raw": "600 g de pommes de terre, en dés", "qty": 600, "unit": "g", "item": "pomme de terre", "prep": "en dés" },
+    { "raw": "3 carottes, en rondelles", "qty": 3, "unit": "piece", "item": "carotte", "prep": "en rondelles" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "1,5 l d'eau", "qty": 1.5, "unit": "l", "item": "eau" },
+    { "raw": "40 g de champignons séchés", "qty": 40, "unit": "g", "item": "champignon séché" },
+    { "raw": "8 baies de genièvre", "qty": 8, "unit": "piece", "item": "baie de genièvre" },
+    { "raw": "3 feuilles de laurier", "qty": 3, "unit": "piece", "item": "laurier" },
+    { "raw": "2 c. à c. de carvi", "qty": 2, "unit": "tsp", "item": "carvi" },
+    { "raw": "60 g de saindoux", "qty": 60, "unit": "g", "item": "saindoux" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "GOÛTER la choucroute avant de la rincer : selon la marque, il faut la rincer une ou trois fois.", "en": "TASTE the sauerkraut before rinsing: depending on the brand, it needs one rinse or three." },
+    { "fr": "Trop rincée, elle perd toute son acidité ; pas assez, la soupe est immangeable.", "en": "Over-rinsed, it loses all its sourness; under-rinsed, the soup is unbearable." },
+    { "fr": "Cuire les travers fumés une heure à l'eau, en écumant, puis les désosser.", "en": "Cook the smoked ribs in water for an hour, skimming, then bone them." },
+    { "fr": "Ajouter la choucroute et les champignons réhydratés avec leur eau, et cuire trente minutes.", "en": "Add the sauerkraut and the rehydrated mushrooms with their water, and cook for thirty minutes." },
+    { "fr": "La choucroute empêche les pommes de terre de cuire : les ajouter les vingt dernières minutes.", "en": "The sauerkraut stops the potatoes cooking: add them in the last twenty minutes." },
+    { "fr": "L'acide bloque leur attendrissement, comme pour les haricots : ce n'est pas une question de temps.", "en": "Acid blocks their softening, as with beans: it is not a matter of time." }
+  ]
+}

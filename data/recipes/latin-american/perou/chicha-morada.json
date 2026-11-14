@@ -1,0 +1,36 @@
+{
+  "slug": "chicha-morada",
+  "cuisine": "latin-american",
+  "country": "perou",
+  "origin": "Pérou",
+  "native_name": "Chicha morada",
+  "title": {
+    "fr": "Chicha morada au maïs violet",
+    "en": "Chicha morada, purple corn drink"
+  },
+  "meal_type": "drink",
+  "servings": 8,
+  "times": { "prep_min": 15, "cook_min": 50 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["embleme", "mais-violet", "froid", "sans-alcool"],
+  "ingredients": [
+    { "raw": "500 g de maïs violet séché", "qty": 500, "unit": "g", "item": "maïs violet" },
+    { "raw": "3 l d'eau", "qty": 3, "unit": "l", "item": "eau" },
+    { "raw": "1 ananas, ses épluchures et sa chair", "qty": 1, "unit": "piece", "item": "ananas" },
+    { "raw": "2 pommes, en quartiers", "qty": 2, "unit": "piece", "item": "pomme", "prep": "en quartiers" },
+    { "raw": "3 bâtons de cannelle", "qty": 3, "unit": "piece", "item": "cannelle", "prep": "en bâton" },
+    { "raw": "8 clous de girofle", "qty": 8, "unit": "piece", "item": "clou de girofle" },
+    { "raw": "250 g de sucre", "qty": 250, "unit": "g", "item": "sucre" },
+    { "raw": "5 citrons verts, leur jus", "qty": 5, "unit": "piece", "item": "citron vert" }
+  ],
+  "steps": [
+    { "fr": "La chicha morada est la boisson nationale péruvienne, bue à tous les repas : elle est sans alcool.", "en": "Chicha morada is Peru's national drink, taken at every meal: it is alcohol-free." },
+    { "fr": "Utiliser les ÉPLUCHURES d'ananas, pas seulement la chair : elles portent l'essentiel du parfum.", "en": "Use the pineapple SKINS, not only the flesh: they carry most of the fragrance." },
+    { "fr": "Faire bouillir les épis ENTIERS avec leur rafle : c'est la rafle qui libère le violet.", "en": "Boil the cobs WHOLE with their cores: the core is what releases the purple." },
+    { "fr": "Cuire quarante-cinq minutes à couvert, puis laisser refroidir DANS le liquide.", "en": "Cook for forty-five minutes covered, then cool it IN the liquid." },
+    { "fr": "Le CITRON VERT s'ajoute FROID, à la fin : ajouté chaud, il ternit la couleur.", "en": "The LIME goes in COLD, at the end: added hot, it dulls the colour." },
+    { "fr": "C'est lui qui fait virer le violet au rubis vif : la chimie du pigment change avec l'acidité.", "en": "It turns the purple to bright ruby: the pigment's chemistry shifts with acidity." }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "slug": "shish-barak",
+  "cuisine": "levantine",
+  "country": "syrie",
+  "origin": "Syrie",
+  "native_name": "Shish barak",
+  "title": {
+    "fr": "Shish barak, raviolis de viande au yaourt cuit",
+    "en": "Shish barak, meat dumplings in cooked yoghurt"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 90, "cook_min": 40 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["yaourt", "ravioli", "hiver", "fete"],
+  "ingredients": [
+    { "raw": "400 g de farine de blé", "qty": 400, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "1/2 c. à c. de sel", "qty": 0.5, "unit": "tsp", "item": "sel", "group": "pâte" },
+    { "raw": "3 c. à s. d'huile neutre", "qty": 3, "unit": "tbsp", "item": "huile neutre", "group": "pâte" },
+    { "raw": "400 g d'agneau haché", "qty": 400, "unit": "g", "item": "agneau haché", "group": "farce" },
+    { "raw": "2 oignons, hachés finement", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché finement", "group": "farce" },
+    { "raw": "60 g de pignons de pin", "qty": 60, "unit": "g", "item": "pignon de pin", "group": "farce" },
+    { "raw": "1 c. à c. de baharat", "qty": 1, "unit": "tsp", "item": "baharat", "group": "farce" },
+    { "raw": "1,5 l de yaourt", "qty": 1.5, "unit": "l", "item": "yaourt", "group": "sauce" },
+    { "raw": "1 œuf", "qty": 1, "unit": "piece", "item": "oeuf", "group": "sauce" },
+    { "raw": "2 c. à s. de maïzena", "qty": 2, "unit": "tbsp", "item": "maïzena", "group": "sauce" },
+    { "raw": "6 gousses d'ail, écrasées", "qty": 6, "unit": "piece", "item": "ail", "prep": "écrasé", "group": "sauce" },
+    { "raw": "2 c. à s. de coriandre fraîche, ciselée", "qty": 2, "unit": "tbsp", "item": "coriandre fraîche", "prep": "ciselée", "group": "sauce" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Pétrir la pâte et la laisser reposer une heure, puis l'étaler très finement et découper des disques de 5 cm.", "en": "Knead the dough and rest it for an hour, then roll it very thin and cut 5 cm discs." },
+    { "fr": "Farcir de viande cuite refroidie, replier en demi-lune, puis joindre les deux pointes en anneau.", "en": "Fill with the cooled cooked meat, fold into half-moons, then join the two tips into a ring." },
+    { "fr": "Passer les raviolis au four dix minutes à 200 °C : dorés, ils ne se déferont pas dans le yaourt.", "en": "Bake the dumplings for ten minutes at 200°C: browned, they will not fall apart in the yoghurt." },
+    { "fr": "Fouetter le yaourt avec l'œuf, la maïzena et le sel, À FROID, et le porter à ébullition en remuant sans arrêt DANS UN SEUL SENS.", "en": "Whisk the yoghurt with the egg, cornflour and salt COLD, and bring it to a boil stirring constantly IN ONE DIRECTION only." },
+    { "fr": "C'est la seule façon d'éviter que le yaourt tranche : arrêter de remuer une seule fois suffit à le faire granuler.", "en": "That is the only way to stop the yoghurt splitting: stopping the stirring even once will curdle it." },
+    { "fr": "Ajouter les raviolis, cuire dix minutes, et verser l'ail et la coriandre revenus au beurre.", "en": "Add the dumplings, cook for ten minutes, and pour over the garlic and coriander fried in butter." }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "begun-bhaja",
+  "cuisine": "south-asian",
+  "country": "bangladesh",
+  "origin": "Bangladesh",
+  "native_name": "Begun bhaja",
+  "title": {
+    "fr": "Begun bhaja, tranches d'aubergine frites",
+    "en": "Begun bhaja, fried aubergine slices"
+  },
+  "meal_type": "side",
+  "servings": 4,
+  "times": { "prep_min": 15, "cook_min": 20 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["accompagnement", "friture", "aubergine", "riz"],
+  "ingredients": [
+    { "raw": "2 grosses aubergines, en tranches épaisses", "qty": 2, "unit": "piece", "item": "aubergine", "prep": "en tranches épaisses" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "1 c. à c. de piment kashmiri", "qty": 1, "unit": "tsp", "item": "piment kashmiri" },
+    { "raw": "3 c. à s. de farine de riz", "qty": 3, "unit": "tbsp", "item": "farine de riz" },
+    { "raw": "10 cl d'huile de moutarde", "qty": 10, "unit": "cl", "item": "huile de moutarde" },
+    { "raw": "1 c. à c. de sucre", "qty": 1, "unit": "tsp", "item": "sucre", "optional": true },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Couper les aubergines en tranches d'un centimètre : plus fines, elles se dessèchent ; plus épaisses, elles restent crues.", "en": "Cut the aubergines into one-centimetre slices: thinner and they dry out, thicker and they stay raw." },
+    { "fr": "Les frotter de curcuma, de piment, de sucre et de sel, et les laisser vingt minutes.", "en": "Rub them with turmeric, chilli, sugar and salt, and leave them for twenty minutes." },
+    { "fr": "Les passer dans la farine de riz : c'est elle qui donne le croustillant, la farine de blé ramollit.", "en": "Dust them with rice flour: it is what gives the crispness; wheat flour goes soft." },
+    { "fr": "Chauffer l'huile de moutarde jusqu'à ce qu'elle fume, puis baisser le feu.", "en": "Heat the mustard oil until it smokes, then lower the heat." },
+    { "fr": "Frire quatre minutes par face, sans les toucher, jusqu'à ce qu'elles soient brunes et fondantes.", "en": "Fry four minutes a side, without touching them, until brown and melting." },
+    { "fr": "Égoutter et servir tiède, en début de repas, avec du riz nature.", "en": "Drain and serve warm, at the start of the meal, with plain rice." }
+  ]
+}

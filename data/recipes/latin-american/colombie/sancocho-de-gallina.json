@@ -1,0 +1,43 @@
+{
+  "slug": "sancocho-de-gallina",
+  "cuisine": "latin-american",
+  "country": "colombie",
+  "origin": "Colombie",
+  "native_name": "Sancocho de gallina",
+  "title": {
+    "fr": "Sancocho de poule aux tubercules",
+    "en": "Chicken sancocho with root vegetables"
+  },
+  "meal_type": "soup",
+  "servings": 8,
+  "times": { "prep_min": 35, "cook_min": 150 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["dimanche", "soupe", "famille", "partage"],
+  "ingredients": [
+    { "raw": "1 poule entière, découpée", "qty": 1, "unit": "piece", "item": "poulet entier", "prep": "découpée" },
+    { "raw": "600 g de manioc, en gros morceaux", "qty": 600, "unit": "g", "item": "manioc", "prep": "en gros morceaux" },
+    { "raw": "600 g de pommes de terre, en gros morceaux", "qty": 600, "unit": "g", "item": "pomme de terre", "prep": "en gros morceaux" },
+    { "raw": "3 bananes plantains vertes, en tronçons", "qty": 3, "unit": "piece", "item": "plantain", "prep": "vertes, en tronçons" },
+    { "raw": "4 épis de maïs, en tronçons", "qty": 4, "unit": "piece", "item": "maïs doux", "prep": "en tronçons" },
+    { "raw": "3 oignons, hachés", "qty": 3, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "1 botte d'oignons nouveaux, émincés", "qty": 8, "unit": "piece", "item": "oignon nouveau", "prep": "émincé" },
+    { "raw": "4 tomates, en dés", "qty": 4, "unit": "piece", "item": "tomate", "prep": "en dés" },
+    { "raw": "6 gousses d'ail, hachées", "qty": 6, "unit": "piece", "item": "ail", "prep": "haché" },
+    { "raw": "1 gros bouquet de coriandre, ciselée", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée" },
+    { "raw": "2 c. à c. de cumin moulu", "qty": 2, "unit": "tsp", "item": "cumin" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "3 l d'eau", "qty": 3, "unit": "l", "item": "eau" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Le sancocho est le déjeuner du DIMANCHE en Colombie : il se fait dehors, dans une grande marmite.", "en": "Sancocho is Colombia's SUNDAY lunch: it is made outdoors, in a large pot." },
+    { "fr": "Le hogao — oignon, tomate, ail — se fait À PART et s'ajoute au bouillon après une heure.", "en": "The hogao — onion, tomato, garlic — is made SEPARATELY and added to the broth after an hour." },
+    { "fr": "Ajouter les tubercules du plus long au plus court : plantain, manioc, puis pomme de terre.", "en": "Add the roots from longest to shortest: plantain, cassava, then potato." },
+    { "fr": "Le PLANTAIN VERT se casse À LA MAIN, jamais au couteau : les bords irréguliers épaississent le bouillon.", "en": "The GREEN PLANTAIN is broken BY HAND, never cut: the ragged edges thicken the broth." },
+    { "fr": "Le manioc doit ÉCLATER et se défaire un peu : c'est ce qui lie le sancocho.", "en": "The cassava must BURST and break down a little: that binds the sancocho." },
+    { "fr": "Ajouter la coriandre EN TOUT DERNIER, hors du feu : cuite, elle noircit et perd son parfum.", "en": "Add the coriander LAST OF ALL, off the heat: cooked, it blackens and loses its scent." }
+  ]
+}

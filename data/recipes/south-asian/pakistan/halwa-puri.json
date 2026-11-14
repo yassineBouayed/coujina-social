@@ -1,0 +1,39 @@
+{
+  "slug": "halwa-puri",
+  "cuisine": "south-asian",
+  "country": "pakistan",
+  "origin": "Pakistan",
+  "native_name": "Halwa puri",
+  "title": {
+    "fr": "Halwa puri, semoule sucrée et pains frits",
+    "en": "Halwa puri, sweet semolina with fried breads"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 40, "cook_min": 40 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["dimanche", "petit-dejeuner", "friture", "sucre-sale"],
+  "ingredients": [
+    { "raw": "400 g de farine de blé", "qty": 400, "unit": "g", "item": "farine de blé", "group": "puri" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel", "group": "puri" },
+    { "raw": "3 c. à s. d'huile neutre", "qty": 3, "unit": "tbsp", "item": "huile neutre", "group": "puri" },
+    { "raw": "250 g de semoule fine", "qty": 250, "unit": "g", "item": "semoule fine", "group": "halwa" },
+    { "raw": "250 g de sucre", "qty": 250, "unit": "g", "item": "sucre", "group": "halwa" },
+    { "raw": "150 g de ghee", "qty": 150, "unit": "g", "item": "ghee", "group": "halwa" },
+    { "raw": "1 c. à c. de cardamome moulue", "qty": 1, "unit": "tsp", "item": "cardamome", "prep": "moulue", "group": "halwa" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran", "group": "halwa" },
+    { "raw": "40 g d'amandes effilées", "qty": 40, "unit": "g", "item": "amande effilée", "group": "halwa" },
+    { "raw": "75 cl d'eau", "qty": 75, "unit": "cl", "item": "eau", "group": "halwa" },
+    { "raw": "1 l d'huile neutre pour la friture", "qty": 1, "unit": "l", "item": "huile neutre", "group": "friture" }
+  ],
+  "steps": [
+    { "fr": "Pétrir une pâte à puri ferme et la laisser reposer trente minutes.", "en": "Knead a firm puri dough and rest it for thirty minutes." },
+    { "fr": "Griller la semoule dans le ghee dix minutes, en remuant, jusqu'à ce qu'elle prenne une couleur noisette.", "en": "Toast the semolina in the ghee for ten minutes, stirring, until it turns hazelnut brown." },
+    { "fr": "Verser le sirop de sucre BRÛLANT sur la semoule chaude, d'un coup, en reculant : cela projette fort.", "en": "Pour the SCALDING sugar syrup onto the hot semolina all at once, standing back: it spits hard." },
+    { "fr": "Remuer jusqu'à absorption, ajouter cardamome, safran et amandes, et couvrir dix minutes.", "en": "Stir until absorbed, add cardamom, saffron and almonds, and cover for ten minutes." },
+    { "fr": "Étaler des disques de puri fins et les frire à 190 °C : ils doivent gonfler en trois secondes.", "en": "Roll thin puri discs and fry them at 190°C: they should puff within three seconds." },
+    { "fr": "Appuyer doucement sur le puri avec l'écumoire pour l'aider à gonfler, puis retourner une fois.", "en": "Press the puri gently with the slotted spoon to help it puff, then turn once." }
+  ]
+}

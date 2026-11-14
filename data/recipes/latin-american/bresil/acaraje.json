@@ -1,0 +1,39 @@
+{
+  "slug": "acaraje",
+  "cuisine": "latin-american",
+  "country": "bresil",
+  "origin": "Brésil",
+  "native_name": "Acarajé",
+  "title": {
+    "fr": "Acarajé, beignets de niébé de Bahia",
+    "en": "Acarajé, Bahian black-eyed pea fritters"
+  },
+  "meal_type": "starter",
+  "servings": 8,
+  "times": { "prep_min": 50, "cook_min": 30 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["bahia", "rue", "niebe", "friture"],
+  "ingredients": [
+    { "raw": "600 g de niébé, trempé la veille", "qty": 600, "unit": "g", "item": "niébé", "prep": "trempé la veille" },
+    { "raw": "2 oignons", "qty": 2, "unit": "piece", "item": "oignon" },
+    { "raw": "1 l d'huile de palme rouge", "qty": 1, "unit": "l", "item": "huile de palme" },
+    { "raw": "400 g de crevettes séchées", "qty": 400, "unit": "g", "item": "crevette séchée", "group": "vatapá" },
+    { "raw": "200 g de cacahuètes, grillées", "qty": 200, "unit": "g", "item": "cacahuète", "prep": "grillée", "group": "vatapá" },
+    { "raw": "40 cl de lait de coco", "qty": 40, "unit": "cl", "item": "lait de coco", "group": "vatapá" },
+    { "raw": "3 tomates, en dés", "qty": 3, "unit": "piece", "item": "tomate", "prep": "en dés", "group": "salade" },
+    { "raw": "1 poivron vert, en dés", "qty": 1, "unit": "piece", "item": "poivron vert", "prep": "en dés", "group": "salade" },
+    { "raw": "1 bouquet de coriandre, ciselée", "qty": 1, "unit": "bunch", "item": "coriandre fraîche", "prep": "ciselée", "group": "salade" },
+    { "raw": "3 piments frais", "qty": 3, "unit": "piece", "item": "piment frais" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "L'acarajé est un plat sacré du candomblé bahianais avant d'être une street food.", "en": "Acarajé is a sacred dish of Bahian candomblé before it is a street food." },
+    { "fr": "DÉCORTIQUER les niébés trempés en les frottant entre les paumes : les peaux remontent à la surface.", "en": "HUSK the soaked black-eyed peas by rubbing them between your palms: the skins float up." },
+    { "fr": "Cette étape est longue mais indispensable : avec les peaux, la pâte est grise et amère.", "en": "That step is slow but essential: with the skins, the batter is grey and bitter." },
+    { "fr": "Mixer et BATTRE la pâte au fouet dix minutes : elle doit blanchir et gonfler.", "en": "Blend, then WHISK the batter for ten minutes: it must pale and swell." },
+    { "fr": "Le test : une cuillerée doit FLOTTER dans un verre d'eau. Sinon, battre encore.", "en": "The test: a spoonful must FLOAT in a glass of water. If not, beat more." },
+    { "fr": "Frire dans l'huile de dendê BOUILLANTE, à la cuillère, jusqu'à ce qu'ils gonflent et dorent.", "en": "Fry in BOILING dendê oil, spooned in, until they puff and brown." }
+  ]
+}

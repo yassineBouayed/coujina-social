@@ -1,0 +1,35 @@
+{
+  "slug": "pol-sambol",
+  "cuisine": "south-asian",
+  "country": "sri-lanka",
+  "origin": "Sri Lanka",
+  "native_name": "Pol sambol",
+  "title": {
+    "fr": "Pol sambol, coco râpé au piment et au citron vert",
+    "en": "Pol sambol, grated coconut with chilli and lime"
+  },
+  "meal_type": "side",
+  "servings": 6,
+  "times": { "prep_min": 15, "cook_min": 0 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["base", "coco", "cru", "accompagnement"],
+  "ingredients": [
+    { "raw": "250 g de coco râpé frais", "qty": 250, "unit": "g", "item": "coco râpé" },
+    { "raw": "2 c. à s. de piment en poudre", "qty": 2, "unit": "tbsp", "item": "piment en poudre" },
+    { "raw": "1 oignon rouge, haché finement", "qty": 1, "unit": "piece", "item": "oignon rouge", "prep": "haché finement" },
+    { "raw": "2 c. à s. de poisson des Maldives", "qty": 2, "unit": "tbsp", "item": "poisson des Maldives" },
+    { "raw": "2 citrons verts, leur jus", "qty": 2, "unit": "piece", "item": "citron vert" },
+    { "raw": "1 pincée de poivre noir", "qty": 1, "unit": "pinch", "item": "poivre noir" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le pol sambol accompagne TOUS les repas sri-lankais : c'est le condiment de base, jamais un extra.", "en": "Pol sambol accompanies EVERY Sri Lankan meal: it is the basic condiment, never an extra." },
+    { "fr": "Utiliser du coco FRAIS râpé si possible : le coco déshydraté doit être réhydraté à l'eau tiède.", "en": "Use FRESH grated coconut if you can: desiccated coconut must be rehydrated in warm water." },
+    { "fr": "Piler le piment, l'oignon, le poisson des Maldives et le sel au mortier, en une pâte grossière.", "en": "Pound the chilli, onion, Maldive fish and salt in a mortar, into a coarse paste." },
+    { "fr": "Ajouter le coco et MALAXER À LA MAIN : c'est le frottement qui colore le coco en rouge.", "en": "Add the coconut and WORK IT BY HAND: the friction is what turns the coconut red." },
+    { "fr": "Un pol sambol mélangé à la cuillère reste blanc et tacheté : il faut y aller aux doigts.", "en": "Pol sambol stirred with a spoon stays white and speckled: it must be done with the fingers." },
+    { "fr": "Ajouter le jus de citron vert en dernier et servir aussitôt.", "en": "Add the lime juice last and serve at once." }
+  ]
+}

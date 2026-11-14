@@ -1,0 +1,45 @@
+{
+  "slug": "chebakia",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Chebakia",
+  "title": {
+    "fr": "Chebakia, fleurs frites au miel et au sésame",
+    "en": "Chebakia, honey and sesame fried rosettes"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 90, "cook_min": 45 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["ramadan", "friture", "miel", "sesame"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé" },
+    { "raw": "150 g de graines de sésame, grillées et moulues", "qty": 150, "unit": "g", "item": "sésame", "prep": "grillé et moulu" },
+    { "raw": "50 g d'amandes, grillées et moulues", "qty": 50, "unit": "g", "item": "amande", "prep": "grillée et moulue" },
+    { "raw": "1 c. à c. de graines d'anis, moulues", "qty": 1, "unit": "tsp", "item": "anis vert", "prep": "moulu" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle" },
+    { "raw": "1 grosse pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "1 c. à c. de levure boulangère sèche", "qty": 1, "unit": "tsp", "item": "levure boulangère" },
+    { "raw": "80 g de beurre fondu", "qty": 80, "unit": "g", "item": "beurre", "prep": "fondu" },
+    { "raw": "3 c. à s. d'eau de fleur d'oranger", "qty": 3, "unit": "tbsp", "item": "eau de fleur d'oranger" },
+    { "raw": "1 c. à s. de vinaigre blanc", "qty": 1, "unit": "tbsp", "item": "vinaigre blanc" },
+    { "raw": "1 kg de miel", "qty": 1000, "unit": "g", "item": "miel", "group": "trempage" },
+    { "raw": "1,5 l d'huile de tournesol pour la friture", "qty": 1.5, "unit": "l", "item": "huile de tournesol", "group": "friture" },
+    { "raw": "100 g de graines de sésame, pour la finition", "qty": 100, "unit": "g", "item": "sésame", "group": "finition" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Mélanger farine, sésame et amandes moulus, anis, cannelle, safran infusé, levure, sel, beurre, eau de fleur d'oranger et vinaigre.", "en": "Combine flour, ground sesame and almonds, anise, cinnamon, bloomed saffron, yeast, salt, butter, orange blossom water and vinegar." },
+    { "fr": "Pétrir longuement jusqu'à obtenir une pâte ferme et lisse, et la laisser reposer une heure.", "en": "Knead at length to a firm, smooth dough, and rest for an hour." },
+    { "fr": "Étaler très finement, découper des rectangles, y pratiquer quatre fentes, puis retourner la pâte sur elle-même pour former la fleur.", "en": "Roll out very thin, cut rectangles, make four slits, then turn the dough through itself to form the rosette." },
+    { "fr": "Frire à 160 °C, à feu modéré : trop chaude, l'huile brunit la surface avant que le cœur soit cuit.", "en": "Fry at 160°C over moderate heat: too hot, and the surface browns before the centre cooks." },
+    { "fr": "Plonger les fleurs brûlantes directement dans le miel chaud, cinq à sept minutes, jusqu'à ce qu'elles cessent de crépiter.", "en": "Drop the scalding rosettes straight into warm honey for five to seven minutes, until they stop crackling." },
+    { "fr": "Égoutter sur grille, saupoudrer de sésame, et laisser sécher une nuit avant de ranger en boîte.", "en": "Drain on a rack, scatter with sesame, and dry overnight before boxing." }
+  ],
+  "notes": [
+    { "fr": "Le miel doit être chaud et la chebakia brûlante : deux températures égales, et le miel ne pénètre pas.", "en": "The honey must be warm and the chebakia scalding: at matching temperatures, the honey will not soak in." }
+  ]
+}

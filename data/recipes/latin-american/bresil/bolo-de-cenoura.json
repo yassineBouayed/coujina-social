@@ -1,0 +1,38 @@
+{
+  "slug": "bolo-de-cenoura",
+  "cuisine": "latin-american",
+  "country": "bresil",
+  "origin": "Brésil",
+  "native_name": "Bolo de cenoura",
+  "title": {
+    "fr": "Gâteau à la carotte et glaçage chocolat",
+    "en": "Carrot cake with chocolate topping"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 20, "cook_min": 45 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["gouter", "carotte", "chocolat", "enfants"],
+  "ingredients": [
+    { "raw": "400 g de carottes, en morceaux", "qty": 400, "unit": "g", "item": "carotte", "prep": "en morceaux" },
+    { "raw": "20 cl d'huile neutre", "qty": 20, "unit": "cl", "item": "huile neutre" },
+    { "raw": "4 œufs", "qty": 4, "unit": "piece", "item": "oeuf" },
+    { "raw": "350 g de sucre", "qty": 350, "unit": "g", "item": "sucre" },
+    { "raw": "350 g de farine de blé", "qty": 350, "unit": "g", "item": "farine de blé" },
+    { "raw": "1 c. à s. de levure chimique", "qty": 1, "unit": "tbsp", "item": "levure chimique" },
+    { "raw": "200 g de lait concentré sucré", "qty": 200, "unit": "g", "item": "lait concentré sucré", "group": "glaçage" },
+    { "raw": "50 g de cacao en poudre", "qty": 50, "unit": "g", "item": "cacao en poudre", "group": "glaçage" },
+    { "raw": "30 g de beurre", "qty": 30, "unit": "g", "item": "beurre", "group": "glaçage" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le bolo de cenoura brésilien n'a rien du carrot cake : les carottes sont MIXÉES CRUES, pas râpées.", "en": "The Brazilian bolo de cenoura is nothing like a carrot cake: the carrots are BLENDED RAW, not grated." },
+    { "fr": "Il ne contient NI cannelle NI noix : c'est un gâteau orange vif, moelleux et simple.", "en": "It contains NO cinnamon and NO nuts: a bright orange cake, moist and plain." },
+    { "fr": "Mixer carottes, huile et œufs TROIS MINUTES : le mélange doit être parfaitement lisse.", "en": "Blend the carrots, oil and eggs for THREE MINUTES: the mixture must be perfectly smooth." },
+    { "fr": "Incorporer la farine À LA MAIN, jamais au mixeur : mixée, elle rend le gâteau élastique.", "en": "Fold in the flour BY HAND, never in the blender: blended, it makes the cake rubbery." },
+    { "fr": "Cuire 45 minutes à 175 °C, et laisser tiédir avant de glacer.", "en": "Bake for 45 minutes at 175°C, and let it cool a little before glazing." },
+    { "fr": "Le glaçage est un brigadeiro à peine cuit : il doit rester COULANT et napper le gâteau.", "en": "The glaze is a barely cooked brigadeiro: it must stay RUNNY and coat the cake." }
+  ]
+}

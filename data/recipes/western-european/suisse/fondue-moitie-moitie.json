@@ -1,0 +1,39 @@
+{
+  "slug": "fondue-moitie-moitie",
+  "cuisine": "western-european",
+  "country": "suisse",
+  "origin": "Suisse",
+  "native_name": "Fondue moitié-moitié",
+  "title": {
+    "fr": "Fondue au fromage moitié-moitié",
+    "en": "Half-and-half cheese fondue"
+  },
+  "meal_type": "main",
+  "servings": 5,
+  "times": { "prep_min": 20, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["embleme", "fromage", "hiver", "partage"],
+  "ingredients": [
+    { "raw": "400 g de gruyère, râpé", "qty": 400, "unit": "g", "item": "gruyère", "prep": "râpé" },
+    { "raw": "400 g de vacherin fribourgeois, râpé", "qty": 400, "unit": "g", "item": "vacherin", "prep": "râpé" },
+    { "raw": "40 cl de vin blanc sec", "qty": 40, "unit": "cl", "item": "vin blanc" },
+    { "raw": "2 c. à c. de maïzena", "qty": 2, "unit": "tsp", "item": "maïzena" },
+    { "raw": "2 gousses d'ail", "qty": 2, "unit": "piece", "item": "ail" },
+    { "raw": "1 pain de campagne, en gros cubes", "qty": 1, "unit": "piece", "item": "pain", "prep": "en gros cubes" },
+    { "raw": "1 pincée de muscade râpée", "qty": 1, "unit": "pinch", "item": "muscade", "prep": "râpée" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Moitié-moitié veut dire parts ÉGALES de gruyère et de vacherin : l'un pour le goût, l'autre pour le fondant.", "en": "Moitié-moitié means EQUAL parts gruyère and vacherin: one for flavour, one for melt." },
+    { "fr": "FROTTER le caquelon à l'ail coupé : c'est le seul ail du plat, et il suffit.", "en": "RUB the pot with a cut clove: that is the dish's only garlic, and it is enough." },
+    { "fr": "Chauffer le vin blanc SEUL d'abord, puis ajouter le fromage par POIGNÉES, en huit.", "en": "Heat the white wine ALONE first, then add the cheese in HANDFULS, stirring in figure-eights." },
+    { "fr": "Le huit n'est pas du folklore : il empêche le fromage de tourner en boule au fond.", "en": "The figure-eight is not folklore: it stops the cheese balling up at the bottom." },
+    { "fr": "NE JAMAIS FAIRE BOUILLIR : au-delà de 75 °C, le fromage tranche et l'huile se sépare.", "en": "NEVER BOIL: above 75°C, the cheese splits and the fat separates." },
+    { "fr": "La maïzena délayée dans un peu de vin froid rattrape une fondue qui commence à filer.", "en": "Cornflour slaked in a little cold wine rescues a fondue that starts to string." }
+  ],
+  "notes": [
+    { "fr": "Recette au vin blanc : l'alcool ne s'évapore pas entièrement à cette température douce.", "en": "A white-wine recipe: the alcohol does not fully cook off at this gentle temperature." }
+  ]
+}

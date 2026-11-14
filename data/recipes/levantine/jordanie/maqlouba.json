@@ -1,0 +1,41 @@
+{
+  "slug": "maqlouba",
+  "cuisine": "levantine",
+  "country": "jordanie",
+  "origin": "Jordanie",
+  "native_name": "Maqluba",
+  "title": {
+    "fr": "Maqluba, riz renversé aux aubergines et au poulet",
+    "en": "Maqluba, upside-down rice with aubergine and chicken"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 45, "cook_min": 70 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["renverse", "aubergine", "famille", "riz"],
+  "ingredients": [
+    { "raw": "1 poulet entier, découpé", "qty": 1, "unit": "piece", "item": "poulet entier", "prep": "découpé" },
+    { "raw": "500 g de riz long grain", "qty": 500, "unit": "g", "item": "riz long grain" },
+    { "raw": "3 aubergines, en rondelles épaisses", "qty": 3, "unit": "piece", "item": "aubergine", "prep": "en rondelles épaisses" },
+    { "raw": "1 chou-fleur, en bouquets", "qty": 1, "unit": "piece", "item": "chou-fleur", "prep": "en bouquets" },
+    { "raw": "2 oignons, émincés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "1 c. à s. de baharat", "qty": 1, "unit": "tbsp", "item": "baharat" },
+    { "raw": "1 c. à c. de curcuma", "qty": 1, "unit": "tsp", "item": "curcuma" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "4 gousses de cardamome", "qty": 4, "unit": "piece", "item": "cardamome" },
+    { "raw": "80 g de pignons de pin", "qty": 80, "unit": "g", "item": "pignon de pin", "group": "garniture" },
+    { "raw": "50 cl d'huile de tournesol pour la friture", "qty": 50, "unit": "cl", "item": "huile de tournesol" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Cuire le poulet avec l'oignon, la cannelle, la cardamome et le sel, quarante minutes, et garder le bouillon.", "en": "Cook the chicken with the onion, cinnamon, cardamom and salt for forty minutes, and keep the broth." },
+    { "fr": "Frire les aubergines et le chou-fleur séparément jusqu'à ce qu'ils soient dorés, puis les égoutter.", "en": "Fry the aubergine and cauliflower separately until golden, then drain them." },
+    { "fr": "Monter la casserole À L'ENVERS : légumes au fond, poulet, puis le riz rincé par-dessus.", "en": "Build the pot UPSIDE DOWN: vegetables at the bottom, chicken, then the rinsed rice on top." },
+    { "fr": "Verser le bouillon chaud épicé, un centimètre au-dessus du riz, sans jamais mélanger.", "en": "Pour in the hot spiced broth, a centimetre above the rice, never stirring." },
+    { "fr": "Cuire trente minutes à couvert, puis LAISSER REPOSER VINGT MINUTES hors du feu, couvercle fermé.", "en": "Cook for thirty minutes covered, then REST IT FOR TWENTY MINUTES off the heat, lid on." },
+    { "fr": "Poser le plat de service dessus et renverser d'un geste franc. C'est le repos qui décide si elle tient debout.", "en": "Set the serving dish on top and flip in one decisive move. The rest is what decides whether it stands." }
+  ]
+}

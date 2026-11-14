@@ -1,0 +1,35 @@
+{
+  "slug": "yomari",
+  "cuisine": "south-asian",
+  "country": "nepal",
+  "origin": "Népal",
+  "native_name": "Yomari",
+  "title": {
+    "fr": "Yomari, chaussons de riz vapeur à la mélasse",
+    "en": "Yomari, steamed rice parcels with molasses"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 45, "cook_min": 25 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["newar", "vapeur", "melasse", "fete"],
+  "ingredients": [
+    { "raw": "400 g de farine de riz", "qty": 400, "unit": "g", "item": "farine de riz", "group": "pâte" },
+    { "raw": "35 cl d'eau bouillante", "qty": 35, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "250 g de mélasse", "qty": 250, "unit": "g", "item": "mélasse", "group": "farce" },
+    { "raw": "150 g de graines de sésame, grillées et moulues", "qty": 150, "unit": "g", "item": "sésame", "prep": "grillé et moulu", "group": "farce" },
+    { "raw": "60 g de coco râpé", "qty": 60, "unit": "g", "item": "coco râpé", "optional": true, "group": "farce" },
+    { "raw": "1/2 c. à c. de cardamome moulue", "qty": 0.5, "unit": "tsp", "item": "cardamome", "prep": "moulue", "group": "farce" },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Verser l'eau BOUILLANTE d'un coup sur la farine de riz et mélanger à la cuillère.", "en": "Pour the BOILING water onto the rice flour all at once and mix with a spoon." },
+    { "fr": "Pétrir dès que la pâte est manipulable : tiède, elle devient friable et se déchire.", "en": "Knead as soon as the dough can be handled: cooled, it turns crumbly and tears." },
+    { "fr": "Chauffer la mélasse avec le sésame moulu et la cardamome jusqu'à obtenir une pâte épaisse.", "en": "Heat the molasses with the ground sesame and cardamom into a thick paste." },
+    { "fr": "Creuser une boule de pâte en cône, garnir, et refermer en pinçant EN POINTE.", "en": "Hollow a ball of dough into a cone, fill it, and close it pinched to a POINT." },
+    { "fr": "La forme en pointe est le yomari : c'est elle qu'on juge, et elle s'apprend en en ratant beaucoup.", "en": "The pointed shape is the yomari: it is what people judge, and it is learned by failing at it often." },
+    { "fr": "Cuire vingt minutes à la vapeur, et manger chaud : la mélasse coule à la première bouchée.", "en": "Steam for twenty minutes and eat hot: the molasses runs at the first bite." }
+  ]
+}

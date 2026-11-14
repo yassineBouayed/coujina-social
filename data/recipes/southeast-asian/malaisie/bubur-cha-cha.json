@@ -1,0 +1,36 @@
+{
+  "slug": "bubur-cha-cha",
+  "cuisine": "southeast-asian",
+  "country": "malaisie",
+  "origin": "Malaisie",
+  "native_name": "Bubur cha cha",
+  "title": {
+    "fr": "Bubur cha cha, soupe sucrée aux patates douces",
+    "en": "Bubur cha cha, sweet potato coconut soup"
+  },
+  "meal_type": "dessert",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 35 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["nyonya", "coco", "taro", "chaud-froid"],
+  "ingredients": [
+    { "raw": "400 g de patates douces orange, en cubes", "qty": 400, "unit": "g", "item": "patate douce", "prep": "en cubes" },
+    { "raw": "300 g de taro, en cubes", "qty": 300, "unit": "g", "item": "taro", "prep": "en cubes" },
+    { "raw": "200 g de banane plantain, en rondelles", "qty": 200, "unit": "g", "item": "banane plantain", "prep": "en rondelles", "optional": true },
+    { "raw": "80 cl de lait de coco", "qty": 80, "unit": "cl", "item": "lait de coco" },
+    { "raw": "150 g de sucre de palme", "qty": 150, "unit": "g", "item": "sucre de palme" },
+    { "raw": "2 feuilles de pandan, nouées", "qty": 2, "unit": "piece", "item": "feuille de pandan", "prep": "nouée" },
+    { "raw": "100 g de perles de tapioca", "qty": 100, "unit": "g", "item": "maïzena", "prep": "en perles" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Cuire patate douce et taro à la VAPEUR, séparément : bouillis, ils se défont et troublent la soupe.", "en": "STEAM the sweet potato and taro separately: boiled, they collapse and cloud the soup." },
+    { "fr": "Le taro cuit plus vite que la patate douce : c'est pour cela qu'ils ne cuisent jamais ensemble.", "en": "Taro cooks faster than sweet potato: that is why they never cook together." },
+    { "fr": "Cuire les perles de tapioca à l'eau jusqu'à ce qu'elles soient TRANSLUCIDES, puis les rincer.", "en": "Cook the tapioca pearls until TRANSLUCENT, then rinse them." },
+    { "fr": "Chauffer le lait de coco avec le pandan, le sucre de palme et le sel, SANS faire bouillir.", "en": "Heat the coconut milk with the pandan, palm sugar and salt, WITHOUT boiling." },
+    { "fr": "Le sel n'est pas facultatif : c'est lui qui empêche le dessert d'être écœurant.", "en": "The salt is not optional: it is what stops the dessert being cloying." },
+    { "fr": "Réunir tous les éléments hors du feu, et servir chaud en hiver, glacé en été.", "en": "Bring everything together off the heat, and serve hot in winter, iced in summer." }
+  ]
+}

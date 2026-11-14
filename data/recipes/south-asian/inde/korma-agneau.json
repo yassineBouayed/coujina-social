@@ -1,0 +1,42 @@
+{
+  "slug": "korma-agneau",
+  "cuisine": "south-asian",
+  "country": "inde",
+  "origin": "Inde",
+  "native_name": "Gosht korma",
+  "title": {
+    "fr": "Korma d'agneau aux noix de cajou",
+    "en": "Lamb korma with cashews"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 30, "cook_min": 100 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["moghol", "doux", "cajou", "fete"],
+  "ingredients": [
+    { "raw": "1 kg d'épaule d'agneau, en cubes", "qty": 1000, "unit": "g", "item": "épaule d'agneau", "prep": "en cubes" },
+    { "raw": "120 g de noix de cajou", "qty": 120, "unit": "g", "item": "noix de cajou" },
+    { "raw": "40 g d'amandes, mondées", "qty": 40, "unit": "g", "item": "amande", "prep": "mondée" },
+    { "raw": "30 cl de yaourt", "qty": 30, "unit": "cl", "item": "yaourt" },
+    { "raw": "4 oignons, émincés", "qty": 4, "unit": "piece", "item": "oignon", "prep": "émincé" },
+    { "raw": "2 c. à s. de pâte gingembre-ail", "qty": 2, "unit": "tbsp", "item": "pâte gingembre-ail" },
+    { "raw": "6 gousses de cardamome", "qty": 6, "unit": "piece", "item": "cardamome" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "1 c. à c. de coriandre en graines, moulue", "qty": 1, "unit": "tsp", "item": "coriandre graines", "prep": "moulue" },
+    { "raw": "1 c. à c. de garam masala", "qty": 1, "unit": "tsp", "item": "garam masala" },
+    { "raw": "1 pincée de safran", "qty": 1, "unit": "pinch", "item": "safran" },
+    { "raw": "10 cl de crème liquide", "qty": 10, "unit": "cl", "item": "crème liquide" },
+    { "raw": "100 g de ghee", "qty": 100, "unit": "g", "item": "ghee" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Frire les oignons jusqu'à ce qu'ils soient dorés, puis les mixer avec les noix de cajou et les amandes trempées.", "en": "Fry the onions until golden, then blend them with the soaked cashews and almonds." },
+    { "fr": "Cette pâte de fruits secs est ce qui lie le korma : ni farine ni crème n'y suffiraient.", "en": "That nut paste is what binds a korma: neither flour nor cream would do the job." },
+    { "fr": "Saisir la viande dans le ghee avec les épices entières, puis ajouter la pâte gingembre-ail.", "en": "Sear the meat in the ghee with the whole spices, then add the ginger-garlic paste." },
+    { "fr": "Ajouter le yaourt battu cuillère par cuillère, à feu doux, sans jamais le laisser bouillir.", "en": "Add the whisked yoghurt spoon by spoon, over low heat, never letting it boil." },
+    { "fr": "Incorporer la pâte de fruits secs et cuire une heure et demie à couvert, à feu très doux.", "en": "Stir in the nut paste and cook for an hour and a half, covered, over very low heat." },
+    { "fr": "Finir au safran, au garam masala et à la crème. Le korma est doux : il ne doit pas piquer.", "en": "Finish with saffron, garam masala and cream. Korma is mild: it should not burn." }
+  ]
+}

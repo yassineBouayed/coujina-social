@@ -1,0 +1,39 @@
+{
+  "slug": "taktouka",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Taktouka",
+  "title": {
+    "fr": "Taktouka, poivrons grillés et tomates",
+    "en": "Taktouka, grilled pepper and tomato salad"
+  },
+  "meal_type": "salad",
+  "servings": 4,
+  "times": { "prep_min": 20, "cook_min": 35 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j2-sonde-v1", "date": "2026-08-28" },
+  "tags": ["salade-cuite", "poivron", "vegetarien", "mezze"],
+  "ingredients": [
+    { "raw": "4 poivrons verts", "qty": 4, "unit": "piece", "item": "poivron vert" },
+    { "raw": "5 tomates mûres, pelées et concassées", "qty": 5, "unit": "piece", "item": "tomate", "prep": "pelée et concassée" },
+    { "raw": "3 gousses d'ail, écrasées", "qty": 3, "unit": "piece", "item": "ail", "prep": "écrasé" },
+    { "raw": "1 c. à c. de paprika", "qty": 1, "unit": "tsp", "item": "paprika" },
+    { "raw": "1/2 c. à c. de cumin moulu", "qty": 0.5, "unit": "tsp", "item": "cumin moulu" },
+    { "raw": "4 c. à s. d'huile d'olive", "qty": 4, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Griller les poivrons entiers sous le gril ou à la flamme jusqu'à ce que la peau noircisse de tous côtés.", "en": "Char the whole peppers under the grill or over a flame until the skin blackens all over." },
+    { "fr": "Les enfermer dix minutes dans un saladier couvert : la vapeur décolle la peau toute seule.", "en": "Shut them in a covered bowl for ten minutes: the steam lifts the skin on its own." },
+    { "fr": "Peler, épépiner et couper les poivrons en lanières.", "en": "Peel, seed and cut the peppers into strips." },
+    { "fr": "Faire revenir l'ail dans l'huile, ajouter les tomates, le paprika et le cumin, cuire vingt minutes à découvert.", "en": "Soften the garlic in the oil, add the tomatoes, paprika and cumin and cook uncovered for twenty minutes." },
+    { "fr": "Ajouter les poivrons et poursuivre dix minutes, jusqu'à ce que le mélange ne rende plus d'eau.", "en": "Add the peppers and continue for ten minutes, until the mixture stops giving off water." },
+    { "fr": "Saler, parsemer de persil, servir tiède avec du pain.", "en": "Season, scatter with parsley and serve warm with bread." }
+  ],
+  "notes": [
+    { "fr": "Les poivrons verts allongés, à peau fine, grillent mieux que les gros poivrons carrés.", "en": "Long thin-skinned green peppers char better than large blocky ones." }
+  ]
+}

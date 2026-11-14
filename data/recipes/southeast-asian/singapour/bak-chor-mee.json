@@ -1,0 +1,42 @@
+{
+  "slug": "bak-chor-mee",
+  "cuisine": "southeast-asian",
+  "country": "singapour",
+  "origin": "Singapour",
+  "native_name": "肉脞面",
+  "title": {
+    "fr": "Bak chor mee, nouilles au porc haché et vinaigre",
+    "en": "Bak chor mee, minced pork noodles with vinegar"
+  },
+  "meal_type": "main",
+  "servings": 4,
+  "times": { "prep_min": 30, "cook_min": 30 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["hawker", "vinaigre", "porc", "teochew"],
+  "ingredients": [
+    { "raw": "400 g de nouilles de blé fines", "qty": 400, "unit": "g", "item": "nouilles de blé" },
+    { "raw": "400 g de porc haché", "qty": 400, "unit": "g", "item": "porc haché" },
+    { "raw": "150 g de foie de porc, en tranches", "qty": 150, "unit": "g", "item": "foie de veau", "prep": "en tranches", "optional": true },
+    { "raw": "100 g de poisson séché, frit", "qty": 100, "unit": "g", "item": "shutki", "prep": "frit" },
+    { "raw": "150 g de champignons shiitake, en lamelles", "qty": 150, "unit": "g", "item": "shiitake", "prep": "en lamelles" },
+    { "raw": "6 c. à s. de vinaigre de riz", "qty": 6, "unit": "tbsp", "item": "vinaigre de riz", "group": "sauce" },
+    { "raw": "4 c. à s. de sauce soja claire", "qty": 4, "unit": "tbsp", "item": "sauce soja claire", "group": "sauce" },
+    { "raw": "3 c. à s. de sambal oelek", "qty": 3, "unit": "tbsp", "item": "sambal oelek", "group": "sauce" },
+    { "raw": "2 c. à s. de saindoux", "qty": 2, "unit": "tbsp", "item": "saindoux", "group": "sauce" },
+    { "raw": "1 l de bouillon de volaille", "qty": 1, "unit": "l", "item": "bouillon volaille" },
+    { "raw": "6 oignons nouveaux, ciselés", "qty": 6, "unit": "piece", "item": "oignon nouveau", "prep": "ciselé" },
+    { "raw": "1 laitue, en feuilles", "qty": 1, "unit": "piece", "item": "laitue" },
+    { "raw": "sel et poivre blanc", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre blanc", "qty": null, "unit": null, "item": "poivre blanc" }
+  ],
+  "steps": [
+    { "fr": "Le VINAIGRE est ce qui fait le bak chor mee : il doit dominer, franchement, dès la première bouchée.", "en": "VINEGAR is what makes bak chor mee: it must dominate, frankly, from the first mouthful." },
+    { "fr": "Frire le poisson séché jusqu'à ce qu'il soit très croustillant, et le réserver.", "en": "Fry the dried fish until very crisp, and set it aside." },
+    { "fr": "Mélanger la sauce au FOND du bol : vinaigre, sauce soja, sambal et saindoux fondu.", "en": "Mix the sauce in the BOTTOM of the bowl: vinegar, soy, sambal and melted lard." },
+    { "fr": "Pocher le porc haché et le foie dans le bouillon, une minute chacun, séparément.", "en": "Poach the minced pork and liver in the broth, a minute each, separately." },
+    { "fr": "Cuire les nouilles TRENTE SECONDES, les rincer à l'eau froide, puis les replonger cinq secondes.", "en": "Cook the noodles for THIRTY SECONDS, rinse them cold, then dip them back in for five seconds." },
+    { "fr": "Les jeter sur la sauce et mélanger vigoureusement à table, avec le poisson frit par-dessus.", "en": "Toss them onto the sauce and mix vigorously at the table, with the fried fish on top." }
+  ]
+}

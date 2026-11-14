@@ -1,0 +1,41 @@
+{
+  "slug": "speculaas",
+  "cuisine": "western-european",
+  "country": "pays-bas",
+  "origin": "Pays-Bas",
+  "native_name": "Speculaas",
+  "title": {
+    "fr": "Speculaas de la Saint-Nicolas",
+    "en": "Sinterklaas speculaas"
+  },
+  "meal_type": "dessert",
+  "servings": 12,
+  "times": { "prep_min": 35, "cook_min": 18 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["saint-nicolas", "epices", "biscuit", "decembre"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé" },
+    { "raw": "300 g de cassonade brune", "qty": 300, "unit": "g", "item": "sucre roux" },
+    { "raw": "250 g de beurre, mou", "qty": 250, "unit": "g", "item": "beurre", "prep": "mou" },
+    { "raw": "5 cl de lait entier", "qty": 5, "unit": "cl", "item": "lait entier" },
+    { "raw": "3 c. à c. de cannelle moulue", "qty": 3, "unit": "tsp", "item": "cannelle" },
+    { "raw": "1 c. à c. de muscade râpée", "qty": 1, "unit": "tsp", "item": "muscade", "prep": "râpée" },
+    { "raw": "1 c. à c. de gingembre moulu", "qty": 1, "unit": "tsp", "item": "gingembre moulu" },
+    { "raw": "1/2 c. à c. de clou de girofle moulu", "qty": 0.5, "unit": "tsp", "item": "clou de girofle", "prep": "moulu" },
+    { "raw": "1/2 c. à c. de cardamome moulue", "qty": 0.5, "unit": "tsp", "item": "cardamome", "prep": "moulue" },
+    { "raw": "1/2 c. à c. de poivre blanc", "qty": 0.5, "unit": "tsp", "item": "poivre blanc" },
+    { "raw": "1 c. à c. de bicarbonate de soude", "qty": 1, "unit": "tsp", "item": "bicarbonate de soude" },
+    { "raw": "100 g d'amandes effilées", "qty": 100, "unit": "g", "item": "amande effilée", "optional": true },
+    { "raw": "1 pincée de sel", "qty": 1, "unit": "pinch", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le mélange speculaaskruiden est ce qui définit le biscuit : SIX épices, dont du poivre blanc.", "en": "The speculaaskruiden blend defines this biscuit: SIX spices, including white pepper." },
+    { "fr": "Le poivre blanc surprend, mais il porte les autres épices et donne la longueur en bouche.", "en": "The white pepper surprises, but it carries the other spices and gives the long finish." },
+    { "fr": "Faire reposer la pâte VINGT-QUATRE HEURES : les épices ont besoin de ce temps pour se fondre.", "en": "Rest the dough for TWENTY-FOUR HOURS: the spices need that time to marry." },
+    { "fr": "Presser la pâte dans un moule en bois sculpté, ou l'abaisser et la découper à l'emporte-pièce.", "en": "Press the dough into a carved wooden mould, or roll it and cut with a cutter." },
+    { "fr": "Fariner généreusement le moule avant : sans farine, la pâte y reste collée.", "en": "Flour the mould generously first: without flour, the dough sticks fast." },
+    { "fr": "Cuire dix-huit minutes à 170 °C : ils doivent être durs et secs, jamais moelleux.", "en": "Bake for eighteen minutes at 170°C: they must be hard and dry, never soft." }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "rogan-josh",
+  "cuisine": "south-asian",
+  "country": "inde",
+  "origin": "Inde",
+  "native_name": "Rogan josh",
+  "title": {
+    "fr": "Rogan josh, agneau cachemiri au piment doux",
+    "en": "Rogan josh, Kashmiri lamb in mild chilli"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 110 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["cachemire", "agneau", "piment-kashmiri", "fete"],
+  "ingredients": [
+    { "raw": "1,2 kg d'épaule d'agneau, en gros cubes", "qty": 1200, "unit": "g", "item": "épaule d'agneau", "prep": "en gros cubes" },
+    { "raw": "3 c. à s. de piment kashmiri", "qty": 3, "unit": "tbsp", "item": "piment kashmiri" },
+    { "raw": "30 cl de yaourt", "qty": 30, "unit": "cl", "item": "yaourt" },
+    { "raw": "2 c. à c. de gingembre moulu", "qty": 2, "unit": "tsp", "item": "gingembre moulu" },
+    { "raw": "1 c. à c. de fenouil en poudre", "qty": 1, "unit": "tsp", "item": "graine de fenouil", "prep": "moulue" },
+    { "raw": "4 cardamomes noires", "qty": 4, "unit": "piece", "item": "cardamome noire" },
+    { "raw": "6 gousses de cardamome", "qty": 6, "unit": "piece", "item": "cardamome" },
+    { "raw": "1 bâton de cannelle", "qty": 1, "unit": "piece", "item": "cannelle" },
+    { "raw": "4 clous de girofle", "qty": 4, "unit": "piece", "item": "clou de girofle" },
+    { "raw": "1 pincée d'asafoetida", "qty": 1, "unit": "pinch", "item": "asafoetida" },
+    { "raw": "120 g de ghee", "qty": 120, "unit": "g", "item": "ghee" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le rogan josh cachemiri authentique ne contient NI OIGNON NI AIL : l'asafoetida les remplace.", "en": "Authentic Kashmiri rogan josh contains NEITHER ONION NOR GARLIC: asafoetida stands in for them." },
+    { "fr": "Chauffer le ghee, y jeter l'asafoetida et les épices entières, puis la viande, et la saisir.", "en": "Heat the ghee, drop in the asafoetida and whole spices, then the meat, and sear it." },
+    { "fr": "Délayer le piment kashmiri dans un peu d'eau et l'ajouter : sa couleur est intense, sa force très modérée.", "en": "Slake the Kashmiri chilli in a little water and add it: its colour is intense, its heat very mild." },
+    { "fr": "Remplacer par un piment ordinaire donne un plat rouge ET brûlant, ce qu'il ne doit pas être.", "en": "Substituting ordinary chilli gives a dish that is red AND burning, which it should not be." },
+    { "fr": "Ajouter le yaourt battu CUILLÈRE PAR CUILLÈRE, en remuant, pour qu'il ne tranche pas.", "en": "Add the whisked yoghurt SPOON BY SPOON, stirring, so it does not split." },
+    { "fr": "Couvrir et cuire une heure et demie à feu très doux, jusqu'à ce que l'huile rouge remonte.", "en": "Cover and cook for an hour and a half over very low heat, until the red oil rises." }
+  ]
+}

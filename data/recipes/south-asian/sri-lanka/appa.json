@@ -1,0 +1,36 @@
+{
+  "slug": "appa",
+  "cuisine": "south-asian",
+  "country": "sri-lanka",
+  "origin": "Sri Lanka",
+  "native_name": "Appa",
+  "title": {
+    "fr": "Appa, crêpes en bol au lait de coco fermenté",
+    "en": "Appa, bowl-shaped fermented coconut hoppers"
+  },
+  "meal_type": "bread",
+  "servings": 6,
+  "times": { "prep_min": 25, "cook_min": 30 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["petit-dejeuner", "fermentation", "coco", "poele"],
+  "ingredients": [
+    { "raw": "400 g de farine de riz", "qty": 400, "unit": "g", "item": "farine de riz" },
+    { "raw": "40 cl de lait de coco", "qty": 40, "unit": "cl", "item": "lait de coco" },
+    { "raw": "1 c. à c. de levure boulangère sèche", "qty": 1, "unit": "tsp", "item": "levure boulangère" },
+    { "raw": "2 c. à s. de sucre", "qty": 2, "unit": "tbsp", "item": "sucre" },
+    { "raw": "20 cl d'eau tiède", "qty": 20, "unit": "cl", "item": "eau" },
+    { "raw": "6 œufs", "qty": 6, "unit": "piece", "item": "oeuf", "optional": true },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" },
+    { "raw": "2 c. à s. d'huile de coco", "qty": 2, "unit": "tbsp", "item": "huile de coco" }
+  ],
+  "steps": [
+    { "fr": "Fouetter farine de riz, levure, sucre et eau tiède en une pâte très fluide.", "en": "Whisk the rice flour, yeast, sugar and warm water into a very thin batter." },
+    { "fr": "Laisser fermenter HUIT HEURES : la pâte doit doubler et sentir franchement l'aigre.", "en": "Ferment for EIGHT HOURS: the batter must double and smell distinctly sour." },
+    { "fr": "Ajouter le lait de coco et le sel juste avant de cuire, jamais avant la fermentation.", "en": "Add the coconut milk and salt just before cooking, never before fermenting." },
+    { "fr": "Chauffer une petite poêle bombée huilée, verser une louche et la FAIRE TOURNER pour tapisser les bords.", "en": "Heat a small oiled bowl-shaped pan, pour in a ladle and SWIRL it to coat the sides." },
+    { "fr": "Ce tour de poignet crée le bol : bords fins et croustillants, centre épais et moelleux.", "en": "That flick of the wrist creates the bowl: thin crisp edges, a thick soft centre." },
+    { "fr": "Casser un œuf au centre si l'on veut, couvrir, et cuire trois minutes sans retourner.", "en": "Crack an egg into the centre if you like, cover, and cook for three minutes without turning." }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "melanzane-parmigiana",
+  "cuisine": "mediterranean",
+  "country": "italie",
+  "origin": "Italie",
+  "native_name": "Melanzane alla parmigiana",
+  "title": {
+    "fr": "Aubergines à la parmesane",
+    "en": "Aubergine parmigiana"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 45, "cook_min": 60 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["sud", "aubergine", "gratin", "vegetarien"],
+  "ingredients": [
+    { "raw": "1,5 kg d'aubergines, en tranches", "qty": 1500, "unit": "g", "item": "aubergine", "prep": "en tranches" },
+    { "raw": "800 g de tomate pelée en conserve", "qty": 800, "unit": "g", "item": "tomate pelée en conserve" },
+    { "raw": "400 g de mozzarella", "qty": 400, "unit": "g", "item": "mozzarella" },
+    { "raw": "150 g de parmesan, râpé", "qty": 150, "unit": "g", "item": "parmesan", "prep": "râpé" },
+    { "raw": "3 gousses d'ail", "qty": 3, "unit": "piece", "item": "ail" },
+    { "raw": "1 bouquet de basilic", "qty": 1, "unit": "bunch", "item": "basilic" },
+    { "raw": "50 cl d'huile d'olive pour la friture", "qty": 50, "unit": "cl", "item": "huile d'olive" },
+    { "raw": "3 c. à s. de gros sel", "qty": 3, "unit": "tbsp", "item": "gros sel" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Saler les tranches d'aubergine et les faire dégorger UNE HEURE, sous un poids.", "en": "Salt the aubergine slices and let them drain for AN HOUR, under a weight." },
+    { "fr": "Les rincer et les SÉCHER : mouillées, elles boivent l'huile et le gratin devient gras.", "en": "Rinse and DRY them: wet, they drink the oil and the gratin turns greasy." },
+    { "fr": "Les frire, jamais griller : la friture est ce qui donne le fondant de la parmigiana.", "en": "Fry them, never grill: frying is what gives parmigiana its melting texture." },
+    { "fr": "Faire une sauce tomate simple : ail, tomates écrasées, sel, trente minutes.", "en": "Make a plain tomato sauce: garlic, crushed tomatoes, salt, thirty minutes." },
+    { "fr": "Égoutter la mozzarella longuement, sinon elle rend son eau et le plat baigne.", "en": "Drain the mozzarella thoroughly, or it weeps and the dish swims." },
+    { "fr": "Monter en couches, cuire une heure à 180 °C, et laisser REPOSER trente minutes avant de servir.", "en": "Layer it up, bake for an hour at 180°C, and REST it for thirty minutes before serving." }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "slug": "maamoul",
+  "cuisine": "levantine",
+  "country": "liban",
+  "origin": "Liban",
+  "native_name": "Maamoul",
+  "title": {
+    "fr": "Maamoul, sablés de semoule fourrés aux dattes",
+    "en": "Maamoul, semolina cookies filled with dates"
+  },
+  "meal_type": "dessert",
+  "servings": 12,
+  "times": { "prep_min": 60, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["fete", "datte", "semoule", "aid"],
+  "ingredients": [
+    { "raw": "400 g de semoule fine", "qty": 400, "unit": "g", "item": "semoule fine", "group": "pâte" },
+    { "raw": "200 g de semoule moyenne", "qty": 200, "unit": "g", "item": "semoule moyenne", "group": "pâte" },
+    { "raw": "250 g de beurre, fondu", "qty": 250, "unit": "g", "item": "beurre", "prep": "fondu", "group": "pâte" },
+    { "raw": "3 c. à s. d'eau de fleur d'oranger", "qty": 3, "unit": "tbsp", "item": "eau de fleur d'oranger", "group": "pâte" },
+    { "raw": "2 c. à s. d'eau de rose", "qty": 2, "unit": "tbsp", "item": "eau de rose", "group": "pâte" },
+    { "raw": "1 c. à c. de levure boulangère sèche", "qty": 1, "unit": "tsp", "item": "levure boulangère", "group": "pâte" },
+    { "raw": "400 g de pâte de dattes", "qty": 400, "unit": "g", "item": "datte", "prep": "dénoyautée et mixée", "group": "farce" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle", "group": "farce" },
+    { "raw": "1 c. à s. d'huile neutre", "qty": 1, "unit": "tbsp", "item": "huile neutre", "group": "farce" },
+    { "raw": "3 c. à s. de sucre glace, pour la finition", "qty": 3, "unit": "tbsp", "item": "sucre glace", "group": "finition" }
+  ],
+  "steps": [
+    { "fr": "Mélanger les deux semoules au beurre fondu et laisser reposer UNE NUIT ENTIÈRE.", "en": "Mix both semolinas with the melted butter and rest them OVERNIGHT." },
+    { "fr": "Ce repos long est ce qui donne au maamoul sa texture fondante : sauté, il reste sableux et sec.", "en": "That long rest is what gives maamoul its melting texture: skipped, it stays sandy and dry." },
+    { "fr": "Le lendemain, ajouter les eaux de fleur d'oranger et de rose et la levure, sans pétrir.", "en": "The next day, add the orange blossom and rose waters and the yeast, without kneading." },
+    { "fr": "Travailler la pâte de dattes avec la cannelle et l'huile jusqu'à ce qu'elle soit souple.", "en": "Work the date paste with cinnamon and oil until pliable." },
+    { "fr": "Creuser une boule de pâte, y loger la farce, refermer, et presser dans un moule à maamoul.", "en": "Hollow a ball of dough, tuck in the filling, close it, and press it into a maamoul mould." },
+    { "fr": "Cuire 20 minutes à 170 °C : ils doivent rester blonds. Saupoudrer de sucre glace une fois froids.", "en": "Bake for 20 minutes at 170°C: they must stay pale. Dust with icing sugar once cold." }
+  ]
+}

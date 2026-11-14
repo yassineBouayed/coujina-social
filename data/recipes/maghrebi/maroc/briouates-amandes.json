@@ -1,0 +1,38 @@
+{
+  "slug": "briouates-amandes",
+  "cuisine": "maghrebi",
+  "country": "maroc",
+  "origin": "Maroc",
+  "native_name": "Briouates bel louz",
+  "title": {
+    "fr": "Briouates aux amandes et au miel",
+    "en": "Almond and honey briouats"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 40, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["brick", "friture", "miel", "fete"],
+  "ingredients": [
+    { "raw": "12 feuilles de brick", "qty": 12, "unit": "piece", "item": "feuille de brick" },
+    { "raw": "400 g de poudre d'amande", "qty": 400, "unit": "g", "item": "poudre d'amande", "group": "farce" },
+    { "raw": "150 g de sucre glace", "qty": 150, "unit": "g", "item": "sucre glace", "group": "farce" },
+    { "raw": "2 c. à s. d'eau de fleur d'oranger", "qty": 2, "unit": "tbsp", "item": "eau de fleur d'oranger", "group": "farce" },
+    { "raw": "1 c. à c. de cannelle moulue", "qty": 1, "unit": "tsp", "item": "cannelle", "group": "farce" },
+    { "raw": "40 g de beurre fondu", "qty": 40, "unit": "g", "item": "beurre", "prep": "fondu", "group": "farce" },
+    { "raw": "1 c. à s. de farine délayée dans un peu d'eau", "qty": 1, "unit": "tbsp", "item": "farine de blé", "prep": "délayée", "group": "montage" },
+    { "raw": "500 g de miel", "qty": 500, "unit": "g", "item": "miel", "group": "trempage" },
+    { "raw": "1 l d'huile de tournesol pour la friture", "qty": 1, "unit": "l", "item": "huile de tournesol", "group": "friture" },
+    { "raw": "2 c. à s. de graines de sésame, pour la finition", "qty": 2, "unit": "tbsp", "item": "sésame", "group": "finition" }
+  ],
+  "steps": [
+    { "fr": "Mélanger poudre d'amande, sucre glace, cannelle, beurre fondu et eau de fleur d'oranger en une pâte qui tient.", "en": "Work the ground almonds, icing sugar, cinnamon, melted butter and orange blossom water into a paste that holds." },
+    { "fr": "Couper les feuilles de brick en bandes et déposer un boudin de farce en haut de chacune.", "en": "Cut the brick sheets into strips and set a rope of filling at the top of each." },
+    { "fr": "Plier en triangles serrés, en collant le dernier repli à la farine délayée.", "en": "Fold into tight triangles, sealing the last flap with the flour paste." },
+    { "fr": "Frire à 170 °C jusqu'à ce qu'elles soient dorées, en les retournant une fois.", "en": "Fry at 170°C until golden, turning once." },
+    { "fr": "Les tremper brûlantes dans le miel chaud, trois minutes, puis les sortir avec une écumoire.", "en": "Dip them scalding into warm honey for three minutes, then lift out with a slotted spoon." },
+    { "fr": "Égoutter sur grille et parsemer de sésame avant que le miel fige.", "en": "Drain on a rack and scatter with sesame before the honey sets." }
+  ]
+}

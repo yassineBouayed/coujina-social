@@ -1,0 +1,43 @@
+{
+  "slug": "manti",
+  "cuisine": "middle-eastern",
+  "country": "turquie",
+  "origin": "Turquie",
+  "native_name": "Mantı",
+  "title": {
+    "fr": "Mantı, raviolis minuscules au yaourt à l'ail",
+    "en": "Manti, tiny dumplings with garlic yoghurt"
+  },
+  "meal_type": "main",
+  "servings": 6,
+  "times": { "prep_min": 120, "cook_min": 20 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["kayseri", "patience", "yaourt", "fete"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé", "group": "pâte" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf", "group": "pâte" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel", "group": "pâte" },
+    { "raw": "15 cl d'eau", "qty": 15, "unit": "cl", "item": "eau", "group": "pâte" },
+    { "raw": "300 g d'agneau haché", "qty": 300, "unit": "g", "item": "agneau haché", "group": "farce" },
+    { "raw": "1 oignon, râpé et pressé", "qty": 1, "unit": "piece", "item": "oignon", "prep": "râpé et pressé", "group": "farce" },
+    { "raw": "1/2 bouquet de persil plat, ciselé", "qty": 0.5, "unit": "bunch", "item": "persil plat", "prep": "ciselé", "group": "farce" },
+    { "raw": "60 cl de yaourt", "qty": 60, "unit": "cl", "item": "yaourt", "group": "sauce" },
+    { "raw": "5 gousses d'ail, écrasées", "qty": 5, "unit": "piece", "item": "ail", "prep": "écrasé", "group": "sauce" },
+    { "raw": "80 g de beurre", "qty": 80, "unit": "g", "item": "beurre", "group": "finition" },
+    { "raw": "1 c. à s. de piment d'Alep", "qty": 1, "unit": "tbsp", "item": "piment d'Alep", "group": "finition" },
+    { "raw": "1 c. à s. de menthe séchée", "qty": 1, "unit": "tbsp", "item": "menthe séchée", "group": "finition" },
+    { "raw": "1 c. à s. de concentré de tomate", "qty": 1, "unit": "tbsp", "item": "concentré de tomate", "group": "finition" },
+    { "raw": "sel et poivre noir", "qty": null, "unit": null, "item": "sel" },
+    { "raw": "poivre noir", "qty": null, "unit": null, "item": "poivre noir" }
+  ],
+  "steps": [
+    { "fr": "Pétrir une pâte ferme et la laisser reposer une heure sous un linge.", "en": "Knead a firm dough and rest it for an hour under a cloth." },
+    { "fr": "L'étaler très finement et la découper en carrés de DEUX centimètres, pas plus.", "en": "Roll it very thin and cut it into TWO-centimetre squares, no larger." },
+    { "fr": "La taille minuscule est le point d'honneur du mantı : à Kayseri, on compte combien en tiennent dans une cuillère.", "en": "The tiny size is the point of pride in manti: in Kayseri they count how many fit on a spoon." },
+    { "fr": "Déposer une pointe de farce au centre et pincer les quatre coins ensemble, en aumônière.", "en": "Place a speck of filling in the centre and pinch the four corners together, into a purse." },
+    { "fr": "Pocher cinq minutes à l'eau salée frémissante, sans bouillir fort.", "en": "Poach for five minutes in simmering salted water, without a hard boil." },
+    { "fr": "Servir sous le yaourt à l'ail, arrosé de beurre au piment, au concentré et à la menthe.", "en": "Serve under garlic yoghurt, drizzled with chilli, tomato and mint butter." }
+  ]
+}

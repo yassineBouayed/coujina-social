@@ -1,0 +1,36 @@
+{
+  "slug": "kroeung",
+  "cuisine": "southeast-asian",
+  "country": "cambodge",
+  "origin": "Cambodge",
+  "native_name": "គ្រឿង",
+  "title": {
+    "fr": "Kroeung, pâte d'aromates khmère",
+    "en": "Kroeung, Khmer aromatic paste"
+  },
+  "meal_type": "side",
+  "servings": 10,
+  "times": { "prep_min": 30, "cook_min": 0 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["base", "citronnelle", "curcuma", "mortier"],
+  "ingredients": [
+    { "raw": "8 tiges de citronnelle, très finement émincées", "qty": 8, "unit": "piece", "item": "citronnelle", "prep": "très finement émincée" },
+    { "raw": "1 morceau de curcuma frais", "qty": 1, "unit": "piece", "item": "curcuma frais" },
+    { "raw": "1 morceau de galanga", "qty": 1, "unit": "piece", "item": "galanga" },
+    { "raw": "8 feuilles de combava, en julienne", "qty": 8, "unit": "piece", "item": "feuille de combava", "prep": "en julienne" },
+    { "raw": "1 tête d'ail", "qty": 10, "unit": "piece", "item": "ail" },
+    { "raw": "8 échalotes", "qty": 8, "unit": "piece", "item": "échalote" },
+    { "raw": "1 c. à s. de pâte de crevette", "qty": 1, "unit": "tbsp", "item": "pâte de crevette" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Le kroeung est à la cuisine khmère ce que le mirepoix est à la française : la base de presque tout.", "en": "Kroeung is to Khmer cooking what mirepoix is to French: the base of almost everything." },
+    { "fr": "Émincer la citronnelle AUSSI FIN QUE POSSIBLE avant de piler : ses fibres ne se broient jamais.", "en": "Slice the lemongrass AS FINE AS YOU CAN before pounding: its fibres never break down." },
+    { "fr": "Piler au mortier dans l'ordre : citronnelle d'abord, puis galanga, curcuma, combava, ail, échalote.", "en": "Pound in a mortar in order: lemongrass first, then galangal, turmeric, lime leaf, garlic, shallot." },
+    { "fr": "Cet ordre n'est pas arbitraire : le plus fibreux se pile en premier, le plus humide en dernier.", "en": "That order is not arbitrary: the most fibrous is pounded first, the wettest last." },
+    { "fr": "Au mixeur, ajouter une cuillère d'eau et mixer longuement : la texture sera moins fine.", "en": "In a blender, add a spoon of water and blend at length: the texture will be less fine." },
+    { "fr": "Se garde une semaine au frais sous une couche d'huile, ou se congèle en portions.", "en": "Keeps a week in the fridge under a film of oil, or freezes in portions." }
+  ]
+}

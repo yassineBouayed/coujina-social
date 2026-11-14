@@ -1,0 +1,33 @@
+{
+  "slug": "couque-de-dinant",
+  "cuisine": "western-european",
+  "country": "belgique",
+  "origin": "Belgique",
+  "native_name": "Couque de Dinant",
+  "title": {
+    "fr": "Couque de Dinant au miel",
+    "en": "Couque de Dinant honey biscuit"
+  },
+  "meal_type": "dessert",
+  "servings": 8,
+  "times": { "prep_min": 30, "cook_min": 20 },
+  "difficulty": "medium",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["dinant", "miel", "biscuit", "tradition"],
+  "ingredients": [
+    { "raw": "500 g de farine de blé", "qty": 500, "unit": "g", "item": "farine de blé" },
+    { "raw": "500 g de miel", "qty": 500, "unit": "g", "item": "miel" }
+  ],
+  "steps": [
+    { "fr": "DEUX ingrédients, à parts égales : farine et miel. C'est la recette entière, et elle n'a pas changé.", "en": "TWO ingredients, in equal parts: flour and honey. That is the entire recipe, unchanged." },
+    { "fr": "Chauffer le miel à 40 °C, pas plus : trop chaud, il perd son parfum et la pâte brunit.", "en": "Warm the honey to 40°C, no more: hotter, it loses its scent and the dough darkens." },
+    { "fr": "Pétrir LONGUEMENT, vingt minutes : la pâte est très dure et le pétrissage est physique.", "en": "Knead for a LONG time, twenty minutes: the dough is very stiff and kneading is physical." },
+    { "fr": "La laisser reposer UNE SEMAINE au frais, enveloppée : c'est la tradition dinantaise.", "en": "Rest it for A WEEK in a cool place, wrapped: that is the Dinant tradition." },
+    { "fr": "La presser dans des moules en bois sculptés, en tassant fort dans chaque relief.", "en": "Press it into carved wooden moulds, packing firmly into every detail." },
+    { "fr": "Cuire vingt minutes à 300 °C : la couque doit être DURE, elle se suce, elle ne se croque pas.", "en": "Bake for twenty minutes at 300°C: a couque must be HARD, it is sucked, not bitten." }
+  ],
+  "notes": [
+    { "fr": "Ce biscuit est extrêmement dur : le casser au marteau et le laisser fondre en bouche.", "en": "This biscuit is extremely hard: break it with a hammer and let it soften in the mouth." }
+  ]
+}

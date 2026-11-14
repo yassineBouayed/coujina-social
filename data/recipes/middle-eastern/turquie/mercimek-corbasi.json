@@ -1,0 +1,40 @@
+{
+  "slug": "mercimek-corbasi",
+  "cuisine": "middle-eastern",
+  "country": "turquie",
+  "origin": "Turquie",
+  "native_name": "Mercimek çorbası",
+  "title": {
+    "fr": "Soupe de lentilles corail au beurre pimenté",
+    "en": "Red lentil soup with chilli butter"
+  },
+  "meal_type": "soup",
+  "servings": 6,
+  "times": { "prep_min": 15, "cook_min": 40 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["quotidien", "lentille", "hiver", "menthe"],
+  "ingredients": [
+    { "raw": "350 g de lentilles corail", "qty": 350, "unit": "g", "item": "lentille corail" },
+    { "raw": "2 oignons, hachés", "qty": 2, "unit": "piece", "item": "oignon", "prep": "haché" },
+    { "raw": "1 carotte, en dés", "qty": 1, "unit": "piece", "item": "carotte", "prep": "en dés" },
+    { "raw": "1 pomme de terre, en dés", "qty": 1, "unit": "piece", "item": "pomme de terre", "prep": "en dés" },
+    { "raw": "2 c. à s. de concentré de poivron", "qty": 2, "unit": "tbsp", "item": "concentré de poivron" },
+    { "raw": "1 c. à c. de cumin moulu", "qty": 1, "unit": "tsp", "item": "cumin" },
+    { "raw": "60 g de beurre", "qty": 60, "unit": "g", "item": "beurre", "group": "beurre pimenté" },
+    { "raw": "1 c. à s. de piment d'Alep", "qty": 1, "unit": "tbsp", "item": "piment d'Alep", "group": "beurre pimenté" },
+    { "raw": "1 c. à s. de menthe séchée", "qty": 1, "unit": "tbsp", "item": "menthe séchée", "group": "beurre pimenté" },
+    { "raw": "2 citrons, en quartiers", "qty": 2, "unit": "piece", "item": "citron", "group": "service" },
+    { "raw": "3 c. à s. d'huile d'olive", "qty": 3, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "sel", "qty": null, "unit": null, "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Faire revenir les oignons dans l'huile, ajouter le concentré de poivron et le cuire deux minutes.", "en": "Fry the onions in the oil, add the pepper paste and cook it for two minutes." },
+    { "fr": "Ajouter les lentilles rincées, la carotte, la pomme de terre et 1,5 l d'eau.", "en": "Add the rinsed lentils, carrot, potato and 1.5 litres of water." },
+    { "fr": "Cuire trente minutes, jusqu'à ce que tout se défasse complètement.", "en": "Cook for thirty minutes, until everything collapses." },
+    { "fr": "Mixer très finement : la soupe turque est parfaitement lisse, jamais rustique.", "en": "Blend very fine: Turkish soup is perfectly smooth, never rustic." },
+    { "fr": "Faire fondre le beurre et y jeter le piment d'Alep et la menthe séchée, hors du feu.", "en": "Melt the butter and drop in the Aleppo pepper and dried mint, off the heat." },
+    { "fr": "Verser ce beurre rouge sur chaque bol au moment de servir, avec un quartier de citron.", "en": "Pour that red butter over each bowl at the table, with a lemon wedge." }
+  ]
+}

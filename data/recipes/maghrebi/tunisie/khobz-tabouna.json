@@ -1,0 +1,36 @@
+{
+  "slug": "khobz-tabouna",
+  "cuisine": "maghrebi",
+  "country": "tunisie",
+  "origin": "Tunisie",
+  "native_name": "Khobz tabouna",
+  "title": {
+    "fr": "Khobz tabouna, pain de semoule au four",
+    "en": "Khobz tabouna, oven-baked semolina bread"
+  },
+  "meal_type": "bread",
+  "servings": 8,
+  "times": { "prep_min": 25, "cook_min": 25 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["pain", "semoule", "four", "quotidien"],
+  "ingredients": [
+    { "raw": "500 g de semoule moyenne", "qty": 500, "unit": "g", "item": "semoule moyenne" },
+    { "raw": "100 g de semoule fine", "qty": 100, "unit": "g", "item": "semoule fine" },
+    { "raw": "1 c. à s. de levure boulangère sèche", "qty": 1, "unit": "tbsp", "item": "levure boulangère" },
+    { "raw": "1,5 c. à c. de sel", "qty": 1.5, "unit": "tsp", "item": "sel" },
+    { "raw": "1 c. à c. de sucre", "qty": 1, "unit": "tsp", "item": "sucre" },
+    { "raw": "35 cl d'eau tiède", "qty": 35, "unit": "cl", "item": "eau" },
+    { "raw": "3 c. à s. d'huile d'olive", "qty": 3, "unit": "tbsp", "item": "huile d'olive" },
+    { "raw": "2 c. à s. de graines de sésame", "qty": 2, "unit": "tbsp", "item": "sésame", "optional": true }
+  ],
+  "steps": [
+    { "fr": "Pétrir les deux semoules avec la levure, le sel, le sucre, l'eau et l'huile quinze minutes.", "en": "Knead both semolinas with the yeast, salt, sugar, water and oil for fifteen minutes." },
+    { "fr": "La pâte de semoule demande un pétrissage plus long que la farine : elle passe du sableux au lisse d'un coup.", "en": "Semolina dough needs longer kneading than flour: it goes from sandy to smooth all at once." },
+    { "fr": "Laisser lever une heure et demie, jusqu'à ce que la pâte double.", "en": "Prove for an hour and a half, until doubled." },
+    { "fr": "Façonner deux disques épais de deux centimètres, les semouler et les parsemer de sésame.", "en": "Shape two discs two centimetres thick, dust them with semolina and scatter with sesame." },
+    { "fr": "Laisser lever encore quarante minutes, puis cuire 25 minutes à 230 °C avec un bol d'eau dans le four.", "en": "Prove for another forty minutes, then bake for 25 minutes at 230°C with a bowl of water in the oven." },
+    { "fr": "La croûte doit être épaisse et sonner sec. Laisser refroidir sur grille.", "en": "The crust should be thick and sound dry. Cool on a rack." }
+  ]
+}

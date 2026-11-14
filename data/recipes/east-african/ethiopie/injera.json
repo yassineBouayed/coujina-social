@@ -1,0 +1,34 @@
+{
+  "slug": "injera",
+  "cuisine": "east-african",
+  "country": "ethiopie",
+  "origin": "Éthiopie",
+  "native_name": "Injera",
+  "title": {
+    "fr": "Injera, galette de teff fermentée",
+    "en": "Injera, fermented teff flatbread"
+  },
+  "meal_type": "bread",
+  "servings": 6,
+  "times": { "prep_min": 20, "cook_min": 30 },
+  "difficulty": "hard",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["teff", "fermentation", "base", "quotidien"],
+  "ingredients": [
+    { "raw": "500 g de farine de teff", "qty": 500, "unit": "g", "item": "farine de teff" },
+    { "raw": "1,2 l d'eau", "qty": 1.2, "unit": "l", "item": "eau" },
+    { "raw": "1 c. à c. de sel", "qty": 1, "unit": "tsp", "item": "sel" }
+  ],
+  "steps": [
+    { "fr": "Mélanger la farine de teff et l'eau en une pâte très liquide, et couvrir d'un linge.", "en": "Whisk the teff flour and water into a very thin batter, and cover with a cloth." },
+    { "fr": "Laisser fermenter trois jours à température ambiante, sans rien ajouter : la levure sauvage du teff suffit.", "en": "Ferment for three days at room temperature, adding nothing: the wild yeast on the teff is enough." },
+    { "fr": "Une eau grise se sépare en surface chaque jour : la jeter, et remuer une fois.", "en": "A grey water separates on top each day: pour it off, and stir once." },
+    { "fr": "Le troisième jour, la pâte sent franchement l'aigre et bulle. Prélever un verre, le cuire en bouillie, et le remettre : c'est l'absit, qui donne les yeux.", "en": "On the third day the batter smells frankly sour and bubbles. Take a glassful, cook it to a paste, and stir it back in: this is absit, which gives the eyes." },
+    { "fr": "Verser en spirale sur une plaque très chaude et non graissée, du bord vers le centre, sans étaler.", "en": "Pour in a spiral onto a very hot, ungreased griddle, from the edge inwards, without spreading." },
+    { "fr": "Couvrir dès que la surface se couvre de trous, deux minutes, et ne cuire que d'un côté.", "en": "Cover as soon as the surface fills with holes, two minutes, and cook one side only." }
+  ],
+  "notes": [
+    { "fr": "Le teff pur donne une injera sombre et fragile. Beaucoup de familles coupent à la farine de blé ; c'est courant, mais ce n'est plus la même galette.", "en": "Pure teff gives a dark, fragile injera. Many households cut it with wheat flour; that is common, but it is no longer the same bread." }
+  ]
+}

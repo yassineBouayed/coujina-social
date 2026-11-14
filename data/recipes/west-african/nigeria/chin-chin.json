@@ -1,0 +1,37 @@
+{
+  "slug": "chin-chin",
+  "cuisine": "west-african",
+  "country": "nigeria",
+  "origin": "Nigeria",
+  "native_name": "Chin chin",
+  "title": {
+    "fr": "Chin chin, dés frits croustillants",
+    "en": "Chin chin, crunchy fried dough cubes"
+  },
+  "meal_type": "dessert",
+  "servings": 10,
+  "times": { "prep_min": 35, "cook_min": 30 },
+  "difficulty": "easy",
+  "status": "unverified",
+  "source": { "generator": "claude-opus-5", "prompt": "j11-monde-v1", "date": "2026-09-01" },
+  "tags": ["gouter", "friture", "conserve", "fete"],
+  "ingredients": [
+    { "raw": "600 g de farine de blé", "qty": 600, "unit": "g", "item": "farine de blé" },
+    { "raw": "150 g de sucre", "qty": 150, "unit": "g", "item": "sucre" },
+    { "raw": "120 g de beurre, ramolli", "qty": 120, "unit": "g", "item": "beurre", "prep": "ramolli" },
+    { "raw": "2 œufs", "qty": 2, "unit": "piece", "item": "oeuf" },
+    { "raw": "1 c. à c. de muscade râpée", "qty": 1, "unit": "tsp", "item": "muscade", "prep": "râpée" },
+    { "raw": "1 c. à c. de levure chimique", "qty": 1, "unit": "tsp", "item": "levure chimique" },
+    { "raw": "10 cl de lait", "qty": 10, "unit": "cl", "item": "lait" },
+    { "raw": "1/2 c. à c. de sel", "qty": 0.5, "unit": "tsp", "item": "sel" },
+    { "raw": "1 l d'huile neutre pour la friture", "qty": 1, "unit": "l", "item": "huile neutre" }
+  ],
+  "steps": [
+    { "fr": "Sabler la farine avec le beurre, puis ajouter sucre, muscade, levure et sel.", "en": "Rub the butter into the flour, then add the sugar, nutmeg, baking powder and salt." },
+    { "fr": "Lier avec les œufs et le lait, en une pâte ferme qui ne colle pas aux doigts.", "en": "Bind with the eggs and milk, into a firm dough that does not stick to the fingers." },
+    { "fr": "L'étaler à un demi-centimètre : plus épais, le chin chin reste mou au centre.", "en": "Roll it half a centimetre thick: any thicker and chin chin stays soft in the middle." },
+    { "fr": "Découper en petits carrés réguliers, tous de la même taille pour qu'ils cuisent ensemble.", "en": "Cut into small even squares, all the same size so they fry evenly." },
+    { "fr": "Frire à 160 °C, à feu modéré, dix minutes : c'est la cuisson lente qui rend croustillant.", "en": "Fry at 160°C over moderate heat for ten minutes: the slow fry is what makes it crunchy." },
+    { "fr": "Égoutter, laisser refroidir complètement, et conserver en boîte hermétique un mois.", "en": "Drain, cool completely, and keep in an airtight tin for a month." }
+  ]
+}
