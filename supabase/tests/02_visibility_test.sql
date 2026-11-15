@@ -30,7 +30,10 @@ begin
   if not exists (select 1 from recipes where id = 'd311b89b-5143-56e3-9090-f3d65f707025') then
     raise exception 'T-CONF-03 : Nadia devrait voir la Tatin réservée aux abonnés';
   end if;
-  if exists (select 1 from recipes where id = '7fe979fb-9be5-5747-b26e-88fb796989cd') then
+  -- Le gratin, lui, est rangé dans le livre « Famille Laurent » dont Nadia est
+  -- membre (T-FAM) : on vérifie sur les AUTRES recettes privées de Marie.
+  if exists (select 1 from recipes r where r.author_id = 'ed48de41-79b0-595b-a0cd-984366f827e6'
+               and r.visibility = 'private' and not in_my_family_book(r.id)) then
     raise exception 'T-CONF-01 : une abonnée voit une recette privée';
   end if;
 end $$;

@@ -18,6 +18,33 @@ begin
   end if;
 end $$;
 
+\echo '-- CGU, age, consentement aux interdits (RGPD art. 9)'
+do $$
+begin
+  begin
+    perform accept_terms(current_terms_version(), false);
+    raise exception 'T-LEG-02 : un compte de moins de 15 ans a été accepté';
+  exception when invalid_parameter_value then null;
+  end;
+  begin
+    perform accept_terms('2020-01-01', true);
+    raise exception 'T-LEG-01 : une ancienne version des CGU a été acceptée';
+  exception when invalid_parameter_value then null;
+  end;
+  perform accept_terms(current_terms_version(), true);
+  if (select terms_version from profiles where id = app_user_id()) <> current_terms_version() then
+    raise exception 'T-LEG-01 : acceptation des CGU non enregistrée';
+  end if;
+
+  -- Sans consentement, aucun interdit ne s'enregistre.
+  begin
+    perform profile_onboard(array['maghrebi'], array['pork']::dietary_flag[]);
+    raise exception 'T-LEG-03 : des interdits enregistrés sans consentement explicite';
+  exception when insufficient_privilege then null;
+  end;
+end $$;
+
+select give_diet_consent();
 select profile_onboard(array['maghrebi', 'east-asian'], array['pork', 'shellfish']::dietary_flag[]);
 
 do $$
@@ -61,6 +88,24 @@ begin
     raise exception 'T-PRO-03 : nom d''utilisateur invalide accepté';
   exception when check_violation then null;
   end;
+  -- Personne ne se nomme modérateur, ni ne s'invente un consentement.
+  begin
+    update profiles set is_moderator = true where id = app_user_id();
+    raise exception 'T-MOD-01 : un utilisateur s''est nommé modérateur';
+  exception when insufficient_privilege then null;
+  end;
+end $$;
+
+\echo '-- retirer son consentement efface les interdits'
+select give_diet_consent();
+select profile_set_preferences(array['maghrebi'], array['gluten']::dietary_flag[]);
+select withdraw_diet_consent();
+do $$
+begin
+  if cardinality(my_exclusions()) <> 0 then raise exception 'T-LEG-04 : interdits conservés après retrait du consentement'; end if;
+  if (select diet_consent_at from profiles where id = app_user_id()) is not null then
+    raise exception 'T-LEG-04 : consentement encore enregistré après retrait';
+  end if;
 end $$;
 
 rollback;

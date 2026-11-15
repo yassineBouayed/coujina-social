@@ -7,7 +7,7 @@ import { useSession } from '../../src/session';
 import { errorText, useStore } from '../../src/store';
 import { color, font } from '../../src/theme';
 import { DIET_PRESETS, FLAGS, type Flag } from '../../src/types';
-import { BackButton, Chip, PrimaryButton } from '../../src/ui/controls';
+import { BackButton, Chip, PrimaryButton, SecondaryButton } from '../../src/ui/controls';
 import { Note, Screen } from '../../src/ui/primitives';
 
 /**
@@ -28,11 +28,11 @@ export default function OnboardingDiet() {
   const toggle = (f: Flag) => setRules((r) => (r.includes(f) ? r.filter((x) => x !== f) : [...r, f]));
   const applyPreset = (flags: Flag[]) => setRules((r) => [...new Set([...r, ...flags])]);
 
-  const finish = async () => {
+  const finish = async (chosen: Flag[] = rules) => {
     if (!api) return;
     setSaving(true);
     try {
-      await api.onboard(picked, rules);
+      await api.onboard(picked, chosen);
       await refreshMe();
       bump();
       if (edit) {
@@ -59,6 +59,25 @@ export default function OnboardingDiet() {
       <Text style={s.title}>{t('onboarding.diet.title')}</Text>
       <Text style={s.sub}>{t('onboarding.diet.sub')}</Text>
 
+      {/* RGPD, art. 9 : ces choix peuvent révéler une religion ou une santé. On
+          explique d'abord, on demande un accord distinct, et « passer » reste
+          un vrai choix. Sans accord, la base refuse d'enregistrer un interdit. */}
+      {!me?.diet_consent ? (
+        <View style={s.consent}>
+          <Text style={s.consentTitle}>{t('consent.title')}</Text>
+          <Text style={s.consentBody}>{t('consent.body')}</Text>
+          <Text style={s.consentLink} onPress={() => router.push('/legal/privacy')}>{t('terms.privacy')} →</Text>
+          <PrimaryButton
+            label={t('consent.accept')}
+            onPress={() => {
+              void api?.giveDietConsent().then(refreshMe).catch((e) => toast(errorText(e, t, t('common.wentWrong'))));
+            }}
+            style={s.gap}
+          />
+          <SecondaryButton label={t('consent.skip')} busy={saving} onPress={() => void finish([])} style={s.gapSmall} />
+        </View>
+      ) : (
+      <>
       <Text style={s.label}>{t('onboarding.diet.presets')}</Text>
       <View style={s.chips}>
         {DIET_PRESETS.map((p) => (
@@ -82,15 +101,22 @@ export default function OnboardingDiet() {
       <PrimaryButton
         label={rules.length ? t('onboarding.finish') : t('onboarding.nothing')}
         busy={saving}
-        onPress={finish}
+        onPress={() => void finish()}
         style={s.cta}
       />
+      </>
+      )}
     </Screen>
   );
 }
 
 const s = StyleSheet.create({
   content: { paddingBottom: 40 },
+  consent: { padding: 16, borderRadius: 16, backgroundColor: color.sand, marginTop: 4 },
+  consentTitle: { fontFamily: font.semibold, fontSize: 15, color: color.ink },
+  consentBody: { fontFamily: font.regular, fontSize: 13.5, lineHeight: 20, color: color.inkSoft, marginTop: 6 },
+  consentLink: { fontFamily: font.semibold, fontSize: 13, color: color.plum, marginTop: 8 },
+  gapSmall: { marginTop: 8 },
   progress: { flexDirection: 'row', gap: 6, marginTop: 16 },
   segment: { flex: 1, height: 4, borderRadius: 2, backgroundColor: color.trackOff },
   on: { backgroundColor: color.plum },

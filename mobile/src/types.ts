@@ -22,7 +22,10 @@ export type Difficulty = 'easy' | 'medium' | 'hard';
 export const DIFFICULTIES: Difficulty[] = ['easy', 'medium', 'hard'];
 export type Period = 'day' | 'week' | 'month';
 export type FeedKind = 'all' | 'photo' | 'video';
-export type ReportReason = 'spam' | 'offensive' | 'copyright' | 'dangerous' | 'other';
+export type ReportReason = 'spam' | 'offensive' | 'copyright' | 'dangerous' | 'allergen_missing' | 'other';
+
+/** La version des CGU et de la politique de confidentialité en vigueur (même valeur qu'en SQL). */
+export const TERMS_VERSION = '2026-11-15';
 
 export type Person = {
   id: string;
@@ -43,8 +46,13 @@ export type RecipeCard = {
   difficulty: Difficulty;
   total_min: number;
   cover_url: string | null;
+  /** Crédit obligatoire d'une photo qui n'est pas de l'auteur (Wikimedia…). */
+  cover_credit: string | null;
+  cover_source_url: string | null;
   video_url: string | null;
   visibility: Visibility;
+  /** Motif d'un masquage par la modération, lu par l'auteur seul (DSA). */
+  moderation_reason: string | null;
   flags: Flag[];
   copies_count: number;
   created_at: string;
@@ -99,6 +107,14 @@ export type Profile = Person & {
 export type Me = Person & {
   bio: string;
   onboarded: boolean;
+  analytics_opt_out: boolean;
+  /** Version des CGU acceptée, null si jamais. */
+  terms_version: string | null;
+  /** Consentement explicite aux interdits alimentaires (RGPD art. 9). */
+  diet_consent: boolean;
+  is_premium: boolean;
+  is_moderator: boolean;
+  notify: { copies: boolean; follows: boolean; challenge: boolean };
   cuisines: string[];
   exclusions: Flag[];
 };
@@ -144,4 +160,85 @@ export interface Api {
   searchProfiles(query: string): Promise<Person[]>;
   upload(localUri: string, kind: 'photo' | 'video', mime: string | null): Promise<string>;
   deleteAccount(): Promise<void>;
+
+  // La mesure de la bêta : ouvertures, vues, et la question du prix.
+  track(name: EventName, recipeId?: string): Promise<void>;
+  setAnalyticsOptOut(optOut: boolean): Promise<void>;
+  priceSurvey(): Promise<{ due: boolean; price_cents: number }>;
+  answerPriceSurvey(answer: PriceAnswer, wants: string): Promise<void>;
+
+  // Le réseau encore vide : défi de la semaine, qui suivre, activité, invitation.
+  challenge(): Promise<Challenge | null>;
+  challengeEntries(): Promise<RecipeCard[]>;
+  joinChallenge(recipeId: string): Promise<void>;
+  whoToFollow(): Promise<Suggestion[]>;
+  activity(): Promise<Activity[]>;
+  activityUnread(): Promise<number>;
+  markActivitySeen(): Promise<void>;
+  profileByUsername(username: string): Promise<string | null>;
+
+  // Conformité : CGU et âge, consentement aux interdits, notifications.
+  acceptTerms(isOver15: boolean): Promise<void>;
+  giveDietConsent(): Promise<void>;
+  withdrawDietConsent(): Promise<void>;
+  setNotify(patch: Partial<Me['notify']>): Promise<void>;
+  registerPushToken(token: string, platform: string): Promise<void>;
+
+  // Modération (équipe seulement).
+  moderationQueue(): Promise<ModerationItem[]>;
+  hideRecipe(recipeId: string, reason: string): Promise<void>;
+  dismissReport(reportId: string): Promise<void>;
+  opsWeekly(): Promise<OpsWeek[]>;
+
+  // Le livre de famille (premium).
+  myFamilies(): Promise<Family[]>;
+  createFamily(name: string): Promise<string>;
+  joinFamily(code: string): Promise<string>;
+  leaveFamily(bookId: string): Promise<void>;
+  addToFamily(bookId: string, recipeId: string, note: string): Promise<void>;
+  familyRecipes(bookId: string): Promise<FamilyRecipe[]>;
 }
+
+export type ModerationItem = {
+  report_id: string;
+  reason: ReportReason;
+  details: string;
+  age_hours: number;
+  recipe_id: string | null;
+  recipe_title: string | null;
+  recipe_author: string | null;
+  profile_username: string | null;
+  reporter_username: string;
+};
+export type OpsWeek = {
+  week_start: string;
+  received: number;
+  resolved: number;
+  still_open: number;
+  median_hours: number | null;
+  within_24h: number;
+  hidden_recipes: number;
+};
+export type Family = {
+  id: string;
+  name: string;
+  invite_code: string | null;
+  is_owner: boolean;
+  members: number;
+  recipes: number;
+  owner_premium: boolean;
+};
+export type FamilyRecipe = { note: string; added_by_name: string; recipe: RecipeCard };
+
+export type EventName = 'app_open' | 'recipe_view' | 'video_play' | 'share_invite';
+export type PriceAnswer = 'yes' | 'maybe' | 'no';
+export type Challenge = { id: string; slug: string; title: string; description: string; cuisine: string | null };
+export type Suggestion = Person & { shared_cuisines: number; public_recipes: number };
+export type Activity = {
+  kind: 'follow' | 'copy' | 'copy_modified';
+  at: string;
+  actor: Person;
+  recipe_id: string | null;
+  recipe_title: string | null;
+  is_new: boolean;
+};

@@ -91,9 +91,22 @@ function imageMap() {
  * drapeaux (rattachement au référentiel, repris de l'ancien projet), son pays,
  * son image candidate et une date de publication étalée sur 90 jours.
  */
+const SHOWN = new Set(['ok', 'probable']);
+
+/** La photo de couverture et son crédit, ou rien. */
+function cover(slug, candidate, credits) {
+  const c = credits?.[slug];
+  if (!candidate || !c || !SHOWN.has(c.status)) {
+    return { cover_url: null, cover_credit: null, cover_license: null, cover_source_url: null, image_status: c?.status ?? null };
+  }
+  return { cover_url: c.url, cover_credit: c.credit, cover_license: c.license, cover_source_url: c.source, image_status: c.status };
+}
+
 export function loadBook() {
   const { index } = ingredientTerms();
   const images = imageMap();
+  const creditsFile = path.join(ROOT, 'data', 'images', 'credits.json');
+  const credits = fs.existsSync(creditsFile) ? JSON.parse(fs.readFileSync(creditsFile, 'utf8')) : null;
   const countryRows = countries();
   const byName = new Map(countryRows.map((c) => [c.name_fr.toLowerCase(), c.slug]));
   const random = rng(1039);
@@ -123,7 +136,9 @@ export function loadBook() {
       prep_min: r.times?.prep_min ?? null,
       cook_min: r.times?.cook_min ?? null,
       servings: r.servings ?? 4,
-      cover_url: images.get(r.title?.fr ?? '') ?? null,
+      // Seulement une photo dont la licence a été vérifiée et qui ressemble au
+      // plat (`npm run images:credits`) ; jamais sans son crédit.
+      ...cover(r.slug, images.get(r.title?.fr ?? '') ?? null, credits),
       flags: [...flags].sort(),
       days_ago: daysAgo,
       ingredients: (r.ingredients ?? []).map((l) => ({

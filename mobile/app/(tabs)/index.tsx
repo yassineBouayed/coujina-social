@@ -6,6 +6,7 @@ import { useI18n } from '../../src/i18n';
 import { useSession } from '../../src/session';
 import { color, font } from '../../src/theme';
 import type { FeedKind, RecipeCard } from '../../src/types';
+import { ChallengeBanner, PriceSurveyCard, WhoToFollow } from '../../src/ui/coldstart';
 import { DemoBanner, Empty, RecipeCardView, Segmented } from '../../src/ui/social';
 
 /** L'accueil : les recettes et vidéos choisies pour mes cuisines, sans mes interdits. */
@@ -77,6 +78,11 @@ export default function Home() {
           <DemoBanner />
           <Text style={s.title}>{t('home.hello', { name: me?.display_name?.split(' ')[0] || me?.username || '' })}</Text>
           <Text style={s.sub}>{t('home.sub')}</Text>
+          <View style={s.blocks}>
+            <PriceSurveyCard />
+            <ChallengeBanner />
+            <WhoToFollow />
+          </View>
           <Segmented
             style={s.filter}
             value={kind}
@@ -103,7 +109,8 @@ const s = StyleSheet.create({
   content: { paddingHorizontal: 18, paddingBottom: 30 },
   title: { fontFamily: font.display, fontSize: 27, lineHeight: 30, letterSpacing: -0.5, color: color.ink },
   sub: { fontFamily: font.regular, fontSize: 13.5, lineHeight: 19, color: color.mutedWarm, marginTop: 4 },
-  filter: { marginTop: 16, marginBottom: 16 },
+  blocks: { marginTop: 16 },
+  filter: { marginBottom: 16 },
   error: { fontFamily: font.medium, fontSize: 13, color: color.ember, marginBottom: 12 },
   footer: { marginVertical: 20 },
 });

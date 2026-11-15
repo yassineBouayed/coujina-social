@@ -13,10 +13,12 @@ import {
 import { BricolageGrotesque_700Bold } from '@expo-google-fonts/bricolage-grotesque';
 
 import { AuthProvider, useAuth } from '../src/auth';
+import { usePushRouting } from '../src/push';
 import { I18nProvider } from '../src/i18n';
 import { SessionProvider, useSession } from '../src/session';
 import { StoreProvider } from '../src/store';
 import { color } from '../src/theme';
+import { TERMS_VERSION } from '../src/types';
 import { Toast } from '../src/ui/Toast';
 
 /**
@@ -26,12 +28,15 @@ import { Toast } from '../src/ui/Toast';
  */
 function Gate() {
   const { loading: authLoading, userId } = useAuth();
+  usePushRouting();
   const { me, loading } = useSession();
   const segments = useSegments();
   const router = useRouter();
 
   const inSignIn = segments[0] === 'sign-in';
   const inOnboarding = segments[0] === 'onboarding';
+  const inTerms = inOnboarding && (segments as string[])[1] === 'terms';
+  const inLegal = segments[0] === 'legal';
 
   useEffect(() => {
     if (authLoading) return;
@@ -40,12 +45,17 @@ function Gate() {
       return;
     }
     if (loading || !me) return;
+    // Les CGU d'abord, et à nouveau quand elles changent ; leurs textes restent lisibles.
+    if (me.terms_version !== TERMS_VERSION) {
+      if (!inTerms && !inLegal) router.replace('/onboarding/terms');
+      return;
+    }
     if (!me.onboarded) {
       if (!inOnboarding) router.replace('/onboarding/cuisines');
       return;
     }
     if (inSignIn) router.replace('/');
-  }, [authLoading, userId, loading, me, inSignIn, inOnboarding, router]);
+  }, [authLoading, userId, loading, me, inSignIn, inOnboarding, inTerms, inLegal, router]);
 
   if (authLoading) {
     return (
@@ -59,6 +69,7 @@ function Gate() {
     <Stack screenOptions={{ headerShown: false, contentStyle: { backgroundColor: color.screen } }}>
       <Stack.Screen name="(tabs)" />
       <Stack.Screen name="sign-in" />
+      <Stack.Screen name="onboarding/terms" />
       <Stack.Screen name="onboarding/cuisines" />
       <Stack.Screen name="onboarding/diet" />
       <Stack.Screen name="recipe/[id]" />
@@ -67,6 +78,13 @@ function Gate() {
       <Stack.Screen name="country/[slug]" />
       <Stack.Screen name="profile-edit" options={{ presentation: 'modal' }} />
       <Stack.Screen name="search" />
+      <Stack.Screen name="challenge" />
+      <Stack.Screen name="activity" />
+      <Stack.Screen name="u/[username]" />
+      <Stack.Screen name="legal/[doc]" />
+      <Stack.Screen name="family/index" />
+      <Stack.Screen name="family/[id]" />
+      <Stack.Screen name="moderation" />
     </Stack>
   );
 }

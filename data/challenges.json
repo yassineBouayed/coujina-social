@@ -1,0 +1,17 @@
+{
+  "_lisezmoi": "Les défis de la semaine. Ils tournent tout seuls : la semaine (du lundi, heure de Paris) choisit le défi suivant dans cette liste, en boucle. Ajouter une ligne suffit ; ne jamais renuméroter `position` d'un défi déjà passé.",
+  "defis": [
+    { "slug": "plat-de-mon-enfance", "position": 1, "title": "Le plat de mon enfance", "description": "Celui qu'on vous faisait quand vous étiez malade, ou le dimanche. Racontez d'où il vient.", "cuisine": null },
+    { "slug": "trois-ingredients", "position": 2, "title": "Trois ingrédients, pas un de plus", "description": "Sel, poivre et huile ne comptent pas. Le reste : trois, montrés à la caméra.", "cuisine": null },
+    { "slug": "tour-du-maghreb", "position": 3, "title": "Tour du Maghreb", "description": "Maroc, Algérie, Tunisie : votre version d'un classique, ou un plat qu'on ne connaît pas.", "cuisine": "maghrebi" },
+    { "slug": "moins-de-20-minutes", "position": 4, "title": "Moins de 20 minutes", "description": "Un vrai repas, du placard à l'assiette, en moins de vingt minutes chrono.", "cuisine": null },
+    { "slug": "street-food-asie", "position": 5, "title": "Street food d'Asie", "description": "Ce qu'on mange debout à Bangkok, Hanoï, Séoul ou Bombay, refait à la maison.", "cuisine": null },
+    { "slug": "sans-four", "position": 6, "title": "Dessert sans four", "description": "Pas de four, pas d'excuse : un dessert au frigo, à la poêle ou à la casserole.", "cuisine": null },
+    { "slug": "antilles-et-afrique-de-louest", "position": 7, "title": "Des Antilles à Dakar", "description": "Colombo, mafé, accras, yassa : la cuisine qui a traversé l'Atlantique.", "cuisine": null },
+    { "slug": "les-restes", "position": 8, "title": "Rien ne se perd", "description": "Une recette faite avec les restes de la veille. Montrez l'avant et l'après.", "cuisine": null },
+    { "slug": "vegetal-sans-le-dire", "position": 9, "title": "Végétal sans le dire", "description": "Un plat sans viande ni poisson que personne ne remarque comme tel.", "cuisine": null },
+    { "slug": "pain-maison", "position": 10, "title": "Le pain de chez nous", "description": "Galette, msemen, naan, arepa, baguette : le pain de votre famille.", "cuisine": null },
+    { "slug": "soupe-du-monde", "position": 11, "title": "Une soupe du monde", "description": "Harira, pho, borscht, caldo verde : la soupe qui vous réchauffe.", "cuisine": null },
+    { "slug": "plat-de-fete", "position": 12, "title": "Le plat des grandes occasions", "description": "Celui qu'on ne fait que pour l'Aïd, Noël, Diwali ou un mariage.", "cuisine": null }
+  ]
+}

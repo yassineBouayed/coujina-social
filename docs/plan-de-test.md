@@ -194,3 +194,84 @@ Relancer `npm run seed:fictive` puis recharger la base **rafraîchit les dates**
 | T-STO-04 | 4G faible : envoi d'une vidéo de 2 min, interruption, reprise |
 | T-STO-05 | Mode avion : aucun plantage, messages lisibles |
 | T-STO-06 | Les crédits des images Wikimedia sont affichés (voir ETAT.md §4) |
+
+## 11. Crédit des photos — T-IMG (14/11/2026)
+
+| ID | Scénario | Attendu | Auto |
+|---|---|---|---|
+| T-IMG-01 | Toutes les recettes du livre qui ont une photo | Chacune a son crédit (auteur, licence, « via Wikimedia Commons ») | SQL |
+| T-IMG-02 | Le berbéré (photo d'origine : une carte des langues berbères) | Plus de photo, le dégradé de la cuisine à la place | SQL |
+| T-IMG-03 | Enregistrer une recette du livre qui a une photo | La copie garde la photo et son crédit | SQL |
+| T-IMG-04 | Dans sa copie, remplacer la photo par la sienne | Le crédit Wikimedia disparaît | SQL |
+| T-IMG-05 | Ouvrir « Bissara » | Sous la photo : « Photo : EKez — CC BY-SA 3.0, via Wikimedia Commons » ; le toucher ouvre la page Commons | démo ✅ joué |
+
+## 12. Mesure de la bêta — T-MES
+
+| ID | Scénario | Attendu | Auto |
+|---|---|---|---|
+| T-MES-01 | `beta_metrics()` sur les données fictives | 11 testeurs, J+1 et J+7 calculés, réponses au prix par prix | SQL |
+| T-MES-02 | Ouvrir l'app deux fois en une minute | Une seule visite comptée | SQL |
+| T-MES-03 | Profil → décocher « Aider à améliorer couJina », puis ouvrir des recettes | Rien n'est enregistré | SQL + manuel |
+| T-MES-04 | Après 3 jours d'usage, l'accueil | Carte « Une question rapide » avec un prix (2,99, 3,99 ou 4,99 €) ; répondre la fait disparaître pour toujours | SQL + démo ✅ joué |
+| T-MES-05 | Un utilisateur tente de lire `app_events` ou `beta_metrics()` | Refusé | SQL |
+| T-MES-06 | `DATABASE_URL=… npm run beta:report` sur le projet de test | Le tableau des chiffres s'affiche | manuel |
+
+## 13. Réseau encore vide — T-VIDE
+
+| ID | Scénario | Attendu | Auto |
+|---|---|---|---|
+| T-VIDE-01 | Accueil | Bandeau « Défi de la semaine », un seul défi, qui change le lundi | SQL + démo ✅ joué |
+| T-VIDE-02 | Toucher le bandeau | Le thème et les participations, sans ce que je ne mange pas | SQL + démo ✅ joué |
+| T-VIDE-03 | Écrire une recette avec « Participer au défi » coché, publique | Elle apparaît dans le défi ; impossible d'inscrire la recette d'un autre ; une recette « Moi seul » n'est pas inscrite | SQL + manuel |
+| T-VIDE-04 | Accueil → « Des cuisiniers à suivre » | Ceux qui partagent mes cuisines d'abord ; jamais quelqu'un que je suis déjà ou que j'ai bloqué ; « Suivre » le retire de la liste | SQL + démo |
+| T-VIDE-05 | Profil → Activité (Amina) | « Lucas Martin a fait sa version de Msemen de ma mère », nouveaux abonnés | SQL + démo ✅ joué |
+| T-VIDE-06 | Revenir au profil après l'Activité | Le compteur de nouveautés est à zéro | SQL |
+| T-VIDE-07 | Profil → Inviter des amis | La feuille de partage du téléphone, avec le lien `coujinasocial://u/<nom>` ; ce lien ouvre mon profil chez qui a l'app | manuel |
+
+## 14. Conformité — T-LEG (15/11/2026)
+
+| ID | Scénario | Attendu | Auto |
+|---|---|---|---|
+| T-LEG-01 | Premier lancement d'un compte neuf | Écran « Avant de commencer » ; rien de coché ; liens vers les CGU et la politique de confidentialité, lisibles avant d'accepter | SQL + démo ✅ joué |
+| T-LEG-02 | Ne pas cocher « J'ai 15 ans ou plus » | « Continuer » reste désactivé ; la base refuse `accept_terms` sans les 15 ans | SQL + démo ✅ joué |
+| T-LEG-03 | Étape « ce que je ne mange pas » sans accord | Panneau d'explication, « J'accepte » et « Passer » ; la base refuse tout interdit sans accord | SQL + démo ✅ joué |
+| T-LEG-04 | Profil → « Retirer mon accord » | Confirmation, puis interdits effacés et accord retiré | SQL + manuel |
+| T-LEG-05 | La version des CGU change (`current_terms_version()`) | Tous les comptes repassent par « Avant de commencer » | manuel |
+| T-LEG-06 | Fiche d'une recette | Avertissement allergènes permanent ; sur une copie modifiée, bandeau « X a modifié les ingrédients de la recette de Y » | démo |
+
+## 15. Modération — T-MOD
+
+| ID | Scénario | Attendu | Auto |
+|---|---|---|---|
+| T-MOD-01 | Un utilisateur ordinaire | Ne lit pas la file, ne se nomme pas modérateur | SQL |
+| T-MOD-02 | Signaler « Un allergène n'est pas indiqué » | Le signalement arrive dans la file de modération | SQL |
+| T-MOD-03 | Masquer sans motif | Refusé ; avec motif : la recette disparaît, ses signalements sont clos | SQL + démo |
+| T-MOD-04 | Recette masquée | Invisible dans l'accueil, le globe, les classements ; son auteur la voit, avec le motif | SQL |
+| T-MOD-05 | Feuille d'opérations | Reçus, traités, sous 24 h, encore ouverts, par semaine | SQL + démo ✅ joué |
+| T-MOD-06 | L'auteur tente de lever le masquage | Refusé | SQL |
+| T-MOD-07 | Copier une recette masquée | Refusé | SQL |
+
+## 16. Livre de famille (premium) — T-FAM
+
+| ID | Scénario | Attendu | Auto |
+|---|---|---|---|
+| T-FAM-01 | Nadia (membre de « Famille Laurent ») | Lit le gratin « Moi seul » de Marie rangé dans le livre ; Amina (hors livre) ne le lit pas | SQL |
+| T-FAM-02 | Code d'invitation | Montré à la créatrice seulement | SQL + démo ✅ joué |
+| T-FAM-03 | Créer un livre sans abonnement | Refusé, avec le message Premium | SQL |
+| T-FAM-04 | Rejoindre avec « LAURENT1 » | Membre ; les recettes du livre deviennent lisibles | SQL |
+| T-FAM-05 | Ranger la recette d'un autre | Refusé (on l'enregistre d'abord) | SQL |
+| T-FAM-06 | Quitter le livre | Ses recettes privées redeviennent invisibles | SQL |
+| T-FAM-07 | Abonnement échu | Livre lisible, plus d'ajout | SQL |
+| T-FAM-08 | « Exporter le livre (PDF) » | Une page par recette : titre, crédit « Recette de X · modifiée par Y », mot de la famille, photo et son crédit, ingrédients, étapes | démo ✅ joué (contenu vérifié) ; PDF sur téléphone : manuel |
+
+## 17. Notifications — T-NOT
+
+| ID | Scénario | Attendu | Auto |
+|---|---|---|---|
+| T-NOT-01 | Enregistrer un jeton invalide | Refusé | SQL |
+| T-NOT-02 | Deux copies et un abonné dans la journée | Une seule notification : « X et 1 autre ont enregistré vos recettes · Y vous suit » | SQL |
+| T-NOT-03 | Entre 21 h et 9 h | Rien n'est envoyé | SQL |
+| T-NOT-04 | Nouvel évènement le même après-midi | Attend le lendemain | SQL |
+| T-NOT-05 | Couper « Quelqu'un enregistre mes recettes » | Plus de notification de copie | SQL |
+| T-NOT-06 | Un utilisateur tente de vider la file | Refusé | SQL |
+| T-NOT-07 | Première recette enregistrée sur un vrai téléphone | La permission est demandée à ce moment-là (pas avant) ; la notification touchée ouvre l'Activité | manuel (téléphone + projet EAS) |

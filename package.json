@@ -9,7 +9,10 @@
     "seed:fictive": "node tools/seed/fictive.mjs",
     "seed": "node tools/seed/catalog.mjs && node tools/seed/fictive.mjs",
     "seed:accounts": "node tools/seed/accounts.mjs",
-    "db:test": "node tools/db-test.mjs"
+    "images:credits": "node tools/images/credits.mjs",
+    "legal:build": "node tools/legal/build.mjs",
+    "db:test": "node tools/db-test.mjs",
+    "beta:report": "node tools/beta-report.mjs"
   },
   "engines": {
     "node": ">=22.6"

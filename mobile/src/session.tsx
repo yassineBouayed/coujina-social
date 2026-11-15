@@ -7,6 +7,7 @@
  * pour se recharger sans qu'on ait à tirer l'écran.
  */
 import React, { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
+import { AppState } from 'react-native';
 
 import { createMockApi } from './api.mock';
 import { createSupabaseApi } from './api.supabase';
@@ -72,6 +73,17 @@ export function SessionProvider({ children }: { children: ReactNode }) {
     return () => {
       cancelled = true;
     };
+  }, [api]);
+
+  // Une visite = une ouverture, ou un retour au premier plan. La base n'en
+  // garde qu'une par demi-heure, et rien si la personne a refusé la mesure.
+  useEffect(() => {
+    if (!api) return;
+    void api.track('app_open');
+    const sub = AppState.addEventListener('change', (next) => {
+      if (next === 'active') void api.track('app_open');
+    });
+    return () => sub.remove();
   }, [api]);
 
   const value = useMemo<SessionStore>(() => ({

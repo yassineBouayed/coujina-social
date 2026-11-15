@@ -1,70 +1,94 @@
 -- GÉNÉRÉ par `npm run seed:fictive` depuis data/fictive/*.json — ne pas modifier à la main.
 -- Données FICTIVES : à charger sur une base de test, jamais en production.
 begin;
-insert into profiles (id, username, display_name, bio, onboarded_at) values ('69e35bef-6695-5b4f-89f7-684f67bd404c', 'amina_cuisine', 'Amina Benali', 'Marseillaise, cuisine de ma mère et de mes voyages. Le msemen du dimanche, c''est sacré.', now() - interval '60 days')
-  on conflict (id) do update set username = excluded.username, display_name = excluded.display_name, bio = excluded.bio, onboarded_at = excluded.onboarded_at;
+insert into profiles (id, username, display_name, bio, onboarded_at, terms_version, terms_accepted_at, age_confirmed_at, diet_consent_at)
+  values ('69e35bef-6695-5b4f-89f7-684f67bd404c', 'amina_cuisine', 'Amina Benali', 'Marseillaise, cuisine de ma mère et de mes voyages. Le msemen du dimanche, c''est sacré.', now() - interval '60 days', current_terms_version(), now() - interval '60 days', now() - interval '60 days', now() - interval '60 days')
+  on conflict (id) do update set username = excluded.username, display_name = excluded.display_name, bio = excluded.bio, onboarded_at = excluded.onboarded_at,
+    terms_version = excluded.terms_version, terms_accepted_at = excluded.terms_accepted_at, age_confirmed_at = excluded.age_confirmed_at, diet_consent_at = excluded.diet_consent_at;
 delete from profile_cuisines where profile_id = '69e35bef-6695-5b4f-89f7-684f67bd404c';
 insert into profile_cuisines (profile_id, cuisine_slug) select '69e35bef-6695-5b4f-89f7-684f67bd404c', unnest(array['maghrebi', 'levantine', 'middle-eastern']::text[]);
 delete from profile_exclusions where profile_id = '69e35bef-6695-5b4f-89f7-684f67bd404c';
 insert into profile_exclusions (profile_id, flag) select '69e35bef-6695-5b4f-89f7-684f67bd404c', unnest(array['pork', 'alcohol']::dietary_flag[]);
-insert into profiles (id, username, display_name, bio, onboarded_at) values ('ed018e6a-4007-5baf-bcf6-ab10a793deec', 'lucas.bouffe', 'Lucas Martin', 'Cuisinier amateur à Lyon. Je teste tout, je modifie tout.', now() - interval '60 days')
-  on conflict (id) do update set username = excluded.username, display_name = excluded.display_name, bio = excluded.bio, onboarded_at = excluded.onboarded_at;
+insert into profiles (id, username, display_name, bio, onboarded_at, terms_version, terms_accepted_at, age_confirmed_at, diet_consent_at)
+  values ('ed018e6a-4007-5baf-bcf6-ab10a793deec', 'lucas.bouffe', 'Lucas Martin', 'Cuisinier amateur à Lyon. Je teste tout, je modifie tout.', now() - interval '60 days', current_terms_version(), now() - interval '60 days', now() - interval '60 days', null)
+  on conflict (id) do update set username = excluded.username, display_name = excluded.display_name, bio = excluded.bio, onboarded_at = excluded.onboarded_at,
+    terms_version = excluded.terms_version, terms_accepted_at = excluded.terms_accepted_at, age_confirmed_at = excluded.age_confirmed_at, diet_consent_at = excluded.diet_consent_at;
 delete from profile_cuisines where profile_id = 'ed018e6a-4007-5baf-bcf6-ab10a793deec';
 insert into profile_cuisines (profile_id, cuisine_slug) select 'ed018e6a-4007-5baf-bcf6-ab10a793deec', unnest(array['french', 'mediterranean', 'western-european']::text[]);
 delete from profile_exclusions where profile_id = 'ed018e6a-4007-5baf-bcf6-ab10a793deec';
-insert into profiles (id, username, display_name, bio, onboarded_at) values ('f81498e9-a866-50d7-a546-e0792b54c0c3', 'priya_spice', 'Priya Raman', 'Végétarienne depuis toujours. Dal, curry et chaï.', now() - interval '60 days')
-  on conflict (id) do update set username = excluded.username, display_name = excluded.display_name, bio = excluded.bio, onboarded_at = excluded.onboarded_at;
+insert into profiles (id, username, display_name, bio, onboarded_at, terms_version, terms_accepted_at, age_confirmed_at, diet_consent_at)
+  values ('f81498e9-a866-50d7-a546-e0792b54c0c3', 'priya_spice', 'Priya Raman', 'Végétarienne depuis toujours. Dal, curry et chaï.', now() - interval '60 days', current_terms_version(), now() - interval '60 days', now() - interval '60 days', now() - interval '60 days')
+  on conflict (id) do update set username = excluded.username, display_name = excluded.display_name, bio = excluded.bio, onboarded_at = excluded.onboarded_at,
+    terms_version = excluded.terms_version, terms_accepted_at = excluded.terms_accepted_at, age_confirmed_at = excluded.age_confirmed_at, diet_consent_at = excluded.diet_consent_at;
 delete from profile_cuisines where profile_id = 'f81498e9-a866-50d7-a546-e0792b54c0c3';
 insert into profile_cuisines (profile_id, cuisine_slug) select 'f81498e9-a866-50d7-a546-e0792b54c0c3', unnest(array['south-asian', 'southeast-asian']::text[]);
 delete from profile_exclusions where profile_id = 'f81498e9-a866-50d7-a546-e0792b54c0c3';
 insert into profile_exclusions (profile_id, flag) select 'f81498e9-a866-50d7-a546-e0792b54c0c3', unnest(array['meat', 'fish', 'shellfish']::dietary_flag[]);
-insert into profiles (id, username, display_name, bio, onboarded_at) values ('6f8af8f2-632e-57d6-b01e-705195e4132f', 'kenji.ramen', 'Kenji Watanabe', 'Ramen, gyoza, et tout ce qui se mange avec des baguettes.', now() - interval '60 days')
-  on conflict (id) do update set username = excluded.username, display_name = excluded.display_name, bio = excluded.bio, onboarded_at = excluded.onboarded_at;
+insert into profiles (id, username, display_name, bio, onboarded_at, terms_version, terms_accepted_at, age_confirmed_at, diet_consent_at)
+  values ('6f8af8f2-632e-57d6-b01e-705195e4132f', 'kenji.ramen', 'Kenji Watanabe', 'Ramen, gyoza, et tout ce qui se mange avec des baguettes.', now() - interval '60 days', current_terms_version(), now() - interval '60 days', now() - interval '60 days', null)
+  on conflict (id) do update set username = excluded.username, display_name = excluded.display_name, bio = excluded.bio, onboarded_at = excluded.onboarded_at,
+    terms_version = excluded.terms_version, terms_accepted_at = excluded.terms_accepted_at, age_confirmed_at = excluded.age_confirmed_at, diet_consent_at = excluded.diet_consent_at;
 delete from profile_cuisines where profile_id = '6f8af8f2-632e-57d6-b01e-705195e4132f';
 insert into profile_cuisines (profile_id, cuisine_slug) select '6f8af8f2-632e-57d6-b01e-705195e4132f', unnest(array['east-asian', 'southeast-asian']::text[]);
 delete from profile_exclusions where profile_id = '6f8af8f2-632e-57d6-b01e-705195e4132f';
-insert into profiles (id, username, display_name, bio, onboarded_at) values ('29f4dd0f-206d-5413-a55f-b91340e3e561', 'fatou_dakar', 'Fatou Diop', 'Dakar - Paris. Le thiéboudienne n''a pas de recette, il a des familles.', now() - interval '60 days')
-  on conflict (id) do update set username = excluded.username, display_name = excluded.display_name, bio = excluded.bio, onboarded_at = excluded.onboarded_at;
+insert into profiles (id, username, display_name, bio, onboarded_at, terms_version, terms_accepted_at, age_confirmed_at, diet_consent_at)
+  values ('29f4dd0f-206d-5413-a55f-b91340e3e561', 'fatou_dakar', 'Fatou Diop', 'Dakar - Paris. Le thiéboudienne n''a pas de recette, il a des familles.', now() - interval '60 days', current_terms_version(), now() - interval '60 days', now() - interval '60 days', now() - interval '60 days')
+  on conflict (id) do update set username = excluded.username, display_name = excluded.display_name, bio = excluded.bio, onboarded_at = excluded.onboarded_at,
+    terms_version = excluded.terms_version, terms_accepted_at = excluded.terms_accepted_at, age_confirmed_at = excluded.age_confirmed_at, diet_consent_at = excluded.diet_consent_at;
 delete from profile_cuisines where profile_id = '29f4dd0f-206d-5413-a55f-b91340e3e561';
 insert into profile_cuisines (profile_id, cuisine_slug) select '29f4dd0f-206d-5413-a55f-b91340e3e561', unnest(array['west-african', 'caribbean', 'east-african']::text[]);
 delete from profile_exclusions where profile_id = '29f4dd0f-206d-5413-a55f-b91340e3e561';
 insert into profile_exclusions (profile_id, flag) select '29f4dd0f-206d-5413-a55f-b91340e3e561', unnest(array['pork']::dietary_flag[]);
-insert into profiles (id, username, display_name, bio, onboarded_at) values ('c6512930-0382-50bb-b18a-db918ff78f26', 'sofia.nonna', 'Sofia Russo', 'Cœliaque et gourmande : je réécris les classiques sans gluten.', now() - interval '60 days')
-  on conflict (id) do update set username = excluded.username, display_name = excluded.display_name, bio = excluded.bio, onboarded_at = excluded.onboarded_at;
+insert into profiles (id, username, display_name, bio, onboarded_at, terms_version, terms_accepted_at, age_confirmed_at, diet_consent_at)
+  values ('c6512930-0382-50bb-b18a-db918ff78f26', 'sofia.nonna', 'Sofia Russo', 'Cœliaque et gourmande : je réécris les classiques sans gluten.', now() - interval '60 days', current_terms_version(), now() - interval '60 days', now() - interval '60 days', now() - interval '60 days')
+  on conflict (id) do update set username = excluded.username, display_name = excluded.display_name, bio = excluded.bio, onboarded_at = excluded.onboarded_at,
+    terms_version = excluded.terms_version, terms_accepted_at = excluded.terms_accepted_at, age_confirmed_at = excluded.age_confirmed_at, diet_consent_at = excluded.diet_consent_at;
 delete from profile_cuisines where profile_id = 'c6512930-0382-50bb-b18a-db918ff78f26';
 insert into profile_cuisines (profile_id, cuisine_slug) select 'c6512930-0382-50bb-b18a-db918ff78f26', unnest(array['mediterranean', 'western-european']::text[]);
 delete from profile_exclusions where profile_id = 'c6512930-0382-50bb-b18a-db918ff78f26';
 insert into profile_exclusions (profile_id, flag) select 'c6512930-0382-50bb-b18a-db918ff78f26', unnest(array['gluten']::dietary_flag[]);
-insert into profiles (id, username, display_name, bio, onboarded_at) values ('d60940aa-e2b9-5be9-b000-dcbf4cf769e2', 'diego_tacos', 'Diego Hernández', 'Mexico, Buenos Aires, Lima. Allergique aux cacahuètes, pas aux piments.', now() - interval '60 days')
-  on conflict (id) do update set username = excluded.username, display_name = excluded.display_name, bio = excluded.bio, onboarded_at = excluded.onboarded_at;
+insert into profiles (id, username, display_name, bio, onboarded_at, terms_version, terms_accepted_at, age_confirmed_at, diet_consent_at)
+  values ('d60940aa-e2b9-5be9-b000-dcbf4cf769e2', 'diego_tacos', 'Diego Hernández', 'Mexico, Buenos Aires, Lima. Allergique aux cacahuètes, pas aux piments.', now() - interval '60 days', current_terms_version(), now() - interval '60 days', now() - interval '60 days', now() - interval '60 days')
+  on conflict (id) do update set username = excluded.username, display_name = excluded.display_name, bio = excluded.bio, onboarded_at = excluded.onboarded_at,
+    terms_version = excluded.terms_version, terms_accepted_at = excluded.terms_accepted_at, age_confirmed_at = excluded.age_confirmed_at, diet_consent_at = excluded.diet_consent_at;
 delete from profile_cuisines where profile_id = 'd60940aa-e2b9-5be9-b000-dcbf4cf769e2';
 insert into profile_cuisines (profile_id, cuisine_slug) select 'd60940aa-e2b9-5be9-b000-dcbf4cf769e2', unnest(array['latin-american', 'north-american']::text[]);
 delete from profile_exclusions where profile_id = 'd60940aa-e2b9-5be9-b000-dcbf4cf769e2';
 insert into profile_exclusions (profile_id, flag) select 'd60940aa-e2b9-5be9-b000-dcbf4cf769e2', unnest(array['peanut']::dietary_flag[]);
-insert into profiles (id, username, display_name, bio, onboarded_at) values ('3dd979f4-93c0-5058-8eb7-8e06046c8682', 'lea.vegan', 'Léa Dubois', 'Végane, je transforme les recettes de tout le monde.', now() - interval '60 days')
-  on conflict (id) do update set username = excluded.username, display_name = excluded.display_name, bio = excluded.bio, onboarded_at = excluded.onboarded_at;
+insert into profiles (id, username, display_name, bio, onboarded_at, terms_version, terms_accepted_at, age_confirmed_at, diet_consent_at)
+  values ('3dd979f4-93c0-5058-8eb7-8e06046c8682', 'lea.vegan', 'Léa Dubois', 'Végane, je transforme les recettes de tout le monde.', now() - interval '60 days', current_terms_version(), now() - interval '60 days', now() - interval '60 days', now() - interval '60 days')
+  on conflict (id) do update set username = excluded.username, display_name = excluded.display_name, bio = excluded.bio, onboarded_at = excluded.onboarded_at,
+    terms_version = excluded.terms_version, terms_accepted_at = excluded.terms_accepted_at, age_confirmed_at = excluded.age_confirmed_at, diet_consent_at = excluded.diet_consent_at;
 delete from profile_cuisines where profile_id = '3dd979f4-93c0-5058-8eb7-8e06046c8682';
 insert into profile_cuisines (profile_id, cuisine_slug) select '3dd979f4-93c0-5058-8eb7-8e06046c8682', unnest(array['south-asian', 'mediterranean', 'southeast-asian', 'levantine']::text[]);
 delete from profile_exclusions where profile_id = '3dd979f4-93c0-5058-8eb7-8e06046c8682';
 insert into profile_exclusions (profile_id, flag) select '3dd979f4-93c0-5058-8eb7-8e06046c8682', unnest(array['meat', 'fish', 'shellfish', 'dairy', 'egg']::dietary_flag[]);
-insert into profiles (id, username, display_name, bio, onboarded_at) values ('6181e113-9005-5113-87e3-2c5e1ce00abb', 'omar.grill', 'Omar Haddad', 'Beyrouth dans le cœur, le barbecue dans le jardin.', now() - interval '60 days')
-  on conflict (id) do update set username = excluded.username, display_name = excluded.display_name, bio = excluded.bio, onboarded_at = excluded.onboarded_at;
+insert into profiles (id, username, display_name, bio, onboarded_at, terms_version, terms_accepted_at, age_confirmed_at, diet_consent_at)
+  values ('6181e113-9005-5113-87e3-2c5e1ce00abb', 'omar.grill', 'Omar Haddad', 'Beyrouth dans le cœur, le barbecue dans le jardin.', now() - interval '60 days', current_terms_version(), now() - interval '60 days', now() - interval '60 days', now() - interval '60 days')
+  on conflict (id) do update set username = excluded.username, display_name = excluded.display_name, bio = excluded.bio, onboarded_at = excluded.onboarded_at,
+    terms_version = excluded.terms_version, terms_accepted_at = excluded.terms_accepted_at, age_confirmed_at = excluded.age_confirmed_at, diet_consent_at = excluded.diet_consent_at;
 delete from profile_cuisines where profile_id = '6181e113-9005-5113-87e3-2c5e1ce00abb';
 insert into profile_cuisines (profile_id, cuisine_slug) select '6181e113-9005-5113-87e3-2c5e1ce00abb', unnest(array['levantine', 'middle-eastern']::text[]);
 delete from profile_exclusions where profile_id = '6181e113-9005-5113-87e3-2c5e1ce00abb';
 insert into profile_exclusions (profile_id, flag) select '6181e113-9005-5113-87e3-2c5e1ce00abb', unnest(array['pork', 'alcohol']::dietary_flag[]);
-insert into profiles (id, username, display_name, bio, onboarded_at) values ('67c5aecd-680b-5574-aa4c-082784fe7707', 'nadia_patisse', 'Nadia Kowalski', 'Pâtisserie polonaise et française. Allergie aux fruits à coque.', now() - interval '60 days')
-  on conflict (id) do update set username = excluded.username, display_name = excluded.display_name, bio = excluded.bio, onboarded_at = excluded.onboarded_at;
+insert into profiles (id, username, display_name, bio, onboarded_at, terms_version, terms_accepted_at, age_confirmed_at, diet_consent_at)
+  values ('67c5aecd-680b-5574-aa4c-082784fe7707', 'nadia_patisse', 'Nadia Kowalski', 'Pâtisserie polonaise et française. Allergie aux fruits à coque.', now() - interval '60 days', current_terms_version(), now() - interval '60 days', now() - interval '60 days', now() - interval '60 days')
+  on conflict (id) do update set username = excluded.username, display_name = excluded.display_name, bio = excluded.bio, onboarded_at = excluded.onboarded_at,
+    terms_version = excluded.terms_version, terms_accepted_at = excluded.terms_accepted_at, age_confirmed_at = excluded.age_confirmed_at, diet_consent_at = excluded.diet_consent_at;
 delete from profile_cuisines where profile_id = '67c5aecd-680b-5574-aa4c-082784fe7707';
 insert into profile_cuisines (profile_id, cuisine_slug) select '67c5aecd-680b-5574-aa4c-082784fe7707', unnest(array['eastern-european', 'french']::text[]);
 delete from profile_exclusions where profile_id = '67c5aecd-680b-5574-aa4c-082784fe7707';
 insert into profile_exclusions (profile_id, flag) select '67c5aecd-680b-5574-aa4c-082784fe7707', unnest(array['tree_nut']::dietary_flag[]);
-insert into profiles (id, username, display_name, bio, onboarded_at) values ('549f0e16-aa94-5b0d-aa2d-f8e6ae36d73b', 'tom.newbie', 'Tom Petit', '', null)
-  on conflict (id) do update set username = excluded.username, display_name = excluded.display_name, bio = excluded.bio, onboarded_at = excluded.onboarded_at;
+insert into profiles (id, username, display_name, bio, onboarded_at, terms_version, terms_accepted_at, age_confirmed_at, diet_consent_at)
+  values ('549f0e16-aa94-5b0d-aa2d-f8e6ae36d73b', 'tom.newbie', 'Tom Petit', '', null, null, null, null, null)
+  on conflict (id) do update set username = excluded.username, display_name = excluded.display_name, bio = excluded.bio, onboarded_at = excluded.onboarded_at,
+    terms_version = excluded.terms_version, terms_accepted_at = excluded.terms_accepted_at, age_confirmed_at = excluded.age_confirmed_at, diet_consent_at = excluded.diet_consent_at;
 delete from profile_cuisines where profile_id = '549f0e16-aa94-5b0d-aa2d-f8e6ae36d73b';
 delete from profile_exclusions where profile_id = '549f0e16-aa94-5b0d-aa2d-f8e6ae36d73b';
-insert into profiles (id, username, display_name, bio, onboarded_at) values ('ed48de41-79b0-595b-a0cd-984366f827e6', 'marie_prive', 'Marie Laurent', 'Je garde mes recettes de famille pour mes proches.', now() - interval '60 days')
-  on conflict (id) do update set username = excluded.username, display_name = excluded.display_name, bio = excluded.bio, onboarded_at = excluded.onboarded_at;
+insert into profiles (id, username, display_name, bio, onboarded_at, terms_version, terms_accepted_at, age_confirmed_at, diet_consent_at)
+  values ('ed48de41-79b0-595b-a0cd-984366f827e6', 'marie_prive', 'Marie Laurent', 'Je garde mes recettes de famille pour mes proches.', now() - interval '60 days', current_terms_version(), now() - interval '60 days', now() - interval '60 days', null)
+  on conflict (id) do update set username = excluded.username, display_name = excluded.display_name, bio = excluded.bio, onboarded_at = excluded.onboarded_at,
+    terms_version = excluded.terms_version, terms_accepted_at = excluded.terms_accepted_at, age_confirmed_at = excluded.age_confirmed_at, diet_consent_at = excluded.diet_consent_at;
 delete from profile_cuisines where profile_id = 'ed48de41-79b0-595b-a0cd-984366f827e6';
 insert into profile_cuisines (profile_id, cuisine_slug) select 'ed48de41-79b0-595b-a0cd-984366f827e6', unnest(array['french', 'eastern-european']::text[]);
 delete from profile_exclusions where profile_id = 'ed48de41-79b0-595b-a0cd-984366f827e6';
@@ -1899,4 +1923,225 @@ insert into recipe_steps (recipe_id, position, body, minutes) select '2f160bb4-e
 insert into recipe_copies (id, source_id, copy_id, copier_id, modified, created_at) values ('e6df362c-fe87-5cde-9739-0c0b42647e5f', '154cf5f9-8f7b-5751-b9c8-c50b695803d2', '2f160bb4-e82d-53a1-ab25-6fcf08e8970f', '6181e113-9005-5113-87e3-2c5e1ce00abb', false, now() - interval '56 hours')
   on conflict (id) do update set created_at = excluded.created_at;
 update recipes r set copies_count = (select count(*) from recipe_copies c where c.source_id = r.id);
+insert into beta_testers (profile_id, joined_on, note) values ('69e35bef-6695-5b4f-89f7-684f67bd404c', current_date - 21, 'personne fictive') on conflict (profile_id) do nothing;
+delete from app_events where profile_id = '69e35bef-6695-5b4f-89f7-684f67bd404c';
+insert into app_events (profile_id, name, created_at) values
+  ('69e35bef-6695-5b4f-89f7-684f67bd404c', 'app_open', now() - interval '21 days'),
+  ('69e35bef-6695-5b4f-89f7-684f67bd404c', 'app_open', now() - interval '20 days'),
+  ('69e35bef-6695-5b4f-89f7-684f67bd404c', 'app_open', now() - interval '19 days'),
+  ('69e35bef-6695-5b4f-89f7-684f67bd404c', 'app_open', now() - interval '18 days'),
+  ('69e35bef-6695-5b4f-89f7-684f67bd404c', 'app_open', now() - interval '17 days'),
+  ('69e35bef-6695-5b4f-89f7-684f67bd404c', 'app_open', now() - interval '16 days'),
+  ('69e35bef-6695-5b4f-89f7-684f67bd404c', 'app_open', now() - interval '15 days'),
+  ('69e35bef-6695-5b4f-89f7-684f67bd404c', 'app_open', now() - interval '14 days'),
+  ('69e35bef-6695-5b4f-89f7-684f67bd404c', 'app_open', now() - interval '12 days'),
+  ('69e35bef-6695-5b4f-89f7-684f67bd404c', 'app_open', now() - interval '9 days'),
+  ('69e35bef-6695-5b4f-89f7-684f67bd404c', 'app_open', now() - interval '7 days'),
+  ('69e35bef-6695-5b4f-89f7-684f67bd404c', 'app_open', now() - interval '6 days'),
+  ('69e35bef-6695-5b4f-89f7-684f67bd404c', 'app_open', now() - interval '4 days'),
+  ('69e35bef-6695-5b4f-89f7-684f67bd404c', 'app_open', now() - interval '3 days'),
+  ('69e35bef-6695-5b4f-89f7-684f67bd404c', 'app_open', now() - interval '1 days'),
+  ('69e35bef-6695-5b4f-89f7-684f67bd404c', 'app_open', now() - interval '0 days');
+insert into beta_testers (profile_id, joined_on, note) values ('ed018e6a-4007-5baf-bcf6-ab10a793deec', current_date - 21, 'personne fictive') on conflict (profile_id) do nothing;
+delete from app_events where profile_id = 'ed018e6a-4007-5baf-bcf6-ab10a793deec';
+insert into app_events (profile_id, name, created_at) values
+  ('ed018e6a-4007-5baf-bcf6-ab10a793deec', 'app_open', now() - interval '21 days'),
+  ('ed018e6a-4007-5baf-bcf6-ab10a793deec', 'app_open', now() - interval '18 days'),
+  ('ed018e6a-4007-5baf-bcf6-ab10a793deec', 'app_open', now() - interval '17 days'),
+  ('ed018e6a-4007-5baf-bcf6-ab10a793deec', 'app_open', now() - interval '16 days'),
+  ('ed018e6a-4007-5baf-bcf6-ab10a793deec', 'app_open', now() - interval '15 days'),
+  ('ed018e6a-4007-5baf-bcf6-ab10a793deec', 'app_open', now() - interval '14 days'),
+  ('ed018e6a-4007-5baf-bcf6-ab10a793deec', 'app_open', now() - interval '13 days'),
+  ('ed018e6a-4007-5baf-bcf6-ab10a793deec', 'app_open', now() - interval '12 days'),
+  ('ed018e6a-4007-5baf-bcf6-ab10a793deec', 'app_open', now() - interval '11 days'),
+  ('ed018e6a-4007-5baf-bcf6-ab10a793deec', 'app_open', now() - interval '10 days'),
+  ('ed018e6a-4007-5baf-bcf6-ab10a793deec', 'app_open', now() - interval '8 days'),
+  ('ed018e6a-4007-5baf-bcf6-ab10a793deec', 'app_open', now() - interval '7 days'),
+  ('ed018e6a-4007-5baf-bcf6-ab10a793deec', 'app_open', now() - interval '6 days'),
+  ('ed018e6a-4007-5baf-bcf6-ab10a793deec', 'app_open', now() - interval '5 days'),
+  ('ed018e6a-4007-5baf-bcf6-ab10a793deec', 'app_open', now() - interval '2 days'),
+  ('ed018e6a-4007-5baf-bcf6-ab10a793deec', 'app_open', now() - interval '1 days'),
+  ('ed018e6a-4007-5baf-bcf6-ab10a793deec', 'app_open', now() - interval '0 days');
+insert into beta_testers (profile_id, joined_on, note) values ('f81498e9-a866-50d7-a546-e0792b54c0c3', current_date - 21, 'personne fictive') on conflict (profile_id) do nothing;
+delete from app_events where profile_id = 'f81498e9-a866-50d7-a546-e0792b54c0c3';
+insert into app_events (profile_id, name, created_at) values
+  ('f81498e9-a866-50d7-a546-e0792b54c0c3', 'app_open', now() - interval '21 days'),
+  ('f81498e9-a866-50d7-a546-e0792b54c0c3', 'app_open', now() - interval '20 days'),
+  ('f81498e9-a866-50d7-a546-e0792b54c0c3', 'app_open', now() - interval '19 days'),
+  ('f81498e9-a866-50d7-a546-e0792b54c0c3', 'app_open', now() - interval '17 days'),
+  ('f81498e9-a866-50d7-a546-e0792b54c0c3', 'app_open', now() - interval '16 days'),
+  ('f81498e9-a866-50d7-a546-e0792b54c0c3', 'app_open', now() - interval '15 days'),
+  ('f81498e9-a866-50d7-a546-e0792b54c0c3', 'app_open', now() - interval '14 days'),
+  ('f81498e9-a866-50d7-a546-e0792b54c0c3', 'app_open', now() - interval '13 days'),
+  ('f81498e9-a866-50d7-a546-e0792b54c0c3', 'app_open', now() - interval '12 days'),
+  ('f81498e9-a866-50d7-a546-e0792b54c0c3', 'app_open', now() - interval '11 days'),
+  ('f81498e9-a866-50d7-a546-e0792b54c0c3', 'app_open', now() - interval '10 days'),
+  ('f81498e9-a866-50d7-a546-e0792b54c0c3', 'app_open', now() - interval '9 days'),
+  ('f81498e9-a866-50d7-a546-e0792b54c0c3', 'app_open', now() - interval '8 days'),
+  ('f81498e9-a866-50d7-a546-e0792b54c0c3', 'app_open', now() - interval '7 days'),
+  ('f81498e9-a866-50d7-a546-e0792b54c0c3', 'app_open', now() - interval '6 days'),
+  ('f81498e9-a866-50d7-a546-e0792b54c0c3', 'app_open', now() - interval '5 days'),
+  ('f81498e9-a866-50d7-a546-e0792b54c0c3', 'app_open', now() - interval '4 days'),
+  ('f81498e9-a866-50d7-a546-e0792b54c0c3', 'app_open', now() - interval '3 days'),
+  ('f81498e9-a866-50d7-a546-e0792b54c0c3', 'app_open', now() - interval '2 days'),
+  ('f81498e9-a866-50d7-a546-e0792b54c0c3', 'app_open', now() - interval '1 days'),
+  ('f81498e9-a866-50d7-a546-e0792b54c0c3', 'app_open', now() - interval '0 days');
+insert into beta_testers (profile_id, joined_on, note) values ('6f8af8f2-632e-57d6-b01e-705195e4132f', current_date - 21, 'personne fictive') on conflict (profile_id) do nothing;
+delete from app_events where profile_id = '6f8af8f2-632e-57d6-b01e-705195e4132f';
+insert into app_events (profile_id, name, created_at) values
+  ('6f8af8f2-632e-57d6-b01e-705195e4132f', 'app_open', now() - interval '21 days'),
+  ('6f8af8f2-632e-57d6-b01e-705195e4132f', 'app_open', now() - interval '19 days'),
+  ('6f8af8f2-632e-57d6-b01e-705195e4132f', 'app_open', now() - interval '18 days'),
+  ('6f8af8f2-632e-57d6-b01e-705195e4132f', 'app_open', now() - interval '17 days'),
+  ('6f8af8f2-632e-57d6-b01e-705195e4132f', 'app_open', now() - interval '16 days'),
+  ('6f8af8f2-632e-57d6-b01e-705195e4132f', 'app_open', now() - interval '15 days'),
+  ('6f8af8f2-632e-57d6-b01e-705195e4132f', 'app_open', now() - interval '14 days'),
+  ('6f8af8f2-632e-57d6-b01e-705195e4132f', 'app_open', now() - interval '13 days'),
+  ('6f8af8f2-632e-57d6-b01e-705195e4132f', 'app_open', now() - interval '11 days'),
+  ('6f8af8f2-632e-57d6-b01e-705195e4132f', 'app_open', now() - interval '10 days'),
+  ('6f8af8f2-632e-57d6-b01e-705195e4132f', 'app_open', now() - interval '7 days'),
+  ('6f8af8f2-632e-57d6-b01e-705195e4132f', 'app_open', now() - interval '4 days'),
+  ('6f8af8f2-632e-57d6-b01e-705195e4132f', 'app_open', now() - interval '2 days'),
+  ('6f8af8f2-632e-57d6-b01e-705195e4132f', 'app_open', now() - interval '1 days');
+insert into beta_testers (profile_id, joined_on, note) values ('29f4dd0f-206d-5413-a55f-b91340e3e561', current_date - 21, 'personne fictive') on conflict (profile_id) do nothing;
+delete from app_events where profile_id = '29f4dd0f-206d-5413-a55f-b91340e3e561';
+insert into app_events (profile_id, name, created_at) values
+  ('29f4dd0f-206d-5413-a55f-b91340e3e561', 'app_open', now() - interval '21 days');
+insert into beta_testers (profile_id, joined_on, note) values ('c6512930-0382-50bb-b18a-db918ff78f26', current_date - 21, 'personne fictive') on conflict (profile_id) do nothing;
+delete from app_events where profile_id = 'c6512930-0382-50bb-b18a-db918ff78f26';
+insert into app_events (profile_id, name, created_at) values
+  ('c6512930-0382-50bb-b18a-db918ff78f26', 'app_open', now() - interval '21 days'),
+  ('c6512930-0382-50bb-b18a-db918ff78f26', 'app_open', now() - interval '20 days'),
+  ('c6512930-0382-50bb-b18a-db918ff78f26', 'app_open', now() - interval '19 days'),
+  ('c6512930-0382-50bb-b18a-db918ff78f26', 'app_open', now() - interval '18 days'),
+  ('c6512930-0382-50bb-b18a-db918ff78f26', 'app_open', now() - interval '16 days'),
+  ('c6512930-0382-50bb-b18a-db918ff78f26', 'app_open', now() - interval '15 days'),
+  ('c6512930-0382-50bb-b18a-db918ff78f26', 'app_open', now() - interval '14 days'),
+  ('c6512930-0382-50bb-b18a-db918ff78f26', 'app_open', now() - interval '10 days'),
+  ('c6512930-0382-50bb-b18a-db918ff78f26', 'app_open', now() - interval '6 days'),
+  ('c6512930-0382-50bb-b18a-db918ff78f26', 'app_open', now() - interval '5 days'),
+  ('c6512930-0382-50bb-b18a-db918ff78f26', 'app_open', now() - interval '3 days'),
+  ('c6512930-0382-50bb-b18a-db918ff78f26', 'app_open', now() - interval '2 days'),
+  ('c6512930-0382-50bb-b18a-db918ff78f26', 'app_open', now() - interval '0 days');
+insert into beta_testers (profile_id, joined_on, note) values ('d60940aa-e2b9-5be9-b000-dcbf4cf769e2', current_date - 21, 'personne fictive') on conflict (profile_id) do nothing;
+delete from app_events where profile_id = 'd60940aa-e2b9-5be9-b000-dcbf4cf769e2';
+insert into app_events (profile_id, name, created_at) values
+  ('d60940aa-e2b9-5be9-b000-dcbf4cf769e2', 'app_open', now() - interval '21 days'),
+  ('d60940aa-e2b9-5be9-b000-dcbf4cf769e2', 'app_open', now() - interval '20 days'),
+  ('d60940aa-e2b9-5be9-b000-dcbf4cf769e2', 'app_open', now() - interval '19 days'),
+  ('d60940aa-e2b9-5be9-b000-dcbf4cf769e2', 'app_open', now() - interval '18 days'),
+  ('d60940aa-e2b9-5be9-b000-dcbf4cf769e2', 'app_open', now() - interval '17 days'),
+  ('d60940aa-e2b9-5be9-b000-dcbf4cf769e2', 'app_open', now() - interval '16 days'),
+  ('d60940aa-e2b9-5be9-b000-dcbf4cf769e2', 'app_open', now() - interval '15 days'),
+  ('d60940aa-e2b9-5be9-b000-dcbf4cf769e2', 'app_open', now() - interval '13 days'),
+  ('d60940aa-e2b9-5be9-b000-dcbf4cf769e2', 'app_open', now() - interval '12 days'),
+  ('d60940aa-e2b9-5be9-b000-dcbf4cf769e2', 'app_open', now() - interval '11 days'),
+  ('d60940aa-e2b9-5be9-b000-dcbf4cf769e2', 'app_open', now() - interval '10 days'),
+  ('d60940aa-e2b9-5be9-b000-dcbf4cf769e2', 'app_open', now() - interval '9 days'),
+  ('d60940aa-e2b9-5be9-b000-dcbf4cf769e2', 'app_open', now() - interval '5 days'),
+  ('d60940aa-e2b9-5be9-b000-dcbf4cf769e2', 'app_open', now() - interval '3 days'),
+  ('d60940aa-e2b9-5be9-b000-dcbf4cf769e2', 'app_open', now() - interval '2 days');
+insert into beta_testers (profile_id, joined_on, note) values ('3dd979f4-93c0-5058-8eb7-8e06046c8682', current_date - 21, 'personne fictive') on conflict (profile_id) do nothing;
+delete from app_events where profile_id = '3dd979f4-93c0-5058-8eb7-8e06046c8682';
+insert into app_events (profile_id, name, created_at) values
+  ('3dd979f4-93c0-5058-8eb7-8e06046c8682', 'app_open', now() - interval '21 days'),
+  ('3dd979f4-93c0-5058-8eb7-8e06046c8682', 'app_open', now() - interval '20 days'),
+  ('3dd979f4-93c0-5058-8eb7-8e06046c8682', 'app_open', now() - interval '19 days'),
+  ('3dd979f4-93c0-5058-8eb7-8e06046c8682', 'app_open', now() - interval '18 days'),
+  ('3dd979f4-93c0-5058-8eb7-8e06046c8682', 'app_open', now() - interval '16 days'),
+  ('3dd979f4-93c0-5058-8eb7-8e06046c8682', 'app_open', now() - interval '14 days'),
+  ('3dd979f4-93c0-5058-8eb7-8e06046c8682', 'app_open', now() - interval '13 days'),
+  ('3dd979f4-93c0-5058-8eb7-8e06046c8682', 'app_open', now() - interval '9 days'),
+  ('3dd979f4-93c0-5058-8eb7-8e06046c8682', 'app_open', now() - interval '7 days'),
+  ('3dd979f4-93c0-5058-8eb7-8e06046c8682', 'app_open', now() - interval '6 days'),
+  ('3dd979f4-93c0-5058-8eb7-8e06046c8682', 'app_open', now() - interval '5 days'),
+  ('3dd979f4-93c0-5058-8eb7-8e06046c8682', 'app_open', now() - interval '4 days'),
+  ('3dd979f4-93c0-5058-8eb7-8e06046c8682', 'app_open', now() - interval '3 days'),
+  ('3dd979f4-93c0-5058-8eb7-8e06046c8682', 'app_open', now() - interval '2 days'),
+  ('3dd979f4-93c0-5058-8eb7-8e06046c8682', 'app_open', now() - interval '1 days'),
+  ('3dd979f4-93c0-5058-8eb7-8e06046c8682', 'app_open', now() - interval '0 days');
+insert into beta_testers (profile_id, joined_on, note) values ('6181e113-9005-5113-87e3-2c5e1ce00abb', current_date - 21, 'personne fictive') on conflict (profile_id) do nothing;
+delete from app_events where profile_id = '6181e113-9005-5113-87e3-2c5e1ce00abb';
+insert into app_events (profile_id, name, created_at) values
+  ('6181e113-9005-5113-87e3-2c5e1ce00abb', 'app_open', now() - interval '21 days'),
+  ('6181e113-9005-5113-87e3-2c5e1ce00abb', 'app_open', now() - interval '20 days'),
+  ('6181e113-9005-5113-87e3-2c5e1ce00abb', 'app_open', now() - interval '18 days'),
+  ('6181e113-9005-5113-87e3-2c5e1ce00abb', 'app_open', now() - interval '17 days'),
+  ('6181e113-9005-5113-87e3-2c5e1ce00abb', 'app_open', now() - interval '16 days'),
+  ('6181e113-9005-5113-87e3-2c5e1ce00abb', 'app_open', now() - interval '14 days'),
+  ('6181e113-9005-5113-87e3-2c5e1ce00abb', 'app_open', now() - interval '13 days'),
+  ('6181e113-9005-5113-87e3-2c5e1ce00abb', 'app_open', now() - interval '11 days'),
+  ('6181e113-9005-5113-87e3-2c5e1ce00abb', 'app_open', now() - interval '10 days'),
+  ('6181e113-9005-5113-87e3-2c5e1ce00abb', 'app_open', now() - interval '9 days'),
+  ('6181e113-9005-5113-87e3-2c5e1ce00abb', 'app_open', now() - interval '8 days'),
+  ('6181e113-9005-5113-87e3-2c5e1ce00abb', 'app_open', now() - interval '7 days'),
+  ('6181e113-9005-5113-87e3-2c5e1ce00abb', 'app_open', now() - interval '5 days'),
+  ('6181e113-9005-5113-87e3-2c5e1ce00abb', 'app_open', now() - interval '3 days'),
+  ('6181e113-9005-5113-87e3-2c5e1ce00abb', 'app_open', now() - interval '1 days');
+insert into beta_testers (profile_id, joined_on, note) values ('67c5aecd-680b-5574-aa4c-082784fe7707', current_date - 21, 'personne fictive') on conflict (profile_id) do nothing;
+delete from app_events where profile_id = '67c5aecd-680b-5574-aa4c-082784fe7707';
+insert into app_events (profile_id, name, created_at) values
+  ('67c5aecd-680b-5574-aa4c-082784fe7707', 'app_open', now() - interval '21 days'),
+  ('67c5aecd-680b-5574-aa4c-082784fe7707', 'app_open', now() - interval '20 days'),
+  ('67c5aecd-680b-5574-aa4c-082784fe7707', 'app_open', now() - interval '19 days'),
+  ('67c5aecd-680b-5574-aa4c-082784fe7707', 'app_open', now() - interval '16 days'),
+  ('67c5aecd-680b-5574-aa4c-082784fe7707', 'app_open', now() - interval '14 days'),
+  ('67c5aecd-680b-5574-aa4c-082784fe7707', 'app_open', now() - interval '10 days'),
+  ('67c5aecd-680b-5574-aa4c-082784fe7707', 'app_open', now() - interval '8 days'),
+  ('67c5aecd-680b-5574-aa4c-082784fe7707', 'app_open', now() - interval '7 days'),
+  ('67c5aecd-680b-5574-aa4c-082784fe7707', 'app_open', now() - interval '6 days'),
+  ('67c5aecd-680b-5574-aa4c-082784fe7707', 'app_open', now() - interval '5 days'),
+  ('67c5aecd-680b-5574-aa4c-082784fe7707', 'app_open', now() - interval '4 days'),
+  ('67c5aecd-680b-5574-aa4c-082784fe7707', 'app_open', now() - interval '2 days'),
+  ('67c5aecd-680b-5574-aa4c-082784fe7707', 'app_open', now() - interval '0 days');
+insert into beta_testers (profile_id, joined_on, note) values ('ed48de41-79b0-595b-a0cd-984366f827e6', current_date - 21, 'personne fictive') on conflict (profile_id) do nothing;
+delete from app_events where profile_id = 'ed48de41-79b0-595b-a0cd-984366f827e6';
+insert into app_events (profile_id, name, created_at) values
+  ('ed48de41-79b0-595b-a0cd-984366f827e6', 'app_open', now() - interval '21 days'),
+  ('ed48de41-79b0-595b-a0cd-984366f827e6', 'app_open', now() - interval '20 days'),
+  ('ed48de41-79b0-595b-a0cd-984366f827e6', 'app_open', now() - interval '19 days'),
+  ('ed48de41-79b0-595b-a0cd-984366f827e6', 'app_open', now() - interval '18 days'),
+  ('ed48de41-79b0-595b-a0cd-984366f827e6', 'app_open', now() - interval '17 days'),
+  ('ed48de41-79b0-595b-a0cd-984366f827e6', 'app_open', now() - interval '16 days'),
+  ('ed48de41-79b0-595b-a0cd-984366f827e6', 'app_open', now() - interval '15 days'),
+  ('ed48de41-79b0-595b-a0cd-984366f827e6', 'app_open', now() - interval '14 days'),
+  ('ed48de41-79b0-595b-a0cd-984366f827e6', 'app_open', now() - interval '13 days'),
+  ('ed48de41-79b0-595b-a0cd-984366f827e6', 'app_open', now() - interval '12 days'),
+  ('ed48de41-79b0-595b-a0cd-984366f827e6', 'app_open', now() - interval '11 days'),
+  ('ed48de41-79b0-595b-a0cd-984366f827e6', 'app_open', now() - interval '10 days'),
+  ('ed48de41-79b0-595b-a0cd-984366f827e6', 'app_open', now() - interval '9 days'),
+  ('ed48de41-79b0-595b-a0cd-984366f827e6', 'app_open', now() - interval '8 days'),
+  ('ed48de41-79b0-595b-a0cd-984366f827e6', 'app_open', now() - interval '7 days'),
+  ('ed48de41-79b0-595b-a0cd-984366f827e6', 'app_open', now() - interval '6 days'),
+  ('ed48de41-79b0-595b-a0cd-984366f827e6', 'app_open', now() - interval '5 days'),
+  ('ed48de41-79b0-595b-a0cd-984366f827e6', 'app_open', now() - interval '4 days'),
+  ('ed48de41-79b0-595b-a0cd-984366f827e6', 'app_open', now() - interval '3 days'),
+  ('ed48de41-79b0-595b-a0cd-984366f827e6', 'app_open', now() - interval '2 days'),
+  ('ed48de41-79b0-595b-a0cd-984366f827e6', 'app_open', now() - interval '1 days'),
+  ('ed48de41-79b0-595b-a0cd-984366f827e6', 'app_open', now() - interval '0 days');
+insert into price_survey (profile_id, price_cents, answer, wants) values ('69e35bef-6695-5b4f-89f7-684f67bd404c', survey_price('69e35bef-6695-5b4f-89f7-684f67bd404c'), 'no', '')
+  on conflict (profile_id) do nothing;
+insert into price_survey (profile_id, price_cents, answer, wants) values ('ed018e6a-4007-5baf-bcf6-ab10a793deec', survey_price('ed018e6a-4007-5baf-bcf6-ab10a793deec'), 'maybe', '')
+  on conflict (profile_id) do nothing;
+insert into price_survey (profile_id, price_cents, answer, wants) values ('f81498e9-a866-50d7-a546-e0792b54c0c3', survey_price('f81498e9-a866-50d7-a546-e0792b54c0c3'), 'no', '')
+  on conflict (profile_id) do nothing;
+insert into price_survey (profile_id, price_cents, answer, wants) values ('6f8af8f2-632e-57d6-b01e-705195e4132f', survey_price('6f8af8f2-632e-57d6-b01e-705195e4132f'), 'no', '')
+  on conflict (profile_id) do nothing;
+insert into price_survey (profile_id, price_cents, answer, wants) values ('29f4dd0f-206d-5413-a55f-b91340e3e561', survey_price('29f4dd0f-206d-5413-a55f-b91340e3e561'), 'no', '')
+  on conflict (profile_id) do nothing;
+insert into price_survey (profile_id, price_cents, answer, wants) values ('c6512930-0382-50bb-b18a-db918ff78f26', survey_price('c6512930-0382-50bb-b18a-db918ff78f26'), 'no', '')
+  on conflict (profile_id) do nothing;
+insert into price_survey (profile_id, price_cents, answer, wants) values ('d60940aa-e2b9-5be9-b000-dcbf4cf769e2', survey_price('d60940aa-e2b9-5be9-b000-dcbf4cf769e2'), 'maybe', '')
+  on conflict (profile_id) do nothing;
+insert into price_survey (profile_id, price_cents, answer, wants) values ('3dd979f4-93c0-5058-8eb7-8e06046c8682', survey_price('3dd979f4-93c0-5058-8eb7-8e06046c8682'), 'yes', '')
+  on conflict (profile_id) do nothing;
+update recipes set challenge_id = (select id from current_challenge()), challenge_week = current_week_start() where id = '3f0de9c8-e489-54ae-9da1-b4c419f90451';
+update recipes set challenge_id = (select id from current_challenge()), challenge_week = current_week_start() where id = '11014cbe-2751-5e01-9aac-a5db633adefc';
+update recipes set challenge_id = (select id from current_challenge()), challenge_week = current_week_start() where id = 'c612fda8-9ff6-59c3-ab67-4b303c0b4d8a';
+update profiles set premium_until = now() + interval '90 days' where id = 'ed48de41-79b0-595b-a0cd-984366f827e6';
+insert into family_books (id, name, owner_id, invite_code) values ('4ed2b6ca-009c-5aa3-87e7-4323f4cd3867', 'Famille Laurent', 'ed48de41-79b0-595b-a0cd-984366f827e6', 'LAURENT1') on conflict (id) do nothing;
+insert into family_members (book_id, profile_id, role) values ('4ed2b6ca-009c-5aa3-87e7-4323f4cd3867', 'ed48de41-79b0-595b-a0cd-984366f827e6', 'owner'), ('4ed2b6ca-009c-5aa3-87e7-4323f4cd3867', '67c5aecd-680b-5574-aa4c-082784fe7707', 'member') on conflict do nothing;
+insert into family_recipes (book_id, recipe_id, added_by, note) values ('4ed2b6ca-009c-5aa3-87e7-4323f4cd3867', '7fe979fb-9be5-5747-b26e-88fb796989cd', 'ed48de41-79b0-595b-a0cd-984366f827e6', 'Celui de mamie Jeanne, à Noël.') on conflict do nothing;
+insert into family_recipes (book_id, recipe_id, added_by, note) values ('4ed2b6ca-009c-5aa3-87e7-4323f4cd3867', 'd311b89b-5143-56e3-9090-f3d65f707025', 'ed48de41-79b0-595b-a0cd-984366f827e6', '') on conflict do nothing;
+insert into family_recipes (book_id, recipe_id, added_by, note) values ('4ed2b6ca-009c-5aa3-87e7-4323f4cd3867', '0cdd1fe9-6e85-52be-b135-ec0521845838', '67c5aecd-680b-5574-aa4c-082784fe7707', 'Ma version aux poires.') on conflict do nothing;
 commit;

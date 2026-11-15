@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { ActivityIndicator, StyleSheet, Text, View } from 'react-native';
+import { ActivityIndicator, Linking, StyleSheet, Text, View } from 'react-native';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { useVideoPlayer, VideoView } from 'expo-video';
 
@@ -7,13 +7,14 @@ import { useI18n } from '../../src/i18n';
 import { useSession } from '../../src/session';
 import { errorText, useStore } from '../../src/store';
 import { color, font, radius } from '../../src/theme';
-import { VISIBILITIES, type RecipeDetail, type ReportReason, type Visibility } from '../../src/types';
+import { VISIBILITIES, type Family, type RecipeDetail, type ReportReason, type Visibility } from '../../src/types';
+import { askForPushOnce } from '../../src/push';
 import { confirm } from '../../src/ui/confirm';
 import { BackButton, PrimaryButton, SecondaryButton } from '../../src/ui/controls';
 import { RecipeImage, Screen, SectionHeader } from '../../src/ui/primitives';
 import { Attribution, Empty, OptionSheet, RecipeMeta } from '../../src/ui/social';
 
-const REASONS: ReportReason[] = ['spam', 'offensive', 'copyright', 'dangerous', 'other'];
+const REASONS: ReportReason[] = ['allergen_missing', 'spam', 'offensive', 'copyright', 'dangerous', 'other'];
 
 function Video({ uri }: { uri: string }) {
   const player = useVideoPlayer(uri, (p) => {
@@ -34,13 +35,22 @@ export default function RecipeScreen() {
   const { toast } = useStore();
   const { api, me, cuisines, bump, version } = useSession();
   const [recipe, setRecipe] = useState<RecipeDetail | null | undefined>(undefined);
-  const [sheet, setSheet] = useState<'none' | 'save' | 'visibility' | 'report'>('none');
+  const [sheet, setSheet] = useState<'none' | 'save' | 'visibility' | 'report' | 'family'>('none');
   const [busy, setBusy] = useState(false);
+  const [families, setFamilies] = useState<Family[]>([]);
+
+  useEffect(() => {
+    api?.myFamilies().then(setFamilies).catch(() => setFamilies([]));
+  }, [api, version]);
 
   useEffect(() => {
     if (!api || !id) return;
     api.recipe(id).then(setRecipe).catch(() => setRecipe(null));
   }, [api, id, version]);
+
+  useEffect(() => {
+    if (api && id) void api.track('recipe_view', id);
+  }, [api, id]);
 
   if (recipe === undefined) {
     return <Screen><BackButton onPress={() => router.back()} /><ActivityIndicator color={color.plum} /></Screen>;
@@ -60,6 +70,8 @@ export default function RecipeScreen() {
     try {
       const copyId = await api.copy(recipe.id, visibility);
       bump();
+      // Le bon moment pour demander les notifications : une recette vient d'être enregistrée.
+      void askForPushOnce(api);
       toast(t('recipe.saved'));
       router.push(`/recipe/${copyId}`);
     } catch (e) {
@@ -107,6 +119,15 @@ export default function RecipeScreen() {
         <BackButton onDark onPress={() => router.back()} />
       </View>
 
+      {/* Le crédit exigé par la licence de la photo (CC BY, CC BY-SA…), là où elle s'affiche. */}
+      {recipe.cover_credit && !recipe.video_url ? (
+        <Text
+          style={s.photoCredit}
+          accessibilityRole={recipe.cover_source_url ? 'link' : undefined}
+          onPress={recipe.cover_source_url ? () => void Linking.openURL(recipe.cover_source_url!) : undefined}>
+          {recipe.cover_credit}
+        </Text>
+      ) : null}
       <View style={s.body}>
         <Text style={s.title}>{recipe.title}</Text>
         {recipe.native_name && recipe.native_name !== recipe.title ? <Text style={s.native}>{recipe.native_name}</Text> : null}
@@ -137,7 +158,22 @@ export default function RecipeScreen() {
         </View>
 
         {recipe.description ? <Text style={s.description}>{recipe.description}</Text> : null}
+        {mine && recipe.moderation_reason ? (
+          <Text style={s.moderated}>{t('recipe.moderated', { reason: recipe.moderation_reason })}</Text>
+        ) : null}
+        {recipe.modified_by ? (
+          <Text style={s.modified}>
+            {t('recipe.modifiedBanner', {
+              modifier: recipe.modified_by.display_name || recipe.modified_by.username,
+              creator: (recipe.credit ?? recipe.author).display_name || (recipe.credit ?? recipe.author).username,
+            })}
+          </Text>
+        ) : null}
         {contains ? <Text style={s.contains}>{t('recipe.contains', { list: contains })}</Text> : null}
+        <Text style={s.allergy}>{t('recipe.allergyWarning')}</Text>
+        {mine && families.length ? (
+          <Text style={s.family} onPress={() => setSheet('family')}>{t('recipe.addToFamily')} →</Text>
+        ) : null}
 
         <View style={s.section}>
           <SectionHeader
@@ -170,6 +206,18 @@ export default function RecipeScreen() {
       </View>
 
       <OptionSheet
+        visible={sheet === 'family'}
+        title={t('family.pick')}
+        options={families.map((b) => ({ value: b.id, label: b.name, sub: b.owner_premium ? undefined : t('family.lapsed') }))}
+        onPick={(bookId) => {
+          setSheet('none');
+          const book = families.find((b) => b.id === bookId);
+          api?.addToFamily(bookId, recipe.id, '').then(() => toast(t('recipe.addedToFamily', { name: book?.name ?? '' })))
+            .catch((e) => toast(errorText(e, t, t('common.wentWrong'))));
+        }}
+        onClose={() => setSheet('none')}
+      />
+      <OptionSheet
         visible={sheet === 'save'}
         title={t('recipe.saveSheet')}
         note={recipe.visibility !== 'public' ? t('visibility.clamped', { level: t(`visibility.${recipe.visibility}`) }) : undefined}
@@ -201,6 +249,7 @@ export default function RecipeScreen() {
 
 const s = StyleSheet.create({
   hero: { height: 300 },
+  photoCredit: { fontFamily: font.regular, fontSize: 11, color: color.mutedWarm, paddingHorizontal: 22, paddingTop: 6 },
   video: { width: '100%', height: 300, backgroundColor: '#000' },
   back: { position: 'absolute', top: 48, left: 16 },
   body: { paddingHorizontal: 22, paddingTop: 18 },
@@ -210,6 +259,16 @@ const s = StyleSheet.create({
   small: { fontFamily: font.regular, fontSize: 12.5, color: color.mutedWarm, marginTop: 6 },
   actions: { gap: 10, marginTop: 18 },
   description: { fontFamily: font.regular, fontSize: 14.5, lineHeight: 21, color: color.inkSoft, marginTop: 20 },
+  allergy: { fontFamily: font.regular, fontSize: 12, lineHeight: 17, color: color.mutedWarm, marginTop: 8 },
+  modified: {
+    fontFamily: font.medium, fontSize: 12.5, lineHeight: 18, color: color.inkSoft, backgroundColor: color.sand,
+    padding: 10, borderRadius: radius.md, marginTop: 14, overflow: 'hidden',
+  },
+  moderated: {
+    fontFamily: font.semibold, fontSize: 13, lineHeight: 19, color: '#fff', backgroundColor: color.ember,
+    padding: 10, borderRadius: radius.md, marginTop: 14, overflow: 'hidden',
+  },
+  family: { fontFamily: font.semibold, fontSize: 14, color: color.plum, marginTop: 14 },
   contains: {
     fontFamily: font.medium, fontSize: 12.5, color: color.emberMeta, backgroundColor: color.emberTint,
     padding: 10, borderRadius: radius.md, marginTop: 14, overflow: 'hidden',

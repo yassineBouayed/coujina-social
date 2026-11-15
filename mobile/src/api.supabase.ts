@@ -6,8 +6,9 @@
 import type { SupabaseClient } from '@supabase/supabase-js';
 
 import type {
-  Api, Country, Cuisine, Flag, Me, Person, Profile, Ranked, RecipeCard, RecipeDetail, Visibility,
+  Activity, Api, Challenge, Family, FamilyRecipe, ModerationItem, OpsWeek, Country, Cuisine, Flag, Me, Person, Profile, Ranked, RecipeCard, RecipeDetail, Suggestion, Visibility,
 } from './types';
+import { TERMS_VERSION } from './types';
 
 type Lang = 'fr' | 'en';
 type Row = Record<string, any>;
@@ -39,6 +40,9 @@ export const cardFrom = (row: Row, lang: Lang): RecipeCard => ({
   difficulty: row.difficulty,
   total_min: row.total_min ?? 0,
   cover_url: row.cover_url ?? null,
+  cover_credit: row.cover_credit ?? null,
+  cover_source_url: row.cover_source_url ?? null,
+  moderation_reason: row.moderation_reason ?? null,
   video_url: row.video_url ?? null,
   visibility: row.visibility,
   flags: row.dietary_flags ?? [],
@@ -70,6 +74,12 @@ export function createSupabaseApi(sb: SupabaseClient, userId: string, lang: Lang
       return {
         id: p.id, username: p.username, display_name: p.display_name, avatar_url: p.avatar_url ?? null,
         is_editorial: p.is_editorial, bio: p.bio ?? '', onboarded: !!p.onboarded_at,
+        analytics_opt_out: !!p.analytics_opt_out,
+        terms_version: p.terms_version ?? null,
+        diet_consent: !!p.diet_consent_at,
+        is_premium: !!p.premium_until && Date.parse(p.premium_until) > Date.now(),
+        is_moderator: !!p.is_moderator,
+        notify: { copies: p.notify_copies !== false, follows: p.notify_follows !== false, challenge: p.notify_challenge !== false },
         cuisines: ((check(cuisines) as Row[]) ?? []).map((r) => r.cuisine_slug),
         exclusions: ((check(exclusions) as Row[]) ?? []).map((r) => r.flag as Flag),
       };
@@ -195,5 +205,89 @@ export function createSupabaseApi(sb: SupabaseClient, userId: string, lang: Lang
       check(await sb.rpc('delete_my_account'));
       await sb.auth.signOut();
     },
+
+    // La mesure ne doit jamais casser un écran : une erreur ici est avalée.
+    track: async (name, recipeId) => {
+      await sb.rpc('track_event', { p_name: name, p_recipe: recipeId ?? null }).then(() => undefined, () => undefined);
+    },
+    setAnalyticsOptOut: async (optOut) => {
+      check(await sb.from('profiles').update({ analytics_opt_out: optOut }).eq('id', userId));
+    },
+    priceSurvey: async () => {
+      const row = ((check(await sb.rpc('price_survey_due')) as Row[]) ?? [])[0];
+      return { due: !!row?.due, price_cents: row?.price_cents ?? 399 };
+    },
+    answerPriceSurvey: async (answer, wants) => {
+      check(await sb.rpc('answer_price_survey', { p_answer: answer, p_wants: wants }));
+    },
+
+    challenge: async (): Promise<Challenge | null> => {
+      const rows = (check(await sb.rpc('current_challenge')) as Row[]) ?? [];
+      const c = rows[0];
+      return c ? { id: c.id, slug: c.slug, title: c.title, description: c.description, cuisine: c.cuisine ?? null } : null;
+    },
+    challengeEntries: async () =>
+      ((check(await sb.rpc('challenge_entries', { p_limit: 30 })) as Row[]) ?? []).map((r) => cardFrom(r, lang)),
+    joinChallenge: async (recipeId) => {
+      check(await sb.rpc('recipe_join_challenge', { p_recipe: recipeId }));
+    },
+    whoToFollow: async (): Promise<Suggestion[]> =>
+      ((check(await sb.rpc('who_to_follow', { p_limit: 10 })) as Row[]) ?? []).map((p) => ({
+        id: p.id, username: p.username, display_name: p.display_name, avatar_url: p.avatar_url ?? null,
+        is_editorial: p.is_editorial, shared_cuisines: p.shared_cuisines, public_recipes: p.public_recipes,
+      })),
+    activity: async (): Promise<Activity[]> =>
+      ((check(await sb.rpc('my_activity', { p_limit: 50 })) as Row[]) ?? []).map((a) => ({
+        kind: a.kind, at: a.at, is_new: a.is_new, recipe_id: a.recipe_id ?? null, recipe_title: a.recipe_title ?? null,
+        actor: { id: a.actor_id, username: a.actor_username, display_name: a.actor_name, avatar_url: null, is_editorial: false },
+      })),
+    activityUnread: async () => (check(await sb.rpc('activity_unread')) as number) ?? 0,
+    markActivitySeen: async () => {
+      check(await sb.rpc('activity_mark_seen'));
+    },
+    profileByUsername: async (username) => (check(await sb.rpc('profile_by_username', { p_username: username })) as string | null) ?? null,
+
+    acceptTerms: async (isOver15) => {
+      check(await sb.rpc('accept_terms', { p_version: TERMS_VERSION, p_is_15_or_more: isOver15 }));
+    },
+    giveDietConsent: async () => {
+      check(await sb.rpc('give_diet_consent'));
+    },
+    withdrawDietConsent: async () => {
+      check(await sb.rpc('withdraw_diet_consent'));
+    },
+    setNotify: async (patch) => {
+      const row: Row = {};
+      if (patch.copies !== undefined) row.notify_copies = patch.copies;
+      if (patch.follows !== undefined) row.notify_follows = patch.follows;
+      if (patch.challenge !== undefined) row.notify_challenge = patch.challenge;
+      check(await sb.from('profiles').update(row).eq('id', userId));
+    },
+    registerPushToken: async (token, platform) => {
+      check(await sb.rpc('register_push_token', { p_token: token, p_platform: platform }));
+    },
+
+    moderationQueue: async () => (check(await sb.rpc('moderation_queue')) as ModerationItem[]) ?? [],
+    hideRecipe: async (recipeId, reason) => {
+      check(await sb.rpc('moderation_hide_recipe', { p_recipe: recipeId, p_reason: reason }));
+    },
+    dismissReport: async (reportId) => {
+      check(await sb.rpc('moderation_dismiss', { p_report: reportId, p_note: '' }));
+    },
+    opsWeekly: async () => (check(await sb.rpc('ops_weekly', { p_weeks: 8 })) as OpsWeek[]) ?? [],
+
+    myFamilies: async () => (check(await sb.rpc('my_families')) as Family[]) ?? [],
+    createFamily: async (name) => check(await sb.rpc('family_create', { p_name: name })) as string,
+    joinFamily: async (code) => check(await sb.rpc('family_join', { p_code: code })) as string,
+    leaveFamily: async (bookId) => {
+      check(await sb.rpc('family_leave', { p_book: bookId }));
+    },
+    addToFamily: async (bookId, recipeId, note) => {
+      check(await sb.rpc('family_add_recipe', { p_book: bookId, p_recipe: recipeId, p_note: note }));
+    },
+    familyRecipes: async (bookId): Promise<FamilyRecipe[]> =>
+      ((check(await sb.rpc('family_book_recipes', { p_book: bookId })) as Row[]) ?? []).map((r) => ({
+        note: r.note ?? '', added_by_name: r.added_by_name ?? '', recipe: cardFrom(r.recipe, lang),
+      })),
   };
 }

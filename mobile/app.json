@@ -22,7 +22,14 @@
           "microphonePermission": "couJina utilise le micro pour le son de vos vidéos de recettes."
         }
       ],
-      "expo-video"
+      "expo-video",
+      [
+        "expo-notifications",
+        {
+          "color": "#7C2A55"
+        }
+      ],
+      "expo-sharing"
     ],
     "ios": {
       "supportsTablet": false,

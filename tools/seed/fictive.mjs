@@ -118,8 +118,14 @@ push('begin;');
 
 for (const p of personnes) {
   const id = userId(p.key);
-  push(`insert into profiles (id, username, display_name, bio, onboarded_at) values (${q(id)}, ${q(p.username)}, ${q(p.display_name)}, ${q(p.bio)}, ${p.onboarded ? "now() - interval '60 days'" : 'null'})
-  on conflict (id) do update set username = excluded.username, display_name = excluded.display_name, bio = excluded.bio, onboarded_at = excluded.onboarded_at;`);
+  // Une personne déjà passée par le premier lancement a accepté les CGU, déclaré
+  // ses 15 ans, et consenti aux interdits si elle en a donné.
+  const since = p.onboarded ? "now() - interval '60 days'" : 'null';
+  const consent = p.onboarded && p.exclusions.length ? since : 'null';
+  push(`insert into profiles (id, username, display_name, bio, onboarded_at, terms_version, terms_accepted_at, age_confirmed_at, diet_consent_at)
+  values (${q(id)}, ${q(p.username)}, ${q(p.display_name)}, ${q(p.bio)}, ${since}, ${p.onboarded ? 'current_terms_version()' : 'null'}, ${since}, ${since}, ${consent})
+  on conflict (id) do update set username = excluded.username, display_name = excluded.display_name, bio = excluded.bio, onboarded_at = excluded.onboarded_at,
+    terms_version = excluded.terms_version, terms_accepted_at = excluded.terms_accepted_at, age_confirmed_at = excluded.age_confirmed_at, diet_consent_at = excluded.diet_consent_at;`);
   push(`delete from profile_cuisines where profile_id = ${q(id)};`);
   if (p.cuisines.length) push(`insert into profile_cuisines (profile_id, cuisine_slug) select ${q(id)}, unnest(${arr(p.cuisines, 'text')});`);
   push(`delete from profile_exclusions where profile_id = ${q(id)};`);
@@ -173,6 +179,47 @@ for (const c of copies) {
 }
 
 push('update recipes r set copies_count = (select count(*) from recipe_copies c where c.source_id = r.id);');
+
+/* ------------------------------------------ la bêta à 20, en miniature */
+
+// Les personnes fictives jouent la cohorte de bêta : des ouvertures d'app sur
+// trois semaines (assez pour mesurer J+1 et J+7), et la question du prix.
+// Tom, compte neuf, n'en fait pas partie.
+const beta = personnes.filter((p) => p.onboarded);
+for (const p of beta) {
+  const id = q(userId(p.key));
+  push(`insert into beta_testers (profile_id, joined_on, note) values (${id}, current_date - 21, 'personne fictive') on conflict (profile_id) do nothing;`);
+  push(`delete from app_events where profile_id = ${id};`);
+  // Chacun ouvre l'app le premier jour, puis un nombre de jours tiré au sort.
+  const days = new Set([21]);
+  const loyalty = random();
+  for (let d = 20; d >= 0; d--) if (random() < loyalty) days.add(d);
+  push(`insert into app_events (profile_id, name, created_at) values\n  ${[...days].map((d) => `(${id}, 'app_open', now() - interval '${d} days')`).join(',\n  ')};`);
+}
+const ANSWERS = ['yes', 'maybe', 'no'];
+for (const p of beta.slice(0, 8)) {
+  push(`insert into price_survey (profile_id, price_cents, answer, wants) values (${q(userId(p.key))}, survey_price(${q(userId(p.key))}), ${q(pick(ANSWERS))}, '')
+  on conflict (profile_id) do nothing;`);
+}
+
+// Trois recettes écrites cette semaine, inscrites au défi en cours.
+const CHALLENGE_ENTRIES = ['curry-lea', 'dal-vegan-lea', 'dal-priya'];
+for (const key of CHALLENGE_ENTRIES) {
+  push(`update recipes set challenge_id = (select id from current_challenge()), challenge_week = current_week_start() where id = ${q(stableUuid(`own:${key}`))};`);
+}
+
+/* --------------------------------------------- le livre de famille (premium) */
+
+// Marie a l'abonnement et tient « Famille Laurent » avec Nadia ; son gratin
+// « Moi seul » y est rangé : Nadia le lit, personne d'autre.
+const FAMILY_ID = stableUuid('family:laurent');
+push(`update profiles set premium_until = now() + interval '90 days' where id = ${q(userId('marie'))};`);
+push(`insert into family_books (id, name, owner_id, invite_code) values (${q(FAMILY_ID)}, 'Famille Laurent', ${q(userId('marie'))}, 'LAURENT1') on conflict (id) do nothing;`);
+push(`insert into family_members (book_id, profile_id, role) values (${q(FAMILY_ID)}, ${q(userId('marie'))}, 'owner'), (${q(FAMILY_ID)}, ${q(userId('nadia'))}, 'member') on conflict do nothing;`);
+for (const [key, who, note] of [['gratin-marie', 'marie', 'Celui de mamie Jeanne, à Noël.'], ['tatin-marie', 'marie', ''], ['tatin-nadia', 'nadia', 'Ma version aux poires.']]) {
+  push(`insert into family_recipes (book_id, recipe_id, added_by, note) values (${q(FAMILY_ID)}, ${q(stableUuid(`own:${key}`))}, ${q(userId(who))}, ${q(note)}) on conflict do nothing;`);
+}
+
 push('commit;');
 write('fictive.generated.sql', sql.join('\n') + '\n');
 
@@ -191,11 +238,15 @@ const card = (r, extra) => ({
   id: r.id, title: r.title, native_name: r.native_name ?? null, description: r.description ?? '',
   cuisine: r.cuisine, country: r.country ?? null, meal_type: r.meal_type ?? null,
   difficulty: r.difficulty, prep_min: r.prep_min ?? null, cook_min: r.cook_min ?? null, servings: r.servings,
-  cover_url: r.cover_url ?? null, video_url: r.video ?? null, ...extra,
+  cover_url: r.cover_url ?? null, cover_credit: r.cover_credit ?? null, cover_source_url: r.cover_source_url ?? null,
+  video_url: r.video ?? null, ...extra,
 });
+
+const { defis } = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'challenges.json'), 'utf8'));
 
 const mock = {
   editorialId: EDITORIAL_ID,
+  challenges: defis.map((d) => ({ id: stableUuid(`challenge:${d.slug}`), slug: d.slug, position: d.position, title: d.title, description: d.description, cuisine: d.cuisine })),
   cuisines: cuisines().map((c) => ({ slug: c.slug, name_fr: c.name_fr, name_en: c.name_en, from: c.gradient_from, to: c.gradient_to })),
   countries: countries().map((c) => ({ slug: c.slug, name_fr: c.name_fr, name_en: c.name_en, flag: c.flag, cuisine: c.cuisine, lat: Number(c.lat), lng: Number(c.lng) })),
   users: [
@@ -218,9 +269,25 @@ const mock = {
         flags: [...new Set([...detectFlags(r.ingredients), ...(r.declared_flags ?? [])])].sort(), hours_ago: r.jours * 24 + 2,
         copied_from: src?.id ?? null, credit_author_id: src?.credit ?? null, modified_by_id: src ? r.author : null,
         ingredients: r.ingredients.map((l) => ({ raw: l, optional: false })),
+        in_challenge: CHALLENGE_ENTRIES.includes(r.key),
         steps: r.steps,
       });
     }),
+  ],
+  // Le livre de famille de Marie, son abonnement, et deux signalements à modérer (Amina est modératrice en démo).
+  premium: [userId('marie')],
+  moderators: [userId('amina')],
+  families: [{
+    id: FAMILY_ID, name: 'Famille Laurent', owner: userId('marie'), code: 'LAURENT1', members: [userId('marie'), userId('nadia')],
+    recipes: [
+      { recipe_id: stableUuid('own:gratin-marie'), added_by: userId('marie'), note: 'Celui de mamie Jeanne, à Noël.' },
+      { recipe_id: stableUuid('own:tatin-marie'), added_by: userId('marie'), note: '' },
+      { recipe_id: stableUuid('own:tatin-nadia'), added_by: userId('nadia'), note: 'Ma version aux poires.' },
+    ],
+  }],
+  reports: [
+    { id: stableUuid('report:1'), reporter: userId('sofia'), recipe_id: stableUuid('own:tacos-diego'), reason: 'allergen_missing', details: 'Sauce aux arachides non indiquée.', hours_ago: 5 },
+    { id: stableUuid('report:2'), reporter: userId('kenji'), recipe_id: stableUuid('own:shish-omar'), reason: 'spam', details: '', hours_ago: 30 },
   ],
   copies: [
     ...copies.map((c) => ({ id: c.id, source: c.source, copier: userId(c.copier), hours_ago: c.hoursAgo, visibility: c.visibility, modified: false })),

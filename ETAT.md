@@ -1,6 +1,6 @@
 # couJina social — état du projet
 
-> Mis à jour le 14/11/2026. Nouveau projet, né de l'ancien « application pour
+> Mis à jour le 15/11/2026 : points soulevés par le panel /shark, 1er passage (§5) et 2e passage (§6). Nouveau projet, né de l'ancien « application pour
 > famille » (couJina, gestion de foyer) : l'idée a changé, on garde ce qui sert
 > un **réseau social de cuisine grand public** et on laisse le reste.
 
@@ -10,7 +10,7 @@
 
 | Vérification | Résultat |
 |---|---|
-| `npm run db:test` — 3 migrations, 2 amorçages joués deux fois (idempotence), 7 fichiers de tests SQL | ✅ tout passe |
+| `npm run db:test` — 9 migrations, 2 amorçages joués deux fois (idempotence), 13 fichiers de tests SQL | ✅ tout passe |
 | `npm run typecheck` (TypeScript strict) dans `mobile/` | ✅ aucune erreur |
 | Application web en **mode démo** (sans Supabase), taille téléphone : connexion démo → cuisines → interdits → accueil → fiche → « Enregistrer » → globe (toucher, faire tourner) → tendances → attribution « modifiée par » | ✅ parcours joué dans le navigateur |
 | Projet Supabase réel, connexion Google / Apple / e-mail, envoi de photos et de vidéos, iPhone et Android | ❌ **jamais joué** : aucun projet Supabase n'existe encore pour ce produit |
@@ -23,7 +23,7 @@
 |---|---|---|
 | **Le livre : 1 039 recettes**, 16 cuisines, 50 pays, 5 continents | `data/recipes/**`, `data/*.psv` | Les pays ont reçu des coordonnées (lat/lng) pour le globe. Les recettes deviennent des publications du compte éditorial `@coujina`, en français. |
 | Le référentiel d'ingrédients et ses synonymes, et le **rattachement automatique** | `data/ingredients.psv`, `tools/probe/`, `tools/refdata/` | Sert désormais à calculer les **drapeaux alimentaires** de chaque recette. Nouveau drapeau `meat` (viande), déduit des catégories viandes / volailles / charcuterie : il rend possible « végétarien ». |
-| 1 008 **images candidates** Wikimedia | `plats-images.txt` | Copiées dans `cover_url`. ⚠️ Voir §4 : licences et pertinence à vérifier. |
+| 1 008 **images candidates** Wikimedia | `plats-images.txt` | Licence et auteur vérifiés auprès de Commons (`npm run images:credits`) : 774 affichées avec leur crédit, 230 masquées en attente de relecture, 3 retirées. Voir §5. |
 | La **charte** : couleurs, polices, logo J-louche, icônes, planches | `mobile/src/theme.ts`, `ui/Logo.tsx`, `assets/`, `design/` | Inchangée. Le nom couJina est gardé. |
 | Les composants d'interface (Screen, Card, Chip, Toggle, boutons, champ texte, toast) | `mobile/src/ui/` | Retrait des contrôles propres au stock. |
 | Le **français / anglais** (catalogue typé : une clé non traduite ne compile pas) | `mobile/src/i18n/` | Nouveau catalogue de messages. |
@@ -139,7 +139,7 @@
 
 - ❌ **Projet Supabase** de test puis de production : `supabase db push`, amorçage, fournisseurs Google / Apple / e-mail, modèles d'e-mail, URL de retour `coujinasocial://auth-callback`.
 - ❌ **Nouveau projet EAS** (le slug a changé : `coujina-social`) et identifiants `app.coujina.social`.
-- ❌ **Images Wikimedia** : elles sont sous licences Creative Commons qui **exigent l'attribution** (auteur, licence), et certaines ne montrent pas le bon plat (« Flan coco » → une photo de halo-halo). Il faut les relire une à une, afficher le crédit, ou les remplacer.
+- 🟡 **Images Wikimedia** : licences vérifiées et crédit affiché (§5). Reste la **relecture humaine** : `data/images/a-revoir.csv` liste 301 photos (230 masquées, 68 affichées mais incertaines, 3 retirées pour licence). Une photo jugée bonne s'ajoute à `data/images/valide.txt`. Même « sûre », une photo peut montrer un plat voisin (« Gratin de christophine » illustré par un gratin dauphinois).
 - ❌ **Médias privés** : le bucket est public. L'adresse d'une photo d'une recette « Moi seul » est lisible par qui la connaît. Passer aux URL signées.
 - ❌ **Conditions d'utilisation, politique de confidentialité, âge minimum** (15 ans en France sans accord parental), page de contact.
 - ❌ **Modération** : les signalements sont enregistrés, mais personne ne les lit — il faut un outil d'administration, et un filtrage automatique des textes et des images.
@@ -150,7 +150,7 @@
 
 - ❌ Vidéo : compression, miniature, envoi reprenable (le fichier est aujourd'hui lu entier en mémoire), quotas, nettoyage du stockage quand une recette est supprimée. Les copies pointent vers les fichiers de l'original : s'il les supprime, l'image disparaît chez les copieurs.
 - ❌ Recherche de recettes par mot (seule la recherche de personnes existe).
-- ❌ Notifications (nouvel abonné, recette copiée).
+- 🟡 Notifications : la page Activité existe (§5) ; les **notifications push**, non.
 - ❌ Protection contre les abus : limite de débit, comptes multiples pour gonfler les classements.
 - ❌ Suivi des plantages et des performances (Sentry ou équivalent), analytique respectueuse du consentement.
 - ❌ Intégration continue : `db:test` et `typecheck` à chaque commit.
@@ -158,3 +158,60 @@
 - ❌ Contenu en anglais : le livre est en français seulement (l'ancien projet avait les deux langues ; le nouveau schéma ne garde qu'une langue par recette).
 - ❌ Montée en charge : l'accueil et les classements sont calculés à la demande ; au-delà de quelques dizaines de milliers de recettes, il faudra des vues matérialisées.
 - ❌ Fiches App Store / Google Play à réécrire pour le nouveau produit.
+
+---
+
+## 5. Les points soulevés par le panel /shark (14/11/2026)
+
+Les cinq investisseurs fictifs de `/shark` ont dit non, pour des raisons qui
+se rangent en trois familles. Ce qui relève du code est fait ; ce qui relève
+d'une décision reste au fondateur.
+
+| Point soulevé | Par | Ce qui a été fait | Reste à faire |
+|---|---|---|---|
+| Photos dont on ne sait pas si on a le droit | Royalty | ✅ Licence et auteur demandés à Commons pour les 1 008 photos ; crédit stocké en base et affiché sous chaque photo (lien vers la page Commons) ; un crédit suit la photo dans les copies et tombe si l'auteur la change ; licences NC/ND/GFDL seule refusées ; photos sans lien avec le plat masquées (carte des langues berbères pour le berbéré, halo-halo pour le flan coco, une photo pour 5 plats). Test T-IMG. | Relire `data/images/a-revoir.csv` (301 photos) |
+| Aucun chiffre : qui paie, combien, coût par utilisateur, coût d'acquisition | Numbers, Tech Billionaire, Royalty | ✅ [docs/modele-economique.xlsx](docs/modele-economique.xlsx) : trois modèles (abonnement, publicité, recettes sponsorisées) × trois tailles, coûts et revenus sourcés, hypothèses modifiables, remboursement d'un utilisateur acquis. | **Choisir le modèle** — après la bêta |
+| Personne n'a essayé : publient-ils, suivent-ils, reviennent-ils, paieraient-ils ? | Customer, Skeptic | ✅ Mesure des visites (désactivable), question du prix à 2,99 / 3,99 / 4,99 € posée après 3 jours d'usage, cohorte `beta_testers`, `npm run beta:report` (publient, suivent, J+1, J+7, oui au prix). Protocole : [docs/beta-20-cuisiniers.md](docs/beta-20-cuisiniers.md). Test T-MES. | **Recruter les 20 cuisiniers** et faire la bêta |
+| Un réseau vide le premier mois | Skeptic, Customer | ✅ Défi de la semaine (12 thèmes qui tournent tout seuls, inscription depuis l'éditeur), « Des cuisiniers à suivre » sur l'accueil, page Activité (« X a copié votre recette »), bouton « Inviter des amis » et lien `coujinasocial://u/<nom>`. Test T-VIDE. | Notifications push ; lien d'invitation web (le lien actuel n'ouvre que l'app déjà installée) |
+| « Avez-vous déjà abandonné un projet ? » | Tech Billionaire, Skeptic | — | Décision du fondateur : temps, budget, échéance qu'il s'engage à tenir |
+
+**Ce que le modèle économique dit, avec ses hypothèses actuelles** : à 10 000
+utilisateurs actifs, l'abonnement couvre à peine les coûts (+8 €/mois), la
+publicité dégage le plus (+1 815 €/mois, mais sur un revenu publicitaire mal
+sourcé), et **aucun modèle ne rembourse rapidement un utilisateur acquis par
+publicité payante** (46 mois au mieux). La croissance devra venir du
+bouche-à-oreille — défis et invitations — et c'est ce que la bêta doit mesurer
+avant toute dépense.
+
+---
+
+## 6. Le 2e passage du panel /shark (15/11/2026)
+
+Cinq « non » au deuxième passage, cette fois sur la conformité, les opérations,
+le marché et l'engagement. Les décisions ont été prises une à une (séance de
+questions du 15/11) ; voici ce qui en est fait.
+
+| Point soulevé | Par | Décision | Fait | Reste |
+|---|---|---|---|---|
+| Choix alimentaires = données sensibles (RGPD art. 9), sans consentement | Legal | Consentement explicite, daté, retirable ; hébergement UE | ✅ Écran d'explication avant la question, « Passer » possible ; la base **refuse** tout interdit sans accord ; retrait dans le profil = effacement. Test T-LEG. | Choisir la région UE du projet Supabase |
+| Pas de CGU, pas de politique de confidentialité, âge | Legal | 15 ans, déclaratif ; couJina hébergeur | ✅ Premiers jets dans [docs/legal/](docs/legal), embarqués dans l'app ; écran « Avant de commencer » (rien de pré-coché) ; la base refuse sans les 15 ans ; nouvelle version des CGU = nouvelle acceptation. | **Relecture par un juriste** (≈ 600 €), compléter les [À COMPLÉTER] |
+| Responsabilité des allergènes sur les copies modifiées | Legal | Hébergeur + avertissements | ✅ Avertissement permanent sur chaque fiche ; bandeau sur les copies modifiées ; motif de signalement « allergène manquant » ; CGU art. 4. | Validation juriste |
+| Pas d'outil de modération (Apple, DSA) | Legal, Operator | Fondateur seul, 2 h/semaine, 24 h | ✅ Rôle modérateur (posé en SQL), file des signalements, masquage **motivé** que l'auteur lit (DSA art. 17), une recette masquée disparaît partout et ne se copie plus, feuille d'opérations (`ops_weekly`). Test T-MOD. | Contestation : par e-mail pour l'instant |
+| Qui fait le travail chaque semaine ? | Operator | Le fondateur, 2 h | ✅ [docs/operations-hebdo.md](docs/operations-hebdo.md) : tâches, temps, feuille à remplir | La remplir pendant la bêta |
+| Rien derrière le prix | Customer | Le livre de famille | ✅ Cercle privé (un abonnement par famille, rejoindre gratuit, 30 personnes), les recettes « Moi seul » rangées visibles des membres seulement, export en livre PDF (crédits compris). La question du prix le nomme. Test T-FAM. | Achat dans les magasins (RevenueCat) ; pendant la bêta, Premium offert à la main |
+| Rien ne fait revenir le 2e jour | Customer | Notifications push sobres | ✅ Trois cas, une par 20 h, regroupée, rien entre 21 h et 9 h, réglables ; permission demandée après la 1re recette enregistrée ; fonction d'envoi `push-dispatch`. Test T-NOT. | Projet EAS (le jeton Expo en a besoin), planifier l'envoi (supabase/functions/README.md), essai sur téléphone |
+| Concurrents, pays, public | Market | Diaspora francophone ; France + Belgique d'abord | ✅ [docs/concurrents.md](docs/concurrents.md) — **à retenir** : des apps de livre de famille existent déjà ; l'angle de couJina est la combinaison réseau + généalogie des recettes + diaspora francophone | Vérifier les fiches concurrentes dans les apps |
+| Pourquoi maintenant, quel rempart | Market | La communauté et les livres de famille remplis | ✅ Question dédiée dans le formulaire de recrutement | La mesurer |
+| Où trouver 20 cuisiniers, quand | Operator, Customer | Annonce 200 € + formulaire, 30 invités | ✅ [docs/recrutement-beta.md](docs/recrutement-beta.md) : ciblage, formulaire, calendrier (bêta 13/01 → 10/02/2027) | Lancer l'annonce le 01/12/2026 |
+| Un seul payeur, une preuve d'argent | Tech Billionaire | Abonnement premium ; 5 messages à des marques en parallèle | ✅ [docs/messages-marques.md](docs/messages-marques.md) | Choisir les 5 marques, envoyer |
+| « Business ou hobby ? » | Tech Billionaire | 10 h/semaine, 1 500 €, décision au 31/03/2027 | ✅ [docs/engagement.md](docs/engagement.md) : budget détaillé, règle de décision | La tenir |
+
+**Vérifié** : 13 fichiers de tests SQL, typage, et dans le navigateur (mode
+démo) : le parcours de Tom (CGU → cuisines → accord → interdits → accueil), le
+livre de Marie et son export (contenu des 3 pages vérifié), la file de
+modération d'Amina. **Pas vérifié** : l'impression PDF et les notifications sur
+un vrai téléphone, l'envoi réel par Expo.
+
+**Corrigé en chemin** : sur le web, `expo-print` ignore le HTML et imprime la
+page en cours ; l'export ouvre désormais le livre dans sa propre fenêtre.
+

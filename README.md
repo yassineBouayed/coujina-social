@@ -6,6 +6,12 @@ auteur, et que l'on partage avec qui l'on veut.
 
 - **[ETAT.md](ETAT.md)** — ce qui est fait, ce qui ne l'est pas, ce qui manque pour la production.
 - **[docs/plan-de-test.md](docs/plan-de-test.md)** — le plan de test et les données fictives.
+- **[docs/modele-economique.xlsx](docs/modele-economique.xlsx)** — qui paie ? trois modèles chiffrés, hypothèses sourcées et modifiables.
+- **[docs/beta-20-cuisiniers.md](docs/beta-20-cuisiniers.md)** — le protocole de la bêta, et les chiffres qui décident.
+- **[data/images/](data/images)** — le crédit de chaque photo du livre, et la liste à relire.
+- **[docs/legal/](docs/legal)** — CGU et politique de confidentialité (projets à faire relire par un juriste ; `npm run legal:build` les embarque dans l'app).
+- **[docs/concurrents.md](docs/concurrents.md)**, **[docs/recrutement-beta.md](docs/recrutement-beta.md)**, **[docs/engagement.md](docs/engagement.md)**, **[docs/operations-hebdo.md](docs/operations-hebdo.md)**, **[docs/messages-marques.md](docs/messages-marques.md)** — les réponses au 2e passage du panel.
+- **[supabase/functions/](supabase/functions)** — l'envoi des notifications push.
 - **[mobile/](mobile)** — l'application Expo / React Native (SDK 57).
 - **[supabase/](supabase)** — le schéma (migrations), les tests SQL, l'amorçage généré.
 - **[data/](data)** — le livre de 1 039 recettes, les cuisines, les pays, le référentiel d'ingrédients, et [`data/fictive/`](data/fictive) : les personnes et recettes fictives.
@@ -33,6 +39,8 @@ Et : `sign-in`, `onboarding/cuisines` puis `onboarding/diet`, `recipe/[id]`,
 npm install
 npm run seed       # -> supabase/seed/*.generated.sql et mobile/src/mock/mock.generated.ts
 npm run db:test    # PostgreSQL embarqué : migrations, amorçage x2, tests SQL
+npm run images:credits   # licence et auteur de chaque photo, auprès de Wikimedia Commons
+DATABASE_URL=… npm run beta:report   # les chiffres de la bêta (projet Supabase)
 ```
 
 ```bash

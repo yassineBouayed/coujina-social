@@ -4,14 +4,15 @@ import { useLocalSearchParams, useRouter } from 'expo-router';
 import * as ImagePicker from 'expo-image-picker';
 
 import { useI18n } from '../../src/i18n';
+import { askForPushOnce } from '../../src/push';
 import { useSession } from '../../src/session';
 import { errorText, useStore } from '../../src/store';
 import { color, font, radius } from '../../src/theme';
 import {
   DIFFICULTIES, FLAGS, VISIBILITIES,
-  type Country, type Difficulty, type Flag, type RecipeDetail, type RecipeInput, type Visibility,
+  type Challenge, type Country, type Difficulty, type Flag, type RecipeDetail, type RecipeInput, type Visibility,
 } from '../../src/types';
-import { BackButton, Chip, PrimaryButton, SecondaryButton, TextField } from '../../src/ui/controls';
+import { BackButton, Chip, PrimaryButton, SecondaryButton, TextField, Toggle } from '../../src/ui/controls';
 import { Note, Screen, SectionHeader, Title } from '../../src/ui/primitives';
 
 const MAX_VIDEO_SECONDS = 180;
@@ -24,7 +25,7 @@ type Line = { raw: string; optional: boolean };
  * modifiée par moi ».
  */
 export default function EditRecipe() {
-  const { id, from } = useLocalSearchParams<{ id?: string; from?: string }>();
+  const { id, from, challenge: fromChallenge } = useLocalSearchParams<{ id?: string; from?: string; challenge?: string }>();
   const router = useRouter();
   const { t } = useI18n();
   const { toast } = useStore();
@@ -50,10 +51,13 @@ export default function EditRecipe() {
   const [video, setVideo] = useState<string | null>(null);
   const [uploading, setUploading] = useState<'photo' | 'video' | null>(null);
   const [saving, setSaving] = useState(false);
+  const [challenge, setChallenge] = useState<Challenge | null>(null);
+  const [joinChallenge, setJoinChallenge] = useState(!!fromChallenge);
 
   useEffect(() => {
     if (!api) return;
     api.globe().then(setCountries).catch(() => undefined);
+    api.challenge().then(setChallenge).catch(() => setChallenge(null));
     const start = id ?? from;
     if (!start) return;
     api.recipe(start).then((r) => {
@@ -121,6 +125,12 @@ export default function EditRecipe() {
     setSaving(true);
     try {
       const saved = await api.save(id ?? null, input, from ?? null);
+      void askForPushOnce(api);
+      // Une recette inscrite au défi doit être visible : une recette « Moi seul » n'y paraîtrait pas.
+      if (joinChallenge && challenge && visibility !== 'private') {
+        await api.joinChallenge(saved);
+        toast(t('challenge.joined'));
+      }
       bump();
       toast(t('edit.saved'));
       router.replace(`/recipe/${saved}`);
@@ -270,6 +280,13 @@ export default function EditRecipe() {
         ) : null}
       </Section>
 
+      {challenge ? (
+        <View style={[s.challengeRow, s.gapLarge]}>
+          <Text style={s.challengeLabel}>{t('challenge.joinToggle', { title: challenge.title })}</Text>
+          <Toggle label={t('challenge.joinToggle', { title: challenge.title })} value={joinChallenge && visibility !== 'private'} onPress={() => setJoinChallenge((v) => !v)} />
+        </View>
+      ) : null}
+
       <PrimaryButton label={t('edit.publish')} busy={saving} disabled={!!uploading} onPress={submit} style={s.gapLarge} />
     </Screen>
   );
@@ -312,6 +329,8 @@ const s = StyleSheet.create({
   chipsWrap: { flexDirection: 'row', flexWrap: 'wrap', gap: 8 },
   numbers: { flexDirection: 'row', gap: 10, marginTop: 24 },
   line: { flexDirection: 'row', alignItems: 'center', gap: 8, marginBottom: 8 },
+  challengeRow: { flexDirection: 'row', alignItems: 'center', gap: 12 },
+  challengeLabel: { flex: 1, fontFamily: font.medium, fontSize: 14, lineHeight: 19, color: color.ink },
   optionalToggle: { fontFamily: font.medium, fontSize: 11.5, color: color.muted, paddingHorizontal: 6 },
   optionalOn: { color: color.plum },
   remove: { fontSize: 16, color: color.muted, paddingHorizontal: 6 },

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { Pressable, Share, StyleSheet, Text, View } from 'react-native';
 import { useRouter } from 'expo-router';
 
 import { useAuth } from '../../src/auth';
@@ -8,7 +8,7 @@ import { useSession } from '../../src/session';
 import { errorText, useStore } from '../../src/store';
 import { color, font } from '../../src/theme';
 import type { Profile } from '../../src/types';
-import { SecondaryButton } from '../../src/ui/controls';
+import { SecondaryButton, Toggle } from '../../src/ui/controls';
 import { Card, CardRow, Screen, SectionHeader } from '../../src/ui/primitives';
 import { confirm } from '../../src/ui/confirm';
 import { ProfileHeader } from '../../src/ui/ProfileHeader';
@@ -20,13 +20,24 @@ export default function MyProfile() {
   const router = useRouter();
   const { toast } = useStore();
   const auth = useAuth();
-  const { api, me, cuisineName, version } = useSession();
+  const { tn } = useI18n();
+  const { api, me, cuisineName, version, refreshMe, bump } = useSession();
   const [profile, setProfile] = useState<Profile | null>(null);
+  const [unread, setUnread] = useState(0);
 
   useEffect(() => {
     if (!api || !me) return;
     api.profile(me.id).then(setProfile).catch(() => setProfile(null));
+    api.activityUnread().then(setUnread).catch(() => setUnread(0));
   }, [api, me, version]);
+
+  const invite = () => {
+    if (!api || !me) return;
+    void api.track('share_invite');
+    void Share.share({
+      message: t('invite.message', { username: me.username, link: `coujinasocial://u/${me.username}` }),
+    });
+  };
 
   if (!me) return <Screen><DemoBanner /></Screen>;
 
@@ -52,7 +63,23 @@ export default function MyProfile() {
         />
       ) : null}
 
-      <Text style={s.search} onPress={() => router.push('/search')}>{t('profile.search')} →</Text>
+      <View style={s.section}>
+        <Card>
+          {row(
+            t('activity.title'),
+            unread ? tn('activity.unread', unread) : '—',
+            () => router.push('/activity'),
+            true,
+          )}
+          {row(t('profile.family'), me.is_premium ? 'Premium' : '—', () => router.push('/family'))}
+          {me.is_moderator ? row(t('profile.moderation'), '', () => router.push('/moderation')) : null}
+        </Card>
+      </View>
+
+      <View style={s.links}>
+        <Text style={s.search} onPress={() => router.push('/search')}>{t('profile.search')} →</Text>
+        <Text style={s.search} onPress={invite}>{t('invite.button')} →</Text>
+      </View>
 
       <View style={s.section}>
         <SectionHeader label={t('profile.preferences')} />
@@ -69,6 +96,41 @@ export default function MyProfile() {
             () => router.push({ pathname: '/onboarding/cuisines', params: { edit: '1' } }),
           )}
         </Card>
+        {me.diet_consent ? (
+          <Text
+            style={s.withdraw}
+            onPress={() =>
+              confirm(t('consent.withdrawConfirm'), { ok: t('consent.withdraw'), cancel: t('common.cancel') }, () => {
+                api?.withdrawDietConsent()
+                  .then(() => refreshMe())
+                  .then(() => {
+                    bump();
+                    toast(t('consent.withdrawn'));
+                  })
+                  .catch((e) => toast(errorText(e, t, t('common.wentWrong'))));
+              })
+            }>
+            {t('consent.withdraw')}
+          </Text>
+        ) : null}
+      </View>
+
+      <View style={s.section}>
+        <SectionHeader label={t('profile.notifications')} />
+        <Card>
+          {(['copies', 'follows', 'challenge'] as const).map((k, i) => (
+            <CardRow key={k} first={i === 0} style={s.row}>
+              <Text style={[s.rowLabel, { flex: 1 }]}>{t(`notify.${k}`)}</Text>
+              <Toggle
+                label={t(`notify.${k}`)}
+                value={me.notify[k]}
+                onPress={() => {
+                  api?.setNotify({ [k]: !me.notify[k] }).then(refreshMe).catch((e) => toast(errorText(e, t, t('common.wentWrong'))));
+                }}
+              />
+            </CardRow>
+          ))}
+        </Card>
       </View>
 
       <View style={s.section}>
@@ -82,6 +144,32 @@ export default function MyProfile() {
             { value: 'system', label: t('profile.language.system') },
           ]}
         />
+      </View>
+
+      <View style={s.section}>
+        <Card>
+          <CardRow first style={s.row}>
+            <View style={{ flex: 1 }}>
+              <Text style={s.rowLabel}>{t('profile.analytics')}</Text>
+              <Text style={s.rowValue}>{t('profile.analytics.sub')}</Text>
+            </View>
+            <Toggle
+              label={t('profile.analytics')}
+              value={!me.analytics_opt_out}
+              onPress={() => {
+                api
+                  ?.setAnalyticsOptOut(!me.analytics_opt_out)
+                  .then(refreshMe)
+                  .catch((e) => toast(errorText(e, t, t('common.wentWrong'))));
+              }}
+            />
+          </CardRow>
+        </Card>
+      </View>
+
+      <View style={s.links}>
+        <Text style={s.search} onPress={() => router.push('/legal/cgu')}>{t('legal.cgu')} →</Text>
+        <Text style={s.search} onPress={() => router.push('/legal/privacy')}>{t('legal.privacy')} →</Text>
       </View>
 
       <View style={s.section}>
@@ -107,7 +195,9 @@ export default function MyProfile() {
 }
 
 const s = StyleSheet.create({
-  search: { fontFamily: font.semibold, fontSize: 14, color: color.plum, marginTop: 18 },
+  links: { marginTop: 18, gap: 12 },
+  withdraw: { fontFamily: font.medium, fontSize: 13, color: color.ember, marginTop: 10 },
+  search: { fontFamily: font.semibold, fontSize: 14, color: color.plum },
   section: { marginTop: 26 },
   row: { paddingVertical: 13 },
   rowLabel: { fontFamily: font.medium, fontSize: 14.5, color: color.ink },

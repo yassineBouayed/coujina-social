@@ -6,8 +6,11 @@
  * les 1 039 recettes du livre, toutes publiques. Idempotent : rejoué, il ne
  * double rien.
  */
+import fs from 'node:fs';
+import path from 'node:path';
+
 import {
-  EDITORIAL_ID, arr, continents, countries, cuisines, ingredientTerms, loadBook, num, q, write,
+  EDITORIAL_ID, ROOT, arr, continents, countries, cuisines, ingredientTerms, loadBook, num, q, stableUuid, write,
 } from './shared.mjs';
 
 const out = [];
@@ -39,11 +42,18 @@ push(`insert into profiles (id, username, display_name, bio, is_editorial, onboa
   values (${q(EDITORIAL_ID)}, 'coujina', 'Le livre couJina', 'Les recettes de référence de couJina, de 50 pays.', true, now())
   on conflict (id) do update set username = excluded.username, display_name = excluded.display_name, bio = excluded.bio, is_editorial = true;`);
 
+// Les défis de la semaine (data/challenges.json).
+const { defis } = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'challenges.json'), 'utf8'));
+for (const d of defis) {
+  push(`insert into challenges (id, slug, position, title, description, cuisine) values (${q(stableUuid(`challenge:${d.slug}`))}, ${q(d.slug)}, ${num(d.position)}, ${q(d.title)}, ${q(d.description)}, ${q(d.cuisine)})
+  on conflict (slug) do update set position = excluded.position, title = excluded.title, description = excluded.description, cuisine = excluded.cuisine;`);
+}
+
 const book = loadBook();
 for (const r of book) {
-  push(`insert into recipes (id, author_id, slug, title, native_name, description, cuisine, country, meal_type, difficulty, prep_min, cook_min, servings, lang, visibility, cover_url, dietary_flags, created_at, updated_at)
-  values (${q(r.id)}, ${q(EDITORIAL_ID)}, ${q(r.slug)}, ${q(r.title)}, ${q(r.native_name)}, ${q(r.description)}, ${q(r.cuisine)}, ${q(r.country)}, ${q(r.meal_type)}, ${q(r.difficulty)}, ${num(r.prep_min)}, ${num(r.cook_min)}, ${num(r.servings)}, 'fr', 'public', ${q(r.cover_url)}, ${arr(r.flags, 'dietary_flag')}, now() - interval '${r.days_ago} days', now() - interval '${r.days_ago} days')
-  on conflict (id) do update set title = excluded.title, native_name = excluded.native_name, description = excluded.description, cuisine = excluded.cuisine, country = excluded.country, meal_type = excluded.meal_type, difficulty = excluded.difficulty, prep_min = excluded.prep_min, cook_min = excluded.cook_min, servings = excluded.servings, cover_url = excluded.cover_url, dietary_flags = excluded.dietary_flags;`);
+  push(`insert into recipes (id, author_id, slug, title, native_name, description, cuisine, country, meal_type, difficulty, prep_min, cook_min, servings, lang, visibility, cover_url, cover_credit, cover_license, cover_source_url, dietary_flags, created_at, updated_at)
+  values (${q(r.id)}, ${q(EDITORIAL_ID)}, ${q(r.slug)}, ${q(r.title)}, ${q(r.native_name)}, ${q(r.description)}, ${q(r.cuisine)}, ${q(r.country)}, ${q(r.meal_type)}, ${q(r.difficulty)}, ${num(r.prep_min)}, ${num(r.cook_min)}, ${num(r.servings)}, 'fr', 'public', ${q(r.cover_url)}, ${q(r.cover_credit)}, ${q(r.cover_license)}, ${q(r.cover_source_url)}, ${arr(r.flags, 'dietary_flag')}, now() - interval '${r.days_ago} days', now() - interval '${r.days_ago} days')
+  on conflict (id) do update set title = excluded.title, native_name = excluded.native_name, description = excluded.description, cuisine = excluded.cuisine, country = excluded.country, meal_type = excluded.meal_type, difficulty = excluded.difficulty, prep_min = excluded.prep_min, cook_min = excluded.cook_min, servings = excluded.servings, cover_url = excluded.cover_url, cover_credit = excluded.cover_credit, cover_license = excluded.cover_license, cover_source_url = excluded.cover_source_url, dietary_flags = excluded.dietary_flags;`);
   push(`delete from recipe_ingredients where recipe_id = ${q(r.id)};`);
   if (r.ingredients.length) push(`insert into recipe_ingredients (recipe_id, position, raw, qty, unit, item, optional, group_name) values\n  ${r.ingredients
     .map((l, i) => `(${q(r.id)}, ${i}, ${q(l.raw)}, ${num(l.qty)}, ${q(l.unit)}, ${q(l.item)}, ${l.optional}, ${q(l.group)})`)
@@ -59,7 +69,8 @@ write('catalog.generated.sql', out.join('\n') + '\n');
 
 const flagged = book.filter((r) => r.flags.length).length;
 const withImage = book.filter((r) => r.cover_url).length;
+const hidden = book.filter((r) => r.image_status === 'a-revoir').length;
 const noCountry = book.filter((r) => !r.country).length;
-console.log(`${book.length} recettes, ${flagged} avec au moins un drapeau, ${withImage} avec une image candidate, ${noCountry} sans pays`);
+console.log(`${book.length} recettes, ${flagged} avec au moins un drapeau, ${withImage} avec une photo créditée, ${hidden} photos masquées en attente de relecture, ${noCountry} sans pays`);
 console.log(`${terms.size} termes d'ingrédients`);
 console.log('-> supabase/seed/catalog.generated.sql');

@@ -114,7 +114,7 @@ export function RecipeCardView({ recipe, badge, style }: { recipe: Card; badge?:
 }
 
 /** La petite carte, deux par ligne (profils, Mes recettes, pays). */
-export function RecipeTile({ recipe, corner }: { recipe: Card; corner?: string }) {
+export function RecipeTile({ recipe, corner, style }: { recipe: Card; corner?: string; style?: StyleProp<ViewStyle> }) {
   const router = useRouter();
   const gradient = useGradient(recipe.cuisine);
   const { t } = useI18n();
@@ -123,7 +123,7 @@ export function RecipeTile({ recipe, corner }: { recipe: Card; corner?: string }
       accessibilityRole="button"
       accessibilityLabel={recipe.title}
       onPress={() => router.push(`/recipe/${recipe.id}`)}
-      style={(p) => [s.tile, pressed(p)]}>
+      style={(p) => [s.tile, pressed(p), style]}>
       <RecipeImage cuisine={recipe.cuisine ?? undefined} gradient={gradient} uri={recipe.cover_url} style={s.tileImage}>
         {recipe.video_url ? <Text style={s.tilePlay}>▶</Text> : null}
         {corner ? <Text style={s.corner}>{corner}</Text> : null}
