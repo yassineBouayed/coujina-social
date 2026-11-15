@@ -91,6 +91,7 @@ export function createMockApi(userId: string, lang: Lang): Api {
   const terms = new Map<string, string | null>(MOCK.users.map((u) => [u.id, u.onboarded ? TERMS_VERSION : null]));
   const consent = new Set(MOCK.users.filter((u) => u.exclusions.length).map((u) => u.id));
   let notify = { copies: true, follows: true, challenge: true };
+  const paid = new Set<string>(MOCK.premium);
   const families = MOCK.families.map((b) => ({ ...b, members: [...b.members], recipes: b.recipes.map((r) => ({ ...r })) }));
   const reports = MOCK.reports.map((r) => ({ ...r, open: true }));
   const hidden = new Map<string, string>();
@@ -163,7 +164,10 @@ export function createMockApi(userId: string, lang: Lang): Api {
       const u = me();
       return {
         ...person(u.id)!, bio: u.bio, onboarded: u.onboarded, analytics_opt_out: optOut, cuisines: u.cuisines, exclusions: u.exclusions as Flag[],
-        terms_version: terms.get(u.id) ?? null, diet_consent: consent.has(u.id), is_premium: MOCK.premium.includes(u.id),
+        terms_version: terms.get(u.id) ?? null, diet_consent: consent.has(u.id),
+        // En démo : tout le monde est en essai, sauf ceux qui ont « payé ».
+        is_premium: true, trial_until: paid.has(u.id) ? null : new Date(now + 9 * 24 * HOUR).toISOString(),
+        premium_until: paid.has(u.id) ? new Date(now + 374 * 24 * HOUR).toISOString() : null, has_paid: paid.has(u.id),
         is_moderator: MOCK.moderators.includes(u.id), notify,
       };
     },
@@ -452,7 +456,6 @@ export function createMockApi(userId: string, lang: Lang): Api {
         members: b.members.length, recipes: b.recipes.length, owner_premium: MOCK.premium.includes(b.owner),
       })),
     createFamily: async (name) => {
-      if (!MOCK.premium.includes(s.me)) throw new Error('premium_required');
       const id = newId();
       families.push({ id, name: name.trim(), owner: s.me, code: id.slice(-8).toUpperCase(), members: [s.me], recipes: [] });
       return id;
@@ -475,12 +478,15 @@ export function createMockApi(userId: string, lang: Lang): Api {
     addToFamily: async (bookId, recipeId, note) => {
       const b = families.find((x) => x.id === bookId && x.members.includes(s.me));
       if (!b) throw new Error('family_not_found');
-      if (!MOCK.premium.includes(b.owner)) throw new Error('premium_required');
       const r = s.recipes.find((x) => x.id === recipeId);
       if (!r || r.author_id !== s.me) throw new Error('recipe_not_found');
       const existing = b.recipes.find((x) => x.recipe_id === recipeId);
       if (existing) existing.note = note;
       else b.recipes.push({ recipe_id: recipeId, added_by: s.me, note });
+    },
+    preorder: async () => {
+      paid.add(s.me);
+      return 'paid';
     },
     familyRecipes: async (bookId): Promise<FamilyRecipe[]> => {
       const b = families.find((x) => x.id === bookId && x.members.includes(s.me));

@@ -73,7 +73,10 @@ export default function Families() {
             <PrimaryButton label={t('family.create')} busy={busy === 'create'} disabled={!name.trim()} onPress={() => void run('create')} style={s.gap} />
           </>
         ) : (
-          <Note>{t('family.premium')}</Note>
+          <>
+            <Note>{t('family.premium')}</Note>
+            <PrimaryButton label={t('premium.title')} onPress={() => router.push('/premium')} style={s.gap} />
+          </>
         )}
       </View>
     </Screen>

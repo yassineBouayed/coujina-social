@@ -11,7 +11,8 @@ auteur, et que l'on partage avec qui l'on veut.
 - **[data/images/](data/images)** — le crédit de chaque photo du livre, et la liste à relire.
 - **[docs/legal/](docs/legal)** — CGU et politique de confidentialité (projets à faire relire par un juriste ; `npm run legal:build` les embarque dans l'app).
 - **[docs/concurrents.md](docs/concurrents.md)**, **[docs/recrutement-beta.md](docs/recrutement-beta.md)**, **[docs/engagement.md](docs/engagement.md)**, **[docs/operations-hebdo.md](docs/operations-hebdo.md)**, **[docs/messages-marques.md](docs/messages-marques.md)** — les réponses au 2e passage du panel.
-- **[supabase/functions/](supabase/functions)** — l'envoi des notifications push.
+- **[supabase/functions/](supabase/functions)** — l'envoi des notifications push, et la réception des paiements Stripe.
+- **[docs/mise-en-production.md](docs/mise-en-production.md)**, **[docs/planning-heures.md](docs/planning-heures.md)**, **[docs/consigne-moderation.md](docs/consigne-moderation.md)**, **[docs/legal/questions-juriste.md](docs/legal/questions-juriste.md)** — les réponses au 3e passage du panel.
 - **[mobile/](mobile)** — l'application Expo / React Native (SDK 57).
 - **[supabase/](supabase)** — le schéma (migrations), les tests SQL, l'amorçage généré.
 - **[data/](data)** — le livre de 1 039 recettes, les cuisines, les pays, le référentiel d'ingrédients, et [`data/fictive/`](data/fictive) : les personnes et recettes fictives.

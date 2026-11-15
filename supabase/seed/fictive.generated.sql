@@ -2135,6 +2135,22 @@ insert into price_survey (profile_id, price_cents, answer, wants) values ('d6094
   on conflict (profile_id) do nothing;
 insert into price_survey (profile_id, price_cents, answer, wants) values ('3dd979f4-93c0-5058-8eb7-8e06046c8682', survey_price('3dd979f4-93c0-5058-8eb7-8e06046c8682'), 'yes', '')
   on conflict (profile_id) do nothing;
+update profiles set trial_until = now() + interval '9 days' where id = '69e35bef-6695-5b4f-89f7-684f67bd404c';
+update profiles set trial_until = now() + interval '9 days' where id = 'ed018e6a-4007-5baf-bcf6-ab10a793deec';
+update profiles set trial_until = now() + interval '9 days' where id = 'f81498e9-a866-50d7-a546-e0792b54c0c3';
+update profiles set trial_until = now() + interval '9 days' where id = '6f8af8f2-632e-57d6-b01e-705195e4132f';
+update profiles set trial_until = now() + interval '9 days' where id = '29f4dd0f-206d-5413-a55f-b91340e3e561';
+update profiles set trial_until = now() + interval '9 days' where id = 'c6512930-0382-50bb-b18a-db918ff78f26';
+update profiles set trial_until = now() + interval '9 days' where id = 'd60940aa-e2b9-5be9-b000-dcbf4cf769e2';
+update profiles set trial_until = now() + interval '9 days' where id = '3dd979f4-93c0-5058-8eb7-8e06046c8682';
+update profiles set trial_until = now() + interval '9 days' where id = '6181e113-9005-5113-87e3-2c5e1ce00abb';
+update profiles set trial_until = now() + interval '9 days' where id = '67c5aecd-680b-5574-aa4c-082784fe7707';
+update profiles set trial_until = now() + interval '9 days' where id = 'ed48de41-79b0-595b-a0cd-984366f827e6';
+insert into preorders (profile_id, stripe_session_id, amount_cents, paid_at) values ('ed48de41-79b0-595b-a0cd-984366f827e6', 'cs_test_fictif_1', 2900, now() - interval '1 days') on conflict (stripe_session_id) do nothing;
+insert into preorders (profile_id, stripe_session_id, amount_cents, paid_at) values ('69e35bef-6695-5b4f-89f7-684f67bd404c', 'cs_test_fictif_2', 2900, now() - interval '2 days') on conflict (stripe_session_id) do nothing;
+insert into preorders (profile_id, stripe_session_id, amount_cents, paid_at) values ('67c5aecd-680b-5574-aa4c-082784fe7707', 'cs_test_fictif_3', 2900, now() - interval '3 days') on conflict (stripe_session_id) do nothing;
+insert into app_events (profile_id, name, created_at) values ('ed48de41-79b0-595b-a0cd-984366f827e6', 'family_export', now() - interval '5 days');
+insert into app_events (profile_id, name, created_at) values ('67c5aecd-680b-5574-aa4c-082784fe7707', 'family_export', now() - interval '5 days');
 update recipes set challenge_id = (select id from current_challenge()), challenge_week = current_week_start() where id = '3f0de9c8-e489-54ae-9da1-b4c419f90451';
 update recipes set challenge_id = (select id from current_challenge()), challenge_week = current_week_start() where id = '11014cbe-2751-5e01-9aac-a5db633adefc';
 update recipes set challenge_id = (select id from current_challenge()), challenge_week = current_week_start() where id = 'c612fda8-9ff6-59c3-ab67-4b303c0b4d8a';

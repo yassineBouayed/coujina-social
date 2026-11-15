@@ -202,6 +202,18 @@ for (const p of beta.slice(0, 8)) {
   on conflict (profile_id) do nothing;`);
 }
 
+// L'argent réel de la bêta : un essai de 30 jours pour chacun, trois
+// précommandes payées (identifiants Stripe fictifs), deux exports de livre.
+for (const p of beta) {
+  push(`update profiles set trial_until = now() + interval '9 days' where id = ${q(userId(p.key))};`);
+}
+for (const [key, n] of [['marie', 1], ['amina', 2], ['nadia', 3]]) {
+  push(`insert into preorders (profile_id, stripe_session_id, amount_cents, paid_at) values (${q(userId(key))}, 'cs_test_fictif_${n}', 2900, now() - interval '${n} days') on conflict (stripe_session_id) do nothing;`);
+}
+for (const key of ['marie', 'nadia']) {
+  push(`insert into app_events (profile_id, name, created_at) values (${q(userId(key))}, 'family_export', now() - interval '5 days');`);
+}
+
 // Trois recettes écrites cette semaine, inscrites au défi en cours.
 const CHALLENGE_ENTRIES = ['curry-lea', 'dal-vegan-lea', 'dal-priya'];
 for (const key of CHALLENGE_ENTRIES) {

@@ -1,6 +1,6 @@
 # couJina social — état du projet
 
-> Mis à jour le 15/11/2026 : points soulevés par le panel /shark, 1er passage (§5) et 2e passage (§6). Nouveau projet, né de l'ancien « application pour
+> Mis à jour le 15/11/2026 : points soulevés par le panel /shark, 1er (§5), 2e (§6) et 3e passage (§7). Nouveau projet, né de l'ancien « application pour
 > famille » (couJina, gestion de foyer) : l'idée a changé, on garde ce qui sert
 > un **réseau social de cuisine grand public** et on laisse le reste.
 
@@ -10,7 +10,7 @@
 
 | Vérification | Résultat |
 |---|---|
-| `npm run db:test` — 9 migrations, 2 amorçages joués deux fois (idempotence), 13 fichiers de tests SQL | ✅ tout passe |
+| `npm run db:test` — 11 migrations, 2 amorçages joués deux fois (idempotence), 14 fichiers de tests SQL ; `deno task test` (signature Stripe) | ✅ tout passe |
 | `npm run typecheck` (TypeScript strict) dans `mobile/` | ✅ aucune erreur |
 | Application web en **mode démo** (sans Supabase), taille téléphone : connexion démo → cuisines → interdits → accueil → fiche → « Enregistrer » → globe (toucher, faire tourner) → tendances → attribution « modifiée par » | ✅ parcours joué dans le navigateur |
 | Projet Supabase réel, connexion Google / Apple / e-mail, envoi de photos et de vidéos, iPhone et Android | ❌ **jamais joué** : aucun projet Supabase n'existe encore pour ce produit |
@@ -214,4 +214,31 @@ un vrai téléphone, l'envoi réel par Expo.
 
 **Corrigé en chemin** : sur le web, `expo-print` ignore le HTML et imprime la
 page en cours ; l'export ouvre désormais le livre dans sa propre fenêtre.
+
+---
+
+## 7. Le 3e passage du panel /shark (15/11/2026)
+
+Cinq « non », tous sur la même chose : **pas encore d'argent réel, pas encore de
+vrai téléphone, pas encore d'avis de juriste**. Ce qui relève du code et des
+chiffres est fait ; le reste est planifié, semaine par semaine.
+
+| Point soulevé | Par | Décision | Fait | Reste |
+|---|---|---|---|---|
+| « Je paie chaque mois un livre que j'imprime une fois » | Customer | **Abonnement annuel, 29 € par famille** | ✅ Prix, offre et question du prix (19 / 29 / 39 € par an) à l'année | — |
+| Un « oui » gratuit ne prouve rien | Customer, Tech Billionaire | **Essai 30 jours, puis précommande payée** (lien Stripe) | ✅ Écran Premium, essai, table `preorders`, fonction `stripe-webhook` (signature vérifiée, idempotente), rapport « Argent réel » (payé, payé après export) ; seuil de la bêta : **5 familles hors entourage qui ont payé**. Test T-PAY. | Compte Stripe, lien de paiement, webhook ([mise-en-production.md](docs/mise-en-production.md)) |
+| Qui saisit les recettes, en combien de temps | Customer | Le mesurer | ✅ Rapport : délai création du livre → 1re recette, recettes rangées par le créateur / par la famille | Les mesurer en bêta |
+| Le premier arachide manqué | Legal | **Masquage immédiat** au signalement | ✅ Une recette signalée « allergène manquant » disparaît aussitôt, jusqu'à vérification ; plafond anti-abus. Test T-ALL. | — |
+| Avis écrit d'un juriste | Legal | — | ✅ [docs/legal/questions-juriste.md](docs/legal/questions-juriste.md) : les questions précises à lui poser | L'envoyer (semaine du 30/11) |
+| Pas de bouton bloquer, pas de remplaçant | Legal, Operator | **Testeur référent bénévole** | ✅ Le blocage existait déjà (profil → ••• → Bloquer) ; consigne du remplaçant : [docs/consigne-moderation.md](docs/consigne-moderation.md) | Choisir le référent |
+| Qui fait quoi, et qu'est-ce qui saute | Operator | — | ✅ [docs/planning-heures.md](docs/planning-heures.md) : 13 semaines, 122 h sur 130, ordre de ce qui saute | Le tenir |
+| Coût d'une famille contre son prix | Operator | — | ✅ Onglet « Coût par famille » : **≈ 2,85 € par an** (photos, vidéos, frais de paiement) pour 24,17 € encaissés hors TVA | Le mesurer pour de vrai |
+| Pas de vrai serveur ni de vrai téléphone | Operator | — | ✅ [docs/mise-en-production.md](docs/mise-en-production.md) : pas-à-pas Supabase, fonctions, Stripe, EAS | **À faire** (semaines du 16 et 23/11) |
+| Chiffre de marché sourcé | Market | — | ✅ [docs/concurrents.md](docs/concurrents.md) : ≈ 7 millions de personnes d'origine africaine en France (Insee 2023-2024), 2,54 millions de Belges d'origine étrangère (Statbel 2024) — un **plafond**, pas une demande | La demande : la précommande la mesurera |
+
+**Ce que le tableur dit maintenant, sans complaisance** : à l'année, une famille
+rapporte ≈ 21 € de marge, mais il faut qu'**au moins 3,4 % des utilisateurs
+actifs paient** pour couvrir les coûts de tous (à 10 000 actifs), contre 2,1 %
+de conversion médiane dans le secteur. Le passage au prix annuel rend la
+question plus dure, pas plus facile : la bêta doit faire mieux que la médiane.
 

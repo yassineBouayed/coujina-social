@@ -275,3 +275,18 @@ Relancer `npm run seed:fictive` puis recharger la base **rafraîchit les dates**
 | T-NOT-05 | Couper « Quelqu'un enregistre mes recettes » | Plus de notification de copie | SQL |
 | T-NOT-06 | Un utilisateur tente de vider la file | Refusé | SQL |
 | T-NOT-07 | Première recette enregistrée sur un vrai téléphone | La permission est demandée à ce moment-là (pas avant) ; la notification touchée ouvre l'Activité | manuel (téléphone + projet EAS) |
+
+## 18. Argent réel et sécurité allergènes — T-PAY, T-ALL (3e passage)
+
+| ID | Scénario | Attendu | Auto |
+|---|---|---|---|
+| T-PAY-01 | Stripe confirme une précommande (webhook) | Une ligne dans `preorders`, un an de Premium | SQL |
+| T-PAY-02 | Stripe renvoie le même évènement | Compté une seule fois | SQL |
+| T-PAY-03 | Essai de 30 jours ouvert par l'équipe | Premium pendant l'essai ; créer un livre possible | SQL |
+| T-PAY-04 | Un utilisateur tente de s'offrir l'essai ou le paiement | Refusé | SQL |
+| T-PAY-05 | `npm run beta:report` | Section « Argent réel » : livres créés, exports, payé, payé après un export, délai jusqu'à la 1re recette, qui saisit | SQL |
+| T-PAY-06 | Signature Stripe : valide, corps modifié, mauvais secret, rejeu d'une heure, en-tête absent | Seule la valide passe | `deno task test` |
+| T-PAY-07 | Profil → Premium → « Précommander ma première année — 29 € » | Ouvre le lien Stripe avec le profil ; au retour, « Merci ! Premium jusqu'au … » | démo (paiement simulé) ; réel : manuel avec une carte de test Stripe |
+| T-ALL-01 | Signaler « Un allergène n'est pas indiqué » | La recette disparaît aussitôt pour tous ; l'autrice voit « Masquée par précaution » | SQL |
+| T-ALL-02 | Le modérateur classe le signalement | La recette réapparaît | SQL |
+| T-ALL-03 | Plus de 5 signalements « allergène » en 24 h par la même personne | Plus de masquage automatique pour elle | SQL |

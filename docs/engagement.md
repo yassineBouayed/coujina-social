@@ -29,7 +29,7 @@ On **continue** seulement si la bêta atteint ses seuils, écrits d'avance dans
 
 - au moins **8 sur 20** publient une recette ;
 - au moins **40 %** reviennent le lendemain ;
-- au moins **5 « oui »** au même prix pour le livre de famille ;
+- au moins **5 familles hors entourage qui ont payé** la précommande à 29 € (un « oui » ne compte plus) ;
 - moins d'**1 signalement** par testeur.
 
 Si deux seuils ou plus sont manqués : **on arrête** (ou on change d'idée), sans

@@ -12,8 +12,9 @@ reviennent, combien paieraient. Elle remplace aussi les estimations du
 > diaspora francophone, recrutés par une annonce de 200 € et un formulaire de
 > sélection — détail dans [recrutement-beta.md](recrutement-beta.md). Bêta du
 > **13/01 au 10/02/2027**, décision le **31/03/2027** ([engagement.md](engagement.md)).
-> Tous les testeurs ont le Premium (livre de famille) pendant la bêta ; la
-> question du prix mesure s'ils le paieraient.
+> Mis à jour après le 3e passage : 30 jours d'essai du livre de famille, puis
+> une **précommande payée** (29 €, un an, lien Stripe). On ne compte plus des
+> « oui », on compte des paiements.
 
 - **20 personnes** qui cuisinent au moins trois fois par semaine et publient déjà
   (Instagram, TikTok, groupe familial, blog) — c'est d'elles que dépend un
@@ -60,7 +61,8 @@ deux applications différentes.
 | Suivent quelqu'un | Customer | ≥ 12 sur 20 | Mieux mettre en avant « Des cuisiniers à suivre » |
 | Revenus le lendemain (J+1) | Skeptic | ≥ 40 % | Le problème est le produit, pas l'acquisition : ne rien dépenser en publicité |
 | Revenus la semaine suivante (J+7) | Skeptic | ≥ 25 % | Idem |
-| « Oui » à la question du prix | Tech Billionaire, Royalty, Customer | ≥ 5 « oui » à un même prix | Abandonner l'abonnement comme premier modèle ; regarder les marques |
+| Familles qui ont **payé** la précommande | Tech Billionaire, Customer | ≥ 5 familles hors entourage, dont au moins une après avoir exporté son livre | Abandonner l'abonnement comme premier modèle ; regarder les marques |
+| « Oui » à la question du prix (19 / 29 / 39 € par an) | — | indicatif : dit où le prix bascule | — |
 | Signalements | — | < 1 par testeur | Outil de modération avant toute ouverture publique |
 
 Les seuils sont des **propositions** pour décider vite, pas des normes du

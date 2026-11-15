@@ -60,7 +60,7 @@ do $$
 declare p int;
 begin
   select price_cents into p from price_survey_due();
-  if p not in (299, 399, 499) then raise exception 'T-MES-04 : prix inattendu %', p; end if;
+  if p not in (1900, 2900, 3900) then raise exception 'T-MES-04 : prix inattendu %', p; end if;
   perform answer_price_survey('maybe', 'le mode hors ligne');
   perform answer_price_survey('yes', 'changé d''avis');
   if (select answer from price_survey where profile_id = app_user_id()) <> 'maybe' then

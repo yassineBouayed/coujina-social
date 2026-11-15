@@ -79,6 +79,7 @@ export default function FamilyBook() {
       const details = (await Promise.all(recipes.map(async (fr) => ({ detail: await api.recipe(fr.recipe.id), note: fr.note }))))
         .filter((x): x is { detail: RecipeDetail; note: string } => !!x.detail);
       const html = bookHtml(book.name, details, credit);
+      void api.track('family_export');
       if (Platform.OS === 'web') {
         // Sur le web, expo-print ignore le HTML et imprime la page en cours :
         // on ouvre le livre dans sa propre fenêtre et on imprime celle-là.

@@ -113,6 +113,11 @@ export type Me = Person & {
   /** Consentement explicite aux interdits alimentaires (RGPD art. 9). */
   diet_consent: boolean;
   is_premium: boolean;
+  /** Fin de l'essai gratuit et de l'abonnement payé (ISO), null si aucun. */
+  trial_until: string | null;
+  premium_until: string | null;
+  /** A payé au moins une précommande. */
+  has_paid: boolean;
   is_moderator: boolean;
   notify: { copies: boolean; follows: boolean; challenge: boolean };
   cuisines: string[];
@@ -197,6 +202,9 @@ export interface Api {
   leaveFamily(bookId: string): Promise<void>;
   addToFamily(bookId: string, recipeId: string, note: string): Promise<void>;
   familyRecipes(bookId: string): Promise<FamilyRecipe[]>;
+
+  /** Précommander l'année : ouvre le paiement (Stripe) ; en démo, le simule. */
+  preorder(): Promise<'opened' | 'paid' | 'unavailable'>;
 }
 
 export type ModerationItem = {
@@ -230,7 +238,10 @@ export type Family = {
 };
 export type FamilyRecipe = { note: string; added_by_name: string; recipe: RecipeCard };
 
-export type EventName = 'app_open' | 'recipe_view' | 'video_play' | 'share_invite';
+export type EventName = 'app_open' | 'recipe_view' | 'video_play' | 'share_invite' | 'family_export' | 'premium_view';
+
+/** Le prix du livre de famille, à l'année et par famille (centimes). */
+export const PREMIUM_YEARLY_CENTS = 2900;
 export type PriceAnswer = 'yes' | 'maybe' | 'no';
 export type Challenge = { id: string; slug: string; title: string; description: string; cuisine: string | null };
 export type Suggestion = Person & { shared_cuisines: number; public_recipes: number };

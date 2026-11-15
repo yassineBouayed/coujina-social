@@ -71,7 +71,8 @@ export default function MyProfile() {
             () => router.push('/activity'),
             true,
           )}
-          {row(t('profile.family'), me.is_premium ? 'Premium' : '—', () => router.push('/family'))}
+          {row(t('profile.premium'), me.has_paid ? '✓' : t('premium.price'), () => router.push('/premium'))}
+          {row(t('profile.family'), '', () => router.push('/family'))}
           {me.is_moderator ? row(t('profile.moderation'), '', () => router.push('/moderation')) : null}
         </Card>
       </View>

@@ -85,6 +85,7 @@ function Gate() {
       <Stack.Screen name="family/index" />
       <Stack.Screen name="family/[id]" />
       <Stack.Screen name="moderation" />
+      <Stack.Screen name="premium" />
     </Stack>
   );
 }

@@ -30,15 +30,18 @@ begin
   end if;
 end $$;
 
-\echo '-- creer un livre demande l''abonnement'
+\echo '-- creer un livre demande l''abonnement (ou l''essai)'
+-- Tom n'est pas testeur : ni essai, ni abonnement.
+set local request.jwt.claims = '{"sub":"549f0e16-aa94-5b0d-aa2d-f8e6ae36d73b"}';
 do $$
 begin
   begin
-    perform family_create('Famille Benali');
-    raise exception 'T-FAM-03 : Amina, sans abonnement, a créé un livre';
+    perform family_create('Famille Petit');
+    raise exception 'T-FAM-03 : Tom, sans abonnement ni essai, a créé un livre';
   exception when insufficient_privilege then null;
   end;
 end $$;
+set local request.jwt.claims = '{"sub":"69e35bef-6695-5b4f-89f7-684f67bd404c"}';  -- amina
 
 \echo '-- rejoindre avec le code, ranger une de ses recettes, pas celle d''un autre'
 do $$
@@ -63,7 +66,7 @@ end $$;
 
 \echo '-- abonnement echu : lisible, plus d''ajout'
 reset role;
-update profiles set premium_until = now() - interval '1 day' where id = 'ed48de41-79b0-595b-a0cd-984366f827e6';
+update profiles set premium_until = now() - interval '1 day', trial_until = now() - interval '1 day' where id = 'ed48de41-79b0-595b-a0cd-984366f827e6';
 set local role authenticated;
 set local request.jwt.claims = '{"sub":"ed48de41-79b0-595b-a0cd-984366f827e6"}';  -- marie
 do $$

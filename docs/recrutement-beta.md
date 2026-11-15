@@ -50,10 +50,11 @@
 publient déjà, en mélangeant au moins 5 cuisines et en respectant à peu près la
 part iPhone / Android des candidats. Garder les suivants en liste d'attente.
 
-**Contrepartie** : leur nom dans les crédits de l'application et **un an de
-Premium offert** (posé en base : `update profiles set premium_until = '2028-01-13'`).
-Pendant la bêta, tous les testeurs ont le Premium, pour pouvoir essayer le livre
-de famille ; la question du prix mesure s'ils le **paieraient**.
+**Contrepartie** : leur nom dans les crédits de l'application. **Pas de Premium
+offert** (3e passage du panel : un « oui » gratuit ne prouve rien) : chaque
+testeur a **30 jours d'essai** (`select start_trial('<id>');`), puis l'app lui
+propose de **précommander sa première année à 29 €** (lien Stripe). Le rapport
+de bêta compte qui a payé, et qui a payé après avoir exporté son livre.
 
 ## Message d'invitation
 
@@ -62,4 +63,5 @@ de famille ; la question du prix mesure s'ils le **paieraient**.
 > créée, et où votre famille peut ranger ses recettes dans un livre privé. Le
 > test dure un mois, du 13 janvier au 10 février. Votre lien : {lien}. La seule
 > chose qu'on vous demande : l'utiliser comme vous en avez envie, et nous dire
-> franchement ce qui ne va pas. Un an de Premium vous est offert.
+> franchement ce qui ne va pas. Le livre de famille est à essayer gratuitement
+> pendant 30 jours.

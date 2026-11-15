@@ -36,6 +36,22 @@ Maghreb, d'Afrique de l'Ouest, du Levant, d'Asie du Sud, des Antilles),
    perdent. Le formulaire de recrutement pose la question (voir
    [recrutement-beta.md](recrutement-beta.md)).
 
+## Taille du marché — un plafond, pas une demande
+
+| Pays | Population concernée | Source |
+| --- | --- | --- |
+| France | 3,5 millions d'immigrés nés en Afrique (2023), dont 60 % au Maghreb (26 % Algérie, 25 % Maroc) | [Insee, Immigrés et descendants d'immigrés, éd. 2023](https://www.insee.fr/fr/statistiques/fichier/6793226/IMMFRA23-F2.pdf) |
+| France | 3,7 millions de descendants d'immigrés d'origine africaine (2024), 47 % des descendants | [Insee, 2024](https://www.insee.fr/fr/statistiques/8612512) |
+| Belgique | 2,54 millions de Belges d'origine étrangère au 1er janvier 2024 (21,6 %), 41,8 % à Bruxelles | Statbel, via [La Libre](https://www.lalibre.be/belgique/societe/2026/06/11/un-tiers-de-la-population-belge-est-dorigine-etrangere-C5ISDFWWMRHQFE7KWVOVOJGSLI/) et [Myria](https://myria.be/files/2024_MYRIA_Population_et_mouvements.pdf) |
+
+**Ce que ces chiffres disent** : quelque 7 millions de personnes d'origine
+africaine en France seulement — sans compter les cuisines du Levant, d'Asie du
+Sud et des Antilles, que ces tableaux ne couvrent pas, ni le détail belge par
+région d'origine (non trouvé). **Ce qu'ils ne disent pas** : combien de familles
+veulent sauver leurs recettes et paieraient pour ça. Aucune statistique publique
+ne le mesure ; c'est la question n° 7 du formulaire de recrutement, et la
+précommande de la bêta, qui le diront.
+
 ## Le risque principal
 
 Un géant n'a pas besoin de copier couJina pour le tuer : il lui suffit d'être

@@ -4,6 +4,7 @@
  * testée ; ce fichier ne fait que traduire les lignes en types de l'écran.
  */
 import type { SupabaseClient } from '@supabase/supabase-js';
+import * as WebBrowser from 'expo-web-browser';
 
 import type {
   Activity, Api, Challenge, Family, FamilyRecipe, ModerationItem, OpsWeek, Country, Cuisine, Flag, Me, Person, Profile, Ranked, RecipeCard, RecipeDetail, Suggestion, Visibility,
@@ -77,7 +78,10 @@ export function createSupabaseApi(sb: SupabaseClient, userId: string, lang: Lang
         analytics_opt_out: !!p.analytics_opt_out,
         terms_version: p.terms_version ?? null,
         diet_consent: !!p.diet_consent_at,
-        is_premium: !!p.premium_until && Date.parse(p.premium_until) > Date.now(),
+        is_premium: [p.premium_until, p.trial_until].some((d: string | null) => !!d && Date.parse(d) > Date.now()),
+        trial_until: p.trial_until ?? null,
+        premium_until: p.premium_until ?? null,
+        has_paid: ((check(await sb.from('preorders').select('id').limit(1)) as Row[]) ?? []).length > 0,
         is_moderator: !!p.is_moderator,
         notify: { copies: p.notify_copies !== false, follows: p.notify_follows !== false, challenge: p.notify_challenge !== false },
         cuisines: ((check(cuisines) as Row[]) ?? []).map((r) => r.cuisine_slug),
@@ -285,6 +289,15 @@ export function createSupabaseApi(sb: SupabaseClient, userId: string, lang: Lang
     addToFamily: async (bookId, recipeId, note) => {
       check(await sb.rpc('family_add_recipe', { p_book: bookId, p_recipe: recipeId, p_note: note }));
     },
+    preorder: async () => {
+      const link = process.env.EXPO_PUBLIC_STRIPE_PAYMENT_LINK ?? '';
+      if (!link) return 'unavailable';
+      // Le profil voyage avec le paiement : c'est lui que stripe-webhook crédite.
+      const url = `${link}${link.includes('?') ? '&' : '?'}client_reference_id=${encodeURIComponent(userId)}`;
+      await WebBrowser.openBrowserAsync(url);
+      return 'opened';
+    },
+
     familyRecipes: async (bookId): Promise<FamilyRecipe[]> =>
       ((check(await sb.rpc('family_book_recipes', { p_book: bookId })) as Row[]) ?? []).map((r) => ({
         note: r.note ?? '', added_by_name: r.added_by_name ?? '', recipe: cardFrom(r.recipe, lang),

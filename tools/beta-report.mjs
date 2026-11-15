@@ -26,6 +26,12 @@ try {
   const width = Math.max(...rows.map((r) => r.metric.length));
   console.log(`Bêta couJina — ${new Date().toLocaleDateString('fr-FR')}\n`);
   for (const r of rows) console.log(`${r.metric.padEnd(width)}  ${r.value}${r.detail ? `   (${r.detail})` : ''}`);
+
+  // L'argent réel : la preuve demandée par le panel (3e passage).
+  const money = (await client.query('select metric, value, detail from beta_money_metrics()')).rows;
+  const w2 = Math.max(...money.map((r) => r.metric.length));
+  console.log('\nArgent réel\n');
+  for (const r of money) console.log(`${r.metric.padEnd(w2)}  ${r.value}${r.detail ? `   (${r.detail})` : ''}`);
 } finally {
   await client.end();
 }
